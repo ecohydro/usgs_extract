@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/workspace.schema.json
+name: waves_test
+display_name: waves-workspace
+description: A workspace for testing detectron2 models for table detection
+tags:
+  purpose: testing
