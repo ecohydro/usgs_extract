@@ -151,3 +151,13 @@ checklink/cookies.txt
 .quarto
 
 /.quarto/
+
+*.sh
+
+*.err
+*.out
+*.Rout
+
+*.pdf
+
+*.csv
