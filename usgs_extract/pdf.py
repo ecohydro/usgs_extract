@@ -29,8 +29,7 @@ class PDF():
     def __repr__(self):
         return f"PDF({self.pdf_path})"
 
-# %% ../02_pdf.ipynb 7
-@patch
+
 def to_images(self:PDF, # PDF object
             start_page:int=None, # Set to None to convert all pages
             end_page:int=None, # Set to None to convert all pages
