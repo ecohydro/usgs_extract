@@ -135,8 +135,8 @@ class PDF():
         return self._image_paths
 
 if __name__ == "__main__":
-    pdf_dir = "/home/waves/data/usgs_extract/validation_test/pdfs"
-    output_path = "/home/waves/data/usgs_extract/validation_test/images"
+    pdf_dir = "/home/waves/data/usgs_extract/Cali_pdf_extended"
+    output_path = "/home/waves/data/usgs_extract/cal_images_extended"
     all_pdf_files = [os.path.join(pdf_dir, f) for f in os.listdir(pdf_dir) if f.endswith(".pdf")]
     for path in all_pdf_files:
         try:

@@ -35,9 +35,9 @@ def download_file(url, folder_path, id):
 
 if __name__ == "__main__":
 
-    download_folder = "/home/waves/data/usgs_extract/validation_test/pdfs"
+    download_folder = "/home/waves/data/usgs_extract/Cali_pdf_extended"
     classurl = "usa-link Document"
-    url_csv = "/home/waves/data/usgs_extract/validation_test/valiSet.csv"
+    url_csv = "/home/waves/data/usgs_extract/csvs/cali1980.csv"
     data = pd.read_csv(url_csv)
 
     urls = data["URL"]

@@ -12,11 +12,6 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.patches import Patch
 
-cali_csv = "/home/waves/data/usgs_extract/csvs/cali.csv"
-pdf_dir = "/home/waves/data/usgs_extract/raw_pdf"
-output_path = "/home/waves/data/usgs_extract/validation_test/images"
-table_path = "/home/waves/data/usgs_extract/validation_test/tablesBbox"
-
 # def fig2img(fig):
 #     """Convert a Matplotlib figure to a PIL Image and return it"""
 #     import io
@@ -188,7 +183,7 @@ def outputs_to_objects(outputs, img_size, id2label):
 
     return objects
 
-def runModel(files):
+def runModel(files, table_path):
     file_path = []
     score_list = []
     for path in files:
@@ -200,13 +195,18 @@ def runModel(files):
         objects = outputs_to_objects(outputs, image.size, id2label)
         file_path.append(path)
         score_list.append(objects)
+        print(f"{path} detection complete")
     data = pd.DataFrame({"file_path":file_path, "score": score_list})
-    data.to_csv(os.path.join(table_path, "results.csv"), index=False)
+    data.to_csv(os.path.join(table_path, "cali_1970_results.csv"), index=False)
     return data
     
 if __name__ == "__main__":
+
+    output_path = "/home/waves/data/usgs_extract/cali_images"
+    table_path = "/home/waves/data/usgs_extract/csvs"
+
     try:
         files = [os.path.join(output_path, f) for f in os.listdir(output_path) if f.endswith(".png")]
-        runModel(files)
+        runModel(files, table_path)
     except Exception as e:
         print(f"An error occurred: {e}")
