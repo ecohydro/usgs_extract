@@ -1,0 +1,29 @@
+```json
+{
+    "Watersource_Name": "Sawpit Creek near Monrovia",
+    "County": "Los Angeles",
+    "Location": "near Monrovia, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily and Monthly",
+    "Units_Of_Measurement": {
+        "Discharge": "second-feet",
+        "Run-off": "acre-feet"
+    },
+    "Latitude": 34.1379,
+    "Longitude": -117.9995,
+    "Dates_of_Recording": "10/01/1925-09/30/1926",
+    "Water_Type": "Stream discharge"
+}
+```
+
+### Explanation:
+
+1. **Watersource_Name**: The name is derived from the document: "Sawpit Creek near Monrovia".
+2. **County**: Sawpit Creek is located in Los Angeles County, California.
+3. **Location**: Document specifies "near Monrovia, Calif."
+4. **Townships_Ranges_Sections**: Not provided in the document, hence an empty list.
+5. **Temporal_Resolution**: Measurements are taken daily and monthly as indicated by tables for both daily discharge and monthly summaries.
+6. **Units_Of_Measurement**: Discharge is measured in "second-feet" and run-off in "acre-feet".
+7. **Latitude & Longitude**: Approximate coordinates for Monrovia, CA: 34.1379 N, -117.9995 W.
+8. **Dates_of_Recording**: Data spans from October 1, 1925, to September 30, 1926.
+9. **Water_Type**: The type is "Stream discharge" as the data concerns stream flow measurements.

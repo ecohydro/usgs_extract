@@ -1,0 +1,23 @@
+```json
+[
+    {
+        "Watersource_Name": "North Fork of Feather River near Big Bend, Cal.",
+        "County": "Plumas County",
+        "Location": "Near Big Bend in Plumas County, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet",
+            "Runoff_Per_Square_Mile": "per square mile",
+            "Depth_Inches_Drainage_Area": "inches on drainage area",
+            "Total_Runoff": "acre-feet"
+        },
+        "Latitude": 40.2833,
+        "Longitude": -121.0833,
+        "Dates_of_Recording": "07/13/1905-12/31/1908",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+**Note:** The geographical coordinates for latitude and longitude are approximate values based on the location description near Big Bend in Plumas County. If more precise geospatial data is needed, a specific source or tool should be used to obtain those details.

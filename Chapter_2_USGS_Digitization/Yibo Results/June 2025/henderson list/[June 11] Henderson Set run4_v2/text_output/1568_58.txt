@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Plunge Creek",
+        "County": "San Bernardino County",
+        "Location": "Near East Highlands, Calif.",
+        "Townships_Ranges_Sections": ["T. 1 S., R. 4 W., sec. 21"],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "Second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "10/01/1925-09/30/1926",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Warm Creek",
+        "County": "San Bernardino County",
+        "Location": "Near Colton, Calif.",
+        "Townships_Ranges_Sections": ["T. 1 S., R. 4 W., sec. 21"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": null,
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "08/07/1920-09/30/1925",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

@@ -1,0 +1,28 @@
+```json
+{
+    "Watersource_Name": "Middle Fork Eel River Below Black Butte River",
+    "County": "Mendocino County",
+    "Location": "At gaging station, 0.2 mile downstream from Black Butte River and 8.6 miles east of Covelo, Mendocino County.",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "Degrees Fahrenheit (°F)",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 39.3667, // Inferred based on the location near Covelo, CA
+    "Inferred_Longitude": -123.0667, // Inferred based on the location near Covelo, CA
+    "Dates_of_Recording": "10/1962-09/1963",
+    "Water_Type": "Stream Discharge"
+}
+```
+
+**Explanation:**
+- **Watersource_Name:** Derived from the document title.
+- **County:** Mentioned in the location description.
+- **Location:** Detailed in the document.
+- **Townships_Ranges_Sections:** Not provided, hence an empty list.
+- **Temporal_Resolution:** Data is recorded daily as inferred from the table structure.
+- **Units_Of_Measurement:** Temperatures are given in degrees Fahrenheit (°F).
+- **Actual_Latitude/Longitude:** Not provided in the document; inference was used.
+- **Inferred_Latitude/Longitude:** Based on geographical knowledge of Covelo, CA.
+- **Dates_of_Recording:** Span from October 1962 to September 1963 as per the document.
+- **Water_Type:** The context suggests "Stream Discharge" due to temperature monitoring and location description.

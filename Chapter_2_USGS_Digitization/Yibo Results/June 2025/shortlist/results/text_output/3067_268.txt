@@ -1,0 +1,21 @@
+```json
+{
+    "Watersource_Name": "San Joaquin River at Miller Crossing",
+    "County": "Madera County",
+    "Location": {
+        "Latitude": 37.509722,
+        "Longitude": -119.197222,
+        "Description": "NEt sec. 11, T. 5 S., R. 25 E., on right bank 2.4 miles downstream from North Fork San Joaquin River"
+    },
+    "Townships_Ranges_Sections": ["T. 5 S., R. 25 E., NEt sec. 11"],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second (cfs)",
+        "Gage Height": "feet"
+    },
+    "Latitude": 37.509722,
+    "Longitude": -119.197222,
+    "Dates_of_Recording": "10/1921-07/1928, 10/1951-09/1956",
+    "Water_Type": "Stream discharge"
+}
+```

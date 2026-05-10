@@ -1,0 +1,34 @@
+```json
+[
+    {
+        "Watersource_Name": "Pit River at Fall River Mills",
+        "County": "Shasta County",
+        "Location": "Fall River Mills, Calif.",
+        "Townships_Ranges_Sections": ["T. 36 N., R. 2 E., sec. 9"],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet",
+            "Run-off": "acre-feet"
+        },
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "10/01/1925-09/30/1926",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Pit River at Lindsay Flat",
+        "County": "Shasta County",
+        "Location": "Half a mile above Lindsay Flat, 3 miles below mouth of Rock Creek and 11 miles below Pecks Bridge",
+        "Townships_Ranges_Sections": ["T. 36 N., R. 2 E., sec. 9"],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Stage": "feet",
+            "Discharge": "second-feet"
+        },
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "11/01/1922-09/30/1925",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

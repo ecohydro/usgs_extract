@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Bear River at Van Trent",
+        "County": "",
+        "Location": "",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "second-feet, acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "10/01/1914-09/30/1915",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "North Fork of American River near Colfax",
+        "County": "",
+        "Location": "SW. 1/4 sec. 30, T. 14 N., R. 10 E.",
+        "Townships_Ranges_Sections": ["T. 14 N., R. 10 E."],
+        "Temporal_Resolution": "Varied",
+        "Units_Of_Measurement": "feet, second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "08/16/1911-09/30/1914",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

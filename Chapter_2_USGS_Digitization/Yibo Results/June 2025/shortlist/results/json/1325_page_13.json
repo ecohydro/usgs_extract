@@ -1,0 +1,110 @@
+{
+    "job_id": "e47026e3-d33c-401f-abd6-ae7f052fe188",
+    "duration": 5.146332263946533,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/7419a2d4-e800-4326-b7a0-05cff5285236?AWSAccessKeyId=ASIA2UOK6OVBJLLACVHY&Signature=wDCssNqBhoIyGZM1nTjgbNPSc8Y%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEPAsEkF0WgCqTF8qZOkbZWFKuuumlm%2BRHjUThZqwZVOAiEAhBvsnjibtqedEYer9xHr0kS7CH0Hd9dyE1M5ZTQY5%2BkqiwUIdRAAGgw3MzExMDY5MzIwMzQiDC4zaSqwhpSYc4dxlSroBPzSg0dUvLRFuvjRLyU3O7%2BZkQppPp%2BESsXDxtHTxqFEX62JJl5wjWy%2By6KCGzEU5fHn9ijmytZQViu58sbcpylSoDFLxz%2BGra3l%2BNuOlmogDRtiroBEwdWE5050w0YQO8hjuUWXXXwAbLncYm7D7YthGuHp00EydMxdU3LYmoMU0GthJygRUaDmbIzIjCeRWvrQa14LvPIQSx1tW0UyPZT1mrXi%2BKL7%2Br9K%2FFGAwQ09xFN%2B5Z8LW%2FAewZ2F1QDCVg6a6k%2BqBOzecSjoZvwUibN9nUN25JZfs%2B%2Bap7kRL2Om5X1syu1DxthfSFDU75LsaLqnPJreS3fcr3%2B7jiGT7pK9hBnISps0SGvVTObmYWktazWr0zgs%2FqefIoe%2BAVgsIwE5NJrU1DjPkdK2B5wDwlDYMeyri37pFuCIMoEtbE%2FYZtSWimzOuzwIForIAHGjIFlNiQFPTuM4rncGEjgIXlbkMaRTOivfB0IKXBBsbPkEGiMNBVzzsEUGb6K%2F3J2975SVVctHM%2BwMfNUqMdwMHvtqCdQ2GR%2F6%2FKf1ZVCFBzUnip0ZfAxPzttfYdEnAHzJNaswdT0cyCrvwZZxlux6f5%2BJO9v5mqHQ00kDCc938G8X5EBme02HqGHHXVypMr0tRKwodzQRQA%2FLpGozp9m0BxgpgOVkrE5lxcRH5%2BUdW33lV1V7Fau8chCkSNzHHPm%2F7uydPp3e3UxQZ8jG4HOMf1TQ29ctRS9aUzpRBiC95lUx9A4unwjrKOR1EEeLTxhQH8Ma97wPY1zKTVCQAytC%2B8xfO99OxRfUefn1SGe4Hq1dIMOqHqUSSNYwjMymugY6mwFW42RwCuNN6jnkKOAk1PmyNG3DP%2FxuY6uBsE4Lb%2BOTwGd%2FabIZy4RuGaGLUgXfbJOXcLx%2Fg%2FGGaOA5TyQV1KquxAmAo028Bi6ZZc1Xljg3NULjjvewx9G0Kh8IJrhHY8j9eS9fCRahmo8iDGaQtFSMfN8lhFZyXcNTroFwWrdUfJDK9yvWbeXYCF8tz8LLFluffP2KRjPwrUK29w%3D%3D&Expires=1732884463",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "CONTRIBUTIONS TO THE HYDROLOGY OF THE UNITED STATES\n\nTABLE 4.-Stratigraphic Units of the Point Arguello Naval Missile Facility-Con.",
+                "embed": "CONTRIBUTIONS TO THE HYDROLOGY OF THE UNITED STATES\n\nTABLE 4.-Stratigraphic Units of the Point Arguello Naval Missile Facility-Con.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11413043478260869,
+                            "top": 0.048817123544874205,
+                            "width": 0.03683574879227053,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "F8",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2071256038647343,
+                            "top": 0.05257228689447991,
+                            "width": 0.7065217391304348,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "CONTRIBUTIONS TO THE HYDROLOGY OF THE UNITED STATES",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11413043478260869,
+                            "top": 0.08298911002628614,
+                            "width": 0.8001207729468599,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "TABLE 4.-Stratigraphic Units of the Point Arguello Naval Missile Facility-Con.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th></th><th>Geologic\nage</th><th>Stratigraphic unit</th><th>Thick-\nness (ft)</th><th>Lithologic character</th><th>Water-bearing\nproperties</th></tr><tr><td rowspan=\"5\">Tertiary-\nContinued</td><td></td><td>Vaqueros\nformation</td><td>300</td><td>Sandstone and con-\nglomerate.</td><td>Consolidated; possibly\nwould yield small\namounts of water to\nwells.</td></tr><tr><td>Oligocene\nand\nEocene</td><td>Unconformity\nGaviota formation\nof Effinger (1935)\nand\nSacate formation\nof Kelley (1943)</td><td>2, 600</td><td>Interbedded sand-\nstone and shale and\nminor conglomerate\nbeds.</td><td>Consolidated; thick\nsandstone units\nmight yield some\nwater to wells.</td></tr><tr><td rowspan=\"3\">Eocene</td><td>Cozy Dell shale\nmember (Kerr and\nSchenck, 1928) of\nTejon formation</td><td>700</td><td>Gray and brown clay\nshale.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Matilija sandstone\nmember (Kerr and\nSchenck, 1928) of\nTejon formation</td><td>000</td><td>Thick bedded bluish-\nwhite sandstone\nand minor shale\nand conglomerate.</td><td>Consolidated; locally\nyields water in small\nquantities to wells\nsouth and east of\nthe Missile Facility.</td></tr><tr><td rowspan=\"3\">Anita shale of\nKelley (1943)\n\nUnconformity\nEspada formation\nof Dibblee (1950)\nUnconformity\nHonda formation\nof Dibblee (1950)</td><td>1, 000</td><td>Dark gray clay shale\nand minor beds of\ngreenish-brown mi-\ncaceous sandstone.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Jurassic and\nCretaceous</td><td></td><td>4, 000</td><td>Dark greenish-brown\nsilty shale and thin\nbeds of sandstone.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td rowspan=\"2\">Jurassic(?)</td><td rowspan=\"2\"></td><td>1, 500</td><td>Dark greenish-brown\nclay shale, thin beds\nof sandstone, and\nnodules of calcar-\neous concretions.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Franciscan forma-\ntion (as used by\nDibblee, 1950)</td><td>?</td><td>Dark greenish-gray\ncoarse-grained ser-\npentinized\npyroxenite.</td><td>Consolidated; may\ncontain some water\nin fractures.</td></tr></table>",
+                "embed": "<table><tr><th></th><th>Geologic\nage</th><th>Stratigraphic unit</th><th>Thick-\nness (ft)</th><th>Lithologic character</th><th>Water-bearing\nproperties</th></tr><tr><td rowspan=\"5\">Tertiary-\nContinued</td><td></td><td>Vaqueros\nformation</td><td>300</td><td>Sandstone and con-\nglomerate.</td><td>Consolidated; possibly\nwould yield small\namounts of water to\nwells.</td></tr><tr><td>Oligocene\nand\nEocene</td><td>Unconformity\nGaviota formation\nof Effinger (1935)\nand\nSacate formation\nof Kelley (1943)</td><td>2, 600</td><td>Interbedded sand-\nstone and shale and\nminor conglomerate\nbeds.</td><td>Consolidated; thick\nsandstone units\nmight yield some\nwater to wells.</td></tr><tr><td rowspan=\"3\">Eocene</td><td>Cozy Dell shale\nmember (Kerr and\nSchenck, 1928) of\nTejon formation</td><td>700</td><td>Gray and brown clay\nshale.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Matilija sandstone\nmember (Kerr and\nSchenck, 1928) of\nTejon formation</td><td>000</td><td>Thick bedded bluish-\nwhite sandstone\nand minor shale\nand conglomerate.</td><td>Consolidated; locally\nyields water in small\nquantities to wells\nsouth and east of\nthe Missile Facility.</td></tr><tr><td rowspan=\"3\">Anita shale of\nKelley (1943)\n\nUnconformity\nEspada formation\nof Dibblee (1950)\nUnconformity\nHonda formation\nof Dibblee (1950)</td><td>1, 000</td><td>Dark gray clay shale\nand minor beds of\ngreenish-brown mi-\ncaceous sandstone.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Jurassic and\nCretaceous</td><td></td><td>4, 000</td><td>Dark greenish-brown\nsilty shale and thin\nbeds of sandstone.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td rowspan=\"2\">Jurassic(?)</td><td rowspan=\"2\"></td><td>1, 500</td><td>Dark greenish-brown\nclay shale, thin beds\nof sandstone, and\nnodules of calcar-\neous concretions.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Franciscan forma-\ntion (as used by\nDibblee, 1950)</td><td>?</td><td>Dark greenish-gray\ncoarse-grained ser-\npentinized\npyroxenite.</td><td>Consolidated; may\ncontain some water\nin fractures.</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11199397395774362,
+                            "top": 0.10273117541013425,
+                            "width": 0.8088053182703285,
+                            "height": 0.4487275350286331,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Geologic\nage</th><th>Stratigraphic unit</th><th>Thick-\nness (ft)</th><th>Lithologic character</th><th>Water-bearing\nproperties</th></tr><tr><td rowspan=\"5\">Tertiary-\nContinued</td><td></td><td>Vaqueros\nformation</td><td>300</td><td>Sandstone and con-\nglomerate.</td><td>Consolidated; possibly\nwould yield small\namounts of water to\nwells.</td></tr><tr><td>Oligocene\nand\nEocene</td><td>Unconformity\nGaviota formation\nof Effinger (1935)\nand\nSacate formation\nof Kelley (1943)</td><td>2, 600</td><td>Interbedded sand-\nstone and shale and\nminor conglomerate\nbeds.</td><td>Consolidated; thick\nsandstone units\nmight yield some\nwater to wells.</td></tr><tr><td rowspan=\"3\">Eocene</td><td>Cozy Dell shale\nmember (Kerr and\nSchenck, 1928) of\nTejon formation</td><td>700</td><td>Gray and brown clay\nshale.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Matilija sandstone\nmember (Kerr and\nSchenck, 1928) of\nTejon formation</td><td>000</td><td>Thick bedded bluish-\nwhite sandstone\nand minor shale\nand conglomerate.</td><td>Consolidated; locally\nyields water in small\nquantities to wells\nsouth and east of\nthe Missile Facility.</td></tr><tr><td rowspan=\"3\">Anita shale of\nKelley (1943)\n\nUnconformity\nEspada formation\nof Dibblee (1950)\nUnconformity\nHonda formation\nof Dibblee (1950)</td><td>1, 000</td><td>Dark gray clay shale\nand minor beds of\ngreenish-brown mi-\ncaceous sandstone.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Jurassic and\nCretaceous</td><td></td><td>4, 000</td><td>Dark greenish-brown\nsilty shale and thin\nbeds of sandstone.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td rowspan=\"2\">Jurassic(?)</td><td rowspan=\"2\"></td><td>1, 500</td><td>Dark greenish-brown\nclay shale, thin beds\nof sandstone, and\nnodules of calcar-\neous concretions.</td><td>Consolidated; would\nnot yield water to\nwells.</td></tr><tr><td>Franciscan forma-\ntion (as used by\nDibblee, 1950)</td><td>?</td><td>Dark greenish-gray\ncoarse-grained ser-\npentinized\npyroxenite.</td><td>Consolidated; may\ncontain some water\nin fractures.</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "## CONSOLIDATED ROCKS (JURASSIC TO PLIOCENE)\n\nThe consolidated rocks exposed on the missile facility are predom- inantly of marine origin and range in age from Jurassic to Pliocene They include all rocks older than the Careaga sand, and consist of a series of sandstone and shale units distributed throughout the southern half of the missile facility; volcanic rocks occur in the series near Tran- quillon Mountain. Several springs in the area yield small amounts of water from the consolidated rocks, generally less than about 20 gpm (gallons per minute). Locally, sandstone, volcanic rocks, and brittle siliceous shale may yield small quantities of water from frac- tures or other openings. The most likely sources of small supplies of water from the consolidated rocks are fractures or other openings in the following formations: the Franciscan, the Matilija sandstone member (Kerr and Schenck, 1928) of the Tejon, the Sacate (Kelley, 1943), Gaviota (Effinger, 1935), and Vaqueros formations, the Tran- quillon volcanics of Dibblee (1950), and the Monterey shale. The remainder of the consolidated rocks probably would not yield water to wells.",
+                "embed": "## CONSOLIDATED ROCKS (JURASSIC TO PLIOCENE)\n\nThe consolidated rocks exposed on the missile facility are predom- inantly of marine origin and range in age from Jurassic to Pliocene They include all rocks older than the Careaga sand, and consist of a series of sandstone and shale units distributed throughout the southern half of the missile facility; volcanic rocks occur in the series near Tran- quillon Mountain. Several springs in the area yield small amounts of water from the consolidated rocks, generally less than about 20 gpm (gallons per minute). Locally, sandstone, volcanic rocks, and brittle siliceous shale may yield small quantities of water from frac- tures or other openings. The most likely sources of small supplies of water from the consolidated rocks are fractures or other openings in the following formations: the Franciscan, the Matilija sandstone member (Kerr and Schenck, 1928) of the Tejon, the Sacate (Kelley, 1943), Gaviota (Effinger, 1935), and Vaqueros formations, the Tran- quillon volcanics of Dibblee (1950), and the Monterey shale. The remainder of the consolidated rocks probably would not yield water to wells.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2113526570048309,
+                            "top": 0.573037927149831,
+                            "width": 0.6002415458937198,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "CONSOLIDATED ROCKS (JURASSIC TO PLIOCENE)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11231884057971014,
+                            "top": 0.5963199399173864,
+                            "width": 0.802536231884058,
+                            "height": 0.31430717236199773,
+                            "page": 1
+                        },
+                        "content": "The consolidated rocks exposed on the missile facility are predom- inantly of marine origin and range in age from Jurassic to Pliocene They include all rocks older than the Careaga sand, and consist of a series of sandstone and shale units distributed throughout the southern half of the missile facility; volcanic rocks occur in the series near Tran- quillon Mountain. Several springs in the area yield small amounts of water from the consolidated rocks, generally less than about 20 gpm (gallons per minute). Locally, sandstone, volcanic rocks, and brittle siliceous shale may yield small quantities of water from frac- tures or other openings. The most likely sources of small supplies of water from the consolidated rocks are fractures or other openings in the following formations: the Franciscan, the Matilija sandstone member (Kerr and Schenck, 1928) of the Tejon, the Sacate (Kelley, 1943), Gaviota (Effinger, 1935), and Vaqueros formations, the Tran- quillon volcanics of Dibblee (1950), and the Monterey shale. The remainder of the consolidated rocks probably would not yield water to wells.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

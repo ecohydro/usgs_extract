@@ -1,0 +1,46 @@
+{
+    "job_id": "8bd39f6d-111c-4882-877c-dbe12ad62f7f",
+    "duration": 2.464353322982788,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5272f495-a3c5-4d10-bce1-f3dc4baa287e?AWSAccessKeyId=ASIA2UOK6OVBHV3FPAFR&Signature=ZjjmEbfSv1m1lQusOpqo1j4cLKM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCICsOOeOnSInCrV2kQ8%2B%2BHrzIStQQ1yKmEg6GT%2Fu0FqPCAiAhFqOMUu%2BHrFUvBfklEPnsBKNMnna4TkTEfpjEaE8BIyqLBQghEAAaDDczMTEwNjkzMjAzNCIMVIEtXlJBg%2Biq4JwpKugElN%2BsPjC3H24BKkV2zCAVUV9Jw4o4HGf7sbnQWZFqkvpb8DKOIg5RP0yvfeLVRen3X9vdOtzsuaHQ6EEvAMi8GZdgeQKxLwpV3Tj%2F3cDc04MglSJ%2F4Cd3U59eQk6zt58pdnTR2TbUM0vaOOgsZUki3qW4oFJN3NwfzmvWexfFXhYtL0SEXpHKFq71Fmsd2chc0oUVyzdtLfO7UQOQ19bmh3jhbhkWDJTdqn9lZCbfdwa0jpDprzCNXX7SBkfTXidU06qqvysvXIetfZGldjm5yzQnEQM8citzMzTsNHk4YMzjReMsjqweBVcamW%2FCluHTLxXdRsOlG9qj%2FjzBz%2BA8vd4LBYfh1uFD%2BHEY3jMOtQx0Ai%2BO7mmG60bMMZWxeDsZdSPLi%2BmC6nc%2F8yEaqHWmpQ4jgJZ5gwHr9J%2B5wJZcYOAvzgn5KHNrOAH0oykf%2FKS9XrTvjGg144fla%2B6VL6kQP9eYpWq7FStjkUgKBhBXlGhUY0QMxOLawatjBwG9wdO7865roPf53xEpGLVi6lmiFlp5LkH5%2Fl%2BuZJQAYmHiGWAfDe2ZUxdbK58J%2F%2FiyGSnuXZUM%2Bcmqlmr8L8prx5ueQSh0n9CTvNAFhNx74vuGppcRefpu%2ByA7YlA7K1YY5L%2B9EthxK42EJC2GUdkZsqxe%2FIxCaCEHxKzJuf6PLcBAxeezZgaevb%2BnWJC5lRpJXO5tsFCLTC%2Fp6R16hBNAb5XO7bTcWzUxxl5OEYLhLmscYqR%2B%2BmECYy3i%2B1%2BpUW7b2bmc%2B8L34SXsaBqQThv30iC9EKlldMckE5L1kEjwXgXeBN0ZmCVo2u4zGzDC8si6BjqcARF7KyjdrAIdsCiMchjfp6w3KC4%2Bua1cYgynKFVfL6aEp%2F6ONmEKfGTeC5Q7m5lv60KDOjGSUY3n3NryjX7aioatzN9WaXEnSeBK40moQgSIsWQ2OttNsGV7VrkJbd56dRGdJme0kZZxJp1TqEVaZFwQd8cpsmzer%2BwArO7YT5QjvbJwAhQhe9cDW2OKZbZYIpDXepAum53eeKaovQ%3D%3D&Expires=1733447101",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "UNITED STATES DEPARTMENT OF THE INTERIOR\n\nSTEWART L. UDALL, Secretary\n\nGEOLOGICAL SURVEY\n\nWilliam T. Pecora, Director\n\nFor sale by the Superintendent of Documents, U.S. Government Printing Office Washington, D.C. 20402",
+                "embed": "UNITED STATES DEPARTMENT OF THE INTERIOR\n\nSTEWART L. UDALL, Secretary\n\nGEOLOGICAL SURVEY\n\nWilliam T. Pecora, Director\n\nFor sale by the Superintendent of Documents, U.S. Government Printing Office Washington, D.C. 20402",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.30160550458715596,
+                            "top": 0.3196090047393365,
+                            "width": 0.4518348623853211,
+                            "height": 0.10159952606635071,
+                            "page": 1
+                        },
+                        "content": "UNITED STATES DEPARTMENT OF THE INTERIOR\n\nSTEWART L. UDALL, Secretary\n\nGEOLOGICAL SURVEY\n\nWilliam T. Pecora, Director",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.26605504587155965,
+                            "top": 0.831457345971564,
+                            "width": 0.5122324159021406,
+                            "height": 0.02754739336492891,
+                            "page": 1
+                        },
+                        "content": "For sale by the Superintendent of Documents, U.S. Government Printing Office Washington, D.C. 20402",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

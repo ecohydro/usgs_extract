@@ -1,0 +1,19 @@
+```json
+{
+    "Watersource_Name": "Los Gatos Creek",
+    "County": "Tulare County",
+    "Location": "Left bank 1.1 miles upstream from Nunez Canyon, 3.0 miles downstream from White Creek and 8 miles northwest of Coalinga",
+    "Townships_Ranges_Sections": ["SW1 and SE1 of sec. 5, T. 20 S., R. 14 E."],
+    "Temporal_Resolution": "Daily measurements for October 1949 to September 1956",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second (cfs)",
+        "Gage_Height": "feet",
+        "Drainage_Area": "square miles (sq mi)",
+        "Average_Discharge_Years": "acre-feet per year"
+    },
+    "Latitude": 36.2152777778,
+    "Longitude": -120.4694444444,
+    "Dates_of_Recording": "10/01/1949-09/30/1956",
+    "Water_Type": "Stream discharge"
+}
+```

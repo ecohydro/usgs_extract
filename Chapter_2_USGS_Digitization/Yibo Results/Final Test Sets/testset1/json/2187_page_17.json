@@ -1,0 +1,178 @@
+{
+    "job_id": "58d3c1c3-deb4-483e-b0dd-f099719b5a42",
+    "duration": 8.908148765563965,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/8f8ee4b1-d7ba-4bc9-a9b5-f7e80a7884e0?AWSAccessKeyId=ASIA2UOK6OVBGM3B2CQO&Signature=YCeMWEQqBabCSRGuixjRoRME%2FiQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJIMEYCIQDwpY4aaPkbqMnWLlDqwAcO1mwVj1pP5ATbleA7Sshj7QIhALb3A1BEoScvEyDLrQBNSrtTW8dnGNADlj%2BCAR8nPDGIKosFCCAQABoMNzMxMTA2OTMyMDM0Igw6%2BoZsfE5M9WRjeNgq6AS4CHbKC2ef0%2BNB0K8tGfkIdln0PXfKSR%2FxJILj%2F5AAG5mpL571RZKXvSA0psqphlqlHsxOmerYWkZQpK6txOhxTn02IcNkX8tlqjxyNvg%2Fg%2BzNXXi6YEJ9Wo6LROplspPKhmUbu%2FNhNpt4ccHSYskXe9wciiPcpP%2BKgoOR%2FO%2FlzRYM7A1kssZHdlCyoirwm0XRqLPccr0ls%2Fagx4wsNO7yDqswMYRnQ81L3s3mzvz8oT2sxr43LqCkXyvI0qxcAOq%2FxjmEeNHoC%2Bt2%2F%2BCDcJR1VlqH%2BdIbNWpBTk1OQSKol8LYdp4uJkeQlL7svwAtILZzc%2BfO%2FA3uw8L4pGXlYfckl1YiIXEgcxvfPgt0HjrLeYDJ5uTi2UE5liC%2F08DW2XNJAep3uEzbt9qQTr23EPDgvyQIzuVjGQMRlb7bGPMQj%2FgT7iKEGS%2Fm8pVbSBOTsKhvmrMZyKEZb3gFAQj3%2BDOANHAWA1e%2B41A%2F1XTBhDhpzQsZVbPbfZRFrYO81GaazJCWiSWGPLpda4drtstKk8H8oe%2BR%2ByqBGuBDvtDlzXe15Yh2HbAv0WhpNS4v6VF%2FOZh1isTD8SDDMhGlSBPRrX9%2Bvc6qaDPwqQ20QKJXh%2FMBU0C6ObIKzfj%2B7ErlUghDTRBU9zm%2BUtcIUMuyZwAjsEi4zqqlGGuqRk2z%2FZqbQqV6e1Jn%2BxLzhuoBiQo8Nwb%2BsLBNUFVp%2Bd3Je1kWCcXymyZj%2FZq6ke5fFrVZgj8%2FdWbaGdwCTwS9gV7SDJ56R2TsITZrjUOAL7QJXxxsH2bnph681ZGQXyLPndHtk4trrljaC%2Bpzve8UEPIMML%2FUyLoGOpoBDMsrBO8mOZphdA%2BBQygYSG9%2F1d3%2BvRettVqJbYPnp%2FTWO1Apw7xyXuPnShvjVwoqw6XLFaKLi6J3Da5Mizd%2FCRzsI4tEi4WbaEGhbVLY0cOiVmMjCBkIW%2B1o0M1duexD9V7f4BGbGU50L9RA9YIVvC2fTQfLcZJq%2FcITW8CXrc9bcx20BaJpLKwtaC8F0NmQkwDxgFi%2BDnsAdA%3D%3D&Expires=1733441707",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOGRAPHY\n\n11\n\nThe average seasonal precipitation (July 1 to June 30) at Fort Jones for 1937-38 to 1953-54 was 21.70 inches; 40 percent of the total fell during the autumn months, 40 percent during the winter months, 15 percent during the spring months, and 5 percent during the sum- mer months. These results agree closely with old precipitation records obtained from a gage that was located on Rattlesnake Creek at the north end of Scott Valley (Wells, 1881, p. 43). The average annual precipitation for 1859 to 1880 at this location was 21.91 inches.",
+                "embed": "# GEOGRAPHY\n\n11\n\nThe average seasonal precipitation (July 1 to June 30) at Fort Jones for 1937-38 to 1953-54 was 21.70 inches; 40 percent of the total fell during the autumn months, 40 percent during the winter months, 15 percent during the spring months, and 5 percent during the sum- mer months. These results agree closely with old precipitation records obtained from a gage that was located on Rattlesnake Creek at the north end of Scott Valley (Wells, 1881, p. 43). The average annual precipitation for 1859 to 1880 at this location was 21.91 inches.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4108574953732264,
+                            "top": 0.04588235294117647,
+                            "width": 0.135101789019124,
+                            "height": 0.010588235294117647,
+                            "page": 1
+                        },
+                        "content": "GEOGRAPHY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8574953732264035,
+                            "top": 0.04196078431372549,
+                            "width": 0.02961135101789019,
+                            "height": 0.014901960784313726,
+                            "page": 1
+                        },
+                        "content": "11",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0715607649599013,
+                            "top": 0.07686274509803921,
+                            "width": 0.8155459592843923,
+                            "height": 0.1564705882352941,
+                            "page": 1
+                        },
+                        "content": "The average seasonal precipitation (July 1 to June 30) at Fort Jones for 1937-38 to 1953-54 was 21.70 inches; 40 percent of the total fell during the autumn months, 40 percent during the winter months, 15 percent during the spring months, and 5 percent during the sum- mer months. These results agree closely with old precipitation records obtained from a gage that was located on Rattlesnake Creek at the north end of Scott Valley (Wells, 1881, p. 43). The average annual precipitation for 1859 to 1880 at this location was 21.91 inches.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOGRAPHY (cont.)\n\nTABLE 1.-Seasonal precipitation (July 1 to June 30) at Fort Jones, Calif. [From publications of the U. S. Weather Bureau]\n\n<table><tr><th>Season</th><th>Precipitation\n(inches)</th><th>Season</th><th>Precipitation\n(inches)</th></tr><tr><td>1937 -38</td><td>29. 65</td><td>1947 -48</td><td>19. 02</td></tr><tr><td>1938 -39</td><td>13. 48</td><td>1948 -49</td><td>15. 55</td></tr><tr><td>1939 -40</td><td>26. 37</td><td>1949 -50</td><td>16. 79</td></tr><tr><td>1940 -41</td><td>25. 98</td><td>1950 -51</td><td>27. 43</td></tr><tr><td>1941 -42</td><td>23. 96</td><td>1951 -52</td><td>28. 13</td></tr><tr><td>1942 -43</td><td>23. 04</td><td>1952 -53</td><td>27. 03</td></tr><tr><td>1943 -44</td><td>13. 73</td><td>1953 -54</td><td>25. 35</td></tr><tr><td>1944 -45</td><td>18. 54</td><td></td><td></td></tr><tr><td>1945 -46</td><td>18. 78</td><td>Average</td><td>21. 70</td></tr><tr><td>1946 -47</td><td>16. 17</td><td></td><td></td></tr></table>",
+                "embed": "# GEOGRAPHY (cont.)\n\nTABLE 1.-Seasonal precipitation (July 1 to June 30) at Fort Jones, Calif. [From publications of the U. S. Weather Bureau]\n\n<table><tr><th>Season</th><th>Precipitation\n(inches)</th><th>Season</th><th>Precipitation\n(inches)</th></tr><tr><td>1937 -38</td><td>29. 65</td><td>1947 -48</td><td>19. 02</td></tr><tr><td>1938 -39</td><td>13. 48</td><td>1948 -49</td><td>15. 55</td></tr><tr><td>1939 -40</td><td>26. 37</td><td>1949 -50</td><td>16. 79</td></tr><tr><td>1940 -41</td><td>25. 98</td><td>1950 -51</td><td>27. 43</td></tr><tr><td>1941 -42</td><td>23. 96</td><td>1951 -52</td><td>28. 13</td></tr><tr><td>1942 -43</td><td>23. 04</td><td>1952 -53</td><td>27. 03</td></tr><tr><td>1943 -44</td><td>13. 73</td><td>1953 -54</td><td>25. 35</td></tr><tr><td>1944 -45</td><td>18. 54</td><td></td><td></td></tr><tr><td>1945 -46</td><td>18. 78</td><td>Average</td><td>21. 70</td></tr><tr><td>1946 -47</td><td>16. 17</td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.252156862745098,
+                            "width": 0.7248611967921036,
+                            "height": 0.03411764705882353,
+                            "page": 1
+                        },
+                        "content": "TABLE 1.-Seasonal precipitation (July 1 to June 30) at Fort Jones, Calif. [From publications of the U. S. Weather Bureau]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06705673471929702,
+                            "top": 0.2959133970971201,
+                            "width": 0.8230200408050706,
+                            "height": 0.20002798043045344,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Season</th><th>Precipitation\n(inches)</th><th>Season</th><th>Precipitation\n(inches)</th></tr><tr><td>1937 -38</td><td>29. 65</td><td>1947 -48</td><td>19. 02</td></tr><tr><td>1938 -39</td><td>13. 48</td><td>1948 -49</td><td>15. 55</td></tr><tr><td>1939 -40</td><td>26. 37</td><td>1949 -50</td><td>16. 79</td></tr><tr><td>1940 -41</td><td>25. 98</td><td>1950 -51</td><td>27. 43</td></tr><tr><td>1941 -42</td><td>23. 96</td><td>1951 -52</td><td>28. 13</td></tr><tr><td>1942 -43</td><td>23. 04</td><td>1952 -53</td><td>27. 03</td></tr><tr><td>1943 -44</td><td>13. 73</td><td>1953 -54</td><td>25. 35</td></tr><tr><td>1944 -45</td><td>18. 54</td><td></td><td></td></tr><tr><td>1945 -46</td><td>18. 78</td><td>Average</td><td>21. 70</td></tr><tr><td>1946 -47</td><td>16. 17</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOGRAPHY (cont.)\n\nTABLE -Average monthly precipitation at Fort Jones, Calif., from 1937-38 to 1953-54\n\n[From publications of the U. S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Average precipi-\ntation\n(inches)</th><th>Month</th><th>Average precipi-\ntation\n(inches)</th></tr><tr><td>January</td><td>4. 09</td><td>August</td><td>30</td></tr><tr><td>February</td><td>2. 63</td><td>September</td><td>38</td></tr><tr><td>March</td><td>2. 18</td><td>October</td><td>1. 69</td></tr><tr><td>April</td><td>1. 08</td><td>November</td><td>2. 94</td></tr><tr><td>May</td><td>1. 24</td><td>December</td><td>4. 10</td></tr><tr><td>June</td><td>70</td><td></td><td></td></tr><tr><td>July</td><td>37</td><td>Average yearly total</td><td>21. 70</td></tr></table>",
+                "embed": "# GEOGRAPHY (cont.)\n\nTABLE -Average monthly precipitation at Fort Jones, Calif., from 1937-38 to 1953-54\n\n[From publications of the U. S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Average precipi-\ntation\n(inches)</th><th>Month</th><th>Average precipi-\ntation\n(inches)</th></tr><tr><td>January</td><td>4. 09</td><td>August</td><td>30</td></tr><tr><td>February</td><td>2. 63</td><td>September</td><td>38</td></tr><tr><td>March</td><td>2. 18</td><td>October</td><td>1. 69</td></tr><tr><td>April</td><td>1. 08</td><td>November</td><td>2. 94</td></tr><tr><td>May</td><td>1. 24</td><td>December</td><td>4. 10</td></tr><tr><td>June</td><td>70</td><td></td><td></td></tr><tr><td>July</td><td>37</td><td>Average yearly total</td><td>21. 70</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06785934608266501,
+                            "top": 0.5129411764705882,
+                            "width": 0.8192473781616286,
+                            "height": 0.027058823529411764,
+                            "page": 1
+                        },
+                        "content": "TABLE -Average monthly precipitation at Fort Jones, Calif., from 1937-38 to 1953-54",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2769895126465145,
+                            "top": 0.5494117647058824,
+                            "width": 0.3812461443553362,
+                            "height": 0.010980392156862745,
+                            "page": 1
+                        },
+                        "content": "[From publications of the U. S. Weather Bureau]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0650725320560707,
+                            "top": 0.5695095645680147,
+                            "width": 0.8242649687873516,
+                            "height": 0.17299613204656863,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Average precipi-\ntation\n(inches)</th><th>Month</th><th>Average precipi-\ntation\n(inches)</th></tr><tr><td>January</td><td>4. 09</td><td>August</td><td>30</td></tr><tr><td>February</td><td>2. 63</td><td>September</td><td>38</td></tr><tr><td>March</td><td>2. 18</td><td>October</td><td>1. 69</td></tr><tr><td>April</td><td>1. 08</td><td>November</td><td>2. 94</td></tr><tr><td>May</td><td>1. 24</td><td>December</td><td>4. 10</td></tr><tr><td>June</td><td>70</td><td></td><td></td></tr><tr><td>July</td><td>37</td><td>Average yearly total</td><td>21. 70</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOGRAPHY (cont.)\n\nTABLE 3. Average temperatures at Fort Jones, Calif. (length of record: 12 years) [From publications of the U. S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Average daily\ntemperature (\u00b0 F.)</th><th>Month</th><th>Average daily\ntemperature (o F.)</th></tr><tr><td>January</td><td>32. 4</td><td>August</td><td>67. 4</td></tr><tr><td>February</td><td>38. 2</td><td>September</td><td>62. 1</td></tr><tr><td>March</td><td>42. 2</td><td>October</td><td>51. 3</td></tr><tr><td>April</td><td>48. 9</td><td>November</td><td>41. 4</td></tr><tr><td>May</td><td>54. 7</td><td>December</td><td>35. 3</td></tr><tr><td>June</td><td>60. 8</td><td></td><td></td></tr><tr><td>July</td><td>69. 4</td><td>Annual</td><td>50. 3</td></tr></table>",
+                "embed": "# GEOGRAPHY (cont.)\n\nTABLE 3. Average temperatures at Fort Jones, Calif. (length of record: 12 years) [From publications of the U. S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Average daily\ntemperature (\u00b0 F.)</th><th>Month</th><th>Average daily\ntemperature (o F.)</th></tr><tr><td>January</td><td>32. 4</td><td>August</td><td>67. 4</td></tr><tr><td>February</td><td>38. 2</td><td>September</td><td>62. 1</td></tr><tr><td>March</td><td>42. 2</td><td>October</td><td>51. 3</td></tr><tr><td>April</td><td>48. 9</td><td>November</td><td>41. 4</td></tr><tr><td>May</td><td>54. 7</td><td>December</td><td>35. 3</td></tr><tr><td>June</td><td>60. 8</td><td></td><td></td></tr><tr><td>July</td><td>69. 4</td><td>Annual</td><td>50. 3</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08204811844540408,
+                            "top": 0.7572549019607843,
+                            "width": 0.7871684145589143,
+                            "height": 0.03411764705882353,
+                            "page": 1
+                        },
+                        "content": "TABLE 3. Average temperatures at Fort Jones, Calif. (length of record: 12 years) [From publications of the U. S. Weather Bureau]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0636530928520565,
+                            "top": 0.7988523475796568,
+                            "width": 0.827000297344003,
+                            "height": 0.1595202397365196,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Average daily\ntemperature (\u00b0 F.)</th><th>Month</th><th>Average daily\ntemperature (o F.)</th></tr><tr><td>January</td><td>32. 4</td><td>August</td><td>67. 4</td></tr><tr><td>February</td><td>38. 2</td><td>September</td><td>62. 1</td></tr><tr><td>March</td><td>42. 2</td><td>October</td><td>51. 3</td></tr><tr><td>April</td><td>48. 9</td><td>November</td><td>41. 4</td></tr><tr><td>May</td><td>54. 7</td><td>December</td><td>35. 3</td></tr><tr><td>June</td><td>60. 8</td><td></td><td></td></tr><tr><td>July</td><td>69. 4</td><td>Annual</td><td>50. 3</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.1283158544108575,
+                            "top": 0.9650980392156863,
+                            "width": 0.15607649599012954,
+                            "height": 0.00980392156862745,
+                            "page": 1
+                        },
+                        "content": "461396-58-2",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

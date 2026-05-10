@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "Watersource_Name": "Sacramento River near Red Bluff",
+        "County": "Tehama County",
+        "Location": "Near Red Bluff",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet",
+            "Run-off": "acre-feet"
+        },
+        "Latitude": 40.1347,
+        "Longitude": -122.2289,
+        "Dates_of_Recording": "10/01/1918-09/30/1920",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Pit River at Henderson, Calif.",
+        "County": "Shasta County",
+        "Location": "Sec. 36, T. 37 N., R. 1 W., Big Bend ferry, one-fourth of a mile above Henderson",
+        "Townships_Ranges_Sections": ["T. 37 N., R. 1 W."],
+        "Temporal_Resolution": "Daily (as recorded by Gurley graph water-stage recorder)",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet"
+        },
+        "Latitude": 40.5658,
+        "Longitude": -122.2637,
+        "Dates_of_Recording": "09/28/1910-09/30/1920",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

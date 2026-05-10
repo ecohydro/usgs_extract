@@ -1,0 +1,42 @@
+```json
+[
+    {
+        "Watersource_Name": "SACRAMENTO RIVER",
+        "County": null,
+        "Location": "Sacramento River Basin, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily to specific dates",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet"
+        },
+        "Latitude": 38.5839,
+        "Longitude": -121.4696,
+        "Dates_of_Recording": "05/11/1915-09/30/1915",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Goodyear Creek",
+        "County": null,
+        "Location": "Goodyear Bar, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Gage Height": "Feet",
+            "Discharge": "Second-feet"
+        },
+        "Latitude": 38.5839,
+        "Longitude": -121.4696,
+        "Dates_of_Recording": "10/01/1914-09/30/1915",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+**Notes:**
+
+1. **SACRAMENTO RIVER**: The latitude and longitude are estimated as the document does not provide specific coordinates for this river segment.
+2. **Goodyear Creek**: It is assumed to be located near Goodyear Bar, with the same estimated geographic location due to lack of precise data in the document.
+3. **Temporal Resolution**: For SACRAMENTO RIVER, measurements were recorded at specific events; for GOODYEAR CREEK, it's daily throughout the year.
+4. **Dates_of_Recording** are inferred from provided tables and text information.
+5. **Units_Of_Measurement**: Discharge is measured in second-feet for both water sources.
+6. **Townships_Ranges_Sections**: Not specified in the document; thus, represented as empty arrays.

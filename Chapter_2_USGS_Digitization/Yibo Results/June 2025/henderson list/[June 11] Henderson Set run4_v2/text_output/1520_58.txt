@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "East San Pasqual Ditch",
+    "County": "San Diego",
+    "Location": "NE 1/4 sec. 36, T. 12 S., R. 1 W., at upper end of San Pasqual Valley, about 9 miles southeast of Escondido",
+    "Townships_Ranges_Sections": ["T. 12 S., R. 1 W., sec. 36"],
+    "Temporal_Resolution": "Variable (individual measurements)",
+    "Units_Of_Measurement": {
+        "Gage_height": "Feet",
+        "Discharge": "Second-feet"
+    },
+    "Latitude": 33.115,
+    "Longitude": -117.082,
+    "Dates_of_Recording": "06/09/1912-07/08/1912, 10/01/1912-09/30/1913",
+    "Water_Type": "Stream discharge"
+}
+```

@@ -1,0 +1,26 @@
+```json
+{
+  "Watersource_Name": "SANTA CLARA RIVER",
+  "County": "Los Angeles- Ventura County Line, CA",
+  "Location": "Santa Clara River at Los Angeles-Ventura County Line",
+  "Townships_Ranges_Sections": null,
+  "Temporal_Resolution": "Daily",
+  "Units_Of_Measurement": "Micromhos/cm at 25 Deg. C",
+  "Latitude": 34.7, // Estimated latitude based on location
+  "Longitude": -119.5, // Estimated longitude based on location
+  "Dates_of_Recording": "10/01/1977-05/31/1978",
+  "Water_Type": "Stream discharge"
+}
+```
+
+### Explanation:
+
+1. **Watersource_Name**: Derived from the document title.
+2. **County**: Identified from the header, indicating the location across two counties.
+3. **Location**: Provided in the document content as the specific site of measurement.
+4. **Townships_Ranges_Sections**: No data provided in the document; hence set to `null`.
+5. **Temporal_Resolution**: Data is recorded daily, as indicated by the table structure showing measurements for each day.
+6. **Units_Of_Measurement**: Specified in the header ("Micromhos/cm at 25 Deg. C").
+7. **Latitude and Longitude**: Estimated based on the location of the Santa Clara River near the Los Angeles-Ventura County line.
+8. **Dates_of_Recording**: Span from October 1977 to May 1978, as shown by the table's month headings.
+9. **Water_Type**: Classified as "Stream discharge" since the data pertains to a river's specific conductance measurements.

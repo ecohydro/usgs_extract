@@ -1,0 +1,28 @@
+```json
+{
+    "Watersource_Name": "Spring Valley Water Co.'s aqueduct",
+    "County": "Alameda County",
+    "Location": {
+        "Townships_Ranges_Sections": ["T. 24 S., R. 7 E., sec. 20"],
+        "Latitude": 37.635,
+        "Longitude": -121.827
+    },
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "second-feet",
+    "Dates_of_Recording": "10/16/1925-09/30/1925",
+    "Water_Type": "Stream discharge"
+},
+{
+    "Watersource_Name": "Kern River near Kernville",
+    "County": "Kern County",
+    "Location": {
+        "Townships_Ranges_Sections": ["T. 23 S., R. 32 E., SE sec. 14"],
+        "Latitude": 35.666,
+        "Longitude": -118.433
+    },
+    "Temporal_Resolution": "Irregular (historical data available from January 1, 1912, to September 30, 1925)",
+    "Units_Of_Measurement": "second-feet",
+    "Dates_of_Recording": "01/01/1912-09/30/1925",
+    "Water_Type": "Stream discharge"
+}
+```

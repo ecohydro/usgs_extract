@@ -1,0 +1,182 @@
+{
+    "job_id": "dd7bcf9f-1798-4488-86f3-27356c0b6f48",
+    "duration": 4.098688364028931,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/60a6fab6-b240-4c4b-bd0e-b6b2f4141438?AWSAccessKeyId=ASIA2UOK6OVBE6LPNLZB&Signature=lUXq7d9B%2Bidodpe%2FGewg4km3pZo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIHWciEk6qStxXWnMYB5OPTpxd5SdYvTnr%2F00Pr8lRIh%2FAiEA9ILD%2FY%2BiSjcyj9XbfMIAX3zwakJwD9mPrYB3u9%2Bl%2F8kqiwUIIxAAGgw3MzExMDY5MzIwMzQiDKrLJYNFQCKuFaZ4ViroBICxomkN6ZGOYB%2FwDlBqZRrLUJ%2F%2B9%2ByVqzEpW2qptGg9%2BRiKvXC3f4T8zmJdl8uGdyr6xfBdVgE5E2xB7f%2B13QEwu4xnanbWAWu9fBI4mLNKfkmHgdj3M%2BPH5Wq0Xw9Vrs7N6UVF0RbCsTUpzDSz8sILFP9Lw6k%2F8iEBVKDqJsUrCFZk8i8Vw6WndZwl3uxgHaePQoBKbON7WgXlvBaI40bdT4ePWDrunQDHfRn6v7Ef3lodTXXA8NNpxthpQ8RRAzlii3wNxmGic5CT0k%2FhVGIFGtKf%2B4znALqsTCiKISby0hwgUC9cekgCopRmP%2BU5VLXT8aMThnDD1pjfyKX9abAO4VbH44UCCLzjT8PweRtidShIz6jri3qs8CMezw4JXuHTBTGjoXA5uwxk8qd2bbO%2FA711I5M%2BGQQIfoqMtcLqPEg2uDBH7srQuMgwnRFX99JtTDt1KqLD5WQf6xKV1gHxyf3YPsvtxjr73B6sq3qYpucTZMEQvcdx4k4KxY47O%2F5TCGvoVgCbSISKxUTTdLlbQckM0VY51VrjvDoupAFveRGFlSbQF23h7Ry%2BIiRQl1JfTmB1MM8PGMAXxCMfAyTVA8J9jmp4BRoo9LR5mlZOB3FNq24WuDbaLNNTJLaWR%2BoMlRt2ZO2xaWFpXPB5SYL%2BtvosrDxI4vRJ6sWuRl19cS9xx1UWb%2FZggCgEg5lcxzUG178QsXlay98E0ibLmTlxdAs%2FQeFFI15kqBPAKG95Nq11ew5nOQWZ6Pv9YplF0%2BNifStWwB7Jbb1urWKBJ9taYBgrTGXU6nRapyCMJpbVGDSYaNNzXrIw4rPJugY6mwEh4XuiqVPBFgjsaEuPCFI%2Fnqv64SZ%2Fe6zeOoJGO0Ck778mYzP0JDpQxJGarlr4h0TKa%2FG4tcLFIv74Se7T%2BJq5ACF9gYkDxd%2BU5U52bhFuiAkP1lxPMGDfSh3BfXqMQYH%2FpQqsZ6Z9FHyhdaWS%2BTTWuljlBlkJRshvjKspkzMTTxoE6WHkLmd0h9bGexSEscJWy6dyqWGSdA1fVA%3D%3D&Expires=1733455989",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN.\n\n191\n\nRECORDS AVAILABLE.-October 1, 1910, to September 30, 1915. GAGE.-No information. EXTREMES OF STORAGE.-Maximum storage recorded 1910-1915: 15,200 ac-n-feet, July 2 to 13 and 26 to 31, 1913; reservoir empty during periods of every year. COOPERATION.-Daily-storage record furnished by Sierra & San Francisco Power Co. through H. F. Jackson, general manager.\n\nThe reservoir is used for storage for power by the Sierra & San Francisco Power Co. The water is released down Relief Creek to the Middle Fork of Stanislaus River at Sand Bar Flat, where it is diverted. During the winter the reservoir gates are left open.\n\nStorage, in acre-feet, in Relief reservoir near Baker Station, Cal., for the year ending Sept. 30, 1915,",
+                "embed": "# SAN JOAQUIN RIVER BASIN.\n\n191\n\nRECORDS AVAILABLE.-October 1, 1910, to September 30, 1915. GAGE.-No information. EXTREMES OF STORAGE.-Maximum storage recorded 1910-1915: 15,200 ac-n-feet, July 2 to 13 and 26 to 31, 1913; reservoir empty during periods of every year. COOPERATION.-Daily-storage record furnished by Sierra & San Francisco Power Co. through H. F. Jackson, general manager.\n\nThe reservoir is used for storage for power by the Sierra & San Francisco Power Co. The water is released down Relief Creek to the Middle Fork of Stanislaus River at Sand Bar Flat, where it is diverted. During the winter the reservoir gates are left open.\n\nStorage, in acre-feet, in Relief reservoir near Baker Station, Cal., for the year ending Sept. 30, 1915,",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2896509491733007,
+                            "top": 0.0416036308623298,
+                            "width": 0.32210655235762403,
+                            "height": 0.012102874432677761,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8101653398652786,
+                            "top": 0.03895612708018154,
+                            "width": 0.04409063074096754,
+                            "height": 0.01361573373676248,
+                            "page": 1
+                        },
+                        "content": "191",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04470300061236987,
+                            "top": 0.07223903177004538,
+                            "width": 0.8101653398652786,
+                            "height": 0.09379727685325265,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-October 1, 1910, to September 30, 1915. GAGE.-No information. EXTREMES OF STORAGE.-Maximum storage recorded 1910-1915: 15,200 ac-n-feet, July 2 to 13 and 26 to 31, 1913; reservoir empty during periods of every year. COOPERATION.-Daily-storage record furnished by Sierra & San Francisco Power Co. through H. F. Jackson, general manager.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04409063074096754,
+                            "top": 0.17284417549167927,
+                            "width": 0.8120024494794856,
+                            "height": 0.06089258698940998,
+                            "page": 1
+                        },
+                        "content": "The reservoir is used for storage for power by the Sierra & San Francisco Power Co. The water is released down Relief Creek to the Middle Fork of Stanislaus River at Sand Bar Flat, where it is diverted. During the winter the reservoir gates are left open.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06858542559706063,
+                            "top": 0.24886535552193645,
+                            "width": 0.7605633802816901,
+                            "height": 0.02685325264750378,
+                            "page": 1
+                        },
+                        "content": "Storage, in acre-feet, in Relief reservoir near Baker Station, Cal., for the year ending Sept. 30, 1915,",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th colspan=\"2\">Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td>10,800</td><td>6,100</td><td>960</td><td>0</td><td>3,520</td><td>11,900</td><td>14, 900</td><td>13,300</td></tr><tr><td>2</td><td></td><td>10,700</td><td>6,010</td><td>960</td><td>0</td><td>3,730</td><td>12,200</td><td>14,900</td><td>13,200</td></tr><tr><td>3</td><td></td><td>10,400</td><td>5,920</td><td>960</td><td>67</td><td>3,900</td><td>12,200</td><td>15,000</td><td>13,000</td></tr><tr><td>4</td><td></td><td>10,200</td><td>5, 790</td><td>947</td><td>71</td><td>4,090</td><td>12,300</td><td>15,000</td><td>12,900</td></tr><tr><td>5</td><td></td><td>10,100</td><td>5, 660</td><td>955</td><td>78</td><td>320</td><td>12,300</td><td>15,000</td><td>12,700</td></tr><tr><td>6</td><td></td><td>9,920</td><td>5, 520</td><td>925</td><td>122</td><td>590</td><td>12,400</td><td>15,000</td><td>12,600</td></tr><tr><td>7</td><td></td><td>9,720</td><td>5, 360</td><td>907</td><td>188</td><td>4,990</td><td>12,700</td><td>15,000</td><td>12,300</td></tr><tr><td>8</td><td></td><td>9,560</td><td>5,200</td><td>877</td><td>257</td><td>5,280</td><td>12,700</td><td>15,000</td><td>12,100</td></tr><tr><td>9</td><td></td><td>9,410</td><td>5, 020</td><td>841</td><td>260</td><td>5,590</td><td>12,900</td><td>15,000</td><td>11,900</td></tr><tr><td>10</td><td></td><td>9,250</td><td>4, 820</td><td>813</td><td>276</td><td>5, 770</td><td>13, ,100</td><td>15,000</td><td>11,900</td></tr><tr><td>11</td><td></td><td>9,250</td><td>4,670</td><td>782</td><td>491</td><td>,910</td><td>13,400</td><td>15,000</td><td>11,400</td></tr><tr><td>12</td><td></td><td>8,880</td><td>4,450</td><td>749</td><td>435</td><td>040</td><td>13,500</td><td>15,000</td><td>11,200</td></tr><tr><td>13</td><td></td><td>8,700</td><td>4,230</td><td>710</td><td>473</td><td>6,240</td><td>13,700</td><td>15,000</td><td>11,000</td></tr><tr><td>14</td><td></td><td>8,490</td><td>4,070</td><td>672</td><td>532</td><td>6,510</td><td>13,800</td><td>15,000</td><td>10,800</td></tr><tr><td>15</td><td></td><td>8,280</td><td>3, 860</td><td>631</td><td>620</td><td>6, 970</td><td>13, 900</td><td>14,900</td><td>10,600</td></tr><tr><td>16</td><td></td><td>8,040</td><td>3, 670</td><td>586</td><td>744</td><td>7,260</td><td>14,000</td><td>14,900</td><td>10,300</td></tr><tr><td>17</td><td></td><td>7,800</td><td>3, 500</td><td>523</td><td>884</td><td>7,460</td><td>14,200</td><td>14,900</td><td>10,000</td></tr><tr><td>18</td><td></td><td>7,600</td><td>3,270</td><td>462</td><td>1,030</td><td>7,840</td><td>14,300</td><td>14,900</td><td>9,750</td></tr><tr><td>19</td><td></td><td>7,450</td><td>3,070</td><td>398</td><td>1,150</td><td>8, ,200</td><td>14,400</td><td>14,900</td><td>9,490</td></tr><tr><td>20</td><td></td><td>7,310</td><td>2,860</td><td>350</td><td>1,220</td><td>8, 430</td><td>14,500</td><td>14,800</td><td>9,220</td></tr><tr><td>21</td><td></td><td>7,180</td><td>640</td><td>296</td><td>,320</td><td>8, 930</td><td>14,600</td><td>14,700</td><td>8,970</td></tr><tr><td>22</td><td></td><td>7,110</td><td>2,420</td><td>245</td><td>1,450</td><td>9,110</td><td>14,800</td><td>14,600</td><td>8,680</td></tr><tr><td>23</td><td></td><td>6,990</td><td>2,230</td><td>191</td><td>1,720</td><td>9,520</td><td>14,800</td><td>14,500</td><td>8,400</td></tr><tr><td>24</td><td></td><td>6,830</td><td>2,020</td><td>133</td><td>1,820</td><td>10,100</td><td>14,800</td><td>14,400</td><td>8,120</td></tr><tr><td>25</td><td></td><td>6,700</td><td>1,870</td><td>67</td><td>1,950</td><td>10,000</td><td>14,900</td><td>14,400</td><td>7,860</td></tr><tr><td>26</td><td></td><td>6,560</td><td>1, 660</td><td>0</td><td>1,920</td><td>10,200</td><td>14,900</td><td>14,200</td><td>7,610</td></tr><tr><td>27</td><td></td><td>6,380</td><td>,500</td><td>0</td><td>2,400</td><td>10,500</td><td>14,800</td><td>14,100</td><td>7,350</td></tr><tr><td>28</td><td></td><td>6,240</td><td>1, 360</td><td>0</td><td>2,660</td><td>11,000</td><td>14,900</td><td>14,000</td><td>7,080</td></tr><tr><td>29</td><td></td><td>6,090</td><td>1, 220</td><td>0</td><td>2,840</td><td>11,500</td><td>14,900</td><td>13,800</td><td>6,850</td></tr><tr><td>30</td><td></td><td>6,090</td><td>1, 070</td><td>0</td><td>3,100</td><td>11,700</td><td>14,900</td><td>13,700</td><td>6,600</td></tr><tr><td>31</td><td></td><td>6,100</td><td></td><td>0</td><td>3,330</td><td></td><td>14,900</td><td>13,500</td><td></td></tr></table>",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th colspan=\"2\">Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td>10,800</td><td>6,100</td><td>960</td><td>0</td><td>3,520</td><td>11,900</td><td>14, 900</td><td>13,300</td></tr><tr><td>2</td><td></td><td>10,700</td><td>6,010</td><td>960</td><td>0</td><td>3,730</td><td>12,200</td><td>14,900</td><td>13,200</td></tr><tr><td>3</td><td></td><td>10,400</td><td>5,920</td><td>960</td><td>67</td><td>3,900</td><td>12,200</td><td>15,000</td><td>13,000</td></tr><tr><td>4</td><td></td><td>10,200</td><td>5, 790</td><td>947</td><td>71</td><td>4,090</td><td>12,300</td><td>15,000</td><td>12,900</td></tr><tr><td>5</td><td></td><td>10,100</td><td>5, 660</td><td>955</td><td>78</td><td>320</td><td>12,300</td><td>15,000</td><td>12,700</td></tr><tr><td>6</td><td></td><td>9,920</td><td>5, 520</td><td>925</td><td>122</td><td>590</td><td>12,400</td><td>15,000</td><td>12,600</td></tr><tr><td>7</td><td></td><td>9,720</td><td>5, 360</td><td>907</td><td>188</td><td>4,990</td><td>12,700</td><td>15,000</td><td>12,300</td></tr><tr><td>8</td><td></td><td>9,560</td><td>5,200</td><td>877</td><td>257</td><td>5,280</td><td>12,700</td><td>15,000</td><td>12,100</td></tr><tr><td>9</td><td></td><td>9,410</td><td>5, 020</td><td>841</td><td>260</td><td>5,590</td><td>12,900</td><td>15,000</td><td>11,900</td></tr><tr><td>10</td><td></td><td>9,250</td><td>4, 820</td><td>813</td><td>276</td><td>5, 770</td><td>13, ,100</td><td>15,000</td><td>11,900</td></tr><tr><td>11</td><td></td><td>9,250</td><td>4,670</td><td>782</td><td>491</td><td>,910</td><td>13,400</td><td>15,000</td><td>11,400</td></tr><tr><td>12</td><td></td><td>8,880</td><td>4,450</td><td>749</td><td>435</td><td>040</td><td>13,500</td><td>15,000</td><td>11,200</td></tr><tr><td>13</td><td></td><td>8,700</td><td>4,230</td><td>710</td><td>473</td><td>6,240</td><td>13,700</td><td>15,000</td><td>11,000</td></tr><tr><td>14</td><td></td><td>8,490</td><td>4,070</td><td>672</td><td>532</td><td>6,510</td><td>13,800</td><td>15,000</td><td>10,800</td></tr><tr><td>15</td><td></td><td>8,280</td><td>3, 860</td><td>631</td><td>620</td><td>6, 970</td><td>13, 900</td><td>14,900</td><td>10,600</td></tr><tr><td>16</td><td></td><td>8,040</td><td>3, 670</td><td>586</td><td>744</td><td>7,260</td><td>14,000</td><td>14,900</td><td>10,300</td></tr><tr><td>17</td><td></td><td>7,800</td><td>3, 500</td><td>523</td><td>884</td><td>7,460</td><td>14,200</td><td>14,900</td><td>10,000</td></tr><tr><td>18</td><td></td><td>7,600</td><td>3,270</td><td>462</td><td>1,030</td><td>7,840</td><td>14,300</td><td>14,900</td><td>9,750</td></tr><tr><td>19</td><td></td><td>7,450</td><td>3,070</td><td>398</td><td>1,150</td><td>8, ,200</td><td>14,400</td><td>14,900</td><td>9,490</td></tr><tr><td>20</td><td></td><td>7,310</td><td>2,860</td><td>350</td><td>1,220</td><td>8, 430</td><td>14,500</td><td>14,800</td><td>9,220</td></tr><tr><td>21</td><td></td><td>7,180</td><td>640</td><td>296</td><td>,320</td><td>8, 930</td><td>14,600</td><td>14,700</td><td>8,970</td></tr><tr><td>22</td><td></td><td>7,110</td><td>2,420</td><td>245</td><td>1,450</td><td>9,110</td><td>14,800</td><td>14,600</td><td>8,680</td></tr><tr><td>23</td><td></td><td>6,990</td><td>2,230</td><td>191</td><td>1,720</td><td>9,520</td><td>14,800</td><td>14,500</td><td>8,400</td></tr><tr><td>24</td><td></td><td>6,830</td><td>2,020</td><td>133</td><td>1,820</td><td>10,100</td><td>14,800</td><td>14,400</td><td>8,120</td></tr><tr><td>25</td><td></td><td>6,700</td><td>1,870</td><td>67</td><td>1,950</td><td>10,000</td><td>14,900</td><td>14,400</td><td>7,860</td></tr><tr><td>26</td><td></td><td>6,560</td><td>1, 660</td><td>0</td><td>1,920</td><td>10,200</td><td>14,900</td><td>14,200</td><td>7,610</td></tr><tr><td>27</td><td></td><td>6,380</td><td>,500</td><td>0</td><td>2,400</td><td>10,500</td><td>14,800</td><td>14,100</td><td>7,350</td></tr><tr><td>28</td><td></td><td>6,240</td><td>1, 360</td><td>0</td><td>2,660</td><td>11,000</td><td>14,900</td><td>14,000</td><td>7,080</td></tr><tr><td>29</td><td></td><td>6,090</td><td>1, 220</td><td>0</td><td>2,840</td><td>11,500</td><td>14,900</td><td>13,800</td><td>6,850</td></tr><tr><td>30</td><td></td><td>6,090</td><td>1, 070</td><td>0</td><td>3,100</td><td>11,700</td><td>14,900</td><td>13,700</td><td>6,600</td></tr><tr><td>31</td><td></td><td>6,100</td><td></td><td>0</td><td>3,330</td><td></td><td>14,900</td><td>13,500</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04134967848339186,
+                            "top": 0.2849039144126442,
+                            "width": 0.817778788821798,
+                            "height": 0.3940841744057891,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th colspan=\"2\">Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td>10,800</td><td>6,100</td><td>960</td><td>0</td><td>3,520</td><td>11,900</td><td>14, 900</td><td>13,300</td></tr><tr><td>2</td><td></td><td>10,700</td><td>6,010</td><td>960</td><td>0</td><td>3,730</td><td>12,200</td><td>14,900</td><td>13,200</td></tr><tr><td>3</td><td></td><td>10,400</td><td>5,920</td><td>960</td><td>67</td><td>3,900</td><td>12,200</td><td>15,000</td><td>13,000</td></tr><tr><td>4</td><td></td><td>10,200</td><td>5, 790</td><td>947</td><td>71</td><td>4,090</td><td>12,300</td><td>15,000</td><td>12,900</td></tr><tr><td>5</td><td></td><td>10,100</td><td>5, 660</td><td>955</td><td>78</td><td>320</td><td>12,300</td><td>15,000</td><td>12,700</td></tr><tr><td>6</td><td></td><td>9,920</td><td>5, 520</td><td>925</td><td>122</td><td>590</td><td>12,400</td><td>15,000</td><td>12,600</td></tr><tr><td>7</td><td></td><td>9,720</td><td>5, 360</td><td>907</td><td>188</td><td>4,990</td><td>12,700</td><td>15,000</td><td>12,300</td></tr><tr><td>8</td><td></td><td>9,560</td><td>5,200</td><td>877</td><td>257</td><td>5,280</td><td>12,700</td><td>15,000</td><td>12,100</td></tr><tr><td>9</td><td></td><td>9,410</td><td>5, 020</td><td>841</td><td>260</td><td>5,590</td><td>12,900</td><td>15,000</td><td>11,900</td></tr><tr><td>10</td><td></td><td>9,250</td><td>4, 820</td><td>813</td><td>276</td><td>5, 770</td><td>13, ,100</td><td>15,000</td><td>11,900</td></tr><tr><td>11</td><td></td><td>9,250</td><td>4,670</td><td>782</td><td>491</td><td>,910</td><td>13,400</td><td>15,000</td><td>11,400</td></tr><tr><td>12</td><td></td><td>8,880</td><td>4,450</td><td>749</td><td>435</td><td>040</td><td>13,500</td><td>15,000</td><td>11,200</td></tr><tr><td>13</td><td></td><td>8,700</td><td>4,230</td><td>710</td><td>473</td><td>6,240</td><td>13,700</td><td>15,000</td><td>11,000</td></tr><tr><td>14</td><td></td><td>8,490</td><td>4,070</td><td>672</td><td>532</td><td>6,510</td><td>13,800</td><td>15,000</td><td>10,800</td></tr><tr><td>15</td><td></td><td>8,280</td><td>3, 860</td><td>631</td><td>620</td><td>6, 970</td><td>13, 900</td><td>14,900</td><td>10,600</td></tr><tr><td>16</td><td></td><td>8,040</td><td>3, 670</td><td>586</td><td>744</td><td>7,260</td><td>14,000</td><td>14,900</td><td>10,300</td></tr><tr><td>17</td><td></td><td>7,800</td><td>3, 500</td><td>523</td><td>884</td><td>7,460</td><td>14,200</td><td>14,900</td><td>10,000</td></tr><tr><td>18</td><td></td><td>7,600</td><td>3,270</td><td>462</td><td>1,030</td><td>7,840</td><td>14,300</td><td>14,900</td><td>9,750</td></tr><tr><td>19</td><td></td><td>7,450</td><td>3,070</td><td>398</td><td>1,150</td><td>8, ,200</td><td>14,400</td><td>14,900</td><td>9,490</td></tr><tr><td>20</td><td></td><td>7,310</td><td>2,860</td><td>350</td><td>1,220</td><td>8, 430</td><td>14,500</td><td>14,800</td><td>9,220</td></tr><tr><td>21</td><td></td><td>7,180</td><td>640</td><td>296</td><td>,320</td><td>8, 930</td><td>14,600</td><td>14,700</td><td>8,970</td></tr><tr><td>22</td><td></td><td>7,110</td><td>2,420</td><td>245</td><td>1,450</td><td>9,110</td><td>14,800</td><td>14,600</td><td>8,680</td></tr><tr><td>23</td><td></td><td>6,990</td><td>2,230</td><td>191</td><td>1,720</td><td>9,520</td><td>14,800</td><td>14,500</td><td>8,400</td></tr><tr><td>24</td><td></td><td>6,830</td><td>2,020</td><td>133</td><td>1,820</td><td>10,100</td><td>14,800</td><td>14,400</td><td>8,120</td></tr><tr><td>25</td><td></td><td>6,700</td><td>1,870</td><td>67</td><td>1,950</td><td>10,000</td><td>14,900</td><td>14,400</td><td>7,860</td></tr><tr><td>26</td><td></td><td>6,560</td><td>1, 660</td><td>0</td><td>1,920</td><td>10,200</td><td>14,900</td><td>14,200</td><td>7,610</td></tr><tr><td>27</td><td></td><td>6,380</td><td>,500</td><td>0</td><td>2,400</td><td>10,500</td><td>14,800</td><td>14,100</td><td>7,350</td></tr><tr><td>28</td><td></td><td>6,240</td><td>1, 360</td><td>0</td><td>2,660</td><td>11,000</td><td>14,900</td><td>14,000</td><td>7,080</td></tr><tr><td>29</td><td></td><td>6,090</td><td>1, 220</td><td>0</td><td>2,840</td><td>11,500</td><td>14,900</td><td>13,800</td><td>6,850</td></tr><tr><td>30</td><td></td><td>6,090</td><td>1, 070</td><td>0</td><td>3,100</td><td>11,700</td><td>14,900</td><td>13,700</td><td>6,600</td></tr><tr><td>31</td><td></td><td>6,100</td><td></td><td>0</td><td>3,330</td><td></td><td>14,900</td><td>13,500</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\nNOTE.-N water stored during the period Dec. 26 to May 2.\n\n## RELIEF CREEK NEAR BAKER STATION, CAL.\n\nLOCATION.-In the NW. 1/4 sec. 13, T. 5 N., R. 20 E., one-fourth mile below Relief reservoir of the Sierra & San Francisco Power Co., one-fourth mile above junction with East Fork, and about 3 miles southeast of Baker Station, Tuolumne County.\n\nDRAINAGE AREA.-Not measured.\nRECORDS AVAILABLE.-October, 1910 to September 30, 1915 (incomplete).\nGAGE.-No information.\n\nDISCHARGE.-Computed from gage-height record at weir, which gives the combined flow over spillway and through outlet gates of dam.\n\nCHANNEL AND CONTROL.-See preceding paragraph. EXTREMES OF DISCHARGE.-1912-1915: Maximum mean daily discharge, 795 second- feet, June 23, 1914; no flow April 9 to May 25 and June 24 to 28, 1913.",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\nNOTE.-N water stored during the period Dec. 26 to May 2.\n\n## RELIEF CREEK NEAR BAKER STATION, CAL.\n\nLOCATION.-In the NW. 1/4 sec. 13, T. 5 N., R. 20 E., one-fourth mile below Relief reservoir of the Sierra & San Francisco Power Co., one-fourth mile above junction with East Fork, and about 3 miles southeast of Baker Station, Tuolumne County.\n\nDRAINAGE AREA.-Not measured.\nRECORDS AVAILABLE.-October, 1910 to September 30, 1915 (incomplete).\nGAGE.-No information.\n\nDISCHARGE.-Computed from gage-height record at weir, which gives the combined flow over spillway and through outlet gates of dam.\n\nCHANNEL AND CONTROL.-See preceding paragraph. EXTREMES OF DISCHARGE.-1912-1915: Maximum mean daily discharge, 795 second- feet, June 23, 1914; no flow April 9 to May 25 and June 24 to 28, 1913.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05939987752602572,
+                            "top": 0.6834341906202723,
+                            "width": 0.4623392529087569,
+                            "height": 0.011724659606656581,
+                            "page": 1
+                        },
+                        "content": "NOTE.-N water stored during the period Dec. 26 to May 2.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.22780159216166565,
+                            "top": 0.7095310136157338,
+                            "width": 0.43723208818126147,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "RELIEF CREEK NEAR BAKER STATION, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.043478260869565216,
+                            "top": 0.7337367624810892,
+                            "width": 0.8120024494794856,
+                            "height": 0.06127080181543117,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In the NW. 1/4 sec. 13, T. 5 N., R. 20 E., one-fourth mile below Relief reservoir of the Sierra & San Francisco Power Co., one-fourth mile above junction with East Fork, and about 3 miles southeast of Baker Station, Tuolumne County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.043478260869565216,
+                            "top": 0.7968986384266263,
+                            "width": 0.7054500918554807,
+                            "height": 0.04236006051437216,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-Not measured.\nRECORDS AVAILABLE.-October, 1910 to September 30, 1915 (incomplete).\nGAGE.-No information.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.041641151255358236,
+                            "top": 0.8422844175491679,
+                            "width": 0.8113900796080833,
+                            "height": 0.031391830559757944,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE.-Computed from gage-height record at weir, which gives the combined flow over spillway and through outlet gates of dam.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.043478260869565216,
+                            "top": 0.8748108925869894,
+                            "width": 0.8101653398652786,
+                            "height": 0.0453857791225416,
+                            "page": 1
+                        },
+                        "content": "CHANNEL AND CONTROL.-See preceding paragraph. EXTREMES OF DISCHARGE.-1912-1915: Maximum mean daily discharge, 795 second- feet, June 23, 1914; no flow April 9 to May 25 and June 24 to 28, 1913.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

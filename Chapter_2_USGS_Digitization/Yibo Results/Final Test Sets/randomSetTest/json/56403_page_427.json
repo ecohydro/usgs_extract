@@ -1,0 +1,86 @@
+{
+    "job_id": "29888447-83a9-4d15-9bf7-1f9c5a09effc",
+    "duration": 4.909487009048462,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/8f385b98-443a-4b7c-b2d2-e37e83e722b7?AWSAccessKeyId=ASIA2UOK6OVBJM2XL4SZ&Signature=w2eqpmtCDDqsmsVNcgBk3o%2BSClU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAhYS0h655vOWD75aVQKf1dcOQV4MoYE9f8MXhhy6aC0AiEAjR2bRzwJhxMMpMCRaV9XWEEwod5QAOt6px3h1vi6dpkqlAUIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDNe7ZnaFDDXhybC8nCroBC9I%2Bf5dA9w6IFinWSXySsFX0uswH38X4lYw4zPqTpsRxborCwwYt6zFqrYTtxuJLapKoRtTubKzXRAZ12Z3ZCx%2Bj4l28HHI4d3Av5X94swpDRVjwfLGfESQ2lZM9KNTzTQ2oH1oiyThCD3qz6VbR9c7KGn2FPMmJzlP%2FrTYv752Nhxik1zQANwpSSn1bk%2Bd30onKg3%2BERkPiimDqbng0BxIh3WcBeE4lmrD4yxdNVVwV2rrRA2CE%2FQKPrNuG425VgpkpLZI2hR9xh0B7z19mOpS1uOny20y7QyOWBwpEMq08HcaccaCBTHF1DRykp5IdUah1KRMdRANH%2B9UK2D4kuWaGQ6nojgaXiXlIZ5whbnuWRKLHBcxHE0MqLcOg%2FFDX%2BkpQA3pxyfQe1ACmA6kWakmb1HJBzIm6vzXIO2TBuh6bB65DWpEgK7Iy3Zs94%2BPsJtN8KwwuqwbFUWheM4rWfSyXbivWvrzJp51rdRaG0gubeFBYtyAGQuJ7uo%2B180RUsv9J0Fwo5Mqu1MY9KPecpDeyRmsP4QDVubYyaIHfwaz757R2HWip3eR3HLl0O9JvO3XjH7DjOAPdQpAlykINtyEiRl8cspxpfG5yA5w21rGgh6c8weDCpokEvLN1G23YGD1R09wF07JI2iQQE22mYqImhJH93ZqODZDUNllpprod2bCuXWEO4DlQ8sb37EJhmQuSbwhpJ4Ec40CsaZOLjpOUZa66nr2lLzFmC1uQcjJ9apu9HVXS9qJazwauHiTbPTQJvN%2FOA8uxC1LxBpPU5dFJsk6U4syb%2FOL%2BV67cB7RYRvgPbhEG%2FEwudGIvAY6mwFdT8aCUU6KFAqsf3KVD9TxlONzpDLqUQ0TLUErJFRY3nZ1HtZfERUtz0cQVmdgn2cnwCelB6cEU%2B7kfjOKe7LbVHaKYYRL8T1YvDLw%2B4PIdBxFMfFKXkVXxGivzERsvx6G9ZrnAy%2FGBwMYodrNF1ZsL03eZesOj0Yw8qhxof0jnsieI6wvzDk2VDfMHPWxW8JTvDLSAaPQw6nymg%3D%3D&Expires=1736587046",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8596341982135262,
+                            "top": 0.06391220142027114,
+                            "width": 0.019140791152700978,
+                            "height": 0.0071013557133634605,
+                            "page": 1
+                        },
+                        "content": "411",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA ANA RIVER BASIN 11074000 SANTA ANA RIVER BELOW PRADO DAM, CA--Continued QUALITATIVE AND ASSOCIATED QUANTITATIVE ANALYSES OF BIOLOGICAL DATA, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 PHYTOPLANKTON\n\n<table><tr><th>DATE</th><th>TIME</th><th></th><th>PHYLUM\nCLASS\nORDER\nFAMILY\nGENUS\nSPECIES</th><th>COMMON\nNAME</th><th>COUNT\n(CELLS/ML)</th><th>PERCENT\nOF TOTAL</th></tr><tr><td>MAR</td><td>1000</td><td></td><td>CHRYSOPHYTA</td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>BACILLARIOPHYCEAE</td><td>DIATOMS</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CENTRALES</td><td>CENTRIC</td><td></td><td></td></tr><tr><td></td><td></td><td>#</td><td>COSCINODISCACEAE\nCYCLOTELLA\nPENNALES</td><td>PENNATE</td><td>820</td><td>21</td></tr><tr><td></td><td></td><td></td><td>ACHNANTHACEAE\nCOCCONEIS\nNAVICULACEAE</td><td>NAVICULOID</td><td>100</td><td>3</td></tr><tr><td></td><td></td><td>#</td><td>NAVICULA</td><td></td><td>720</td><td>18</td></tr><tr><td></td><td></td><td></td><td>NITZSCHIACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>#</td><td>NITZSCHIA</td><td></td><td>1,900</td><td>50</td></tr><tr><td></td><td></td><td></td><td>SURIRELLACEAE\nSURIRELLA</td><td></td><td>200</td><td>5</td></tr><tr><td></td><td></td><td></td><td>EUGLENOPHYTA\nEUGLENOPHYCEAE\nEUGLENALES\nEUGLENACEAE\nEUGLENA</td><td>EUGLENOIDS</td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>TOTAL PHYTOPLANKTON</td><td></td><td>3,900</td><td></td></tr><tr><td>APR\n30</td><td>1250</td><td></td><td>CHLOROPHYTA\nCHLOROPHYCEAE\nCHLOROCOCCALES\nOOCYSTACEAE\nANKISTRODESMUS</td><td>GREEN ALGAE</td><td>50</td><td>2</td></tr><tr><td></td><td></td><td></td><td>CHRYSOPHYTA</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>BACILLARIOPHYCEAE</td><td>DIATOMS</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CENTRALES</td><td>CENTRIC</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>COSCINODISCACEAE\nCYCLOTELLA</td><td></td><td>50</td><td>2</td></tr><tr><td></td><td></td><td>#</td><td>MELOSIRA\nPENNALES</td><td>PENNATE</td><td></td><td>0</td></tr><tr><td></td><td></td><td></td><td>ACHNANTHACEAE\nACHNANTHES</td><td></td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>CYMBELLACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CYMBELLA</td><td></td><td>50</td><td>2</td></tr><tr><td></td><td></td><td></td><td>FRAGILARIACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>FRAGILARIA</td><td></td><td>150</td><td>5</td></tr><tr><td></td><td></td><td></td><td>SYNEDRA</td><td></td><td></td><td>0</td></tr><tr><td></td><td></td><td></td><td>GOMPHONEMATACEAE\nGOMPHONEMA</td><td></td><td>250</td><td>9</td></tr><tr><td></td><td></td><td></td><td>NAVICULACEAE\nDIPLONEIS</td><td>NAVICULOID</td><td>50</td><td>2</td></tr><tr><td></td><td></td><td>#</td><td>NAVICULA</td><td></td><td>500</td><td>17</td></tr><tr><td></td><td></td><td>#</td><td>NITZSCHIACEAE\nNITZSCHIA</td><td></td><td>1,300</td><td>45</td></tr><tr><td></td><td></td><td></td><td>SURIRELLACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>SURIRELLA</td><td></td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>CYANOPHYTA\nMYXOPHYCEAE</td><td>BLUE-GREEN ALGAE</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>OSCILLATORIALES\nOSCILLATORIACEAE\n0SCILLATORIA</td><td>FILAMENTOUS</td><td>300</td><td>10</td></tr><tr><td></td><td></td><td></td><td>TOTAL PHYTOPLANKTON</td><td></td><td>2,900</td><td></td></tr></table>",
+                "embed": "# SANTA ANA RIVER BASIN 11074000 SANTA ANA RIVER BELOW PRADO DAM, CA--Continued QUALITATIVE AND ASSOCIATED QUANTITATIVE ANALYSES OF BIOLOGICAL DATA, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 PHYTOPLANKTON\n\n<table><tr><th>DATE</th><th>TIME</th><th></th><th>PHYLUM\nCLASS\nORDER\nFAMILY\nGENUS\nSPECIES</th><th>COMMON\nNAME</th><th>COUNT\n(CELLS/ML)</th><th>PERCENT\nOF TOTAL</th></tr><tr><td>MAR</td><td>1000</td><td></td><td>CHRYSOPHYTA</td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>BACILLARIOPHYCEAE</td><td>DIATOMS</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CENTRALES</td><td>CENTRIC</td><td></td><td></td></tr><tr><td></td><td></td><td>#</td><td>COSCINODISCACEAE\nCYCLOTELLA\nPENNALES</td><td>PENNATE</td><td>820</td><td>21</td></tr><tr><td></td><td></td><td></td><td>ACHNANTHACEAE\nCOCCONEIS\nNAVICULACEAE</td><td>NAVICULOID</td><td>100</td><td>3</td></tr><tr><td></td><td></td><td>#</td><td>NAVICULA</td><td></td><td>720</td><td>18</td></tr><tr><td></td><td></td><td></td><td>NITZSCHIACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>#</td><td>NITZSCHIA</td><td></td><td>1,900</td><td>50</td></tr><tr><td></td><td></td><td></td><td>SURIRELLACEAE\nSURIRELLA</td><td></td><td>200</td><td>5</td></tr><tr><td></td><td></td><td></td><td>EUGLENOPHYTA\nEUGLENOPHYCEAE\nEUGLENALES\nEUGLENACEAE\nEUGLENA</td><td>EUGLENOIDS</td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>TOTAL PHYTOPLANKTON</td><td></td><td>3,900</td><td></td></tr><tr><td>APR\n30</td><td>1250</td><td></td><td>CHLOROPHYTA\nCHLOROPHYCEAE\nCHLOROCOCCALES\nOOCYSTACEAE\nANKISTRODESMUS</td><td>GREEN ALGAE</td><td>50</td><td>2</td></tr><tr><td></td><td></td><td></td><td>CHRYSOPHYTA</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>BACILLARIOPHYCEAE</td><td>DIATOMS</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CENTRALES</td><td>CENTRIC</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>COSCINODISCACEAE\nCYCLOTELLA</td><td></td><td>50</td><td>2</td></tr><tr><td></td><td></td><td>#</td><td>MELOSIRA\nPENNALES</td><td>PENNATE</td><td></td><td>0</td></tr><tr><td></td><td></td><td></td><td>ACHNANTHACEAE\nACHNANTHES</td><td></td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>CYMBELLACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CYMBELLA</td><td></td><td>50</td><td>2</td></tr><tr><td></td><td></td><td></td><td>FRAGILARIACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>FRAGILARIA</td><td></td><td>150</td><td>5</td></tr><tr><td></td><td></td><td></td><td>SYNEDRA</td><td></td><td></td><td>0</td></tr><tr><td></td><td></td><td></td><td>GOMPHONEMATACEAE\nGOMPHONEMA</td><td></td><td>250</td><td>9</td></tr><tr><td></td><td></td><td></td><td>NAVICULACEAE\nDIPLONEIS</td><td>NAVICULOID</td><td>50</td><td>2</td></tr><tr><td></td><td></td><td>#</td><td>NAVICULA</td><td></td><td>500</td><td>17</td></tr><tr><td></td><td></td><td>#</td><td>NITZSCHIACEAE\nNITZSCHIA</td><td></td><td>1,300</td><td>45</td></tr><tr><td></td><td></td><td></td><td>SURIRELLACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>SURIRELLA</td><td></td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>CYANOPHYTA\nMYXOPHYCEAE</td><td>BLUE-GREEN ALGAE</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>OSCILLATORIALES\nOSCILLATORIACEAE\n0SCILLATORIA</td><td>FILAMENTOUS</td><td>300</td><td>10</td></tr><tr><td></td><td></td><td></td><td>TOTAL PHYTOPLANKTON</td><td></td><td>2,900</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.09527860484900043,
+                            "top": 0.0684312459651388,
+                            "width": 0.7601020842194811,
+                            "height": 0.05907036797934151,
+                            "page": 1
+                        },
+                        "content": "SANTA ANA RIVER BASIN 11074000 SANTA ANA RIVER BELOW PRADO DAM, CA--Continued QUALITATIVE AND ASSOCIATED QUANTITATIVE ANALYSES OF BIOLOGICAL DATA, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 PHYTOPLANKTON",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.15014013682259544,
+                            "top": 0.13677033830104604,
+                            "width": 0.6585169069719334,
+                            "height": 0.6745946993744705,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>TIME</th><th></th><th>PHYLUM\nCLASS\nORDER\nFAMILY\nGENUS\nSPECIES</th><th>COMMON\nNAME</th><th>COUNT\n(CELLS/ML)</th><th>PERCENT\nOF TOTAL</th></tr><tr><td>MAR</td><td>1000</td><td></td><td>CHRYSOPHYTA</td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>BACILLARIOPHYCEAE</td><td>DIATOMS</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CENTRALES</td><td>CENTRIC</td><td></td><td></td></tr><tr><td></td><td></td><td>#</td><td>COSCINODISCACEAE\nCYCLOTELLA\nPENNALES</td><td>PENNATE</td><td>820</td><td>21</td></tr><tr><td></td><td></td><td></td><td>ACHNANTHACEAE\nCOCCONEIS\nNAVICULACEAE</td><td>NAVICULOID</td><td>100</td><td>3</td></tr><tr><td></td><td></td><td>#</td><td>NAVICULA</td><td></td><td>720</td><td>18</td></tr><tr><td></td><td></td><td></td><td>NITZSCHIACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>#</td><td>NITZSCHIA</td><td></td><td>1,900</td><td>50</td></tr><tr><td></td><td></td><td></td><td>SURIRELLACEAE\nSURIRELLA</td><td></td><td>200</td><td>5</td></tr><tr><td></td><td></td><td></td><td>EUGLENOPHYTA\nEUGLENOPHYCEAE\nEUGLENALES\nEUGLENACEAE\nEUGLENA</td><td>EUGLENOIDS</td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>TOTAL PHYTOPLANKTON</td><td></td><td>3,900</td><td></td></tr><tr><td>APR\n30</td><td>1250</td><td></td><td>CHLOROPHYTA\nCHLOROPHYCEAE\nCHLOROCOCCALES\nOOCYSTACEAE\nANKISTRODESMUS</td><td>GREEN ALGAE</td><td>50</td><td>2</td></tr><tr><td></td><td></td><td></td><td>CHRYSOPHYTA</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>BACILLARIOPHYCEAE</td><td>DIATOMS</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CENTRALES</td><td>CENTRIC</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>COSCINODISCACEAE\nCYCLOTELLA</td><td></td><td>50</td><td>2</td></tr><tr><td></td><td></td><td>#</td><td>MELOSIRA\nPENNALES</td><td>PENNATE</td><td></td><td>0</td></tr><tr><td></td><td></td><td></td><td>ACHNANTHACEAE\nACHNANTHES</td><td></td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>CYMBELLACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>CYMBELLA</td><td></td><td>50</td><td>2</td></tr><tr><td></td><td></td><td></td><td>FRAGILARIACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>FRAGILARIA</td><td></td><td>150</td><td>5</td></tr><tr><td></td><td></td><td></td><td>SYNEDRA</td><td></td><td></td><td>0</td></tr><tr><td></td><td></td><td></td><td>GOMPHONEMATACEAE\nGOMPHONEMA</td><td></td><td>250</td><td>9</td></tr><tr><td></td><td></td><td></td><td>NAVICULACEAE\nDIPLONEIS</td><td>NAVICULOID</td><td>50</td><td>2</td></tr><tr><td></td><td></td><td>#</td><td>NAVICULA</td><td></td><td>500</td><td>17</td></tr><tr><td></td><td></td><td>#</td><td>NITZSCHIACEAE\nNITZSCHIA</td><td></td><td>1,300</td><td>45</td></tr><tr><td></td><td></td><td></td><td>SURIRELLACEAE</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>SURIRELLA</td><td></td><td>100</td><td>3</td></tr><tr><td></td><td></td><td></td><td>CYANOPHYTA\nMYXOPHYCEAE</td><td>BLUE-GREEN ALGAE</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>OSCILLATORIALES\nOSCILLATORIACEAE\n0SCILLATORIA</td><td>FILAMENTOUS</td><td>300</td><td>10</td></tr><tr><td></td><td></td><td></td><td>TOTAL PHYTOPLANKTON</td><td></td><td>2,900</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA ANA RIVER BASIN 11074000 SANTA ANA RIVER BELOW PRADO DAM, CA--Continued QUALITATIVE AND ASSOCIATED QUANTITATIVE ANALYSES OF BIOLOGICAL DATA, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 PHYTOPLANKTON (cont.)\n\nSee footnotes at end of table.",
+                "embed": "# SANTA ANA RIVER BASIN 11074000 SANTA ANA RIVER BELOW PRADO DAM, CA--Continued QUALITATIVE AND ASSOCIATED QUANTITATIVE ANALYSES OF BIOLOGICAL DATA, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 PHYTOPLANKTON (cont.)\n\nSee footnotes at end of table.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.18034878774989366,
+                            "top": 0.8266623628147192,
+                            "width": 0.20459378987664822,
+                            "height": 0.007424144609425436,
+                            "page": 1
+                        },
+                        "content": "See footnotes at end of table.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

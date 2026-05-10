@@ -1,0 +1,26 @@
+```json
+{
+    "Watersource_Name": "Devil Canyon Creek",
+    "County": "San Bernardino County",
+    "Location": "Near San Bernardino, California",
+    "Townships_Ranges_Sections": ["T. 1 N., R. 5 W."],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "second-feet",
+    "Latitude": 34.0972,
+    "Longitude": -117.2879,
+    "Dates_of_Recording": "01/01/1919-09/30/1920",
+    "Water_Type": "Stream discharge"
+},
+{
+    "Watersource_Name": "Lytle Creek and Fontana Pipe Line",
+    "County": "San Bernardino County",
+    "Location": "Near Fontana, California",
+    "Townships_Ranges_Sections": ["NW. 1 sec. 6, T. 1 N., R. 5 W."],
+    "Temporal_Resolution": "Not specified",
+    "Units_Of_Measurement": "Not specified",
+    "Latitude": 34.1080,
+    "Longitude": -117.4372,
+    "Dates_of_Recording": "10/01/1918-09/30/1920",
+    "Water_Type": "Stream discharge"
+}
+```

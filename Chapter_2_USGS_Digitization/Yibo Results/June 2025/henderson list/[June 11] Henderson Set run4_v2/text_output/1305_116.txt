@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Bored well, 122 feet deep",
+        "County": "San Bernardino",
+        "Location": "11 miles west of Redlands, Redlands quadrangle",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Variable (annual to multiple years)",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 33.9389,
+        "Longitude": -117.1808,
+        "Dates_of_Recording": "1900-10/01-1920-10/29",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Bored well, 284 feet deep",
+        "County": "San Bernardino",
+        "Location": "11 miles west of Redlands, Redlands quadrangle",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Variable (annual to multiple years)",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 33.9389,
+        "Longitude": -117.1808,
+        "Dates_of_Recording": "1899-04/09-1915-07/10",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

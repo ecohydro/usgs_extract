@@ -1,0 +1,222 @@
+{
+    "job_id": "9d0c3d8b-c13d-4371-bb2a-ffd865249841",
+    "duration": 5.2941999435424805,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/90039a9a-f5a4-4efe-bf6f-0e0e04231465?AWSAccessKeyId=ASIA2UOK6OVBJLXTYWVB&Signature=I5o6I4M%2FZEB9ZV5xVeeN5OHO%2Fk4%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIAfcjp%2BhC8q75nhWX5RVqgNfwqnDuu6sjh20a4h0f0aKAiEA7T4BvEvyTPzftzzOegtPMoOpAzver4h84o5ajttqijQqiwUIIxAAGgw3MzExMDY5MzIwMzQiDGorOBN2LG4%2FKPY%2FwCroBOI%2F9UCInVfJrRz%2BgME%2Ft6JH3hYT4PojuPvX9oG69TfHlEiaTbqDAo6QGQzxQf%2BHJd4YGa3YGimaXh4xMqt%2FgG5y0f99jQ6Lh4hFF97vbhrClJT7PnRlzqkfAo8OsAC%2Bn%2FJ1F4otz6v1hOLyFkMsuuXSX%2BeAPvM4Ed0Eoic8gzXVzI7qtsS6HkURDDN0tH%2FyXR8%2FJTorBXRBH6fo9sNqIv2Qj5cTJnCmgu0NEnKP7Yz7Lo60fnzCzVqWkJ38O64BuJHkMY9SeJeo5CISG1eAiqz8K5Al4c5CGFn9Y4yrldtAys4ezS0sTW8pfXbbtr7%2BTigoB6iSywwjntSvWLj%2BMfhUVJn%2BqJ7o407Jcisy8l7Jf0CftgIHfd%2FG8QG%2Bd2CNiPUGaWHug5z6rbZORMUim%2FuWIZItQzQT67zGsf5as0laMdKsveidjYmp4a718f%2BO67fipqAErPMLbmCIRZHfLrP%2F5bXccjTKdJv54sEe58i7Rb49zAOPW7r%2FLlFJuE5GKqZR7bV%2FK0mxmJB1YX1gaSf9mQimfyXOCRtCryt4gPMhDA%2BMLsRZuWr11RD%2FCJdDOS%2BPBDLqwsodBBJen%2BkiGQL2w7mlcaJ%2BMAXY65dKorKxb2Hx5AiQcliDEpFNe3EPOz6PQ341NCf34i2vsZUh9u%2FAW7b%2B3LilwynrCPpx13FpsJKkf3z3l4dCZ4VthbORyNlKgRcweaaJhsU8cH70ow6xQfc6WVqdyZV4yYfuL%2F0fcpwQmO5BD1RjFrEhdi%2FSWSK0xn2pcZc1fxZhNeYbsvbD43fhoziWUznvwWTRZPyVwKEUjgkDWrcw0arJugY6mwHSV6mk5yh59zZNRlphDNEr2Uvkdc1GPaM0fP0To8%2FlAdSSFBqB2WSx9%2BF%2BTVtdihH%2Fa7h8KcINaJF%2BclYGyJCg4PpjKUP87YNxlmAbundTf9qzB19YA%2FFRSQWvDiWIhKhbT3bTfkCVVjto6vNohjgR%2FQXrw6N%2FSN2w97Vudzqf4Yv8NygR%2BSKGy7vLY9i5HW75e%2B0CwdeSCYFjwQ%3D%3D&Expires=1733454786",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN GABRIEL RIVER BASIN\n\nCombined monthly discharge of San Gabriel River and Southern California Edison Co.'s canal near Azusa, Calif., for the year ending September 30, 1925",
+                "embed": "# SAN GABRIEL RIVER BASIN\n\nCombined monthly discharge of San Gabriel River and Southern California Edison Co.'s canal near Azusa, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.31523750771128933,
+                            "top": 0.046188509200150205,
+                            "width": 0.31030228254164094,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "SAN GABRIEL RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8470080197409007,
+                            "top": 0.04280886218550507,
+                            "width": 0.030228254164096236,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "69",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06230721776681061,
+                            "top": 0.07547878332707472,
+                            "width": 0.8155459592843923,
+                            "height": 0.02853924145700338,
+                            "page": 1
+                        },
+                        "content": "Combined monthly discharge of San Gabriel River and Southern California Edison Co.'s canal near Azusa, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN GABRIEL RIVER BASIN (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>17.6</td><td>11.</td><td>14.2</td><td>878</td></tr><tr><td>November</td><td>32</td><td>14. 3</td><td>20.0</td><td>1,190</td></tr><tr><td>December</td><td>67</td><td>19. 9</td><td>29. 0</td><td>1,780</td></tr><tr><td>January</td><td>30</td><td>26</td><td>27. 8</td><td>1,710</td></tr><tr><td>February</td><td>39</td><td>26</td><td>29. 2</td><td>1, 620</td></tr><tr><td>March</td><td>197</td><td>26</td><td>40. 9</td><td>2,510</td></tr><tr><td>April</td><td>668</td><td>50</td><td>121</td><td>7, 200</td></tr><tr><td>May</td><td>67</td><td>36</td><td>49. 6</td><td>3, 050</td></tr><tr><td>June</td><td>56</td><td>18. 8</td><td>31. 0</td><td>1, 840</td></tr><tr><td>July</td><td>20</td><td>10. 2</td><td>13. 4</td><td>824</td></tr><tr><td>August</td><td>14. 7</td><td>6. 4</td><td>10. 1</td><td>621</td></tr><tr><td>September</td><td>9.6</td><td>6. 7</td><td>8. 27</td><td>499</td></tr><tr><td>The year</td><td>668</td><td>6. 4</td><td>32.8</td><td>23, 700</td></tr></table>",
+                "embed": "# SAN GABRIEL RIVER BASIN (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>17.6</td><td>11.</td><td>14.2</td><td>878</td></tr><tr><td>November</td><td>32</td><td>14. 3</td><td>20.0</td><td>1,190</td></tr><tr><td>December</td><td>67</td><td>19. 9</td><td>29. 0</td><td>1,780</td></tr><tr><td>January</td><td>30</td><td>26</td><td>27. 8</td><td>1,710</td></tr><tr><td>February</td><td>39</td><td>26</td><td>29. 2</td><td>1, 620</td></tr><tr><td>March</td><td>197</td><td>26</td><td>40. 9</td><td>2,510</td></tr><tr><td>April</td><td>668</td><td>50</td><td>121</td><td>7, 200</td></tr><tr><td>May</td><td>67</td><td>36</td><td>49. 6</td><td>3, 050</td></tr><tr><td>June</td><td>56</td><td>18. 8</td><td>31. 0</td><td>1, 840</td></tr><tr><td>July</td><td>20</td><td>10. 2</td><td>13. 4</td><td>824</td></tr><tr><td>August</td><td>14. 7</td><td>6. 4</td><td>10. 1</td><td>621</td></tr><tr><td>September</td><td>9.6</td><td>6. 7</td><td>8. 27</td><td>499</td></tr><tr><td>The year</td><td>668</td><td>6. 4</td><td>32.8</td><td>23, 700</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05901697195289607,
+                            "top": 0.11496223796367466,
+                            "width": 0.8255719108981604,
+                            "height": 0.21427088360387134,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>17.6</td><td>11.</td><td>14.2</td><td>878</td></tr><tr><td>November</td><td>32</td><td>14. 3</td><td>20.0</td><td>1,190</td></tr><tr><td>December</td><td>67</td><td>19. 9</td><td>29. 0</td><td>1,780</td></tr><tr><td>January</td><td>30</td><td>26</td><td>27. 8</td><td>1,710</td></tr><tr><td>February</td><td>39</td><td>26</td><td>29. 2</td><td>1, 620</td></tr><tr><td>March</td><td>197</td><td>26</td><td>40. 9</td><td>2,510</td></tr><tr><td>April</td><td>668</td><td>50</td><td>121</td><td>7, 200</td></tr><tr><td>May</td><td>67</td><td>36</td><td>49. 6</td><td>3, 050</td></tr><tr><td>June</td><td>56</td><td>18. 8</td><td>31. 0</td><td>1, 840</td></tr><tr><td>July</td><td>20</td><td>10. 2</td><td>13. 4</td><td>824</td></tr><tr><td>August</td><td>14. 7</td><td>6. 4</td><td>10. 1</td><td>621</td></tr><tr><td>September</td><td>9.6</td><td>6. 7</td><td>8. 27</td><td>499</td></tr><tr><td>The year</td><td>668</td><td>6. 4</td><td>32.8</td><td>23, 700</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN GABRIEL RIVER BASIN (cont.)\n\n## SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF.\n\nLOCATION.-At Southern California Edison Co.'s power house, 5 miles southwest of intake on San Gabriel River and 11/2 miles north of Azusa, Los Angeles County.\n\nRECORDS AVAILABLE.-1896 to September 30, 1925. GAGE.-Hook gage in division box in tailrace of power plant; read by employee of power company.\n\nCHANNEL AND CONTROL.-Control formed by two weirs with end contractions. A movable steel plate forms the left end of one weir and right end of the other weir. Total length of weir crest is 44 feet 91/4 inches. A supplemen- tary plate 11/2 feet long is placed on crest of Duarte Weir to shorten it when necessary to divide the water.\n\nEXTREMES OF RGE.-Maximun mean daily discharge during year, 86 second-feet April 6; minimum mean daily discharge, 6.4 second-feet August 26.\n\n1896-1925: Maximum mean daily discharge recorded, 97 second-feet November 27, 1906; canal usually dry for a few days each year.\n\nAccuracy.-Gage read to hundredths twice daily. Daily discharge ascertained by applying mean gage height to weir table. Records good.",
+                "embed": "# SAN GABRIEL RIVER BASIN (cont.)\n\n## SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF.\n\nLOCATION.-At Southern California Edison Co.'s power house, 5 miles southwest of intake on San Gabriel River and 11/2 miles north of Azusa, Los Angeles County.\n\nRECORDS AVAILABLE.-1896 to September 30, 1925. GAGE.-Hook gage in division box in tailrace of power plant; read by employee of power company.\n\nCHANNEL AND CONTROL.-Control formed by two weirs with end contractions. A movable steel plate forms the left end of one weir and right end of the other weir. Total length of weir crest is 44 feet 91/4 inches. A supplemen- tary plate 11/2 feet long is placed on crest of Duarte Weir to shorten it when necessary to divide the water.\n\nEXTREMES OF RGE.-Maximun mean daily discharge during year, 86 second-feet April 6; minimum mean daily discharge, 6.4 second-feet August 26.\n\n1896-1925: Maximum mean daily discharge recorded, 97 second-feet November 27, 1906; canal usually dry for a few days each year.\n\nAccuracy.-Gage read to hundredths twice daily. Daily discharge ascertained by applying mean gage height to weir table. Records good.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.16594694632942628,
+                            "top": 0.34134434847915884,
+                            "width": 0.5959284392350401,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05922270203578038,
+                            "top": 0.3589936162223057,
+                            "width": 0.8223318938926588,
+                            "height": 0.045061960195268494,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-At Southern California Edison Co.'s power house, 5 miles southwest of intake on San Gabriel River and 11/2 miles north of Azusa, Los Angeles County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05860579888957434,
+                            "top": 0.40443109275253475,
+                            "width": 0.8180135718692165,
+                            "height": 0.045061960195268494,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-1896 to September 30, 1925. GAGE.-Hook gage in division box in tailrace of power plant; read by employee of power company.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05737199259716225,
+                            "top": 0.44911753661284265,
+                            "width": 0.8186304750154226,
+                            "height": 0.07472775065715359,
+                            "page": 1
+                        },
+                        "content": "CHANNEL AND CONTROL.-Control formed by two weirs with end contractions. A movable steel plate forms the left end of one weir and right end of the other weir. Total length of weir crest is 44 feet 91/4 inches. A supplemen- tary plate 11/2 feet long is placed on crest of Duarte Weir to shorten it when necessary to divide the water.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05798889574336829,
+                            "top": 0.5238452872699962,
+                            "width": 0.8186304750154226,
+                            "height": 0.04468644386030792,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF RGE.-Maximun mean daily discharge during year, 86 second-feet April 6; minimum mean daily discharge, 6.4 second-feet August 26.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10302282541640963,
+                            "top": 0.5700337964701464,
+                            "width": 0.7711289327575571,
+                            "height": 0.028914757791963952,
+                            "page": 1
+                        },
+                        "content": "1896-1925: Maximum mean daily discharge recorded, 97 second-feet November 27, 1906; canal usually dry for a few days each year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.055521283158544106,
+                            "top": 0.5989485542621104,
+                            "width": 0.8192473781616286,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "Accuracy.-Gage read to hundredths twice daily. Daily discharge ascertained by applying mean gage height to weir table. Records good.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN GABRIEL RIVER BASIN (cont.)\n\n## SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF. (cont.)\n\nDiversion dam for canal is on San Gabriel River in SE. 1/4 SE. 1/4 sec. 31, T. 2 N., R. 9 W., 5 miles above gaging station on San Gabriel River at mouth of canyon near Azusa. The water is used for development of power at a point about 11/2 miles north of Azusa and after leaving the power plant is divided and used for irrigation-part is discharged into Azusa-Covina Canal and the remain- der into Duarte Canal. During the rainy season part of the water from the power plant is wasted back into San Gabriel River below the gaging station.\n\nDaily discharge, in second-feet, of Southern California Edison Co.'s canal near Azusa, Calif., for the year ending September 30, 1925",
+                "embed": "# SAN GABRIEL RIVER BASIN (cont.)\n\n## SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF. (cont.)\n\nDiversion dam for canal is on San Gabriel River in SE. 1/4 SE. 1/4 sec. 31, T. 2 N., R. 9 W., 5 miles above gaging station on San Gabriel River at mouth of canyon near Azusa. The water is used for development of power at a point about 11/2 miles north of Azusa and after leaving the power plant is divided and used for irrigation-part is discharged into Azusa-Covina Canal and the remain- der into Duarte Canal. During the rainy season part of the water from the power plant is wasted back into San Gabriel River below the gaging station.\n\nDaily discharge, in second-feet, of Southern California Edison Co.'s canal near Azusa, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05243676742751388,
+                            "top": 0.6357491550882464,
+                            "width": 0.8210980876002467,
+                            "height": 0.10476905745399925,
+                            "page": 1
+                        },
+                        "content": "Diversion dam for canal is on San Gabriel River in SE. 1/4 SE. 1/4 sec. 31, T. 2 N., R. 9 W., 5 miles above gaging station on San Gabriel River at mouth of canyon near Azusa. The water is used for development of power at a point about 11/2 miles north of Azusa and after leaving the power plant is divided and used for irrigation-part is discharged into Azusa-Covina Canal and the remain- der into Duarte Canal. During the rainy season part of the water from the power plant is wasted back into San Gabriel River below the gaging station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05367057371992597,
+                            "top": 0.750657153586181,
+                            "width": 0.8173966687230105,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Southern California Edison Co.'s canal near Azusa, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN GABRIEL RIVER BASIN (cont.)\n\n## SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>11. 7</td><td>16. 0</td><td>20</td><td>27</td><td>26</td><td>28</td><td>61</td><td>67</td><td>39</td><td>20</td><td>10.6</td><td>8. 6</td></tr><tr><td>2.</td><td>11. 4</td><td>15. 4</td><td>21</td><td>27</td><td>27</td><td>28</td><td>51</td><td>62</td><td>38</td><td>19. 4</td><td>11. 3</td><td>8. 8</td></tr><tr><td>3</td><td>11. 2</td><td>14. 3</td><td>19. 9</td><td>28</td><td>27</td><td>27</td><td>48</td><td>60</td><td>42</td><td>19. 0</td><td>14. 2</td><td>8. 8</td></tr><tr><td>4</td><td>11. 9</td><td>14. 3</td><td>20</td><td>28</td><td>27</td><td>26</td><td>80</td><td>58</td><td>56</td><td>18. 8</td><td>14. 7</td><td>9. 6</td></tr><tr><td>5</td><td>13. 0</td><td>15. 2</td><td>20</td><td>28</td><td>27</td><td>26</td><td>80</td><td>59</td><td>49</td><td>18. 0</td><td>12. 1</td><td>9. 4</td></tr><tr><td>6</td><td>14.0</td><td>16.</td><td>33</td><td>28</td><td>27</td><td>27</td><td>86</td><td>56</td><td>46</td><td>16.4</td><td>12. 1</td><td>8. 8</td></tr><tr><td>7</td><td>15. 4</td><td>17. 1</td><td>31</td><td>26</td><td>27</td><td>71</td><td>85</td><td>56</td><td>39</td><td>15.</td><td>11. 9</td><td>8. 8</td></tr><tr><td>8</td><td>16.</td><td>17.</td><td>29</td><td>28</td><td>27</td><td>49</td><td>84</td><td>56</td><td>37</td><td>16.4</td><td>11. 5</td><td>8. 2</td></tr><tr><td>9</td><td>16.0</td><td>18.</td><td>28</td><td>28</td><td>27</td><td>41</td><td>84</td><td>55</td><td>33</td><td>16.4</td><td>11. 5</td><td>7. 0</td></tr><tr><td>10</td><td>16.0</td><td>32</td><td>27</td><td>28</td><td>27</td><td>36</td><td>84</td><td>55</td><td>34</td><td>15. 3</td><td>12.2</td><td>8. 8</td></tr></table>",
+                "embed": "# SAN GABRIEL RIVER BASIN (cont.)\n\n## SOUTHERN CALIFORNIA EDISON CO.'S CANAL NEAR AZUSA, CALIF. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>11. 7</td><td>16. 0</td><td>20</td><td>27</td><td>26</td><td>28</td><td>61</td><td>67</td><td>39</td><td>20</td><td>10.6</td><td>8. 6</td></tr><tr><td>2.</td><td>11. 4</td><td>15. 4</td><td>21</td><td>27</td><td>27</td><td>28</td><td>51</td><td>62</td><td>38</td><td>19. 4</td><td>11. 3</td><td>8. 8</td></tr><tr><td>3</td><td>11. 2</td><td>14. 3</td><td>19. 9</td><td>28</td><td>27</td><td>27</td><td>48</td><td>60</td><td>42</td><td>19. 0</td><td>14. 2</td><td>8. 8</td></tr><tr><td>4</td><td>11. 9</td><td>14. 3</td><td>20</td><td>28</td><td>27</td><td>26</td><td>80</td><td>58</td><td>56</td><td>18. 8</td><td>14. 7</td><td>9. 6</td></tr><tr><td>5</td><td>13. 0</td><td>15. 2</td><td>20</td><td>28</td><td>27</td><td>26</td><td>80</td><td>59</td><td>49</td><td>18. 0</td><td>12. 1</td><td>9. 4</td></tr><tr><td>6</td><td>14.0</td><td>16.</td><td>33</td><td>28</td><td>27</td><td>27</td><td>86</td><td>56</td><td>46</td><td>16.4</td><td>12. 1</td><td>8. 8</td></tr><tr><td>7</td><td>15. 4</td><td>17. 1</td><td>31</td><td>26</td><td>27</td><td>71</td><td>85</td><td>56</td><td>39</td><td>15.</td><td>11. 9</td><td>8. 8</td></tr><tr><td>8</td><td>16.</td><td>17.</td><td>29</td><td>28</td><td>27</td><td>49</td><td>84</td><td>56</td><td>37</td><td>16.4</td><td>11. 5</td><td>8. 2</td></tr><tr><td>9</td><td>16.0</td><td>18.</td><td>28</td><td>28</td><td>27</td><td>41</td><td>84</td><td>55</td><td>33</td><td>16.4</td><td>11. 5</td><td>7. 0</td></tr><tr><td>10</td><td>16.0</td><td>32</td><td>27</td><td>28</td><td>27</td><td>36</td><td>84</td><td>55</td><td>34</td><td>15. 3</td><td>12.2</td><td>8. 8</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05387323510124682,
+                            "top": 0.7865231807993804,
+                            "width": 0.8204270256367235,
+                            "height": 0.147608265319893,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>11. 7</td><td>16. 0</td><td>20</td><td>27</td><td>26</td><td>28</td><td>61</td><td>67</td><td>39</td><td>20</td><td>10.6</td><td>8. 6</td></tr><tr><td>2.</td><td>11. 4</td><td>15. 4</td><td>21</td><td>27</td><td>27</td><td>28</td><td>51</td><td>62</td><td>38</td><td>19. 4</td><td>11. 3</td><td>8. 8</td></tr><tr><td>3</td><td>11. 2</td><td>14. 3</td><td>19. 9</td><td>28</td><td>27</td><td>27</td><td>48</td><td>60</td><td>42</td><td>19. 0</td><td>14. 2</td><td>8. 8</td></tr><tr><td>4</td><td>11. 9</td><td>14. 3</td><td>20</td><td>28</td><td>27</td><td>26</td><td>80</td><td>58</td><td>56</td><td>18. 8</td><td>14. 7</td><td>9. 6</td></tr><tr><td>5</td><td>13. 0</td><td>15. 2</td><td>20</td><td>28</td><td>27</td><td>26</td><td>80</td><td>59</td><td>49</td><td>18. 0</td><td>12. 1</td><td>9. 4</td></tr><tr><td>6</td><td>14.0</td><td>16.</td><td>33</td><td>28</td><td>27</td><td>27</td><td>86</td><td>56</td><td>46</td><td>16.4</td><td>12. 1</td><td>8. 8</td></tr><tr><td>7</td><td>15. 4</td><td>17. 1</td><td>31</td><td>26</td><td>27</td><td>71</td><td>85</td><td>56</td><td>39</td><td>15.</td><td>11. 9</td><td>8. 8</td></tr><tr><td>8</td><td>16.</td><td>17.</td><td>29</td><td>28</td><td>27</td><td>49</td><td>84</td><td>56</td><td>37</td><td>16.4</td><td>11. 5</td><td>8. 2</td></tr><tr><td>9</td><td>16.0</td><td>18.</td><td>28</td><td>28</td><td>27</td><td>41</td><td>84</td><td>55</td><td>33</td><td>16.4</td><td>11. 5</td><td>7. 0</td></tr><tr><td>10</td><td>16.0</td><td>32</td><td>27</td><td>28</td><td>27</td><td>36</td><td>84</td><td>55</td><td>34</td><td>15. 3</td><td>12.2</td><td>8. 8</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

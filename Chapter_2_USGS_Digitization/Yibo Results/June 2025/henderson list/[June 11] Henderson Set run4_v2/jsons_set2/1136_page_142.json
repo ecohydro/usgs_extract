@@ -1,0 +1,190 @@
+{
+    "job_id": "d202771a-a3f5-417b-98fd-a75775d91b13",
+    "duration": 6.17690372467041,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/bbfdb30e-e65f-4adc-99fd-8a3d473bff89?AWSAccessKeyId=ASIA2UOK6OVBBAXFKNDT&Signature=ovvb5hfBzVVjky1pqSBd6CSJuG8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIGjFHBwMVT04ZHmCksIwFgzvAHoYkjuuMYDoJVUjCzNtAiEA%2FCRfoAadZ6ELu4K6UWs%2FqkRqTVnxY8rNRx6RchgLWykqiwUIIhAAGgw3MzExMDY5MzIwMzQiDGKnhx4gWZ8iB%2FKITSroBA2HwE3JdRkvwA6N5LZWJVNsw1s5yUgQbetxC6Kf7GHCSCTw4HRSEVsAroqUs1yolPGKi8Eg6GDxYUB4plpxd2BlcyOJhIKG2qQDHx6Egvx6WySJFCTvBPr8bgCy5tDK%2BBo09xRr3r%2F%2BGqoI0tM%2BQYJZtFYNJPxaEWkmf35op5qJTT69KoiEsRqkJQ3sAGTWl4PGeM6iicE64wUmhpgjqmeo5if2QZHgq8HY0JsfR12rQsg37fOrRVlgWNlCcUJQKbTWY48numFlAenjTmSJzlBAzCfCUrwoAR%2Bk0vEu9BwKdmmVvO3EE1Yt%2Bp%2BafkuZELkJcmGE3lLyUsYdRcnQNL9Z8m8CI6Y0ButIfB7n9wavr2B5jHqEI1nRJWlcqN4uyqFDHruI7zjQ6wE1fWegeT8dolQ6ltjqUGPOGTe6uDZt%2F4yEZGrVMGnRUCBAVjTn0vjhWCHKFy3%2BF3IAD6RHb6Mh5dxQjlZYX96ZRLZL%2FmTBw4mWkxiZqkP775Yy6RPkukYAVBK%2BKZo0W0x1BVOKrScKwis6sbUyLZCxn3tHzwa2hFNPHkwTvFRmbtb4klD026rsGgLqzr2x5tLmq8k8D2Ireh%2B%2FhhlNeNkMDDlxBwlSZ8oDJRmoXDU7rEkxnn55AjLrtV6Yh8SJOEBprBGv%2BwG5Ub784UGTl9zq0USSZ%2F1zaC30Aj2CtknZvMPvSFOyQppno2RLE3cLY2Ct4tlwO25zLiv8xnaNQtNOHBdaJx7ZRYNyb4qizutZiPMw8Ew9R2AJ6AkTrUDsrXlvOcYIhnTn%2FK6Qoo07D%2FvW9DkPSopArkle4Www%2BlwwhJ%2FJugY6mwFu4hHnue%2B2c7vJKRxqsnpQmrXQelOMvIkGJnnjXVPBMzClm7D4PBQmvcXvSQ%2BbBHtZcXvJoIm6c8c7mq0Zz1lMwoiYRL2LIu5JRoTsWahVQ7gTeDvgR4RqUm1JQUBTUYoR92RFiym0OROsJQqN64SBcy7kiw9u4ueYFXfU6uZZBVtdv2eQV2t6aRhkHYOLjHHSse%2FQZWgGx3%2FpIA%3D%3D&Expires=1733452757",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued.\n\nMARCH 14 TO 26, 1907. [Indirect method for shifting channel used.] MARCH 27 TO DECEMBER 31, 1907.",
+                "embed": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued.\n\nMARCH 14 TO 26, 1907. [Indirect method for shifting channel used.] MARCH 27 TO DECEMBER 31, 1907.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.12302839116719243,
+                            "top": 0.04878971255673222,
+                            "width": 0.04794952681388013,
+                            "height": 0.014372163388804841,
+                            "page": 1
+                        },
+                        "content": "136",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.3419558359621451,
+                            "top": 0.05068078668683813,
+                            "width": 0.39305993690851737,
+                            "height": 0.01588502269288956,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1907-8.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2220820189274448,
+                            "top": 0.0794251134644478,
+                            "width": 0.632807570977918,
+                            "height": 0.01739788199697428,
+                            "page": 1
+                        },
+                        "content": "Rating tables for San Gabriel River near Azusa, Cal.-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3615141955835962,
+                            "top": 0.10627836611195159,
+                            "width": 0.3482649842271293,
+                            "height": 0.049167927382753406,
+                            "page": 1
+                        },
+                        "content": "MARCH 14 TO 26, 1907. [Indirect method for shifting channel used.] MARCH 27 TO DECEMBER 31, 1907.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued. (cont.)\n\n<table><tr><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>2.00</td><td>1</td><td>2.90</td><td>63</td><td>3.80</td><td>240</td><td>4.70</td><td>655</td></tr><tr><td>2.10</td><td>3</td><td>3.00</td><td>77</td><td>3.90</td><td>270</td><td>4.80</td><td>730</td></tr><tr><td>2.20</td><td>6</td><td>3.10</td><td>92</td><td>4.00</td><td>302</td><td>4.90</td><td>810</td></tr><tr><td>2.30</td><td>11</td><td>3.20</td><td>108</td><td>4.10</td><td>336</td><td>5.00</td><td>890</td></tr><tr><td>2.40</td><td>17</td><td>3.30</td><td>125</td><td>4.20</td><td>374</td><td>5.20</td><td>1,050</td></tr><tr><td>2.50</td><td>24</td><td>3.40</td><td>143</td><td>4.30</td><td>415</td><td>5.40</td><td>1,210</td></tr><tr><td>2.60</td><td>32</td><td>3.50</td><td>163</td><td>4.40</td><td>460</td><td>5.60</td><td>1,380</td></tr><tr><td>2.70</td><td>41</td><td>3.60</td><td>186</td><td>4.50</td><td>515</td><td>5.80</td><td>1,560</td></tr><tr><td>2.80</td><td>51</td><td>3.70</td><td>212</td><td>4.60</td><td>585</td><td>6.00</td><td>1,740</td></tr></table>\n\nmeasurements made during March to August, 1907, and is fairly well defined between gage heights 2 feet and 6.3 feet. NOTE.-This table is not applicable for obstructed-channel conditions. It is based on twelve discharge\n\nFOR 1908.",
+                "embed": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued. (cont.)\n\n<table><tr><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>2.00</td><td>1</td><td>2.90</td><td>63</td><td>3.80</td><td>240</td><td>4.70</td><td>655</td></tr><tr><td>2.10</td><td>3</td><td>3.00</td><td>77</td><td>3.90</td><td>270</td><td>4.80</td><td>730</td></tr><tr><td>2.20</td><td>6</td><td>3.10</td><td>92</td><td>4.00</td><td>302</td><td>4.90</td><td>810</td></tr><tr><td>2.30</td><td>11</td><td>3.20</td><td>108</td><td>4.10</td><td>336</td><td>5.00</td><td>890</td></tr><tr><td>2.40</td><td>17</td><td>3.30</td><td>125</td><td>4.20</td><td>374</td><td>5.20</td><td>1,050</td></tr><tr><td>2.50</td><td>24</td><td>3.40</td><td>143</td><td>4.30</td><td>415</td><td>5.40</td><td>1,210</td></tr><tr><td>2.60</td><td>32</td><td>3.50</td><td>163</td><td>4.40</td><td>460</td><td>5.60</td><td>1,380</td></tr><tr><td>2.70</td><td>41</td><td>3.60</td><td>186</td><td>4.50</td><td>515</td><td>5.80</td><td>1,560</td></tr><tr><td>2.80</td><td>51</td><td>3.70</td><td>212</td><td>4.60</td><td>585</td><td>6.00</td><td>1,740</td></tr></table>\n\nmeasurements made during March to August, 1907, and is fairly well defined between gage heights 2 feet and 6.3 feet. NOTE.-This table is not applicable for obstructed-channel conditions. It is based on twelve discharge\n\nFOR 1908.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.2334511549314866,
+                            "top": 0.16763586139534678,
+                            "width": 0.6107760360188289,
+                            "height": 0.15883751896614387,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>2.00</td><td>1</td><td>2.90</td><td>63</td><td>3.80</td><td>240</td><td>4.70</td><td>655</td></tr><tr><td>2.10</td><td>3</td><td>3.00</td><td>77</td><td>3.90</td><td>270</td><td>4.80</td><td>730</td></tr><tr><td>2.20</td><td>6</td><td>3.10</td><td>92</td><td>4.00</td><td>302</td><td>4.90</td><td>810</td></tr><tr><td>2.30</td><td>11</td><td>3.20</td><td>108</td><td>4.10</td><td>336</td><td>5.00</td><td>890</td></tr><tr><td>2.40</td><td>17</td><td>3.30</td><td>125</td><td>4.20</td><td>374</td><td>5.20</td><td>1,050</td></tr><tr><td>2.50</td><td>24</td><td>3.40</td><td>143</td><td>4.30</td><td>415</td><td>5.40</td><td>1,210</td></tr><tr><td>2.60</td><td>32</td><td>3.50</td><td>163</td><td>4.40</td><td>460</td><td>5.60</td><td>1,380</td></tr><tr><td>2.70</td><td>41</td><td>3.60</td><td>186</td><td>4.50</td><td>515</td><td>5.80</td><td>1,560</td></tr><tr><td>2.80</td><td>51</td><td>3.70</td><td>212</td><td>4.60</td><td>585</td><td>6.00</td><td>1,740</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.122397476340694,
+                            "top": 0.3294251134644478,
+                            "width": 0.8334384858044164,
+                            "height": 0.030257186081694403,
+                            "page": 1
+                        },
+                        "content": "measurements made during March to August, 1907, and is fairly well defined between gage heights 2 feet and 6.3 feet. NOTE.-This table is not applicable for obstructed-channel conditions. It is based on twelve discharge",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.49779179810725555,
+                            "top": 0.3642208774583964,
+                            "width": 0.08580441640378549,
+                            "height": 0.009077155824508321,
+                            "page": 1
+                        },
+                        "content": "FOR 1908.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued. (cont.)\n\n<table><tr><th>2.00</th><th>0</th><th>3.00</th><th>56</th><th>4.00</th><th>309</th><th>4.90</th><th>845</th></tr><tr><td>2.10</td><td>1</td><td>3.10</td><td>71</td><td>4.10</td><td>353</td><td>5.00</td><td>925</td></tr><tr><td>2.20</td><td>2</td><td>3.20</td><td>87</td><td>4.20</td><td>401</td><td>5.20</td><td>1,085</td></tr><tr><td>2.30</td><td>4</td><td>3.30</td><td>105</td><td>4.30</td><td>452</td><td>5.40</td><td>1,245</td></tr><tr><td>2.40</td><td>6</td><td>3.40</td><td>126</td><td>4.40</td><td>505</td><td>5.60</td><td>1,405</td></tr><tr><td>2.50</td><td>10</td><td>3.50</td><td>149</td><td>4.50</td><td>560</td><td>5.80</td><td>1,575</td></tr><tr><td>2.60</td><td>16</td><td>3.60</td><td>174</td><td>4.60</td><td>620</td><td>6.00</td><td>-1,745</td></tr><tr><td>2.70</td><td>23</td><td>3.70</td><td>202</td><td>4.70</td><td>690</td><td>6.20</td><td>1,915</td></tr><tr><td>2.80</td><td>32</td><td>3.80</td><td>234</td><td>4.80</td><td>765</td><td>6.40</td><td>2,085</td></tr><tr><td>2.90</td><td>43</td><td>3.90</td><td>270</td><td></td><td></td><td></td><td></td></tr></table>\n\nNOTE.-This tableis not applicable for obstructed-channel conditions. It is based on nineteen discharge measurements made during 1907 and 1908, and is fairly well defined.\n\nDaily discharge, in second-feet, of San Gabriel power canal near Azusa, Cal., for 1907 and 1908.\n\n[John Woodward and A. W. Peake, observers.]",
+                "embed": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued. (cont.)\n\n<table><tr><th>2.00</th><th>0</th><th>3.00</th><th>56</th><th>4.00</th><th>309</th><th>4.90</th><th>845</th></tr><tr><td>2.10</td><td>1</td><td>3.10</td><td>71</td><td>4.10</td><td>353</td><td>5.00</td><td>925</td></tr><tr><td>2.20</td><td>2</td><td>3.20</td><td>87</td><td>4.20</td><td>401</td><td>5.20</td><td>1,085</td></tr><tr><td>2.30</td><td>4</td><td>3.30</td><td>105</td><td>4.30</td><td>452</td><td>5.40</td><td>1,245</td></tr><tr><td>2.40</td><td>6</td><td>3.40</td><td>126</td><td>4.40</td><td>505</td><td>5.60</td><td>1,405</td></tr><tr><td>2.50</td><td>10</td><td>3.50</td><td>149</td><td>4.50</td><td>560</td><td>5.80</td><td>1,575</td></tr><tr><td>2.60</td><td>16</td><td>3.60</td><td>174</td><td>4.60</td><td>620</td><td>6.00</td><td>-1,745</td></tr><tr><td>2.70</td><td>23</td><td>3.70</td><td>202</td><td>4.70</td><td>690</td><td>6.20</td><td>1,915</td></tr><tr><td>2.80</td><td>32</td><td>3.80</td><td>234</td><td>4.80</td><td>765</td><td>6.40</td><td>2,085</td></tr><tr><td>2.90</td><td>43</td><td>3.90</td><td>270</td><td></td><td></td><td></td><td></td></tr></table>\n\nNOTE.-This tableis not applicable for obstructed-channel conditions. It is based on nineteen discharge measurements made during 1907 and 1908, and is fairly well defined.\n\nDaily discharge, in second-feet, of San Gabriel power canal near Azusa, Cal., for 1907 and 1908.\n\n[John Woodward and A. W. Peake, observers.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.23581429370194204,
+                            "top": 0.38156820461717567,
+                            "width": 0.6094098689804318,
+                            "height": 0.12148341468891831,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>2.00</th><th>0</th><th>3.00</th><th>56</th><th>4.00</th><th>309</th><th>4.90</th><th>845</th></tr><tr><td>2.10</td><td>1</td><td>3.10</td><td>71</td><td>4.10</td><td>353</td><td>5.00</td><td>925</td></tr><tr><td>2.20</td><td>2</td><td>3.20</td><td>87</td><td>4.20</td><td>401</td><td>5.20</td><td>1,085</td></tr><tr><td>2.30</td><td>4</td><td>3.30</td><td>105</td><td>4.30</td><td>452</td><td>5.40</td><td>1,245</td></tr><tr><td>2.40</td><td>6</td><td>3.40</td><td>126</td><td>4.40</td><td>505</td><td>5.60</td><td>1,405</td></tr><tr><td>2.50</td><td>10</td><td>3.50</td><td>149</td><td>4.50</td><td>560</td><td>5.80</td><td>1,575</td></tr><tr><td>2.60</td><td>16</td><td>3.60</td><td>174</td><td>4.60</td><td>620</td><td>6.00</td><td>-1,745</td></tr><tr><td>2.70</td><td>23</td><td>3.70</td><td>202</td><td>4.70</td><td>690</td><td>6.20</td><td>1,915</td></tr><tr><td>2.80</td><td>32</td><td>3.80</td><td>234</td><td>4.80</td><td>765</td><td>6.40</td><td>2,085</td></tr><tr><td>2.90</td><td>43</td><td>3.90</td><td>270</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12302839116719243,
+                            "top": 0.5052950075642966,
+                            "width": 0.832807570977918,
+                            "height": 0.024205748865355523,
+                            "page": 1
+                        },
+                        "content": "NOTE.-This tableis not applicable for obstructed-channel conditions. It is based on nineteen discharge measurements made during 1907 and 1908, and is fairly well defined.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12429022082018927,
+                            "top": 0.540090771558245,
+                            "width": 0.8309148264984227,
+                            "height": 0.02685325264750378,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of San Gabriel power canal near Azusa, Cal., for 1907 and 1908.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3526813880126183,
+                            "top": 0.5794251134644478,
+                            "width": 0.3810725552050473,
+                            "height": 0.012102874432677761,
+                            "page": 1
+                        },
+                        "content": "[John Woodward and A. W. Peake, observers.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued. (cont.)\n\n<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th></tr><tr><td>1907.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>51</td><td>76</td><td>54</td></tr><tr><td>2</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>54</td></tr><tr><td>3</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>53</td></tr><tr><td>4</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>71</td><td>54</td></tr><tr><td>5</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>58</td><td>69</td><td>54</td></tr><tr><td>6</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>63</td><td>06</td><td>54</td></tr><tr><td>7</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>72</td><td>60</td><td>65</td><td>76</td></tr><tr><td>8</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>67</td><td>56</td><td>66</td><td>76</td></tr><tr><td>9</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>59</td><td>54</td><td>67</td><td>67</td></tr><tr><td>10</td><td>76</td><td>76</td><td>00</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>59</td><td>50</td><td>76</td><td>63</td></tr><tr><td>11</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>73</td><td>66</td></tr><tr><td>12</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>66</td><td>62</td></tr><tr><td>13</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>64</td><td>58</td></tr><tr><td>14</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>63</td><td>57</td></tr><tr><td>15</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>66</td><td>62</td><td>57</td></tr><tr><td>16</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>76</td><td>61</td><td>57</td></tr><tr><td>17</td><td>76</td><td>76</td><td>00</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>76</td><td>58</td><td>57</td></tr><tr><td>18</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>75</td><td>59</td><td>57</td></tr><tr><td>19</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>70</td><td>59</td><td>57</td></tr><tr><td>20</td><td>70</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>56</td><td>67</td><td>61</td><td>57</td></tr><tr><td>21</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>53</td><td>61</td><td>61</td><td>56</td></tr><tr><td>22</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>51</td><td>66</td><td>61</td><td>55</td></tr><tr><td>23</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>61</td><td>55</td></tr><tr><td>24</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>58</td><td>54</td></tr><tr><td>25</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>57</td><td>54</td></tr></table>",
+                "embed": "# Rating tables for San Gabriel River near Azusa, Cal.-Continued. (cont.)\n\n<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th></tr><tr><td>1907.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>51</td><td>76</td><td>54</td></tr><tr><td>2</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>54</td></tr><tr><td>3</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>53</td></tr><tr><td>4</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>71</td><td>54</td></tr><tr><td>5</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>58</td><td>69</td><td>54</td></tr><tr><td>6</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>63</td><td>06</td><td>54</td></tr><tr><td>7</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>72</td><td>60</td><td>65</td><td>76</td></tr><tr><td>8</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>67</td><td>56</td><td>66</td><td>76</td></tr><tr><td>9</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>59</td><td>54</td><td>67</td><td>67</td></tr><tr><td>10</td><td>76</td><td>76</td><td>00</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>59</td><td>50</td><td>76</td><td>63</td></tr><tr><td>11</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>73</td><td>66</td></tr><tr><td>12</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>66</td><td>62</td></tr><tr><td>13</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>64</td><td>58</td></tr><tr><td>14</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>63</td><td>57</td></tr><tr><td>15</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>66</td><td>62</td><td>57</td></tr><tr><td>16</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>76</td><td>61</td><td>57</td></tr><tr><td>17</td><td>76</td><td>76</td><td>00</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>76</td><td>58</td><td>57</td></tr><tr><td>18</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>75</td><td>59</td><td>57</td></tr><tr><td>19</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>70</td><td>59</td><td>57</td></tr><tr><td>20</td><td>70</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>56</td><td>67</td><td>61</td><td>57</td></tr><tr><td>21</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>53</td><td>61</td><td>61</td><td>56</td></tr><tr><td>22</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>51</td><td>66</td><td>61</td><td>55</td></tr><tr><td>23</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>61</td><td>55</td></tr><tr><td>24</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>58</td><td>54</td></tr><tr><td>25</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>57</td><td>54</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12271425265243001,
+                            "top": 0.6007129478743145,
+                            "width": 0.8370345828661031,
+                            "height": 0.3277477547188209,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th></tr><tr><td>1907.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>51</td><td>76</td><td>54</td></tr><tr><td>2</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>54</td></tr><tr><td>3</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>53</td></tr><tr><td>4</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>71</td><td>54</td></tr><tr><td>5</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>58</td><td>69</td><td>54</td></tr><tr><td>6</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>63</td><td>06</td><td>54</td></tr><tr><td>7</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>72</td><td>60</td><td>65</td><td>76</td></tr><tr><td>8</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>67</td><td>56</td><td>66</td><td>76</td></tr><tr><td>9</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>59</td><td>54</td><td>67</td><td>67</td></tr><tr><td>10</td><td>76</td><td>76</td><td>00</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>59</td><td>50</td><td>76</td><td>63</td></tr><tr><td>11</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>73</td><td>66</td></tr><tr><td>12</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>66</td><td>62</td></tr><tr><td>13</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>64</td><td>58</td></tr><tr><td>14</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>50</td><td>63</td><td>57</td></tr><tr><td>15</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>66</td><td>62</td><td>57</td></tr><tr><td>16</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>76</td><td>61</td><td>57</td></tr><tr><td>17</td><td>76</td><td>76</td><td>00</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>76</td><td>58</td><td>57</td></tr><tr><td>18</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>75</td><td>59</td><td>57</td></tr><tr><td>19</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>57</td><td>70</td><td>59</td><td>57</td></tr><tr><td>20</td><td>70</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>56</td><td>67</td><td>61</td><td>57</td></tr><tr><td>21</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>53</td><td>61</td><td>61</td><td>56</td></tr><tr><td>22</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>51</td><td>66</td><td>61</td><td>55</td></tr><tr><td>23</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>61</td><td>55</td></tr><tr><td>24</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>58</td><td>54</td></tr><tr><td>25</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>50</td><td>76</td><td>57</td><td>54</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

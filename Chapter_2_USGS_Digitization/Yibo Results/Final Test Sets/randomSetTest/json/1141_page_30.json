@@ -1,0 +1,170 @@
+{
+    "job_id": "2edd6338-09e6-43e8-aec5-33eb24eb2d9e",
+    "duration": 5.793842077255249,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f47b99f1-9db1-4e1a-8394-6ff361b5a657?AWSAccessKeyId=ASIA2UOK6OVBFXANSVPO&Signature=HCPtOXIZ7dLM1llO4G4E36DIkTU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJIMEYCIQCtigRRGNIrOGI2DYMTo48KUVh2w09R56QZsNFE%2FGhHggIhAPoaLwSeFwLjTob%2BbLw0sEqWGx2%2Fy2osOoDO%2FCF4wCEaKosFCCIQABoMNzMxMTA2OTMyMDM0Igy4%2Fcvilvfz33px0b4q6AQTStbcs39818ZJL4Uu9p%2FfcErTVWrK90ZMkcIw7gjnZ4P%2FMCzTwvoNrmAhEZzKjjPmRAJIGjXAdC4VzKZirWyguqLw8PZ50pQTXBTea8mJ7mFQAHNv4w4znX5sCwmUjfox2tr388pbL%2B3oWwWBlemYYwBy7kGieRFaaa6xMfbkLJqXwl%2B1EV%2Fu4lSbt4RMdbwgoYtFLZ%2FFgRqu6oryR043wv4yZdh1MOk2A%2FW%2FvNQLAmh%2BXLx7li55jb6QCrFHmQid7W3rtdWokY%2BPQIAR0Ne6XzHcd6dXZ9ZZ3nWrXoD69olsNnPPKz%2FmhWZ%2BBqMLue11J6idfSuIMAMaqzsDQXZvU661ruFR6mPJRrEmbjmjR78WsFX1CxR5Ns5l7jbLWCq72rgZD4gNWejeGLxG7uPB%2B9kvFDFQ5GCvhG%2FlNwlWcc72%2FVIkaw9s5LWM%2FnCiA9NNNTLzxDijfRz5HZQNfrEKuy3ZcPNiSuaxKSxDdzpfeWSHCu2O0%2BgHdCpOHf70NBH%2FR0m%2BXzTo%2F1091cfl7XC5rAitxMEVySiMjkkSf%2BhWUj8yetCoxngTmE5Xu2siCR87l%2FPL8U3Vsa7RGszFBp66n9AIbD%2BitcBKMli0CSXNEzqb3ErU6u5xawYxATf0DzjqA%2Fz1BkgFE9ctxkxI6T0o8vaDfHauzN5THR2RH3rhoaz5u7bvVVAtIga%2FzhKIMm%2FkUtABJT3CgzRmdgyNmWZ5qnsb7dAo3pTz50SpqXHggsagEuETAB%2BLz8efZ32wvVT0kml33S5lwOnE44H4qY4dM8S1xls501HhLBHmNbNmWigp4NwM82y3MM%2BiyboGOpoB1%2FbB2JzoNydDjLyCxIyL3aDCzwBPv9%2FSLndPy9ATNBMfH9JFGBaY1Rc6ez3D%2BNMYp%2FvvsWaPQ%2FA%2BzuE9q6iOQ%2F1d2vPnMpKo0T9fq6uGcOd25Tub4vTh9ik%2B%2BqtJvmSqTb7Ag7RbOoA6CXxWfuIgqTtMkUTG1HeEExeh199cv87cVFgfrgbXHv50QUCFhu%2FqjLfnYTbrl7sddA%3D%3D&Expires=1733452666",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11709455228553538,
+                            "top": 0.05792098197161488,
+                            "width": 0.030682529743268627,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "26",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910.\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>January</td><td></td><td>190</td><td>4.0</td><td>33.1</td><td>2,040</td><td>C.</td></tr><tr><td>February</td><td></td><td>23.4</td><td>2.3</td><td>4.68</td><td>260</td><td>B.</td></tr><tr><td>March</td><td></td><td>69</td><td>2.5</td><td>9.57</td><td>588</td><td>B.</td></tr><tr><td>April</td><td></td><td>65</td><td>.7</td><td>8.74</td><td>520</td><td>B.</td></tr><tr><td>May</td><td></td><td>2.3</td><td>.3</td><td>.95</td><td>58</td><td>C.</td></tr><tr><td>June</td><td></td><td>1.0</td><td>.1</td><td>.34</td><td>20</td><td>C.</td></tr><tr><td>July</td><td></td><td>.1</td><td>.0</td><td>.01</td><td>1</td><td>D.</td></tr><tr><td>August</td><td></td><td>.0</td><td>.0</td><td>.00</td><td>0</td><td></td></tr><tr><td>September</td><td></td><td>.0</td><td>.0</td><td>.00</td><td>0</td><td rowspan=\"5\">C.\nB.\nB.</td></tr><tr><td>October</td><td></td><td>1.2</td><td>.0</td><td>.24</td><td>15</td></tr><tr><td>November</td><td></td><td>7.7</td><td>1.3</td><td>2.78</td><td>165</td></tr><tr><td>December</td><td></td><td>3.1</td><td>1.7</td><td>2.16</td><td>133</td></tr><tr><td>The year</td><td></td><td>190</td><td>.0</td><td>5.25</td><td>3,800</td></tr></table>",
+                "embed": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910.\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>January</td><td></td><td>190</td><td>4.0</td><td>33.1</td><td>2,040</td><td>C.</td></tr><tr><td>February</td><td></td><td>23.4</td><td>2.3</td><td>4.68</td><td>260</td><td>B.</td></tr><tr><td>March</td><td></td><td>69</td><td>2.5</td><td>9.57</td><td>588</td><td>B.</td></tr><tr><td>April</td><td></td><td>65</td><td>.7</td><td>8.74</td><td>520</td><td>B.</td></tr><tr><td>May</td><td></td><td>2.3</td><td>.3</td><td>.95</td><td>58</td><td>C.</td></tr><tr><td>June</td><td></td><td>1.0</td><td>.1</td><td>.34</td><td>20</td><td>C.</td></tr><tr><td>July</td><td></td><td>.1</td><td>.0</td><td>.01</td><td>1</td><td>D.</td></tr><tr><td>August</td><td></td><td>.0</td><td>.0</td><td>.00</td><td>0</td><td></td></tr><tr><td>September</td><td></td><td>.0</td><td>.0</td><td>.00</td><td>0</td><td rowspan=\"5\">C.\nB.\nB.</td></tr><tr><td>October</td><td></td><td>1.2</td><td>.0</td><td>.24</td><td>15</td></tr><tr><td>November</td><td></td><td>7.7</td><td>1.3</td><td>2.78</td><td>165</td></tr><tr><td>December</td><td></td><td>3.1</td><td>1.7</td><td>2.16</td><td>133</td></tr><tr><td>The year</td><td></td><td>190</td><td>.0</td><td>5.25</td><td>3,800</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.29117094552285533,
+                            "top": 0.06022247794399693,
+                            "width": 0.4777708202880401,
+                            "height": 0.015726889144610665,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1910, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.22041327489041954,
+                            "top": 0.09014192558496356,
+                            "width": 0.6199123356293049,
+                            "height": 0.017644802454929037,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11561307387569955,
+                            "top": 0.11984698928815449,
+                            "width": 0.831304379381384,
+                            "height": 0.2201560093243551,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>January</td><td></td><td>190</td><td>4.0</td><td>33.1</td><td>2,040</td><td>C.</td></tr><tr><td>February</td><td></td><td>23.4</td><td>2.3</td><td>4.68</td><td>260</td><td>B.</td></tr><tr><td>March</td><td></td><td>69</td><td>2.5</td><td>9.57</td><td>588</td><td>B.</td></tr><tr><td>April</td><td></td><td>65</td><td>.7</td><td>8.74</td><td>520</td><td>B.</td></tr><tr><td>May</td><td></td><td>2.3</td><td>.3</td><td>.95</td><td>58</td><td>C.</td></tr><tr><td>June</td><td></td><td>1.0</td><td>.1</td><td>.34</td><td>20</td><td>C.</td></tr><tr><td>July</td><td></td><td>.1</td><td>.0</td><td>.01</td><td>1</td><td>D.</td></tr><tr><td>August</td><td></td><td>.0</td><td>.0</td><td>.00</td><td>0</td><td></td></tr><tr><td>September</td><td></td><td>.0</td><td>.0</td><td>.00</td><td>0</td><td rowspan=\"5\">C.\nB.\nB.</td></tr><tr><td>October</td><td></td><td>1.2</td><td>.0</td><td>.24</td><td>15</td></tr><tr><td>November</td><td></td><td>7.7</td><td>1.3</td><td>2.78</td><td>165</td></tr><tr><td>December</td><td></td><td>3.1</td><td>1.7</td><td>2.16</td><td>133</td></tr><tr><td>The year</td><td></td><td>190</td><td>.0</td><td>5.25</td><td>3,800</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910.\n\n<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th></tr><tr><td>1</td><td>1.85</td><td>3.0</td><td>2.2</td><td></td><td>1.2</td><td>0.3</td><td>16</td><td>3.65</td><td>2.5</td><td>1.9</td><td>2.1</td><td>0.82</td><td></td></tr><tr><td>2</td><td></td><td>3.35</td><td>2.15</td><td></td><td>1.3</td><td>.32</td><td>17</td><td>3.6</td><td>2.3</td><td>2.1</td><td>1.9</td><td>.7</td><td></td></tr><tr><td>3</td><td>1.6</td><td>3.0</td><td>2.1</td><td></td><td>1.3</td><td>.32</td><td>18</td><td>3.5</td><td>2.4</td><td>2.6</td><td>1.85</td><td>.65</td><td></td></tr><tr><td>4</td><td>3.4</td><td>2.75</td><td>2.05</td><td>1.3</td><td>1.25</td><td>.32</td><td>19</td><td>3.7</td><td>2.6</td><td>2.4</td><td>1.7</td><td>.65</td><td></td></tr><tr><td>5</td><td>3.35</td><td>2.85</td><td>2.0</td><td>2.65</td><td>1.15</td><td>.34</td><td>20</td><td>3.65</td><td>3.5</td><td>2.2</td><td>1.65</td><td>.85</td><td></td></tr><tr><td>6</td><td>3.6</td><td>2.7</td><td>2.0</td><td>2.8</td><td>1.1</td><td>.3</td><td>21</td><td>3.7</td><td>2.8</td><td>2.0</td><td>1.65</td><td>.8</td><td></td></tr><tr><td>7</td><td>3.8</td><td>2.7</td><td>2.0</td><td>2.7</td><td>.98</td><td>.3</td><td>22</td><td>3.7</td><td>2.8</td><td>2.2</td><td>1.5</td><td>.75</td><td></td></tr><tr><td>8</td><td>3.7</td><td>2.75</td><td>2.0</td><td>2.5</td><td>.92</td><td>.3</td><td>23</td><td>3.7</td><td>2.7</td><td>2.4</td><td>1.45</td><td>.7</td><td></td></tr><tr><td>9</td><td>3.7</td><td>2.75</td><td>2.1</td><td>2.4</td><td>.9</td><td>.26</td><td>24</td><td>3.7</td><td>2.5</td><td>2.1</td><td>.65</td><td>.6</td><td></td></tr><tr><td>10</td><td>3.7</td><td>2.7</td><td>1.9</td><td>2.4</td><td>.9</td><td>.2</td><td>25</td><td>3.4</td><td>2.6</td><td>2.3</td><td>1.25</td><td>.55</td><td></td></tr><tr><td>11</td><td>3.65</td><td>2.55</td><td>1.8</td><td>2.4</td><td>.88</td><td>.15</td><td>26</td><td>3.4</td><td>2.4</td><td>3.65</td><td>1.15</td><td>.55</td><td></td></tr><tr><td>12</td><td>3.7</td><td>2.5</td><td>1.8</td><td>3.2</td><td>.8</td><td>.15</td><td>27</td><td>3.25</td><td>2.4</td><td>3.4</td><td>1.05</td><td>.52</td><td></td></tr><tr><td>13</td><td>3.55</td><td>2.45</td><td>1.8</td><td>3.0</td><td>.8</td><td>.12</td><td>28</td><td>3.15</td><td>2.25</td><td>3.55</td><td>1.15</td><td>.45</td><td></td></tr><tr><td>14</td><td>3.45</td><td>2.45</td><td>1.75</td><td>2.55</td><td>.8</td><td>.15</td><td>29</td><td>3.15</td><td></td><td>3.6</td><td>1.15</td><td>.41</td><td></td></tr><tr><td>15</td><td>3.5</td><td>2.6</td><td>1.85</td><td>2.3</td><td>.85</td><td></td><td>30</td><td>3.05</td><td></td><td>3.6</td><td>1.2</td><td>.28</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td>2.9</td><td></td><td>3.65</td><td></td><td>.32</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910.\n\n<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th></tr><tr><td>1</td><td>1.85</td><td>3.0</td><td>2.2</td><td></td><td>1.2</td><td>0.3</td><td>16</td><td>3.65</td><td>2.5</td><td>1.9</td><td>2.1</td><td>0.82</td><td></td></tr><tr><td>2</td><td></td><td>3.35</td><td>2.15</td><td></td><td>1.3</td><td>.32</td><td>17</td><td>3.6</td><td>2.3</td><td>2.1</td><td>1.9</td><td>.7</td><td></td></tr><tr><td>3</td><td>1.6</td><td>3.0</td><td>2.1</td><td></td><td>1.3</td><td>.32</td><td>18</td><td>3.5</td><td>2.4</td><td>2.6</td><td>1.85</td><td>.65</td><td></td></tr><tr><td>4</td><td>3.4</td><td>2.75</td><td>2.05</td><td>1.3</td><td>1.25</td><td>.32</td><td>19</td><td>3.7</td><td>2.6</td><td>2.4</td><td>1.7</td><td>.65</td><td></td></tr><tr><td>5</td><td>3.35</td><td>2.85</td><td>2.0</td><td>2.65</td><td>1.15</td><td>.34</td><td>20</td><td>3.65</td><td>3.5</td><td>2.2</td><td>1.65</td><td>.85</td><td></td></tr><tr><td>6</td><td>3.6</td><td>2.7</td><td>2.0</td><td>2.8</td><td>1.1</td><td>.3</td><td>21</td><td>3.7</td><td>2.8</td><td>2.0</td><td>1.65</td><td>.8</td><td></td></tr><tr><td>7</td><td>3.8</td><td>2.7</td><td>2.0</td><td>2.7</td><td>.98</td><td>.3</td><td>22</td><td>3.7</td><td>2.8</td><td>2.2</td><td>1.5</td><td>.75</td><td></td></tr><tr><td>8</td><td>3.7</td><td>2.75</td><td>2.0</td><td>2.5</td><td>.92</td><td>.3</td><td>23</td><td>3.7</td><td>2.7</td><td>2.4</td><td>1.45</td><td>.7</td><td></td></tr><tr><td>9</td><td>3.7</td><td>2.75</td><td>2.1</td><td>2.4</td><td>.9</td><td>.26</td><td>24</td><td>3.7</td><td>2.5</td><td>2.1</td><td>.65</td><td>.6</td><td></td></tr><tr><td>10</td><td>3.7</td><td>2.7</td><td>1.9</td><td>2.4</td><td>.9</td><td>.2</td><td>25</td><td>3.4</td><td>2.6</td><td>2.3</td><td>1.25</td><td>.55</td><td></td></tr><tr><td>11</td><td>3.65</td><td>2.55</td><td>1.8</td><td>2.4</td><td>.88</td><td>.15</td><td>26</td><td>3.4</td><td>2.4</td><td>3.65</td><td>1.15</td><td>.55</td><td></td></tr><tr><td>12</td><td>3.7</td><td>2.5</td><td>1.8</td><td>3.2</td><td>.8</td><td>.15</td><td>27</td><td>3.25</td><td>2.4</td><td>3.4</td><td>1.05</td><td>.52</td><td></td></tr><tr><td>13</td><td>3.55</td><td>2.45</td><td>1.8</td><td>3.0</td><td>.8</td><td>.12</td><td>28</td><td>3.15</td><td>2.25</td><td>3.55</td><td>1.15</td><td>.45</td><td></td></tr><tr><td>14</td><td>3.45</td><td>2.45</td><td>1.75</td><td>2.55</td><td>.8</td><td>.15</td><td>29</td><td>3.15</td><td></td><td>3.6</td><td>1.15</td><td>.41</td><td></td></tr><tr><td>15</td><td>3.5</td><td>2.6</td><td>1.85</td><td>2.3</td><td>.85</td><td></td><td>30</td><td>3.05</td><td></td><td>3.6</td><td>1.2</td><td>.28</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td>2.9</td><td></td><td>3.65</td><td></td><td>.32</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.1997495303694427,
+                            "top": 0.34982738780207134,
+                            "width": 0.6593613024420789,
+                            "height": 0.01726121979286536,
+                            "page": 1
+                        },
+                        "content": "Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11715634225977908,
+                            "top": 0.3775587473329018,
+                            "width": 0.8289877951854306,
+                            "height": 0.22708084229358458,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th></tr><tr><td>1</td><td>1.85</td><td>3.0</td><td>2.2</td><td></td><td>1.2</td><td>0.3</td><td>16</td><td>3.65</td><td>2.5</td><td>1.9</td><td>2.1</td><td>0.82</td><td></td></tr><tr><td>2</td><td></td><td>3.35</td><td>2.15</td><td></td><td>1.3</td><td>.32</td><td>17</td><td>3.6</td><td>2.3</td><td>2.1</td><td>1.9</td><td>.7</td><td></td></tr><tr><td>3</td><td>1.6</td><td>3.0</td><td>2.1</td><td></td><td>1.3</td><td>.32</td><td>18</td><td>3.5</td><td>2.4</td><td>2.6</td><td>1.85</td><td>.65</td><td></td></tr><tr><td>4</td><td>3.4</td><td>2.75</td><td>2.05</td><td>1.3</td><td>1.25</td><td>.32</td><td>19</td><td>3.7</td><td>2.6</td><td>2.4</td><td>1.7</td><td>.65</td><td></td></tr><tr><td>5</td><td>3.35</td><td>2.85</td><td>2.0</td><td>2.65</td><td>1.15</td><td>.34</td><td>20</td><td>3.65</td><td>3.5</td><td>2.2</td><td>1.65</td><td>.85</td><td></td></tr><tr><td>6</td><td>3.6</td><td>2.7</td><td>2.0</td><td>2.8</td><td>1.1</td><td>.3</td><td>21</td><td>3.7</td><td>2.8</td><td>2.0</td><td>1.65</td><td>.8</td><td></td></tr><tr><td>7</td><td>3.8</td><td>2.7</td><td>2.0</td><td>2.7</td><td>.98</td><td>.3</td><td>22</td><td>3.7</td><td>2.8</td><td>2.2</td><td>1.5</td><td>.75</td><td></td></tr><tr><td>8</td><td>3.7</td><td>2.75</td><td>2.0</td><td>2.5</td><td>.92</td><td>.3</td><td>23</td><td>3.7</td><td>2.7</td><td>2.4</td><td>1.45</td><td>.7</td><td></td></tr><tr><td>9</td><td>3.7</td><td>2.75</td><td>2.1</td><td>2.4</td><td>.9</td><td>.26</td><td>24</td><td>3.7</td><td>2.5</td><td>2.1</td><td>.65</td><td>.6</td><td></td></tr><tr><td>10</td><td>3.7</td><td>2.7</td><td>1.9</td><td>2.4</td><td>.9</td><td>.2</td><td>25</td><td>3.4</td><td>2.6</td><td>2.3</td><td>1.25</td><td>.55</td><td></td></tr><tr><td>11</td><td>3.65</td><td>2.55</td><td>1.8</td><td>2.4</td><td>.88</td><td>.15</td><td>26</td><td>3.4</td><td>2.4</td><td>3.65</td><td>1.15</td><td>.55</td><td></td></tr><tr><td>12</td><td>3.7</td><td>2.5</td><td>1.8</td><td>3.2</td><td>.8</td><td>.15</td><td>27</td><td>3.25</td><td>2.4</td><td>3.4</td><td>1.05</td><td>.52</td><td></td></tr><tr><td>13</td><td>3.55</td><td>2.45</td><td>1.8</td><td>3.0</td><td>.8</td><td>.12</td><td>28</td><td>3.15</td><td>2.25</td><td>3.55</td><td>1.15</td><td>.45</td><td></td></tr><tr><td>14</td><td>3.45</td><td>2.45</td><td>1.75</td><td>2.55</td><td>.8</td><td>.15</td><td>29</td><td>3.15</td><td></td><td>3.6</td><td>1.15</td><td>.41</td><td></td></tr><tr><td>15</td><td>3.5</td><td>2.6</td><td>1.85</td><td>2.3</td><td>.85</td><td></td><td>30</td><td>3.05</td><td></td><td>3.6</td><td>1.2</td><td>.28</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td>2.9</td><td></td><td>3.65</td><td></td><td>.32</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910. (cont.)\n\nNOTE.-No water diverted through canal on days of no gage height, or from June 15 to Dec. 26. Daily discharge, in second-feet, of Dulzura canal near Jamul, Cal., for 1910.",
+                "embed": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910. (cont.)\n\nNOTE.-No water diverted through canal on days of no gage height, or from June 15 to Dec. 26. Daily discharge, in second-feet, of Dulzura canal near Jamul, Cal., for 1910.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1340012523481528,
+                            "top": 0.6087456846950517,
+                            "width": 0.7489041953663118,
+                            "height": 0.039892596854622174,
+                            "page": 1
+                        },
+                        "content": "NOTE.-No water diverted through canal on days of no gage height, or from June 15 to Dec. 26. Daily discharge, in second-feet, of Dulzura canal near Jamul, Cal., for 1910.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910. (cont.)\n\n<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June.</th><th>Dec.</th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>Dec.</th></tr><tr><td>1</td><td>20.6</td><td>42</td><td>26.6</td><td>0.0</td><td>10.3</td><td>0.4</td><td></td><td>16</td><td>55</td><td>32.1</td><td>21.5</td><td>24.9</td><td>4.8</td><td></td><td></td></tr><tr><td>2</td><td>.0</td><td>49</td><td>25.7</td><td>.0</td><td>11.8</td><td>.5</td><td></td><td>17</td><td>54</td><td>28.4</td><td>24.9</td><td>21.5</td><td>3.2</td><td></td><td></td></tr><tr><td>3</td><td>16.6</td><td>42</td><td>24.9</td><td>.0</td><td>11.8</td><td>.5</td><td></td><td>18</td><td>52</td><td>30.2</td><td>34</td><td>20.6</td><td>2.6</td><td></td><td></td></tr><tr><td>4</td><td>50</td><td>37</td><td>24</td><td>11.8</td><td>11.0</td><td>.5</td><td></td><td>19</td><td>56</td><td>34</td><td>30.2</td><td>18.2</td><td>2.6</td><td></td><td></td></tr><tr><td>5</td><td>49</td><td>39</td><td>23.2</td><td>35</td><td>9.5</td><td>.5</td><td></td><td>20</td><td>55</td><td>52</td><td>26.6</td><td>17.4</td><td>5.2</td><td></td><td></td></tr><tr><td>6</td><td>54</td><td>36</td><td>23.2</td><td>38</td><td>8.8</td><td>.4</td><td></td><td>21</td><td>56</td><td>38</td><td>23.2</td><td>17.4</td><td>4.5</td><td></td><td></td></tr><tr><td>7</td><td>58</td><td>36</td><td>23.2</td><td>36</td><td>7.0</td><td>.4</td><td></td><td>22</td><td>56</td><td>38</td><td>26.6</td><td>15.0</td><td>3.8</td><td></td><td></td></tr><tr><td>8</td><td>56</td><td>37</td><td>23.2</td><td>32.1</td><td>6.2</td><td>.4</td><td></td><td>23</td><td>56</td><td>36</td><td>30.2</td><td>14.2</td><td>3.2</td><td></td><td></td></tr><tr><td>9</td><td>56</td><td>37</td><td>24.9</td><td>30.2</td><td>5.9</td><td>.3</td><td></td><td>24</td><td>56</td><td>32.1</td><td>24.9</td><td>2.6</td><td>2.1</td><td></td><td></td></tr><tr><td>10</td><td>56</td><td>36</td><td>21.5</td><td>30.2</td><td>5.9</td><td>.2</td><td></td><td>25</td><td>50</td><td>34</td><td>28.4</td><td>11.0</td><td>1.6</td><td></td><td></td></tr><tr><td>11</td><td>55</td><td>33</td><td>19.8</td><td>30.2</td><td>5.6</td><td>.2</td><td></td><td>26</td><td>50</td><td>30.2</td><td>55</td><td>9.5</td><td>1.6</td><td></td><td></td></tr><tr><td>12</td><td>56</td><td>32.</td><td>19.8</td><td>26.6</td><td>4.5</td><td>.2</td><td></td><td>27</td><td>47</td><td>30.2</td><td>50</td><td>8.0</td><td>1.4</td><td></td><td>0.4</td></tr><tr><td>13</td><td>53</td><td>31.1</td><td>19.8</td><td>42</td><td>4.5</td><td>.1</td><td></td><td>28</td><td>45</td><td>27.5</td><td>53</td><td>9.5</td><td>.9</td><td></td><td>.4</td></tr><tr><td>14</td><td>51</td><td>31.1</td><td>19.0</td><td>33</td><td>4.5</td><td>.2</td><td></td><td>29</td><td>45</td><td></td><td>54</td><td>9.5</td><td>.7</td><td></td><td>.4</td></tr><tr><td>15</td><td>52</td><td>34</td><td>20.6</td><td>28.4</td><td>5.2</td><td></td><td></td><td>30</td><td>43</td><td></td><td>54</td><td>10.3</td><td>.4</td><td></td><td>.4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td>40</td><td></td><td>55</td><td></td><td>.4</td><td></td><td>.4</td></tr></table>",
+                "embed": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910. (cont.)\n\n<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June.</th><th>Dec.</th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>Dec.</th></tr><tr><td>1</td><td>20.6</td><td>42</td><td>26.6</td><td>0.0</td><td>10.3</td><td>0.4</td><td></td><td>16</td><td>55</td><td>32.1</td><td>21.5</td><td>24.9</td><td>4.8</td><td></td><td></td></tr><tr><td>2</td><td>.0</td><td>49</td><td>25.7</td><td>.0</td><td>11.8</td><td>.5</td><td></td><td>17</td><td>54</td><td>28.4</td><td>24.9</td><td>21.5</td><td>3.2</td><td></td><td></td></tr><tr><td>3</td><td>16.6</td><td>42</td><td>24.9</td><td>.0</td><td>11.8</td><td>.5</td><td></td><td>18</td><td>52</td><td>30.2</td><td>34</td><td>20.6</td><td>2.6</td><td></td><td></td></tr><tr><td>4</td><td>50</td><td>37</td><td>24</td><td>11.8</td><td>11.0</td><td>.5</td><td></td><td>19</td><td>56</td><td>34</td><td>30.2</td><td>18.2</td><td>2.6</td><td></td><td></td></tr><tr><td>5</td><td>49</td><td>39</td><td>23.2</td><td>35</td><td>9.5</td><td>.5</td><td></td><td>20</td><td>55</td><td>52</td><td>26.6</td><td>17.4</td><td>5.2</td><td></td><td></td></tr><tr><td>6</td><td>54</td><td>36</td><td>23.2</td><td>38</td><td>8.8</td><td>.4</td><td></td><td>21</td><td>56</td><td>38</td><td>23.2</td><td>17.4</td><td>4.5</td><td></td><td></td></tr><tr><td>7</td><td>58</td><td>36</td><td>23.2</td><td>36</td><td>7.0</td><td>.4</td><td></td><td>22</td><td>56</td><td>38</td><td>26.6</td><td>15.0</td><td>3.8</td><td></td><td></td></tr><tr><td>8</td><td>56</td><td>37</td><td>23.2</td><td>32.1</td><td>6.2</td><td>.4</td><td></td><td>23</td><td>56</td><td>36</td><td>30.2</td><td>14.2</td><td>3.2</td><td></td><td></td></tr><tr><td>9</td><td>56</td><td>37</td><td>24.9</td><td>30.2</td><td>5.9</td><td>.3</td><td></td><td>24</td><td>56</td><td>32.1</td><td>24.9</td><td>2.6</td><td>2.1</td><td></td><td></td></tr><tr><td>10</td><td>56</td><td>36</td><td>21.5</td><td>30.2</td><td>5.9</td><td>.2</td><td></td><td>25</td><td>50</td><td>34</td><td>28.4</td><td>11.0</td><td>1.6</td><td></td><td></td></tr><tr><td>11</td><td>55</td><td>33</td><td>19.8</td><td>30.2</td><td>5.6</td><td>.2</td><td></td><td>26</td><td>50</td><td>30.2</td><td>55</td><td>9.5</td><td>1.6</td><td></td><td></td></tr><tr><td>12</td><td>56</td><td>32.</td><td>19.8</td><td>26.6</td><td>4.5</td><td>.2</td><td></td><td>27</td><td>47</td><td>30.2</td><td>50</td><td>8.0</td><td>1.4</td><td></td><td>0.4</td></tr><tr><td>13</td><td>53</td><td>31.1</td><td>19.8</td><td>42</td><td>4.5</td><td>.1</td><td></td><td>28</td><td>45</td><td>27.5</td><td>53</td><td>9.5</td><td>.9</td><td></td><td>.4</td></tr><tr><td>14</td><td>51</td><td>31.1</td><td>19.0</td><td>33</td><td>4.5</td><td>.2</td><td></td><td>29</td><td>45</td><td></td><td>54</td><td>9.5</td><td>.7</td><td></td><td>.4</td></tr><tr><td>15</td><td>52</td><td>34</td><td>20.6</td><td>28.4</td><td>5.2</td><td></td><td></td><td>30</td><td>43</td><td></td><td>54</td><td>10.3</td><td>.4</td><td></td><td>.4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td>40</td><td></td><td>55</td><td></td><td>.4</td><td></td><td>.4</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11596919509419518,
+                            "top": 0.6601184629872698,
+                            "width": 0.8300949889716314,
+                            "height": 0.22761917845883678,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June.</th><th>Dec.</th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>Dec.</th></tr><tr><td>1</td><td>20.6</td><td>42</td><td>26.6</td><td>0.0</td><td>10.3</td><td>0.4</td><td></td><td>16</td><td>55</td><td>32.1</td><td>21.5</td><td>24.9</td><td>4.8</td><td></td><td></td></tr><tr><td>2</td><td>.0</td><td>49</td><td>25.7</td><td>.0</td><td>11.8</td><td>.5</td><td></td><td>17</td><td>54</td><td>28.4</td><td>24.9</td><td>21.5</td><td>3.2</td><td></td><td></td></tr><tr><td>3</td><td>16.6</td><td>42</td><td>24.9</td><td>.0</td><td>11.8</td><td>.5</td><td></td><td>18</td><td>52</td><td>30.2</td><td>34</td><td>20.6</td><td>2.6</td><td></td><td></td></tr><tr><td>4</td><td>50</td><td>37</td><td>24</td><td>11.8</td><td>11.0</td><td>.5</td><td></td><td>19</td><td>56</td><td>34</td><td>30.2</td><td>18.2</td><td>2.6</td><td></td><td></td></tr><tr><td>5</td><td>49</td><td>39</td><td>23.2</td><td>35</td><td>9.5</td><td>.5</td><td></td><td>20</td><td>55</td><td>52</td><td>26.6</td><td>17.4</td><td>5.2</td><td></td><td></td></tr><tr><td>6</td><td>54</td><td>36</td><td>23.2</td><td>38</td><td>8.8</td><td>.4</td><td></td><td>21</td><td>56</td><td>38</td><td>23.2</td><td>17.4</td><td>4.5</td><td></td><td></td></tr><tr><td>7</td><td>58</td><td>36</td><td>23.2</td><td>36</td><td>7.0</td><td>.4</td><td></td><td>22</td><td>56</td><td>38</td><td>26.6</td><td>15.0</td><td>3.8</td><td></td><td></td></tr><tr><td>8</td><td>56</td><td>37</td><td>23.2</td><td>32.1</td><td>6.2</td><td>.4</td><td></td><td>23</td><td>56</td><td>36</td><td>30.2</td><td>14.2</td><td>3.2</td><td></td><td></td></tr><tr><td>9</td><td>56</td><td>37</td><td>24.9</td><td>30.2</td><td>5.9</td><td>.3</td><td></td><td>24</td><td>56</td><td>32.1</td><td>24.9</td><td>2.6</td><td>2.1</td><td></td><td></td></tr><tr><td>10</td><td>56</td><td>36</td><td>21.5</td><td>30.2</td><td>5.9</td><td>.2</td><td></td><td>25</td><td>50</td><td>34</td><td>28.4</td><td>11.0</td><td>1.6</td><td></td><td></td></tr><tr><td>11</td><td>55</td><td>33</td><td>19.8</td><td>30.2</td><td>5.6</td><td>.2</td><td></td><td>26</td><td>50</td><td>30.2</td><td>55</td><td>9.5</td><td>1.6</td><td></td><td></td></tr><tr><td>12</td><td>56</td><td>32.</td><td>19.8</td><td>26.6</td><td>4.5</td><td>.2</td><td></td><td>27</td><td>47</td><td>30.2</td><td>50</td><td>8.0</td><td>1.4</td><td></td><td>0.4</td></tr><tr><td>13</td><td>53</td><td>31.1</td><td>19.8</td><td>42</td><td>4.5</td><td>.1</td><td></td><td>28</td><td>45</td><td>27.5</td><td>53</td><td>9.5</td><td>.9</td><td></td><td>.4</td></tr><tr><td>14</td><td>51</td><td>31.1</td><td>19.0</td><td>33</td><td>4.5</td><td>.2</td><td></td><td>29</td><td>45</td><td></td><td>54</td><td>9.5</td><td>.7</td><td></td><td>.4</td></tr><tr><td>15</td><td>52</td><td>34</td><td>20.6</td><td>28.4</td><td>5.2</td><td></td><td></td><td>30</td><td>43</td><td></td><td>54</td><td>10.3</td><td>.4</td><td></td><td>.4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td>40</td><td></td><td>55</td><td></td><td>.4</td><td></td><td>.4</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910. (cont.)\n\nNOTE.-No water diverted from June 15 to Dec. 26. The daily discharges were obtained from a rating curve well defined between 0.7 second-foot and 54 second-feet.",
+                "embed": "# Monthly discharge of Cottonwood Creek near Jamul, Cal., for 1910. (cont.)\n\n## Daily gage height, in feet, of Dulzura canal near Jamul, Cal., for 1910. (cont.)\n\nNOTE.-No water diverted from June 15 to Dec. 26. The daily discharges were obtained from a rating curve well defined between 0.7 second-foot and 54 second-feet.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11646837820914215,
+                            "top": 0.8941311852704258,
+                            "width": 0.8271759549154665,
+                            "height": 0.022247794399693134,
+                            "page": 1
+                        },
+                        "content": "NOTE.-No water diverted from June 15 to Dec. 26. The daily discharges were obtained from a rating curve well defined between 0.7 second-foot and 54 second-feet.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,48 @@
+```json
+[
+    {
+        "Watersource_Name": "Desert Hot Springs",
+        "County": "Riverside",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": 33.9806,
+        "Longitude": -116.5598,
+        "Dates_of_Recording": "1953-1967",
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Mission Creek",
+        "County": "Riverside",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": 33.6867,
+        "Longitude": -116.1706,
+        "Dates_of_Recording": "1953-1967",
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Garnet Hill",
+        "County": "Riverside",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": 33.7408,
+        "Longitude": -116.2162,
+        "Dates_of_Recording": "1953-1967",
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Whitewater River",
+        "County": "Riverside",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": 33.6947,
+        "Longitude": -116.3081,
+        "Dates_of_Recording": "1953-1967",
+        "Water_Type": "Groundwater"
+    }
+]
+```

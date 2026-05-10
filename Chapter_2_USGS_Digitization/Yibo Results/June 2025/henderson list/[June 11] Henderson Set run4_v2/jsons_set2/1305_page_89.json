@@ -1,0 +1,102 @@
+{
+    "job_id": "337af3c4-c3d7-4574-9d9e-4b45f23c3fff",
+    "duration": 3.8539915084838867,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/35e9cd0d-0b63-427a-9867-d17c28a61152?AWSAccessKeyId=ASIA2UOK6OVBD3J7JFRW&Signature=luc5%2BVeuu%2FhxKnM8kY353ueON%2FM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIQDfcNdwXSgu0pZu%2BfhtHGlvx%2B5pnx4GUHlqYfc%2Bv4L85AIgfrdLLYUePiUTWdBlKNdEuHFDUIfrB0xQaiqXQUgxy4IqiwUIJBAAGgw3MzExMDY5MzIwMzQiDC16bHwtbj9hyuR0OCroBAv1EcnpP7cftaQ%2B7kVF7iLw3WBc8wzkZPuF7%2BqR%2BTh%2FjZ%2Bp5QimRvyUsOouHB5H3uJB8oZNy2B6eLVueIv2V1Ng3qM%2F8MVoHxOganY5cVj9IRXizaUt7e5QyJ8pjkg%2FfK0s9U3nPmC0nBnq2xJSTCvsSH8DQSHmiw6Udw3cPFQ4nU6oPGEfDhG7XxdA8KN2TK8Ir7NjOPuH5jxQDeeBsba5WgSxIlR82CT82mrejOzQ2lcl0Dm22b%2BDR%2FRMFbEVtzKnBZz5vn%2FRl7nDhaPnwlfbQ3l9%2FlBq5MfvIEPxj%2FwS52WCNmKk%2FGRHUmJT4dsbLA%2BAQtyhmxJV36hg30BCQP12RLS1txckPAkhJGOfuVBXE2h62%2FPBIV5Vregyv8hzcvWoCO41MR%2BJ%2Bl7bRZHwA9hnjn8LVkmztaYS65crWcraVqK55VYpbEy4RDTDngKNOJ6VFUt0au%2F5F5rSehTFdf0yZCdbITdXdjCWi0fFUSpjGpn1o4%2BdoAcNv1Sp%2FhGe8wO79WDYM9H2h8rDpeERNCA7IBJkV3HHkW6fuYpzWoGrzAdOjx6sxv2jmta2lNOKJNdYEaJQs5eq42p6ZKzx47R0SG4%2B5JHD8ErgV0xpK0nm7T3hT5HugVIoK%2FNuNvykqDJa8HgEeFvQSslboG2IbjHHpfW%2BhTFy2%2FocCP0ZxzyLd2sshyOfxbKkCGFhFZ58okMPBCn1erWVIrtGfSAA0Z3TqzhPM8ccZ3EgVReLTIDKqsuGL7DLJVLKc1yvXu%2FmMjcf8rCwhmCuimhlqP5rFZAEua0aYbjm%2BNgJwZbPHZKO8o3QK2fI1H0w99DJugY6mwE3%2BXK%2FaJNUa%2FL8ZwCU%2BH3UNOJvmys7%2FfHpvG4LO5et33DLk1fKKs81CcqXbFvX8g1L7PLmhpCQa1drdof%2FaNtihCpcPv9oih%2BQYG5dVxBcmXLsgDtmi6ODuuuU1nN36IVbnzhcrUOPAsmvil%2BqcMdAkswH8%2B8LsOQujA7licS8AgPmJ6L4nXuswehZ9fXYQuqfq8pzbA%2F84REQSA%3D%3D&Expires=1733459470",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued.\n\n# 80b. W. S. Haslam, Winchester, Elsinore quadrangle.\n\n[Has been measured in conjunction with observation wells, but record not published heretofore. Bench mark: Top of casing, 1 foot 1 inch above surface, Well No. 63, Water-Supply Paper 429, p. 39.]",
+                "embed": "# Records of water levels in the valley of southern California-Continued.\n\n# 80b. W. S. Haslam, Winchester, Elsinore quadrangle.\n\n[Has been measured in conjunction with observation wells, but record not published heretofore. Bench mark: Top of casing, 1 foot 1 inch above surface, Well No. 63, Water-Supply Paper 429, p. 39.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.36845425867507886,
+                            "top": 0.0364403528960491,
+                            "width": 0.167192429022082,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "THE RECORDS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8353312302839117,
+                            "top": 0.03413885692366705,
+                            "width": 0.029022082018927444,
+                            "height": 0.013425393172228616,
+                            "page": 1
+                        },
+                        "content": "83",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.11861198738170348,
+                            "top": 0.06635980053701572,
+                            "width": 0.6694006309148265,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "Records of water levels in the valley of southern California-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.22397476340694006,
+                            "top": 0.09205983889528194,
+                            "width": 0.4523659305993691,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "80b. W. S. Haslam, Winchester, Elsinore quadrangle.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03659305993690852,
+                            "top": 0.11085538933640199,
+                            "width": 0.8296529968454258,
+                            "height": 0.02263137706175681,
+                            "page": 1
+                        },
+                        "content": "[Has been measured in conjunction with observation wells, but record not published heretofore. Bench mark: Top of casing, 1 foot 1 inch above surface, Well No. 63, Water-Supply Paper 429, p. 39.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 80b. W. S. Haslam, Winchester, Elsinore quadrangle. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1905.</td><td>Ft. in.</td><td>1912.</td><td>Ft. in.</td></tr><tr><td>Nov. 10</td><td>20 0</td><td>May 29</td><td>20 3</td></tr><tr><td>Dec. 22</td><td>20 5</td><td>July 30</td><td>20 8</td></tr><tr><td></td><td></td><td>Oct. 18</td><td>24 6</td></tr><tr><td>1906.</td><td></td><td></td><td></td></tr><tr><td>Jan. 29</td><td>20 2</td><td>1913.</td><td></td></tr><tr><td>Mar. 16</td><td>19 6</td><td>Oct. 18</td><td>23 8</td></tr><tr><td>May 12</td><td>19 8</td><td></td><td></td></tr><tr><td>June 28</td><td>20 5</td><td>1914.</td><td></td></tr><tr><td>Aug. 4</td><td>19 7</td><td>Feb. 5</td><td>23 4</td></tr><tr><td>Sept. 27</td><td>19 6</td><td>Apr. 17</td><td>24 8</td></tr><tr><td>Dec. 31</td><td>19 41</td><td>June 25</td><td>21 1</td></tr><tr><td></td><td></td><td>Aug. 14</td><td>21 4</td></tr><tr><td>1907.</td><td></td><td>Nov. 21</td><td>22 5</td></tr><tr><td>Feb. 14</td><td>18 51</td><td></td><td></td></tr><tr><td>May 18</td><td>18 9</td><td>1915.</td><td></td></tr><tr><td>Aug. 30</td><td>18 0</td><td>May 21 (had been pumped)</td><td>29 7</td></tr><tr><td>Dec. 31</td><td>18 41/2</td><td>Oct. 31</td><td>21 1</td></tr><tr><td>1908.</td><td></td><td>1916.</td><td></td></tr><tr><td>Apr. 23</td><td>18 0</td><td>May 6</td><td>16 7</td></tr><tr><td>June 25</td><td>18 6</td><td>Nov. 15</td><td>17 11</td></tr><tr><td>Oct. 15</td><td>19 5</td><td></td><td></td></tr><tr><td>Dec. 28</td><td>19 4</td><td>1917.\nMay 19</td><td>18 0</td></tr><tr><td>1909.</td><td></td><td>Nov. 25</td><td>21 9</td></tr><tr><td>Apr. 2</td><td>18 6</td><td>1918.</td><td></td></tr><tr><td>July 11</td><td>19 3</td><td>May 4</td><td>19 1</td></tr><tr><td>Oct. 14</td><td>20 1</td><td>Oct. 12</td><td>19 0</td></tr><tr><td>1910.</td><td></td><td>1919.\nMay 11</td><td>18 8</td></tr><tr><td>Feb. 3\nAug. 10</td><td>19 0\n27 11</td><td>Oct. 12</td><td>21 8</td></tr><tr><td></td><td></td><td>1920.</td><td></td></tr><tr><td>1911.</td><td></td><td>May 18</td><td>19 10</td></tr><tr><td>Jan. 5</td><td>29 0</td><td>Oct. 16</td><td>21 7</td></tr></table>",
+                "embed": "# 80b. W. S. Haslam, Winchester, Elsinore quadrangle. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1905.</td><td>Ft. in.</td><td>1912.</td><td>Ft. in.</td></tr><tr><td>Nov. 10</td><td>20 0</td><td>May 29</td><td>20 3</td></tr><tr><td>Dec. 22</td><td>20 5</td><td>July 30</td><td>20 8</td></tr><tr><td></td><td></td><td>Oct. 18</td><td>24 6</td></tr><tr><td>1906.</td><td></td><td></td><td></td></tr><tr><td>Jan. 29</td><td>20 2</td><td>1913.</td><td></td></tr><tr><td>Mar. 16</td><td>19 6</td><td>Oct. 18</td><td>23 8</td></tr><tr><td>May 12</td><td>19 8</td><td></td><td></td></tr><tr><td>June 28</td><td>20 5</td><td>1914.</td><td></td></tr><tr><td>Aug. 4</td><td>19 7</td><td>Feb. 5</td><td>23 4</td></tr><tr><td>Sept. 27</td><td>19 6</td><td>Apr. 17</td><td>24 8</td></tr><tr><td>Dec. 31</td><td>19 41</td><td>June 25</td><td>21 1</td></tr><tr><td></td><td></td><td>Aug. 14</td><td>21 4</td></tr><tr><td>1907.</td><td></td><td>Nov. 21</td><td>22 5</td></tr><tr><td>Feb. 14</td><td>18 51</td><td></td><td></td></tr><tr><td>May 18</td><td>18 9</td><td>1915.</td><td></td></tr><tr><td>Aug. 30</td><td>18 0</td><td>May 21 (had been pumped)</td><td>29 7</td></tr><tr><td>Dec. 31</td><td>18 41/2</td><td>Oct. 31</td><td>21 1</td></tr><tr><td>1908.</td><td></td><td>1916.</td><td></td></tr><tr><td>Apr. 23</td><td>18 0</td><td>May 6</td><td>16 7</td></tr><tr><td>June 25</td><td>18 6</td><td>Nov. 15</td><td>17 11</td></tr><tr><td>Oct. 15</td><td>19 5</td><td></td><td></td></tr><tr><td>Dec. 28</td><td>19 4</td><td>1917.\nMay 19</td><td>18 0</td></tr><tr><td>1909.</td><td></td><td>Nov. 25</td><td>21 9</td></tr><tr><td>Apr. 2</td><td>18 6</td><td>1918.</td><td></td></tr><tr><td>July 11</td><td>19 3</td><td>May 4</td><td>19 1</td></tr><tr><td>Oct. 14</td><td>20 1</td><td>Oct. 12</td><td>19 0</td></tr><tr><td>1910.</td><td></td><td>1919.\nMay 11</td><td>18 8</td></tr><tr><td>Feb. 3\nAug. 10</td><td>19 0\n27 11</td><td>Oct. 12</td><td>21 8</td></tr><tr><td></td><td></td><td>1920.</td><td></td></tr><tr><td>1911.</td><td></td><td>May 18</td><td>19 10</td></tr><tr><td>Jan. 5</td><td>29 0</td><td>Oct. 16</td><td>21 7</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.03283594654937648,
+                            "top": 0.14228996976289796,
+                            "width": 0.8375790617067355,
+                            "height": 0.44628339678929324,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1905.</td><td>Ft. in.</td><td>1912.</td><td>Ft. in.</td></tr><tr><td>Nov. 10</td><td>20 0</td><td>May 29</td><td>20 3</td></tr><tr><td>Dec. 22</td><td>20 5</td><td>July 30</td><td>20 8</td></tr><tr><td></td><td></td><td>Oct. 18</td><td>24 6</td></tr><tr><td>1906.</td><td></td><td></td><td></td></tr><tr><td>Jan. 29</td><td>20 2</td><td>1913.</td><td></td></tr><tr><td>Mar. 16</td><td>19 6</td><td>Oct. 18</td><td>23 8</td></tr><tr><td>May 12</td><td>19 8</td><td></td><td></td></tr><tr><td>June 28</td><td>20 5</td><td>1914.</td><td></td></tr><tr><td>Aug. 4</td><td>19 7</td><td>Feb. 5</td><td>23 4</td></tr><tr><td>Sept. 27</td><td>19 6</td><td>Apr. 17</td><td>24 8</td></tr><tr><td>Dec. 31</td><td>19 41</td><td>June 25</td><td>21 1</td></tr><tr><td></td><td></td><td>Aug. 14</td><td>21 4</td></tr><tr><td>1907.</td><td></td><td>Nov. 21</td><td>22 5</td></tr><tr><td>Feb. 14</td><td>18 51</td><td></td><td></td></tr><tr><td>May 18</td><td>18 9</td><td>1915.</td><td></td></tr><tr><td>Aug. 30</td><td>18 0</td><td>May 21 (had been pumped)</td><td>29 7</td></tr><tr><td>Dec. 31</td><td>18 41/2</td><td>Oct. 31</td><td>21 1</td></tr><tr><td>1908.</td><td></td><td>1916.</td><td></td></tr><tr><td>Apr. 23</td><td>18 0</td><td>May 6</td><td>16 7</td></tr><tr><td>June 25</td><td>18 6</td><td>Nov. 15</td><td>17 11</td></tr><tr><td>Oct. 15</td><td>19 5</td><td></td><td></td></tr><tr><td>Dec. 28</td><td>19 4</td><td>1917.\nMay 19</td><td>18 0</td></tr><tr><td>1909.</td><td></td><td>Nov. 25</td><td>21 9</td></tr><tr><td>Apr. 2</td><td>18 6</td><td>1918.</td><td></td></tr><tr><td>July 11</td><td>19 3</td><td>May 4</td><td>19 1</td></tr><tr><td>Oct. 14</td><td>20 1</td><td>Oct. 12</td><td>19 0</td></tr><tr><td>1910.</td><td></td><td>1919.\nMay 11</td><td>18 8</td></tr><tr><td>Feb. 3\nAug. 10</td><td>19 0\n27 11</td><td>Oct. 12</td><td>21 8</td></tr><tr><td></td><td></td><td>1920.</td><td></td></tr><tr><td>1911.</td><td></td><td>May 18</td><td>19 10</td></tr><tr><td>Jan. 5</td><td>29 0</td><td>Oct. 16</td><td>21 7</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

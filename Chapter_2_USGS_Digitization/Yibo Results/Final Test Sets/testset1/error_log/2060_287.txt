@@ -1,0 +1,34 @@
+```json
+{
+    "Watersource_Name": "City of Santa Barbara, well 10-B",
+    "Actual_County": "Santa Barbara County",
+    "Inferred_County": null,
+    "Location": "About 1.4 miles east of Lompoc, 100 feet southeast of observation well 7/34-35P1, 25 feet east of dwelling",
+    "Townships_Ranges_Sections": null,
+    "Temporal_Resolution": "Varies (Specific dates are recorded)",
+    "Units_Of_Measurement": "Feet above sea-level datum of 1929",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": null,
+    "Inferred_Longitude": null,
+    "Dates_of_Recording": "1941-01/20 to 1942-04/02",
+    "Water_Type": "Groundwater",
+    "KeyTerms": ["Pump", "Observation well", "Measuring point"]
+},
+{
+    "Watersource_Name": "City of Santa Barbara, well R-1",
+    "Actual_County": "Santa Barbara County",
+    "Inferred_County": null,
+    "Location": "About 1.7 miles nearly east of Lompoc, 0.3 mile southeast of Robinson Bridge, in Santa Ynez River channel",
+    "Townships_Ranges_Sections": null,
+    "Temporal_Resolution": "Varies (Specific dates are recorded)",
+    "Units_Of_Measurement": "Feet below land-surface datum",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": null,
+    "Inferred_Longitude": null,
+    "Dates_of_Recording": "1941-04/10 to 1942-04/02",
+    "Water_Type": "Groundwater",
+    "KeyTerms": ["Santa Ynez River", "Destroyed by high water"]
+}
+```

@@ -1,0 +1,154 @@
+{
+    "job_id": "02c39a1b-6c26-4d9c-9626-76dbec3d2e09",
+    "duration": 7.733681678771973,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/bef3ee9c-4f5f-482f-897a-ba579cebc19b?AWSAccessKeyId=ASIA2UOK6OVBMDELH6VN&Signature=83A21DkRuV9H9MMoQZsoCinhMFw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIQDz3lQgzBeKJpTKEEDlFcB5eUa7Fo7n95d7mlPVPNSUQQIgAX8EstPFqLGnqMFpptSS4znRqLbgxFvBmjoZ8QK8xIwqiwUIJBAAGgw3MzExMDY5MzIwMzQiDEy4qwK4M7KASFZ7fCroBEviSyaV1NIl3I6GWAcghgpdd2whvkrCjKKlufGx9ue4HjHbLoAJaDIvXvZv9beQFOruOLEXpzXHIMJxTyzSP4xJqvgf6d1h%2FP6PBdRCeJP2NJRHBAvS6ZRhup1bfWlNvECoQFEjGEAma7EGhlMiN6ipHJiDmixb3chzHlH2srL5mRhMkYBLcjuYYc5ZdJ6Lmss9vePEYxoZbZIF6RidsdCDI3DMZnbVYa4YaGenRWqpiQYiIH4YK%2BqiHSCxQwJOO5D04ppcXJ4nARRvVaV7YONDaKLL9tOVPzyjf%2FD5oSXW6bvsOJFIGPsuky9OIrOiTvktou1Jq5QGqx2LZVDNizJ6HQgWX2cMo2sZVB%2BTR%2FrmWRhcXvUsGItOlPU4SPd%2BnSLVySxE%2FH8HyYcTM%2BmDf0o7OJ0FS08kRNkatVX%2BRwEBIzthx3IWrVQKGLlkkIC7bvX0jw9VWHOlDqiZulsFIrecWRe954584oh43rOeOJ6BFjyVVW2t8YhtdHH1KIYVPPeZKzZGsEdEKoCx5tnfEdWZqgwo34fiDQuXWkPP7Nvw9TQDlmLmZMUJ1Me%2Fs6k6%2B%2F2KRLyphbhvmvM2RwNThx5UJLD%2BDGiuseuqECc%2BIeFqukpuY8nDplMdEv172FZy8OERtSHc9pLZp3WJ45Nj5JvLZRubJpF%2FGdEqeOkZv5PPb33cBQYDxQ7rEtgeVATT8U1VxHjRTZqU9Mxf6x6%2FpovH4a9LxDPbLhbbou%2FBlHg%2BE%2By8DYt0MonW%2BSpIvbVGT6MxgaEy%2B%2FqOPMVsVpCNahA66jDdCTGpe69WQLxqeSVke80K8Mw1uwww5tDJugY6mwHb1FUr3CQm1DILiLE2CQGj%2BOU5NPvqOELJkoAjKwJghKLN3muU1Mc7ig0V32XrDMzwVNW1pk%2FCitERzZUeeVsHPNmjxNkT3PVAg6aurW%2FpTaIIre9YEaefHqQbzoi5HfiAW7diUsojxWGpVYVWkQkMerBHP2NbWLQSucTFvpctw2kfuIU4aWI1wgsqFyC9xNjIk11CrKfiPTDOZg%3D%3D&Expires=1733459488",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA.\n\n# Records of water levels in the valley of southern California-Continued.\n\n86. Mr. Woodbridge (formerly owned by A. W. Bemis), 2 miles west of San Bernardino, San Bernardino quadrangle.\n\n[Well, 48 feet deep, 8-inch casing; sunk in 1890; method of lift, wind; use, domestic. Bench mark: Top of casing, 1 foot 7 inches above surface. Altitude of bench mark, 1,130.8 feet above sea level. Com- panion well for No. 441, Water-Supply Paper 142, p. 116, which was destroyed.)",
+                "embed": "# WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA.\n\n# Records of water levels in the valley of southern California-Continued.\n\n86. Mr. Woodbridge (formerly owned by A. W. Bemis), 2 miles west of San Bernardino, San Bernardino quadrangle.\n\n[Well, 48 feet deep, 8-inch casing; sunk in 1890; method of lift, wind; use, domestic. Bench mark: Top of casing, 1 foot 7 inches above surface. Altitude of bench mark, 1,130.8 feet above sea level. Com- panion well for No. 441, Water-Supply Paper 142, p. 116, which was destroyed.)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.1444794952681388,
+                            "top": 0.04833141542002301,
+                            "width": 0.030914826498422712,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "90",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2384858044164038,
+                            "top": 0.05140007671653241,
+                            "width": 0.6498422712933754,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.22586750788643534,
+                            "top": 0.08208668968162638,
+                            "width": 0.6668769716088329,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "Records of water levels in the valley of southern California-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14195583596214512,
+                            "top": 0.10663598005370158,
+                            "width": 0.8347003154574133,
+                            "height": 0.021480629075565784,
+                            "page": 1
+                        },
+                        "content": "86. Mr. Woodbridge (formerly owned by A. W. Bemis), 2 miles west of San Bernardino, San Bernardino quadrangle.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14384858044164037,
+                            "top": 0.13885692366705024,
+                            "width": 0.8340694006309148,
+                            "height": 0.031070195627157654,
+                            "page": 1
+                        },
+                        "content": "[Well, 48 feet deep, 8-inch casing; sunk in 1890; method of lift, wind; use, domestic. Bench mark: Top of casing, 1 foot 7 inches above surface. Altitude of bench mark, 1,130.8 feet above sea level. Com- panion well for No. 441, Water-Supply Paper 142, p. 116, which was destroyed.)",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1900,</td><td>Ft. in.</td><td>1915 -Continued.</td><td>Ft. in.</td></tr><tr><td>October</td><td>17 0</td><td>Apr. 28</td><td>11 8</td></tr><tr><td></td><td></td><td>May 25</td><td>13 6</td></tr><tr><td>1904.</td><td></td><td>June 16</td><td>15 2</td></tr><tr><td>October</td><td>37 0</td><td>July 17</td><td>16 5</td></tr><tr><td></td><td></td><td>Sept. 2</td><td>18 5</td></tr><tr><td>1909.</td><td></td><td>Sept. 24</td><td>19 2</td></tr><tr><td>Oct. 15 -17</td><td>13 0</td><td>Oct. 15</td><td>19 10</td></tr><tr><td>1912,</td><td></td><td>Nov. 2</td><td>22 4</td></tr><tr><td>Oct. 16</td><td>9 0</td><td>1916.</td><td></td></tr><tr><td></td><td></td><td>Mar. 15</td><td>5 4</td></tr><tr><td></td><td></td><td>June 7</td><td>8 11</td></tr><tr><td></td><td>Depth</td><td>Nov. 17</td><td>8 8</td></tr><tr><td></td><td>of water\nlevel</td><td>1917.</td><td></td></tr><tr><td></td><td>below</td><td>May 17</td><td>8 0</td></tr><tr><td></td><td>bench</td><td>Nov. 23</td><td>8 7</td></tr><tr><td></td><td>mark.</td><td>1918.</td><td></td></tr><tr><td></td><td></td><td>May 2</td><td>8 0</td></tr><tr><td>1914.</td><td>Ft. in.</td><td>Oct. 22</td><td>10 1</td></tr><tr><td>Oct. 26</td><td>17 4</td><td>1919.</td><td></td></tr><tr><td>1915.</td><td></td><td>May 13</td><td>10 5</td></tr><tr><td>Feb. 24</td><td>15 7</td><td>Nov. 5</td><td>13 7</td></tr><tr><td>Mar. 8</td><td>11 0</td><td>1920.</td><td></td></tr><tr><td>Mar. 15</td><td>10 9</td><td>17</td><td></td></tr><tr><td>Apr. 15</td><td>12 9</td><td>May\nNov. 1</td><td>13 11</td></tr><tr><td>Apr. 20</td><td>11 11</td><td></td><td>20 9</td></tr></table>",
+                "embed": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1900,</td><td>Ft. in.</td><td>1915 -Continued.</td><td>Ft. in.</td></tr><tr><td>October</td><td>17 0</td><td>Apr. 28</td><td>11 8</td></tr><tr><td></td><td></td><td>May 25</td><td>13 6</td></tr><tr><td>1904.</td><td></td><td>June 16</td><td>15 2</td></tr><tr><td>October</td><td>37 0</td><td>July 17</td><td>16 5</td></tr><tr><td></td><td></td><td>Sept. 2</td><td>18 5</td></tr><tr><td>1909.</td><td></td><td>Sept. 24</td><td>19 2</td></tr><tr><td>Oct. 15 -17</td><td>13 0</td><td>Oct. 15</td><td>19 10</td></tr><tr><td>1912,</td><td></td><td>Nov. 2</td><td>22 4</td></tr><tr><td>Oct. 16</td><td>9 0</td><td>1916.</td><td></td></tr><tr><td></td><td></td><td>Mar. 15</td><td>5 4</td></tr><tr><td></td><td></td><td>June 7</td><td>8 11</td></tr><tr><td></td><td>Depth</td><td>Nov. 17</td><td>8 8</td></tr><tr><td></td><td>of water\nlevel</td><td>1917.</td><td></td></tr><tr><td></td><td>below</td><td>May 17</td><td>8 0</td></tr><tr><td></td><td>bench</td><td>Nov. 23</td><td>8 7</td></tr><tr><td></td><td>mark.</td><td>1918.</td><td></td></tr><tr><td></td><td></td><td>May 2</td><td>8 0</td></tr><tr><td>1914.</td><td>Ft. in.</td><td>Oct. 22</td><td>10 1</td></tr><tr><td>Oct. 26</td><td>17 4</td><td>1919.</td><td></td></tr><tr><td>1915.</td><td></td><td>May 13</td><td>10 5</td></tr><tr><td>Feb. 24</td><td>15 7</td><td>Nov. 5</td><td>13 7</td></tr><tr><td>Mar. 8</td><td>11 0</td><td>1920.</td><td></td></tr><tr><td>Mar. 15</td><td>10 9</td><td>17</td><td></td></tr><tr><td>Apr. 15</td><td>12 9</td><td>May\nNov. 1</td><td>13 11</td></tr><tr><td>Apr. 20</td><td>11 11</td><td></td><td>20 9</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.14073459372535488,
+                            "top": 0.17990784229882886,
+                            "width": 0.8370750258773659,
+                            "height": 0.3921841122795898,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1900,</td><td>Ft. in.</td><td>1915 -Continued.</td><td>Ft. in.</td></tr><tr><td>October</td><td>17 0</td><td>Apr. 28</td><td>11 8</td></tr><tr><td></td><td></td><td>May 25</td><td>13 6</td></tr><tr><td>1904.</td><td></td><td>June 16</td><td>15 2</td></tr><tr><td>October</td><td>37 0</td><td>July 17</td><td>16 5</td></tr><tr><td></td><td></td><td>Sept. 2</td><td>18 5</td></tr><tr><td>1909.</td><td></td><td>Sept. 24</td><td>19 2</td></tr><tr><td>Oct. 15 -17</td><td>13 0</td><td>Oct. 15</td><td>19 10</td></tr><tr><td>1912,</td><td></td><td>Nov. 2</td><td>22 4</td></tr><tr><td>Oct. 16</td><td>9 0</td><td>1916.</td><td></td></tr><tr><td></td><td></td><td>Mar. 15</td><td>5 4</td></tr><tr><td></td><td></td><td>June 7</td><td>8 11</td></tr><tr><td></td><td>Depth</td><td>Nov. 17</td><td>8 8</td></tr><tr><td></td><td>of water\nlevel</td><td>1917.</td><td></td></tr><tr><td></td><td>below</td><td>May 17</td><td>8 0</td></tr><tr><td></td><td>bench</td><td>Nov. 23</td><td>8 7</td></tr><tr><td></td><td>mark.</td><td>1918.</td><td></td></tr><tr><td></td><td></td><td>May 2</td><td>8 0</td></tr><tr><td>1914.</td><td>Ft. in.</td><td>Oct. 22</td><td>10 1</td></tr><tr><td>Oct. 26</td><td>17 4</td><td>1919.</td><td></td></tr><tr><td>1915.</td><td></td><td>May 13</td><td>10 5</td></tr><tr><td>Feb. 24</td><td>15 7</td><td>Nov. 5</td><td>13 7</td></tr><tr><td>Mar. 8</td><td>11 0</td><td>1920.</td><td></td></tr><tr><td>Mar. 15</td><td>10 9</td><td>17</td><td></td></tr><tr><td>Apr. 15</td><td>12 9</td><td>May\nNov. 1</td><td>13 11</td></tr><tr><td>Apr. 20</td><td>11 11</td><td></td><td>20 9</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n## 87. G. Renwick, 12 miles south of San Bernardino, San Bernardino quadrangle.\n\n[Well, 186 feet deep, 6-inch casing; method of lift, wind; use, domestic. Bench mark: Ton of casing, at surface. Altitude of bench mark, 1,100.85 feet above sea level. Well No. 277, Water-Supply Paper 142, p. 109.]",
+                "embed": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n## 87. G. Renwick, 12 miles south of San Bernardino, San Bernardino quadrangle.\n\n[Well, 186 feet deep, 6-inch casing; method of lift, wind; use, domestic. Bench mark: Ton of casing, at surface. Altitude of bench mark, 1,100.85 feet above sea level. Well No. 277, Water-Supply Paper 142, p. 109.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.21766561514195584,
+                            "top": 0.5887993862677406,
+                            "width": 0.6763406940063091,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "87. G. Renwick, 12 miles south of San Bernardino, San Bernardino quadrangle.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14069400630914827,
+                            "top": 0.6133486766398158,
+                            "width": 0.8321766561514196,
+                            "height": 0.03068661296509398,
+                            "page": 1
+                        },
+                        "content": "[Well, 186 feet deep, 6-inch casing; method of lift, wind; use, domestic. Bench mark: Ton of casing, at surface. Altitude of bench mark, 1,100.85 feet above sea level. Well No. 277, Water-Supply Paper 142, p. 109.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n## 87. G. Renwick, 12 miles south of San Bernardino, San Bernardino quadrangle. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th></tr><tr><td>1900.</td><td>Ft. in.</td><td>1915 -Continued.</td><td>Ft. in.</td></tr><tr><td>October</td><td>35 0</td><td>Mar. 15</td><td>23 5</td></tr><tr><td></td><td></td><td>Apr. 15</td><td>21 9</td></tr><tr><td>1904.</td><td></td><td>May 6</td><td>12 3</td></tr><tr><td>October</td><td>40 0</td><td>May 14</td><td>17 1</td></tr><tr><td></td><td></td><td>May 25</td><td>39 2</td></tr><tr><td>1909.</td><td></td><td>May 29</td><td>41 7</td></tr><tr><td>Oct. 15 -17</td><td>22 10</td><td>June 8</td><td>41 7</td></tr><tr><td></td><td></td><td>July 17 (dry)</td><td>41 6</td></tr><tr><td>1912.</td><td></td><td>Oct. 2 (dry)</td><td>41 6</td></tr><tr><td>Oct. 16 -18</td><td>15 10</td><td>Oct. 15 (dry)</td><td>41 6</td></tr><tr><td>1914.</td><td></td><td>Nov. 2 (dry at 42 feet 6 inches)</td><td></td></tr><tr><td>Oct. 26 (wet sand at 43 feet 6 inches)</td><td></td><td>1916.</td><td></td></tr><tr><td>1915.</td><td></td><td>Mar. 15</td><td>8 10</td></tr><tr><td>Feb. 24</td><td>8 2</td><td>June 8 (filled in to about 18 feet)</td><td></td></tr><tr><td>Mar. 8</td><td>8 7</td><td>Nov. 17 (filled)</td><td></td></tr></table>",
+                "embed": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n## 87. G. Renwick, 12 miles south of San Bernardino, San Bernardino quadrangle. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th></tr><tr><td>1900.</td><td>Ft. in.</td><td>1915 -Continued.</td><td>Ft. in.</td></tr><tr><td>October</td><td>35 0</td><td>Mar. 15</td><td>23 5</td></tr><tr><td></td><td></td><td>Apr. 15</td><td>21 9</td></tr><tr><td>1904.</td><td></td><td>May 6</td><td>12 3</td></tr><tr><td>October</td><td>40 0</td><td>May 14</td><td>17 1</td></tr><tr><td></td><td></td><td>May 25</td><td>39 2</td></tr><tr><td>1909.</td><td></td><td>May 29</td><td>41 7</td></tr><tr><td>Oct. 15 -17</td><td>22 10</td><td>June 8</td><td>41 7</td></tr><tr><td></td><td></td><td>July 17 (dry)</td><td>41 6</td></tr><tr><td>1912.</td><td></td><td>Oct. 2 (dry)</td><td>41 6</td></tr><tr><td>Oct. 16 -18</td><td>15 10</td><td>Oct. 15 (dry)</td><td>41 6</td></tr><tr><td>1914.</td><td></td><td>Nov. 2 (dry at 42 feet 6 inches)</td><td></td></tr><tr><td>Oct. 26 (wet sand at 43 feet 6 inches)</td><td></td><td>1916.</td><td></td></tr><tr><td>1915.</td><td></td><td>Mar. 15</td><td>8 10</td></tr><tr><td>Feb. 24</td><td>8 2</td><td>June 8 (filled in to about 18 feet)</td><td></td></tr><tr><td>Mar. 8</td><td>8 7</td><td>Nov. 17 (filled)</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13760068875382,
+                            "top": 0.6544449794873178,
+                            "width": 0.8392457691276863,
+                            "height": 0.2524251583027666,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th></tr><tr><td>1900.</td><td>Ft. in.</td><td>1915 -Continued.</td><td>Ft. in.</td></tr><tr><td>October</td><td>35 0</td><td>Mar. 15</td><td>23 5</td></tr><tr><td></td><td></td><td>Apr. 15</td><td>21 9</td></tr><tr><td>1904.</td><td></td><td>May 6</td><td>12 3</td></tr><tr><td>October</td><td>40 0</td><td>May 14</td><td>17 1</td></tr><tr><td></td><td></td><td>May 25</td><td>39 2</td></tr><tr><td>1909.</td><td></td><td>May 29</td><td>41 7</td></tr><tr><td>Oct. 15 -17</td><td>22 10</td><td>June 8</td><td>41 7</td></tr><tr><td></td><td></td><td>July 17 (dry)</td><td>41 6</td></tr><tr><td>1912.</td><td></td><td>Oct. 2 (dry)</td><td>41 6</td></tr><tr><td>Oct. 16 -18</td><td>15 10</td><td>Oct. 15 (dry)</td><td>41 6</td></tr><tr><td>1914.</td><td></td><td>Nov. 2 (dry at 42 feet 6 inches)</td><td></td></tr><tr><td>Oct. 26 (wet sand at 43 feet 6 inches)</td><td></td><td>1916.</td><td></td></tr><tr><td>1915.</td><td></td><td>Mar. 15</td><td>8 10</td></tr><tr><td>Feb. 24</td><td>8 2</td><td>June 8 (filled in to about 18 feet)</td><td></td></tr><tr><td>Mar. 8</td><td>8 7</td><td>Nov. 17 (filled)</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

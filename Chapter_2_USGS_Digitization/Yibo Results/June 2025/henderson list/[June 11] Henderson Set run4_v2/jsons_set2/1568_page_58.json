@@ -1,0 +1,166 @@
+{
+    "job_id": "715654d3-198a-45bf-b82b-09ba92ae8b0b",
+    "duration": 4.296243906021118,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/58ab75f0-4be9-499a-8776-316e5181a527?AWSAccessKeyId=ASIA2UOK6OVBMTGD4IQ4&Signature=qbn9hkYw0d%2BeMpUjnnGcjgYxNrU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIAPluwvNDWzSqF%2BKbB1QSvFYXJnDbndTAZe5k%2B1FjqDjAiB66jct8Ore5R8AitqJD6zL2%2BPxmEHRgfj0wUBb66ykBSqLBQgjEAAaDDczMTEwNjkzMjAzNCIMk7cB9ZDdntEZ6mVFKugEmAxNsGTJahoaxp1y%2FZ4F8qjLmFM096hxsxr73lccyR3A3asMgyuJoHvwzKv7hCcO4blnN%2BrvJQydnvvYCJB1nW0rC4JZaUYjw7AFdMcGU58Qt36iRvdf9d1tcOvNlWtROb8%2BHW9yQBfkZL%2Bkq14pJ%2FO1qwhPpQMClCjvf1m9MtnMsYVXHRiOYsR58pCx%2Fm5RC43pq2nrZXW1tnXDbn7WpwEM7WIjOUDn0S0JFFNTyINxipT5oIkwq%2BhT6FAGx7EMjMleG%2B4EYOC%2BTihyIB2uLqic1z6gpNE3pJdQ3EQP%2FIsChJLG%2Bc7eh2fDssbEKcGVg93HCnl3uP9xjl8LngaJKnuWNTtWhp%2BUM940%2F46uBn9kUS2GhibOWrKzIegBNgHK1v8oKugY%2BQPj4ZycNI2OrRau%2FmrjQsgIqDKbxLSpVdrKIpux4tOvSbunY2ADlDKBlaril1SfO6c6P%2BuWIquXyn%2FO4uKCw9EvGKiHaojUDlI%2BSyeof7UCNuMmcYwVYbIaQolJ57za1W6lBZ3fzJfFfO3KGMLMPnfwWQu3LBrf1RIlKCVZFJRuNt9%2BoHxCW3TOgz6wuCFkOrR793%2FmdcGa8xQ9Fnz4egiD0Gz8wODI%2FTPrMT8rEH%2BxkWN4VquoUwyGDEiieQbw1qRbESP1bvPWgNkysjKHeYIO5Lr3eobIDtNcAVxwnaN6kTYw9Z8O60FAAFUDnQyRW3W9u9uqpbJiqYApzSbosjBFSMgA0VsLAFo3f88zpseyJ8AhXPI4d6uhPpJjRRrFcyaCI8nj9%2BXJx4rmHze0UbAeOlDTGgf06ADGNmT%2FNWTgRzDis8m6BjqcASM4lH3hG3dF8YDgUK3ywoy7K42B4uyCxDVnxd%2BUZpfe%2FivSamwFgO609UkgWCymk6B%2F8feu7TYMZD8nARODdYdJGO9ls6Rdr9P2bOtmyt0iPusgp%2FWgaiEIDumEeXT9gQl0LFhTB6DQacv19V%2Bf6lg25%2F%2FLMPJd7X0gVI9DaJXvGVurNMFhCS9s69dpae0BaxSwOOwqyEUNIM2nvw%3D%3D&Expires=1733454785",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.1135101789019124,
+                            "top": 0.05257228689447991,
+                            "width": 0.032078963602714373,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "40",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI\n\n# Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925\n\n<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th></tr><tr><td>1</td><td></td><td></td><td>0.1</td><td></td><td></td><td>3.9</td><td>2.3</td><td>0.1</td></tr><tr><td>2</td><td></td><td></td><td>.1</td><td></td><td></td><td>2.3</td><td>.7</td><td>.1</td></tr><tr><td>3</td><td></td><td></td><td>.1</td><td></td><td></td><td>2. 5</td><td>.3</td><td>.2</td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td>7</td><td>.3</td><td>6</td></tr><tr><td>5</td><td></td><td></td><td>.2</td><td></td><td>0.1</td><td>18</td><td>.3</td><td>.6</td></tr><tr><td>6</td><td></td><td>3.0</td><td>.3</td><td>0.1</td><td>.1</td><td>17</td><td>.3</td><td>.2</td></tr><tr><td>7</td><td></td><td>2.0</td><td>.2</td><td>.1</td><td>3.9</td><td>13</td><td>.3</td><td>.1</td></tr><tr><td>8</td><td></td><td>.8</td><td></td><td>.1</td><td>1.7</td><td>13</td><td>.3</td><td>.1</td></tr><tr><td>9</td><td></td><td>.5</td><td></td><td>.1</td><td>1.1</td><td>11</td><td>.2</td><td>.1</td></tr><tr><td>10</td><td>2.8</td><td>.2</td><td></td><td></td><td>.6</td><td>9</td><td>.2</td><td>.1</td></tr><tr><td>11</td><td>1.1</td><td>.1</td><td></td><td></td><td>.4</td><td>7</td><td>.2</td><td>.1</td></tr><tr><td>12</td><td>.7</td><td>.1</td><td></td><td></td><td>.2</td><td>6.5</td><td>.2</td><td>.1</td></tr><tr><td>13</td><td>.2</td><td>.1</td><td></td><td></td><td>.2</td><td>5.</td><td>.2</td><td>.1</td></tr><tr><td>14</td><td>.1</td><td>.1</td><td></td><td></td><td>.2</td><td>3.9</td><td>.2</td><td>.1</td></tr><tr><td>15</td><td>.1</td><td>.1</td><td></td><td></td><td>.3</td><td>3. 3</td><td>.2</td><td>.1</td></tr><tr><td>16</td><td>.1</td><td>5</td><td></td><td></td><td>.2</td><td>2.3</td><td>.2</td><td>.1</td></tr><tr><td>17</td><td>.2</td><td>4.0</td><td></td><td></td><td>.1</td><td>1.9</td><td>.2</td><td>.1</td></tr><tr><td>18</td><td>.2</td><td>2.0</td><td></td><td>.1</td><td>.1</td><td>1.4</td><td>.2</td><td>.1</td></tr><tr><td>19</td><td>.2</td><td>.4</td><td></td><td>.1</td><td>.1</td><td>.4</td><td>.2</td><td>.1</td></tr><tr><td>20</td><td>.2</td><td>.2</td><td></td><td>.1</td><td></td><td>.2</td><td>.2</td><td>.1</td></tr><tr><td>21</td><td>.2</td><td>.2</td><td></td><td>1.2</td><td></td><td>.7</td><td>.2</td><td>.1</td></tr><tr><td>22</td><td>.2</td><td>.8</td><td></td><td>.4</td><td>.1</td><td>.6</td><td>.2</td><td>.1</td></tr><tr><td>23</td><td>.2</td><td>5</td><td></td><td>.1</td><td>.1</td><td>5</td><td>.1</td><td>.1</td></tr><tr><td>24</td><td>.3</td><td>1.1</td><td></td><td>.1</td><td>.1</td><td>2.1</td><td>.1</td><td></td></tr><tr><td>25</td><td>.3</td><td>.3</td><td></td><td>.1</td><td>.1</td><td>2.6</td><td>.1</td><td></td></tr><tr><td>26</td><td>.2</td><td>.1</td><td></td><td>.1</td><td>.1</td><td>3. 9</td><td>.1</td><td></td></tr><tr><td>27</td><td>.1</td><td>.1</td><td></td><td>.1</td><td>.4</td><td>3.0</td><td>.1</td><td>.1</td></tr><tr><td>28</td><td>.1</td><td>.1</td><td></td><td>.1</td><td>.2</td><td>3.0</td><td>.1</td><td>.1</td></tr><tr><td>29</td><td>.1</td><td>.1</td><td></td><td></td><td>.4</td><td>3. 3</td><td>.1</td><td>.1</td></tr><tr><td>30</td><td>.1</td><td>.1</td><td></td><td></td><td>.9</td><td>2.8</td><td>.1</td><td></td></tr><tr><td>31</td><td></td><td>.1</td><td></td><td></td><td>2.1</td><td></td><td>.1</td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI\n\n# Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925\n\n<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th></tr><tr><td>1</td><td></td><td></td><td>0.1</td><td></td><td></td><td>3.9</td><td>2.3</td><td>0.1</td></tr><tr><td>2</td><td></td><td></td><td>.1</td><td></td><td></td><td>2.3</td><td>.7</td><td>.1</td></tr><tr><td>3</td><td></td><td></td><td>.1</td><td></td><td></td><td>2. 5</td><td>.3</td><td>.2</td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td>7</td><td>.3</td><td>6</td></tr><tr><td>5</td><td></td><td></td><td>.2</td><td></td><td>0.1</td><td>18</td><td>.3</td><td>.6</td></tr><tr><td>6</td><td></td><td>3.0</td><td>.3</td><td>0.1</td><td>.1</td><td>17</td><td>.3</td><td>.2</td></tr><tr><td>7</td><td></td><td>2.0</td><td>.2</td><td>.1</td><td>3.9</td><td>13</td><td>.3</td><td>.1</td></tr><tr><td>8</td><td></td><td>.8</td><td></td><td>.1</td><td>1.7</td><td>13</td><td>.3</td><td>.1</td></tr><tr><td>9</td><td></td><td>.5</td><td></td><td>.1</td><td>1.1</td><td>11</td><td>.2</td><td>.1</td></tr><tr><td>10</td><td>2.8</td><td>.2</td><td></td><td></td><td>.6</td><td>9</td><td>.2</td><td>.1</td></tr><tr><td>11</td><td>1.1</td><td>.1</td><td></td><td></td><td>.4</td><td>7</td><td>.2</td><td>.1</td></tr><tr><td>12</td><td>.7</td><td>.1</td><td></td><td></td><td>.2</td><td>6.5</td><td>.2</td><td>.1</td></tr><tr><td>13</td><td>.2</td><td>.1</td><td></td><td></td><td>.2</td><td>5.</td><td>.2</td><td>.1</td></tr><tr><td>14</td><td>.1</td><td>.1</td><td></td><td></td><td>.2</td><td>3.9</td><td>.2</td><td>.1</td></tr><tr><td>15</td><td>.1</td><td>.1</td><td></td><td></td><td>.3</td><td>3. 3</td><td>.2</td><td>.1</td></tr><tr><td>16</td><td>.1</td><td>5</td><td></td><td></td><td>.2</td><td>2.3</td><td>.2</td><td>.1</td></tr><tr><td>17</td><td>.2</td><td>4.0</td><td></td><td></td><td>.1</td><td>1.9</td><td>.2</td><td>.1</td></tr><tr><td>18</td><td>.2</td><td>2.0</td><td></td><td>.1</td><td>.1</td><td>1.4</td><td>.2</td><td>.1</td></tr><tr><td>19</td><td>.2</td><td>.4</td><td></td><td>.1</td><td>.1</td><td>.4</td><td>.2</td><td>.1</td></tr><tr><td>20</td><td>.2</td><td>.2</td><td></td><td>.1</td><td></td><td>.2</td><td>.2</td><td>.1</td></tr><tr><td>21</td><td>.2</td><td>.2</td><td></td><td>1.2</td><td></td><td>.7</td><td>.2</td><td>.1</td></tr><tr><td>22</td><td>.2</td><td>.8</td><td></td><td>.4</td><td>.1</td><td>.6</td><td>.2</td><td>.1</td></tr><tr><td>23</td><td>.2</td><td>5</td><td></td><td>.1</td><td>.1</td><td>5</td><td>.1</td><td>.1</td></tr><tr><td>24</td><td>.3</td><td>1.1</td><td></td><td>.1</td><td>.1</td><td>2.1</td><td>.1</td><td></td></tr><tr><td>25</td><td>.3</td><td>.3</td><td></td><td>.1</td><td>.1</td><td>2.6</td><td>.1</td><td></td></tr><tr><td>26</td><td>.2</td><td>.1</td><td></td><td>.1</td><td>.1</td><td>3. 9</td><td>.1</td><td></td></tr><tr><td>27</td><td>.1</td><td>.1</td><td></td><td>.1</td><td>.4</td><td>3.0</td><td>.1</td><td>.1</td></tr><tr><td>28</td><td>.1</td><td>.1</td><td></td><td>.1</td><td>.2</td><td>3.0</td><td>.1</td><td>.1</td></tr><tr><td>29</td><td>.1</td><td>.1</td><td></td><td></td><td>.4</td><td>3. 3</td><td>.1</td><td>.1</td></tr><tr><td>30</td><td>.1</td><td>.1</td><td></td><td></td><td>.9</td><td>2.8</td><td>.1</td><td></td></tr><tr><td>31</td><td></td><td>.1</td><td></td><td></td><td>2.1</td><td></td><td>.1</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.28192473781616284,
+                            "top": 0.055576417574164476,
+                            "width": 0.4855027760641579,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1925, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.08636875704093128,
+                            "width": 0.8167797655768044,
+                            "height": 0.025910627112279386,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10876286934364879,
+                            "top": 0.12393045228448883,
+                            "width": 0.8293361863848753,
+                            "height": 0.3950854253822639,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th></tr><tr><td>1</td><td></td><td></td><td>0.1</td><td></td><td></td><td>3.9</td><td>2.3</td><td>0.1</td></tr><tr><td>2</td><td></td><td></td><td>.1</td><td></td><td></td><td>2.3</td><td>.7</td><td>.1</td></tr><tr><td>3</td><td></td><td></td><td>.1</td><td></td><td></td><td>2. 5</td><td>.3</td><td>.2</td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td>7</td><td>.3</td><td>6</td></tr><tr><td>5</td><td></td><td></td><td>.2</td><td></td><td>0.1</td><td>18</td><td>.3</td><td>.6</td></tr><tr><td>6</td><td></td><td>3.0</td><td>.3</td><td>0.1</td><td>.1</td><td>17</td><td>.3</td><td>.2</td></tr><tr><td>7</td><td></td><td>2.0</td><td>.2</td><td>.1</td><td>3.9</td><td>13</td><td>.3</td><td>.1</td></tr><tr><td>8</td><td></td><td>.8</td><td></td><td>.1</td><td>1.7</td><td>13</td><td>.3</td><td>.1</td></tr><tr><td>9</td><td></td><td>.5</td><td></td><td>.1</td><td>1.1</td><td>11</td><td>.2</td><td>.1</td></tr><tr><td>10</td><td>2.8</td><td>.2</td><td></td><td></td><td>.6</td><td>9</td><td>.2</td><td>.1</td></tr><tr><td>11</td><td>1.1</td><td>.1</td><td></td><td></td><td>.4</td><td>7</td><td>.2</td><td>.1</td></tr><tr><td>12</td><td>.7</td><td>.1</td><td></td><td></td><td>.2</td><td>6.5</td><td>.2</td><td>.1</td></tr><tr><td>13</td><td>.2</td><td>.1</td><td></td><td></td><td>.2</td><td>5.</td><td>.2</td><td>.1</td></tr><tr><td>14</td><td>.1</td><td>.1</td><td></td><td></td><td>.2</td><td>3.9</td><td>.2</td><td>.1</td></tr><tr><td>15</td><td>.1</td><td>.1</td><td></td><td></td><td>.3</td><td>3. 3</td><td>.2</td><td>.1</td></tr><tr><td>16</td><td>.1</td><td>5</td><td></td><td></td><td>.2</td><td>2.3</td><td>.2</td><td>.1</td></tr><tr><td>17</td><td>.2</td><td>4.0</td><td></td><td></td><td>.1</td><td>1.9</td><td>.2</td><td>.1</td></tr><tr><td>18</td><td>.2</td><td>2.0</td><td></td><td>.1</td><td>.1</td><td>1.4</td><td>.2</td><td>.1</td></tr><tr><td>19</td><td>.2</td><td>.4</td><td></td><td>.1</td><td>.1</td><td>.4</td><td>.2</td><td>.1</td></tr><tr><td>20</td><td>.2</td><td>.2</td><td></td><td>.1</td><td></td><td>.2</td><td>.2</td><td>.1</td></tr><tr><td>21</td><td>.2</td><td>.2</td><td></td><td>1.2</td><td></td><td>.7</td><td>.2</td><td>.1</td></tr><tr><td>22</td><td>.2</td><td>.8</td><td></td><td>.4</td><td>.1</td><td>.6</td><td>.2</td><td>.1</td></tr><tr><td>23</td><td>.2</td><td>5</td><td></td><td>.1</td><td>.1</td><td>5</td><td>.1</td><td>.1</td></tr><tr><td>24</td><td>.3</td><td>1.1</td><td></td><td>.1</td><td>.1</td><td>2.1</td><td>.1</td><td></td></tr><tr><td>25</td><td>.3</td><td>.3</td><td></td><td>.1</td><td>.1</td><td>2.6</td><td>.1</td><td></td></tr><tr><td>26</td><td>.2</td><td>.1</td><td></td><td>.1</td><td>.1</td><td>3. 9</td><td>.1</td><td></td></tr><tr><td>27</td><td>.1</td><td>.1</td><td></td><td>.1</td><td>.4</td><td>3.0</td><td>.1</td><td>.1</td></tr><tr><td>28</td><td>.1</td><td>.1</td><td></td><td>.1</td><td>.2</td><td>3.0</td><td>.1</td><td>.1</td></tr><tr><td>29</td><td>.1</td><td>.1</td><td></td><td></td><td>.4</td><td>3. 3</td><td>.1</td><td>.1</td></tr><tr><td>30</td><td>.1</td><td>.1</td><td></td><td></td><td>.9</td><td>2.8</td><td>.1</td><td></td></tr><tr><td>31</td><td></td><td>.1</td><td></td><td></td><td>2.1</td><td></td><td>.1</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925 (cont.)\n\nNOTE.-No flow on days for which no discharge is given.\n\nMonthly discharge of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925",
+                "embed": "# Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925 (cont.)\n\nNOTE.-No flow on days for which no discharge is given.\n\nMonthly discharge of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12769895126465144,
+                            "top": 0.5253473526098386,
+                            "width": 0.44231955582973476,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "NOTE.-No flow on days for which no discharge is given.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11042566317088218,
+                            "top": 0.5475028163725122,
+                            "width": 0.8186304750154226,
+                            "height": 0.025910627112279386,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925 (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td>2.8</td><td>0</td><td>0.26</td><td>15.5</td></tr><tr><td>December</td><td>5.0</td><td>0</td><td>.86</td><td>52.9</td></tr><tr><td>January</td><td>3</td><td>0</td><td>.03</td><td>1.8</td></tr><tr><td>February</td><td>1.2</td><td>0</td><td>.10</td><td>5.</td></tr><tr><td>March</td><td>3. 9</td><td>0</td><td>.45</td><td>27.7</td></tr><tr><td>April</td><td>18. 0</td><td>.2</td><td>5.19</td><td>309</td></tr><tr><td>May</td><td>2. 3</td><td>.1</td><td>.27</td><td>16.6</td></tr><tr><td>June</td><td>6. 0</td><td>0</td><td>.31</td><td>18.4</td></tr><tr><td>The year</td><td>18.</td><td>0</td><td>.62</td><td>448</td></tr></table>\n\nNote.-No flow on days for which no discharge is given.\n\nWARM CREEK NEAR COLTON, CALIF.\n\nLOCATION.-I SW. 1/4 sec. 21, T. 1 S., R. 4 W., at Colton Avenue Highway Bridge, 1 1/4 miles east of Colton, San Bernardino County. DRAINAGE AREA.-Not measured. RECORDS AVAILABLE.-August - 7, 1920, to September 30, 1925. Gage.-Water-stage recorder in concrete well and shelter on right bank just above highway bridge. Datum lowered 2.50 feet on May 7, 1925. DISCHARGE MEASUREMENTS.-Made - from highway bridge or by wading.",
+                "embed": "# Daily discharge, in second-feet, of Plunge Creek near East Highlands, Calif., for the year ending September 30, 1925 (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td>2.8</td><td>0</td><td>0.26</td><td>15.5</td></tr><tr><td>December</td><td>5.0</td><td>0</td><td>.86</td><td>52.9</td></tr><tr><td>January</td><td>3</td><td>0</td><td>.03</td><td>1.8</td></tr><tr><td>February</td><td>1.2</td><td>0</td><td>.10</td><td>5.</td></tr><tr><td>March</td><td>3. 9</td><td>0</td><td>.45</td><td>27.7</td></tr><tr><td>April</td><td>18. 0</td><td>.2</td><td>5.19</td><td>309</td></tr><tr><td>May</td><td>2. 3</td><td>.1</td><td>.27</td><td>16.6</td></tr><tr><td>June</td><td>6. 0</td><td>0</td><td>.31</td><td>18.4</td></tr><tr><td>The year</td><td>18.</td><td>0</td><td>.62</td><td>448</td></tr></table>\n\nNote.-No flow on days for which no discharge is given.\n\nWARM CREEK NEAR COLTON, CALIF.\n\nLOCATION.-I SW. 1/4 sec. 21, T. 1 S., R. 4 W., at Colton Avenue Highway Bridge, 1 1/4 miles east of Colton, San Bernardino County. DRAINAGE AREA.-Not measured. RECORDS AVAILABLE.-August - 7, 1920, to September 30, 1925. Gage.-Water-stage recorder in concrete well and shelter on right bank just above highway bridge. Datum lowered 2.50 feet on May 7, 1925. DISCHARGE MEASUREMENTS.-Made - from highway bridge or by wading.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10736105634723454,
+                            "top": 0.5865082463240471,
+                            "width": 0.8257079645118031,
+                            "height": 0.17817250795038492,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td>2.8</td><td>0</td><td>0.26</td><td>15.5</td></tr><tr><td>December</td><td>5.0</td><td>0</td><td>.86</td><td>52.9</td></tr><tr><td>January</td><td>3</td><td>0</td><td>.03</td><td>1.8</td></tr><tr><td>February</td><td>1.2</td><td>0</td><td>.10</td><td>5.</td></tr><tr><td>March</td><td>3. 9</td><td>0</td><td>.45</td><td>27.7</td></tr><tr><td>April</td><td>18. 0</td><td>.2</td><td>5.19</td><td>309</td></tr><tr><td>May</td><td>2. 3</td><td>.1</td><td>.27</td><td>16.6</td></tr><tr><td>June</td><td>6. 0</td><td>0</td><td>.31</td><td>18.4</td></tr><tr><td>The year</td><td>18.</td><td>0</td><td>.62</td><td>448</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1418877236273905,
+                            "top": 0.7701840030041307,
+                            "width": 0.43861813695249846,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "Note.-No flow on days for which no discharge is given.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3392967304133251,
+                            "top": 0.7949680811115284,
+                            "width": 0.32510795805058607,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "WARM CREEK NEAR COLTON, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10857495373226403,
+                            "top": 0.8167480285392414,
+                            "width": 0.8192473781616286,
+                            "height": 0.10702215546376267,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-I SW. 1/4 sec. 21, T. 1 S., R. 4 W., at Colton Avenue Highway Bridge, 1 1/4 miles east of Colton, San Bernardino County. DRAINAGE AREA.-Not measured. RECORDS AVAILABLE.-August - 7, 1920, to September 30, 1925. Gage.-Water-stage recorder in concrete well and shelter on right bank just above highway bridge. Datum lowered 2.50 feet on May 7, 1925. DISCHARGE MEASUREMENTS.-Made - from highway bridge or by wading.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

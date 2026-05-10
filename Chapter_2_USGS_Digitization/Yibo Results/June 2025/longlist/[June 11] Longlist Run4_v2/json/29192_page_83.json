@@ -1,0 +1,138 @@
+{
+    "job_id": "742c5110-9c80-4d66-a649-bbda0d3e6f96",
+    "duration": 6.093703269958496,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/0d5c5329-3709-44e9-9bdd-4f14952c0075?AWSAccessKeyId=ASIA2UOK6OVBASJ6S5SQ&Signature=D5JQGXrXOGAYYq7HT8zUljE9Gew%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDnv4yZlNQ6i5qNIaJYaMPqqKlsm7hTurrRtAfj9ZNVaQIgSrPL0%2FVoeFAArqGDTNFbpKLIdn4ApuA4Z50MkvCDV0IqlAUIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDBxzfAXKLa2DqyOHkCroBAA1UN8hcEuUpd6WxCdT4CAUSCRktwYl1Cl%2Bl33Zy2hutsSfVLZYLyjmAglskx6HjhaqpUatRao24%2B6OXwff5vLFv2%2Fmq8YR32yyznFWE0FQ%2BiAXjfxjBq2ndaoMyWOiAlfb0ASP7TCG%2FiH5MA1oCIh3Ym88%2FJl4kYbxCQea48fQtlU35%2FXPe9oLTSCm%2F6kRtcnm2YtUMOkI%2B2QmUxtFDs2t6zX%2FXxyYgzXuR4lme3qG96fhrvzF8y5ux7%2FMq4TWWF9057zbESWlCe4ale6zVcM13uer4HIA%2FRKGp0bAk%2FL0WV3PAm7Z%2BBUkoX0c%2FTnGLHKXoX%2FMn9ovqzfKDqEIeoP1tlNjbYfqhpKTWKVF6dxNwihPeOw6LZayH3qIOc5BRjuaIW7EdmOfmSIYC1kSbKnPs99AqvPSjaipn5bZPTiUeY4m0xshQ2UAYnbGyt%2FsfXUPzPHgHzIwFfKYbDVgkoXqoKnUj30sLRAjcaBEtyZuRTrrjrhKU9gYUzesDQ9IzVSC2Zrnwsw8rXtkGdv90cLkIXH%2BR%2B0yJPWVl8mj7dJq5WwhtfgCNmth9g5YU8kJTYIhCyuvO2LFEpr3UfnftAEpV3hSJ8pbGc2DvyFOX%2BEs5kxMU84S%2BSQE38WS1ThQBE5xgDeUiJSIwO%2F0ITfzNiHsgEX6j8IB3f3AiJ09h%2B54%2BRj6UXYRpQxbyynUQXi3HCIxaOJJWig4PObMtE1b7YXk44hnIiMIg%2B9Xz%2FeLhBU48W70ylfJOd3n0Moj66rWE6NtCP3MYDHYEmSAE0%2Bb0W6H5b89kQzeMCEqjtihLpUM8MN4VpfWmAgwq4CJvAY6mwF0tOB3CEGvYNT4JkPuWg3yLw0w5K4N8y%2B0RE0EYemlSbxYeyYsXSN9zxWWTpmNX1inbZTWI%2Bj6Z4rgKTTU%2BLK%2BGzdpy0Gv6ocnsOVmVkriFRYUtX7XhKxm79%2FHzdypRuhq%2FB%2FxHD5hlBQkVv%2BjdTlPnY3WoBdXY6AKWA%2BlcWkeN248teQI%2F5085pFbgZJqq7vVAzzZjA%2Bm2nAbGw%3D%3D&Expires=1736593012",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SEDIMENT DISCHARGE\n\nTABLE 23. - Average daily streamflow and sediment discharge and sediment yield, Walnut Creek at Walnut Creek, 1957-59, 1957-66, 1909-59, and 1909-66\n\n<table><tr><th rowspan=\"2\">Period</th><th rowspan=\"2\">Water\ndischarge\n(ft3/s)</th><th colspan=\"2\">Sediment discharge\n(ton/d)</th><th rowspan=\"2\">Annual\nsuspended-sediment\nyield\n(ton/mi\u00b2)</th></tr><tr><td>Suspended</td><td>Sand</td></tr><tr><td>1957-59</td><td>37</td><td>406</td><td>118</td><td>1,870</td></tr><tr><td>1957-66</td><td>27</td><td>249</td><td>70</td><td>1,150</td></tr><tr><td>1909-59</td><td>31</td><td>250</td><td>60</td><td>1,150</td></tr><tr><td>1909-66</td><td>32</td><td>242</td><td>59</td><td>1,110</td></tr></table>\n\nTABLE 24. - Percentage of streamflow and sediment discharge that occurred during selected time intervals, Walnut Creek at Walnut Creek, 1957-62\n\n<table><tr><th rowspan=\"2\">Discharge</th><th colspan=\"4\">Time (percent)</th></tr><tr><td>0.1</td><td>1.0</td><td>5.0</td><td>15</td></tr><tr><td>Water</td><td>--</td><td>47</td><td>76</td><td>89</td></tr><tr><td>Suspended sediment</td><td>--</td><td>89</td><td>99</td><td>99.9</td></tr><tr><td>Suspended sand</td><td>--</td><td>96</td><td>100</td><td>100</td></tr></table>",
+                "embed": "# SEDIMENT DISCHARGE\n\nTABLE 23. - Average daily streamflow and sediment discharge and sediment yield, Walnut Creek at Walnut Creek, 1957-59, 1957-66, 1909-59, and 1909-66\n\n<table><tr><th rowspan=\"2\">Period</th><th rowspan=\"2\">Water\ndischarge\n(ft3/s)</th><th colspan=\"2\">Sediment discharge\n(ton/d)</th><th rowspan=\"2\">Annual\nsuspended-sediment\nyield\n(ton/mi\u00b2)</th></tr><tr><td>Suspended</td><td>Sand</td></tr><tr><td>1957-59</td><td>37</td><td>406</td><td>118</td><td>1,870</td></tr><tr><td>1957-66</td><td>27</td><td>249</td><td>70</td><td>1,150</td></tr><tr><td>1909-59</td><td>31</td><td>250</td><td>60</td><td>1,150</td></tr><tr><td>1909-66</td><td>32</td><td>242</td><td>59</td><td>1,110</td></tr></table>\n\nTABLE 24. - Percentage of streamflow and sediment discharge that occurred during selected time intervals, Walnut Creek at Walnut Creek, 1957-62\n\n<table><tr><th rowspan=\"2\">Discharge</th><th colspan=\"4\">Time (percent)</th></tr><tr><td>0.1</td><td>1.0</td><td>5.0</td><td>15</td></tr><tr><td>Water</td><td>--</td><td>47</td><td>76</td><td>89</td></tr><tr><td>Suspended sediment</td><td>--</td><td>89</td><td>99</td><td>99.9</td></tr><tr><td>Suspended sand</td><td>--</td><td>96</td><td>100</td><td>100</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.38896366083445494,
+                            "top": 0.03409836065573771,
+                            "width": 0.19919246298788695,
+                            "height": 0.012786885245901639,
+                            "page": 1
+                        },
+                        "content": "SEDIMENT DISCHARGE",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9026469268730373,
+                            "top": 0.03770491803278689,
+                            "width": 0.01973979362943024,
+                            "height": 0.010819672131147541,
+                            "page": 1
+                        },
+                        "content": "71",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14490803050695378,
+                            "top": 0.06852459016393443,
+                            "width": 0.6680125616868551,
+                            "height": 0.04885245901639344,
+                            "page": 1
+                        },
+                        "content": "TABLE 23. - Average daily streamflow and sediment discharge and sediment yield, Walnut Creek at Walnut Creek, 1957-59, 1957-66, 1909-59, and 1909-66",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13883586762035946,
+                            "top": 0.13751685971119365,
+                            "width": 0.6779474914742457,
+                            "height": 0.16370668505058913,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Period</th><th rowspan=\"2\">Water\ndischarge\n(ft3/s)</th><th colspan=\"2\">Sediment discharge\n(ton/d)</th><th rowspan=\"2\">Annual\nsuspended-sediment\nyield\n(ton/mi\u00b2)</th></tr><tr><td>Suspended</td><td>Sand</td></tr><tr><td>1957-59</td><td>37</td><td>406</td><td>118</td><td>1,870</td></tr><tr><td>1957-66</td><td>27</td><td>249</td><td>70</td><td>1,150</td></tr><tr><td>1909-59</td><td>31</td><td>250</td><td>60</td><td>1,150</td></tr><tr><td>1909-66</td><td>32</td><td>242</td><td>59</td><td>1,110</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.20008972633467922,
+                            "top": 0.33737704918032785,
+                            "width": 0.5567519066846119,
+                            "height": 0.04885245901639344,
+                            "page": 1
+                        },
+                        "content": "TABLE 24. - Percentage of streamflow and sediment discharge that occurred during selected time intervals, Walnut Creek at Walnut Creek, 1957-62",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1955745760343063,
+                            "top": 0.40157374647797134,
+                            "width": 0.565896692699571,
+                            "height": 0.12862280673668033,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Discharge</th><th colspan=\"4\">Time (percent)</th></tr><tr><td>0.1</td><td>1.0</td><td>5.0</td><td>15</td></tr><tr><td>Water</td><td>--</td><td>47</td><td>76</td><td>89</td></tr><tr><td>Suspended sediment</td><td>--</td><td>89</td><td>99</td><td>99.9</td></tr><tr><td>Suspended sand</td><td>--</td><td>96</td><td>100</td><td>100</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SEDIMENT DISCHARGE (cont.)\n\nTABLE 25. - Average daily streamflow and sediment discharge and sediment yield for selected streams tributary to San Pablo Bay, 1957-59, 1957-66, 1909-59, and 1909-66\n\n<table><tr><th>Period</th><th>Water\ndischarge\n(ft3/s)</th><th>Suspended\nsand\n(ton/d)</th><th>Suspended\nsediment\n(ton/d)</th><th>Total\nsediment\n(ton/d)</th><th>Annual\nsuspended-\nsediment yield\n(ton/mi 2)</th></tr><tr><td colspan=\"6\">Napa River near St. Helena</td></tr><tr><td>1957-59</td><td>91</td><td>42</td><td>131</td><td>140</td><td>587</td></tr><tr><td>1957-66</td><td>81</td><td>43</td><td>178</td><td>190</td><td>798</td></tr><tr><td>1909-59</td><td>86</td><td>42</td><td>164</td><td>174</td><td>735</td></tr><tr><td>1909-66</td><td>85</td><td>42</td><td>168</td><td>178</td><td>753</td></tr><tr><td colspan=\"6\">Sonoma Creek at Boyes Hot Springs</td></tr><tr><td>1957-59</td><td>66</td><td>47</td><td>1 85</td><td></td><td>497</td></tr><tr><td>1957-66</td><td>57</td><td>38</td><td>83</td><td></td><td>490</td></tr><tr><td>1909-59</td><td>63</td><td>41</td><td>1 87</td><td></td><td>509</td></tr><tr><td>1909-66</td><td>61</td><td>40</td><td>86</td><td></td><td>506</td></tr></table>\n\n1 Revised from Porterfield and others (1961).",
+                "embed": "# SEDIMENT DISCHARGE (cont.)\n\nTABLE 25. - Average daily streamflow and sediment discharge and sediment yield for selected streams tributary to San Pablo Bay, 1957-59, 1957-66, 1909-59, and 1909-66\n\n<table><tr><th>Period</th><th>Water\ndischarge\n(ft3/s)</th><th>Suspended\nsand\n(ton/d)</th><th>Suspended\nsediment\n(ton/d)</th><th>Total\nsediment\n(ton/d)</th><th>Annual\nsuspended-\nsediment yield\n(ton/mi 2)</th></tr><tr><td colspan=\"6\">Napa River near St. Helena</td></tr><tr><td>1957-59</td><td>91</td><td>42</td><td>131</td><td>140</td><td>587</td></tr><tr><td>1957-66</td><td>81</td><td>43</td><td>178</td><td>190</td><td>798</td></tr><tr><td>1909-59</td><td>86</td><td>42</td><td>164</td><td>174</td><td>735</td></tr><tr><td>1909-66</td><td>85</td><td>42</td><td>168</td><td>178</td><td>753</td></tr><tr><td colspan=\"6\">Sonoma Creek at Boyes Hot Springs</td></tr><tr><td>1957-59</td><td>66</td><td>47</td><td>1 85</td><td></td><td>497</td></tr><tr><td>1957-66</td><td>57</td><td>38</td><td>83</td><td></td><td>490</td></tr><tr><td>1909-59</td><td>63</td><td>41</td><td>1 87</td><td></td><td>509</td></tr><tr><td>1909-66</td><td>61</td><td>40</td><td>86</td><td></td><td>506</td></tr></table>\n\n1 Revised from Porterfield and others (1961).",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10542844324809332,
+                            "top": 0.5718032786885245,
+                            "width": 0.7258860475549573,
+                            "height": 0.047540983606557376,
+                            "page": 1
+                        },
+                        "content": "TABLE 25. - Average daily streamflow and sediment discharge and sediment yield for selected streams tributary to San Pablo Bay, 1957-59, 1957-66, 1909-59, and 1909-66",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.101544400296868,
+                            "top": 0.6389487144595287,
+                            "width": 0.7457533605754402,
+                            "height": 0.28071821369108607,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Period</th><th>Water\ndischarge\n(ft3/s)</th><th>Suspended\nsand\n(ton/d)</th><th>Suspended\nsediment\n(ton/d)</th><th>Total\nsediment\n(ton/d)</th><th>Annual\nsuspended-\nsediment yield\n(ton/mi 2)</th></tr><tr><td colspan=\"6\">Napa River near St. Helena</td></tr><tr><td>1957-59</td><td>91</td><td>42</td><td>131</td><td>140</td><td>587</td></tr><tr><td>1957-66</td><td>81</td><td>43</td><td>178</td><td>190</td><td>798</td></tr><tr><td>1909-59</td><td>86</td><td>42</td><td>164</td><td>174</td><td>735</td></tr><tr><td>1909-66</td><td>85</td><td>42</td><td>168</td><td>178</td><td>753</td></tr><tr><td colspan=\"6\">Sonoma Creek at Boyes Hot Springs</td></tr><tr><td>1957-59</td><td>66</td><td>47</td><td>1 85</td><td></td><td>497</td></tr><tr><td>1957-66</td><td>57</td><td>38</td><td>83</td><td></td><td>490</td></tr><tr><td>1909-59</td><td>63</td><td>41</td><td>1 87</td><td></td><td>509</td></tr><tr><td>1909-66</td><td>61</td><td>40</td><td>86</td><td></td><td>506</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16285329744279947,
+                            "top": 0.9278688524590164,
+                            "width": 0.4858681022880215,
+                            "height": 0.014754098360655738,
+                            "page": 1
+                        },
+                        "content": "1 Revised from Porterfield and others (1961).",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

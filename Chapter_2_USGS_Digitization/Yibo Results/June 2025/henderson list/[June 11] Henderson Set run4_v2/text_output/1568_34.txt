@@ -1,0 +1,26 @@
+```json
+{
+    "Watersource_Name": "Cuyamaca Water Co.'s flume",
+    "County": "San Diego County",
+    "Location": "near Lakeside, Calif.",
+    "Townships_Ranges_Sections": ["T. 12 S., R. 2 E., sec. 21"],
+    "Temporal_Resolution": "daily",
+    "Units_Of_Measurement": "second-feet",
+    "Latitude": 32.8479,
+    "Longitude": -116.8777,
+    "Dates_of_Recording": "10/01/1925-09/30/1925",
+    "Water_Type": "Stream discharge"
+},
+{
+    "Watersource_Name": "Santa Ysabel Creek near Mesa Grande, Calif.",
+    "County": "San Diego County",
+    "Location": "In NW. 1/4 sec. 21, T. 12 S., R. 2 E., at Sutherland Dam site",
+    "Townships_Ranges_Sections": ["NW. 1/4 sec. 21, T. 12 S., R. 2 E."],
+    "Temporal_Resolution": null,
+    "Units_Of_Measurement": null,
+    "Latitude": 32.8308,
+    "Longitude": -116.8889,
+    "Dates_of_Recording": "12/29/1912-09/30/1925",
+    "Water_Type": "Stream discharge"
+}
+```

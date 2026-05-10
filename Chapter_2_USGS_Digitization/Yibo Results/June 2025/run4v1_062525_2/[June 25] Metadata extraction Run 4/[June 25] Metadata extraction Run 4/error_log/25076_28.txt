@@ -1,0 +1,64 @@
+```json
+[
+{
+    "Watersource_Name": "South Fork of Kern River near Onyx",
+    "County": "Tulare County",
+    "Location": "San Joaquin River Basin, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": "Second-feet",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 36.1167,
+    "Inferred_Longitude": -118.7167,
+    "Dates_of_Recording": "1911-12-01/1923-24-01",
+    "Water_Type": "Stream Discharge",
+    "KeyTerms": ["discharge", "stream", "second-feet"]
+},
+{
+    "Watersource_Name": "Erskine Creek near Isabella",
+    "County": "Kern County",
+    "Location": "San Joaquin River Basin, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": "Second-feet",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 35.3,
+    "Inferred_Longitude": -118.6,
+    "Dates_of_Recording": "1910-11-01/1911-12-01",
+    "Water_Type": "Stream Discharge",
+    "KeyTerms": ["discharge", "stream"]
+},
+{
+    "Watersource_Name": "Basin Creek near Havilah",
+    "County": "Kern County",
+    "Location": "San Joaquin River Basin, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": "Second-feet",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 35.3167,
+    "Inferred_Longitude": -118.8333,
+    "Dates_of_Recording": "1910-11-01/1911-12-01",
+    "Water_Type": "Stream Discharge",
+    "KeyTerms": ["discharge", "stream"]
+},
+{
+    "Watersource_Name": "Tejon House Creek at Tejon ranch house",
+    "County": "Kern County",
+    "Location": "San Joaquin River Basin, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": "Second-feet",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 35.3833,
+    "Inferred_Longitude": -118.6333,
+    "Dates_of_Recording": "1894-95-01/1896-97-01",
+    "Water_Type": "Stream Discharge",
+    "KeyTerms": ["discharge", "stream"]
+}
+]
+```

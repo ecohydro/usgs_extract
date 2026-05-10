@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Bored well near Idlewild",
+        "County": "San Bernardino",
+        "Location": "One-fourth mile south of Idlewild, Redlands quadrangle",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Varies (based on provided dates)",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 34.0722,
+        "Longitude": -117.1833,
+        "Dates_of_Recording": "10/01/1900-11/16/1918",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Flowing well of Mrs. Murray",
+        "County": "San Bernardino",
+        "Location": "781 West Seventh Street, San Bernardino quadrangle",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Varies (based on provided dates)",
+        "Units_Of_Measurement": "Pounds per square inch",
+        "Latitude": 34.1097,
+        "Longitude": -117.2898,
+        "Dates_of_Recording": "07/03/1915-11/01/1920",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

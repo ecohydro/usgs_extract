@@ -1,0 +1,18 @@
+```json
+[
+    {
+        "Watersource_Name": "Sierra & San Francisco Power Co.'s canal",
+        "County": "Stanislaus",
+        "Location": "SE sec. 17, T3S., R14E., below waste gates, 460 feet below intake at La Grange dam on Tuolumne River, near La Grange",
+        "Townships_Ranges_Sections": ["T3S.", "R14E.", "Sec. 17"],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 37.617,
+        "Longitude": -121.152,
+        "Dates_of_Recording": "10/01/1918-09/30/1918",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+This JSON object represents the watersource information extracted from the provided document content about the canal near La Grange, California. The latitude and longitude are approximate values for this location in Stanislaus County.

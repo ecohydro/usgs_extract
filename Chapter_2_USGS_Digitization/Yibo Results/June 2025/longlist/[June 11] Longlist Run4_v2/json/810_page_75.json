@@ -1,0 +1,170 @@
+{
+    "job_id": "2e153da3-0ca0-4175-b2ab-9d824641488a",
+    "duration": 7.341132640838623,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/e4bc56fd-c8a3-44a2-a152-7678430815fd?AWSAccessKeyId=ASIA2UOK6OVBCIRLJS5X&Signature=tCovMWkm36xoDBhaEbxn2H96%2FMw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIF0uENgdTB%2F%2BY0wA8fjlTZgXQ4AnnIo0Fj50rFmZ0RELAiBf4UK4yg%2FxnGQDTHZaYfH0Il3cHl25TVoTE9Zi786bASqLBQglEAAaDDczMTEwNjkzMjAzNCIMmMFGTWU%2Bgnu7dCC3KugEBL4jLmZ34KbeKgAND%2BoYPRhU9JjTg9Y9jmcuwusgh%2F3QTIHKuusGMxFYd7kaGptd4VeWaDHkbXTGz3MeBF8Ckbl%2FYN6ek%2FvJIiGCukGlzyfFdT1gzcQkPURVJYwqzOjfC6uRFR5wCL6s%2BtPvXUkbBzXfOD%2FCcZyVHRu8n4euS8OYOUo5e28JUJfThngvqWuitpUUJd6LRt%2BBuj%2Fdq24hD9%2BLkxEtqVdueqALBgN0tgVr0sbAKdhO7D%2BvK34U3tUlmkOudyQuyl956VrGIXfdCMXes0uKq9O0Vsbu9h9Wq6QqPi26MJYi3gIpvyB80w8aNcwKNaYankNtYVwexYyT%2FFDn6AkBLacx7Gvz%2Be%2Bp1FUTtWwxQ4RtFLyt8jaqAHmhEBE%2BizRnbjBGH3b76Rk4DKs0BTf2mpLARG1YBzVYAOUY0%2BertWNz0VGefuZNva5gHzlJ3mcpSljGMTRT%2Bf2dmdfQy7E8yXQj6h8xCILrOtwItvLRq17rKlEufFArkrlAY0Xgbp6%2FzK4ydZV89SZMG%2B15CoWGg%2FR%2B3zzFx0VHHBgi7hCQmr6wQQSAFXWWo%2BS4OSKVJgz8MuKtzhasCpUi1JUNtXwJgZebBcKXy8RIPRhLLkcC3dKb6bXlTM6OJu4gM8yTUB17jhm40liWNNOjnklrPK8WRr0K%2Bofi4YDtCE%2F5TTPwTfM7GNI3XOGPvKPuApHLQwsbUWoWNwUbKoxrKElDqLMW1m1XFHOCG5avC7MLNCm8mvqoOX8LwzsD5Urxg%2BPgv%2FcX9Espg0qh%2FGFnEF%2BPkbFqBGqEtmR2l7RQTEMgc6R12ZsnRzC%2F88m6BjqcAdyIFsLKlUxeIiCWMEes5MZG7JBBLpF8bKGy8JPgLaTfxApJeSDBn%2B3IiKCfiWgx%2BExji8XMhnv1WcXgyqLSmoDGGtlTOROekFpL5QEqTW%2BeFI5t3z3ip2E9%2FqqtqkOVWO%2FCbCGy0YrCwReuYtO%2F1OD%2Fpugr7G30xql8LrJAtMq9q39D4M%2FzjwXiooxkzy4amXE45rFU3KXULT3AUg%3D%3D&Expires=1733463581",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# CALIFORNIA, LOS ANGELES COUNTY\n\n1S/10-18--Continued.",
+                "embed": "# CALIFORNIA, LOS ANGELES COUNTY\n\n1S/10-18--Continued.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2523133867982727,
+                            "top": 0.07172995780590717,
+                            "width": 0.3257248611967921,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "CALIFORNIA, LOS ANGELES COUNTY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8044417026526836,
+                            "top": 0.07249712313003452,
+                            "width": 0.017890191239975324,
+                            "height": 0.008438818565400843,
+                            "page": 1
+                        },
+                        "content": "69",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0783466995681678,
+                            "top": 0.11775987725354814,
+                            "width": 0.17766810610734116,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "1S/10-18--Continued.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n<table><tr><th>Day</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th></tr><tr><td>11</td><td>139.92</td><td>124.53</td><td>123.23</td><td>113.25</td><td>112.45</td><td>115.31</td><td>118.24</td><td>121.37</td><td>124.28</td><td>125.97</td><td>122.34</td><td>112.23</td></tr><tr><td>12</td><td>139.90</td><td>124.20</td><td>123.26</td><td>113.00</td><td>112.54</td><td>115.40</td><td>118.37</td><td>121.44</td><td>124.34</td><td>126.02</td><td>121.89</td><td>112.30</td></tr><tr><td>13</td><td>139.8</td><td>123.90</td><td>123.24</td><td>112.77</td><td>112.62</td><td>115.52</td><td>118.46</td><td>121.54</td><td>124.40</td><td>126.04</td><td>121.39</td><td>112.31</td></tr><tr><td>14</td><td>139.8</td><td>123.67</td><td>123.25</td><td>112.57</td><td>112.67</td><td>115.63</td><td>118.56</td><td>121.64</td><td>124.48</td><td>126.07</td><td>120.87</td><td>112.33</td></tr><tr><td>15</td><td>139.82</td><td>123.49</td><td>123.17</td><td>112.38</td><td>112.73</td><td>115.74</td><td>118.64</td><td>121.73</td><td>124.56</td><td>126.11</td><td>120.33</td><td>112.39</td></tr><tr><td>16</td><td>139.77</td><td>123.32</td><td>123.15</td><td>112.24</td><td>112.82</td><td>115.83</td><td>118.76</td><td>121.82</td><td>124.62</td><td>126.13</td><td>119.83</td><td>112.41</td></tr><tr><td>17</td><td>139.</td><td>123.19</td><td>123.1</td><td>112.13</td><td>112.91</td><td>115.97</td><td>118.86</td><td>121.90</td><td>124.70</td><td>126.19</td><td>119.35</td><td>112.43</td></tr><tr><td>18</td><td>139.69</td><td>123.13</td><td>123.1</td><td>112.08</td><td>113.01</td><td>116.09</td><td>118.96</td><td>121.99</td><td>124.80</td><td>126.24</td><td>118.83</td><td>112.55</td></tr><tr><td>19</td><td>139.63</td><td>123.06</td><td>122.99</td><td>111.97</td><td>113.09</td><td>116.20</td><td>119.05</td><td>122.0</td><td>124.87</td><td>126.24</td><td>118.24</td><td>112.63</td></tr><tr><td>20</td><td>139.54</td><td>122.99</td><td>122.85</td><td>111.94</td><td>113.16</td><td>116.31</td><td>119.16</td><td>122.17</td><td>124.92</td><td>126.25</td><td>117.61</td><td>112.65</td></tr><tr><td>21</td><td>139.38</td><td>122.95</td><td>122.66</td><td>111.93</td><td>113.27</td><td>116.43</td><td>119.25</td><td>122.27</td><td>124.97</td><td>126.25</td><td>117.01</td><td>112.76</td></tr><tr><td>22</td><td>139.12</td><td>122.93</td><td>122.36</td><td>111.92</td><td>113.36</td><td>116.54</td><td>119.35</td><td>122.36</td><td>125.03</td><td>126.22</td><td>116.39</td><td>112.75</td></tr><tr><td>23</td><td>138.60</td><td>122.92</td><td>121.94</td><td>111.89</td><td>113.47</td><td>116.63</td><td>119.45</td><td>122.46</td><td>125.11</td><td>126.18</td><td>115.76</td><td>112.80</td></tr><tr><td>24</td><td>137.90</td><td>122.91</td><td>121.38</td><td>111.90</td><td>113.60</td><td>116.70</td><td>119.56</td><td>122.56</td><td>125.18</td><td>126.11</td><td>115.17</td><td>112.86</td></tr><tr><td>25</td><td>137.04</td><td>122.93</td><td>120.82</td><td>111.90</td><td>113.69</td><td>116.78</td><td>119.67</td><td>122.65</td><td>125.26</td><td>126.06</td><td>114.63</td><td>112.88</td></tr><tr><td>26</td><td>136.04</td><td>122.92</td><td>120.19</td><td>111.88</td><td>113.77</td><td>116.87</td><td>119.78</td><td>122.75</td><td>125.30</td><td>126.02</td><td>114,08</td><td>112.92</td></tr><tr><td>27</td><td>134.96</td><td>122.96</td><td>119.58</td><td>111.87</td><td>113.89</td><td>116.95</td><td>119.91</td><td>122.83</td><td>125.34</td><td>125.93</td><td>113.59</td><td>112.95</td></tr><tr><td>28</td><td>133.87</td><td>123.02</td><td>118.97</td><td>111.93</td><td>114.00</td><td>117.05</td><td>120.00</td><td>122.92</td><td>125.37</td><td>125.85</td><td>113.25</td><td>112.98</td></tr><tr><td>29</td><td>132.71</td><td>123.06</td><td>118.41</td><td>111.96</td><td>114.06</td><td>117.13</td><td>120.10</td><td>123.01</td><td>125.40</td><td>125.77</td><td>112.92</td><td>113.02</td></tr><tr><td>30</td><td>131.54</td><td></td><td>117.89</td><td>111.96</td><td>114.16</td><td>117.18</td><td>120.20</td><td>123.10</td><td>125.41</td><td>125.68</td><td>112.69</td><td>113.06</td></tr><tr><td>31</td><td>130.36</td><td></td><td>117.39</td><td></td><td>114.28</td><td></td><td>120.30</td><td>123.20</td><td></td><td>125.58</td><td></td><td>113.08</td></tr></table>",
+                "embed": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n<table><tr><th>Day</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th></tr><tr><td>11</td><td>139.92</td><td>124.53</td><td>123.23</td><td>113.25</td><td>112.45</td><td>115.31</td><td>118.24</td><td>121.37</td><td>124.28</td><td>125.97</td><td>122.34</td><td>112.23</td></tr><tr><td>12</td><td>139.90</td><td>124.20</td><td>123.26</td><td>113.00</td><td>112.54</td><td>115.40</td><td>118.37</td><td>121.44</td><td>124.34</td><td>126.02</td><td>121.89</td><td>112.30</td></tr><tr><td>13</td><td>139.8</td><td>123.90</td><td>123.24</td><td>112.77</td><td>112.62</td><td>115.52</td><td>118.46</td><td>121.54</td><td>124.40</td><td>126.04</td><td>121.39</td><td>112.31</td></tr><tr><td>14</td><td>139.8</td><td>123.67</td><td>123.25</td><td>112.57</td><td>112.67</td><td>115.63</td><td>118.56</td><td>121.64</td><td>124.48</td><td>126.07</td><td>120.87</td><td>112.33</td></tr><tr><td>15</td><td>139.82</td><td>123.49</td><td>123.17</td><td>112.38</td><td>112.73</td><td>115.74</td><td>118.64</td><td>121.73</td><td>124.56</td><td>126.11</td><td>120.33</td><td>112.39</td></tr><tr><td>16</td><td>139.77</td><td>123.32</td><td>123.15</td><td>112.24</td><td>112.82</td><td>115.83</td><td>118.76</td><td>121.82</td><td>124.62</td><td>126.13</td><td>119.83</td><td>112.41</td></tr><tr><td>17</td><td>139.</td><td>123.19</td><td>123.1</td><td>112.13</td><td>112.91</td><td>115.97</td><td>118.86</td><td>121.90</td><td>124.70</td><td>126.19</td><td>119.35</td><td>112.43</td></tr><tr><td>18</td><td>139.69</td><td>123.13</td><td>123.1</td><td>112.08</td><td>113.01</td><td>116.09</td><td>118.96</td><td>121.99</td><td>124.80</td><td>126.24</td><td>118.83</td><td>112.55</td></tr><tr><td>19</td><td>139.63</td><td>123.06</td><td>122.99</td><td>111.97</td><td>113.09</td><td>116.20</td><td>119.05</td><td>122.0</td><td>124.87</td><td>126.24</td><td>118.24</td><td>112.63</td></tr><tr><td>20</td><td>139.54</td><td>122.99</td><td>122.85</td><td>111.94</td><td>113.16</td><td>116.31</td><td>119.16</td><td>122.17</td><td>124.92</td><td>126.25</td><td>117.61</td><td>112.65</td></tr><tr><td>21</td><td>139.38</td><td>122.95</td><td>122.66</td><td>111.93</td><td>113.27</td><td>116.43</td><td>119.25</td><td>122.27</td><td>124.97</td><td>126.25</td><td>117.01</td><td>112.76</td></tr><tr><td>22</td><td>139.12</td><td>122.93</td><td>122.36</td><td>111.92</td><td>113.36</td><td>116.54</td><td>119.35</td><td>122.36</td><td>125.03</td><td>126.22</td><td>116.39</td><td>112.75</td></tr><tr><td>23</td><td>138.60</td><td>122.92</td><td>121.94</td><td>111.89</td><td>113.47</td><td>116.63</td><td>119.45</td><td>122.46</td><td>125.11</td><td>126.18</td><td>115.76</td><td>112.80</td></tr><tr><td>24</td><td>137.90</td><td>122.91</td><td>121.38</td><td>111.90</td><td>113.60</td><td>116.70</td><td>119.56</td><td>122.56</td><td>125.18</td><td>126.11</td><td>115.17</td><td>112.86</td></tr><tr><td>25</td><td>137.04</td><td>122.93</td><td>120.82</td><td>111.90</td><td>113.69</td><td>116.78</td><td>119.67</td><td>122.65</td><td>125.26</td><td>126.06</td><td>114.63</td><td>112.88</td></tr><tr><td>26</td><td>136.04</td><td>122.92</td><td>120.19</td><td>111.88</td><td>113.77</td><td>116.87</td><td>119.78</td><td>122.75</td><td>125.30</td><td>126.02</td><td>114,08</td><td>112.92</td></tr><tr><td>27</td><td>134.96</td><td>122.96</td><td>119.58</td><td>111.87</td><td>113.89</td><td>116.95</td><td>119.91</td><td>122.83</td><td>125.34</td><td>125.93</td><td>113.59</td><td>112.95</td></tr><tr><td>28</td><td>133.87</td><td>123.02</td><td>118.97</td><td>111.93</td><td>114.00</td><td>117.05</td><td>120.00</td><td>122.92</td><td>125.37</td><td>125.85</td><td>113.25</td><td>112.98</td></tr><tr><td>29</td><td>132.71</td><td>123.06</td><td>118.41</td><td>111.96</td><td>114.06</td><td>117.13</td><td>120.10</td><td>123.01</td><td>125.40</td><td>125.77</td><td>112.92</td><td>113.02</td></tr><tr><td>30</td><td>131.54</td><td></td><td>117.89</td><td>111.96</td><td>114.16</td><td>117.18</td><td>120.20</td><td>123.10</td><td>125.41</td><td>125.68</td><td>112.69</td><td>113.06</td></tr><tr><td>31</td><td>130.36</td><td></td><td>117.39</td><td></td><td>114.28</td><td></td><td>120.30</td><td>123.20</td><td></td><td>125.58</td><td></td><td>113.08</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.02624344163879357,
+                            "top": 0.13062149709241344,
+                            "width": 0.8032485801889748,
+                            "height": 0.26621948991372385,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th></tr><tr><td>11</td><td>139.92</td><td>124.53</td><td>123.23</td><td>113.25</td><td>112.45</td><td>115.31</td><td>118.24</td><td>121.37</td><td>124.28</td><td>125.97</td><td>122.34</td><td>112.23</td></tr><tr><td>12</td><td>139.90</td><td>124.20</td><td>123.26</td><td>113.00</td><td>112.54</td><td>115.40</td><td>118.37</td><td>121.44</td><td>124.34</td><td>126.02</td><td>121.89</td><td>112.30</td></tr><tr><td>13</td><td>139.8</td><td>123.90</td><td>123.24</td><td>112.77</td><td>112.62</td><td>115.52</td><td>118.46</td><td>121.54</td><td>124.40</td><td>126.04</td><td>121.39</td><td>112.31</td></tr><tr><td>14</td><td>139.8</td><td>123.67</td><td>123.25</td><td>112.57</td><td>112.67</td><td>115.63</td><td>118.56</td><td>121.64</td><td>124.48</td><td>126.07</td><td>120.87</td><td>112.33</td></tr><tr><td>15</td><td>139.82</td><td>123.49</td><td>123.17</td><td>112.38</td><td>112.73</td><td>115.74</td><td>118.64</td><td>121.73</td><td>124.56</td><td>126.11</td><td>120.33</td><td>112.39</td></tr><tr><td>16</td><td>139.77</td><td>123.32</td><td>123.15</td><td>112.24</td><td>112.82</td><td>115.83</td><td>118.76</td><td>121.82</td><td>124.62</td><td>126.13</td><td>119.83</td><td>112.41</td></tr><tr><td>17</td><td>139.</td><td>123.19</td><td>123.1</td><td>112.13</td><td>112.91</td><td>115.97</td><td>118.86</td><td>121.90</td><td>124.70</td><td>126.19</td><td>119.35</td><td>112.43</td></tr><tr><td>18</td><td>139.69</td><td>123.13</td><td>123.1</td><td>112.08</td><td>113.01</td><td>116.09</td><td>118.96</td><td>121.99</td><td>124.80</td><td>126.24</td><td>118.83</td><td>112.55</td></tr><tr><td>19</td><td>139.63</td><td>123.06</td><td>122.99</td><td>111.97</td><td>113.09</td><td>116.20</td><td>119.05</td><td>122.0</td><td>124.87</td><td>126.24</td><td>118.24</td><td>112.63</td></tr><tr><td>20</td><td>139.54</td><td>122.99</td><td>122.85</td><td>111.94</td><td>113.16</td><td>116.31</td><td>119.16</td><td>122.17</td><td>124.92</td><td>126.25</td><td>117.61</td><td>112.65</td></tr><tr><td>21</td><td>139.38</td><td>122.95</td><td>122.66</td><td>111.93</td><td>113.27</td><td>116.43</td><td>119.25</td><td>122.27</td><td>124.97</td><td>126.25</td><td>117.01</td><td>112.76</td></tr><tr><td>22</td><td>139.12</td><td>122.93</td><td>122.36</td><td>111.92</td><td>113.36</td><td>116.54</td><td>119.35</td><td>122.36</td><td>125.03</td><td>126.22</td><td>116.39</td><td>112.75</td></tr><tr><td>23</td><td>138.60</td><td>122.92</td><td>121.94</td><td>111.89</td><td>113.47</td><td>116.63</td><td>119.45</td><td>122.46</td><td>125.11</td><td>126.18</td><td>115.76</td><td>112.80</td></tr><tr><td>24</td><td>137.90</td><td>122.91</td><td>121.38</td><td>111.90</td><td>113.60</td><td>116.70</td><td>119.56</td><td>122.56</td><td>125.18</td><td>126.11</td><td>115.17</td><td>112.86</td></tr><tr><td>25</td><td>137.04</td><td>122.93</td><td>120.82</td><td>111.90</td><td>113.69</td><td>116.78</td><td>119.67</td><td>122.65</td><td>125.26</td><td>126.06</td><td>114.63</td><td>112.88</td></tr><tr><td>26</td><td>136.04</td><td>122.92</td><td>120.19</td><td>111.88</td><td>113.77</td><td>116.87</td><td>119.78</td><td>122.75</td><td>125.30</td><td>126.02</td><td>114,08</td><td>112.92</td></tr><tr><td>27</td><td>134.96</td><td>122.96</td><td>119.58</td><td>111.87</td><td>113.89</td><td>116.95</td><td>119.91</td><td>122.83</td><td>125.34</td><td>125.93</td><td>113.59</td><td>112.95</td></tr><tr><td>28</td><td>133.87</td><td>123.02</td><td>118.97</td><td>111.93</td><td>114.00</td><td>117.05</td><td>120.00</td><td>122.92</td><td>125.37</td><td>125.85</td><td>113.25</td><td>112.98</td></tr><tr><td>29</td><td>132.71</td><td>123.06</td><td>118.41</td><td>111.96</td><td>114.06</td><td>117.13</td><td>120.10</td><td>123.01</td><td>125.40</td><td>125.77</td><td>112.92</td><td>113.02</td></tr><tr><td>30</td><td>131.54</td><td></td><td>117.89</td><td>111.96</td><td>114.16</td><td>117.18</td><td>120.20</td><td>123.10</td><td>125.41</td><td>125.68</td><td>112.69</td><td>113.06</td></tr><tr><td>31</td><td>130.36</td><td></td><td>117.39</td><td></td><td>114.28</td><td></td><td>120.30</td><td>123.20</td><td></td><td>125.58</td><td></td><td>113.08</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain\n\n2S/12-13A1. Lycan Bros. Near Montebello. Drilled unused water-table well in Gaspur water-bearing zone of Recent age, diameter 8 inches, depth 85 feet. Land-surface datum is 181 feet above msl. Records furnished by San Gabriel Valley Protective Association. Highest water level 17.51 below lsd, Aug. 4, 1941; lowest 79.67 below lsd, Nov. 28, 1951. Records available: 1928-52.",
+                "embed": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain\n\n2S/12-13A1. Lycan Bros. Near Montebello. Drilled unused water-table well in Gaspur water-bearing zone of Recent age, diameter 8 inches, depth 85 feet. Land-surface datum is 181 feet above msl. Records furnished by San Gabriel Valley Protective Association. Highest water level 17.51 below lsd, Aug. 4, 1941; lowest 79.67 below lsd, Nov. 28, 1951. Records available: 1928-52.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.3726095003084516,
+                            "top": 0.4219409282700422,
+                            "width": 0.10734114743985194,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "Coastal plain",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.02652683528685996,
+                            "top": 0.44380514000767163,
+                            "width": 0.8062924120913016,
+                            "height": 0.05600306866129651,
+                            "page": 1
+                        },
+                        "content": "2S/12-13A1. Lycan Bros. Near Montebello. Drilled unused water-table well in Gaspur water-bearing zone of Recent age, diameter 8 inches, depth 85 feet. Land-surface datum is 181 feet above msl. Records furnished by San Gabriel Valley Protective Association. Highest water level 17.51 below lsd, Aug. 4, 1941; lowest 79.67 below lsd, Nov. 28, 1951. Records available: 1928-52.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain (cont.)\n\n<table><tr><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th></tr><tr><td>Jan. 2</td><td>76.72</td><td>Apr. 2</td><td>52.83</td><td>July 9</td><td>55.11</td><td>Oct. 8</td><td>69.69</td></tr><tr><td>9</td><td>75.11</td><td>9</td><td>52.33</td><td>16</td><td>55.98</td><td>15</td><td>70.53</td></tr><tr><td>16</td><td>73.58</td><td>16</td><td>51.83</td><td>23</td><td>56.88</td><td>22</td><td>70.84</td></tr><tr><td>24</td><td>70.21</td><td>23</td><td>51.38</td><td>30</td><td>57.95</td><td>29</td><td>70.30</td></tr><tr><td>30</td><td>66.58</td><td>30</td><td>50.96</td><td>Aug. 6</td><td>59.05</td><td>Nov. 5</td><td>68.04</td></tr><tr><td>Feb. 6</td><td>63.17</td><td>May 7</td><td>50.72</td><td>13</td><td>60.14</td><td>12</td><td>64.48</td></tr><tr><td>13</td><td>61.00</td><td>14</td><td>50.84</td><td>20</td><td>61.29</td><td>19</td><td>62.36</td></tr><tr><td>20</td><td>59.60</td><td>28</td><td>51.47</td><td>27</td><td>62.51</td><td>26</td><td>60.68</td></tr><tr><td>27</td><td>58.54</td><td>June 4</td><td>51.97</td><td>Sept. 3</td><td>63.93</td><td>Dec. 3</td><td>59.49</td></tr><tr><td>Mar. 5</td><td>57.86</td><td>11</td><td>52.48</td><td>10</td><td>65.40</td><td>10</td><td>58.83</td></tr><tr><td>12</td><td>56.90</td><td>18</td><td>53.11</td><td>17</td><td>66.67</td><td>17</td><td>57.74</td></tr><tr><td>19</td><td>55.51</td><td>25</td><td>53.81</td><td>24</td><td>67.80</td><td>24</td><td>57.27</td></tr><tr><td>26</td><td>53.88</td><td>July 2</td><td>54.45</td><td>Oct. 1</td><td>68.80</td><td>31</td><td>56.64</td></tr></table>",
+                "embed": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain (cont.)\n\n<table><tr><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th></tr><tr><td>Jan. 2</td><td>76.72</td><td>Apr. 2</td><td>52.83</td><td>July 9</td><td>55.11</td><td>Oct. 8</td><td>69.69</td></tr><tr><td>9</td><td>75.11</td><td>9</td><td>52.33</td><td>16</td><td>55.98</td><td>15</td><td>70.53</td></tr><tr><td>16</td><td>73.58</td><td>16</td><td>51.83</td><td>23</td><td>56.88</td><td>22</td><td>70.84</td></tr><tr><td>24</td><td>70.21</td><td>23</td><td>51.38</td><td>30</td><td>57.95</td><td>29</td><td>70.30</td></tr><tr><td>30</td><td>66.58</td><td>30</td><td>50.96</td><td>Aug. 6</td><td>59.05</td><td>Nov. 5</td><td>68.04</td></tr><tr><td>Feb. 6</td><td>63.17</td><td>May 7</td><td>50.72</td><td>13</td><td>60.14</td><td>12</td><td>64.48</td></tr><tr><td>13</td><td>61.00</td><td>14</td><td>50.84</td><td>20</td><td>61.29</td><td>19</td><td>62.36</td></tr><tr><td>20</td><td>59.60</td><td>28</td><td>51.47</td><td>27</td><td>62.51</td><td>26</td><td>60.68</td></tr><tr><td>27</td><td>58.54</td><td>June 4</td><td>51.97</td><td>Sept. 3</td><td>63.93</td><td>Dec. 3</td><td>59.49</td></tr><tr><td>Mar. 5</td><td>57.86</td><td>11</td><td>52.48</td><td>10</td><td>65.40</td><td>10</td><td>58.83</td></tr><tr><td>12</td><td>56.90</td><td>18</td><td>53.11</td><td>17</td><td>66.67</td><td>17</td><td>57.74</td></tr><tr><td>19</td><td>55.51</td><td>25</td><td>53.81</td><td>24</td><td>67.80</td><td>24</td><td>57.27</td></tr><tr><td>26</td><td>53.88</td><td>July 2</td><td>54.45</td><td>Oct. 1</td><td>68.80</td><td>31</td><td>56.64</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.02175810835671822,
+                            "top": 0.5010121487821251,
+                            "width": 0.8049300615615421,
+                            "height": 0.18728615453886172,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th></tr><tr><td>Jan. 2</td><td>76.72</td><td>Apr. 2</td><td>52.83</td><td>July 9</td><td>55.11</td><td>Oct. 8</td><td>69.69</td></tr><tr><td>9</td><td>75.11</td><td>9</td><td>52.33</td><td>16</td><td>55.98</td><td>15</td><td>70.53</td></tr><tr><td>16</td><td>73.58</td><td>16</td><td>51.83</td><td>23</td><td>56.88</td><td>22</td><td>70.84</td></tr><tr><td>24</td><td>70.21</td><td>23</td><td>51.38</td><td>30</td><td>57.95</td><td>29</td><td>70.30</td></tr><tr><td>30</td><td>66.58</td><td>30</td><td>50.96</td><td>Aug. 6</td><td>59.05</td><td>Nov. 5</td><td>68.04</td></tr><tr><td>Feb. 6</td><td>63.17</td><td>May 7</td><td>50.72</td><td>13</td><td>60.14</td><td>12</td><td>64.48</td></tr><tr><td>13</td><td>61.00</td><td>14</td><td>50.84</td><td>20</td><td>61.29</td><td>19</td><td>62.36</td></tr><tr><td>20</td><td>59.60</td><td>28</td><td>51.47</td><td>27</td><td>62.51</td><td>26</td><td>60.68</td></tr><tr><td>27</td><td>58.54</td><td>June 4</td><td>51.97</td><td>Sept. 3</td><td>63.93</td><td>Dec. 3</td><td>59.49</td></tr><tr><td>Mar. 5</td><td>57.86</td><td>11</td><td>52.48</td><td>10</td><td>65.40</td><td>10</td><td>58.83</td></tr><tr><td>12</td><td>56.90</td><td>18</td><td>53.11</td><td>17</td><td>66.67</td><td>17</td><td>57.74</td></tr><tr><td>19</td><td>55.51</td><td>25</td><td>53.81</td><td>24</td><td>67.80</td><td>24</td><td>57.27</td></tr><tr><td>26</td><td>53.88</td><td>July 2</td><td>54.45</td><td>Oct. 1</td><td>68.80</td><td>31</td><td>56.64</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain (cont.)\n\n3S/12-8L3. Los Angeles County Farm. Near Downey. Drilled unused artesian well in Gaspur water-bearing zone of Recent age and underlying deposits of Pleistocene age, diameter 8 inches, depth 248 feet. Land-surface datum is 92 feet above msl. Records furnished by San Gabriel Valley Protective Association. Highest water level 14. 13 below lsd, Mar. 13, 1930; lowest 56. 42 below lsd, July 28, 1952. Records available: 1930-52.",
+                "embed": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain (cont.)\n\n3S/12-8L3. Los Angeles County Farm. Near Downey. Drilled unused artesian well in Gaspur water-bearing zone of Recent age and underlying deposits of Pleistocene age, diameter 8 inches, depth 248 feet. Land-surface datum is 92 feet above msl. Records furnished by San Gabriel Valley Protective Association. Highest water level 14. 13 below lsd, Mar. 13, 1930; lowest 56. 42 below lsd, July 28, 1952. Records available: 1930-52.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.023442319555829736,
+                            "top": 0.7031070195627158,
+                            "width": 0.784083898827884,
+                            "height": 0.05753739930955121,
+                            "page": 1
+                        },
+                        "content": "3S/12-8L3. Los Angeles County Farm. Near Downey. Drilled unused artesian well in Gaspur water-bearing zone of Recent age and underlying deposits of Pleistocene age, diameter 8 inches, depth 248 feet. Land-surface datum is 92 feet above msl. Records furnished by San Gabriel Valley Protective Association. Highest water level 14. 13 below lsd, Mar. 13, 1930; lowest 56. 42 below lsd, July 28, 1952. Records available: 1930-52.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain (cont.)\n\n<table><tr><th>Jan.</th><th>7</th><th>46.68</th><th>Apr. 7</th><th>46.98</th><th>July 7</th><th>54.28</th><th>Oct. 6</th><th>54.35</th></tr><tr><td></td><td>14</td><td>46.40</td><td>14</td><td>45.70</td><td>14</td><td>54.93</td><td>13</td><td>54.16</td></tr><tr><td></td><td>21</td><td>46.02</td><td>21</td><td>45.56</td><td>21</td><td>54.13</td><td>20</td><td>53.43</td></tr><tr><td></td><td>28</td><td>45.79</td><td>28</td><td>45.43</td><td>28</td><td>56.42</td><td>27</td><td>53.33</td></tr><tr><td rowspan=\"4\">Feb.</td><td>4</td><td>45.87</td><td>May 5</td><td>48.73</td><td>Aug. 4</td><td>54.98</td><td>Nov. 3</td><td>53.32</td></tr><tr><td>11</td><td>46.08</td><td>12</td><td>49.87</td><td>11</td><td>54.88</td><td>10</td><td>52.79</td></tr><tr><td>18</td><td>46.28</td><td>19</td><td>51.65</td><td>18</td><td>54.86</td><td>17</td><td>51.53</td></tr><tr><td>25</td><td>47.30</td><td>26</td><td>51.95</td><td>25</td><td>55.74</td><td>24</td><td>50.58</td></tr><tr><td>Mar.</td><td>3</td><td>46.50</td><td>June 2</td><td>51.88</td><td>Sept. 1</td><td>55.83</td><td>Dec. 1</td><td>49.92</td></tr><tr><td></td><td>10</td><td>45.21</td><td>9</td><td>51.85</td><td>8</td><td>55.33</td><td>8</td><td>49.54</td></tr><tr><td></td><td>17</td><td>44.96</td><td>16</td><td>53.33</td><td>15</td><td>55.09</td><td>15</td><td>49.63</td></tr><tr><td></td><td>24</td><td>45.25</td><td>23</td><td>53.58</td><td>22</td><td>54.36</td><td>22</td><td>49.81</td></tr><tr><td></td><td>31</td><td>45.86</td><td>30</td><td>53.49</td><td>29</td><td>54.36</td><td>29</td><td>49.00</td></tr></table>",
+                "embed": "# CALIFORNIA, LOS ANGELES COUNTY (cont.)\n\n## Coastal plain (cont.)\n\n<table><tr><th>Jan.</th><th>7</th><th>46.68</th><th>Apr. 7</th><th>46.98</th><th>July 7</th><th>54.28</th><th>Oct. 6</th><th>54.35</th></tr><tr><td></td><td>14</td><td>46.40</td><td>14</td><td>45.70</td><td>14</td><td>54.93</td><td>13</td><td>54.16</td></tr><tr><td></td><td>21</td><td>46.02</td><td>21</td><td>45.56</td><td>21</td><td>54.13</td><td>20</td><td>53.43</td></tr><tr><td></td><td>28</td><td>45.79</td><td>28</td><td>45.43</td><td>28</td><td>56.42</td><td>27</td><td>53.33</td></tr><tr><td rowspan=\"4\">Feb.</td><td>4</td><td>45.87</td><td>May 5</td><td>48.73</td><td>Aug. 4</td><td>54.98</td><td>Nov. 3</td><td>53.32</td></tr><tr><td>11</td><td>46.08</td><td>12</td><td>49.87</td><td>11</td><td>54.88</td><td>10</td><td>52.79</td></tr><tr><td>18</td><td>46.28</td><td>19</td><td>51.65</td><td>18</td><td>54.86</td><td>17</td><td>51.53</td></tr><tr><td>25</td><td>47.30</td><td>26</td><td>51.95</td><td>25</td><td>55.74</td><td>24</td><td>50.58</td></tr><tr><td>Mar.</td><td>3</td><td>46.50</td><td>June 2</td><td>51.88</td><td>Sept. 1</td><td>55.83</td><td>Dec. 1</td><td>49.92</td></tr><tr><td></td><td>10</td><td>45.21</td><td>9</td><td>51.85</td><td>8</td><td>55.33</td><td>8</td><td>49.54</td></tr><tr><td></td><td>17</td><td>44.96</td><td>16</td><td>53.33</td><td>15</td><td>55.09</td><td>15</td><td>49.63</td></tr><tr><td></td><td>24</td><td>45.25</td><td>23</td><td>53.58</td><td>22</td><td>54.36</td><td>22</td><td>49.81</td></tr><tr><td></td><td>31</td><td>45.86</td><td>30</td><td>53.49</td><td>29</td><td>54.36</td><td>29</td><td>49.00</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.02164169537440117,
+                            "top": 0.759567137829042,
+                            "width": 0.8010106236753752,
+                            "height": 0.15641692775759974,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Jan.</th><th>7</th><th>46.68</th><th>Apr. 7</th><th>46.98</th><th>July 7</th><th>54.28</th><th>Oct. 6</th><th>54.35</th></tr><tr><td></td><td>14</td><td>46.40</td><td>14</td><td>45.70</td><td>14</td><td>54.93</td><td>13</td><td>54.16</td></tr><tr><td></td><td>21</td><td>46.02</td><td>21</td><td>45.56</td><td>21</td><td>54.13</td><td>20</td><td>53.43</td></tr><tr><td></td><td>28</td><td>45.79</td><td>28</td><td>45.43</td><td>28</td><td>56.42</td><td>27</td><td>53.33</td></tr><tr><td rowspan=\"4\">Feb.</td><td>4</td><td>45.87</td><td>May 5</td><td>48.73</td><td>Aug. 4</td><td>54.98</td><td>Nov. 3</td><td>53.32</td></tr><tr><td>11</td><td>46.08</td><td>12</td><td>49.87</td><td>11</td><td>54.88</td><td>10</td><td>52.79</td></tr><tr><td>18</td><td>46.28</td><td>19</td><td>51.65</td><td>18</td><td>54.86</td><td>17</td><td>51.53</td></tr><tr><td>25</td><td>47.30</td><td>26</td><td>51.95</td><td>25</td><td>55.74</td><td>24</td><td>50.58</td></tr><tr><td>Mar.</td><td>3</td><td>46.50</td><td>June 2</td><td>51.88</td><td>Sept. 1</td><td>55.83</td><td>Dec. 1</td><td>49.92</td></tr><tr><td></td><td>10</td><td>45.21</td><td>9</td><td>51.85</td><td>8</td><td>55.33</td><td>8</td><td>49.54</td></tr><tr><td></td><td>17</td><td>44.96</td><td>16</td><td>53.33</td><td>15</td><td>55.09</td><td>15</td><td>49.63</td></tr><tr><td></td><td>24</td><td>45.25</td><td>23</td><td>53.58</td><td>22</td><td>54.36</td><td>22</td><td>49.81</td></tr><tr><td></td><td>31</td><td>45.86</td><td>30</td><td>53.49</td><td>29</td><td>54.36</td><td>29</td><td>49.00</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "job_id": "1e28040c-0316-40f0-9298-f29d51b3ebeb",
+    "duration": 6.870436191558838,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/8ba1e216-8cb5-493b-b2c1-1daf1fa175a2?AWSAccessKeyId=ASIA2UOK6OVBKZGR4T6C&Signature=oTn51Xq2nQbiFy6kwuM6CKfkad4%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIQCJeXBFtTu4nW30YpGSLT3vyq9LyrWBoEj1hvPAOd4zxgIgVJmILMDBnG%2BFOc5jAyJXCWgLKwfrhN%2FvxkTHSBNg5j4qiwUIIhAAGgw3MzExMDY5MzIwMzQiDNzpNKbW%2FBDZcaNPQyroBOcekayCQbiMKdOx1zx8GG0lClW6ptaZdaJrYglosNvnR%2BTxaVJM%2FF6qhMMsIOhokIQ%2Frz%2BLQI%2FmfnKH%2FtLPxyewSLVubsF6WR3tTRYnf6Jw6Rx0txRq%2BwTbH5x8oTK87tEsjPV2QMpJOk0B010QjsyFcC%2FKi7gCY1T7zU7BPOQyrBRUvENVjeZh2G0eCQqctFhqizmIpMXd2xh18K17dFLmollvjOd9ocAJqdPUjbkMgytJg%2FQTq2DMcwOT7AaL7MvvU2MGvqM9%2B7frWWUCFf85o%2Fv0lN52Ckb9CdFG3FmhDKbVc2V2oOUox2gOVB%2BvyspIix0hUfM5S53ijob1167jttCqCtqc8D%2FQxvW5kdGg2%2FxgtJnQahPrhEwEbYfOItjzKm11bo67Xy%2FVaxRilUue7zlpfOtJsHaLjCrvR9qNtfsmygINMXAbQwnx49aS8VrgKKQ%2F7ZApd3btaPpVggsfTdvKaX%2BGF3Tya%2BycNptfBtVrbWU3%2F5E9i2m5W1L9iAfxObizthTMGP%2BZDyu38B%2BRGaj4D%2FSkI5ZWPlqps3cuOhItqCkTjuJgIrgi2GKuyt%2FLO48XcBGI%2FZq0bgn06rB%2BC%2FlWLHiQ8RARMTA%2F7Agju%2FU7T7QcSCzXX%2B7ATg%2BcikfRjPvuhGjH9%2BJrRruDZxLuPz7ijCsTUl9I2NfFYH%2Fsdm9B%2BeKYVGlu452ehRxU7q8B21w0DPevifhA5G5GlpdAPL4V09bFufojtDZwL73ZwVbDN1UviUhg5Q55syLqz%2BddtrkzLnpkWT7%2Boq797yIbS8U6MQf1ZWRtMc2yCijE%2BR338Z%2BZU7Awx43JugY6mwE3GFFQCrDbH7enzxR6drwW72TbWF%2FEh6mmr4ydOR%2BOrBiE%2BxXa7la00kLG0lLj5VnDCdUtcYtm8cG%2Fx26CNklsQwwtCy4h948imBpPOrvRbJ4iCWkxqNRVc1rgAUjUIFVr%2Boq1n3t2IJeCSVthuBt3F5u2fOT6iY%2FfGTjSq%2FppsCmGIJ1%2BJw2P37vx8%2FYE0Z4SY3T%2BwuAM4TVa%2FA%3D%3D&Expires=1733451086",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TABLES OF BASIC DATA\n\n# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued\n\n3N/1W-18D1. O. Christensen. About 0.5 mile northwest of Loleta, 75 feet southwest of Copenhagen Road, 35 feet southeast of Table Bluff Hill Road. Un- used well diameter, 72 inches: depth, 24 feet. Measuring point at ton of brick curbing south side, 1.0 foot above land-surface datum, which is 20 feet above sea level.",
+                "embed": "# TABLES OF BASIC DATA\n\n# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued\n\n3N/1W-18D1. O. Christensen. About 0.5 mile northwest of Loleta, 75 feet southwest of Copenhagen Road, 35 feet southeast of Table Bluff Hill Road. Un- used well diameter, 72 inches: depth, 24 feet. Measuring point at ton of brick curbing south side, 1.0 foot above land-surface datum, which is 20 feet above sea level.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.33806292412091304,
+                            "top": 0.04723809523809524,
+                            "width": 0.2825416409623689,
+                            "height": 0.009904761904761904,
+                            "page": 1
+                        },
+                        "content": "TABLES OF BASIC DATA",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8562615669339914,
+                            "top": 0.04304761904761905,
+                            "width": 0.03146206045650833,
+                            "height": 0.015238095238095238,
+                            "page": 1
+                        },
+                        "content": "65",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.11165946946329426,
+                            "top": 0.07771428571428571,
+                            "width": 0.7328809376927823,
+                            "height": 0.029333333333333333,
+                            "page": 1
+                        },
+                        "content": "TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0703269586674892,
+                            "top": 0.12266666666666666,
+                            "width": 0.8180135718692165,
+                            "height": 0.07542857142857143,
+                            "page": 1
+                        },
+                        "content": "3N/1W-18D1. O. Christensen. About 0.5 mile northwest of Loleta, 75 feet southwest of Copenhagen Road, 35 feet southeast of Table Bluff Hill Road. Un- used well diameter, 72 inches: depth, 24 feet. Measuring point at ton of brick curbing south side, 1.0 foot above land-surface datum, which is 20 feet above sea level.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued (cont.)\n\n<table><tr><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th></tr><tr><td>June 8, 1951</td><td>3.07</td><td>Sept. 29, 1952</td><td>3.05</td><td>Aug. 20, 1954</td><td>3.00</td></tr><tr><td>May 11, 1952</td><td>2.1</td><td>Nov. 11, 1952</td><td>.48</td><td>May 25, 1955</td><td>2.6</td></tr><tr><td>Aug. 4, 1952</td><td>2.52</td><td>Apr. 25, 1953</td><td>1.94</td><td>Aug. 23, 1955</td><td>3.1</td></tr><tr><td>Sept. 5, 1952</td><td>2.83</td><td>May 18, 1954</td><td>1.83</td><td></td><td></td></tr></table>\n\n3N/1W-18D2. O. Christensen. About 0.5 mile northwest of Loleta, 115 feet southeast of Table Bluff Hill Road, 60 feet southwest of Copenhaven Road, in southwest corner of garage part of long shed facing Copenharen Road. Domestic well diameter, 8 inches; depth, 75 feet. Measuring point at center top of wood casing cover, 1.5 feet above land-surface datum, which is 22 feet above sea level.",
+                "embed": "# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued (cont.)\n\n<table><tr><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th></tr><tr><td>June 8, 1951</td><td>3.07</td><td>Sept. 29, 1952</td><td>3.05</td><td>Aug. 20, 1954</td><td>3.00</td></tr><tr><td>May 11, 1952</td><td>2.1</td><td>Nov. 11, 1952</td><td>.48</td><td>May 25, 1955</td><td>2.6</td></tr><tr><td>Aug. 4, 1952</td><td>2.52</td><td>Apr. 25, 1953</td><td>1.94</td><td>Aug. 23, 1955</td><td>3.1</td></tr><tr><td>Sept. 5, 1952</td><td>2.83</td><td>May 18, 1954</td><td>1.83</td><td></td><td></td></tr></table>\n\n3N/1W-18D2. O. Christensen. About 0.5 mile northwest of Loleta, 115 feet southeast of Table Bluff Hill Road, 60 feet southwest of Copenhaven Road, in southwest corner of garage part of long shed facing Copenharen Road. Domestic well diameter, 8 inches; depth, 75 feet. Measuring point at center top of wood casing cover, 1.5 feet above land-surface datum, which is 22 feet above sea level.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06552717996040736,
+                            "top": 0.21556082589285713,
+                            "width": 0.8257115603522854,
+                            "height": 0.10159672619047619,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th><th>Date</th><th>Water\nlevel</th></tr><tr><td>June 8, 1951</td><td>3.07</td><td>Sept. 29, 1952</td><td>3.05</td><td>Aug. 20, 1954</td><td>3.00</td></tr><tr><td>May 11, 1952</td><td>2.1</td><td>Nov. 11, 1952</td><td>.48</td><td>May 25, 1955</td><td>2.6</td></tr><tr><td>Aug. 4, 1952</td><td>2.52</td><td>Apr. 25, 1953</td><td>1.94</td><td>Aug. 23, 1955</td><td>3.1</td></tr><tr><td>Sept. 5, 1952</td><td>2.83</td><td>May 18, 1954</td><td>1.83</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06971005552128316,
+                            "top": 0.3299047619047619,
+                            "width": 0.8173966687230105,
+                            "height": 0.09104761904761904,
+                            "page": 1
+                        },
+                        "content": "3N/1W-18D2. O. Christensen. About 0.5 mile northwest of Loleta, 115 feet southeast of Table Bluff Hill Road, 60 feet southwest of Copenhaven Road, in southwest corner of garage part of long shed facing Copenharen Road. Domestic well diameter, 8 inches; depth, 75 feet. Measuring point at center top of wood casing cover, 1.5 feet above land-surface datum, which is 22 feet above sea level.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued (cont.)\n\n<table><tr><th>June 8, 1951</th><th>a 8.00</th><th>Sept. 29, 1952</th><th>8.84</th><th>Aug. 20, 1954</th><th>7.90</th></tr><tr><td>May 11, 1952</td><td>a 13. 8</td><td>Nov. 11, 1952</td><td>8.72</td><td>May 25, 1955</td><td>a 14. 7</td></tr><tr><td>Aug. 4. 1952</td><td>8. 30</td><td>Apr. 25, 1953</td><td>7.51</td><td>Arg. 23, 1955</td><td>a 16. 8</td></tr><tr><td>Sept. 5, 1952</td><td>8. 74</td><td>May 18, 1954</td><td>a 14.62</td><td></td><td></td></tr></table>\n\n3N/1W-32C1. Fred Bahnsen. About 2.5 miles west of Fortuna, 130 feet north of Ferndale Road, 25 feet east of northward-trending fence. Irrigation well; diameter unknown depth, 47 feet. Measuring point at hole in pump base on east side, 1.0 foot above land-surface datum, which is 32 feet above sea level.",
+                "embed": "# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued (cont.)\n\n<table><tr><th>June 8, 1951</th><th>a 8.00</th><th>Sept. 29, 1952</th><th>8.84</th><th>Aug. 20, 1954</th><th>7.90</th></tr><tr><td>May 11, 1952</td><td>a 13. 8</td><td>Nov. 11, 1952</td><td>8.72</td><td>May 25, 1955</td><td>a 14. 7</td></tr><tr><td>Aug. 4. 1952</td><td>8. 30</td><td>Apr. 25, 1953</td><td>7.51</td><td>Arg. 23, 1955</td><td>a 16. 8</td></tr><tr><td>Sept. 5, 1952</td><td>8. 74</td><td>May 18, 1954</td><td>a 14.62</td><td></td><td></td></tr></table>\n\n3N/1W-32C1. Fred Bahnsen. About 2.5 miles west of Fortuna, 130 feet north of Ferndale Road, 25 feet east of northward-trending fence. Irrigation well; diameter unknown depth, 47 feet. Measuring point at hole in pump base on east side, 1.0 foot above land-surface datum, which is 32 feet above sea level.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06691925500661484,
+                            "top": 0.4390102306547619,
+                            "width": 0.8232208524935779,
+                            "height": 0.06333621651785715,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>June 8, 1951</th><th>a 8.00</th><th>Sept. 29, 1952</th><th>8.84</th><th>Aug. 20, 1954</th><th>7.90</th></tr><tr><td>May 11, 1952</td><td>a 13. 8</td><td>Nov. 11, 1952</td><td>8.72</td><td>May 25, 1955</td><td>a 14. 7</td></tr><tr><td>Aug. 4. 1952</td><td>8. 30</td><td>Apr. 25, 1953</td><td>7.51</td><td>Arg. 23, 1955</td><td>a 16. 8</td></tr><tr><td>Sept. 5, 1952</td><td>8. 74</td><td>May 18, 1954</td><td>a 14.62</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06971005552128316,
+                            "top": 0.5139047619047619,
+                            "width": 0.8180135718692165,
+                            "height": 0.07542857142857143,
+                            "page": 1
+                        },
+                        "content": "3N/1W-32C1. Fred Bahnsen. About 2.5 miles west of Fortuna, 130 feet north of Ferndale Road, 25 feet east of northward-trending fence. Irrigation well; diameter unknown depth, 47 feet. Measuring point at hole in pump base on east side, 1.0 foot above land-surface datum, which is 32 feet above sea level.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued (cont.)\n\n<table><tr><th>June 9, 1951</th><th>19.44</th><th>Sept. 29, 1952</th><th>22.27</th><th>May 18, 1954</th><th>a 18. 32</th></tr><tr><td>May 11, 1952</td><td>17. 41</td><td>Nov. 11, 1952</td><td>22.04</td><td>Aug. 21, 1954</td><td>21. 22</td></tr><tr><td>Aug. 4, 1952</td><td>a 20. 37</td><td>Apr. 25, 1953</td><td>17. 07</td><td>Aug. 23, 1955</td><td>19. 0</td></tr><tr><td>Sept. 5, 1952</td><td>a 23. 37</td><td>Aug. 29, 1953</td><td>22.53</td><td></td><td></td></tr></table>\n\n3N/1W-34J1. City of Fortuna. In Fortuna 70 feet east of 7th Street, 35 feet north of K Street, 10 feet south of large wood storage tank. Unused well ; diameter, 12 inches; depth, 496 feet. Measuring point at 1/2-inch hole in casing cover, 1.0 foot above land-surface datum which is 47 feet above sea leve1.\n\n<table><tr><th>June 8, 1951</th><th>34. 29</th><th>Sept. 5, 1952</th><th>36.70</th><th>Apr. 26, 1953</th><th>32. 82</th></tr><tr><td>May 11, 1952</td><td>32. 66</td><td>Sept. 29, 1952</td><td>37.27</td><td>Aug. 29, 1953</td><td>35. 70</td></tr><tr><td>Aug. 4, 1952</td><td>35. 22</td><td>Nov. 8, 1952</td><td>37.45</td><td></td><td></td></tr></table>\n\nSee footnotes at end of table.\n\n468451-59- 6",
+                "embed": "# TABLE 7.-Periodic water-level measurements in wells in the Eureka area, Humboldt County, Calif.-Continued (cont.)\n\n<table><tr><th>June 9, 1951</th><th>19.44</th><th>Sept. 29, 1952</th><th>22.27</th><th>May 18, 1954</th><th>a 18. 32</th></tr><tr><td>May 11, 1952</td><td>17. 41</td><td>Nov. 11, 1952</td><td>22.04</td><td>Aug. 21, 1954</td><td>21. 22</td></tr><tr><td>Aug. 4, 1952</td><td>a 20. 37</td><td>Apr. 25, 1953</td><td>17. 07</td><td>Aug. 23, 1955</td><td>19. 0</td></tr><tr><td>Sept. 5, 1952</td><td>a 23. 37</td><td>Aug. 29, 1953</td><td>22.53</td><td></td><td></td></tr></table>\n\n3N/1W-34J1. City of Fortuna. In Fortuna 70 feet east of 7th Street, 35 feet north of K Street, 10 feet south of large wood storage tank. Unused well ; diameter, 12 inches; depth, 496 feet. Measuring point at 1/2-inch hole in casing cover, 1.0 foot above land-surface datum which is 47 feet above sea leve1.\n\n<table><tr><th>June 8, 1951</th><th>34. 29</th><th>Sept. 5, 1952</th><th>36.70</th><th>Apr. 26, 1953</th><th>32. 82</th></tr><tr><td>May 11, 1952</td><td>32. 66</td><td>Sept. 29, 1952</td><td>37.27</td><td>Aug. 29, 1953</td><td>35. 70</td></tr><tr><td>Aug. 4, 1952</td><td>35. 22</td><td>Nov. 8, 1952</td><td>37.45</td><td></td><td></td></tr></table>\n\nSee footnotes at end of table.\n\n468451-59- 6",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06614422430453809,
+                            "top": 0.6073109654017858,
+                            "width": 0.8221614397579619,
+                            "height": 0.06171056547619048,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>June 9, 1951</th><th>19.44</th><th>Sept. 29, 1952</th><th>22.27</th><th>May 18, 1954</th><th>a 18. 32</th></tr><tr><td>May 11, 1952</td><td>17. 41</td><td>Nov. 11, 1952</td><td>22.04</td><td>Aug. 21, 1954</td><td>21. 22</td></tr><tr><td>Aug. 4, 1952</td><td>a 20. 37</td><td>Apr. 25, 1953</td><td>17. 07</td><td>Aug. 23, 1955</td><td>19. 0</td></tr><tr><td>Sept. 5, 1952</td><td>a 23. 37</td><td>Aug. 29, 1953</td><td>22.53</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06785934608266501,
+                            "top": 0.6826666666666666,
+                            "width": 0.8186304750154226,
+                            "height": 0.060571428571428575,
+                            "page": 1
+                        },
+                        "content": "3N/1W-34J1. City of Fortuna. In Fortuna 70 feet east of 7th Street, 35 feet north of K Street, 10 feet south of large wood storage tank. Unused well ; diameter, 12 inches; depth, 496 feet. Measuring point at 1/2-inch hole in casing cover, 1.0 foot above land-surface datum which is 47 feet above sea leve1.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06590693177888601,
+                            "top": 0.7606557849702381,
+                            "width": 0.8210713964858811,
+                            "height": 0.05111616443452381,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>June 8, 1951</th><th>34. 29</th><th>Sept. 5, 1952</th><th>36.70</th><th>Apr. 26, 1953</th><th>32. 82</th></tr><tr><td>May 11, 1952</td><td>32. 66</td><td>Sept. 29, 1952</td><td>37.27</td><td>Aug. 29, 1953</td><td>35. 70</td></tr><tr><td>Aug. 4, 1952</td><td>35. 22</td><td>Nov. 8, 1952</td><td>37.45</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09130166563849476,
+                            "top": 0.8182857142857143,
+                            "width": 0.2498457742134485,
+                            "height": 0.009523809523809525,
+                            "page": 1
+                        },
+                        "content": "See footnotes at end of table.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1314003701418877,
+                            "top": 0.8335238095238096,
+                            "width": 0.15360888340530537,
+                            "height": 0.009904761904761904,
+                            "page": 1
+                        },
+                        "content": "468451-59- 6",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

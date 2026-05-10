@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Lycan Bros. Well",
+        "County": "Los Angeles County",
+        "Location": "Near Montebello, Coastal Plain",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Feet below land-surface datum (lsd)",
+        "Latitude": 34.0175,
+        "Longitude": -118.1200,
+        "Dates_of_Recording": "1928-10-08 to 1952-11-28",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Los Angeles County Farm Well",
+        "County": "Los Angeles County",
+        "Location": "Near Downey, Coastal Plain",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Feet below land-surface datum (lsd)",
+        "Latitude": 33.9300,
+        "Longitude": -118.1200,
+        "Dates_of_Recording": "1930-01-07 to 1952-10-06",
+        "Water_Type": "Artesian well"
+    }
+]
+```

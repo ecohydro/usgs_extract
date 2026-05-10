@@ -1,0 +1,162 @@
+{
+    "job_id": "b36fb2bd-34ec-47f3-920a-f0fbda974026",
+    "duration": 5.1264731884002686,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/d151e6b6-f7ee-46f8-a90f-07b6bbc2ce4d?AWSAccessKeyId=ASIA2UOK6OVBMBQQPBT5&Signature=uMAcWmQYsloVv%2FBD6rNDftwc3mQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIHNSQtfKptJEBjvPccKMuaQRazy2xQA4h%2BEgm49HDECyAiBqx2%2FqeLryOacnsX6qPWw25N8LusEKQalCoPDZo1ZJSyqLBQglEAAaDDczMTEwNjkzMjAzNCIMrgSHJC87G5cp7uaaKugEyvgrC8lkY6aN3Ta27aovgr28ECYBy22j4oVY8eAQFHZOOyOnuYTnkTz%2FPY1YzKuP0dlK6%2BJpvNewUZEGvE0rAGoWHq%2BO1SsHslONcC9A7uJiZDmvv8AUqzs2n7bBJMxRKhbSdpOdf4exWknlV%2BjczYG7333XZ3di0MMKEdUhPDPJ586d%2F1yYiDvcccV%2FM9lQzBTOLb1yGjlE%2FTe6KDSzBl%2F1baCjSRAwMrl5JRTzN%2BOMbXEl2G0B%2BY2bWfXmHqXu0aHPZijJMbaMlpYFU4uhUcNwBG1p6GxafVmk2QW0Z1nOYawR8bLgM9zUrA4pv7iImuBKzY35QaD7z3Ns%2BQ2cTaTkWsiUcBE1J%2F2SC1fKC5GL4ZXfl6A2jTlmtUJIe%2B4BkgTaLTf2NJXa14VayjllKSK%2BR1CITxSxYyqn7N%2FuxghAfPIQAsjhh%2FzJyZc4arpCHaCZgByrzurAsCbf7bVenzRcLcIna%2BscdMeo84jo8SvPx0hI8tRk%2FNXprvLeKRRz4pRaiURaPXpANDn0Kwuj%2FdlCAXgb0ELAmcSyHC6N42omG3pwQ8fzZx6cH17y99bripseU28UiPIsa20w5Ncnpoya0SLuLA6PKyCRM3BUXjdu%2B1lhu6kHEskvN2KnaNVtPpBCLnWS3C98Cuvxpy2OwmcNhxHS20Iu2Re%2FG%2BdIzmXGKr0jx4TLWhd5QmM%2Blc%2BBd3hmA3X7BLUgpzoz9cR6j6DQheYiphZW5Oxtn8ESjcpCtmg0GwCNfSs5IoT50WzHH0beP0xhHgdDLzpquAMlaJPZsDKcI0WYfNobZAmgcyoJ0yEXzrUZ7jD39Mm6BjqcAQuKjcCQ0rVtMH9kmuzqlSIrwxaqO2eWYTMt%2BalxMGzT%2BCQ1RRauslZfQtkC4x3rnwz8KXz2Sjw8UWdaJ0qA8pHVCQo0yLrild9PoPRb%2FKRucWRTdswJo2qX9yssULM7WryTHZxsIEImytQ0z9lkrHVH8hpTUJ19ynWQMyS4SmR4LWxYW4z%2Bbr51YbYvcu287J6cYP8TTXgobkc9kQ%3D%3D&Expires=1733464335",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.14451928965094918,
+                            "top": 0.05600306866129651,
+                            "width": 0.04470300061236987,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "154",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1912, PART XI.\n\n# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12.\n\n<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>778</td><td>375</td><td>348</td><td>325</td><td>426</td><td>350</td><td>714</td><td>1,680</td><td>10, ,500</td><td>1,730</td><td>734</td><td>322</td></tr><tr><td>2</td><td>708</td><td>375</td><td>348</td><td>335</td><td>415</td><td>350</td><td>865</td><td>1,680</td><td>11,100</td><td>1,580</td><td>720</td><td>306</td></tr><tr><td>3</td><td>642</td><td>375</td><td>348</td><td>325</td><td>410</td><td>335</td><td>988</td><td>1,530</td><td>11,400</td><td>1,440</td><td>694</td><td>306</td></tr><tr><td>4</td><td>610</td><td>375</td><td>375</td><td>305</td><td>398</td><td>371</td><td>1, ,010</td><td>1,530</td><td>2,000</td><td>1,270</td><td>642</td><td>317</td></tr><tr><td>5</td><td>578</td><td>348</td><td>375</td><td>325</td><td>398</td><td>506</td><td>1,070</td><td>1,730</td><td>10,800</td><td>1,200</td><td>610</td><td>334</td></tr><tr><td>6</td><td>548</td><td>348</td><td>375</td><td>335</td><td>396</td><td>820</td><td>1,020</td><td>1,680</td><td>10,800</td><td>1, 410</td><td>584</td><td>322</td></tr><tr><td>7</td><td>548</td><td>348</td><td>430</td><td>335</td><td>394</td><td>835</td><td>140</td><td>1,730</td><td>10,200</td><td>1, ,580</td><td>578</td><td>306</td></tr><tr><td>8</td><td>517</td><td>348</td><td>430</td><td>415</td><td>392</td><td>707</td><td>290</td><td>1,730</td><td>8,840</td><td>,580</td><td>578</td><td>285</td></tr><tr><td>9</td><td>488</td><td>348</td><td>402</td><td>350</td><td>390</td><td>629</td><td>,400</td><td>2,110</td><td>6,940</td><td>1,580</td><td>578</td><td>270</td></tr><tr><td>10</td><td>517</td><td>402</td><td>375</td><td>371</td><td>388</td><td>674</td><td>1,630</td><td>2,350</td><td>5,700</td><td>580</td><td>572</td><td>250</td></tr><tr><td>11</td><td>517</td><td>610</td><td>375</td><td>476</td><td>388</td><td>688</td><td>890</td><td>3,220</td><td>5,510</td><td>1, 480</td><td>548</td><td>222</td></tr><tr><td>12</td><td>488</td><td>402</td><td>348</td><td>442</td><td>398</td><td>668</td><td>1,430</td><td>3,860</td><td>5,700</td><td>1,470</td><td>536</td><td>214</td></tr><tr><td>13</td><td>458</td><td>430</td><td>322</td><td>415</td><td>388</td><td>888</td><td>1,250</td><td>3,860</td><td>4,770</td><td>460</td><td>530</td><td>209</td></tr><tr><td>14</td><td>458</td><td>458</td><td>322</td><td>404</td><td>393</td><td>776</td><td>1,200</td><td>4,600</td><td>4,950</td><td>1,340</td><td>530</td><td>204</td></tr><tr><td>15</td><td>430</td><td>430</td><td>322</td><td>415</td><td>404</td><td>720</td><td>1,260</td><td>5,320</td><td>5,130</td><td>1,220</td><td>518</td><td>200</td></tr><tr><td>16</td><td>430</td><td>458</td><td>322</td><td>426</td><td>376</td><td>741</td><td>1,330</td><td>5,700</td><td>5,130</td><td>160</td><td>500</td><td>197</td></tr><tr><td>17</td><td>430</td><td>458</td><td>348</td><td>415</td><td>382</td><td>688</td><td>1,300</td><td>6,510</td><td>4,950</td><td>1,210</td><td>488</td><td>193</td></tr><tr><td>18</td><td>402</td><td>430</td><td>348</td><td>382</td><td>393</td><td>662</td><td>1,310</td><td>6,940</td><td>4,600</td><td>2,000</td><td>470</td><td>190</td></tr><tr><td>19</td><td>402</td><td>430</td><td>322</td><td>371</td><td>404</td><td>694</td><td>200</td><td>6,720</td><td>4,430</td><td>2,060</td><td>446</td><td>186</td></tr><tr><td>20</td><td>402</td><td>430</td><td>322</td><td>371</td><td>398</td><td>707</td><td>1, , 060</td><td>5,320</td><td>4,600</td><td>730</td><td>422</td><td>183</td></tr><tr><td>21</td><td>402</td><td>430</td><td>348</td><td>371</td><td>388</td><td>707</td><td>948</td><td>4,430</td><td>3,940</td><td>1,430</td><td>410</td><td>180</td></tr><tr><td>22</td><td>375</td><td>402</td><td>296</td><td>371</td><td>388</td><td>700</td><td>980</td><td>3,640</td><td>2,960</td><td>1,240</td><td>398</td><td>176</td></tr><tr><td>23</td><td>375</td><td>402</td><td>322</td><td>371</td><td>366</td><td>674</td><td>1,050</td><td>3,640</td><td>2,410</td><td>090</td><td>380</td><td>175</td></tr><tr><td>24</td><td>375</td><td>375</td><td>348</td><td>371</td><td>376</td><td>694</td><td>1,310</td><td>4,260</td><td>2,000</td><td>.000</td><td>368</td><td>174</td></tr><tr><td>25</td><td>375</td><td>375</td><td>296</td><td>371</td><td>335</td><td>748</td><td>1,290</td><td>4,600</td><td>1,890</td><td>918</td><td>374</td><td>173</td></tr><tr><td>26</td><td>375</td><td>375</td><td>270</td><td>415</td><td>320</td><td>734</td><td>290</td><td>3,940</td><td>2,000</td><td>865</td><td>386</td><td>172</td></tr><tr><td>27</td><td>375</td><td>375</td><td>270</td><td>530</td><td>320</td><td>762</td><td>1, 340</td><td>,260</td><td>2,110</td><td>820</td><td>386</td><td>171</td></tr><tr><td>28</td><td>375</td><td>375</td><td>402</td><td>459</td><td>345</td><td>720</td><td>1, 380</td><td>6, 510</td><td>2,170</td><td>798</td><td>392</td><td>170</td></tr><tr><td>29</td><td>375</td><td>348</td><td>402</td><td>426</td><td>345</td><td>790</td><td>1, 530</td><td>8, 840</td><td>2,110</td><td>783</td><td>374</td><td>168</td></tr><tr><td>30</td><td>375</td><td>348</td><td>348</td><td>437</td><td></td><td>812</td><td>1, 530</td><td>12,400</td><td>1, ,890</td><td>755</td><td>362</td><td>168</td></tr><tr><td>31</td><td>375</td><td></td><td>322</td><td>432</td><td></td><td>700</td><td></td><td>360</td><td></td><td>741</td><td>344</td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1912, PART XI.\n\n# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12.\n\n<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>778</td><td>375</td><td>348</td><td>325</td><td>426</td><td>350</td><td>714</td><td>1,680</td><td>10, ,500</td><td>1,730</td><td>734</td><td>322</td></tr><tr><td>2</td><td>708</td><td>375</td><td>348</td><td>335</td><td>415</td><td>350</td><td>865</td><td>1,680</td><td>11,100</td><td>1,580</td><td>720</td><td>306</td></tr><tr><td>3</td><td>642</td><td>375</td><td>348</td><td>325</td><td>410</td><td>335</td><td>988</td><td>1,530</td><td>11,400</td><td>1,440</td><td>694</td><td>306</td></tr><tr><td>4</td><td>610</td><td>375</td><td>375</td><td>305</td><td>398</td><td>371</td><td>1, ,010</td><td>1,530</td><td>2,000</td><td>1,270</td><td>642</td><td>317</td></tr><tr><td>5</td><td>578</td><td>348</td><td>375</td><td>325</td><td>398</td><td>506</td><td>1,070</td><td>1,730</td><td>10,800</td><td>1,200</td><td>610</td><td>334</td></tr><tr><td>6</td><td>548</td><td>348</td><td>375</td><td>335</td><td>396</td><td>820</td><td>1,020</td><td>1,680</td><td>10,800</td><td>1, 410</td><td>584</td><td>322</td></tr><tr><td>7</td><td>548</td><td>348</td><td>430</td><td>335</td><td>394</td><td>835</td><td>140</td><td>1,730</td><td>10,200</td><td>1, ,580</td><td>578</td><td>306</td></tr><tr><td>8</td><td>517</td><td>348</td><td>430</td><td>415</td><td>392</td><td>707</td><td>290</td><td>1,730</td><td>8,840</td><td>,580</td><td>578</td><td>285</td></tr><tr><td>9</td><td>488</td><td>348</td><td>402</td><td>350</td><td>390</td><td>629</td><td>,400</td><td>2,110</td><td>6,940</td><td>1,580</td><td>578</td><td>270</td></tr><tr><td>10</td><td>517</td><td>402</td><td>375</td><td>371</td><td>388</td><td>674</td><td>1,630</td><td>2,350</td><td>5,700</td><td>580</td><td>572</td><td>250</td></tr><tr><td>11</td><td>517</td><td>610</td><td>375</td><td>476</td><td>388</td><td>688</td><td>890</td><td>3,220</td><td>5,510</td><td>1, 480</td><td>548</td><td>222</td></tr><tr><td>12</td><td>488</td><td>402</td><td>348</td><td>442</td><td>398</td><td>668</td><td>1,430</td><td>3,860</td><td>5,700</td><td>1,470</td><td>536</td><td>214</td></tr><tr><td>13</td><td>458</td><td>430</td><td>322</td><td>415</td><td>388</td><td>888</td><td>1,250</td><td>3,860</td><td>4,770</td><td>460</td><td>530</td><td>209</td></tr><tr><td>14</td><td>458</td><td>458</td><td>322</td><td>404</td><td>393</td><td>776</td><td>1,200</td><td>4,600</td><td>4,950</td><td>1,340</td><td>530</td><td>204</td></tr><tr><td>15</td><td>430</td><td>430</td><td>322</td><td>415</td><td>404</td><td>720</td><td>1,260</td><td>5,320</td><td>5,130</td><td>1,220</td><td>518</td><td>200</td></tr><tr><td>16</td><td>430</td><td>458</td><td>322</td><td>426</td><td>376</td><td>741</td><td>1,330</td><td>5,700</td><td>5,130</td><td>160</td><td>500</td><td>197</td></tr><tr><td>17</td><td>430</td><td>458</td><td>348</td><td>415</td><td>382</td><td>688</td><td>1,300</td><td>6,510</td><td>4,950</td><td>1,210</td><td>488</td><td>193</td></tr><tr><td>18</td><td>402</td><td>430</td><td>348</td><td>382</td><td>393</td><td>662</td><td>1,310</td><td>6,940</td><td>4,600</td><td>2,000</td><td>470</td><td>190</td></tr><tr><td>19</td><td>402</td><td>430</td><td>322</td><td>371</td><td>404</td><td>694</td><td>200</td><td>6,720</td><td>4,430</td><td>2,060</td><td>446</td><td>186</td></tr><tr><td>20</td><td>402</td><td>430</td><td>322</td><td>371</td><td>398</td><td>707</td><td>1, , 060</td><td>5,320</td><td>4,600</td><td>730</td><td>422</td><td>183</td></tr><tr><td>21</td><td>402</td><td>430</td><td>348</td><td>371</td><td>388</td><td>707</td><td>948</td><td>4,430</td><td>3,940</td><td>1,430</td><td>410</td><td>180</td></tr><tr><td>22</td><td>375</td><td>402</td><td>296</td><td>371</td><td>388</td><td>700</td><td>980</td><td>3,640</td><td>2,960</td><td>1,240</td><td>398</td><td>176</td></tr><tr><td>23</td><td>375</td><td>402</td><td>322</td><td>371</td><td>366</td><td>674</td><td>1,050</td><td>3,640</td><td>2,410</td><td>090</td><td>380</td><td>175</td></tr><tr><td>24</td><td>375</td><td>375</td><td>348</td><td>371</td><td>376</td><td>694</td><td>1,310</td><td>4,260</td><td>2,000</td><td>.000</td><td>368</td><td>174</td></tr><tr><td>25</td><td>375</td><td>375</td><td>296</td><td>371</td><td>335</td><td>748</td><td>1,290</td><td>4,600</td><td>1,890</td><td>918</td><td>374</td><td>173</td></tr><tr><td>26</td><td>375</td><td>375</td><td>270</td><td>415</td><td>320</td><td>734</td><td>290</td><td>3,940</td><td>2,000</td><td>865</td><td>386</td><td>172</td></tr><tr><td>27</td><td>375</td><td>375</td><td>270</td><td>530</td><td>320</td><td>762</td><td>1, 340</td><td>,260</td><td>2,110</td><td>820</td><td>386</td><td>171</td></tr><tr><td>28</td><td>375</td><td>375</td><td>402</td><td>459</td><td>345</td><td>720</td><td>1, 380</td><td>6, 510</td><td>2,170</td><td>798</td><td>392</td><td>170</td></tr><tr><td>29</td><td>375</td><td>348</td><td>402</td><td>426</td><td>345</td><td>790</td><td>1, 530</td><td>8, 840</td><td>2,110</td><td>783</td><td>374</td><td>168</td></tr><tr><td>30</td><td>375</td><td>348</td><td>348</td><td>437</td><td></td><td>812</td><td>1, 530</td><td>12,400</td><td>1, ,890</td><td>755</td><td>362</td><td>168</td></tr><tr><td>31</td><td>375</td><td></td><td>322</td><td>432</td><td></td><td>700</td><td></td><td>360</td><td></td><td>741</td><td>344</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.31230863441518675,
+                            "top": 0.05830456463367856,
+                            "width": 0.46785058175137784,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1912, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.19412124923453766,
+                            "top": 0.08822401227464519,
+                            "width": 0.7011635027556644,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1411058994720702,
+                            "top": 0.11267823810818829,
+                            "width": 0.8116276981052415,
+                            "height": 0.4007178432053426,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>778</td><td>375</td><td>348</td><td>325</td><td>426</td><td>350</td><td>714</td><td>1,680</td><td>10, ,500</td><td>1,730</td><td>734</td><td>322</td></tr><tr><td>2</td><td>708</td><td>375</td><td>348</td><td>335</td><td>415</td><td>350</td><td>865</td><td>1,680</td><td>11,100</td><td>1,580</td><td>720</td><td>306</td></tr><tr><td>3</td><td>642</td><td>375</td><td>348</td><td>325</td><td>410</td><td>335</td><td>988</td><td>1,530</td><td>11,400</td><td>1,440</td><td>694</td><td>306</td></tr><tr><td>4</td><td>610</td><td>375</td><td>375</td><td>305</td><td>398</td><td>371</td><td>1, ,010</td><td>1,530</td><td>2,000</td><td>1,270</td><td>642</td><td>317</td></tr><tr><td>5</td><td>578</td><td>348</td><td>375</td><td>325</td><td>398</td><td>506</td><td>1,070</td><td>1,730</td><td>10,800</td><td>1,200</td><td>610</td><td>334</td></tr><tr><td>6</td><td>548</td><td>348</td><td>375</td><td>335</td><td>396</td><td>820</td><td>1,020</td><td>1,680</td><td>10,800</td><td>1, 410</td><td>584</td><td>322</td></tr><tr><td>7</td><td>548</td><td>348</td><td>430</td><td>335</td><td>394</td><td>835</td><td>140</td><td>1,730</td><td>10,200</td><td>1, ,580</td><td>578</td><td>306</td></tr><tr><td>8</td><td>517</td><td>348</td><td>430</td><td>415</td><td>392</td><td>707</td><td>290</td><td>1,730</td><td>8,840</td><td>,580</td><td>578</td><td>285</td></tr><tr><td>9</td><td>488</td><td>348</td><td>402</td><td>350</td><td>390</td><td>629</td><td>,400</td><td>2,110</td><td>6,940</td><td>1,580</td><td>578</td><td>270</td></tr><tr><td>10</td><td>517</td><td>402</td><td>375</td><td>371</td><td>388</td><td>674</td><td>1,630</td><td>2,350</td><td>5,700</td><td>580</td><td>572</td><td>250</td></tr><tr><td>11</td><td>517</td><td>610</td><td>375</td><td>476</td><td>388</td><td>688</td><td>890</td><td>3,220</td><td>5,510</td><td>1, 480</td><td>548</td><td>222</td></tr><tr><td>12</td><td>488</td><td>402</td><td>348</td><td>442</td><td>398</td><td>668</td><td>1,430</td><td>3,860</td><td>5,700</td><td>1,470</td><td>536</td><td>214</td></tr><tr><td>13</td><td>458</td><td>430</td><td>322</td><td>415</td><td>388</td><td>888</td><td>1,250</td><td>3,860</td><td>4,770</td><td>460</td><td>530</td><td>209</td></tr><tr><td>14</td><td>458</td><td>458</td><td>322</td><td>404</td><td>393</td><td>776</td><td>1,200</td><td>4,600</td><td>4,950</td><td>1,340</td><td>530</td><td>204</td></tr><tr><td>15</td><td>430</td><td>430</td><td>322</td><td>415</td><td>404</td><td>720</td><td>1,260</td><td>5,320</td><td>5,130</td><td>1,220</td><td>518</td><td>200</td></tr><tr><td>16</td><td>430</td><td>458</td><td>322</td><td>426</td><td>376</td><td>741</td><td>1,330</td><td>5,700</td><td>5,130</td><td>160</td><td>500</td><td>197</td></tr><tr><td>17</td><td>430</td><td>458</td><td>348</td><td>415</td><td>382</td><td>688</td><td>1,300</td><td>6,510</td><td>4,950</td><td>1,210</td><td>488</td><td>193</td></tr><tr><td>18</td><td>402</td><td>430</td><td>348</td><td>382</td><td>393</td><td>662</td><td>1,310</td><td>6,940</td><td>4,600</td><td>2,000</td><td>470</td><td>190</td></tr><tr><td>19</td><td>402</td><td>430</td><td>322</td><td>371</td><td>404</td><td>694</td><td>200</td><td>6,720</td><td>4,430</td><td>2,060</td><td>446</td><td>186</td></tr><tr><td>20</td><td>402</td><td>430</td><td>322</td><td>371</td><td>398</td><td>707</td><td>1, , 060</td><td>5,320</td><td>4,600</td><td>730</td><td>422</td><td>183</td></tr><tr><td>21</td><td>402</td><td>430</td><td>348</td><td>371</td><td>388</td><td>707</td><td>948</td><td>4,430</td><td>3,940</td><td>1,430</td><td>410</td><td>180</td></tr><tr><td>22</td><td>375</td><td>402</td><td>296</td><td>371</td><td>388</td><td>700</td><td>980</td><td>3,640</td><td>2,960</td><td>1,240</td><td>398</td><td>176</td></tr><tr><td>23</td><td>375</td><td>402</td><td>322</td><td>371</td><td>366</td><td>674</td><td>1,050</td><td>3,640</td><td>2,410</td><td>090</td><td>380</td><td>175</td></tr><tr><td>24</td><td>375</td><td>375</td><td>348</td><td>371</td><td>376</td><td>694</td><td>1,310</td><td>4,260</td><td>2,000</td><td>.000</td><td>368</td><td>174</td></tr><tr><td>25</td><td>375</td><td>375</td><td>296</td><td>371</td><td>335</td><td>748</td><td>1,290</td><td>4,600</td><td>1,890</td><td>918</td><td>374</td><td>173</td></tr><tr><td>26</td><td>375</td><td>375</td><td>270</td><td>415</td><td>320</td><td>734</td><td>290</td><td>3,940</td><td>2,000</td><td>865</td><td>386</td><td>172</td></tr><tr><td>27</td><td>375</td><td>375</td><td>270</td><td>530</td><td>320</td><td>762</td><td>1, 340</td><td>,260</td><td>2,110</td><td>820</td><td>386</td><td>171</td></tr><tr><td>28</td><td>375</td><td>375</td><td>402</td><td>459</td><td>345</td><td>720</td><td>1, 380</td><td>6, 510</td><td>2,170</td><td>798</td><td>392</td><td>170</td></tr><tr><td>29</td><td>375</td><td>348</td><td>402</td><td>426</td><td>345</td><td>790</td><td>1, 530</td><td>8, 840</td><td>2,110</td><td>783</td><td>374</td><td>168</td></tr><tr><td>30</td><td>375</td><td>348</td><td>348</td><td>437</td><td></td><td>812</td><td>1, 530</td><td>12,400</td><td>1, ,890</td><td>755</td><td>362</td><td>168</td></tr><tr><td>31</td><td>375</td><td></td><td>322</td><td>432</td><td></td><td>700</td><td></td><td>360</td><td></td><td>741</td><td>344</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12. (cont.)\n\nNOTE.-Daily discharge determined from well defined rating curves applicable as follows: 1911, Jan. 1 to June 30, 1912, and July 1 to Sept. 30, 1912. Discharge interpolated Feb. 4-10, Sept. 16-21, Sept. 23-28, and Sept. 30, 1912.\n\nMonthly discharge of Kings River near Sanger, Cal., for 1911-12. [Drainage area, 1,740 square miles.]",
+                "embed": "# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12. (cont.)\n\nNOTE.-Daily discharge determined from well defined rating curves applicable as follows: 1911, Jan. 1 to June 30, 1912, and July 1 to Sept. 30, 1912. Discharge interpolated Feb. 4-10, Sept. 16-21, Sept. 23-28, and Sept. 30, 1912.\n\nMonthly discharge of Kings River near Sanger, Cal., for 1911-12. [Drainage area, 1,740 square miles.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13962033067973056,
+                            "top": 0.5197545070962792,
+                            "width": 0.8077158603796694,
+                            "height": 0.030303030303030304,
+                            "page": 1
+                        },
+                        "content": "NOTE.-Daily discharge determined from well defined rating curves applicable as follows: 1911, Jan. 1 to June 30, 1912, and July 1 to Sept. 30, 1912. Discharge interpolated Feb. 4-10, Sept. 16-21, Sept. 23-28, and Sept. 30, 1912.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2492345376607471,
+                            "top": 0.5623321825853471,
+                            "width": 0.5860379669320269,
+                            "height": 0.0333716915995397,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Kings River near Sanger, Cal., for 1911-12. [Drainage area, 1,740 square miles.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Depth in\ninches on\ndrainage\narea.</td><td>Total in\nacre-feet.</td></tr><tr><td>October</td><td>778</td><td>375</td><td>468</td><td>0.269</td><td>0.31</td><td>28,800</td><td rowspan=\"13\">A.\nB.\nB.\nB.\nB.\nA.\nA.\nA.\nA.\nA.\nA.\nB.</td></tr><tr><td>November</td><td>610</td><td>348</td><td>399</td><td>.229</td><td>.26</td><td>23,700</td></tr><tr><td>December</td><td>430</td><td>270</td><td>348</td><td>.200</td><td>.23</td><td>21,400</td></tr><tr><td>January</td><td>530</td><td>305</td><td>390</td><td>.224</td><td>.26</td><td>24,000</td></tr><tr><td>February</td><td>426</td><td>320</td><td>383</td><td>.220</td><td>.24</td><td>22,000</td></tr><tr><td>March</td><td>888</td><td>335</td><td>673</td><td>.387</td><td>.45</td><td>41,400</td></tr><tr><td>April</td><td>1, 890</td><td>714</td><td>1,230</td><td>.707</td><td>.79</td><td>73,200</td></tr><tr><td>May</td><td>12, 400</td><td>1,530</td><td>4,380</td><td>2.52</td><td>2.90</td><td>269,000</td></tr><tr><td>June</td><td>12,000</td><td>1,890</td><td>5,720</td><td>3.29</td><td>3.67</td><td>340,000</td></tr><tr><td>July</td><td>2,060</td><td>741</td><td>1,310</td><td>.753</td><td>.87</td><td>80,600</td></tr><tr><td>August</td><td>734</td><td>344</td><td>498</td><td>.286</td><td>.33</td><td>30,600</td></tr><tr><td>September</td><td>334</td><td>168</td><td>225</td><td>.129</td><td>.14</td><td>13,400</td></tr><tr><td>The year</td><td>12,400</td><td>168</td><td>1,330</td><td>.764</td><td>10.45</td><td>968,000</td></tr></table>",
+                "embed": "# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Depth in\ninches on\ndrainage\narea.</td><td>Total in\nacre-feet.</td></tr><tr><td>October</td><td>778</td><td>375</td><td>468</td><td>0.269</td><td>0.31</td><td>28,800</td><td rowspan=\"13\">A.\nB.\nB.\nB.\nB.\nA.\nA.\nA.\nA.\nA.\nA.\nB.</td></tr><tr><td>November</td><td>610</td><td>348</td><td>399</td><td>.229</td><td>.26</td><td>23,700</td></tr><tr><td>December</td><td>430</td><td>270</td><td>348</td><td>.200</td><td>.23</td><td>21,400</td></tr><tr><td>January</td><td>530</td><td>305</td><td>390</td><td>.224</td><td>.26</td><td>24,000</td></tr><tr><td>February</td><td>426</td><td>320</td><td>383</td><td>.220</td><td>.24</td><td>22,000</td></tr><tr><td>March</td><td>888</td><td>335</td><td>673</td><td>.387</td><td>.45</td><td>41,400</td></tr><tr><td>April</td><td>1, 890</td><td>714</td><td>1,230</td><td>.707</td><td>.79</td><td>73,200</td></tr><tr><td>May</td><td>12, 400</td><td>1,530</td><td>4,380</td><td>2.52</td><td>2.90</td><td>269,000</td></tr><tr><td>June</td><td>12,000</td><td>1,890</td><td>5,720</td><td>3.29</td><td>3.67</td><td>340,000</td></tr><tr><td>July</td><td>2,060</td><td>741</td><td>1,310</td><td>.753</td><td>.87</td><td>80,600</td></tr><tr><td>August</td><td>734</td><td>344</td><td>498</td><td>.286</td><td>.33</td><td>30,600</td></tr><tr><td>September</td><td>334</td><td>168</td><td>225</td><td>.129</td><td>.14</td><td>13,400</td></tr><tr><td>The year</td><td>12,400</td><td>168</td><td>1,330</td><td>.764</td><td>10.45</td><td>968,000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13597654493323733,
+                            "top": 0.6022430408215861,
+                            "width": 0.8133194988225037,
+                            "height": 0.24887051013497316,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Depth in\ninches on\ndrainage\narea.</td><td>Total in\nacre-feet.</td></tr><tr><td>October</td><td>778</td><td>375</td><td>468</td><td>0.269</td><td>0.31</td><td>28,800</td><td rowspan=\"13\">A.\nB.\nB.\nB.\nB.\nA.\nA.\nA.\nA.\nA.\nA.\nB.</td></tr><tr><td>November</td><td>610</td><td>348</td><td>399</td><td>.229</td><td>.26</td><td>23,700</td></tr><tr><td>December</td><td>430</td><td>270</td><td>348</td><td>.200</td><td>.23</td><td>21,400</td></tr><tr><td>January</td><td>530</td><td>305</td><td>390</td><td>.224</td><td>.26</td><td>24,000</td></tr><tr><td>February</td><td>426</td><td>320</td><td>383</td><td>.220</td><td>.24</td><td>22,000</td></tr><tr><td>March</td><td>888</td><td>335</td><td>673</td><td>.387</td><td>.45</td><td>41,400</td></tr><tr><td>April</td><td>1, 890</td><td>714</td><td>1,230</td><td>.707</td><td>.79</td><td>73,200</td></tr><tr><td>May</td><td>12, 400</td><td>1,530</td><td>4,380</td><td>2.52</td><td>2.90</td><td>269,000</td></tr><tr><td>June</td><td>12,000</td><td>1,890</td><td>5,720</td><td>3.29</td><td>3.67</td><td>340,000</td></tr><tr><td>July</td><td>2,060</td><td>741</td><td>1,310</td><td>.753</td><td>.87</td><td>80,600</td></tr><tr><td>August</td><td>734</td><td>344</td><td>498</td><td>.286</td><td>.33</td><td>30,600</td></tr><tr><td>September</td><td>334</td><td>168</td><td>225</td><td>.129</td><td>.14</td><td>13,400</td></tr><tr><td>The year</td><td>12,400</td><td>168</td><td>1,330</td><td>.764</td><td>10.45</td><td>968,000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12. (cont.)\n\n## DINKEY CREEK NEAR OCKENDEN, CAL.\n\nLocation.-Above trail bridge at Dinkey Creek ranger station, in the NE. 1 sec. 20, T. 10 S., R. 26 E., in the Sierra National Forest, about 11 miles above junction with North Fork of Kings River, and about 91/2 miles southeast of Ockenden. Rock Creek enters 3 miles above and Bear Creek 11 miles below the station.",
+                "embed": "# Daily discharge, in second-feet, of Kings River near Sanger, Cal., for 1911-12. (cont.)\n\n## DINKEY CREEK NEAR OCKENDEN, CAL.\n\nLocation.-Above trail bridge at Dinkey Creek ranger station, in the NE. 1 sec. 20, T. 10 S., R. 26 E., in the Sierra National Forest, about 11 miles above junction with North Fork of Kings River, and about 91/2 miles southeast of Ockenden. Rock Creek enters 3 miles above and Bear Creek 11 miles below the station.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.31598285364360074,
+                            "top": 0.8668968162639049,
+                            "width": 0.45009185548071035,
+                            "height": 0.011891062523973917,
+                            "page": 1
+                        },
+                        "content": "DINKEY CREEK NEAR OCKENDEN, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1383955909369259,
+                            "top": 0.8883774453394706,
+                            "width": 0.8077158603796694,
+                            "height": 0.06137322593018796,
+                            "page": 1
+                        },
+                        "content": "Location.-Above trail bridge at Dinkey Creek ranger station, in the NE. 1 sec. 20, T. 10 S., R. 26 E., in the Sierra National Forest, about 11 miles above junction with North Fork of Kings River, and about 91/2 miles southeast of Ockenden. Rock Creek enters 3 miles above and Bear Creek 11 miles below the station.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

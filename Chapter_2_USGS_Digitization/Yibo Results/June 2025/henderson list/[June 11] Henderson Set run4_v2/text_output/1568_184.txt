@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Chiquito Creek near Mugler Meadow",
+    "County": "Madera County",
+    "Location": "In sec. 30, T. 5 S., R. 24 E., half a mile above mouth of Cabin Creek and 2 miles east of Mugler Meadow",
+    "Townships_Ranges_Sections": ["T. 5 S., R. 24 E., sec. 30"],
+    "Temporal_Resolution": "Varies (some monthly, others on specific dates)",
+    "Units_Of_Measurement": {
+        "Gage_height": "Feet",
+        "Discharge": "Second-feet"
+    },
+    "Latitude": 37.2928,
+    "Longitude": -119.5564,
+    "Dates_of_Recording": "03/01/1924-09/30/1925",
+    "Water_Type": "Stream discharge"
+}
+```

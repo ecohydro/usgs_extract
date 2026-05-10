@@ -1,0 +1,170 @@
+{
+    "job_id": "deab36ad-7638-4b3c-b9b3-f227fae64faf",
+    "duration": 2.9299914836883545,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/1efa2de4-11f2-4357-afcd-4ef92d1e29a1?AWSAccessKeyId=ASIA2UOK6OVBPVLG4TNK&Signature=F%2B9BtwxH0Ya4hPEzEPWCavS16Wg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJHMEUCIQCDEcDlHRQwlnSwvAzoBBZsFgxT8hnDI4rOpDNhEZPBaQIgK9LueUI4cZ%2B0lqlkx1lhxyXpvqg3kbO2bQTK01f1ClIqiwUIJhAAGgw3MzExMDY5MzIwMzQiDEZojI1n%2BQi8y89JqCroBIST9bnJjj8ZoWUgXDAtnFj2slhvGcae8NE5e%2FSv8QS3k8cKWvqV8rW%2FrkKXJSdh2sY8cSgk2CZgZWtsKfLtx9FR2gxxSM%2FHmiWomwDApxvijggA%2BtATRN4NRS2CQavRBRSRotKme8vEmzHsiRKtIDz7tYhmvyrjtLzXn%2BeWw5u3ISWBOG%2Bje8McmZBJ6O%2FD8%2B3jrkB2wtHx%2FpPRPnuMUMmqbtefEb%2FuMISJhrjOtwdbMSKXibjSd2t9dsKlbiAxf1gc6antfEv29DB3GXBHHNb4LV%2F97%2F6EcrP704uoQRqZ8iyu64OH73sp9vJLubRghUvDT8c7DL4H2OpsrJX3RZGTARFhafmT2MSiCXlFackORyTHHr5QYWk605XoJp%2FCb9c%2F3KCWMUHE7rvrIJ0fZn1U62ILFOsrxq8ZElJ4WOtYq3nKJZ4yW02O717F8ehMmg8LyRyeYYwQ%2FGHm1oUo2wzxt9mBSVtr2DJj%2BexhE2B1Y7i0OP3QAlkp7mLoJj38AFRCwPxlctrXdn6%2FsykmALFeLkDF6UmrMJ0v%2F06SJq6%2F%2BHDTLa3xTtHL1abo1CByYA5x8C0K%2Fjwm6pBXndMm0N3eKNYEWqRzzTbOo0YKcEQgcz5kR9ygFBSvCBAnRV9oFznfwN6zggNhxZFmQXQlH8NiR5JhpAyNQDfIfAkCNBRwUUIFMod46eQ5AwenZ0aJ6IkjpJfvWTTPdVO1ySnfHU%2Bux7%2FdkClZtdglVgy1BgTltx7rR4xBbBeO4WGMIfM1K8u0My69a12ZOQp5Qy6wQYOeSRHpXnsKW5Nx5akbbrZaoZoQ8MSEuNMwwPrJugY6mwEPcQVc%2BjEj845iHHBsqX%2B1FYAn%2B6%2BKqmmdDsNFy05G2N9Y4S0MBHqB7VBsOZcVM4ioP6ImOEjVQcQR7En5GyhIfCx4ol9WozZ3JLQ44C2CGJQTTMuRWHJxsyhZlIAJ6IErCCsMd2svfdrtrIht2RDh27Qh5jreg%2FaZNYn0D9U%2FVO%2Fg4sZ1OFKd7dQ4855qN0GGitGPywXqWEmHzA%3D%3D&Expires=1733465462",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1\n\n[A11 values calculated to three significant figures]",
+                "embed": "# TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1\n\n[A11 values calculated to three significant figures]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.26166593981683384,
+                            "top": 0.06923076923076923,
+                            "width": 0.4836458787614479,
+                            "height": 0.01217948717948718,
+                            "page": 1
+                        },
+                        "content": "DEFINITION OF TERMS AND ABBREVIATIONS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8905364151766245,
+                            "top": 0.06987179487179487,
+                            "width": 0.010902747492368076,
+                            "height": 0.010897435897435897,
+                            "page": 1
+                        },
+                        "content": "5",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.11818578281726995,
+                            "top": 0.10128205128205128,
+                            "width": 0.757522895769734,
+                            "height": 0.03141025641025641,
+                            "page": 1
+                        },
+                        "content": "TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16354121238552116,
+                            "top": 0.14615384615384616,
+                            "width": 0.6685564762320104,
+                            "height": 0.022115384615384617,
+                            "page": 1
+                        },
+                        "content": "[A11 values calculated to three significant figures]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1 (cont.)\n\n<table><tr><th>Range of\nconcentration\n(ppm)</th><th>Multiply\nby</th><th>Range of\nconcentration\n(ppm)</th><th>Multiply\nby</th></tr><tr><td>0 - 15,900</td><td>1.00</td><td>322,000 -341,000</td><td>1.26</td></tr><tr><td>16,000 - 46,800</td><td>1.02</td><td>342,000 -361,000</td><td>1.28</td></tr><tr><td>46,900 - 76,500</td><td>1.04</td><td>362,000 -380,000</td><td>1.30</td></tr><tr><td>76,600 -105,000</td><td>1.06</td><td>381,000 -399,000</td><td>1.32</td></tr><tr><td>106,000 -133,000</td><td>1.08</td><td>400,000 -416,000</td><td>1.34</td></tr><tr><td>134,000 -159,000</td><td>1.10</td><td>417,000 -434,000</td><td>1.36</td></tr><tr><td>160,000 -185,000</td><td>1.12</td><td>435,000 -451,000</td><td>1.38</td></tr><tr><td>186,000 -210,000</td><td>1.14</td><td>452,000 -467,000</td><td>1.40</td></tr><tr><td>211,000 -233,000</td><td>1.16</td><td>468,000 -483,000</td><td>1.42</td></tr><tr><td>234,000 -256,000</td><td>1.18</td><td>484,000 -498,000</td><td>1.44</td></tr><tr><td>257,000 -279,000</td><td>1.20</td><td>499,000 -514,000</td><td>1.46</td></tr><tr><td>280,000 -300,000</td><td>1.22</td><td>515,000 -528,000</td><td>1.48</td></tr><tr><td>301,000 -321,000</td><td>1.24</td><td>529,000 -542,000</td><td>1.50</td></tr></table>\n\n1. Based on water density of 1.000 g/ml and sediment density of 2.65 g/cc.",
+                "embed": "# TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1 (cont.)\n\n<table><tr><th>Range of\nconcentration\n(ppm)</th><th>Multiply\nby</th><th>Range of\nconcentration\n(ppm)</th><th>Multiply\nby</th></tr><tr><td>0 - 15,900</td><td>1.00</td><td>322,000 -341,000</td><td>1.26</td></tr><tr><td>16,000 - 46,800</td><td>1.02</td><td>342,000 -361,000</td><td>1.28</td></tr><tr><td>46,900 - 76,500</td><td>1.04</td><td>362,000 -380,000</td><td>1.30</td></tr><tr><td>76,600 -105,000</td><td>1.06</td><td>381,000 -399,000</td><td>1.32</td></tr><tr><td>106,000 -133,000</td><td>1.08</td><td>400,000 -416,000</td><td>1.34</td></tr><tr><td>134,000 -159,000</td><td>1.10</td><td>417,000 -434,000</td><td>1.36</td></tr><tr><td>160,000 -185,000</td><td>1.12</td><td>435,000 -451,000</td><td>1.38</td></tr><tr><td>186,000 -210,000</td><td>1.14</td><td>452,000 -467,000</td><td>1.40</td></tr><tr><td>211,000 -233,000</td><td>1.16</td><td>468,000 -483,000</td><td>1.42</td></tr><tr><td>234,000 -256,000</td><td>1.18</td><td>484,000 -498,000</td><td>1.44</td></tr><tr><td>257,000 -279,000</td><td>1.20</td><td>499,000 -514,000</td><td>1.46</td></tr><tr><td>280,000 -300,000</td><td>1.22</td><td>515,000 -528,000</td><td>1.48</td></tr><tr><td>301,000 -321,000</td><td>1.24</td><td>529,000 -542,000</td><td>1.50</td></tr></table>\n\n1. Based on water density of 1.000 g/ml and sediment density of 2.65 g/cc.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11509996722787423,
+                            "top": 0.17557386740660055,
+                            "width": 0.7762512792628039,
+                            "height": 0.2640406486315605,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Range of\nconcentration\n(ppm)</th><th>Multiply\nby</th><th>Range of\nconcentration\n(ppm)</th><th>Multiply\nby</th></tr><tr><td>0 - 15,900</td><td>1.00</td><td>322,000 -341,000</td><td>1.26</td></tr><tr><td>16,000 - 46,800</td><td>1.02</td><td>342,000 -361,000</td><td>1.28</td></tr><tr><td>46,900 - 76,500</td><td>1.04</td><td>362,000 -380,000</td><td>1.30</td></tr><tr><td>76,600 -105,000</td><td>1.06</td><td>381,000 -399,000</td><td>1.32</td></tr><tr><td>106,000 -133,000</td><td>1.08</td><td>400,000 -416,000</td><td>1.34</td></tr><tr><td>134,000 -159,000</td><td>1.10</td><td>417,000 -434,000</td><td>1.36</td></tr><tr><td>160,000 -185,000</td><td>1.12</td><td>435,000 -451,000</td><td>1.38</td></tr><tr><td>186,000 -210,000</td><td>1.14</td><td>452,000 -467,000</td><td>1.40</td></tr><tr><td>211,000 -233,000</td><td>1.16</td><td>468,000 -483,000</td><td>1.42</td></tr><tr><td>234,000 -256,000</td><td>1.18</td><td>484,000 -498,000</td><td>1.44</td></tr><tr><td>257,000 -279,000</td><td>1.20</td><td>499,000 -514,000</td><td>1.46</td></tr><tr><td>280,000 -300,000</td><td>1.22</td><td>515,000 -528,000</td><td>1.48</td></tr><tr><td>301,000 -321,000</td><td>1.24</td><td>529,000 -542,000</td><td>1.50</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11644134321849106,
+                            "top": 0.4378205128205128,
+                            "width": 0.7426951591801134,
+                            "height": 0.03108974358974359,
+                            "page": 1
+                        },
+                        "content": "1. Based on water density of 1.000 g/ml and sediment density of 2.65 g/cc.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1 (cont.)\n\nPartial-record station is a particular site where limited data are collected systematically over a period of years for use in hydrologic analyses.\n\nParticle size is the diameter, in millimeters (mm), of suspended sediment or bed material determined by sieve or sedimentation methods.\n\nParticle-size classification agrees closely with recommendations made by the American Geophysical Union Subcommittee on Sediment Terminology (Lane and others, 1947, p. 937). Their classification is as follows:\n\nClay: Smaller than 0.004 mm.\nSilt: Between 0.004 and 0.062 mm.\nSand: Between 0.062 and 2.0 mm.\nGravel: Between 2.0 and 64.0 mm.\n\nThe particle-size distributions given in this report do not include organic material, most of which was removed prior to analysis.",
+                "embed": "# TABLE 1. Factors for conversion of sediment concentration in parts per million to milligrams per liter1 (cont.)\n\nPartial-record station is a particular site where limited data are collected systematically over a period of years for use in hydrologic analyses.\n\nParticle size is the diameter, in millimeters (mm), of suspended sediment or bed material determined by sieve or sedimentation methods.\n\nParticle-size classification agrees closely with recommendations made by the American Geophysical Union Subcommittee on Sediment Terminology (Lane and others, 1947, p. 937). Their classification is as follows:\n\nClay: Smaller than 0.004 mm.\nSilt: Between 0.004 and 0.062 mm.\nSand: Between 0.062 and 2.0 mm.\nGravel: Between 2.0 and 64.0 mm.\n\nThe particle-size distributions given in this report do not include organic material, most of which was removed prior to analysis.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11556912341910161,
+                            "top": 0.5022435897435897,
+                            "width": 0.7562145660706499,
+                            "height": 0.047115384615384615,
+                            "page": 1
+                        },
+                        "content": "Partial-record station is a particular site where limited data are collected systematically over a period of years for use in hydrologic analyses.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11644134321849106,
+                            "top": 0.5663461538461538,
+                            "width": 0.768425643262102,
+                            "height": 0.04551282051282051,
+                            "page": 1
+                        },
+                        "content": "Particle size is the diameter, in millimeters (mm), of suspended sediment or bed material determined by sieve or sedimentation methods.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11513301351940688,
+                            "top": 0.6307692307692307,
+                            "width": 0.7047535979066725,
+                            "height": 0.06314102564102564,
+                            "page": 1
+                        },
+                        "content": "Particle-size classification agrees closely with recommendations made by the American Geophysical Union Subcommittee on Sediment Terminology (Lane and others, 1947, p. 937). Their classification is as follows:",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.24422154382904493,
+                            "top": 0.7112179487179487,
+                            "width": 0.46620148277365897,
+                            "height": 0.06185897435897436,
+                            "page": 1
+                        },
+                        "content": "Clay: Smaller than 0.004 mm.\nSilt: Between 0.004 and 0.062 mm.\nSand: Between 0.062 and 2.0 mm.\nGravel: Between 2.0 and 64.0 mm.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11295246402093327,
+                            "top": 0.791025641025641,
+                            "width": 0.7566506759703445,
+                            "height": 0.046794871794871795,
+                            "page": 1
+                        },
+                        "content": "The particle-size distributions given in this report do not include organic material, most of which was removed prior to analysis.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

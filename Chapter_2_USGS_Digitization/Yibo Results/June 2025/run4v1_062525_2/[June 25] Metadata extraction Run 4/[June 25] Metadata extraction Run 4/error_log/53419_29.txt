@@ -1,0 +1,184 @@
+```json
+[
+    {
+        "Watersource_Name": "Spring Pinches Sulphur",
+        "County": "MENDOCINO",
+        "Location": "21N/15W -1R,M 39°41'45\"N,123°28'46\"",
+        "Townships_Ranges_Sections": ["21N", "15W", "-1R"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 39.695833,
+        "Actual_Longitude": -123.479444,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "09/29/1966-09/29/1966",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "sodium", "carbonated"]
+    },
+    {
+        "Watersource_Name": "Mud Springs Valley Mud (Jackson Springs)",
+        "County": "MENDOCINO",
+        "Location": "21N/15W -19M,M 39°39'25\"N,123°35'15\"",
+        "Townships_Ranges_Sections": ["21N", "15W", "-19M"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 39.656944,
+        "Actual_Longitude": -123.5875,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "09/29/1966-09/29/1966",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "magnesium", "carbonated"]
+    },
+    {
+        "Watersource_Name": "Division California Highways",
+        "County": "MENDOCINO",
+        "Location": "23N/15W -19L,M 39*49'34\"N,123°34'48\"",
+        "Townships_Ranges_Sections": ["23N", "15W", "-19L"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 39.826111,
+        "Actual_Longitude": -123.580000,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "09/28/1966",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "magnesium"]
+    },
+    {
+        "Watersource_Name": "Spring Stearns Congress F. A.",
+        "County": "NAPA",
+        "Location": "5N/4W -17C,M 38°17'04\"N,122°19'413\"",
+        "Townships_Ranges_Sections": ["5N", "4W", "-17C"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.284444,
+        "Actual_Longitude": -122.328056,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "06/1965-05/11/1965",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "calcium", "sodium"]
+    },
+    {
+        "Watersource_Name": "Imboden Pete",
+        "County": "NAPA",
+        "Location": "6N/3W -19X,M 38*20'50\"N,122\"14'06\"",
+        "Townships_Ranges_Sections": ["6N", "3W", "-19X"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.347222,
+        "Actual_Longitude": -122.235,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "05/11/1965-06/1965",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "magnesium"]
+    },
+    {
+        "Watersource_Name": "Soda Springs Nape Soda Jacksons Springs Nasser",
+        "County": "NAPA",
+        "Location": "6N/4W -2N,M 38*23'23\"N,122°16'39\"",
+        "Townships_Ranges_Sections": ["6N", "4W", "-2N"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.389722,
+        "Actual_Longitude": -122.2775,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "06/1965-05/",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "calcium", "sodium"]
+    },
+    {
+        "Watersource_Name": "Springs Vichy Lepori Harris",
+        "County": "NAPA",
+        "Location": "6N/4W -25E,M 38*20'20\"N,122\"15'33\"",
+        "Townships_Ranges_Sections": ["6N", "4W", "-25E"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.338889,
+        "Actual_Longitude": -122.259167,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "06/1965-05/",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "calcium"]
+    },
+    {
+        "Watersource_Name": "State Home California Veterans",
+        "County": "NAPA",
+        "Location": "6N/5W -1L,M 38°23'49\"N,122*22'00\"",
+        "Townships_Ranges_Sections": ["6N", "5W", "-1L"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.396944,
+        "Actual_Longitude": -122.366667,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "06/1965-05/",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "calcium"]
+    },
+    {
+        "Watersource_Name": "Division California of Highways",
+        "County": "NAPA",
+      "Location": "TN/3W -6E,M 38*29'04\"N,122\"14'29\"",
+        "Townships_Ranges_Sections": ["7N", "3W", "-6E"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.484444,
+        "Actual_Longitude": -122.241389,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "07/1965-05/",
+        "Water_Type": "Springs",
+        "KeyTerms": []
+    },
+    {
+        "Watersource_Name": "Springs Springs Inc. Camps, Sulphur White California-Nevada",
+        "County": "NAPA",
+        "Location": "TN/GW -2D,M 38°29'26\"N,122°29'42\"",
+        "Townships_Ranges_Sections": ["7N", "3W", "-2D"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "F",
+            "Discharge": "gpm"
+        },
+        "Actual_Latitude": 38.490556,
+        "Actual_Longitude": -122.495,
+        "Inferred_Latitude": null,
+        "Inferred_Longitude": null,
+        "Dates_of_Recording": "05/11/1965",
+        "Water_Type": "Springs",
+        "KeyTerms": ["bicarbonate", "sodium"]
+    }
+]
+```

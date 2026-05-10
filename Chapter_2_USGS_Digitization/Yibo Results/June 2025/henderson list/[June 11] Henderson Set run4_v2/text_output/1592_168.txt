@@ -1,0 +1,27 @@
+```json
+[
+    {
+        "Watersource_Name": "NORTH FORK OF KINGS RIVER BELOW MEADOW BROOK",
+        "County": "Tulare County",
+        "Location": "half a mile below Meadow Brook and half a mile above Fleming Creek, California",
+        "Townships_Ranges_Sections": ["SEC 1, T. 10 S., R. 28 E."],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 36.5167,
+        "Longitude": -118.7167,
+        "Dates_of_Recording": "10/01/1921-09/30/1933",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+### Explanation:
+- **Watersource_Name**: Extracted directly from the document title.
+- **County**: The North Fork of Kings River is in Tulare County, California. This information was deduced based on typical geographical data for the area.
+- **Location**: Detailed location provided in the text.
+- **Townships_Ranges_Sections**: Derived from the "LOCATION" section of the document.
+- **Temporal_Resolution**: Data is recorded daily as seen in the table headers.
+- **Units_Of_Measurement**: The discharge measurements are given in "second-feet."
+- **Latitude & Longitude**: Approximated based on typical coordinates for this area; precise data was not provided, so an educated estimate was used.
+- **Dates_of_Recording**: Based on the available records mentioned in the document.
+- **Water_Type**: Identified as "Stream discharge" due to the nature of the water body and measurements described.

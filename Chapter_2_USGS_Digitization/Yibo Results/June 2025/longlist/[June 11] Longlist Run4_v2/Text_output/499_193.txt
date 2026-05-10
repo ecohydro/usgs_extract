@@ -1,0 +1,17 @@
+```json
+{
+  "Watersource_Name": "Salt Springs Reservoir",
+  "County": "Calaveras County",
+  "Location": {
+    "Latitude": 38.5,
+    "Longitude": -120.2
+  },
+  "Townships_Ranges_Sections": ["SE1 sec. 33, T. 8 N. R. 16 E."],
+  "Temporal_Resolution": "Daily",
+  "Units_Of_Measurement": "Acre-feet",
+  "Latitude": 38.5,
+  "Longitude": -120.2,
+  "Dates_of_Recording": "03/01/1931-09/30/1936",
+  "Water_Type": "Reservoir"
+}
+```

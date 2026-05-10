@@ -1,0 +1,18 @@
+```json
+[
+    {
+        "Watersource_Name": "San Gabriel River and Southern California Edison Co.'s Canal",
+        "County": "Los Angeles County",
+        "Location": "Near Azusa, Los Angeles County",
+        "Townships_Ranges_Sections": ["SE. 1/4 SE. 1/4 sec. 31, T. 2 N., R. 9 W."],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "Second-feet for Discharge, Acre-feet for Run-off",
+        "Latitude": 34.1188,
+        "Longitude": -117.9176,
+        "Dates_of_Recording": "10/01/1924-09/30/1925",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+Note: The latitude and longitude are approximate values based on the location description provided in the document.

@@ -1,0 +1,112 @@
+```json
+[
+    {
+        "Watersource_Name": "Bartlett Springs",
+        "County": "Lake County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 39.0167,
+        "Longitude": -122.8333,
+        "Dates_of_Recording": "01/01/1897-12/31/1899",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Lakeport",
+        "County": "Lake County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 39.0767,
+        "Longitude": -122.8166,
+        "Dates_of_Recording": "01/01/1880-12/31/1903",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Kono Tayee",
+        "County": "Yolo County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.7333,
+        "Longitude": -122.2,
+        "Dates_of_Recording": "01/01/1855-12/31/1898",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Kelseyville",
+        "County": "Lake County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.9897,
+        "Longitude": -122.8114,
+        "Dates_of_Recording": "01/01/1891-12/31/1898",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Rumsey",
+        "County": "Yolo County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.8172,
+        "Longitude": -122.0919,
+        "Dates_of_Recording": "01/01/1878-12/31/1898",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Capay",
+        "County": "Yolo County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.7542,
+        "Longitude": -122.0275,
+        "Dates_of_Recording": "01/01/1889-12/31/1898",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Esparto",
+        "County": "Yolo County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.8013,
+        "Longitude": -122.0275,
+        "Dates_of_Recording": "01/01/1889-12/31/1898",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Woodland",
+        "County": "Yolo County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.6803,
+        "Longitude": -121.7622,
+        "Dates_of_Recording": "01/01/1877-12/31/1899",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Yolo",
+        "County": "Yolo County",
+        "Location": "Cache Creek drainage basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual (for specific years)",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 38.7167,
+        "Longitude": -121.7500,
+        "Dates_of_Recording": "01/01/1888-12/31/1894",
+        "Water_Type": "Precipitation"
+    }
+]
+```

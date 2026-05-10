@@ -1,0 +1,26 @@
+```json
+[
+    {
+        "Watersource_Name": "Mount Diablo Baseline and Meridian",
+        "County": "San Joaquin Valley, California",
+        "Townships_Ranges_Sections": ["T. 30 S., R. 27 E.", "28 E.", "29 E.", "30 E.", "T. 31 S., R. 24 E.", "25 E.", "26 E.", "27 E.", "28 E.", "29 E.", "30 E.", "T. 32 S., R. 23 E.", "24 E.", "25 E.", "26 E.", "27 E.", "28 E.", "29 E.", "30 E."],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1975", "1976", "1977"],
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "San Bernardino Baseline and Meridian",
+        "County": "San Joaquin Valley, California",
+        "Townships_Ranges_Sections": ["Tps. 11 & 12 N., 18 W.", "19 W.", "20 W.", "21 W.", "22 W.", "23 W."],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1975", "1976", "1977"],
+        "Water_Type": "Groundwater"
+    }
+]
+```

@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "Watersource_Name": "Middle Fork of Stanislaus River at Sand Bar Flat",
+        "County": "Stanislaus County",
+        "Location": "[TBD]",
+        "Townships_Ranges_Sections": ["[1S, 12E]", "[SW 1/4 sec. 1]"],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet",
+            "Run-off": "acre-feet"
+        },
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "10/01/1918-09/30/1920",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Stanislaus River near Knights Ferry",
+        "County": "Stanislaus County",
+        "Location": "SW 1/4 sec. 1, T. 1 S., R. 12 E.",
+        "Townships_Ranges_Sections": ["[1S, 12E]"],
+        "Temporal_Resolution": "Continuous (from December 18, 1915, to September 30, 1920)",
+        "Units_Of_Measurement": {
+            "Discharge": "second-feet"
+        },
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "12/18/1915-09/30/1920",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

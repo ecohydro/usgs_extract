@@ -1,0 +1,170 @@
+{
+    "job_id": "a61d4597-454d-479d-b783-d02a9c1a4638",
+    "duration": 7.5046446323394775,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/200dbe5f-c068-49ee-925b-f83d8d0d07a7?AWSAccessKeyId=ASIA2UOK6OVBLM2X7MP5&Signature=qTTzTN3JXoxbAAMxae%2BMaXKCR28%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIQCcL0UTm96LXKAWqXhWfiOW%2Fc6UlC02OWsN%2BRsGc%2BgUbQIgMNMqldPPCAXoXZWXcuYIEAGvmOmIlFzNN3l%2FdiA67UQqiwUIIxAAGgw3MzExMDY5MzIwMzQiDD%2Ba7Pawt60PxnpqGSroBJUgH624GYOWkAaN7cdhsigUf2X4BAyImuunm%2BosuUfMKnzLijmlmMT9SSPFsZXetBXICWeUXILehDjC%2BURBrH%2FQH97YvyNMbNe9itWQMpMo4vb48KdMZhNWnuvhAZ8eNyM3awv45kyirvwntfUqY3HBN7AT1lta7LxbdSBjbROvFUrWymdG%2BGoHD23Kn0ChFa3GOQKtH6GS1MMe0PeoTbcceHXYKrtj%2FDevtYkZfDN0M8iZ3BwLRA5O4gK%2BJ4yuGk91Y8H2upXRFSnrKJc48rlRPsJJEhiAh3qlGnUSElbIq%2BQVP5w%2B2UqmxGcDg%2F1wTUiKoTHQo1gNLhxtyAFJcnIivgpsdw%2BcSzrMR4P9SY9YJT4ye7RGP1l%2Fwu7uUTBni%2FNyvHVx%2BV%2BDXVtSMtljHyTfg9xs4%2FMNXiHEHJ%2FW%2FEO3qVkCFWtISL0V%2FNwazo1ePeBxsb0GS7H60Sf9eq1qRICHi7IdpBvdUeN%2BgtPpV6CK8tk2zZl3iUVexqkpLqqpnmBmxRqOTEMyCNwZgVFvCLo9KE0VJdS6SbNEx6eqDzNRHFD%2BSmSlL9HNgQ0ysTtn22soV7YRbeayYQ2JJ819Yz%2BXMv4IODpa3o6CJARlQTohNfiHle1VrhS5UQOzV5A5q%2FUXd%2BhZ6cncvmQPr5GNxw87snhK9vrpmD%2F1ZfYMkgQg2SjG%2B2fQbeaupm0MuVLKgHB4%2FlK3bLOltDkGZ%2FuPtxVM85%2BSJ1XuCTYdPVcx877PIzU0Iq%2FfNzaGciCunUj0F9STeoiury8uLfTCHN4IVhJxGPAL%2FuBqv5Xp0rey5Dg5AMgQp7M0c%2FkwwLPJugY6mwGB%2FpbUmle2iJVHtZag7vmjK1CRLVfzuJThG6IyYX5C7NGSjG3LIR3qHMXHZIo26uMqX9wInXweBLIo4ki12K9msWwINQsZmbV%2FhuBhmg7ww7mggFgkbdehqxMRzZYi479p1KaV%2F1rrWTpJWAQDqktwVNgxW9KxzZ6W9TZZyyR55BeFcXw34GTQwlslNaMhUDWiSifidanATtSxAg%3D%3D&Expires=1733454846",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# MERCED RIVER BASIN\n\nDaily discharge, in second-feet, of Fresno River near Knowles, Calif., for the year ending September 30, 1925",
+                "embed": "# MERCED RIVER BASIN\n\nDaily discharge, in second-feet, of Fresno River near Knowles, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.33867982726711904,
+                            "top": 0.055576417574164476,
+                            "width": 0.25046267735965455,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "MERCED RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8254164096236891,
+                            "top": 0.0514457378895982,
+                            "width": 0.04503392967304133,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "177",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.054287476866132015,
+                            "top": 0.08524220803604957,
+                            "width": 0.8167797655768044,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Fresno River near Knowles, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# MERCED RIVER BASIN (cont.)\n\n<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td>5.5</td><td>29</td><td>17</td><td>55</td><td>253</td><td>101</td><td>131</td><td>24</td><td>5</td><td>1.9</td></tr><tr><td>2</td><td>5</td><td>6</td><td>24</td><td>17</td><td>51</td><td>263</td><td>101</td><td>123</td><td>24</td><td>4.5</td><td>1.6</td></tr><tr><td>3</td><td>5</td><td>6</td><td>22</td><td>19</td><td>51</td><td>244</td><td>93</td><td>123</td><td>22</td><td>4.5</td><td>1.6</td></tr><tr><td>4</td><td>4. 5</td><td>7</td><td>19</td><td>19</td><td>51</td><td>244</td><td>93</td><td>148</td><td>22</td><td>4.0</td><td>1.9</td></tr><tr><td>5</td><td>4. 5</td><td>8</td><td>17</td><td>173</td><td>55</td><td>355</td><td>86</td><td>139</td><td>20</td><td>4.0</td><td>1.9</td></tr><tr><td>6</td><td>5</td><td>14</td><td>17</td><td>705</td><td>55</td><td>302</td><td>86</td><td>131</td><td>19</td><td>3.5</td><td>1.9</td></tr><tr><td>7</td><td>5</td><td>15</td><td>17</td><td>568</td><td>86</td><td>292</td><td>80</td><td>131</td><td>19</td><td>3.0</td><td>1.9</td></tr><tr><td>8</td><td>7</td><td>20</td><td>15</td><td>355</td><td>93</td><td>207</td><td>74</td><td>123</td><td>17</td><td>3.5</td><td>2.2</td></tr><tr><td>9</td><td>164</td><td>37</td><td>15</td><td>334</td><td>101</td><td>190</td><td>67</td><td>123</td><td>15</td><td>4.0</td><td>2. 2</td></tr><tr><td>10</td><td>164</td><td>24</td><td>14</td><td>323</td><td>101</td><td>181</td><td>67</td><td>116</td><td>15</td><td>4.0</td><td>2.2</td></tr><tr><td>11</td><td>32</td><td>22</td><td>14</td><td>410</td><td>108</td><td>164</td><td>67</td><td>116</td><td>14</td><td>3.5</td><td>2.5</td></tr><tr><td>12</td><td>20</td><td>17</td><td>12</td><td>502</td><td>101</td><td>164</td><td>74</td><td>116</td><td>12</td><td>3.5</td><td>2.5</td></tr><tr><td>13</td><td>15</td><td>14</td><td>12</td><td>355</td><td>93</td><td>156</td><td>86</td><td>108</td><td>12</td><td>3. 5</td><td>2.5</td></tr><tr><td>14</td><td>14</td><td>12</td><td>12</td><td>334</td><td>86</td><td>156</td><td>123</td><td>108</td><td>11</td><td>4.0</td><td>2.</td></tr><tr><td>15</td><td>12</td><td>12</td><td>11</td><td>207</td><td>86</td><td>148</td><td>156</td><td>101</td><td>9. 5</td><td>4.0</td><td>3.</td></tr><tr><td>16</td><td>11</td><td>14</td><td>11</td><td>164</td><td>86</td><td>139</td><td>148</td><td>93</td><td>8</td><td>4.0</td><td>3.0</td></tr><tr><td>17</td><td>11</td><td>14</td><td>11</td><td>123</td><td>93</td><td>131</td><td>139</td><td>93</td><td>7.</td><td>3.5</td><td>3.5</td></tr><tr><td>18</td><td>9. 5</td><td>14</td><td>11</td><td>74</td><td>93</td><td>123</td><td>123</td><td>86</td><td>7</td><td>3.5</td><td>3. 5</td></tr><tr><td>19</td><td>9. 5</td><td>15</td><td>12</td><td>55</td><td>86</td><td>116</td><td>164</td><td>80</td><td>7</td><td>3.</td><td>4.0</td></tr><tr><td>20</td><td>9. 5</td><td>15</td><td>12</td><td>55</td><td>86</td><td>207</td><td>302</td><td>74</td><td>6</td><td>3.0</td><td>4.0</td></tr><tr><td>21</td><td>8</td><td>15</td><td>12</td><td>51</td><td>86</td><td>253</td><td>225</td><td>74</td><td>6</td><td>3.0</td><td>4.0</td></tr><tr><td>22</td><td>12</td><td>17</td><td>12</td><td>51</td><td>86</td><td>207</td><td>207</td><td>67</td><td>6</td><td>3.0</td><td>3.5</td></tr><tr><td>23</td><td>8</td><td>19</td><td>14</td><td>164</td><td>80</td><td>164</td><td>190</td><td>55</td><td>5.5</td><td>3.0</td><td>3.5</td></tr><tr><td>24</td><td>7.</td><td>22</td><td>15</td><td>156</td><td>80</td><td>123</td><td>164</td><td>51</td><td>5.</td><td>3.0</td><td>3.0</td></tr><tr><td>25</td><td>7</td><td>20</td><td>15</td><td>123</td><td>86</td><td>123</td><td>164</td><td>44</td><td>5</td><td>2.5</td><td>3.0</td></tr><tr><td>26</td><td>7</td><td>17</td><td>67</td><td>74</td><td>77</td><td>123</td><td>156</td><td>41</td><td>5</td><td>2.5</td><td>3.0</td></tr><tr><td>27</td><td>6</td><td>17</td><td>29</td><td>55</td><td>80</td><td>123</td><td>156</td><td>37</td><td>5</td><td>2.5</td><td>2.5</td></tr><tr><td>28</td><td>6</td><td>15</td><td>24</td><td>55</td><td>86</td><td>116</td><td>148</td><td>27</td><td>5</td><td>2.5</td><td>2.5</td></tr><tr><td>29</td><td>6</td><td>15</td><td>22</td><td></td><td>382</td><td>116</td><td>148</td><td>29</td><td>4.</td><td>2.2</td><td>3.0</td></tr><tr><td>30</td><td>5.5</td><td>17</td><td>19</td><td></td><td>207</td><td>108</td><td>139</td><td>27</td><td>4. 5</td><td>2.2</td><td>3.0</td></tr><tr><td>31</td><td></td><td>55</td><td>17</td><td></td><td>123</td><td></td><td>123</td><td></td><td>5</td><td>1.9</td><td></td></tr></table>\n\nNOTE.-N flow Oct. 1 to Nov. 1.",
+                "embed": "# MERCED RIVER BASIN (cont.)\n\n<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td>5.5</td><td>29</td><td>17</td><td>55</td><td>253</td><td>101</td><td>131</td><td>24</td><td>5</td><td>1.9</td></tr><tr><td>2</td><td>5</td><td>6</td><td>24</td><td>17</td><td>51</td><td>263</td><td>101</td><td>123</td><td>24</td><td>4.5</td><td>1.6</td></tr><tr><td>3</td><td>5</td><td>6</td><td>22</td><td>19</td><td>51</td><td>244</td><td>93</td><td>123</td><td>22</td><td>4.5</td><td>1.6</td></tr><tr><td>4</td><td>4. 5</td><td>7</td><td>19</td><td>19</td><td>51</td><td>244</td><td>93</td><td>148</td><td>22</td><td>4.0</td><td>1.9</td></tr><tr><td>5</td><td>4. 5</td><td>8</td><td>17</td><td>173</td><td>55</td><td>355</td><td>86</td><td>139</td><td>20</td><td>4.0</td><td>1.9</td></tr><tr><td>6</td><td>5</td><td>14</td><td>17</td><td>705</td><td>55</td><td>302</td><td>86</td><td>131</td><td>19</td><td>3.5</td><td>1.9</td></tr><tr><td>7</td><td>5</td><td>15</td><td>17</td><td>568</td><td>86</td><td>292</td><td>80</td><td>131</td><td>19</td><td>3.0</td><td>1.9</td></tr><tr><td>8</td><td>7</td><td>20</td><td>15</td><td>355</td><td>93</td><td>207</td><td>74</td><td>123</td><td>17</td><td>3.5</td><td>2.2</td></tr><tr><td>9</td><td>164</td><td>37</td><td>15</td><td>334</td><td>101</td><td>190</td><td>67</td><td>123</td><td>15</td><td>4.0</td><td>2. 2</td></tr><tr><td>10</td><td>164</td><td>24</td><td>14</td><td>323</td><td>101</td><td>181</td><td>67</td><td>116</td><td>15</td><td>4.0</td><td>2.2</td></tr><tr><td>11</td><td>32</td><td>22</td><td>14</td><td>410</td><td>108</td><td>164</td><td>67</td><td>116</td><td>14</td><td>3.5</td><td>2.5</td></tr><tr><td>12</td><td>20</td><td>17</td><td>12</td><td>502</td><td>101</td><td>164</td><td>74</td><td>116</td><td>12</td><td>3.5</td><td>2.5</td></tr><tr><td>13</td><td>15</td><td>14</td><td>12</td><td>355</td><td>93</td><td>156</td><td>86</td><td>108</td><td>12</td><td>3. 5</td><td>2.5</td></tr><tr><td>14</td><td>14</td><td>12</td><td>12</td><td>334</td><td>86</td><td>156</td><td>123</td><td>108</td><td>11</td><td>4.0</td><td>2.</td></tr><tr><td>15</td><td>12</td><td>12</td><td>11</td><td>207</td><td>86</td><td>148</td><td>156</td><td>101</td><td>9. 5</td><td>4.0</td><td>3.</td></tr><tr><td>16</td><td>11</td><td>14</td><td>11</td><td>164</td><td>86</td><td>139</td><td>148</td><td>93</td><td>8</td><td>4.0</td><td>3.0</td></tr><tr><td>17</td><td>11</td><td>14</td><td>11</td><td>123</td><td>93</td><td>131</td><td>139</td><td>93</td><td>7.</td><td>3.5</td><td>3.5</td></tr><tr><td>18</td><td>9. 5</td><td>14</td><td>11</td><td>74</td><td>93</td><td>123</td><td>123</td><td>86</td><td>7</td><td>3.5</td><td>3. 5</td></tr><tr><td>19</td><td>9. 5</td><td>15</td><td>12</td><td>55</td><td>86</td><td>116</td><td>164</td><td>80</td><td>7</td><td>3.</td><td>4.0</td></tr><tr><td>20</td><td>9. 5</td><td>15</td><td>12</td><td>55</td><td>86</td><td>207</td><td>302</td><td>74</td><td>6</td><td>3.0</td><td>4.0</td></tr><tr><td>21</td><td>8</td><td>15</td><td>12</td><td>51</td><td>86</td><td>253</td><td>225</td><td>74</td><td>6</td><td>3.0</td><td>4.0</td></tr><tr><td>22</td><td>12</td><td>17</td><td>12</td><td>51</td><td>86</td><td>207</td><td>207</td><td>67</td><td>6</td><td>3.0</td><td>3.5</td></tr><tr><td>23</td><td>8</td><td>19</td><td>14</td><td>164</td><td>80</td><td>164</td><td>190</td><td>55</td><td>5.5</td><td>3.0</td><td>3.5</td></tr><tr><td>24</td><td>7.</td><td>22</td><td>15</td><td>156</td><td>80</td><td>123</td><td>164</td><td>51</td><td>5.</td><td>3.0</td><td>3.0</td></tr><tr><td>25</td><td>7</td><td>20</td><td>15</td><td>123</td><td>86</td><td>123</td><td>164</td><td>44</td><td>5</td><td>2.5</td><td>3.0</td></tr><tr><td>26</td><td>7</td><td>17</td><td>67</td><td>74</td><td>77</td><td>123</td><td>156</td><td>41</td><td>5</td><td>2.5</td><td>3.0</td></tr><tr><td>27</td><td>6</td><td>17</td><td>29</td><td>55</td><td>80</td><td>123</td><td>156</td><td>37</td><td>5</td><td>2.5</td><td>2.5</td></tr><tr><td>28</td><td>6</td><td>15</td><td>24</td><td>55</td><td>86</td><td>116</td><td>148</td><td>27</td><td>5</td><td>2.5</td><td>2.5</td></tr><tr><td>29</td><td>6</td><td>15</td><td>22</td><td></td><td>382</td><td>116</td><td>148</td><td>29</td><td>4.</td><td>2.2</td><td>3.0</td></tr><tr><td>30</td><td>5.5</td><td>17</td><td>19</td><td></td><td>207</td><td>108</td><td>139</td><td>27</td><td>4. 5</td><td>2.2</td><td>3.0</td></tr><tr><td>31</td><td></td><td>55</td><td>17</td><td></td><td>123</td><td></td><td>123</td><td></td><td>5</td><td>1.9</td><td></td></tr></table>\n\nNOTE.-N flow Oct. 1 to Nov. 1.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04902254983571339,
+                            "top": 0.12317237180737772,
+                            "width": 0.8276533000929572,
+                            "height": 0.39595429968037105,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td>5.5</td><td>29</td><td>17</td><td>55</td><td>253</td><td>101</td><td>131</td><td>24</td><td>5</td><td>1.9</td></tr><tr><td>2</td><td>5</td><td>6</td><td>24</td><td>17</td><td>51</td><td>263</td><td>101</td><td>123</td><td>24</td><td>4.5</td><td>1.6</td></tr><tr><td>3</td><td>5</td><td>6</td><td>22</td><td>19</td><td>51</td><td>244</td><td>93</td><td>123</td><td>22</td><td>4.5</td><td>1.6</td></tr><tr><td>4</td><td>4. 5</td><td>7</td><td>19</td><td>19</td><td>51</td><td>244</td><td>93</td><td>148</td><td>22</td><td>4.0</td><td>1.9</td></tr><tr><td>5</td><td>4. 5</td><td>8</td><td>17</td><td>173</td><td>55</td><td>355</td><td>86</td><td>139</td><td>20</td><td>4.0</td><td>1.9</td></tr><tr><td>6</td><td>5</td><td>14</td><td>17</td><td>705</td><td>55</td><td>302</td><td>86</td><td>131</td><td>19</td><td>3.5</td><td>1.9</td></tr><tr><td>7</td><td>5</td><td>15</td><td>17</td><td>568</td><td>86</td><td>292</td><td>80</td><td>131</td><td>19</td><td>3.0</td><td>1.9</td></tr><tr><td>8</td><td>7</td><td>20</td><td>15</td><td>355</td><td>93</td><td>207</td><td>74</td><td>123</td><td>17</td><td>3.5</td><td>2.2</td></tr><tr><td>9</td><td>164</td><td>37</td><td>15</td><td>334</td><td>101</td><td>190</td><td>67</td><td>123</td><td>15</td><td>4.0</td><td>2. 2</td></tr><tr><td>10</td><td>164</td><td>24</td><td>14</td><td>323</td><td>101</td><td>181</td><td>67</td><td>116</td><td>15</td><td>4.0</td><td>2.2</td></tr><tr><td>11</td><td>32</td><td>22</td><td>14</td><td>410</td><td>108</td><td>164</td><td>67</td><td>116</td><td>14</td><td>3.5</td><td>2.5</td></tr><tr><td>12</td><td>20</td><td>17</td><td>12</td><td>502</td><td>101</td><td>164</td><td>74</td><td>116</td><td>12</td><td>3.5</td><td>2.5</td></tr><tr><td>13</td><td>15</td><td>14</td><td>12</td><td>355</td><td>93</td><td>156</td><td>86</td><td>108</td><td>12</td><td>3. 5</td><td>2.5</td></tr><tr><td>14</td><td>14</td><td>12</td><td>12</td><td>334</td><td>86</td><td>156</td><td>123</td><td>108</td><td>11</td><td>4.0</td><td>2.</td></tr><tr><td>15</td><td>12</td><td>12</td><td>11</td><td>207</td><td>86</td><td>148</td><td>156</td><td>101</td><td>9. 5</td><td>4.0</td><td>3.</td></tr><tr><td>16</td><td>11</td><td>14</td><td>11</td><td>164</td><td>86</td><td>139</td><td>148</td><td>93</td><td>8</td><td>4.0</td><td>3.0</td></tr><tr><td>17</td><td>11</td><td>14</td><td>11</td><td>123</td><td>93</td><td>131</td><td>139</td><td>93</td><td>7.</td><td>3.5</td><td>3.5</td></tr><tr><td>18</td><td>9. 5</td><td>14</td><td>11</td><td>74</td><td>93</td><td>123</td><td>123</td><td>86</td><td>7</td><td>3.5</td><td>3. 5</td></tr><tr><td>19</td><td>9. 5</td><td>15</td><td>12</td><td>55</td><td>86</td><td>116</td><td>164</td><td>80</td><td>7</td><td>3.</td><td>4.0</td></tr><tr><td>20</td><td>9. 5</td><td>15</td><td>12</td><td>55</td><td>86</td><td>207</td><td>302</td><td>74</td><td>6</td><td>3.0</td><td>4.0</td></tr><tr><td>21</td><td>8</td><td>15</td><td>12</td><td>51</td><td>86</td><td>253</td><td>225</td><td>74</td><td>6</td><td>3.0</td><td>4.0</td></tr><tr><td>22</td><td>12</td><td>17</td><td>12</td><td>51</td><td>86</td><td>207</td><td>207</td><td>67</td><td>6</td><td>3.0</td><td>3.5</td></tr><tr><td>23</td><td>8</td><td>19</td><td>14</td><td>164</td><td>80</td><td>164</td><td>190</td><td>55</td><td>5.5</td><td>3.0</td><td>3.5</td></tr><tr><td>24</td><td>7.</td><td>22</td><td>15</td><td>156</td><td>80</td><td>123</td><td>164</td><td>51</td><td>5.</td><td>3.0</td><td>3.0</td></tr><tr><td>25</td><td>7</td><td>20</td><td>15</td><td>123</td><td>86</td><td>123</td><td>164</td><td>44</td><td>5</td><td>2.5</td><td>3.0</td></tr><tr><td>26</td><td>7</td><td>17</td><td>67</td><td>74</td><td>77</td><td>123</td><td>156</td><td>41</td><td>5</td><td>2.5</td><td>3.0</td></tr><tr><td>27</td><td>6</td><td>17</td><td>29</td><td>55</td><td>80</td><td>123</td><td>156</td><td>37</td><td>5</td><td>2.5</td><td>2.5</td></tr><tr><td>28</td><td>6</td><td>15</td><td>24</td><td>55</td><td>86</td><td>116</td><td>148</td><td>27</td><td>5</td><td>2.5</td><td>2.5</td></tr><tr><td>29</td><td>6</td><td>15</td><td>22</td><td></td><td>382</td><td>116</td><td>148</td><td>29</td><td>4.</td><td>2.2</td><td>3.0</td></tr><tr><td>30</td><td>5.5</td><td>17</td><td>19</td><td></td><td>207</td><td>108</td><td>139</td><td>27</td><td>4. 5</td><td>2.2</td><td>3.0</td></tr><tr><td>31</td><td></td><td>55</td><td>17</td><td></td><td>123</td><td></td><td>123</td><td></td><td>5</td><td>1.9</td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06785934608266501,
+                            "top": 0.5253473526098386,
+                            "width": 0.2652683528685996,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "NOTE.-N flow Oct. 1 to Nov. 1.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# MERCED RIVER BASIN (cont.)\n\nMonthly discharge of Fresno River near Knowles, Calif., for the year ending September 30, 1925\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>November</td><td>164</td><td>0</td><td>19.</td><td>1,150</td></tr><tr><td>December</td><td>55</td><td>5. 5</td><td>16.</td><td>1,030</td></tr><tr><td>January</td><td>67</td><td>11</td><td>17.8</td><td>1,090</td></tr><tr><td>February</td><td>705</td><td>17</td><td>198</td><td>11,000</td></tr><tr><td>March</td><td>382</td><td>51</td><td>96. 5</td><td>5.930</td></tr><tr><td>April</td><td>355</td><td>108</td><td>183</td><td>10,900</td></tr><tr><td>May</td><td>302</td><td>67</td><td>131</td><td>8,060</td></tr><tr><td>June</td><td>148</td><td>27</td><td>90,</td><td>5,390</td></tr><tr><td>July</td><td>24</td><td>4.5</td><td>11.</td><td>689</td></tr><tr><td>August</td><td>5</td><td>1.9</td><td>3.36</td><td>207</td></tr><tr><td>September</td><td>4. 0</td><td>1.6</td><td>2.71</td><td>161</td></tr><tr><td>The year</td><td>705</td><td>0</td><td>62.1</td><td>45,600</td></tr></table>\n\n## MERCED RIVER BASIN\n\n## MERCED RIVER AT HAPPY ISLES BRIDGE, NEAR YOSEMITE, CALIF.\n\nLOCATION. Happy Isles Bridge, 11/2 miles southeast of Yosemite, Mariposa County.\n\nDRAINAGE AREA. - 181 square miles (measured on topographic maps). RECORDS AVAILABLE. - August 23, 1915, to September 30, 1925. GAGE.-Water-stage recorder on right bank about 20 feet below bridge.",
+                "embed": "# MERCED RIVER BASIN (cont.)\n\nMonthly discharge of Fresno River near Knowles, Calif., for the year ending September 30, 1925\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>November</td><td>164</td><td>0</td><td>19.</td><td>1,150</td></tr><tr><td>December</td><td>55</td><td>5. 5</td><td>16.</td><td>1,030</td></tr><tr><td>January</td><td>67</td><td>11</td><td>17.8</td><td>1,090</td></tr><tr><td>February</td><td>705</td><td>17</td><td>198</td><td>11,000</td></tr><tr><td>March</td><td>382</td><td>51</td><td>96. 5</td><td>5.930</td></tr><tr><td>April</td><td>355</td><td>108</td><td>183</td><td>10,900</td></tr><tr><td>May</td><td>302</td><td>67</td><td>131</td><td>8,060</td></tr><tr><td>June</td><td>148</td><td>27</td><td>90,</td><td>5,390</td></tr><tr><td>July</td><td>24</td><td>4.5</td><td>11.</td><td>689</td></tr><tr><td>August</td><td>5</td><td>1.9</td><td>3.36</td><td>207</td></tr><tr><td>September</td><td>4. 0</td><td>1.6</td><td>2.71</td><td>161</td></tr><tr><td>The year</td><td>705</td><td>0</td><td>62.1</td><td>45,600</td></tr></table>\n\n## MERCED RIVER BASIN\n\n## MERCED RIVER AT HAPPY ISLES BRIDGE, NEAR YOSEMITE, CALIF.\n\nLOCATION. Happy Isles Bridge, 11/2 miles southeast of Yosemite, Mariposa County.\n\nDRAINAGE AREA. - 181 square miles (measured on topographic maps). RECORDS AVAILABLE. - August 23, 1915, to September 30, 1925. GAGE.-Water-stage recorder on right bank about 20 feet below bridge.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0499691548426897,
+                            "top": 0.5460007510326699,
+                            "width": 0.8204811844540407,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Fresno River near Knowles, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04858293009716225,
+                            "top": 0.584057718034172,
+                            "width": 0.8269899946020974,
+                            "height": 0.22053700302760046,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>November</td><td>164</td><td>0</td><td>19.</td><td>1,150</td></tr><tr><td>December</td><td>55</td><td>5. 5</td><td>16.</td><td>1,030</td></tr><tr><td>January</td><td>67</td><td>11</td><td>17.8</td><td>1,090</td></tr><tr><td>February</td><td>705</td><td>17</td><td>198</td><td>11,000</td></tr><tr><td>March</td><td>382</td><td>51</td><td>96. 5</td><td>5.930</td></tr><tr><td>April</td><td>355</td><td>108</td><td>183</td><td>10,900</td></tr><tr><td>May</td><td>302</td><td>67</td><td>131</td><td>8,060</td></tr><tr><td>June</td><td>148</td><td>27</td><td>90,</td><td>5,390</td></tr><tr><td>July</td><td>24</td><td>4.5</td><td>11.</td><td>689</td></tr><tr><td>August</td><td>5</td><td>1.9</td><td>3.36</td><td>207</td></tr><tr><td>September</td><td>4. 0</td><td>1.6</td><td>2.71</td><td>161</td></tr><tr><td>The year</td><td>705</td><td>0</td><td>62.1</td><td>45,600</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.33189389265885255,
+                            "top": 0.8186256102140443,
+                            "width": 0.2553979025293029,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "MERCED RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.16964836520666254,
+                            "top": 0.8419076229815997,
+                            "width": 0.579888957433683,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "MERCED RIVER AT HAPPY ISLES BRIDGE, NEAR YOSEMITE, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.049352251696483655,
+                            "top": 0.8610589560645888,
+                            "width": 0.8204811844540407,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "LOCATION. Happy Isles Bridge, 11/2 miles southeast of Yosemite, Mariposa County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04133251079580506,
+                            "top": 0.8926023282012767,
+                            "width": 0.744602097470697,
+                            "height": 0.04581299286518964,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA. - 181 square miles (measured on topographic maps). RECORDS AVAILABLE. - August 23, 1915, to September 30, 1925. GAGE.-Water-stage recorder on right bank about 20 feet below bridge.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

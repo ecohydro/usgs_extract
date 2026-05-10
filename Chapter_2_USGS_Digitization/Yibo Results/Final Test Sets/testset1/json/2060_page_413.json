@@ -1,0 +1,678 @@
+{
+    "job_id": "85a38991-1ad0-4162-83ed-ed80a7266a1d",
+    "duration": 6.97700572013855,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/581050c6-33cb-407f-a438-ea87c71ab0cf?AWSAccessKeyId=ASIA2UOK6OVBEYK3FTY3&Signature=C9G7mxltQWCL3T2ajBQQo4eVik8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIQCwqSjLUPxfuePXdwt8gP4duM7F9w5lGGNGSfyu1H30DQIgFBKfXWtjeNk9OWbRrzWU0COwIJoBw40JHLMiJLKxwNYqiwUIIxAAGgw3MzExMDY5MzIwMzQiDK3mAIkaWWMd89H8tSroBDvKVoOYDUL%2FEV7QwIBo9Gxqgs%2BrRjCJHWse4YanygRYNErebOND0fYYRsHYE4QnH2ZomwGzLCRx%2FTPuuqEGJ%2BveQo%2F5ba4OV%2Be0vTBBU8R7b3kpmLt7zZwuqQRmfkuW5FoF%2BkJ16fkiCaEbKFuJZ2B%2F2Ga%2FBkODv3lDKO0ITlfR9oG%2B3m1zoaPtcXXBHIFw2kLglQEs011AEzQHGEvFgYyayVgTheS2hoKJsr00wygQ8%2BYWLlvZn40cC3b8BXv0yujFFPTsRfk8aSBbXmp92HIM9beK7VQemWMhLDxcoU08aSg%2F23qaG8Do0WDaDJ2jGFYKfGf8Gv2kFhkITB%2FTRtKvsn2HgD1OI4ONYfDEeZFxCXkO%2BthFRMdiV1DA%2BK3b8eWRAV4xCyQFgW3UTqoRfFtYnEHQzlytpicfM9qAV6NeIV3nZxDjXzPZG94EBQ1DsATIEC3pxH597Vh4IecDvB1K6gHaCj7Tj9bFa%2FI3qZsH1Y4qfWWgyha8MQU7HUWPlrFAiVss%2FKoGN9KUEE0D%2BBXaG0Htk08H0MvLPhX31oMoqoU4LZiXcHdbfJV60jhwkVsBh%2FaEykQIIo8uCzetecmqYf47tPT9XJOtDoVrQ4icOr6dIarDpWtY6Vyger4HPwcWV0Ybaih8W9kfJdJBpj479X5HWglOFu7HssO9Dv%2B74s0lU0i08dqmozOFLvTk9jb%2BNXIsAygS9iN0FboCQjmlwZSYSACM12Imx8ikTGvbIdHKGAZE2UcjW2Yaf2DZEbGl4n%2B3OgaveliYZ0zFuvcUSRTncxlGLMQ8QAXqGe9sxhrtXtmNT04w%2B6TJugY6mwFp6TNG0vgzOD83XL1U60TnJHI4DsaC50qFUu5A%2BTsr7edFA%2Bp8kQBu1jOSdnxYoKPbasGH3P0EYIMxCIS0GrTw7i%2FV%2BtWHLmdKV%2FtRZucV1R6arxdGUJdurq9CTEx8r6tgDiU1Pk7fWRWKr%2FPAvZI1pXKuy1v6w61J3Ca0icCpzGjWaB7T101iyZSmENQoj2FDnPWuW%2FHy1gdEHA%3D%3D&Expires=1733453737",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "<table><tr><th>12H1</th><th>JBL 124 -A</th><th>do</th><th>152</th><th>276</th><th>16</th></tr><tr><td>12M1</td><td>(JBL 124 -F\nWCD 10</td><td>do</td><td>188</td><td>210</td><td></td></tr><tr><td>12P1</td><td>JBL 124 -E</td><td>Kate Donovan</td><td>141</td><td>218</td><td></td></tr><tr><td>13E1</td><td></td><td>E. and G. Le Roy</td><td>114</td><td>276</td><td></td></tr><tr><td>13J1</td><td>JBL 124 -I</td><td>Kate Donovan</td><td>141</td><td>191</td><td>12</td></tr><tr><td>13M1</td><td></td><td>E. and_G. Le Roy</td><td>115</td><td>200</td><td>12</td></tr><tr><td>13M2</td><td></td><td>do</td><td>115</td><td>191</td><td>12</td></tr><tr><td>13N1</td><td>JBL 123 -R</td><td>do</td><td>136</td><td>300</td><td>16</td></tr><tr><td>13N2</td><td>JBL 84 -A</td><td>do</td><td>135</td><td>315</td><td>16</td></tr><tr><td>14C1</td><td></td><td>do</td><td>126</td><td>175</td><td>6</td></tr><tr><td>14D1</td><td>JBL 123 -K</td><td>Moretti and Magoria</td><td>124</td><td>327</td><td>16</td></tr><tr><td>14D2</td><td>JBL 123 -J</td><td>do</td><td>123</td><td>213</td><td>16</td></tr><tr><td>14L1</td><td></td><td>do</td><td>102</td><td>224</td><td>12</td></tr><tr><td>14P1</td><td>JBL 84 -D</td><td>do</td><td>122</td><td>320</td><td>16</td></tr></table>\n\n102\n\n130\n\n210\n\n198\n\n263\n\n133\n\n173\n\n100\n\n124\n\n153\n\n77\n\n105\n\n164\n\n224\n\n152\n\n107\n\n135\n\n173\n\n93\n\n132\n\n148\n\n94\n\n150\n\n175\n\n78\n\n96\n\n127\n\n145\n\n198\n\n256\n\n129\n\n229",
+                "embed": "<table><tr><th>12H1</th><th>JBL 124 -A</th><th>do</th><th>152</th><th>276</th><th>16</th></tr><tr><td>12M1</td><td>(JBL 124 -F\nWCD 10</td><td>do</td><td>188</td><td>210</td><td></td></tr><tr><td>12P1</td><td>JBL 124 -E</td><td>Kate Donovan</td><td>141</td><td>218</td><td></td></tr><tr><td>13E1</td><td></td><td>E. and G. Le Roy</td><td>114</td><td>276</td><td></td></tr><tr><td>13J1</td><td>JBL 124 -I</td><td>Kate Donovan</td><td>141</td><td>191</td><td>12</td></tr><tr><td>13M1</td><td></td><td>E. and_G. Le Roy</td><td>115</td><td>200</td><td>12</td></tr><tr><td>13M2</td><td></td><td>do</td><td>115</td><td>191</td><td>12</td></tr><tr><td>13N1</td><td>JBL 123 -R</td><td>do</td><td>136</td><td>300</td><td>16</td></tr><tr><td>13N2</td><td>JBL 84 -A</td><td>do</td><td>135</td><td>315</td><td>16</td></tr><tr><td>14C1</td><td></td><td>do</td><td>126</td><td>175</td><td>6</td></tr><tr><td>14D1</td><td>JBL 123 -K</td><td>Moretti and Magoria</td><td>124</td><td>327</td><td>16</td></tr><tr><td>14D2</td><td>JBL 123 -J</td><td>do</td><td>123</td><td>213</td><td>16</td></tr><tr><td>14L1</td><td></td><td>do</td><td>102</td><td>224</td><td>12</td></tr><tr><td>14P1</td><td>JBL 84 -D</td><td>do</td><td>122</td><td>320</td><td>16</td></tr></table>\n\n102\n\n130\n\n210\n\n198\n\n263\n\n133\n\n173\n\n100\n\n124\n\n153\n\n77\n\n105\n\n164\n\n224\n\n152\n\n107\n\n135\n\n173\n\n93\n\n132\n\n148\n\n94\n\n150\n\n175\n\n78\n\n96\n\n127\n\n145\n\n198\n\n256\n\n129\n\n229",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.068275259707684,
+                            "top": 0.08975032455262798,
+                            "width": 0.3860384016792621,
+                            "height": 0.812177148101176,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>12H1</th><th>JBL 124 -A</th><th>do</th><th>152</th><th>276</th><th>16</th></tr><tr><td>12M1</td><td>(JBL 124 -F\nWCD 10</td><td>do</td><td>188</td><td>210</td><td></td></tr><tr><td>12P1</td><td>JBL 124 -E</td><td>Kate Donovan</td><td>141</td><td>218</td><td></td></tr><tr><td>13E1</td><td></td><td>E. and G. Le Roy</td><td>114</td><td>276</td><td></td></tr><tr><td>13J1</td><td>JBL 124 -I</td><td>Kate Donovan</td><td>141</td><td>191</td><td>12</td></tr><tr><td>13M1</td><td></td><td>E. and_G. Le Roy</td><td>115</td><td>200</td><td>12</td></tr><tr><td>13M2</td><td></td><td>do</td><td>115</td><td>191</td><td>12</td></tr><tr><td>13N1</td><td>JBL 123 -R</td><td>do</td><td>136</td><td>300</td><td>16</td></tr><tr><td>13N2</td><td>JBL 84 -A</td><td>do</td><td>135</td><td>315</td><td>16</td></tr><tr><td>14C1</td><td></td><td>do</td><td>126</td><td>175</td><td>6</td></tr><tr><td>14D1</td><td>JBL 123 -K</td><td>Moretti and Magoria</td><td>124</td><td>327</td><td>16</td></tr><tr><td>14D2</td><td>JBL 123 -J</td><td>do</td><td>123</td><td>213</td><td>16</td></tr><tr><td>14L1</td><td></td><td>do</td><td>102</td><td>224</td><td>12</td></tr><tr><td>14P1</td><td>JBL 84 -D</td><td>do</td><td>122</td><td>320</td><td>16</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45662786331205407,
+                            "top": 0.09517845961177207,
+                            "width": 0.015020653398422831,
+                            "height": 0.013775829680651221,
+                            "page": 1
+                        },
+                        "content": "102",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45662786331205407,
+                            "top": 0.11145898559799625,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "130",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45700337964701465,
+                            "top": 0.2366938008766437,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "210",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45700337964701465,
+                            "top": 0.12711333750782716,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "198",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45662786331205407,
+                            "top": 0.1427676894176581,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "263",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45662786331205407,
+                            "top": 0.15842204132748905,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "133",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45700337964701465,
+                            "top": 0.17470256731371323,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "173",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45700337964701465,
+                            "top": 0.19035691922354414,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "100",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45737889598197523,
+                            "top": 0.20538509705698185,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "124",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45737889598197523,
+                            "top": 0.22103944896681277,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "153",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4618850920015021,
+                            "top": 0.25297432686286786,
+                            "width": 0.00976342470897484,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "77",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45737889598197523,
+                            "top": 0.2686286787726988,
+                            "width": 0.01464513706346226,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "105",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45737889598197523,
+                            "top": 0.28428303068252975,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "164",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45737889598197523,
+                            "top": 0.2999373825923607,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "224",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4592564776567781,
+                            "top": 0.6449592986850344,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "152",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45737889598197523,
+                            "top": 0.31559173450219163,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "107",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4577544123169358,
+                            "top": 0.3312460864120225,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "135",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4577544123169358,
+                            "top": 0.34690043832185347,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "173",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4618850920015021,
+                            "top": 0.36192861615529115,
+                            "width": 0.010514457378895982,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "93",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4577544123169358,
+                            "top": 0.37820914214151535,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "132",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4577544123169358,
+                            "top": 0.3938634940513463,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "148",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46226060833646265,
+                            "top": 0.4095178459611772,
+                            "width": 0.010514457378895982,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "94",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45812992865189633,
+                            "top": 0.42517219787100813,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "150",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45812992865189633,
+                            "top": 0.44082654978083907,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "175",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46263612467142323,
+                            "top": 0.4571070757670632,
+                            "width": 0.010138941043935411,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "78",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46226060833646265,
+                            "top": 0.47213525360050096,
+                            "width": 0.010889973713856553,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "96",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.45812992865189633,
+                            "top": 0.48778960551033185,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "127",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4585054449868569,
+                            "top": 0.5034439574201628,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "145",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4585054449868569,
+                            "top": 0.5190983093299938,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "198",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4585054449868569,
+                            "top": 0.5353788353162179,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "256",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4588809613218175,
+                            "top": 0.5510331872260489,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "129",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4588809613218175,
+                            "top": 0.5666875391358798,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "229",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th>22</th><th>do</th><th></th><th></th><th></th><th rowspan=\"3\">D, Irr</th><th rowspan=\"3\">Cp, L.</th></tr><tr><td>30</td><td>do</td><td></td><td></td><td>T</td></tr><tr><td>50</td><td>do</td><td></td><td></td><td></td></tr><tr><td>7</td><td>do</td><td></td><td></td><td></td><td></td><td rowspan=\"3\">Cp, L, W.</td></tr><tr><td>15</td><td>do</td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>do</td><td>May 14, 1941</td><td>50.13</td><td>T</td><td>Irr</td></tr><tr><td>13</td><td>do</td><td></td><td></td><td></td><td rowspan=\"4\">D, Irr</td><td rowspan=\"4\">Cp, L.</td></tr><tr><td>25</td><td>do</td><td>Oct. 8, 1930</td><td>51.0</td><td></td></tr><tr><td>16</td><td>do</td><td>Apr. 7, 1942</td><td>42.86</td><td>T</td></tr><tr><td>8</td><td>do</td><td></td><td></td><td></td></tr><tr><td>9</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>Gravel</td><td></td><td></td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>8</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>35</td><td>Gravel</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>do</td><td></td><td>8</td><td></td><td></td><td></td></tr><tr><td>7</td><td>do</td><td>Oct. 8, 1930</td><td>59. 7</td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>18</td><td>do</td><td>Mar. 27, 1942</td><td>41. 93</td><td></td><td></td><td></td></tr><tr><td>27</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>do</td><td></td><td></td><td></td><td>A</td><td>L.</td></tr><tr><td>37</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>26</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>do</td><td></td><td></td><td></td><td>A</td><td>L.</td></tr><tr><td>9</td><td>do</td><td rowspan=\"7\">Oct. 8, 1930\nDec. 10, 1941</td><td rowspan=\"7\">42.5\n40.87</td><td></td><td></td><td></td></tr><tr><td>10</td><td>Gravel and sand</td><td></td><td></td><td></td></tr><tr><td>26</td><td>Gravel</td><td></td><td></td><td></td></tr><tr><td>10</td><td>Gravel and sand</td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>20</td><td>Gravel</td><td></td><td>D,</td><td>C,</td></tr><tr><td>40</td><td>Gravel and sand</td><td></td><td></td><td></td></tr><tr><td>34</td><td>do</td><td></td><td></td><td></td></tr><tr><td>20</td><td>Gravel</td><td rowspan=\"5\">Oct. 8, 1930</td><td rowspan=\"5\">45. 3</td><td></td><td></td><td></td></tr><tr><td>30</td><td>do</td><td></td><td>A</td><td>L.</td></tr><tr><td>10</td><td>do</td><td></td><td></td><td></td></tr><tr><td>17</td><td>do</td><td></td><td></td><td></td></tr><tr><td>12</td><td>do</td><td>J</td><td>D, S</td><td>L.</td></tr><tr><td>9</td><td>do</td><td rowspan=\"6\">Oct. 8, 1930\nApr. 7, 1942</td><td rowspan=\"6\">8 46. 4\n31.1 79</td><td rowspan=\"7\"></td><td></td><td></td></tr><tr><td>8</td><td>do</td><td></td><td></td></tr><tr><td>2</td><td>do</td><td>Irr</td><td>L.</td></tr><tr><td>9</td><td>Gravel and sand</td><td></td><td></td></tr><tr><td>18</td><td>Gravel</td><td></td><td></td></tr><tr><td>47</td><td>do</td><td></td><td>L.</td></tr><tr><td>18</td><td>Gravel and clay</td><td></td><td rowspan=\"9\">11.55</td><td rowspan=\"6\">A\n\nIrr</td><td></td></tr><tr><td>22</td><td>Gravel</td><td></td><td></td><td rowspan=\"6\">Cp, L.</td></tr><tr><td>8</td><td>do</td><td></td><td></td></tr><tr><td>17</td><td>do</td><td>Feb. 18, 1942</td><td>T</td></tr><tr><td>14</td><td>do</td><td></td><td></td></tr><tr><td>18</td><td>do</td><td></td><td rowspan=\"6\">T</td></tr><tr><td>12</td><td>Gravel and sand</td><td></td><td></td></tr><tr><td>3</td><td>do</td><td></td><td></td><td></td></tr><tr><td>7</td><td>Gravel</td><td></td><td>Irr</td><td>Cp, L.</td></tr><tr><td>13</td><td>do</td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td></tr></table>\n\n280\n\n296\n\n163\n\n101\n\n198\n\n265\n\n282\n\n109\n\n192\n\n87\n\n122\n\n147\n\n178\n\n206\n\n95\n\n129\n\n121\n\nSee footnotes at end of table.\n\n280\n\n180",
+                "embed": "<table><tr><th>22</th><th>do</th><th></th><th></th><th></th><th rowspan=\"3\">D, Irr</th><th rowspan=\"3\">Cp, L.</th></tr><tr><td>30</td><td>do</td><td></td><td></td><td>T</td></tr><tr><td>50</td><td>do</td><td></td><td></td><td></td></tr><tr><td>7</td><td>do</td><td></td><td></td><td></td><td></td><td rowspan=\"3\">Cp, L, W.</td></tr><tr><td>15</td><td>do</td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>do</td><td>May 14, 1941</td><td>50.13</td><td>T</td><td>Irr</td></tr><tr><td>13</td><td>do</td><td></td><td></td><td></td><td rowspan=\"4\">D, Irr</td><td rowspan=\"4\">Cp, L.</td></tr><tr><td>25</td><td>do</td><td>Oct. 8, 1930</td><td>51.0</td><td></td></tr><tr><td>16</td><td>do</td><td>Apr. 7, 1942</td><td>42.86</td><td>T</td></tr><tr><td>8</td><td>do</td><td></td><td></td><td></td></tr><tr><td>9</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>Gravel</td><td></td><td></td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>8</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>35</td><td>Gravel</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>do</td><td></td><td>8</td><td></td><td></td><td></td></tr><tr><td>7</td><td>do</td><td>Oct. 8, 1930</td><td>59. 7</td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>18</td><td>do</td><td>Mar. 27, 1942</td><td>41. 93</td><td></td><td></td><td></td></tr><tr><td>27</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>do</td><td></td><td></td><td></td><td>A</td><td>L.</td></tr><tr><td>37</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>26</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>do</td><td></td><td></td><td></td><td>A</td><td>L.</td></tr><tr><td>9</td><td>do</td><td rowspan=\"7\">Oct. 8, 1930\nDec. 10, 1941</td><td rowspan=\"7\">42.5\n40.87</td><td></td><td></td><td></td></tr><tr><td>10</td><td>Gravel and sand</td><td></td><td></td><td></td></tr><tr><td>26</td><td>Gravel</td><td></td><td></td><td></td></tr><tr><td>10</td><td>Gravel and sand</td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>20</td><td>Gravel</td><td></td><td>D,</td><td>C,</td></tr><tr><td>40</td><td>Gravel and sand</td><td></td><td></td><td></td></tr><tr><td>34</td><td>do</td><td></td><td></td><td></td></tr><tr><td>20</td><td>Gravel</td><td rowspan=\"5\">Oct. 8, 1930</td><td rowspan=\"5\">45. 3</td><td></td><td></td><td></td></tr><tr><td>30</td><td>do</td><td></td><td>A</td><td>L.</td></tr><tr><td>10</td><td>do</td><td></td><td></td><td></td></tr><tr><td>17</td><td>do</td><td></td><td></td><td></td></tr><tr><td>12</td><td>do</td><td>J</td><td>D, S</td><td>L.</td></tr><tr><td>9</td><td>do</td><td rowspan=\"6\">Oct. 8, 1930\nApr. 7, 1942</td><td rowspan=\"6\">8 46. 4\n31.1 79</td><td rowspan=\"7\"></td><td></td><td></td></tr><tr><td>8</td><td>do</td><td></td><td></td></tr><tr><td>2</td><td>do</td><td>Irr</td><td>L.</td></tr><tr><td>9</td><td>Gravel and sand</td><td></td><td></td></tr><tr><td>18</td><td>Gravel</td><td></td><td></td></tr><tr><td>47</td><td>do</td><td></td><td>L.</td></tr><tr><td>18</td><td>Gravel and clay</td><td></td><td rowspan=\"9\">11.55</td><td rowspan=\"6\">A\n\nIrr</td><td></td></tr><tr><td>22</td><td>Gravel</td><td></td><td></td><td rowspan=\"6\">Cp, L.</td></tr><tr><td>8</td><td>do</td><td></td><td></td></tr><tr><td>17</td><td>do</td><td>Feb. 18, 1942</td><td>T</td></tr><tr><td>14</td><td>do</td><td></td><td></td></tr><tr><td>18</td><td>do</td><td></td><td rowspan=\"6\">T</td></tr><tr><td>12</td><td>Gravel and sand</td><td></td><td></td></tr><tr><td>3</td><td>do</td><td></td><td></td><td></td></tr><tr><td>7</td><td>Gravel</td><td></td><td>Irr</td><td>Cp, L.</td></tr><tr><td>13</td><td>do</td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td></tr></table>\n\n280\n\n296\n\n163\n\n101\n\n198\n\n265\n\n282\n\n109\n\n192\n\n87\n\n122\n\n147\n\n178\n\n206\n\n95\n\n129\n\n121\n\nSee footnotes at end of table.\n\n280\n\n180",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.5011744511740753,
+                            "top": 0.08955830458782581,
+                            "width": 0.43468660704855894,
+                            "height": 0.8057396876192421,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>22</th><th>do</th><th></th><th></th><th></th><th rowspan=\"3\">D, Irr</th><th rowspan=\"3\">Cp, L.</th></tr><tr><td>30</td><td>do</td><td></td><td></td><td>T</td></tr><tr><td>50</td><td>do</td><td></td><td></td><td></td></tr><tr><td>7</td><td>do</td><td></td><td></td><td></td><td></td><td rowspan=\"3\">Cp, L, W.</td></tr><tr><td>15</td><td>do</td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>do</td><td>May 14, 1941</td><td>50.13</td><td>T</td><td>Irr</td></tr><tr><td>13</td><td>do</td><td></td><td></td><td></td><td rowspan=\"4\">D, Irr</td><td rowspan=\"4\">Cp, L.</td></tr><tr><td>25</td><td>do</td><td>Oct. 8, 1930</td><td>51.0</td><td></td></tr><tr><td>16</td><td>do</td><td>Apr. 7, 1942</td><td>42.86</td><td>T</td></tr><tr><td>8</td><td>do</td><td></td><td></td><td></td></tr><tr><td>9</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>Gravel</td><td></td><td></td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>8</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>35</td><td>Gravel</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>do</td><td></td><td>8</td><td></td><td></td><td></td></tr><tr><td>7</td><td>do</td><td>Oct. 8, 1930</td><td>59. 7</td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>18</td><td>do</td><td>Mar. 27, 1942</td><td>41. 93</td><td></td><td></td><td></td></tr><tr><td>27</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>do</td><td></td><td></td><td></td><td>A</td><td>L.</td></tr><tr><td>37</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>26</td><td>do</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>do</td><td></td><td></td><td></td><td>A</td><td>L.</td></tr><tr><td>9</td><td>do</td><td rowspan=\"7\">Oct. 8, 1930\nDec. 10, 1941</td><td rowspan=\"7\">42.5\n40.87</td><td></td><td></td><td></td></tr><tr><td>10</td><td>Gravel and sand</td><td></td><td></td><td></td></tr><tr><td>26</td><td>Gravel</td><td></td><td></td><td></td></tr><tr><td>10</td><td>Gravel and sand</td><td>T</td><td>Irr</td><td>L.</td></tr><tr><td>20</td><td>Gravel</td><td></td><td>D,</td><td>C,</td></tr><tr><td>40</td><td>Gravel and sand</td><td></td><td></td><td></td></tr><tr><td>34</td><td>do</td><td></td><td></td><td></td></tr><tr><td>20</td><td>Gravel</td><td rowspan=\"5\">Oct. 8, 1930</td><td rowspan=\"5\">45. 3</td><td></td><td></td><td></td></tr><tr><td>30</td><td>do</td><td></td><td>A</td><td>L.</td></tr><tr><td>10</td><td>do</td><td></td><td></td><td></td></tr><tr><td>17</td><td>do</td><td></td><td></td><td></td></tr><tr><td>12</td><td>do</td><td>J</td><td>D, S</td><td>L.</td></tr><tr><td>9</td><td>do</td><td rowspan=\"6\">Oct. 8, 1930\nApr. 7, 1942</td><td rowspan=\"6\">8 46. 4\n31.1 79</td><td rowspan=\"7\"></td><td></td><td></td></tr><tr><td>8</td><td>do</td><td></td><td></td></tr><tr><td>2</td><td>do</td><td>Irr</td><td>L.</td></tr><tr><td>9</td><td>Gravel and sand</td><td></td><td></td></tr><tr><td>18</td><td>Gravel</td><td></td><td></td></tr><tr><td>47</td><td>do</td><td></td><td>L.</td></tr><tr><td>18</td><td>Gravel and clay</td><td></td><td rowspan=\"9\">11.55</td><td rowspan=\"6\">A\n\nIrr</td><td></td></tr><tr><td>22</td><td>Gravel</td><td></td><td></td><td rowspan=\"6\">Cp, L.</td></tr><tr><td>8</td><td>do</td><td></td><td></td></tr><tr><td>17</td><td>do</td><td>Feb. 18, 1942</td><td>T</td></tr><tr><td>14</td><td>do</td><td></td><td></td></tr><tr><td>18</td><td>do</td><td></td><td rowspan=\"6\">T</td></tr><tr><td>12</td><td>Gravel and sand</td><td></td><td></td></tr><tr><td>3</td><td>do</td><td></td><td></td><td></td></tr><tr><td>7</td><td>Gravel</td><td></td><td>Irr</td><td>Cp, L.</td></tr><tr><td>13</td><td>do</td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td>Gravel and sand</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4585054449868569,
+                            "top": 0.5823418910457107,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "280",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4588809613218175,
+                            "top": 0.5979962429555417,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "296",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4592564776567781,
+                            "top": 0.6136505948653725,
+                            "width": 0.01426962072850169,
+                            "height": 0.013775829680651221,
+                            "page": 1
+                        },
+                        "content": "163",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4592564776567781,
+                            "top": 0.6293049467752035,
+                            "width": 0.013894104393541119,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "101",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4592564776567781,
+                            "top": 0.6606136505948653,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "198",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4592564776567781,
+                            "top": 0.6768941765810895,
+                            "width": 0.01464513706346226,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "265",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4592564776567781,
+                            "top": 0.6919223544145272,
+                            "width": 0.015020653398422831,
+                            "height": 0.013775829680651221,
+                            "page": 1
+                        },
+                        "content": "282",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46000751032669923,
+                            "top": 0.7082028804007514,
+                            "width": 0.01426962072850169,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "109",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46000751032669923,
+                            "top": 0.7232310582341891,
+                            "width": 0.01426962072850169,
+                            "height": 0.013775829680651221,
+                            "page": 1
+                        },
+                        "content": "192",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4641381900112655,
+                            "top": 0.73888541014402,
+                            "width": 0.010138941043935411,
+                            "height": 0.013775829680651221,
+                            "page": 1
+                        },
+                        "content": "87",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46000751032669923,
+                            "top": 0.754539762053851,
+                            "width": 0.01464513706346226,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "122",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46000751032669923,
+                            "top": 0.7708202880400752,
+                            "width": 0.01426962072850169,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "147",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46000751032669923,
+                            "top": 0.7864746399499061,
+                            "width": 0.01464513706346226,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "178",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46000751032669923,
+                            "top": 0.802128991859737,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "206",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46488922268118665,
+                            "top": 0.817783343769568,
+                            "width": 0.010138941043935411,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "95",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46038302666165976,
+                            "top": 0.8334376956793988,
+                            "width": 0.01464513706346226,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "129",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46075854299662033,
+                            "top": 0.8490920475892298,
+                            "width": 0.013518588058580548,
+                            "height": 0.012523481527864746,
+                            "page": 1
+                        },
+                        "content": "121",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09049943672549755,
+                            "top": 0.9117094552285535,
+                            "width": 0.1532106646639129,
+                            "height": 0.01628052598622417,
+                            "page": 1
+                        },
+                        "content": "See footnotes at end of table.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.46038302666165976,
+                            "top": 0.8804007514088916,
+                            "width": 0.015020653398422831,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "280",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4611340593315809,
+                            "top": 0.8647463994990607,
+                            "width": 0.013894104393541119,
+                            "height": 0.013149655604257984,
+                            "page": 1
+                        },
+                        "content": "180",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

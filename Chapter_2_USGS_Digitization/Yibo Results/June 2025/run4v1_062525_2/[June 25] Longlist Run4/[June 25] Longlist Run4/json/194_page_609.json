@@ -1,0 +1,122 @@
+{
+    "job_id": "7678a9a6-b6f8-4134-8dc9-07ef58b3f6f1",
+    "duration": 5.751258850097656,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/72f0fc83-316b-499f-9a8b-9f7d4b802878?AWSAccessKeyId=ASIA2UOK6OVBB3IOUILT&Signature=GX2XQAxd5%2F%2BhBFBYsHT6UD81yKI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJIMEYCIQDj8xgzLc88sPTw1TuxjsZOBC9azq0SE%2BEXq8Afq%2F3%2BgwIhAMqmcHyEqQyxMEbLHmyWr39Mxjw2VEFUYoA8uTjkNJWMKosFCCYQABoMNzMxMTA2OTMyMDM0IgwFByRZloHaiWR%2FxDEq6ARDpWrSPAQpgjFGA8Yx2J3q7%2F9bpmZ9RjSF%2BxMGi6RLZOLsJ8Xupx8idbZwnTpWYWOdOPqVELvyTqb428wfSUA6lG8QS5OhbYlRrAV%2B7zL%2Fmpc%2FhCsaKAZv9VruG7%2FX8an4knW%2BT2bGNDYB5Z2BkgK8xJgYO5L1PYKZ6EKAAOVCL%2BRDpchP100WyVkDqE5sw1f8pJ00KBkRdUDsR0ziO65lknw8SdrjgBSXxu3dNo2JH%2B%2B%2Bn6TQwRYzlJRyAa7BioLksyiycpUv5BOzd2DGi33co2aQ5FeqZpas%2FPu4rTX4sWyAnq3vWZyIEJlDxoHt0gio74Zi6BZ9wczUcASK8XC1VcVFWEFfQ146msjCgoZ3GHpkBVFyp6KXlJZpJMw5hLcSrV9YTxFXdV52ajeEW2rlMdOYjAWQZfvIuJXuP2mVNqdJKRVEj6aw3B77Wi%2BpGzBGvRIvXoE2v5LjQ7duaLI4zVYM0CSuZQsoZUmjRUVR36aXwfGzGiMouOSozWAPpC%2FL7%2FbhLDoE0Nlvm0nQ7iDMNUUH%2FfW7CtN5cwA0ARRVXJ09MqZOW0QN3IXVC3Pa8n3wNEmH2W2TBHQMMpBqVloTvYBeewpjuYrf4WSapnhmCabDWP%2FQe3Rc9ttug29nLyAYsnWT0SZXfhOMwRRsP0GYLF33ABP0iHxMdBzJqs8LONWFfVUYSE1lActDLVtG8TpueaxZeRUTRNR3XdwjUvEqw3W7N2ZmtZ5PXML%2Fwl79kpCHLnPpDvTdEdp%2BsMbGOIdFDEaVLLKHvuR4n1IiwYXj7DQxn8WQ4XwgTPgVbzVX6%2FO9zrIvY0WpML77yboGOpoB9sDWC99PoUxWl61ef%2BnDZLQOVRCnYWVH5lWsNMVLMWSNwBha1tEl5GUhw9ShI29VtsZT%2FvMYI6UIIUAfozjn%2BSQrl3Qx85NHZD4Q5o4D3Z%2BjqlRVyqURFmVEGoX%2BROEWzJvE7aEasxZU14O6VZkyoJec7vrOWyXrp0GcKFW4ScGGJkF%2FNBBUrjkyDA3mv9L5CytFbXAvoB7JEg%3D%3D&Expires=1733463178",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "SMITH RIVER BASIN\n\n11-5325. SMITH RIVER NEAR CRESCENT CITY, CALIF.\n\nLOCATION At gaging station, 0.5 mile downstream from South Fork, and 8 miles east of Crescent City, Del Norte County.\n\nRECORDS AVAILABLE.--Chemical analyses: October 1953 to September 1964.\n\nDRAINAGE AREA (revised) 605 square miles.",
+                "embed": "SMITH RIVER BASIN\n\n11-5325. SMITH RIVER NEAR CRESCENT CITY, CALIF.\n\nLOCATION At gaging station, 0.5 mile downstream from South Fork, and 8 miles east of Crescent City, Del Norte County.\n\nRECORDS AVAILABLE.--Chemical analyses: October 1953 to September 1964.\n\nDRAINAGE AREA (revised) 605 square miles.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2614734299516908,
+                            "top": 0.4446113405933158,
+                            "width": 0.010869565217391304,
+                            "height": 0.08561772437101015,
+                            "page": 1
+                        },
+                        "content": "SMITH RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2886473429951691,
+                            "top": 0.36913255726624106,
+                            "width": 0.012681159420289856,
+                            "height": 0.23695080736012017,
+                            "page": 1
+                        },
+                        "content": "11-5325. SMITH RIVER NEAR CRESCENT CITY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.31521739130434784,
+                            "top": 0.2895230942546001,
+                            "width": 0.013888888888888888,
+                            "height": 0.5981975215921893,
+                            "page": 1
+                        },
+                        "content": "LOCATION At gaging station, 0.5 mile downstream from South Fork, and 8 miles east of Crescent City, Del Norte County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3423913043478261,
+                            "top": 0.5309800976342471,
+                            "width": 0.012681159420289856,
+                            "height": 0.3559894855426211,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.--Chemical analyses: October 1953 to September 1964.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.32910628019323673,
+                            "top": 0.6725497559143823,
+                            "width": 0.012681159420289856,
+                            "height": 0.21517085993240706,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA (revised) 605 square miles.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th colspan=\"2\">pH</th><th>8.0 7.7 7.8 8.2 8.0 8.1 8.3 7.8 8.2 8.2 8,3 8.1</th></tr><tr><td colspan=\"2\">Specific con- duct- ance (micro- mhos at 25\u00b0C)</td><td>141 77 97 91 87 88 89 88 97 122 131 135</td></tr><tr><td colspan=\"2\">So- dium ad- sorp- tion ratio</td><td>0.1 .1 .1 .1 .1 .2 .1 .1 .1 .2 .2 .2</td></tr><tr><td rowspan=\"2\">Hardness CaCO3 as</td><td>Non- car- bon- ate</td><td>3 3 3 3 2 1 3 4 2 3 2 4</td></tr><tr><td>Cal- cium, Mag- ne- sium</td><td>69 37 47 44 41 41 44 45 46 60 64 66</td></tr><tr><td rowspan=\"3\">solids\nDissolved (calculated)</td><td>Tons per day</td><td>288 42.5</td></tr><tr><td>Tons per acre- foot</td><td>0.08 .11</td></tr><tr><td>Parts per million</td><td>60 78</td></tr><tr><td colspan=\"2\">Bo- ron (B)</td><td>0.1 .0 .0 .0 .0 .1 .0 .0 .0 .0 .0 .2</td></tr><tr><td colspan=\"2\">Ni- trate (NO)</td><td>3.1 ,1</td></tr><tr><td colspan=\"2\">Fluo- ride (F)</td><td>0.0</td></tr><tr><td colspan=\"2\">Chloride (C1)</td><td>2.8 1.8 .5 3.0 2.0 2.0 4.0 1.0 1.0 1.5 1.0 2.7</td></tr><tr><td colspan=\"2\">Sulfate (SO.)</td><td>3.0 3.0</td></tr><tr><td colspan=\"2\">Car- bon- ate (CO2)</td><td>0 0 0 0 0 0 0 0 0 0 1 0</td></tr><tr><td colspan=\"2\">Bi- car- bon- ate (HCO)</td><td>81 42 54 50 48 49 49 50 54 70 74 76</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Po- tas- sium (K)\nSodium (Na)</td><td>0.3 .2</td></tr><tr><td>2.6 1.4 1.7 1.4 1.9 2.2 2.0 1.6 2.4 3.5 2.8 3.0</td></tr><tr><td colspan=\"2\">Mag- ne- sium (Mg)</td><td>7.1 11</td></tr><tr><td colspan=\"2\">Cal- clum (Ca)</td><td>6.4 8.4</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Iron (Fe)\nSilica (SIO)</td><td></td></tr><tr><td>13 12</td></tr><tr><td colspan=\"2\">Mean discharge (cfs)</td><td>212 14000 3540 4200 3040 5830 2280 1780 1060 540 295 202</td></tr><tr><td colspan=\"2\">Date of collection</td><td>1963 1964\n3, 14 10 15, 12 11 15 13 4 15 11 16\nOct. Nov. Dec. Jan. Feb. Mar. Apr. May June July Aug. Sept.</td></tr></table>",
+                "embed": "<table><tr><th colspan=\"2\">pH</th><th>8.0 7.7 7.8 8.2 8.0 8.1 8.3 7.8 8.2 8.2 8,3 8.1</th></tr><tr><td colspan=\"2\">Specific con- duct- ance (micro- mhos at 25\u00b0C)</td><td>141 77 97 91 87 88 89 88 97 122 131 135</td></tr><tr><td colspan=\"2\">So- dium ad- sorp- tion ratio</td><td>0.1 .1 .1 .1 .1 .2 .1 .1 .1 .2 .2 .2</td></tr><tr><td rowspan=\"2\">Hardness CaCO3 as</td><td>Non- car- bon- ate</td><td>3 3 3 3 2 1 3 4 2 3 2 4</td></tr><tr><td>Cal- cium, Mag- ne- sium</td><td>69 37 47 44 41 41 44 45 46 60 64 66</td></tr><tr><td rowspan=\"3\">solids\nDissolved (calculated)</td><td>Tons per day</td><td>288 42.5</td></tr><tr><td>Tons per acre- foot</td><td>0.08 .11</td></tr><tr><td>Parts per million</td><td>60 78</td></tr><tr><td colspan=\"2\">Bo- ron (B)</td><td>0.1 .0 .0 .0 .0 .1 .0 .0 .0 .0 .0 .2</td></tr><tr><td colspan=\"2\">Ni- trate (NO)</td><td>3.1 ,1</td></tr><tr><td colspan=\"2\">Fluo- ride (F)</td><td>0.0</td></tr><tr><td colspan=\"2\">Chloride (C1)</td><td>2.8 1.8 .5 3.0 2.0 2.0 4.0 1.0 1.0 1.5 1.0 2.7</td></tr><tr><td colspan=\"2\">Sulfate (SO.)</td><td>3.0 3.0</td></tr><tr><td colspan=\"2\">Car- bon- ate (CO2)</td><td>0 0 0 0 0 0 0 0 0 0 1 0</td></tr><tr><td colspan=\"2\">Bi- car- bon- ate (HCO)</td><td>81 42 54 50 48 49 49 50 54 70 74 76</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Po- tas- sium (K)\nSodium (Na)</td><td>0.3 .2</td></tr><tr><td>2.6 1.4 1.7 1.4 1.9 2.2 2.0 1.6 2.4 3.5 2.8 3.0</td></tr><tr><td colspan=\"2\">Mag- ne- sium (Mg)</td><td>7.1 11</td></tr><tr><td colspan=\"2\">Cal- clum (Ca)</td><td>6.4 8.4</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Iron (Fe)\nSilica (SIO)</td><td></td></tr><tr><td>13 12</td></tr><tr><td colspan=\"2\">Mean discharge (cfs)</td><td>212 14000 3540 4200 3040 5830 2280 1780 1060 540 295 202</td></tr><tr><td colspan=\"2\">Date of collection</td><td>1963 1964\n3, 14 10 15, 12 11 15 13 4 15 11 16\nOct. Nov. Dec. Jan. Feb. Mar. Apr. May June July Aug. Sept.</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.37743963711503625,
+                            "top": 0.07722206130047468,
+                            "width": 0.33114823051120923,
+                            "height": 0.8160522724514029,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th colspan=\"2\">pH</th><th>8.0 7.7 7.8 8.2 8.0 8.1 8.3 7.8 8.2 8.2 8,3 8.1</th></tr><tr><td colspan=\"2\">Specific con- duct- ance (micro- mhos at 25\u00b0C)</td><td>141 77 97 91 87 88 89 88 97 122 131 135</td></tr><tr><td colspan=\"2\">So- dium ad- sorp- tion ratio</td><td>0.1 .1 .1 .1 .1 .2 .1 .1 .1 .2 .2 .2</td></tr><tr><td rowspan=\"2\">Hardness CaCO3 as</td><td>Non- car- bon- ate</td><td>3 3 3 3 2 1 3 4 2 3 2 4</td></tr><tr><td>Cal- cium, Mag- ne- sium</td><td>69 37 47 44 41 41 44 45 46 60 64 66</td></tr><tr><td rowspan=\"3\">solids\nDissolved (calculated)</td><td>Tons per day</td><td>288 42.5</td></tr><tr><td>Tons per acre- foot</td><td>0.08 .11</td></tr><tr><td>Parts per million</td><td>60 78</td></tr><tr><td colspan=\"2\">Bo- ron (B)</td><td>0.1 .0 .0 .0 .0 .1 .0 .0 .0 .0 .0 .2</td></tr><tr><td colspan=\"2\">Ni- trate (NO)</td><td>3.1 ,1</td></tr><tr><td colspan=\"2\">Fluo- ride (F)</td><td>0.0</td></tr><tr><td colspan=\"2\">Chloride (C1)</td><td>2.8 1.8 .5 3.0 2.0 2.0 4.0 1.0 1.0 1.5 1.0 2.7</td></tr><tr><td colspan=\"2\">Sulfate (SO.)</td><td>3.0 3.0</td></tr><tr><td colspan=\"2\">Car- bon- ate (CO2)</td><td>0 0 0 0 0 0 0 0 0 0 1 0</td></tr><tr><td colspan=\"2\">Bi- car- bon- ate (HCO)</td><td>81 42 54 50 48 49 49 50 54 70 74 76</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Po- tas- sium (K)\nSodium (Na)</td><td>0.3 .2</td></tr><tr><td>2.6 1.4 1.7 1.4 1.9 2.2 2.0 1.6 2.4 3.5 2.8 3.0</td></tr><tr><td colspan=\"2\">Mag- ne- sium (Mg)</td><td>7.1 11</td></tr><tr><td colspan=\"2\">Cal- clum (Ca)</td><td>6.4 8.4</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Iron (Fe)\nSilica (SIO)</td><td></td></tr><tr><td>13 12</td></tr><tr><td colspan=\"2\">Mean discharge (cfs)</td><td>212 14000 3540 4200 3040 5830 2280 1780 1060 540 295 202</td></tr><tr><td colspan=\"2\">Date of collection</td><td>1963 1964\n3, 14 10 15, 12 11 15 13 4 15 11 16\nOct. Nov. Dec. Jan. Feb. Mar. Apr. May June July Aug. Sept.</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Chemical analyses, in parts per million, water year October 1963 to September 1964",
+                "embed": "Chemical analyses, in parts per million, water year October 1963 to September 1964",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.36835748792270534,
+                            "top": 0.27300037551633494,
+                            "width": 0.013888888888888888,
+                            "height": 0.41344348479158843,
+                            "page": 1
+                        },
+                        "content": "Chemical analyses, in parts per million, water year October 1963 to September 1964",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

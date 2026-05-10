@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "San Gabriel River",
+        "County": "Los Angeles County",
+        "Location": "near Azusa, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 34.1138,
+        "Longitude": -117.8977,
+        "Dates_of_Recording": "01/01/1907-12/31/1908",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "San Gabriel Power Canal",
+        "County": "Los Angeles County",
+        "Location": "near Azusa, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 34.1138,
+        "Longitude": -117.8977,
+        "Dates_of_Recording": "01/01/1907-12/31/1908",
+        "Water_Type": "Irrigation"
+    }
+]
+```

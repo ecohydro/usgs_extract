@@ -1,0 +1,78 @@
+{
+    "job_id": "5e8c534c-4626-4937-acf2-760cdc119278",
+    "duration": 4.196459770202637,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/8e574333-ee10-4a89-9f65-47d6e5f1ecbb?AWSAccessKeyId=ASIA2UOK6OVBITBZ7ZCE&Signature=1jws4TGzZBTDdXLtXRel9GfVNDs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCr1KON4%2FX2WMs4dGX7YcJdQ3KOANHSC9mPV3GF%2BBs2WgIhAJoKo8cZ0M4ITDKSskg8ulUU%2BG6WCZG9LkGf5swpFHSdKpQFCLv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzMxMTA2OTMyMDM0IgxGAK9v5PJ0D8RAas4q6ATxYBMlO1zpj%2F6VeiWIuxMUfeJeOFZYlpJqshhp0E%2BllN9y%2FrkR9Bd9HUPFciHmGjq7qi7O4Y1gybOwoifi1p0XKIvXtUf%2F70FL0RwEA7Nocg744vBSa0bEAALTVrhNHvcWSnTIqkcoYLAouRVFqd4fI3jkVvT2s5CPsWoJpDPp%2BJZsy%2F7%2Fwc9oNrORVHK38k4qHf%2BbI0KDeVUNpEWeALWO4J3m8LRj2WJ8HMD9%2FZZ0tg1OBaMfwd1%2FYYObGm8yfSB%2Bh%2BL4ZIo52yBVNEcdBS5dqqZb2wdxlNGTwngSM4LWwkX4PsUglKFRkf6a9j9HdN9K1xZie5lmTwI09dXvlfuz9wB0kI73q2N4VFOCh8OZl%2FJ6CVkJ67ZCdOub28QeqGJmsy4ZOANl%2FPjJ%2Bg67sJWF%2BrHFio8p7iDl%2FnNJ6JTx6g33gx2yvQL22acnPRPm1j3VZFH2%2FZMlOlAohgWT%2FMR0GcamlnSIWG7pVNvTVsb6k8NeLnabmSRrHZ2fID3uypYNkbuZoshXZCgtBYQMpzBHagg2Qf9YICZjVEgIay%2Bun9lwsnDUiNMxNHm1P0B85l%2BVw9gymzSzpFU73UmvGcxNv4MUIH7MqQX8AJkSR66e4YzYuR%2BPumLpBWcuRkBGDwfNPMNEqwEU5monp%2F6wZYZb4QPKXcuTPYduVzn5aJSBM0DORWNV6JLFyfAJBDLRiaAi7F7T5RE1qkCY6A9G4OvMMHxjmr8qV5eDjmq2gf1xw3H3jokUy2j7mu3GnN1FfYoYfBYizZLOiT93b4J0P7KgdXvdeRu9yPUd3CUtAj8isGsa08sHHEJ5MIv4iLwGOpoBeL6GvPfXUyZIOTQ%2BDFUw6wBntaUXUhN%2BPnViDpKVJm3mtfORQIkPtpXeE6VeexZ14bNbRBOqjEDDQVBv6dGngIsV7vg8IKxEvo2TTYIqjJw45Lmll30P4d0dPEzKKgAwXjs7DQkuOZm99d%2B8Zk1suZgkL%2FMD70BSg2Lww0Ywh3b%2FDZCImOKXJRCJmbSsoQ8ap1gLkI%2FVq4f9Ow%3D%3D&Expires=1736594504",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TABLE 1. - - Pumpages in acre-feet in part of the San Joaquin Valley, California--Continued\n\n<table><tr><th>Location</th><th></th><th colspan=\"3\">Acre-feet, rounded to three\nsignificant figures</th></tr><tr><td></td><td></td><td>1975</td><td>1976</td><td>1977</td></tr><tr><td colspan=\"5\">MOUNT DIABLO BASE LINE AND MERIDIAN</td></tr><tr><td>T. 30 S. , R. 27 E.</td><td></td><td>29000</td><td>23300</td><td>39000</td></tr><tr><td>28 E.</td><td></td><td>19600</td><td>16500</td><td>25800</td></tr><tr><td>29 E.</td><td></td><td>36100</td><td>39900</td><td>48200</td></tr><tr><td>30 E.</td><td></td><td>3920</td><td>3470</td><td>6030</td></tr><tr><td>T. 31 S. , R. 24 E.</td><td></td><td>4430</td><td>4720</td><td>4580</td></tr><tr><td>25 E.</td><td></td><td>6900</td><td>18300</td><td>27200</td></tr><tr><td>26 E.</td><td></td><td>34600</td><td>22400</td><td>43200</td></tr><tr><td>27 E.</td><td></td><td>58000</td><td>47600</td><td>83000</td></tr><tr><td>28 E.</td><td></td><td>38100</td><td>29300</td><td>47000</td></tr><tr><td>29 E.</td><td></td><td>56200</td><td>58300</td><td>71900</td></tr><tr><td>30 E.</td><td></td><td>11600</td><td>10400</td><td>12900</td></tr><tr><td>T. 32 S. , R. 23 E.</td><td></td><td>0</td><td>0</td><td>58</td></tr><tr><td>24 E.</td><td></td><td>2660</td><td>3840</td><td>2060</td></tr><tr><td>25 E.</td><td></td><td>4980</td><td>10700</td><td>12700</td></tr><tr><td>26 E.</td><td></td><td>25800</td><td>14000</td><td>34600</td></tr><tr><td>27 E.</td><td></td><td>16400</td><td>15700</td><td>20000</td></tr><tr><td>28 E.</td><td></td><td>38700</td><td>33300</td><td>45300</td></tr><tr><td>29 E.</td><td></td><td>39300</td><td>39100</td><td>46300</td></tr><tr><td>30 E.</td><td></td><td>30</td><td>59</td><td>75</td></tr><tr><td colspan=\"5\">SAN BERNARDINO BASE LINE AND MERIDIAN</td></tr><tr><td>Tps. 11 &amp; 12 N. 18 W.</td><td></td><td>8940</td><td>7710</td><td>13400</td></tr><tr><td></td><td>19 W.</td><td>36100</td><td>29400</td><td>46800</td></tr><tr><td></td><td>20 W.</td><td>15300</td><td>17800</td><td>25300</td></tr><tr><td></td><td>21 W.</td><td>4980</td><td>5720</td><td>8860</td></tr><tr><td></td><td>22 W.</td><td>1580</td><td>1990</td><td>4620</td></tr><tr><td></td><td>23 W.</td><td>753</td><td>1700</td><td>1350</td></tr></table>",
+                "embed": "# TABLE 1. - - Pumpages in acre-feet in part of the San Joaquin Valley, California--Continued\n\n<table><tr><th>Location</th><th></th><th colspan=\"3\">Acre-feet, rounded to three\nsignificant figures</th></tr><tr><td></td><td></td><td>1975</td><td>1976</td><td>1977</td></tr><tr><td colspan=\"5\">MOUNT DIABLO BASE LINE AND MERIDIAN</td></tr><tr><td>T. 30 S. , R. 27 E.</td><td></td><td>29000</td><td>23300</td><td>39000</td></tr><tr><td>28 E.</td><td></td><td>19600</td><td>16500</td><td>25800</td></tr><tr><td>29 E.</td><td></td><td>36100</td><td>39900</td><td>48200</td></tr><tr><td>30 E.</td><td></td><td>3920</td><td>3470</td><td>6030</td></tr><tr><td>T. 31 S. , R. 24 E.</td><td></td><td>4430</td><td>4720</td><td>4580</td></tr><tr><td>25 E.</td><td></td><td>6900</td><td>18300</td><td>27200</td></tr><tr><td>26 E.</td><td></td><td>34600</td><td>22400</td><td>43200</td></tr><tr><td>27 E.</td><td></td><td>58000</td><td>47600</td><td>83000</td></tr><tr><td>28 E.</td><td></td><td>38100</td><td>29300</td><td>47000</td></tr><tr><td>29 E.</td><td></td><td>56200</td><td>58300</td><td>71900</td></tr><tr><td>30 E.</td><td></td><td>11600</td><td>10400</td><td>12900</td></tr><tr><td>T. 32 S. , R. 23 E.</td><td></td><td>0</td><td>0</td><td>58</td></tr><tr><td>24 E.</td><td></td><td>2660</td><td>3840</td><td>2060</td></tr><tr><td>25 E.</td><td></td><td>4980</td><td>10700</td><td>12700</td></tr><tr><td>26 E.</td><td></td><td>25800</td><td>14000</td><td>34600</td></tr><tr><td>27 E.</td><td></td><td>16400</td><td>15700</td><td>20000</td></tr><tr><td>28 E.</td><td></td><td>38700</td><td>33300</td><td>45300</td></tr><tr><td>29 E.</td><td></td><td>39300</td><td>39100</td><td>46300</td></tr><tr><td>30 E.</td><td></td><td>30</td><td>59</td><td>75</td></tr><tr><td colspan=\"5\">SAN BERNARDINO BASE LINE AND MERIDIAN</td></tr><tr><td>Tps. 11 &amp; 12 N. 18 W.</td><td></td><td>8940</td><td>7710</td><td>13400</td></tr><tr><td></td><td>19 W.</td><td>36100</td><td>29400</td><td>46800</td></tr><tr><td></td><td>20 W.</td><td>15300</td><td>17800</td><td>25300</td></tr><tr><td></td><td>21 W.</td><td>4980</td><td>5720</td><td>8860</td></tr><tr><td></td><td>22 W.</td><td>1580</td><td>1990</td><td>4620</td></tr><tr><td></td><td>23 W.</td><td>753</td><td>1700</td><td>1350</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.16325727773406767,
+                            "top": 0.06475678901820352,
+                            "width": 0.6479150275373722,
+                            "height": 0.027156072814085348,
+                            "page": 1
+                        },
+                        "content": "TABLE 1. - - Pumpages in acre-feet in part of the San Joaquin Valley, California--Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.15844727763034153,
+                            "top": 0.12546062327185448,
+                            "width": 0.6865839324158819,
+                            "height": 0.5882886831385454,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Location</th><th></th><th colspan=\"3\">Acre-feet, rounded to three\nsignificant figures</th></tr><tr><td></td><td></td><td>1975</td><td>1976</td><td>1977</td></tr><tr><td colspan=\"5\">MOUNT DIABLO BASE LINE AND MERIDIAN</td></tr><tr><td>T. 30 S. , R. 27 E.</td><td></td><td>29000</td><td>23300</td><td>39000</td></tr><tr><td>28 E.</td><td></td><td>19600</td><td>16500</td><td>25800</td></tr><tr><td>29 E.</td><td></td><td>36100</td><td>39900</td><td>48200</td></tr><tr><td>30 E.</td><td></td><td>3920</td><td>3470</td><td>6030</td></tr><tr><td>T. 31 S. , R. 24 E.</td><td></td><td>4430</td><td>4720</td><td>4580</td></tr><tr><td>25 E.</td><td></td><td>6900</td><td>18300</td><td>27200</td></tr><tr><td>26 E.</td><td></td><td>34600</td><td>22400</td><td>43200</td></tr><tr><td>27 E.</td><td></td><td>58000</td><td>47600</td><td>83000</td></tr><tr><td>28 E.</td><td></td><td>38100</td><td>29300</td><td>47000</td></tr><tr><td>29 E.</td><td></td><td>56200</td><td>58300</td><td>71900</td></tr><tr><td>30 E.</td><td></td><td>11600</td><td>10400</td><td>12900</td></tr><tr><td>T. 32 S. , R. 23 E.</td><td></td><td>0</td><td>0</td><td>58</td></tr><tr><td>24 E.</td><td></td><td>2660</td><td>3840</td><td>2060</td></tr><tr><td>25 E.</td><td></td><td>4980</td><td>10700</td><td>12700</td></tr><tr><td>26 E.</td><td></td><td>25800</td><td>14000</td><td>34600</td></tr><tr><td>27 E.</td><td></td><td>16400</td><td>15700</td><td>20000</td></tr><tr><td>28 E.</td><td></td><td>38700</td><td>33300</td><td>45300</td></tr><tr><td>29 E.</td><td></td><td>39300</td><td>39100</td><td>46300</td></tr><tr><td>30 E.</td><td></td><td>30</td><td>59</td><td>75</td></tr><tr><td colspan=\"5\">SAN BERNARDINO BASE LINE AND MERIDIAN</td></tr><tr><td>Tps. 11 &amp; 12 N. 18 W.</td><td></td><td>8940</td><td>7710</td><td>13400</td></tr><tr><td></td><td>19 W.</td><td>36100</td><td>29400</td><td>46800</td></tr><tr><td></td><td>20 W.</td><td>15300</td><td>17800</td><td>25300</td></tr><tr><td></td><td>21 W.</td><td>4980</td><td>5720</td><td>8860</td></tr><tr><td></td><td>22 W.</td><td>1580</td><td>1990</td><td>4620</td></tr><tr><td></td><td>23 W.</td><td>753</td><td>1700</td><td>1350</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 1. - - Pumpages in acre-feet in part of the San Joaquin Valley, California--Continued (cont.)\n\n1 According to the California Department of Water Resources, values are probably overestimated (written commun , 1980) 2Values are from California Department of Water Resources (written commun , 1980). .",
+                "embed": "# TABLE 1. - - Pumpages in acre-feet in part of the San Joaquin Valley, California--Continued (cont.)\n\n1 According to the California Department of Water Resources, values are probably overestimated (written commun , 1980) 2Values are from California Department of Water Resources (written commun , 1980). .",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16483084185680566,
+                            "top": 0.7188898836168308,
+                            "width": 0.6286388670338316,
+                            "height": 0.06087735004476276,
+                            "page": 1
+                        },
+                        "content": "1 According to the California Department of Water Resources, values are probably overestimated (written commun , 1980) 2Values are from California Department of Water Resources (written commun , 1980). .",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.471675845790716,
+                            "top": 0.9310653536257834,
+                            "width": 0.01770259638080252,
+                            "height": 0.009549388242315727,
+                            "page": 1
+                        },
+                        "content": "10",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

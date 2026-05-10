@@ -1,0 +1,282 @@
+{
+    "job_id": "d1803ed2-fd09-416e-a634-be620d8db9a1",
+    "duration": 5.449127912521362,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/521e44a2-78c5-4e05-be9c-73da7bfec8c9?AWSAccessKeyId=ASIA2UOK6OVBNLTC5S5M&Signature=f%2BzX%2FGDxrl5q%2FEV5CoU58cB%2Fdyc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJGMEQCID1w5upfcIKBDTQtQcY1a6pm%2B4ccZ0p8gcEMK6OLdcI3AiBTLXl6LhPzjoDi4XNAA3yRM6fMQaG9g72uGHUPpMmpHCqLBQgiEAAaDDczMTEwNjkzMjAzNCIMTxcoHAEA0Jvgj5W3KugEvJQz%2FAK80FpzNvtlpU%2BdsHD0TFTZ3A3pRj%2FFYWvSoXHgYI6j1js61nE2WEgwjYuiPEf2JLgY6%2BHBfq6N7t%2F3Y4wOP1Etdpq8vITFtZ6fo2M5kSJ325hjyka1RNoysK5gDPFtgZz%2BH8XPf70lMYrTzvOucVTOa0jwm3OlQ0m1XqFmVlYoUAIqDab9S%2FYVOb6vISqaKpc6MII71%2BPwhYOvPK0WFE%2F0BEK%2Bu%2FzCa7uGhRd%2F8LwoaTxld7fC5d%2BX%2BGOUrJMk6NA22XJ3wIwVYP2w6Qp2ccQI6gyarpYM7h7JtqSYfMxmkPGDl7L6VAAkOuVP8%2Bz0%2F814nOLtoS2QznbkBqh7Qcg9Gx0F5zuajRZMRjSVWdjPoAaJ6Vb6u6CJlOS36bKZYvt5Lh91oksITJwQY9brbiLVs%2FWBVrr%2FGs6FIeCLKe7kj6fS8kgzFDktZl1v4SBVdzpOuAsutlBEpEkX8Od4pJHe8RcwYq3ezCtoTftrp9wkGKIQop41l%2FroSaOi7SNriTpcSQItxF3a4pEcGunt6xfbLePR3XGL6kjGMLBxeniZwwZkvsUA4GNg%2BIwkKmEoX%2BncdWxKTG1JSWZdyX%2BJIrroX7eZP0hJ%2BoiBfIYToR5buHcbYf32vcPgQbGFM6NwSzAOD3jzmJEmlQrRWpIMYKzrsvITazxvI9g8B49C8zWVsh9kcKVQMuPUZWtHTj59vPwuJbN%2BviCFTxnl69Asjkf2oKrb%2F59kydzp%2BMv9%2B40aPqfNo%2B0G8DwtGNvNEKH47Ksv%2BK6qK81Kt2GtW02oM6rvabhiZFT7hGlx2Fo%2Bha7HRnRG6DCyjcm6BjqcAfxzmYmHEuOYBk3ZiqxDz%2Fw9XdPIM4BM9JG8sXJzvfGuXcaGTqy7WRHk8JaQ6zzx9DCUUJu79wNGHJ28pVJ5Mv1RfVECeHrObNMf4It1z1qi8%2F6c7YSl5hG3OTTFX%2BStjSv9Xyx6z7GjrokxFfAfK%2B61vif87vv11pmVxdREx1TxfciVGoCGMTThyqtjwsiX1QVCfnAy2qLpJU2xZg%3D%3D&Expires=1733450065",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TULARE LAKE BASIN\n\nLos Gatos Creek above Nunez Canyon near Coalinga, Calif.",
+                "embed": "# TULARE LAKE BASIN\n\nLos Gatos Creek above Nunez Canyon near Coalinga, Calif.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.12179487179487179,
+                            "top": 0.04142692750287687,
+                            "width": 0.027564102564102563,
+                            "height": 0.008438818565400843,
+                            "page": 1
+                        },
+                        "content": "254",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4634615384615385,
+                            "top": 0.04219409282700422,
+                            "width": 0.1608974358974359,
+                            "height": 0.008438818565400843,
+                            "page": 1
+                        },
+                        "content": "TULARE LAKE BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2858974358974359,
+                            "top": 0.07057920981971615,
+                            "width": 0.5243589743589744,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "Los Gatos Creek above Nunez Canyon near Coalinga, Calif.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TULARE LAKE BASIN (cont.)\n\nLocation. Lat 36\u00b012'55\" , long 120\u00b028'10\" on line between SW1 and SE1 of sec. 5, T. 20 S., R. 14 E., on left bank 1.1 miles upstream from Nunez Canyon, 3,0 miles downstream from White Creek and 8 miles northwest of Coalinga.\n\nDrainage area.--95.5 sq mi.\n\nRecords available.--October 1949 to September 1956.\n\nGage -Water-stage recorder. Altitude of gage is 1,100 ft (from topographic map).\n\nAverage discharge years, 2.41 cfs (1,740 acre-ft per year).\n\nExtremes Maximum discharge during year, 681 cfs Jan. 25 (gage height, 3.19 ft), from rating curve extended above 260 cfs by logarithmic plotting; no flow for several months.\n\n1949-56: Maximum discharge, 1,250 cfs Jan. 25, 1952 (gage height, 3.70 ft, from floodmarks), from rating curve extended above 260 cfs by logarithmic plotting; no flow for several months each year.\n\nRemarks Records good except those for periods of doubtful gage-height record, which are fair. No regulation or diversion above station.\n\nRevisions (water years). -WSP 1215: 1950, drainage area.",
+                "embed": "# TULARE LAKE BASIN (cont.)\n\nLocation. Lat 36\u00b012'55\" , long 120\u00b028'10\" on line between SW1 and SE1 of sec. 5, T. 20 S., R. 14 E., on left bank 1.1 miles upstream from Nunez Canyon, 3,0 miles downstream from White Creek and 8 miles northwest of Coalinga.\n\nDrainage area.--95.5 sq mi.\n\nRecords available.--October 1949 to September 1956.\n\nGage -Water-stage recorder. Altitude of gage is 1,100 ft (from topographic map).\n\nAverage discharge years, 2.41 cfs (1,740 acre-ft per year).\n\nExtremes Maximum discharge during year, 681 cfs Jan. 25 (gage height, 3.19 ft), from rating curve extended above 260 cfs by logarithmic plotting; no flow for several months.\n\n1949-56: Maximum discharge, 1,250 cfs Jan. 25, 1952 (gage height, 3.70 ft, from floodmarks), from rating curve extended above 260 cfs by logarithmic plotting; no flow for several months each year.\n\nRemarks Records good except those for periods of doubtful gage-height record, which are fair. No regulation or diversion above station.\n\nRevisions (water years). -WSP 1215: 1950, drainage area.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12564102564102564,
+                            "top": 0.0985807441503644,
+                            "width": 0.8288461538461539,
+                            "height": 0.031837360951285004,
+                            "page": 1
+                        },
+                        "content": "Location. Lat 36\u00b012'55\" , long 120\u00b028'10\" on line between SW1 and SE1 of sec. 5, T. 20 S., R. 14 E., on left bank 1.1 miles upstream from Nunez Canyon, 3,0 miles downstream from White Creek and 8 miles northwest of Coalinga.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12628205128205128,
+                            "top": 0.1380897583429229,
+                            "width": 0.25256410256410255,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "Drainage area.--95.5 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12628205128205128,
+                            "top": 0.15688530878404297,
+                            "width": 0.47692307692307695,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "Records available.--October 1949 to September 1956.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12564102564102564,
+                            "top": 0.17568085922516302,
+                            "width": 0.7673076923076924,
+                            "height": 0.01227464518603759,
+                            "page": 1
+                        },
+                        "content": "Gage -Water-stage recorder. Altitude of gage is 1,100 ft (from topographic map).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12628205128205128,
+                            "top": 0.19485999232834675,
+                            "width": 0.5878205128205128,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "Average discharge years, 2.41 cfs (1,740 acre-ft per year).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12628205128205128,
+                            "top": 0.21442270809359418,
+                            "width": 0.808974358974359,
+                            "height": 0.028001534330648253,
+                            "page": 1
+                        },
+                        "content": "Extremes Maximum discharge during year, 681 cfs Jan. 25 (gage height, 3.19 ft), from rating curve extended above 260 cfs by logarithmic plotting; no flow for several months.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1544871794871795,
+                            "top": 0.2428078250863061,
+                            "width": 0.8070512820512821,
+                            "height": 0.031070195627157654,
+                            "page": 1
+                        },
+                        "content": "1949-56: Maximum discharge, 1,250 cfs Jan. 25, 1952 (gage height, 3.70 ft, from floodmarks), from rating curve extended above 260 cfs by logarithmic plotting; no flow for several months each year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.125,
+                            "top": 0.28154967395473723,
+                            "width": 0.8371794871794872,
+                            "height": 0.020713463751438434,
+                            "page": 1
+                        },
+                        "content": "Remarks Records good except those for periods of doubtful gage-height record, which are fair. No regulation or diversion above station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12564102564102564,
+                            "top": 0.3099347909474492,
+                            "width": 0.533974358974359,
+                            "height": 0.01227464518603759,
+                            "page": 1
+                        },
+                        "content": "Revisions (water years). -WSP 1215: 1950, drainage area.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TULARE LAKE BASIN (cont.)\n\nRating table, water year 1955-56 (gage height, in feet, and discharge, in cubic feet per second)\n\n<table><tr><th>1.15</th><th>0</th><th>1.8</th><th>24</th></tr><tr><td>1.2</td><td>.2</td><td>1.9</td><td>38</td></tr><tr><td>1.3</td><td>.8</td><td>2.0</td><td>62</td></tr><tr><td>1.4</td><td>2.2</td><td>2.2</td><td>125</td></tr><tr><td>1.5</td><td>4,5</td><td>2,4</td><td>194</td></tr><tr><td>1,6</td><td>8.8</td><td>2.6</td><td>278</td></tr><tr><td>1.7</td><td>15</td><td>2,8</td><td>384</td></tr></table>\n\nDischarge, in cubic feet per second, water year October 1955 to September 1956",
+                "embed": "# TULARE LAKE BASIN (cont.)\n\nRating table, water year 1955-56 (gage height, in feet, and discharge, in cubic feet per second)\n\n<table><tr><th>1.15</th><th>0</th><th>1.8</th><th>24</th></tr><tr><td>1.2</td><td>.2</td><td>1.9</td><td>38</td></tr><tr><td>1.3</td><td>.8</td><td>2.0</td><td>62</td></tr><tr><td>1.4</td><td>2.2</td><td>2.2</td><td>125</td></tr><tr><td>1.5</td><td>4,5</td><td>2,4</td><td>194</td></tr><tr><td>1,6</td><td>8.8</td><td>2.6</td><td>278</td></tr><tr><td>1.7</td><td>15</td><td>2,8</td><td>384</td></tr></table>\n\nDischarge, in cubic feet per second, water year October 1955 to September 1956",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2948717948717949,
+                            "top": 0.33141542002301494,
+                            "width": 0.5,
+                            "height": 0.018795550441120062,
+                            "page": 1
+                        },
+                        "content": "Rating table, water year 1955-56 (gage height, in feet, and discharge, in cubic feet per second)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.37599119528745995,
+                            "top": 0.3556600965025053,
+                            "width": 0.33763818985376604,
+                            "height": 0.06261418045916044,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>1.15</th><th>0</th><th>1.8</th><th>24</th></tr><tr><td>1.2</td><td>.2</td><td>1.9</td><td>38</td></tr><tr><td>1.3</td><td>.8</td><td>2.0</td><td>62</td></tr><tr><td>1.4</td><td>2.2</td><td>2.2</td><td>125</td></tr><tr><td>1.5</td><td>4,5</td><td>2,4</td><td>194</td></tr><tr><td>1,6</td><td>8.8</td><td>2.6</td><td>278</td></tr><tr><td>1.7</td><td>15</td><td>2,8</td><td>384</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.21666666666666667,
+                            "top": 0.4234752589182969,
+                            "width": 0.6621794871794872,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "Discharge, in cubic feet per second, water year October 1955 to September 1956",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TULARE LAKE BASIN (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td></td><td>o</td><td>13</td><td>15</td><td>3.2</td><td>1.6</td><td>0,8</td><td>0.1</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>o</td><td>14</td><td>13</td><td>2.8</td><td>1,6</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>O</td><td>7.8</td><td>11</td><td>2,8</td><td>1.3</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>o</td><td>*5.2</td><td>10</td><td>3.0</td><td>1.2</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td>O</td><td>5.6</td><td>8.8</td><td>3.6</td><td>*1.0</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td>o</td><td>9.8</td><td>8.3</td><td>3.6</td><td>.9</td><td>.9</td><td>.1</td><td></td><td>(*)</td><td></td></tr><tr><td>7</td><td></td><td></td><td>O</td><td>5.2</td><td>7.8</td><td>3.2</td><td>.6</td><td>1,0</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td>*0</td><td>4.5</td><td>7.3</td><td>*3.4</td><td>.7</td><td>1.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td>O</td><td>3.9</td><td>6.8</td><td>3.4</td><td>.7</td><td>*2,4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td>O</td><td>3.0</td><td>6.0</td><td>3.0</td><td>*.7</td><td>2.4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td>o</td><td>2.8</td><td>6.0</td><td>2.8</td><td>2.8</td><td>1.7</td><td>0</td><td></td><td></td><td></td></tr><tr><td>12</td><td></td><td></td><td>o</td><td>2.4</td><td>5.6</td><td>2.6</td><td>4.5</td><td>1.4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td>o</td><td>2.1</td><td>5.6</td><td>2.6</td><td>3.0</td><td>1.2</td><td>*0</td><td></td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td>o</td><td>1.9</td><td>5.2</td><td>2.6</td><td>2.8</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td>(*)</td><td>o</td><td>1.9</td><td>5.2</td><td>2.4</td><td>2.6</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>16</td><td></td><td></td><td>o</td><td>1.7</td><td>4.8</td><td>2.2</td><td>2.2</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>17</td><td></td><td></td><td>o</td><td>1.7</td><td>4.5</td><td>*2.1</td><td>2.1</td><td>.5</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>18</td><td></td><td></td><td>o</td><td>1.6</td><td>4.2</td><td>1.7</td><td>1,6</td><td>.4</td><td>o</td><td></td><td></td><td></td></tr><tr><td>19</td><td></td><td></td><td>o</td><td>1.4</td><td>4.5</td><td>1.7</td><td>1.3</td><td>.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>20</td><td></td><td></td><td>o</td><td>1.9</td><td>4.5</td><td>1,6</td><td>1.0</td><td>.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>21</td><td></td><td></td><td>o</td><td>2.1</td><td>4.5</td><td>1.6</td><td>.9</td><td>.2</td><td>,1</td><td></td><td></td><td></td></tr><tr><td>22</td><td></td><td></td><td>o</td><td>1.4</td><td>4.5</td><td>1.4</td><td>.8</td><td>.1</td><td>0</td><td></td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td>326</td><td>1.3</td><td>*7.3</td><td>1.3</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>24</td><td></td><td></td><td>291</td><td>1.4</td><td>6.0</td><td>1.3</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>25</td><td></td><td></td><td>68</td><td>194</td><td>5.2</td><td>1.2</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>26</td><td></td><td></td><td>71</td><td>108</td><td>4.8</td><td>1.2</td><td>1.7</td><td>,1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>27</td><td></td><td></td><td>34</td><td>110</td><td>3.9</td><td>1.2</td><td>2.1</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>28</td><td></td><td></td><td>21</td><td>36</td><td>3.6</td><td>1.3</td><td>1.6</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>29</td><td></td><td></td><td>19</td><td>30</td><td>3.6</td><td>1.2</td><td>1.3</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>18</td><td>23</td><td></td><td>1.0</td><td>1.2</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>31</td><td></td><td></td><td>*22</td><td>18</td><td></td><td>1.0</td><td></td><td>.1</td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>o</td><td>o</td><td>870</td><td>616.6</td><td>187.5</td><td>68.0</td><td>46.2</td><td>20.6</td><td>1,8</td><td>o</td><td>o</td><td>o</td></tr><tr><td>Mean</td><td>o</td><td>o</td><td>28.1</td><td>19.9</td><td>6.47</td><td>2.19</td><td>1.54</td><td>0.66</td><td>0.06</td><td>0</td><td>o</td><td>o</td></tr><tr><td>Ac-ft</td><td>0</td><td>o</td><td>1,730</td><td>1,220</td><td>372</td><td>135</td><td>92</td><td>41</td><td>3.6</td><td>o</td><td>o</td><td>o</td></tr><tr><td>Calendar</td><td>year</td><td>1955:</td><td>Max 326</td><td></td><td>Min o</td><td>Mean</td><td>2.51</td><td>Ac-ft</td><td>1,820</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year</td><td>-56:</td><td>Max 326</td><td></td><td>Min o</td><td>Mean</td><td>4.95</td><td>Ac-ft</td><td>3,590</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# TULARE LAKE BASIN (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td></td><td>o</td><td>13</td><td>15</td><td>3.2</td><td>1.6</td><td>0,8</td><td>0.1</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>o</td><td>14</td><td>13</td><td>2.8</td><td>1,6</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>O</td><td>7.8</td><td>11</td><td>2,8</td><td>1.3</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>o</td><td>*5.2</td><td>10</td><td>3.0</td><td>1.2</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td>O</td><td>5.6</td><td>8.8</td><td>3.6</td><td>*1.0</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td>o</td><td>9.8</td><td>8.3</td><td>3.6</td><td>.9</td><td>.9</td><td>.1</td><td></td><td>(*)</td><td></td></tr><tr><td>7</td><td></td><td></td><td>O</td><td>5.2</td><td>7.8</td><td>3.2</td><td>.6</td><td>1,0</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td>*0</td><td>4.5</td><td>7.3</td><td>*3.4</td><td>.7</td><td>1.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td>O</td><td>3.9</td><td>6.8</td><td>3.4</td><td>.7</td><td>*2,4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td>O</td><td>3.0</td><td>6.0</td><td>3.0</td><td>*.7</td><td>2.4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td>o</td><td>2.8</td><td>6.0</td><td>2.8</td><td>2.8</td><td>1.7</td><td>0</td><td></td><td></td><td></td></tr><tr><td>12</td><td></td><td></td><td>o</td><td>2.4</td><td>5.6</td><td>2.6</td><td>4.5</td><td>1.4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td>o</td><td>2.1</td><td>5.6</td><td>2.6</td><td>3.0</td><td>1.2</td><td>*0</td><td></td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td>o</td><td>1.9</td><td>5.2</td><td>2.6</td><td>2.8</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td>(*)</td><td>o</td><td>1.9</td><td>5.2</td><td>2.4</td><td>2.6</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>16</td><td></td><td></td><td>o</td><td>1.7</td><td>4.8</td><td>2.2</td><td>2.2</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>17</td><td></td><td></td><td>o</td><td>1.7</td><td>4.5</td><td>*2.1</td><td>2.1</td><td>.5</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>18</td><td></td><td></td><td>o</td><td>1.6</td><td>4.2</td><td>1.7</td><td>1,6</td><td>.4</td><td>o</td><td></td><td></td><td></td></tr><tr><td>19</td><td></td><td></td><td>o</td><td>1.4</td><td>4.5</td><td>1.7</td><td>1.3</td><td>.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>20</td><td></td><td></td><td>o</td><td>1.9</td><td>4.5</td><td>1,6</td><td>1.0</td><td>.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>21</td><td></td><td></td><td>o</td><td>2.1</td><td>4.5</td><td>1.6</td><td>.9</td><td>.2</td><td>,1</td><td></td><td></td><td></td></tr><tr><td>22</td><td></td><td></td><td>o</td><td>1.4</td><td>4.5</td><td>1.4</td><td>.8</td><td>.1</td><td>0</td><td></td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td>326</td><td>1.3</td><td>*7.3</td><td>1.3</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>24</td><td></td><td></td><td>291</td><td>1.4</td><td>6.0</td><td>1.3</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>25</td><td></td><td></td><td>68</td><td>194</td><td>5.2</td><td>1.2</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>26</td><td></td><td></td><td>71</td><td>108</td><td>4.8</td><td>1.2</td><td>1.7</td><td>,1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>27</td><td></td><td></td><td>34</td><td>110</td><td>3.9</td><td>1.2</td><td>2.1</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>28</td><td></td><td></td><td>21</td><td>36</td><td>3.6</td><td>1.3</td><td>1.6</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>29</td><td></td><td></td><td>19</td><td>30</td><td>3.6</td><td>1.2</td><td>1.3</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>18</td><td>23</td><td></td><td>1.0</td><td>1.2</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>31</td><td></td><td></td><td>*22</td><td>18</td><td></td><td>1.0</td><td></td><td>.1</td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>o</td><td>o</td><td>870</td><td>616.6</td><td>187.5</td><td>68.0</td><td>46.2</td><td>20.6</td><td>1,8</td><td>o</td><td>o</td><td>o</td></tr><tr><td>Mean</td><td>o</td><td>o</td><td>28.1</td><td>19.9</td><td>6.47</td><td>2.19</td><td>1.54</td><td>0.66</td><td>0.06</td><td>0</td><td>o</td><td>o</td></tr><tr><td>Ac-ft</td><td>0</td><td>o</td><td>1,730</td><td>1,220</td><td>372</td><td>135</td><td>92</td><td>41</td><td>3.6</td><td>o</td><td>o</td><td>o</td></tr><tr><td>Calendar</td><td>year</td><td>1955:</td><td>Max 326</td><td></td><td>Min o</td><td>Mean</td><td>2.51</td><td>Ac-ft</td><td>1,820</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year</td><td>-56:</td><td>Max 326</td><td></td><td>Min o</td><td>Mean</td><td>4.95</td><td>Ac-ft</td><td>3,590</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11574830275315505,
+                            "top": 0.4340341770653529,
+                            "width": 0.8537810692420372,
+                            "height": 0.3903062218306483,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td></td><td></td><td>o</td><td>13</td><td>15</td><td>3.2</td><td>1.6</td><td>0,8</td><td>0.1</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>o</td><td>14</td><td>13</td><td>2.8</td><td>1,6</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>O</td><td>7.8</td><td>11</td><td>2,8</td><td>1.3</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>o</td><td>*5.2</td><td>10</td><td>3.0</td><td>1.2</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td>O</td><td>5.6</td><td>8.8</td><td>3.6</td><td>*1.0</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td>o</td><td>9.8</td><td>8.3</td><td>3.6</td><td>.9</td><td>.9</td><td>.1</td><td></td><td>(*)</td><td></td></tr><tr><td>7</td><td></td><td></td><td>O</td><td>5.2</td><td>7.8</td><td>3.2</td><td>.6</td><td>1,0</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td>*0</td><td>4.5</td><td>7.3</td><td>*3.4</td><td>.7</td><td>1.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td>O</td><td>3.9</td><td>6.8</td><td>3.4</td><td>.7</td><td>*2,4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td>O</td><td>3.0</td><td>6.0</td><td>3.0</td><td>*.7</td><td>2.4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td>o</td><td>2.8</td><td>6.0</td><td>2.8</td><td>2.8</td><td>1.7</td><td>0</td><td></td><td></td><td></td></tr><tr><td>12</td><td></td><td></td><td>o</td><td>2.4</td><td>5.6</td><td>2.6</td><td>4.5</td><td>1.4</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td>o</td><td>2.1</td><td>5.6</td><td>2.6</td><td>3.0</td><td>1.2</td><td>*0</td><td></td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td>o</td><td>1.9</td><td>5.2</td><td>2.6</td><td>2.8</td><td>.8</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td>(*)</td><td>o</td><td>1.9</td><td>5.2</td><td>2.4</td><td>2.6</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>16</td><td></td><td></td><td>o</td><td>1.7</td><td>4.8</td><td>2.2</td><td>2.2</td><td>.6</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>17</td><td></td><td></td><td>o</td><td>1.7</td><td>4.5</td><td>*2.1</td><td>2.1</td><td>.5</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>18</td><td></td><td></td><td>o</td><td>1.6</td><td>4.2</td><td>1.7</td><td>1,6</td><td>.4</td><td>o</td><td></td><td></td><td></td></tr><tr><td>19</td><td></td><td></td><td>o</td><td>1.4</td><td>4.5</td><td>1.7</td><td>1.3</td><td>.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>20</td><td></td><td></td><td>o</td><td>1.9</td><td>4.5</td><td>1,6</td><td>1.0</td><td>.3</td><td>.1</td><td></td><td></td><td></td></tr><tr><td>21</td><td></td><td></td><td>o</td><td>2.1</td><td>4.5</td><td>1.6</td><td>.9</td><td>.2</td><td>,1</td><td></td><td></td><td></td></tr><tr><td>22</td><td></td><td></td><td>o</td><td>1.4</td><td>4.5</td><td>1.4</td><td>.8</td><td>.1</td><td>0</td><td></td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td>326</td><td>1.3</td><td>*7.3</td><td>1.3</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>24</td><td></td><td></td><td>291</td><td>1.4</td><td>6.0</td><td>1.3</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>25</td><td></td><td></td><td>68</td><td>194</td><td>5.2</td><td>1.2</td><td>.8</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>26</td><td></td><td></td><td>71</td><td>108</td><td>4.8</td><td>1.2</td><td>1.7</td><td>,1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>27</td><td></td><td></td><td>34</td><td>110</td><td>3.9</td><td>1.2</td><td>2.1</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>28</td><td></td><td></td><td>21</td><td>36</td><td>3.6</td><td>1.3</td><td>1.6</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>29</td><td></td><td></td><td>19</td><td>30</td><td>3.6</td><td>1.2</td><td>1.3</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>18</td><td>23</td><td></td><td>1.0</td><td>1.2</td><td>.1</td><td>o</td><td></td><td></td><td></td></tr><tr><td>31</td><td></td><td></td><td>*22</td><td>18</td><td></td><td>1.0</td><td></td><td>.1</td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>o</td><td>o</td><td>870</td><td>616.6</td><td>187.5</td><td>68.0</td><td>46.2</td><td>20.6</td><td>1,8</td><td>o</td><td>o</td><td>o</td></tr><tr><td>Mean</td><td>o</td><td>o</td><td>28.1</td><td>19.9</td><td>6.47</td><td>2.19</td><td>1.54</td><td>0.66</td><td>0.06</td><td>0</td><td>o</td><td>o</td></tr><tr><td>Ac-ft</td><td>0</td><td>o</td><td>1,730</td><td>1,220</td><td>372</td><td>135</td><td>92</td><td>41</td><td>3.6</td><td>o</td><td>o</td><td>o</td></tr><tr><td>Calendar</td><td>year</td><td>1955:</td><td>Max 326</td><td></td><td>Min o</td><td>Mean</td><td>2.51</td><td>Ac-ft</td><td>1,820</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year</td><td>-56:</td><td>Max 326</td><td></td><td>Min o</td><td>Mean</td><td>4.95</td><td>Ac-ft</td><td>3,590</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TULARE LAKE BASIN (cont.)\n\nPeak discharge (base, 40 cfs) .--Dec. 23 (6 a.m.) 592 cfs (3.09 ft); Dec. 26 (4 p.m.) 172 cfs (2.34 ft); Dec. 31 (6 a.m.) 187 cfs (2.38 ft); Jan. 25 (9 a.m.) 681 cfs (3.19 ft).\n\n* Discharge measurement or observation of no flow made on this day.\n\nNote --Doubtful gage-height record, Dec. 23-31, Feb. 4-23; discharge computed from reconstructed graph based on recorded graph and weather records.",
+                "embed": "# TULARE LAKE BASIN (cont.)\n\nPeak discharge (base, 40 cfs) .--Dec. 23 (6 a.m.) 592 cfs (3.09 ft); Dec. 26 (4 p.m.) 172 cfs (2.34 ft); Dec. 31 (6 a.m.) 187 cfs (2.38 ft); Jan. 25 (9 a.m.) 681 cfs (3.19 ft).\n\n* Discharge measurement or observation of no flow made on this day.\n\nNote --Doubtful gage-height record, Dec. 23-31, Feb. 4-23; discharge computed from reconstructed graph based on recorded graph and weather records.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12179487179487179,
+                            "top": 0.8250863060989643,
+                            "width": 0.8365384615384616,
+                            "height": 0.019179133103183737,
+                            "page": 1
+                        },
+                        "content": "Peak discharge (base, 40 cfs) .--Dec. 23 (6 a.m.) 592 cfs (3.09 ft); Dec. 26 (4 p.m.) 172 cfs (2.34 ft); Dec. 31 (6 a.m.) 187 cfs (2.38 ft); Jan. 25 (9 a.m.) 681 cfs (3.19 ft).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13782051282051283,
+                            "top": 0.8423475258918297,
+                            "width": 0.5641025641025641,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "* Discharge measurement or observation of no flow made on this day.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12051282051282051,
+                            "top": 0.8507863444572306,
+                            "width": 0.8301282051282052,
+                            "height": 0.01802838511699271,
+                            "page": 1
+                        },
+                        "content": "Note --Doubtful gage-height record, Dec. 23-31, Feb. 4-23; discharge computed from reconstructed graph based on recorded graph and weather records.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

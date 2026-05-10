@@ -1,0 +1,90 @@
+{
+    "job_id": "50bd323c-5b09-4e72-b570-79f6247c724a",
+    "duration": 6.284231185913086,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5f40e150-570c-463c-beea-54bf0ab2be67?AWSAccessKeyId=ASIA2UOK6OVBBGOES5H3&Signature=fBmcAGYsScCOzaoRDDk0mAFuv0M%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCICwuylf58yN0rdda9LsvoItfTpkYbS8XJcsll2L6AnGgAiAD3IrIZAcX7gX0APPXeU5JlrRl4R3xdUE2GGU%2BNmULDiqLBQglEAAaDDczMTEwNjkzMjAzNCIMICp7ZCnixgC9jQuzKugE7faQU63Vi2QoJdQ50eT4m51Z9ShqSBO2dAvDaztnaaXQgEhy1ZiYo%2FnMdqOXxflT9jSOIuEaWW6NGzwt%2Fon8a0mQkpAV2XOy3G8m7wmSs4DqEd%2Bi81LtmfWZpjRmPniXojkU7UnCdtElc%2B%2BK%2Fz0ot8ta9XZwNGHwRpVlt8xxpoynSKBbO61%2FdaCWV2cINaCuoTJWBzLyLVv4gJtzbRAXuPE4qxi5VIMlMZQTedz1GRcR56S9R1cI%2FEQvyADFotKtkq87QozpnGdkn0K4ZvwpSJNCDdHNs30ZQOgJ2wggWG9GgcLjSX00zpH2cvpVjjVt1v1C%2BgBftXd7diRu9ON9fgW0%2BawBf8RcxFG%2BncF9hbvDt7Uq7Fvsb8jgEnJo%2FubNxzWJ%2F4LArMkIuBSY%2FdSfzCVx3OVdTfrBklUpXHtoBcTwdP8Y3f1sT%2FO3kXYRjjaOfvQWZVdYF2HdFsg%2FXJJlpc%2FKMwV7UnQa8jbzhlDLFuXBOAOUvT1oSU%2FW4jOpdZ5KqNLQ4oKlBG6xzvA36UGiMRBPOhVnTx7ERdFy0ljbH6mWU%2F1A6hNzDt%2FlJzYh%2Fv4WQ5%2FJmelbRY%2FPSGXQJcW72Sx7Kkxd598ZoSGQL19ytROV8GUdZLPxoblac3YxKyz%2BKtoti9QDZdSIW42AR5%2FgEbZ16M9Uu0wHDFu0N5LmCE37XZyfBSvR5GhSvF17SXMHQr6AI6qPcWCp%2FXSNVaDEOlwgECafTsO7YuazuRQjJnvAiBsArKk25Uspv8Pwo9j7zeZO2Ir%2FP4F6zf%2FmyIq6XVPqekmOLxJZritYzo4hJybOce7%2BqMtcvjCS9Mm6BjqcAS6uKBJMvum8XxXiYdyaIKQPhzmKvzjqKglhF0d%2B5SKzWGzoKoScPYKMSL7h6fPKQX7zfOgAJ1qKgW3ejPJsezdmDSwUOujiAzFWR9Pw%2F%2FrEyafmJDcch%2FwJqctHYbYSUaQKcQ1dOKvm7o36z0u4feu65RyU4gJeig%2FwUs2UTxQtaZqnAcFB9p1u52MGx3JHPgaFuY7Iypzyc%2BvQPg%3D%3D&Expires=1733462452",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF.\n\nTABLE 2. -Annual precipitation, in inches, at Yreka, Montague, and Edgewood, Calif.-Continued\n\n[Data from publications of the U.S. Weather Bureau]",
+                "embed": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF.\n\nTABLE 2. -Annual precipitation, in inches, at Yreka, Montague, and Edgewood, Calif.-Continued\n\n[Data from publications of the U.S. Weather Bureau]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.10018785222291797,
+                            "top": 0.05868814729574223,
+                            "width": 0.028804007514088917,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "14",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.1696931747025673,
+                            "top": 0.06060606060606061,
+                            "width": 0.6856606136505948,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09768315591734503,
+                            "top": 0.09167625623321826,
+                            "width": 0.8309329993738259,
+                            "height": 0.02761795166858458,
+                            "page": 1
+                        },
+                        "content": "TABLE 2. -Annual precipitation, in inches, at Yreka, Montague, and Edgewood, Calif.-Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3030682529743269,
+                            "top": 0.12466436517069429,
+                            "width": 0.419536631183469,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "[Data from publications of the U.S. Weather Bureau]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\n<table><tr><th>Year ending June 30</th><th>Yreka</th><th>Montague</th><th>Edgewood</th></tr><tr><td>1901 -02</td><td>19. 34</td><td></td><td>22. 06</td></tr><tr><td>1902 -03</td><td>16. 12</td><td></td><td></td></tr><tr><td>1903 -04</td><td>31. 29</td><td>21. 71</td><td></td></tr><tr><td>1904 -05</td><td>20. 28</td><td>12. 68</td><td></td></tr><tr><td>1905 -06</td><td>22. 10</td><td>13. 17</td><td></td></tr><tr><td>1906 -07</td><td>25. 54</td><td>15. 60</td><td>26. 71</td></tr><tr><td>1907 -08</td><td></td><td>12. 05</td><td>20. 72</td></tr><tr><td>1908 -09</td><td></td><td>14. 37</td><td>25. 42</td></tr><tr><td>1909 -10</td><td></td><td>10. 11</td><td>16. 46</td></tr><tr><td>1910 -11</td><td></td><td>13. 89</td><td>23. 91</td></tr><tr><td>1911 -12</td><td></td><td>14. 97</td><td>15. 45</td></tr><tr><td>1912 -13</td><td></td><td>13. 69</td><td>14. 80</td></tr><tr><td>1913 -14</td><td></td><td>19. 04</td><td>33. 58</td></tr><tr><td>1914 -15</td><td></td><td>12. 99</td><td>28. 71</td></tr><tr><td>1915 -16</td><td>17. 29</td><td>11. 03</td><td></td></tr><tr><td>1916 -17</td><td>12. 67</td><td>11. 07</td><td></td></tr><tr><td>1917 -18</td><td>11. 08</td><td>7. 93</td><td></td></tr><tr><td>1918 -19</td><td>19. 63</td><td>14. 12</td><td></td></tr><tr><td>1919 -20</td><td>9. 25</td><td>6. 84</td><td></td></tr><tr><td>1920 -21</td><td>21. 96</td><td>16. 16</td><td></td></tr><tr><td>1921 -22</td><td>14. 61</td><td>9. 76</td><td></td></tr><tr><td>1922 -23</td><td>13. 80</td><td>11. 96</td><td></td></tr><tr><td>1923 -24</td><td>7. 89</td><td>6. 74</td><td></td></tr><tr><td>1924 -25</td><td>26. 25</td><td>14. 15</td><td></td></tr><tr><td>1925 -26</td><td>11. 83</td><td>9. 80</td><td></td></tr><tr><td>1926 -27</td><td>27. 38</td><td>20. 51</td><td></td></tr><tr><td>1927 -28</td><td>15. 39</td><td>12. 52</td><td></td></tr><tr><td>1928 -29</td><td>11. 33</td><td>8. 91</td><td></td></tr><tr><td>1929 -30</td><td>14. 88</td><td>12. 16</td><td></td></tr><tr><td>1930 -31</td><td>13. 46</td><td>7. 78</td><td></td></tr><tr><td>1931 -32</td><td>15. 32</td><td>11. 04</td><td></td></tr><tr><td>1932 -33</td><td>13. 75</td><td>7. 81</td><td></td></tr><tr><td>1933 -34</td><td>11. 07</td><td>8. 22</td><td></td></tr><tr><td>1934 -35</td><td>14. 44</td><td>10. 74</td><td></td></tr><tr><td>1935 -36</td><td>19. 81</td><td>12. 90</td><td></td></tr><tr><td>1936 -37</td><td>13. 85</td><td>10. 96</td><td></td></tr><tr><td>1937 -38</td><td>26. 50</td><td>18. 20</td><td></td></tr><tr><td>1938 -39</td><td>10. 16</td><td>6. 35</td><td></td></tr><tr><td>1939 -40</td><td>22. 29</td><td>17. 99</td><td></td></tr><tr><td>1940 -41</td><td>20. 28</td><td>16. 24</td><td></td></tr><tr><td>1941 -42</td><td>23. 63</td><td>17. 13</td><td></td></tr><tr><td>1942 -43</td><td>21. 85</td><td>15. 51</td><td></td></tr><tr><td>1943 -44</td><td>10. 89</td><td>10. 55</td><td></td></tr><tr><td>1944 -45</td><td></td><td>14. 58</td><td></td></tr><tr><td>1945 -46</td><td></td><td>11. 35</td><td></td></tr><tr><td>1946 -47</td><td>11. 61</td><td>8. 86</td><td></td></tr><tr><td>1947 -48</td><td>18. 31</td><td>13. 43</td><td></td></tr><tr><td>1948 -49</td><td>15. 30</td><td>12. 16</td><td></td></tr><tr><td>1949 -50</td><td>14. 21</td><td>9. 25</td><td></td></tr><tr><td>1950 -51</td><td>24. 60</td><td>14. 12</td><td></td></tr><tr><td>1951 -52</td><td>24. 42</td><td>16. 36</td><td></td></tr><tr><td>1952 -53</td><td>24. 23</td><td></td><td></td></tr><tr><td>1953 -54</td><td>20. 50</td><td></td><td></td></tr><tr><td>Average</td><td>17. 49</td><td>12. 20</td><td>20. 42</td></tr></table>",
+                "embed": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\n<table><tr><th>Year ending June 30</th><th>Yreka</th><th>Montague</th><th>Edgewood</th></tr><tr><td>1901 -02</td><td>19. 34</td><td></td><td>22. 06</td></tr><tr><td>1902 -03</td><td>16. 12</td><td></td><td></td></tr><tr><td>1903 -04</td><td>31. 29</td><td>21. 71</td><td></td></tr><tr><td>1904 -05</td><td>20. 28</td><td>12. 68</td><td></td></tr><tr><td>1905 -06</td><td>22. 10</td><td>13. 17</td><td></td></tr><tr><td>1906 -07</td><td>25. 54</td><td>15. 60</td><td>26. 71</td></tr><tr><td>1907 -08</td><td></td><td>12. 05</td><td>20. 72</td></tr><tr><td>1908 -09</td><td></td><td>14. 37</td><td>25. 42</td></tr><tr><td>1909 -10</td><td></td><td>10. 11</td><td>16. 46</td></tr><tr><td>1910 -11</td><td></td><td>13. 89</td><td>23. 91</td></tr><tr><td>1911 -12</td><td></td><td>14. 97</td><td>15. 45</td></tr><tr><td>1912 -13</td><td></td><td>13. 69</td><td>14. 80</td></tr><tr><td>1913 -14</td><td></td><td>19. 04</td><td>33. 58</td></tr><tr><td>1914 -15</td><td></td><td>12. 99</td><td>28. 71</td></tr><tr><td>1915 -16</td><td>17. 29</td><td>11. 03</td><td></td></tr><tr><td>1916 -17</td><td>12. 67</td><td>11. 07</td><td></td></tr><tr><td>1917 -18</td><td>11. 08</td><td>7. 93</td><td></td></tr><tr><td>1918 -19</td><td>19. 63</td><td>14. 12</td><td></td></tr><tr><td>1919 -20</td><td>9. 25</td><td>6. 84</td><td></td></tr><tr><td>1920 -21</td><td>21. 96</td><td>16. 16</td><td></td></tr><tr><td>1921 -22</td><td>14. 61</td><td>9. 76</td><td></td></tr><tr><td>1922 -23</td><td>13. 80</td><td>11. 96</td><td></td></tr><tr><td>1923 -24</td><td>7. 89</td><td>6. 74</td><td></td></tr><tr><td>1924 -25</td><td>26. 25</td><td>14. 15</td><td></td></tr><tr><td>1925 -26</td><td>11. 83</td><td>9. 80</td><td></td></tr><tr><td>1926 -27</td><td>27. 38</td><td>20. 51</td><td></td></tr><tr><td>1927 -28</td><td>15. 39</td><td>12. 52</td><td></td></tr><tr><td>1928 -29</td><td>11. 33</td><td>8. 91</td><td></td></tr><tr><td>1929 -30</td><td>14. 88</td><td>12. 16</td><td></td></tr><tr><td>1930 -31</td><td>13. 46</td><td>7. 78</td><td></td></tr><tr><td>1931 -32</td><td>15. 32</td><td>11. 04</td><td></td></tr><tr><td>1932 -33</td><td>13. 75</td><td>7. 81</td><td></td></tr><tr><td>1933 -34</td><td>11. 07</td><td>8. 22</td><td></td></tr><tr><td>1934 -35</td><td>14. 44</td><td>10. 74</td><td></td></tr><tr><td>1935 -36</td><td>19. 81</td><td>12. 90</td><td></td></tr><tr><td>1936 -37</td><td>13. 85</td><td>10. 96</td><td></td></tr><tr><td>1937 -38</td><td>26. 50</td><td>18. 20</td><td></td></tr><tr><td>1938 -39</td><td>10. 16</td><td>6. 35</td><td></td></tr><tr><td>1939 -40</td><td>22. 29</td><td>17. 99</td><td></td></tr><tr><td>1940 -41</td><td>20. 28</td><td>16. 24</td><td></td></tr><tr><td>1941 -42</td><td>23. 63</td><td>17. 13</td><td></td></tr><tr><td>1942 -43</td><td>21. 85</td><td>15. 51</td><td></td></tr><tr><td>1943 -44</td><td>10. 89</td><td>10. 55</td><td></td></tr><tr><td>1944 -45</td><td></td><td>14. 58</td><td></td></tr><tr><td>1945 -46</td><td></td><td>11. 35</td><td></td></tr><tr><td>1946 -47</td><td>11. 61</td><td>8. 86</td><td></td></tr><tr><td>1947 -48</td><td>18. 31</td><td>13. 43</td><td></td></tr><tr><td>1948 -49</td><td>15. 30</td><td>12. 16</td><td></td></tr><tr><td>1949 -50</td><td>14. 21</td><td>9. 25</td><td></td></tr><tr><td>1950 -51</td><td>24. 60</td><td>14. 12</td><td></td></tr><tr><td>1951 -52</td><td>24. 42</td><td>16. 36</td><td></td></tr><tr><td>1952 -53</td><td>24. 23</td><td></td><td></td></tr><tr><td>1953 -54</td><td>20. 50</td><td></td><td></td></tr><tr><td>Average</td><td>17. 49</td><td>12. 20</td><td>20. 42</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.09180995532700474,
+                            "top": 0.13900471209199391,
+                            "width": 0.8515130355347673,
+                            "height": 0.7700641896928642,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year ending June 30</th><th>Yreka</th><th>Montague</th><th>Edgewood</th></tr><tr><td>1901 -02</td><td>19. 34</td><td></td><td>22. 06</td></tr><tr><td>1902 -03</td><td>16. 12</td><td></td><td></td></tr><tr><td>1903 -04</td><td>31. 29</td><td>21. 71</td><td></td></tr><tr><td>1904 -05</td><td>20. 28</td><td>12. 68</td><td></td></tr><tr><td>1905 -06</td><td>22. 10</td><td>13. 17</td><td></td></tr><tr><td>1906 -07</td><td>25. 54</td><td>15. 60</td><td>26. 71</td></tr><tr><td>1907 -08</td><td></td><td>12. 05</td><td>20. 72</td></tr><tr><td>1908 -09</td><td></td><td>14. 37</td><td>25. 42</td></tr><tr><td>1909 -10</td><td></td><td>10. 11</td><td>16. 46</td></tr><tr><td>1910 -11</td><td></td><td>13. 89</td><td>23. 91</td></tr><tr><td>1911 -12</td><td></td><td>14. 97</td><td>15. 45</td></tr><tr><td>1912 -13</td><td></td><td>13. 69</td><td>14. 80</td></tr><tr><td>1913 -14</td><td></td><td>19. 04</td><td>33. 58</td></tr><tr><td>1914 -15</td><td></td><td>12. 99</td><td>28. 71</td></tr><tr><td>1915 -16</td><td>17. 29</td><td>11. 03</td><td></td></tr><tr><td>1916 -17</td><td>12. 67</td><td>11. 07</td><td></td></tr><tr><td>1917 -18</td><td>11. 08</td><td>7. 93</td><td></td></tr><tr><td>1918 -19</td><td>19. 63</td><td>14. 12</td><td></td></tr><tr><td>1919 -20</td><td>9. 25</td><td>6. 84</td><td></td></tr><tr><td>1920 -21</td><td>21. 96</td><td>16. 16</td><td></td></tr><tr><td>1921 -22</td><td>14. 61</td><td>9. 76</td><td></td></tr><tr><td>1922 -23</td><td>13. 80</td><td>11. 96</td><td></td></tr><tr><td>1923 -24</td><td>7. 89</td><td>6. 74</td><td></td></tr><tr><td>1924 -25</td><td>26. 25</td><td>14. 15</td><td></td></tr><tr><td>1925 -26</td><td>11. 83</td><td>9. 80</td><td></td></tr><tr><td>1926 -27</td><td>27. 38</td><td>20. 51</td><td></td></tr><tr><td>1927 -28</td><td>15. 39</td><td>12. 52</td><td></td></tr><tr><td>1928 -29</td><td>11. 33</td><td>8. 91</td><td></td></tr><tr><td>1929 -30</td><td>14. 88</td><td>12. 16</td><td></td></tr><tr><td>1930 -31</td><td>13. 46</td><td>7. 78</td><td></td></tr><tr><td>1931 -32</td><td>15. 32</td><td>11. 04</td><td></td></tr><tr><td>1932 -33</td><td>13. 75</td><td>7. 81</td><td></td></tr><tr><td>1933 -34</td><td>11. 07</td><td>8. 22</td><td></td></tr><tr><td>1934 -35</td><td>14. 44</td><td>10. 74</td><td></td></tr><tr><td>1935 -36</td><td>19. 81</td><td>12. 90</td><td></td></tr><tr><td>1936 -37</td><td>13. 85</td><td>10. 96</td><td></td></tr><tr><td>1937 -38</td><td>26. 50</td><td>18. 20</td><td></td></tr><tr><td>1938 -39</td><td>10. 16</td><td>6. 35</td><td></td></tr><tr><td>1939 -40</td><td>22. 29</td><td>17. 99</td><td></td></tr><tr><td>1940 -41</td><td>20. 28</td><td>16. 24</td><td></td></tr><tr><td>1941 -42</td><td>23. 63</td><td>17. 13</td><td></td></tr><tr><td>1942 -43</td><td>21. 85</td><td>15. 51</td><td></td></tr><tr><td>1943 -44</td><td>10. 89</td><td>10. 55</td><td></td></tr><tr><td>1944 -45</td><td></td><td>14. 58</td><td></td></tr><tr><td>1945 -46</td><td></td><td>11. 35</td><td></td></tr><tr><td>1946 -47</td><td>11. 61</td><td>8. 86</td><td></td></tr><tr><td>1947 -48</td><td>18. 31</td><td>13. 43</td><td></td></tr><tr><td>1948 -49</td><td>15. 30</td><td>12. 16</td><td></td></tr><tr><td>1949 -50</td><td>14. 21</td><td>9. 25</td><td></td></tr><tr><td>1950 -51</td><td>24. 60</td><td>14. 12</td><td></td></tr><tr><td>1951 -52</td><td>24. 42</td><td>16. 36</td><td></td></tr><tr><td>1952 -53</td><td>24. 23</td><td></td><td></td></tr><tr><td>1953 -54</td><td>20. 50</td><td></td><td></td></tr><tr><td>Average</td><td>17. 49</td><td>12. 20</td><td>20. 42</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

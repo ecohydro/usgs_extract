@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Rio Hondo near Montebello",
+        "County": "Los Angeles County",
+        "Location": "Los Angeles River Basin",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "Cubic feet per second",
+        "Latitude": 34.0333,
+        "Longitude": -118.0833,
+        "Dates_of_Recording": "10/01/1961-09/30/1962",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Colorado River water via Alhambra Wash",
+        "County": "Los Angeles County",
+        "Location": "Rio Hondo basin, 1.6 miles upstream from Rio Hondo near Montebello",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "1961-1962",
+        "Water_Type": "Groundwater recharge"
+    }
+]
+```

@@ -1,0 +1,154 @@
+{
+    "job_id": "778494b2-f0c0-423f-996d-a7293a8ec980",
+    "duration": 4.516498327255249,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/6eef3d22-87ec-46d5-83db-39ed89e0ddb4?AWSAccessKeyId=ASIA2UOK6OVBGJ5NYFL6&Signature=QCJ2fsvoW3DRa%2BRryD22vSH1G%2FU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIQCl1vQwa4BxSsltyV9jptVxiV7usaq9DM0gNouL9J85hQIgYzgXKMo2hbhpFnSrv8LMzPxPInbrN5xWuwbKvBHOsH4qiwUIJBAAGgw3MzExMDY5MzIwMzQiDH8HFnaJNi%2BY8fX4YCroBMqMNjrfmBFzu9PCpeh5meC5zlT74%2Bkcv5syiqAjWp447XNgVsK4l7NodfN0L6s0z5nJcKEeJCkrpmdVym55A3aIe56uZ8pBRMQ2bqgMwN%2BA6o3%2BJrK%2Bc6RYR2SmCn8i%2BgPTLcMjxuTmuw6tRxcV%2FkaP0jofiGvgl0gmFei5mpyLM9fI%2FcyWfhkvVjVuzptxYU6UWW9GyUEeOzAKydZ69sduehym25vZwS%2FyITGWCZDmJnBeQ2PDYpHBj1ueQf74BnOnxrFnbxnHF8M2pdcTmQ2uwuTYR93oGvWblvz%2FgCkvkPRZN2phT2HwkBjn9e8tn9EfMff3wWv6aWL3C24IEsFhwNyUM7n9M3tMcg9ZBknV4PuZhMsKaMN8lNcnNze1mq6ZIAuzEi8vq0PHjT6EHfbPjtMuSHuXoS2fXyyrkKlKTJR9mtyZB1Yoz35S6TTq2U1mQAXYl4JdZq47z1e0cKsm90GAXdve15zd66fqtYUSQsIhj%2FQHLBw9rJZ8a4X7sEF1AtUFnTRlG%2F192Qptk5LKjFlVC4SlNYsYc26iz62wOeSWsN0CmVB6r2jiS7oiRV1MxPnHzcm1WrtpcH4LkTs9CE8A%2BIxbJMb9%2Fe3an0wRfCBYzJeWZqse1THo61p2om6pxPPexja%2FyDpVOuexmXYMoikghqTXUtIFU5EBC1AC3sCjhrv81iKM%2BpavPw7BW2QF6vPAmsGLqdx5ZYnTFz%2Bl2SD0TVsPhs4I1qn7Cb1Vj8i1OCT0jXff9NNBkm6L86xTLFOkMktF72qxsntewL2Z%2FOcL%2F32zzfS6kjxlMwLIl8z4eGeURWQwjs3JugY6mwGjU9IsWRthpVbrmNj%2BCRyXgpbEbUA5MuHzwZWw%2FK9DmRCCnntIPjZFSXZ14iMum6LiSqMbGuVT%2FVFFOcFXiehM0r%2F9jCaAcGrAGdHDG%2FUYJJj%2Bi3QbGLJYYG5bp28etg6fwbBO513WIQgdtkYjCFSDNyFZQ8oyxE19MVxCWLr66pq%2Bgf2YiI7IL7Mbk6P0fQPnmHMjjOm3ZYV1aQ%3D%3D&Expires=1733459455",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA.\n\n# Records of water levels in the valley of southern California-Continued.\n\n122. W. A. Nichols, 11 miles west of Redlands, Redlands quadrangle.\n\n[Bored well, 122 feet deep, 7 inches in diameter; sunk in 1891; method of lift, hand pump; use, domestic. Bench mark: Top of casing, 2.0 feet above surface. Well No. 94, Water-Supply Paper 142, p. 91.]",
+                "embed": "# WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA.\n\n# Records of water levels in the valley of southern California-Continued.\n\n122. W. A. Nichols, 11 miles west of Redlands, Redlands quadrangle.\n\n[Bored well, 122 feet deep, 7 inches in diameter; sunk in 1891; method of lift, hand pump; use, domestic. Bench mark: Top of casing, 2.0 feet above surface. Well No. 94, Water-Supply Paper 142, p. 91.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.13186119873817034,
+                            "top": 0.04065976217874952,
+                            "width": 0.045425867507886436,
+                            "height": 0.013425393172228616,
+                            "page": 1
+                        },
+                        "content": "110",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.22082018927444794,
+                            "top": 0.04296125815113157,
+                            "width": 0.6498422712933754,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.21451104100946372,
+                            "top": 0.07364787111622555,
+                            "width": 0.6637223974763407,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "Records of water levels in the valley of southern California-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.25425867507886435,
+                            "top": 0.09896432681242807,
+                            "width": 0.5873817034700315,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "122. W. A. Nichols, 11 miles west of Redlands, Redlands quadrangle.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13123028391167194,
+                            "top": 0.11814345991561181,
+                            "width": 0.828391167192429,
+                            "height": 0.02109704641350211,
+                            "page": 1
+                        },
+                        "content": "[Bored well, 122 feet deep, 7 inches in diameter; sunk in 1891; method of lift, hand pump; use, domestic. Bench mark: Top of casing, 2.0 feet above surface. Well No. 94, Water-Supply Paper 142, p. 91.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1900.</td><td>Ft. in.</td><td>1914.</td><td>Ft. in.</td></tr><tr><td>October</td><td>54 0</td><td>Oct. 27</td><td>42 3</td></tr><tr><td>1904.</td><td></td><td>1915.</td><td></td></tr><tr><td>October</td><td>70 0</td><td>May 27</td><td>39 0</td></tr><tr><td></td><td></td><td>Nov. 1</td><td>37 3</td></tr><tr><td>1906.</td><td></td><td></td><td></td></tr><tr><td>October</td><td>54 0</td><td>1916.</td><td></td></tr><tr><td></td><td></td><td>June 7</td><td>31 8</td></tr><tr><td>1909.</td><td></td><td>Nov. 16</td><td>27 2</td></tr><tr><td>October</td><td>50 5</td><td></td><td></td></tr><tr><td></td><td></td><td>1917.</td><td></td></tr><tr><td>1912.</td><td></td><td>May 19</td><td>24 7</td></tr><tr><td>Oct. 16 -18</td><td>38 6</td><td>Nov. 24</td><td>23 9</td></tr><tr><td></td><td></td><td>1918.</td><td></td></tr><tr><td></td><td></td><td>May 3</td><td>23 5</td></tr><tr><td></td><td></td><td>Oct. 12</td><td>23 11</td></tr><tr><td></td><td></td><td>1919.</td><td></td></tr><tr><td></td><td></td><td>May 12</td><td>26 0</td></tr><tr><td></td><td></td><td>Nov. 6</td><td>28 7</td></tr><tr><td></td><td></td><td>1920.</td><td></td></tr><tr><td></td><td></td><td>May 17</td><td>31 0</td></tr><tr><td></td><td></td><td>Aug. 25</td><td>30 7</td></tr><tr><td></td><td></td><td>Oct. 29</td><td>31 1</td></tr></table>",
+                "embed": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1900.</td><td>Ft. in.</td><td>1914.</td><td>Ft. in.</td></tr><tr><td>October</td><td>54 0</td><td>Oct. 27</td><td>42 3</td></tr><tr><td>1904.</td><td></td><td>1915.</td><td></td></tr><tr><td>October</td><td>70 0</td><td>May 27</td><td>39 0</td></tr><tr><td></td><td></td><td>Nov. 1</td><td>37 3</td></tr><tr><td>1906.</td><td></td><td></td><td></td></tr><tr><td>October</td><td>54 0</td><td>1916.</td><td></td></tr><tr><td></td><td></td><td>June 7</td><td>31 8</td></tr><tr><td>1909.</td><td></td><td>Nov. 16</td><td>27 2</td></tr><tr><td>October</td><td>50 5</td><td></td><td></td></tr><tr><td></td><td></td><td>1917.</td><td></td></tr><tr><td>1912.</td><td></td><td>May 19</td><td>24 7</td></tr><tr><td>Oct. 16 -18</td><td>38 6</td><td>Nov. 24</td><td>23 9</td></tr><tr><td></td><td></td><td>1918.</td><td></td></tr><tr><td></td><td></td><td>May 3</td><td>23 5</td></tr><tr><td></td><td></td><td>Oct. 12</td><td>23 11</td></tr><tr><td></td><td></td><td>1919.</td><td></td></tr><tr><td></td><td></td><td>May 12</td><td>26 0</td></tr><tr><td></td><td></td><td>Nov. 6</td><td>28 7</td></tr><tr><td></td><td></td><td>1920.</td><td></td></tr><tr><td></td><td></td><td>May 17</td><td>31 0</td></tr><tr><td></td><td></td><td>Aug. 25</td><td>30 7</td></tr><tr><td></td><td></td><td>Oct. 29</td><td>31 1</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12914751215312006,
+                            "top": 0.1496352710438543,
+                            "width": 0.8354212908338673,
+                            "height": 0.36043705151919714,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nbench\nmark.</th></tr><tr><td>1900.</td><td>Ft. in.</td><td>1914.</td><td>Ft. in.</td></tr><tr><td>October</td><td>54 0</td><td>Oct. 27</td><td>42 3</td></tr><tr><td>1904.</td><td></td><td>1915.</td><td></td></tr><tr><td>October</td><td>70 0</td><td>May 27</td><td>39 0</td></tr><tr><td></td><td></td><td>Nov. 1</td><td>37 3</td></tr><tr><td>1906.</td><td></td><td></td><td></td></tr><tr><td>October</td><td>54 0</td><td>1916.</td><td></td></tr><tr><td></td><td></td><td>June 7</td><td>31 8</td></tr><tr><td>1909.</td><td></td><td>Nov. 16</td><td>27 2</td></tr><tr><td>October</td><td>50 5</td><td></td><td></td></tr><tr><td></td><td></td><td>1917.</td><td></td></tr><tr><td>1912.</td><td></td><td>May 19</td><td>24 7</td></tr><tr><td>Oct. 16 -18</td><td>38 6</td><td>Nov. 24</td><td>23 9</td></tr><tr><td></td><td></td><td>1918.</td><td></td></tr><tr><td></td><td></td><td>May 3</td><td>23 5</td></tr><tr><td></td><td></td><td>Oct. 12</td><td>23 11</td></tr><tr><td></td><td></td><td>1919.</td><td></td></tr><tr><td></td><td></td><td>May 12</td><td>26 0</td></tr><tr><td></td><td></td><td>Nov. 6</td><td>28 7</td></tr><tr><td></td><td></td><td>1920.</td><td></td></tr><tr><td></td><td></td><td>May 17</td><td>31 0</td></tr><tr><td></td><td></td><td>Aug. 25</td><td>30 7</td></tr><tr><td></td><td></td><td>Oct. 29</td><td>31 1</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n122a. W. A. Nichols, 11 miles west of Redlands, Redlands quadrangle.\n\nBored well, 284 feet deep, 10 inches in diameter; method of lift, cylinder pump and gasoline engine; use, irrigation. Bench mark: Top of metal casing, at surface. Well No. 95, Water-Supply Paper 142, p. 91. Companion well for No. 122. Record kept by owner; can be measured only when pump rods are pulled.)",
+                "embed": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n122a. W. A. Nichols, 11 miles west of Redlands, Redlands quadrangle.\n\nBored well, 284 feet deep, 10 inches in diameter; method of lift, cylinder pump and gasoline engine; use, irrigation. Bench mark: Top of metal casing, at surface. Well No. 95, Water-Supply Paper 142, p. 91. Companion well for No. 122. Record kept by owner; can be measured only when pump rods are pulled.)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2466876971608833,
+                            "top": 0.5193709244342156,
+                            "width": 0.5993690851735016,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "122a. W. A. Nichols, 11 miles west of Redlands, Redlands quadrangle.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13501577287066246,
+                            "top": 0.5385500575373993,
+                            "width": 0.8258675078864354,
+                            "height": 0.03068661296509398,
+                            "page": 1
+                        },
+                        "content": "Bored well, 284 feet deep, 10 inches in diameter; method of lift, cylinder pump and gasoline engine; use, irrigation. Bench mark: Top of metal casing, at surface. Well No. 95, Water-Supply Paper 142, p. 91. Companion well for No. 122. Record kept by owner; can be measured only when pump rods are pulled.)",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th></tr><tr><td>1899.</td><td>Ft. in.</td><td>1906.</td><td>Ft. in.</td></tr><tr><td>Apr. 9</td><td>39 3</td><td>Feb. 2</td><td>66 6</td></tr><tr><td></td><td></td><td>Oct. 21</td><td>54 0</td></tr><tr><td>1900.</td><td></td><td></td><td></td></tr><tr><td>Feb. 6</td><td>48 9</td><td>1907.</td><td></td></tr><tr><td>June 19</td><td>52 9</td><td>July 12</td><td>44 6</td></tr><tr><td>Aug. 15</td><td>54 9</td><td></td><td></td></tr><tr><td>Aug. 20</td><td>56 2</td><td>1908.</td><td></td></tr><tr><td></td><td></td><td>May 6</td><td>41 10</td></tr><tr><td>1901.</td><td></td><td></td><td></td></tr><tr><td>Nov. 6</td><td>60 6</td><td>1911.</td><td></td></tr><tr><td></td><td></td><td>August</td><td>27 6</td></tr><tr><td>1902.</td><td></td><td>October</td><td>27 0</td></tr><tr><td>Jan. 7</td><td>62 0</td><td></td><td></td></tr><tr><td>Apr. 25</td><td>62 3</td><td>1912.</td><td></td></tr><tr><td>Aug. 13</td><td>66 0</td><td>Nov. 14</td><td>29 6</td></tr><tr><td>1903.</td><td></td><td>1913.</td><td></td></tr><tr><td>May 15</td><td>63 0</td><td>Aug. 30</td><td>36 6</td></tr><tr><td>Nov. 14</td><td>66 5</td><td>1914.</td><td></td></tr><tr><td>1904.</td><td></td><td>Mar. 10</td><td>33 6</td></tr><tr><td>Jan. 26</td><td>68 5</td><td></td><td></td></tr><tr><td>Mar. 18</td><td>69 8</td><td>1915.</td><td></td></tr><tr><td>Apr. 3</td><td>68 10</td><td>July 10</td><td>24 10</td></tr></table>",
+                "embed": "# Records of water levels in the valley of southern California-Continued. (cont.)\n\n<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th></tr><tr><td>1899.</td><td>Ft. in.</td><td>1906.</td><td>Ft. in.</td></tr><tr><td>Apr. 9</td><td>39 3</td><td>Feb. 2</td><td>66 6</td></tr><tr><td></td><td></td><td>Oct. 21</td><td>54 0</td></tr><tr><td>1900.</td><td></td><td></td><td></td></tr><tr><td>Feb. 6</td><td>48 9</td><td>1907.</td><td></td></tr><tr><td>June 19</td><td>52 9</td><td>July 12</td><td>44 6</td></tr><tr><td>Aug. 15</td><td>54 9</td><td></td><td></td></tr><tr><td>Aug. 20</td><td>56 2</td><td>1908.</td><td></td></tr><tr><td></td><td></td><td>May 6</td><td>41 10</td></tr><tr><td>1901.</td><td></td><td></td><td></td></tr><tr><td>Nov. 6</td><td>60 6</td><td>1911.</td><td></td></tr><tr><td></td><td></td><td>August</td><td>27 6</td></tr><tr><td>1902.</td><td></td><td>October</td><td>27 0</td></tr><tr><td>Jan. 7</td><td>62 0</td><td></td><td></td></tr><tr><td>Apr. 25</td><td>62 3</td><td>1912.</td><td></td></tr><tr><td>Aug. 13</td><td>66 0</td><td>Nov. 14</td><td>29 6</td></tr><tr><td>1903.</td><td></td><td>1913.</td><td></td></tr><tr><td>May 15</td><td>63 0</td><td>Aug. 30</td><td>36 6</td></tr><tr><td>Nov. 14</td><td>66 5</td><td>1914.</td><td></td></tr><tr><td>1904.</td><td></td><td>Mar. 10</td><td>33 6</td></tr><tr><td>Jan. 26</td><td>68 5</td><td></td><td></td></tr><tr><td>Mar. 18</td><td>69 8</td><td>1915.</td><td></td></tr><tr><td>Apr. 3</td><td>68 10</td><td>July 10</td><td>24 10</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12860195990240536,
+                            "top": 0.5773949661518268,
+                            "width": 0.8356319006309149,
+                            "height": 0.33177123602021,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th><th>Date of measurement.</th><th>Depth\nof water\nlevel\nbelow\nsurface.</th></tr><tr><td>1899.</td><td>Ft. in.</td><td>1906.</td><td>Ft. in.</td></tr><tr><td>Apr. 9</td><td>39 3</td><td>Feb. 2</td><td>66 6</td></tr><tr><td></td><td></td><td>Oct. 21</td><td>54 0</td></tr><tr><td>1900.</td><td></td><td></td><td></td></tr><tr><td>Feb. 6</td><td>48 9</td><td>1907.</td><td></td></tr><tr><td>June 19</td><td>52 9</td><td>July 12</td><td>44 6</td></tr><tr><td>Aug. 15</td><td>54 9</td><td></td><td></td></tr><tr><td>Aug. 20</td><td>56 2</td><td>1908.</td><td></td></tr><tr><td></td><td></td><td>May 6</td><td>41 10</td></tr><tr><td>1901.</td><td></td><td></td><td></td></tr><tr><td>Nov. 6</td><td>60 6</td><td>1911.</td><td></td></tr><tr><td></td><td></td><td>August</td><td>27 6</td></tr><tr><td>1902.</td><td></td><td>October</td><td>27 0</td></tr><tr><td>Jan. 7</td><td>62 0</td><td></td><td></td></tr><tr><td>Apr. 25</td><td>62 3</td><td>1912.</td><td></td></tr><tr><td>Aug. 13</td><td>66 0</td><td>Nov. 14</td><td>29 6</td></tr><tr><td>1903.</td><td></td><td>1913.</td><td></td></tr><tr><td>May 15</td><td>63 0</td><td>Aug. 30</td><td>36 6</td></tr><tr><td>Nov. 14</td><td>66 5</td><td>1914.</td><td></td></tr><tr><td>1904.</td><td></td><td>Mar. 10</td><td>33 6</td></tr><tr><td>Jan. 26</td><td>68 5</td><td></td><td></td></tr><tr><td>Mar. 18</td><td>69 8</td><td>1915.</td><td></td></tr><tr><td>Apr. 3</td><td>68 10</td><td>July 10</td><td>24 10</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

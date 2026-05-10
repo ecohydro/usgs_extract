@@ -1,0 +1,124 @@
+```json
+[
+    {
+        "Watersource_Name": "Whitewater River",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": ["T. 5 S., R. 7 E."],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "1948-12/31/1967",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "San Gorgonio Pass subbasin",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Snow Creek",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Falls Creek",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Chino Canyon",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Tahquitz Creek",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Palm Canyon",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Deep Creek (Palm Desert)",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Miscellaneous",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Steady-state conditions",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "",
+        "Water_Type": "Groundwater recharge"
+    },
+    {
+        "Watersource_Name": "Colorado River water deliveries through Coachella Canal to secs. 3 and 9, T. 5 S., R. 7 E.",
+        "County": "Riverside County",
+        "Location": "Coachella Valley",
+        "Townships_Ranges_Sections": ["T. 5 S., R. 7 E."],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": 33.9733,
+        "Longitude": -116.0376,
+        "Dates_of_Recording": "1948-12/31/1967",
+        "Water_Type": "Irrigation"
+    }
+]
+```

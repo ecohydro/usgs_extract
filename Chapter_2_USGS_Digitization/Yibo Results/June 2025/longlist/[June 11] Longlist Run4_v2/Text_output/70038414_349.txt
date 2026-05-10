@@ -1,0 +1,15 @@
+```json
+{
+    "Watersource_Name": "Stony Creek",
+    "County": "Glenn County",
+    "Location": {
+        "Latitude": 39.723611,
+        "Longitude": -122.046389
+    },
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "daily",
+    "Units_Of_Measurement": "cubic feet per second (cfs)",
+    "Dates_of_Recording": "10/01/1968-09/30/1969",
+    "Water_Type": "Stream discharge"
+}
+```

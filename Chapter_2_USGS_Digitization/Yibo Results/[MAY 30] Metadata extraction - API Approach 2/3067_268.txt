@@ -1,0 +1,23 @@
+```json
+[
+    {
+        "Watersource_Name": "San Joaquin River at Miller Crossing",
+        "County": "Unknown",
+        "Townships_Ranges_Sections": "NEt sec. 11, T. 5 S., R. 25 E.",
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Latitude": "decimal degrees",
+            "Longitude": "decimal degrees",
+            "Discharge": "cubic feet per second (cfs)",
+            "Drainage_Area": "square miles (sq mi)"
+        },
+        "Latitude": 37.509722,
+        "Longitude": -119.197222,
+        "Dates_of_Recording": {
+            "Start_Date": "October 1921",
+            "End_Date": "September 1956"
+        },
+        "Water_Type": "Stream Discharge"
+    }
+]
+```

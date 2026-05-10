@@ -1,0 +1,122 @@
+{
+    "job_id": "99ef2d64-b095-4378-8cbe-43bb07b7c10d",
+    "duration": 3.6376821994781494,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/65ac4747-71d8-4538-94a2-c28eda4d9180?AWSAccessKeyId=ASIA2UOK6OVBOWHCD7MA&Signature=d6Q%2FR6Ejp8u1qjvmCIqkzoidPII%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIDYQYNTmgTvy2pLYUVhUNXQAJYWs5g8%2B1EBWo%2FEQzqtDAiEAtRrV1kbdyA5N8LbJ1Zd0mCVG1qWaASezXzSO7TOfawkqiwUIJBAAGgw3MzExMDY5MzIwMzQiDGkZMBjQrjGwkeXjbiroBDd1IM9uyTQbYFb%2BvniFwWAI7T0Tqigfw0uB1AzQ2LWUIRM%2FwO1ANAYKXRhon%2Fx6j1SI%2FiKS5sSSCjbszbE9PQViU%2B%2B3mFnBxKIvGt1w5WWMFsxBnWX1OlWDfgCBC%2BXLIVWLYc5NfX3CCVgnRGXBQ1iEc7HHiC7TTBFKr3SLqB1fmSj2X4TqO%2FoLXeHeI61LMLJ3Ekh9GDmjAqFveI2GqrnigWAuFcInEUdufcI9IEs8k4lCvvuZfaG0kdq63c%2FM6E%2Bp9jO59QbYOKLsNcXYomq7jSAfVspnw%2FMytXiAhHAeCW8B0hE5PZtwJP0Ero2PAwOt58EdOFEgqkSn65r%2F4aqlNEKPCmLOEWqE0cBpI37OBoIycFwOYfdSwTEM2tpOMNfQ4o8smZwdQVfF%2FTFYCM1yh%2B%2FzfXhBvQXtQFnl%2BON8Tya%2B6AJd0Ws9IZfc5TovREq3pLJp8MesAFRVC8IompBub6G5xqzU4qMn4yw%2BAOk1D9taPWnox%2BLjPZpPZHdIEQ2Xh4voNusjI6nZmQtvDtF%2Biot3QP6LScfgGCQQgX18QxUs46iZcMmyCboHhrudX9oqCjF6tNGq29l%2BeiBeQ3nGIxgac3xLc4ldmoZOwd1dts0Zyk%2FLoyz9b%2FGNGjn4CUMn7TXWxdYwOcLxkzCJBQCOXgQOO1STGLzD5UlRKJauUumdrvkTLt1Hg5pM9dGmG8hyaVgJgYbx23ZhqAaDNlMhfeledMT8EQ2gSCFobTK22VZviaMnntRasXrTUS7dNKXBkAAp%2FE6zAUhRS%2BynWIp7Xb%2Fjqd3hLW5FLXmY%2BnIMciX6hL0JWmkwzcfJugY6mwEVUZQqf9AXDH6oZg5d%2B%2BfXlD4Zs3FTb3DlO02m1Gppd%2Fdo0F0lc0sszBiSwcvg4w%2FR6x1aBUlfAxONoZ5VbYC8IOqr9fmB9mDZmSl6L32uW9IhxI0Oq2wbQd1CSQ2YpZKKuzPaqqXhM0c9%2BpOQ%2BU%2Fzz5dcaIceGPn%2BNpmvDnKu5OUnAYA8LsqZo1g%2FnbgwjLPgvNIRvpPXcGDdEA%3D%3D&Expires=1733458387",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WATER PROBLEMS OF SANTA BARBARA, CAL.\n\n[NO. 116.",
+                "embed": "# WATER PROBLEMS OF SANTA BARBARA, CAL.\n\n[NO. 116.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.13676286072772897,
+                            "top": 0.05169137210186241,
+                            "width": 0.029485570890840654,
+                            "height": 0.012922843025465602,
+                            "page": 1
+                        },
+                        "content": "82",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.266624843161857,
+                            "top": 0.053591790193842644,
+                            "width": 0.5602258469259724,
+                            "height": 0.012542759407069556,
+                            "page": 1
+                        },
+                        "content": "WATER PROBLEMS OF SANTA BARBARA, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8895859473023839,
+                            "top": 0.05283162295705055,
+                            "width": 0.0671267252195734,
+                            "height": 0.010642341315089319,
+                            "page": 1
+                        },
+                        "content": "[NO. 116.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 18a.-Capacity of Gibraltar reservoir site. [Elevation of surface of stream bed, 1,215 feet.]\n\n<table><tr><th rowspan=\"2\">Contour.</th><th rowspan=\"2\">Area in\nacres.</th><th rowspan=\"2\">Average area\nin acres.</th><th colspan=\"2\">Capacity in acre-feet.</th></tr><tr><td>Between con-\ntours.</td><td>Total to con-\ntours.</td></tr><tr><td>1,215</td><td>0</td><td></td><td></td><td></td></tr><tr><td>1,220</td><td>12</td><td></td><td></td><td></td></tr><tr><td>1, ,230</td><td>5.74</td><td>3.93</td><td>39.3</td><td>39. 3</td></tr><tr><td>1, 240</td><td>13.26</td><td>9.50</td><td>95.0</td><td>134. 3</td></tr><tr><td>1, ,250</td><td>22.67</td><td>17.97</td><td>179.7</td><td>314.0</td></tr><tr><td>1,260</td><td>32.37</td><td>27.52</td><td>275.2</td><td>589. 2</td></tr><tr><td>1,270</td><td>50.11</td><td>41.24</td><td>412. 4</td><td>1,001. 6</td></tr><tr><td>1,280</td><td>66.24</td><td>58.17</td><td>581.1 7</td><td>1, 583. 3</td></tr><tr><td>1, 290</td><td>90.06</td><td>78. 15</td><td>781. 5</td><td>2, 364. 8</td></tr><tr><td>1, ,300</td><td>119. 62</td><td>104. 84</td><td>1,048. 4</td><td>3,413.2</td></tr><tr><td>1, ,310</td><td>152. 74</td><td>136.18</td><td>1,361. 8</td><td>4,775.0</td></tr><tr><td>1, ,320</td><td>188. 33</td><td>170.53</td><td>1,705.3</td><td>6,480. 3</td></tr><tr><td>1,330</td><td>227. 13</td><td>207.73</td><td>2,077.3</td><td>8, ,557. 6</td></tr><tr><td>1,340</td><td>271.39</td><td>249.26</td><td>2,492.6</td><td>11,050.2</td></tr><tr><td>1,345</td><td>296. 64</td><td>284.01</td><td>1,420.0</td><td>12,470.2</td></tr><tr><td>1, 350</td><td>332.75</td><td>314.70</td><td>1, 573,</td><td>14 043. 7</td></tr><tr><td>1, 355</td><td>367. 07</td><td>349. 91</td><td>1,749.6</td><td>15, 793. 3</td></tr></table>",
+                "embed": "# TABLE 18a.-Capacity of Gibraltar reservoir site. [Elevation of surface of stream bed, 1,215 feet.]\n\n<table><tr><th rowspan=\"2\">Contour.</th><th rowspan=\"2\">Area in\nacres.</th><th rowspan=\"2\">Average area\nin acres.</th><th colspan=\"2\">Capacity in acre-feet.</th></tr><tr><td>Between con-\ntours.</td><td>Total to con-\ntours.</td></tr><tr><td>1,215</td><td>0</td><td></td><td></td><td></td></tr><tr><td>1,220</td><td>12</td><td></td><td></td><td></td></tr><tr><td>1, ,230</td><td>5.74</td><td>3.93</td><td>39.3</td><td>39. 3</td></tr><tr><td>1, 240</td><td>13.26</td><td>9.50</td><td>95.0</td><td>134. 3</td></tr><tr><td>1, ,250</td><td>22.67</td><td>17.97</td><td>179.7</td><td>314.0</td></tr><tr><td>1,260</td><td>32.37</td><td>27.52</td><td>275.2</td><td>589. 2</td></tr><tr><td>1,270</td><td>50.11</td><td>41.24</td><td>412. 4</td><td>1,001. 6</td></tr><tr><td>1,280</td><td>66.24</td><td>58.17</td><td>581.1 7</td><td>1, 583. 3</td></tr><tr><td>1, 290</td><td>90.06</td><td>78. 15</td><td>781. 5</td><td>2, 364. 8</td></tr><tr><td>1, ,300</td><td>119. 62</td><td>104. 84</td><td>1,048. 4</td><td>3,413.2</td></tr><tr><td>1, ,310</td><td>152. 74</td><td>136.18</td><td>1,361. 8</td><td>4,775.0</td></tr><tr><td>1, ,320</td><td>188. 33</td><td>170.53</td><td>1,705.3</td><td>6,480. 3</td></tr><tr><td>1,330</td><td>227. 13</td><td>207.73</td><td>2,077.3</td><td>8, ,557. 6</td></tr><tr><td>1,340</td><td>271.39</td><td>249.26</td><td>2,492.6</td><td>11,050.2</td></tr><tr><td>1,345</td><td>296. 64</td><td>284.01</td><td>1,420.0</td><td>12,470.2</td></tr><tr><td>1, 350</td><td>332.75</td><td>314.70</td><td>1, 573,</td><td>14 043. 7</td></tr><tr><td>1, 355</td><td>367. 07</td><td>349. 91</td><td>1,749.6</td><td>15, 793. 3</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3299874529485571,
+                            "top": 0.08361839604713037,
+                            "width": 0.4360100376411543,
+                            "height": 0.035727860129228434,
+                            "page": 1
+                        },
+                        "content": "TABLE 18a.-Capacity of Gibraltar reservoir site. [Elevation of surface of stream bed, 1,215 feet.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.2455059324333928,
+                            "top": 0.12697611467686953,
+                            "width": 0.6070408647601847,
+                            "height": 0.41909000131396096,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Contour.</th><th rowspan=\"2\">Area in\nacres.</th><th rowspan=\"2\">Average area\nin acres.</th><th colspan=\"2\">Capacity in acre-feet.</th></tr><tr><td>Between con-\ntours.</td><td>Total to con-\ntours.</td></tr><tr><td>1,215</td><td>0</td><td></td><td></td><td></td></tr><tr><td>1,220</td><td>12</td><td></td><td></td><td></td></tr><tr><td>1, ,230</td><td>5.74</td><td>3.93</td><td>39.3</td><td>39. 3</td></tr><tr><td>1, 240</td><td>13.26</td><td>9.50</td><td>95.0</td><td>134. 3</td></tr><tr><td>1, ,250</td><td>22.67</td><td>17.97</td><td>179.7</td><td>314.0</td></tr><tr><td>1,260</td><td>32.37</td><td>27.52</td><td>275.2</td><td>589. 2</td></tr><tr><td>1,270</td><td>50.11</td><td>41.24</td><td>412. 4</td><td>1,001. 6</td></tr><tr><td>1,280</td><td>66.24</td><td>58.17</td><td>581.1 7</td><td>1, 583. 3</td></tr><tr><td>1, 290</td><td>90.06</td><td>78. 15</td><td>781. 5</td><td>2, 364. 8</td></tr><tr><td>1, ,300</td><td>119. 62</td><td>104. 84</td><td>1,048. 4</td><td>3,413.2</td></tr><tr><td>1, ,310</td><td>152. 74</td><td>136.18</td><td>1,361. 8</td><td>4,775.0</td></tr><tr><td>1, ,320</td><td>188. 33</td><td>170.53</td><td>1,705.3</td><td>6,480. 3</td></tr><tr><td>1,330</td><td>227. 13</td><td>207.73</td><td>2,077.3</td><td>8, ,557. 6</td></tr><tr><td>1,340</td><td>271.39</td><td>249.26</td><td>2,492.6</td><td>11,050.2</td></tr><tr><td>1,345</td><td>296. 64</td><td>284.01</td><td>1,420.0</td><td>12,470.2</td></tr><tr><td>1, 350</td><td>332.75</td><td>314.70</td><td>1, 573,</td><td>14 043. 7</td></tr><tr><td>1, 355</td><td>367. 07</td><td>349. 91</td><td>1,749.6</td><td>15, 793. 3</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 18a.-Capacity of Gibraltar reservoir site. [Elevation of surface of stream bed, 1,215 feet.] (cont.)\n\nTable 19 shows the volumes of material for a rock-fill dam situ- ated at the Gibraltar reservoir site, the upper slope to be 1 1/2 to 1, the lower slope 11/2 to 1, the width on top 20 feet, and the height of dam 155 feet, or 10 feet above the level of the spillway. The top of the crest is taken to be at the 1,360-foot contour. Bed-rock conditions are unknown, but for the purpose of this estimate are assumed to be at 1,205 feet. Repeated efforts were made to provide for an explora- tion of bed rock at this dam site, but owing to financial condi ions and negotiations for the purchase of the property by the city of Santa Barbara it was not possible to arrange for this. The capacity with this dam to the 1,350-foot contour in the reservoir would be 14,044 acre-feet. Fig. 11 shows the plan for a 155-foot rock-fill dam.\n\nIn the table 7,444 cubic yards are deducted from the total esti- mated volume in the dam, as the rock fill will go down only to the 1,210-foot contour, except where the toe walls are located, where they are assumed to go as low as the 1,205-foot contour. The excavation of the spillway is taken at 1,250 cubic yards, which of course would be used in the construction of the dam. The spillway could probably",
+                "embed": "# TABLE 18a.-Capacity of Gibraltar reservoir site. [Elevation of surface of stream bed, 1,215 feet.] (cont.)\n\nTable 19 shows the volumes of material for a rock-fill dam situ- ated at the Gibraltar reservoir site, the upper slope to be 1 1/2 to 1, the lower slope 11/2 to 1, the width on top 20 feet, and the height of dam 155 feet, or 10 feet above the level of the spillway. The top of the crest is taken to be at the 1,360-foot contour. Bed-rock conditions are unknown, but for the purpose of this estimate are assumed to be at 1,205 feet. Repeated efforts were made to provide for an explora- tion of bed rock at this dam site, but owing to financial condi ions and negotiations for the purchase of the property by the city of Santa Barbara it was not possible to arrange for this. The capacity with this dam to the 1,350-foot contour in the reservoir would be 14,044 acre-feet. Fig. 11 shows the plan for a 155-foot rock-fill dam.\n\nIn the table 7,444 cubic yards are deducted from the total esti- mated volume in the dam, as the rock fill will go down only to the 1,210-foot contour, except where the toe walls are located, where they are assumed to go as low as the 1,205-foot contour. The excavation of the spillway is taken at 1,250 cubic yards, which of course would be used in the construction of the dam. The spillway could probably",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13864491844416563,
+                            "top": 0.5617635879893577,
+                            "width": 0.8274780426599749,
+                            "height": 0.22576966932725198,
+                            "page": 1
+                        },
+                        "content": "Table 19 shows the volumes of material for a rock-fill dam situ- ated at the Gibraltar reservoir site, the upper slope to be 1 1/2 to 1, the lower slope 11/2 to 1, the width on top 20 feet, and the height of dam 155 feet, or 10 feet above the level of the spillway. The top of the crest is taken to be at the 1,360-foot contour. Bed-rock conditions are unknown, but for the purpose of this estimate are assumed to be at 1,205 feet. Repeated efforts were made to provide for an explora- tion of bed rock at this dam site, but owing to financial condi ions and negotiations for the purchase of the property by the city of Santa Barbara it was not possible to arrange for this. The capacity with this dam to the 1,350-foot contour in the reservoir would be 14,044 acre-feet. Fig. 11 shows the plan for a 155-foot rock-fill dam.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13927227101631118,
+                            "top": 0.7890535917901939,
+                            "width": 0.8262233375156838,
+                            "height": 0.11326491828202205,
+                            "page": 1
+                        },
+                        "content": "In the table 7,444 cubic yards are deducted from the total esti- mated volume in the dam, as the rock fill will go down only to the 1,210-foot contour, except where the toe walls are located, where they are assumed to go as low as the 1,205-foot contour. The excavation of the spillway is taken at 1,250 cubic yards, which of course would be used in the construction of the dam. The spillway could probably",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

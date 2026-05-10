@@ -1,0 +1,36 @@
+```json
+{
+    "Watersource_Name": "Murrieta Creek",
+    "County": "Riverside County",
+    "Location": "Temecula Grant, on left bank at upper end of Temecula Canyon, 0.1 mile downstream from Murrieta Creek and 1.4 miles south of Temecula",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily (for specific dates)",
+    "Units_Of_Measurement": {
+        "Gage_height": "feet",
+        "Discharge": "cfs"
+    },
+    "Actual_Latitude": 33.4738889,
+    "Actual_Longitude": -117.1416667,
+    "Inferred_Latitude": null,
+    "Inferred_Longitude": null,
+    "Dates_of_Recording": "Feb. 5, 1931- Mar. 27, 1958",
+    "Water_Type": "Stream Discharge"
+},
+{
+    "Watersource_Name": "Santa Margarita River near Temecula",
+    "County": "Riverside County",
+    "Location": "Temecula Grant, on left bank at upper end of Temecula Canyon, 0.1 mile downstream from Murrieta Creek and 1.4 miles south of Temecula",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Varies by year (specific dates)",
+    "Units_Of_Measurement": {
+        "Gage_height": "feet",
+        "Discharge": "cfs"
+    },
+    "Actual_Latitude": 33.4738889,
+    "Actual_Longitude": -117.1416667,
+    "Inferred_Latitude": null,
+    "Inferred_Longitude": null,
+    "Dates_of_Recording": "Feb. 12, 1923- Apr. 15, 1929",
+    "Water_Type": "Stream Discharge"
+}
+```

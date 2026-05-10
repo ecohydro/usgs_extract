@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Sawyer Estate Spring",
+    "County": "Kern County",
+    "Location": "About 1.0 mile above point of diversion near Strawberry flats",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Variable (based on provided dates)",
+    "Units_Of_Measurement": {
+        "Lischarge": ["Second-feet", "Gals, per min."],
+        "Temperature": ["°F"]
+    },
+    "Latitude": 34.494444,
+    "Longitude": -119.829167,
+    "Dates_of_Recording": "10/12/1949-04/20/1950",
+    "Water_Type": "Springs"
+}
+```

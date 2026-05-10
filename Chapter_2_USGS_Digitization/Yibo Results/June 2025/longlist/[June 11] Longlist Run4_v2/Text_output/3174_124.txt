@@ -1,0 +1,20 @@
+```json
+[
+    {
+        "Watersource_Name": "Zayante Creek",
+        "County": "Santa Cruz County",
+        "Location": "San Lorenzo River Basin, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Discharge": "CFS (cubic feet per second)",
+            "Concentration": "MG/L (milligrams per liter)",
+            "Sediment_Discharge": "TONS/DAY"
+        },
+        "Latitude": 36.8985,
+        "Longitude": -121.6983,
+        "Dates_of_Recording": "02/01/1970-09/30/1970",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

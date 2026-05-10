@@ -1,0 +1,266 @@
+{
+    "job_id": "8333518f-ed4e-4d29-9c14-7c49cca44fb6",
+    "duration": 5.530227184295654,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/30bb0d33-c40b-473f-afcb-128ccae2ae68?AWSAccessKeyId=ASIA2UOK6OVBKKLUJ2AQ&Signature=AYcqHajftYK04D%2BX1om8hOaG%2BKI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIHgIXyPoTd3zOeXc3jed%2Fcgeh7epTuYtC6%2FjoKpmz2P9AiB0jyHbIDy0HnbPIGOKnYlwQyxNj0syuzobtiCIBWdddiqLBQgjEAAaDDczMTEwNjkzMjAzNCIMDAUXzOE30yhqHH3rKugE7lZdbwAmYz5ebEQjEsXQp%2FVlPOjXv7r6ERL6ToJRib%2FqCwMCspo44zBnsidLhhdOb6polp67h6nfHTqn5EfZ%2BYDnoVAaDIOGnb2tyeTX%2BArwToXMbdKIq%2BLiJB5KuSi%2FX2SCknLAhYxSeqHTzCO5zHC9qCot6JjZ6U%2FMkos%2BBf7R40buaXRG6GueXE19TqpyHieOEIsDwOVX6YRm5tQO1rtcOP3qWPQYpFAAQdcLV1R9sYC4UtBtcEWFgMkLBkUcTqotln7tmza8A8NokWBf4Q0MF7aJRd9RUQgs2tkw66V87SetINMYSBFXdz0NuTP%2BeuGeok88EgMUNeBDjzRJyp0UGtjYauKc1FXuXhGmbHCb7Rya44LcbZvbISTPUotdrXK%2FxIVTR2AVIQCYlOCa%2FkbXuRLRsoPh3hg0BLBVX6DENdBsVWsRSOHKdkGdJsOOGTuTjU3ytrfhJaXJf%2Fmdv%2FGUN9zeC2QO8Q%2BlkNUYRQ1eCtzInlqY1NsAlnAuhkbfRuVSmtnwPjLLGAkYPg1fnQYmLqIUUMZyjpckUoBwDxFLu7QVcAdPjCW6uxWIcfFgaZc38wsLnONyOwgKPx%2BXca5k69uY%2FLczvNXG0HWxkrpQPNTT9X1mXZVoTKHCAheNRmNQyvf25joQe11EnapCnjlworEkBhKy%2F6AhxPkp4o2HAfBbI%2BtH82UM6AP04TH5UEAREDURsToXuS2WX0eqe7Lhn1b0ai6z5wTuVD7t19UU%2F5Cf%2Bmj88IGBJjQzfo%2FqBoQQjJjBATQTN47q5BGxDbN59IxW7behlrBOtvyIOtmZj5%2BneMiayTDntMm6BjqcAZAr5mv19qTc80IMCoG98OSF1J0iJci92idQ0jT66A9q9hE2iH%2BuF3e%2FtlH9a5oDjR0bK8pPUhsNE%2F%2BS0BoGpEeU7IZ4tBZt92sEAu5jrA6%2BzpmknQoi%2Fk3DXzOmU62yTLlD6Enxvb3Yvi0A8sjhCQP4hkEFfXYBn6lQ8yBN0y0hhHMBBZBVjq1pT%2FbJ9l8G9JzICDChi6P5VcaJww%3D%3D&Expires=1733456071",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "12",
+                "embed": "12",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13778322106552357,
+                            "top": 0.05068078668683813,
+                            "width": 0.030006123698714023,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "12",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI.\n\nTable for converting discharge in second-feet into run-off in millions of gallons.\n\n<table><tr><th rowspan=\"2\">Discharge\nin second-\nfeet.</th><th colspan=\"5\">Run-off in millions of gallons.</th></tr><tr><td>1 day.</td><td>28 days.</td><td>29 days.</td><td>30 days.</td><td>31 davs.</td></tr><tr><td>1</td><td>0.6463</td><td>18.10</td><td>18.74</td><td>19.39</td><td>20.04</td></tr><tr><td>2</td><td>1.293</td><td>36.20</td><td>37.48</td><td>38.78</td><td>40.08</td></tr><tr><td>3</td><td>1.939</td><td>54.30</td><td>56.22</td><td>58.17</td><td>60.12</td></tr><tr><td>4</td><td>2.585</td><td>72.40</td><td>74.96</td><td>77.56</td><td>80.16</td></tr><tr><td>5</td><td>8.232</td><td>90.50</td><td>93.70</td><td>96.95</td><td>100.2</td></tr><tr><td>6</td><td>3.878</td><td>108.6</td><td>112.4</td><td>116.3</td><td>120.2</td></tr><tr><td>7</td><td>4.524</td><td>126.7</td><td>131.2</td><td>135.7</td><td>140.3</td></tr><tr><td>8</td><td>5.171</td><td>144. 8</td><td>149. 9</td><td>155.1</td><td>160. 3</td></tr><tr><td>9</td><td>5.817</td><td>162. 9</td><td>168. 7</td><td>174. 5</td><td>180. 4</td></tr></table>\n\nNOTE.-For part of a month multiply the run-off for 1 day by the number of days.\n\nTable for converting velocity in feet per second into velocity in miles per hour.\n\n[1 foot per second-0.681818 mile per hour, or two-thirds mile per hour, very nearly; 1 mile per hour=1.4666 feet per second. In computing the table the figures 0.68182 and 1.4667 were used.]",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI.\n\nTable for converting discharge in second-feet into run-off in millions of gallons.\n\n<table><tr><th rowspan=\"2\">Discharge\nin second-\nfeet.</th><th colspan=\"5\">Run-off in millions of gallons.</th></tr><tr><td>1 day.</td><td>28 days.</td><td>29 days.</td><td>30 days.</td><td>31 davs.</td></tr><tr><td>1</td><td>0.6463</td><td>18.10</td><td>18.74</td><td>19.39</td><td>20.04</td></tr><tr><td>2</td><td>1.293</td><td>36.20</td><td>37.48</td><td>38.78</td><td>40.08</td></tr><tr><td>3</td><td>1.939</td><td>54.30</td><td>56.22</td><td>58.17</td><td>60.12</td></tr><tr><td>4</td><td>2.585</td><td>72.40</td><td>74.96</td><td>77.56</td><td>80.16</td></tr><tr><td>5</td><td>8.232</td><td>90.50</td><td>93.70</td><td>96.95</td><td>100.2</td></tr><tr><td>6</td><td>3.878</td><td>108.6</td><td>112.4</td><td>116.3</td><td>120.2</td></tr><tr><td>7</td><td>4.524</td><td>126.7</td><td>131.2</td><td>135.7</td><td>140.3</td></tr><tr><td>8</td><td>5.171</td><td>144. 8</td><td>149. 9</td><td>155.1</td><td>160. 3</td></tr><tr><td>9</td><td>5.817</td><td>162. 9</td><td>168. 7</td><td>174. 5</td><td>180. 4</td></tr></table>\n\nNOTE.-For part of a month multiply the run-off for 1 day by the number of days.\n\nTable for converting velocity in feet per second into velocity in miles per hour.\n\n[1 foot per second-0.681818 mile per hour, or two-thirds mile per hour, very nearly; 1 mile per hour=1.4666 feet per second. In computing the table the figures 0.68182 and 1.4667 were used.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3086344151867728,
+                            "top": 0.052571860816944024,
+                            "width": 0.46907532149418246,
+                            "height": 0.014750378214826021,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1915, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.17513778322106552,
+                            "top": 0.08282904689863843,
+                            "width": 0.7336191059399878,
+                            "height": 0.015128593040847202,
+                            "page": 1
+                        },
+                        "content": "Table for converting discharge in second-feet into run-off in millions of gallons.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.2550492482322604,
+                            "top": 0.10531361128306425,
+                            "width": 0.5764416182471869,
+                            "height": 0.17047450401779382,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Discharge\nin second-\nfeet.</th><th colspan=\"5\">Run-off in millions of gallons.</th></tr><tr><td>1 day.</td><td>28 days.</td><td>29 days.</td><td>30 days.</td><td>31 davs.</td></tr><tr><td>1</td><td>0.6463</td><td>18.10</td><td>18.74</td><td>19.39</td><td>20.04</td></tr><tr><td>2</td><td>1.293</td><td>36.20</td><td>37.48</td><td>38.78</td><td>40.08</td></tr><tr><td>3</td><td>1.939</td><td>54.30</td><td>56.22</td><td>58.17</td><td>60.12</td></tr><tr><td>4</td><td>2.585</td><td>72.40</td><td>74.96</td><td>77.56</td><td>80.16</td></tr><tr><td>5</td><td>8.232</td><td>90.50</td><td>93.70</td><td>96.95</td><td>100.2</td></tr><tr><td>6</td><td>3.878</td><td>108.6</td><td>112.4</td><td>116.3</td><td>120.2</td></tr><tr><td>7</td><td>4.524</td><td>126.7</td><td>131.2</td><td>135.7</td><td>140.3</td></tr><tr><td>8</td><td>5.171</td><td>144. 8</td><td>149. 9</td><td>155.1</td><td>160. 3</td></tr><tr><td>9</td><td>5.817</td><td>162. 9</td><td>168. 7</td><td>174. 5</td><td>180. 4</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15125535823637476,
+                            "top": 0.2802571860816944,
+                            "width": 0.6350275566442131,
+                            "height": 0.011724659606656581,
+                            "page": 1
+                        },
+                        "content": "NOTE.-For part of a month multiply the run-off for 1 day by the number of days.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.19167176974892836,
+                            "top": 0.30597579425113464,
+                            "width": 0.7011635027556644,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "Table for converting velocity in feet per second into velocity in miles per hour.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13655848132271892,
+                            "top": 0.3267776096822995,
+                            "width": 0.8120024494794856,
+                            "height": 0.02118003025718608,
+                            "page": 1
+                        },
+                        "content": "[1 foot per second-0.681818 mile per hour, or two-thirds mile per hour, very nearly; 1 mile per hour=1.4666 feet per second. In computing the table the figures 0.68182 and 1.4667 were used.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n<table><tr><th rowspan=\"2\">Feet per second\n(units).</th><th colspan=\"10\">Miles per hour for tenths of foot per second</th></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>0</td><td>0.000</td><td>0.068</td><td>0.136</td><td>0.205</td><td>0.273</td><td>0.341</td><td>0.409</td><td>0.477</td><td>0.545</td><td>0.614</td></tr><tr><td>1</td><td>.682</td><td>.750</td><td>.813</td><td>.886</td><td>.995</td><td>1.02</td><td>1.09</td><td>1.16</td><td>1.23</td><td>1.30</td></tr><tr><td>2</td><td>1.36</td><td>1.43</td><td>1.50</td><td>1.57</td><td>1.64</td><td>1.70</td><td>1.77</td><td>1.84</td><td>1.91</td><td>1.98</td></tr><tr><td>3</td><td>2.05</td><td>2.11</td><td>2.18</td><td>2.25</td><td>2.32</td><td>2.39</td><td>2.45</td><td>2.52</td><td>2.59</td><td>2.66</td></tr><tr><td>4</td><td>2.73</td><td>2.80</td><td>2.86</td><td>2.93</td><td>3.00</td><td>3.07</td><td>3.14</td><td>3.20</td><td>3.27</td><td>3.34</td></tr><tr><td>5</td><td>3.41</td><td>3.48</td><td>3.55</td><td>3.61</td><td>3.68</td><td>3.75</td><td>3.82</td><td>3.89</td><td>3.95</td><td>4.02</td></tr><tr><td>6</td><td>4.09</td><td>4.16</td><td>4.23</td><td>4.30</td><td>4.36</td><td>4.43</td><td>4.50</td><td>4.57</td><td>4.64</td><td>4.70</td></tr><tr><td>7</td><td>4.77</td><td>4.84</td><td>4.91</td><td>4.98</td><td>5.05</td><td>5.11</td><td>5.18</td><td>5.25</td><td>5.32</td><td>5.39</td></tr><tr><td>8</td><td>5.45</td><td>5.52</td><td>5.59</td><td>5.66</td><td>5.73</td><td>5.80</td><td>5.86</td><td>5.93</td><td>6.00</td><td>6.07</td></tr><tr><td>9</td><td>6.14</td><td>6.20</td><td>6.27</td><td>6.34</td><td>6.41</td><td>6.48</td><td>6.55</td><td>6.61</td><td>6.68</td><td>6.75</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n<table><tr><th rowspan=\"2\">Feet per second\n(units).</th><th colspan=\"10\">Miles per hour for tenths of foot per second</th></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>0</td><td>0.000</td><td>0.068</td><td>0.136</td><td>0.205</td><td>0.273</td><td>0.341</td><td>0.409</td><td>0.477</td><td>0.545</td><td>0.614</td></tr><tr><td>1</td><td>.682</td><td>.750</td><td>.813</td><td>.886</td><td>.995</td><td>1.02</td><td>1.09</td><td>1.16</td><td>1.23</td><td>1.30</td></tr><tr><td>2</td><td>1.36</td><td>1.43</td><td>1.50</td><td>1.57</td><td>1.64</td><td>1.70</td><td>1.77</td><td>1.84</td><td>1.91</td><td>1.98</td></tr><tr><td>3</td><td>2.05</td><td>2.11</td><td>2.18</td><td>2.25</td><td>2.32</td><td>2.39</td><td>2.45</td><td>2.52</td><td>2.59</td><td>2.66</td></tr><tr><td>4</td><td>2.73</td><td>2.80</td><td>2.86</td><td>2.93</td><td>3.00</td><td>3.07</td><td>3.14</td><td>3.20</td><td>3.27</td><td>3.34</td></tr><tr><td>5</td><td>3.41</td><td>3.48</td><td>3.55</td><td>3.61</td><td>3.68</td><td>3.75</td><td>3.82</td><td>3.89</td><td>3.95</td><td>4.02</td></tr><tr><td>6</td><td>4.09</td><td>4.16</td><td>4.23</td><td>4.30</td><td>4.36</td><td>4.43</td><td>4.50</td><td>4.57</td><td>4.64</td><td>4.70</td></tr><tr><td>7</td><td>4.77</td><td>4.84</td><td>4.91</td><td>4.98</td><td>5.05</td><td>5.11</td><td>5.18</td><td>5.25</td><td>5.32</td><td>5.39</td></tr><tr><td>8</td><td>5.45</td><td>5.52</td><td>5.59</td><td>5.66</td><td>5.73</td><td>5.80</td><td>5.86</td><td>5.93</td><td>6.00</td><td>6.07</td></tr><tr><td>9</td><td>6.14</td><td>6.20</td><td>6.27</td><td>6.34</td><td>6.41</td><td>6.48</td><td>6.55</td><td>6.61</td><td>6.68</td><td>6.75</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1363485678528542,
+                            "top": 0.351887574534914,
+                            "width": 0.8150956293445968,
+                            "height": 0.1792307058729671,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Feet per second\n(units).</th><th colspan=\"10\">Miles per hour for tenths of foot per second</th></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>0</td><td>0.000</td><td>0.068</td><td>0.136</td><td>0.205</td><td>0.273</td><td>0.341</td><td>0.409</td><td>0.477</td><td>0.545</td><td>0.614</td></tr><tr><td>1</td><td>.682</td><td>.750</td><td>.813</td><td>.886</td><td>.995</td><td>1.02</td><td>1.09</td><td>1.16</td><td>1.23</td><td>1.30</td></tr><tr><td>2</td><td>1.36</td><td>1.43</td><td>1.50</td><td>1.57</td><td>1.64</td><td>1.70</td><td>1.77</td><td>1.84</td><td>1.91</td><td>1.98</td></tr><tr><td>3</td><td>2.05</td><td>2.11</td><td>2.18</td><td>2.25</td><td>2.32</td><td>2.39</td><td>2.45</td><td>2.52</td><td>2.59</td><td>2.66</td></tr><tr><td>4</td><td>2.73</td><td>2.80</td><td>2.86</td><td>2.93</td><td>3.00</td><td>3.07</td><td>3.14</td><td>3.20</td><td>3.27</td><td>3.34</td></tr><tr><td>5</td><td>3.41</td><td>3.48</td><td>3.55</td><td>3.61</td><td>3.68</td><td>3.75</td><td>3.82</td><td>3.89</td><td>3.95</td><td>4.02</td></tr><tr><td>6</td><td>4.09</td><td>4.16</td><td>4.23</td><td>4.30</td><td>4.36</td><td>4.43</td><td>4.50</td><td>4.57</td><td>4.64</td><td>4.70</td></tr><tr><td>7</td><td>4.77</td><td>4.84</td><td>4.91</td><td>4.98</td><td>5.05</td><td>5.11</td><td>5.18</td><td>5.25</td><td>5.32</td><td>5.39</td></tr><tr><td>8</td><td>5.45</td><td>5.52</td><td>5.59</td><td>5.66</td><td>5.73</td><td>5.80</td><td>5.86</td><td>5.93</td><td>6.00</td><td>6.07</td></tr><tr><td>9</td><td>6.14</td><td>6.20</td><td>6.27</td><td>6.34</td><td>6.41</td><td>6.48</td><td>6.55</td><td>6.61</td><td>6.68</td><td>6.75</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\nTable for converting discharge in second-feet into theoretical horsepower per foot of fall. [1 second-foot=0.1136 theoretical horsepower per foot of fall. Weight of 1 cubic foot of water=62.5 pounds.]",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\nTable for converting discharge in second-feet into theoretical horsepower per foot of fall. [1 second-foot=0.1136 theoretical horsepower per foot of fall. Weight of 1 cubic foot of water=62.5 pounds.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13900796080832822,
+                            "top": 0.546142208774584,
+                            "width": 0.80526638089406,
+                            "height": 0.04236006051437216,
+                            "page": 1
+                        },
+                        "content": "Table for converting discharge in second-feet into theoretical horsepower per foot of fall. [1 second-foot=0.1136 theoretical horsepower per foot of fall. Weight of 1 cubic foot of water=62.5 pounds.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n<table><tr><th rowspan=\"2\">Tens.</th><th colspan=\"10\">Units.</th></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>0</td><td>0.00</td><td>0.114</td><td>.227</td><td>.341</td><td>0.454</td><td>0.568</td><td>0.682</td><td>0.795</td><td>0.909</td><td>1.02</td></tr><tr><td>1</td><td>1.14</td><td>1.25</td><td>1.36</td><td>1.48</td><td>1.59</td><td>1.70</td><td>1.82</td><td>1.93</td><td>2.04</td><td>2.16</td></tr><tr><td>2</td><td>2.27</td><td>2.39</td><td>2.50</td><td>2.61</td><td>2.73</td><td>2.84</td><td>2.95</td><td>3.07</td><td>3.18</td><td>3.29</td></tr><tr><td>3</td><td>3.41</td><td>8.52</td><td>3.64</td><td>3.75</td><td>3.86</td><td>3.98</td><td>4.09</td><td>4.20</td><td>4.32</td><td>4.43</td></tr><tr><td>4</td><td>4.54</td><td>4.66</td><td>4.77</td><td>4.88</td><td>5.00</td><td>5.11</td><td>5.23</td><td>5.34</td><td>5.45</td><td>5.57</td></tr><tr><td>5</td><td>5.68</td><td>5.79</td><td>5.91</td><td>6.02</td><td>6.13</td><td>6.25</td><td>6.36</td><td>6.48</td><td>6.59</td><td>6.70</td></tr><tr><td>6</td><td>6.82</td><td>6.93</td><td>7.04</td><td>7.16</td><td>7.27</td><td>7.38</td><td>7.50</td><td>7.61</td><td>7.72</td><td>7.84</td></tr><tr><td>7</td><td>7.95</td><td>8.07</td><td>8.18</td><td>8.29</td><td>8.41</td><td>8.52</td><td>8.63</td><td>8.75 -</td><td>8.86</td><td>8.97</td></tr><tr><td>8</td><td>9.09</td><td>9.20</td><td>9.32</td><td>9.43</td><td>9.54</td><td>9.66</td><td>9.77</td><td>9.88</td><td>10.0</td><td>10.1</td></tr><tr><td>9</td><td>10.2</td><td>10.3</td><td>10.5</td><td>10.6</td><td>10,7</td><td>10.8</td><td>10.9</td><td>11.0</td><td>11.1</td><td>11.2</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n<table><tr><th rowspan=\"2\">Tens.</th><th colspan=\"10\">Units.</th></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>0</td><td>0.00</td><td>0.114</td><td>.227</td><td>.341</td><td>0.454</td><td>0.568</td><td>0.682</td><td>0.795</td><td>0.909</td><td>1.02</td></tr><tr><td>1</td><td>1.14</td><td>1.25</td><td>1.36</td><td>1.48</td><td>1.59</td><td>1.70</td><td>1.82</td><td>1.93</td><td>2.04</td><td>2.16</td></tr><tr><td>2</td><td>2.27</td><td>2.39</td><td>2.50</td><td>2.61</td><td>2.73</td><td>2.84</td><td>2.95</td><td>3.07</td><td>3.18</td><td>3.29</td></tr><tr><td>3</td><td>3.41</td><td>8.52</td><td>3.64</td><td>3.75</td><td>3.86</td><td>3.98</td><td>4.09</td><td>4.20</td><td>4.32</td><td>4.43</td></tr><tr><td>4</td><td>4.54</td><td>4.66</td><td>4.77</td><td>4.88</td><td>5.00</td><td>5.11</td><td>5.23</td><td>5.34</td><td>5.45</td><td>5.57</td></tr><tr><td>5</td><td>5.68</td><td>5.79</td><td>5.91</td><td>6.02</td><td>6.13</td><td>6.25</td><td>6.36</td><td>6.48</td><td>6.59</td><td>6.70</td></tr><tr><td>6</td><td>6.82</td><td>6.93</td><td>7.04</td><td>7.16</td><td>7.27</td><td>7.38</td><td>7.50</td><td>7.61</td><td>7.72</td><td>7.84</td></tr><tr><td>7</td><td>7.95</td><td>8.07</td><td>8.18</td><td>8.29</td><td>8.41</td><td>8.52</td><td>8.63</td><td>8.75 -</td><td>8.86</td><td>8.97</td></tr><tr><td>8</td><td>9.09</td><td>9.20</td><td>9.32</td><td>9.43</td><td>9.54</td><td>9.66</td><td>9.77</td><td>9.88</td><td>10.0</td><td>10.1</td></tr><tr><td>9</td><td>10.2</td><td>10.3</td><td>10.5</td><td>10.6</td><td>10,7</td><td>10.8</td><td>10.9</td><td>11.0</td><td>11.1</td><td>11.2</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13509869268899743,
+                            "top": 0.5929484172595972,
+                            "width": 0.8143569469743905,
+                            "height": 0.17896980597283946,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Tens.</th><th colspan=\"10\">Units.</th></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>0</td><td>0.00</td><td>0.114</td><td>.227</td><td>.341</td><td>0.454</td><td>0.568</td><td>0.682</td><td>0.795</td><td>0.909</td><td>1.02</td></tr><tr><td>1</td><td>1.14</td><td>1.25</td><td>1.36</td><td>1.48</td><td>1.59</td><td>1.70</td><td>1.82</td><td>1.93</td><td>2.04</td><td>2.16</td></tr><tr><td>2</td><td>2.27</td><td>2.39</td><td>2.50</td><td>2.61</td><td>2.73</td><td>2.84</td><td>2.95</td><td>3.07</td><td>3.18</td><td>3.29</td></tr><tr><td>3</td><td>3.41</td><td>8.52</td><td>3.64</td><td>3.75</td><td>3.86</td><td>3.98</td><td>4.09</td><td>4.20</td><td>4.32</td><td>4.43</td></tr><tr><td>4</td><td>4.54</td><td>4.66</td><td>4.77</td><td>4.88</td><td>5.00</td><td>5.11</td><td>5.23</td><td>5.34</td><td>5.45</td><td>5.57</td></tr><tr><td>5</td><td>5.68</td><td>5.79</td><td>5.91</td><td>6.02</td><td>6.13</td><td>6.25</td><td>6.36</td><td>6.48</td><td>6.59</td><td>6.70</td></tr><tr><td>6</td><td>6.82</td><td>6.93</td><td>7.04</td><td>7.16</td><td>7.27</td><td>7.38</td><td>7.50</td><td>7.61</td><td>7.72</td><td>7.84</td></tr><tr><td>7</td><td>7.95</td><td>8.07</td><td>8.18</td><td>8.29</td><td>8.41</td><td>8.52</td><td>8.63</td><td>8.75 -</td><td>8.86</td><td>8.97</td></tr><tr><td>8</td><td>9.09</td><td>9.20</td><td>9.32</td><td>9.43</td><td>9.54</td><td>9.66</td><td>9.77</td><td>9.88</td><td>10.0</td><td>10.1</td></tr><tr><td>9</td><td>10.2</td><td>10.3</td><td>10.5</td><td>10.6</td><td>10,7</td><td>10.8</td><td>10.9</td><td>11.0</td><td>11.1</td><td>11.2</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n\t- 1 second-foot equals 40 California miner's inches (law of Mar. 23, 1901).\n\n\t- 1 second-foot equals 38.4 Colorado miner's inches.\n\n\t- 1 second-foot equals 40 Arizona miner's inches.\n\n- 1 second-foot equals 7.48 United States gallons per second; equals 448.8 gallons per minute; equals 646,317 gallons for- one day.\n\n- 1 second-foot for one year (365 days) covers 1 square mile13.574 inches, or 1.131 feet deep.\n\n\t- 1 second-foot for one year (365 days) equals 31,536,000 cubic feet.\n\n\t- 1 second-foot equals about 1 acre-inch per hour.",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n\t- 1 second-foot equals 40 California miner's inches (law of Mar. 23, 1901).\n\n\t- 1 second-foot equals 38.4 Colorado miner's inches.\n\n\t- 1 second-foot equals 40 Arizona miner's inches.\n\n- 1 second-foot equals 7.48 United States gallons per second; equals 448.8 gallons per minute; equals 646,317 gallons for- one day.\n\n- 1 second-foot for one year (365 days) covers 1 square mile13.574 inches, or 1.131 feet deep.\n\n\t- 1 second-foot for one year (365 days) equals 31,536,000 cubic feet.\n\n\t- 1 second-foot equals about 1 acre-inch per hour.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.15860379669320268,
+                            "top": 0.7866868381240545,
+                            "width": 0.6754439681567667,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "\t- 1 second-foot equals 40 California miner's inches (law of Mar. 23, 1901).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.15860379669320268,
+                            "top": 0.8021936459909228,
+                            "width": 0.47274954072259645,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "\t- 1 second-foot equals 38.4 Colorado miner's inches.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.15921616656460502,
+                            "top": 0.8180786686838124,
+                            "width": 0.45009185548071035,
+                            "height": 0.01361573373676248,
+                            "page": 1
+                        },
+                        "content": "\t- 1 second-foot equals 40 Arizona miner's inches.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.1383955909369259,
+                            "top": 0.8335854765506808,
+                            "width": 0.810777709736681,
+                            "height": 0.029500756429652043,
+                            "page": 1
+                        },
+                        "content": "- 1 second-foot equals 7.48 United States gallons per second; equals 448.8 gallons per minute; equals 646,317 gallons for- one day.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.13962033067973056,
+                            "top": 0.8645990922844176,
+                            "width": 0.8089406001224739,
+                            "height": 0.029500756429652043,
+                            "page": 1
+                        },
+                        "content": "- 1 second-foot for one year (365 days) covers 1 square mile13.574 inches, or 1.131 feet deep.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.15860379669320268,
+                            "top": 0.8959909228441755,
+                            "width": 0.6197183098591549,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "\t- 1 second-foot for one year (365 days) equals 31,536,000 cubic feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.15860379669320268,
+                            "top": 0.9114977307110439,
+                            "width": 0.451316595223515,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "\t- 1 second-foot equals about 1 acre-inch per hour.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,52 @@
+```json
+[
+    {
+        "Watersource_Name": "O. Christensen Well 1",
+        "County": "Humboldt County",
+        "Location": "About 0.5 mile northwest of Loleta, 75 feet southwest of Copenhagen Road, 35 feet southeast of Table Bluff Hill Road",
+        "Townships_Ranges_Sections": ["3N/1W-18D"],
+        "Temporal_Resolution": "Variable intervals between dates ranging from a few months to over a year",
+        "Units_Of_Measurement": "Feet above land-surface datum",
+        "Latitude": 40.597,
+        "Longitude": -124.092,
+        "Dates_of_Recording": "06/08/1951-05/25/1955",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "O. Christensen Well 2",
+        "County": "Humboldt County",
+        "Location": "About 0.5 mile northwest of Loleta, 115 feet southeast of Table Bluff Hill Road, 60 feet southwest of Copenhagen Road, in the southwest corner of garage part of long shed facing Copenhagen Road",
+        "Townships_Ranges_Sections": ["3N/1W-18D"],
+        "Temporal_Resolution": "Variable intervals between dates ranging from a few months to over a year",
+        "Units_Of_Measurement": "Feet above land-surface datum",
+        "Latitude": 40.597,
+        "Longitude": -124.092,
+        "Dates_of_Recording": "06/08/1951-08/23/1955",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Fred Bahnsen Irrigation Well",
+        "County": "Humboldt County",
+        "Location": "About 2.5 miles west of Fortuna, 130 feet north of Ferndale Road, 25 feet east of a northward-trending fence",
+        "Townships_Ranges_Sections": ["3N/1W-32C"],
+        "Temporal_Resolution": "Variable intervals between dates ranging from a few months to over a year",
+        "Units_Of_Measurement": "Feet above land-surface datum",
+        "Latitude": 40.623,
+        "Longitude": -124.168,
+        "Dates_of_Recording": "06/09/1951-08/23/1955",
+        "Water_Type": "Irrigation"
+    },
+    {
+        "Watersource_Name": "City of Fortuna Unused Well",
+        "County": "Humboldt County",
+        "Location": "In Fortuna, 70 feet east of 7th Street, 35 feet north of K Street, 10 feet south of a large wood storage tank",
+        "Townships_Ranges_Sections": ["3N/1W-34J"],
+        "Temporal_Resolution": "Variable intervals between dates ranging from a few months to over a year",
+        "Units_Of_Measurement": "Feet above land-surface datum",
+        "Latitude": 40.641,
+        "Longitude": -124.143,
+        "Dates_of_Recording": "06/08/1951-08/29/1953",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

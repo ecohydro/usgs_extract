@@ -1,0 +1,26 @@
+```json
+[
+    {
+        "Watersource_Name": "Spring XYZ",
+        "County": "Sample County",
+        "Townships_Ranges_Sections": "T1R2S3",
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "Millimeters",
+        "Latitude": 34.1234,
+        "Longitude": -117.1234,
+        "Dates_of_Recording": ["2023-01-01", "2023-01-02"],
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Lake ABC",
+        "County": "Sample County",
+        "Townships_Ranges_Sections": "T4R5S6",
+        "Temporal_Resolution": "Weekly",
+        "Units_Of_Measurement": "Cubic meters",
+        "Latitude": 35.5678,
+        "Longitude": -118.5678,
+        "Dates_of_Recording": ["2023-02-01", "2023-02-08"],
+        "Water_Type": "Reservoir"
+    }
+]
+```

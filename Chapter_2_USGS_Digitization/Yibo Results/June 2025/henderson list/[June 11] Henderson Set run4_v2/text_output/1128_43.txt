@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Clear Lake",
+    "County": "Lake County",
+    "Location": "Northern California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Annual (from 1873 to 1899)",
+    "Units_Of_Measurement": {
+        "Intake": "Acre-feet",
+        "Level": "Feet"
+    },
+    "Latitude": 39.033,
+    "Longitude": -122.8,
+    "Dates_of_Recording": "01/01/1873-12/31/1899",
+    "Water_Type": "Reservoir"
+}
+```

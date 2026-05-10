@@ -1,0 +1,130 @@
+{
+    "job_id": "d2e542d8-ee32-487f-a42a-2d0f576ba32a",
+    "duration": 3.478156566619873,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/2aea4d2c-c427-4fb7-bd1a-458857bb30e8?AWSAccessKeyId=ASIA2UOK6OVBK4N6LGY2&Signature=hWCkAKuiB1nLjJkzx8%2FaYG1Ey0g%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIEWdOKfQKnnSpF8dYZPs35ycLT5MvqNQgc3HiuOps5arAiAZWg7UCI611eQT2Spmfve04zEMpszFiju6AYREOSih9yqLBQgjEAAaDDczMTEwNjkzMjAzNCIM9ddmtRuRWaPK4TkGKugEPmbMdzRTwQjhOvrSKbKw75Rt2eNi3BzioUgZWRCnwSxxxxivBKQ1WWK4QqRRpawPtu1iHEfdYH2R%2F8HTE9iIT6p1NFMWgKK0vTxMtykXyJswfo7PeJnOcIcW%2BX6L1jYtqL%2FFJJMVssA1deXVI1r%2BOmjABhGxgTFO4YSyXSLmmDBQfY1Z88ZVVpYBiVhHFyhdp7eg4sADd%2FtikwhCvXICVK1ac799dMuoNffasUhmM6X3pr3%2BVvRTgDxX1HFtol%2BbZaWDHTCOmPUYEklVTqF94e5f1%2F8Sylxvz5DuIOuwq1GbISLYG2AipJMSOVB3S%2F5NoGk4ltpRaoO7VnDYx8FB8mUrYTchQhvnVxO9lZ7m9uFgBr8LbYVzGkjmENlAA8weUNyq0IEfN%2FVd1Z4Jyqi8bdU7V%2B%2BIrLHj4kqzLLfqitmp2pFL6YXDb3ddELBDl2n3JtAsMxmBwYngOapkIFgustR%2FRKS9kcH44KDjXmEGubyzfdiZk7EkJXMsBaNfNCIWPRgFFodbvSnVYGaiaeHornkhgO4oFhCmCjspiVZOmsgNs0RuXKmGj6Dh%2FXCtrAVDL4kTKP0NDPXwmCgclnHNX3YPvvzuUjZB5%2BwOcbwqC76Zb6zKVY7co9Qesb6zEFDbe7bq4PfqZj45B1qJtvZ7uwyv3pY4MHRLJOQLWEhlGQLy09AlMAJqdy2TFKYqlRkY4J1DTqH9CnKGXiLPKqU75u44fEnAazyM9A2lFZ20t7YMZPJ2KascnQoQKTwgprxAqkYi%2BeQyGzfPrZORyuXvWB0uLkTSFmR0W0xgAaV0E491pFy46ThBPDCeusm6BjqcAZOkoZJKQQdApiU25mo%2FUmqNPB8HV0F3Mrn930cDri8shmJ5K1hbOWM72AJ%2BC9AbrM5YwIcPO3VgpzlEJtEnWgYEmBiyjGB6wHaad04FxWg7SaCVWyIITqiv1k0KqLgNbIyOy%2FZEJV81cUYVzvOTDOnlr2praUqjDEpACpJ8qyybWOkMPaUrOP74ySopvyHQrQ3bmHxUQ4RCT1Ol2g%3D%3D&Expires=1733456665",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.08887008040626322,
+                            "top": 0.07818532818532818,
+                            "width": 0.009310198899703767,
+                            "height": 0.010617760617760617,
+                            "page": 1
+                        },
+                        "content": "6",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER RECORDS OF CALIFORNIA, 1964\n\nis determined by shifting-control method, in which correction factors based on individual discharge measurements and notes by engineers and observers are used in applying the gage heights to the rating tables. If the stage-discharge relation for a station is temporarily changed by the presence of aquatic growth or debris on the control, the daily mean discharge is computed by what is in effect the shifting-control method.\n\nAt some gaging stations the stage-discharge relation is af- fected by backwater from reservoirs, tributary streams, or other sources. This necessitates the use of the slope method in which the slope or fall in a reach of the stream is a factor in deter- mining discharge. Information required for determining the slope or fall is obtained by means of an auxiliary gage set at some distance from the base gage. At some stations the stage-discharge relation is affected by changing stage. For such stations, the rate of change in stage is used as a factor in determining dis- charge.",
+                "embed": "# SURFACE WATER RECORDS OF CALIFORNIA, 1964\n\nis determined by shifting-control method, in which correction factors based on individual discharge measurements and notes by engineers and observers are used in applying the gage heights to the rating tables. If the stage-discharge relation for a station is temporarily changed by the presence of aquatic growth or debris on the control, the daily mean discharge is computed by what is in effect the shifting-control method.\n\nAt some gaging stations the stage-discharge relation is af- fected by backwater from reservoirs, tributary streams, or other sources. This necessitates the use of the slope method in which the slope or fall in a reach of the stream is a factor in deter- mining discharge. Information required for determining the slope or fall is obtained by means of an auxiliary gage set at some distance from the base gage. At some stations the stage-discharge relation is affected by changing stage. For such stations, the rate of change in stage is used as a factor in determining dis- charge.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.23825645366060094,
+                            "top": 0.07882882882882883,
+                            "width": 0.4303851036817605,
+                            "height": 0.013191763191763193,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER RECORDS OF CALIFORNIA, 1964",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09140922556072789,
+                            "top": 0.11164736164736165,
+                            "width": 0.694033008887008,
+                            "height": 0.1093951093951094,
+                            "page": 1
+                        },
+                        "content": "is determined by shifting-control method, in which correction factors based on individual discharge measurements and notes by engineers and observers are used in applying the gage heights to the rating tables. If the stage-discharge relation for a station is temporarily changed by the presence of aquatic growth or debris on the control, the daily mean discharge is computed by what is in effect the shifting-control method.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.090562843842573,
+                            "top": 0.24002574002574004,
+                            "width": 0.6948793906051629,
+                            "height": 0.157979407979408,
+                            "page": 1
+                        },
+                        "content": "At some gaging stations the stage-discharge relation is af- fected by backwater from reservoirs, tributary streams, or other sources. This necessitates the use of the slope method in which the slope or fall in a reach of the stream is a factor in deter- mining discharge. Information required for determining the slope or fall is obtained by means of an auxiliary gage set at some distance from the base gage. At some stations the stage-discharge relation is affected by changing stage. For such stations, the rate of change in stage is used as a factor in determining dis- charge.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER RECORDS OF CALIFORNIA, 1964 (cont.)\n\nAt some gaging stations the stage-discharge relation is af- fected by ice during the winter, and it becomes impossible to com- pute the discharge in the usual manner. Discharge for periods of ice effect is computed on the basis of the gage-height record and occasional winter discharge measurements, consideration being given to the available information on temperature and precipita- tion, notes by gage observers and engineers, and comparable records of discharge for other stations in the same or nearby basins.",
+                "embed": "# SURFACE WATER RECORDS OF CALIFORNIA, 1964 (cont.)\n\nAt some gaging stations the stage-discharge relation is af- fected by ice during the winter, and it becomes impossible to com- pute the discharge in the usual manner. Discharge for periods of ice effect is computed on the basis of the gage-height record and occasional winter discharge measurements, consideration being given to the available information on temperature and precipita- tion, notes by gage observers and engineers, and comparable records of discharge for other stations in the same or nearby basins.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09098603470165044,
+                            "top": 0.416023166023166,
+                            "width": 0.6936098180279306,
+                            "height": 0.138996138996139,
+                            "page": 1
+                        },
+                        "content": "At some gaging stations the stage-discharge relation is af- fected by ice during the winter, and it becomes impossible to com- pute the discharge in the usual manner. Discharge for periods of ice effect is computed on the basis of the gage-height record and occasional winter discharge measurements, consideration being given to the available information on temperature and precipita- tion, notes by gage observers and engineers, and comparable records of discharge for other stations in the same or nearby basins.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER RECORDS OF CALIFORNIA, 1964 (cont.)\n\nFor some gaging stations there are periods when no gage- height record is obtained or the recorded gage height is so faulty that it cannot be used to compute the daily discharge. This happens when the recorder stops or otherwise fails to operate properly, intakes are plugged, float is frozen in the well, or for various other reasons. For such periods the daily discharges are estimated on the basis of recorded range in stage, adjoining good record, discharge measurements, weather records, and comparison with other station records from the same or nearby basins.\n\nThe data in this report generally comprise a description of the station, a skeleton rating table, and a table showing the daily discharge and monthly and yearly discharge of the stream. Records are published for the water year which begins on October 1 and ends on September 30. A calendar for the 1964 water year is shown on page II to facilitate finding the day of the week for any date.",
+                "embed": "# SURFACE WATER RECORDS OF CALIFORNIA, 1964 (cont.)\n\nFor some gaging stations there are periods when no gage- height record is obtained or the recorded gage height is so faulty that it cannot be used to compute the daily discharge. This happens when the recorder stops or otherwise fails to operate properly, intakes are plugged, float is frozen in the well, or for various other reasons. For such periods the daily discharges are estimated on the basis of recorded range in stage, adjoining good record, discharge measurements, weather records, and comparison with other station records from the same or nearby basins.\n\nThe data in this report generally comprise a description of the station, a skeleton rating table, and a table showing the daily discharge and monthly and yearly discharge of the stream. Records are published for the water year which begins on October 1 and ends on September 30. A calendar for the 1964 water year is shown on page II to facilitate finding the day of the week for any date.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08971646212441811,
+                            "top": 0.575933075933076,
+                            "width": 0.6851460008463817,
+                            "height": 0.15572715572715573,
+                            "page": 1
+                        },
+                        "content": "For some gaging stations there are periods when no gage- height record is obtained or the recorded gage height is so faulty that it cannot be used to compute the daily discharge. This happens when the recorder stops or otherwise fails to operate properly, intakes are plugged, float is frozen in the well, or for various other reasons. For such periods the daily discharges are estimated on the basis of recorded range in stage, adjoining good record, discharge measurements, weather records, and comparison with other station records from the same or nearby basins.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.090562843842573,
+                            "top": 0.7522522522522522,
+                            "width": 0.6944561997460855,
+                            "height": 0.10810810810810811,
+                            "page": 1
+                        },
+                        "content": "The data in this report generally comprise a description of the station, a skeleton rating table, and a table showing the daily discharge and monthly and yearly discharge of the stream. Records are published for the water year which begins on October 1 and ends on September 30. A calendar for the 1964 water year is shown on page II to facilitate finding the day of the week for any date.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

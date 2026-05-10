@@ -1,0 +1,42 @@
+```json
+[
+    {
+        "Watersource_Name": "San Joaquin Valley Pumpages",
+        "County": "Various Counties in San Joaquin Valley, California",
+        "Location": "Mount Diablo Base Line and Meridian, San Bernardino Base Line and Meridian",
+        "Townships_Ranges_Sections": [
+            "T. 30 S., R. 27 E.",
+            "28 E.",
+            "29 E.",
+            "30 E.",
+            "T. 31 S., R. 24 E.",
+            "25 E.",
+            "26 E.",
+            "27 E.",
+            "28 E.",
+            "29 E.",
+            "30 E.",
+            "T. 32 S., R. 23 E.",
+            "24 E.",
+            "25 E.",
+            "26 E.",
+            "27 E.",
+            "28 E.",
+            "29 E.",
+            "30 E.",
+            "Tps. 11 & 12 N., 18 W.",
+            "19 W.",
+            "20 W.",
+            "21 W.",
+            "22 W.",
+            "23 W."
+        ],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "01/01/1975-12/31/1977",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

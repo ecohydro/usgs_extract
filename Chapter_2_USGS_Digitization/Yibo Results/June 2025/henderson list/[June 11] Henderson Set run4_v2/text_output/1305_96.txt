@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Mr. Woodbridge Well",
+        "County": "San Bernardino",
+        "Location": "2 miles west of San Bernardino, San Bernardino quadrangle",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly to yearly (based on data intervals)",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 34.1057,
+        "Longitude": -117.2898,
+        "Dates_of_Recording": "10/17/1900-05/13/1919",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "G. Renwick Well",
+        "County": "San Bernardino",
+        "Location": "12 miles south of San Bernardino, San Bernardino quadrangle",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly to yearly (based on data intervals)",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 34.0747,
+        "Longitude": -117.2094,
+        "Dates_of_Recording": "10/01/1900-11/17/1916",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

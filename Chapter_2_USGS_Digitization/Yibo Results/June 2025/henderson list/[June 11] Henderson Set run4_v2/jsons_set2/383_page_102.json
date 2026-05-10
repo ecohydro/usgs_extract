@@ -1,0 +1,202 @@
+{
+    "job_id": "208adfb4-ceb5-4663-b0f3-b1d52cbeaa8b",
+    "duration": 4.630346059799194,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/40203296-c439-4abb-9b29-f14c6e51651a?AWSAccessKeyId=ASIA2UOK6OVBJQP2GF2N&Signature=p8gxX87tjITUYvA6sws5Z%2FnbuHw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQCiKIXX1TXL4wJpZACCMFs0yiWXLaJAWszlaklZAQRAbQIhAPNcmd%2BWxEOcgOYeHaPgv85LvotmHmYM3n4%2B%2B2v%2FqaWFKosFCCUQABoMNzMxMTA2OTMyMDM0IgwdwnKX%2BQ8THuWjCjUq6AS9f5nkJoD5Y4sw4GruNiQyFQifTqdLV4riXbL%2B%2Fb2V3CHKwreg4kRE8m2DyPY5QnwEQEUIiFVm7ImtdnYMglWF%2FLOxUAPb6O8FGFYdtekpDFS5a1yeDU5%2FR1KQzomssJWyj6OM2za41gH1XnpYXNsXYG2zdREg2YkdqelJ1DgjbiaEUMgG8SAj89NuKxKrY1wD2rnPNw6ivkRNE0S5VKQLav8ca%2B3fLJhBEcVKKuxan2R7sJzic6U%2FSg2PJ2LrwRaXczUS42tRZJFvvTcFn5PRPB%2FKUCOUC%2FsJs9ehlcWrp%2FuxO9oCZychCBfILwE6LfsbQpinxKmPqWJjYT97ugRZifWL3JdMUk8kpC0undbkuyr0B%2B71F4PDmWV%2FJCX%2BlsD2q5GkNfxhFS4uBjSamfHHdEu%2FFM9I%2B%2BZN1WGx1C4LCtZKXdMDjKZLrAHWLQxU%2BUuELiWsc1pMHEurl36%2BKV29fYzWQFe5LWd89lTxJytFpah123bWrk6Dbd1Jp3PveBXCGnlRcu1z1tRe3TeG1F06c1lD7rodYg47cKyeu49W9GBPxmkGaHIFx4Ji9oiv4zgzVFQwAihJO22tLhgYasmhawjc8h07y5MzhQEs%2FRwbJfGxUaGXXp2coUGHZJdGU8mR7jzAUIN%2B3b9trotb7Mvr9aD3GUvVMRgtRBXWF2LbTJd9y6hadOuPlzBB3cqFdqmzXr0ITyDYeCiyqlrJkmJVn2WB8C%2B8EG1jHPgWR9aAIFCXWhP0ixyyqqkDzTcpaq0TeMHFL5NUavZ0QqGeLICS74ECPcsglcSxnhO%2BNv2x0d5Mbdqv0tVlMNbkyboGOpoBmqTl2QR6IEwJm1O0QXUtUasg4QvGeoKjn9UWHDHSWDGC6u7ddnN1tuK6yBdXOQTxmroa1Ozc3xHQIPX2sZygdxSQYp9fpWPKPBTa6iHBXLARQGiT4ODplHrSPw6LAZ0AUqa24OLbGFXYZTfuV9RnQpwwL3Re7ynA5073cVjSYBdJoRjYchF%2FqHTe8lScfP030JpEINRjktoBpQ%3D%3D&Expires=1733461801",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SURFACE WATER SUPPLY, 1918, PART XI.\n\nDaily discharge, in second-feet, of Laguna Creek at Irvington, Calif., for the year ending Sept. 30, 1918.",
+                "embed": "# SURFACE WATER SUPPLY, 1918, PART XI.\n\nDaily discharge, in second-feet, of Laguna Creek at Irvington, Calif., for the year ending Sept. 30, 1918.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.1340012523481528,
+                            "top": 0.06060606060606061,
+                            "width": 0.046336881653099564,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "100",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.30807764558547274,
+                            "top": 0.06175680859225163,
+                            "width": 0.4796493425172198,
+                            "height": 0.01457614115841964,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1918, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13462742642454603,
+                            "top": 0.09205983889528194,
+                            "width": 0.8240450845335003,
+                            "height": 0.028768699654775604,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Laguna Creek at Irvington, Calif., for the year ending Sept. 30, 1918.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1918, PART XI. (cont.)\n\n<table><tr><th>Day.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>Day.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th></tr><tr><td>1</td><td></td><td>2</td><td>7</td><td>2</td><td>16</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>2</td><td></td><td>2</td><td>7</td><td>1</td><td>17</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>3</td><td></td><td>2</td><td>7</td><td>1</td><td>18</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>4</td><td></td><td>2</td><td>6</td><td>1</td><td>19</td><td></td><td>9</td><td>3</td><td></td></tr><tr><td>5</td><td></td><td>2</td><td>6</td><td>1</td><td>20</td><td></td><td>9</td><td>3</td><td></td></tr><tr><td>6</td><td></td><td>2</td><td>5</td><td></td><td>21</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>7</td><td></td><td>2</td><td>5</td><td></td><td>22</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>8</td><td></td><td>2</td><td>4</td><td></td><td>23</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>9</td><td></td><td>2</td><td>4</td><td></td><td>24</td><td>3</td><td>9</td><td>3</td><td></td></tr><tr><td>10</td><td></td><td>3</td><td>4</td><td></td><td>25</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>11</td><td></td><td>3</td><td>4</td><td></td><td>26</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>12</td><td></td><td>3</td><td>4</td><td></td><td>27</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>13</td><td></td><td>3</td><td>4</td><td></td><td>28</td><td>2</td><td>8</td><td>2</td><td></td></tr><tr><td>14</td><td></td><td>4</td><td>4</td><td></td><td>29</td><td></td><td>8.</td><td>2</td><td></td></tr><tr><td>15</td><td></td><td>4</td><td>4</td><td></td><td>30</td><td></td><td>8</td><td>2</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>31</td><td></td><td>8</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1918, PART XI. (cont.)\n\n<table><tr><th>Day.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>Day.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th></tr><tr><td>1</td><td></td><td>2</td><td>7</td><td>2</td><td>16</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>2</td><td></td><td>2</td><td>7</td><td>1</td><td>17</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>3</td><td></td><td>2</td><td>7</td><td>1</td><td>18</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>4</td><td></td><td>2</td><td>6</td><td>1</td><td>19</td><td></td><td>9</td><td>3</td><td></td></tr><tr><td>5</td><td></td><td>2</td><td>6</td><td>1</td><td>20</td><td></td><td>9</td><td>3</td><td></td></tr><tr><td>6</td><td></td><td>2</td><td>5</td><td></td><td>21</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>7</td><td></td><td>2</td><td>5</td><td></td><td>22</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>8</td><td></td><td>2</td><td>4</td><td></td><td>23</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>9</td><td></td><td>2</td><td>4</td><td></td><td>24</td><td>3</td><td>9</td><td>3</td><td></td></tr><tr><td>10</td><td></td><td>3</td><td>4</td><td></td><td>25</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>11</td><td></td><td>3</td><td>4</td><td></td><td>26</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>12</td><td></td><td>3</td><td>4</td><td></td><td>27</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>13</td><td></td><td>3</td><td>4</td><td></td><td>28</td><td>2</td><td>8</td><td>2</td><td></td></tr><tr><td>14</td><td></td><td>4</td><td>4</td><td></td><td>29</td><td></td><td>8.</td><td>2</td><td></td></tr><tr><td>15</td><td></td><td>4</td><td>4</td><td></td><td>30</td><td></td><td>8</td><td>2</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>31</td><td></td><td>8</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1305791750951491,
+                            "top": 0.1324593061499089,
+                            "width": 0.8310976261337175,
+                            "height": 0.2290333351688363,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>Day.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th></tr><tr><td>1</td><td></td><td>2</td><td>7</td><td>2</td><td>16</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>2</td><td></td><td>2</td><td>7</td><td>1</td><td>17</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>3</td><td></td><td>2</td><td>7</td><td>1</td><td>18</td><td></td><td>4</td><td>4</td><td></td></tr><tr><td>4</td><td></td><td>2</td><td>6</td><td>1</td><td>19</td><td></td><td>9</td><td>3</td><td></td></tr><tr><td>5</td><td></td><td>2</td><td>6</td><td>1</td><td>20</td><td></td><td>9</td><td>3</td><td></td></tr><tr><td>6</td><td></td><td>2</td><td>5</td><td></td><td>21</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>7</td><td></td><td>2</td><td>5</td><td></td><td>22</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>8</td><td></td><td>2</td><td>4</td><td></td><td>23</td><td>2</td><td>9</td><td>3</td><td></td></tr><tr><td>9</td><td></td><td>2</td><td>4</td><td></td><td>24</td><td>3</td><td>9</td><td>3</td><td></td></tr><tr><td>10</td><td></td><td>3</td><td>4</td><td></td><td>25</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>11</td><td></td><td>3</td><td>4</td><td></td><td>26</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>12</td><td></td><td>3</td><td>4</td><td></td><td>27</td><td>2</td><td>8</td><td>3</td><td></td></tr><tr><td>13</td><td></td><td>3</td><td>4</td><td></td><td>28</td><td>2</td><td>8</td><td>2</td><td></td></tr><tr><td>14</td><td></td><td>4</td><td>4</td><td></td><td>29</td><td></td><td>8.</td><td>2</td><td></td></tr><tr><td>15</td><td></td><td>4</td><td>4</td><td></td><td>30</td><td></td><td>8</td><td>2</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>31</td><td></td><td>8</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1918, PART XI. (cont.)\n\nNOTE. - No flow Oct. 1 to Feb. 20 and May 6 to Sept. 30.\n\nMonthly discharge of Laguna Creek at Irvington, Calif., for the year ending Sept. 30, 1918.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet:</th><th rowspan=\"2\">Run-off (in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>February</td><td>0.3</td><td>0.0</td><td>0.06</td><td>3.3</td></tr><tr><td>March</td><td>.9</td><td>.2</td><td>.52</td><td>32.0</td></tr><tr><td>April</td><td>.7</td><td>.2</td><td>.40</td><td>23.8</td></tr><tr><td>May</td><td>.2</td><td>.0</td><td>.02</td><td>1.2</td></tr><tr><td>The year</td><td>.9</td><td>.0</td><td>.08</td><td>60.3</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1918, PART XI. (cont.)\n\nNOTE. - No flow Oct. 1 to Feb. 20 and May 6 to Sept. 30.\n\nMonthly discharge of Laguna Creek at Irvington, Calif., for the year ending Sept. 30, 1918.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet:</th><th rowspan=\"2\">Run-off (in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>February</td><td>0.3</td><td>0.0</td><td>0.06</td><td>3.3</td></tr><tr><td>March</td><td>.9</td><td>.2</td><td>.52</td><td>32.0</td></tr><tr><td>April</td><td>.7</td><td>.2</td><td>.40</td><td>23.8</td></tr><tr><td>May</td><td>.2</td><td>.0</td><td>.02</td><td>1.2</td></tr><tr><td>The year</td><td>.9</td><td>.0</td><td>.08</td><td>60.3</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14965560425798372,
+                            "top": 0.3693901035673188,
+                            "width": 0.4483406386975579,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "NOTE. - No flow Oct. 1 to Feb. 20 and May 6 to Sept. 30.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1358797745773325,
+                            "top": 0.3947065592635213,
+                            "width": 0.8215403882279274,
+                            "height": 0.024165707710011506,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Laguna Creek at Irvington, Calif., for the year ending Sept. 30, 1918.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12963574814960668,
+                            "top": 0.4347877634134062,
+                            "width": 0.8317802491304497,
+                            "height": 0.14268052920922036,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet:</th><th rowspan=\"2\">Run-off (in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>February</td><td>0.3</td><td>0.0</td><td>0.06</td><td>3.3</td></tr><tr><td>March</td><td>.9</td><td>.2</td><td>.52</td><td>32.0</td></tr><tr><td>April</td><td>.7</td><td>.2</td><td>.40</td><td>23.8</td></tr><tr><td>May</td><td>.2</td><td>.0</td><td>.02</td><td>1.2</td></tr><tr><td>The year</td><td>.9</td><td>.0</td><td>.08</td><td>60.3</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1918, PART XI. (cont.)\n\n## DRY CREEK NEAR DECOTO, CALIF.\n\nLOCATION.-Jus below Niles-Alvarado highway bridge, one-fourth mile above junc- tion with Alameda Creek, and 1 mile southwest of Decoto, Alameda County.\n\n- DRAINAGE AREA.-9.4 square miles above floor of valley (measured on topographic map by State Water Commission).\n\nRECORDS AVAILABLE.-October - 1, 1916, to September 30, 1918. GAGE.-Lietz water-stage recorder on right bank 500 feet below highway bridge. DISCHARGE MEASUREMENTS.-Made from footbridge just above gage or by wading. CHANNEL AND CONTROL.-Gravel; shifting. Banks high and cleared in vicinity of station.\n\nDIVERSIONS.-None.\nREGULATION.-None\nCOOPERATION.-Data collected and compiled under personal supervision of Paul\nBailey, engineer, and furnished for publication by State Water Commission of\nCalifornia.\n\nStream dry all year except as follows: March 19, discharge 22.5 second-feet; March 20, discharge 8 second-feet.",
+                "embed": "# SURFACE WATER SUPPLY, 1918, PART XI. (cont.)\n\n## DRY CREEK NEAR DECOTO, CALIF.\n\nLOCATION.-Jus below Niles-Alvarado highway bridge, one-fourth mile above junc- tion with Alameda Creek, and 1 mile southwest of Decoto, Alameda County.\n\n- DRAINAGE AREA.-9.4 square miles above floor of valley (measured on topographic map by State Water Commission).\n\nRECORDS AVAILABLE.-October - 1, 1916, to September 30, 1918. GAGE.-Lietz water-stage recorder on right bank 500 feet below highway bridge. DISCHARGE MEASUREMENTS.-Made from footbridge just above gage or by wading. CHANNEL AND CONTROL.-Gravel; shifting. Banks high and cleared in vicinity of station.\n\nDIVERSIONS.-None.\nREGULATION.-None\nCOOPERATION.-Data collected and compiled under personal supervision of Paul\nBailey, engineer, and furnished for publication by State Water Commission of\nCalifornia.\n\nStream dry all year except as follows: March 19, discharge 22.5 second-feet; March 20, discharge 8 second-feet.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.3638071383844709,
+                            "top": 0.5930187955504411,
+                            "width": 0.3594239198497182,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "DRY CREEK NEAR DECOTO, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1327489041953663,
+                            "top": 0.6148830072880705,
+                            "width": 0.8252974326862867,
+                            "height": 0.03068661296509398,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-Jus below Niles-Alvarado highway bridge, one-fourth mile above junc- tion with Alameda Creek, and 1 mile southwest of Decoto, Alameda County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.13212273011897308,
+                            "top": 0.6467203682393556,
+                            "width": 0.8252974326862867,
+                            "height": 0.030303030303030304,
+                            "page": 1
+                        },
+                        "content": "- DRAINAGE AREA.-9.4 square miles above floor of valley (measured on topographic map by State Water Commission).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13149655604257984,
+                            "top": 0.6789413118527042,
+                            "width": 0.8265497808390733,
+                            "height": 0.0744150364403529,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-October - 1, 1916, to September 30, 1918. GAGE.-Lietz water-stage recorder on right bank 500 feet below highway bridge. DISCHARGE MEASUREMENTS.-Made from footbridge just above gage or by wading. CHANNEL AND CONTROL.-Gravel; shifting. Banks high and cleared in vicinity of station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13149655604257984,
+                            "top": 0.7579593402378213,
+                            "width": 0.8259236067626801,
+                            "height": 0.07518220176448025,
+                            "page": 1
+                        },
+                        "content": "DIVERSIONS.-None.\nREGULATION.-None\nCOOPERATION.-Data collected and compiled under personal supervision of Paul\nBailey, engineer, and furnished for publication by State Water Commission of\nCalifornia.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13024420788979335,
+                            "top": 0.8377445339470656,
+                            "width": 0.8246712586098935,
+                            "height": 0.030303030303030304,
+                            "page": 1
+                        },
+                        "content": "Stream dry all year except as follows: March 19, discharge 22.5 second-feet; March 20, discharge 8 second-feet.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

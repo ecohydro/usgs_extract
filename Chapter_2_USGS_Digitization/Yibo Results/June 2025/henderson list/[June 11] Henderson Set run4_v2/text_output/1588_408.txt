@@ -1,0 +1,15 @@
+```json
+{
+    "Watersource_Name": "SMITH RIVER NEAR CRESCENT CITY",
+    "County": "Del Norte",
+    "Location": {
+        "Townships_Ranges_Sections": ["SW1/4 sec. 10, T. 16 N., R. 1 E."],
+        "Latitude": 41.7355,
+        "Longitude": -124.2327
+    },
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "second-feet",
+    "Dates_of_Recording": "10/01/1931-09/30/1932",
+    "Water_Type": "Stream discharge"
+}
+```

@@ -1,0 +1,202 @@
+{
+    "job_id": "c12e7af5-9e81-48a8-b28f-83ee6d62e539",
+    "duration": 4.807130575180054,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f0ec0e61-182f-4e57-a311-e5516e8dee2c?AWSAccessKeyId=ASIA2UOK6OVBEEIQMTNG&Signature=eZ200RJXt0fqRUMRgEXoMi9HhB0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIEJGvMkUJGF%2FkUTP5%2BeeyRriKLUE2XM0Wm26PQshWWj5AiEA3lHmwYw17yHD2yfplUDryidNuXodrwqHYF4JTifa65kqiwUIJBAAGgw3MzExMDY5MzIwMzQiDMTu3JpKxnWOxgk%2FjSroBGw3a4zEAGz6zcEI0kZ9C%2BcrGOzoR9RDl3QT3BTuDSuCD6Gd40Iba13oF1SzIE2T%2FVDTxvf2OrWLg%2F1yW9RrOnz%2Fx%2FUEP7a%2BTPy1RROqIAtAtGvwuKZ%2FnBLZHI0OOD5Ere0jB861xUSpjkuWEgl1hb8jWVGH0enORMm%2F4D8i3FQz8PvtIQf87nvSgBcV0GYvA5o%2BKUe6XCnpv2vqNaY71Ch%2FaqOkPOxhlKcXwrw2TEiVu8DyXGFHoBVky6tYxyBeBReTIQMYdjc58mPzEsrebntGZJ8HhZVdSPyuWqe3R%2Bgkxrxzr44QtsrEtz8t1byh64LSgA9hmtaJPWWSv44Pa0qyHL%2F44t4i2wHlyhKWhBRwjyFMJ7RHWywNOeFMR80En9Rc17C8uXre%2FBuUswGfYS%2F%2FH0H5YQGgGPeusX2Ekv0IxvOMmXELKEiRS%2BwUHtkfERkr9dGWISqbRSwFf9eBp52%2F4G05b1o8bf1rxTVF%2FQG%2FZyyL88RTdhYoVVtVFdPj9xriaskgDocGXLPWCILx3eeNMbZAV3A4O6wszXzYTvfMLJwUyDRcSnAtDNh2DTwkyRPujj7JmzP7I7kIr5%2FqyDA4DrdsfX3Vd1KoMibc%2BEM59uYr60wTQvjhh5mJ6lImCrRuWe7b2fQcQjcEyl%2FXBqvyu3ySd1hp6TSpodq92Vsw6APnivcpf1LOMs%2F84s87GyRhyNYYC82VJ%2BzgLvOAQ0%2BH3ifY4%2Fdxtz%2FJWKrSaiJMo%2BAEL%2FBDNdhgnDlXlev1VNaijFK16wF18XvXrVw2K3wgyniFmF%2B6j4ELoY8Wq%2BGr6io%2Frn5oYZEwh9TJugY6mwE56Le%2BB%2FBjbyfe2vPpuMqLNKfeL4FBgAiMXqfZujX5NltwyYiS9KXV%2BklDykhmhKcUxcUWi3MOrnfS3nFl5VB4CqA2vA32MdPRhQZwSjiBmci0vKUitjAkzj6o079BuFAVYPAr5BpjhvxuAx0K4%2Fu60HLskqRtcKXElwV3fYv2MbxupHj6By1AArPTU142G0ikxGsB4%2FyGufZxkw%3D%3D&Expires=1733459682",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SANTA MARGARITA RIVER BASIN\n\nPeak stages and discharges of Murrieta Creek at Temecula, Calif.",
+                "embed": "# SANTA MARGARITA RIVER BASIN\n\nPeak stages and discharges of Murrieta Creek at Temecula, Calif.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3187226048841578,
+                            "top": 0.04181051016494054,
+                            "width": 0.2817783343769568,
+                            "height": 0.009589566551591868,
+                            "page": 1
+                        },
+                        "content": "SANTA MARGARITA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8403256105197244,
+                            "top": 0.04219409282700422,
+                            "width": 0.020663744520976832,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "63",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15654351909830932,
+                            "top": 0.07211354046797085,
+                            "width": 0.6005009392611146,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "Peak stages and discharges of Murrieta Creek at Temecula, Calif.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA MARGARITA RIVER BASIN (cont.)\n\n<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1931</td><td>Feb. 5, 1931</td><td>3.03</td><td>340</td><td>1953</td><td>Nov. 16, 1952</td><td>1.53</td><td>57</td></tr><tr><td>1932</td><td>Feb. 16, 1932</td><td>7.76</td><td>5,100</td><td></td><td>Dec. 2, 1952</td><td>3.01</td><td>530</td></tr><tr><td>1933</td><td>Jan. 20, 1933</td><td>2.63</td><td>274</td><td></td><td>Dec. 20, 1952</td><td>2.67</td><td>365</td></tr><tr><td>1934</td><td>Feb. 24, 1934</td><td>1.23</td><td>23</td><td></td><td></td><td></td><td></td></tr><tr><td>1935</td><td>Dec. 14, 1934</td><td>2.97</td><td>228</td><td>1954</td><td>Jan. 19, 1954</td><td>3.53</td><td>694</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 25, 1954</td><td>3.76</td><td>893</td></tr><tr><td>1936</td><td>Feb. 15, 1936</td><td>6.00</td><td>2,580</td><td></td><td>Feb. 14, 1954</td><td>5.19</td><td>2,100</td></tr><tr><td>1937</td><td>Feb. 6, 1937</td><td>8.23</td><td>5,870</td><td></td><td>Mar. 22, 1954</td><td>2.75</td><td>302</td></tr><tr><td>1938</td><td>Mar. 2, 1938</td><td>8.7</td><td>16,800</td><td></td><td></td><td></td><td></td></tr><tr><td>1939</td><td>Feb. 3, 1939</td><td>3.63</td><td>731</td><td>1955</td><td>Jan. 18, 1955</td><td>3.15</td><td>502</td></tr><tr><td>1940</td><td>Jan. 8, 1940</td><td>9.23</td><td>7,550</td><td></td><td>Feb. 27, 1955</td><td>1.95</td><td>100</td></tr><tr><td>1941</td><td>Dec. 24, 1940</td><td>9.00</td><td>7,140</td><td>1956</td><td>Jan. 27, 1956</td><td>2.02</td><td>116</td></tr><tr><td>1942</td><td>Feb. 22, 1942</td><td>1.59</td><td>54</td><td></td><td></td><td></td><td></td></tr><tr><td>1943</td><td>Jan. 23, 1943</td><td>13.82</td><td>17,500</td><td>1957</td><td>Jan. 13, 1957</td><td>1.70</td><td>57</td></tr><tr><td>1944</td><td>Feb. 22, 1944</td><td>6.57</td><td>4,000</td><td></td><td>Jan. 29, 1957</td><td>2.21</td><td>137</td></tr><tr><td>1945</td><td>Nov. 12, 1944</td><td>4.47</td><td>1,600</td><td></td><td>Mar. 1, 1957</td><td>2.99</td><td>438</td></tr><tr><td>1946</td><td>Dec. 22, 1945</td><td>3.48</td><td>650</td><td>1958</td><td>Feb. 4, 1958</td><td>4.20</td><td>1,190</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Feb. 19, 1958</td><td>2.29</td><td>174</td></tr><tr><td>1947</td><td>Nov. 23, 1946</td><td>1.94</td><td>80</td><td></td><td>Feb. 25, 1958</td><td>1.64</td><td>62</td></tr><tr><td></td><td>Dec. 26, 1946</td><td>2.25</td><td>125</td><td></td><td>Mar. 16, 1958</td><td>5.24</td><td>2,140</td></tr><tr><td></td><td>Dec. 27, 1946</td><td>2.01</td><td>95</td><td></td><td>Mar. 22, 1958</td><td>3.43</td><td>657</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mar. 27, 1958</td><td>2.73</td><td>314</td></tr><tr><td>1948</td><td>Feb. 5, 1948</td><td>1.61</td><td>57</td><td></td><td>Apr. 1, 1958</td><td>7.92</td><td>5,730</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Apr. 3, 1958</td><td>7.25</td><td>4,660</td></tr><tr><td>1949</td><td>Dec. 27, 1948</td><td>.88</td><td>12</td><td></td><td>Apr. 7, 1958</td><td>4.87</td><td>1,740</td></tr><tr><td>1950</td><td>Mar. 26, 1950</td><td>.58</td><td>3.6</td><td>1959</td><td>Feb. 16, 1959</td><td>2.64</td><td>280</td></tr><tr><td>1951</td><td>Jan. 11, 1951</td><td>.94</td><td>15</td><td>1960</td><td>Jan. 12, 1960</td><td>1.49</td><td>44</td></tr><tr><td>1952</td><td>Dec. 12, 1951</td><td>1.53</td><td>60</td><td>1962</td><td>Jan. 22, 1962</td><td>1.72</td><td>71</td></tr><tr><td></td><td>Dec. 30, 1951</td><td>3.85</td><td>830</td><td></td><td>Feb. 12, 1962</td><td>1.77</td><td>63</td></tr><tr><td></td><td>Jan. 13, 1952</td><td>4.82</td><td>1,460</td><td></td><td>Feb. 19, 1962</td><td>3.26</td><td>410</td></tr><tr><td></td><td>Jan. 16, 1952</td><td>9.80</td><td>9,140</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Jan. 18, 1952</td><td>8.85</td><td>7,440</td><td>1963</td><td>Feb. 10, 1963</td><td>6.87</td><td>3,700</td></tr><tr><td></td><td>Jan. 25, 1952</td><td>1.66</td><td>66</td><td></td><td>Mar. 17, 1963</td><td>1.77</td><td>76</td></tr><tr><td></td><td>Mar. 1, 1952</td><td>2.30</td><td>207</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 7, 1952</td><td>5.93</td><td>3,180</td><td>1964</td><td>Jan. 22, 1964</td><td>1.95</td><td>42</td></tr><tr><td></td><td>Mar. 11, 1952</td><td>2.65</td><td>331</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 13, 1952</td><td>1.73</td><td>77</td><td>1965</td><td>Apr. 10, 1965</td><td>3.61</td><td>555</td></tr><tr><td></td><td>Mar. 16, 1952</td><td>8.08</td><td>6,300</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Apr. 10, 1952</td><td>3.90</td><td>1,100</td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# SANTA MARGARITA RIVER BASIN (cont.)\n\n<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1931</td><td>Feb. 5, 1931</td><td>3.03</td><td>340</td><td>1953</td><td>Nov. 16, 1952</td><td>1.53</td><td>57</td></tr><tr><td>1932</td><td>Feb. 16, 1932</td><td>7.76</td><td>5,100</td><td></td><td>Dec. 2, 1952</td><td>3.01</td><td>530</td></tr><tr><td>1933</td><td>Jan. 20, 1933</td><td>2.63</td><td>274</td><td></td><td>Dec. 20, 1952</td><td>2.67</td><td>365</td></tr><tr><td>1934</td><td>Feb. 24, 1934</td><td>1.23</td><td>23</td><td></td><td></td><td></td><td></td></tr><tr><td>1935</td><td>Dec. 14, 1934</td><td>2.97</td><td>228</td><td>1954</td><td>Jan. 19, 1954</td><td>3.53</td><td>694</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 25, 1954</td><td>3.76</td><td>893</td></tr><tr><td>1936</td><td>Feb. 15, 1936</td><td>6.00</td><td>2,580</td><td></td><td>Feb. 14, 1954</td><td>5.19</td><td>2,100</td></tr><tr><td>1937</td><td>Feb. 6, 1937</td><td>8.23</td><td>5,870</td><td></td><td>Mar. 22, 1954</td><td>2.75</td><td>302</td></tr><tr><td>1938</td><td>Mar. 2, 1938</td><td>8.7</td><td>16,800</td><td></td><td></td><td></td><td></td></tr><tr><td>1939</td><td>Feb. 3, 1939</td><td>3.63</td><td>731</td><td>1955</td><td>Jan. 18, 1955</td><td>3.15</td><td>502</td></tr><tr><td>1940</td><td>Jan. 8, 1940</td><td>9.23</td><td>7,550</td><td></td><td>Feb. 27, 1955</td><td>1.95</td><td>100</td></tr><tr><td>1941</td><td>Dec. 24, 1940</td><td>9.00</td><td>7,140</td><td>1956</td><td>Jan. 27, 1956</td><td>2.02</td><td>116</td></tr><tr><td>1942</td><td>Feb. 22, 1942</td><td>1.59</td><td>54</td><td></td><td></td><td></td><td></td></tr><tr><td>1943</td><td>Jan. 23, 1943</td><td>13.82</td><td>17,500</td><td>1957</td><td>Jan. 13, 1957</td><td>1.70</td><td>57</td></tr><tr><td>1944</td><td>Feb. 22, 1944</td><td>6.57</td><td>4,000</td><td></td><td>Jan. 29, 1957</td><td>2.21</td><td>137</td></tr><tr><td>1945</td><td>Nov. 12, 1944</td><td>4.47</td><td>1,600</td><td></td><td>Mar. 1, 1957</td><td>2.99</td><td>438</td></tr><tr><td>1946</td><td>Dec. 22, 1945</td><td>3.48</td><td>650</td><td>1958</td><td>Feb. 4, 1958</td><td>4.20</td><td>1,190</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Feb. 19, 1958</td><td>2.29</td><td>174</td></tr><tr><td>1947</td><td>Nov. 23, 1946</td><td>1.94</td><td>80</td><td></td><td>Feb. 25, 1958</td><td>1.64</td><td>62</td></tr><tr><td></td><td>Dec. 26, 1946</td><td>2.25</td><td>125</td><td></td><td>Mar. 16, 1958</td><td>5.24</td><td>2,140</td></tr><tr><td></td><td>Dec. 27, 1946</td><td>2.01</td><td>95</td><td></td><td>Mar. 22, 1958</td><td>3.43</td><td>657</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mar. 27, 1958</td><td>2.73</td><td>314</td></tr><tr><td>1948</td><td>Feb. 5, 1948</td><td>1.61</td><td>57</td><td></td><td>Apr. 1, 1958</td><td>7.92</td><td>5,730</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Apr. 3, 1958</td><td>7.25</td><td>4,660</td></tr><tr><td>1949</td><td>Dec. 27, 1948</td><td>.88</td><td>12</td><td></td><td>Apr. 7, 1958</td><td>4.87</td><td>1,740</td></tr><tr><td>1950</td><td>Mar. 26, 1950</td><td>.58</td><td>3.6</td><td>1959</td><td>Feb. 16, 1959</td><td>2.64</td><td>280</td></tr><tr><td>1951</td><td>Jan. 11, 1951</td><td>.94</td><td>15</td><td>1960</td><td>Jan. 12, 1960</td><td>1.49</td><td>44</td></tr><tr><td>1952</td><td>Dec. 12, 1951</td><td>1.53</td><td>60</td><td>1962</td><td>Jan. 22, 1962</td><td>1.72</td><td>71</td></tr><tr><td></td><td>Dec. 30, 1951</td><td>3.85</td><td>830</td><td></td><td>Feb. 12, 1962</td><td>1.77</td><td>63</td></tr><tr><td></td><td>Jan. 13, 1952</td><td>4.82</td><td>1,460</td><td></td><td>Feb. 19, 1962</td><td>3.26</td><td>410</td></tr><tr><td></td><td>Jan. 16, 1952</td><td>9.80</td><td>9,140</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Jan. 18, 1952</td><td>8.85</td><td>7,440</td><td>1963</td><td>Feb. 10, 1963</td><td>6.87</td><td>3,700</td></tr><tr><td></td><td>Jan. 25, 1952</td><td>1.66</td><td>66</td><td></td><td>Mar. 17, 1963</td><td>1.77</td><td>76</td></tr><tr><td></td><td>Mar. 1, 1952</td><td>2.30</td><td>207</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 7, 1952</td><td>5.93</td><td>3,180</td><td>1964</td><td>Jan. 22, 1964</td><td>1.95</td><td>42</td></tr><tr><td></td><td>Mar. 11, 1952</td><td>2.65</td><td>331</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 13, 1952</td><td>1.73</td><td>77</td><td>1965</td><td>Apr. 10, 1965</td><td>3.61</td><td>555</td></tr><tr><td></td><td>Mar. 16, 1952</td><td>8.08</td><td>6,300</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Apr. 10, 1952</td><td>3.90</td><td>1,100</td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0318647514825772,
+                            "top": 0.08473587182457985,
+                            "width": 0.8368946044386815,
+                            "height": 0.46682766766945066,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1931</td><td>Feb. 5, 1931</td><td>3.03</td><td>340</td><td>1953</td><td>Nov. 16, 1952</td><td>1.53</td><td>57</td></tr><tr><td>1932</td><td>Feb. 16, 1932</td><td>7.76</td><td>5,100</td><td></td><td>Dec. 2, 1952</td><td>3.01</td><td>530</td></tr><tr><td>1933</td><td>Jan. 20, 1933</td><td>2.63</td><td>274</td><td></td><td>Dec. 20, 1952</td><td>2.67</td><td>365</td></tr><tr><td>1934</td><td>Feb. 24, 1934</td><td>1.23</td><td>23</td><td></td><td></td><td></td><td></td></tr><tr><td>1935</td><td>Dec. 14, 1934</td><td>2.97</td><td>228</td><td>1954</td><td>Jan. 19, 1954</td><td>3.53</td><td>694</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 25, 1954</td><td>3.76</td><td>893</td></tr><tr><td>1936</td><td>Feb. 15, 1936</td><td>6.00</td><td>2,580</td><td></td><td>Feb. 14, 1954</td><td>5.19</td><td>2,100</td></tr><tr><td>1937</td><td>Feb. 6, 1937</td><td>8.23</td><td>5,870</td><td></td><td>Mar. 22, 1954</td><td>2.75</td><td>302</td></tr><tr><td>1938</td><td>Mar. 2, 1938</td><td>8.7</td><td>16,800</td><td></td><td></td><td></td><td></td></tr><tr><td>1939</td><td>Feb. 3, 1939</td><td>3.63</td><td>731</td><td>1955</td><td>Jan. 18, 1955</td><td>3.15</td><td>502</td></tr><tr><td>1940</td><td>Jan. 8, 1940</td><td>9.23</td><td>7,550</td><td></td><td>Feb. 27, 1955</td><td>1.95</td><td>100</td></tr><tr><td>1941</td><td>Dec. 24, 1940</td><td>9.00</td><td>7,140</td><td>1956</td><td>Jan. 27, 1956</td><td>2.02</td><td>116</td></tr><tr><td>1942</td><td>Feb. 22, 1942</td><td>1.59</td><td>54</td><td></td><td></td><td></td><td></td></tr><tr><td>1943</td><td>Jan. 23, 1943</td><td>13.82</td><td>17,500</td><td>1957</td><td>Jan. 13, 1957</td><td>1.70</td><td>57</td></tr><tr><td>1944</td><td>Feb. 22, 1944</td><td>6.57</td><td>4,000</td><td></td><td>Jan. 29, 1957</td><td>2.21</td><td>137</td></tr><tr><td>1945</td><td>Nov. 12, 1944</td><td>4.47</td><td>1,600</td><td></td><td>Mar. 1, 1957</td><td>2.99</td><td>438</td></tr><tr><td>1946</td><td>Dec. 22, 1945</td><td>3.48</td><td>650</td><td>1958</td><td>Feb. 4, 1958</td><td>4.20</td><td>1,190</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Feb. 19, 1958</td><td>2.29</td><td>174</td></tr><tr><td>1947</td><td>Nov. 23, 1946</td><td>1.94</td><td>80</td><td></td><td>Feb. 25, 1958</td><td>1.64</td><td>62</td></tr><tr><td></td><td>Dec. 26, 1946</td><td>2.25</td><td>125</td><td></td><td>Mar. 16, 1958</td><td>5.24</td><td>2,140</td></tr><tr><td></td><td>Dec. 27, 1946</td><td>2.01</td><td>95</td><td></td><td>Mar. 22, 1958</td><td>3.43</td><td>657</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mar. 27, 1958</td><td>2.73</td><td>314</td></tr><tr><td>1948</td><td>Feb. 5, 1948</td><td>1.61</td><td>57</td><td></td><td>Apr. 1, 1958</td><td>7.92</td><td>5,730</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Apr. 3, 1958</td><td>7.25</td><td>4,660</td></tr><tr><td>1949</td><td>Dec. 27, 1948</td><td>.88</td><td>12</td><td></td><td>Apr. 7, 1958</td><td>4.87</td><td>1,740</td></tr><tr><td>1950</td><td>Mar. 26, 1950</td><td>.58</td><td>3.6</td><td>1959</td><td>Feb. 16, 1959</td><td>2.64</td><td>280</td></tr><tr><td>1951</td><td>Jan. 11, 1951</td><td>.94</td><td>15</td><td>1960</td><td>Jan. 12, 1960</td><td>1.49</td><td>44</td></tr><tr><td>1952</td><td>Dec. 12, 1951</td><td>1.53</td><td>60</td><td>1962</td><td>Jan. 22, 1962</td><td>1.72</td><td>71</td></tr><tr><td></td><td>Dec. 30, 1951</td><td>3.85</td><td>830</td><td></td><td>Feb. 12, 1962</td><td>1.77</td><td>63</td></tr><tr><td></td><td>Jan. 13, 1952</td><td>4.82</td><td>1,460</td><td></td><td>Feb. 19, 1962</td><td>3.26</td><td>410</td></tr><tr><td></td><td>Jan. 16, 1952</td><td>9.80</td><td>9,140</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Jan. 18, 1952</td><td>8.85</td><td>7,440</td><td>1963</td><td>Feb. 10, 1963</td><td>6.87</td><td>3,700</td></tr><tr><td></td><td>Jan. 25, 1952</td><td>1.66</td><td>66</td><td></td><td>Mar. 17, 1963</td><td>1.77</td><td>76</td></tr><tr><td></td><td>Mar. 1, 1952</td><td>2.30</td><td>207</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 7, 1952</td><td>5.93</td><td>3,180</td><td>1964</td><td>Jan. 22, 1964</td><td>1.95</td><td>42</td></tr><tr><td></td><td>Mar. 11, 1952</td><td>2.65</td><td>331</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 13, 1952</td><td>1.73</td><td>77</td><td>1965</td><td>Apr. 10, 1965</td><td>3.61</td><td>555</td></tr><tr><td></td><td>Mar. 16, 1952</td><td>8.08</td><td>6,300</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Apr. 10, 1952</td><td>3.90</td><td>1,100</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA MARGARITA RIVER BASIN (cont.)\n\n440. Santa Margarita River near Temecula, Calif. (Published as \"Temecula Creek at Railroad Canyon, near Temecula\" prior to October 1952)\n\nLocation Lat 33\u00b028'26\", long 117\u00b008'30\", in Temecula Grant, on left bank at upper end of Temecula Canyon, 0.1 mile downstream from Murrieta Creek and 1.4 miles south of Temecula, Riverside County\n\nDrainage area.--588 sq mi.\n\nGage Recording. Altitude of gage is 950 ft (from topographic map).\n\nStage-discharge relation.--Defined by current-meter measurements below\n10,000 cfs.",
+                "embed": "# SANTA MARGARITA RIVER BASIN (cont.)\n\n440. Santa Margarita River near Temecula, Calif. (Published as \"Temecula Creek at Railroad Canyon, near Temecula\" prior to October 1952)\n\nLocation Lat 33\u00b028'26\", long 117\u00b008'30\", in Temecula Grant, on left bank at upper end of Temecula Canyon, 0.1 mile downstream from Murrieta Creek and 1.4 miles south of Temecula, Riverside County\n\nDrainage area.--588 sq mi.\n\nGage Recording. Altitude of gage is 950 ft (from topographic map).\n\nStage-discharge relation.--Defined by current-meter measurements below\n10,000 cfs.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12335629304946776,
+                            "top": 0.59186804756425,
+                            "width": 0.6649968691296181,
+                            "height": 0.0333716915995397,
+                            "page": 1
+                        },
+                        "content": "440. Santa Margarita River near Temecula, Calif. (Published as \"Temecula Creek at Railroad Canyon, near Temecula\" prior to October 1952)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.035691922354414526,
+                            "top": 0.635596471039509,
+                            "width": 0.8058860363180964,
+                            "height": 0.03413885692366705,
+                            "page": 1
+                        },
+                        "content": "Location Lat 33\u00b028'26\", long 117\u00b008'30\", in Temecula Grant, on left bank at upper end of Temecula Canyon, 0.1 mile downstream from Murrieta Creek and 1.4 miles south of Temecula, Riverside County",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.036318096430807766,
+                            "top": 0.6804756425009589,
+                            "width": 0.26925485284909206,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "Drainage area.--588 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.036944270507201005,
+                            "top": 0.7008055235903338,
+                            "width": 0.7169693174702567,
+                            "height": 0.012658227848101266,
+                            "page": 1
+                        },
+                        "content": "Gage Recording. Altitude of gage is 950 ft (from topographic map).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.038196618659987476,
+                            "top": 0.7230533179900268,
+                            "width": 0.7313713212273012,
+                            "height": 0.021480629075565784,
+                            "page": 1
+                        },
+                        "content": "Stage-discharge relation.--Defined by current-meter measurements below\n10,000 cfs.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA MARGARITA RIVER BASIN (cont.)\n\nBankfull stage Not subject to overflow.\n\nRemarks. Peaks partly regulated by Vail Lake (capacity, 49,370 acre-ft) begin- ning in November 1948. Only annual peaks are shown.\n\nPeak stages and discharges\n\n<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1923</td><td>Feb. 12, 1923</td><td>1.71</td><td>92</td><td>1928</td><td>Feb. 4, 1928</td><td>1.12</td><td>45</td></tr><tr><td>1924</td><td>Mar. 26, 1924</td><td>2.75</td><td>86</td><td>1929</td><td>Apr. 15, 1929</td><td>1.65</td><td>158</td></tr><tr><td>1925</td><td>Dec. 16, 1924</td><td>2.92</td><td>52</td><td>1930</td><td>Jan. 27, 1930</td><td>3.20</td><td>1,900</td></tr><tr><td>1926</td><td>Apr. 7, 1926</td><td>6.08</td><td>2,300</td><td>1931</td><td>Feb. 5, 1931</td><td>2.35</td><td>528</td></tr><tr><td>1927</td><td>Feb. 16, 1927</td><td>14.6</td><td>25,000</td><td>1932</td><td>Feb. 16, 1932</td><td>7.15</td><td>8,500</td></tr></table>",
+                "embed": "# SANTA MARGARITA RIVER BASIN (cont.)\n\nBankfull stage Not subject to overflow.\n\nRemarks. Peaks partly regulated by Vail Lake (capacity, 49,370 acre-ft) begin- ning in November 1948. Only annual peaks are shown.\n\nPeak stages and discharges\n\n<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1923</td><td>Feb. 12, 1923</td><td>1.71</td><td>92</td><td>1928</td><td>Feb. 4, 1928</td><td>1.12</td><td>45</td></tr><tr><td>1924</td><td>Mar. 26, 1924</td><td>2.75</td><td>86</td><td>1929</td><td>Apr. 15, 1929</td><td>1.65</td><td>158</td></tr><tr><td>1925</td><td>Dec. 16, 1924</td><td>2.92</td><td>52</td><td>1930</td><td>Jan. 27, 1930</td><td>3.20</td><td>1,900</td></tr><tr><td>1926</td><td>Apr. 7, 1926</td><td>6.08</td><td>2,300</td><td>1931</td><td>Feb. 5, 1931</td><td>2.35</td><td>528</td></tr><tr><td>1927</td><td>Feb. 16, 1927</td><td>14.6</td><td>25,000</td><td>1932</td><td>Feb. 16, 1932</td><td>7.15</td><td>8,500</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.036944270507201005,
+                            "top": 0.7560414269275029,
+                            "width": 0.4257983719474014,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "Bankfull stage Not subject to overflow.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.036944270507201005,
+                            "top": 0.7771384733410049,
+                            "width": 0.8259236067626801,
+                            "height": 0.02339854238588416,
+                            "page": 1
+                        },
+                        "content": "Remarks. Peaks partly regulated by Vail Lake (capacity, 49,370 acre-ft) begin- ning in November 1948. Only annual peaks are shown.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.33500313087038197,
+                            "top": 0.8112773302646721,
+                            "width": 0.24232936756418283,
+                            "height": 0.009589566551591868,
+                            "page": 1
+                        },
+                        "content": "Peak stages and discharges",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.03532741453472942,
+                            "top": 0.8220660608757672,
+                            "width": 0.8334185648651219,
+                            "height": 0.09929518558808016,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1923</td><td>Feb. 12, 1923</td><td>1.71</td><td>92</td><td>1928</td><td>Feb. 4, 1928</td><td>1.12</td><td>45</td></tr><tr><td>1924</td><td>Mar. 26, 1924</td><td>2.75</td><td>86</td><td>1929</td><td>Apr. 15, 1929</td><td>1.65</td><td>158</td></tr><tr><td>1925</td><td>Dec. 16, 1924</td><td>2.92</td><td>52</td><td>1930</td><td>Jan. 27, 1930</td><td>3.20</td><td>1,900</td></tr><tr><td>1926</td><td>Apr. 7, 1926</td><td>6.08</td><td>2,300</td><td>1931</td><td>Feb. 5, 1931</td><td>2.35</td><td>528</td></tr><tr><td>1927</td><td>Feb. 16, 1927</td><td>14.6</td><td>25,000</td><td>1932</td><td>Feb. 16, 1932</td><td>7.15</td><td>8,500</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

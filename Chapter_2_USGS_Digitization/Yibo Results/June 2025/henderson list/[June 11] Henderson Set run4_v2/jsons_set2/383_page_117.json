@@ -1,0 +1,130 @@
+{
+    "job_id": "d3ee1d8c-1983-4f66-b4cb-eab3384d84be",
+    "duration": 4.291621446609497,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f92d838d-7d36-4908-b94f-3695735f246f?AWSAccessKeyId=ASIA2UOK6OVBGS2UITTK&Signature=qumq3SdBHWLJ1WiyULt1JA6yhQU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJHMEUCICPdg%2BqG4kX44RgwlNabn24uQdnyil4FK0e0Rcy9v0umAiEAuAwe5wSfOB%2FSHvzlmRv0Lux8Hp%2BwbOsvKMhN3EVIPT4qiwUIJRAAGgw3MzExMDY5MzIwMzQiDG%2FOjdL9r4XlmFfccyroBEyaHDowVj3WF3O9O5uCSVfcGQ7HP74aCfQ%2By18%2FlHQGH8tDMrr4GgmrE%2Fhwgn6PCVhAxFCiFnDNwIZq8u43iuydPJPoJ8YF33wE2A7st8KLt5vsUOfmMZTuLWseZVcm0JxeLigPAi5ErSWEXwXq1v%2FJ7oDqLmMGQ3kOmP6O76PGnVF9Nz1kjB4wRVXg1T4o%2BfKLHt3VedwPUZP5%2FJXDNXUok9YIFi6MCr4OmR2b7sQrVXNX5RChWLk6KX6L3MqOZBDyVAKrx%2Bxp5o7E0ZNsWCNI1GJ8cZh5yE%2FqRXMbafpM9gQO63yuQLtE27WxPXDL39FmpvK3S9SbpCowwTssPkAE%2FD2pKmoJMWQYdhFJoIPnFcGHD63FeOja4DYJB8zHTo1BlNLtLRx25CD5cWGnt26H6Ax2QyWwuhlAP4Rl8OJcIgZr%2FYWvwV8GjyRdCBsv0uha4uRtGpdR2Jn4j6JxKGGggaDLQXg8YyTTbobZgZ9hNNW2i%2BzS%2BpXP3dsdaWuyW4aLoROF4uo%2FD3%2B601igHMO5FR9IT4k9TZ0yWw5A1ndoZ5P8YbR4demeqLVA1m0TsuLmanxkNu6ukOHl1rq%2F5yx9bB1SU56acRp9onXW2D9SM2djxNkP%2FgzT6AYXsnFTcfPYGvJIF0IEIxLw%2FYn2BH%2FXsNUzxXldoTwEZfC5lGPMaWQgb%2BOF4nOJPSoHUDarqsJPBa5kdNpQhNPbeez7GE3Qu28O%2Bbp1v8FeF3ud7KhmJomFGvOOrLqArJ1w94OO4kqJt4SZjFKU95ltCxTTP2BYwUk3Nj199I0ziCRESPsN3yi6SXhYqn0w3N7JugY6mwHABmDUJrfunP%2BDvb0eKMT7Bi92Bqw1p4HmWAo3FPA5Teb65Dnglk5PPdOa3qUl22GJpifbs0ANLEHDSShwumjOOTdN0VHsX7XXp7IlrmWB1F%2Bb%2BWIvmUfXseX7GmnsWr6WhRauujylNSNnIvLvKmMnm3XqdoCRbW0DEk03x6Grwd0PFObvw10myvGhnOvct4hpAeXHphuD04Tkqw%3D%3D&Expires=1733461731",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "TULARE LAKE BASIN. 1 115\n\nDaily discharge, in second-feet, of Kaweah River near Three Rivers, Calif., for the year ending Sept. 30, 1918.",
+                "embed": "TULARE LAKE BASIN. 1 115\n\nDaily discharge, in second-feet, of Kaweah River near Three Rivers, Calif., for the year ending Sept. 30, 1918.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3143393863494051,
+                            "top": 0.05331799002685079,
+                            "width": 0.5372573575453976,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "TULARE LAKE BASIN. 1 115",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.028177833437695678,
+                            "top": 0.08668968162639049,
+                            "width": 0.8278021289918598,
+                            "height": 0.02761795166858458,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Kaweah River near Three Rivers, Calif., for the year ending Sept. 30, 1918.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>55</td><td>47</td><td>54</td><td>55</td><td>52</td><td>139</td><td>660</td><td></td><td>370</td><td>62</td><td>42</td></tr><tr><td>2</td><td>52</td><td>45</td><td>52</td><td>55</td><td>55</td><td>145</td><td>700</td><td></td><td>322</td><td>71</td><td>42</td></tr><tr><td>3</td><td>55</td><td>47</td><td>60</td><td>55</td><td>52</td><td>152</td><td>830</td><td></td><td>322</td><td>62</td><td>42</td></tr><tr><td>4</td><td>48</td><td>50</td><td>57</td><td>55</td><td>51</td><td>187</td><td>422</td><td></td><td>322</td><td>62</td><td>48</td></tr><tr><td>5</td><td>47</td><td>42</td><td>52</td><td>52</td><td>60</td><td>165</td><td>422</td><td></td><td>300</td><td>55</td><td>48</td></tr><tr><td>6</td><td>46</td><td>58</td><td>55</td><td>54</td><td>52</td><td>165</td><td>450</td><td></td><td>259</td><td>62</td><td>42</td></tr><tr><td>7</td><td>52</td><td>81</td><td>55</td><td>54</td><td>255</td><td>365</td><td>422</td><td></td><td>259</td><td>62</td><td>48</td></tr><tr><td>8</td><td>50</td><td>65</td><td>51</td><td>54</td><td>139</td><td>390</td><td>580</td><td></td><td>222</td><td>55</td><td>48</td></tr><tr><td>9</td><td>47</td><td>65</td><td>48</td><td>57</td><td>255</td><td>247</td><td>930</td><td></td><td>188</td><td>62</td><td>42</td></tr><tr><td>10</td><td>47</td><td>62</td><td>52</td><td>54</td><td>65</td><td>478</td><td>660</td><td></td><td>172</td><td>55</td><td>42</td></tr><tr><td>11</td><td>44</td><td>62</td><td>52</td><td>50</td><td>88</td><td>1, 180</td><td>980</td><td></td><td>172</td><td>48</td><td>42</td></tr><tr><td>12</td><td>46</td><td>65</td><td>52</td><td>50</td><td>217</td><td>580</td><td>700</td><td></td><td>188</td><td>48</td><td>48</td></tr><tr><td>13</td><td>52</td><td>60</td><td>48</td><td>60</td><td>65</td><td>545</td><td>660</td><td></td><td>172</td><td>55</td><td>42</td></tr><tr><td>14</td><td>47</td><td>68</td><td>47</td><td>63</td><td>92</td><td>418</td><td>660</td><td></td><td>142</td><td>48</td><td>42</td></tr><tr><td>15</td><td>45</td><td>55</td><td>44</td><td>66</td><td>77</td><td>340</td><td>785</td><td></td><td>123</td><td>55</td><td>36</td></tr><tr><td>16</td><td>52</td><td>52</td><td>65</td><td>58</td><td>130</td><td>340</td><td>545</td><td></td><td>128</td><td>62</td><td>42</td></tr><tr><td>17</td><td>58</td><td>58</td><td>50</td><td>60</td><td>155</td><td>318</td><td>660</td><td></td><td>128</td><td>55</td><td>42</td></tr><tr><td>18</td><td>55</td><td>52</td><td>50</td><td>60</td><td>275</td><td>,080</td><td>830</td><td></td><td>102</td><td>48</td><td>42</td></tr><tr><td>19</td><td>50</td><td>55</td><td>51</td><td>58</td><td>295</td><td>400</td><td>880</td><td></td><td>102</td><td>48</td><td>42</td></tr><tr><td>20</td><td>50</td><td>52</td><td>50</td><td>55</td><td>275</td><td>660</td><td>880</td><td></td><td>91</td><td>48</td><td>42</td></tr><tr><td>21</td><td>50</td><td>55</td><td>52</td><td>63</td><td>130</td><td>1, 300</td><td></td><td></td><td>91</td><td>42</td><td>48</td></tr><tr><td>22</td><td>50</td><td>52</td><td>50</td><td>52</td><td>165</td><td>480</td><td></td><td></td><td>80</td><td>48</td><td>42</td></tr><tr><td>23</td><td>50</td><td>52</td><td>46</td><td>57</td><td>169</td><td>450</td><td></td><td>660</td><td>80</td><td>48</td><td>71</td></tr><tr><td>24</td><td>46</td><td>52</td><td>47</td><td>57</td><td>148</td><td>480</td><td></td><td>510</td><td>71</td><td>48</td><td>66</td></tr><tr><td>25</td><td>47</td><td>50</td><td>50</td><td>55</td><td>206</td><td>510</td><td></td><td>510</td><td>80</td><td>42</td><td>66</td></tr><tr><td>26</td><td>48</td><td>52</td><td>65</td><td>55</td><td>159</td><td>480</td><td></td><td>450</td><td>71</td><td>42</td><td>59</td></tr><tr><td>27</td><td>47</td><td>52</td><td>98</td><td>57</td><td>152</td><td>1, 030</td><td></td><td>480</td><td>73</td><td>42</td><td>66</td></tr><tr><td>28</td><td>48</td><td>52</td><td>68</td><td>62</td><td>152</td><td>660</td><td></td><td>450</td><td>62</td><td>48</td><td>71</td></tr><tr><td>29</td><td>50</td><td>51</td><td>62</td><td>55</td><td></td><td>620</td><td></td><td>422</td><td>71</td><td>48</td><td>345</td></tr><tr><td>30</td><td>50</td><td>52</td><td>55</td><td>55</td><td></td><td>930</td><td></td><td>345</td><td>71</td><td>42</td><td>280</td></tr><tr><td>31</td><td>48</td><td></td><td>60</td><td>51</td><td></td><td>660</td><td></td><td></td><td>62</td><td>42</td><td></td></tr></table>",
+                "embed": "<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>55</td><td>47</td><td>54</td><td>55</td><td>52</td><td>139</td><td>660</td><td></td><td>370</td><td>62</td><td>42</td></tr><tr><td>2</td><td>52</td><td>45</td><td>52</td><td>55</td><td>55</td><td>145</td><td>700</td><td></td><td>322</td><td>71</td><td>42</td></tr><tr><td>3</td><td>55</td><td>47</td><td>60</td><td>55</td><td>52</td><td>152</td><td>830</td><td></td><td>322</td><td>62</td><td>42</td></tr><tr><td>4</td><td>48</td><td>50</td><td>57</td><td>55</td><td>51</td><td>187</td><td>422</td><td></td><td>322</td><td>62</td><td>48</td></tr><tr><td>5</td><td>47</td><td>42</td><td>52</td><td>52</td><td>60</td><td>165</td><td>422</td><td></td><td>300</td><td>55</td><td>48</td></tr><tr><td>6</td><td>46</td><td>58</td><td>55</td><td>54</td><td>52</td><td>165</td><td>450</td><td></td><td>259</td><td>62</td><td>42</td></tr><tr><td>7</td><td>52</td><td>81</td><td>55</td><td>54</td><td>255</td><td>365</td><td>422</td><td></td><td>259</td><td>62</td><td>48</td></tr><tr><td>8</td><td>50</td><td>65</td><td>51</td><td>54</td><td>139</td><td>390</td><td>580</td><td></td><td>222</td><td>55</td><td>48</td></tr><tr><td>9</td><td>47</td><td>65</td><td>48</td><td>57</td><td>255</td><td>247</td><td>930</td><td></td><td>188</td><td>62</td><td>42</td></tr><tr><td>10</td><td>47</td><td>62</td><td>52</td><td>54</td><td>65</td><td>478</td><td>660</td><td></td><td>172</td><td>55</td><td>42</td></tr><tr><td>11</td><td>44</td><td>62</td><td>52</td><td>50</td><td>88</td><td>1, 180</td><td>980</td><td></td><td>172</td><td>48</td><td>42</td></tr><tr><td>12</td><td>46</td><td>65</td><td>52</td><td>50</td><td>217</td><td>580</td><td>700</td><td></td><td>188</td><td>48</td><td>48</td></tr><tr><td>13</td><td>52</td><td>60</td><td>48</td><td>60</td><td>65</td><td>545</td><td>660</td><td></td><td>172</td><td>55</td><td>42</td></tr><tr><td>14</td><td>47</td><td>68</td><td>47</td><td>63</td><td>92</td><td>418</td><td>660</td><td></td><td>142</td><td>48</td><td>42</td></tr><tr><td>15</td><td>45</td><td>55</td><td>44</td><td>66</td><td>77</td><td>340</td><td>785</td><td></td><td>123</td><td>55</td><td>36</td></tr><tr><td>16</td><td>52</td><td>52</td><td>65</td><td>58</td><td>130</td><td>340</td><td>545</td><td></td><td>128</td><td>62</td><td>42</td></tr><tr><td>17</td><td>58</td><td>58</td><td>50</td><td>60</td><td>155</td><td>318</td><td>660</td><td></td><td>128</td><td>55</td><td>42</td></tr><tr><td>18</td><td>55</td><td>52</td><td>50</td><td>60</td><td>275</td><td>,080</td><td>830</td><td></td><td>102</td><td>48</td><td>42</td></tr><tr><td>19</td><td>50</td><td>55</td><td>51</td><td>58</td><td>295</td><td>400</td><td>880</td><td></td><td>102</td><td>48</td><td>42</td></tr><tr><td>20</td><td>50</td><td>52</td><td>50</td><td>55</td><td>275</td><td>660</td><td>880</td><td></td><td>91</td><td>48</td><td>42</td></tr><tr><td>21</td><td>50</td><td>55</td><td>52</td><td>63</td><td>130</td><td>1, 300</td><td></td><td></td><td>91</td><td>42</td><td>48</td></tr><tr><td>22</td><td>50</td><td>52</td><td>50</td><td>52</td><td>165</td><td>480</td><td></td><td></td><td>80</td><td>48</td><td>42</td></tr><tr><td>23</td><td>50</td><td>52</td><td>46</td><td>57</td><td>169</td><td>450</td><td></td><td>660</td><td>80</td><td>48</td><td>71</td></tr><tr><td>24</td><td>46</td><td>52</td><td>47</td><td>57</td><td>148</td><td>480</td><td></td><td>510</td><td>71</td><td>48</td><td>66</td></tr><tr><td>25</td><td>47</td><td>50</td><td>50</td><td>55</td><td>206</td><td>510</td><td></td><td>510</td><td>80</td><td>42</td><td>66</td></tr><tr><td>26</td><td>48</td><td>52</td><td>65</td><td>55</td><td>159</td><td>480</td><td></td><td>450</td><td>71</td><td>42</td><td>59</td></tr><tr><td>27</td><td>47</td><td>52</td><td>98</td><td>57</td><td>152</td><td>1, 030</td><td></td><td>480</td><td>73</td><td>42</td><td>66</td></tr><tr><td>28</td><td>48</td><td>52</td><td>68</td><td>62</td><td>152</td><td>660</td><td></td><td>450</td><td>62</td><td>48</td><td>71</td></tr><tr><td>29</td><td>50</td><td>51</td><td>62</td><td>55</td><td></td><td>620</td><td></td><td>422</td><td>71</td><td>48</td><td>345</td></tr><tr><td>30</td><td>50</td><td>52</td><td>55</td><td>55</td><td></td><td>930</td><td></td><td>345</td><td>71</td><td>42</td><td>280</td></tr><tr><td>31</td><td>48</td><td></td><td>60</td><td>51</td><td></td><td>660</td><td></td><td></td><td>62</td><td>42</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.024850146652536983,
+                            "top": 0.1269879855092659,
+                            "width": 0.8335490552201149,
+                            "height": 0.40066288347028434,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>55</td><td>47</td><td>54</td><td>55</td><td>52</td><td>139</td><td>660</td><td></td><td>370</td><td>62</td><td>42</td></tr><tr><td>2</td><td>52</td><td>45</td><td>52</td><td>55</td><td>55</td><td>145</td><td>700</td><td></td><td>322</td><td>71</td><td>42</td></tr><tr><td>3</td><td>55</td><td>47</td><td>60</td><td>55</td><td>52</td><td>152</td><td>830</td><td></td><td>322</td><td>62</td><td>42</td></tr><tr><td>4</td><td>48</td><td>50</td><td>57</td><td>55</td><td>51</td><td>187</td><td>422</td><td></td><td>322</td><td>62</td><td>48</td></tr><tr><td>5</td><td>47</td><td>42</td><td>52</td><td>52</td><td>60</td><td>165</td><td>422</td><td></td><td>300</td><td>55</td><td>48</td></tr><tr><td>6</td><td>46</td><td>58</td><td>55</td><td>54</td><td>52</td><td>165</td><td>450</td><td></td><td>259</td><td>62</td><td>42</td></tr><tr><td>7</td><td>52</td><td>81</td><td>55</td><td>54</td><td>255</td><td>365</td><td>422</td><td></td><td>259</td><td>62</td><td>48</td></tr><tr><td>8</td><td>50</td><td>65</td><td>51</td><td>54</td><td>139</td><td>390</td><td>580</td><td></td><td>222</td><td>55</td><td>48</td></tr><tr><td>9</td><td>47</td><td>65</td><td>48</td><td>57</td><td>255</td><td>247</td><td>930</td><td></td><td>188</td><td>62</td><td>42</td></tr><tr><td>10</td><td>47</td><td>62</td><td>52</td><td>54</td><td>65</td><td>478</td><td>660</td><td></td><td>172</td><td>55</td><td>42</td></tr><tr><td>11</td><td>44</td><td>62</td><td>52</td><td>50</td><td>88</td><td>1, 180</td><td>980</td><td></td><td>172</td><td>48</td><td>42</td></tr><tr><td>12</td><td>46</td><td>65</td><td>52</td><td>50</td><td>217</td><td>580</td><td>700</td><td></td><td>188</td><td>48</td><td>48</td></tr><tr><td>13</td><td>52</td><td>60</td><td>48</td><td>60</td><td>65</td><td>545</td><td>660</td><td></td><td>172</td><td>55</td><td>42</td></tr><tr><td>14</td><td>47</td><td>68</td><td>47</td><td>63</td><td>92</td><td>418</td><td>660</td><td></td><td>142</td><td>48</td><td>42</td></tr><tr><td>15</td><td>45</td><td>55</td><td>44</td><td>66</td><td>77</td><td>340</td><td>785</td><td></td><td>123</td><td>55</td><td>36</td></tr><tr><td>16</td><td>52</td><td>52</td><td>65</td><td>58</td><td>130</td><td>340</td><td>545</td><td></td><td>128</td><td>62</td><td>42</td></tr><tr><td>17</td><td>58</td><td>58</td><td>50</td><td>60</td><td>155</td><td>318</td><td>660</td><td></td><td>128</td><td>55</td><td>42</td></tr><tr><td>18</td><td>55</td><td>52</td><td>50</td><td>60</td><td>275</td><td>,080</td><td>830</td><td></td><td>102</td><td>48</td><td>42</td></tr><tr><td>19</td><td>50</td><td>55</td><td>51</td><td>58</td><td>295</td><td>400</td><td>880</td><td></td><td>102</td><td>48</td><td>42</td></tr><tr><td>20</td><td>50</td><td>52</td><td>50</td><td>55</td><td>275</td><td>660</td><td>880</td><td></td><td>91</td><td>48</td><td>42</td></tr><tr><td>21</td><td>50</td><td>55</td><td>52</td><td>63</td><td>130</td><td>1, 300</td><td></td><td></td><td>91</td><td>42</td><td>48</td></tr><tr><td>22</td><td>50</td><td>52</td><td>50</td><td>52</td><td>165</td><td>480</td><td></td><td></td><td>80</td><td>48</td><td>42</td></tr><tr><td>23</td><td>50</td><td>52</td><td>46</td><td>57</td><td>169</td><td>450</td><td></td><td>660</td><td>80</td><td>48</td><td>71</td></tr><tr><td>24</td><td>46</td><td>52</td><td>47</td><td>57</td><td>148</td><td>480</td><td></td><td>510</td><td>71</td><td>48</td><td>66</td></tr><tr><td>25</td><td>47</td><td>50</td><td>50</td><td>55</td><td>206</td><td>510</td><td></td><td>510</td><td>80</td><td>42</td><td>66</td></tr><tr><td>26</td><td>48</td><td>52</td><td>65</td><td>55</td><td>159</td><td>480</td><td></td><td>450</td><td>71</td><td>42</td><td>59</td></tr><tr><td>27</td><td>47</td><td>52</td><td>98</td><td>57</td><td>152</td><td>1, 030</td><td></td><td>480</td><td>73</td><td>42</td><td>66</td></tr><tr><td>28</td><td>48</td><td>52</td><td>68</td><td>62</td><td>152</td><td>660</td><td></td><td>450</td><td>62</td><td>48</td><td>71</td></tr><tr><td>29</td><td>50</td><td>51</td><td>62</td><td>55</td><td></td><td>620</td><td></td><td>422</td><td>71</td><td>48</td><td>345</td></tr><tr><td>30</td><td>50</td><td>52</td><td>55</td><td>55</td><td></td><td>930</td><td></td><td>345</td><td>71</td><td>42</td><td>280</td></tr><tr><td>31</td><td>48</td><td></td><td>60</td><td>51</td><td></td><td>660</td><td></td><td></td><td>62</td><td>42</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Monthly discharge of Kaweah River near Three Rivers, Calif for the year ending Sept. 30, 1918.\n\n[Drainage area, 520 square miles.]",
+                "embed": "Monthly discharge of Kaweah River near Three Rivers, Calif for the year ending Sept. 30, 1918.\n\n[Drainage area, 520 square miles.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.030682529743268627,
+                            "top": 0.542385884158036,
+                            "width": 0.8202880400751409,
+                            "height": 0.02531645569620253,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Kaweah River near Three Rivers, Calif for the year ending Sept. 30, 1918.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.30995616781465246,
+                            "top": 0.5815113156885309,
+                            "width": 0.2686286787726988,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "[Drainage area, 520 square miles.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Depth in\ninches on\ndrainage\narea.</td><td>Total in\nacre-feet.</td></tr><tr><td>October</td><td>58</td><td>44</td><td>49. 4</td><td>0.095</td><td>0.11</td><td>3, 040</td></tr><tr><td>November</td><td>81</td><td>42</td><td>55. 4</td><td>.107</td><td>.12</td><td>3, 300</td></tr><tr><td>December</td><td>98</td><td>44</td><td>54. 8</td><td>.105</td><td>.12</td><td>3,370</td></tr><tr><td>January</td><td>66</td><td>50</td><td>56. 3</td><td>.108</td><td>.12</td><td>3,460</td></tr><tr><td>February</td><td>295</td><td>51</td><td>142</td><td>.273</td><td>.28</td><td>7,890</td></tr><tr><td>March</td><td>1, 400</td><td>139</td><td>545</td><td>1.05</td><td>1,21</td><td>33,500</td></tr><tr><td>April</td><td></td><td>422</td><td>a 789</td><td>1.52</td><td>1.70</td><td>46,900</td></tr><tr><td>May</td><td></td><td></td><td>a 1, 060</td><td>2.04</td><td>2.35</td><td>65,200</td></tr><tr><td>June</td><td></td><td>345</td><td>a 777</td><td>1.49</td><td>1.66</td><td>46,200</td></tr><tr><td>July</td><td>370</td><td>62</td><td>158</td><td>.304</td><td>.35</td><td>9,720</td></tr><tr><td>August</td><td>71</td><td>42</td><td>52. 1</td><td>.100</td><td>.12</td><td>3,200</td></tr><tr><td>September</td><td>345</td><td>36</td><td>65. 9</td><td>.127</td><td>.14</td><td>3,920</td></tr><tr><td>The year</td><td></td><td>36</td><td>317</td><td>.610</td><td>8.28</td><td>230,000</td></tr></table>\n\na Estimated.",
+                "embed": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Depth in\ninches on\ndrainage\narea.</td><td>Total in\nacre-feet.</td></tr><tr><td>October</td><td>58</td><td>44</td><td>49. 4</td><td>0.095</td><td>0.11</td><td>3, 040</td></tr><tr><td>November</td><td>81</td><td>42</td><td>55. 4</td><td>.107</td><td>.12</td><td>3, 300</td></tr><tr><td>December</td><td>98</td><td>44</td><td>54. 8</td><td>.105</td><td>.12</td><td>3,370</td></tr><tr><td>January</td><td>66</td><td>50</td><td>56. 3</td><td>.108</td><td>.12</td><td>3,460</td></tr><tr><td>February</td><td>295</td><td>51</td><td>142</td><td>.273</td><td>.28</td><td>7,890</td></tr><tr><td>March</td><td>1, 400</td><td>139</td><td>545</td><td>1.05</td><td>1,21</td><td>33,500</td></tr><tr><td>April</td><td></td><td>422</td><td>a 789</td><td>1.52</td><td>1.70</td><td>46,900</td></tr><tr><td>May</td><td></td><td></td><td>a 1, 060</td><td>2.04</td><td>2.35</td><td>65,200</td></tr><tr><td>June</td><td></td><td>345</td><td>a 777</td><td>1.49</td><td>1.66</td><td>46,200</td></tr><tr><td>July</td><td>370</td><td>62</td><td>158</td><td>.304</td><td>.35</td><td>9,720</td></tr><tr><td>August</td><td>71</td><td>42</td><td>52. 1</td><td>.100</td><td>.12</td><td>3,200</td></tr><tr><td>September</td><td>345</td><td>36</td><td>65. 9</td><td>.127</td><td>.14</td><td>3,920</td></tr><tr><td>The year</td><td></td><td>36</td><td>317</td><td>.610</td><td>8.28</td><td>230,000</td></tr></table>\n\na Estimated.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0259988410964039,
+                            "top": 0.6014624369935511,
+                            "width": 0.8321689087372686,
+                            "height": 0.25019567772763235,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Depth in\ninches on\ndrainage\narea.</td><td>Total in\nacre-feet.</td></tr><tr><td>October</td><td>58</td><td>44</td><td>49. 4</td><td>0.095</td><td>0.11</td><td>3, 040</td></tr><tr><td>November</td><td>81</td><td>42</td><td>55. 4</td><td>.107</td><td>.12</td><td>3, 300</td></tr><tr><td>December</td><td>98</td><td>44</td><td>54. 8</td><td>.105</td><td>.12</td><td>3,370</td></tr><tr><td>January</td><td>66</td><td>50</td><td>56. 3</td><td>.108</td><td>.12</td><td>3,460</td></tr><tr><td>February</td><td>295</td><td>51</td><td>142</td><td>.273</td><td>.28</td><td>7,890</td></tr><tr><td>March</td><td>1, 400</td><td>139</td><td>545</td><td>1.05</td><td>1,21</td><td>33,500</td></tr><tr><td>April</td><td></td><td>422</td><td>a 789</td><td>1.52</td><td>1.70</td><td>46,900</td></tr><tr><td>May</td><td></td><td></td><td>a 1, 060</td><td>2.04</td><td>2.35</td><td>65,200</td></tr><tr><td>June</td><td></td><td>345</td><td>a 777</td><td>1.49</td><td>1.66</td><td>46,200</td></tr><tr><td>July</td><td>370</td><td>62</td><td>158</td><td>.304</td><td>.35</td><td>9,720</td></tr><tr><td>August</td><td>71</td><td>42</td><td>52. 1</td><td>.100</td><td>.12</td><td>3,200</td></tr><tr><td>September</td><td>345</td><td>36</td><td>65. 9</td><td>.127</td><td>.14</td><td>3,920</td></tr><tr><td>The year</td><td></td><td>36</td><td>317</td><td>.610</td><td>8.28</td><td>230,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.38697557921102066,
+                            "top": 0.8569236670502494,
+                            "width": 0.10144020037570445,
+                            "height": 0.009205983889528193,
+                            "page": 1
+                        },
+                        "content": "a Estimated.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,390 @@
+{
+    "job_id": "2d469f0b-6f2c-43d0-96d3-2b042ca99174",
+    "duration": 6.0280845165252686,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/06da6e83-4f01-4bb6-830c-67f88bd58834?AWSAccessKeyId=ASIA2UOK6OVBPYH2PTM7&Signature=3PtJVAQAPLf0l6uj96PvdMobEnQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJGMEQCIFZYXX%2BGsK91mVW%2F2M2DWrqAZ80qryLMrbCcUQ9XjGMhAiARSC4KJfKAO1bZHiKcUVGK16pUIUvIRN1ARAMJnDoYzSqLBQgiEAAaDDczMTEwNjkzMjAzNCIMWLytp3n%2Bbp2WzQyJKugEPmzRr8ibe7YU2SNphQntvhKphUo3oZ7fBhRPCJXbuYW2BRy0%2Fn64%2B22BjhRF2%2FpBkAetGJULxP1tQlQkYjQMgpyGCe%2Fk8iTpYq%2BxrMMzXBKszOMp7QOU8IS6i1DF8XpYDVXkDedM1ORz3VSom80uAuxP273MTjy0PlEV7%2BHIEWluMHlmybMKbAVAWXGP5sbMRNA3CkHMzouthRsRJHuLlpS2Hx9xGB1%2FxO5CPk4JQVkAxP%2FYVPWv%2Fmfd52O0%2FZyMI%2BpyW0ClPpaVRCRYLL5lD80WDjrePmdgaFI1XIrxXWK6DtBYIDKejdlsrn0cswwkRCD7TtXsgivdI%2Ftw4PkX%2BjtccDUDKDBgJ0ovYNfyanT9FBlZOBLl6KfvfZLLcDX3L2ahrXirLgJpzRUOh3GylXtfVWQt7nRqKYAVh%2FUziJF%2BSTH7%2FFJ6FmsdUC9qJaKUQJEsuGui%2Bwn9vFwDoXdKrFnvFIXDG4KO7lBxqpMB4hNS7ImcRYYPhLGybCntyLehM6xWSqk4J7ZJxPVmNaDmcvLZ4NkH7zMKwVUXxGuSvDXfDChUKB0bGflWPRmbtmfdOQAN4aymQ2QApOYH7KitwKhvqeNxKwNdHrFZOU0s4oAN%2FwB2j8n8m9nDuJ9Vgt7GePc7MfgxYL3%2BE8Lx6lC26xT7%2BPd8MgfNdh7%2FghNEatoYl0boj0%2Fb2eD2ILVIuaRm%2FznTmJFdddP0twOjetARoPLCfCOd48WhfEvIjugZnZaGdZZjgSO5jgWNRopxbEg0quU1kFi329I1cGhap8B9YpSnLQf0DZxSTiaw5R77Io8J2GFl6960vTCyjcm6BjqcAS%2BRqw%2FMXaDRUs8iw%2FK1yDMt0b1%2BSS4KIrP0EaERcnTadr8sITlVU91wSMP%2Fxh57v7j7%2BzzXpN%2FmwwnT4LBZKwtoB7VgJIYftnRBp8%2FteGCDJnCrjju0ntpmuJ413ilki8tCjEewqffMaY%2FyukJdoEkiI4QYURTtUjZ54al2yrcBOEJuxeprWpbsSdRxMGs20XQhqs%2BKZQt1Ccp%2Bow%3D%3D&Expires=1733450559",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WILLOWS AREA.\n\n# Chemical composition and classification of ground water in Willows area.\n\n[Analysis by S.C. Dinsmore; assays by G. H. P. Lichthardt. Parts per million except as otherwise desig- nated. Numbers at heads of columns refer to locations so marked on PI. IV.]",
+                "embed": "# WILLOWS AREA.\n\n# Chemical composition and classification of ground water in Willows area.\n\n[Analysis by S.C. Dinsmore; assays by G. H. P. Lichthardt. Parts per million except as otherwise desig- nated. Numbers at heads of columns refer to locations so marked on PI. IV.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3608974358974359,
+                            "top": 0.05063291139240506,
+                            "width": 0.191025641025641,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "WILLOWS AREA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8320512820512821,
+                            "top": 0.04679708477176832,
+                            "width": 0.04807692307692308,
+                            "height": 0.01457614115841964,
+                            "page": 1
+                        },
+                        "content": "197",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.10064102564102564,
+                            "top": 0.08016877637130802,
+                            "width": 0.6903846153846154,
+                            "height": 0.01534330648254699,
+                            "page": 1
+                        },
+                        "content": "Chemical composition and classification of ground water in Willows area.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03141025641025641,
+                            "top": 0.09896432681242807,
+                            "width": 0.8493589743589743,
+                            "height": 0.022247794399693134,
+                            "page": 1
+                        },
+                        "content": "[Analysis by S.C. Dinsmore; assays by G. H. P. Lichthardt. Parts per million except as otherwise desig- nated. Numbers at heads of columns refer to locations so marked on PI. IV.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\n<table><tr><th></th><th>Analysis.</th><th colspan=\"3\">Assays.</th></tr><tr><td></td><td>A38</td><td>A39</td><td>A40</td><td>A41</td></tr><tr><td>Silica (SiO2)</td><td>22</td><td></td><td></td><td></td></tr><tr><td>Iron (Fe):</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Calcium (Ca)</td><td>36</td><td></td><td></td><td></td></tr><tr><td>Magnesium (Mg)</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Sodium and potassium (Na+K) a</td><td>81</td><td>(c)</td><td>74</td><td>44</td></tr><tr><td>Carbonate radicle (CO)</td><td>.0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Bicarbonate radicle (HCO3)</td><td>335</td><td>175</td><td>d 366</td><td>341</td></tr><tr><td>Sulphate radicle (SO4)</td><td>76</td><td>Trace.</td><td>94</td><td>76</td></tr><tr><td>Chloride radicle (CI)</td><td>14</td><td>6</td><td>8</td><td>32</td></tr><tr><td>Nitrate radicle. (NO3)</td><td>12</td><td></td><td></td><td></td></tr><tr><td>Total dissolved solids</td><td>436</td><td>200</td><td>510</td><td>500</td></tr><tr><td>Total hardness as CaCO</td><td>a 213</td><td>168</td><td>260</td><td>316</td></tr><tr><td>Scale-forming constituents a</td><td>180</td><td>200</td><td>300</td><td>360</td></tr><tr><td>Foaming constituents a</td><td>220</td><td>(c)</td><td>200</td><td>120</td></tr><tr><td>Alkali coefficient (inches)</td><td>15</td><td>(g)</td><td>21</td><td>50</td></tr><tr><td>Classification:</td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic use</td><td>Good.</td><td>Good.</td><td>Fair.</td><td>Poor.</td></tr><tr><td>Boiler use</td><td>Fair.</td><td>Poor.</td><td>Poor.</td><td>Poor.</td></tr><tr><td>Irrigation use</td><td>Fair.</td><td>Good.</td><td>Good.</td><td>Good.</td></tr><tr><td>Mineral content</td><td>Moderate.</td><td>Moderate.</td><td>Moderate.</td><td>Moderate.</td></tr><tr><td>Date of collection</td><td>Nov., 1912</td><td>Nov. 4, 1913</td><td>Dec. 5, 1913</td><td>Dec. - 5, 1913</td></tr></table>\n\n- Calculated.",
+                "embed": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\n<table><tr><th></th><th>Analysis.</th><th colspan=\"3\">Assays.</th></tr><tr><td></td><td>A38</td><td>A39</td><td>A40</td><td>A41</td></tr><tr><td>Silica (SiO2)</td><td>22</td><td></td><td></td><td></td></tr><tr><td>Iron (Fe):</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Calcium (Ca)</td><td>36</td><td></td><td></td><td></td></tr><tr><td>Magnesium (Mg)</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Sodium and potassium (Na+K) a</td><td>81</td><td>(c)</td><td>74</td><td>44</td></tr><tr><td>Carbonate radicle (CO)</td><td>.0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Bicarbonate radicle (HCO3)</td><td>335</td><td>175</td><td>d 366</td><td>341</td></tr><tr><td>Sulphate radicle (SO4)</td><td>76</td><td>Trace.</td><td>94</td><td>76</td></tr><tr><td>Chloride radicle (CI)</td><td>14</td><td>6</td><td>8</td><td>32</td></tr><tr><td>Nitrate radicle. (NO3)</td><td>12</td><td></td><td></td><td></td></tr><tr><td>Total dissolved solids</td><td>436</td><td>200</td><td>510</td><td>500</td></tr><tr><td>Total hardness as CaCO</td><td>a 213</td><td>168</td><td>260</td><td>316</td></tr><tr><td>Scale-forming constituents a</td><td>180</td><td>200</td><td>300</td><td>360</td></tr><tr><td>Foaming constituents a</td><td>220</td><td>(c)</td><td>200</td><td>120</td></tr><tr><td>Alkali coefficient (inches)</td><td>15</td><td>(g)</td><td>21</td><td>50</td></tr><tr><td>Classification:</td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic use</td><td>Good.</td><td>Good.</td><td>Fair.</td><td>Poor.</td></tr><tr><td>Boiler use</td><td>Fair.</td><td>Poor.</td><td>Poor.</td><td>Poor.</td></tr><tr><td>Irrigation use</td><td>Fair.</td><td>Good.</td><td>Good.</td><td>Good.</td></tr><tr><td>Mineral content</td><td>Moderate.</td><td>Moderate.</td><td>Moderate.</td><td>Moderate.</td></tr><tr><td>Date of collection</td><td>Nov., 1912</td><td>Nov. 4, 1913</td><td>Dec. 5, 1913</td><td>Dec. - 5, 1913</td></tr></table>\n\n- Calculated.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.026186524904691255,
+                            "top": 0.12703504368497076,
+                            "width": 0.8574069903447078,
+                            "height": 0.2689337516407149,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Analysis.</th><th colspan=\"3\">Assays.</th></tr><tr><td></td><td>A38</td><td>A39</td><td>A40</td><td>A41</td></tr><tr><td>Silica (SiO2)</td><td>22</td><td></td><td></td><td></td></tr><tr><td>Iron (Fe):</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Calcium (Ca)</td><td>36</td><td></td><td></td><td></td></tr><tr><td>Magnesium (Mg)</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Sodium and potassium (Na+K) a</td><td>81</td><td>(c)</td><td>74</td><td>44</td></tr><tr><td>Carbonate radicle (CO)</td><td>.0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Bicarbonate radicle (HCO3)</td><td>335</td><td>175</td><td>d 366</td><td>341</td></tr><tr><td>Sulphate radicle (SO4)</td><td>76</td><td>Trace.</td><td>94</td><td>76</td></tr><tr><td>Chloride radicle (CI)</td><td>14</td><td>6</td><td>8</td><td>32</td></tr><tr><td>Nitrate radicle. (NO3)</td><td>12</td><td></td><td></td><td></td></tr><tr><td>Total dissolved solids</td><td>436</td><td>200</td><td>510</td><td>500</td></tr><tr><td>Total hardness as CaCO</td><td>a 213</td><td>168</td><td>260</td><td>316</td></tr><tr><td>Scale-forming constituents a</td><td>180</td><td>200</td><td>300</td><td>360</td></tr><tr><td>Foaming constituents a</td><td>220</td><td>(c)</td><td>200</td><td>120</td></tr><tr><td>Alkali coefficient (inches)</td><td>15</td><td>(g)</td><td>21</td><td>50</td></tr><tr><td>Classification:</td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic use</td><td>Good.</td><td>Good.</td><td>Fair.</td><td>Poor.</td></tr><tr><td>Boiler use</td><td>Fair.</td><td>Poor.</td><td>Poor.</td><td>Poor.</td></tr><tr><td>Irrigation use</td><td>Fair.</td><td>Good.</td><td>Good.</td><td>Good.</td></tr><tr><td>Mineral content</td><td>Moderate.</td><td>Moderate.</td><td>Moderate.</td><td>Moderate.</td></tr><tr><td>Date of collection</td><td>Nov., 1912</td><td>Nov. 4, 1913</td><td>Dec. 5, 1913</td><td>Dec. - 5, 1913</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.060897435897435896,
+                            "top": 0.4008438818565401,
+                            "width": 0.0891025641025641,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "- Calculated.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\ne By summation\n\n- b Determined. Na=73; K=8.0 parts per million. c Low. (See p. 96.)\n\n- Carbonates and bicarbonates expressed as bicar-\nbonates.\n\n\t- f Depth in inches of water which on evaporation would yield sufficient alkali to render a e-foot depth of soil injurious to the most sensitive crops.\n\n\t- g High. (See p. 96.)\n\n- A38. Municipal supply (from five wells 60. to 120 feet deep) at Willows. A39. No. 8 well (246 feet deep, 12 inches in diameter), of Central Forest Co., near Willows (NE. sec. 17, T. 21 N. R. 3 W.).\n\n- A40. Dug well (22 feet deep, 8 by 10 feet in diameter), of Tweed Ranch & Land Co., NE. 1/4 sec. 36, T. 19 N., R. 3 W.\n\n- A41. Shallow well (30 feet deep), near artesian well of z. S. Spaulding, Norman (W. 1/2 sec. 10, T. 18 N., R. 3 W.).\n\n## PUMPING PLANTS.\n\nPumping plants in the Willows area.",
+                "embed": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\ne By summation\n\n- b Determined. Na=73; K=8.0 parts per million. c Low. (See p. 96.)\n\n- Carbonates and bicarbonates expressed as bicar-\nbonates.\n\n\t- f Depth in inches of water which on evaporation would yield sufficient alkali to render a e-foot depth of soil injurious to the most sensitive crops.\n\n\t- g High. (See p. 96.)\n\n- A38. Municipal supply (from five wells 60. to 120 feet deep) at Willows. A39. No. 8 well (246 feet deep, 12 inches in diameter), of Central Forest Co., near Willows (NE. sec. 17, T. 21 N. R. 3 W.).\n\n- A40. Dug well (22 feet deep, 8 by 10 feet in diameter), of Tweed Ranch & Land Co., NE. 1/4 sec. 36, T. 19 N., R. 3 W.\n\n- A41. Shallow well (30 feet deep), near artesian well of z. S. Spaulding, Norman (W. 1/2 sec. 10, T. 18 N., R. 3 W.).\n\n## PUMPING PLANTS.\n\nPumping plants in the Willows area.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.48653846153846153,
+                            "top": 0.40122746451860375,
+                            "width": 0.13525641025641025,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "e By summation",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.046153846153846156,
+                            "top": 0.4100498657460683,
+                            "width": 0.39294871794871794,
+                            "height": 0.02032988108937476,
+                            "page": 1
+                        },
+                        "content": "- b Determined. Na=73; K=8.0 parts per million. c Low. (See p. 96.)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.03076923076923077,
+                            "top": 0.42922899884925203,
+                            "width": 0.4108974358974359,
+                            "height": 0.018795550441120062,
+                            "page": 1
+                        },
+                        "content": "- Carbonates and bicarbonates expressed as bicar-\nbonates.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.4705128205128205,
+                            "top": 0.4096662830840046,
+                            "width": 0.4083333333333333,
+                            "height": 0.03068661296509398,
+                            "page": 1
+                        },
+                        "content": "\t- f Depth in inches of water which on evaporation would yield sufficient alkali to render a e-foot depth of soil injurious to the most sensitive crops.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.4878205128205128,
+                            "top": 0.4392021480629076,
+                            "width": 0.16025641025641027,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "\t- g High. (See p. 96.)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.03141025641025641,
+                            "top": 0.45454545454545453,
+                            "width": 0.8480769230769231,
+                            "height": 0.02991944764096663,
+                            "page": 1
+                        },
+                        "content": "- A38. Municipal supply (from five wells 60. to 120 feet deep) at Willows. A39. No. 8 well (246 feet deep, 12 inches in diameter), of Central Forest Co., near Willows (NE. sec. 17, T. 21 N. R. 3 W.).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.03141025641025641,
+                            "top": 0.48331415420023016,
+                            "width": 0.8480769230769231,
+                            "height": 0.019946298427311087,
+                            "page": 1
+                        },
+                        "content": "- A40. Dug well (22 feet deep, 8 by 10 feet in diameter), of Tweed Ranch & Land Co., NE. 1/4 sec. 36, T. 19 N., R. 3 W.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.03461538461538462,
+                            "top": 0.5021097046413502,
+                            "width": 0.8435897435897436,
+                            "height": 0.021480629075565784,
+                            "page": 1
+                        },
+                        "content": "- A41. Shallow well (30 feet deep), near artesian well of z. S. Spaulding, Norman (W. 1/2 sec. 10, T. 18 N., R. 3 W.).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.34807692307692306,
+                            "top": 0.5262754123513618,
+                            "width": 0.2128205128205128,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "PUMPING PLANTS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.28910256410256413,
+                            "top": 0.5443037974683544,
+                            "width": 0.35384615384615387,
+                            "height": 0.01457614115841964,
+                            "page": 1
+                        },
+                        "content": "Pumping plants in the Willows area.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n<table><tr><th rowspan=\"2\">Owner.</th><th colspan=\"3\">Location,</th><th rowspan=\"2\">Diam-\neter of\nwell.</th><th rowspan=\"2\">Depth\nof\nwell.</th><th rowspan=\"2\">Depth\nto\nwater.</th><th rowspan=\"2\">Size of\ncentrif-\nugal\npump.</th><th rowspan=\"2\">Horse-\npower.</th><th rowspan=\"2\">Area\nitri-\ngated.</th></tr><tr><td>Section.</td><td>Town-\nship\nN.</td><td>Range\nW.</td></tr><tr><td>Mr. Foerster\nCentral Forest Co.:</td><td>NE. 1, 31</td><td>21</td><td>3</td><td>Inches.\n12</td><td>Feet.</td><td>Feet.\na 62.</td><td>Inches.\n5</td><td>14</td><td>Acres.\n80</td></tr><tr><td>Plant No. 1</td><td>NW. 1, 17</td><td>20</td><td>3</td><td>12\n12</td><td>238\n308</td><td></td><td>6</td><td>15</td><td>20</td></tr><tr><td>Plant No. 2</td><td>NW. 17</td><td>20</td><td>3</td><td>12\n12</td><td>119\n284</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>290</td><td></td><td></td><td></td><td></td></tr><tr><td>Plants installed</td><td>NW. 1,17</td><td>20</td><td>3</td><td>12</td><td>312</td><td></td><td></td><td></td><td></td></tr><tr><td>not</td><td></td><td></td><td></td><td>12</td><td>246</td><td></td><td></td><td></td><td></td></tr><tr><td>in 1917</td><td>NE. 1, 16</td><td>20</td><td>3</td><td>12</td><td>795</td><td></td><td></td><td></td><td>Failure.</td></tr><tr><td>V. A. Dunlap</td><td>SW. 1, 21</td><td>20</td><td>3</td><td>12</td><td>67</td><td></td><td>5</td><td></td><td>70</td></tr><tr><td>W. R. Germain:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Plant No. 1</td><td>E. 29</td><td>20</td><td>3</td><td>c12</td><td></td><td>16d14.9</td><td>5</td><td>10</td><td></td></tr><tr><td>Plant No. 2</td><td>E. 29</td><td>20</td><td>3</td><td>e12</td><td></td><td>dy15.3</td><td>7</td><td>20</td><td></td></tr><tr><td>Plant No. 3</td><td>E. 29</td><td>20</td><td>3</td><td>18</td><td></td><td>d g4.7</td><td>6</td><td>20</td><td>320</td></tr><tr><td>Plant No. 4.</td><td>E. 29</td><td>20</td><td>3</td><td>c12</td><td></td><td>d5.2</td><td>.6</td><td>20</td><td></td></tr><tr><td>Plant No. 5</td><td>E. 29</td><td>20</td><td>3</td><td>h12</td><td></td><td>d/13.8</td><td>6</td><td>20</td><td></td></tr><tr><td>W. R. Germain</td><td>NW. 1,31</td><td>20</td><td>3</td><td>c12</td><td>100</td><td></td><td></td><td></td><td>(1)</td></tr><tr><td></td><td>S. 31</td><td>20</td><td>3</td><td>18</td><td></td><td>df26. 5</td><td>6</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>145</td><td></td><td></td><td></td><td></td></tr><tr><td>J. B. Turman</td><td>S.1, 32</td><td>20</td><td>3</td><td>12\n12</td><td>145\n140</td><td>f 122.4</td><td>6</td><td>20</td><td>64</td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>157</td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n<table><tr><th rowspan=\"2\">Owner.</th><th colspan=\"3\">Location,</th><th rowspan=\"2\">Diam-\neter of\nwell.</th><th rowspan=\"2\">Depth\nof\nwell.</th><th rowspan=\"2\">Depth\nto\nwater.</th><th rowspan=\"2\">Size of\ncentrif-\nugal\npump.</th><th rowspan=\"2\">Horse-\npower.</th><th rowspan=\"2\">Area\nitri-\ngated.</th></tr><tr><td>Section.</td><td>Town-\nship\nN.</td><td>Range\nW.</td></tr><tr><td>Mr. Foerster\nCentral Forest Co.:</td><td>NE. 1, 31</td><td>21</td><td>3</td><td>Inches.\n12</td><td>Feet.</td><td>Feet.\na 62.</td><td>Inches.\n5</td><td>14</td><td>Acres.\n80</td></tr><tr><td>Plant No. 1</td><td>NW. 1, 17</td><td>20</td><td>3</td><td>12\n12</td><td>238\n308</td><td></td><td>6</td><td>15</td><td>20</td></tr><tr><td>Plant No. 2</td><td>NW. 17</td><td>20</td><td>3</td><td>12\n12</td><td>119\n284</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>290</td><td></td><td></td><td></td><td></td></tr><tr><td>Plants installed</td><td>NW. 1,17</td><td>20</td><td>3</td><td>12</td><td>312</td><td></td><td></td><td></td><td></td></tr><tr><td>not</td><td></td><td></td><td></td><td>12</td><td>246</td><td></td><td></td><td></td><td></td></tr><tr><td>in 1917</td><td>NE. 1, 16</td><td>20</td><td>3</td><td>12</td><td>795</td><td></td><td></td><td></td><td>Failure.</td></tr><tr><td>V. A. Dunlap</td><td>SW. 1, 21</td><td>20</td><td>3</td><td>12</td><td>67</td><td></td><td>5</td><td></td><td>70</td></tr><tr><td>W. R. Germain:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Plant No. 1</td><td>E. 29</td><td>20</td><td>3</td><td>c12</td><td></td><td>16d14.9</td><td>5</td><td>10</td><td></td></tr><tr><td>Plant No. 2</td><td>E. 29</td><td>20</td><td>3</td><td>e12</td><td></td><td>dy15.3</td><td>7</td><td>20</td><td></td></tr><tr><td>Plant No. 3</td><td>E. 29</td><td>20</td><td>3</td><td>18</td><td></td><td>d g4.7</td><td>6</td><td>20</td><td>320</td></tr><tr><td>Plant No. 4.</td><td>E. 29</td><td>20</td><td>3</td><td>c12</td><td></td><td>d5.2</td><td>.6</td><td>20</td><td></td></tr><tr><td>Plant No. 5</td><td>E. 29</td><td>20</td><td>3</td><td>h12</td><td></td><td>d/13.8</td><td>6</td><td>20</td><td></td></tr><tr><td>W. R. Germain</td><td>NW. 1,31</td><td>20</td><td>3</td><td>c12</td><td>100</td><td></td><td></td><td></td><td>(1)</td></tr><tr><td></td><td>S. 31</td><td>20</td><td>3</td><td>18</td><td></td><td>df26. 5</td><td>6</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>145</td><td></td><td></td><td></td><td></td></tr><tr><td>J. B. Turman</td><td>S.1, 32</td><td>20</td><td>3</td><td>12\n12</td><td>145\n140</td><td>f 122.4</td><td>6</td><td>20</td><td>64</td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>157</td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.028464610760028545,
+                            "top": 0.5618875413550057,
+                            "width": 0.8546902338663737,
+                            "height": 0.317097841298667,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Owner.</th><th colspan=\"3\">Location,</th><th rowspan=\"2\">Diam-\neter of\nwell.</th><th rowspan=\"2\">Depth\nof\nwell.</th><th rowspan=\"2\">Depth\nto\nwater.</th><th rowspan=\"2\">Size of\ncentrif-\nugal\npump.</th><th rowspan=\"2\">Horse-\npower.</th><th rowspan=\"2\">Area\nitri-\ngated.</th></tr><tr><td>Section.</td><td>Town-\nship\nN.</td><td>Range\nW.</td></tr><tr><td>Mr. Foerster\nCentral Forest Co.:</td><td>NE. 1, 31</td><td>21</td><td>3</td><td>Inches.\n12</td><td>Feet.</td><td>Feet.\na 62.</td><td>Inches.\n5</td><td>14</td><td>Acres.\n80</td></tr><tr><td>Plant No. 1</td><td>NW. 1, 17</td><td>20</td><td>3</td><td>12\n12</td><td>238\n308</td><td></td><td>6</td><td>15</td><td>20</td></tr><tr><td>Plant No. 2</td><td>NW. 17</td><td>20</td><td>3</td><td>12\n12</td><td>119\n284</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>290</td><td></td><td></td><td></td><td></td></tr><tr><td>Plants installed</td><td>NW. 1,17</td><td>20</td><td>3</td><td>12</td><td>312</td><td></td><td></td><td></td><td></td></tr><tr><td>not</td><td></td><td></td><td></td><td>12</td><td>246</td><td></td><td></td><td></td><td></td></tr><tr><td>in 1917</td><td>NE. 1, 16</td><td>20</td><td>3</td><td>12</td><td>795</td><td></td><td></td><td></td><td>Failure.</td></tr><tr><td>V. A. Dunlap</td><td>SW. 1, 21</td><td>20</td><td>3</td><td>12</td><td>67</td><td></td><td>5</td><td></td><td>70</td></tr><tr><td>W. R. Germain:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Plant No. 1</td><td>E. 29</td><td>20</td><td>3</td><td>c12</td><td></td><td>16d14.9</td><td>5</td><td>10</td><td></td></tr><tr><td>Plant No. 2</td><td>E. 29</td><td>20</td><td>3</td><td>e12</td><td></td><td>dy15.3</td><td>7</td><td>20</td><td></td></tr><tr><td>Plant No. 3</td><td>E. 29</td><td>20</td><td>3</td><td>18</td><td></td><td>d g4.7</td><td>6</td><td>20</td><td>320</td></tr><tr><td>Plant No. 4.</td><td>E. 29</td><td>20</td><td>3</td><td>c12</td><td></td><td>d5.2</td><td>.6</td><td>20</td><td></td></tr><tr><td>Plant No. 5</td><td>E. 29</td><td>20</td><td>3</td><td>h12</td><td></td><td>d/13.8</td><td>6</td><td>20</td><td></td></tr><tr><td>W. R. Germain</td><td>NW. 1,31</td><td>20</td><td>3</td><td>c12</td><td>100</td><td></td><td></td><td></td><td>(1)</td></tr><tr><td></td><td>S. 31</td><td>20</td><td>3</td><td>18</td><td></td><td>df26. 5</td><td>6</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>145</td><td></td><td></td><td></td><td></td></tr><tr><td>J. B. Turman</td><td>S.1, 32</td><td>20</td><td>3</td><td>12\n12</td><td>145\n140</td><td>f 122.4</td><td>6</td><td>20</td><td>64</td></tr><tr><td></td><td></td><td></td><td></td><td>12</td><td>157</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n- a Measured in October, 1912.\n\n- b Below top of casing.\n\n- c Two wells.\n\n- d Measured in November, 1912.\n\n- e Four wells.\n\n/ From top of pit.\n\n- g From floor of pit.\n\n107736-23-wSP 14\n\n\t- h Three wells.\n\n- i Plant not installed in 1912; reported to have irrigated 160 acres in 1913.-\n\n- j Owner's statement, water level May, 1918; 17 feet and in summer of 1914, 21 feet; four wells used gave unsatisfactory yield; four others near by also failures.",
+                "embed": "# Chemical composition and classification of ground water in Willows area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n- a Measured in October, 1912.\n\n- b Below top of casing.\n\n- c Two wells.\n\n- d Measured in November, 1912.\n\n- e Four wells.\n\n/ From top of pit.\n\n- g From floor of pit.\n\n107736-23-wSP 14\n\n\t- h Three wells.\n\n- i Plant not installed in 1912; reported to have irrigated 160 acres in 1913.-\n\n- j Owner's statement, water level May, 1918; 17 feet and in summer of 1914, 21 feet; four wells used gave unsatisfactory yield; four others near by also failures.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.04487179487179487,
+                            "top": 0.8807057920981972,
+                            "width": 0.23076923076923078,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "- a Measured in October, 1912.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.04551282051282051,
+                            "top": 0.890295358649789,
+                            "width": 0.1762820512820513,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "- b Below top of casing.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.046153846153846156,
+                            "top": 0.9002685078634446,
+                            "width": 0.09935897435897435,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "- c Two wells.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.04358974358974359,
+                            "top": 0.9087073264288454,
+                            "width": 0.2512820512820513,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "- d Measured in November, 1912.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.04487179487179487,
+                            "top": 0.9190640583045646,
+                            "width": 0.10576923076923077,
+                            "height": 0.009205983889528193,
+                            "page": 1
+                        },
+                        "content": "- e Four wells.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.046153846153846156,
+                            "top": 0.9282700421940928,
+                            "width": 0.14423076923076922,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "/ From top of pit.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.04487179487179487,
+                            "top": 0.9382431914077484,
+                            "width": 0.15384615384615385,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "- g From floor of pit.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10128205128205128,
+                            "top": 0.9524357499041043,
+                            "width": 0.2846153846153846,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "107736-23-wSP 14",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.48205128205128206,
+                            "top": 0.8803222094361335,
+                            "width": 0.1141025641025641,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "\t- h Three wells.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.4666666666666667,
+                            "top": 0.8895281933256617,
+                            "width": 0.4115384615384615,
+                            "height": 0.019946298427311087,
+                            "page": 1
+                        },
+                        "content": "- i Plant not installed in 1912; reported to have irrigated 160 acres in 1913.-",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.4653846153846154,
+                            "top": 0.9079401611047181,
+                            "width": 0.41346153846153844,
+                            "height": 0.03874184886843115,
+                            "page": 1
+                        },
+                        "content": "- j Owner's statement, water level May, 1918; 17 feet and in summer of 1914, 21 feet; four wells used gave unsatisfactory yield; four others near by also failures.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

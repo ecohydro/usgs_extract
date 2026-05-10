@@ -1,0 +1,246 @@
+{
+    "job_id": "e6732e10-93ca-43d9-b310-612b20986fd5",
+    "duration": 6.96317458152771,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/336abcf3-e665-4e3c-ad02-6b6a93bbe9b0?AWSAccessKeyId=ASIA2UOK6OVBHZESAGNR&Signature=PCkDkb93xLf2hZwCYaQ7wF8%2FxWI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIH2v29BbHM%2B%2BkXmm74CczpyPqbB7r03YQARrjrGDnNDjAiEAnrZ%2FVMerRQPbDKABuhAkmSRvNRAdStuqI5TXno3eSFwqiwUIIxAAGgw3MzExMDY5MzIwMzQiDE2FepPNeB90hv4WMiroBBeEnPzEG%2FUJrQsE%2FoCdtblxQuFyJCTnPUJFjQWCPO5y4%2FJjKEUNfm7%2F5YktV16lWaDsI5bzejKp4957mVENdop3S0EWJfHcdUB3c7e3un0FKpqW%2FpS%2F2QspHDx2kMtL8cdkEhtwf4HuI81usvAPK36wIjnAEPgU4Hp1bb6Xv6jRHEsaQUGZKKTuKXmZ5RYZBp8pBuikGogA5Pnkgupno7JHvJI569vd3d8qdqHWWzf%2FtmwMFLHL%2FqbmBQaEggg9IU8K3W0L69s25Jklu3zZnNoIs8Q6jQH6ZToebYnTg2vledHehVY5z%2Bl5gjn8CJ8VBICilIURzxd53pwT%2BSlTag5DflHyNWgs3rdY2alJrZGuDxOVZX9fQYc4uhipnknnxTTHYVMv23mRtvyTqsrLRMT3Y0HSAHqCZqH7M7jKL7%2F1TQk45mCo1J%2BWLped55JhR9tkNpL1K5p9fMbAODwF4bUtFe9TJZuY1Vm2Qr0eP4H4jivMOFZRpPisKROxbQSTo79phJTz9e9LGZPa7SIbry7Xb%2BsXa4NFyDHzqZIFsVoLtauEwww82ya1Zza4AtRStuGxXRChmMW41Ds1YfXlIIzowrRSgNJDZa9UU0FONTTsicDS5ftuoWUtHMtMWcQFpJrIQc%2FFXRjIA114iXkAhbv5PwbpbrsBOLl%2FQMAQwSsFVcTSNjr14ug7MRABjdZb%2BshG%2F8Dh69wEhgiwyvcfASG9J%2FYYwOxerJTIAEzAZmQMw7avpbypgFXVOqONK76k5lXnz6gaQmyAqu9IXaBLQKDbB%2FqpVLe6uU8R0K614mUNmhHf37RkvzMwvrjJugY6mwGGKLBGeu6JAnJDq93FbZUKwzn54GhdtwDVMtNs%2BKEhUwZRMDLAPjHNzj7Vu%2FOf2QocxW7vKRb7aAyn3gvOpqmmf5WnguyxH6Wz%2FlRbRbSFjpUnvJlBfzbVxhvwLxeTPQ3S1aQuOQCz5CXwR8elC%2F2MLrY3%2BwmeKshFkhssiv67QFX%2FBWhP0D0jet3rn3HlIErVuxtK1Ze%2FRJ9sEA%3D%3D&Expires=1733454900",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "110\n\n# SURFACE WATER SUPPLY, 1925, PART XI\n\nDaily discharge, in second-feet, of Spring Valley Water Co.'s aqueduct near Sunol, Calif., for the year ending September 30, 1925-Continued",
+                "embed": "110\n\n# SURFACE WATER SUPPLY, 1925, PART XI\n\nDaily discharge, in second-feet, of Spring Valley Water Co.'s aqueduct near Sunol, Calif., for the year ending September 30, 1925-Continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11967921036397286,
+                            "top": 0.04693954187007135,
+                            "width": 0.04565083281924738,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "110",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2850092535471931,
+                            "top": 0.049943672549755916,
+                            "width": 0.4855027760641579,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1925, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11906230721776681,
+                            "top": 0.08036049568156214,
+                            "width": 0.81122763726095,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Spring Valley Water Co.'s aqueduct near Sunol, Calif., for the year ending September 30, 1925-Continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>16</td><td>32</td><td>33</td><td>31</td><td>33</td><td>33</td><td>32</td><td>33</td><td>33</td><td>32</td><td>32</td><td>32</td><td>44</td></tr><tr><td>17</td><td>33</td><td>33</td><td>6.5</td><td>33</td><td>33</td><td>33</td><td>33</td><td>32</td><td>32</td><td>32</td><td>33</td><td>44</td></tr><tr><td>18</td><td>33</td><td>32</td><td>14</td><td>33</td><td>33</td><td>34</td><td>33</td><td>46</td><td>33</td><td>33</td><td>33</td><td>43</td></tr><tr><td>19</td><td>33</td><td>33</td><td>32</td><td>33</td><td>33</td><td>33</td><td>33</td><td>48</td><td>13</td><td>32</td><td>33</td><td>44</td></tr><tr><td>20</td><td>33</td><td>33</td><td>31</td><td>29</td><td>33</td><td>34</td><td>33</td><td>41</td><td>12</td><td>32</td><td>32</td><td>44</td></tr><tr><td>21</td><td>33</td><td>28</td><td>33</td><td>30</td><td>33</td><td>32</td><td>33</td><td>35</td><td>25</td><td>33</td><td>32</td><td>43</td></tr><tr><td>22</td><td>33</td><td>22</td><td>32</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td><td>28</td><td>33</td><td>32</td><td>44</td></tr><tr><td>23</td><td>33</td><td>0</td><td>33</td><td>32</td><td>32</td><td>33</td><td>33</td><td>34</td><td>31</td><td>33</td><td>32</td><td>44</td></tr><tr><td>24</td><td>33</td><td>5.5</td><td>32</td><td>32</td><td>36</td><td>33</td><td>33</td><td>33</td><td>31</td><td>33</td><td>33</td><td>43</td></tr><tr><td>25</td><td>33</td><td>33</td><td>32</td><td>33</td><td>35</td><td>34</td><td>33</td><td>29</td><td>31</td><td>33</td><td>33</td><td>44</td></tr><tr><td>26</td><td>33</td><td>32</td><td>30</td><td>35</td><td>34</td><td>33</td><td>33</td><td>35</td><td>32</td><td>32</td><td>33</td><td>43</td></tr><tr><td>27</td><td>33</td><td>32</td><td>33</td><td>31</td><td>33</td><td>33</td><td>33</td><td>29</td><td>32</td><td>33</td><td>32</td><td>43</td></tr><tr><td>28</td><td>32</td><td>33</td><td>32</td><td>33</td><td>34</td><td>33</td><td>33</td><td>34</td><td>32</td><td>33</td><td>32</td><td>44</td></tr><tr><td>29</td><td>33</td><td>32</td><td>32</td><td>32</td><td></td><td>33</td><td>33</td><td>35</td><td>32</td><td>33</td><td>33</td><td>43</td></tr><tr><td>30</td><td>32</td><td>33</td><td>34</td><td>33</td><td></td><td>32</td><td>35</td><td>34</td><td>32</td><td>33</td><td>32</td><td>44</td></tr><tr><td>31</td><td>33</td><td></td><td>33</td><td>33</td><td></td><td>34</td><td></td><td>35</td><td></td><td>32</td><td>32</td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>16</td><td>32</td><td>33</td><td>31</td><td>33</td><td>33</td><td>32</td><td>33</td><td>33</td><td>32</td><td>32</td><td>32</td><td>44</td></tr><tr><td>17</td><td>33</td><td>33</td><td>6.5</td><td>33</td><td>33</td><td>33</td><td>33</td><td>32</td><td>32</td><td>32</td><td>33</td><td>44</td></tr><tr><td>18</td><td>33</td><td>32</td><td>14</td><td>33</td><td>33</td><td>34</td><td>33</td><td>46</td><td>33</td><td>33</td><td>33</td><td>43</td></tr><tr><td>19</td><td>33</td><td>33</td><td>32</td><td>33</td><td>33</td><td>33</td><td>33</td><td>48</td><td>13</td><td>32</td><td>33</td><td>44</td></tr><tr><td>20</td><td>33</td><td>33</td><td>31</td><td>29</td><td>33</td><td>34</td><td>33</td><td>41</td><td>12</td><td>32</td><td>32</td><td>44</td></tr><tr><td>21</td><td>33</td><td>28</td><td>33</td><td>30</td><td>33</td><td>32</td><td>33</td><td>35</td><td>25</td><td>33</td><td>32</td><td>43</td></tr><tr><td>22</td><td>33</td><td>22</td><td>32</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td><td>28</td><td>33</td><td>32</td><td>44</td></tr><tr><td>23</td><td>33</td><td>0</td><td>33</td><td>32</td><td>32</td><td>33</td><td>33</td><td>34</td><td>31</td><td>33</td><td>32</td><td>44</td></tr><tr><td>24</td><td>33</td><td>5.5</td><td>32</td><td>32</td><td>36</td><td>33</td><td>33</td><td>33</td><td>31</td><td>33</td><td>33</td><td>43</td></tr><tr><td>25</td><td>33</td><td>33</td><td>32</td><td>33</td><td>35</td><td>34</td><td>33</td><td>29</td><td>31</td><td>33</td><td>33</td><td>44</td></tr><tr><td>26</td><td>33</td><td>32</td><td>30</td><td>35</td><td>34</td><td>33</td><td>33</td><td>35</td><td>32</td><td>32</td><td>33</td><td>43</td></tr><tr><td>27</td><td>33</td><td>32</td><td>33</td><td>31</td><td>33</td><td>33</td><td>33</td><td>29</td><td>32</td><td>33</td><td>32</td><td>43</td></tr><tr><td>28</td><td>32</td><td>33</td><td>32</td><td>33</td><td>34</td><td>33</td><td>33</td><td>34</td><td>32</td><td>33</td><td>32</td><td>44</td></tr><tr><td>29</td><td>33</td><td>32</td><td>32</td><td>32</td><td></td><td>33</td><td>33</td><td>35</td><td>32</td><td>33</td><td>33</td><td>43</td></tr><tr><td>30</td><td>32</td><td>33</td><td>34</td><td>33</td><td></td><td>32</td><td>35</td><td>34</td><td>32</td><td>33</td><td>32</td><td>44</td></tr><tr><td>31</td><td>33</td><td></td><td>33</td><td>33</td><td></td><td>34</td><td></td><td>35</td><td></td><td>32</td><td>32</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11775115270220446,
+                            "top": 0.11681704891833693,
+                            "width": 0.8265463036567176,
+                            "height": 0.2052353770492044,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>16</td><td>32</td><td>33</td><td>31</td><td>33</td><td>33</td><td>32</td><td>33</td><td>33</td><td>32</td><td>32</td><td>32</td><td>44</td></tr><tr><td>17</td><td>33</td><td>33</td><td>6.5</td><td>33</td><td>33</td><td>33</td><td>33</td><td>32</td><td>32</td><td>32</td><td>33</td><td>44</td></tr><tr><td>18</td><td>33</td><td>32</td><td>14</td><td>33</td><td>33</td><td>34</td><td>33</td><td>46</td><td>33</td><td>33</td><td>33</td><td>43</td></tr><tr><td>19</td><td>33</td><td>33</td><td>32</td><td>33</td><td>33</td><td>33</td><td>33</td><td>48</td><td>13</td><td>32</td><td>33</td><td>44</td></tr><tr><td>20</td><td>33</td><td>33</td><td>31</td><td>29</td><td>33</td><td>34</td><td>33</td><td>41</td><td>12</td><td>32</td><td>32</td><td>44</td></tr><tr><td>21</td><td>33</td><td>28</td><td>33</td><td>30</td><td>33</td><td>32</td><td>33</td><td>35</td><td>25</td><td>33</td><td>32</td><td>43</td></tr><tr><td>22</td><td>33</td><td>22</td><td>32</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td><td>28</td><td>33</td><td>32</td><td>44</td></tr><tr><td>23</td><td>33</td><td>0</td><td>33</td><td>32</td><td>32</td><td>33</td><td>33</td><td>34</td><td>31</td><td>33</td><td>32</td><td>44</td></tr><tr><td>24</td><td>33</td><td>5.5</td><td>32</td><td>32</td><td>36</td><td>33</td><td>33</td><td>33</td><td>31</td><td>33</td><td>33</td><td>43</td></tr><tr><td>25</td><td>33</td><td>33</td><td>32</td><td>33</td><td>35</td><td>34</td><td>33</td><td>29</td><td>31</td><td>33</td><td>33</td><td>44</td></tr><tr><td>26</td><td>33</td><td>32</td><td>30</td><td>35</td><td>34</td><td>33</td><td>33</td><td>35</td><td>32</td><td>32</td><td>33</td><td>43</td></tr><tr><td>27</td><td>33</td><td>32</td><td>33</td><td>31</td><td>33</td><td>33</td><td>33</td><td>29</td><td>32</td><td>33</td><td>32</td><td>43</td></tr><tr><td>28</td><td>32</td><td>33</td><td>32</td><td>33</td><td>34</td><td>33</td><td>33</td><td>34</td><td>32</td><td>33</td><td>32</td><td>44</td></tr><tr><td>29</td><td>33</td><td>32</td><td>32</td><td>32</td><td></td><td>33</td><td>33</td><td>35</td><td>32</td><td>33</td><td>33</td><td>43</td></tr><tr><td>30</td><td>32</td><td>33</td><td>34</td><td>33</td><td></td><td>32</td><td>35</td><td>34</td><td>32</td><td>33</td><td>32</td><td>44</td></tr><tr><td>31</td><td>33</td><td></td><td>33</td><td>33</td><td></td><td>34</td><td></td><td>35</td><td></td><td>32</td><td>32</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\nMonthly discharge of Spring Valley Water Co.'s aqueduct near Sunol, Calif., for the year ending September 30, 1925",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\nMonthly discharge of Spring Valley Water Co.'s aqueduct near Sunol, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11967921036397286,
+                            "top": 0.33270747277506574,
+                            "width": 0.8192473781616286,
+                            "height": 0.027788208787082238,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Spring Valley Water Co.'s aqueduct near Sunol, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>34</td><td>24</td><td>32. 5</td><td>2,000</td></tr><tr><td>November</td><td>34</td><td>0</td><td>29, 2</td><td>1,740</td></tr><tr><td>December</td><td>34</td><td>6.5</td><td>30. 8</td><td>1,890</td></tr><tr><td>January</td><td>35</td><td>29</td><td>32. 4</td><td>1,990</td></tr><tr><td>February</td><td>36</td><td>32</td><td>33. 0</td><td>1,830</td></tr><tr><td>March</td><td>36</td><td>8</td><td>32. 2</td><td>1,980</td></tr><tr><td>April</td><td>35</td><td>31</td><td>33. 2</td><td>1,980</td></tr><tr><td>May</td><td>48</td><td>29</td><td>34. 3</td><td>2,110</td></tr><tr><td>June</td><td>33</td><td>12</td><td>30. 6</td><td>1,820</td></tr><tr><td>July</td><td>33</td><td>7</td><td>31. 2</td><td>1,920</td></tr><tr><td>August</td><td>37</td><td>14</td><td>31. 3</td><td>1,920</td></tr><tr><td>September</td><td>44</td><td>22</td><td>39. 1</td><td>2,330</td></tr><tr><td>The year</td><td>44</td><td>0</td><td>32.5</td><td>23,500</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>34</td><td>24</td><td>32. 5</td><td>2,000</td></tr><tr><td>November</td><td>34</td><td>0</td><td>29, 2</td><td>1,740</td></tr><tr><td>December</td><td>34</td><td>6.5</td><td>30. 8</td><td>1,890</td></tr><tr><td>January</td><td>35</td><td>29</td><td>32. 4</td><td>1,990</td></tr><tr><td>February</td><td>36</td><td>32</td><td>33. 0</td><td>1,830</td></tr><tr><td>March</td><td>36</td><td>8</td><td>32. 2</td><td>1,980</td></tr><tr><td>April</td><td>35</td><td>31</td><td>33. 2</td><td>1,980</td></tr><tr><td>May</td><td>48</td><td>29</td><td>34. 3</td><td>2,110</td></tr><tr><td>June</td><td>33</td><td>12</td><td>30. 6</td><td>1,820</td></tr><tr><td>July</td><td>33</td><td>7</td><td>31. 2</td><td>1,920</td></tr><tr><td>August</td><td>37</td><td>14</td><td>31. 3</td><td>1,920</td></tr><tr><td>September</td><td>44</td><td>22</td><td>39. 1</td><td>2,330</td></tr><tr><td>The year</td><td>44</td><td>0</td><td>32.5</td><td>23,500</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11756652229586771,
+                            "top": 0.36970731453746947,
+                            "width": 0.8267075140339442,
+                            "height": 0.18663287905880352,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>34</td><td>24</td><td>32. 5</td><td>2,000</td></tr><tr><td>November</td><td>34</td><td>0</td><td>29, 2</td><td>1,740</td></tr><tr><td>December</td><td>34</td><td>6.5</td><td>30. 8</td><td>1,890</td></tr><tr><td>January</td><td>35</td><td>29</td><td>32. 4</td><td>1,990</td></tr><tr><td>February</td><td>36</td><td>32</td><td>33. 0</td><td>1,830</td></tr><tr><td>March</td><td>36</td><td>8</td><td>32. 2</td><td>1,980</td></tr><tr><td>April</td><td>35</td><td>31</td><td>33. 2</td><td>1,980</td></tr><tr><td>May</td><td>48</td><td>29</td><td>34. 3</td><td>2,110</td></tr><tr><td>June</td><td>33</td><td>12</td><td>30. 6</td><td>1,820</td></tr><tr><td>July</td><td>33</td><td>7</td><td>31. 2</td><td>1,920</td></tr><tr><td>August</td><td>37</td><td>14</td><td>31. 3</td><td>1,920</td></tr><tr><td>September</td><td>44</td><td>22</td><td>39. 1</td><td>2,330</td></tr><tr><td>The year</td><td>44</td><td>0</td><td>32.5</td><td>23,500</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n## KERN RIVER BASIN\n\n## KERN RIVER NEAR KERNVILLE, CALIF.\n\nLOCATION.- SE. sec. 14, T. 23 S., R. 32 E., at base of Fairview Mountain, 1 mile below intake of Kern River No. 3 Canal in Tulare County, in Kern National Forest, 1 mile above Tobias Creek, and 15 miles north of Kernville, Kern County.\n\nDRAINAGE AREA.-Not measured.\n\nRECORDS AVAILABLE.-January 1, 1912, to September 30, 1925. GAGE.- - Water-stage recorder on left bank,. Datum lowered 5 feet February 20, 1922.\n\nDISCHARGE MEASUREMENTS.-Made from cable 90 feet'below gage or by wading. CHANNEL AND CONTROL.-Coarse gravel and boulders; permanent except as temporarily affected by leaves or willows on control.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 8.10 feet at 11 a. m. June 13 (discharge, 1,920 second-feet); no flow at various times during year.\n\n1912-1925: Maximum stage recorded, 8.8 feet (old datum) at 4 p. m. January 17, 1916 (discharge, 9,690 second-feet) no flow at intervals July 31, 1924, to February 7, 1925.\n\nDIVERSIONS.- River No. 3 Canal diverts about 1 mile above station. The water is returned to the river at the power house about 8 miles below station.\n\nREGULATION.-Complete regulation by the canal at stages below capacity of canal.",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n## KERN RIVER BASIN\n\n## KERN RIVER NEAR KERNVILLE, CALIF.\n\nLOCATION.- SE. sec. 14, T. 23 S., R. 32 E., at base of Fairview Mountain, 1 mile below intake of Kern River No. 3 Canal in Tulare County, in Kern National Forest, 1 mile above Tobias Creek, and 15 miles north of Kernville, Kern County.\n\nDRAINAGE AREA.-Not measured.\n\nRECORDS AVAILABLE.-January 1, 1912, to September 30, 1925. GAGE.- - Water-stage recorder on left bank,. Datum lowered 5 feet February 20, 1922.\n\nDISCHARGE MEASUREMENTS.-Made from cable 90 feet'below gage or by wading. CHANNEL AND CONTROL.-Coarse gravel and boulders; permanent except as temporarily affected by leaves or willows on control.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 8.10 feet at 11 a. m. June 13 (discharge, 1,920 second-feet); no flow at various times during year.\n\n1912-1925: Maximum stage recorded, 8.8 feet (old datum) at 4 p. m. January 17, 1916 (discharge, 9,690 second-feet) no flow at intervals July 31, 1924, to February 7, 1925.\n\nDIVERSIONS.- River No. 3 Canal diverts about 1 mile above station. The water is returned to the river at the power house about 8 miles below station.\n\nREGULATION.-Complete regulation by the canal at stages below capacity of canal.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.40777297964219616,
+                            "top": 0.570409312805107,
+                            "width": 0.23935842072794572,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "KERN RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.35903763109191855,
+                            "top": 0.5906871948929778,
+                            "width": 0.3392967304133251,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "KERN RIVER NEAR KERNVILLE, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11967921036397286,
+                            "top": 0.6098385279759669,
+                            "width": 0.8161628624305984,
+                            "height": 0.06083364626361247,
+                            "page": 1
+                        },
+                        "content": "LOCATION.- SE. sec. 14, T. 23 S., R. 32 E., at base of Fairview Mountain, 1 mile below intake of Kern River No. 3 Canal in Tulare County, in Kern National Forest, 1 mile above Tobias Creek, and 15 miles north of Kernville, Kern County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11967921036397286,
+                            "top": 0.6725497559143823,
+                            "width": 0.34114743985194323,
+                            "height": 0.012016522718738265,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-Not measured.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11844540407156076,
+                            "top": 0.6886969583176868,
+                            "width": 0.8155459592843923,
+                            "height": 0.04205782951558393,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-January 1, 1912, to September 30, 1925. GAGE.- - Water-stage recorder on left bank,. Datum lowered 5 feet February 20, 1922.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11967921036397286,
+                            "top": 0.7360120165227187,
+                            "width": 0.8155459592843923,
+                            "height": 0.045061960195268494,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from cable 90 feet'below gage or by wading. CHANNEL AND CONTROL.-Coarse gravel and boulders; permanent except as temporarily affected by leaves or willows on control.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11906230721776681,
+                            "top": 0.7829515583927901,
+                            "width": 0.8167797655768044,
+                            "height": 0.045437476530229066,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 8.10 feet at 11 a. m. June 13 (discharge, 1,920 second-feet); no flow at various times during year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16533004318322023,
+                            "top": 0.8306421329327826,
+                            "width": 0.7692782233189389,
+                            "height": 0.044310927525347356,
+                            "page": 1
+                        },
+                        "content": "1912-1925: Maximum stage recorded, 8.8 feet (old datum) at 4 p. m. January 17, 1916 (discharge, 9,690 second-feet) no flow at intervals July 31, 1924, to February 7, 1925.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.121529919802591,
+                            "top": 0.8775816748028539,
+                            "width": 0.8136952498457742,
+                            "height": 0.028914757791963952,
+                            "page": 1
+                        },
+                        "content": "DIVERSIONS.- River No. 3 Canal diverts about 1 mile above station. The water is returned to the river at the power house about 8 miles below station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.9079984979346601,
+                            "width": 0.8180135718692165,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "REGULATION.-Complete regulation by the canal at stages below capacity of canal.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

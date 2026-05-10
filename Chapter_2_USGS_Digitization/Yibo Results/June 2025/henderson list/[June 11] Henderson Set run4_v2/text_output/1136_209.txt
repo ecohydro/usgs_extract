@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Feather River at Oroville",
+    "County": "Butte County",
+    "Location": "Oroville, California",
+    "Townships_Ranges_Sections": null,
+    "Temporal_Resolution": "Daily to monthly measurements between January 1, 1906, and December 31, 1907",
+    "Units_Of_Measurement": {
+        "Gage_height": "Feet",
+        "Discharge": "Sec.-ft"
+    },
+    "Latitude": 39.505,
+    "Longitude": -121.529,
+    "Dates_of_Recording": "01/01/1906-03/25/1907, 03/26/1907-12/31/1907",
+    "Water_Type": "Stream discharge"
+}
+```

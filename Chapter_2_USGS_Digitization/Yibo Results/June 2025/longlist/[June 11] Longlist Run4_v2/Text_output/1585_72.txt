@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Serrano & Carpenter Canal",
+        "County": "Orange County",
+        "Location": "Near Villa Park, California",
+        "Townships_Ranges_Sections": ["SW. 1/4 sec. 13", "T. 4 S.", "R. 9 W."],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "Second-feet for discharge; acre-feet for run-off",
+        "Latitude": 33.7432,
+        "Longitude": -117.8531,
+        "Dates_of_Recording": "08/01/1920-09/30/1931",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+### Explanation:
+
+- **Watersource_Name**: The document specifies the canal as "Serrano & Carpenter Canal."
+- **County**: The location near Villa Park suggests it is in Orange County, California.
+- **Location**: Directly stated as "Near Villa Park, California."
+- **Townships_Ranges_Sections**: Extracted from the location details: "SW. 1/4 sec. 13, T. 4 S., R. 9 W."
+- **Temporal_Resolution**: The data is recorded daily as indicated by the table headers and daily values.
+- **Units_Of_Measurement**: Discharge is measured in second-feet, and run-off is given in acre-feet.
+- **Latitude & Longitude**: Estimated based on Villa Park's location in Orange County.
+- **Dates_of_Recording**: Records available from August 1920 to September 1931.
+- **Water_Type**: The canal involves stream discharge as it diverts water from Santiago Creek.

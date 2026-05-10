@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Laguna Creek",
+        "County": "Alameda County",
+        "Location": "Irvington, Calif.",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 37.6815,
+        "Longitude": -122.1667,
+        "Dates_of_Recording": "02/01/1918-09/30/1918",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Dry Creek",
+        "County": "Alameda County",
+        "Location": "Near Decoto, Calif.",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Specific dates mentioned (March 19-20, 1918)",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 37.6963,
+        "Longitude": -122.0877,
+        "Dates_of_Recording": "10/01/1916-09/30/1918",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Merced River",
+    "County": "Merced County",
+    "Location": "Above Merced Falls, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": {
+        "Gage_Height": "feet",
+        "Discharge": "cubic feet per second (Sec.-ft.)"
+    },
+    "Latitude": 37.3688,
+    "Longitude": -120.5487,
+    "Dates_of_Recording": "01/21/1907-12/31/1908",
+    "Water_Type": "Stream discharge"
+}
+```

@@ -1,0 +1,178 @@
+{
+    "job_id": "42d22f63-aeea-4045-bd14-fbe925c7562c",
+    "duration": 6.635024309158325,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/55925e16-59ef-4be5-bf54-114ff6504b8e?AWSAccessKeyId=ASIA2UOK6OVBLOOEJP77&Signature=xlxtvrSFoDnVli4YyAcKEM9zUmg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIF85br%2B57Q%2B4zpvxJmXJizH2je6nnhTN1rdOctsevyuKAiAkJxeYlh6EizNsHZ9In4t1XzT%2BVcgs99iPQv4MNlI6dCqUBQi9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDczMTEwNjkzMjAzNCIM9zmbNBaIl7Ce3BvbKugESYOB5rodBphEQZswY4HF8LL%2FPFfszPe1iGWXddfbffUw8uc%2B%2FjynmTUgnLNz8VZ11fKwQW5jJmtydjwwNS0ks%2FhcSSqC%2FGD4XHQGj%2B3sQ3C8NpiG%2FEsw7m4Uwz%2F1xchr0YybSbDfFroMQfPGj2V3hmpDREHDJ36ym0bYHafRuhrS%2Fx%2FWvmB5p%2F9yagm7j0mwHhVtApYh5Rxtrm6ljcnOb%2BqvQiL0mi0Er1SnyX0quFfenKIZY0HJ9jcxi3NUZ90AaKq01I7yIwIx4HFSr4gh7DQsyEe8VlbnqPXUP1OMM2RLj4Q%2FY1u%2FLX45iIb4cPOahYY46N1hHB7nt%2BBFSMusxOl1xPBXH9rBGHgeodNh15MGPHyPLDFB%2FUjUQwQwd0AdX1HST1ShMZpcGV%2FltREz%2BsySa4f7ZtgdkuXMG7PYgbQGqWjXIoxC%2BSFNQY1pOu65Y9gwZDEhl2sCeqxdi%2BoSuLBoo%2BWwjMdMdgXRuj4gUJoJ5gaIC1SJ0OY7cDqXwWztVXtj8XV%2FIdp%2FfM2G2RvNeLlp%2B33tCBjpjCUmLejGpRH8v7iMfNs9kr3lvWVGiAl23P4xtU%2BMWIcJf8e1JVGK9TDQ3nERimxYGY7rctfmHSxBvhnZL14lXMWAvcmA3gURaD1mdmw%2Bt0bsOSrx9fxSxvzb52GJ6THJ6nvAj9Ig752fqriFrGoJCCssbjKedI6DqWjzE9ZBUvow8HqiV6sFKx1ANhi20Gx6gAO3CijRXwr%2FnQO9si8lGCsZXy6coLKbK0%2Fb0U1n27QoBmPRECzF9GMYkg6supvpJ5nHYCFQdVF89m0c%2FWxxNDDUqom8BjqcAamzglcwKDVsoa2scmvd9lbRKygyEaJV3742hNhoT77Z050VLmeExbyBf89Ts3NY5Gebd6CROTJR2rkwDmVxDJ1lSDmZOsblT4DL%2Fijl8c7DV5wWkOH2W12bplFi4vFZD8s%2FOAf4lMpf8TghkFDtkrmzrGsC0%2FX95sLf3SGj%2BNnGLWd4fnTexJYwxN3NlDR2VmU3r3cCH4UVFEzU0w%3D%3D&Expires=1736598591",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA\n\nfaults indicate that there is ground-water flow across the faults; ex- actly how much is unknown.",
+                "embed": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA\n\nfaults indicate that there is ground-water flow across the faults; ex- actly how much is unknown.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.11941212492345377,
+                            "top": 0.061209162598573036,
+                            "width": 0.8095529699938763,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11941212492345377,
+                            "top": 0.09538114907998498,
+                            "width": 0.8095529699938763,
+                            "height": 0.034923019151333085,
+                            "page": 1
+                        },
+                        "content": "faults indicate that there is ground-water flow across the faults; ex- actly how much is unknown.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA (cont.)\n\n## CHANGES IN GROUND WATER IN STORAGE\n\nThe change in the quantity of ground water in storage was com- puted by two methods. One method was to multiply the average change in water levels over a selected period by the area of that change and then multiply the result by the storage coefficient of the corresponding area. The alternate method was to determine the change in storage needed to balance the hydrologic equation.\n\nTo determine the change in storage by water levels, the average annual water-level changes were computed for the 1953-67 period (fig. 17). There was an inadequate distribution of water-level data prior to 1953, and long-term hydrographs (fig. 11) indicate that the average annual changes for 1953-67 were approximately the same as the average annual changes for 1945-67. The changes in the water levels prior to 1945 were insignificant, and therefore changes in stor- age were negligible for the period 1936-45. The total decrease in stor- age for the upper Coachella Valley down to the zero-change line of figure 17 for 1945-67 was about 600,000 acre-feet, which is about 4 percent of the total quantity of ground water in storage (table 13).",
+                "embed": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA (cont.)\n\n## CHANGES IN GROUND WATER IN STORAGE\n\nThe change in the quantity of ground water in storage was com- puted by two methods. One method was to multiply the average change in water levels over a selected period by the area of that change and then multiply the result by the storage coefficient of the corresponding area. The alternate method was to determine the change in storage needed to balance the hydrologic equation.\n\nTo determine the change in storage by water levels, the average annual water-level changes were computed for the 1953-67 period (fig. 17). There was an inadequate distribution of water-level data prior to 1953, and long-term hydrographs (fig. 11) indicate that the average annual changes for 1953-67 were approximately the same as the average annual changes for 1945-67. The changes in the water levels prior to 1945 were insignificant, and therefore changes in stor- age were negligible for the period 1936-45. The total decrease in stor- age for the upper Coachella Valley down to the zero-change line of figure 17 for 1945-67 was about 600,000 acre-feet, which is about 4 percent of the total quantity of ground water in storage (table 13).",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2657685241886099,
+                            "top": 0.14607585429966202,
+                            "width": 0.5162278015921616,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "CHANGES IN GROUND WATER IN STORAGE",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11941212492345377,
+                            "top": 0.16785580172737513,
+                            "width": 0.810777709736681,
+                            "height": 0.11002628614344724,
+                            "page": 1
+                        },
+                        "content": "The change in the quantity of ground water in storage was com- puted by two methods. One method was to multiply the average change in water levels over a selected period by the area of that change and then multiply the result by the storage coefficient of the corresponding area. The alternate method was to determine the change in storage needed to balance the hydrologic equation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11941212492345377,
+                            "top": 0.2801351858805858,
+                            "width": 0.8113900796080833,
+                            "height": 0.2042808862185505,
+                            "page": 1
+                        },
+                        "content": "To determine the change in storage by water levels, the average annual water-level changes were computed for the 1953-67 period (fig. 17). There was an inadequate distribution of water-level data prior to 1953, and long-term hydrographs (fig. 11) indicate that the average annual changes for 1953-67 were approximately the same as the average annual changes for 1945-67. The changes in the water levels prior to 1945 were insignificant, and therefore changes in stor- age were negligible for the period 1936-45. The total decrease in stor- age for the upper Coachella Valley down to the zero-change line of figure 17 for 1945-67 was about 600,000 acre-feet, which is about 4 percent of the total quantity of ground water in storage (table 13).",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA (cont.)\n\n## CHANGES IN GROUND WATER IN STORAGE (cont.)\n\nTABLE 13.-Summary of ground water in storage1\n\n<table><tr><th>Subbasin</th><th>Depth2\n(ft)</th><th>Storage\n(acre-ft)</th></tr><tr><td>Desert Hot Springs</td><td>300</td><td>779,000</td></tr><tr><td>Mission Creek</td><td>500</td><td>2,630,000</td></tr><tr><td>Garnet Hill</td><td>500</td><td>1,520,000</td></tr><tr><td>Whitewater River</td><td>700</td><td>10,200,000</td></tr><tr><td>Total</td><td></td><td>15,700,000</td></tr></table>\n\n1Ground water in storage is the area times the depth times the storage coefficient (fig. 5) 2Depth is an arbitrary choice that represents most reasonable thickness of saturated deposits that can be economically and hydrologically utilized.",
+                "embed": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA (cont.)\n\n## CHANGES IN GROUND WATER IN STORAGE (cont.)\n\nTABLE 13.-Summary of ground water in storage1\n\n<table><tr><th>Subbasin</th><th>Depth2\n(ft)</th><th>Storage\n(acre-ft)</th></tr><tr><td>Desert Hot Springs</td><td>300</td><td>779,000</td></tr><tr><td>Mission Creek</td><td>500</td><td>2,630,000</td></tr><tr><td>Garnet Hill</td><td>500</td><td>1,520,000</td></tr><tr><td>Whitewater River</td><td>700</td><td>10,200,000</td></tr><tr><td>Total</td><td></td><td>15,700,000</td></tr></table>\n\n1Ground water in storage is the area times the depth times the storage coefficient (fig. 5) 2Depth is an arbitrary choice that represents most reasonable thickness of saturated deposits that can be economically and hydrologically utilized.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.26883037354562156,
+                            "top": 0.496057078482914,
+                            "width": 0.5094917330067361,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "TABLE 13.-Summary of ground water in storage1",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.2070700463822336,
+                            "top": 0.5143589158726061,
+                            "width": 0.6349077288971602,
+                            "height": 0.10826412806867255,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Subbasin</th><th>Depth2\n(ft)</th><th>Storage\n(acre-ft)</th></tr><tr><td>Desert Hot Springs</td><td>300</td><td>779,000</td></tr><tr><td>Mission Creek</td><td>500</td><td>2,630,000</td></tr><tr><td>Garnet Hill</td><td>500</td><td>1,520,000</td></tr><tr><td>Whitewater River</td><td>700</td><td>10,200,000</td></tr><tr><td>Total</td><td></td><td>15,700,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1200244947948561,
+                            "top": 0.6301164100638378,
+                            "width": 0.8095529699938763,
+                            "height": 0.034923019151333085,
+                            "page": 1
+                        },
+                        "content": "1Ground water in storage is the area times the depth times the storage coefficient (fig. 5) 2Depth is an arbitrary choice that represents most reasonable thickness of saturated deposits that can be economically and hydrologically utilized.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA (cont.)\n\n## CHANGES IN GROUND WATER IN STORAGE (cont.)\n\nFigure 18 shows the distribution of this total storage decrease for the period 1953-67 based on figure 17. The average annual decrease for 1953-67, based on water-level changes, was about 33,000 acre-feet per year.\n\nSouth of the zero-change line of figure 17, rising water levels indi- cate that ground water in storage has been increasing since 1949. This increase has not been computed because further studies are needed to define the storage coefficient distribution for the transition area between the water-table conditions of the upper valley and the con- fined conditions of the lower valley.\n\nThe second method of determining the change in storage was to examine the hydrologic equation, which is basically a statement of the law of conservation of matter as applied to the hydrologic cycle. All",
+                "embed": "# 40 ANALOG MODEL STUDY, COACHELLA VALLEY, CALIFORNIA (cont.)\n\n## CHANGES IN GROUND WATER IN STORAGE (cont.)\n\nFigure 18 shows the distribution of this total storage decrease for the period 1953-67 based on figure 17. The average annual decrease for 1953-67, based on water-level changes, was about 33,000 acre-feet per year.\n\nSouth of the zero-change line of figure 17, rising water levels indi- cate that ground water in storage has been increasing since 1949. This increase has not been computed because further studies are needed to define the storage coefficient distribution for the transition area between the water-table conditions of the upper valley and the con- fined conditions of the lower valley.\n\nThe second method of determining the change in storage was to examine the hydrologic equation, which is basically a statement of the law of conservation of matter as applied to the hydrologic cycle. All",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11941212492345377,
+                            "top": 0.676304919263988,
+                            "width": 0.810777709736681,
+                            "height": 0.07247465264739016,
+                            "page": 1
+                        },
+                        "content": "Figure 18 shows the distribution of this total storage decrease for the period 1953-67 based on figure 17. The average annual decrease for 1953-67, based on water-level changes, was about 33,000 acre-feet per year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11757501530924679,
+                            "top": 0.7517837025910628,
+                            "width": 0.8132271892222903,
+                            "height": 0.1092752534735261,
+                            "page": 1
+                        },
+                        "content": "South of the zero-change line of figure 17, rising water levels indi- cate that ground water in storage has been increasing since 1949. This increase has not been computed because further studies are needed to define the storage coefficient distribution for the transition area between the water-table conditions of the upper valley and the con- fined conditions of the lower valley.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11818738518064911,
+                            "top": 0.8633120540743522,
+                            "width": 0.8113900796080833,
+                            "height": 0.055576417574164476,
+                            "page": 1
+                        },
+                        "content": "The second method of determining the change in storage was to examine the hydrologic equation, which is basically a statement of the law of conservation of matter as applied to the hydrologic cycle. All",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

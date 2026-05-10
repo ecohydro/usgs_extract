@@ -1,0 +1,53 @@
+,ID,PAGE_NUMBER,Latitude,Longitude,Location,Townships_Ranges_Sections,Watersource_Name,County,Dates_of_Recording,Temporal_Resolution,Units_Of_Measurement,Water_Type
+0,56394,282,,,"{'Latitude': 37.6664, 'Longitude': -120.4411}","['[NW, NW14] sec.2 T.3 S., R.14 E.']",TUOLUMNE RIVER BELOW LA GRANGE DAM,Stanislaus County,10/01/1975-09/30/1976,Daily,"{'Discharge': 'cubic feet per second (ft³/s)', 'Gage Height': 'feet (ft)'}",Stream discharge
+1,2846,29,33.9733,-116.0376,Coachella Valley,"['T. 5 S., R. 7 E.']",Whitewater River,Riverside County,1948-12/31/1967,Annual,acre-feet,Stream discharge
+2,2846,29,33.9733,-116.0376,Coachella Valley,[],San Gorgonio Pass subbasin,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+3,2846,29,33.9733,-116.0376,Coachella Valley,[],Snow Creek,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+4,2846,29,33.9733,-116.0376,Coachella Valley,[],Falls Creek,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+5,2846,29,33.9733,-116.0376,Coachella Valley,[],Chino Canyon,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+6,2846,29,33.9733,-116.0376,Coachella Valley,[],Tahquitz Creek,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+7,2846,29,33.9733,-116.0376,Coachella Valley,[],Palm Canyon,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+8,2846,29,33.9733,-116.0376,Coachella Valley,[],Deep Creek (Palm Desert),Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+9,2846,29,33.9733,-116.0376,Coachella Valley,[],Miscellaneous,Riverside County,,Steady-state conditions,acre-feet,Groundwater recharge
+10,2846,29,33.9733,-116.0376,Coachella Valley,"['T. 5 S., R. 7 E.']","Colorado River water deliveries through Coachella Canal to secs. 3 and 9, T. 5 S., R. 7 E.",Riverside County,1948-12/31/1967,Annual,acre-feet,Irrigation
+11,366,10,,,,[],Surface Water,,01/01/1915-12/31/1915,"Daily, Monthly","[{'Discharge': 'second-feet'}, {'Run-off': 'millions of gallons'}, {'Velocity': 'feet per second and miles per hour'}, {'Horsepower_per_Foot_of_Fall': 'theoretical horsepower'}]",Stream discharge
+12,1298,28,,,Santa Ana River and vicinity,[],Unconsolidated Water-bearing Zone,San Bernardino,,,"['gpm', 'ft. sq']",Groundwater well
+13,1256,9,36.5,-119.5,Eastern slope of the Southern Coast Ranges,,Stream waters,"Southern Coast Ranges, California",October through September (Seasonal),,['inches'],Stream discharge
+14,53419,29,39.695833,-123.479444,"21N/15W -1R,M 39°41'45""N,123°28'46""","['21N', '15W', '-1R']",Spring Pinches Sulphur,MENDOCINO,09/29/1966-09/29/1966,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+15,53419,29,39.656944,-123.5875,"21N/15W -19M,M 39°39'25""N,123°35'15""","['21N', '15W', '-19M']",Mud Springs Valley Mud (Jackson Springs),MENDOCINO,09/29/1966-09/29/1966,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+16,53419,29,39.826111,-123.579999,"23N/15W -19L,M 39*49'34""N,123°34'48""","['23N', '15W', '-19L']",Division California Highways of,MENDOCINO,09/28/1966-09/28/1966,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+17,53419,29,38.284444,-122.331388,"5N/4W -17C,M 38°17'04""N,122°19'413""","['5N', '4W', '-17C']",Spring Stearns Congress F.A.,NAPA,05/06/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+18,53419,29,38.347222,-122.235,"6N/3W -19X,M 38*20'50""N,122""14'06""","['6N', '3W', '-19X']",Imboden Pete,NAPA,05/11/1965-05/11/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+19,53419,29,38.389722,-122.2775,"6N/4W -2N,M 38*23'23""N,122°16'39""","['6N', '4W', '-2N']",Soda Springs Nape Soda Jacksons Springs Nasser Napa A1,NAPA,05/06/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+20,53419,29,38.338889,-122.259167,"6N/4W -25E,M 38*20'20""N,122""15'33""","['6N', '4W', '-25E']",Springs Vichy Lepori Harris Napa M.E.,NAPA,05/06/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+21,53419,29,38.396944,-122.366667,"6N/5W -1L,M 38°23'49""N,122*22'00""","['6N', '5W', '-1L']",State Home California Veterans,NAPA,05/06/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+22,53419,29,38.484444,-122.241389,"TN/3W -6E,M 38*29'04""N,122""14'29""","['TN', '3W', '-6E']",Division California of Highways,NAPA,05/07/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+23,53419,29,38.490556,-122.495,"TN/GW -2D,M 38°29'26""N,122°29'42""","['TN', 'GW', '-2D']","Springs Springs Inc. Camps, Sulphur White California-Nevada White Original Sulphur Methodist",NAPA,05/11/1965-05/11/1965,1 day,"{'Temperature': 'Fahrenheit', 'Discharge': 'gallons per minute (gpm)', 'Altitude': 'feet'}",Springs
+24,3067,268,37.509722,-119.197222,"{'Latitude': 37.509722, 'Longitude': -119.197222, 'Description': 'NEt sec. 11, T. 5 S., R. 25 E., on right bank 2.4 miles downstream from North Fork San Joaquin River'}","['T. 5 S., R. 25 E., NEt sec. 11']",San Joaquin River at Miller Crossing,Madera County,"10/1921-07/1928, 10/1951-09/1956",Daily,"{'Discharge': 'cubic feet per second (cfs)', 'Gage Height': 'feet'}",Stream discharge
+25,10372,13,,,"Mount Diablo Base Line and Meridian, San Bernardino Base Line and Meridian","['T. 30 S., R. 27 E.', '28 E.', '29 E.', '30 E.', 'T. 31 S., R. 24 E.', '25 E.', '26 E.', '27 E.', '28 E.', '29 E.', '30 E.', 'T. 32 S., R. 23 E.', '24 E.', '25 E.', '26 E.', '27 E.', '28 E.', '29 E.', '30 E.', 'Tps. 11 & 12 N., 18 W.', '19 W.', '20 W.', '21 W.', '22 W.', '23 W.']",San Joaquin Valley Pumpages,"Various Counties in San Joaquin Valley, California",01/01/1975-12/31/1977,Annual,Acre-feet,Groundwater well
+26,48176,27,36.9756,-121.95,"Pajaro Valley, California",[],Pajaro Valley Groundwater,"['Santa Cruz', 'Monterey']",01/05/1963-30/04/1969,1 year,acre-feet,Irrigation
+27,3067,266,36.2152777778,-120.4694444444,"Left bank 1.1 miles upstream from Nunez Canyon, 3.0 miles downstream from White Creek and 8 miles northwest of Coalinga","['SW1 and SE1 of sec. 5, T. 20 S., R. 14 E.']",Los Gatos Creek,Tulare County,10/01/1949-09/30/1956,Daily measurements for October 1949 to September 1956,"{'Discharge': 'cubic feet per second (cfs)', 'Gage_Height': 'feet', 'Drainage_Area': 'square miles (sq mi)', 'Average_Discharge_Years': 'acre-feet per year'}",Stream discharge
+28,1166,51,,,Briscoe Creek,,Briscoe Reservoir,unknown,,,{'Capacity': 'acre-feet'},Reservoir
+29,1299,40,33.8295,-116.5453,"Near Agua Caliente Spring, Palm Springs",,"Palm Springs Water Co., well 5",Riverside,1948-01-01-1948-12-31,,['feet'],Groundwater well
+30,1299,40,33.8276,-116.5435,Near Agua Caliente Spring,,"Agua Caliente Indian Tribe, test well 1",Riverside,1958-06-10-1958-06-10,,['feet'],Groundwater well
+31,1299,40,33.8276,-116.5435,Near Agua Caliente Spring,,"Agua Caliente Indian Tribe, test well 2",Riverside,1958-06-11-1958-06-11,,['feet'],Groundwater well
+32,1299,40,33.8276,-116.5435,Near Agua Caliente Spring,,"Agua Caliente Indian Tribe, test well 3",Riverside,1958-06-11-1958-06-11,,['feet'],Groundwater well
+33,25076,28,35.5,-118.7,"San Joaquin River Basin, California",[],South Fork of Kern River near Onyx,Kern County,1911-12-01 to 1924-25-12,Monthly,cubic feet per second,Stream discharge
+34,25076,28,35.3,-118.9,"San Joaquin River Basin, California",[],Erskine Creek near Isabella,Kern County,1910-11-01 to 1911-12-01,Monthly,inches of water,Stream discharge
+35,25076,28,35.4,-119.1,"San Joaquin River Basin, California",[],Basin Creek near Havilah,Kern County,1910-11-01 to 1911-12-01,Monthly,cubic feet per second,Stream discharge
+36,25076,28,35.2,-118.6,"San Joaquin River Basin, California",[],Tejon House Creek at Tejon ranch house,Kern County,1894-95-01 to 1896-97-01,Monthly,cubic feet per second,Stream discharge
+37,25076,32,36.3167,-118.9833,"Near Three Rivers, Calif.",[],Kaweah River near Three Rivers,Tulare County,1902-10/1935-09,Monthly,second-feet,Stream discharge
+38,25076,32,36.2,-119.1833,"Near Lemon Cove, Calif.",[],"Kaweah River at McKay Point, near Lemon Cove",Tulare County,1918-10/1920-08,Monthly,second-feet,Stream discharge
+39,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility,[],Franciscan Formation,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+40,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility,[],Matilija Sandstone Member,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+41,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility,[],Sacate Formation,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+42,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility,[],Gaviota Formation,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+43,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility,[],Vaqueros Formation,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+44,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility near Tranquillon Mountain,[],Tranquillon Volcanics,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+45,1325,13,34.9667,-120.8167,Point Arguello Naval Missile Facility,[],Monterey Shale,Santa Barbara,,,gpm (gallons per minute),Groundwater well
+46,2846,46,33.9936,-116.5602,"Coachella Valley, California",[],Desert Hot Springs,Riverside,1953-11/30/1967,Annual,Acre-feet,Groundwater well
+47,2846,46,33.9961,-116.5655,"Coachella Valley, California",[],Mission Creek,Riverside,1953-11/30/1967,Annual,Acre-feet,Groundwater well
+48,2846,46,33.9984,-116.5709,"Coachella Valley, California",[],Garnet Hill,Riverside,1953-11/30/1967,Annual,Acre-feet,Groundwater well
+49,2846,46,33.9998,-116.5763,"Coachella Valley, California",[],Whitewater River,Riverside,1953-11/30/1967,Annual,Acre-feet,Groundwater well
+50,1327,11,36.1875,-121.2466,"Pinnacles National Monument, California",[],Ground Water at Pinnacles Monument,San Benito,07/09/2023-07/20/2023,Daily,"{'Thickness': 'feet', 'Depth': 'feet'}",Groundwater well
+51,56394,254,,,"{'Latitude': 37.454167, 'Longitude': -120.607778}","[""[NW&SW's sec. 36, T. 5 S., R.12 E.]""]",MERCED RIVER AT SHAFFER BRIDGE,Merced County,10/01/1975-09/30/1976,Daily,"{'Discharge': 'cubic feet per second (ft³/s)', 'Total_Acre_Foot': 'acre-feet', 'Time_Accumulation': 'minutes'}",Stream discharge

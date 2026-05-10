@@ -1,0 +1,230 @@
+{
+    "job_id": "f124089b-e1e2-43a9-a36f-62921efcfe8e",
+    "duration": 4.605890512466431,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/90eff2ec-8920-4123-a94a-a5951a8c2270?AWSAccessKeyId=ASIA2UOK6OVBLTAWU6XH&Signature=w9w7USpmB1zgtY2KQcY442tyEc8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIQDZp5i2gp1oB972EyT41lA0K6GmgLwOiQ7PQImjx94lgwIgD%2F2I%2BwvXyanmcze9fOlX5LIkigxVvCV%2Bd%2F0D2%2FVoh1EqiwUIIxAAGgw3MzExMDY5MzIwMzQiDChWz6KVVvRDqJIzNyroBDh6D1D%2Fu4OTflZpluZJCYk09Gyx9ljo%2FGQN6zKHjyKBgsT6rHKC3r1hqUk74Jw0iwAYYMhetWFOrdvrCmZCteb1wN4I%2Frm9YggoViFWm0SAw5kjJSb3b5AtnC3QqKstlYDxPzieemYE6PL7wWe9Pyz%2B4TTHlOsTsybFh2mvai0pJJ7IDl%2B1qwr6s02IpJSXFvM7n42bw1KTWFf8EEiNQlkQO51V4AyVjV2GbBSv1fsxvw5%2Brar8OV%2BkVBF3NBnnuwRAPsUjvoXmy4wgxrbPGzMLsoleyH9onb%2BweJwP%2FLQIHJRZE34jpegvOkj2NpsnVOO8oe17%2BKd4XN7B%2FiKT%2F258sPbFTAsU87LIDDRZvZ54mlUpzEG9D8Cix2NBucX2TXdj9quAYQePXcO9RaentOgmTPWO4q1gyNP5BrsFGZephOFhCaxy%2BoVi3LhiiEgq4akbUXlyEveiApTWH4mdU8mDlAYlLUKM87xySECRZxYzpUMRTpF%2BLmxh3LUv96gaLl38c01%2BsqKk3kNHJJeY1kvZmmI09Xjboa%2BKMzg2pzAxdeet7HwEQUtsQbeD5V4z%2F32YgF18ZX0OOUV25Y2Ua2CtQQhfiD99TRqOa5OMAAL1MLLHesMAfXg6%2Bp7crhUCBqbooJd04WOCtSGWzA6QGlOCoflp%2BNuWcleGOfhHSJwCMQVx5RY6Awx4IJwueK6UAYMNtPpcbQnKrE9otOFtVy8%2FWF9nfP800RSQuz7yq4zbhaR%2B9APBJXIjwh%2FjuEc0B5ankrc1mFmlrKhvIZehgAs5Xack%2FMmtnItNkDSpZMddTt2nd00cRw4woLTJugY6mwHw6jCeZ1fsr7NVPo8c2%2BnDC93yV5C%2FYUK0ZWaapnAE0lksLuZMIJBLU4JgY0NRMK5NQqpLqhHtcb4u4tpVBwFiA%2Ba1xG0kYUFvjpxSZjD29sjkWkfbDrENeZ021Yo1yL9ifOq0guRbXiWRCvuQt91xpEWqMhCHu4Jz2iVfAmusraYUWJoLepLPqZnKYa35mwxWPGZFbk6TDRwJpw%3D%3D&Expires=1733454877",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI\n\nMonthly discharge of Pit River at Fall River Mills, Calif., for the year ending September 30, 1925",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI\n\nMonthly discharge of Pit River at Fall River Mills, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.13818630475015423,
+                            "top": 0.04581299286518964,
+                            "width": 0.04688463911165947,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "242",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3053670573719926,
+                            "top": 0.04844160720991363,
+                            "width": 0.4842689697717458,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1925, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13695249845774213,
+                            "top": 0.07923394667668043,
+                            "width": 0.8149290561381863,
+                            "height": 0.025910627112279386,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Pit River at Fall River Mills, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>227</td><td>66</td><td>134</td><td>8,240</td></tr><tr><td>November</td><td>185</td><td>95</td><td>141</td><td>8, 390</td></tr><tr><td>December</td><td>227</td><td>124</td><td>163</td><td>10,000</td></tr><tr><td>January</td><td>1,730</td><td>165</td><td>411</td><td>25,300</td></tr><tr><td>February</td><td>3,630</td><td>590</td><td>1, 530</td><td>85, 000</td></tr><tr><td>March</td><td>716</td><td>98</td><td>320</td><td>19,700</td></tr><tr><td>April</td><td>241</td><td>114</td><td>169</td><td>10,100</td></tr><tr><td>May</td><td>227</td><td>64</td><td>107</td><td>6, 580</td></tr><tr><td>June</td><td>415</td><td>92</td><td>211</td><td>12,600</td></tr><tr><td>July</td><td>130</td><td>71</td><td>89. 9</td><td>5,530</td></tr><tr><td>August</td><td>82</td><td>52</td><td>66. 4</td><td>4,080</td></tr><tr><td>September</td><td>102</td><td>57</td><td>81. 3</td><td>4,840</td></tr><tr><td>The year</td><td>3,630</td><td>52</td><td>277</td><td>200,000</td></tr></table>\n\n## PIT RIVER AT LINDSAY FLAT, CALIF.\n\nLOCATION.-I sec. 9, T. 36 N., R. 2 E., half a mile above Lindsay Flat, Shasta County, 3 miles below mouth of Rock Creek and 11 miles below Pecks Bridge.\n\nDRAINAGE AREA.-Not - measured.\n\nRECORDS AVAILABLE.-November 1, 1922, to September 30, 1925. Gage.-Water-stage - recorder on right bank one-fourth mile above Pit No. 3 power house.",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>227</td><td>66</td><td>134</td><td>8,240</td></tr><tr><td>November</td><td>185</td><td>95</td><td>141</td><td>8, 390</td></tr><tr><td>December</td><td>227</td><td>124</td><td>163</td><td>10,000</td></tr><tr><td>January</td><td>1,730</td><td>165</td><td>411</td><td>25,300</td></tr><tr><td>February</td><td>3,630</td><td>590</td><td>1, 530</td><td>85, 000</td></tr><tr><td>March</td><td>716</td><td>98</td><td>320</td><td>19,700</td></tr><tr><td>April</td><td>241</td><td>114</td><td>169</td><td>10,100</td></tr><tr><td>May</td><td>227</td><td>64</td><td>107</td><td>6, 580</td></tr><tr><td>June</td><td>415</td><td>92</td><td>211</td><td>12,600</td></tr><tr><td>July</td><td>130</td><td>71</td><td>89. 9</td><td>5,530</td></tr><tr><td>August</td><td>82</td><td>52</td><td>66. 4</td><td>4,080</td></tr><tr><td>September</td><td>102</td><td>57</td><td>81. 3</td><td>4,840</td></tr><tr><td>The year</td><td>3,630</td><td>52</td><td>277</td><td>200,000</td></tr></table>\n\n## PIT RIVER AT LINDSAY FLAT, CALIF.\n\nLOCATION.-I sec. 9, T. 36 N., R. 2 E., half a mile above Lindsay Flat, Shasta County, 3 miles below mouth of Rock Creek and 11 miles below Pecks Bridge.\n\nDRAINAGE AREA.-Not - measured.\n\nRECORDS AVAILABLE.-November 1, 1922, to September 30, 1925. Gage.-Water-stage - recorder on right bank one-fourth mile above Pit No. 3 power house.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1348768513118831,
+                            "top": 0.11773553290315199,
+                            "width": 0.8251093135506632,
+                            "height": 0.21672552597956957,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>227</td><td>66</td><td>134</td><td>8,240</td></tr><tr><td>November</td><td>185</td><td>95</td><td>141</td><td>8, 390</td></tr><tr><td>December</td><td>227</td><td>124</td><td>163</td><td>10,000</td></tr><tr><td>January</td><td>1,730</td><td>165</td><td>411</td><td>25,300</td></tr><tr><td>February</td><td>3,630</td><td>590</td><td>1, 530</td><td>85, 000</td></tr><tr><td>March</td><td>716</td><td>98</td><td>320</td><td>19,700</td></tr><tr><td>April</td><td>241</td><td>114</td><td>169</td><td>10,100</td></tr><tr><td>May</td><td>227</td><td>64</td><td>107</td><td>6, 580</td></tr><tr><td>June</td><td>415</td><td>92</td><td>211</td><td>12,600</td></tr><tr><td>July</td><td>130</td><td>71</td><td>89. 9</td><td>5,530</td></tr><tr><td>August</td><td>82</td><td>52</td><td>66. 4</td><td>4,080</td></tr><tr><td>September</td><td>102</td><td>57</td><td>81. 3</td><td>4,840</td></tr><tr><td>The year</td><td>3,630</td><td>52</td><td>277</td><td>200,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.38433066008636646,
+                            "top": 0.3496057078482914,
+                            "width": 0.3220234423195558,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "PIT RIVER AT LINDSAY FLAT, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1406539173349784,
+                            "top": 0.37138565527600453,
+                            "width": 0.811844540407156,
+                            "height": 0.045061960195268494,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-I sec. 9, T. 36 N., R. 2 E., half a mile above Lindsay Flat, Shasta County, 3 miles below mouth of Rock Creek and 11 miles below Pecks Bridge.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13880320789636028,
+                            "top": 0.41870071348103644,
+                            "width": 0.3479333744602097,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-Not - measured.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13880320789636028,
+                            "top": 0.4344723995493804,
+                            "width": 0.8136952498457742,
+                            "height": 0.044310927525347356,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-November 1, 1922, to September 30, 1925. Gage.-Water-stage - recorder on right bank one-fourth mile above Pit No. 3 power house.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n## PIT RIVER AT LINDSAY FLAT, CALIF. (cont.)\n\nDISCHARGE MEASUREMENTS.-Made from cable about 250 feet below gage. CHANNEL AND CONTROL.-Rough, rocky, strewn with boulders; practically permanent. One channel at all stages; banks not subject to overflow.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 8.64 feet 7 to 10 p.m. February 6 (discharge, 6,460 second-feet); minimum stage, 1.12 feet during afternoon of September 18 (discharge, 77 second-feet).\n\n1923-1925: Maximum stage from water-stage recorder, that of February 6, 1925; minimum stage, that of September 18, 1925.\n\nIce.-Stage-discharge relation not affected by ice.\n\nDIVERSIONS.-The: are numerous irrigation diversions from Pit River and tributaries above gage, and beginning June 18, 1925, varying amounts have been stored and diverted for Pit No. 3 development.\n\nREGULATION.-The flow is completely regulated at Pit No. 3 dam during low and medium stages.\n\nACCuRaCY.-Stage-discharge relation practically permanent. Rating curve well defined. Daily discharge ascertained by applying mean daily gage height to rating table, except October 7-14, 29, and 30, for which it was estimated by comparison with records for other Pit River stations. Records excellent.\n\nCOOPERATION.-Gage-height record and the results of discharge measurements furnished by Mount Shasta Power Corporation.",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n## PIT RIVER AT LINDSAY FLAT, CALIF. (cont.)\n\nDISCHARGE MEASUREMENTS.-Made from cable about 250 feet below gage. CHANNEL AND CONTROL.-Rough, rocky, strewn with boulders; practically permanent. One channel at all stages; banks not subject to overflow.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 8.64 feet 7 to 10 p.m. February 6 (discharge, 6,460 second-feet); minimum stage, 1.12 feet during afternoon of September 18 (discharge, 77 second-feet).\n\n1923-1925: Maximum stage from water-stage recorder, that of February 6, 1925; minimum stage, that of September 18, 1925.\n\nIce.-Stage-discharge relation not affected by ice.\n\nDIVERSIONS.-The: are numerous irrigation diversions from Pit River and tributaries above gage, and beginning June 18, 1925, varying amounts have been stored and diverted for Pit No. 3 development.\n\nREGULATION.-The flow is completely regulated at Pit No. 3 dam during low and medium stages.\n\nACCuRaCY.-Stage-discharge relation practically permanent. Rating curve well defined. Daily discharge ascertained by applying mean daily gage height to rating table, except October 7-14, 29, and 30, for which it was estimated by comparison with records for other Pit River stations. Records excellent.\n\nCOOPERATION.-Gage-height record and the results of discharge measurements furnished by Mount Shasta Power Corporation.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13818630475015423,
+                            "top": 0.48216297408937286,
+                            "width": 0.8130783466995681,
+                            "height": 0.04468644386030792,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from cable about 250 feet below gage. CHANNEL AND CONTROL.-Rough, rocky, strewn with boulders; practically permanent. One channel at all stages; banks not subject to overflow.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13880320789636028,
+                            "top": 0.5291025159594442,
+                            "width": 0.8136952498457742,
+                            "height": 0.060082613593691325,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 8.64 feet 7 to 10 p.m. February 6 (discharge, 6,460 second-feet); minimum stage, 1.12 feet during afternoon of September 18 (discharge, 77 second-feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.18445404071560764,
+                            "top": 0.591438227562899,
+                            "width": 0.7674275138803208,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "1923-1925: Maximum stage from water-stage recorder, that of February 6, 1925; minimum stage, that of September 18, 1925.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13695249845774213,
+                            "top": 0.6233571160345475,
+                            "width": 0.5095619987661937,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "Ice.-Stage-discharge relation not affected by ice.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14003701418877237,
+                            "top": 0.6387532857679309,
+                            "width": 0.811844540407156,
+                            "height": 0.04468644386030792,
+                            "page": 1
+                        },
+                        "content": "DIVERSIONS.-The: are numerous irrigation diversions from Pit River and tributaries above gage, and beginning June 18, 1925, varying amounts have been stored and diverted for Pit No. 3 development.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13942011104256632,
+                            "top": 0.6860683439729628,
+                            "width": 0.8136952498457742,
+                            "height": 0.02929027412692452,
+                            "page": 1
+                        },
+                        "content": "REGULATION.-The flow is completely regulated at Pit No. 3 dam during low and medium stages.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13880320789636028,
+                            "top": 0.7176117161096508,
+                            "width": 0.8136952498457742,
+                            "height": 0.06083364626361247,
+                            "page": 1
+                        },
+                        "content": "ACCuRaCY.-Stage-discharge relation practically permanent. Rating curve well defined. Daily discharge ascertained by applying mean daily gage height to rating table, except October 7-14, 29, and 30, for which it was estimated by comparison with records for other Pit River stations. Records excellent.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13756940160394818,
+                            "top": 0.7810739767179873,
+                            "width": 0.8143121529919802,
+                            "height": 0.028914757791963952,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.-Gage-height record and the results of discharge measurements furnished by Mount Shasta Power Corporation.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "job_id": "78ba9861-439d-4355-9931-1ca6a0aefd77",
+    "duration": 4.449364900588989,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/9c01364f-5c82-4cba-9a01-181ce4f916ad?AWSAccessKeyId=ASIA2UOK6OVBG4ROR3VC&Signature=rF5QoN8zP11pXRjYSJON0yOsV6A%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJHMEUCIEK9vZptkHDEBnwBLlBF5mY%2FkeriS0NTzhJ1XRxRCaMmAiEAlTCpE7l6swdsRkMEZbcEqVG6BZfmcM7g8QeOQZ6801AqiwUIJhAAGgw3MzExMDY5MzIwMzQiDMRypSS8H43%2BEyCqUSroBIF%2BQZmoJXMn34jxInMIPodnb0XbC287prjeY4VSdZTUh4y6%2BdBKXqBLeG%2F5jA46NwIHCgss6tymdkJ%2FQtrBYxrTC2TW4KiYW2Vw%2BXnWD3QHbyQcqulazr0pV3HDNy35HN53RTMi8UAIZ%2BOr89kd%2BwyDnZggsfILxBEH%2Be2S05PaT06mjhJyLh2QH9IycMD57Hukj%2FXtwMbJfyGxN39%2F%2B%2FKaydMEdwD9fSSaLKv%2FJDmU4dXSlhtIFetbD3LdMrKM0Up%2FTgD45ggrCrQoBA0EmeWVKT7rGy6zG5owsCJAfoc%2FQKLd%2FqnXBGXyPG%2B%2F7Ef2SUrP6jFbdFWoP4xvls5SAykEOPfGvL9JDdgasZmNpEqkcqo5H2FCIuTmMHIoD23TTxMXibd4onRDg4JRpZlRXuzMGk9rcj1c7OppzHJje7e%2FkZPELzZOQjNOMKprs0Yj3%2B%2BrvLYq7rR1oMAHfDrwThHYW0izJ%2BDHRLfTuIBbOLhCpWiF5jIbofENn%2FzaKIARCJp97L71IinzPg3PN2UMSNzGOPp65Rz67EzH6fXogRXI7KMol5jIEhc2hU3ZSBmxCuyvPM6vuTbMuj%2BempgPt7UU4twBWuwCL57pKRD8fEuzeYZAptbhSWhlmLFrrJ4poybG0zHrhkZ3DeZKdYhVDk8SmL%2FVQw2Y8SGX7F%2FjbmzaRmF%2BA%2FpdDDYrE3lo%2BjKAahArIA7a6grz%2FDmPkV7m52IqTbDOGpSkuXi7AejjAs8nIxw2ShqqUOCZjUiprgqTY1NQrykz9yofUvPqhI4aZBeTs8JLowSuq0jGAhrUVZ2NzkfXxrZF5Ykw9vjJugY6mwEyvonrfmDDkXwFy4YuxT3aScQQVlXu%2FZ97UgeyhUeKb66xTWoggw4GykkZ9O53R9DZ%2BiBJePyoqUSVthzMTb0ljFXgxkim7bcNEJwfmeCwSCFeOWbZ6tR0mCkQ3ibWXuRii7taSBGR8TDYqsrj%2B3MgEQZnesl0c79tzdOOwUdNQqVf72IUYaGrIa3%2BjK%2BePTiHCoTtwe7ewuFHmA%3D%3D&Expires=1733464280",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.09242144177449169,
+                            "top": 0.06266820453671665,
+                            "width": 0.04682686383240912,
+                            "height": 0.01384083044982699,
+                            "page": 1
+                        },
+                        "content": "174",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GROUND WATER IN SANTA CLARA VALLEY, CALIFORNIA.\n\n# Depth to water levels in wells in the vicinity of San Jose-Continued.\n\n<table><tr><th>Map.\nNo.</th><th>Owner.</th><th>Depth of\nwater sur-\nface below\nbench\nmark.</th><th>Date.</th></tr><tr><td></td><td></td><td>Feet.</td><td></td></tr><tr><td>1413</td><td>J. C. Booth</td><td>20.5</td><td>Jan. 12, 1914</td></tr><tr><td></td><td>do</td><td>14.5</td><td>Feb. 3, 1914</td></tr><tr><td></td><td>do</td><td>8.9</td><td>Mar. 3, 1914</td></tr><tr><td></td><td>do</td><td>7.8</td><td>Apr. 1, 1914</td></tr><tr><td></td><td>do</td><td>14.2</td><td>May 6, 1914</td></tr><tr><td></td><td>do</td><td>(?) 20.</td><td>June 12, 1914</td></tr><tr><td></td><td>do</td><td>15.</td><td>July 13, 1914</td></tr><tr><td></td><td>do</td><td>17. 2</td><td>Aug. 2, 1914</td></tr><tr><td></td><td>do</td><td>15. 8</td><td>Oct. 10, 1914</td></tr><tr><td></td><td>do</td><td>13. 1</td><td>Nov. 8, 1914</td></tr><tr><td></td><td>do</td><td>12. 2</td><td>Dec. 5,1914</td></tr><tr><td></td><td>do</td><td>10. 8</td><td>Jan. 4,1915</td></tr><tr><td></td><td>do</td><td>10.</td><td>Feb. 1,1915</td></tr><tr><td></td><td>do</td><td>4.7</td><td>Mar. 8, 1915</td></tr><tr><td></td><td>do</td><td>5.0</td><td>Apr. 15, 1915</td></tr><tr><td></td><td>do</td><td>3.7</td><td>May 16, 1915</td></tr><tr><td></td><td>do</td><td>6.7</td><td>Jan. 5, 1917</td></tr><tr><td>1414</td><td>Nellie Clements</td><td>22.6</td><td>Jan. 8, 1914</td></tr><tr><td>1415</td><td>H. Menzel</td><td>21.9</td><td>Jan. 10, 1914</td></tr><tr><td></td><td>do</td><td>17.3</td><td>Jan. 30, 1914</td></tr><tr><td></td><td>do</td><td>11.2</td><td>Mar. 7, 1914</td></tr><tr><td></td><td>do</td><td>8.7</td><td>Apr. 18, 1914</td></tr><tr><td></td><td>do</td><td>21.2</td><td>June 22, 1914</td></tr><tr><td></td><td>do.</td><td>18.0</td><td>Aug. 3, 1914</td></tr><tr><td></td><td>do</td><td>17.7</td><td>Sept. 20, 1914</td></tr><tr><td></td><td>do</td><td>17.7</td><td>Oct. 18, 1914</td></tr><tr><td></td><td>do</td><td>13.3</td><td>Dec. 4, 191</td></tr><tr><td></td><td>do</td><td>6.7</td><td>Mar. 9, 1915</td></tr><tr><td></td><td>do\ndo</td><td>6.6\n5.7</td><td>Apr. 19, 1915\nMay 20, 1915</td></tr><tr><td>1417</td><td>A. R. Denike</td><td>12.5</td><td>Jan. 10,1914</td></tr><tr><td>1418</td><td>do</td><td>20.9</td><td>Do.</td></tr><tr><td>1421</td><td></td><td>23.3</td><td>Do.</td></tr><tr><td>1422</td><td>J. O. Hansen</td><td>25.3</td><td>Do.</td></tr><tr><td></td><td>do</td><td>14.2</td><td>Feb. 1,1914</td></tr><tr><td></td><td>do</td><td>11.4</td><td>Mar. 2,1914</td></tr><tr><td></td><td>do</td><td>11.8</td><td>Apr. 3,1914</td></tr><tr><td></td><td>do</td><td>12.5</td><td>May 1,1914</td></tr><tr><td></td><td>do</td><td>140.0</td><td>June 3,1914</td></tr><tr><td></td><td>do</td><td>22.5</td><td>July 5,1914</td></tr><tr><td></td><td>do</td><td>23.2</td><td>Aug. 1, ,1914</td></tr><tr><td></td><td>do</td><td>24.7</td><td>Sept. 2, 1914</td></tr><tr><td></td><td>do</td><td>21.5</td><td>Oct. 25, 1914</td></tr><tr><td></td><td>do</td><td>20.8</td><td>Dec. 7, ,1914</td></tr><tr><td></td><td>do</td><td>11.1</td><td>Mar. 8,1915</td></tr><tr><td></td><td>do</td><td>11.4</td><td>Feb. 2,1915</td></tr><tr><td></td><td>do</td><td>9.7</td><td>May 16,1915</td></tr><tr><td></td><td>do</td><td>12.</td><td>Jan. 3,1915</td></tr><tr><td>1423</td><td>Frank Joseph</td><td>m 35.0</td><td>1913</td></tr><tr><td></td><td>do</td><td>30.0</td><td>Jan. 10,1914</td></tr><tr><td>1424</td><td>W. A. Pyle</td><td>16.8</td><td>Do.</td></tr><tr><td>1425</td><td>A. Hanson</td><td>21.7</td><td>Do.</td></tr><tr><td>1426</td><td>M. Freitas</td><td>16.7</td><td>Apr. 23,1915</td></tr><tr><td>1427</td><td>Louis S. Rameiro</td><td>31.7</td><td>Jan. 28,1914</td></tr><tr><td>1431\n1433</td><td>B. B. Bradshaw</td><td>11.5\n7.0</td><td>Do.\nApr. 27, 1915</td></tr><tr><td>1434</td><td>James Whelan</td><td>2.2</td><td>Do,</td></tr><tr><td>1435</td><td>H. A. Thomas</td><td>1.9</td><td>Apr. 26, 1915</td></tr><tr><td>1436</td><td>Howard</td><td>5.2</td><td>Do,</td></tr><tr><td>1437</td><td>George Carraher</td><td>8.3</td><td>Do,</td></tr><tr><td>1438</td><td>L. D. Tibbits &amp; Son</td><td>4.9</td><td>Do.</td></tr><tr><td>1441</td><td>do</td><td>13.2</td><td>Do.</td></tr><tr><td>1442\n1443</td><td>W. L. Edwards</td><td>18.4\n26.9</td><td>Apr. 25, 1915\nDo.</td></tr><tr><td>1444</td><td></td><td>31.7</td><td>Apr. 26, 1915</td></tr><tr><td>1445</td><td>E. Fuller</td><td>34.2</td><td>Do.</td></tr><tr><td>1446</td><td>L. Dillon</td><td>30.9</td><td>Do.</td></tr><tr><td>1447</td><td>C. W. Stevens</td><td>29.0</td><td>Do.</td></tr><tr><td>1448</td><td>W. H. Farthing</td><td>24.0</td><td>Do.</td></tr><tr><td>1451</td><td>A. R. McClony</td><td>67.8</td><td>Do.</td></tr><tr><td>1452</td><td>E. E. Chase</td><td>10.3</td><td>Do.</td></tr><tr><td>1453</td><td>C. M. Brodie</td><td>22.8</td><td>Do.</td></tr><tr><td>1454</td><td>W. H. Farthing</td><td>37.0</td><td>Do.</td></tr><tr><td>1455</td><td>Fred Marten</td><td>76.0</td><td>Do.</td></tr></table>",
+                "embed": "# GROUND WATER IN SANTA CLARA VALLEY, CALIFORNIA.\n\n# Depth to water levels in wells in the vicinity of San Jose-Continued.\n\n<table><tr><th>Map.\nNo.</th><th>Owner.</th><th>Depth of\nwater sur-\nface below\nbench\nmark.</th><th>Date.</th></tr><tr><td></td><td></td><td>Feet.</td><td></td></tr><tr><td>1413</td><td>J. C. Booth</td><td>20.5</td><td>Jan. 12, 1914</td></tr><tr><td></td><td>do</td><td>14.5</td><td>Feb. 3, 1914</td></tr><tr><td></td><td>do</td><td>8.9</td><td>Mar. 3, 1914</td></tr><tr><td></td><td>do</td><td>7.8</td><td>Apr. 1, 1914</td></tr><tr><td></td><td>do</td><td>14.2</td><td>May 6, 1914</td></tr><tr><td></td><td>do</td><td>(?) 20.</td><td>June 12, 1914</td></tr><tr><td></td><td>do</td><td>15.</td><td>July 13, 1914</td></tr><tr><td></td><td>do</td><td>17. 2</td><td>Aug. 2, 1914</td></tr><tr><td></td><td>do</td><td>15. 8</td><td>Oct. 10, 1914</td></tr><tr><td></td><td>do</td><td>13. 1</td><td>Nov. 8, 1914</td></tr><tr><td></td><td>do</td><td>12. 2</td><td>Dec. 5,1914</td></tr><tr><td></td><td>do</td><td>10. 8</td><td>Jan. 4,1915</td></tr><tr><td></td><td>do</td><td>10.</td><td>Feb. 1,1915</td></tr><tr><td></td><td>do</td><td>4.7</td><td>Mar. 8, 1915</td></tr><tr><td></td><td>do</td><td>5.0</td><td>Apr. 15, 1915</td></tr><tr><td></td><td>do</td><td>3.7</td><td>May 16, 1915</td></tr><tr><td></td><td>do</td><td>6.7</td><td>Jan. 5, 1917</td></tr><tr><td>1414</td><td>Nellie Clements</td><td>22.6</td><td>Jan. 8, 1914</td></tr><tr><td>1415</td><td>H. Menzel</td><td>21.9</td><td>Jan. 10, 1914</td></tr><tr><td></td><td>do</td><td>17.3</td><td>Jan. 30, 1914</td></tr><tr><td></td><td>do</td><td>11.2</td><td>Mar. 7, 1914</td></tr><tr><td></td><td>do</td><td>8.7</td><td>Apr. 18, 1914</td></tr><tr><td></td><td>do</td><td>21.2</td><td>June 22, 1914</td></tr><tr><td></td><td>do.</td><td>18.0</td><td>Aug. 3, 1914</td></tr><tr><td></td><td>do</td><td>17.7</td><td>Sept. 20, 1914</td></tr><tr><td></td><td>do</td><td>17.7</td><td>Oct. 18, 1914</td></tr><tr><td></td><td>do</td><td>13.3</td><td>Dec. 4, 191</td></tr><tr><td></td><td>do</td><td>6.7</td><td>Mar. 9, 1915</td></tr><tr><td></td><td>do\ndo</td><td>6.6\n5.7</td><td>Apr. 19, 1915\nMay 20, 1915</td></tr><tr><td>1417</td><td>A. R. Denike</td><td>12.5</td><td>Jan. 10,1914</td></tr><tr><td>1418</td><td>do</td><td>20.9</td><td>Do.</td></tr><tr><td>1421</td><td></td><td>23.3</td><td>Do.</td></tr><tr><td>1422</td><td>J. O. Hansen</td><td>25.3</td><td>Do.</td></tr><tr><td></td><td>do</td><td>14.2</td><td>Feb. 1,1914</td></tr><tr><td></td><td>do</td><td>11.4</td><td>Mar. 2,1914</td></tr><tr><td></td><td>do</td><td>11.8</td><td>Apr. 3,1914</td></tr><tr><td></td><td>do</td><td>12.5</td><td>May 1,1914</td></tr><tr><td></td><td>do</td><td>140.0</td><td>June 3,1914</td></tr><tr><td></td><td>do</td><td>22.5</td><td>July 5,1914</td></tr><tr><td></td><td>do</td><td>23.2</td><td>Aug. 1, ,1914</td></tr><tr><td></td><td>do</td><td>24.7</td><td>Sept. 2, 1914</td></tr><tr><td></td><td>do</td><td>21.5</td><td>Oct. 25, 1914</td></tr><tr><td></td><td>do</td><td>20.8</td><td>Dec. 7, ,1914</td></tr><tr><td></td><td>do</td><td>11.1</td><td>Mar. 8,1915</td></tr><tr><td></td><td>do</td><td>11.4</td><td>Feb. 2,1915</td></tr><tr><td></td><td>do</td><td>9.7</td><td>May 16,1915</td></tr><tr><td></td><td>do</td><td>12.</td><td>Jan. 3,1915</td></tr><tr><td>1423</td><td>Frank Joseph</td><td>m 35.0</td><td>1913</td></tr><tr><td></td><td>do</td><td>30.0</td><td>Jan. 10,1914</td></tr><tr><td>1424</td><td>W. A. Pyle</td><td>16.8</td><td>Do.</td></tr><tr><td>1425</td><td>A. Hanson</td><td>21.7</td><td>Do.</td></tr><tr><td>1426</td><td>M. Freitas</td><td>16.7</td><td>Apr. 23,1915</td></tr><tr><td>1427</td><td>Louis S. Rameiro</td><td>31.7</td><td>Jan. 28,1914</td></tr><tr><td>1431\n1433</td><td>B. B. Bradshaw</td><td>11.5\n7.0</td><td>Do.\nApr. 27, 1915</td></tr><tr><td>1434</td><td>James Whelan</td><td>2.2</td><td>Do,</td></tr><tr><td>1435</td><td>H. A. Thomas</td><td>1.9</td><td>Apr. 26, 1915</td></tr><tr><td>1436</td><td>Howard</td><td>5.2</td><td>Do,</td></tr><tr><td>1437</td><td>George Carraher</td><td>8.3</td><td>Do,</td></tr><tr><td>1438</td><td>L. D. Tibbits &amp; Son</td><td>4.9</td><td>Do.</td></tr><tr><td>1441</td><td>do</td><td>13.2</td><td>Do.</td></tr><tr><td>1442\n1443</td><td>W. L. Edwards</td><td>18.4\n26.9</td><td>Apr. 25, 1915\nDo.</td></tr><tr><td>1444</td><td></td><td>31.7</td><td>Apr. 26, 1915</td></tr><tr><td>1445</td><td>E. Fuller</td><td>34.2</td><td>Do.</td></tr><tr><td>1446</td><td>L. Dillon</td><td>30.9</td><td>Do.</td></tr><tr><td>1447</td><td>C. W. Stevens</td><td>29.0</td><td>Do.</td></tr><tr><td>1448</td><td>W. H. Farthing</td><td>24.0</td><td>Do.</td></tr><tr><td>1451</td><td>A. R. McClony</td><td>67.8</td><td>Do.</td></tr><tr><td>1452</td><td>E. E. Chase</td><td>10.3</td><td>Do.</td></tr><tr><td>1453</td><td>C. M. Brodie</td><td>22.8</td><td>Do.</td></tr><tr><td>1454</td><td>W. H. Farthing</td><td>37.0</td><td>Do.</td></tr><tr><td>1455</td><td>Fred Marten</td><td>76.0</td><td>Do.</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.17313616759088107,
+                            "top": 0.06420607458669743,
+                            "width": 0.6549599507085644,
+                            "height": 0.013456362937331795,
+                            "page": 1
+                        },
+                        "content": "GROUND WATER IN SANTA CLARA VALLEY, CALIFORNIA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.16266173752310537,
+                            "top": 0.09457900807381776,
+                            "width": 0.674060382008626,
+                            "height": 0.015378700499807767,
+                            "page": 1
+                        },
+                        "content": "Depth to water levels in wells in the vicinity of San Jose-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.08527815672474295,
+                            "top": 0.12084865900059473,
+                            "width": 0.8282672555374644,
+                            "height": 0.8051381534633615,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Map.\nNo.</th><th>Owner.</th><th>Depth of\nwater sur-\nface below\nbench\nmark.</th><th>Date.</th></tr><tr><td></td><td></td><td>Feet.</td><td></td></tr><tr><td>1413</td><td>J. C. Booth</td><td>20.5</td><td>Jan. 12, 1914</td></tr><tr><td></td><td>do</td><td>14.5</td><td>Feb. 3, 1914</td></tr><tr><td></td><td>do</td><td>8.9</td><td>Mar. 3, 1914</td></tr><tr><td></td><td>do</td><td>7.8</td><td>Apr. 1, 1914</td></tr><tr><td></td><td>do</td><td>14.2</td><td>May 6, 1914</td></tr><tr><td></td><td>do</td><td>(?) 20.</td><td>June 12, 1914</td></tr><tr><td></td><td>do</td><td>15.</td><td>July 13, 1914</td></tr><tr><td></td><td>do</td><td>17. 2</td><td>Aug. 2, 1914</td></tr><tr><td></td><td>do</td><td>15. 8</td><td>Oct. 10, 1914</td></tr><tr><td></td><td>do</td><td>13. 1</td><td>Nov. 8, 1914</td></tr><tr><td></td><td>do</td><td>12. 2</td><td>Dec. 5,1914</td></tr><tr><td></td><td>do</td><td>10. 8</td><td>Jan. 4,1915</td></tr><tr><td></td><td>do</td><td>10.</td><td>Feb. 1,1915</td></tr><tr><td></td><td>do</td><td>4.7</td><td>Mar. 8, 1915</td></tr><tr><td></td><td>do</td><td>5.0</td><td>Apr. 15, 1915</td></tr><tr><td></td><td>do</td><td>3.7</td><td>May 16, 1915</td></tr><tr><td></td><td>do</td><td>6.7</td><td>Jan. 5, 1917</td></tr><tr><td>1414</td><td>Nellie Clements</td><td>22.6</td><td>Jan. 8, 1914</td></tr><tr><td>1415</td><td>H. Menzel</td><td>21.9</td><td>Jan. 10, 1914</td></tr><tr><td></td><td>do</td><td>17.3</td><td>Jan. 30, 1914</td></tr><tr><td></td><td>do</td><td>11.2</td><td>Mar. 7, 1914</td></tr><tr><td></td><td>do</td><td>8.7</td><td>Apr. 18, 1914</td></tr><tr><td></td><td>do</td><td>21.2</td><td>June 22, 1914</td></tr><tr><td></td><td>do.</td><td>18.0</td><td>Aug. 3, 1914</td></tr><tr><td></td><td>do</td><td>17.7</td><td>Sept. 20, 1914</td></tr><tr><td></td><td>do</td><td>17.7</td><td>Oct. 18, 1914</td></tr><tr><td></td><td>do</td><td>13.3</td><td>Dec. 4, 191</td></tr><tr><td></td><td>do</td><td>6.7</td><td>Mar. 9, 1915</td></tr><tr><td></td><td>do\ndo</td><td>6.6\n5.7</td><td>Apr. 19, 1915\nMay 20, 1915</td></tr><tr><td>1417</td><td>A. R. Denike</td><td>12.5</td><td>Jan. 10,1914</td></tr><tr><td>1418</td><td>do</td><td>20.9</td><td>Do.</td></tr><tr><td>1421</td><td></td><td>23.3</td><td>Do.</td></tr><tr><td>1422</td><td>J. O. Hansen</td><td>25.3</td><td>Do.</td></tr><tr><td></td><td>do</td><td>14.2</td><td>Feb. 1,1914</td></tr><tr><td></td><td>do</td><td>11.4</td><td>Mar. 2,1914</td></tr><tr><td></td><td>do</td><td>11.8</td><td>Apr. 3,1914</td></tr><tr><td></td><td>do</td><td>12.5</td><td>May 1,1914</td></tr><tr><td></td><td>do</td><td>140.0</td><td>June 3,1914</td></tr><tr><td></td><td>do</td><td>22.5</td><td>July 5,1914</td></tr><tr><td></td><td>do</td><td>23.2</td><td>Aug. 1, ,1914</td></tr><tr><td></td><td>do</td><td>24.7</td><td>Sept. 2, 1914</td></tr><tr><td></td><td>do</td><td>21.5</td><td>Oct. 25, 1914</td></tr><tr><td></td><td>do</td><td>20.8</td><td>Dec. 7, ,1914</td></tr><tr><td></td><td>do</td><td>11.1</td><td>Mar. 8,1915</td></tr><tr><td></td><td>do</td><td>11.4</td><td>Feb. 2,1915</td></tr><tr><td></td><td>do</td><td>9.7</td><td>May 16,1915</td></tr><tr><td></td><td>do</td><td>12.</td><td>Jan. 3,1915</td></tr><tr><td>1423</td><td>Frank Joseph</td><td>m 35.0</td><td>1913</td></tr><tr><td></td><td>do</td><td>30.0</td><td>Jan. 10,1914</td></tr><tr><td>1424</td><td>W. A. Pyle</td><td>16.8</td><td>Do.</td></tr><tr><td>1425</td><td>A. Hanson</td><td>21.7</td><td>Do.</td></tr><tr><td>1426</td><td>M. Freitas</td><td>16.7</td><td>Apr. 23,1915</td></tr><tr><td>1427</td><td>Louis S. Rameiro</td><td>31.7</td><td>Jan. 28,1914</td></tr><tr><td>1431\n1433</td><td>B. B. Bradshaw</td><td>11.5\n7.0</td><td>Do.\nApr. 27, 1915</td></tr><tr><td>1434</td><td>James Whelan</td><td>2.2</td><td>Do,</td></tr><tr><td>1435</td><td>H. A. Thomas</td><td>1.9</td><td>Apr. 26, 1915</td></tr><tr><td>1436</td><td>Howard</td><td>5.2</td><td>Do,</td></tr><tr><td>1437</td><td>George Carraher</td><td>8.3</td><td>Do,</td></tr><tr><td>1438</td><td>L. D. Tibbits &amp; Son</td><td>4.9</td><td>Do.</td></tr><tr><td>1441</td><td>do</td><td>13.2</td><td>Do.</td></tr><tr><td>1442\n1443</td><td>W. L. Edwards</td><td>18.4\n26.9</td><td>Apr. 25, 1915\nDo.</td></tr><tr><td>1444</td><td></td><td>31.7</td><td>Apr. 26, 1915</td></tr><tr><td>1445</td><td>E. Fuller</td><td>34.2</td><td>Do.</td></tr><tr><td>1446</td><td>L. Dillon</td><td>30.9</td><td>Do.</td></tr><tr><td>1447</td><td>C. W. Stevens</td><td>29.0</td><td>Do.</td></tr><tr><td>1448</td><td>W. H. Farthing</td><td>24.0</td><td>Do.</td></tr><tr><td>1451</td><td>A. R. McClony</td><td>67.8</td><td>Do.</td></tr><tr><td>1452</td><td>E. E. Chase</td><td>10.3</td><td>Do.</td></tr><tr><td>1453</td><td>C. M. Brodie</td><td>22.8</td><td>Do.</td></tr><tr><td>1454</td><td>W. H. Farthing</td><td>37.0</td><td>Do.</td></tr><tr><td>1455</td><td>Fred Marten</td><td>76.0</td><td>Do.</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.10905730129390019,
+                            "top": 0.9261822376009228,
+                            "width": 0.13739987677141097,
+                            "height": 0.010380622837370242,
+                            "page": 1
+                        },
+                        "content": "Formerly flowed.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Depth to water levels in wells in the vicinity of San Jose-Continued. (cont.)",
+                "embed": "# Depth to water levels in wells in the vicinity of San Jose-Continued. (cont.)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.27603203943314847,
+                            "top": 0.9261822376009228,
+                            "width": 0.6013555144793592,
+                            "height": 0.011534025374855825,
+                            "page": 1
+                        },
+                        "content": "I Reported pumping 400 gallons per minute. m Lowest reported, fall of 1913.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

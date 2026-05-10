@@ -1,0 +1,230 @@
+{
+    "job_id": "9d11a6ae-6076-4038-a522-63f6f60522a9",
+    "duration": 7.252825498580933,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/842a652a-95a6-4bbd-b147-da718205b25b?AWSAccessKeyId=ASIA2UOK6OVBI4SFVREO&Signature=ZS2dFdksYp5lczl5DZnU4xxIQmA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCxPS%2BQ%2FyXWQZ8NE9A5KGX4I%2BYVwm2fa53A49%2BDcsK%2FCAIgBBxt3pa1u44BFWQBPJS8GnKZyETLm0li1slWln1mENUqlAUIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDDtmnL45l8Qw3Giy2CroBKNlfM8w5hwxgs0VxtII%2BvWfNIKhWoFz7pF3%2FmPmkJcdC2wa%2FMWPlTC4cuSaiyVlr%2ByuBf2f9rU1lE7E9PvjQJvZqBJkbveNFoAjG2nTDVe52gd64DpMuJCb7%2BI%2FzeQ01OS0CeMft4nu22k0D6PO%2FT4zlKkhT9lFwfNwlpu0C3VrDtW%2BFkEbbeUrbz9AuFN306RzLdT%2BagIJBi5jNMXVb6%2FjfV%2Bmkt%2BHswKfTHdmX90xV6s9H8z9VOuXoFFQNfazwKxtJ2BjG3x5LqePGMMOAeKam6AXAEgp0%2FyjfrWcFtRoZrVQJZ608JyvsKf56lpy2kVmjdtx46IdVHKZqn8%2B7eNs0kwNuftcvmK9fHFp6crmtgGRzYDQ1TMhr8eDoQF5Xzq9bJeEn%2FEAgggCFxZa89iM0uqiTiIzUL2rl7u0xbhly0ejEnJWtKC8ADUfaaBCWblpd%2BiqAi26gi4qXQa6w4HbH%2B3tD%2BNtLQ7ZrmJ8%2F6hhDKFdtceyn6QCAdPmbhFlPvUA%2BIC6zO5JCGZ%2FFEkcfqJNWw6Afyf4shr6e5RWd7pu1A%2BJILtsmBbE%2FJSSJObtSVpXhB5tSD0ktwqN%2BFQQ2bAckjbOuDQmjwy4eq7ZNT8toe6uhg8%2BKgCd7oKtlGb8lpF%2FeYAgqqfcYKc7NtsfXHJVkwPDSKLgN6ORlSG97s4K1MCMs4QBElrP35FLQwDoku0Wpn8jZLiBekY%2FfUPgP6yhcV2T9QVaf8L3cDCzvpoHnXwHRz0xatVCuewRAhH2FWXQmOhJs%2FcmEuuXeo2R1jnM%2Fz7L6uy82IzqH8Kln6hSWNEHlJxsJr0wytCIvAY6mwHdjKDWB9E7XrdNCsFFdsSG0Nl7aZnkcBzRMfWBGYNLojaZYYye6vnJnQyeMHfZOuOOoy4idQCAJfj1gJoeZcNS5knDlb4NGe%2FaTijkgumeGzVtO7BfKZsbShO1fNNac7w2IYyiljFoi%2F%2Fur%2FcsujN9oh4rULV07Y0998UljV11RGhdj30tdw5ZbV1QCIY2aoBQfLRvRXA6zZaKyg%3D%3D&Expires=1736587825",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS\n\nTABLE 1.--Summary of thermograph station data used in the study",
+                "embed": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS\n\nTABLE 1.--Summary of thermograph station data used in the study",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.06927592954990215,
+                            "top": 0.07500759186152445,
+                            "width": 0.010176125244618396,
+                            "height": 0.010021257212268448,
+                            "page": 1
+                        },
+                        "content": "6",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.19726027397260273,
+                            "top": 0.06286061342241117,
+                            "width": 0.5193737769080234,
+                            "height": 0.019131491041603402,
+                            "page": 1
+                        },
+                        "content": "EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12759295499021525,
+                            "top": 0.1023382933495293,
+                            "width": 0.6183953033268101,
+                            "height": 0.025204980261160036,
+                            "page": 1
+                        },
+                        "content": "TABLE 1.--Summary of thermograph station data used in the study",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n<table><tr><th rowspan=\"2\">Hydrologic\nsubregion and\nabbreviation\nshown in\nfigure 1</th><th rowspan=\"2\">Total\nstations\nwith\navailable used in\ndata 1</th><th rowspan=\"2\">Number\nof\nstations\n\nanalysis</th><th colspan=\"7\">Number of thermograph stations for\ngiven years of record</th></tr><tr><td>14 13 12 11 10 9 8 7 6 5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>South Lahontan (SL)\nSouth Coastal (SC)\nCentral Coastal (CC)\nTulare Basin (TB)\nSan Joaquin Basin (SJ)\nDelta-Central Sierra (DC)\nSacramento Basin (SB)\nSan Francisco Bay (SF)\nNorth Coastal (NC)</td><td>2\n13\n3\n20\n19\n8\n51\n12\n43</td><td>1\n1\n3\n9\n7\n4\n29\n7\n21</td><td>1\n\n1\n1 2 3\n\n1 1</td><td>5</td><td>1\n1\n1\n1\n\n5</td><td>1\n\n2\n2\n\n2\n2\n3</td><td>1\n\n1\n1\n2\n2\n4\n1\n2</td><td>1\n2\n1\n\n5\n2\n4</td><td>1\n2\n1\n\n6\n2\n5</td></tr><tr><td>North Lahontan (NL)</td><td>4</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Colorado Desert (CD)</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>175</td><td>82</td><td>1 2 2 5</td><td>5</td><td>9</td><td>12</td><td>14</td><td>15</td><td>17</td></tr><tr><td>State total\nStation-year total</td><td></td><td>619</td><td>14 26 24 55</td><td>50</td><td>81</td><td>96</td><td>98</td><td>90</td><td>85</td></tr></table>",
+                "embed": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n<table><tr><th rowspan=\"2\">Hydrologic\nsubregion and\nabbreviation\nshown in\nfigure 1</th><th rowspan=\"2\">Total\nstations\nwith\navailable used in\ndata 1</th><th rowspan=\"2\">Number\nof\nstations\n\nanalysis</th><th colspan=\"7\">Number of thermograph stations for\ngiven years of record</th></tr><tr><td>14 13 12 11 10 9 8 7 6 5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>South Lahontan (SL)\nSouth Coastal (SC)\nCentral Coastal (CC)\nTulare Basin (TB)\nSan Joaquin Basin (SJ)\nDelta-Central Sierra (DC)\nSacramento Basin (SB)\nSan Francisco Bay (SF)\nNorth Coastal (NC)</td><td>2\n13\n3\n20\n19\n8\n51\n12\n43</td><td>1\n1\n3\n9\n7\n4\n29\n7\n21</td><td>1\n\n1\n1 2 3\n\n1 1</td><td>5</td><td>1\n1\n1\n1\n\n5</td><td>1\n\n2\n2\n\n2\n2\n3</td><td>1\n\n1\n1\n2\n2\n4\n1\n2</td><td>1\n2\n1\n\n5\n2\n4</td><td>1\n2\n1\n\n6\n2\n5</td></tr><tr><td>North Lahontan (NL)</td><td>4</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Colorado Desert (CD)</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>175</td><td>82</td><td>1 2 2 5</td><td>5</td><td>9</td><td>12</td><td>14</td><td>15</td><td>17</td></tr><tr><td>State total\nStation-year total</td><td></td><td>619</td><td>14 26 24 55</td><td>50</td><td>81</td><td>96</td><td>98</td><td>90</td><td>85</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.09871176404262476,
+                            "top": 0.13866414598082105,
+                            "width": 0.7097388459744985,
+                            "height": 0.2883458141856305,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Hydrologic\nsubregion and\nabbreviation\nshown in\nfigure 1</th><th rowspan=\"2\">Total\nstations\nwith\navailable used in\ndata 1</th><th rowspan=\"2\">Number\nof\nstations\n\nanalysis</th><th colspan=\"7\">Number of thermograph stations for\ngiven years of record</th></tr><tr><td>14 13 12 11 10 9 8 7 6 5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>South Lahontan (SL)\nSouth Coastal (SC)\nCentral Coastal (CC)\nTulare Basin (TB)\nSan Joaquin Basin (SJ)\nDelta-Central Sierra (DC)\nSacramento Basin (SB)\nSan Francisco Bay (SF)\nNorth Coastal (NC)</td><td>2\n13\n3\n20\n19\n8\n51\n12\n43</td><td>1\n1\n3\n9\n7\n4\n29\n7\n21</td><td>1\n\n1\n1 2 3\n\n1 1</td><td>5</td><td>1\n1\n1\n1\n\n5</td><td>1\n\n2\n2\n\n2\n2\n3</td><td>1\n\n1\n1\n2\n2\n4\n1\n2</td><td>1\n2\n1\n\n5\n2\n4</td><td>1\n2\n1\n\n6\n2\n5</td></tr><tr><td>North Lahontan (NL)</td><td>4</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Colorado Desert (CD)</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>175</td><td>82</td><td>1 2 2 5</td><td>5</td><td>9</td><td>12</td><td>14</td><td>15</td><td>17</td></tr><tr><td>State total\nStation-year total</td><td></td><td>619</td><td>14 26 24 55</td><td>50</td><td>81</td><td>96</td><td>98</td><td>90</td><td>85</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n1 Daily maximum and minimum water temperatures in Daily Values File (computer) .\n\n# WATER-TEMPERATURE DATA ANALYSIS\n\n# Harmonic Analysis\n\nThe water-temperature fluctuation for most California streams follows a cyclic pattern during the year that can be described by a simple harmonic function, (1)\n\n'T=M+A[sin(bttc)] ,\n\nwhere\n\nM is the harmonic mean water temperature for the period; T is the water temperature in degrees Celsius (\u00b0C) , on day \"t\";\n\nA is the amplitude of the harmonic function, or one-half the\n\nestimated variation for the period;\n\nb is a constant used to convert the day of the year to an angle, in radians (one day equals 2nt365 or 366) : ;\n\nt is the day of the water year; for October 1, t=1; for September 30 of the following year, t=365 or 366; and\n\nC is the phase coefficient of the harmonic, in radians, measured from the origin or zero degrees.",
+                "embed": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n1 Daily maximum and minimum water temperatures in Daily Values File (computer) .\n\n# WATER-TEMPERATURE DATA ANALYSIS\n\n# Harmonic Analysis\n\nThe water-temperature fluctuation for most California streams follows a cyclic pattern during the year that can be described by a simple harmonic function, (1)\n\n'T=M+A[sin(bttc)] ,\n\nwhere\n\nM is the harmonic mean water temperature for the period; T is the water temperature in degrees Celsius (\u00b0C) , on day \"t\";\n\nA is the amplitude of the harmonic function, or one-half the\n\nestimated variation for the period;\n\nb is a constant used to convert the day of the year to an angle, in radians (one day equals 2nt365 or 366) : ;\n\nt is the day of the water year; for October 1, t=1; for September 30 of the following year, t=365 or 366; and\n\nC is the phase coefficient of the harmonic, in radians, measured from the origin or zero degrees.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1538160469667319,
+                            "top": 0.42939568782265414,
+                            "width": 0.6442270058708415,
+                            "height": 0.023382933495293044,
+                            "page": 1
+                        },
+                        "content": "1 Daily maximum and minimum water temperatures in Daily Values File (computer) .",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.32093933463796476,
+                            "top": 0.5520801700576982,
+                            "width": 0.30606653620352253,
+                            "height": 0.013969025204980261,
+                            "page": 1
+                        },
+                        "content": "WATER-TEMPERATURE DATA ANALYSIS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3933463796477495,
+                            "top": 0.5979350136653507,
+                            "width": 0.1675146771037182,
+                            "height": 0.013361676283024598,
+                            "page": 1
+                        },
+                        "content": "Harmonic Analysis",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09119373776908024,
+                            "top": 0.6386273914363803,
+                            "width": 0.7459882583170254,
+                            "height": 0.05678712420285454,
+                            "page": 1
+                        },
+                        "content": "The water-temperature fluctuation for most California streams follows a cyclic pattern during the year that can be described by a simple harmonic function, (1)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4078277886497065,
+                            "top": 0.6890373519587003,
+                            "width": 0.1639921722113503,
+                            "height": 0.013665350744002429,
+                            "page": 1
+                        },
+                        "content": "'T=M+A[sin(bttc)] ,",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0923679060665362,
+                            "top": 0.7297297297297297,
+                            "width": 0.05009784735812133,
+                            "height": 0.010021257212268448,
+                            "page": 1
+                        },
+                        "content": "where",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.19099804305283757,
+                            "top": 0.7151533556027938,
+                            "width": 0.6180039138943249,
+                            "height": 0.03765563316125114,
+                            "page": 1
+                        },
+                        "content": "M is the harmonic mean water temperature for the period; T is the water temperature in degrees Celsius (\u00b0C) , on day \"t\";",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.1917808219178082,
+                            "top": 0.7464318250835105,
+                            "width": 0.5913894324853229,
+                            "height": 0.022168235651381717,
+                            "page": 1
+                        },
+                        "content": "A is the amplitude of the harmonic function, or one-half the",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.23365949119373777,
+                            "top": 0.7652596416641361,
+                            "width": 0.3412915851272016,
+                            "height": 0.016702095353780748,
+                            "page": 1
+                        },
+                        "content": "estimated variation for the period;",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.19412915851272017,
+                            "top": 0.774369875493471,
+                            "width": 0.6590998043052838,
+                            "height": 0.03856665654418463,
+                            "page": 1
+                        },
+                        "content": "b is a constant used to convert the day of the year to an angle, in radians (one day equals 2nt365 or 366) : ;",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.19608610567514678,
+                            "top": 0.8053446705132098,
+                            "width": 0.6681017612524461,
+                            "height": 0.03856665654418463,
+                            "page": 1
+                        },
+                        "content": "t is the day of the water year; for October 1, t=1; for September 30 of the following year, t=365 or 366; and",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.1964774951076321,
+                            "top": 0.8360157910719709,
+                            "width": 0.6293542074363992,
+                            "height": 0.038262982083206803,
+                            "page": 1
+                        },
+                        "content": "C is the phase coefficient of the harmonic, in radians, measured from the origin or zero degrees.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

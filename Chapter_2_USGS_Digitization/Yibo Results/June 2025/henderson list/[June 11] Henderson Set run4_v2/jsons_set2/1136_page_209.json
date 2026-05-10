@@ -1,0 +1,202 @@
+{
+    "job_id": "fea36085-2e7b-419c-91b2-31c62dcbe48f",
+    "duration": 7.1048970222473145,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/6c10182f-477a-4426-ab96-643a8658d9dc?AWSAccessKeyId=ASIA2UOK6OVBBL7PGAHG&Signature=gmSQjbtbP4Isc9O4l%2B40P3g2ipM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIBZx80SJ80mFWQKP8TFAluGk72XQ1M4XQcJpZv%2BFGFjOAiBa3y%2FTD9CurIhOKDGONcpN%2B6xCDOk%2B4Xmt%2Fx22KK%2FEECqLBQgjEAAaDDczMTEwNjkzMjAzNCIM6m4itwa5tFfz7c3aKugE0EuA3vdQ5GYRfldjUlftot7zdl5DW5HHWLDXFiUMZohgfqQALHZO1HYeWLo1CSKNFa1dc70XdjBQ9yEPHYxJNEaS27VDMIpYkWDHKN0n0rBBoXEuO0FHWq8CbVwUT9%2Be6kl2OzNbgK6MUuQiGjO6%2FXD0zTDducnsoIIoyzo%2B0ZnwTRLjZxg6JZIncsQtxssbOmwHK8sQiLdk%2FD9YwmwVhBTUv3JRe1Uza6jj3NO%2Fe8ZSQOb60ISLY9%2FMiJw7meoUCQJiFpxFciIEyJFhOEIsMDmNH%2FlLC32C1OzXlCla3Vkn7H6FVjYU54Bfo%2BUZr8tnnogvGW%2FBRfKpvwn%2B6AkCkgGWnue%2BKSWrxTOo5SZu4byxBxC%2B%2Fd%2FrqbIbSaV6Oox6QzPYli%2Bmo5SNDDvb7vJkEWcXMgRjGrHBFV0%2F9RJY6CLMApdar%2BH6vO0HpILfhHavB9AWMlz0ZNPHclEtcwMVXG6kLLLTkNpKxPwpEwVs30rWwEG0qteUMISqm6BRqpESQw84obi3rXTU0UpLyBeq1wwUcbDHt9TwPkvF2fmZwqf5IwA%2FlmUQZE6nYEP%2B1MPR6kI9uELH8yybCmW5EVv7okiNOITveR5j0VJmNkSBph8nr2hYP%2FRqlTKAyFf7ZGUea6QRK4C3AGAc4SqfleQHRVyc5NSfCYJLR064bW9otcGYhjiMDCzV5Fg7ndab8Z1yn35r0LKLCMBznAKOR3xd33Wyl5uI192ci7USm5IXc4Nnh0xtq7PUYW4Ey1aWzfAozzLeIjxkzLpD3GvOdJiiBW%2FjXdCoSShBYcggdcMCda2ClKulyLCyBjDRqsm6BjqcAVTPhcgF9p4T%2BHAAXRdzAvBQTX0PNU2%2FQWC2ILnMsybKlqrbIoYv3hDyh3bpzyxzqwW%2FKSLfLkdW%2BQTQJkXXx5LCcmgUwcKCX9rA3HfjxbnjHnI1K%2BNzH5U3E93lI59iAH4mhaSyQb3AGIhIB%2BJghrjG%2BHN2oa%2F8pX%2B2o00as8MdvvnCOJPfWhGhAtTb2rfcInSR0RyKW1Xnf7PnSw%3D%3D&Expires=1733452779",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SACRAMENTO RIVER BASIN.",
+                "embed": "# SACRAMENTO RIVER BASIN.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.27692307692307694,
+                            "top": 0.0510590015128593,
+                            "width": 0.32756410256410257,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "SACRAMENTO RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8173076923076923,
+                            "top": 0.04803328290468986,
+                            "width": 0.046153846153846156,
+                            "height": 0.01361573373676248,
+                            "page": 1
+                        },
+                        "content": "201",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907.\n\n<table><tr><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>4.00</td><td>,960</td><td>5.70</td><td>5,900</td><td>7.80</td><td>9,080</td><td>16.00</td><td>42,000</td></tr><tr><td>4.10</td><td>4,070</td><td>5.80</td><td>6,020</td><td>8.00</td><td>9,450</td><td>17.00</td><td>47,500</td></tr><tr><td>4.20</td><td>4,180</td><td>5.90</td><td>6,140</td><td>8.20</td><td>9,830</td><td>18.00</td><td>53,500</td></tr><tr><td>4.30</td><td>4,290</td><td>6.00</td><td>6,260</td><td>8.40</td><td>10,220</td><td>19.00</td><td>59,500</td></tr><tr><td>4.40</td><td>4,400</td><td>6.10</td><td>6,390</td><td>8.60</td><td>10,630</td><td>20.00</td><td>65,500</td></tr><tr><td>4.50</td><td>4,510</td><td>6.20</td><td>6,520</td><td>8.80</td><td>11,100</td><td>21.00</td><td>71,700</td></tr><tr><td>4.60</td><td>4,620</td><td>6.30</td><td>6,650</td><td>9.00</td><td>11,600</td><td>22.00</td><td>78,000</td></tr><tr><td>4.70</td><td>4,730</td><td>6.40</td><td>6,780</td><td>9.20</td><td>12,100</td><td>23.00</td><td>84,300</td></tr><tr><td>4.80</td><td>4,840</td><td>6.50</td><td>6,910</td><td>9.40</td><td>12,620</td><td>24.00</td><td>90,600</td></tr><tr><td>4.90</td><td>4,950</td><td>6.60</td><td>7,050</td><td>9.60</td><td>13,160</td><td>25.00</td><td>96,900</td></tr><tr><td>5.00</td><td>5,060</td><td>6.70</td><td>7,190</td><td>9.80</td><td>13,700</td><td>26.00</td><td>103,200</td></tr><tr><td>5.10</td><td>5,180</td><td>6.80</td><td>7,330</td><td>10.00</td><td>14,260</td><td>27.00</td><td>109,500</td></tr><tr><td>5.20</td><td>5,300</td><td>6.90</td><td>7,480</td><td>11.00</td><td>17,600</td><td>28.00</td><td>115,800</td></tr><tr><td>5.30</td><td>5,420</td><td>7.00</td><td>7,640</td><td>12.00</td><td>21,500</td><td>29.00</td><td>122,100</td></tr><tr><td>4.40</td><td>5,540</td><td>7.20</td><td>8,000</td><td>13.00</td><td>26,000</td><td>30.00</td><td>128,400</td></tr><tr><td>4.50</td><td>5,660</td><td>7.40</td><td>8,360</td><td>14.00</td><td>31,000</td><td>31.00</td><td>134,700</td></tr><tr><td>5.60</td><td>5,780</td><td>7.60</td><td>8,720</td><td>15.00</td><td>36,500</td><td></td><td></td></tr></table>",
+                "embed": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907.\n\n<table><tr><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>4.00</td><td>,960</td><td>5.70</td><td>5,900</td><td>7.80</td><td>9,080</td><td>16.00</td><td>42,000</td></tr><tr><td>4.10</td><td>4,070</td><td>5.80</td><td>6,020</td><td>8.00</td><td>9,450</td><td>17.00</td><td>47,500</td></tr><tr><td>4.20</td><td>4,180</td><td>5.90</td><td>6,140</td><td>8.20</td><td>9,830</td><td>18.00</td><td>53,500</td></tr><tr><td>4.30</td><td>4,290</td><td>6.00</td><td>6,260</td><td>8.40</td><td>10,220</td><td>19.00</td><td>59,500</td></tr><tr><td>4.40</td><td>4,400</td><td>6.10</td><td>6,390</td><td>8.60</td><td>10,630</td><td>20.00</td><td>65,500</td></tr><tr><td>4.50</td><td>4,510</td><td>6.20</td><td>6,520</td><td>8.80</td><td>11,100</td><td>21.00</td><td>71,700</td></tr><tr><td>4.60</td><td>4,620</td><td>6.30</td><td>6,650</td><td>9.00</td><td>11,600</td><td>22.00</td><td>78,000</td></tr><tr><td>4.70</td><td>4,730</td><td>6.40</td><td>6,780</td><td>9.20</td><td>12,100</td><td>23.00</td><td>84,300</td></tr><tr><td>4.80</td><td>4,840</td><td>6.50</td><td>6,910</td><td>9.40</td><td>12,620</td><td>24.00</td><td>90,600</td></tr><tr><td>4.90</td><td>4,950</td><td>6.60</td><td>7,050</td><td>9.60</td><td>13,160</td><td>25.00</td><td>96,900</td></tr><tr><td>5.00</td><td>5,060</td><td>6.70</td><td>7,190</td><td>9.80</td><td>13,700</td><td>26.00</td><td>103,200</td></tr><tr><td>5.10</td><td>5,180</td><td>6.80</td><td>7,330</td><td>10.00</td><td>14,260</td><td>27.00</td><td>109,500</td></tr><tr><td>5.20</td><td>5,300</td><td>6.90</td><td>7,480</td><td>11.00</td><td>17,600</td><td>28.00</td><td>115,800</td></tr><tr><td>5.30</td><td>5,420</td><td>7.00</td><td>7,640</td><td>12.00</td><td>21,500</td><td>29.00</td><td>122,100</td></tr><tr><td>4.40</td><td>5,540</td><td>7.20</td><td>8,000</td><td>13.00</td><td>26,000</td><td>30.00</td><td>128,400</td></tr><tr><td>4.50</td><td>5,660</td><td>7.40</td><td>8,360</td><td>14.00</td><td>31,000</td><td>31.00</td><td>134,700</td></tr><tr><td>5.60</td><td>5,780</td><td>7.60</td><td>8,720</td><td>15.00</td><td>36,500</td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2153846153846154,
+                            "top": 0.08131618759455371,
+                            "width": 0.4512820512820513,
+                            "height": 0.03668683812405446,
+                            "page": 1
+                        },
+                        "content": "Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13066983345227365,
+                            "top": 0.1279420376545362,
+                            "width": 0.6238831544533754,
+                            "height": 0.23448338126270565,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>4.00</td><td>,960</td><td>5.70</td><td>5,900</td><td>7.80</td><td>9,080</td><td>16.00</td><td>42,000</td></tr><tr><td>4.10</td><td>4,070</td><td>5.80</td><td>6,020</td><td>8.00</td><td>9,450</td><td>17.00</td><td>47,500</td></tr><tr><td>4.20</td><td>4,180</td><td>5.90</td><td>6,140</td><td>8.20</td><td>9,830</td><td>18.00</td><td>53,500</td></tr><tr><td>4.30</td><td>4,290</td><td>6.00</td><td>6,260</td><td>8.40</td><td>10,220</td><td>19.00</td><td>59,500</td></tr><tr><td>4.40</td><td>4,400</td><td>6.10</td><td>6,390</td><td>8.60</td><td>10,630</td><td>20.00</td><td>65,500</td></tr><tr><td>4.50</td><td>4,510</td><td>6.20</td><td>6,520</td><td>8.80</td><td>11,100</td><td>21.00</td><td>71,700</td></tr><tr><td>4.60</td><td>4,620</td><td>6.30</td><td>6,650</td><td>9.00</td><td>11,600</td><td>22.00</td><td>78,000</td></tr><tr><td>4.70</td><td>4,730</td><td>6.40</td><td>6,780</td><td>9.20</td><td>12,100</td><td>23.00</td><td>84,300</td></tr><tr><td>4.80</td><td>4,840</td><td>6.50</td><td>6,910</td><td>9.40</td><td>12,620</td><td>24.00</td><td>90,600</td></tr><tr><td>4.90</td><td>4,950</td><td>6.60</td><td>7,050</td><td>9.60</td><td>13,160</td><td>25.00</td><td>96,900</td></tr><tr><td>5.00</td><td>5,060</td><td>6.70</td><td>7,190</td><td>9.80</td><td>13,700</td><td>26.00</td><td>103,200</td></tr><tr><td>5.10</td><td>5,180</td><td>6.80</td><td>7,330</td><td>10.00</td><td>14,260</td><td>27.00</td><td>109,500</td></tr><tr><td>5.20</td><td>5,300</td><td>6.90</td><td>7,480</td><td>11.00</td><td>17,600</td><td>28.00</td><td>115,800</td></tr><tr><td>5.30</td><td>5,420</td><td>7.00</td><td>7,640</td><td>12.00</td><td>21,500</td><td>29.00</td><td>122,100</td></tr><tr><td>4.40</td><td>5,540</td><td>7.20</td><td>8,000</td><td>13.00</td><td>26,000</td><td>30.00</td><td>128,400</td></tr><tr><td>4.50</td><td>5,660</td><td>7.40</td><td>8,360</td><td>14.00</td><td>31,000</td><td>31.00</td><td>134,700</td></tr><tr><td>5.60</td><td>5,780</td><td>7.60</td><td>8,720</td><td>15.00</td><td>36,500</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\nNOTE.-This table is not applicable for obstructed-channel conditions. It is based on discharge measurements made during 1904 to 1906 and is well defined below gage height 17 feet. Above gage height 21 feet the curve is a tangent, the difference being 630 per tenth.",
+                "embed": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\nNOTE.-This table is not applicable for obstructed-channel conditions. It is based on discharge measurements made during 1904 to 1906 and is well defined below gage height 17 feet. Above gage height 21 feet the curve is a tangent, the difference being 630 per tenth.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.019230769230769232,
+                            "top": 0.3710287443267776,
+                            "width": 0.8467948717948718,
+                            "height": 0.031013615733736764,
+                            "page": 1
+                        },
+                        "content": "NOTE.-This table is not applicable for obstructed-channel conditions. It is based on discharge measurements made during 1904 to 1906 and is well defined below gage height 17 feet. Above gage height 21 feet the curve is a tangent, the difference being 630 per tenth.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907.\n\n<table><tr><th>6.00</th><th>1,650</th><th>7.40</th><th>4,900</th><th>8.80</th><th>8,940</th><th>10.20</th><th>13,870</th></tr><tr><td>6.10</td><td>1,850</td><td>7.50</td><td>5,160</td><td>8.90</td><td>9,260</td><td>10.30</td><td>14,250</td></tr><tr><td>6.20</td><td>2,060</td><td>7.60</td><td>5,430</td><td>9.00</td><td>9,590</td><td>10.40</td><td>14,630</td></tr><tr><td>6.30</td><td>2,270</td><td>7.70</td><td>5,700</td><td>9.10</td><td>9,920</td><td>10.50</td><td>15,020</td></tr><tr><td>6.40</td><td>2,490</td><td>7.80</td><td>5,970</td><td>9.20</td><td>10,260</td><td>10.60</td><td>15,410</td></tr><tr><td>6.50</td><td>2,710</td><td>7.90</td><td>6,250</td><td>9.30</td><td>10,600</td><td>10.70</td><td>15,800</td></tr><tr><td>6.60</td><td>2,940</td><td>8.00</td><td>6,530</td><td>9.40</td><td>10,950</td><td>10.80</td><td>16,200</td></tr><tr><td>6.70</td><td>3,170</td><td>8.10</td><td>6,820</td><td>9.50</td><td>11,300</td><td>10.90</td><td>16,600</td></tr><tr><td>6.80</td><td>3,410</td><td>8.20</td><td>7,110</td><td>9.60</td><td>11,660</td><td>11.00</td><td>17,000</td></tr><tr><td>6.90</td><td>3,650</td><td>8.30</td><td>7,400</td><td>9.70</td><td>12,020</td><td>12.00</td><td>21,300</td></tr><tr><td>7.00</td><td>3,890</td><td>8.40</td><td>7,700</td><td>9.80</td><td>12,380</td><td>13.00</td><td>26,000</td></tr><tr><td>7.10</td><td>4,140</td><td>8.50</td><td>8,000</td><td>9.90</td><td>12,750</td><td></td><td></td></tr><tr><td>7.20</td><td>4,390</td><td>8.60</td><td>8,310</td><td>10.00</td><td>13,120</td><td></td><td></td></tr><tr><td>7.30</td><td>4,640</td><td>8.70</td><td>8,620</td><td>10.10</td><td>13,490</td><td></td><td></td></tr></table>",
+                "embed": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907.\n\n<table><tr><th>6.00</th><th>1,650</th><th>7.40</th><th>4,900</th><th>8.80</th><th>8,940</th><th>10.20</th><th>13,870</th></tr><tr><td>6.10</td><td>1,850</td><td>7.50</td><td>5,160</td><td>8.90</td><td>9,260</td><td>10.30</td><td>14,250</td></tr><tr><td>6.20</td><td>2,060</td><td>7.60</td><td>5,430</td><td>9.00</td><td>9,590</td><td>10.40</td><td>14,630</td></tr><tr><td>6.30</td><td>2,270</td><td>7.70</td><td>5,700</td><td>9.10</td><td>9,920</td><td>10.50</td><td>15,020</td></tr><tr><td>6.40</td><td>2,490</td><td>7.80</td><td>5,970</td><td>9.20</td><td>10,260</td><td>10.60</td><td>15,410</td></tr><tr><td>6.50</td><td>2,710</td><td>7.90</td><td>6,250</td><td>9.30</td><td>10,600</td><td>10.70</td><td>15,800</td></tr><tr><td>6.60</td><td>2,940</td><td>8.00</td><td>6,530</td><td>9.40</td><td>10,950</td><td>10.80</td><td>16,200</td></tr><tr><td>6.70</td><td>3,170</td><td>8.10</td><td>6,820</td><td>9.50</td><td>11,300</td><td>10.90</td><td>16,600</td></tr><tr><td>6.80</td><td>3,410</td><td>8.20</td><td>7,110</td><td>9.60</td><td>11,660</td><td>11.00</td><td>17,000</td></tr><tr><td>6.90</td><td>3,650</td><td>8.30</td><td>7,400</td><td>9.70</td><td>12,020</td><td>12.00</td><td>21,300</td></tr><tr><td>7.00</td><td>3,890</td><td>8.40</td><td>7,700</td><td>9.80</td><td>12,380</td><td>13.00</td><td>26,000</td></tr><tr><td>7.10</td><td>4,140</td><td>8.50</td><td>8,000</td><td>9.90</td><td>12,750</td><td></td><td></td></tr><tr><td>7.20</td><td>4,390</td><td>8.60</td><td>8,310</td><td>10.00</td><td>13,120</td><td></td><td></td></tr><tr><td>7.30</td><td>4,640</td><td>8.70</td><td>8,620</td><td>10.10</td><td>13,490</td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2782051282051282,
+                            "top": 0.41641452344931923,
+                            "width": 0.32756410256410257,
+                            "height": 0.01021180030257186,
+                            "page": 1
+                        },
+                        "content": "MARCH 26 TO DECEMBER 31, 1907.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13171553000425681,
+                            "top": 0.434244822445868,
+                            "width": 0.6215370178222657,
+                            "height": 0.15830497337722202,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>6.00</th><th>1,650</th><th>7.40</th><th>4,900</th><th>8.80</th><th>8,940</th><th>10.20</th><th>13,870</th></tr><tr><td>6.10</td><td>1,850</td><td>7.50</td><td>5,160</td><td>8.90</td><td>9,260</td><td>10.30</td><td>14,250</td></tr><tr><td>6.20</td><td>2,060</td><td>7.60</td><td>5,430</td><td>9.00</td><td>9,590</td><td>10.40</td><td>14,630</td></tr><tr><td>6.30</td><td>2,270</td><td>7.70</td><td>5,700</td><td>9.10</td><td>9,920</td><td>10.50</td><td>15,020</td></tr><tr><td>6.40</td><td>2,490</td><td>7.80</td><td>5,970</td><td>9.20</td><td>10,260</td><td>10.60</td><td>15,410</td></tr><tr><td>6.50</td><td>2,710</td><td>7.90</td><td>6,250</td><td>9.30</td><td>10,600</td><td>10.70</td><td>15,800</td></tr><tr><td>6.60</td><td>2,940</td><td>8.00</td><td>6,530</td><td>9.40</td><td>10,950</td><td>10.80</td><td>16,200</td></tr><tr><td>6.70</td><td>3,170</td><td>8.10</td><td>6,820</td><td>9.50</td><td>11,300</td><td>10.90</td><td>16,600</td></tr><tr><td>6.80</td><td>3,410</td><td>8.20</td><td>7,110</td><td>9.60</td><td>11,660</td><td>11.00</td><td>17,000</td></tr><tr><td>6.90</td><td>3,650</td><td>8.30</td><td>7,400</td><td>9.70</td><td>12,020</td><td>12.00</td><td>21,300</td></tr><tr><td>7.00</td><td>3,890</td><td>8.40</td><td>7,700</td><td>9.80</td><td>12,380</td><td>13.00</td><td>26,000</td></tr><tr><td>7.10</td><td>4,140</td><td>8.50</td><td>8,000</td><td>9.90</td><td>12,750</td><td></td><td></td></tr><tr><td>7.20</td><td>4,390</td><td>8.60</td><td>8,310</td><td>10.00</td><td>13,120</td><td></td><td></td></tr><tr><td>7.30</td><td>4,640</td><td>8.70</td><td>8,620</td><td>10.10</td><td>13,490</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907. (cont.)\n\nNOTE.-This table is not applicable for obstructed-channel conditions. It is based on discharge measurements made during 1906 and 1907 and is well defined. Above 13 feet it is the same as the 1906 table.\n\nJANUARY 1 TO MAY 31, 1908.",
+                "embed": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907. (cont.)\n\nNOTE.-This table is not applicable for obstructed-channel conditions. It is based on discharge measurements made during 1906 and 1907 and is well defined. Above 13 feet it is the same as the 1906 table.\n\nJANUARY 1 TO MAY 31, 1908.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.017948717948717947,
+                            "top": 0.6002269288956127,
+                            "width": 0.8474358974358974,
+                            "height": 0.02798789712556732,
+                            "page": 1
+                        },
+                        "content": "NOTE.-This table is not applicable for obstructed-channel conditions. It is based on discharge measurements made during 1906 and 1907 and is well defined. Above 13 feet it is the same as the 1906 table.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2967948717948718,
+                            "top": 0.6361573373676248,
+                            "width": 0.27371794871794874,
+                            "height": 0.01021180030257186,
+                            "page": 1
+                        },
+                        "content": "JANUARY 1 TO MAY 31, 1908.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907. (cont.)\n\n<table><tr><th>5.50</th><th>770</th><th>6.90</th><th>3,540</th><th>8.30</th><th>7,160</th><th>9.70</th><th>11,500</th></tr><tr><td>5.60</td><td>930</td><td>7.00</td><td>3,770</td><td>8.40</td><td>7,440</td><td>9.80</td><td>11,850</td></tr><tr><td>5.70</td><td>1,090</td><td>7.10</td><td>4,010</td><td>8.50</td><td>7,730</td><td>9.90</td><td>12,200</td></tr><tr><td>5.80</td><td>1,270</td><td>7.20</td><td>4,250</td><td>8.60</td><td>8,020</td><td>10.00</td><td>12,560</td></tr><tr><td>5.90</td><td>1,450</td><td>7.30</td><td>4,500</td><td>8.70</td><td>8,310</td><td>10.10</td><td>12,920</td></tr><tr><td>6.00</td><td>1,640</td><td>7.40</td><td>4,750</td><td>8.80</td><td>8,610</td><td>10.20</td><td>13,290</td></tr><tr><td>6.10</td><td>1,830</td><td>7.50</td><td>5,000</td><td>8.90</td><td>8,910</td><td>10.30</td><td>13,660</td></tr><tr><td>6.20</td><td>2,030</td><td>7.60</td><td>5,260</td><td>9.00</td><td>9,210</td><td>10.40</td><td>14,030</td></tr><tr><td>6.30</td><td>2,230</td><td>7.70</td><td>5,520</td><td>9.10</td><td>9,520</td><td>10.50</td><td>14,410</td></tr><tr><td>6.40</td><td>2,440</td><td>7.80</td><td>5,790</td><td>9.20</td><td>9,840</td><td>10.60</td><td>14,790</td></tr><tr><td>6.50</td><td>2,650</td><td>7.90</td><td>6,060</td><td>9.30</td><td>10,160</td><td>10.70</td><td>15,170</td></tr><tr><td>6.60</td><td>2,870</td><td>8.00</td><td>6,330</td><td>9.40</td><td>10,490</td><td>10.80</td><td>15,560</td></tr><tr><td>6.70</td><td>3,090</td><td>8.10</td><td>6,600</td><td>9.50</td><td>10,820</td><td>10.90</td><td>15,950</td></tr><tr><td>6.80</td><td>3,310</td><td>8.20</td><td>6,880</td><td>9.60</td><td>11,160</td><td>11.00</td><td>16,340</td></tr></table>",
+                "embed": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907. (cont.)\n\n<table><tr><th>5.50</th><th>770</th><th>6.90</th><th>3,540</th><th>8.30</th><th>7,160</th><th>9.70</th><th>11,500</th></tr><tr><td>5.60</td><td>930</td><td>7.00</td><td>3,770</td><td>8.40</td><td>7,440</td><td>9.80</td><td>11,850</td></tr><tr><td>5.70</td><td>1,090</td><td>7.10</td><td>4,010</td><td>8.50</td><td>7,730</td><td>9.90</td><td>12,200</td></tr><tr><td>5.80</td><td>1,270</td><td>7.20</td><td>4,250</td><td>8.60</td><td>8,020</td><td>10.00</td><td>12,560</td></tr><tr><td>5.90</td><td>1,450</td><td>7.30</td><td>4,500</td><td>8.70</td><td>8,310</td><td>10.10</td><td>12,920</td></tr><tr><td>6.00</td><td>1,640</td><td>7.40</td><td>4,750</td><td>8.80</td><td>8,610</td><td>10.20</td><td>13,290</td></tr><tr><td>6.10</td><td>1,830</td><td>7.50</td><td>5,000</td><td>8.90</td><td>8,910</td><td>10.30</td><td>13,660</td></tr><tr><td>6.20</td><td>2,030</td><td>7.60</td><td>5,260</td><td>9.00</td><td>9,210</td><td>10.40</td><td>14,030</td></tr><tr><td>6.30</td><td>2,230</td><td>7.70</td><td>5,520</td><td>9.10</td><td>9,520</td><td>10.50</td><td>14,410</td></tr><tr><td>6.40</td><td>2,440</td><td>7.80</td><td>5,790</td><td>9.20</td><td>9,840</td><td>10.60</td><td>14,790</td></tr><tr><td>6.50</td><td>2,650</td><td>7.90</td><td>6,060</td><td>9.30</td><td>10,160</td><td>10.70</td><td>15,170</td></tr><tr><td>6.60</td><td>2,870</td><td>8.00</td><td>6,330</td><td>9.40</td><td>10,490</td><td>10.80</td><td>15,560</td></tr><tr><td>6.70</td><td>3,090</td><td>8.10</td><td>6,600</td><td>9.50</td><td>10,820</td><td>10.90</td><td>15,950</td></tr><tr><td>6.80</td><td>3,310</td><td>8.20</td><td>6,880</td><td>9.60</td><td>11,160</td><td>11.00</td><td>16,340</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13354742588141025,
+                            "top": 0.6548453141990119,
+                            "width": 0.6202995887169471,
+                            "height": 0.1564474639661734,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>5.50</th><th>770</th><th>6.90</th><th>3,540</th><th>8.30</th><th>7,160</th><th>9.70</th><th>11,500</th></tr><tr><td>5.60</td><td>930</td><td>7.00</td><td>3,770</td><td>8.40</td><td>7,440</td><td>9.80</td><td>11,850</td></tr><tr><td>5.70</td><td>1,090</td><td>7.10</td><td>4,010</td><td>8.50</td><td>7,730</td><td>9.90</td><td>12,200</td></tr><tr><td>5.80</td><td>1,270</td><td>7.20</td><td>4,250</td><td>8.60</td><td>8,020</td><td>10.00</td><td>12,560</td></tr><tr><td>5.90</td><td>1,450</td><td>7.30</td><td>4,500</td><td>8.70</td><td>8,310</td><td>10.10</td><td>12,920</td></tr><tr><td>6.00</td><td>1,640</td><td>7.40</td><td>4,750</td><td>8.80</td><td>8,610</td><td>10.20</td><td>13,290</td></tr><tr><td>6.10</td><td>1,830</td><td>7.50</td><td>5,000</td><td>8.90</td><td>8,910</td><td>10.30</td><td>13,660</td></tr><tr><td>6.20</td><td>2,030</td><td>7.60</td><td>5,260</td><td>9.00</td><td>9,210</td><td>10.40</td><td>14,030</td></tr><tr><td>6.30</td><td>2,230</td><td>7.70</td><td>5,520</td><td>9.10</td><td>9,520</td><td>10.50</td><td>14,410</td></tr><tr><td>6.40</td><td>2,440</td><td>7.80</td><td>5,790</td><td>9.20</td><td>9,840</td><td>10.60</td><td>14,790</td></tr><tr><td>6.50</td><td>2,650</td><td>7.90</td><td>6,060</td><td>9.30</td><td>10,160</td><td>10.70</td><td>15,170</td></tr><tr><td>6.60</td><td>2,870</td><td>8.00</td><td>6,330</td><td>9.40</td><td>10,490</td><td>10.80</td><td>15,560</td></tr><tr><td>6.70</td><td>3,090</td><td>8.10</td><td>6,600</td><td>9.50</td><td>10,820</td><td>10.90</td><td>15,950</td></tr><tr><td>6.80</td><td>3,310</td><td>8.20</td><td>6,880</td><td>9.60</td><td>11,160</td><td>11.00</td><td>16,340</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907. (cont.)\n\nNOTE.-This table is not applicable for obstructed-channel conditions. It is based on eight discharge measurements made during October, 1907, to May, 1908, and is well defined.",
+                "embed": "# Rating tables for Feather River at Oroville, Cal. JANUARY 1, 1906, TO MARCH 25, 1907. (cont.)\n\n## MARCH 26 TO DECEMBER 31, 1907. (cont.)\n\nNOTE.-This table is not applicable for obstructed-channel conditions. It is based on eight discharge measurements made during October, 1907, to May, 1908, and is well defined.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.017948717948717947,
+                            "top": 0.8199697428139183,
+                            "width": 0.8461538461538461,
+                            "height": 0.0208018154311649,
+                            "page": 1
+                        },
+                        "content": "NOTE.-This table is not applicable for obstructed-channel conditions. It is based on eight discharge measurements made during October, 1907, to May, 1908, and is well defined.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

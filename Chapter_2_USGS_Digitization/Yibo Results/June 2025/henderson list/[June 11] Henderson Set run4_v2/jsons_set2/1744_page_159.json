@@ -1,0 +1,238 @@
+{
+    "job_id": "46a6cea7-d121-4b5e-b05d-3e0ae599d57e",
+    "duration": 5.723194360733032,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/c2773569-d4e8-4a74-aa37-23d84519202e?AWSAccessKeyId=ASIA2UOK6OVBBI6ZRIFV&Signature=huy9pSk2ZbcjEuimTjund1BmTFQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCIBshDheZGd1BfcR%2F9UVl6cnFEtO6DP1sPAltobUx5T9YAiA22vjYmxcf%2B9A7lKPSa3KjrO1qF8Bbk42LFsz7eFttkyqLBQghEAAaDDczMTEwNjkzMjAzNCIMyKY3f3dJE4QdMd4ZKugERsSjjxb93uGGji%2FpGrt3Ekf%2F5hEQQdiFkemAQlM3M7tgdRuhUFu5tDWKB3T72%2BEWtq%2FtPll4JBxC7TKvjXdtrHa9fv8mKy23hcPOnxuH%2BuzCo40rLBBq9NB7U7AbOZjRYVLy7RCDdTQLH%2BEGHc8%2BtCbXeVhdT1R7FG4iqXv4ApeRsLhUtNzikuxPOpj16rfvErZviMBgvdFM9MLNWyMqq2eLfqURiOqZcCR0C8vWaaKhTzEDCxtrCPsZNfuR1dAkr8pcGPsQs%2BC7XOVXwvGAHKFBM9G%2BjIOD2pqARu7ii5K3SzDq%2FTT4iOK2NtF6QYBK2et35wclYoxlEGtnVvJe5PHTj2pR0G9fChK21NfHcYnpmDEAB0RGxZfbVNjCRhLfdGYIo4UqLsT2l5gels4a%2FWQ7yP93KU5tavVHQQAHH0xlvHq9ExkdvMPgwTw%2F%2BuUSVg8iDgVWtMXQC2fRfprRl8%2BSazotm7AA1oEmblToN3tyMkKVJyBRBhxpseFCVRYTLzYbGUrO3TSa2B4AAuv8U%2FfnqR9JLGZvk7AMu1L202BVf9n05go5H0jel3B%2FlmQmNaMwziW%2BTc5pDUzgcgMGrykBMyiERhkemzAn06m7GUsBT7Rpg2Fha9WVyg1qfR2It5QK6byfJR8YU0nedBMmXDJbznRNn%2BF5ZoKbNzE7Jn9hVmzwiCGMgJNPkiJzS181Eo6oEEVjdxRubXgBxaMjb8DH23s6mDp3F776jO%2B2k8r1XAucHlwmNijf9bh6%2B2xT8KEIOoHXTivsn%2Bf%2BIj3KKtKBMREo%2BdLUHwb5YdQc5n1K%2B2jLyUHw3jDg9Mi6BjqcAbjErYW%2BSy8Bz8v2J7Uo1df%2BcgY9O3JP9mDAqAhDvbepBjLy2VC7Y643xYqdkJ9kvSfB0bSHReMeJ1aynysyAk4nqfK%2BYb5nydApNY83vg1215gopg78tMM7E0zZKa5a4D0KZQSaM1bk5rtOWwbrDLdeC7oBLIz7R6irhFGgFdtflVSSGrT5qEtnWCdvtblODwmCKk7b%2FkUMHTyPdg%3D%3D&Expires=1733445750",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN.\n\nMonthly discharge of South Fork of Merced River near Wawona, Cal., for the year end- ing Sept. 30, 1914.",
+                "embed": "# SAN JOAQUIN RIVER BASIN.\n\nMonthly discharge of South Fork of Merced River near Wawona, Cal., for the year end- ing Sept. 30, 1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.27551659361302444,
+                            "top": 0.04919263987983477,
+                            "width": 0.3287413901064496,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8102692548528491,
+                            "top": 0.046188509200150205,
+                            "width": 0.045084533500313086,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "159",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.031934877896055106,
+                            "top": 0.07960946301164101,
+                            "width": 0.823418910457107,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of South Fork of Merced River near Wawona, Cal., for the year end- ing Sept. 30, 1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">-\nRun-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>14</td><td>14</td><td>14.0</td><td>861</td><td rowspan=\"13\">C.\nB.\nB.\nB.\nB.\nA.\nA.\nA.\nA.\nB.\nB.\nC.</td></tr><tr><td>November</td><td>42</td><td>14</td><td>25. 6</td><td>1,520</td></tr><tr><td>December</td><td>110</td><td>36</td><td>52. 7</td><td>240</td></tr><tr><td>January</td><td>3,770</td><td>110</td><td>586</td><td>36,000</td></tr><tr><td>February</td><td>3,770</td><td>110</td><td>750</td><td>41,700</td></tr><tr><td>March</td><td>1,040</td><td>395</td><td>611</td><td>37,600</td></tr><tr><td>April</td><td>1,120</td><td>755</td><td>957</td><td>56,900</td></tr><tr><td>May</td><td>2,300</td><td>,120</td><td>780</td><td>109,000</td></tr><tr><td>June</td><td>2,800</td><td>,200</td><td>3,550</td><td>152,000</td></tr><tr><td>July</td><td>625</td><td>81</td><td>260</td><td>16,000</td></tr><tr><td>August</td><td>79</td><td>20</td><td>44. 4</td><td>2,730</td></tr><tr><td>September</td><td></td><td></td><td>a 20</td><td>1,190</td></tr><tr><td>The year</td><td>770</td><td>14</td><td>633</td><td>459,000</td></tr></table>\n\n## a Estimated.\n\n## TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL.\n\nLOCATION.-Near east line of sec. 10, T. 1 N., R. 20 E., in Hetch Hetchy Valley, in Yosemite National Park, about half a mile above mouth of Falls Creek, 2 miles above Hetch Hetchy dam site, and about 13 miles northeast of Sequoia.\n\nDRAINAGE AREA.- measured.",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">-\nRun-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>14</td><td>14</td><td>14.0</td><td>861</td><td rowspan=\"13\">C.\nB.\nB.\nB.\nB.\nA.\nA.\nA.\nA.\nB.\nB.\nC.</td></tr><tr><td>November</td><td>42</td><td>14</td><td>25. 6</td><td>1,520</td></tr><tr><td>December</td><td>110</td><td>36</td><td>52. 7</td><td>240</td></tr><tr><td>January</td><td>3,770</td><td>110</td><td>586</td><td>36,000</td></tr><tr><td>February</td><td>3,770</td><td>110</td><td>750</td><td>41,700</td></tr><tr><td>March</td><td>1,040</td><td>395</td><td>611</td><td>37,600</td></tr><tr><td>April</td><td>1,120</td><td>755</td><td>957</td><td>56,900</td></tr><tr><td>May</td><td>2,300</td><td>,120</td><td>780</td><td>109,000</td></tr><tr><td>June</td><td>2,800</td><td>,200</td><td>3,550</td><td>152,000</td></tr><tr><td>July</td><td>625</td><td>81</td><td>260</td><td>16,000</td></tr><tr><td>August</td><td>79</td><td>20</td><td>44. 4</td><td>2,730</td></tr><tr><td>September</td><td></td><td></td><td>a 20</td><td>1,190</td></tr><tr><td>The year</td><td>770</td><td>14</td><td>633</td><td>459,000</td></tr></table>\n\n## a Estimated.\n\n## TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL.\n\nLOCATION.-Near east line of sec. 10, T. 1 N., R. 20 E., in Hetch Hetchy Valley, in Yosemite National Park, about half a mile above mouth of Falls Creek, 2 miles above Hetch Hetchy dam site, and about 13 miles northeast of Sequoia.\n\nDRAINAGE AREA.- measured.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.02805087830621747,
+                            "top": 0.11524944470155253,
+                            "width": 0.8333563592632487,
+                            "height": 0.21785263651705666,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">-\nRun-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>14</td><td>14</td><td>14.0</td><td>861</td><td rowspan=\"13\">C.\nB.\nB.\nB.\nB.\nA.\nA.\nA.\nA.\nB.\nB.\nC.</td></tr><tr><td>November</td><td>42</td><td>14</td><td>25. 6</td><td>1,520</td></tr><tr><td>December</td><td>110</td><td>36</td><td>52. 7</td><td>240</td></tr><tr><td>January</td><td>3,770</td><td>110</td><td>586</td><td>36,000</td></tr><tr><td>February</td><td>3,770</td><td>110</td><td>750</td><td>41,700</td></tr><tr><td>March</td><td>1,040</td><td>395</td><td>611</td><td>37,600</td></tr><tr><td>April</td><td>1,120</td><td>755</td><td>957</td><td>56,900</td></tr><tr><td>May</td><td>2,300</td><td>,120</td><td>780</td><td>109,000</td></tr><tr><td>June</td><td>2,800</td><td>,200</td><td>3,550</td><td>152,000</td></tr><tr><td>July</td><td>625</td><td>81</td><td>260</td><td>16,000</td></tr><tr><td>August</td><td>79</td><td>20</td><td>44. 4</td><td>2,730</td></tr><tr><td>September</td><td></td><td></td><td>a 20</td><td>1,190</td></tr><tr><td>The year</td><td>770</td><td>14</td><td>633</td><td>459,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.3888541014402004,
+                            "top": 0.34096883214419826,
+                            "width": 0.10144020037570445,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "a Estimated.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.10144020037570445,
+                            "top": 0.3623732632369508,
+                            "width": 0.6837820914214151,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.030682529743268627,
+                            "top": 0.3807735636500188,
+                            "width": 0.8265497808390733,
+                            "height": 0.046188509200150205,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-Near east line of sec. 10, T. 1 N., R. 20 E., in Hetch Hetchy Valley, in Yosemite National Park, about half a mile above mouth of Falls Creek, 2 miles above Hetch Hetchy dam site, and about 13 miles northeast of Sequoia.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.031308703819661866,
+                            "top": 0.4284641381900113,
+                            "width": 0.3306199123356293,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.- measured.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL. (cont.)\n\nRECORDS AVAILABLE.-October 1, 1910, to September 30, 1914.\n\nGAGE.-Staff on left bank at Hetch Hetchy cabin. Lietz water-stage recorder, 25 feet above staff gage.\n\nDISCHARGE MEASUREMENTS.-Made from cable 50 feet above staff gage or by wading. CHANNEL AND CONTROL.-Gravel; fairly permanent.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 12.4 feet June 11 (discharge, 6,990 second-feet); minimum stage from water- stage recorder, 0.05 foot October 28 to 31 (discharge, 24 second-feet).\n\n1910-14: Maximum stage recorded, 14.52 feet June 18, 1911 (discharge, 9,250 second-feet); minimum stage recorded, 0.60 foot December 24 and 25, 1911 (dis- charge, 14 second-feet).\n\nWINTER FLOw.-Stage-discharge relation slightly affected by ice. ACCURACY.-The rating curve well defined; results excellent. COOPERATION.-Complete records to April, 1914, furnished by city of San Francisco. Beginning May 1, 1914, station has been maintained by the United States Geological Survey in cooperation with the city of San Francisco, through M. M. O'Shaughnessy, city engineer.\n\nDischarge measurements of Tuolumne River at Hetch Hetchy cabin, near Sequoia, Cal., during the year ending Sept. 30, 1914.",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL. (cont.)\n\nRECORDS AVAILABLE.-October 1, 1910, to September 30, 1914.\n\nGAGE.-Staff on left bank at Hetch Hetchy cabin. Lietz water-stage recorder, 25 feet above staff gage.\n\nDISCHARGE MEASUREMENTS.-Made from cable 50 feet above staff gage or by wading. CHANNEL AND CONTROL.-Gravel; fairly permanent.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 12.4 feet June 11 (discharge, 6,990 second-feet); minimum stage from water- stage recorder, 0.05 foot October 28 to 31 (discharge, 24 second-feet).\n\n1910-14: Maximum stage recorded, 14.52 feet June 18, 1911 (discharge, 9,250 second-feet); minimum stage recorded, 0.60 foot December 24 and 25, 1911 (dis- charge, 14 second-feet).\n\nWINTER FLOw.-Stage-discharge relation slightly affected by ice. ACCURACY.-The rating curve well defined; results excellent. COOPERATION.-Complete records to April, 1914, furnished by city of San Francisco. Beginning May 1, 1914, station has been maintained by the United States Geological Survey in cooperation with the city of San Francisco, through M. M. O'Shaughnessy, city engineer.\n\nDischarge measurements of Tuolumne River at Hetch Hetchy cabin, near Sequoia, Cal., during the year ending Sept. 30, 1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03256105197244834,
+                            "top": 0.4442358242583552,
+                            "width": 0.6123982467125861,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-October 1, 1910, to September 30, 1914.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.030682529743268627,
+                            "top": 0.45963199399173865,
+                            "width": 0.8265497808390733,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Staff on left bank at Hetch Hetchy cabin. Lietz water-stage recorder, 25 feet above staff gage.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.031308703819661866,
+                            "top": 0.4911753661284266,
+                            "width": 0.8246712586098935,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from cable 50 feet above staff gage or by wading. CHANNEL AND CONTROL.-Gravel; fairly permanent.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03256105197244834,
+                            "top": 0.5230942546000751,
+                            "width": 0.8252974326862867,
+                            "height": 0.045061960195268494,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 12.4 feet June 11 (discharge, 6,990 second-feet); minimum stage from water- stage recorder, 0.05 foot October 28 to 31 (discharge, 24 second-feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07263619286161553,
+                            "top": 0.570409312805107,
+                            "width": 0.7858484658735129,
+                            "height": 0.04468644386030792,
+                            "page": 1
+                        },
+                        "content": "1910-14: Maximum stage recorded, 14.52 feet June 18, 1911 (discharge, 9,250 second-feet); minimum stage recorded, 0.60 foot December 24 and 25, 1911 (dis- charge, 14 second-feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03256105197244834,
+                            "top": 0.6169733383402178,
+                            "width": 0.8265497808390733,
+                            "height": 0.09312805107022155,
+                            "page": 1
+                        },
+                        "content": "WINTER FLOw.-Stage-discharge relation slightly affected by ice. ACCURACY.-The rating curve well defined; results excellent. COOPERATION.-Complete records to April, 1914, furnished by city of San Francisco. Beginning May 1, 1914, station has been maintained by the United States Geological Survey in cooperation with the city of San Francisco, through M. M. O'Shaughnessy, city engineer.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.033813400125234816,
+                            "top": 0.7176117161096508,
+                            "width": 0.8227927363807138,
+                            "height": 0.026286143447239955,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of Tuolumne River at Hetch Hetchy cabin, near Sequoia, Cal., during the year ending Sept. 30, 1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL. (cont.)\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>May 8</td><td>Lasley Lee</td><td>7.32</td><td>3, 360</td><td>July 29</td><td>Lasley Lee</td><td>3. 80</td><td>,140</td></tr><tr><td>16</td><td>do</td><td>8.68</td><td>270</td><td>30</td><td>do</td><td>3.63</td><td>1,050</td></tr><tr><td>24</td><td>W. V. Hardy</td><td>6.75</td><td>2, 950</td><td>Aug. 1</td><td>do</td><td>3. 43</td><td>950</td></tr><tr><td>26</td><td>do</td><td>5.60</td><td>2, 220</td><td>9</td><td>R. C. Rice</td><td>3.08</td><td>827</td></tr><tr><td>28</td><td>do</td><td>9.50</td><td>4, 760</td><td>13</td><td>Lasley Lee</td><td>2.75</td><td>664</td></tr><tr><td>29</td><td>do</td><td>10.92</td><td>5, 800</td><td>18</td><td>do</td><td>2.19</td><td>470</td></tr><tr><td>30</td><td>do</td><td>12.22</td><td>6, 860</td><td>20</td><td>W. V. Hardy</td><td>1.64</td><td>282</td></tr><tr><td>June 1</td><td>do</td><td>13.20</td><td>7, 720</td><td>28</td><td>do</td><td>1.12</td><td>166</td></tr><tr><td>9</td><td>do</td><td>5.02</td><td>1, 930</td><td>Sept. 3</td><td>do</td><td>.90</td><td>129</td></tr><tr><td>July 25</td><td>Lasley Lee</td><td>4.59</td><td>1, 600</td><td>11</td><td>Lasley Lee</td><td>.51</td><td>76</td></tr><tr><td>25</td><td>R. C. Rice</td><td>4.17</td><td>1,400</td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## TUOLUMNE RIVER AT HETCH HETCHY CABIN, NEAR SEQUOIA, CAL. (cont.)\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>May 8</td><td>Lasley Lee</td><td>7.32</td><td>3, 360</td><td>July 29</td><td>Lasley Lee</td><td>3. 80</td><td>,140</td></tr><tr><td>16</td><td>do</td><td>8.68</td><td>270</td><td>30</td><td>do</td><td>3.63</td><td>1,050</td></tr><tr><td>24</td><td>W. V. Hardy</td><td>6.75</td><td>2, 950</td><td>Aug. 1</td><td>do</td><td>3. 43</td><td>950</td></tr><tr><td>26</td><td>do</td><td>5.60</td><td>2, 220</td><td>9</td><td>R. C. Rice</td><td>3.08</td><td>827</td></tr><tr><td>28</td><td>do</td><td>9.50</td><td>4, 760</td><td>13</td><td>Lasley Lee</td><td>2.75</td><td>664</td></tr><tr><td>29</td><td>do</td><td>10.92</td><td>5, 800</td><td>18</td><td>do</td><td>2.19</td><td>470</td></tr><tr><td>30</td><td>do</td><td>12.22</td><td>6, 860</td><td>20</td><td>W. V. Hardy</td><td>1.64</td><td>282</td></tr><tr><td>June 1</td><td>do</td><td>13.20</td><td>7, 720</td><td>28</td><td>do</td><td>1.12</td><td>166</td></tr><tr><td>9</td><td>do</td><td>5.02</td><td>1, 930</td><td>Sept. 3</td><td>do</td><td>.90</td><td>129</td></tr><tr><td>July 25</td><td>Lasley Lee</td><td>4.59</td><td>1, 600</td><td>11</td><td>Lasley Lee</td><td>.51</td><td>76</td></tr><tr><td>25</td><td>R. C. Rice</td><td>4.17</td><td>1,400</td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.030663742896684946,
+                            "top": 0.7524953592195127,
+                            "width": 0.8330588558724916,
+                            "height": 0.17861389549791118,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>May 8</td><td>Lasley Lee</td><td>7.32</td><td>3, 360</td><td>July 29</td><td>Lasley Lee</td><td>3. 80</td><td>,140</td></tr><tr><td>16</td><td>do</td><td>8.68</td><td>270</td><td>30</td><td>do</td><td>3.63</td><td>1,050</td></tr><tr><td>24</td><td>W. V. Hardy</td><td>6.75</td><td>2, 950</td><td>Aug. 1</td><td>do</td><td>3. 43</td><td>950</td></tr><tr><td>26</td><td>do</td><td>5.60</td><td>2, 220</td><td>9</td><td>R. C. Rice</td><td>3.08</td><td>827</td></tr><tr><td>28</td><td>do</td><td>9.50</td><td>4, 760</td><td>13</td><td>Lasley Lee</td><td>2.75</td><td>664</td></tr><tr><td>29</td><td>do</td><td>10.92</td><td>5, 800</td><td>18</td><td>do</td><td>2.19</td><td>470</td></tr><tr><td>30</td><td>do</td><td>12.22</td><td>6, 860</td><td>20</td><td>W. V. Hardy</td><td>1.64</td><td>282</td></tr><tr><td>June 1</td><td>do</td><td>13.20</td><td>7, 720</td><td>28</td><td>do</td><td>1.12</td><td>166</td></tr><tr><td>9</td><td>do</td><td>5.02</td><td>1, 930</td><td>Sept. 3</td><td>do</td><td>.90</td><td>129</td></tr><tr><td>July 25</td><td>Lasley Lee</td><td>4.59</td><td>1, 600</td><td>11</td><td>Lasley Lee</td><td>.51</td><td>76</td></tr><tr><td>25</td><td>R. C. Rice</td><td>4.17</td><td>1,400</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,55 @@
+```json
+[
+    {
+        "Watersource_Name": "Kaweah River near Three Rivers",
+        "County": "Tulare",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 36.4167,
+        "Longitude": -119.5,
+        "Dates_of_Recording": [
+            {"Year": 1902, "Month": "October"},
+            {"Year": 1903, "Month": "November"},
+            {"Year": 1904, "Month": "December"},
+            {"Year": 1935, "Month": "January"},
+            {"Year": 1906, "Month": "February"},
+            {"Year": 1907, "Month": "March"},
+            {"Year": 1908, "Month": "April"},
+            {"Year": 1909, "Month": "May"},
+            {"Year": 1910, "Month": "June"},
+            {"Year": 1911, "Month": "July"},
+            {"Year": 1912, "Month": "August"},
+            {"Year": 1913, "Month": "September"},
+            {"Year": 1914, "Month": "October"},
+            {"Year": 1915, "Month": "November"},
+            {"Year": 1916, "Month": "December"},
+            {"Year": 1917, "Month": "January"},
+            {"Year": 1918, "Month": "February"},
+            {"Year": 1919, "Month": "March"},
+            {"Year": 1920, "Month": "April"},
+            {"Year": 1921, "Month": "May"},
+            {"Year": 1922, "Month": "June"},
+            {"Year": 1923, "Month": "July"},
+            {"Year": 1924, "Month": "August"},
+            {"Year": 1925, "Month": "September"}
+        ],
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Kaweah River at McKay Point, near Lemon Cove",
+        "County": "Tulare",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 36.35,
+        "Longitude": -119.1,
+        "Dates_of_Recording": [
+            {"Year": 1918, "Month": "October"},
+            {"Year": 1919, "Month": "November"},
+            {"Year": 1920, "Month": "December"}
+        ],
+        "Water_Type": "Stream Discharge"
+    }
+]
+```

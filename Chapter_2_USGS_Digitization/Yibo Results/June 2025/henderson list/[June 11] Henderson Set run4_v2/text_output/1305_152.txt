@@ -1,0 +1,40 @@
+```json
+[
+    {
+        "Watersource_Name": "El Monte ranch, El Cajon land grant (Cape Horn), Lakeside",
+        "County": "San Diego",
+        "Location": "Lakeside, California",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Variable intervals within years 1913-1916",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 32.8301,
+        "Longitude": -116.9688,
+        "Dates_of_Recording": "12/12/1913-06/12/1916",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Cuyamaca Water Co., El Cajon land grant (Cape Horn), Lakeside",
+        "County": "San Diego",
+        "Location": "Lakeside, California",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Variable intervals within years 1919-1920",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 32.8301,
+        "Longitude": -116.9688,
+        "Dates_of_Recording": "10/21/1919-11/12/1920",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Gay estate, El Cajon land grant, Lakeside",
+        "County": "San Diego",
+        "Location": "Lakeside, California",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Variable intervals within years 1915-1920",
+        "Units_Of_Measurement": "Feet and inches",
+        "Latitude": 32.8301,
+        "Longitude": -116.9688,
+        "Dates_of_Recording": "08/02/1915-11/17/1920",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

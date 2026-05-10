@@ -1,0 +1,21 @@
+```json
+[
+    {
+        "Watersource_Name": "Merced River",
+        "County": "Mariposa",
+        "Location": "Yosemite Valley, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily for 1907 and 1908; specific dates in 1906-1908 for discharge measurements",
+        "Units_Of_Measurement": {
+            "Width": "Feet",
+            "Area_of_section": "Square Feet",
+            "Gage_height": "Feet",
+            "Discharge": "Second-feet (Sec.-ft.)"
+        },
+        "Latitude": 37.7412,
+        "Longitude": -119.5976,
+        "Dates_of_Recording": "01/01/1907-12/31/1908",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

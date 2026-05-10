@@ -1,0 +1,34 @@
+```json
+[
+    {
+        "Watersource_Name": "Middle Fork of Kaweah River near Hammond",
+        "County": "Tulare County",
+        "Location": "Near Hammond, SE 1/4 sec. 27, T. 17 S., R. 28 E.",
+        "Townships_Ranges_Sections": ["T. 17 S., R. 28 E., sec. 27"],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Gage height": "Feet",
+            "Discharge": "Second-feet"
+        },
+        "Latitude": 36.2189,
+        "Longitude": -118.9106,
+        "Dates_of_Recording": "07/20/1913-10/16/1914",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Kaweah River near Three Rivers",
+        "County": "Tulare County",
+        "Location": "SE 1/4 sec. 27, T. 17 S., R. 28 E., J. O. Carter ranch",
+        "Townships_Ranges_Sections": ["T. 17 S., R. 28 E., sec. 27"],
+        "Temporal_Resolution": "Various dates in 1913",
+        "Units_Of_Measurement": {
+            "Gage height": "Feet",
+            "Discharge": "Second-feet"
+        },
+        "Latitude": 36.2028,
+        "Longitude": -118.9197,
+        "Dates_of_Recording": "04/11/1913-09/30/1913",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

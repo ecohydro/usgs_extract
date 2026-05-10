@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "Watersource_Name": "Haines Creek near Tujunga",
+        "County": "Los Angeles",
+        "Location": "Near Tujunga, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Gage Height": "Feet",
+            "Discharge": "Second-feet"
+        },
+        "Latitude": 34.2167,
+        "Longitude": -118.0069,
+        "Dates_of_Recording": "01/21/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

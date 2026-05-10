@@ -1,0 +1,238 @@
+{
+    "job_id": "514c3a6f-d6f6-44bc-bfc8-4d8d5bcbed74",
+    "duration": 5.580174207687378,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/13d39699-c91c-499d-bbbe-48af2fa2afeb?AWSAccessKeyId=ASIA2UOK6OVBHC7YJDUA&Signature=HatR9z42XKpPh2FULltbl78tlFM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJIMEYCIQCGcars4AdKcje7L2BFIHm3fRqKha0PmnsMtBrJHiUnGwIhAOU5owpGIi9poaEw%2Fs1tTzj7mFIPNMvkS7KMRXd%2FxjATKosFCCMQABoMNzMxMTA2OTMyMDM0Igz2s6k7eCj2zfMC6OIq6ASVVnR7nPJwNtEYNdqiDM5LHCJDs9P8KeLJjTohKyS%2Fvr8iFLgpZuAI9SCl4Qg3OvJI99UcUn2YCFvSiMaD%2Fl7ACU3ne%2FcUvMm%2B9W3SGeYdNJ3XInzu6npSuOIsMOMO5WH5C8%2BFXJx5Fs1U3GXkGUnyrOhlJDPduurg9%2BqLi7w%2BvBT%2FwhH0uAxotT6ROKucKjclgQ0HyjNmtoUqu%2FpqrOoqaDcEE7HMj1qhxokyw%2FLZtq%2BW2ndHLGOnHFbSZMC57YijFeWCEKGHSUggs95Bw16e4YIo0zuKaU9oPHkHY8n3C%2FfwCd0JNC%2BIq3c9yqcpwwWz4yqIF1tgThaz2qItHMPj0qFGA2uVAezsrgWd1QPuipZ2cxoLuXyM663sQrS%2By4vHrBBEjRqAynekZWTgN5MHIjk%2FvaPwZ6Tobfd%2BHKkaHeNg4B9gUqEhqIw%2F3Dvi2uZuEm4s6LGeFzK7nBiXbzZVqBmzZ3ngUXnwVUqMU0DDP6ZtTsIiQh8i3qoAssBVXMvJcJ%2Fz11Q8qx1fcigqIIBqpeD1ly%2FebJJL%2FhXSk6AfQntMRkeS%2Fn2mfAh0zMEB1X8wSi6fMusTrV5O9yjzJNJUx0PXW1fr2QIAuh8NkorrxzPI4zj%2BZhSEcG1n3sp6PrVNWYDNDZ%2BaczH4EwGhQcp6zRIv64zniUY22FrxJ5rIHk9nHKL4darsrH7FuhYsRz9vTeuPDnD6nL6zdFJe2OUpzQ6Zq7jyXMeUpA3z1tWq75pu6b5Qbys041oDYk7iPe%2FVfSvsl7CO73YJMuCv89WHTNH9QZXautNsdFImkBc0UT93bvCmnR1aMNGzyboGOpoBhav%2ByalAUNhX%2FKyQfWN5uefBW%2FwEDNlKwYQocG9FjnAtyX%2BhMjqW01AcpRwKL1LQUx9hO0CsxH%2BZIr%2Fxa7WOKgijLhcEEB1hFsG6rmmONvtqRJwfBeBKKrVpJG%2BrNceR2mP2Mtd7p74tH20GztRTzfVjNmpat2fMBCpcRO4jCCUG2%2BG0mQdFksK2gIVLPhbmx2wnYmtMgCEodA%3D%3D&Expires=1733454843",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN DIEGO RIVER BASIN\n\nMonthly discharge of Boulder Creek near Lakeside, Calif., for the year ending September 30, 1925",
+                "embed": "# SAN DIEGO RIVER BASIN\n\nMonthly discharge of Boulder Creek near Lakeside, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3417643429981493,
+                            "top": 0.04731505820503192,
+                            "width": 0.2825416409623689,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "SAN DIEGO RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8605798889574336,
+                            "top": 0.04280886218550507,
+                            "width": 0.02961135101789019,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "15",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09808760024676126,
+                            "top": 0.07660533233195645,
+                            "width": 0.770512029611351,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Boulder Creek near Lakeside, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGO RIVER BASIN (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>11</td><td>2.8</td><td>5.92</td><td>364</td></tr><tr><td>November</td><td>12</td><td>.8</td><td>3.90</td><td>282</td></tr><tr><td>December</td><td>59</td><td>1.3</td><td>6.74</td><td>414</td></tr><tr><td>January</td><td>2.5</td><td>1.5</td><td>1.68</td><td>103</td></tr><tr><td>February</td><td>7. 5</td><td>1.5</td><td>2.45</td><td>136</td></tr><tr><td>March</td><td>13</td><td>1.0</td><td>4.37</td><td>269</td></tr><tr><td>April</td><td>81</td><td>2.2</td><td>15.8</td><td>940</td></tr><tr><td>May</td><td>10</td><td>.8</td><td>3.44</td><td>212</td></tr><tr><td>June</td><td>11</td><td>.6</td><td>2.12</td><td>126</td></tr><tr><td>July</td><td>7.5</td><td>.4</td><td>2.11</td><td>130</td></tr><tr><td>August</td><td>12</td><td>.8</td><td>2.64</td><td>162</td></tr><tr><td>September</td><td>13</td><td>.8</td><td>3.34</td><td>199</td></tr><tr><td>The year</td><td>81</td><td>.4</td><td>4.54</td><td>3,290</td></tr></table>",
+                "embed": "# SAN DIEGO RIVER BASIN (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>11</td><td>2.8</td><td>5.92</td><td>364</td></tr><tr><td>November</td><td>12</td><td>.8</td><td>3.90</td><td>282</td></tr><tr><td>December</td><td>59</td><td>1.3</td><td>6.74</td><td>414</td></tr><tr><td>January</td><td>2.5</td><td>1.5</td><td>1.68</td><td>103</td></tr><tr><td>February</td><td>7. 5</td><td>1.5</td><td>2.45</td><td>136</td></tr><tr><td>March</td><td>13</td><td>1.0</td><td>4.37</td><td>269</td></tr><tr><td>April</td><td>81</td><td>2.2</td><td>15.8</td><td>940</td></tr><tr><td>May</td><td>10</td><td>.8</td><td>3.44</td><td>212</td></tr><tr><td>June</td><td>11</td><td>.6</td><td>2.12</td><td>126</td></tr><tr><td>July</td><td>7.5</td><td>.4</td><td>2.11</td><td>130</td></tr><tr><td>August</td><td>12</td><td>.8</td><td>2.64</td><td>162</td></tr><tr><td>September</td><td>13</td><td>.8</td><td>3.34</td><td>199</td></tr><tr><td>The year</td><td>81</td><td>.4</td><td>4.54</td><td>3,290</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0701764840391372,
+                            "top": 0.11620682341417692,
+                            "width": 0.8232027415064365,
+                            "height": 0.21619920949044194,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>11</td><td>2.8</td><td>5.92</td><td>364</td></tr><tr><td>November</td><td>12</td><td>.8</td><td>3.90</td><td>282</td></tr><tr><td>December</td><td>59</td><td>1.3</td><td>6.74</td><td>414</td></tr><tr><td>January</td><td>2.5</td><td>1.5</td><td>1.68</td><td>103</td></tr><tr><td>February</td><td>7. 5</td><td>1.5</td><td>2.45</td><td>136</td></tr><tr><td>March</td><td>13</td><td>1.0</td><td>4.37</td><td>269</td></tr><tr><td>April</td><td>81</td><td>2.2</td><td>15.8</td><td>940</td></tr><tr><td>May</td><td>10</td><td>.8</td><td>3.44</td><td>212</td></tr><tr><td>June</td><td>11</td><td>.6</td><td>2.12</td><td>126</td></tr><tr><td>July</td><td>7.5</td><td>.4</td><td>2.11</td><td>130</td></tr><tr><td>August</td><td>12</td><td>.8</td><td>2.64</td><td>162</td></tr><tr><td>September</td><td>13</td><td>.8</td><td>3.34</td><td>199</td></tr><tr><td>The year</td><td>81</td><td>.4</td><td>4.54</td><td>3,290</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGO RIVER BASIN (cont.)\n\n## CUYAMACA WATER CO.'S FLUME NEAR LAKESIDE, CALIF.\n\nLOCATION.-At patrolman's cabin, half a. mile above trestle crossing at Los Coches Creek, 3 miles southeast of Lakeside, San Diego County, and 20 miles below intake on San Diego River.\n\n- RECORDS AVAILABLE. - January 1, 1907, to September 30, 1925.\n\nGAGE.-Vertical staff in a stilling box fastened to outside of flume just below patrolman's cabin; read by an employee of Cuyamaca Water Co.\n\nDISCHARGE MEASUREMENTS.-Made from plank across flume near gage. CHANNEL AND CONTROL.-In fall of 1914 the flume was deepened 8 inches and\n\nmore tar-paper lining was put in. Capacity of flume was slightly increased as a result of repairs made December 1-19, 1917, December 7-19, 1918, and considerably increased after relining in later part of 1921.\n\nEXTREMES OF DISCHARGE.-1907-1925: Maximum mean daily discharge, 31 second-feet June 13, 1922. No flow at times nearly every year.\n\nACCURACY.-Stage-discharge relation continually shifting. Rating curves fairly well defined. Staff gage read to hundredths three times a day. Daily dis- charge ascertained by shifting-control method. Records fair.\n\nCOOPERATION.-Gage-heigh record and results of discharge measurements fur- nished by Cuyamaca Water Co., Ed Fletcher, manager.\n\nCuyamaca Water Co.'s flume diverts from San Diego River and South Fork of San Diego River. It discharges into Murray (formerly La Mesa) Reservoir, about 8 miles northeast of San Diego, through La Mesa ditch. It supplies water for irrigation and domestic use in and near San Diego. The Capitan Grande Indian Reservation has a water right of 0.8 second-foot from this flume.",
+                "embed": "# SAN DIEGO RIVER BASIN (cont.)\n\n## CUYAMACA WATER CO.'S FLUME NEAR LAKESIDE, CALIF.\n\nLOCATION.-At patrolman's cabin, half a. mile above trestle crossing at Los Coches Creek, 3 miles southeast of Lakeside, San Diego County, and 20 miles below intake on San Diego River.\n\n- RECORDS AVAILABLE. - January 1, 1907, to September 30, 1925.\n\nGAGE.-Vertical staff in a stilling box fastened to outside of flume just below patrolman's cabin; read by an employee of Cuyamaca Water Co.\n\nDISCHARGE MEASUREMENTS.-Made from plank across flume near gage. CHANNEL AND CONTROL.-In fall of 1914 the flume was deepened 8 inches and\n\nmore tar-paper lining was put in. Capacity of flume was slightly increased as a result of repairs made December 1-19, 1917, December 7-19, 1918, and considerably increased after relining in later part of 1921.\n\nEXTREMES OF DISCHARGE.-1907-1925: Maximum mean daily discharge, 31 second-feet June 13, 1922. No flow at times nearly every year.\n\nACCURACY.-Stage-discharge relation continually shifting. Rating curves fairly well defined. Staff gage read to hundredths three times a day. Daily dis- charge ascertained by shifting-control method. Records fair.\n\nCOOPERATION.-Gage-heigh record and results of discharge measurements fur- nished by Cuyamaca Water Co., Ed Fletcher, manager.\n\nCuyamaca Water Co.'s flume diverts from San Diego River and South Fork of San Diego River. It discharges into Murray (formerly La Mesa) Reservoir, about 8 miles northeast of San Diego, through La Mesa ditch. It supplies water for irrigation and domestic use in and near San Diego. The Capitan Grande Indian Reservation has a water right of 0.8 second-foot from this flume.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2325724861196792,
+                            "top": 0.3481036425084491,
+                            "width": 0.5027760641579272,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "CUYAMACA WATER CO.'S FLUME NEAR LAKESIDE, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06971005552128316,
+                            "top": 0.36950807360120164,
+                            "width": 0.8204811844540407,
+                            "height": 0.04656402553511078,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-At patrolman's cabin, half a. mile above trestle crossing at Los Coches Creek, 3 miles southeast of Lakeside, San Diego County, and 20 miles below intake on San Diego River.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06971005552128316,
+                            "top": 0.4175741644761547,
+                            "width": 0.6415792720542874,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE. - January 1, 1907, to September 30, 1925.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06909315237507711,
+                            "top": 0.43221930153961696,
+                            "width": 0.8210980876002467,
+                            "height": 0.031167855801727377,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Vertical staff in a stilling box fastened to outside of flume just below patrolman's cabin; read by an employee of Cuyamaca Water Co.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06909315237507711,
+                            "top": 0.46488922268118665,
+                            "width": 0.8198642813078346,
+                            "height": 0.028914757791963952,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from plank across flume near gage. CHANNEL AND CONTROL.-In fall of 1914 the flume was deepened 8 inches and",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.49530604581299287,
+                            "width": 0.7723627390499691,
+                            "height": 0.04656402553511078,
+                            "page": 1
+                        },
+                        "content": "more tar-paper lining was put in. Capacity of flume was slightly increased as a result of repairs made December 1-19, 1917, December 7-19, 1918, and considerably increased after relining in later part of 1921.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06847624922887106,
+                            "top": 0.5429966203529853,
+                            "width": 0.8198642813078346,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-1907-1925: Maximum mean daily discharge, 31 second-feet June 13, 1922. No flow at times nearly every year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06909315237507711,
+                            "top": 0.5745399924896732,
+                            "width": 0.8198642813078346,
+                            "height": 0.046188509200150205,
+                            "page": 1
+                        },
+                        "content": "ACCURACY.-Stage-discharge relation continually shifting. Rating curves fairly well defined. Staff gage read to hundredths three times a day. Daily dis- charge ascertained by shifting-control method. Records fair.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06909315237507711,
+                            "top": 0.6218550506947053,
+                            "width": 0.8210980876002467,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.-Gage-heigh record and results of discharge measurements fur- nished by Cuyamaca Water Co., Ed Fletcher, manager.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06785934608266501,
+                            "top": 0.6597822005257229,
+                            "width": 0.8210980876002467,
+                            "height": 0.07698084866691701,
+                            "page": 1
+                        },
+                        "content": "Cuyamaca Water Co.'s flume diverts from San Diego River and South Fork of San Diego River. It discharges into Murray (formerly La Mesa) Reservoir, about 8 miles northeast of San Diego, through La Mesa ditch. It supplies water for irrigation and domestic use in and near San Diego. The Capitan Grande Indian Reservation has a water right of 0.8 second-foot from this flume.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGO RIVER BASIN (cont.)\n\n## CUYAMACA WATER CO.'S FLUME NEAR LAKESIDE, CALIF. (cont.)\n\nDischarge- measurements of Cuyamaca Water Co.'s flume near Lakeside, Calif., during the year ending September 30, 1925\n\n<table><tr><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th></tr><tr><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td></tr><tr><td>Oct. 23</td><td>0.85</td><td>6.5</td><td>Apr. 5</td><td>1.59</td><td>21</td><td>July 29</td><td>1.25</td><td>7.7</td></tr><tr><td>Nov. 30</td><td>.62</td><td>2.5</td><td>Apr. 12</td><td>1.61</td><td>19,9</td><td>Aug. 15</td><td>1.06</td><td>7.4</td></tr><tr><td>Jan. 11</td><td>.63</td><td>2.8</td><td>Apr. 26</td><td>1.61</td><td>19.8</td><td>Sept. 12</td><td>1.05</td><td>8.7</td></tr><tr><td>Feb. 15</td><td>.80</td><td>4. 0</td><td>May 17</td><td>1.19</td><td>10. 1</td><td></td><td></td><td></td></tr><tr><td>Mar. 28</td><td>.86</td><td>7. 0</td><td>June 28</td><td>1.22</td><td>9.6</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# SAN DIEGO RIVER BASIN (cont.)\n\n## CUYAMACA WATER CO.'S FLUME NEAR LAKESIDE, CALIF. (cont.)\n\nDischarge- measurements of Cuyamaca Water Co.'s flume near Lakeside, Calif., during the year ending September 30, 1925\n\n<table><tr><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th></tr><tr><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td></tr><tr><td>Oct. 23</td><td>0.85</td><td>6.5</td><td>Apr. 5</td><td>1.59</td><td>21</td><td>July 29</td><td>1.25</td><td>7.7</td></tr><tr><td>Nov. 30</td><td>.62</td><td>2.5</td><td>Apr. 12</td><td>1.61</td><td>19,9</td><td>Aug. 15</td><td>1.06</td><td>7.4</td></tr><tr><td>Jan. 11</td><td>.63</td><td>2.8</td><td>Apr. 26</td><td>1.61</td><td>19.8</td><td>Sept. 12</td><td>1.05</td><td>8.7</td></tr><tr><td>Feb. 15</td><td>.80</td><td>4. 0</td><td>May 17</td><td>1.19</td><td>10. 1</td><td></td><td></td><td></td></tr><tr><td>Mar. 28</td><td>.86</td><td>7. 0</td><td>June 28</td><td>1.22</td><td>9.6</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06847624922887106,
+                            "top": 0.7502816372512204,
+                            "width": 0.8186304750154226,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "Discharge- measurements of Cuyamaca Water Co.'s flume near Lakeside, Calif., during the year ending September 30, 1925",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0663950765375588,
+                            "top": 0.7891875498732632,
+                            "width": 0.8244599066421914,
+                            "height": 0.11934827746549943,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th></tr><tr><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td></tr><tr><td>Oct. 23</td><td>0.85</td><td>6.5</td><td>Apr. 5</td><td>1.59</td><td>21</td><td>July 29</td><td>1.25</td><td>7.7</td></tr><tr><td>Nov. 30</td><td>.62</td><td>2.5</td><td>Apr. 12</td><td>1.61</td><td>19,9</td><td>Aug. 15</td><td>1.06</td><td>7.4</td></tr><tr><td>Jan. 11</td><td>.63</td><td>2.8</td><td>Apr. 26</td><td>1.61</td><td>19.8</td><td>Sept. 12</td><td>1.05</td><td>8.7</td></tr><tr><td>Feb. 15</td><td>.80</td><td>4. 0</td><td>May 17</td><td>1.19</td><td>10. 1</td><td></td><td></td><td></td></tr><tr><td>Mar. 28</td><td>.86</td><td>7. 0</td><td>June 28</td><td>1.22</td><td>9.6</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

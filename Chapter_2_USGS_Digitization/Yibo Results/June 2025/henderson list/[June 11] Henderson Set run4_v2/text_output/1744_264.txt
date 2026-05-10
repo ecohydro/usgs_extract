@@ -1,0 +1,26 @@
+```json
+{
+    "Watersource_Name": "Rubicon River",
+    "County": "Plumas County",
+    "Location": "near Quintette, California",
+    "Townships_Ranges_Sections": ["T. 13 N., R. 14 E., sec. 24"],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "second-feet",
+    "Latitude": 40.066,
+    "Longitude": -120.9,
+    "Dates_of_Recording": "10/01/1914-09/30/1915",
+    "Water_Type": "Stream discharge"
+},
+{
+    "Watersource_Name": "Little South Fork of Rubicon River",
+    "County": "Plumas County",
+    "Location": "at sawmill near Quintette, California",
+    "Townships_Ranges_Sections": ["NW. 1/4 NW. 1/4 sec. 24, T. 13 N., R. 14 E."],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": "second-feet",
+    "Latitude": 40.083,
+    "Longitude": -120.92,
+    "Dates_of_Recording": "02/01/1910-07/04/1914",
+    "Water_Type": "Stream discharge"
+}
+```

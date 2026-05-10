@@ -1,0 +1,15 @@
+```json
+[
+    {
+        "Watersource_Name": "Groundwater",
+        "County": "Pajaro Valley",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Annual (May 1 - April 30)",
+        "Units_Of_Measurement": "Acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1963-04-30", "1964-04-30", "1965-04-30", "1966-04-30", "1967-04-30", "1968-04-30", "1969-04-30"],
+        "Water_Type": "Groundwater"
+    }
+]
+```

@@ -1,0 +1,205 @@
+,ID,PAGE_NUMBER,Latitude,Longitude,Location,Townships_Ranges_Sections,Watersource_Name,County,Dates_of_Recording,Temporal_Resolution,Units_Of_Measurement,Water_Type
+0,1568,390,36.3167,-118.4167,200 feet below Evolution Lake,[],Evolution Creek,Tulare County,08/23/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+1,1568,390,36.3333,-118.4167,"['2,500 feet above French Canyon Creek', '2,000 feet below French Canyon Creek']",[],Piute Creek,Tulare County,08/20/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+2,1568,390,36.3333,-118.4167,400 feet below Muriel Lake,[],Outlet of Muriel Lake,Tulare County,08/21/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+3,1568,390,36.3333,-118.4167,"2,500 feet below Desolation Lake",[],Outlet of Desolation Lake,Tulare County,08/21/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+4,1568,390,36.3333,-118.4167,"1,800 feet below Heart Lake",[],Outlet of Heart Lake,Tulare County,08/18/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+5,1568,390,36.3333,-118.4167,700 feet below outlet of second lake below Heart Lake,[],Outlet of unnamed lake,Tulare County,08/18/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+6,1568,390,36.3333,-118.4167,"At trail crossing, 1,000 feet above mouth",[],Hooper Creek,Tulare County,10/19/1925-02/25/1926,1 month,Sec.-ft.,Stream discharge
+7,1568,390,36.3333,-118.4167,"['200 feet below Hilgard Branch', '900 feet below Lake Italy']",[],Bear Creek,Tulare County,08/19/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+8,1568,390,36.3333,-118.4167,400 feet below Marie Lake,[],Outlet of Marie Lake,Tulare County,08/18/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+9,1568,390,36.3333,-118.4167,1 mile below Rose Lake and 400 feet above creek from Marie Lake,[],Outlet of Rose Lake,Tulare County,08/19/1925-09/30/1925,1 day,Sec.-ft.,Stream discharge
+10,1568,390,36.3333,-118.4167,"At Cassidy Meadow trail, elevation about 6,500 feet",[],Rube Creek,Tulare County,03/02/1925-09/06/1925,1 month,Sec.-ft.,Stream discharge
+11,1568,390,36.3333,-118.4167,100 feet above mouth,[],Dike Creek,Tulare County,11/03/1925-09/13/1925,1 month,Sec.-ft.,Stream discharge
+12,1568,390,36.3333,-118.4167,75 feet above mouth,[],Cora Lakes Creek,Tulare County,11/03/1925-09/04/1925,1 month,Sec.-ft.,Stream discharge
+13,1568,390,36.7833,-118.25,"At site of former gaging station called West Fork of Granite Creek near Cattle Mountain, elevation about 6,700 feet",[],West Fork of Granite Creek,Fresno County,11/06/1925-09/04/1926,1 week,"['Feet', 'Sec.-ft.']",Stream discharge
+14,1568,390,36.8,-118.5,"About 500 feet above mouth, near Johnson Meadows",[],Mugler Creek,Fresno County,10/06/1925-09/11/1925,1 month,Sec.-ft.,Stream discharge
+15,1326,69,40.597,-124.092,"About 0.5 mile northwest of Loleta, 75 feet southwest of Copenhagen Road, 35 feet southeast of Table Bluff Hill Road",['3N/1W-18D'],O. Christensen Well 1,Humboldt County,06/08/1951-05/25/1955,Variable intervals between dates ranging from a few months to over a year,Feet above land-surface datum,Groundwater well
+16,1326,69,40.597,-124.092,"About 0.5 mile northwest of Loleta, 115 feet southeast of Table Bluff Hill Road, 60 feet southwest of Copenhagen Road, in the southwest corner of garage part of long shed facing Copenhagen Road",['3N/1W-18D'],O. Christensen Well 2,Humboldt County,06/08/1951-08/23/1955,Variable intervals between dates ranging from a few months to over a year,Feet above land-surface datum,Groundwater well
+17,1326,69,40.623,-124.168,"About 2.5 miles west of Fortuna, 130 feet north of Ferndale Road, 25 feet east of a northward-trending fence",['3N/1W-32C'],Fred Bahnsen Irrigation Well,Humboldt County,06/09/1951-08/23/1955,Variable intervals between dates ranging from a few months to over a year,Feet above land-surface datum,Irrigation
+18,1326,69,40.641,-124.143,"In Fortuna, 70 feet east of 7th Street, 35 feet north of K Street, 10 feet south of a large wood storage tank",['3N/1W-34J'],City of Fortuna Unused Well,Humboldt County,06/08/1951-08/29/1953,Variable intervals between dates ranging from a few months to over a year,Feet above land-surface datum,Groundwater well
+19,1568,260,,,"Fall River Mills, Calif.","['T. 36 N., R. 2 E., sec. 9']",Pit River at Fall River Mills,Shasta County,10/01/1925-09/30/1926,Monthly,"{'Discharge': 'second-feet', 'Run-off': 'acre-feet'}",Stream discharge
+20,1568,260,,,"Half a mile above Lindsay Flat, 3 miles below mouth of Rock Creek and 11 miles below Pecks Bridge","['T. 36 N., R. 2 E., sec. 9']",Pit River at Lindsay Flat,Shasta County,11/01/1922-09/30/1925,Daily,"{'Stage': 'feet', 'Discharge': 'second-feet'}",Stream discharge
+21,1568,94,34.1379,-117.9995,"near Monrovia, California",[],Sawpit Creek near Monrovia,Los Angeles,10/01/1925-09/30/1926,Daily and Monthly,"{'Discharge': 'second-feet', 'Run-off': 'acre-feet'}",Stream discharge
+22,1136,209,39.505,-121.529,"Oroville, California",,Feather River at Oroville,Butte County,"01/01/1906-03/25/1907, 03/26/1907-12/31/1907","Daily to monthly measurements between January 1, 1906, and December 31, 1907","{'Gage_height': 'Feet', 'Discharge': 'Sec.-ft'}",Stream discharge
+23,1568,145,36.5,-118.5,"California, USA",[],North Fork of Kings River below Meadow Brook,Tulare County,10/18/1924-09/29/1925,Daily,"{'Gage height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+24,1606,202,37.3667,-118.9833,"SW1 sec. 35, T. 6 S. R. 27 E., (unsurveyed)","['T. 6 S. R. 27 E.', 'Sec. 35']",Mono Creek near Vermilion Valley,Inyo County,11/01/1921-09/30/1938,Daily,Second-feet,Stream discharge
+25,1276,230,33.605,-114.727,"Near Blythe, Calif.",[],Colorado River,Riverside County,10/01/1930-09/30/1935,Monthly,"{'Discharge': 'second-feet', 'Runoff': 'acre-feet'}",Stream discharge
+26,1305,152,32.8301,-116.9688,"Lakeside, California",,"El Monte ranch, El Cajon land grant (Cape Horn), Lakeside",San Diego,12/12/1913-06/12/1916,Variable intervals within years 1913-1916,Feet and inches,Groundwater well
+27,1305,152,32.8301,-116.9688,"Lakeside, California",,"Cuyamaca Water Co., El Cajon land grant (Cape Horn), Lakeside",San Diego,10/21/1919-11/12/1920,Variable intervals within years 1919-1920,Feet and inches,Groundwater well
+28,1305,152,32.8301,-116.9688,"Lakeside, California",,"Gay estate, El Cajon land grant, Lakeside",San Diego,08/02/1915-11/17/1920,Variable intervals within years 1915-1920,Feet and inches,Groundwater well
+29,1147,201,37.3394,-121.8947,"San Jose, California",[],J. C. Booth Wells,Santa Clara County,"01/12/1914-02/03/1914, 03/03/1914-04/01/1914, 05/06/1914-07/13/1914, 08/02/1914-10/10/1914, 11/08/1914-12/05/1914, 01/04/1915-03/08/1915, 04/15/1915-05/16/1915",Approximately monthly,Feet,Groundwater well
+30,1147,201,37.3394,-121.8947,"San Jose, California",[],Nellie Clements Well,Santa Clara County,01/08/1914-01/08/1914,Single measurement on 01/08/1914,Feet,Groundwater well
+31,1147,201,37.3394,-121.8947,"San Jose, California",[],H. Menzel Wells,Santa Clara County,"01/10/1914-01/30/1914, 03/07/1914-04/18/1914, 06/22/1914-08/03/1914, 09/20/1914-10/18/1914, 12/04/1914-12/04/1914, 03/09/1915-05/20/1915",Approximately monthly,Feet,Groundwater well
+32,1147,201,37.3394,-121.8947,"San Jose, California",[],A. R. Denike Wells,Santa Clara County,01/10/1914-01/10/1914,Single measurement on 01/10/1914,Feet,Groundwater well
+33,1147,201,37.3394,-121.8947,"San Jose, California",[],J. O. Hansen Wells,Santa Clara County,"01/10/1914-02/01/1914, 03/02/1914-04/03/1914, 05/01/1914-06/03/1914, 07/05/1914-08/01/1914, 09/02/1914-10/25/1914, 12/07/1914-03/08/1915",Approximately monthly,Feet,Groundwater well
+34,1147,201,37.3394,-121.8947,"San Jose, California",[],Frank Joseph Well,Santa Clara County,"1913-1913, 01/10/1914-01/10/1914",Multiple measurements (1913 and 01/10/1914),Feet,Groundwater well
+35,1147,201,37.3394,-121.8947,"San Jose, California",[],W. A. Pyle Well,Santa Clara County,01/10/1914-01/10/1914,Single measurement on 01/10/1914,Feet,Groundwater well
+36,1147,201,37.3394,-121.8947,"San Jose, California",[],A. Hanson Well,Santa Clara County,01/10/1914-01/10/1914,Single measurement on 01/10/1914,Feet,Groundwater well
+37,1147,201,37.3394,-121.8947,"San Jose, California",[],M. Freitas Well,Santa Clara County,04/23/1915-04/23/1915,Single measurement on 04/23/1915,Feet,Groundwater well
+38,1147,201,37.3394,-121.8947,"San Jose, California",[],Louis S. Rameiro Well,Santa Clara County,01/28/1914-01/28/1914,Single measurement on 01/28/1914,Feet,Groundwater well
+39,1147,201,37.3394,-121.8947,"San Jose, California",[],B. B. Bradshaw Wells,Santa Clara County,"01/10/1914-01/10/1914, 04/27/1915-04/27/1915",Multiple measurements (01/10/1914 and 04/27/1915),Feet,Groundwater well
+40,1147,201,37.3394,-121.8947,"San Jose, California",[],James Whelan Well,Santa Clara County,01/10/1914-01/10/1914,Single measurement on 01/10/1914,Feet,Groundwater well
+41,1147,201,37.3394,-121.8947,"San Jose, California",[],H. A. Thomas Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+42,1147,201,37.3394,-121.8947,"San Jose, California",[],Howard Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+43,1147,201,37.3394,-121.8947,"San Jose, California",[],George Carraher Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+44,1147,201,37.3394,-121.8947,"San Jose, California",[],L. D. Tibbits & Son Wells,Santa Clara County,04/26/1915-04/26/1915,Multiple measurements (04/26/1915 and 04/26/1915),Feet,Groundwater well
+45,1147,201,37.3394,-121.8947,"San Jose, California",[],W. L. Edwards Wells,Santa Clara County,04/25/1915-04/26/1915,Multiple measurements (04/25/1915 and 04/26/1915),Feet,Groundwater well
+46,1147,201,37.3394,-121.8947,"San Jose, California",[],E. Fuller Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+47,1147,201,37.3394,-121.8947,"San Jose, California",[],L. Dillon Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+48,1147,201,37.3394,-121.8947,"San Jose, California",[],C. W. Stevens Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+49,1147,201,37.3394,-121.8947,"San Jose, California",[],W. H. Farthing Wells,Santa Clara County,04/26/1915-04/26/1915,Multiple measurements (04/26/1915),Feet,Groundwater well
+50,1147,201,37.3394,-121.8947,"San Jose, California",[],A. R. McClony Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+51,1147,201,37.3394,-121.8947,"San Jose, California",[],E. E. Chase Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+52,1147,201,37.3394,-121.8947,"San Jose, California",[],C. M. Brodie Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+53,1147,201,37.3394,-121.8947,"San Jose, California",[],Fred Marten Well,Santa Clara County,04/26/1915-04/26/1915,Single measurement on 04/26/1915,Feet,Groundwater well
+54,1548,295,40.1347,-122.2289,Near Red Bluff,[],Sacramento River near Red Bluff,Tehama County,10/01/1918-09/30/1920,Monthly,"{'Discharge': 'second-feet', 'Run-off': 'acre-feet'}",Stream discharge
+55,1548,295,40.5658,-122.2637,"Sec. 36, T. 37 N., R. 1 W., Big Bend ferry, one-fourth of a mile above Henderson","['T. 37 N., R. 1 W.']","Pit River at Henderson, Calif.",Shasta County,09/28/1910-09/30/1920,Daily (as recorded by Gurley graph water-stage recorder),{'Discharge': 'second-feet'},Stream discharge
+56,1305,23,33.789,-118.287,"half a mile north of Moneta, Redondo quadrangle",[],C. C. Jorgensen well,Los Angeles County,01/27/1910-15/10/1919,Varies between measurements; approximately monthly intervals observed in the data.,Feet and inches (Ft. in.),Groundwater well
+57,1136,185,39.0105,-122.9587,"Below the outlet of Clear Lake, near North Lower Lake",,Cache Creek at Lower Lake,Lake County,01/01/1907-12/31/1908,Daily,feet (for gage height),Stream discharge
+58,1520,58,33.115,-117.082,"NE 1/4 sec. 36, T. 12 S., R. 1 W., at upper end of San Pasqual Valley, about 9 miles southeast of Escondido","['T. 12 S., R. 1 W., sec. 36']",East San Pasqual Ditch,San Diego,"06/09/1912-07/08/1912, 10/01/1912-09/30/1913",Variable (individual measurements),"{'Gage_height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+59,1312,250,,,"NE, Section 23, Range W.2, Township 18 S.","['18S', 'W2', '23']",Well 97,San Diego,,,Feet,Groundwater well
+60,1312,250,,,"NE, Section 24, Range W.2, Township 18 S.","['18S', 'W2', '24']",Well 98,San Diego,,,Feet,Groundwater well
+61,1312,250,,,"NW, Section 20, Range W.1, Township 18 S.","['18S', 'W1', '20']",Well 99,San Diego,,,Feet,Groundwater well
+62,1312,250,,,"grant Dieguito, Section land, Range San, Township 18 S.","['18S', None, None]",Well 102,San Diego,,,Feet,Groundwater well
+63,1312,250,,,"NW, Section 28, Range W.2, Township 18 S.","['18S', 'W2', '28']",Well 103,San Diego,,,Feet,Groundwater well
+64,1312,250,,,"SW, Section 28, Range W.2, Township 18","['18', 'W2', '28']",Well 104,San Diego,,,Feet,Groundwater well
+65,1312,250,,,"SE, Section 28, Range W.2, Township 18 S.","['18S', 'W2', '28']",Well 105,San Diego,,,Feet,Groundwater well
+66,1312,250,,,"NE, Section 32, Range W.2, Township 18 S.","['18S', 'W2', '32']",Well 106,San Diego,,,Feet,Groundwater well
+67,1312,250,,,"SW, Section 27, Range W.2, Township 18 S.","['18S', 'W2', '27']",Well 107,San Diego,,,Feet,Groundwater well
+68,1312,250,,,"SW, Section 33, Range W.2, Township 18 S.","['18S', 'W2', '33']",Well 109,San Diego,,,Feet,Groundwater well
+69,1312,250,,,"NE, Section 33, Range W.2, Township 18 S.","['18S', 'W2', '33']",Well 113,San Diego,,,Feet,Groundwater well
+70,1312,250,,,"NW, Section 34, Range W.2, Township 18 S.","['18S', 'W2', '34']",Well 114,San Diego,,,Feet,Groundwater well
+71,1312,250,,,"NW, Section 34, Range W.2, Township 18 S.","['18S', 'W2', '34']",Well 115,San Diego,,,Feet,Groundwater well
+72,1312,250,,,"SW, Section 33, Range W.2, Township 18 S.","['18S', 'W2', '33']",Well 118,San Diego,,,Feet,Groundwater well
+73,1312,250,,,"NW, Section 4, Range W.2, Township 19 S.","['19S', 'W2', '4']",Well 123,San Diego,,,Feet,Groundwater well
+74,1588,359,,,"{'Townships_Ranges_Sections': ['T. 11 N., R. 15 E., sec. 29'], 'Latitude': 39.0276, 'Longitude': -120.7667}",,El Dorado Canal near Kyburz,Placer County,10/01/1922-09/30/1932,Daily,second-feet,Irrigation
+75,1592,168,36.5167,-118.7167,"half a mile below Meadow Brook and half a mile above Fleming Creek, California","['SEC 1, T. 10 S., R. 28 E.']",NORTH FORK OF KINGS RIVER BELOW MEADOW BROOK,Tulare County,10/01/1921-09/30/1933,Daily,second-feet,Stream discharge
+76,1568,102,34.2167,-118.0069,"Near Tujunga, California",[],Haines Creek near Tujunga,Los Angeles,01/21/1925-09/30/1925,Daily,"{'Gage Height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+77,1744,159,37.6884,-119.725,"near Wawona, Cal.",[],South Fork of Merced River,Mariposa,10/01/1913-09/30/1914,Monthly,Second-feet,Stream discharge
+78,1744,159,37.7455,-119.559,"Near east line of sec. 10, T. 1 N., R. 20 E., in Hetch Hetchy Valley, Yosemite National Park","['T. 1 N., R. 20 E.']",Tuolumne River at Hetch Hetchy Cabin,Mariposa,10/01/1913-09/30/1914,"Recorded periodically during the year ending Sept. 30, 1914",Second-feet,Stream discharge
+79,1305,96,34.1057,-117.2898,"2 miles west of San Bernardino, San Bernardino quadrangle",,Mr. Woodbridge Well,San Bernardino,10/17/1900-05/13/1919,Monthly to yearly (based on data intervals),Feet and inches,Groundwater well
+80,1305,96,34.0747,-117.2094,"12 miles south of San Bernardino, San Bernardino quadrangle",,G. Renwick Well,San Bernardino,10/01/1900-11/17/1916,Monthly to yearly (based on data intervals),Feet and inches,Groundwater well
+81,1256,22,,,eastern slope of the southern Coast Ranges,[],Corral Hollow,Unknown,02/04/1956-02/04/1956,Unknown,"ppm, cfs",Stream discharge
+82,1256,22,,,eastern slope of the southern Coast Ranges,[],Del Puerto,Unknown,01/07/1952-01/07/1952,Unknown,"ppm, cfs",Stream discharge
+83,1256,22,,,eastern slope of the southern Coast Ranges,[],Orestimba,Unknown,04/21/1954-04/21/1954,Unknown,"ppm, cfs",Stream discharge
+84,1256,22,,,eastern slope of the southern Coast Ranges,[],Quinto,Unknown,01/07/1952-01/07/1952,Unknown,"ppm, cfs",Stream discharge
+85,1256,22,,,eastern slope of the southern Coast Ranges,[],Romero,Unknown,01/23/1952-01/23/1952,Unknown,"ppm, cfs",Stream discharge
+86,1256,22,,,eastern slope of the southern Coast Ranges,[],San Luis,Unknown,04/21/1954-04/21/1954,Unknown,"ppm, cfs",Stream discharge
+87,1256,22,,,eastern slope of the southern Coast Ranges,[],Los Banos,Unknown,04/20/1954-04/20/1954,Unknown,"ppm, cfs",Stream discharge
+88,1256,22,,,eastern slope of the southern Coast Ranges,[],Salt (Merced County),Merced County,03/20/1952-03/20/1952,Unknown,"ppm, cfs",Stream discharge
+89,1256,22,,,eastern slope of the southern Coast Ranges,[],Little Panoche,Unknown,01/27/1954-01/27/1954,Unknown,"ppm, cfs",Stream discharge
+90,1256,22,,,eastern slope of the southern Coast Ranges,[],Panoche,Unknown,01/27/1954-01/27/1954,Unknown,"ppm, cfs",Stream discharge
+91,1256,22,,,eastern slope of the southern Coast Ranges,[],Silver,Unknown,09/09/1931-09/09/1931,Unknown,"ppm, cfs",Stream discharge
+92,1256,22,,,eastern slope of the southern Coast Ranges,[],Cantua,Unknown,05/02/1955-05/02/1955,Unknown,"ppm, cfs",Stream discharge
+93,1256,22,,,eastern slope of the southern Coast Ranges,[],Salt (Fresno County),Fresno County,01/21/1952-01/21/1952,Unknown,"ppm, cfs",Stream discharge
+94,1256,22,,,eastern slope of the southern Coast Ranges,[],Domengine,Unknown,03/19/1952-03/19/1952,Unknown,"ppm, cfs",Stream discharge
+95,1256,22,,,eastern slope of the southern Coast Ranges,[],Los Gatos,Unknown,01/28/1953-01/28/1953,Unknown,"ppm, cfs",Stream discharge
+96,1256,22,,,eastern slope of the southern Coast Ranges,[],Warthan,Unknown,01/28/1953-01/28/1953,Unknown,"ppm, cfs",Stream discharge
+97,1256,22,,,eastern slope of the southern Coast Ranges,[],Zapato,Unknown,01/26/1954-01/26/1954,Unknown,"ppm, cfs",Stream discharge
+98,1256,22,,,eastern slope of the southern Coast Ranges,[],Avenal,Unknown,01/26/1954-01/26/1954,Unknown,"ppm, cfs",Stream discharge
+99,1256,22,,,eastern slope of the southern Coast Ranges,[],Polonio,Unknown,01/25/1952-01/25/1952,Unknown,"ppm, cfs",Stream discharge
+100,1256,22,,,eastern slope of the southern Coast Ranges,[],Bitterwater,Unknown,01/25/1952-01/25/1952,Unknown,"ppm, cfs",Stream discharge
+101,1256,22,,,eastern slope of the southern Coast Ranges,[],Media Agua,Unknown,01/25/1952-01/25/1952,Unknown,"ppm, cfs",Stream discharge
+102,1256,22,,,eastern slope of the southern Coast Ranges,[],Carneros,Unknown,01/25/1952-01/25/1952,Unknown,"ppm, cfs",Stream discharge
+103,1305,123,34.0722,-117.1833,"One-fourth mile south of Idlewild, Redlands quadrangle",[],Bored well near Idlewild,San Bernardino,10/01/1900-11/16/1918,Varies (based on provided dates),Feet and inches,Groundwater well
+104,1305,123,34.1097,-117.2898,"781 West Seventh Street, San Bernardino quadrangle",[],Flowing well of Mrs. Murray,San Bernardino,07/03/1915-11/01/1920,Varies (based on provided dates),Pounds per square inch,Groundwater well
+105,1548,345,39.4981,-120.9206,"In NE 1/4 NW 1/4 sec 35, T. 20 N., R. 10 E., at upper highway bridge in Downieville","['T. 20 N., R. 10 E., sec 35']",North Fork of Yuba River at Goodyear Bar,Sierra County,01/11/1910-09/30/1920,Monthly,"{'Discharge': 'second-feet', 'Run-off_Per_Square_Mile': 'per square mile', 'Run-off_Inches': 'inches', 'Acre_Feet': 'acre-feet'}",Stream discharge
+106,383,117,36.4189,-119.2158,"near Three Rivers, Calif.",[],Kaweah River near Three Rivers,Tulare,10/01/1918-09/30/1918,Daily and Monthly,second-feet,Stream discharge
+107,1147,168,36.5684,-121.5638,Gilroy,[],George Hollenbeck Well,Santa Clara County,05/16/1915-12/31/1916,Variable,Feet,Groundwater well
+108,1147,168,36.5684,-121.5638,Gilroy,[],A. B. Martin Well,Santa Clara County,06/28/1914-10/14/1914,Variable,Feet,Groundwater well
+109,1147,168,36.5684,-121.5638,Gilroy,[],Dr. J. W. Fair Well,Santa Clara County,09/15/1914-09/15/1914,Variable,Feet,Groundwater well
+110,1147,168,36.5684,-121.5638,Gilroy,[],O. Knepper Well,Santa Clara County,09/16/1914-06/02/1915,Variable,Feet,Groundwater well
+111,1147,168,36.5684,-121.5638,Gilroy,[],L. Lion Well,Santa Clara County,10/04/1914-06/02/1915,Variable,Feet,Groundwater well
+112,1147,168,36.5684,-121.5638,Gilroy,[],Mrs. M. Bundesen Well,Santa Clara County,09/27/1914-05/16/1915,Variable,Feet,Groundwater well
+113,1147,168,36.5684,-121.5638,Gilroy,[],P. Judge Well,Santa Clara County,10/09/1914-04/19/1915,Variable,Feet,Groundwater well
+114,1147,168,36.5684,-121.5638,Gilroy,[],George Curtis Well,Santa Clara County,09/26/1914-05/24/1915,Variable,Feet,Groundwater well
+115,1147,168,36.5684,-121.5638,Gilroy,[],F.W. Johnson Well,Santa Clara County,09/27/1914-05/24/1915,Variable,Feet,Groundwater well
+116,1147,168,36.5684,-121.5638,Gilroy,[],W. Salhkie Well,Santa Clara County,09/26/1914-09/27/1914,Variable,Feet,Groundwater well
+117,1147,168,36.5684,-121.5638,Gilroy,[],G. B. Call Well,Santa Clara County,09/27/1914-02/03/1915,Variable,Feet,Groundwater well
+118,1548,254,,,[TBD],"['[1S, 12E]', '[SW 1/4 sec. 1]']",Middle Fork of Stanislaus River at Sand Bar Flat,Stanislaus County,10/01/1918-09/30/1920,Monthly,"{'Discharge': 'second-feet', 'Run-off': 'acre-feet'}",Stream discharge
+119,1548,254,,,"SW 1/4 sec. 1, T. 1 S., R. 12 E.","['[1S, 12E]']",Stanislaus River near Knights Ferry,Stanislaus County,12/18/1915-09/30/1920,"Continuous (from December 18, 1915, to September 30, 1920)",{'Discharge': 'second-feet'},Stream discharge
+120,1548,192,36.6558,-119.5887,"near Sanger, California",[],Kings River,Fresno,12/14/1918-31/01/1920,Daily,Sec.-ft. (cubic feet per second),Stream discharge
+121,1744,51,,,"near Almond, California",[],Temescal Creek,San Diego County,10/01/1914-09/30/1915,Monthly,"{'Discharge': 'second-feet', 'Run-off': 'acre-feet'}",Stream discharge
+122,1744,51,,,"near Escondido, California","['NE 1/4 sec. 36, T. 12 S., R. 1 W.']",East San Pasqual Ditch,San Diego County,10/27/1914-06/12/1915,As recorded during the year,"{'Gage Height': 'Feet', 'Discharge': 'Sec.-ft'}",Irrigation
+123,1592,274,39.7,-122.3,"Sec. 6, T. 25 N., R. 1 W., 5 miles northeast of Los Molinos, California","['T. 25 N., R. 1 W., Sec. 6']",Mill Creek,Tehama,10/01/1932-09/30/1933,Daily,second-feet,Stream discharge
+124,1520,509,40.4833,-124.1,"Ettersburg, NW 1 sec 7, T. 4 N., R. 2 E.","['T. 4 N., R. 2 E.']",Mattole River,Humboldt County,10/12/1912-09/04/1913,Variable (specific dates),"{'Gage height': 'Feet', 'Discharge': 'Sec.-ft'}",Stream discharge
+125,1520,509,40.4833,-124.1,"Ettersburg at mouth, NW 1 sec. 7, T. 4 N., R. E.","['T. 4 N., R. E.']",Bear Creek or West Fork,Humboldt County,10/12/1912-09/04/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+126,1520,509,40.1833,-123.8,"Mouth near Upper Mattole, sec. 6, T. 3 S., R. E.","['T. 3 S., R. E.']",Honey Dew Creek,Humboldt County,10/11/1912-09/03/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+127,1520,509,40.1833,-123.9,"Mouth near Petrolia, sec. 30, T. 2 S., R. 1 W.","['T. 2 S., R. 1 W.']",Squaw Creek,Humboldt County,10/11/1912-09/03/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+128,1520,509,40.1833,-124.1,"Mouth at Petrolia, NW sec. 4, T. S., R. 2 W.","['T. S., R. 2 W.']",North Fork of Mattole River,Humboldt County,10/10/1912-09/02/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+129,1520,509,40.3333,-123.9333,"Highway bridge at Capetown, sec. 13, T. 1 N., R. 3 W.","['T. 1 N., R. 3 W.']",Bear River,Humboldt County,10/10/1912-09/02/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+130,1520,509,39.3,-123.1333,"Mouth near Covelo, NW. 1/2 sec. 31, T. 23 N., R. 11 W.","['T. 23 N., R. 11 W.']",Williams Creek,Mendocino County,12/20/1912-09/04/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+131,1520,509,40.0833,-123.5167,"Highway bridge at Briceland, SW. 1/4 sec. 18, T. 4 S., R. 3 E.","['T. 4 S., R. 3 E.']",Redwood Creek,Humboldt County,09/04/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+132,1520,509,40.1167,-123.5167,"Highway bridge, 5 miles below Garberville, NW. 1 sec. 12, T. S., R. 3 E.","['T. S., R. 3 E.']",Dean Creek,Humboldt County,09/05/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+133,1520,509,40.2,-123.75,"Highway bridge, a mile from Holmes, SE. 1 sec. 32, T. 1 N., R. 1 E.","['T. 1 N., R. 1 E.']",Chad Creek,Humboldt County,09/05/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+134,1520,509,40.2,-,"Highway bridge, one-half mile above Pepperwood, NW. 1/2 sec. 32, T. 1 N., R.",['T. 1 N.'],Bear Creek,Humboldt County,09/05/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+135,1520,509,40.1833,-123.65,"Highway bridge, near Cuddaback, NE. 1/4 sec. 11, T. 1 N., R. 2 E.","['T. 1 N., R. 2 E.']",Grizzley Creek,Humboldt County,08/28/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+136,1520,509,40.2667,-123.75,"Highway bridge, near Cuddaback, NE. 1/4 sec. 36, T. 2 N., R. 1 E.","['T. 2 N., R. 1 E.']",Healy Creek,Humboldt County,08/28/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+137,1520,509,40.2667,-123.75,"Road crossing near Cuddaback, SW. T. 2 N., R. 1 E.","['T. 2 N., R. 1 E.']",Salmon Creek,Humboldt County,08/28/1913,Variable (specific dates),{'Discharge': 'Dry'},Stream discharge
+138,1520,509,37.3167,-119.7833,"Highway bridge at Korbel, sec. 22 and 33, T. 6 N., R. E.",['T. 6 N.'],North Fork of Mad River,Madera County,11/01/1912-09/09/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+139,1520,509,40.3333,-123.4833,"Bairs ranch near Korbel, sec. 28, T. 7 N., R. 3 E.","['T. 7 N., R. 3 E.']",Minor Creek,Humboldt County,10/31/1912-09/10/1913,Variable (specific dates),{'Discharge': 'Sec.-ft'},Stream discharge
+140,1520,509,40.1167,-124.1,"Mouth 13 miles above Orick, sec. 34, T. it N., R. E.",['T. it N.'],Prairie Creek,Humboldt County,10/04/1912-09/09/1913,Variable (specific dates),"{'Gage height': 'Feet', 'Discharge': 'Sec.-ft'}",Stream discharge
+141,383,102,37.6815,-122.1667,"Irvington, Calif.",,Laguna Creek,Alameda County,02/01/1918-09/30/1918,Daily,second-feet,Stream discharge
+142,383,102,37.6963,-122.0877,"Near Decoto, Calif.",,Dry Creek,Alameda County,10/01/1916-09/30/1918,"Specific dates mentioned (March 19-20, 1918)",second-feet,Stream discharge
+143,1568,87,34.1188,-117.9176,"Near Azusa, Los Angeles County","['SE. 1/4 SE. 1/4 sec. 31, T. 2 N., R. 9 W.']",San Gabriel River and Southern California Edison Co.'s Canal,Los Angeles County,10/01/1924-09/30/1925,Daily,"Second-feet for Discharge, Acre-feet for Run-off",Stream discharge
+144,1136,172,36.1331,-119.0978,"Ono, California",[],Cottonwood Creek,Tulare County,10/28/1907-12/19/1908,Daily to monthly,Second-feet (Sec.-ft.),Stream discharge
+145,1136,172,,,"1 mile below intake from Cottonwood Creek, Ono, California",[],Bee Creek Ditch Co Canal,Tulare County,09/26/1908-09/27/1908,Specific dates in September 1908,Second-feet (Sec.-ft.),Irrigation
+146,1136,172,,,"Miles below intake from Cottonwood Creek, Ono, California",[],Happy Valley Land and Water Co Canal,Tulare County,09/26/1908-09/27/1908,Specific dates in September 1908,Second-feet (Sec.-ft.),Irrigation
+147,1136,172,,,"Mile below intake from Cottonwood Creek, Ono, California",[],Jerusalem Canal,Tulare County,09/26/1908-09/27/1908,Specific dates in September 1908,Second-feet (Sec.-ft.),Irrigation
+148,1136,172,,,"Mile below intake from Cottonwood Creek, Ono, California",[],Marina Gold Mining Co Canal,Tulare County,09/26/1908-09/27/1908,Specific dates in September 1908,Second-feet (Sec.-ft.),Irrigation
+149,383,159,37.617,-121.152,"SE sec. 17, T3S., R14E., below waste gates, 460 feet below intake at La Grange dam on Tuolumne River, near La Grange","['T3S.', 'R14E.', 'Sec. 17']",Sierra & San Francisco Power Co.'s canal,Stanislaus,10/01/1918-09/30/1918,Daily,second-feet,Stream discharge
+150,1568,33,32.8481,-116.9187,"Near Lakeside, Calif.",,Boulder Creek near Lakeside,San Diego,10/01/1924-09/30/1925,Monthly,second-feet and acre-feet for discharge/run-off,Stream discharge
+151,1568,33,32.8527,-116.9025,"At patrolman's cabin, half a mile above trestle crossing at Los Coches Creek, 3 miles southeast of Lakeside",,Cuyamaca Water Co.'s Flume near Lakeside,San Diego,01/01/1907-09/30/1925,Varies; specific discharge measurements on given dates,Feet and second-feet for gage height and discharge,Irrigation
+152,1305,116,33.9389,-117.1808,"11 miles west of Redlands, Redlands quadrangle",[],"Bored well, 122 feet deep",San Bernardino,1900-10/01-1920-10/29,Variable (annual to multiple years),Feet and inches,Groundwater well
+153,1305,116,33.9389,-117.1808,"11 miles west of Redlands, Redlands quadrangle",[],"Bored well, 284 feet deep",San Bernardino,1899-04/09-1915-07/10,Variable (annual to multiple years),Feet and inches,Groundwater well
+154,1568,301,39.7194,-120.9167,"Downieville, California",['[Not specified]'],North Fork of North Fork of Yuba River,Plumas County,10/01/1924-09/30/1925,Daily,Second-feet,Stream discharge
+155,1606,103,34.0236,-118.0347,"Workman-Mill road bridge, about 3 miles north of Whittier, in Altadena",[],San Jose Creek near Whittier,Los Angeles,01/01/1929-09/30/1938,Daily,second-feet,Stream discharge
+156,366,59,33.1164,-117.0661,"Near Escondido, California",[],West San Pasqual ditch,San Diego,01/25/1915-09/30/1915,Daily and Specific Dates,"{'Gage_Height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+157,1548,127,34.4112,-118.5814,"Near San Fernando, California",[],Pacoima Creek,Los Angeles County,11/01/1918-09/30/1920,Daily,second-feet,Stream discharge
+158,1568,268,,,"Near McArthur, Calif.","['T. 34 N., R. 4 W., sec. 23']",McArthur Drainage Canal,Shasta County,10/01/1925-09/30/1926,Daily,Second-feet,Stream discharge
+159,1568,268,,,"In NW. 1/4 sec. 23, T. 34 N., R. 4 W., United States fishery at Baird","['T. 34 N., R. 4 W., sec. 23']",McCloud River at Baird,Shasta County,,,,Stream discharge
+160,1744,291,41.7377,-122.8821,California,,Klamath River near Requa,Siskiyou County,10/01/1914-09/30/1915,daily,second-feet,Stream discharge
+161,1128,43,39.033,-122.8,Northern California,[],Clear Lake,Lake County,01/01/1873-12/31/1899,Annual (from 1873 to 1899),"{'Intake': 'Acre-feet', 'Level': 'Feet'}",Reservoir
+162,366,269,38.5839,-121.4696,"Sacramento River Basin, California",[],SACRAMENTO RIVER,,05/11/1915-09/30/1915,Daily to specific dates,{'Discharge': 'second-feet'},Stream discharge
+163,366,269,38.5839,-121.4696,"Goodyear Bar, California",[],Goodyear Creek,,10/01/1914-09/30/1915,Daily,"{'Gage Height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+164,1568,58,,,"Near East Highlands, Calif.","['T. 1 S., R. 4 W., sec. 21']",Plunge Creek,San Bernardino County,10/01/1925-09/30/1926,Daily,Second-feet,Stream discharge
+165,1568,58,,,"Near Colton, Calif.","['T. 1 S., R. 4 W., sec. 21']",Warm Creek,San Bernardino County,08/07/1920-09/30/1925,,,Stream discharge
+166,1136,271,37.3688,-120.5487,"Above Merced Falls, California",[],Merced River,Merced County,01/21/1907-12/31/1908,Daily,"{'Gage_Height': 'feet', 'Discharge': 'cubic feet per second (Sec.-ft.)'}",Stream discharge
+167,1520,145,36.2189,-118.9106,"Near Hammond, SE 1/4 sec. 27, T. 17 S., R. 28 E.","['T. 17 S., R. 28 E., sec. 27']",Middle Fork of Kaweah River near Hammond,Tulare County,07/20/1913-10/16/1914,Daily,"{'Gage height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+168,1520,145,36.2028,-118.9197,"SE 1/4 sec. 27, T. 17 S., R. 28 E., J. O. Carter ranch","['T. 17 S., R. 28 E., sec. 27']",Kaweah River near Three Rivers,Tulare County,04/11/1913-09/30/1913,Various dates in 1913,"{'Gage height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+169,1136,267,37.7412,-119.5976,"Yosemite Valley, California",[],Merced River,Mariposa,01/01/1907-12/31/1908,Daily for 1907 and 1908; specific dates in 1906-1908 for discharge measurements,"{'Width': 'Feet', 'Area_of_section': 'Square Feet', 'Gage_height': 'Feet', 'Discharge': 'Second-feet (Sec.-ft.)'}",Stream discharge
+170,1305,89,33.657,-116.544,"Winchester, Elsinore quadrangle",[],Winchester Well No. 63,Riverside County,11/10/1905-12/31/1920,Varied intervals between measurements,Feet inches,Groundwater well
+171,1136,206,40.2833,-121.0833,"Near Big Bend in Plumas County, California",[],"North Fork of Feather River near Big Bend, Cal.",Plumas County,07/13/1905-12/31/1908,Monthly,"{'Discharge': 'second-feet', 'Runoff_Per_Square_Mile': 'per square mile', 'Depth_Inches_Drainage_Area': 'inches on drainage area', 'Total_Runoff': 'acre-feet'}",Stream discharge
+172,1136,142,34.1138,-117.8977,"near Azusa, California",[],San Gabriel River,Los Angeles County,01/01/1907-12/31/1908,Daily,second-feet,Stream discharge
+173,1136,142,34.1138,-117.8977,"near Azusa, California",[],San Gabriel Power Canal,Los Angeles County,01/01/1907-12/31/1908,Daily,second-feet,Irrigation
+174,1588,281,,,"Jimeno land grant, 1,500 feet below Wilkins Slough and 6 miles southeast of Grimes, California",[],SACRAMENTO RIVER BELOW WILKINS SLOUGH,Colusa County,08/01/1931-10/31/1932,Daily,second-feet,Stream discharge
+175,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],Road well,Santa Clara County,11/11/1914-10/23/1920,Variable,Feet,Groundwater well
+176,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],Peter Bender Well,Santa Clara County,10/11/1914-01/23/1920,Variable,Feet,Groundwater well
+177,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],F. H. Earls Well,Santa Clara County,10/10/1914-03/17/1916,Variable,Feet,Groundwater well
+178,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],P. F. Compagnon Well,Santa Clara County,11/11/1914-03/17/1916,Variable,Feet,Groundwater well
+179,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],John Attos Well,Santa Clara County,01/15/1916-03/17/1916,Variable,Feet,Groundwater well
+180,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],Guido Bros. Well,Santa Clara County,01/15/1916-03/17/1916,Variable,Feet,Groundwater well
+181,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],Ben Patrone Well,Santa Clara County,01/15/1916-04/10/1920,Variable,Feet,Groundwater well
+182,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],Mrs. Casio Well,Santa Clara County,11/11/1914-03/17/1916,Variable,Feet,Groundwater well
+183,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],John Burk Well,Santa Clara County,02/07/1916-04/10/1920,Variable,Feet,Groundwater well
+184,1147,182,37.1364,-121.6565,"Morgan Hill, California",[],C. Conlan Well,Santa Clara County,11/11/1914-11/11/1914,Variable,Feet,Groundwater well
+185,1568,219,38.0711,-120.3597,"Italian Flat, near Sequoia, Calif.",[],South Fork of Tuolumne River,Calaveras,01/31/1925-09/30/1925,Daily,"{'Gage_height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+186,1136,207,39.4999,-121.5558,Oroville Highway Bridge area,[],Feather River at Oroville,Butte,02/09/1907-12/17/1908,"Variable, as per measurement dates","{'Width': 'Feet', 'Area of section': 'Square feet', 'Gage height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+187,1548,212,37.7465,-119.5383,"Near Yosemite, California",['[TRS data not provided]'],Merced River at Pohono Bridge,Mariposa,10/01/1918-09/30/1920,Daily,Second-feet for discharge; Feet for gage height,Stream discharge
+188,1128,12,39.0167,-122.8333,Cache Creek drainage basin,[],Bartlett Springs,Lake County,01/01/1897-12/31/1899,Monthly,Inches,Precipitation
+189,1128,12,39.0767,-122.8166,Cache Creek drainage basin,[],Lakeport,Lake County,01/01/1880-12/31/1903,Annual (for specific years),Inches,Precipitation
+190,1128,12,38.7333,-122.2,Cache Creek drainage basin,[],Kono Tayee,Yolo County,01/01/1855-12/31/1898,Annual (for specific years),Inches,Precipitation
+191,1128,12,38.9897,-122.8114,Cache Creek drainage basin,[],Kelseyville,Lake County,01/01/1891-12/31/1898,Annual (for specific years),Inches,Precipitation
+192,1128,12,38.8172,-122.0919,Cache Creek drainage basin,[],Rumsey,Yolo County,01/01/1878-12/31/1898,Annual (for specific years),Inches,Precipitation
+193,1128,12,38.7542,-122.0275,Cache Creek drainage basin,[],Capay,Yolo County,01/01/1889-12/31/1898,Annual (for specific years),Inches,Precipitation
+194,1128,12,38.8013,-122.0275,Cache Creek drainage basin,[],Esparto,Yolo County,01/01/1889-12/31/1898,Annual (for specific years),Inches,Precipitation
+195,1128,12,38.6803,-121.7622,Cache Creek drainage basin,[],Woodland,Yolo County,01/01/1877-12/31/1899,Annual (for specific years),Inches,Precipitation
+196,1128,12,38.7167,-121.75,Cache Creek drainage basin,[],Yolo,Yolo County,01/01/1888-12/31/1894,Annual (for specific years),Inches,Precipitation
+197,1744,258,,,,[],Bear River at Van Trent,,10/01/1914-09/30/1915,Monthly,"second-feet, acre-feet",Stream discharge
+198,1744,258,,,"SW. 1/4 sec. 30, T. 14 N., R. 10 E.","['T. 14 N., R. 10 E.']",North Fork of American River near Colfax,,08/16/1911-09/30/1914,Varied,"feet, second-feet",Stream discharge
+199,1588,408,,,"{'Townships_Ranges_Sections': ['SW1/4 sec. 10, T. 16 N., R. 1 E.'], 'Latitude': 41.7355, 'Longitude': -124.2327}",,SMITH RIVER NEAR CRESCENT CITY,Del Norte,10/01/1931-09/30/1932,Daily,second-feet,Stream discharge
+200,1568,184,37.2928,-119.5564,"In sec. 30, T. 5 S., R. 24 E., half a mile above mouth of Cabin Creek and 2 miles east of Mugler Meadow","['T. 5 S., R. 24 E., sec. 30']",Chiquito Creek near Mugler Meadow,Madera County,03/01/1924-09/30/1925,"Varies (some monthly, others on specific dates)","{'Gage_height': 'Feet', 'Discharge': 'Second-feet'}",Stream discharge
+201,1568,307,39.65,-121.0,"Van Trent, Calif.",[],Bear River at Van Trent,California (assumed Sierra County based on geographical context),10/01/1925-09/30/1926,Monthly,second-feet,Stream discharge
+202,1568,307,39.17,-121.15,"Just below lower spillway gates about 1 mile below diversion dam on Bear River and 2 miles northwest of Colfax, Placer County",[],Bear River Canal near Colfax,Placer County,01/01/1925-09/30/1925,Daily,second-feet,Irrigation
+203,1568,110,34.583,-118.783,"near Sespe, Calif.",[],Sespe Creek,Ventura,11/25/1925-09/26/1925,daily,"{'Gage height': 'feet', 'Discharge': 'second-feet'}",Stream discharge

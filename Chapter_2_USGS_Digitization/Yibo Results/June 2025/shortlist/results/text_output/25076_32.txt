@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Kaweah River near Three Rivers",
+        "County": "Tulare County",
+        "Location": "Near Three Rivers, Calif.",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 36.3167,
+        "Longitude": -118.9833,
+        "Dates_of_Recording": "1902-10/1935-09",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Kaweah River at McKay Point, near Lemon Cove",
+        "County": "Tulare County",
+        "Location": "Near Lemon Cove, Calif.",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 36.2000,
+        "Longitude": -119.1833,
+        "Dates_of_Recording": "1918-10/1920-08",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

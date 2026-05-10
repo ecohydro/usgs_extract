@@ -1,0 +1,162 @@
+{
+    "job_id": "79817e2b-6c6c-43ad-b306-6f96a2408bb3",
+    "duration": 6.602962255477905,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/8a0786a5-58c9-4509-9ee9-ab93685832cf?AWSAccessKeyId=ASIA2UOK6OVBGFQTM3R4&Signature=f2GfeWeOKbh6QImDhJzjVkx0ZEw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIH7TvILV5vSLvniCn1NvfCogjwbFIPlP8il7aN%2Be200iAiEA0BO0%2F1m75X%2BOkBXshpluavbeRsRJxfN8smnNZzwbr3UqiwUIIxAAGgw3MzExMDY5MzIwMzQiDHvgFzz5T7FZi%2FTGyCroBCbQSUebNfuyKK5G%2BTWUawMQc%2BpiYzzWXsUkU0XVJ%2BG8qFeAKwluw25%2FHPT2V3b%2F%2F2Cuobc3Geyx6dtZyJI5n0M65Lzga%2BPd0l6jLd0bQ1ryAcugxTj0fDO5jv1QA9g29weLkvyhcvpag8bmLT3rtjtyDp8w01zvCi%2FaDcyijWOFt0Qh0mAXW9fzcWUNtuYmMIHG8bmSytz%2F5w5RlFkrGI4iqTapyGJFSyVG0UaQAPDAPmxHedHocanJmEWWgwEFAnDxwadqs31mT0vPjlC%2BGmN858rj9jFHm3QguOJcW7iJ7f60PccWJSk1s3Ur9yi9JPb%2F0BWRSwR31PCBfAJoPRim9yPcy1PK23i6oI3kb92hqqBu9qf0ocQHFGG%2BvKVNUahZADf46zgV%2FHeMK8GDHLUMtmlYs%2FF6o91ZgV13EWkI%2BmGzKccp3DomZgbvh7kAuf7PUtGUyNwazcRxtAQhKAVumzdh0N6vhZ0h1aGLrTUNxYLrydKUr28xkmHXZEWtQOpB3LXdmZdvnzLXFlfqUdjYD2eAg3iwkBvUKikGBu2mO4H9Yj14%2BhvuuX4gAM2BwDMB%2Fg7cWgRv4S3zNO2QseXs7Sjq%2Bo%2B5wR%2BxfFA3YgkE1O0mhsPx0t2q7qmee%2FLywxF6TOrylwxhHvjXkOOKqSnrFRZWP5O3KcvmWjnTHw3eRyvGkIMRk34GuMOmqyQ802U%2FFisAL2%2FVcSmC3sWHUzeKDssBMO0P18YBIXL5QM6RpXk4Ms9tZySVfWziSYqUauC%2BzohC6Vh%2FH3WwdkZ4GoDqPGLgqiOie%2BNBSufRjJIoI1IWOTm9Llswy7nJugY6mwFE0o9xIv2y%2By8zHdEzXVQsip1gRtUVkoeC2N%2F0Hcno%2FFWA2ox9qNH%2FQwpzCWq9QEBi2nr0vtBBUda%2BaaHA9LmfGjNP78d3mQrlzk09KvXUxmsVUhcyl9jsiJpeHXHmfVsPiRnBxZ0yWzw15P5OL35O9QJDBSUBKuMsGmdNLR5N61g0MQkA0RMspWoooIkMnbmuGSxc1fGNaDQiHA%3D%3D&Expires=1733454859",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI\n\nMonthly discharge of Sawpit Creek near Monrovia, Calif., for the year ending September 30, 1925.",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI\n\nMonthly discharge of Sawpit Creek near Monrovia, Calif., for the year ending September 30, 1925.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11412708204811844,
+                            "top": 0.048817123544874205,
+                            "width": 0.033312769895126465,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "76",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.28809376927822333,
+                            "top": 0.05182125422455877,
+                            "width": 0.4842689697717458,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1925, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.08186256102140443,
+                            "width": 0.824182603331277,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Sawpit Creek near Monrovia, Calif., for the year ending September 30, 1925.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off m\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td>3.5</td><td>0</td><td>0.22</td><td>13.1</td></tr><tr><td>December</td><td>12.</td><td>0</td><td>.64</td><td>39.4</td></tr><tr><td>January</td><td>6</td><td>0</td><td>.13</td><td>8.0</td></tr><tr><td>February</td><td>5</td><td>0</td><td>.33</td><td>18.3</td></tr><tr><td>March</td><td>25</td><td>0</td><td>2.07</td><td>127</td></tr><tr><td>April</td><td>107</td><td>.5</td><td>7.01</td><td>417</td></tr><tr><td>May</td><td>2.7</td><td>0</td><td>.47</td><td>28.9</td></tr><tr><td>June</td><td>1.2</td><td>0</td><td>.27</td><td>16.1</td></tr><tr><td>The year</td><td>107</td><td>0</td><td>.92</td><td>668</td></tr></table>\n\nNOTE.-No flow during months for which no discharge is given.\n\nDaily discharge, in second-feet, of Sawpit Creek and Monrovia pipe line near Monrovia, Calif., for the year ending September 30, 1925",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off m\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td>3.5</td><td>0</td><td>0.22</td><td>13.1</td></tr><tr><td>December</td><td>12.</td><td>0</td><td>.64</td><td>39.4</td></tr><tr><td>January</td><td>6</td><td>0</td><td>.13</td><td>8.0</td></tr><tr><td>February</td><td>5</td><td>0</td><td>.33</td><td>18.3</td></tr><tr><td>March</td><td>25</td><td>0</td><td>2.07</td><td>127</td></tr><tr><td>April</td><td>107</td><td>.5</td><td>7.01</td><td>417</td></tr><tr><td>May</td><td>2.7</td><td>0</td><td>.47</td><td>28.9</td></tr><tr><td>June</td><td>1.2</td><td>0</td><td>.27</td><td>16.1</td></tr><tr><td>The year</td><td>107</td><td>0</td><td>.92</td><td>668</td></tr></table>\n\nNOTE.-No flow during months for which no discharge is given.\n\nDaily discharge, in second-feet, of Sawpit Creek and Monrovia pipe line near Monrovia, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11083977785763514,
+                            "top": 0.11904830445573601,
+                            "width": 0.8297549794295332,
+                            "height": 0.1463881581070456,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off m\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td>3.5</td><td>0</td><td>0.22</td><td>13.1</td></tr><tr><td>December</td><td>12.</td><td>0</td><td>.64</td><td>39.4</td></tr><tr><td>January</td><td>6</td><td>0</td><td>.13</td><td>8.0</td></tr><tr><td>February</td><td>5</td><td>0</td><td>.33</td><td>18.3</td></tr><tr><td>March</td><td>25</td><td>0</td><td>2.07</td><td>127</td></tr><tr><td>April</td><td>107</td><td>.5</td><td>7.01</td><td>417</td></tr><tr><td>May</td><td>2.7</td><td>0</td><td>.47</td><td>28.9</td></tr><tr><td>June</td><td>1.2</td><td>0</td><td>.27</td><td>16.1</td></tr><tr><td>The year</td><td>107</td><td>0</td><td>.92</td><td>668</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1295496607032696,
+                            "top": 0.2711227938415321,
+                            "width": 0.5027760641579272,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "NOTE.-No flow during months for which no discharge is given.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11597779148673658,
+                            "top": 0.2906496432594818,
+                            "width": 0.8180135718692165,
+                            "height": 0.026661659782200527,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Sawpit Creek and Monrovia pipe line near Monrovia, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>0.4</td><td>0.5</td><td>0.9</td><td>0.6</td><td>0.9</td><td>0.6</td><td>1.3</td><td>1.6</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.6</td></tr><tr><td>2</td><td>.4</td><td>.4</td><td>.9</td><td>.8</td><td>1.1</td><td>.6</td><td>1.4</td><td>1.4</td><td>1.0</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>3</td><td>.4</td><td>.5</td><td>.8</td><td>.8</td><td>1.1</td><td>.6</td><td>1.4</td><td>1.3</td><td>1.6</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>4</td><td>.4</td><td>.5</td><td>.8</td><td>1.0</td><td>1.1</td><td>.7</td><td>107</td><td>1.2</td><td>1.6</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>5</td><td>.4</td><td>.5</td><td>.8</td><td>1.0</td><td>1.1</td><td>.8</td><td>40</td><td>1.3</td><td>1.3</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>6</td><td>.4</td><td>.6</td><td>1.3</td><td>1.1</td><td>1,1</td><td>26</td><td>7</td><td>1.4</td><td>1.2</td><td>.8</td><td>.8</td><td>.8</td></tr><tr><td>7</td><td>.5</td><td>.6</td><td>1.4</td><td>1.1</td><td>1.0</td><td>4.1</td><td>4.3</td><td>1.4</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>8</td><td>.5</td><td>.6</td><td>1.4</td><td>1.1</td><td>1.1</td><td>2.0</td><td>3.4</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>9</td><td>.5</td><td>1.7</td><td>1.1</td><td>1.1</td><td>1,9</td><td>1.0</td><td>2.6</td><td>1.4</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>10</td><td>.5</td><td>3.9</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.0</td><td>1.9</td><td>1.4</td><td>1.4</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>11</td><td>.5</td><td>1.7</td><td>1.0</td><td>1.1</td><td>1.1</td><td>.9</td><td>2.4</td><td>1.4</td><td>1.5</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>12</td><td>.4</td><td>1.8</td><td>.9</td><td>1.1</td><td>2.5</td><td>.8</td><td>2.1</td><td>1.4</td><td>1.3</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>18</td><td>.4</td><td>1.3</td><td>.9</td><td>1.1</td><td>1.2</td><td>.8</td><td>2.2</td><td>1.1</td><td>1.3</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>14</td><td>.4</td><td>1.1</td><td>.9</td><td>1.1</td><td>1.1</td><td>.9</td><td>2.1</td><td>1.1</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>15</td><td>.4</td><td>1.0</td><td>1.0</td><td>1.2</td><td>1.1</td><td>.8</td><td>2.1</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>16</td><td>.4</td><td>1.0</td><td>12</td><td>1.2</td><td>1,1</td><td>.8</td><td>1.9</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>17</td><td>.4</td><td>.9</td><td>2.5</td><td>1.0</td><td>1,1</td><td>.8</td><td>1.7</td><td>1.2</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>18</td><td>.4</td><td>.9</td><td>1.3</td><td>1.1</td><td>1.1</td><td>.8</td><td>1.6</td><td>1.1</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>19</td><td>.4</td><td>.9</td><td>1.2</td><td>1.0</td><td>1.1</td><td>.8</td><td>1.6</td><td>1.1</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>20</td><td>.4</td><td>.9</td><td>1,0</td><td>.9</td><td>6.0</td><td>1.0</td><td>1.6</td><td>3.3</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>21</td><td>.4</td><td>1.0</td><td>.9</td><td>.9</td><td>1.3</td><td>1.0</td><td>1.8</td><td>1.7</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>22</td><td>.4</td><td>1.1</td><td>1.0</td><td>.9</td><td>1.2</td><td>.9</td><td>20</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>23</td><td>.4</td><td>1.1</td><td>.9</td><td>.9</td><td>1.3</td><td>.9</td><td>2.5</td><td>1.2</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>24</td><td>.4</td><td>.9</td><td>1.1</td><td>.9</td><td>1.1</td><td>.9</td><td>1.9</td><td>1.1</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>25</td><td>.4</td><td>.8</td><td>1.0</td><td>1.0</td><td>1.0</td><td>.9</td><td>2.1</td><td>1.0</td><td>1.0</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>26</td><td>.4</td><td>.8</td><td>1.0</td><td>1.0</td><td>.9</td><td>1.1</td><td>1.8</td><td>1.0</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>27</td><td>.4</td><td>.8</td><td>.8</td><td>1.0</td><td>.9</td><td>.9</td><td>1.5</td><td>1.0</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>28</td><td>.4</td><td>.8</td><td>.6</td><td>1.0</td><td>.8</td><td>.9</td><td>1.4</td><td>1.5</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>29</td><td>.4</td><td>.8</td><td>.6</td><td>1.0</td><td></td><td>26</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>30</td><td>.5</td><td>.8</td><td>.6</td><td>1.0</td><td></td><td>1.2</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>31</td><td>.5</td><td></td><td>.6</td><td>1.0</td><td></td><td>3.0</td><td></td><td>1.2</td><td></td><td>.8</td><td>.6</td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>0.4</td><td>0.5</td><td>0.9</td><td>0.6</td><td>0.9</td><td>0.6</td><td>1.3</td><td>1.6</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.6</td></tr><tr><td>2</td><td>.4</td><td>.4</td><td>.9</td><td>.8</td><td>1.1</td><td>.6</td><td>1.4</td><td>1.4</td><td>1.0</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>3</td><td>.4</td><td>.5</td><td>.8</td><td>.8</td><td>1.1</td><td>.6</td><td>1.4</td><td>1.3</td><td>1.6</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>4</td><td>.4</td><td>.5</td><td>.8</td><td>1.0</td><td>1.1</td><td>.7</td><td>107</td><td>1.2</td><td>1.6</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>5</td><td>.4</td><td>.5</td><td>.8</td><td>1.0</td><td>1.1</td><td>.8</td><td>40</td><td>1.3</td><td>1.3</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>6</td><td>.4</td><td>.6</td><td>1.3</td><td>1.1</td><td>1,1</td><td>26</td><td>7</td><td>1.4</td><td>1.2</td><td>.8</td><td>.8</td><td>.8</td></tr><tr><td>7</td><td>.5</td><td>.6</td><td>1.4</td><td>1.1</td><td>1.0</td><td>4.1</td><td>4.3</td><td>1.4</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>8</td><td>.5</td><td>.6</td><td>1.4</td><td>1.1</td><td>1.1</td><td>2.0</td><td>3.4</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>9</td><td>.5</td><td>1.7</td><td>1.1</td><td>1.1</td><td>1,9</td><td>1.0</td><td>2.6</td><td>1.4</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>10</td><td>.5</td><td>3.9</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.0</td><td>1.9</td><td>1.4</td><td>1.4</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>11</td><td>.5</td><td>1.7</td><td>1.0</td><td>1.1</td><td>1.1</td><td>.9</td><td>2.4</td><td>1.4</td><td>1.5</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>12</td><td>.4</td><td>1.8</td><td>.9</td><td>1.1</td><td>2.5</td><td>.8</td><td>2.1</td><td>1.4</td><td>1.3</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>18</td><td>.4</td><td>1.3</td><td>.9</td><td>1.1</td><td>1.2</td><td>.8</td><td>2.2</td><td>1.1</td><td>1.3</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>14</td><td>.4</td><td>1.1</td><td>.9</td><td>1.1</td><td>1.1</td><td>.9</td><td>2.1</td><td>1.1</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>15</td><td>.4</td><td>1.0</td><td>1.0</td><td>1.2</td><td>1.1</td><td>.8</td><td>2.1</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>16</td><td>.4</td><td>1.0</td><td>12</td><td>1.2</td><td>1,1</td><td>.8</td><td>1.9</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>17</td><td>.4</td><td>.9</td><td>2.5</td><td>1.0</td><td>1,1</td><td>.8</td><td>1.7</td><td>1.2</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>18</td><td>.4</td><td>.9</td><td>1.3</td><td>1.1</td><td>1.1</td><td>.8</td><td>1.6</td><td>1.1</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>19</td><td>.4</td><td>.9</td><td>1.2</td><td>1.0</td><td>1.1</td><td>.8</td><td>1.6</td><td>1.1</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>20</td><td>.4</td><td>.9</td><td>1,0</td><td>.9</td><td>6.0</td><td>1.0</td><td>1.6</td><td>3.3</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>21</td><td>.4</td><td>1.0</td><td>.9</td><td>.9</td><td>1.3</td><td>1.0</td><td>1.8</td><td>1.7</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>22</td><td>.4</td><td>1.1</td><td>1.0</td><td>.9</td><td>1.2</td><td>.9</td><td>20</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>23</td><td>.4</td><td>1.1</td><td>.9</td><td>.9</td><td>1.3</td><td>.9</td><td>2.5</td><td>1.2</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>24</td><td>.4</td><td>.9</td><td>1.1</td><td>.9</td><td>1.1</td><td>.9</td><td>1.9</td><td>1.1</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>25</td><td>.4</td><td>.8</td><td>1.0</td><td>1.0</td><td>1.0</td><td>.9</td><td>2.1</td><td>1.0</td><td>1.0</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>26</td><td>.4</td><td>.8</td><td>1.0</td><td>1.0</td><td>.9</td><td>1.1</td><td>1.8</td><td>1.0</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>27</td><td>.4</td><td>.8</td><td>.8</td><td>1.0</td><td>.9</td><td>.9</td><td>1.5</td><td>1.0</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>28</td><td>.4</td><td>.8</td><td>.6</td><td>1.0</td><td>.8</td><td>.9</td><td>1.4</td><td>1.5</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>29</td><td>.4</td><td>.8</td><td>.6</td><td>1.0</td><td></td><td>26</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>30</td><td>.5</td><td>.8</td><td>.6</td><td>1.0</td><td></td><td>1.2</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>31</td><td>.5</td><td></td><td>.6</td><td>1.0</td><td></td><td>3.0</td><td></td><td>1.2</td><td></td><td>.8</td><td>.6</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10672191923448585,
+                            "top": 0.3224647971771733,
+                            "width": 0.8321126458969916,
+                            "height": 0.3750940166019292,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>0.4</td><td>0.5</td><td>0.9</td><td>0.6</td><td>0.9</td><td>0.6</td><td>1.3</td><td>1.6</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.6</td></tr><tr><td>2</td><td>.4</td><td>.4</td><td>.9</td><td>.8</td><td>1.1</td><td>.6</td><td>1.4</td><td>1.4</td><td>1.0</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>3</td><td>.4</td><td>.5</td><td>.8</td><td>.8</td><td>1.1</td><td>.6</td><td>1.4</td><td>1.3</td><td>1.6</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>4</td><td>.4</td><td>.5</td><td>.8</td><td>1.0</td><td>1.1</td><td>.7</td><td>107</td><td>1.2</td><td>1.6</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>5</td><td>.4</td><td>.5</td><td>.8</td><td>1.0</td><td>1.1</td><td>.8</td><td>40</td><td>1.3</td><td>1.3</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>6</td><td>.4</td><td>.6</td><td>1.3</td><td>1.1</td><td>1,1</td><td>26</td><td>7</td><td>1.4</td><td>1.2</td><td>.8</td><td>.8</td><td>.8</td></tr><tr><td>7</td><td>.5</td><td>.6</td><td>1.4</td><td>1.1</td><td>1.0</td><td>4.1</td><td>4.3</td><td>1.4</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>8</td><td>.5</td><td>.6</td><td>1.4</td><td>1.1</td><td>1.1</td><td>2.0</td><td>3.4</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>9</td><td>.5</td><td>1.7</td><td>1.1</td><td>1.1</td><td>1,9</td><td>1.0</td><td>2.6</td><td>1.4</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>10</td><td>.5</td><td>3.9</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.0</td><td>1.9</td><td>1.4</td><td>1.4</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>11</td><td>.5</td><td>1.7</td><td>1.0</td><td>1.1</td><td>1.1</td><td>.9</td><td>2.4</td><td>1.4</td><td>1.5</td><td>.9</td><td>.8</td><td>.6</td></tr><tr><td>12</td><td>.4</td><td>1.8</td><td>.9</td><td>1.1</td><td>2.5</td><td>.8</td><td>2.1</td><td>1.4</td><td>1.3</td><td>.9</td><td>.8</td><td>.8</td></tr><tr><td>18</td><td>.4</td><td>1.3</td><td>.9</td><td>1.1</td><td>1.2</td><td>.8</td><td>2.2</td><td>1.1</td><td>1.3</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>14</td><td>.4</td><td>1.1</td><td>.9</td><td>1.1</td><td>1.1</td><td>.9</td><td>2.1</td><td>1.1</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>15</td><td>.4</td><td>1.0</td><td>1.0</td><td>1.2</td><td>1.1</td><td>.8</td><td>2.1</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>16</td><td>.4</td><td>1.0</td><td>12</td><td>1.2</td><td>1,1</td><td>.8</td><td>1.9</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>17</td><td>.4</td><td>.9</td><td>2.5</td><td>1.0</td><td>1,1</td><td>.8</td><td>1.7</td><td>1.2</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>18</td><td>.4</td><td>.9</td><td>1.3</td><td>1.1</td><td>1.1</td><td>.8</td><td>1.6</td><td>1.1</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>19</td><td>.4</td><td>.9</td><td>1.2</td><td>1.0</td><td>1.1</td><td>.8</td><td>1.6</td><td>1.1</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>20</td><td>.4</td><td>.9</td><td>1,0</td><td>.9</td><td>6.0</td><td>1.0</td><td>1.6</td><td>3.3</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>21</td><td>.4</td><td>1.0</td><td>.9</td><td>.9</td><td>1.3</td><td>1.0</td><td>1.8</td><td>1.7</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>22</td><td>.4</td><td>1.1</td><td>1.0</td><td>.9</td><td>1.2</td><td>.9</td><td>20</td><td>1.3</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>23</td><td>.4</td><td>1.1</td><td>.9</td><td>.9</td><td>1.3</td><td>.9</td><td>2.5</td><td>1.2</td><td>1.1</td><td>.8</td><td>.8</td><td>.6</td></tr><tr><td>24</td><td>.4</td><td>.9</td><td>1.1</td><td>.9</td><td>1.1</td><td>.9</td><td>1.9</td><td>1.1</td><td>1.1</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>25</td><td>.4</td><td>.8</td><td>1.0</td><td>1.0</td><td>1.0</td><td>.9</td><td>2.1</td><td>1.0</td><td>1.0</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>26</td><td>.4</td><td>.8</td><td>1.0</td><td>1.0</td><td>.9</td><td>1.1</td><td>1.8</td><td>1.0</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>27</td><td>.4</td><td>.8</td><td>.8</td><td>1.0</td><td>.9</td><td>.9</td><td>1.5</td><td>1.0</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>28</td><td>.4</td><td>.8</td><td>.6</td><td>1.0</td><td>.8</td><td>.9</td><td>1.4</td><td>1.5</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>29</td><td>.4</td><td>.8</td><td>.6</td><td>1.0</td><td></td><td>26</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>30</td><td>.5</td><td>.8</td><td>.6</td><td>1.0</td><td></td><td>1.2</td><td>1.3</td><td>1.2</td><td>.9</td><td>.8</td><td>.6</td><td>.6</td></tr><tr><td>31</td><td>.5</td><td></td><td>.6</td><td>1.0</td><td></td><td>3.0</td><td></td><td>1.2</td><td></td><td>.8</td><td>.6</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\nMonthly discharge of Sawpit Creek and Monrovia pipe line near Monrovia, Calif., for the year ending September 30, 1925",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\nMonthly discharge of Sawpit Creek and Monrovia pipe line near Monrovia, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11042566317088218,
+                            "top": 0.7067217423957942,
+                            "width": 0.8130783466995681,
+                            "height": 0.026286143447239955,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Sawpit Creek and Monrovia pipe line near Monrovia, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run -off in\nacr e-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>0.5</td><td>0.4</td><td>0.42</td><td>25.8</td></tr><tr><td>November</td><td>3.9</td><td>.4</td><td>1.01</td><td>60.1</td></tr><tr><td>December</td><td>12</td><td>.6</td><td>1.36</td><td>83.6</td></tr><tr><td>January</td><td>1.2</td><td>.6</td><td>1.00</td><td>61.5</td></tr><tr><td>February</td><td>6</td><td>.8</td><td>1.30</td><td>72.2</td></tr><tr><td>March</td><td>26</td><td>.8</td><td>2.74</td><td>168</td></tr><tr><td>April</td><td>107</td><td>1.3</td><td>7.51</td><td>447</td></tr><tr><td>May</td><td>3.3</td><td>1.0</td><td>1.34</td><td>82.4</td></tr><tr><td>June</td><td>1.6</td><td>.9</td><td>1.14</td><td>67.8</td></tr><tr><td>July</td><td>.9</td><td>.8</td><td>.83</td><td>51.0</td></tr><tr><td>August</td><td>.8</td><td>.6</td><td>.73</td><td>44.9</td></tr><tr><td>September</td><td>.8</td><td>.6</td><td>.63</td><td>37.5</td></tr><tr><td>The year</td><td>107</td><td>.4</td><td>1.66</td><td>1,200</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run -off in\nacr e-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>0.5</td><td>0.4</td><td>0.42</td><td>25.8</td></tr><tr><td>November</td><td>3.9</td><td>.4</td><td>1.01</td><td>60.1</td></tr><tr><td>December</td><td>12</td><td>.6</td><td>1.36</td><td>83.6</td></tr><tr><td>January</td><td>1.2</td><td>.6</td><td>1.00</td><td>61.5</td></tr><tr><td>February</td><td>6</td><td>.8</td><td>1.30</td><td>72.2</td></tr><tr><td>March</td><td>26</td><td>.8</td><td>2.74</td><td>168</td></tr><tr><td>April</td><td>107</td><td>1.3</td><td>7.51</td><td>447</td></tr><tr><td>May</td><td>3.3</td><td>1.0</td><td>1.34</td><td>82.4</td></tr><tr><td>June</td><td>1.6</td><td>.9</td><td>1.14</td><td>67.8</td></tr><tr><td>July</td><td>.9</td><td>.8</td><td>.83</td><td>51.0</td></tr><tr><td>August</td><td>.8</td><td>.6</td><td>.73</td><td>44.9</td></tr><tr><td>September</td><td>.8</td><td>.6</td><td>.63</td><td>37.5</td></tr><tr><td>The year</td><td>107</td><td>.4</td><td>1.66</td><td>1,200</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10731202301458398,
+                            "top": 0.7390916905276005,
+                            "width": 0.8274903812208417,
+                            "height": 0.18795637703013518,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run -off in\nacr e-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>0.5</td><td>0.4</td><td>0.42</td><td>25.8</td></tr><tr><td>November</td><td>3.9</td><td>.4</td><td>1.01</td><td>60.1</td></tr><tr><td>December</td><td>12</td><td>.6</td><td>1.36</td><td>83.6</td></tr><tr><td>January</td><td>1.2</td><td>.6</td><td>1.00</td><td>61.5</td></tr><tr><td>February</td><td>6</td><td>.8</td><td>1.30</td><td>72.2</td></tr><tr><td>March</td><td>26</td><td>.8</td><td>2.74</td><td>168</td></tr><tr><td>April</td><td>107</td><td>1.3</td><td>7.51</td><td>447</td></tr><tr><td>May</td><td>3.3</td><td>1.0</td><td>1.34</td><td>82.4</td></tr><tr><td>June</td><td>1.6</td><td>.9</td><td>1.14</td><td>67.8</td></tr><tr><td>July</td><td>.9</td><td>.8</td><td>.83</td><td>51.0</td></tr><tr><td>August</td><td>.8</td><td>.6</td><td>.73</td><td>44.9</td></tr><tr><td>September</td><td>.8</td><td>.6</td><td>.63</td><td>37.5</td></tr><tr><td>The year</td><td>107</td><td>.4</td><td>1.66</td><td>1,200</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

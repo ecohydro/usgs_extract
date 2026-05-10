@@ -1,0 +1,16 @@
+```json
+[
+    {
+        "Watersource_Name": "COSUMNES RIVER AT McCONNELL",
+        "County": "Sacramento County",
+        "Location": "Lat 38°21'29\" long 121°20'34\"",
+        "Townships_Ranges_Sections": ["T.6 N., R.6 E., sec .20"],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "cubic feet per second (cfs) and acre-feet (acre-ft)",
+        "Latitude": 38.358056,
+        "Longitude": -121.342778,
+        "Dates_of_Recording": "10/01/1971-09/30/1972",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

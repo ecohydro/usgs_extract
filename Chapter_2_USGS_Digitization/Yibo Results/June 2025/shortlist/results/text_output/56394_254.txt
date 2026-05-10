@@ -1,0 +1,21 @@
+```json
+{
+  "Watersource_Name": "MERCED RIVER AT SHAFFER BRIDGE",
+  "County": "Merced County",
+  "Location": {
+    "Latitude": 37.454167,
+    "Longitude": -120.607778
+  },
+  "Townships_Ranges_Sections": [
+    "[NW&SW's sec. 36, T. 5 S., R.12 E.]"
+  ],
+  "Temporal_Resolution": "Daily",
+  "Units_Of_Measurement": {
+    "Discharge": "cubic feet per second (ft³/s)",
+    "Total_Acre_Foot": "acre-feet",
+    "Time_Accumulation": "minutes"
+  },
+  "Dates_of_Recording": "10/01/1975-09/30/1976",
+  "Water_Type": "Stream discharge"
+}
+```

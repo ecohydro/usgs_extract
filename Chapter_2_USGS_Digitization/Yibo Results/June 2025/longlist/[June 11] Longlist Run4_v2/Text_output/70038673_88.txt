@@ -1,0 +1,20 @@
+```json
+{
+    "Watersource_Name": "Tahquitz Creek",
+    "County": "Riverside County",
+    "Location": {
+        "Latitude": 33.805,
+        "Longitude": -116.5583333
+    },
+    "Townships_Ranges_Sections": ["NE1/4 SW1/4 sec. 22, T.4 S., R.4 E."],
+    "Temporal_Resolution": "daily",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second (cfs)",
+        "Accumulated_Flow": "acre-feet"
+    },
+    "Latitude": 33.805,
+    "Longitude": -116.5583333,
+    "Dates_of_Recording": "10/01/1947-09/30/1968",
+    "Water_Type": "Stream discharge"
+}
+```

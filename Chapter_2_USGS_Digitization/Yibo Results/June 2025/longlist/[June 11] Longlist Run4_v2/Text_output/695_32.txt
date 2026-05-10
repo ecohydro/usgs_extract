@@ -1,0 +1,24 @@
+```json
+{
+  "Watersource_Name": "Cottonwood Creek at Barrett Dam",
+  "County": "San Diego County",
+  "Location": "near Dulzura, Calif.",
+  "Townships_Ranges_Sections": [
+    "NW1 sec. 22, T. 17 S., R. 3 E."
+  ],
+  "Temporal_Resolution": "daily",
+  "Units_Of_Measurement": {
+    "Gage height": "feet",
+    "Contents": "acre-feet",
+    "Change in contents": "acre-feet",
+    "Draft": "acre-feet",
+    "Evaporation": "acre-feet",
+    "Spill plus leakage": "acre-feet",
+    "Inflow": "acre-feet"
+  },
+  "Latitude": 32.679167,
+  "Longitude": -116.672222,
+  "Dates_of_Recording": "01/1906-12/1915, 10/1945-09/1957",
+  "Water_Type": "Stream discharge"
+}
+```

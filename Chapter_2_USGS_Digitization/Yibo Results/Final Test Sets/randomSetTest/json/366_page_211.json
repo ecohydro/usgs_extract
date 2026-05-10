@@ -1,0 +1,242 @@
+{
+    "job_id": "b7630788-6737-41b3-8d56-b5a7fc73cd2e",
+    "duration": 4.422068119049072,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/ef79a6f5-13a3-41dd-bfe1-bcb73d1445c0?AWSAccessKeyId=ASIA2UOK6OVBP4ND44GT&Signature=qJspMADJvNnjWfjsjbAZFmjxVXk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJGMEQCID%2FOK3hrX41RZqaI%2FH80oQZ75f3f1I%2B0SRRYBMNWmyx7AiBPpjLWLJHS%2BWDq5%2FqTnhHVqFsrEhQJHv0QkXYlt25iGCqLBQgkEAAaDDczMTEwNjkzMjAzNCIMd7AsVjH3cEuxydRqKugEqILeXkns4jTQISD1YfMKvtPlvQtAuP87UGo06JY77JLjsB3i%2BvPGpaOq9t8jtJcSTCvjW7e475KhxLOzY9YJghJR7BoZn4xCx%2BsldQyHLH1Uv6tlxnqLiI9E65dwyomudy8X%2B7ctQ42RqXZCZvtrw0Vl2mXslna57aSkzgRqWkUR9YwNNYvzwQkKU%2BDluipD324NUnH9GocpGFNn8nEbk%2BF7yDMPLl1n2sjRZjY%2BOUryxUFr4TlR9VsE%2B3%2BtzCpUfz4e6gh9CDmLfdahp%2BKEodMx%2FAY1t%2BdGLZGhsJGA25p0qJRg4xelfbjKykih85bLHPMHeDn0VrjzHf2T9P95mdQBb0SsSwMzYrynmd6eDPsHAoCCfO6cBN8aDmAevfs461Qc%2BweznmU4TaN%2BGKfH%2BZ8YA7QwLlgrA4LIjBz0CA6xp0sJSUYPuYK%2FIcu62b9jPo%2B2UMFhP%2F5JC%2Fadrf9uFrtBQD8Evhqq%2FXEXryUGUh%2FT78aZJspcKzMsAglCIw9d07AKZT5kDL83Y1a1ytSCkYrOP574X6VTJ9nL%2FuYc7maa7Of6pxZxNNjTKiiqNTBqxN1ondmEb6s2pJ78V5NMqkMm8A01XDgA9rwuH6J0lYBEfS3XDObmpqPF4unhHOAsV1FvCvGZpMf0POOIvakNCw2udnshe2nic3LIUP6cTAazn6U7gfsxXvFyHRLamTDjHe1ux0w3olKgLSs%2Ft8fRpd3RL9aIxSWdfUVpiCbxZH7bFX8r5HUcsDjARUrsvLgB%2F0pHG2yBQHgKk6IXTBwGEk%2Bqs0mlOA2N5sLmoyT2N3M2M1txNrSHHTCUwMm6BjqcAa1afxAYkiEhXcxQsmII77H%2BxECp2ctD82oXxXD3MGpNl9YEkLCeVHmK5ALEsaUm%2FJhpkDWX7d9rlCEr5TNgQNETBLZiuYn%2F4ys%2FreboYTNrpD%2FTrl%2F%2BFRFrLOpBu4VcX33ZFL6sBgQiJWQH0hKuuS8BT6jkGvzpCWuvIaFTwL8eBZkgOXy08sJGhQXj6LPTNfGvIwAE7cPy31gZ4A%3D%3D&Expires=1733456049",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN.\n\nMonthly discharge of Middle Fork of Mokelumne River at West Point, Cal., for the year ending Sept. 30, 1915.",
+                "embed": "# SAN JOAQUIN RIVER BASIN.\n\nMonthly discharge of Middle Fork of Mokelumne River at West Point, Cal., for the year ending Sept. 30, 1915.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.31353337415799143,
+                            "top": 0.0397125567322239,
+                            "width": 0.3214941824862217,
+                            "height": 0.014372163388804841,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8328230251071648,
+                            "top": 0.03895612708018154,
+                            "width": 0.0453153704837722,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "207",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07225964482547459,
+                            "top": 0.07223903177004538,
+                            "width": 0.807103490508267,
+                            "height": 0.02685325264750378,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Middle Fork of Mokelumne River at West Point, Cal., for the year ending Sept. 30, 1915.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Rur-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>13</td><td>5.2</td><td>6.55</td><td>403</td><td rowspan=\"13\">B.\nA.\nA.\nA.\nB.\nA.\nA.\nB.\nA.\nA.\nA.\nB.</td></tr><tr><td>November</td><td>8.2</td><td>6.7</td><td>7.33</td><td>436</td></tr><tr><td>December</td><td>18</td><td>7. 6</td><td>9.63</td><td>592</td></tr><tr><td>January</td><td>136</td><td>7.8</td><td>28.4</td><td>1,750</td></tr><tr><td>February</td><td>376</td><td>64</td><td>168</td><td>9,330</td></tr><tr><td>March</td><td>376</td><td>72</td><td>120</td><td>7,380</td></tr><tr><td>April</td><td>213</td><td>128</td><td>172</td><td>10,200</td></tr><tr><td>May</td><td>494</td><td>121</td><td>244</td><td>15,000</td></tr><tr><td>June</td><td>188</td><td>32</td><td>77. 4</td><td>610</td></tr><tr><td>July</td><td>31</td><td>10</td><td>19.0</td><td>1,170</td></tr><tr><td>August</td><td>11</td><td>5.4</td><td>7.86</td><td>483</td></tr><tr><td>September</td><td>6.0</td><td>5.0</td><td>5.88</td><td>350</td></tr><tr><td>The year</td><td>494</td><td>5.0</td><td>71.4</td><td>51, 700</td></tr></table>\n\n## SOUTH FORK OF MOKELUMNE RIVER NEAR RAILROAD FLAT, CAL.\n\nLOCATION. -In sec. 34, T. 6 N., R. 14 E., at Laidet ranch, about 5 miles above mouth of Licking Fork and 5 miles east of Railroad Flat, Calaveras County.\n\nDRAINAGE AREA.-Not measured.",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Rur-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>13</td><td>5.2</td><td>6.55</td><td>403</td><td rowspan=\"13\">B.\nA.\nA.\nA.\nB.\nA.\nA.\nB.\nA.\nA.\nA.\nB.</td></tr><tr><td>November</td><td>8.2</td><td>6.7</td><td>7.33</td><td>436</td></tr><tr><td>December</td><td>18</td><td>7. 6</td><td>9.63</td><td>592</td></tr><tr><td>January</td><td>136</td><td>7.8</td><td>28.4</td><td>1,750</td></tr><tr><td>February</td><td>376</td><td>64</td><td>168</td><td>9,330</td></tr><tr><td>March</td><td>376</td><td>72</td><td>120</td><td>7,380</td></tr><tr><td>April</td><td>213</td><td>128</td><td>172</td><td>10,200</td></tr><tr><td>May</td><td>494</td><td>121</td><td>244</td><td>15,000</td></tr><tr><td>June</td><td>188</td><td>32</td><td>77. 4</td><td>610</td></tr><tr><td>July</td><td>31</td><td>10</td><td>19.0</td><td>1,170</td></tr><tr><td>August</td><td>11</td><td>5.4</td><td>7.86</td><td>483</td></tr><tr><td>September</td><td>6.0</td><td>5.0</td><td>5.88</td><td>350</td></tr><tr><td>The year</td><td>494</td><td>5.0</td><td>71.4</td><td>51, 700</td></tr></table>\n\n## SOUTH FORK OF MOKELUMNE RIVER NEAR RAILROAD FLAT, CAL.\n\nLOCATION. -In sec. 34, T. 6 N., R. 14 E., at Laidet ranch, about 5 miles above mouth of Licking Fork and 5 miles east of Railroad Flat, Calaveras County.\n\nDRAINAGE AREA.-Not measured.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06796586550019376,
+                            "top": 0.1126190162462474,
+                            "width": 0.8147599219691878,
+                            "height": 0.21684914962606963,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Rur-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>13</td><td>5.2</td><td>6.55</td><td>403</td><td rowspan=\"13\">B.\nA.\nA.\nA.\nB.\nA.\nA.\nB.\nA.\nA.\nA.\nB.</td></tr><tr><td>November</td><td>8.2</td><td>6.7</td><td>7.33</td><td>436</td></tr><tr><td>December</td><td>18</td><td>7. 6</td><td>9.63</td><td>592</td></tr><tr><td>January</td><td>136</td><td>7.8</td><td>28.4</td><td>1,750</td></tr><tr><td>February</td><td>376</td><td>64</td><td>168</td><td>9,330</td></tr><tr><td>March</td><td>376</td><td>72</td><td>120</td><td>7,380</td></tr><tr><td>April</td><td>213</td><td>128</td><td>172</td><td>10,200</td></tr><tr><td>May</td><td>494</td><td>121</td><td>244</td><td>15,000</td></tr><tr><td>June</td><td>188</td><td>32</td><td>77. 4</td><td>610</td></tr><tr><td>July</td><td>31</td><td>10</td><td>19.0</td><td>1,170</td></tr><tr><td>August</td><td>11</td><td>5.4</td><td>7.86</td><td>483</td></tr><tr><td>September</td><td>6.0</td><td>5.0</td><td>5.88</td><td>350</td></tr><tr><td>The year</td><td>494</td><td>5.0</td><td>71.4</td><td>51, 700</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.1451316595223515,
+                            "top": 0.3407715582450832,
+                            "width": 0.6582976117575016,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "SOUTH FORK OF MOKELUMNE RIVER NEAR RAILROAD FLAT, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06981016533986528,
+                            "top": 0.3619515885022693,
+                            "width": 0.8083282302510717,
+                            "height": 0.029878971255673223,
+                            "page": 1
+                        },
+                        "content": "LOCATION. -In sec. 34, T. 6 N., R. 14 E., at Laidet ranch, about 5 miles above mouth of Licking Fork and 5 miles east of Railroad Flat, Calaveras County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06919779546846296,
+                            "top": 0.39334341906202724,
+                            "width": 0.3214941824862217,
+                            "height": 0.0113464447806354,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-Not measured.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## SOUTH FORK OF MOKELUMNE RIVER NEAR RAILROAD FLAT, CAL. (cont.)\n\n- RECORDS AVAILABLE.-Octobe 23, 1911, to September 30, 1915.\n\nGAGE.-Vertical staff fastened to alder tree on right bank, 100 feet above suspension footbridge; read twice a day by Florence Laidet.\n\nDISCHARGE MEASUREMENTS.-Made from cable 150 feet below gage or by wading. CHANNEL AND CONTROL.-~Composed of gravel and appear almost permanent.\n\nEXTREMES OF DISCHARGE.-Maximum stage recorded during year, 3.51 feet at 7.40 a. m., May 14 (discharge, 660 second-feet); minimum stage recorded, 1.07 feet at 3.10 p. m., October 14 (discharge, 6.4 second-feet).\n\n1911-1915: Maximum stage recorded, 6.9 feet at 4.20 p. m., January 25, 1914 (discharge, 3,330 second-feet); minimum stage recorded, 1.10 feet, November 18, 1911 (discharge, 4 second-feet).\n\nWINTER FLOw.-Stage-discharge relation not affected by ice this year.\n\nDIVERSIONS.-Ar irrigation and power ditch (capacity about 2 second-fee*) diverts water at base of Blue Mountain, above station. Some water is also used for irri- gation at Laidet ranch.\n\nREGULATION.-No information.\nAccurAcY.-Results good.\n\nDischarge measurements of South Fork of Mokelumne River near Railroad Flat, Cal., during the year ending Sept. 30, 1915.\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td rowspan=\"2\">Oct. 27\nJune 4</td><td>R. C. Rice</td><td>Feet.\n1.11</td><td>Sec.-ft.\n7.6</td></tr><tr><td>H. J. Tompkins</td><td>2.09</td><td>106</td></tr></table>",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## SOUTH FORK OF MOKELUMNE RIVER NEAR RAILROAD FLAT, CAL. (cont.)\n\n- RECORDS AVAILABLE.-Octobe 23, 1911, to September 30, 1915.\n\nGAGE.-Vertical staff fastened to alder tree on right bank, 100 feet above suspension footbridge; read twice a day by Florence Laidet.\n\nDISCHARGE MEASUREMENTS.-Made from cable 150 feet below gage or by wading. CHANNEL AND CONTROL.-~Composed of gravel and appear almost permanent.\n\nEXTREMES OF DISCHARGE.-Maximum stage recorded during year, 3.51 feet at 7.40 a. m., May 14 (discharge, 660 second-feet); minimum stage recorded, 1.07 feet at 3.10 p. m., October 14 (discharge, 6.4 second-feet).\n\n1911-1915: Maximum stage recorded, 6.9 feet at 4.20 p. m., January 25, 1914 (discharge, 3,330 second-feet); minimum stage recorded, 1.10 feet, November 18, 1911 (discharge, 4 second-feet).\n\nWINTER FLOw.-Stage-discharge relation not affected by ice this year.\n\nDIVERSIONS.-Ar irrigation and power ditch (capacity about 2 second-fee*) diverts water at base of Blue Mountain, above station. Some water is also used for irri- gation at Laidet ranch.\n\nREGULATION.-No information.\nAccurAcY.-Results good.\n\nDischarge measurements of South Fork of Mokelumne River near Railroad Flat, Cal., during the year ending Sept. 30, 1915.\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td rowspan=\"2\">Oct. 27\nJune 4</td><td>R. C. Rice</td><td>Feet.\n1.11</td><td>Sec.-ft.\n7.6</td></tr><tr><td>H. J. Tompkins</td><td>2.09</td><td>106</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06919779546846296,
+                            "top": 0.4092284417549168,
+                            "width": 0.6037966932026945,
+                            "height": 0.014750378214826021,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE.-Octobe 23, 1911, to September 30, 1915.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06858542559706063,
+                            "top": 0.42473524962178516,
+                            "width": 0.8089406001224739,
+                            "height": 0.029500756429652043,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Vertical staff fastened to alder tree on right bank, 100 feet above suspension footbridge; read twice a day by Florence Laidet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06919779546846296,
+                            "top": 0.4565052950075643,
+                            "width": 0.7703612982241274,
+                            "height": 0.029500756429652043,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from cable 150 feet below gage or by wading. CHANNEL AND CONTROL.-~Composed of gravel and appear almost permanent.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06919779546846296,
+                            "top": 0.48714069591527986,
+                            "width": 0.8089406001224739,
+                            "height": 0.04576399394856279,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-Maximum stage recorded during year, 3.51 feet at 7.40 a. m., May 14 (discharge, 660 second-feet); minimum stage recorded, 1.07 feet at 3.10 p. m., October 14 (discharge, 6.4 second-feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10961420698101654,
+                            "top": 0.5344175491679274,
+                            "width": 0.7672994488671158,
+                            "height": 0.0453857791225416,
+                            "page": 1
+                        },
+                        "content": "1911-1915: Maximum stage recorded, 6.9 feet at 4.20 p. m., January 25, 1914 (discharge, 3,330 second-feet); minimum stage recorded, 1.10 feet, November 18, 1911 (discharge, 4 second-feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0679730557256583,
+                            "top": 0.5813161875945537,
+                            "width": 0.6638089406001225,
+                            "height": 0.014372163388804841,
+                            "page": 1
+                        },
+                        "content": "WINTER FLOw.-Stage-discharge relation not affected by ice this year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06736068585425597,
+                            "top": 0.596822995461422,
+                            "width": 0.810777709736681,
+                            "height": 0.04576399394856279,
+                            "page": 1
+                        },
+                        "content": "DIVERSIONS.-Ar irrigation and power ditch (capacity about 2 second-fee*) diverts water at base of Blue Mountain, above station. Some water is also used for irri- gation at Laidet ranch.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0679730557256583,
+                            "top": 0.6444780635400907,
+                            "width": 0.2969993876301286,
+                            "height": 0.029122541603630862,
+                            "page": 1
+                        },
+                        "content": "REGULATION.-No information.\nAccurAcY.-Results good.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0679730557256583,
+                            "top": 0.6853252647503782,
+                            "width": 0.8083282302510717,
+                            "height": 0.0264750378214826,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of South Fork of Mokelumne River near Railroad Flat, Cal., during the year ending Sept. 30, 1915.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06415889106932697,
+                            "top": 0.7221630286881855,
+                            "width": 0.814982678798248,
+                            "height": 0.09390046412573279,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td rowspan=\"2\">Oct. 27\nJune 4</td><td>R. C. Rice</td><td>Feet.\n1.11</td><td>Sec.-ft.\n7.6</td></tr><tr><td>H. J. Tompkins</td><td>2.09</td><td>106</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

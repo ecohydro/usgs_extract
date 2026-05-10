@@ -1,0 +1,32 @@
+```json
+{
+  "Watersource_Name": "Stream Waters, Coast Ranges B-3",
+  "County": "Kern County",
+  "Location": "Southern Coast Ranges, Eastern Slope",
+  "Townships_Ranges_Sections": ["N/A"],
+  "Temporal_Resolution": "Seasonal (October through September)",
+  "Units_Of_Measurement": "inches",
+  "Actual_Latitude": null,
+  "Actual_Longitude": null,
+  "Inferred_Latitude": 35.65,
+  "Inferred_Longitude": -119.20,
+  "Dates_of_Recording": "N/A",
+  "Water_Type": "Stream Discharge"
+},
+{
+  "Watersource_Name": "Precipitation, Priest Valley and Buttonwillow",
+  "County": "Fresno County",
+  "Location": "Priest Valley and Buttonwillow",
+  "Townships_Ranges_Sections": ["N/A"],
+  "Temporal_Resolution": "Seasonal (October through September)",
+  "Units_Of_Measurement": "inches",
+  "Actual_Latitude": null,
+  "Actual_Longitude": null,
+  "Inferred_Latitude_Priest_Valley": 36.60,
+  "Inferred_Longitude_Priest_Valley": -120.10,
+  "Inferred_Latitude_Buttonwillow": 35.48,
+  "Inferred_Longitude_Buttonwillow": -119.30,
+  "Dates_of_Recording": "N/A",
+  "Water_Type": "Precipitation"
+}
+```

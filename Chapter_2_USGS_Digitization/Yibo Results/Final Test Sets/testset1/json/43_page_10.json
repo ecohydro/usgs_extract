@@ -1,0 +1,90 @@
+{
+    "job_id": "cf1587da-719d-46fd-91a1-e91fbba1a810",
+    "duration": 4.892234563827515,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/55dfd01b-f157-448d-adb7-cb3d7d211669?AWSAccessKeyId=ASIA2UOK6OVBD2CQX2KF&Signature=2iWsd%2B3dYWbVZlehSbpIrR3bmeQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEMjUrft3QkrEOPWzLS3vdmAeTpaiV3gR7VyRfLGTGCSAiEA5jellvgMTrb5GFFBxLVJUnAoscTmJnKdOBUkbAvO7K4qiwUIdRAAGgw3MzExMDY5MzIwMzQiDDjsn1G3f12U3TpWsiroBEkvgaBE%2FB9b24Vfgrq8AGEjDISByMZWj1oE9ES%2FFxW7Z5tgl5iK8uGgOvZ4BD%2BrVlir6Aglpg84TfX%2FtoQHarSJ5qf%2FIQwNIhxdRLEh5aK8WHO1fQaPZboZlvgEy0lnEXChm5Kei3DmAi0lodXuJx%2B2DoayYllGp9mUbgBCasTXzazJRyfQB8B9BIe3xJ65dFH7YtlQvOKXXZdrSXwmq%2B%2F0Ks%2BP59WvK4ceRxM9aVxEpZkMrBH59KNfpGAfONCcfqCEDYBU6J2eLHIHYJTjG0Rw%2FagcUvDvQYZ1sM9hbB4pP53XVZjjH7o0UHvR97RgVftVJSDFBPd4RrUkHO8ghdvUpnfJrd1ILvMbVbYsVBw9U7KmaipXYks9hOOT%2Bkuq%2FGk7Po%2ByHDosZzjeMIYWlNYHik4YCwgNWP2w4lSPDx8JGLOZ8N6A7ZvjI%2BXDCKNtorlX3E%2FFEPahqYZvD7BLAsrLf5VN%2Fx5CXxKf2FH2Px%2Blnk49WMobs1Epzad0OxKzoUVRytAG7fj0UuI8zsCb6Jf9L64462g%2BlMNRtOsh%2F8JgMsnPSYj4jBPWrjO5DcpGJlQEZC2Q0iFHxJ%2Fiwtzica9LjxpW%2FuD0BCZBs2p%2BoJ5XWHstNgOCZ6cTJrw%2F9mDUz9e8IowVOi9ZdcUSLw0Pwv1Sth1qlV8Hx7%2BRNnKQjZLKTj20jWrTWyEbw9MfND4nqg1o3BJAs0bYqFPIaOqW4n3rB6pTMXXCGB9BPKFTXNLbnLh1I9AXwgbqXk9REiUQJd64D%2BCe%2BNPqaSd%2Faoj9OoA5aIrcemDGsiYNnw3zd1KNMRfo%2FHmdnCYwo9KmugY6mwGDNmDLvFUymvgtLY%2B9T5zLYFVPs9JEaGTcdRlG02v%2Ft4d5SRumzAHsxC1rzcg0RtLf%2By6g%2FAn%2BP6hmmI9KpvHgg%2F4Lm85C2pcL%2BKEvU7I0yKvpuEMJedU%2FN%2BMrHDRQ7tLG30mX4V3qTv7tBJb%2B0wFyYUpM1k2NKR3yO6FU7qWrekfXt4GC4MOY3t6wGLQDU%2Fj33RjartGOVzKRpQ%3D%3D&Expires=1732884281",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# IN DESCRIPTION\n\nTable 1. - -Stream-gaging stations and principal reservoirs in south San Francisco Bay region",
+                "embed": "# IN DESCRIPTION\n\nTable 1. - -Stream-gaging stations and principal reservoirs in south San Francisco Bay region",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.613359023763648,
+                            "top": 0.060514372163388806,
+                            "width": 0.20745022479126526,
+                            "height": 0.01626323751891074,
+                            "page": 1
+                        },
+                        "content": "IN DESCRIPTION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16506101477199744,
+                            "top": 0.19780635400907715,
+                            "width": 0.021836865767501604,
+                            "height": 0.5911497730711044,
+                            "page": 1
+                        },
+                        "content": "Table 1. - -Stream-gaging stations and principal reservoirs in south San Francisco Bay region",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# IN DESCRIPTION (cont.)\n\n<table><tr><th>Capacity (acre-ft)</th><th></th><th></th><th>952</th><th>4,000 2,000 9,213 3,500 6,000</th><th></th><th>20,713</th><th></th><th></th><th>412</th><th>24,560 75,000 99,560 96,800</th></tr><tr><td>Drainage above area reservoir mi) (sq</td><td></td><td></td><td>14,8</td><td>16.9 11.9 7,1 6,0 10,0</td><td></td><td>35</td><td></td><td></td><td>45</td><td>120 193 193 100</td></tr><tr><td>on 6\nIndex letter pl.</td><td></td><td></td><td>A</td><td>B C D E F</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H J H J K</td></tr><tr><td>Reservoir</td><td>/\na a</td><td></td><td>Searsville</td><td>Cr.\nStevens Almaden Calero Guadalupe Austrian</td><td>Almaden</td><td>Calero</td><td>Guadalupe</td><td>Austrian</td><td>Vasona</td><td>a Coyote Anderson Coyote Anderson Calaveras / a -</td></tr><tr><td>Drainage above area station mi) (sq</td><td>40.4 110 46.2</td><td></td><td>7\n37,</td><td>1 0 6 6\n18. 35. 12. 43.</td><td></td><td></td><td>131</td><td></td><td></td><td>8.8 194 229 633 38. 0</td></tr><tr><td>Index no. on 6 pl.</td><td>1 2 3</td><td></td><td>4</td><td>5 6 7 8</td><td></td><td></td><td>9</td><td></td><td></td><td>10 11 12 13 14</td></tr><tr><td>station\ngaging\nStream</td><td>DRAINAGE Big Trees Pescadero\nOCEAN Soquel at River at Creek near\nPACIFIC Creek Lorenzo Pescadero\nSoquel San</td><td>DRAINAGE\nBAY\nFRANCISCO\nSAN</td><td>Stanford\nat\nCreek\nFrancisquito\nSan</td><td>-\nGuadalupe Gatos\nCupertino Edenvale at Los\nnear near Creek below Creek\nUniversity. Creek Creek Alamitos Capitancillos Gatos\nStevens Los Los</td><td></td><td></td><td>Jose\nSan\nat\nRiver\nGuadalupe</td><td></td><td></td><td>b\nSaratoga Madrone Edenvale Niles Hayward\nat near at\nCreek Creek near Creek near Creek Creek\nSaratoga Coyote Coyote Alameda Lorenzo San</td></tr></table>\n\nh Shown as Camphell Creek on same maps,\n\na No reservoir on stream.",
+                "embed": "# IN DESCRIPTION (cont.)\n\n<table><tr><th>Capacity (acre-ft)</th><th></th><th></th><th>952</th><th>4,000 2,000 9,213 3,500 6,000</th><th></th><th>20,713</th><th></th><th></th><th>412</th><th>24,560 75,000 99,560 96,800</th></tr><tr><td>Drainage above area reservoir mi) (sq</td><td></td><td></td><td>14,8</td><td>16.9 11.9 7,1 6,0 10,0</td><td></td><td>35</td><td></td><td></td><td>45</td><td>120 193 193 100</td></tr><tr><td>on 6\nIndex letter pl.</td><td></td><td></td><td>A</td><td>B C D E F</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H J H J K</td></tr><tr><td>Reservoir</td><td>/\na a</td><td></td><td>Searsville</td><td>Cr.\nStevens Almaden Calero Guadalupe Austrian</td><td>Almaden</td><td>Calero</td><td>Guadalupe</td><td>Austrian</td><td>Vasona</td><td>a Coyote Anderson Coyote Anderson Calaveras / a -</td></tr><tr><td>Drainage above area station mi) (sq</td><td>40.4 110 46.2</td><td></td><td>7\n37,</td><td>1 0 6 6\n18. 35. 12. 43.</td><td></td><td></td><td>131</td><td></td><td></td><td>8.8 194 229 633 38. 0</td></tr><tr><td>Index no. on 6 pl.</td><td>1 2 3</td><td></td><td>4</td><td>5 6 7 8</td><td></td><td></td><td>9</td><td></td><td></td><td>10 11 12 13 14</td></tr><tr><td>station\ngaging\nStream</td><td>DRAINAGE Big Trees Pescadero\nOCEAN Soquel at River at Creek near\nPACIFIC Creek Lorenzo Pescadero\nSoquel San</td><td>DRAINAGE\nBAY\nFRANCISCO\nSAN</td><td>Stanford\nat\nCreek\nFrancisquito\nSan</td><td>-\nGuadalupe Gatos\nCupertino Edenvale at Los\nnear near Creek below Creek\nUniversity. Creek Creek Alamitos Capitancillos Gatos\nStevens Los Los</td><td></td><td></td><td>Jose\nSan\nat\nRiver\nGuadalupe</td><td></td><td></td><td>b\nSaratoga Madrone Edenvale Niles Hayward\nat near at\nCreek Creek near Creek near Creek Creek\nSaratoga Coyote Coyote Alameda Lorenzo San</td></tr></table>\n\nh Shown as Camphell Creek on same maps,\n\na No reservoir on stream.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1953066395273864,
+                            "top": 0.1561270755646629,
+                            "width": 0.7628793783806499,
+                            "height": 0.6765084317159725,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Capacity (acre-ft)</th><th></th><th></th><th>952</th><th>4,000 2,000 9,213 3,500 6,000</th><th></th><th>20,713</th><th></th><th></th><th>412</th><th>24,560 75,000 99,560 96,800</th></tr><tr><td>Drainage above area reservoir mi) (sq</td><td></td><td></td><td>14,8</td><td>16.9 11.9 7,1 6,0 10,0</td><td></td><td>35</td><td></td><td></td><td>45</td><td>120 193 193 100</td></tr><tr><td>on 6\nIndex letter pl.</td><td></td><td></td><td>A</td><td>B C D E F</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H J H J K</td></tr><tr><td>Reservoir</td><td>/\na a</td><td></td><td>Searsville</td><td>Cr.\nStevens Almaden Calero Guadalupe Austrian</td><td>Almaden</td><td>Calero</td><td>Guadalupe</td><td>Austrian</td><td>Vasona</td><td>a Coyote Anderson Coyote Anderson Calaveras / a -</td></tr><tr><td>Drainage above area station mi) (sq</td><td>40.4 110 46.2</td><td></td><td>7\n37,</td><td>1 0 6 6\n18. 35. 12. 43.</td><td></td><td></td><td>131</td><td></td><td></td><td>8.8 194 229 633 38. 0</td></tr><tr><td>Index no. on 6 pl.</td><td>1 2 3</td><td></td><td>4</td><td>5 6 7 8</td><td></td><td></td><td>9</td><td></td><td></td><td>10 11 12 13 14</td></tr><tr><td>station\ngaging\nStream</td><td>DRAINAGE Big Trees Pescadero\nOCEAN Soquel at River at Creek near\nPACIFIC Creek Lorenzo Pescadero\nSoquel San</td><td>DRAINAGE\nBAY\nFRANCISCO\nSAN</td><td>Stanford\nat\nCreek\nFrancisquito\nSan</td><td>-\nGuadalupe Gatos\nCupertino Edenvale at Los\nnear near Creek below Creek\nUniversity. Creek Creek Alamitos Capitancillos Gatos\nStevens Los Los</td><td></td><td></td><td>Jose\nSan\nat\nRiver\nGuadalupe</td><td></td><td></td><td>b\nSaratoga Madrone Edenvale Niles Hayward\nat near at\nCreek Creek near Creek near Creek Creek\nSaratoga Coyote Coyote Alameda Lorenzo San</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.9788053949903661,
+                            "top": 0.5404689863842662,
+                            "width": 0.02119460500963391,
+                            "height": 0.27155824508320725,
+                            "page": 1
+                        },
+                        "content": "h Shown as Camphell Creek on same maps,",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.9563262684649968,
+                            "top": 0.6448562783661119,
+                            "width": 0.018625561978163133,
+                            "height": 0.16603630862329805,
+                            "page": 1
+                        },
+                        "content": "a No reservoir on stream.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

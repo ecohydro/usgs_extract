@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Sacramento River Main Stem",
+    "County": "Sutter County",
+    "Location": "Bitney, California",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second",
+        "Runoff": "thousands of acre-feet"
+    },
+    "Latitude": 39.0836,
+    "Longitude": -121.6847,
+    "Dates_of_Recording": "10/01/1946-09/30/1950",
+    "Water_Type": "Stream discharge"
+}
+```

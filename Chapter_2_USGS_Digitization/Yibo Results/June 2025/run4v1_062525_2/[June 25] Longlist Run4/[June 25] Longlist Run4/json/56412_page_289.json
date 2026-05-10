@@ -1,0 +1,274 @@
+{
+    "job_id": "ce9dc043-a18e-4c07-bb51-b2eeca18bad4",
+    "duration": 5.089045524597168,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/cc6ff1ab-b9d9-4576-a7ae-9e925d4e2d09?AWSAccessKeyId=ASIA2UOK6OVBOE7AMLEM&Signature=XIfaXQxcp35JJKiab%2FFuR2Acf%2Fs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFFSZ%2FHyIRx84ZLyQi9ZcnuMnxnOLuPW951sbZS7ZtC9AiABHXXk7Lcy4HWgd5dWTsrZhqKit7F7Bsx6iBlnaBRVEyqUBQi7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDczMTEwNjkzMjAzNCIMySuaY0Uq1PWE8C3rKugEb%2BMcBW3yE3%2BsxlU6ajL64JuPGY5yCYW7PYr2wJtzbW%2Bfdqu%2BCm2l5vTLjR5EqpWVI04tmB9pBLeLKOCJJSSthth%2FMsq64mqA2uxwCCmsvrJfH2gtUW%2BqIdPMAqEy3VI0HJO3vK5dSKTiXue07iRUYtWwcIyrVGWxymixbKhgZj2Cq1yxSlWyBlGE4NqQATqWRzzwlCjLGbnOo7gZasR3puBv015D7A0G7f%2BSa68z%2Bm3dDqHPJRi3GcZPTn2lpx1RV7G%2BfVblH4SyhkRKzN1H1NdJqs%2F2swV1bI8CDr2yqQeGp6DeWF7yMWv0lhqUFuI769LpbBgVrnet2Gb1PAkBlTVD9Y4ROKDYUYYevI9jqmbH4XhyYQJIY0xA5DWtxzOA%2FGOqsLy354orgzlbbjAsfGTbue%2BWyrqktQFbjNH0Cvfid9AKm4ktoK%2FHge8aWl%2Bks4XSdCr9cIspK6Sai5KGFz0bfpXUZ11Q4z%2Fjz0iQ9BmVPAaBY2GETtjAhIrtnTcpPgqXZYI%2BEaLPLy3ZxGqOVzBZRnVAZJmvwneqKe8WxW2DjkVdlwg2teX6YtjAdfMveZlgojA5jv%2FO4BUQ6VHgXP7pr0ndSQEYe1tpD4OJXep66OmpqtVD0XyeZvCchD47tj2l6X8FYLoxuACbePDzbchQqZN0WY3UoGYcVfnGYepO9DzjczE1myQ0QCfS93TSbzG1y1nGWC1lWIud1ryBvoTnSOr%2FGKA5nq5nUhKQe4YS0%2FilcgcKOhjqU%2BWjeFiOjF1XY67%2BZDWci8WSXGRl4NYoUtQESqwx1qKKKUZP9WVdcwGJDi91LzCSg4m8BjqcAYv%2B4fYioqGidtcbGlsPu16hTryzQEkYJhwANdIamOOjAcyLxkQ1rE4SQl1mDPfq3eQVo7z23jdIYwT1mQRIAHjRPI8Ul%2BnCpLOt1mO4UQODK5ry3xuiAVxgRMU0v%2FVacSIHuXw1Mq0TazE6H9Th1CrRp6L524waSSVtZjL%2FnJ%2BKG4FCvdSVMThMr0D3U5Ztahvqu2GFdLI2a8e%2Fbg%3D%3D&Expires=1736595518",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN\n\n783\n\n# 11336000 COSUMNES RIVER AT McCONNELL, CALIF.\n\nLOCATION. Lat 38\u00b021'29\" long 121\u00b020'34\", in sec .20, T.6 N., R.6 E., Sacramento County, on downstream side of bridge on U.S. Highway 99, 0.2 mile south of McConnell, 1 mile downstream from Deer Creek, and 7 miles north of Galt.",
+                "embed": "# SAN JOAQUIN RIVER BASIN\n\n783\n\n# 11336000 COSUMNES RIVER AT McCONNELL, CALIF.\n\nLOCATION. Lat 38\u00b021'29\" long 121\u00b020'34\", in sec .20, T.6 N., R.6 E., Sacramento County, on downstream side of bridge on U.S. Highway 99, 0.2 mile south of McConnell, 1 mile downstream from Deer Creek, and 7 miles north of Galt.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4438549955791335,
+                            "top": 0.035506778566817304,
+                            "width": 0.17727674624226347,
+                            "height": 0.008069722401549387,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.9363395225464191,
+                            "top": 0.03486120077469335,
+                            "width": 0.021662245800176835,
+                            "height": 0.007424144609425436,
+                            "page": 1
+                        },
+                        "content": "783",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.358974358974359,
+                            "top": 0.0539057456423499,
+                            "width": 0.34394341290893016,
+                            "height": 0.00936087798579729,
+                            "page": 1
+                        },
+                        "content": "11336000 COSUMNES RIVER AT McCONNELL, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09018567639257294,
+                            "top": 0.07165913492575855,
+                            "width": 0.8536693191865605,
+                            "height": 0.028082633957391866,
+                            "page": 1
+                        },
+                        "content": "LOCATION. Lat 38\u00b021'29\" long 121\u00b020'34\", in sec .20, T.6 N., R.6 E., Sacramento County, on downstream side of bridge on U.S. Highway 99, 0.2 mile south of McConnell, 1 mile downstream from Deer Creek, and 7 miles north of Galt.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11336000 COSUMNES RIVER AT McCONNELL, CALIF. (cont.)\n\nDRAINAGE AREA.--724 sq mi.\n\nPERIOD OF RECORD.--October 1941 to current year. Monthly figures only for some periods, published in WSP 1315-A. Gage heights only during high-water periods 1931-40, in reports of California Department of Water Resorces.\n\nGAGE. --Water-stage recorder. Datum of gage is 3.34 ft below mean sea level.\n\nAVERAGE DISCHARGE.--31 years, 542 cfs (392,700 acre-ft per year) ; median of yearly mean discharges, 430 cfs (312,000 acre-ft per year).\n\nEXTREMES Current year: Maximum discharge, 4,170 cfs Dec. 25 (gage height, 38.97 ft); no flow for several months. 1943 to current year: Maximum discharge, 54,000 cfs Dec. 23, 1955 (gage height, 46.26 ft), from rating curve extended above 36,000 cfs; no flow for parts of each year.\n\nFlood of Feb. 23, 24, 1936, reached a stage of 45.94 ft (discharge unknown).\n\nREMARKS. -Records good except those for the summer months, which are poor. Diversions for irrigation of 2,100 acres between stations at Michigan Bar and at McConnell.\n\nREVISIONS\n\n(WATER YEARS). --WSP 1315-A: 1947 (M) WSP 1930: Drainage area.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1971 TO\n\nSEPTEMBER\n\n1972",
+                "embed": "# 11336000 COSUMNES RIVER AT McCONNELL, CALIF. (cont.)\n\nDRAINAGE AREA.--724 sq mi.\n\nPERIOD OF RECORD.--October 1941 to current year. Monthly figures only for some periods, published in WSP 1315-A. Gage heights only during high-water periods 1931-40, in reports of California Department of Water Resorces.\n\nGAGE. --Water-stage recorder. Datum of gage is 3.34 ft below mean sea level.\n\nAVERAGE DISCHARGE.--31 years, 542 cfs (392,700 acre-ft per year) ; median of yearly mean discharges, 430 cfs (312,000 acre-ft per year).\n\nEXTREMES Current year: Maximum discharge, 4,170 cfs Dec. 25 (gage height, 38.97 ft); no flow for several months. 1943 to current year: Maximum discharge, 54,000 cfs Dec. 23, 1955 (gage height, 46.26 ft), from rating curve extended above 36,000 cfs; no flow for parts of each year.\n\nFlood of Feb. 23, 24, 1936, reached a stage of 45.94 ft (discharge unknown).\n\nREMARKS. -Records good except those for the summer months, which are poor. Diversions for irrigation of 2,100 acres between stations at Michigan Bar and at McConnell.\n\nREVISIONS\n\n(WATER YEARS). --WSP 1315-A: 1947 (M) WSP 1930: Drainage area.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1971 TO\n\nSEPTEMBER\n\n1972",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08885941644562334,
+                            "top": 0.11007101355713364,
+                            "width": 0.19938107869142352,
+                            "height": 0.009038089089735314,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.--724 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08930150309460655,
+                            "top": 0.12846998063266624,
+                            "width": 0.8222811671087533,
+                            "height": 0.02775984506132989,
+                            "page": 1
+                        },
+                        "content": "PERIOD OF RECORD.--October 1941 to current year. Monthly figures only for some periods, published in WSP 1315-A. Gage heights only during high-water periods 1931-40, in reports of California Department of Water Resorces.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08841732979664015,
+                            "top": 0.1659134925758554,
+                            "width": 0.5831122900088417,
+                            "height": 0.010006455777921239,
+                            "page": 1
+                        },
+                        "content": "GAGE. --Water-stage recorder. Datum of gage is 3.34 ft below mean sea level.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08885941644562334,
+                            "top": 0.18495803744351194,
+                            "width": 0.8227232537577365,
+                            "height": 0.01872175597159458,
+                            "page": 1
+                        },
+                        "content": "AVERAGE DISCHARGE.--31 years, 542 cfs (392,700 acre-ft per year) ; median of yearly mean discharges, 430 cfs (312,000 acre-ft per year).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08885941644562334,
+                            "top": 0.2130406714009038,
+                            "width": 0.8373121131741822,
+                            "height": 0.03776630083925113,
+                            "page": 1
+                        },
+                        "content": "EXTREMES Current year: Maximum discharge, 4,170 cfs Dec. 25 (gage height, 38.97 ft); no flow for several months. 1943 to current year: Maximum discharge, 54,000 cfs Dec. 23, 1955 (gage height, 46.26 ft), from rating curve extended above 36,000 cfs; no flow for parts of each year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1348364279398762,
+                            "top": 0.25048418334409295,
+                            "width": 0.5809018567639257,
+                            "height": 0.010329244673983214,
+                            "page": 1
+                        },
+                        "content": "Flood of Feb. 23, 24, 1936, reached a stage of 45.94 ft (discharge unknown).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08797524314765694,
+                            "top": 0.2695287282117495,
+                            "width": 0.7992926613616269,
+                            "height": 0.019044544867656554,
+                            "page": 1
+                        },
+                        "content": "REMARKS. -Records good except those for the summer months, which are poor. Diversions for irrigation of 2,100 acres between stations at Michigan Bar and at McConnell.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08753315649867374,
+                            "top": 0.2979341510652034,
+                            "width": 0.07029177718832891,
+                            "height": 0.007746933505487412,
+                            "page": 1
+                        },
+                        "content": "REVISIONS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16666666666666666,
+                            "top": 0.29761136216914136,
+                            "width": 0.4885057471264368,
+                            "height": 0.009683666881859263,
+                            "page": 1
+                        },
+                        "content": "(WATER YEARS). --WSP 1315-A: 1947 (M) WSP 1930: Drainage area.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.22679045092838196,
+                            "top": 0.3263395739186572,
+                            "width": 0.484526967285588,
+                            "height": 0.007746933505487412,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1971 TO",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.7192749778956675,
+                            "top": 0.32666236281471916,
+                            "width": 0.0694076038903625,
+                            "height": 0.007424144609425436,
+                            "page": 1
+                        },
+                        "content": "SEPTEMBER",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.7953138815207781,
+                            "top": 0.3263395739186572,
+                            "width": 0.03050397877984085,
+                            "height": 0.007424144609425436,
+                            "page": 1
+                        },
+                        "content": "1972",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11336000 COSUMNES RIVER AT McCONNELL, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>0</td><td>0</td><td>116</td><td>339</td><td>230</td><td>939</td><td>355</td><td>466</td><td>111</td><td></td><td>0</td><td></td></tr><tr><td>2</td><td>0</td><td>1.5</td><td>85</td><td>287</td><td>220</td><td>810</td><td>355</td><td>463</td><td>104</td><td></td><td>.58</td><td></td></tr><tr><td>3</td><td>0</td><td>8.1</td><td>73</td><td>255</td><td>202</td><td>773</td><td>365</td><td>453</td><td>96</td><td></td><td>14</td><td></td></tr><tr><td>4</td><td>0</td><td>11</td><td>84</td><td>232</td><td>197</td><td>821</td><td>375</td><td>452</td><td>86</td><td></td><td>14</td><td></td></tr><tr><td>5</td><td>0</td><td>8.1</td><td>76</td><td>201</td><td>269</td><td>828</td><td>390</td><td>435</td><td>75</td><td></td><td>7.0</td><td></td></tr><tr><td>6</td><td>0</td><td>6.3</td><td>69</td><td>185</td><td>2,290</td><td>722</td><td>561</td><td>437</td><td>62</td><td></td><td>.04</td><td></td></tr><tr><td>7</td><td>0</td><td>.94</td><td>61</td><td>185</td><td>1,660</td><td>580</td><td>747</td><td>431</td><td>60</td><td></td><td>0</td><td></td></tr><tr><td>8</td><td>0</td><td>0</td><td>99</td><td>174</td><td>843</td><td>536</td><td>657</td><td>412</td><td>53</td><td></td><td>0</td><td></td></tr><tr><td>9</td><td>0</td><td>0</td><td>81</td><td>165</td><td>625</td><td>512</td><td>585</td><td>374</td><td>55</td><td></td><td>0</td><td></td></tr><tr><td>10</td><td>0</td><td>0</td><td>67</td><td>157</td><td>503</td><td>568</td><td>531</td><td>356</td><td>61</td><td></td><td>0</td><td></td></tr><tr><td>11</td><td>0</td><td>0</td><td>87</td><td>153</td><td>427</td><td>678</td><td>518</td><td>336</td><td>62</td><td></td><td>0</td><td></td></tr><tr><td>12</td><td>0</td><td>0</td><td>97</td><td>150</td><td>373</td><td>621</td><td>631</td><td>314</td><td>58</td><td></td><td>0</td><td></td></tr><tr><td>13</td><td>0</td><td>175</td><td>90</td><td>149</td><td>336</td><td>539</td><td>1,020</td><td>298</td><td>49</td><td></td><td>0</td><td></td></tr><tr><td>14</td><td>0</td><td>153</td><td>97</td><td>148</td><td>321</td><td>588</td><td>932</td><td>287</td><td>42</td><td></td><td>0</td><td></td></tr><tr><td>15</td><td>0</td><td>111</td><td>80</td><td>148</td><td>311</td><td>596</td><td>733</td><td>280</td><td>40</td><td></td><td>0</td><td></td></tr><tr><td>16</td><td>0</td><td>82</td><td>76</td><td>151</td><td>300</td><td>525</td><td>674</td><td>271</td><td>33</td><td></td><td>0</td><td></td></tr><tr><td>17</td><td>0</td><td>61</td><td>74</td><td>154</td><td>287</td><td>476</td><td>660</td><td>257</td><td>29</td><td></td><td>0</td><td></td></tr><tr><td>18</td><td>0</td><td>46</td><td>63</td><td>160</td><td>281</td><td>441</td><td>671</td><td>251</td><td>23</td><td></td><td>0</td><td></td></tr><tr><td>19</td><td>0</td><td>36</td><td>64</td><td>170</td><td>276</td><td>418</td><td>649</td><td>227</td><td>19</td><td></td><td>0</td><td></td></tr><tr><td>20</td><td>0</td><td>32</td><td>62</td><td>178</td><td>280</td><td>397</td><td>606</td><td>212</td><td>15</td><td></td><td>0</td><td></td></tr><tr><td>21</td><td>0</td><td>31</td><td>60</td><td>195</td><td>297</td><td>384</td><td>559</td><td>219</td><td>11</td><td></td><td>0</td><td></td></tr><tr><td>22</td><td>0</td><td>28</td><td>73</td><td>215</td><td>350</td><td>376</td><td>537</td><td>207</td><td>6.5</td><td></td><td>0</td><td></td></tr><tr><td>23</td><td>0</td><td>26</td><td>1,040</td><td>300</td><td>639</td><td>373</td><td>528</td><td>191</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>24</td><td>0</td><td>23</td><td>855</td><td>460</td><td>576</td><td>380</td><td>550</td><td>174</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>25</td><td>51</td><td>23</td><td>2,310</td><td>415</td><td>624</td><td>410</td><td>627</td><td>163</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>26</td><td>15</td><td>24</td><td>2,960</td><td>400</td><td>837</td><td>405</td><td>550</td><td>150</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>27</td><td>7.0</td><td>26</td><td>1,270</td><td>480</td><td>714</td><td>395</td><td>515</td><td>153</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>28</td><td>4.6</td><td>34</td><td>1,440</td><td>365</td><td>643</td><td>390</td><td>506</td><td>150</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>29</td><td>2.9</td><td>72</td><td>932</td><td>320</td><td>669</td><td>380</td><td>504</td><td>129</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>30</td><td>3.1</td><td>118</td><td>562</td><td>280</td><td></td><td>370</td><td>492</td><td>132</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>31</td><td>.25</td><td></td><td>423</td><td>265</td><td></td><td>360</td><td></td><td>117</td><td></td><td></td><td>0</td><td></td></tr><tr><td>TOTAL</td><td></td><td>83.85 1,136.94</td><td>13,526</td><td>7,436</td><td>15,580</td><td>16,591</td><td>17,383</td><td>8,797</td><td>1,150.5</td><td>0</td><td>35.62</td><td>0</td></tr><tr><td>MEAN</td><td>2.70</td><td>37.9</td><td>436</td><td>240</td><td>537</td><td>535</td><td>579</td><td>284</td><td>38.4</td><td>0</td><td>1.15</td><td>0</td></tr><tr><td>MAX</td><td>51</td><td>175</td><td>2,960</td><td>480</td><td>2,290</td><td>939</td><td>1,020</td><td>466</td><td>111</td><td>0</td><td>14</td><td>0</td></tr><tr><td>MIN</td><td>0</td><td>0</td><td>60</td><td>148</td><td>197</td><td>360</td><td>355</td><td>117</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>AC-FT</td><td>166</td><td>2,260</td><td>26,830</td><td>14,750</td><td>30,900</td><td>32,910</td><td>34,480</td><td>17,450</td><td>2,280</td><td>0</td><td>71</td><td>0</td></tr><tr><td>CAL YR</td><td>1971</td><td>TOTAL 135,156.84</td><td></td><td>MEAN 370</td><td>MAX 7,040</td><td>MIN 0</td><td></td><td>AC-FT 268,100</td><td></td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1972</td><td>TOTAL</td><td>81,719.91</td><td>MEAN 223</td><td>MAX 2,960</td><td>MIN 0</td><td></td><td>AC-FT 162,100</td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# 11336000 COSUMNES RIVER AT McCONNELL, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>0</td><td>0</td><td>116</td><td>339</td><td>230</td><td>939</td><td>355</td><td>466</td><td>111</td><td></td><td>0</td><td></td></tr><tr><td>2</td><td>0</td><td>1.5</td><td>85</td><td>287</td><td>220</td><td>810</td><td>355</td><td>463</td><td>104</td><td></td><td>.58</td><td></td></tr><tr><td>3</td><td>0</td><td>8.1</td><td>73</td><td>255</td><td>202</td><td>773</td><td>365</td><td>453</td><td>96</td><td></td><td>14</td><td></td></tr><tr><td>4</td><td>0</td><td>11</td><td>84</td><td>232</td><td>197</td><td>821</td><td>375</td><td>452</td><td>86</td><td></td><td>14</td><td></td></tr><tr><td>5</td><td>0</td><td>8.1</td><td>76</td><td>201</td><td>269</td><td>828</td><td>390</td><td>435</td><td>75</td><td></td><td>7.0</td><td></td></tr><tr><td>6</td><td>0</td><td>6.3</td><td>69</td><td>185</td><td>2,290</td><td>722</td><td>561</td><td>437</td><td>62</td><td></td><td>.04</td><td></td></tr><tr><td>7</td><td>0</td><td>.94</td><td>61</td><td>185</td><td>1,660</td><td>580</td><td>747</td><td>431</td><td>60</td><td></td><td>0</td><td></td></tr><tr><td>8</td><td>0</td><td>0</td><td>99</td><td>174</td><td>843</td><td>536</td><td>657</td><td>412</td><td>53</td><td></td><td>0</td><td></td></tr><tr><td>9</td><td>0</td><td>0</td><td>81</td><td>165</td><td>625</td><td>512</td><td>585</td><td>374</td><td>55</td><td></td><td>0</td><td></td></tr><tr><td>10</td><td>0</td><td>0</td><td>67</td><td>157</td><td>503</td><td>568</td><td>531</td><td>356</td><td>61</td><td></td><td>0</td><td></td></tr><tr><td>11</td><td>0</td><td>0</td><td>87</td><td>153</td><td>427</td><td>678</td><td>518</td><td>336</td><td>62</td><td></td><td>0</td><td></td></tr><tr><td>12</td><td>0</td><td>0</td><td>97</td><td>150</td><td>373</td><td>621</td><td>631</td><td>314</td><td>58</td><td></td><td>0</td><td></td></tr><tr><td>13</td><td>0</td><td>175</td><td>90</td><td>149</td><td>336</td><td>539</td><td>1,020</td><td>298</td><td>49</td><td></td><td>0</td><td></td></tr><tr><td>14</td><td>0</td><td>153</td><td>97</td><td>148</td><td>321</td><td>588</td><td>932</td><td>287</td><td>42</td><td></td><td>0</td><td></td></tr><tr><td>15</td><td>0</td><td>111</td><td>80</td><td>148</td><td>311</td><td>596</td><td>733</td><td>280</td><td>40</td><td></td><td>0</td><td></td></tr><tr><td>16</td><td>0</td><td>82</td><td>76</td><td>151</td><td>300</td><td>525</td><td>674</td><td>271</td><td>33</td><td></td><td>0</td><td></td></tr><tr><td>17</td><td>0</td><td>61</td><td>74</td><td>154</td><td>287</td><td>476</td><td>660</td><td>257</td><td>29</td><td></td><td>0</td><td></td></tr><tr><td>18</td><td>0</td><td>46</td><td>63</td><td>160</td><td>281</td><td>441</td><td>671</td><td>251</td><td>23</td><td></td><td>0</td><td></td></tr><tr><td>19</td><td>0</td><td>36</td><td>64</td><td>170</td><td>276</td><td>418</td><td>649</td><td>227</td><td>19</td><td></td><td>0</td><td></td></tr><tr><td>20</td><td>0</td><td>32</td><td>62</td><td>178</td><td>280</td><td>397</td><td>606</td><td>212</td><td>15</td><td></td><td>0</td><td></td></tr><tr><td>21</td><td>0</td><td>31</td><td>60</td><td>195</td><td>297</td><td>384</td><td>559</td><td>219</td><td>11</td><td></td><td>0</td><td></td></tr><tr><td>22</td><td>0</td><td>28</td><td>73</td><td>215</td><td>350</td><td>376</td><td>537</td><td>207</td><td>6.5</td><td></td><td>0</td><td></td></tr><tr><td>23</td><td>0</td><td>26</td><td>1,040</td><td>300</td><td>639</td><td>373</td><td>528</td><td>191</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>24</td><td>0</td><td>23</td><td>855</td><td>460</td><td>576</td><td>380</td><td>550</td><td>174</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>25</td><td>51</td><td>23</td><td>2,310</td><td>415</td><td>624</td><td>410</td><td>627</td><td>163</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>26</td><td>15</td><td>24</td><td>2,960</td><td>400</td><td>837</td><td>405</td><td>550</td><td>150</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>27</td><td>7.0</td><td>26</td><td>1,270</td><td>480</td><td>714</td><td>395</td><td>515</td><td>153</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>28</td><td>4.6</td><td>34</td><td>1,440</td><td>365</td><td>643</td><td>390</td><td>506</td><td>150</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>29</td><td>2.9</td><td>72</td><td>932</td><td>320</td><td>669</td><td>380</td><td>504</td><td>129</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>30</td><td>3.1</td><td>118</td><td>562</td><td>280</td><td></td><td>370</td><td>492</td><td>132</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>31</td><td>.25</td><td></td><td>423</td><td>265</td><td></td><td>360</td><td></td><td>117</td><td></td><td></td><td>0</td><td></td></tr><tr><td>TOTAL</td><td></td><td>83.85 1,136.94</td><td>13,526</td><td>7,436</td><td>15,580</td><td>16,591</td><td>17,383</td><td>8,797</td><td>1,150.5</td><td>0</td><td>35.62</td><td>0</td></tr><tr><td>MEAN</td><td>2.70</td><td>37.9</td><td>436</td><td>240</td><td>537</td><td>535</td><td>579</td><td>284</td><td>38.4</td><td>0</td><td>1.15</td><td>0</td></tr><tr><td>MAX</td><td>51</td><td>175</td><td>2,960</td><td>480</td><td>2,290</td><td>939</td><td>1,020</td><td>466</td><td>111</td><td>0</td><td>14</td><td>0</td></tr><tr><td>MIN</td><td>0</td><td>0</td><td>60</td><td>148</td><td>197</td><td>360</td><td>355</td><td>117</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>AC-FT</td><td>166</td><td>2,260</td><td>26,830</td><td>14,750</td><td>30,900</td><td>32,910</td><td>34,480</td><td>17,450</td><td>2,280</td><td>0</td><td>71</td><td>0</td></tr><tr><td>CAL YR</td><td>1971</td><td>TOTAL 135,156.84</td><td></td><td>MEAN 370</td><td>MAX 7,040</td><td>MIN 0</td><td></td><td>AC-FT 268,100</td><td></td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1972</td><td>TOTAL</td><td>81,719.91</td><td>MEAN 223</td><td>MAX 2,960</td><td>MIN 0</td><td></td><td>AC-FT 162,100</td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.08525766765618092,
+                            "top": 0.34014987145184394,
+                            "width": 0.8785597635095463,
+                            "height": 0.4514096717514324,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>0</td><td>0</td><td>116</td><td>339</td><td>230</td><td>939</td><td>355</td><td>466</td><td>111</td><td></td><td>0</td><td></td></tr><tr><td>2</td><td>0</td><td>1.5</td><td>85</td><td>287</td><td>220</td><td>810</td><td>355</td><td>463</td><td>104</td><td></td><td>.58</td><td></td></tr><tr><td>3</td><td>0</td><td>8.1</td><td>73</td><td>255</td><td>202</td><td>773</td><td>365</td><td>453</td><td>96</td><td></td><td>14</td><td></td></tr><tr><td>4</td><td>0</td><td>11</td><td>84</td><td>232</td><td>197</td><td>821</td><td>375</td><td>452</td><td>86</td><td></td><td>14</td><td></td></tr><tr><td>5</td><td>0</td><td>8.1</td><td>76</td><td>201</td><td>269</td><td>828</td><td>390</td><td>435</td><td>75</td><td></td><td>7.0</td><td></td></tr><tr><td>6</td><td>0</td><td>6.3</td><td>69</td><td>185</td><td>2,290</td><td>722</td><td>561</td><td>437</td><td>62</td><td></td><td>.04</td><td></td></tr><tr><td>7</td><td>0</td><td>.94</td><td>61</td><td>185</td><td>1,660</td><td>580</td><td>747</td><td>431</td><td>60</td><td></td><td>0</td><td></td></tr><tr><td>8</td><td>0</td><td>0</td><td>99</td><td>174</td><td>843</td><td>536</td><td>657</td><td>412</td><td>53</td><td></td><td>0</td><td></td></tr><tr><td>9</td><td>0</td><td>0</td><td>81</td><td>165</td><td>625</td><td>512</td><td>585</td><td>374</td><td>55</td><td></td><td>0</td><td></td></tr><tr><td>10</td><td>0</td><td>0</td><td>67</td><td>157</td><td>503</td><td>568</td><td>531</td><td>356</td><td>61</td><td></td><td>0</td><td></td></tr><tr><td>11</td><td>0</td><td>0</td><td>87</td><td>153</td><td>427</td><td>678</td><td>518</td><td>336</td><td>62</td><td></td><td>0</td><td></td></tr><tr><td>12</td><td>0</td><td>0</td><td>97</td><td>150</td><td>373</td><td>621</td><td>631</td><td>314</td><td>58</td><td></td><td>0</td><td></td></tr><tr><td>13</td><td>0</td><td>175</td><td>90</td><td>149</td><td>336</td><td>539</td><td>1,020</td><td>298</td><td>49</td><td></td><td>0</td><td></td></tr><tr><td>14</td><td>0</td><td>153</td><td>97</td><td>148</td><td>321</td><td>588</td><td>932</td><td>287</td><td>42</td><td></td><td>0</td><td></td></tr><tr><td>15</td><td>0</td><td>111</td><td>80</td><td>148</td><td>311</td><td>596</td><td>733</td><td>280</td><td>40</td><td></td><td>0</td><td></td></tr><tr><td>16</td><td>0</td><td>82</td><td>76</td><td>151</td><td>300</td><td>525</td><td>674</td><td>271</td><td>33</td><td></td><td>0</td><td></td></tr><tr><td>17</td><td>0</td><td>61</td><td>74</td><td>154</td><td>287</td><td>476</td><td>660</td><td>257</td><td>29</td><td></td><td>0</td><td></td></tr><tr><td>18</td><td>0</td><td>46</td><td>63</td><td>160</td><td>281</td><td>441</td><td>671</td><td>251</td><td>23</td><td></td><td>0</td><td></td></tr><tr><td>19</td><td>0</td><td>36</td><td>64</td><td>170</td><td>276</td><td>418</td><td>649</td><td>227</td><td>19</td><td></td><td>0</td><td></td></tr><tr><td>20</td><td>0</td><td>32</td><td>62</td><td>178</td><td>280</td><td>397</td><td>606</td><td>212</td><td>15</td><td></td><td>0</td><td></td></tr><tr><td>21</td><td>0</td><td>31</td><td>60</td><td>195</td><td>297</td><td>384</td><td>559</td><td>219</td><td>11</td><td></td><td>0</td><td></td></tr><tr><td>22</td><td>0</td><td>28</td><td>73</td><td>215</td><td>350</td><td>376</td><td>537</td><td>207</td><td>6.5</td><td></td><td>0</td><td></td></tr><tr><td>23</td><td>0</td><td>26</td><td>1,040</td><td>300</td><td>639</td><td>373</td><td>528</td><td>191</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>24</td><td>0</td><td>23</td><td>855</td><td>460</td><td>576</td><td>380</td><td>550</td><td>174</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>25</td><td>51</td><td>23</td><td>2,310</td><td>415</td><td>624</td><td>410</td><td>627</td><td>163</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>26</td><td>15</td><td>24</td><td>2,960</td><td>400</td><td>837</td><td>405</td><td>550</td><td>150</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>27</td><td>7.0</td><td>26</td><td>1,270</td><td>480</td><td>714</td><td>395</td><td>515</td><td>153</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>28</td><td>4.6</td><td>34</td><td>1,440</td><td>365</td><td>643</td><td>390</td><td>506</td><td>150</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>29</td><td>2.9</td><td>72</td><td>932</td><td>320</td><td>669</td><td>380</td><td>504</td><td>129</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>30</td><td>3.1</td><td>118</td><td>562</td><td>280</td><td></td><td>370</td><td>492</td><td>132</td><td>0</td><td></td><td>0</td><td></td></tr><tr><td>31</td><td>.25</td><td></td><td>423</td><td>265</td><td></td><td>360</td><td></td><td>117</td><td></td><td></td><td>0</td><td></td></tr><tr><td>TOTAL</td><td></td><td>83.85 1,136.94</td><td>13,526</td><td>7,436</td><td>15,580</td><td>16,591</td><td>17,383</td><td>8,797</td><td>1,150.5</td><td>0</td><td>35.62</td><td>0</td></tr><tr><td>MEAN</td><td>2.70</td><td>37.9</td><td>436</td><td>240</td><td>537</td><td>535</td><td>579</td><td>284</td><td>38.4</td><td>0</td><td>1.15</td><td>0</td></tr><tr><td>MAX</td><td>51</td><td>175</td><td>2,960</td><td>480</td><td>2,290</td><td>939</td><td>1,020</td><td>466</td><td>111</td><td>0</td><td>14</td><td>0</td></tr><tr><td>MIN</td><td>0</td><td>0</td><td>60</td><td>148</td><td>197</td><td>360</td><td>355</td><td>117</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>AC-FT</td><td>166</td><td>2,260</td><td>26,830</td><td>14,750</td><td>30,900</td><td>32,910</td><td>34,480</td><td>17,450</td><td>2,280</td><td>0</td><td>71</td><td>0</td></tr><tr><td>CAL YR</td><td>1971</td><td>TOTAL 135,156.84</td><td></td><td>MEAN 370</td><td>MAX 7,040</td><td>MIN 0</td><td></td><td>AC-FT 268,100</td><td></td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1972</td><td>TOTAL</td><td>81,719.91</td><td>MEAN 223</td><td>MAX 2,960</td><td>MIN 0</td><td></td><td>AC-FT 162,100</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11336000 COSUMNES RIVER AT McCONNELL, CALIF. (cont.)\n\nPEAK DISCHARGE (BASE, 3,600 CFS) --Dec. 25 (2200) 4,170 cfs (38.97\n\nft).",
+                "embed": "# 11336000 COSUMNES RIVER AT McCONNELL, CALIF. (cont.)\n\nPEAK DISCHARGE (BASE, 3,600 CFS) --Dec. 25 (2200) 4,170 cfs (38.97\n\nft).",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08841732979664015,
+                            "top": 0.7959974176888315,
+                            "width": 0.506631299734748,
+                            "height": 0.009683666881859263,
+                            "page": 1
+                        },
+                        "content": "PEAK DISCHARGE (BASE, 3,600 CFS) --Dec. 25 (2200) 4,170 cfs (38.97",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.6030061892130858,
+                            "top": 0.7959974176888315,
+                            "width": 0.027851458885941646,
+                            "height": 0.009038089089735314,
+                            "page": 1
+                        },
+                        "content": "ft).",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "job_id": "3b819fa6-a587-485e-81ed-2a6d769e3f6f",
+    "duration": 8.839764595031738,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/d28c6181-ba7e-415b-9f7d-8a56cfb811cf?AWSAccessKeyId=ASIA2UOK6OVBEOAGGPY4&Signature=%2BSuLyknt2600Hh%2Bzq5Hf61rgY%2B0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCIAlRs%2BrN%2FkKHO30uZ1VJXSGow6%2B4qYy5fWSlOd5GqxoYAiB49x7V2KbCe57dEHTBwxjo1p84S3bVvwaaHuxu7XVpKyqLBQghEAAaDDczMTEwNjkzMjAzNCIMc7j3%2F9uIhzo4Jci5KugEvVI4cr1JHfuVb69f4HISPf6MLDm9yVFQbKWSGeouZ%2BeMhgnEQYibrgI5Eapp204cgXKzifZkwFcikoubdzoVJoIGnOeDls9nwoQIqEeJ%2BfH0ZAFSRpdwxoNUDjBzAd3zBosDG8mDQDswhHUKDd9xcOI9tFtV1lrt6%2F2Yj%2FXG61fZ6R5P0zBFJ9oWUpq%2BG54yC6acIc6xdr%2Ft4lS9KpKeihF61WLIssUpXS1iSmQLZLnkXxEIoc2yLU6RiCnuvjFMClHY4PoI3XOW%2BC1PkT5YS9AhB7btlT1Tm0sOoUXSvibPwQdteJgAgZWEFsL%2BGEZqKZ5pju%2BHWx0GrOfPZn4270w7Hmb%2BMWoalDgIsoXmJBw7i4fcW7xGDMdA5hb041vKtf0d2VlE%2BXcUqlIkPpaWtT8wmNDmjEbw8icM6wEWVkiatjGAYQrWr%2BDTQ7fIumTUSKEum2Mj1xkbLFwatO%2F56UgkLlg0Gqar%2BRCgH4XPFivDWsLfUw5E1bKbEj7bxbkJPtpRhAtnHuGWL48KRfZSvS%2BVE5zg2s%2FJP4zx03YPpqrC2r6fIIVsejuMzF5IsbX6CP8pO7snrhnZA%2BCVfGfcHfVwigFckWUhCBtIhET0dvhtkDbxfgkEKoWM1xzrz%2Bqx8NpOntmKoPDDl%2Fbfnjbq50Bc4SXJYHH3wFjN%2B5%2Fv5q2hAqKnwDlNwB2EM1gJnHUsAfttGg1FtF%2BxvMvymuXbpSUltA3EoGpYXpL0CwvuYl%2FHLsKNTistnW3IekgqLAHpAa44srp8h%2BRNT2OI0IFIRmwHNyow2bHib%2BB6TehPG5t%2BuybXlDd91zDg9Mi6BjqcAdyBVtAJbfhecntyNqXUYcUxCMyVa9d%2FQvlVWQzxnCOGfIOpw7n%2B1iujtFbKbp%2F2eK%2FpkSJhYcsPzqYwxnHud7a6zajpIGHU8H02KqNDex8eiYaVZAYpbu8nRAC7RUqAifwOM6dl3QMXBdhT05T3rHS6UQLX9L3Hb40HPYy%2FOe8YdIDEYM9WmYsiK4MlQe%2FPfcVYMBZlt9Bn0%2Fm1uw%3D%3D&Expires=1733445754",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SURFACE WATER SUPPLY, 1914, PART XI.\n\nDaily discharge, in second-feet, of Rubicon River near Quintette, Cal., for the ending year Sept. 30, 1914.",
+                "embed": "# SURFACE WATER SUPPLY, 1914, PART XI.\n\nDaily discharge, in second-feet, of Rubicon River near Quintette, Cal., for the ending year Sept. 30, 1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.1340012523481528,
+                            "top": 0.04656402553511078,
+                            "width": 0.046963055729492796,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "264",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.30745147150907953,
+                            "top": 0.04806609087495306,
+                            "width": 0.47902316844082654,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1914, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13525360050093926,
+                            "top": 0.07810739767179872,
+                            "width": 0.8252974326862867,
+                            "height": 0.02816372512204281,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Rubicon River near Quintette, Cal., for the ending year Sept. 30, 1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1914, PART XI. (cont.)\n\n<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th></tr><tr><td>1</td><td>11</td><td>9</td><td>95</td><td>4, 650</td><td>690</td><td>650</td><td>710</td><td>1,520</td><td>2, 950</td></tr><tr><td>2</td><td>11</td><td></td><td>88</td><td>2, 850</td><td>610</td><td>690</td><td>670</td><td>2, 050</td><td>2, 650</td></tr><tr><td>3</td><td>11</td><td></td><td>81</td><td>1, 560</td><td>590</td><td>630</td><td>920</td><td>2,950</td><td>2, 280</td></tr><tr><td>4</td><td>11</td><td></td><td>68</td><td>970</td><td>530</td><td>610</td><td>490</td><td>3,060</td><td>2, 130</td></tr><tr><td>5</td><td>11</td><td></td><td>62</td><td>760</td><td>510</td><td>670</td><td>,460</td><td>3,170</td><td>1, 620</td></tr><tr><td>6</td><td>10</td><td>45</td><td>62</td><td>650</td><td>475</td><td>870</td><td>2,050</td><td>3,170</td><td>1, 240</td></tr><tr><td>7</td><td>10</td><td></td><td>62</td><td>690</td><td>450</td><td>1,050</td><td>1,830</td><td>2,950</td><td>1, 190</td></tr><tr><td>8</td><td>10</td><td></td><td>62</td><td>760</td><td>460</td><td>1,130</td><td>1,680</td><td>2,950</td><td>1, 180</td></tr><tr><td>9</td><td>10</td><td></td><td>62</td><td>530</td><td>445</td><td>1,160</td><td>2,650</td><td>2,850</td><td></td></tr><tr><td>10</td><td>10</td><td></td><td>62</td><td>460</td><td>450</td><td>1,150</td><td>4,050</td><td>2,250</td><td></td></tr><tr><td>11</td><td>10</td><td></td><td>56</td><td>435</td><td>445</td><td>1, 160</td><td>2,130</td><td>2,460</td><td></td></tr><tr><td>12</td><td>10</td><td></td><td>56</td><td>410</td><td>450</td><td>1, 250</td><td>1,750</td><td>2,950</td><td></td></tr><tr><td>13</td><td>9</td><td></td><td>81</td><td>690</td><td>445</td><td>1, 270</td><td>1,970</td><td>2,800</td><td></td></tr><tr><td>14</td><td>9</td><td></td><td>102</td><td>825</td><td>450</td><td>1, 220</td><td>2,370</td><td>3,170</td><td></td></tr><tr><td>15</td><td>9</td><td></td><td>102</td><td>610</td><td>460</td><td>1, 370</td><td>3,610</td><td>3,610</td><td></td></tr><tr><td>16</td><td>9</td><td></td><td>102</td><td>530</td><td>460</td><td>1,520</td><td>2,750</td><td>3,060</td><td></td></tr><tr><td>17</td><td>9</td><td></td><td>102</td><td>530</td><td>460</td><td>1,860</td><td>2,050</td><td>2,850</td><td></td></tr><tr><td>18</td><td>9</td><td></td><td>110</td><td>490</td><td>530</td><td>2,010</td><td>2,200</td><td>2,850</td><td></td></tr><tr><td>19</td><td>9</td><td></td><td>102</td><td>460</td><td>650</td><td>1, 980</td><td>2,950</td><td>2,850</td><td></td></tr><tr><td>20</td><td>9</td><td></td><td>102</td><td>435</td><td>1,250</td><td>1, 830</td><td>2,900</td><td>2,950</td><td></td></tr><tr><td>21</td><td>9</td><td></td><td>88</td><td>450</td><td>2,330</td><td>1,780</td><td>2,200</td><td>3,390</td><td></td></tr><tr><td>22</td><td>9</td><td></td><td>88</td><td>2,050</td><td>1, 900</td><td>1,790</td><td>1,680</td><td>2,850</td><td></td></tr><tr><td>23</td><td>9</td><td>50</td><td>110</td><td>1,460</td><td>1, 370</td><td>1,860</td><td>1,400</td><td>2,850</td><td></td></tr><tr><td>24</td><td>9</td><td>74</td><td>143</td><td>1,680</td><td>970</td><td>1,620</td><td>1,180</td><td>2,370</td><td></td></tr><tr><td>25</td><td>9</td><td>81</td><td>220</td><td>3,560</td><td>995</td><td>1,430</td><td>1,130</td><td>2,370</td><td></td></tr><tr><td>26</td><td>9</td><td>81</td><td>206</td><td>2,550</td><td>1, 050</td><td>1, 220</td><td>1,220</td><td>2,050</td><td></td></tr><tr><td>27</td><td>9</td><td>143</td><td>180</td><td>1,680</td><td>870</td><td>1, 020</td><td>1, 160</td><td>2,200</td><td></td></tr><tr><td>28</td><td>9</td><td>143</td><td>152</td><td>1,240</td><td>670</td><td>970</td><td>1,050</td><td>2,370</td><td></td></tr><tr><td>29</td><td>9</td><td>118</td><td>147</td><td>970</td><td></td><td>945</td><td>945</td><td>2,750</td><td></td></tr><tr><td>30</td><td>9</td><td>110</td><td>409</td><td>850</td><td></td><td>895</td><td>1,080</td><td>3,170</td><td></td></tr><tr><td>31</td><td>9</td><td></td><td>5, 800</td><td>760</td><td></td><td>800</td><td></td><td>3,170</td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1914, PART XI. (cont.)\n\n<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th></tr><tr><td>1</td><td>11</td><td>9</td><td>95</td><td>4, 650</td><td>690</td><td>650</td><td>710</td><td>1,520</td><td>2, 950</td></tr><tr><td>2</td><td>11</td><td></td><td>88</td><td>2, 850</td><td>610</td><td>690</td><td>670</td><td>2, 050</td><td>2, 650</td></tr><tr><td>3</td><td>11</td><td></td><td>81</td><td>1, 560</td><td>590</td><td>630</td><td>920</td><td>2,950</td><td>2, 280</td></tr><tr><td>4</td><td>11</td><td></td><td>68</td><td>970</td><td>530</td><td>610</td><td>490</td><td>3,060</td><td>2, 130</td></tr><tr><td>5</td><td>11</td><td></td><td>62</td><td>760</td><td>510</td><td>670</td><td>,460</td><td>3,170</td><td>1, 620</td></tr><tr><td>6</td><td>10</td><td>45</td><td>62</td><td>650</td><td>475</td><td>870</td><td>2,050</td><td>3,170</td><td>1, 240</td></tr><tr><td>7</td><td>10</td><td></td><td>62</td><td>690</td><td>450</td><td>1,050</td><td>1,830</td><td>2,950</td><td>1, 190</td></tr><tr><td>8</td><td>10</td><td></td><td>62</td><td>760</td><td>460</td><td>1,130</td><td>1,680</td><td>2,950</td><td>1, 180</td></tr><tr><td>9</td><td>10</td><td></td><td>62</td><td>530</td><td>445</td><td>1,160</td><td>2,650</td><td>2,850</td><td></td></tr><tr><td>10</td><td>10</td><td></td><td>62</td><td>460</td><td>450</td><td>1,150</td><td>4,050</td><td>2,250</td><td></td></tr><tr><td>11</td><td>10</td><td></td><td>56</td><td>435</td><td>445</td><td>1, 160</td><td>2,130</td><td>2,460</td><td></td></tr><tr><td>12</td><td>10</td><td></td><td>56</td><td>410</td><td>450</td><td>1, 250</td><td>1,750</td><td>2,950</td><td></td></tr><tr><td>13</td><td>9</td><td></td><td>81</td><td>690</td><td>445</td><td>1, 270</td><td>1,970</td><td>2,800</td><td></td></tr><tr><td>14</td><td>9</td><td></td><td>102</td><td>825</td><td>450</td><td>1, 220</td><td>2,370</td><td>3,170</td><td></td></tr><tr><td>15</td><td>9</td><td></td><td>102</td><td>610</td><td>460</td><td>1, 370</td><td>3,610</td><td>3,610</td><td></td></tr><tr><td>16</td><td>9</td><td></td><td>102</td><td>530</td><td>460</td><td>1,520</td><td>2,750</td><td>3,060</td><td></td></tr><tr><td>17</td><td>9</td><td></td><td>102</td><td>530</td><td>460</td><td>1,860</td><td>2,050</td><td>2,850</td><td></td></tr><tr><td>18</td><td>9</td><td></td><td>110</td><td>490</td><td>530</td><td>2,010</td><td>2,200</td><td>2,850</td><td></td></tr><tr><td>19</td><td>9</td><td></td><td>102</td><td>460</td><td>650</td><td>1, 980</td><td>2,950</td><td>2,850</td><td></td></tr><tr><td>20</td><td>9</td><td></td><td>102</td><td>435</td><td>1,250</td><td>1, 830</td><td>2,900</td><td>2,950</td><td></td></tr><tr><td>21</td><td>9</td><td></td><td>88</td><td>450</td><td>2,330</td><td>1,780</td><td>2,200</td><td>3,390</td><td></td></tr><tr><td>22</td><td>9</td><td></td><td>88</td><td>2,050</td><td>1, 900</td><td>1,790</td><td>1,680</td><td>2,850</td><td></td></tr><tr><td>23</td><td>9</td><td>50</td><td>110</td><td>1,460</td><td>1, 370</td><td>1,860</td><td>1,400</td><td>2,850</td><td></td></tr><tr><td>24</td><td>9</td><td>74</td><td>143</td><td>1,680</td><td>970</td><td>1,620</td><td>1,180</td><td>2,370</td><td></td></tr><tr><td>25</td><td>9</td><td>81</td><td>220</td><td>3,560</td><td>995</td><td>1,430</td><td>1,130</td><td>2,370</td><td></td></tr><tr><td>26</td><td>9</td><td>81</td><td>206</td><td>2,550</td><td>1, 050</td><td>1, 220</td><td>1,220</td><td>2,050</td><td></td></tr><tr><td>27</td><td>9</td><td>143</td><td>180</td><td>1,680</td><td>870</td><td>1, 020</td><td>1, 160</td><td>2,200</td><td></td></tr><tr><td>28</td><td>9</td><td>143</td><td>152</td><td>1,240</td><td>670</td><td>970</td><td>1,050</td><td>2,370</td><td></td></tr><tr><td>29</td><td>9</td><td>118</td><td>147</td><td>970</td><td></td><td>945</td><td>945</td><td>2,750</td><td></td></tr><tr><td>30</td><td>9</td><td>110</td><td>409</td><td>850</td><td></td><td>895</td><td>1,080</td><td>3,170</td><td></td></tr><tr><td>31</td><td>9</td><td></td><td>5, 800</td><td>760</td><td></td><td>800</td><td></td><td>3,170</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1296512075864903,
+                            "top": 0.11415203809290508,
+                            "width": 0.8343519618082733,
+                            "height": 0.39307908084309284,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th></tr><tr><td>1</td><td>11</td><td>9</td><td>95</td><td>4, 650</td><td>690</td><td>650</td><td>710</td><td>1,520</td><td>2, 950</td></tr><tr><td>2</td><td>11</td><td></td><td>88</td><td>2, 850</td><td>610</td><td>690</td><td>670</td><td>2, 050</td><td>2, 650</td></tr><tr><td>3</td><td>11</td><td></td><td>81</td><td>1, 560</td><td>590</td><td>630</td><td>920</td><td>2,950</td><td>2, 280</td></tr><tr><td>4</td><td>11</td><td></td><td>68</td><td>970</td><td>530</td><td>610</td><td>490</td><td>3,060</td><td>2, 130</td></tr><tr><td>5</td><td>11</td><td></td><td>62</td><td>760</td><td>510</td><td>670</td><td>,460</td><td>3,170</td><td>1, 620</td></tr><tr><td>6</td><td>10</td><td>45</td><td>62</td><td>650</td><td>475</td><td>870</td><td>2,050</td><td>3,170</td><td>1, 240</td></tr><tr><td>7</td><td>10</td><td></td><td>62</td><td>690</td><td>450</td><td>1,050</td><td>1,830</td><td>2,950</td><td>1, 190</td></tr><tr><td>8</td><td>10</td><td></td><td>62</td><td>760</td><td>460</td><td>1,130</td><td>1,680</td><td>2,950</td><td>1, 180</td></tr><tr><td>9</td><td>10</td><td></td><td>62</td><td>530</td><td>445</td><td>1,160</td><td>2,650</td><td>2,850</td><td></td></tr><tr><td>10</td><td>10</td><td></td><td>62</td><td>460</td><td>450</td><td>1,150</td><td>4,050</td><td>2,250</td><td></td></tr><tr><td>11</td><td>10</td><td></td><td>56</td><td>435</td><td>445</td><td>1, 160</td><td>2,130</td><td>2,460</td><td></td></tr><tr><td>12</td><td>10</td><td></td><td>56</td><td>410</td><td>450</td><td>1, 250</td><td>1,750</td><td>2,950</td><td></td></tr><tr><td>13</td><td>9</td><td></td><td>81</td><td>690</td><td>445</td><td>1, 270</td><td>1,970</td><td>2,800</td><td></td></tr><tr><td>14</td><td>9</td><td></td><td>102</td><td>825</td><td>450</td><td>1, 220</td><td>2,370</td><td>3,170</td><td></td></tr><tr><td>15</td><td>9</td><td></td><td>102</td><td>610</td><td>460</td><td>1, 370</td><td>3,610</td><td>3,610</td><td></td></tr><tr><td>16</td><td>9</td><td></td><td>102</td><td>530</td><td>460</td><td>1,520</td><td>2,750</td><td>3,060</td><td></td></tr><tr><td>17</td><td>9</td><td></td><td>102</td><td>530</td><td>460</td><td>1,860</td><td>2,050</td><td>2,850</td><td></td></tr><tr><td>18</td><td>9</td><td></td><td>110</td><td>490</td><td>530</td><td>2,010</td><td>2,200</td><td>2,850</td><td></td></tr><tr><td>19</td><td>9</td><td></td><td>102</td><td>460</td><td>650</td><td>1, 980</td><td>2,950</td><td>2,850</td><td></td></tr><tr><td>20</td><td>9</td><td></td><td>102</td><td>435</td><td>1,250</td><td>1, 830</td><td>2,900</td><td>2,950</td><td></td></tr><tr><td>21</td><td>9</td><td></td><td>88</td><td>450</td><td>2,330</td><td>1,780</td><td>2,200</td><td>3,390</td><td></td></tr><tr><td>22</td><td>9</td><td></td><td>88</td><td>2,050</td><td>1, 900</td><td>1,790</td><td>1,680</td><td>2,850</td><td></td></tr><tr><td>23</td><td>9</td><td>50</td><td>110</td><td>1,460</td><td>1, 370</td><td>1,860</td><td>1,400</td><td>2,850</td><td></td></tr><tr><td>24</td><td>9</td><td>74</td><td>143</td><td>1,680</td><td>970</td><td>1,620</td><td>1,180</td><td>2,370</td><td></td></tr><tr><td>25</td><td>9</td><td>81</td><td>220</td><td>3,560</td><td>995</td><td>1,430</td><td>1,130</td><td>2,370</td><td></td></tr><tr><td>26</td><td>9</td><td>81</td><td>206</td><td>2,550</td><td>1, 050</td><td>1, 220</td><td>1,220</td><td>2,050</td><td></td></tr><tr><td>27</td><td>9</td><td>143</td><td>180</td><td>1,680</td><td>870</td><td>1, 020</td><td>1, 160</td><td>2,200</td><td></td></tr><tr><td>28</td><td>9</td><td>143</td><td>152</td><td>1,240</td><td>670</td><td>970</td><td>1,050</td><td>2,370</td><td></td></tr><tr><td>29</td><td>9</td><td>118</td><td>147</td><td>970</td><td></td><td>945</td><td>945</td><td>2,750</td><td></td></tr><tr><td>30</td><td>9</td><td>110</td><td>409</td><td>850</td><td></td><td>895</td><td>1,080</td><td>3,170</td><td></td></tr><tr><td>31</td><td>9</td><td></td><td>5, 800</td><td>760</td><td></td><td>800</td><td></td><td>3,170</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1914, PART XI. (cont.)\n\nNOTE. No record reported Nov. 2-4 and 7--22.\n\nMonthly discharge of Rubicon River near Quintette, Cal., for the year ending Sept. 30, 1914.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>11</td><td>9</td><td>9.5</td><td>580</td></tr><tr><td>November</td><td>143</td><td>9</td><td>a 54</td><td>3, 200</td></tr><tr><td>December</td><td>800</td><td>56</td><td>296</td><td>18,200</td></tr><tr><td>January</td><td>4,650</td><td>410</td><td>1,180</td><td>72, 600</td></tr><tr><td>February</td><td>2,330</td><td>445</td><td>749</td><td>41, , 600</td></tr><tr><td>March\nApril</td><td>2,010\n4,050</td><td>610\n670</td><td>1,240\n1,870</td><td>76, 200\n111, 000</td></tr><tr><td>May</td><td>3, 610</td><td>1, 520</td><td>2,770</td><td>170, 000</td></tr><tr><td>June 1 -8</td><td>2, 950</td><td>1, 180</td><td>1,900</td><td>30, 100</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>523,000</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1914, PART XI. (cont.)\n\nNOTE. No record reported Nov. 2-4 and 7--22.\n\nMonthly discharge of Rubicon River near Quintette, Cal., for the year ending Sept. 30, 1914.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>11</td><td>9</td><td>9.5</td><td>580</td></tr><tr><td>November</td><td>143</td><td>9</td><td>a 54</td><td>3, 200</td></tr><tr><td>December</td><td>800</td><td>56</td><td>296</td><td>18,200</td></tr><tr><td>January</td><td>4,650</td><td>410</td><td>1,180</td><td>72, 600</td></tr><tr><td>February</td><td>2,330</td><td>445</td><td>749</td><td>41, , 600</td></tr><tr><td>March\nApril</td><td>2,010\n4,050</td><td>610\n670</td><td>1,240\n1,870</td><td>76, 200\n111, 000</td></tr><tr><td>May</td><td>3, 610</td><td>1, 520</td><td>2,770</td><td>170, 000</td></tr><tr><td>June 1 -8</td><td>2, 950</td><td>1, 180</td><td>1,900</td><td>30, 100</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>523,000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14965560425798372,
+                            "top": 0.5167104769057455,
+                            "width": 0.36192861615529115,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "NOTE. No record reported Nov. 2-4 and 7--22.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13713212273011896,
+                            "top": 0.535486293653774,
+                            "width": 0.8202880400751409,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Rubicon River near Quintette, Cal., for the year ending Sept. 30, 1914.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1314717330407111,
+                            "top": 0.5587806830583458,
+                            "width": 0.8301151015270332,
+                            "height": 0.1677831462841485,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td>11</td><td>9</td><td>9.5</td><td>580</td></tr><tr><td>November</td><td>143</td><td>9</td><td>a 54</td><td>3, 200</td></tr><tr><td>December</td><td>800</td><td>56</td><td>296</td><td>18,200</td></tr><tr><td>January</td><td>4,650</td><td>410</td><td>1,180</td><td>72, 600</td></tr><tr><td>February</td><td>2,330</td><td>445</td><td>749</td><td>41, , 600</td></tr><tr><td>March\nApril</td><td>2,010\n4,050</td><td>610\n670</td><td>1,240\n1,870</td><td>76, 200\n111, 000</td></tr><tr><td>May</td><td>3, 610</td><td>1, 520</td><td>2,770</td><td>170, 000</td></tr><tr><td>June 1 -8</td><td>2, 950</td><td>1, 180</td><td>1,900</td><td>30, 100</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>523,000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1914, PART XI. (cont.)\n\n## a Estimated by the company.\n\nNOTE.-Monthly discharge computed by engineers of U. S. Geological Survey.\n\nLITTLE SOUTH FORK OF RUBICON RIVER AT SAWMILL NEAR QUINTETTE, CAL.\n\nLOCATION.-In the NW. 1/4 NW. 1/4 sec. 24, T. 13 N., R. 14 E., at South Fork sawmill, about half a mile above the mouth of Gerle Creek and 15 miles northeast of Quintette.\n\nDRAINAGE AREA.-16.6 square miles.\n\nRECORDS AVAILABLE.February 1, 1910, to July 4, 1914, when station was discon- tinued.\n\nGAGE.-Staff.\nDISCHARGE MEASUREMENTS.-Made from cable.\nCHANNEL AND CONTROL.-Compact gravel.",
+                "embed": "# SURFACE WATER SUPPLY, 1914, PART XI. (cont.)\n\n## a Estimated by the company.\n\nNOTE.-Monthly discharge computed by engineers of U. S. Geological Survey.\n\nLITTLE SOUTH FORK OF RUBICON RIVER AT SAWMILL NEAR QUINTETTE, CAL.\n\nLOCATION.-In the NW. 1/4 NW. 1/4 sec. 24, T. 13 N., R. 14 E., at South Fork sawmill, about half a mile above the mouth of Gerle Creek and 15 miles northeast of Quintette.\n\nDRAINAGE AREA.-16.6 square miles.\n\nRECORDS AVAILABLE.February 1, 1910, to July 4, 1914, when station was discon- tinued.\n\nGAGE.-Staff.\nDISCHARGE MEASUREMENTS.-Made from cable.\nCHANNEL AND CONTROL.-Compact gravel.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.4126487163431434,
+                            "top": 0.7330078858430342,
+                            "width": 0.23231058234189106,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "a Estimated by the company.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14840325610519725,
+                            "top": 0.7514081862561022,
+                            "width": 0.6086412022542267,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "NOTE.-Monthly discharge computed by engineers of U. S. Geological Survey.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1327489041953663,
+                            "top": 0.7720615846789335,
+                            "width": 0.8240450845335003,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "LITTLE SOUTH FORK OF RUBICON RIVER AT SAWMILL NEAR QUINTETTE, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13337507827175954,
+                            "top": 0.7908374014269621,
+                            "width": 0.8252974326862867,
+                            "height": 0.045437476530229066,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In the NW. 1/4 NW. 1/4 sec. 24, T. 13 N., R. 14 E., at South Fork sawmill, about half a mile above the mouth of Gerle Creek and 15 miles northeast of Quintette.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13337507827175954,
+                            "top": 0.8392790086368757,
+                            "width": 0.35879774577332496,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-16.6 square miles.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13337507827175954,
+                            "top": 0.8531731130304169,
+                            "width": 0.8240450845335003,
+                            "height": 0.02816372512204281,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.February 1, 1910, to July 4, 1914, when station was discon- tinued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1327489041953663,
+                            "top": 0.8858430341719865,
+                            "width": 0.4658735128365686,
+                            "height": 0.04468644386030792,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Staff.\nDISCHARGE MEASUREMENTS.-Made from cable.\nCHANNEL AND CONTROL.-Compact gravel.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

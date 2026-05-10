@@ -1,0 +1,26 @@
+```json
+[
+    {
+        "Watersource_Name": "TUOLUMNE RIVER BELOW LA GRANGE DAM, NEAR LA GRANGE, CA",
+        "County": "Stanislaus County",
+        "Townships_Ranges_Sections": "NW & NW14 sec.2 T.3 S., R.14 E.",
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "cubic feet per second (ft³/s), acre-feet per year (acre-ft/yr)",
+        "Latitude": 37.6664,
+        "Longitude": -120.4411,
+        "Dates_of_Recording": "October 1970 to current year",
+        "Water_Type": "Stream Discharge"
+    }
+]
+```
+
+**Explanation:**
+
+- **Watersource_Name**: Identified directly from the document.
+- **County**: Stanislaus County is mentioned in the location description.
+- **Townships_Ranges_Sections**: Extracted from the coordinates section.
+- **Temporal_Resolution**: The table shows daily measurements, so "Daily" is appropriate.
+- **Units_Of_Measurement**: Includes both cubic feet per second and acre-feet per year as seen in the table.
+- **Latitude & Longitude**: Converted from degrees, minutes, seconds to decimal format.
+- **Dates_of_Recording**: From October 1970 to the current year as stated.
+- **Water_Type**: The document discusses stream discharge measurements.

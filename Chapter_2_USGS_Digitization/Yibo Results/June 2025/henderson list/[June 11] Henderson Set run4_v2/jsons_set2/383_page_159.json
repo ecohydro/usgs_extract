@@ -1,0 +1,162 @@
+{
+    "job_id": "41eec338-70a8-489d-a32f-9a08ca01f09b",
+    "duration": 5.528959274291992,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f9fd0b1d-b086-4c8f-bd24-219bc5d76a3f?AWSAccessKeyId=ASIA2UOK6OVBKZ4SUGT7&Signature=a7U0i%2BwdIXadSkV1HDCqS%2Flaza8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQCXhphawwyEZtUvzcet48UxEjoM2KyxF3YKd7waN9y5VgIhAPHVFuqrl0qLw0JfJNrgmLM901rQuK4JZgSnfy%2BgKCOaKosFCCUQABoMNzMxMTA2OTMyMDM0Igxc7LHN8ts4T6wIV9sq6ASX7jwd77rWGcZgoItoU%2FUqumdtlCoF%2BkEtrrWoe67f8buCIn6nbxDd3kwkmZtH8tctb58uiIbOfyu11JsKCoArfAop6OMG0DF7jyg7tzByjMkGzDhtlF6qrxoxk%2BqerytwhgFuk%2F2vVrTCkT60fAhzD5RAu2do1CmcD4fSkbWJRh7eZvUrpqGtURGYeH6%2BKKL5PfgjKWijLAMA1DTYfVy8hAmj5saWV8oZpL%2BlxQ7k8hvzri%2B%2BMzkgOGIQtC8x%2BFr9XPCM2cuAEM3RKexaM%2FvPo%2FjXUTJyTIoIxSzr7vxIDcOt3mvFBpzdG3hjgH7YmOESIENyx0LQjSNCyozeZ5CQvzsB0SOxSDg6DxCV%2BowKkXfh0eKnPXT1Nem62vw3m8mB1jrO56Uz88gNIBO9rLKQgjYnToCxhA10A89GA4Ndk1hIfy7MsZ2wYFbWyRbzueEA3Eh%2FDw%2B0nTFkMtmdNdv3euciqxwlBdRQvdQDbWM6KwbXUs0HAhTRnN9ATk8N6vd2UGYk1GRBMGjXKZjPk57qmHLMu4ZBO9uCBNsYVIFD%2FexVm5%2FVPBi2k%2BSpyK9FdRx%2BPlsurjY%2BxWnj8JNPzocQHvxxF2CwqqveHPxyIoeITAgDgdUUA1ey%2BOcpyHrFnKgKTUjjaR0CeOJnFvA9odmk5PmnxbuIpPxZFiwy5AktZjQpB6OnKN7PUPKYLgnnvMRepIPAWFTT82cHv6ZRp0xREN8xcQCdtLT3N6k6Y8nu2CqgBfw3ZEdmsXJlGL1%2BaEkzO7f4g2YvANHNwsuhARcjCXAzU5EWH6ttufgqS8MH4tQdCVDfO7%2BnMM3jyboGOpoBTxXvh4YRinsFz2XWBWMG8zA30pnUiJt1nEHCFG9h9jScBbi7dYKrmPJOrvbJ19fqiXgUWoZCNRQDd%2B9LoeWD3QU2bJbKsPjrjBsJpOXY18p0uG80iFgCNCvegOphHEM3v%2BE5oHpBDyp%2F%2BB5wQORWmfssjir1zPUPmYG0CVhvIXB%2Fb%2BY7LHoL20oyYt47lZhvQqI27Q7FQYltHA%3D%3D&Expires=1733461732",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN.\n\n157\n\nDaily discharge, in second-feet, of Sierra & San Francisco Power Co.'s canal near La Grange, Calif., for the year ending Sept. 30, 1918.",
+                "embed": "# SAN JOAQUIN RIVER BASIN.\n\n157\n\nDaily discharge, in second-feet, of Sierra & San Francisco Power Co.'s canal near La Grange, Calif., for the year ending Sept. 30, 1918.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2864353312302839,
+                            "top": 0.04602991944764097,
+                            "width": 0.3331230283911672,
+                            "height": 0.012658227848101266,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.820820189274448,
+                            "top": 0.04257767548906789,
+                            "width": 0.04668769716088328,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "157",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03659305993690852,
+                            "top": 0.07671653241273495,
+                            "width": 0.8302839116719243,
+                            "height": 0.02838511699271193,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Sierra & San Francisco Power Co.'s canal near La Grange, Calif., for the year ending Sept. 30, 1918.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>61</td><td>61</td><td>64</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>2</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>3</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>4</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>42</td><td>68</td><td>64</td><td>64</td></tr><tr><td>5</td><td>61</td><td>61</td><td>61</td><td>a 61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>6</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>58</td></tr><tr><td>7</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>16. 6</td><td>64</td><td>11. 7</td><td>68</td><td>68</td><td>58</td><td>64</td></tr><tr><td>8</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>18. 7</td><td>64</td><td>b 43</td><td>64</td><td>68</td><td>64</td><td>64</td></tr><tr><td>9</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>10</td><td>55</td><td>61</td><td>a 61</td><td>61</td><td>64</td><td>64</td><td>42</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>11</td><td>51</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>68</td><td>68</td><td>68</td><td>64</td><td>39</td></tr><tr><td>12</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>58</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>13</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>48</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>14</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>45</td><td>68</td><td>64</td><td>42</td><td>64</td></tr><tr><td>15</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>16</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>17</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>b 43</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>18</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>39</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>19</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>34</td><td>64</td><td>68</td><td>68</td><td>64</td><td>b 43</td><td>64</td></tr><tr><td>20</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>b 68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>21</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>b 43</td><td>64</td></tr><tr><td>22</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>b 43</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>23</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>24</td><td>61</td><td>61</td><td>61</td><td>61</td><td>58</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>25</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>26</td><td>b 41</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>27</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>28</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>b 45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>29</td><td>6f</td><td>61</td><td>61</td><td>61</td><td></td><td>64</td><td>61</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>30</td><td>61</td><td>61</td><td>61</td><td>61</td><td></td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>31</td><td>61</td><td></td><td>61</td><td>61</td><td></td><td>64</td><td></td><td>68</td><td></td><td>64</td><td>64</td><td></td></tr></table>",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>61</td><td>61</td><td>64</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>2</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>3</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>4</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>42</td><td>68</td><td>64</td><td>64</td></tr><tr><td>5</td><td>61</td><td>61</td><td>61</td><td>a 61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>6</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>58</td></tr><tr><td>7</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>16. 6</td><td>64</td><td>11. 7</td><td>68</td><td>68</td><td>58</td><td>64</td></tr><tr><td>8</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>18. 7</td><td>64</td><td>b 43</td><td>64</td><td>68</td><td>64</td><td>64</td></tr><tr><td>9</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>10</td><td>55</td><td>61</td><td>a 61</td><td>61</td><td>64</td><td>64</td><td>42</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>11</td><td>51</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>68</td><td>68</td><td>68</td><td>64</td><td>39</td></tr><tr><td>12</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>58</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>13</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>48</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>14</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>45</td><td>68</td><td>64</td><td>42</td><td>64</td></tr><tr><td>15</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>16</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>17</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>b 43</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>18</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>39</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>19</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>34</td><td>64</td><td>68</td><td>68</td><td>64</td><td>b 43</td><td>64</td></tr><tr><td>20</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>b 68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>21</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>b 43</td><td>64</td></tr><tr><td>22</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>b 43</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>23</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>24</td><td>61</td><td>61</td><td>61</td><td>61</td><td>58</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>25</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>26</td><td>b 41</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>27</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>28</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>b 45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>29</td><td>6f</td><td>61</td><td>61</td><td>61</td><td></td><td>64</td><td>61</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>30</td><td>61</td><td>61</td><td>61</td><td>61</td><td></td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>31</td><td>61</td><td></td><td>61</td><td>61</td><td></td><td>64</td><td></td><td>68</td><td></td><td>64</td><td>64</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.036475567261127266,
+                            "top": 0.1113887270337373,
+                            "width": 0.8373618766712465,
+                            "height": 0.4023049211520366,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>61</td><td>61</td><td>64</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>2</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>3</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>4</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>42</td><td>68</td><td>64</td><td>64</td></tr><tr><td>5</td><td>61</td><td>61</td><td>61</td><td>a 61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>6</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>58</td></tr><tr><td>7</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>16. 6</td><td>64</td><td>11. 7</td><td>68</td><td>68</td><td>58</td><td>64</td></tr><tr><td>8</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>18. 7</td><td>64</td><td>b 43</td><td>64</td><td>68</td><td>64</td><td>64</td></tr><tr><td>9</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>10</td><td>55</td><td>61</td><td>a 61</td><td>61</td><td>64</td><td>64</td><td>42</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td></tr><tr><td>11</td><td>51</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>68</td><td>68</td><td>68</td><td>64</td><td>39</td></tr><tr><td>12</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>58</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>13</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>48</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>14</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>45</td><td>68</td><td>64</td><td>42</td><td>64</td></tr><tr><td>15</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>16</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>17</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>b 43</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>18</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>39</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>19</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>34</td><td>64</td><td>68</td><td>68</td><td>64</td><td>b 43</td><td>64</td></tr><tr><td>20</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>b 68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>21</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>b 43</td><td>64</td></tr><tr><td>22</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>b 43</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>23</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>24</td><td>61</td><td>61</td><td>61</td><td>61</td><td>58</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>25</td><td>61</td><td>b 41</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>26</td><td>b 41</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>27</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>61</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>b 43</td></tr><tr><td>28</td><td>61</td><td>61</td><td>61</td><td>61</td><td>64</td><td>64</td><td>64</td><td>b 45</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>29</td><td>6f</td><td>61</td><td>61</td><td>61</td><td></td><td>64</td><td>61</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>30</td><td>61</td><td>61</td><td>61</td><td>61</td><td></td><td>64</td><td>64</td><td>68</td><td>68</td><td>64</td><td>64</td><td>64</td></tr><tr><td>31</td><td>61</td><td></td><td>61</td><td>61</td><td></td><td>64</td><td></td><td>68</td><td></td><td>64</td><td>64</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\na No gage-height record; discharge interpolated. b No gage-height record: discharge estimated as two-thirds of that for day following.\n\nMonthly discharge of Sierra & San Francisco Power Co.'s canal at La Grange, Calif., for the year ending Sept. 30, 1918.",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\na No gage-height record; discharge interpolated. b No gage-height record: discharge estimated as two-thirds of that for day following.\n\nMonthly discharge of Sierra & San Francisco Power Co.'s canal at La Grange, Calif., for the year ending Sept. 30, 1918.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11356466876971609,
+                            "top": 0.520138089758343,
+                            "width": 0.6763406940063091,
+                            "height": 0.02109704641350211,
+                            "page": 1
+                        },
+                        "content": "a No gage-height record; discharge interpolated. b No gage-height record: discharge estimated as two-thirds of that for day following.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04037854889589906,
+                            "top": 0.5485232067510548,
+                            "width": 0.8277602523659306,
+                            "height": 0.027234369006520907,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Sierra & San Francisco Power Co.'s canal at La Grange, Calif., for the year ending Sept. 30, 1918.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th rowspan=\"2\"></th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off in\nacre-feet.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td></td><td></td><td>61</td><td>41</td><td>59.8</td><td>3,680</td></tr><tr><td>November</td><td></td><td></td><td>61</td><td>41</td><td>59.0</td><td>3,510</td></tr><tr><td>December</td><td></td><td></td><td>64</td><td>61</td><td>61.1</td><td>3,760</td></tr><tr><td>January</td><td></td><td></td><td>61</td><td>61</td><td>61.0</td><td>3,750</td></tr><tr><td>February</td><td></td><td></td><td>64</td><td>58</td><td>63.7</td><td>3,540</td></tr><tr><td>March</td><td></td><td></td><td>64</td><td>16.6</td><td>58.4</td><td>3,590</td></tr><tr><td>April</td><td></td><td></td><td>64</td><td>42</td><td>62.5</td><td>3,720</td></tr><tr><td>May</td><td></td><td></td><td>68</td><td>11.7</td><td>59.8</td><td>3,680</td></tr><tr><td>June</td><td></td><td></td><td>68</td><td>42</td><td>67.0</td><td>3,990</td></tr><tr><td>July</td><td></td><td></td><td>68</td><td>64</td><td>65.3</td><td>4,020</td></tr><tr><td>August</td><td></td><td></td><td>64</td><td>42</td><td>61.7</td><td>3,790</td></tr><tr><td>September</td><td></td><td></td><td>64</td><td>39</td><td>60. 2</td><td>3,580</td></tr><tr><td>The year</td><td></td><td></td><td>68</td><td>11.7</td><td>61.</td><td>44,600</td></tr></table>",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th rowspan=\"2\"></th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off in\nacre-feet.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td></td><td></td><td>61</td><td>41</td><td>59.8</td><td>3,680</td></tr><tr><td>November</td><td></td><td></td><td>61</td><td>41</td><td>59.0</td><td>3,510</td></tr><tr><td>December</td><td></td><td></td><td>64</td><td>61</td><td>61.1</td><td>3,760</td></tr><tr><td>January</td><td></td><td></td><td>61</td><td>61</td><td>61.0</td><td>3,750</td></tr><tr><td>February</td><td></td><td></td><td>64</td><td>58</td><td>63.7</td><td>3,540</td></tr><tr><td>March</td><td></td><td></td><td>64</td><td>16.6</td><td>58.4</td><td>3,590</td></tr><tr><td>April</td><td></td><td></td><td>64</td><td>42</td><td>62.5</td><td>3,720</td></tr><tr><td>May</td><td></td><td></td><td>68</td><td>11.7</td><td>59.8</td><td>3,680</td></tr><tr><td>June</td><td></td><td></td><td>68</td><td>42</td><td>67.0</td><td>3,990</td></tr><tr><td>July</td><td></td><td></td><td>68</td><td>64</td><td>65.3</td><td>4,020</td></tr><tr><td>August</td><td></td><td></td><td>64</td><td>42</td><td>61.7</td><td>3,790</td></tr><tr><td>September</td><td></td><td></td><td>64</td><td>39</td><td>60. 2</td><td>3,580</td></tr><tr><td>The year</td><td></td><td></td><td>68</td><td>11.7</td><td>61.</td><td>44,600</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.036471644260153785,
+                            "top": 0.5813910246901371,
+                            "width": 0.8356772245292784,
+                            "height": 0.22075261802658708,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th rowspan=\"2\"></th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off in\nacre-feet.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>October</td><td></td><td></td><td>61</td><td>41</td><td>59.8</td><td>3,680</td></tr><tr><td>November</td><td></td><td></td><td>61</td><td>41</td><td>59.0</td><td>3,510</td></tr><tr><td>December</td><td></td><td></td><td>64</td><td>61</td><td>61.1</td><td>3,760</td></tr><tr><td>January</td><td></td><td></td><td>61</td><td>61</td><td>61.0</td><td>3,750</td></tr><tr><td>February</td><td></td><td></td><td>64</td><td>58</td><td>63.7</td><td>3,540</td></tr><tr><td>March</td><td></td><td></td><td>64</td><td>16.6</td><td>58.4</td><td>3,590</td></tr><tr><td>April</td><td></td><td></td><td>64</td><td>42</td><td>62.5</td><td>3,720</td></tr><tr><td>May</td><td></td><td></td><td>68</td><td>11.7</td><td>59.8</td><td>3,680</td></tr><tr><td>June</td><td></td><td></td><td>68</td><td>42</td><td>67.0</td><td>3,990</td></tr><tr><td>July</td><td></td><td></td><td>68</td><td>64</td><td>65.3</td><td>4,020</td></tr><tr><td>August</td><td></td><td></td><td>64</td><td>42</td><td>61.7</td><td>3,790</td></tr><tr><td>September</td><td></td><td></td><td>64</td><td>39</td><td>60. 2</td><td>3,580</td></tr><tr><td>The year</td><td></td><td></td><td>68</td><td>11.7</td><td>61.</td><td>44,600</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## MODESTO CANAL NEAR LA GRANGE, CALIF.\n\nLOCATION.-In SE. sec. 17, T.3S., R. 14 E., below waste gates, 460 feet below intake at La Grange dam on Tuolumne River, and about 1 miles northeast of La Grange, Stanislaus County; canal is on right bank of river. RECORDS AVAILABLE.- 26, 1903, to September 30, 1918. GAGE.-Vertical iron staff in concrete well on left bank 460 feet below head gates and below waste gates. Gage read and operation of head gates noted by F. A. Town- send.",
+                "embed": "# SAN JOAQUIN RIVER BASIN. (cont.)\n\n## MODESTO CANAL NEAR LA GRANGE, CALIF.\n\nLOCATION.-In SE. sec. 17, T.3S., R. 14 E., below waste gates, 460 feet below intake at La Grange dam on Tuolumne River, and about 1 miles northeast of La Grange, Stanislaus County; canal is on right bank of river. RECORDS AVAILABLE.- 26, 1903, to September 30, 1918. GAGE.-Vertical iron staff in concrete well on left bank 460 feet below head gates and below waste gates. Gage read and operation of head gates noted by F. A. Town- send.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.23154574132492114,
+                            "top": 0.8135788262370541,
+                            "width": 0.44290220820189274,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "MODESTO CANAL NEAR LA GRANGE, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03596214511041009,
+                            "top": 0.8327579593402378,
+                            "width": 0.8353312302839117,
+                            "height": 0.10893747602608363,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In SE. sec. 17, T.3S., R. 14 E., below waste gates, 460 feet below intake at La Grange dam on Tuolumne River, and about 1 miles northeast of La Grange, Stanislaus County; canal is on right bank of river. RECORDS AVAILABLE.- 26, 1903, to September 30, 1918. GAGE.-Vertical iron staff in concrete well on left bank 460 feet below head gates and below waste gates. Gage read and operation of head gates noted by F. A. Town- send.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

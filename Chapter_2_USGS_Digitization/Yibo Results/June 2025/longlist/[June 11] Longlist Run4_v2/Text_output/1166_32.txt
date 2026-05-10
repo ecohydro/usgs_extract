@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Precipitation at Weaverville",
+        "County": "Trinity County",
+        "Location": "Weaverville, California",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 40.7666667,
+        "Longitude": -123.4166667,
+        "Dates_of_Recording": "1869-10/01/1878-09/30",
+        "Water_Type": "Precipitation"
+    },
+    {
+        "Watersource_Name": "Precipitation at Jacinto",
+        "County": "Glenn County",
+        "Location": "Jacinto, California",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Inches",
+        "Latitude": 39.5833333,
+        "Longitude": -122.0,
+        "Dates_of_Recording": "1892-10/01/1901-04/30",
+        "Water_Type": "Precipitation"
+    }
+]
+```

@@ -1,0 +1,19 @@
+```json
+{
+    "Watersource_Name": "North Fork of Yuba River at Goodyear Bar",
+    "County": "Sierra County",
+    "Location": "In NE 1/4 NW 1/4 sec 35, T. 20 N., R. 10 E., at upper highway bridge in Downieville",
+    "Townships_Ranges_Sections": ["T. 20 N., R. 10 E., sec 35"],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": {
+        "Discharge": "second-feet",
+        "Run-off_Per_Square_Mile": "per square mile",
+        "Run-off_Inches": "inches",
+        "Acre_Feet": "acre-feet"
+    },
+    "Latitude": 39.4981,
+    "Longitude": -120.9206,
+    "Dates_of_Recording": "01/11/1910-09/30/1920",
+    "Water_Type": "Stream discharge"
+}
+```

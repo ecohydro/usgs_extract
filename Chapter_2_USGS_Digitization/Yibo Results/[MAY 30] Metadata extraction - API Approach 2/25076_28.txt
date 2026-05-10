@@ -1,0 +1,48 @@
+```json
+[
+    {
+        "Watersource_Name": "South Fork of Kern River near Onyx",
+        "County": "",
+        "Townships_Ranges_Sections": "",
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1911-12", "1912-13", "1913-14", "1918-19", "1919-20", "1920-21", "1921-22", "1922-23", "1923-24", "1924-25", "1925-26", "1926-27"],
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Erskine Creek near Isabella",
+        "County": "",
+        "Townships_Ranges_Sections": "",
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1910-11", "1911-12"],
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Basin Creek near Havilah",
+        "County": "",
+        "Townships_Ranges_Sections": "",
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1910-11", "1911-12"],
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Tejon House Creek at Tejon ranch house",
+        "County": "",
+        "Townships_Ranges_Sections": "",
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1894-95", "1895-96", "1896-97"],
+        "Water_Type": "Stream Discharge"
+    }
+]
+```

@@ -1,0 +1,158 @@
+{
+    "job_id": "46b10648-4423-49d6-b50c-6b4b189dca80",
+    "duration": 4.674419164657593,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/9318a029-834d-400f-8a75-a67aad2106a3?AWSAccessKeyId=ASIA2UOK6OVBLUPXFHDU&Signature=TUWiNYc9pMRo%2BasJtC%2BJjUZOqqk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJHMEUCIQDtnHrn%2FOhCn7sMXvm78K7FWAG9zbwn1KOGzlutd3%2FhIQIgKrvM4mk0ZZMV6rSfwm6G2aJAPNnv0Cnq43HC7FlqFB0qiwUIJhAAGgw3MzExMDY5MzIwMzQiDBZR5Ksmg4JAajvt2SroBJ1PIUCcy7NgOWvL7alN80KVv0Sqoj%2FW%2BO9SpKzyZVh6qVQIfxfNkLa%2BJ9N%2BI9wQYsA1zOYQJauk12N65exHfawU7NwRq2A2KbWjW1zW4fAUGS1auKZJ0xsO8G7H5B0reN5gD3f7oTObmNI1ZhF1r%2BgoO0%2FxdAEjw02ubg8ZqviwwifCce3%2FLb%2B6Vp4PpDkzRRGHGLJDHWOaQ84mei%2FybRJEKNBQ1BhpMX4S4xTCxCK8PVgH4oKOipQOy5QOMJ%2FwHj3lPgE5ZAomf8FfxzdlOz5yBwxVRI47m3dCjq9cEZpxDMKEaFH0WhnniJTLJlJc5GB4X4NaJcsIch2aVqD1NIORW49IShqU1CYkYKOk2dg4i%2FETvzE%2B2umSaz05g4B6RTNTbWksNou0ivVd2xAOuBWGTvthqWY4Iwdm4Mmk38lSsQprtTRPSJLBgVKgbG8vSF4qWVFjAIn3GKHL5bxwzmflBZT7T7kXyVscfeovZBH5ZBPATJ5pB428RXk7%2BUpaCFMAsTWe6XrL4SpMCr%2FRSP1UqewSSayEkNBm%2BV6m6UQ1%2BBggybdxCQoswfi1VNGaRnEQbvLx%2B8TwqixoQGKMCUz1n4iKFq8ZbeVpJvnM6%2FXzpCa%2BFKFhAFnGbarMFOYVBgRQywGyGGq7DFTuIvtjpfnL5CKh%2FMBmvNazD9fmHFLpYL4cE6OKmhDIi%2Fvw1Xtzbbc04%2Bn6%2FIBxPlRquKY%2Fas5yipfrOy1QPrAMnxAtmG%2FSTxZBceJUBxZBz4uK3FuIoJxJwfhHhrFYUmm%2Bensv9j4vFuHcw1PJ3NtpbOkTX0X%2Fw2ytK%2F8JDukw4PvJugY6mwGOy0tKRyWBXkn6EaSq8CnstgSr%2BGIzagGNq6M6Ih%2BSEDqlawF1GIIRXBdASgNgHBFzCDdNhgoUCm9MK%2FuAFuJ1h7KCbwzkiA%2BsRbdMSmqOSQOVdp8P4JSMX%2Bj2ENU2B7o7Rzrx%2FEQm1n2Mp2RmQ3%2FshFvkguX64FnwSSfOUBE3RDhWAM5FqaGypcMrydiyDJExBIhLGsMHESQJ3g%3D%3D&Expires=1733464565",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "entire Sacramento River drainage basin. Table 1 presents the calcula- tions made.",
+                "embed": "entire Sacramento River drainage basin. Table 1 presents the calcula- tions made.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.14250462677359654,
+                            "top": 0.039804731505820506,
+                            "width": 0.7273288093769278,
+                            "height": 0.01764926774314683,
+                            "page": 1
+                        },
+                        "content": "RECONNAISSANCE, SACRAMENTO RIVER BASIN, CALIF. Q13",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.055521283158544106,
+                            "top": 0.07397671798723245,
+                            "width": 0.8130783466995681,
+                            "height": 0.034923019151333085,
+                            "page": 1
+                        },
+                        "content": "entire Sacramento River drainage basin. Table 1 presents the calcula- tions made.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "TABLE 1.-Calculation of average precipitation for the Sacramento River basin\n\n<table><tr><th>Precipitation (inches</th><th>Weight of\npaper (grams)</th><th>Percent of\ntotal</th><th>Average pre-\ncipitation of\narea (inches)</th><th>Average pre-\ncipitation\ncontributed\n(inches)</th></tr><tr><td>10 -20</td><td>2. 9722</td><td>40.21</td><td>15</td><td>6. 03</td></tr><tr><td>20 -30</td><td>1. 3297</td><td>17. 99</td><td>25</td><td>4. 50</td></tr><tr><td>30 -40</td><td>1. 0256</td><td>13. 88</td><td>35</td><td>4. 86</td></tr><tr><td>40 -50</td><td>1. 0726</td><td>14. 51</td><td>45</td><td>6. 53</td></tr><tr><td>50 -60</td><td>5265</td><td>7. 12</td><td>55</td><td>3. 92</td></tr><tr><td>60 -70</td><td>2932</td><td>3. 97</td><td>65</td><td>2. 58</td></tr><tr><td>70+</td><td>1717</td><td>2.32</td><td>75</td><td>1. 74</td></tr><tr><td>Total</td><td>7. 3915</td><td>100. 00</td><td></td><td>30. 16</td></tr></table>\n\nThis calculation is considered to be sufficiently accurate for use in this report.\n\nAt the present time, the runoff in the Sacramento River drainage basin is about 53 percent of the total precipitation in the basin.",
+                "embed": "TABLE 1.-Calculation of average precipitation for the Sacramento River basin\n\n<table><tr><th>Precipitation (inches</th><th>Weight of\npaper (grams)</th><th>Percent of\ntotal</th><th>Average pre-\ncipitation of\narea (inches)</th><th>Average pre-\ncipitation\ncontributed\n(inches)</th></tr><tr><td>10 -20</td><td>2. 9722</td><td>40.21</td><td>15</td><td>6. 03</td></tr><tr><td>20 -30</td><td>1. 3297</td><td>17. 99</td><td>25</td><td>4. 50</td></tr><tr><td>30 -40</td><td>1. 0256</td><td>13. 88</td><td>35</td><td>4. 86</td></tr><tr><td>40 -50</td><td>1. 0726</td><td>14. 51</td><td>45</td><td>6. 53</td></tr><tr><td>50 -60</td><td>5265</td><td>7. 12</td><td>55</td><td>3. 92</td></tr><tr><td>60 -70</td><td>2932</td><td>3. 97</td><td>65</td><td>2. 58</td></tr><tr><td>70+</td><td>1717</td><td>2.32</td><td>75</td><td>1. 74</td></tr><tr><td>Total</td><td>7. 3915</td><td>100. 00</td><td></td><td>30. 16</td></tr></table>\n\nThis calculation is considered to be sufficiently accurate for use in this report.\n\nAt the present time, the runoff in the Sacramento River drainage basin is about 53 percent of the total precipitation in the basin.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08081431215299198,
+                            "top": 0.1284265865565152,
+                            "width": 0.7649599012954966,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "TABLE 1.-Calculation of average precipitation for the Sacramento River basin",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05351085533410366,
+                            "top": 0.14951772829486246,
+                            "width": 0.8261988296838251,
+                            "height": 0.23537748467864017,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Precipitation (inches</th><th>Weight of\npaper (grams)</th><th>Percent of\ntotal</th><th>Average pre-\ncipitation of\narea (inches)</th><th>Average pre-\ncipitation\ncontributed\n(inches)</th></tr><tr><td>10 -20</td><td>2. 9722</td><td>40.21</td><td>15</td><td>6. 03</td></tr><tr><td>20 -30</td><td>1. 3297</td><td>17. 99</td><td>25</td><td>4. 50</td></tr><tr><td>30 -40</td><td>1. 0256</td><td>13. 88</td><td>35</td><td>4. 86</td></tr><tr><td>40 -50</td><td>1. 0726</td><td>14. 51</td><td>45</td><td>6. 53</td></tr><tr><td>50 -60</td><td>5265</td><td>7. 12</td><td>55</td><td>3. 92</td></tr><tr><td>60 -70</td><td>2932</td><td>3. 97</td><td>65</td><td>2. 58</td></tr><tr><td>70+</td><td>1717</td><td>2.32</td><td>75</td><td>1. 74</td></tr><tr><td>Total</td><td>7. 3915</td><td>100. 00</td><td></td><td>30. 16</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05798889574336829,
+                            "top": 0.3999248967330079,
+                            "width": 0.8143121529919802,
+                            "height": 0.03680060082613594,
+                            "page": 1
+                        },
+                        "content": "This calculation is considered to be sufficiently accurate for use in this report.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05860579888957434,
+                            "top": 0.43785204656402554,
+                            "width": 0.8143121529919802,
+                            "height": 0.03830266616597822,
+                            "page": 1
+                        },
+                        "content": "At the present time, the runoff in the Sacramento River drainage basin is about 53 percent of the total precipitation in the basin.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "## GEOCHEMISTRY OF THE WATER\n\nWater begins dissolving minerals before it reaches the ground, and although it will dissolve small amounts of all the gases in the air, those gases that will react with the water chemically are the most soluble. Rain water dissolves relatively large quantities of carbon dioxide and smaller amounts of the oxides of sulfur and nitrogen. These oxides in combination with the rain water form weak acids and greatly aid in the solution of rocks and soils. The quantity of minerals that the water can dissolve depends upon the solubility of the minerals, the length of time the water is in contact with the rocks and soils, and the temperature of the water. Soluble minerals are not plentiful in the Sacramento River basin because it is composed mainly of igneous and metamorphic rocks.\n\nThe igneous rocks of the Klamath and Cascade Mountains and the Sierra Nevada are resistant to solution by water; hence, the surface water draining from these areas is characteristically low in dissolved solids. Most of the dissolved solids that are found in this water are derived from feldspathic materials. Because calcium feldspars are more soluble than sodium feldspars, calcium is usually the major cation of the water. The potassium that dissolves along with the sodium does\n\n669554 3",
+                "embed": "## GEOCHEMISTRY OF THE WATER\n\nWater begins dissolving minerals before it reaches the ground, and although it will dissolve small amounts of all the gases in the air, those gases that will react with the water chemically are the most soluble. Rain water dissolves relatively large quantities of carbon dioxide and smaller amounts of the oxides of sulfur and nitrogen. These oxides in combination with the rain water form weak acids and greatly aid in the solution of rocks and soils. The quantity of minerals that the water can dissolve depends upon the solubility of the minerals, the length of time the water is in contact with the rocks and soils, and the temperature of the water. Soluble minerals are not plentiful in the Sacramento River basin because it is composed mainly of igneous and metamorphic rocks.\n\nThe igneous rocks of the Klamath and Cascade Mountains and the Sierra Nevada are resistant to solution by water; hence, the surface water draining from these areas is characteristically low in dissolved solids. Most of the dissolved solids that are found in this water are derived from feldspathic materials. Because calcium feldspars are more soluble than sodium feldspars, calcium is usually the major cation of the water. The potassium that dissolves along with the sodium does\n\n669554 3",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.21098087600246762,
+                            "top": 0.49305294780322945,
+                            "width": 0.49784083898827886,
+                            "height": 0.012392039053698836,
+                            "page": 1
+                        },
+                        "content": "GEOCHEMISTRY OF THE WATER",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05860579888957434,
+                            "top": 0.5212166729252723,
+                            "width": 0.8186304750154226,
+                            "height": 0.22793841532106646,
+                            "page": 1
+                        },
+                        "content": "Water begins dissolving minerals before it reaches the ground, and although it will dissolve small amounts of all the gases in the air, those gases that will react with the water chemically are the most soluble. Rain water dissolves relatively large quantities of carbon dioxide and smaller amounts of the oxides of sulfur and nitrogen. These oxides in combination with the rain water form weak acids and greatly aid in the solution of rocks and soils. The quantity of minerals that the water can dissolve depends upon the solubility of the minerals, the length of time the water is in contact with the rocks and soils, and the temperature of the water. Soluble minerals are not plentiful in the Sacramento River basin because it is composed mainly of igneous and metamorphic rocks.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05922270203578038,
+                            "top": 0.750657153586181,
+                            "width": 0.8180135718692165,
+                            "height": 0.13293278257604205,
+                            "page": 1
+                        },
+                        "content": "The igneous rocks of the Klamath and Cascade Mountains and the Sierra Nevada are resistant to solution by water; hence, the surface water draining from these areas is characteristically low in dissolved solids. Most of the dissolved solids that are found in this water are derived from feldspathic materials. Because calcium feldspars are more soluble than sodium feldspars, calcium is usually the major cation of the water. The potassium that dissolves along with the sodium does",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12276372609500308,
+                            "top": 0.8903492301915134,
+                            "width": 0.17334978408389884,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "669554 3",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

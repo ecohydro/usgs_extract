@@ -1,0 +1,58 @@
+{
+    "job_id": "65680f97-ff0b-4749-91be-b5113f51023a",
+    "duration": 2.1750288009643555,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/3d4fbcd0-31ae-4323-9ef2-0a0435c0472e?AWSAccessKeyId=ASIA2UOK6OVBMDJMTS2Q&Signature=EV2xUsTo3U6%2BC3Ca7ZukDW7TzTI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJIMEYCIQCZ2Wz3C4cmsawdYBYcP0EYWqOnwSqA4dRdZs1Td18arwIhANYifHzEoijzKXJN2Jx1C2l5qTZUG9xsYsf1gX9dNkVTKosFCCAQABoMNzMxMTA2OTMyMDM0IgwOb4hTESTmgVhgY%2FUq6AShYO6RptlYvdflaKKWrLW5LtzDGWyEfRcU%2F%2Fzp8DGZBMLp%2FgkwVhBokHVnzHmmB%2BB%2F3b%2Fg3SbzAzKm5EJ2k8f9mUuXrWQGCormu39V4nQQnaXKdxxgcLx8vFeMsqpkCZ9sGbXwtcSLTHuD0B5QwMHV5lHJu%2BO0VwEJzrZ4ApiQD2uyMNaktI3NVccaS%2FKamkvfyzrhKlhNe%2F62ZLb9rrScXQogXtzudEYlc7USvjmko5FZqxI77Xg%2BPV9c6faJO73zcq%2BQr8Nx7bowLlDvzYDXiNfDbSuransk5LVgwjVh02hzNEXI8oPMYUQ47XCYR4AXeOxoAXoGgtZziwgpfSrUlD8M5nP6BaSAB5y9VsusUymq3ZByeQlNd%2F8sF60XulBrypS4LMrV%2FGaAuX4rbNVOFOxzuavg%2BYwHBkUZYmVs6gg%2F8gdpvWXSol5BGcBuFdCfZmhlgrFgKwQLA0%2Bro1Cb%2FCDegZJ89woMQjoHcSCSKascHEYUBV2KOckjOkc3AUq7uuFCa2rTyTFw4WL8L2BHiH5PsKcpSCF1HELxUddorq96%2BYLlnjPaJ8NS2R2frdRzX1SN0978kIVG32%2FSOeE%2Fkns34%2B%2B5X8OGONuU0IoaolO9iNOA6kyI%2FPDy8B0qrGRdvZAz3%2Fe3tYKh5HmH%2BnPbpbmlrcwWzy55GUy%2F2XJ%2BMCQ%2FMCPxIyL9vKhri5E7OsB2tkokw2MAHlB06xzDJLxzPrpiQ7TmI4Xiyzn5BIQoGdiCqEd%2Bnwgs6D9uzhbLqZOHv0AkbtqWQB%2FHCjkVZ%2Be%2FMcMrZyGYgOkEyYzMpj893k3%2FcLEa6sNQMJ%2FqyLoGOpoBR7sNjEvYwsT2G0nbkzZPDqDKTKQlOwnOiNxxdXPZ2oxP6%2F9Ayc8gRooarmdbUZS6ohpgZuzL2wTOSz6BgX3mQ35MAhOVPdluefHjCA20q1C743Wof1cERbHRe%2FQMqEIl5zHXGi3rd0nkuHw2o9a5eO6BvbHZtFFtDHsVnEbTEK24h%2FxD13Asvnf%2BKifGUzTx0dBhymedJDnDzQ%3D%3D&Expires=1733446251",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TABLE 1.-Tentative classification of water to be used for irrigation ist the Lompoc subarea\n\n# [After Doneen (1962, p.3)]\n\n<table><tr><th rowspan=\"2\">Effect on soil</th><th colspan=\"2\">Class 1\nExcellent to good</th><th colspan=\"2\">Class 2\nGood to injurious</th><th colspan=\"2\">Class 3\nInjurious to unsuitable</th></tr><tr><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micromhos\nat 25\u00b0C)</td><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micrombos\nat 25\u00b0C)</td><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micrombos\nat 25\u00b0C)</td></tr><tr><td>Minimal leaching; slow percolation rates</td><td>3.00</td><td>500</td><td>3.00 -5.00</td><td>500 -800</td><td>&gt; 5.00</td><td>&gt; &gt;800</td></tr><tr><td>Some restricted leaching; deep percolation slow</td><td>5. 00</td><td>800</td><td>5. 00 -10. 00</td><td>800 -1, 700</td><td>10.00</td><td>1, 700</td></tr><tr><td>Maximum leaching; deep percolation rapid</td><td>7.00</td><td>1, 200</td><td>7. 00 -15. 00</td><td>1, 200 -2, 500</td><td>&gt; 15.00</td><td>VN &gt; 2, 500</td></tr></table>",
+                "embed": "# TABLE 1.-Tentative classification of water to be used for irrigation ist the Lompoc subarea\n\n# [After Doneen (1962, p.3)]\n\n<table><tr><th rowspan=\"2\">Effect on soil</th><th colspan=\"2\">Class 1\nExcellent to good</th><th colspan=\"2\">Class 2\nGood to injurious</th><th colspan=\"2\">Class 3\nInjurious to unsuitable</th></tr><tr><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micromhos\nat 25\u00b0C)</td><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micrombos\nat 25\u00b0C)</td><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micrombos\nat 25\u00b0C)</td></tr><tr><td>Minimal leaching; slow percolation rates</td><td>3.00</td><td>500</td><td>3.00 -5.00</td><td>500 -800</td><td>&gt; 5.00</td><td>&gt; &gt;800</td></tr><tr><td>Some restricted leaching; deep percolation slow</td><td>5. 00</td><td>800</td><td>5. 00 -10. 00</td><td>800 -1, 700</td><td>10.00</td><td>1, 700</td></tr><tr><td>Maximum leaching; deep percolation rapid</td><td>7.00</td><td>1, 200</td><td>7. 00 -15. 00</td><td>1, 200 -2, 500</td><td>&gt; 15.00</td><td>VN &gt; 2, 500</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2249342846413819,
+                            "top": 0.26876971608832806,
+                            "width": 0.5490048817123545,
+                            "height": 0.02082018927444795,
+                            "page": 1
+                        },
+                        "content": "TABLE 1.-Tentative classification of water to be used for irrigation ist the Lompoc subarea",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4359744648892227,
+                            "top": 0.30914826498422715,
+                            "width": 0.1246714232069095,
+                            "height": 0.017665615141955835,
+                            "page": 1
+                        },
+                        "content": "[After Doneen (1962, p.3)]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.08344974439035803,
+                            "top": 0.33869074391265774,
+                            "width": 0.8396823552153498,
+                            "height": 0.24837199791748818,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Effect on soil</th><th colspan=\"2\">Class 1\nExcellent to good</th><th colspan=\"2\">Class 2\nGood to injurious</th><th colspan=\"2\">Class 3\nInjurious to unsuitable</th></tr><tr><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micromhos\nat 25\u00b0C)</td><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micrombos\nat 25\u00b0C)</td><td>Potential\nsalinity\n(epm)</td><td>Specific\nconductance\n(micrombos\nat 25\u00b0C)</td></tr><tr><td>Minimal leaching; slow percolation rates</td><td>3.00</td><td>500</td><td>3.00 -5.00</td><td>500 -800</td><td>&gt; 5.00</td><td>&gt; &gt;800</td></tr><tr><td>Some restricted leaching; deep percolation slow</td><td>5. 00</td><td>800</td><td>5. 00 -10. 00</td><td>800 -1, 700</td><td>10.00</td><td>1, 700</td></tr><tr><td>Maximum leaching; deep percolation rapid</td><td>7.00</td><td>1, 200</td><td>7. 00 -15. 00</td><td>1, 200 -2, 500</td><td>&gt; 15.00</td><td>VN &gt; 2, 500</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

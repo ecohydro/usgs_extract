@@ -1,0 +1,70 @@
+```json
+{
+  "Watersource_Name": "Desert Hot Springs Groundwater",
+  "County": "Riverside County",
+  "Location": "Coachella Valley, California",
+  "Townships_Ranges_Sections": null,
+  "Temporal_Resolution": "Annual (1953-1967)",
+  "Units_Of_Measurement": {
+    "Water Levels": "feet",
+    "Storage Change": "acre-feet"
+  },
+  "Actual_Latitude": 33.9614,
+  "Actual_Longitude": -116.5366,
+  "Inferred_Latitude": null,
+  "Inferred_Longitude": null,
+  "Dates_of_Recording": "03/01/1953-12/31/1967",
+  "Water_Type": "Groundwater"
+},
+{
+  "Watersource_Name": "Mission Creek Groundwater",
+  "County": "Riverside County",
+  "Location": "Coachella Valley, California",
+  "Townships_Ranges_Sections": null,
+  "Temporal_Resolution": "Annual (1953-1967)",
+  "Units_Of_Measurement": {
+    "Water Levels": "feet",
+    "Storage Change": "acre-feet"
+  },
+  "Actual_Latitude": 33.8836,
+  "Actual_Longitude": -116.4090,
+  "Inferred_Latitude": null,
+  "Inferred_Longitude": null,
+  "Dates_of_Recording": "03/01/1953-12/31/1967",
+  "Water_Type": "Groundwater"
+},
+{
+  "Watersource_Name": "Garnet Hill Groundwater",
+  "County": "Riverside County",
+  "Location": "Coachella Valley, California",
+  "Townships_Ranges_Sections": null,
+  "Temporal_Resolution": "Annual (1953-1967)",
+  "Units_Of_Measurement": {
+    "Water Levels": "feet",
+    "Storage Change": "acre-feet"
+  },
+  "Actual_Latitude": 33.8956,
+  "Actual_Longitude": -116.3692,
+  "Inferred_Latitude": null,
+  "Inferred_Longitude": null,
+  "Dates_of_Recording": "03/01/1953-12/31/1967",
+  "Water_Type": "Groundwater"
+},
+{
+  "Watersource_Name": "Whitewater River Groundwater",
+  "County": "Riverside County",
+  "Location": "Coachella Valley, California",
+  "Townships_Ranges_Sections": null,
+  "Temporal_Resolution": "Annual (1953-1967)",
+  "Units_Of_Measurement": {
+    "Water Levels": "feet",
+    "Storage Change": "acre-feet"
+  },
+  "Actual_Latitude": 33.8671,
+  "Actual_Longitude": -116.2919,
+  "Inferred_Latitude": null,
+  "Inferred_Longitude": null,
+  "Dates_of_Recording": "03/01/1953-12/31/1967",
+  "Water_Type": "Groundwater"
+}
+```

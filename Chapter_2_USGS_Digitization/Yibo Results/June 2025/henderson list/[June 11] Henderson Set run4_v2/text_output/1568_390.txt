@@ -1,0 +1,193 @@
+```json
+[
+    {
+        "Watersource_Name": "Evolution Creek",
+        "County": "Tulare County",
+        "Location": "200 feet below Evolution Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3167,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/23/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Piute Creek",
+        "County": "Tulare County",
+        "Location": [
+            "2,500 feet above French Canyon Creek",
+            "2,000 feet below French Canyon Creek"
+        ],
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/20/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Outlet of Muriel Lake",
+        "County": "Tulare County",
+        "Location": "400 feet below Muriel Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/21/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Outlet of Desolation Lake",
+        "County": "Tulare County",
+        "Location": "2,500 feet below Desolation Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/21/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Outlet of Heart Lake",
+        "County": "Tulare County",
+        "Location": "1,800 feet below Heart Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/18/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Outlet of unnamed lake",
+        "County": "Tulare County",
+        "Location": "700 feet below outlet of second lake below Heart Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/18/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Hooper Creek",
+        "County": "Tulare County",
+        "Location": "At trail crossing, 1,000 feet above mouth",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 month",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "10/19/1925-02/25/1926",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Bear Creek",
+        "County": "Tulare County",
+        "Location": [
+            "200 feet below Hilgard Branch",
+            "900 feet below Lake Italy"
+        ],
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/19/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Outlet of Marie Lake",
+        "County": "Tulare County",
+        "Location": "400 feet below Marie Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/18/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Outlet of Rose Lake",
+        "County": "Tulare County",
+        "Location": "1 mile below Rose Lake and 400 feet above creek from Marie Lake",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 day",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "08/19/1925-09/30/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Rube Creek",
+        "County": "Tulare County",
+        "Location": "At Cassidy Meadow trail, elevation about 6,500 feet",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 month",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "03/02/1925-09/06/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Dike Creek",
+        "County": "Tulare County",
+        "Location": "100 feet above mouth",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 month",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "11/03/1925-09/13/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Cora Lakes Creek",
+        "County": "Tulare County",
+        "Location": "75 feet above mouth",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 month",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.3333,
+        "Longitude": -118.4167,
+        "Dates_of_Recording": "11/03/1925-09/04/1925",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "West Fork of Granite Creek",
+        "County": "Fresno County",
+        "Location": "At site of former gaging station called West Fork of Granite Creek near Cattle Mountain, elevation about 6,700 feet",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 week",
+        "Units_Of_Measurement": [
+            "Feet",
+            "Sec.-ft."
+        ],
+        "Latitude": 36.7833,
+        "Longitude": -118.25,
+        "Dates_of_Recording": "11/06/1925-09/04/1926",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Mugler Creek",
+        "County": "Fresno County",
+        "Location": "About 500 feet above mouth, near Johnson Meadows",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "1 month",
+        "Units_Of_Measurement": "Sec.-ft.",
+        "Latitude": 36.8,
+        "Longitude": -118.5,
+        "Dates_of_Recording": "10/06/1925-09/11/1925",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

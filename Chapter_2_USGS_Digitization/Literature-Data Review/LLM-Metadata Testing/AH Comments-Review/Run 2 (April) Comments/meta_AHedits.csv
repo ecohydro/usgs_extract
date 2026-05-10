@@ -1,0 +1,61 @@
+ID,Page,NAME_WATERSOURCE,LOC,LAT-LONG,TOWNSHIP_RANGES,DATE,TIME RANGE,TYPE,Comments
+2846,29,Whitewater River subbasin,"Coachella Valley, California",,,,,Recharge,
+AH,,yes,yes--but where is it getting this from? ,yes,yes,yes,yes,yes,This all seems correct--but I am wondering where it got the header of Coachella Valley from
+2846,29,Coachella Canal,"Coachella Valley, California",,,,1948–1967,Discharge,
+AH,,"Yes, but also Colorado River ",yes--but where is it getting this from? ,yes,there is a TRS in the table  caption,"yes, no dates, only years","yes, correct range","Yes, stream discharge (we want to specify that)",This is pretty correct--not sure about the header of Coachella Valley (from table caption? But then why does it pull that for the first table (above). TRS might be hard to get the LLM to try to find--
+2846,46,,"Coachella Valley, California",,,,,Groundwater,
+AH,,There are more names here but it didn't pull any ,Correct,yes,yes,yes,yes,"yes, but groundwater storage","Didn't pull specific water source names, but otherwise correct--the specific water source names are in the table "
+3067,266,Los Gatos Creek,"Coalinga, California","36°12'55""N, 120°28'10""W","T. 20 S., R. 14 E.",,1955-1956,Streamflow Discharge,
+AH,,yes,yes--also Tulare Lake Basin (header),yes,"yes, it got most of it--written out hard so understandable",yes,yes,yes,"Really good, this is an example where it would be good to have a table caption  pulled if at all possible; but it may not be based on how the .json categorizes it. Also, there are actually daily data here but it's not clear by the dates. Additionally, interesting to note how it decides which water area to pull (Tulare Lake vs. Coalinga, CA)--they are both on the same area in the .json file"
+3067,268,San Joaquin River,"Miller Crossing, California","37°30'35""N, 119°11'50""W","T. 5 S., R. 25 E.",,1955-1956,Streamflow Discharge,
+AH,,yes,yes,yes,"yes it got most of it but not all, same as above",yes,yes,yes,"Good, again, same as above basically--"
+10372,13,Mount Diablo,"San Joaquin Valley, California ",,"T. 30-32 S., R. 23-30 E. ",,1975-1977,Groundwater Pumpage,
+AH,,yes,yes,yes,yes,yes,yes,yes,"yes, good--I like that this is separated in two parts "
+10372,13,San Bernardino,"San Joaquin Valley, California ",,"Tps. 11-12 N., R. 18-23 W.",,1975-1977,Groundwater Pumpage,
+AH,,yes,yes,yes,yes,yes,yes,yes,"yes, good--I like that this is separated in two parts "
+10372,15,,,,,,,,
+AH,,yes,yes,yes,yes,yes,yes,yes,yes 
+25076,28,South Fork of Kern River,"Onyx, California",,,,1911–1927,Monthly Discharge,
+AH,,yes,yes,yes,yes,yes,yes,"yes--but I would prefer it says 'stream discharge' and monthly is included elsewhere (we don't want two categories of 'monthly discharge' and 'stream discharge'--or if that doesn't work well, we can post-process after?",yes this is good--I like that it separates them--I want something to capture that it's in the San Joaquin River Basin--which is in the table caption--also another instance of monthly records 
+25076,28,Erskine Creek,"Isabella, CA",,,,1910–1912,Monthly Discharge,
+AH,,yes,yes,yes,yes,yes,yes,"yes--but I would prefer it says 'stream discharge' and monthly is included elsewhere (we don't want two categories of 'monthly discharge' and 'stream discharge'--or if that doesn't work well, we can post-process after?",yes this is good--I like that it separates them--I want something to capture that it's in the San Joaquin River Basin--which is in the table caption--also another instance of monthly records 
+25076,28,Basin Creek,"Havilah, CA",,,,1910–1912,Monthly Discharge,
+AH,,yes,yes,yes,yes,yes,yes,"yes--but I would prefer it says 'stream discharge' and monthly is included elsewhere (we don't want two categories of 'monthly discharge' and 'stream discharge'--or if that doesn't work well, we can post-process after?",yes this is good--I like that it separates them--I want something to capture that it's in the San Joaquin River Basin--which is in the table caption--also another instance of monthly records 
+25076,28,Tejon House Creek,"Tejon House Creek at Tejon Ranch House, CA",,,,1894–1897,Monthly Discharge,
+AH,,yes,yes,yes,yes,yes,yes,"yes--but I would prefer it says 'stream discharge' and monthly is included elsewhere (we don't want two categories of 'monthly discharge' and 'stream discharge'--or if that doesn't work well, we can post-process after?",yes this is good--I like that it separates them--I want something to capture that it's in the San Joaquin River Basin--which is in the table caption--also another instance of monthly records 
+25076,32,San Joaquin River Basin,"Three Rivers, California",,,,1902-1927,Monthly Discharge,
+AH,,"yes but this should have pulled ""Kaweah River"" ",yes,yes,yes,yes,yes,"yes--but I would prefer it says 'stream discharge' and monthly is included elsewhere (we don't want two categories of 'monthly discharge' and 'stream discharge'--or if that doesn't work well, we can post-process after?","Ok so this is the same doc as above but it pulled the water name differently this time (pulling the title rather than the specific river, Kaweah River) "
+25076,32,San Joaquin River Basin,"Lemon Cove, California",,,,1918-1921,Monthly Discharge,
+,,"yes, but should be Kaweah River",This is technically 'McKay Point near Lemon Cove',yes,yes,yes,yes,"yes--but I would prefer it says 'stream discharge' and monthly is included elsewhere (we don't want two categories of 'monthly discharge' and 'stream discharge'--or if that doesn't work well, we can post-process after?",Ok again this didn't quite pull those specific water body names correctly (or at least it's inconsistent with the same type of doc). Could get extra helpful info (comment section) by pulling the 'title' in the .json 
+28950,19,,,,,,,,
+AH,,yes,yes,yes,yes,yes,yes,yes,yes great didn't pull anything (good) 
+38797,3,,,,,,,,
+AH,,yes,yes,yes,yes,yes,yes,yes,yes great didn't pull anything (good) 
+38797,8,,,,,,,,
+AH,,yes,yes,yes,yes,yes,yes,yes,yes great didn't pull anything (good) 
+48167,27,,"Pajaro Valley, California",,,,1963–1969,Groundwater Pumpage,
+AH,,yes,yes,yes,yes,yes,yes,yes,"yes, good  "
+53419,29,Sulphur Spring (L. O. Pinches),"Mendocino County, California","39°41'45""N, 123°28'46""W",,9/29/1966,,Spring,
+AH,,yes,yes,yes,there is a TRS technically but it's written weird--if we have a lat/long that's better,yes,maybe repeat 1966? Not critical ,yes,"great--this is an example where it worked so well pulling each thing--I wonder if we could also pull the discharge, altitude, other columns (to test)"
+53419,29,"Mud Springs (Branscomb Valley Mud Enterprises, Jackson Springs)","Mendocino County, California","39°39'25""N, 123°35'15""W",,9/29/1966,,Spring,
+AH,,yes--it combined names here a bit but I think it's ok,yes,yes,there is a TRS technically but it's written weird--if we have a lat/long that's better,yes,maybe repeat 1966? Not critical ,yes,"great--this is an example where it worked so well pulling each thing--I wonder if we could also pull the discharge, altitude, other columns (to test)"
+53419,29,California Division of Highways,"Mendocino County, California","39°49'34""N, 123°34'48""W",,9/28/1966,,Spring,
+AH,,yes,yes,yes,there is a TRS technically but it's written weird--if we have a lat/long that's better,yes,maybe repeat 1966? Not critical ,yes,"great--this is an example where it worked so well pulling each thing--I wonder if we could also pull the discharge, altitude, other columns (to test)"
+53419,29,Congress Spring (F. A. Stearns),"Napa County, California","38°17'04""N, 122°19'41""W",,5/6/1965,,Spring,
+AH,,yes,yes,yes,same as above,yes,same as above,yes,"great--this is an example where it worked so well pulling each thing--I wonder if we could also pull the discharge, altitude, other columns (to test)"
+53419,29,Pete Imboden,"Napa County, California","38°20'50""N, 122°14'06""W",,5/11/1965,,Spring,
+AH,,yes,yes,,same as above,yes,same as above,yes,great 
+53419,29,"Soda Springs (Napa Soda Springs, Jacksons Springs, Nasser A1)","Napa County, California","38°23'23""N, 122°16'39""W",,5/6/1965,,Spring,
+AH,,yes,yes,yes,same as above,yes,same as above,yes,great
+53419,29,"Vichy Springs (M. E. Harris, Lepori)","Napa County, California","38°20'20""N, 122°15'33""W",,5/6/1965,,Spring,
+AH,,yes--writing it a bit weird/combined but it's ok,yes,yes,same as above,yes,same as above,yes,great
+53419,29,California Veterans Home,"Napa County, California","38°23'49""N, 122°22'00""W",,5/6/1965,,Spring,
+AH,,yes,yes,yes,same as above,yes,same as above,yes,great
+53419,29,California Division of Highways,"Napa County, California","38°29'04""N, 122°14'29""W",,5/7/1965,,Spring,
+AH,,yes,yes,yes,same as above,yes,same as above,yes,great
+53419,29,White Sulphur Springs,"Napa County, California","38°29'26""N, 122°29'42""W",,5/11/1965,,Spring,
+AH,,yes,yes,yes,same as above,yes,same as above,yes,great
+56394,254,San Joaquin River Basin,"Cressey, California","37°27'15""N, 120°36'28""W","T. 5 S., R.12 E.",,1975-1976,Stream Discharge,
+AH,,Should be Merced River--but San Joaquin is largely correct (larger area),yes,yes,yes mostly ,yes,yes,yes,"yes, pretty good--although reoccurring issue with sometimes the LLM pulls a specific water body/location, sometimes a broader one--so I think we should specify this "
+56394,282,San Joaquin River Basin,"La Grange, Stanislaus County, California","37°39'59""N, 120°26'28""W ","T.3 S., R.14 E.",,1975-1976,Stream Discharge,
+AH,,Should be Tuolumne River--although San Joaquin River Basin is the larger area ,Yes,yes,yes--didn't quite get it but it's written weirdly,yes,yes,yes,"yes, pretty good--although reoccurring issue with sometimes the LLM pulls a specific water body/location, sometimes a broader one--so I think we should specify this "

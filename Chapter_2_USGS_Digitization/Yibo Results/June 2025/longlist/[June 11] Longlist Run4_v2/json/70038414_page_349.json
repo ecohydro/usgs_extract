@@ -1,0 +1,206 @@
+{
+    "job_id": "b40ac31e-4dab-4e60-b0f7-ca263baf7ce3",
+    "duration": 7.688560962677002,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5d41eb5b-74ab-4fd3-b23c-9e7d9e175a4d?AWSAccessKeyId=ASIA2UOK6OVBOQ22NT7N&Signature=aPZaJuY0Qsfcue7aqVYAhmz2URU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJGMEQCIAIdtPxPWcnaK7jG4c4DjmV3NF60efJjFSQC%2FXo4D4gOAiB1fYpt6dMrVDJ7EH4hEHo3o3qJrvbi%2BMJ9vUoztCBV%2BSqLBQggEAAaDDczMTEwNjkzMjAzNCIMDfBDyxZqP3gudUAtKugEJ7Venvuw%2FuCBCo%2F3NxpMqLXSkqRySjHSEPXOnSIVF%2BUTyiNTtp03m6FQR6bqMiPG156pEAVoO09JsDhbtKF9SZcdNEFz3susG%2FlXoHGki0cuW8pCLERtCDO6VSF5Azq7CIEAZ0HCZVQgbXezNq1%2FZe3fei3tbHy3UhAzMe97rJKeUI66efOE3ubp6ItCwhao9U09ecg8zKeoWAPaHQsL9Qu%2FawbTWgaUXUM5bJ2SxBXecrIUe%2FiX9lSBBnFtaXX05JKWNaOFK%2BK6jIhHw24IvEayKKxT6o8G4%2FDR9s3MByTWwQgEut0slYE38f79mxmMtLlab5PDnCmOvVNd1vjDoFhvqJmt2nJEpNKMemARyMa56kz3TswUtsk%2FcsHI0%2FH5Kgl3BII3wBsO6AAAxccWQZSkwgVvlNqQtQdmYHxFMa4uImHUmM8o%2FaMP7m%2BzZagBxvJ12sFPMj2wESR6Avea%2Bqsxd9AN3WossN5KTNXyBBF6k5uiFYS5Ml0jwe9tAkxgCYHr4xPiqJQ4hV6te2ny5pYX4zyC1ZTYqAVYtvU%2Fe7ezWQ%2F40mygikSLFNMrzwLeGpv4PhyUAhslH0R3HBpDh6MPs2TvkyJ2LirzVF%2FQ7KzVlZGTT41nIXi2%2FISO3YwncUSkHbOFbJ7dIboMBMOAMO6%2FIwG7F%2FtZg0a9B7fuKY%2B7vi9SlxsgAfYU%2BTQkFOq41jPrus0Do4P9O3gPJcZM28Lqna55V6um%2FU7nmntekk6ZA11nlCO%2FrNUGV%2Buj%2FpxrhffenowHR5KA7jJE3L4ALjzNTDPeu1Vd5KxMHilJ7r2JaUG86dtrHDDA1Mi6BjqcAakV7MMoh7tmZ50b7f6vxh22g3u%2BhA5unERQcxGekWKsWBbnAr46PwhdFCL8geI7M3QL%2FWRdArzEAF8nlzESOgvcjOQ7zJMUMi6w2DvWVlsc%2FCd3t1cPyY1xX66epCbWv4C5IOgnJ65XJEvy7WrkVc8tXc9a9RLX5GQDP9rZLkcDeca3TiK%2BinOuZ%2BQKYEbY2JKEXM4BXiQD5t9ahw%3D%3D&Expires=1733441881",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "SACRAMENTO RIVER BASIN\n\n# 11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF.\n\nLOCATION.- Lat 39\u00b043'25\", long 122\u00b002'47\", in Capay Grant, Glenn County, on right bank 2.3 miles southwest of Hamilton City, 6 miles upstream from mouth, and 8 miles east of Orland.",
+                "embed": "SACRAMENTO RIVER BASIN\n\n# 11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF.\n\nLOCATION.- Lat 39\u00b043'25\", long 122\u00b002'47\", in Capay Grant, Glenn County, on right bank 2.3 miles southwest of Hamilton City, 6 miles upstream from mouth, and 8 miles east of Orland.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.42838196286472147,
+                            "top": 0.04551323434473854,
+                            "width": 0.16887709991158267,
+                            "height": 0.008392511297611363,
+                            "page": 1
+                        },
+                        "content": "SACRAMENTO RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9336870026525199,
+                            "top": 0.04325371207230471,
+                            "width": 0.01856763925729443,
+                            "height": 0.008715300193673338,
+                            "page": 1
+                        },
+                        "content": "831",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.33687002652519893,
+                            "top": 0.06358941252420917,
+                            "width": 0.35853227232537577,
+                            "height": 0.010329244673983214,
+                            "page": 1
+                        },
+                        "content": "11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08443854995579134,
+                            "top": 0.08069722401549387,
+                            "width": 0.8355437665782494,
+                            "height": 0.022595222724338282,
+                            "page": 1
+                        },
+                        "content": "LOCATION.- Lat 39\u00b043'25\", long 122\u00b002'47\", in Capay Grant, Glenn County, on right bank 2.3 miles southwest of Hamilton City, 6 miles upstream from mouth, and 8 miles east of Orland.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF. (cont.)\n\nDRAINAGE AREA,--777 sq mi.\n\nPERIOD OF RECORD. October 1940 to current year. Records for water year 1941 incomplete, yearly estimate pub- lished in WSP 1315-A.\n\nGAGE -Water-stage recorder. Datum of gage is 151.18 ft above mean sea level (levels by Bureau of Reclamation). Prior to February 1946, at site 3 miles upstream at different datum.\n\nAVERAGE DISCHARGE (unadjusted).-- years, 431 cfs (312,300 acre-ft per year).\n\nEXTREMES.--Current year: Maximum discharge, 10,100 cfs Jan. 22 (gage height, 12.14 ft); no flow for several days.\n\nPeriod of record: Maximum discharge, 39,900 cfs Feb. 25, 1958 (gage height, 18.31 ft) ; no flow at times in most years.\n\nREMARKS.--Records fair. Flow regulated by East Park Reservoir since 1910 (usable capacity, 50,600 acre-ft), by Stony Gorge Reservoir since 1928 (usable capacity, 50,100 acre-ft), and by Black Butte Reservoir, 18.6 miles upstream, since October 1963 (see sta 11-3879.95). Diversions for irrigation of about 20,000 acres, maximum potential, above station in the Bureau of Reclamation Orland project.\n\nCOOPERATION. -Eight discharge measurements and several gage readings furnished by Bureau of Reclamation.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "embed": "# 11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF. (cont.)\n\nDRAINAGE AREA,--777 sq mi.\n\nPERIOD OF RECORD. October 1940 to current year. Records for water year 1941 incomplete, yearly estimate pub- lished in WSP 1315-A.\n\nGAGE -Water-stage recorder. Datum of gage is 151.18 ft above mean sea level (levels by Bureau of Reclamation). Prior to February 1946, at site 3 miles upstream at different datum.\n\nAVERAGE DISCHARGE (unadjusted).-- years, 431 cfs (312,300 acre-ft per year).\n\nEXTREMES.--Current year: Maximum discharge, 10,100 cfs Jan. 22 (gage height, 12.14 ft); no flow for several days.\n\nPeriod of record: Maximum discharge, 39,900 cfs Feb. 25, 1958 (gage height, 18.31 ft) ; no flow at times in most years.\n\nREMARKS.--Records fair. Flow regulated by East Park Reservoir since 1910 (usable capacity, 50,600 acre-ft), by Stony Gorge Reservoir since 1928 (usable capacity, 50,100 acre-ft), and by Black Butte Reservoir, 18.6 miles upstream, since October 1963 (see sta 11-3879.95). Diversions for irrigation of about 20,000 acres, maximum potential, above station in the Bureau of Reclamation Orland project.\n\nCOOPERATION. -Eight discharge measurements and several gage readings furnished by Bureau of Reclamation.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08267020335985853,
+                            "top": 0.11136216914138154,
+                            "width": 0.19805481874447392,
+                            "height": 0.009038089089735314,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA,--777 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08267020335985853,
+                            "top": 0.12717882504841835,
+                            "width": 0.8443854995579133,
+                            "height": 0.020335700451904453,
+                            "page": 1
+                        },
+                        "content": "PERIOD OF RECORD. October 1940 to current year. Records for water year 1941 incomplete, yearly estimate pub- lished in WSP 1315-A.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08311229000884174,
+                            "top": 0.15461588121368625,
+                            "width": 0.8554376657824934,
+                            "height": 0.023240800516462233,
+                            "page": 1
+                        },
+                        "content": "GAGE -Water-stage recorder. Datum of gage is 151.18 ft above mean sea level (levels by Bureau of Reclamation). Prior to February 1946, at site 3 miles upstream at different datum.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08267020335985853,
+                            "top": 0.18398967075532602,
+                            "width": 0.5954907161803713,
+                            "height": 0.012911555842479019,
+                            "page": 1
+                        },
+                        "content": "AVERAGE DISCHARGE (unadjusted).-- years, 431 cfs (312,300 acre-ft per year).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08311229000884174,
+                            "top": 0.20238863783085861,
+                            "width": 0.8289124668435013,
+                            "height": 0.020981278244028404,
+                            "page": 1
+                        },
+                        "content": "EXTREMES.--Current year: Maximum discharge, 10,100 cfs Jan. 22 (gage height, 12.14 ft); no flow for several days.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10654288240495137,
+                            "top": 0.22143318269851517,
+                            "width": 0.8200707338638373,
+                            "height": 0.020981278244028404,
+                            "page": 1
+                        },
+                        "content": "Period of record: Maximum discharge, 39,900 cfs Feb. 25, 1958 (gage height, 18.31 ft) ; no flow at times in most years.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08399646330680813,
+                            "top": 0.24919302775984506,
+                            "width": 0.8267020335985853,
+                            "height": 0.04228534538411879,
+                            "page": 1
+                        },
+                        "content": "REMARKS.--Records fair. Flow regulated by East Park Reservoir since 1910 (usable capacity, 50,600 acre-ft), by Stony Gorge Reservoir since 1928 (usable capacity, 50,100 acre-ft), and by Black Butte Reservoir, 18.6 miles upstream, since October 1963 (see sta 11-3879.95). Diversions for irrigation of about 20,000 acres, maximum potential, above station in the Bureau of Reclamation Orland project.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08222811671087533,
+                            "top": 0.2959974176888315,
+                            "width": 0.7975243147656941,
+                            "height": 0.014202711426726921,
+                            "page": 1
+                        },
+                        "content": "COOPERATION. -Eight discharge measurements and several gage readings furnished by Bureau of Reclamation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.21352785145888595,
+                            "top": 0.32311168495803744,
+                            "width": 0.5981432360742706,
+                            "height": 0.01065203357004519,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>3.2</td><td>0</td><td>0</td><td>24</td><td>2,360</td><td>4,550</td><td>123</td><td>480</td><td>473</td><td>438</td><td>487</td><td>438</td></tr><tr><td>2</td><td>.89</td><td>0</td><td>0</td><td>27</td><td>2,230</td><td>4,520</td><td>119</td><td>480</td><td>473</td><td>436</td><td>459</td><td>398</td></tr><tr><td>3</td><td>.17</td><td>0</td><td>0</td><td>28</td><td>2,090</td><td>4,460</td><td>111</td><td>473</td><td>473</td><td>436</td><td>466</td><td>284</td></tr><tr><td>4</td><td>1.1</td><td>1.1</td><td>0</td><td>27</td><td>1,570</td><td>3,890</td><td>111</td><td>466</td><td>501</td><td>455</td><td>417</td><td>246</td></tr><tr><td>5</td><td>1.5</td><td>4.0</td><td>0</td><td>27</td><td>1,360</td><td>1,970</td><td>113</td><td>459</td><td>316</td><td>470</td><td>374</td><td>230</td></tr><tr><td>6</td><td>3.8</td><td>4.8</td><td>0</td><td>27</td><td>1,730</td><td>1,210</td><td>119</td><td>452</td><td>417</td><td>470</td><td>386</td><td>228</td></tr><tr><td>7</td><td>7.2</td><td>3.6</td><td>0</td><td>26</td><td>2,240</td><td>1,060</td><td>119</td><td>452</td><td>473</td><td>464</td><td>400</td><td>225</td></tr><tr><td>8</td><td>3.2</td><td>2.6</td><td>0</td><td>27</td><td>2,460</td><td>1,030</td><td>119</td><td>459</td><td>459</td><td>459</td><td>410</td><td>218</td></tr><tr><td>9</td><td>.52</td><td>1.3</td><td>0</td><td>23</td><td>2,480</td><td>1,010</td><td>119</td><td>480</td><td>501</td><td>487</td><td>415</td><td>160</td></tr><tr><td>10</td><td>.02</td><td>1.2</td><td>0</td><td>23</td><td>2,520</td><td>977</td><td>119</td><td>473</td><td>536</td><td>487</td><td>435</td><td>112</td></tr><tr><td>11</td><td>0</td><td>1.1</td><td>0</td><td>24</td><td>3,220</td><td>977</td><td>119</td><td>487</td><td>543</td><td>459</td><td>480</td><td>81</td></tr><tr><td>12</td><td>0</td><td>.82</td><td>0</td><td>57</td><td>3,850</td><td>928</td><td>119</td><td>473</td><td>529</td><td>487</td><td>510</td><td>55</td></tr><tr><td>13</td><td>9.8</td><td>.70</td><td>0</td><td>1,170</td><td>4,280</td><td>816</td><td>119</td><td>452</td><td>571</td><td>508</td><td>480</td><td>62</td></tr><tr><td>14</td><td>21</td><td>1.5</td><td>0</td><td>4,860</td><td>4,960</td><td>823</td><td>234</td><td>454</td><td>487</td><td>473</td><td>466</td><td>67</td></tr><tr><td>15</td><td>18</td><td>9.2</td><td>0</td><td>4,700</td><td>5,130</td><td>816</td><td>438</td><td>424</td><td>466</td><td>466</td><td>459</td><td>46</td></tr><tr><td>16</td><td>18</td><td>6.8</td><td>0</td><td>4,700</td><td>4,950</td><td>809</td><td>445</td><td>522</td><td>431</td><td>459</td><td>445</td><td>49</td></tr><tr><td>17</td><td>15</td><td>4.0</td><td>0</td><td>4,780</td><td>4,910</td><td>837</td><td>445</td><td>473</td><td>404</td><td>445</td><td>410</td><td>49</td></tr><tr><td>18</td><td>9.6</td><td>6.5</td><td>0</td><td>3,990</td><td>4,840</td><td>753</td><td>445</td><td>459</td><td>404</td><td>473</td><td>417</td><td>36</td></tr><tr><td>19</td><td>8.8</td><td>6.5</td><td>0</td><td>4,020</td><td>4,750</td><td>571</td><td>452</td><td>438</td><td>438</td><td>480</td><td>473</td><td>43</td></tr><tr><td>20</td><td>9.6</td><td>4.3</td><td>0</td><td>4,910</td><td>4,670</td><td>571</td><td>452</td><td>431</td><td>438</td><td>473</td><td>431</td><td>46</td></tr><tr><td>21</td><td>6.8</td><td>3.0</td><td>0</td><td>8,430</td><td>4,540</td><td>564</td><td>445</td><td>452</td><td>438</td><td>487</td><td>438</td><td>49</td></tr><tr><td>22</td><td>3.4</td><td>2.6</td><td>0</td><td>9,930</td><td>4,520</td><td>296</td><td>478</td><td>431</td><td>452</td><td>487</td><td>452</td><td>40</td></tr><tr><td>23</td><td>3.8</td><td>2.6</td><td>0</td><td>9,460</td><td>4,490</td><td>178</td><td>501</td><td>445</td><td>452</td><td>494</td><td>473</td><td>23</td></tr><tr><td>24</td><td>4.0</td><td>2.4</td><td>15</td><td>9,230</td><td>4,460</td><td>150</td><td>508</td><td>452</td><td>431</td><td>445</td><td>473</td><td>22</td></tr><tr><td>25</td><td>1.7</td><td>1.1</td><td>47</td><td>7,350</td><td>4,250</td><td>136</td><td>508</td><td>466</td><td>424</td><td>459</td><td>480</td><td>29</td></tr><tr><td>26</td><td>.64</td><td>.52</td><td>37</td><td>7,260</td><td>4,280</td><td>130</td><td>494</td><td>466</td><td>445</td><td>466</td><td>505</td><td>30</td></tr><tr><td>27</td><td>.40</td><td>.40</td><td>23</td><td>7,350</td><td>4,680</td><td>126</td><td>487</td><td>494</td><td>410</td><td>473</td><td>518</td><td>29</td></tr><tr><td>28</td><td>.10</td><td>.30</td><td>15</td><td>4,030</td><td>4,800</td><td>126</td><td>480</td><td>473</td><td>398</td><td>494</td><td>520</td><td>28</td></tr><tr><td>29</td><td>0</td><td>.15</td><td>10</td><td>5,700</td><td></td><td>123</td><td>473</td><td>508</td><td>431</td><td>487</td><td>465</td><td>29</td></tr><tr><td>30</td><td>0</td><td>0</td><td>7.6</td><td>6,260</td><td></td><td>123</td><td>473</td><td>487.</td><td>438</td><td>487</td><td>445</td><td>26</td></tr><tr><td>31</td><td>0</td><td></td><td>17</td><td>3,130</td><td></td><td>123</td><td></td><td>515</td><td></td><td>508</td><td>438</td><td></td></tr><tr><td>TOTAL</td><td>152.24</td><td>73.09</td><td>171.6</td><td>111,600</td><td>102,620</td><td>34,653</td><td>9,287</td><td>14,476</td><td>13,652</td><td>14,612</td><td>14,027</td><td>3,378</td></tr><tr><td>MEAN</td><td>4.91</td><td>2.44</td><td>5.54</td><td>3,600</td><td>3,665</td><td>1,118</td><td>310</td><td>467</td><td>455</td><td>471</td><td>452</td><td>113</td></tr><tr><td>MAX</td><td>21</td><td>9.2</td><td>47</td><td>9,930</td><td>5,130</td><td>4,550</td><td>508</td><td>522</td><td>571</td><td>508</td><td>520</td><td>438</td></tr><tr><td>MIN</td><td>0</td><td>0</td><td>0</td><td>23</td><td>1,360</td><td>123</td><td>111</td><td>424</td><td>316</td><td>436</td><td>374</td><td>22</td></tr><tr><td>AC-FT</td><td>302</td><td>145</td><td>340</td><td>221,400</td><td>203,500</td><td>68,730</td><td>18,420</td><td>28,710</td><td>27,080</td><td>28,980</td><td>27,820</td><td>6,700</td></tr><tr><td>CAL YR</td><td>1968 TOTAL</td><td>83,726.35</td><td></td><td>MEAN 229</td><td>MAX</td><td>9,020</td><td>MIN 0</td><td>AC-FT</td><td>166,100</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969 TOTAL</td><td>318,701.93</td><td></td><td>MEAN 873</td><td>MAX</td><td>9,930</td><td>MIN 0</td><td>AC-FT</td><td>632,100</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# 11-3885. STONY CREEK NEAR HAMILTON CITY, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>3.2</td><td>0</td><td>0</td><td>24</td><td>2,360</td><td>4,550</td><td>123</td><td>480</td><td>473</td><td>438</td><td>487</td><td>438</td></tr><tr><td>2</td><td>.89</td><td>0</td><td>0</td><td>27</td><td>2,230</td><td>4,520</td><td>119</td><td>480</td><td>473</td><td>436</td><td>459</td><td>398</td></tr><tr><td>3</td><td>.17</td><td>0</td><td>0</td><td>28</td><td>2,090</td><td>4,460</td><td>111</td><td>473</td><td>473</td><td>436</td><td>466</td><td>284</td></tr><tr><td>4</td><td>1.1</td><td>1.1</td><td>0</td><td>27</td><td>1,570</td><td>3,890</td><td>111</td><td>466</td><td>501</td><td>455</td><td>417</td><td>246</td></tr><tr><td>5</td><td>1.5</td><td>4.0</td><td>0</td><td>27</td><td>1,360</td><td>1,970</td><td>113</td><td>459</td><td>316</td><td>470</td><td>374</td><td>230</td></tr><tr><td>6</td><td>3.8</td><td>4.8</td><td>0</td><td>27</td><td>1,730</td><td>1,210</td><td>119</td><td>452</td><td>417</td><td>470</td><td>386</td><td>228</td></tr><tr><td>7</td><td>7.2</td><td>3.6</td><td>0</td><td>26</td><td>2,240</td><td>1,060</td><td>119</td><td>452</td><td>473</td><td>464</td><td>400</td><td>225</td></tr><tr><td>8</td><td>3.2</td><td>2.6</td><td>0</td><td>27</td><td>2,460</td><td>1,030</td><td>119</td><td>459</td><td>459</td><td>459</td><td>410</td><td>218</td></tr><tr><td>9</td><td>.52</td><td>1.3</td><td>0</td><td>23</td><td>2,480</td><td>1,010</td><td>119</td><td>480</td><td>501</td><td>487</td><td>415</td><td>160</td></tr><tr><td>10</td><td>.02</td><td>1.2</td><td>0</td><td>23</td><td>2,520</td><td>977</td><td>119</td><td>473</td><td>536</td><td>487</td><td>435</td><td>112</td></tr><tr><td>11</td><td>0</td><td>1.1</td><td>0</td><td>24</td><td>3,220</td><td>977</td><td>119</td><td>487</td><td>543</td><td>459</td><td>480</td><td>81</td></tr><tr><td>12</td><td>0</td><td>.82</td><td>0</td><td>57</td><td>3,850</td><td>928</td><td>119</td><td>473</td><td>529</td><td>487</td><td>510</td><td>55</td></tr><tr><td>13</td><td>9.8</td><td>.70</td><td>0</td><td>1,170</td><td>4,280</td><td>816</td><td>119</td><td>452</td><td>571</td><td>508</td><td>480</td><td>62</td></tr><tr><td>14</td><td>21</td><td>1.5</td><td>0</td><td>4,860</td><td>4,960</td><td>823</td><td>234</td><td>454</td><td>487</td><td>473</td><td>466</td><td>67</td></tr><tr><td>15</td><td>18</td><td>9.2</td><td>0</td><td>4,700</td><td>5,130</td><td>816</td><td>438</td><td>424</td><td>466</td><td>466</td><td>459</td><td>46</td></tr><tr><td>16</td><td>18</td><td>6.8</td><td>0</td><td>4,700</td><td>4,950</td><td>809</td><td>445</td><td>522</td><td>431</td><td>459</td><td>445</td><td>49</td></tr><tr><td>17</td><td>15</td><td>4.0</td><td>0</td><td>4,780</td><td>4,910</td><td>837</td><td>445</td><td>473</td><td>404</td><td>445</td><td>410</td><td>49</td></tr><tr><td>18</td><td>9.6</td><td>6.5</td><td>0</td><td>3,990</td><td>4,840</td><td>753</td><td>445</td><td>459</td><td>404</td><td>473</td><td>417</td><td>36</td></tr><tr><td>19</td><td>8.8</td><td>6.5</td><td>0</td><td>4,020</td><td>4,750</td><td>571</td><td>452</td><td>438</td><td>438</td><td>480</td><td>473</td><td>43</td></tr><tr><td>20</td><td>9.6</td><td>4.3</td><td>0</td><td>4,910</td><td>4,670</td><td>571</td><td>452</td><td>431</td><td>438</td><td>473</td><td>431</td><td>46</td></tr><tr><td>21</td><td>6.8</td><td>3.0</td><td>0</td><td>8,430</td><td>4,540</td><td>564</td><td>445</td><td>452</td><td>438</td><td>487</td><td>438</td><td>49</td></tr><tr><td>22</td><td>3.4</td><td>2.6</td><td>0</td><td>9,930</td><td>4,520</td><td>296</td><td>478</td><td>431</td><td>452</td><td>487</td><td>452</td><td>40</td></tr><tr><td>23</td><td>3.8</td><td>2.6</td><td>0</td><td>9,460</td><td>4,490</td><td>178</td><td>501</td><td>445</td><td>452</td><td>494</td><td>473</td><td>23</td></tr><tr><td>24</td><td>4.0</td><td>2.4</td><td>15</td><td>9,230</td><td>4,460</td><td>150</td><td>508</td><td>452</td><td>431</td><td>445</td><td>473</td><td>22</td></tr><tr><td>25</td><td>1.7</td><td>1.1</td><td>47</td><td>7,350</td><td>4,250</td><td>136</td><td>508</td><td>466</td><td>424</td><td>459</td><td>480</td><td>29</td></tr><tr><td>26</td><td>.64</td><td>.52</td><td>37</td><td>7,260</td><td>4,280</td><td>130</td><td>494</td><td>466</td><td>445</td><td>466</td><td>505</td><td>30</td></tr><tr><td>27</td><td>.40</td><td>.40</td><td>23</td><td>7,350</td><td>4,680</td><td>126</td><td>487</td><td>494</td><td>410</td><td>473</td><td>518</td><td>29</td></tr><tr><td>28</td><td>.10</td><td>.30</td><td>15</td><td>4,030</td><td>4,800</td><td>126</td><td>480</td><td>473</td><td>398</td><td>494</td><td>520</td><td>28</td></tr><tr><td>29</td><td>0</td><td>.15</td><td>10</td><td>5,700</td><td></td><td>123</td><td>473</td><td>508</td><td>431</td><td>487</td><td>465</td><td>29</td></tr><tr><td>30</td><td>0</td><td>0</td><td>7.6</td><td>6,260</td><td></td><td>123</td><td>473</td><td>487.</td><td>438</td><td>487</td><td>445</td><td>26</td></tr><tr><td>31</td><td>0</td><td></td><td>17</td><td>3,130</td><td></td><td>123</td><td></td><td>515</td><td></td><td>508</td><td>438</td><td></td></tr><tr><td>TOTAL</td><td>152.24</td><td>73.09</td><td>171.6</td><td>111,600</td><td>102,620</td><td>34,653</td><td>9,287</td><td>14,476</td><td>13,652</td><td>14,612</td><td>14,027</td><td>3,378</td></tr><tr><td>MEAN</td><td>4.91</td><td>2.44</td><td>5.54</td><td>3,600</td><td>3,665</td><td>1,118</td><td>310</td><td>467</td><td>455</td><td>471</td><td>452</td><td>113</td></tr><tr><td>MAX</td><td>21</td><td>9.2</td><td>47</td><td>9,930</td><td>5,130</td><td>4,550</td><td>508</td><td>522</td><td>571</td><td>508</td><td>520</td><td>438</td></tr><tr><td>MIN</td><td>0</td><td>0</td><td>0</td><td>23</td><td>1,360</td><td>123</td><td>111</td><td>424</td><td>316</td><td>436</td><td>374</td><td>22</td></tr><tr><td>AC-FT</td><td>302</td><td>145</td><td>340</td><td>221,400</td><td>203,500</td><td>68,730</td><td>18,420</td><td>28,710</td><td>27,080</td><td>28,980</td><td>27,820</td><td>6,700</td></tr><tr><td>CAL YR</td><td>1968 TOTAL</td><td>83,726.35</td><td></td><td>MEAN 229</td><td>MAX</td><td>9,020</td><td>MIN 0</td><td>AC-FT</td><td>166,100</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969 TOTAL</td><td>318,701.93</td><td></td><td>MEAN 873</td><td>MAX</td><td>9,930</td><td>MIN 0</td><td>AC-FT</td><td>632,100</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07993378710894328,
+                            "top": 0.3379503992621248,
+                            "width": 0.873345015008928,
+                            "height": 0.4417887343523039,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>3.2</td><td>0</td><td>0</td><td>24</td><td>2,360</td><td>4,550</td><td>123</td><td>480</td><td>473</td><td>438</td><td>487</td><td>438</td></tr><tr><td>2</td><td>.89</td><td>0</td><td>0</td><td>27</td><td>2,230</td><td>4,520</td><td>119</td><td>480</td><td>473</td><td>436</td><td>459</td><td>398</td></tr><tr><td>3</td><td>.17</td><td>0</td><td>0</td><td>28</td><td>2,090</td><td>4,460</td><td>111</td><td>473</td><td>473</td><td>436</td><td>466</td><td>284</td></tr><tr><td>4</td><td>1.1</td><td>1.1</td><td>0</td><td>27</td><td>1,570</td><td>3,890</td><td>111</td><td>466</td><td>501</td><td>455</td><td>417</td><td>246</td></tr><tr><td>5</td><td>1.5</td><td>4.0</td><td>0</td><td>27</td><td>1,360</td><td>1,970</td><td>113</td><td>459</td><td>316</td><td>470</td><td>374</td><td>230</td></tr><tr><td>6</td><td>3.8</td><td>4.8</td><td>0</td><td>27</td><td>1,730</td><td>1,210</td><td>119</td><td>452</td><td>417</td><td>470</td><td>386</td><td>228</td></tr><tr><td>7</td><td>7.2</td><td>3.6</td><td>0</td><td>26</td><td>2,240</td><td>1,060</td><td>119</td><td>452</td><td>473</td><td>464</td><td>400</td><td>225</td></tr><tr><td>8</td><td>3.2</td><td>2.6</td><td>0</td><td>27</td><td>2,460</td><td>1,030</td><td>119</td><td>459</td><td>459</td><td>459</td><td>410</td><td>218</td></tr><tr><td>9</td><td>.52</td><td>1.3</td><td>0</td><td>23</td><td>2,480</td><td>1,010</td><td>119</td><td>480</td><td>501</td><td>487</td><td>415</td><td>160</td></tr><tr><td>10</td><td>.02</td><td>1.2</td><td>0</td><td>23</td><td>2,520</td><td>977</td><td>119</td><td>473</td><td>536</td><td>487</td><td>435</td><td>112</td></tr><tr><td>11</td><td>0</td><td>1.1</td><td>0</td><td>24</td><td>3,220</td><td>977</td><td>119</td><td>487</td><td>543</td><td>459</td><td>480</td><td>81</td></tr><tr><td>12</td><td>0</td><td>.82</td><td>0</td><td>57</td><td>3,850</td><td>928</td><td>119</td><td>473</td><td>529</td><td>487</td><td>510</td><td>55</td></tr><tr><td>13</td><td>9.8</td><td>.70</td><td>0</td><td>1,170</td><td>4,280</td><td>816</td><td>119</td><td>452</td><td>571</td><td>508</td><td>480</td><td>62</td></tr><tr><td>14</td><td>21</td><td>1.5</td><td>0</td><td>4,860</td><td>4,960</td><td>823</td><td>234</td><td>454</td><td>487</td><td>473</td><td>466</td><td>67</td></tr><tr><td>15</td><td>18</td><td>9.2</td><td>0</td><td>4,700</td><td>5,130</td><td>816</td><td>438</td><td>424</td><td>466</td><td>466</td><td>459</td><td>46</td></tr><tr><td>16</td><td>18</td><td>6.8</td><td>0</td><td>4,700</td><td>4,950</td><td>809</td><td>445</td><td>522</td><td>431</td><td>459</td><td>445</td><td>49</td></tr><tr><td>17</td><td>15</td><td>4.0</td><td>0</td><td>4,780</td><td>4,910</td><td>837</td><td>445</td><td>473</td><td>404</td><td>445</td><td>410</td><td>49</td></tr><tr><td>18</td><td>9.6</td><td>6.5</td><td>0</td><td>3,990</td><td>4,840</td><td>753</td><td>445</td><td>459</td><td>404</td><td>473</td><td>417</td><td>36</td></tr><tr><td>19</td><td>8.8</td><td>6.5</td><td>0</td><td>4,020</td><td>4,750</td><td>571</td><td>452</td><td>438</td><td>438</td><td>480</td><td>473</td><td>43</td></tr><tr><td>20</td><td>9.6</td><td>4.3</td><td>0</td><td>4,910</td><td>4,670</td><td>571</td><td>452</td><td>431</td><td>438</td><td>473</td><td>431</td><td>46</td></tr><tr><td>21</td><td>6.8</td><td>3.0</td><td>0</td><td>8,430</td><td>4,540</td><td>564</td><td>445</td><td>452</td><td>438</td><td>487</td><td>438</td><td>49</td></tr><tr><td>22</td><td>3.4</td><td>2.6</td><td>0</td><td>9,930</td><td>4,520</td><td>296</td><td>478</td><td>431</td><td>452</td><td>487</td><td>452</td><td>40</td></tr><tr><td>23</td><td>3.8</td><td>2.6</td><td>0</td><td>9,460</td><td>4,490</td><td>178</td><td>501</td><td>445</td><td>452</td><td>494</td><td>473</td><td>23</td></tr><tr><td>24</td><td>4.0</td><td>2.4</td><td>15</td><td>9,230</td><td>4,460</td><td>150</td><td>508</td><td>452</td><td>431</td><td>445</td><td>473</td><td>22</td></tr><tr><td>25</td><td>1.7</td><td>1.1</td><td>47</td><td>7,350</td><td>4,250</td><td>136</td><td>508</td><td>466</td><td>424</td><td>459</td><td>480</td><td>29</td></tr><tr><td>26</td><td>.64</td><td>.52</td><td>37</td><td>7,260</td><td>4,280</td><td>130</td><td>494</td><td>466</td><td>445</td><td>466</td><td>505</td><td>30</td></tr><tr><td>27</td><td>.40</td><td>.40</td><td>23</td><td>7,350</td><td>4,680</td><td>126</td><td>487</td><td>494</td><td>410</td><td>473</td><td>518</td><td>29</td></tr><tr><td>28</td><td>.10</td><td>.30</td><td>15</td><td>4,030</td><td>4,800</td><td>126</td><td>480</td><td>473</td><td>398</td><td>494</td><td>520</td><td>28</td></tr><tr><td>29</td><td>0</td><td>.15</td><td>10</td><td>5,700</td><td></td><td>123</td><td>473</td><td>508</td><td>431</td><td>487</td><td>465</td><td>29</td></tr><tr><td>30</td><td>0</td><td>0</td><td>7.6</td><td>6,260</td><td></td><td>123</td><td>473</td><td>487.</td><td>438</td><td>487</td><td>445</td><td>26</td></tr><tr><td>31</td><td>0</td><td></td><td>17</td><td>3,130</td><td></td><td>123</td><td></td><td>515</td><td></td><td>508</td><td>438</td><td></td></tr><tr><td>TOTAL</td><td>152.24</td><td>73.09</td><td>171.6</td><td>111,600</td><td>102,620</td><td>34,653</td><td>9,287</td><td>14,476</td><td>13,652</td><td>14,612</td><td>14,027</td><td>3,378</td></tr><tr><td>MEAN</td><td>4.91</td><td>2.44</td><td>5.54</td><td>3,600</td><td>3,665</td><td>1,118</td><td>310</td><td>467</td><td>455</td><td>471</td><td>452</td><td>113</td></tr><tr><td>MAX</td><td>21</td><td>9.2</td><td>47</td><td>9,930</td><td>5,130</td><td>4,550</td><td>508</td><td>522</td><td>571</td><td>508</td><td>520</td><td>438</td></tr><tr><td>MIN</td><td>0</td><td>0</td><td>0</td><td>23</td><td>1,360</td><td>123</td><td>111</td><td>424</td><td>316</td><td>436</td><td>374</td><td>22</td></tr><tr><td>AC-FT</td><td>302</td><td>145</td><td>340</td><td>221,400</td><td>203,500</td><td>68,730</td><td>18,420</td><td>28,710</td><td>27,080</td><td>28,980</td><td>27,820</td><td>6,700</td></tr><tr><td>CAL YR</td><td>1968 TOTAL</td><td>83,726.35</td><td></td><td>MEAN 229</td><td>MAX</td><td>9,020</td><td>MIN 0</td><td>AC-FT</td><td>166,100</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969 TOTAL</td><td>318,701.93</td><td></td><td>MEAN 873</td><td>MAX</td><td>9,930</td><td>MIN 0</td><td>AC-FT</td><td>632,100</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,48 @@
+,ID,PAGE_NUMBER,LATITUDE,LONGITUDE,TOWNSHIPS_RANGES_SECTIONS,WATERSOURCE_NAME,LOCATION,COUNTY,DATE_OF_DATA,RESOLUTION,UNITS_USED,WATER_TYPE
+0,56394,282,NA,NA,NA,NA,Point of Interest,NA,01/01/1975-31/12/2031,Yearly,Accrual Footprint (AC-FT),Groundwater well
+1,56394,282,NA,NA,NA,NA,Point of Interest,NA,01/01/1975-31/12/2031,Yearly,Calendar Year (CAL YR),Groundwater well
+2,56394,282,NA,NA,NA,NA,Point of Interest,NA,01/01/1975-31/12/2031,Yearly,"Mean, Max, Min (computed values)",Groundwater well
+3,2846,29,NA,NA,NA,Whitewater River,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+4,2846,29,NA,NA,NA,San Gorgonio Pass subbasin,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+5,2846,29,NA,NA,NA,Snow Creek,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+6,2846,29,NA,NA,NA,Falls Creek,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+7,2846,29,NA,NA,NA,Chino Canyon,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+8,2846,29,NA,NA,NA,Tahquitz Creek,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+9,2846,29,NA,NA,NA,Palm Canyon,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+10,2846,29,NA,NA,NA,Deep Creek (Palm Desert),Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+11,2846,29,NA,NA,NA,Miscellaneous,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+12,2846,29,NA,NA,NA,Total,Palm Desert,Riverside County,01/01/1948-12/31/1967,Yearly,Acre-feet,Stream discharge
+13,38797,8,NA,NA,NA,NA,NA,NA,DD/MM/YYYY-DD/MM/YYYY,NA,NA,Other (Choose a WATER_TYPE that best describes the data)
+14,38797,8,NA,NA,NA,NA,NA,NA,DD/MM/YYYY-DD/MM/YYYY,NA,NA,Other (Choose a WATER_TYPE that best describes the data)
+15,38797,8,NA,NA,NA,NA,NA,NA,DD/MM/YYYY-DD/MM/YYYY,NA,NA,Other (Choose a WATER_TYPE that best describes the data)
+16,53419,29,38.5000,-123.0000,T 22 N/S R 14 E/W S 1/4,Waring Creek Spring,"Waring, CA",Mendocino County,01/01/1980-12/31/1990,Yearly,gpm,Groundwater well
+17,53419,29,38.5000,-123.0000,T 22 N/S R 14 E/W S 1/4,Waring Creek Spring,"Waring, CA",Mendocino County,01/01/1980-12/31/1990,Yearly,gpm,Groundwater well
+18,53419,29,38.5000,-123.0000,T 22 N/S R 14 E/W S 1/4,Waring Creek Spring,"Waring, CA",Mendocino County,01/01/1980-12/31/1990,Yearly,gpm,Groundwater well
+19,3067,268,NA,NA,NA,NA,Point of Interest,NA,1955-01-01-1956-12-31,yearly,acre-foot,Groundwater recharge
+20,3067,268,NA,NA,NA,NA,Point of Interest,NA,1955-01-01-1956-12-31,yearly,acre-foot,Groundwater recharge
+21,3067,268,NA,NA,NA,NA,Point of Interest,NA,1955-01-01-1956-12-31,yearly,acre-foot,Groundwater recharge
+22,10372,13,NA,"T 30 S., R 27 E.","T 30 S., R 27 E.",Mount Diablo,Mount Diablo,NA,01/01/1975-31/12/1977,yearly,Acre-feet,Groundwater well
+23,10372,13,NA,"T 30 S., R 27 E.","T 30 S., R 27 E.",Mount Diablo,Mount Diablo,NA,01/01/1975-31/12/1977,yearly,Acre-feet,Groundwater well
+24,10372,13,NA,"T 11 & 12 N., R 18 W.","Tps. 11 & 12 N., 18 W.",San Bernardino,San Bernardino,NA,01/01/1975-31/12/1977,yearly,Acre-feet,Groundwater well
+25,48176,27,NA,NA,NA,NA,"""Pajaro Valley""",California,01/01/1963-12/31/1969,Yearly,"""acre-feet""",Irrigation
+26,48176,27,NA,NA,NA,NA,"""Pajaro Valley""",California,01/01/1963-12/31/1969,Yearly,"""acre-feet""",Irrigation
+27,48176,27,NA,NA,NA,NA,"""Pajaro Valley""",California,01/01/1963-12/31/1969,Yearly,"""acre-feet""",Irrigation
+28,3067,266,NA,NA,NA,NA,Point of Interest,NA,01/01/0001-12/31/9999,Monthly,NA,Groundwater recharge
+29,3067,266,NA,NA,NA,NA,Point of Interest,NA,01/01/0001-12/31/9999,Monthly,NA,Groundwater recharge
+30,3067,266,NA,NA,NA,NA,Point of Interest,NA,01/01/0001-12/31/9999,Monthly,NA,Groundwater recharge
+31,28950,19,NA,NA,NA,NA,NA,NA,DD/MM/YYYY-DD/MM/YYYY,NA,NA,Other (Choose a WATER_TYPE that best describes the data)
+32,28950,19,NA,NA,NA,NA,NA,NA,DD/MM/YYYY-DD/MM/YYYY,NA,NA,Other (Choose a WATER_TYPE that best describes the data)
+33,28950,19,NA,NA,NA,NA,NA,NA,DD/MM/YYYY-DD/MM/YYYY,NA,NA,Other (Choose a WATER_TYPE that best describes the data)
+34,25076,28,-34.9845,-118.3333,N 1/4 SW SE/SE 15/16,Erskine Creek near Isabella,Erskine Creek near Isabella,,01/10/1910-09/30/1926,monthly,inches,Stream discharge
+35,25076,28,-35.2667,-118.5,N 1/4 SW SE/SE 15/16 R 3/4 E/W,Basin Creek near Havilah,Basin Creek near Havilah,,01/10/1910-09/30/1914,monthly,inches,Stream discharge
+36,25076,28,-34.6333,-118.1667,N 1/4 SW SE/SE 15/16 R 3/4 E/W S NW/SW/NE/SE 1/2,Tejon House Creek at Tejon ranch house,Tejon House Creek at Tejon ranch house,,01/10/1894-09/30/1926,monthly,inches,Stream discharge
+37,25076,32,36.5522,-119.2333,T 0 N/S R 1 E/W S 0 NE/SE 0/1,Kaweah River at McKay Point,Lemon Cove,Unspecified,01/1902-12/1927,Monthly,NA,Stream discharge
+38,25076,32,36.5522,-119.2333,T 0 N/S R 1 E/W S 0 NE/SE 0/1,Kaweah River at McKay Point,Lemon Cove,Unspecified,01/1902-12/1927,Monthly,NA,Stream discharge
+39,25076,32,36.5522,-119.2333,T 0 N/S R 1 E/W S 0 NE/SE 0/1,Kaweah River at McKay Point,Lemon Cove,Unspecified,01/1902-12/1927,Monthly,NA,Stream discharge
+40,2846,46,NA,NA,NA,Desert Hot Springs,Desert Hot Springs,NA,NA-NA,NA,acre-feet,Reservoir
+41,2846,46,NA,NA,NA,Mission Creek,Mission Creek,NA,NA-NA,NA,acre-feet,Reservoir
+42,2846,46,NA,NA,NA,Garnet Hill,Garnet Hill,NA,NA-NA,NA,acre-feet,Reservoir
+43,2846,46,NA,NA,NA,Whitewater River,Whitewater River,NA,NA-NA,NA,acre-feet,Reservoir
+44,56394,254,NA,NA,NA,NA,NA,NA,01/10/2022-30/09/2023,daily,NA,Groundwater well
+45,56394,254,NA,NA,NA,NA,NA,NA,01/10/2022-30/09/2023,daily,NA,Groundwater well
+46,56394,254,NA,NA,NA,NA,NA,NA,01/10/2022-30/09/2023,daily,NA,Groundwater well

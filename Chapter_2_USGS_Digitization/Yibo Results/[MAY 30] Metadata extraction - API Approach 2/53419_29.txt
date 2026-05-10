@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "Watersource_Name": "Spring Pinches Sulphur",
+        "County": "MENDOCINO",
+        "Townships_Ranges_Sections": "21N/15W -1R,M 39°41'45\"N,123°28'46\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 39.695833,
+        "Longitude": -123.479444,
+        "Dates_of_Recording": "9-29-66 to 9-29-66",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Mud Springs Valley (Jackson Springs) Branscomb",
+        "County": "MENDOCINO",
+        "Townships_Ranges_Sections": "21N/15W -19M,M 39°39'25\"N,123°35'15\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 39.656944,
+        "Longitude": -123.5875,
+        "Dates_of_Recording": "9-29-66 to 9-29-66",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Division California Highways of",
+        "County": "MENDOCINO",
+        "Townships_Ranges_Sections": "23N/15W -19L,M 39*49'34\"N,123°34'48\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 39.826111,
+        "Longitude": -123.580000,
+        "Dates_of_Recording": "9-28-66 to 9-28-66",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Spring Stearns Congress F. A.",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "5N/4W -17C,M 38°17'04\"N,122°19'41\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.284444,
+        "Longitude": -122.328056,
+        "Dates_of_Recording": "6-65 to 5-11-65",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Imboden Pete",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "6N/3W -19X,M 38*20'50\"N,122\"14'06\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.347222,
+        "Longitude": -122.235000,
+        "Dates_of_Recording": "5-11-65 to 6-65",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Soda Springs Nape Soda Jacksons Springs Nasser Napa A1",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "6N/4W -2N,M 38*23'23\"N,122°16'39\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.389722,
+        "Longitude": -122.277500,
+        "Dates_of_Recording": "6-65 to 5-11-65",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Springs Vichy Lepori Harris Napa M. E.",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "6N/4W -25E,M 38*20'20\"N,122\"15'33\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.338889,
+        "Longitude": -122.259167,
+        "Dates_of_Recording": "6-65 to 5-11-65",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "State Home California Veterans",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "6N/5W -1L,M 38°23'49\"N,122*22'00\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.396944,
+        "Longitude": -122.366667,
+        "Dates_of_Recording": "6-65 to 5-11-65",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Division California of Highways",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "TN/3W -6E,M 38*29'04\"N,122\"14'29\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.484444,
+        "Longitude": -122.241389,
+        "Dates_of_Recording": "7-65 to 5-11-65",
+        "Water_Type": "Springs"
+    },
+    {
+        "Watersource_Name": "Springs Springs Inc. Camps, Sulphur White California-Nevada White Original Sulphur Methodist",
+        "County": "NAPA",
+        "Townships_Ranges_Sections": "TN/GW -2D,M 38°29'26\"N,122°29'42\"",
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": {
+            "Temperature": "Fahrenheit",
+            "Discharge": "gpm"
+        },
+        "Latitude": 38.490556,
+        "Longitude": -122.494167,
+        "Dates_of_Recording": "5-11-65 to 5-11-65",
+        "Water_Type": "Springs"
+    }
+]
+```

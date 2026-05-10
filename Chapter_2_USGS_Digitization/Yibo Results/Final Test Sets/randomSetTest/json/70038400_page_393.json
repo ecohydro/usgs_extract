@@ -1,0 +1,78 @@
+{
+    "job_id": "f403a6ab-8c4b-4bcf-be3d-3c6a359b8665",
+    "duration": 3.3066940307617188,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/6a13a12d-8082-414f-85e8-4e014302bc72?AWSAccessKeyId=ASIA2UOK6OVBKRNAUZAP&Signature=HWkjtUafwvQLeaaUl70QFrNuy4k%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJHMEUCIQCu%2FnmJ60z%2BaXu3ay8To%2BhjWUfMVCa9x9Sumbx%2BklDfFQIgJZXWUBP8xxlqqLyNJokwa6K8%2BEj9JzoiJkVm7IeeoSkqiwUIIRAAGgw3MzExMDY5MzIwMzQiDM5v5cC8ka4%2BFUPAWSroBGu4TS%2FcjcXm14g31vD%2BzYUvv%2BhJ5UHHR83d%2FYY03or4bhxD3IV6x5LlWBhkTFg3b66lKhv38uSbQuvIn779jjGBFggHwxeJPnjmUeP0%2FZ%2BliC%2Fg%2BZVqgJ8W1EN3oMUYQnkonxwlNAn24lrLYMDkgxywrC9LB%2BZ6E4TFUvJ%2FDDiAnGOW5oXbcRnksnu9j5bpJ4jKeWrcW%2FZql5DlAfBt315ReZWgLvaDLvVlED8J7e2aaIh5Lfr%2B3lfTOQZ%2FJurJpqfj4F5eR%2BxkjXYLRgvl0Aq1WgLZGT8Pzc3dKlI4ummHvlD%2FDr1bAHh5dAcKbWJ8FDsG6%2FnCqyDQr2ff%2FSbH9ARWzGm%2BW6inyVxuB8R%2Bd4UYX%2FBhHWJjnOzpPAk2ed%2Fyh%2FO%2BeFhR3e7UxQuGoJuo6TTNgQYjnBG%2FBjQeqyXxFDd7el7BqOCByfrg4MXH16VlFcVrWG%2FVXz8spkzbYjd4C8ndXaj02M6evqOa68nCsss1LbXHClolkUjOL%2B%2FBJ9tDmYXspujYmBTGY8UWugHYihakVCVBkBVn5Biq%2FIQ0FPFYq%2BAuX4ckTvbLdlnMi3P85gfZ5s%2FHyFWiKEMnVtt1Q4LoQR2qSG1S%2F3j3kVminx8aPLmHyVJZVvIrdVd%2Fv%2B1ZXVEdw3oTHgagtAcI0gKhm6szgZf%2F9D6qO1oG5qd%2B0VCubIuNIt%2FwF4Ox3gg4oYshaOrCb5B3urdq%2FE%2BdowfblnfXPg0kncD7OX%2B77y9WQ32fr0MVATVCPcscS7ADfhR5st9thrEtHamvU%2BX63KMIu7JtGnao2oWkoEiZIA%2B%2BHVnWpdcH3I0GkIUwrPTIugY6mwHJDL344MHttn96LOcKfOVdd2eLz5U0UmekPYI3eXKBL91vtS4uCtP31RiJHJixpAuNcMeoFsmJoqnOSqfvgs8e1X2q79FWsnFO0bwXUFPK9lp%2Fu5EP9orSzfcwtqP31xOausMloO2j8PtL5R6ZvUWcSussRVdiY7hUL43OhW0txBpHPz0AIkugHg9fN8deI8bv7W3yIlke743TpA%3D%3D&Expires=1733446431",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# EEL RIVER BASIN--Continued\n\n# 11-4739. MIDDLE FORK EEL RIVER AT DOS RIOS, --Continued\n\nParticle-size analyses of suspended sediment, water year October 1965 to September 1966 (Methods of analysis: B, bottom withdrawal tube; C, chemically dispersed; D, decantation; N, in native water; P, pipet; S, sieve; V, visual accumulation tube; W, in distilled water)",
+                "embed": "# EEL RIVER BASIN--Continued\n\n# 11-4739. MIDDLE FORK EEL RIVER AT DOS RIOS, --Continued\n\nParticle-size analyses of suspended sediment, water year October 1965 to September 1966 (Methods of analysis: B, bottom withdrawal tube; C, chemically dispersed; D, decantation; N, in native water; P, pipet; S, sieve; V, visual accumulation tube; W, in distilled water)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3960556094406725,
+                            "top": 0.3470744680851064,
+                            "width": 0.1267377950210152,
+                            "height": 0.008865248226950355,
+                            "page": 1
+                        },
+                        "content": "EEL RIVER BASIN--Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.31328806983511154,
+                            "top": 0.3692375886524823,
+                            "width": 0.29615260265114773,
+                            "height": 0.01152482269503546,
+                            "page": 1
+                        },
+                        "content": "11-4739. MIDDLE FORK EEL RIVER AT DOS RIOS, --Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.23149046233430326,
+                            "top": 0.3905141843971631,
+                            "width": 0.451988360814743,
+                            "height": 0.03634751773049645,
+                            "page": 1
+                        },
+                        "content": "Particle-size analyses of suspended sediment, water year October 1965 to September 1966 (Methods of analysis: B, bottom withdrawal tube; C, chemically dispersed; D, decantation; N, in native water; P, pipet; S, sieve; V, visual accumulation tube; W, in distilled water)",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-4739. MIDDLE FORK EEL RIVER AT DOS RIOS, --Continued (cont.)\n\n<table><tr><th rowspan=\"3\">Date of collection</th><th rowspan=\"3\">Time\n(24 hour)</th><th rowspan=\"3\">Water\ntem-\nper-\nature\n(\u00b0F)</th><th rowspan=\"3\">Sam-\npling\npoint</th><th rowspan=\"3\">Discharge\n(cfs)</th><th rowspan=\"3\">Sediment\nconcen-\ntration\n(ppm)</th><th rowspan=\"3\">Sediment\ndischarge\n(tons per day)</th><th colspan=\"12\">Suspended sediment</th><th rowspan=\"3\">Method\nof\nanalysis</th></tr><tr><td colspan=\"12\">Percent finer than size indicated, in millimeters</td></tr><tr><td>0.002</td><td>0.004</td><td>0. 008</td><td>0.016</td><td>0. 031</td><td>0.062</td><td>0.125</td><td>0.250</td><td>0. 500</td><td></td><td>1.000</td><td>2. 000</td></tr><tr><td>Nov. 15, 1965</td><td>1540</td><td>54</td><td></td><td>2040</td><td>1500</td><td></td><td>--</td><td>35</td><td>--</td><td>56</td><td>--</td><td>73</td><td>82</td><td>91</td><td>97</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Nov. 18</td><td>0930</td><td>48</td><td></td><td>5600</td><td>5780</td><td></td><td>15</td><td>20</td><td>26</td><td>34</td><td>43</td><td>51</td><td>72</td><td>88</td><td>96</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Dec. 28</td><td>1725</td><td></td><td></td><td>7700</td><td>11500</td><td></td><td>17</td><td>23</td><td>34</td><td>43</td><td>52</td><td>59</td><td>77</td><td>90</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 4, 1966</td><td>1500</td><td>45</td><td></td><td>43800</td><td>7730</td><td></td><td>--</td><td>32</td><td></td><td>59</td><td></td><td>81</td><td>86</td><td>94</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 4</td><td>1630</td><td>44</td><td></td><td>50500</td><td>11600</td><td></td><td></td><td>26</td><td></td><td>40</td><td></td><td>58</td><td>75</td><td>90</td><td>99</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 31</td><td>1630</td><td>41</td><td></td><td>2000</td><td>496</td><td></td><td></td><td></td><td></td><td></td><td></td><td>56</td><td>64</td><td>76</td><td>93</td><td></td><td>100</td><td></td><td>V</td></tr><tr><td>Mar. 2</td><td>1415</td><td>46</td><td></td><td>1400</td><td>122</td><td></td><td></td><td></td><td></td><td></td><td></td><td>81</td><td>83</td><td>90</td><td>100</td><td></td><td></td><td></td><td>V</td></tr><tr><td>Apr. 6</td><td>1230</td><td>53</td><td></td><td>4010</td><td>1330</td><td></td><td>21</td><td>30</td><td>41</td><td>50</td><td>62</td><td>70</td><td>82</td><td>91</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Apr. 20</td><td>1230</td><td>47</td><td></td><td>2220</td><td>439</td><td></td><td></td><td></td><td></td><td></td><td></td><td>68</td><td>77</td><td>87</td><td>98</td><td></td><td>100</td><td></td><td>V</td></tr><tr><td>May 10</td><td>1545</td><td>60</td><td></td><td>1220</td><td>191</td><td></td><td></td><td></td><td></td><td></td><td></td><td>58</td><td>60</td><td>66</td><td>85</td><td></td><td>100</td><td></td><td>V</td></tr></table>",
+                "embed": "# 11-4739. MIDDLE FORK EEL RIVER AT DOS RIOS, --Continued (cont.)\n\n<table><tr><th rowspan=\"3\">Date of collection</th><th rowspan=\"3\">Time\n(24 hour)</th><th rowspan=\"3\">Water\ntem-\nper-\nature\n(\u00b0F)</th><th rowspan=\"3\">Sam-\npling\npoint</th><th rowspan=\"3\">Discharge\n(cfs)</th><th rowspan=\"3\">Sediment\nconcen-\ntration\n(ppm)</th><th rowspan=\"3\">Sediment\ndischarge\n(tons per day)</th><th colspan=\"12\">Suspended sediment</th><th rowspan=\"3\">Method\nof\nanalysis</th></tr><tr><td colspan=\"12\">Percent finer than size indicated, in millimeters</td></tr><tr><td>0.002</td><td>0.004</td><td>0. 008</td><td>0.016</td><td>0. 031</td><td>0.062</td><td>0.125</td><td>0.250</td><td>0. 500</td><td></td><td>1.000</td><td>2. 000</td></tr><tr><td>Nov. 15, 1965</td><td>1540</td><td>54</td><td></td><td>2040</td><td>1500</td><td></td><td>--</td><td>35</td><td>--</td><td>56</td><td>--</td><td>73</td><td>82</td><td>91</td><td>97</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Nov. 18</td><td>0930</td><td>48</td><td></td><td>5600</td><td>5780</td><td></td><td>15</td><td>20</td><td>26</td><td>34</td><td>43</td><td>51</td><td>72</td><td>88</td><td>96</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Dec. 28</td><td>1725</td><td></td><td></td><td>7700</td><td>11500</td><td></td><td>17</td><td>23</td><td>34</td><td>43</td><td>52</td><td>59</td><td>77</td><td>90</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 4, 1966</td><td>1500</td><td>45</td><td></td><td>43800</td><td>7730</td><td></td><td>--</td><td>32</td><td></td><td>59</td><td></td><td>81</td><td>86</td><td>94</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 4</td><td>1630</td><td>44</td><td></td><td>50500</td><td>11600</td><td></td><td></td><td>26</td><td></td><td>40</td><td></td><td>58</td><td>75</td><td>90</td><td>99</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 31</td><td>1630</td><td>41</td><td></td><td>2000</td><td>496</td><td></td><td></td><td></td><td></td><td></td><td></td><td>56</td><td>64</td><td>76</td><td>93</td><td></td><td>100</td><td></td><td>V</td></tr><tr><td>Mar. 2</td><td>1415</td><td>46</td><td></td><td>1400</td><td>122</td><td></td><td></td><td></td><td></td><td></td><td></td><td>81</td><td>83</td><td>90</td><td>100</td><td></td><td></td><td></td><td>V</td></tr><tr><td>Apr. 6</td><td>1230</td><td>53</td><td></td><td>4010</td><td>1330</td><td></td><td>21</td><td>30</td><td>41</td><td>50</td><td>62</td><td>70</td><td>82</td><td>91</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Apr. 20</td><td>1230</td><td>47</td><td></td><td>2220</td><td>439</td><td></td><td></td><td></td><td></td><td></td><td></td><td>68</td><td>77</td><td>87</td><td>98</td><td></td><td>100</td><td></td><td>V</td></tr><tr><td>May 10</td><td>1545</td><td>60</td><td></td><td>1220</td><td>191</td><td></td><td></td><td></td><td></td><td></td><td></td><td>58</td><td>60</td><td>66</td><td>85</td><td></td><td>100</td><td></td><td>V</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0751652931881845,
+                            "top": 0.42546546881925973,
+                            "width": 0.781064926132661,
+                            "height": 0.2057076853217808,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"3\">Date of collection</th><th rowspan=\"3\">Time\n(24 hour)</th><th rowspan=\"3\">Water\ntem-\nper-\nature\n(\u00b0F)</th><th rowspan=\"3\">Sam-\npling\npoint</th><th rowspan=\"3\">Discharge\n(cfs)</th><th rowspan=\"3\">Sediment\nconcen-\ntration\n(ppm)</th><th rowspan=\"3\">Sediment\ndischarge\n(tons per day)</th><th colspan=\"12\">Suspended sediment</th><th rowspan=\"3\">Method\nof\nanalysis</th></tr><tr><td colspan=\"12\">Percent finer than size indicated, in millimeters</td></tr><tr><td>0.002</td><td>0.004</td><td>0. 008</td><td>0.016</td><td>0. 031</td><td>0.062</td><td>0.125</td><td>0.250</td><td>0. 500</td><td></td><td>1.000</td><td>2. 000</td></tr><tr><td>Nov. 15, 1965</td><td>1540</td><td>54</td><td></td><td>2040</td><td>1500</td><td></td><td>--</td><td>35</td><td>--</td><td>56</td><td>--</td><td>73</td><td>82</td><td>91</td><td>97</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Nov. 18</td><td>0930</td><td>48</td><td></td><td>5600</td><td>5780</td><td></td><td>15</td><td>20</td><td>26</td><td>34</td><td>43</td><td>51</td><td>72</td><td>88</td><td>96</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Dec. 28</td><td>1725</td><td></td><td></td><td>7700</td><td>11500</td><td></td><td>17</td><td>23</td><td>34</td><td>43</td><td>52</td><td>59</td><td>77</td><td>90</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 4, 1966</td><td>1500</td><td>45</td><td></td><td>43800</td><td>7730</td><td></td><td>--</td><td>32</td><td></td><td>59</td><td></td><td>81</td><td>86</td><td>94</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 4</td><td>1630</td><td>44</td><td></td><td>50500</td><td>11600</td><td></td><td></td><td>26</td><td></td><td>40</td><td></td><td>58</td><td>75</td><td>90</td><td>99</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Jan. 31</td><td>1630</td><td>41</td><td></td><td>2000</td><td>496</td><td></td><td></td><td></td><td></td><td></td><td></td><td>56</td><td>64</td><td>76</td><td>93</td><td></td><td>100</td><td></td><td>V</td></tr><tr><td>Mar. 2</td><td>1415</td><td>46</td><td></td><td>1400</td><td>122</td><td></td><td></td><td></td><td></td><td></td><td></td><td>81</td><td>83</td><td>90</td><td>100</td><td></td><td></td><td></td><td>V</td></tr><tr><td>Apr. 6</td><td>1230</td><td>53</td><td></td><td>4010</td><td>1330</td><td></td><td>21</td><td>30</td><td>41</td><td>50</td><td>62</td><td>70</td><td>82</td><td>91</td><td>98</td><td></td><td>100</td><td></td><td>VPWC</td></tr><tr><td>Apr. 20</td><td>1230</td><td>47</td><td></td><td>2220</td><td>439</td><td></td><td></td><td></td><td></td><td></td><td></td><td>68</td><td>77</td><td>87</td><td>98</td><td></td><td>100</td><td></td><td>V</td></tr><tr><td>May 10</td><td>1545</td><td>60</td><td></td><td>1220</td><td>191</td><td></td><td></td><td></td><td></td><td></td><td></td><td>58</td><td>60</td><td>66</td><td>85</td><td></td><td>100</td><td></td><td>V</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

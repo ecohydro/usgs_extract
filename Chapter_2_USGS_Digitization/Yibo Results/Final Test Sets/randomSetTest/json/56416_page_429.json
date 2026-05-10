@@ -1,0 +1,130 @@
+{
+    "job_id": "a85a72b8-eb2f-4b84-9b57-0d0b1d6219b1",
+    "duration": 5.757531642913818,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/3d5ea11b-53d8-4ab9-9d2d-adfa4f0b5f29?AWSAccessKeyId=ASIA2UOK6OVBCP3XJW7A&Signature=DX6pBD%2BXSRi0%2Bo5cIWvbpHF0JWI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCBu5zKmNP%2FChV9gSSdxpk%2FwQhBczPjW5d%2FHKYQPaqMIAIhAIz4PyKKvjwn3AK%2FWOYgK6Hu2NRi67RFVVbXFJhbhR3KKpQFCLv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzMxMTA2OTMyMDM0IgxImeTiKNqvKSLZkpAq6AQo2LrwPi3%2FLdu8T9yUx0Q1jDalSGhb2UgFEN5uecj0CuSWvzCqirxUgO0D5DSyYPSovGqI6I%2F7uIY8W%2BzYYITnzq2lPVn0jD%2B1WNIwVLvBmc%2BTqI2L%2BQWVMTik9YpaEPC5JdovO9esDLL6qvmiVB0Bqnrbt6fnZ5kJLTdWb7XnsNYY3NGUleKnNc898XvzncOXMICSyKTJ2YwrfNTJzrG%2FV%2FTTFtg7TtxsIU6Pj91y6jOej1RsgKtk5XgJmsdbMkMAhll9Sgc2XrrLqcKuzv8ygJfeTz25qtPXQQ6dJlnz%2BQHNtcGOLrU9BCdvwFFRvVwJKEX5kikjkt3z2mDYCO%2BUNz1kq6OH1bUmqq9MftNHFVm7pXGiiwad2DyRoujXp1esCkhY9fQ4AI%2F9zDRTfRhNsR2vkOP5sIWtQq9uzUIdtkDOci2tmb1KXNpeopQeBfRk2Fu5vxMh%2BG%2FFm5umt7HxRKirKrGqcw8AlCu%2ByLG62vFrWMWp2%2FhdA2wy8PoTWuf5xnYmMzZmDE5XSVfNEPNrR5IW%2BI1s9e8d7xZvdu0KB8Omuked254qdZnlCaPx9rusa4lkL5SnlGmnh3syZgCgIuc0oi5w1xjyMJ1OIMB3cGvB9JIscFfsW87BtUrxlAkyJ1vCqm1jIDZAiFYwNGrDskJAJ6k%2By888TzHEkpu23bA76vthYQrNK0a%2FQ3rHVb51U6Zd0Yxc1jQJ4dOotX6gr8wuCyLNFtDMRN9kTthXBRcV2u9P19kN9pyhhqm2RIL2WWs%2FjX5%2FbvAXGGykHlGFw6Mljg8qg%2BLiSEHMx2RVSwHHVMsj%2FGyeMMb4iLwGOpoBSwoqi1s4dADnRqM%2FFkwTlr3wj2J6oyH9gonJ19KMGxBkQE4benL1YWw4wQEcFdYgPU%2BT85wBU0tmSnyGMwyR6tmaqEJ83LV3Dd%2FAr7pHEgJwIk%2BprH7GQnfTNE4lCXDV%2Fp9Hto81o3z56%2FikVWzi%2BXPMhaVtNhUE7xeor%2Fk0mgegEB8TWrLI0c6X7gU4ypkEtSP%2FtQRMTI%2FNZg%3D%3D&Expires=1736594211",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "11447500 SACRAMENTO RIVER AT SACRAMENTO, CALIF.--Continued",
+                "embed": "11447500 SACRAMENTO RIVER AT SACRAMENTO, CALIF.--Continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.4653333333333333,
+                            "top": 0.08060861120103593,
+                            "width": 0.15022222222222223,
+                            "height": 0.00712204596956944,
+                            "page": 1
+                        },
+                        "content": "SACRAMENTO RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.908,
+                            "top": 0.08157979928779541,
+                            "width": 0.02,
+                            "height": 0.006798316607316284,
+                            "page": 1
+                        },
+                        "content": "413",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3497777777777778,
+                            "top": 0.09517643250242797,
+                            "width": 0.40044444444444444,
+                            "height": 0.01068306895435416,
+                            "page": 1
+                        },
+                        "content": "11447500 SACRAMENTO RIVER AT SACRAMENTO, CALIF.--Continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973\n\n<table><tr><th>DATE</th><th>TIME</th><th>TEMPER-\nATURE\n(DEG C)</th><th>SUS-\nPENDED\nSEDI-\nMENT\n(MG/L)</th><th>TUR-\nBID-\nITY\n(JTU)</th><th>DATE</th><th>TIME</th><th>TEMPER-\nATURF\n(DEG C)</th><th>SUS-\nPENDED\nSEDI-\nMENT\n(MG/L)</th><th>TUR-\nAID-\nITY\n(JTU)</th></tr><tr><td>JULY</td><td></td><td></td><td></td><td></td><td>AUG</td><td></td><td></td><td></td><td></td></tr><tr><td>05</td><td>1810</td><td>--</td><td>36</td><td>15</td><td>19</td><td>2310</td><td>21.0</td><td>36</td><td>15</td></tr><tr><td>08</td><td>1715</td><td>23.0</td><td>26</td><td>15</td><td>21</td><td>1830</td><td>22.0</td><td>52</td><td>15</td></tr><tr><td>09</td><td>1810</td><td>--</td><td>19</td><td>10</td><td>22</td><td>1805</td><td>--</td><td>51</td><td>15</td></tr><tr><td>11</td><td>1805</td><td>--</td><td>31</td><td>15</td><td>25</td><td>1840</td><td>22.0</td><td>48</td><td>15</td></tr><tr><td>12</td><td>1230</td><td>22.5</td><td>36</td><td>15</td><td>27</td><td>1810</td><td>21.5</td><td>65</td><td>15</td></tr><tr><td>13</td><td>1800</td><td>--</td><td>32</td><td>15</td><td>28</td><td>1810</td><td>21.5</td><td>62</td><td>15</td></tr><tr><td>16</td><td>1245</td><td>21.0</td><td>32</td><td>15</td><td>29</td><td>1740</td><td>22.0</td><td>54</td><td>15</td></tr><tr><td>17</td><td>1810</td><td>22.0</td><td>37</td><td>15</td><td>30</td><td>1315</td><td>--</td><td>50</td><td>15</td></tr><tr><td>18</td><td>2215</td><td>22.0</td><td>30</td><td>10</td><td>31</td><td>1830</td><td>20.5</td><td>56</td><td>15</td></tr><tr><td>21</td><td>1915</td><td>21.5</td><td>52</td><td>15</td><td>SEP.</td><td></td><td></td><td></td><td></td></tr><tr><td>23</td><td>2130</td><td>22.0</td><td>50</td><td>10</td><td>03</td><td>1330</td><td>22.0</td><td>48</td><td>15</td></tr><tr><td>24</td><td>1830</td><td>--</td><td>56</td><td>6</td><td>04</td><td>1800</td><td>20.5</td><td>34</td><td>15</td></tr><tr><td>25</td><td>1645</td><td>--</td><td>52</td><td>10</td><td>05</td><td>1800</td><td>20.5</td><td>36</td><td>15</td></tr><tr><td>26</td><td>2100</td><td>--</td><td>40</td><td>10</td><td>11</td><td>1815</td><td>--</td><td>42</td><td>20</td></tr><tr><td>27</td><td>2015</td><td>--</td><td>33</td><td>10</td><td>12</td><td>2110</td><td>21.0</td><td>38</td><td>20</td></tr><tr><td>2P</td><td>2015</td><td>--</td><td>36</td><td>10</td><td>13</td><td>2210</td><td>21.0</td><td>42</td><td>15</td></tr><tr><td>29</td><td>1930</td><td>--</td><td>36</td><td>15</td><td>14</td><td>2100</td><td>19.5</td><td>40</td><td>20</td></tr><tr><td>31</td><td>1930</td><td>--</td><td>42</td><td>15</td><td>15</td><td>2345</td><td>19.5</td><td>34</td><td>15</td></tr><tr><td>AUG.</td><td></td><td></td><td></td><td></td><td>16</td><td>2130</td><td>18.5</td><td>32</td><td>15</td></tr><tr><td>01</td><td>1900</td><td>--</td><td>40</td><td>15</td><td>18</td><td>2210</td><td>19.0</td><td>42</td><td>20</td></tr><tr><td>02</td><td>1730</td><td>--</td><td>46</td><td>15</td><td>19</td><td>1800</td><td>19.0</td><td>40</td><td>15</td></tr><tr><td>03</td><td>1500</td><td>--</td><td>39</td><td>15</td><td>22</td><td>1530</td><td>18.0</td><td>38</td><td>15</td></tr><tr><td>04</td><td>1630</td><td>--</td><td>44</td><td>15</td><td>23</td><td>2100</td><td>17.5</td><td>38</td><td>15</td></tr><tr><td>05</td><td>2230</td><td>22.0</td><td>34</td><td>15</td><td>24</td><td>2330</td><td>17.5</td><td>34</td><td>15</td></tr><tr><td>06</td><td>2330</td><td>--</td><td>29</td><td>15</td><td>25</td><td>2010</td><td>18.0</td><td>36</td><td>15</td></tr><tr><td>07</td><td>1835</td><td>22.0</td><td>38</td><td>15</td><td>26</td><td>2030</td><td>19.0</td><td>35</td><td>15</td></tr><tr><td>09</td><td>1930</td><td>--</td><td>50</td><td>20</td><td>27</td><td>1040</td><td>18.0</td><td>42</td><td>15</td></tr><tr><td>10</td><td>2315</td><td>20.0</td><td>40</td><td>15</td><td>27</td><td>2045</td><td>--</td><td>31</td><td>15</td></tr><tr><td>12</td><td>1905</td><td>20.5</td><td>44</td><td>15</td><td>28</td><td>1145</td><td>18.0</td><td>40</td><td>10</td></tr><tr><td>13</td><td>1405</td><td>--</td><td>48</td><td>15</td><td>28</td><td>2200</td><td>17.5</td><td>27</td><td>10</td></tr><tr><td>16</td><td>1620</td><td>--</td><td>44</td><td>15</td><td>29</td><td>2200</td><td>17.5</td><td>20</td><td>10</td></tr><tr><td>17</td><td>0810</td><td>20.5</td><td>40</td><td>15</td><td>30</td><td>1900</td><td>17.5</td><td>28</td><td>10</td></tr><tr><td>17</td><td>1255</td><td>--</td><td>39</td><td>15</td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973\n\n<table><tr><th>DATE</th><th>TIME</th><th>TEMPER-\nATURE\n(DEG C)</th><th>SUS-\nPENDED\nSEDI-\nMENT\n(MG/L)</th><th>TUR-\nBID-\nITY\n(JTU)</th><th>DATE</th><th>TIME</th><th>TEMPER-\nATURF\n(DEG C)</th><th>SUS-\nPENDED\nSEDI-\nMENT\n(MG/L)</th><th>TUR-\nAID-\nITY\n(JTU)</th></tr><tr><td>JULY</td><td></td><td></td><td></td><td></td><td>AUG</td><td></td><td></td><td></td><td></td></tr><tr><td>05</td><td>1810</td><td>--</td><td>36</td><td>15</td><td>19</td><td>2310</td><td>21.0</td><td>36</td><td>15</td></tr><tr><td>08</td><td>1715</td><td>23.0</td><td>26</td><td>15</td><td>21</td><td>1830</td><td>22.0</td><td>52</td><td>15</td></tr><tr><td>09</td><td>1810</td><td>--</td><td>19</td><td>10</td><td>22</td><td>1805</td><td>--</td><td>51</td><td>15</td></tr><tr><td>11</td><td>1805</td><td>--</td><td>31</td><td>15</td><td>25</td><td>1840</td><td>22.0</td><td>48</td><td>15</td></tr><tr><td>12</td><td>1230</td><td>22.5</td><td>36</td><td>15</td><td>27</td><td>1810</td><td>21.5</td><td>65</td><td>15</td></tr><tr><td>13</td><td>1800</td><td>--</td><td>32</td><td>15</td><td>28</td><td>1810</td><td>21.5</td><td>62</td><td>15</td></tr><tr><td>16</td><td>1245</td><td>21.0</td><td>32</td><td>15</td><td>29</td><td>1740</td><td>22.0</td><td>54</td><td>15</td></tr><tr><td>17</td><td>1810</td><td>22.0</td><td>37</td><td>15</td><td>30</td><td>1315</td><td>--</td><td>50</td><td>15</td></tr><tr><td>18</td><td>2215</td><td>22.0</td><td>30</td><td>10</td><td>31</td><td>1830</td><td>20.5</td><td>56</td><td>15</td></tr><tr><td>21</td><td>1915</td><td>21.5</td><td>52</td><td>15</td><td>SEP.</td><td></td><td></td><td></td><td></td></tr><tr><td>23</td><td>2130</td><td>22.0</td><td>50</td><td>10</td><td>03</td><td>1330</td><td>22.0</td><td>48</td><td>15</td></tr><tr><td>24</td><td>1830</td><td>--</td><td>56</td><td>6</td><td>04</td><td>1800</td><td>20.5</td><td>34</td><td>15</td></tr><tr><td>25</td><td>1645</td><td>--</td><td>52</td><td>10</td><td>05</td><td>1800</td><td>20.5</td><td>36</td><td>15</td></tr><tr><td>26</td><td>2100</td><td>--</td><td>40</td><td>10</td><td>11</td><td>1815</td><td>--</td><td>42</td><td>20</td></tr><tr><td>27</td><td>2015</td><td>--</td><td>33</td><td>10</td><td>12</td><td>2110</td><td>21.0</td><td>38</td><td>20</td></tr><tr><td>2P</td><td>2015</td><td>--</td><td>36</td><td>10</td><td>13</td><td>2210</td><td>21.0</td><td>42</td><td>15</td></tr><tr><td>29</td><td>1930</td><td>--</td><td>36</td><td>15</td><td>14</td><td>2100</td><td>19.5</td><td>40</td><td>20</td></tr><tr><td>31</td><td>1930</td><td>--</td><td>42</td><td>15</td><td>15</td><td>2345</td><td>19.5</td><td>34</td><td>15</td></tr><tr><td>AUG.</td><td></td><td></td><td></td><td></td><td>16</td><td>2130</td><td>18.5</td><td>32</td><td>15</td></tr><tr><td>01</td><td>1900</td><td>--</td><td>40</td><td>15</td><td>18</td><td>2210</td><td>19.0</td><td>42</td><td>20</td></tr><tr><td>02</td><td>1730</td><td>--</td><td>46</td><td>15</td><td>19</td><td>1800</td><td>19.0</td><td>40</td><td>15</td></tr><tr><td>03</td><td>1500</td><td>--</td><td>39</td><td>15</td><td>22</td><td>1530</td><td>18.0</td><td>38</td><td>15</td></tr><tr><td>04</td><td>1630</td><td>--</td><td>44</td><td>15</td><td>23</td><td>2100</td><td>17.5</td><td>38</td><td>15</td></tr><tr><td>05</td><td>2230</td><td>22.0</td><td>34</td><td>15</td><td>24</td><td>2330</td><td>17.5</td><td>34</td><td>15</td></tr><tr><td>06</td><td>2330</td><td>--</td><td>29</td><td>15</td><td>25</td><td>2010</td><td>18.0</td><td>36</td><td>15</td></tr><tr><td>07</td><td>1835</td><td>22.0</td><td>38</td><td>15</td><td>26</td><td>2030</td><td>19.0</td><td>35</td><td>15</td></tr><tr><td>09</td><td>1930</td><td>--</td><td>50</td><td>20</td><td>27</td><td>1040</td><td>18.0</td><td>42</td><td>15</td></tr><tr><td>10</td><td>2315</td><td>20.0</td><td>40</td><td>15</td><td>27</td><td>2045</td><td>--</td><td>31</td><td>15</td></tr><tr><td>12</td><td>1905</td><td>20.5</td><td>44</td><td>15</td><td>28</td><td>1145</td><td>18.0</td><td>40</td><td>10</td></tr><tr><td>13</td><td>1405</td><td>--</td><td>48</td><td>15</td><td>28</td><td>2200</td><td>17.5</td><td>27</td><td>10</td></tr><tr><td>16</td><td>1620</td><td>--</td><td>44</td><td>15</td><td>29</td><td>2200</td><td>17.5</td><td>20</td><td>10</td></tr><tr><td>17</td><td>0810</td><td>20.5</td><td>40</td><td>15</td><td>30</td><td>1900</td><td>17.5</td><td>28</td><td>10</td></tr><tr><td>17</td><td>1255</td><td>--</td><td>39</td><td>15</td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3151111111111111,
+                            "top": 0.11298154742635157,
+                            "width": 0.47555555555555556,
+                            "height": 0.01877630301068307,
+                            "page": 1
+                        },
+                        "content": "PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.19758550347222223,
+                            "top": 0.1534797073221006,
+                            "width": 0.6989720052083334,
+                            "height": 0.3312522959809506,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>TIME</th><th>TEMPER-\nATURE\n(DEG C)</th><th>SUS-\nPENDED\nSEDI-\nMENT\n(MG/L)</th><th>TUR-\nBID-\nITY\n(JTU)</th><th>DATE</th><th>TIME</th><th>TEMPER-\nATURF\n(DEG C)</th><th>SUS-\nPENDED\nSEDI-\nMENT\n(MG/L)</th><th>TUR-\nAID-\nITY\n(JTU)</th></tr><tr><td>JULY</td><td></td><td></td><td></td><td></td><td>AUG</td><td></td><td></td><td></td><td></td></tr><tr><td>05</td><td>1810</td><td>--</td><td>36</td><td>15</td><td>19</td><td>2310</td><td>21.0</td><td>36</td><td>15</td></tr><tr><td>08</td><td>1715</td><td>23.0</td><td>26</td><td>15</td><td>21</td><td>1830</td><td>22.0</td><td>52</td><td>15</td></tr><tr><td>09</td><td>1810</td><td>--</td><td>19</td><td>10</td><td>22</td><td>1805</td><td>--</td><td>51</td><td>15</td></tr><tr><td>11</td><td>1805</td><td>--</td><td>31</td><td>15</td><td>25</td><td>1840</td><td>22.0</td><td>48</td><td>15</td></tr><tr><td>12</td><td>1230</td><td>22.5</td><td>36</td><td>15</td><td>27</td><td>1810</td><td>21.5</td><td>65</td><td>15</td></tr><tr><td>13</td><td>1800</td><td>--</td><td>32</td><td>15</td><td>28</td><td>1810</td><td>21.5</td><td>62</td><td>15</td></tr><tr><td>16</td><td>1245</td><td>21.0</td><td>32</td><td>15</td><td>29</td><td>1740</td><td>22.0</td><td>54</td><td>15</td></tr><tr><td>17</td><td>1810</td><td>22.0</td><td>37</td><td>15</td><td>30</td><td>1315</td><td>--</td><td>50</td><td>15</td></tr><tr><td>18</td><td>2215</td><td>22.0</td><td>30</td><td>10</td><td>31</td><td>1830</td><td>20.5</td><td>56</td><td>15</td></tr><tr><td>21</td><td>1915</td><td>21.5</td><td>52</td><td>15</td><td>SEP.</td><td></td><td></td><td></td><td></td></tr><tr><td>23</td><td>2130</td><td>22.0</td><td>50</td><td>10</td><td>03</td><td>1330</td><td>22.0</td><td>48</td><td>15</td></tr><tr><td>24</td><td>1830</td><td>--</td><td>56</td><td>6</td><td>04</td><td>1800</td><td>20.5</td><td>34</td><td>15</td></tr><tr><td>25</td><td>1645</td><td>--</td><td>52</td><td>10</td><td>05</td><td>1800</td><td>20.5</td><td>36</td><td>15</td></tr><tr><td>26</td><td>2100</td><td>--</td><td>40</td><td>10</td><td>11</td><td>1815</td><td>--</td><td>42</td><td>20</td></tr><tr><td>27</td><td>2015</td><td>--</td><td>33</td><td>10</td><td>12</td><td>2110</td><td>21.0</td><td>38</td><td>20</td></tr><tr><td>2P</td><td>2015</td><td>--</td><td>36</td><td>10</td><td>13</td><td>2210</td><td>21.0</td><td>42</td><td>15</td></tr><tr><td>29</td><td>1930</td><td>--</td><td>36</td><td>15</td><td>14</td><td>2100</td><td>19.5</td><td>40</td><td>20</td></tr><tr><td>31</td><td>1930</td><td>--</td><td>42</td><td>15</td><td>15</td><td>2345</td><td>19.5</td><td>34</td><td>15</td></tr><tr><td>AUG.</td><td></td><td></td><td></td><td></td><td>16</td><td>2130</td><td>18.5</td><td>32</td><td>15</td></tr><tr><td>01</td><td>1900</td><td>--</td><td>40</td><td>15</td><td>18</td><td>2210</td><td>19.0</td><td>42</td><td>20</td></tr><tr><td>02</td><td>1730</td><td>--</td><td>46</td><td>15</td><td>19</td><td>1800</td><td>19.0</td><td>40</td><td>15</td></tr><tr><td>03</td><td>1500</td><td>--</td><td>39</td><td>15</td><td>22</td><td>1530</td><td>18.0</td><td>38</td><td>15</td></tr><tr><td>04</td><td>1630</td><td>--</td><td>44</td><td>15</td><td>23</td><td>2100</td><td>17.5</td><td>38</td><td>15</td></tr><tr><td>05</td><td>2230</td><td>22.0</td><td>34</td><td>15</td><td>24</td><td>2330</td><td>17.5</td><td>34</td><td>15</td></tr><tr><td>06</td><td>2330</td><td>--</td><td>29</td><td>15</td><td>25</td><td>2010</td><td>18.0</td><td>36</td><td>15</td></tr><tr><td>07</td><td>1835</td><td>22.0</td><td>38</td><td>15</td><td>26</td><td>2030</td><td>19.0</td><td>35</td><td>15</td></tr><tr><td>09</td><td>1930</td><td>--</td><td>50</td><td>20</td><td>27</td><td>1040</td><td>18.0</td><td>42</td><td>15</td></tr><tr><td>10</td><td>2315</td><td>20.0</td><td>40</td><td>15</td><td>27</td><td>2045</td><td>--</td><td>31</td><td>15</td></tr><tr><td>12</td><td>1905</td><td>20.5</td><td>44</td><td>15</td><td>28</td><td>1145</td><td>18.0</td><td>40</td><td>10</td></tr><tr><td>13</td><td>1405</td><td>--</td><td>48</td><td>15</td><td>28</td><td>2200</td><td>17.5</td><td>27</td><td>10</td></tr><tr><td>16</td><td>1620</td><td>--</td><td>44</td><td>15</td><td>29</td><td>2200</td><td>17.5</td><td>20</td><td>10</td></tr><tr><td>17</td><td>0810</td><td>20.5</td><td>40</td><td>15</td><td>30</td><td>1900</td><td>17.5</td><td>28</td><td>10</td></tr><tr><td>17</td><td>1255</td><td>--</td><td>39</td><td>15</td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973 (cont.)\n\nWEIGHT-PERCENT-ORGANIC-MATTER WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973",
+                "embed": "# PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973 (cont.)\n\nWEIGHT-PERCENT-ORGANIC-MATTER WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.31244444444444447,
+                            "top": 0.5742958886370993,
+                            "width": 0.4888888888888889,
+                            "height": 0.009388151505341535,
+                            "page": 1
+                        },
+                        "content": "WEIGHT-PERCENT-ORGANIC-MATTER WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973 (cont.)\n\n<table><tr><th>DATE</th><th>TIME</th><th>WEIGHT-\nPERCENT\nORGANIC\nMATTER</th><th>DATE</th><th>TIME</th><th>WEIGHT-\nPERCENT\nORGANIC\nMATTER</th></tr><tr><td>DEC.</td><td></td><td></td><td>JAN.</td><td></td><td></td></tr><tr><td>20</td><td>0940</td><td>0.44</td><td>25</td><td>1440</td><td>.29</td></tr><tr><td>21</td><td>1400</td><td>1.38</td><td>27</td><td>1330</td><td>1.28</td></tr><tr><td>22</td><td>1130</td><td>1.40</td><td>30</td><td>1540</td><td>.99</td></tr><tr><td>26</td><td>1300</td><td>1.22</td><td>FEB.</td><td></td><td></td></tr><tr><td>JAN.</td><td></td><td></td><td>02</td><td>1435</td><td>.42</td></tr><tr><td>03</td><td>1115</td><td>2.02</td><td>08</td><td>0950</td><td>1.67</td></tr><tr><td>12</td><td>1020</td><td>.97</td><td>11</td><td>1230</td><td>.67</td></tr><tr><td>13</td><td>0910</td><td>1.36</td><td>14</td><td>1525</td><td>.32</td></tr><tr><td>15</td><td>1000</td><td>1.50</td><td>20</td><td>1520</td><td>1.22</td></tr><tr><td>17</td><td>0920</td><td>1.05</td><td>27</td><td>1010</td><td>2.10</td></tr><tr><td>19</td><td>0940</td><td>1.36</td><td>MAR.</td><td></td><td></td></tr><tr><td>20</td><td>1350</td><td>.94</td><td>01</td><td>1355</td><td>3.30</td></tr><tr><td>22</td><td>1435</td><td>.49</td><td>03</td><td>1330</td><td>.30</td></tr><tr><td>23</td><td>1530</td><td>2.10</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# PERIODIC DETERMINATIONS OF SUSPENDED-SEDIMENT CONCENTRATION AND TURBIDITY, WATER YEAR OCTOBER 1972 TO SEPTEMBER 1973 (cont.)\n\n<table><tr><th>DATE</th><th>TIME</th><th>WEIGHT-\nPERCENT\nORGANIC\nMATTER</th><th>DATE</th><th>TIME</th><th>WEIGHT-\nPERCENT\nORGANIC\nMATTER</th></tr><tr><td>DEC.</td><td></td><td></td><td>JAN.</td><td></td><td></td></tr><tr><td>20</td><td>0940</td><td>0.44</td><td>25</td><td>1440</td><td>.29</td></tr><tr><td>21</td><td>1400</td><td>1.38</td><td>27</td><td>1330</td><td>1.28</td></tr><tr><td>22</td><td>1130</td><td>1.40</td><td>30</td><td>1540</td><td>.99</td></tr><tr><td>26</td><td>1300</td><td>1.22</td><td>FEB.</td><td></td><td></td></tr><tr><td>JAN.</td><td></td><td></td><td>02</td><td>1435</td><td>.42</td></tr><tr><td>03</td><td>1115</td><td>2.02</td><td>08</td><td>0950</td><td>1.67</td></tr><tr><td>12</td><td>1020</td><td>.97</td><td>11</td><td>1230</td><td>.67</td></tr><tr><td>13</td><td>0910</td><td>1.36</td><td>14</td><td>1525</td><td>.32</td></tr><tr><td>15</td><td>1000</td><td>1.50</td><td>20</td><td>1520</td><td>1.22</td></tr><tr><td>17</td><td>0920</td><td>1.05</td><td>27</td><td>1010</td><td>2.10</td></tr><tr><td>19</td><td>0940</td><td>1.36</td><td>MAR.</td><td></td><td></td></tr><tr><td>20</td><td>1350</td><td>.94</td><td>01</td><td>1355</td><td>3.30</td></tr><tr><td>22</td><td>1435</td><td>.49</td><td>03</td><td>1330</td><td>.30</td></tr><tr><td>23</td><td>1530</td><td>2.10</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.31529603407118056,
+                            "top": 0.5875429083668865,
+                            "width": 0.489342529296875,
+                            "height": 0.17222303277506879,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>TIME</th><th>WEIGHT-\nPERCENT\nORGANIC\nMATTER</th><th>DATE</th><th>TIME</th><th>WEIGHT-\nPERCENT\nORGANIC\nMATTER</th></tr><tr><td>DEC.</td><td></td><td></td><td>JAN.</td><td></td><td></td></tr><tr><td>20</td><td>0940</td><td>0.44</td><td>25</td><td>1440</td><td>.29</td></tr><tr><td>21</td><td>1400</td><td>1.38</td><td>27</td><td>1330</td><td>1.28</td></tr><tr><td>22</td><td>1130</td><td>1.40</td><td>30</td><td>1540</td><td>.99</td></tr><tr><td>26</td><td>1300</td><td>1.22</td><td>FEB.</td><td></td><td></td></tr><tr><td>JAN.</td><td></td><td></td><td>02</td><td>1435</td><td>.42</td></tr><tr><td>03</td><td>1115</td><td>2.02</td><td>08</td><td>0950</td><td>1.67</td></tr><tr><td>12</td><td>1020</td><td>.97</td><td>11</td><td>1230</td><td>.67</td></tr><tr><td>13</td><td>0910</td><td>1.36</td><td>14</td><td>1525</td><td>.32</td></tr><tr><td>15</td><td>1000</td><td>1.50</td><td>20</td><td>1520</td><td>1.22</td></tr><tr><td>17</td><td>0920</td><td>1.05</td><td>27</td><td>1010</td><td>2.10</td></tr><tr><td>19</td><td>0940</td><td>1.36</td><td>MAR.</td><td></td><td></td></tr><tr><td>20</td><td>1350</td><td>.94</td><td>01</td><td>1355</td><td>3.30</td></tr><tr><td>22</td><td>1435</td><td>.49</td><td>03</td><td>1330</td><td>.30</td></tr><tr><td>23</td><td>1530</td><td>2.10</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

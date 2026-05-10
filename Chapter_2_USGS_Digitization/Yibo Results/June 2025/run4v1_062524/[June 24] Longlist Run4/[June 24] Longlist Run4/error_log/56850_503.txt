@@ -1,0 +1,16 @@
+```json
+{
+    "Watersource_Name": "SANTA CLARA RIVER AT LOS ANGELES-VENTURA COUNTY LINE",
+    "County": ["Los Angeles", "Ventura"],
+    "Location": "At the intersection of Los Angeles and Ventura counties in California.",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "Micromhos/cm at 25 degrees C",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 34.5, // Approximate inferred location based on county line.
+    "Inferred_Longitude": -119.7, // Approximate inferred location based on county line.
+    "Dates_of_Recording": "10/01/1977-05/31/1978",
+    "Water_Type": "Stream Discharge"
+}
+```

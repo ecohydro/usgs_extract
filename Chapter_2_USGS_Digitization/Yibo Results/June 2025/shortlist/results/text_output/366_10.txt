@@ -1,0 +1,23 @@
+```json
+[
+    {
+        "Watersource_Name": "Surface Water",
+        "County": null,
+        "Location": null,
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily, Monthly",
+        "Units_Of_Measurement": [
+            {"Discharge": "second-feet"},
+            {"Run-off": "millions of gallons"},
+            {"Velocity": "feet per second and miles per hour"},
+            {"Horsepower_per_Foot_of_Fall": "theoretical horsepower"}
+        ],
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "01/01/1915-12/31/1915",
+        "Water_Type": "Stream discharge"
+    }
+]
+```
+
+This JSON object summarizes the water data presented in the document. Since specific geospatial details are missing, several fields have been marked as `null` or left empty. The types of measurements and time intervals are inferred from the tables provided in the document content.

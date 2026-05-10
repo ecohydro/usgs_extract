@@ -1,0 +1,142 @@
+{
+    "job_id": "bc13831e-cae1-463a-ba0b-3475e9c4ae80",
+    "duration": 4.240110397338867,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5a0e2e80-4bae-4dd1-8c4f-02dc30c42e0d?AWSAccessKeyId=ASIA2UOK6OVBA7LI7EI5&Signature=fmqX%2BD6ihoXfufjBpXdHqLid4fA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQDH9GmqAZTCOum%2BrlBan8Jz3m1yjvo%2BGkBT%2BeJ7UbQmPgIhAK6IJx4ci7S5CikiyfGUEjTf7RtR0saguvUWv7IyzAxvKosFCCUQABoMNzMxMTA2OTMyMDM0IgzrjxCZCQj1rmgG2ycq6AQ6UZ%2Fp%2FqqIWX6pmVQZGfzEkd0bRFMOg4nb7MstEjJpBojxqgpKL30r7JiYuszrfpB0P8JUPJI4WQB9uhoHqiaL7BqTM5cvmFXlcSU27JSvx8Jw3ZhHicMNC1UeWJHQMezj6lQjVdi%2Bh4b0sP7m6OhIeQGFrHE6VVvvFzUoEAbgGhm56CM5UB27OYXkDD0iNLMdKn5e2IOpv62L5v%2FB4d9uhcOCFEEoKgbha6ifMBOFaaP4FubBkeY%2BA%2FFCevkKFABb67e%2FNquvvEPwZ4xHh6uFL4TtfDOPZsYkTlFF3xkN9Ft8GtrgwsfAL%2BCyjlKYYA0YFu5F1u3ugPYNyP2rppGbwJad1tevBnbm5zuhF8KD4re1u%2Fg2A6NVLRMTiNbPidzdBs8sUPzuKGyjebpdf4xLTOEk%2FhqiP9MB8E2AuHM9cGkYk1CPQIRwjuY1hE4PxDjqFawmSTse6R7H8sOp%2BuvQef9x4UsWweRbgD%2BwjP9yk6YSJTkNnsSBUvcXPqT6P%2BK5v5PxKIljwWnNBrc19ljzwvWZUYiGiDRIbRsxcRVrB9ST5HVGPNokzKgW9mQParTQWxfNdGnlq8IPjmN%2BITjREUl30pUEB82wNIK%2BXEltqbWXBltb6JMeyiByGmKNd%2Bz7V0dNlW38AG1NTPs6%2BV7YvvWtxP8xCibg2OeSX818BIYuU5iHOkqwhB12kHaxXUGBiaJxz2R7QV%2Bcx80YJTgyCWvTIXWEMQpToxMl1yZNOwMGMdM3pepB9UpPUBfpTkcJAJmxKIsMl%2B1HeUMSQ7jMpxiy5ox9FJnH0yfYWfiXQCdCcGoypHM%2BMK%2FmyboGOpoB814zzeklz7Wmwit5es20Bh0j7DXM3%2F9ilyu4RVVyoKNN0hr13umHKHYghUqEqIjb9pUHdQMNp1r6B6yy8S6uFWv4GjMzkZmhJDfMz5LZcuSk62puwQ2v1mLqBzq%2BfgS0Qccebvg%2FvqJpseIliPkgQK0ZBeASU1SJEJMhBs%2BUbvYxxQxCz9%2FoP84geuo83iJ%2BzDmmYem%2Bh8At%2BA%3D%3D&Expires=1733462808",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# FEATHER RIVER BASIN.",
+                "embed": "# FEATHER RIVER BASIN.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3384615384615385,
+                            "top": 0.030792339466766804,
+                            "width": 0.28012820512820513,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "FEATHER RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8557692307692307,
+                            "top": 0.027788208787082238,
+                            "width": 0.046153846153846156,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "335",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Inches.</td><td>Acre-feet.</td></tr><tr><td>1919 -20.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>268</td><td>133</td><td>148</td><td>0.692</td><td>0.80</td><td>9,100</td></tr><tr><td>November</td><td>146</td><td>100</td><td>132</td><td>.617</td><td>.69</td><td>7,860</td></tr><tr><td>December</td><td>663</td><td>133</td><td>204</td><td>.953</td><td>1.10</td><td>12,500</td></tr><tr><td>January</td><td>411</td><td>160</td><td>201</td><td>.939</td><td>1.08</td><td>12,400</td></tr><tr><td>February</td><td>290</td><td>176</td><td>193</td><td>.902</td><td>.97</td><td>11,100</td></tr><tr><td>March</td><td>a1,080</td><td>312</td><td>446</td><td>2.08</td><td>2.40</td><td>27,400</td></tr><tr><td>April</td><td>2,190</td><td>411</td><td>858</td><td>4.01</td><td>4.47</td><td>51, 100</td></tr><tr><td>May</td><td>2,410</td><td>965</td><td>480</td><td>6.92</td><td>7.98</td><td>91, 000</td></tr><tr><td>June</td><td>965</td><td>312</td><td>644</td><td>3.01</td><td>3.36</td><td>38, 300</td></tr><tr><td>July</td><td></td><td></td><td>a230</td><td>1.07</td><td>1.23</td><td>14, ,100</td></tr><tr><td>August</td><td>133</td><td>109</td><td>124</td><td>.579</td><td>.67</td><td>7, 620</td></tr><tr><td>September</td><td>160</td><td>109</td><td>120</td><td>.561</td><td>.63</td><td>7, 140</td></tr><tr><td>The year</td><td>2,410</td><td>100</td><td>401</td><td>1.87</td><td>25.38</td><td>290,000</td></tr></table>\n\na Estimated.\n\nNORTH FORK OF NORTH FORK OF YUBA RIVER AT DOWNIEVILLE, CALIF.",
+                "embed": "# Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Inches.</td><td>Acre-feet.</td></tr><tr><td>1919 -20.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>268</td><td>133</td><td>148</td><td>0.692</td><td>0.80</td><td>9,100</td></tr><tr><td>November</td><td>146</td><td>100</td><td>132</td><td>.617</td><td>.69</td><td>7,860</td></tr><tr><td>December</td><td>663</td><td>133</td><td>204</td><td>.953</td><td>1.10</td><td>12,500</td></tr><tr><td>January</td><td>411</td><td>160</td><td>201</td><td>.939</td><td>1.08</td><td>12,400</td></tr><tr><td>February</td><td>290</td><td>176</td><td>193</td><td>.902</td><td>.97</td><td>11,100</td></tr><tr><td>March</td><td>a1,080</td><td>312</td><td>446</td><td>2.08</td><td>2.40</td><td>27,400</td></tr><tr><td>April</td><td>2,190</td><td>411</td><td>858</td><td>4.01</td><td>4.47</td><td>51, 100</td></tr><tr><td>May</td><td>2,410</td><td>965</td><td>480</td><td>6.92</td><td>7.98</td><td>91, 000</td></tr><tr><td>June</td><td>965</td><td>312</td><td>644</td><td>3.01</td><td>3.36</td><td>38, 300</td></tr><tr><td>July</td><td></td><td></td><td>a230</td><td>1.07</td><td>1.23</td><td>14, ,100</td></tr><tr><td>August</td><td>133</td><td>109</td><td>124</td><td>.579</td><td>.67</td><td>7, 620</td></tr><tr><td>September</td><td>160</td><td>109</td><td>120</td><td>.561</td><td>.63</td><td>7, 140</td></tr><tr><td>The year</td><td>2,410</td><td>100</td><td>401</td><td>1.87</td><td>25.38</td><td>290,000</td></tr></table>\n\na Estimated.\n\nNORTH FORK OF NORTH FORK OF YUBA RIVER AT DOWNIEVILLE, CALIF.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.058333333333333334,
+                            "top": 0.0604581299286519,
+                            "width": 0.8448717948717949,
+                            "height": 0.025910627112279386,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05034158168694912,
+                            "top": 0.09725947564497864,
+                            "width": 0.8559502039200221,
+                            "height": 0.24384517863062688,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"4\">Discharge in second-feet.</th><th colspan=\"2\">Run-off.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td><td>Per\nsquare\nmile.</td><td>Inches.</td><td>Acre-feet.</td></tr><tr><td>1919 -20.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>268</td><td>133</td><td>148</td><td>0.692</td><td>0.80</td><td>9,100</td></tr><tr><td>November</td><td>146</td><td>100</td><td>132</td><td>.617</td><td>.69</td><td>7,860</td></tr><tr><td>December</td><td>663</td><td>133</td><td>204</td><td>.953</td><td>1.10</td><td>12,500</td></tr><tr><td>January</td><td>411</td><td>160</td><td>201</td><td>.939</td><td>1.08</td><td>12,400</td></tr><tr><td>February</td><td>290</td><td>176</td><td>193</td><td>.902</td><td>.97</td><td>11,100</td></tr><tr><td>March</td><td>a1,080</td><td>312</td><td>446</td><td>2.08</td><td>2.40</td><td>27,400</td></tr><tr><td>April</td><td>2,190</td><td>411</td><td>858</td><td>4.01</td><td>4.47</td><td>51, 100</td></tr><tr><td>May</td><td>2,410</td><td>965</td><td>480</td><td>6.92</td><td>7.98</td><td>91, 000</td></tr><tr><td>June</td><td>965</td><td>312</td><td>644</td><td>3.01</td><td>3.36</td><td>38, 300</td></tr><tr><td>July</td><td></td><td></td><td>a230</td><td>1.07</td><td>1.23</td><td>14, ,100</td></tr><tr><td>August</td><td>133</td><td>109</td><td>124</td><td>.579</td><td>.67</td><td>7, 620</td></tr><tr><td>September</td><td>160</td><td>109</td><td>120</td><td>.561</td><td>.63</td><td>7, 140</td></tr><tr><td>The year</td><td>2,410</td><td>100</td><td>401</td><td>1.87</td><td>25.38</td><td>290,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06794871794871794,
+                            "top": 0.3469770935035674,
+                            "width": 0.1032051282051282,
+                            "height": 0.008636875704093128,
+                            "page": 1
+                        },
+                        "content": "a Estimated.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08076923076923077,
+                            "top": 0.36913255726624106,
+                            "width": 0.7858974358974359,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "NORTH FORK OF NORTH FORK OF YUBA RIVER AT DOWNIEVILLE, CALIF.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued. (cont.)\n\nLOCATION.-In NE. 1/4 NW. 1/4 sec. 35, T. 20 N., R. 10 E., at upper highway bridge in Downieville, Sierra County, 500 feet above dam, and one-fourth mile above junction with North Fork of Yuba River. East Fork of North Fork enters one- eighth mile above, and Middle Fork of North Fork 11 miles above station. DRAINAGE AREA.-71.2 square miles. RECORDS VAILABLE.-November 1, 1910, to September 30, 1920. GAGE.-Vertical staff fastened to right abutment of bridge; read by J. T. Mason. DISCHARGE MEASUREMENTS.-Made from bridge at gage or by wading. CHANNEL AND CONTROL.-Bed consists of gravel and small boulders. Since flood of May 11, 1915, control is the dam. EXTREMES OF DISCHARGE.-Maximum stage recorded during year ending Septem- ber 30, 1919, 5.40 feet (flashboards on dam) February 10 (discharge, 1,520 second- feet); minimum stage 2.8 feet (flashboards on dam) September 15-20 (discharge, 20 second-feet). Maximum stage recorded during year ending September 30, 1920, 4.05 feet (no flashboards on dam) April 15 (discharge, 1,200 second-feet); minimum stage 2.70 feet (flashboards on dam) November 28 (discharge, 10 second-feet). 1911-1920: Maximum stage recorded, 8.0 feet at 5 p. m. May 11, 1915 (discharge, from extension of rating curve, about 6,760 second-feet); minimum stage, 2.70 feet (flashboards on dam) November 28, 1919 (discharge, 10 second-feet). Ice.-Stage-discharge relation slightly affected by ice for short periods in severe winters. DIVERSIONS. - The intake of the municipal water system of Downieville is above the station. REGULATION.-None. ACCURACY.-Stage-discharge relation dependent on the presence and height of flash- boards upon the dam and on the operation of the power plant which diverts water between the gage and dam. Observer has been instructed to read the gage when plant is not running. It is usually shut down between 7.30 a.m. and 4.30 p.m. Flashboards of uncertain height were used during 1919. Rating curves fairly well defined. Gage read to half-tenths twice daily. Daily dis- charge ascertained by applying mean daily gage height to rating table. Records fair.",
+                "embed": "# Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued. (cont.)\n\nLOCATION.-In NE. 1/4 NW. 1/4 sec. 35, T. 20 N., R. 10 E., at upper highway bridge in Downieville, Sierra County, 500 feet above dam, and one-fourth mile above junction with North Fork of Yuba River. East Fork of North Fork enters one- eighth mile above, and Middle Fork of North Fork 11 miles above station. DRAINAGE AREA.-71.2 square miles. RECORDS VAILABLE.-November 1, 1910, to September 30, 1920. GAGE.-Vertical staff fastened to right abutment of bridge; read by J. T. Mason. DISCHARGE MEASUREMENTS.-Made from bridge at gage or by wading. CHANNEL AND CONTROL.-Bed consists of gravel and small boulders. Since flood of May 11, 1915, control is the dam. EXTREMES OF DISCHARGE.-Maximum stage recorded during year ending Septem- ber 30, 1919, 5.40 feet (flashboards on dam) February 10 (discharge, 1,520 second- feet); minimum stage 2.8 feet (flashboards on dam) September 15-20 (discharge, 20 second-feet). Maximum stage recorded during year ending September 30, 1920, 4.05 feet (no flashboards on dam) April 15 (discharge, 1,200 second-feet); minimum stage 2.70 feet (flashboards on dam) November 28 (discharge, 10 second-feet). 1911-1920: Maximum stage recorded, 8.0 feet at 5 p. m. May 11, 1915 (discharge, from extension of rating curve, about 6,760 second-feet); minimum stage, 2.70 feet (flashboards on dam) November 28, 1919 (discharge, 10 second-feet). Ice.-Stage-discharge relation slightly affected by ice for short periods in severe winters. DIVERSIONS. - The intake of the municipal water system of Downieville is above the station. REGULATION.-None. ACCURACY.-Stage-discharge relation dependent on the presence and height of flash- boards upon the dam and on the operation of the power plant which diverts water between the gage and dam. Observer has been instructed to read the gage when plant is not running. It is usually shut down between 7.30 a.m. and 4.30 p.m. Flashboards of uncertain height were used during 1919. Rating curves fairly well defined. Gage read to half-tenths twice daily. Daily dis- charge ascertained by applying mean daily gage height to rating table. Records fair.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04423076923076923,
+                            "top": 0.39053698835899364,
+                            "width": 0.8557692307692307,
+                            "height": 0.5137063462260608,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In NE. 1/4 NW. 1/4 sec. 35, T. 20 N., R. 10 E., at upper highway bridge in Downieville, Sierra County, 500 feet above dam, and one-fourth mile above junction with North Fork of Yuba River. East Fork of North Fork enters one- eighth mile above, and Middle Fork of North Fork 11 miles above station. DRAINAGE AREA.-71.2 square miles. RECORDS VAILABLE.-November 1, 1910, to September 30, 1920. GAGE.-Vertical staff fastened to right abutment of bridge; read by J. T. Mason. DISCHARGE MEASUREMENTS.-Made from bridge at gage or by wading. CHANNEL AND CONTROL.-Bed consists of gravel and small boulders. Since flood of May 11, 1915, control is the dam. EXTREMES OF DISCHARGE.-Maximum stage recorded during year ending Septem- ber 30, 1919, 5.40 feet (flashboards on dam) February 10 (discharge, 1,520 second- feet); minimum stage 2.8 feet (flashboards on dam) September 15-20 (discharge, 20 second-feet). Maximum stage recorded during year ending September 30, 1920, 4.05 feet (no flashboards on dam) April 15 (discharge, 1,200 second-feet); minimum stage 2.70 feet (flashboards on dam) November 28 (discharge, 10 second-feet). 1911-1920: Maximum stage recorded, 8.0 feet at 5 p. m. May 11, 1915 (discharge, from extension of rating curve, about 6,760 second-feet); minimum stage, 2.70 feet (flashboards on dam) November 28, 1919 (discharge, 10 second-feet). Ice.-Stage-discharge relation slightly affected by ice for short periods in severe winters. DIVERSIONS. - The intake of the municipal water system of Downieville is above the station. REGULATION.-None. ACCURACY.-Stage-discharge relation dependent on the presence and height of flash- boards upon the dam and on the operation of the power plant which diverts water between the gage and dam. Observer has been instructed to read the gage when plant is not running. It is usually shut down between 7.30 a.m. and 4.30 p.m. Flashboards of uncertain height were used during 1919. Rating curves fairly well defined. Gage read to half-tenths twice daily. Daily dis- charge ascertained by applying mean daily gage height to rating table. Records fair.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued. (cont.)\n\nCOOPERATION.-Gage-height record furnished by John T. Mason.",
+                "embed": "# Monthly discharge of North Fork of Yuba River at Goodyear Bar, Calif., for the years ending Sept. 30, 1919 and 1920-Continued. (cont.)\n\nCOOPERATION.-Gage-height record furnished by John T. Mason.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046153846153846156,
+                            "top": 0.9079984979346601,
+                            "width": 0.6506410256410257,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.-Gage-height record furnished by John T. Mason.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

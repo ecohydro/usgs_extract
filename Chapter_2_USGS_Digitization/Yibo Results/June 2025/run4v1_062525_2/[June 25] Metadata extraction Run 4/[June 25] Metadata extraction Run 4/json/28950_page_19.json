@@ -1,0 +1,154 @@
+{
+    "job_id": "5873b5ae-9b50-4fca-b8e7-f8ab2848cc2f",
+    "duration": 6.319658279418945,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/4602c575-3585-41c9-9adf-a137c83bf85b?AWSAccessKeyId=ASIA2UOK6OVBHY5QOM2M&Signature=Q3CY3tZLTfnhUz6F3CvXC2ws6ts%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHwtT9mP%2FlC6EbZ8cZWx3mOK%2FpxM%2B1Pio%2B3wnzr1MIDBAiEArswhj6z3pL65I%2FgvgbwkbG7V%2BfPeWDVYROg%2BqBA6ytUqlAUIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDPzZjgEzQym2oaCT0yroBOi9Z%2B7fwJzlgXtWE59QzuWVID6veALButW0xtKI5pUL0k7wbMFxa%2Bp6inpm%2FwdzgPKF5p%2BkDeXG2LilMbAMkljD1%2FFsUi2i1vtAqmcbIPlfAFBct2ZbcsvcMS%2Bkf2C2dwW6%2B84myzPM4dJD%2Bruh2cW5lN%2BiG%2BM69KjlqY%2FsMdI8c8Gkb7ktlgkjpfSHcRibcUcOJpiMb3oGrB%2FUFOrGI%2FY2plalb0tH7DH0hgXfItq3psIwIzkpqM0k1FxlboTJ6%2BC%2FST27UR6TND9iLGjYWTIf7r31vBRWdSmCw28Ou6vHIfhgX9IVAHtniBc2NrH3dNuM36Gn9i0Wy25T25vXkyCuqFtfkUgYiHlF5l6l1P3YCu%2Bbc1BjRfLKBQv2gWyE8FN5xhxLZgd%2FUubB3B%2FRpA2Yous4f4K%2Fs0BIiVbiMhSWEn9ExJy1oba2sxL59jP8NzoahCQWeQ3dzZpztJo2qVidpxLi7X9hj4BDNg88M6zaloaZ0ESyvDYGb9o9hEJUosIS0TRw6kAWSlFEdNChe%2FGuEqCHE%2FvzT7LXwebAMJ4Ru1dasGrk9kAQCrfkoYzitbSOuBdtZLLCvxJNLjL9i8Kosz2Iqfu95E%2Bf0vXZj7y%2BX%2FFPMPHZSutIaMrqn%2FQGxT9YS9MA4SVsCG8gplgIHsBI5JHUVtvYy%2F0bwctd%2B6m%2Fdx6v7%2Fzha1CDGg2FXBMW6MPmKL9LCWLsb2A5JyJh9dzuMaP7C1UI89gz4l5t2OavL1CY4ThyF86bwEJmRjBViLhi%2F2WUaUI4Z7C13Hpj4s%2FMdq9oJaoQIXftinIEJkml7tmQlZ9R8SAwxKqJvAY6mwEtXnJG%2ByXKzWob9LL04AwnG62DIv6oO1ZtXMcFHhn4j5SkUCJtA%2B%2FOYJUpStPMwi5VLkgyqusZsJdmBrJVLsgjgn4iADL8Ve6HZbBs87sZ6oXFltBLHEO13oG8%2BvgOZMQqdlhDd8xnE2ec2DrvZwWr2yZiX5CiF5PqKMir5tpLX%2BUnHhXLDRRwQh5RB9l5rfJty7PDt%2ByPnR5ybg%3D%3D&Expires=1736598380",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TRANSIENT-FLOW MODEL, SACRAMENTO RIVER AT SACRAMENTO, CALIF.\n\n# SOURCES OF ERROR",
+                "embed": "# TRANSIENT-FLOW MODEL, SACRAMENTO RIVER AT SACRAMENTO, CALIF.\n\n# SOURCES OF ERROR",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.18929503916449086,
+                            "top": 0.04137267479153303,
+                            "width": 0.6505657093124456,
+                            "height": 0.013470173187940988,
+                            "page": 1
+                        },
+                        "content": "TRANSIENT-FLOW MODEL, SACRAMENTO RIVER AT SACRAMENTO, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9316797214969539,
+                            "top": 0.04137267479153303,
+                            "width": 0.020017406440382943,
+                            "height": 0.010904425914047467,
+                            "page": 1
+                        },
+                        "content": "13",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4516971279373368,
+                            "top": 0.09012187299550994,
+                            "width": 0.17406440382941687,
+                            "height": 0.010904425914047467,
+                            "page": 1
+                        },
+                        "content": "SOURCES OF ERROR",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SOURCES OF ERROR (cont.)\n\nThe driving function of the flow-simulation model is synchronized-stage data. These data define the fall or slope of the water surface within the reach, and errors in the collection of these stage data can significantly affect model results. Errors in stage data can be caused by intake lag or partially plugged intakes, nonsynchronized collection of the stage readings, and incorrect recordings of the water stage by the digital recorder.\n\nIntake lag or partially plugged intake errors of a few hundredths of a foot can cause a 10 to 20 percent error in the computation of instantaneous discharge during highly transient flow conditions when the fall in the reach approaches zero. The effect on the daily mean discharge for this flow condition is minimized because of a balancing of the instantaneous-discharge errors over a 24-hour period, which is also nearly equal to the period of time for a full tidal cycle (24.8 hours). To summarize: The error in discharge on the two rising-stage segments of the tidal cycle is balanced by the error on the two falling-stage segments of the tidal cycle; the actual fall in the reach is increased for two periods of the day and decreased for two periods of the day.",
+                "embed": "# SOURCES OF ERROR (cont.)\n\nThe driving function of the flow-simulation model is synchronized-stage data. These data define the fall or slope of the water surface within the reach, and errors in the collection of these stage data can significantly affect model results. Errors in stage data can be caused by intake lag or partially plugged intakes, nonsynchronized collection of the stage readings, and incorrect recordings of the water stage by the digital recorder.\n\nIntake lag or partially plugged intake errors of a few hundredths of a foot can cause a 10 to 20 percent error in the computation of instantaneous discharge during highly transient flow conditions when the fall in the reach approaches zero. The effect on the daily mean discharge for this flow condition is minimized because of a balancing of the instantaneous-discharge errors over a 24-hour period, which is also nearly equal to the period of time for a full tidal cycle (24.8 hours). To summarize: The error in discharge on the two rising-stage segments of the tidal cycle is balanced by the error on the two falling-stage segments of the tidal cycle; the actual fall in the reach is increased for two periods of the day and decreased for two periods of the day.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10226283724978243,
+                            "top": 0.1372674791533034,
+                            "width": 0.8498694516971279,
+                            "height": 0.09429121231558692,
+                            "page": 1
+                        },
+                        "content": "The driving function of the flow-simulation model is synchronized-stage data. These data define the fall or slope of the water surface within the reach, and errors in the collection of these stage data can significantly affect model results. Errors in stage data can be caused by intake lag or partially plugged intakes, nonsynchronized collection of the stage readings, and incorrect recordings of the water stage by the digital recorder.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10269799825935597,
+                            "top": 0.24951892238614495,
+                            "width": 0.8498694516971279,
+                            "height": 0.1725465041693393,
+                            "page": 1
+                        },
+                        "content": "Intake lag or partially plugged intake errors of a few hundredths of a foot can cause a 10 to 20 percent error in the computation of instantaneous discharge during highly transient flow conditions when the fall in the reach approaches zero. The effect on the daily mean discharge for this flow condition is minimized because of a balancing of the instantaneous-discharge errors over a 24-hour period, which is also nearly equal to the period of time for a full tidal cycle (24.8 hours). To summarize: The error in discharge on the two rising-stage segments of the tidal cycle is balanced by the error on the two falling-stage segments of the tidal cycle; the actual fall in the reach is increased for two periods of the day and decreased for two periods of the day.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SOURCES OF ERROR (cont.)\n\nThe rate of change in stage at the gages has been observed to be as high as 0.75 ft in an hour, or a little more than 0.01 ft per minute. Therefore, if one digital recorder is not synchronized with the other stage recorder, the fall between the gages could be in error and the model results would be affected in the same manner as described for intake lag.\n\nIf the digital recorder is not recording the water-stage data correctly at one gage, for example 0.02 ft low at the downstream gage, an error will result that is nonbalancing. In the example above, the fall between the two gages would be increased by 0.02 ft for all the conditions and, therefore, the error in the computed results would not balance over a tidal cycle.\n\nThe effects of the stage-data errors mentioned above are decreased as the discharge increases. When the discharge increases, the fall between the two stage gages increases; therefore, a 0.02-foot error in recording the river stage is not as critical if there is 4.5 ft of fall between the gages compared to 0 ft or negative fall within the reach.",
+                "embed": "# SOURCES OF ERROR (cont.)\n\nThe rate of change in stage at the gages has been observed to be as high as 0.75 ft in an hour, or a little more than 0.01 ft per minute. Therefore, if one digital recorder is not synchronized with the other stage recorder, the fall between the gages could be in error and the model results would be affected in the same manner as described for intake lag.\n\nIf the digital recorder is not recording the water-stage data correctly at one gage, for example 0.02 ft low at the downstream gage, an error will result that is nonbalancing. In the example above, the fall between the two gages would be increased by 0.02 ft for all the conditions and, therefore, the error in the computed results would not balance over a tidal cycle.\n\nThe effects of the stage-data errors mentioned above are decreased as the discharge increases. When the discharge increases, the fall between the two stage gages increases; therefore, a 0.02-foot error in recording the river stage is not as critical if there is 4.5 ft of fall between the gages compared to 0 ft or negative fall within the reach.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1031331592689295,
+                            "top": 0.4406670942912123,
+                            "width": 0.8489991296779809,
+                            "height": 0.0782552918537524,
+                            "page": 1
+                        },
+                        "content": "The rate of change in stage at the gages has been observed to be as high as 0.75 ft in an hour, or a little more than 0.01 ft per minute. Therefore, if one digital recorder is not synchronized with the other stage recorder, the fall between the gages could be in error and the model results would be affected in the same manner as described for intake lag.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10269799825935597,
+                            "top": 0.5368826170622194,
+                            "width": 0.8485639686684073,
+                            "height": 0.07761385503527903,
+                            "page": 1
+                        },
+                        "content": "If the digital recorder is not recording the water-stage data correctly at one gage, for example 0.02 ft low at the downstream gage, an error will result that is nonbalancing. In the example above, the fall between the two gages would be increased by 0.02 ft for all the conditions and, therefore, the error in the computed results would not balance over a tidal cycle.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10269799825935597,
+                            "top": 0.6330981398332264,
+                            "width": 0.8485639686684073,
+                            "height": 0.07761385503527903,
+                            "page": 1
+                        },
+                        "content": "The effects of the stage-data errors mentioned above are decreased as the discharge increases. When the discharge increases, the fall between the two stage gages increases; therefore, a 0.02-foot error in recording the river stage is not as critical if there is 4.5 ft of fall between the gages compared to 0 ft or negative fall within the reach.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SOURCES OF ERROR (cont.)\n\nIf model results begin to deviate from the measured data, and the stage data used are valid, the channel may be scouring or filling. This can be verified by resurveying some of the channel cross sections that were originally surveyed and used for simulation of the channel configuration. Recalibration of the model would be necessary if the cross-section data revealed a significant change in channel configuration.",
+                "embed": "# SOURCES OF ERROR (cont.)\n\nIf model results begin to deviate from the measured data, and the stage data used are valid, the channel may be scouring or filling. This can be verified by resurveying some of the channel cross sections that were originally surveyed and used for simulation of the channel configuration. Recalibration of the model would be necessary if the cross-section data revealed a significant change in channel configuration.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10139251523063533,
+                            "top": 0.7293136626042335,
+                            "width": 0.8498694516971279,
+                            "height": 0.09364977549711354,
+                            "page": 1
+                        },
+                        "content": "If model results begin to deviate from the measured data, and the stage data used are valid, the channel may be scouring or filling. This can be verified by resurveying some of the channel cross sections that were originally surveyed and used for simulation of the channel configuration. Recalibration of the model would be necessary if the cross-section data revealed a significant change in channel configuration.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

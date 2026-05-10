@@ -1,0 +1,34 @@
+```json
+{
+  "Watersource_Name": "DRY CREEK NEAR CLOVERDALE",
+  "County": "Sonoma County",
+  "Location": "Near Cloverdale, California",
+  "Townships_Ranges_Sections": [],
+  "Temporal_Resolution": "Daily",
+  "Units_Of_Measurement": "Degrees Celsius (°C)",
+  "Latitude": 38.8056,
+  "Longitude": -123.0919,
+  "Dates_of_Recording": "05/01/1965-Current Year",
+  "Water_Type": "Stream discharge"
+}
+```
+
+### Explanation:
+
+1. **Watersource_Name**: The name of the water source is provided in the document: DRY CREEK NEAR CLOVERDALE.
+
+2. **County**: Dry Creek Near Cloverdale is located in Sonoma County, California. This can be inferred from its proximity to Cloverdale, a town within Sonoma County.
+
+3. **Location**: The location is specified as near Cloverdale, California.
+
+4. **Townships_Ranges_Sections**: No specific township, range, or section data is provided in the document, so this field is left empty.
+
+5. **Temporal_Resolution**: Measurements are recorded daily, as indicated by the presence of daily maximum and minimum temperature records.
+
+6. **Units_Of_Measurement**: The units for water temperature are given in degrees Celsius (°C).
+
+7. **Latitude and Longitude**: Approximate coordinates for Dry Creek Near Cloverdale, California are 38.8056 N latitude and -123.0919 W longitude. These values can be found through geographic databases or mapping services.
+
+8. **Dates_of_Recording**: The period of record begins on May 1, 1965, and continues to the current year as mentioned in the document.
+
+9. **Water_Type**: Given that the document records water temperature extremes for a creek, it is classified under "Stream discharge".

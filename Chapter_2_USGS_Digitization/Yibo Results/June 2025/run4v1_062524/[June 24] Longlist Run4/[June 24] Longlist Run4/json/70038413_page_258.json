@@ -1,0 +1,218 @@
+{
+    "job_id": "b87f1dc0-8edf-481c-af72-f54b60804fb3",
+    "duration": 6.46085262298584,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/239413a2-2b66-4a91-881d-65dae02f95dc?AWSAccessKeyId=ASIA2UOK6OVBK2X2GLDI&Signature=hFnrXLVxd6crh3Ho%2BTrvrQ5NTRo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJHMEUCIAZdTdLGPulqdkhfgAZQE6rokwlyLjfO6P%2BjdWRj45BmAiEA3JbERBiry9uZx9Y2ofoKf9TL3OCD1MNHQ2hJUMDr01YqiwUIIBAAGgw3MzExMDY5MzIwMzQiDPppngKHUeh6GXqNYyroBIU4bYlaEi%2BRxA1cpK%2FG3QdXyQz1FoOXvBWoAAHa7Bguje6FH3h9qQYIwstqu7iq4Ibyx9%2Bzah2rWAm%2BcqCBOBGF2DHCjxGVdT2eLe2b1jlZjPDliZYxbZFNuHgV%2BJTH2ZFMCs3x3GVR0xvG3oTGSShezrsZKGS2NNrWNVUauMv65En2QT2hnutIN1kPOvjzGg0KqKEhCkxCkD3WS6cqGFFqDGjgOS6JtpUsRXAtJU75KZeKh%2FK9L6upBaTwFAcQL%2FAjT5Xg1LDtEKu0J%2FW0gtwBYZHHjKD8bhj2Q3feLZwqRLkaY2XLzXp7LzE8c0V0EhkOfli5saC6sKxr%2FSvry0XbS12g2xvyOcIqBQCAPd39niCrS%2Bl3cm5lhItmTPDKBQVQFRfPCBm01lqHhewQ8biEO5tEIY0jCFQTKUyK0zho4Soppw4ikGGwB%2FK2uxZyhsxiuiALAsj2Rnaa9hA3pDi5NwI6HrUocgwJuVhBWbRiqXs8%2FaUgSXmsEc%2BVasyidEVdTTRjarpDlCaDO%2FBiy2K%2FonhwzbnD4qHkjq70W0gFv2KN4JLGaB1URDRXxzU59P%2B00ln%2BWXfsENZM3S%2BJ3UXmBYwHreOsGuODpmqb%2Fw3Q4%2F2v84bjmKLfKqV46k6G3rKi%2FesMRDV1nLj48RhRZE%2FeLYVkjQKJSNFjCQBhHfhWio%2FwuXDe%2Bqi6iLgowNN3rUwwK%2FDCsXSWzzX0HKcBOURL5pATCVPil8rewMHTmbgGk7II6Zmf8uHabl6p%2BOHDFcC2CXC5TGmvYPtZzUXxJ3KBadSSDZiUWgJC4%2BdetJM%2BCSAOm9aRrg4w3tTIugY6mwFV2xxcYySRHtidDHZ9Jg5gz%2BwZ93pusPaGOXw1SjzTxbCqfZaAWQQw8YbGZMIDb3cUZRKzxvsgU06CC8ouY%2FUdVqhoh2sZkUCZ2IvcaA8qekFuVGBYJeaEaKbWK0FAozQrAu99T4JUwRkfVmIJQ16LIeyCpGD%2FlgL09k%2FkuDberVgC7oUW6EooA3umrZzluUgTAkqFuMrDWye6gg%3D%3D&Expires=1733442266",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SANTA CLARA RIVER BASIN\n\n# 11-1105. HOPPER CREEK NEAR PIRU, CALIF.\n\nLOCATION.--La1 34\u00b0 24' 03\" , long 118\u00b049'32\" in NE}NE}SW} sec. 25, T.4 N., R.19 W., Ventura County, on downstream end of center pier of bridge on State Highway 126, 1 mile upstream from mouth, and 2.1 miles southwest of Piru.",
+                "embed": "# SANTA CLARA RIVER BASIN\n\n# 11-1105. HOPPER CREEK NEAR PIRU, CALIF.\n\nLOCATION.--La1 34\u00b0 24' 03\" , long 118\u00b049'32\" in NE}NE}SW} sec. 25, T.4 N., R.19 W., Ventura County, on downstream end of center pier of bridge on State Highway 126, 1 mile upstream from mouth, and 2.1 miles southwest of Piru.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.05864197530864197,
+                            "top": 0.05800837898807606,
+                            "width": 0.01984126984126984,
+                            "height": 0.007089912987431518,
+                            "page": 1
+                        },
+                        "content": "240",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3871252204585538,
+                            "top": 0.056397035127296165,
+                            "width": 0.17680776014109348,
+                            "height": 0.007734450531743474,
+                            "page": 1
+                        },
+                        "content": "SANTA CLARA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3253968253968254,
+                            "top": 0.07508862391234289,
+                            "width": 0.2976190476190476,
+                            "height": 0.009345794392523364,
+                            "page": 1
+                        },
+                        "content": "11-1105. HOPPER CREEK NEAR PIRU, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.056878306878306875,
+                            "top": 0.09216886883660973,
+                            "width": 0.8443562610229277,
+                            "height": 0.029326458266194008,
+                            "page": 1
+                        },
+                        "content": "LOCATION.--La1 34\u00b0 24' 03\" , long 118\u00b049'32\" in NE}NE}SW} sec. 25, T.4 N., R.19 W., Ventura County, on downstream end of center pier of bridge on State Highway 126, 1 mile upstream from mouth, and 2.1 miles southwest of Piru.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-1105. HOPPER CREEK NEAR PIRU, CALIF. (cont.)\n\nDRAINAGE AREA.--23.6 sq mi.\n\nPERIOD OF RECORD.--October 1930 to September 1932, October 1933 to September 1936, October 1937 to current year.\n\nGAGE. -Water-stage recorder. Concrete control since October 1967 (ineffective due to fill). Altitude of gage is 590 ft (from topographic map)\n\nAVERAGE DISCHARGE. 37 years, 5.71 cfs (4,140 acre-it per year); median of yearly mean discharges, 2.2 cfs (1,600 acre-ft per year).\n\nEXTREMES.--Current year Maximum discharge, 8,400 cfs Jan. 25 (gage height, 12.72 ft, from floodmark), from rating curve extended above 850 cfs on basis of slope-area measurement of maximum flow; no flow for many days.\n\nPeriod of record: Maximum discharge, 8,400 cfs Jan. 25, 1969 (gage height, 12.72 ft, from floodmark), from rating curve extended above 850 cfs on basis of slope-area measurement of maximum flow; no flow for several months in most years.\n\nREMARKS. --No regulation above station. Some pumping along stream for irrigation.\n\nCOOPERATION. Records furnished by Ventura County Flood Control District and reviewed by Geological Survey.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "embed": "# 11-1105. HOPPER CREEK NEAR PIRU, CALIF. (cont.)\n\nDRAINAGE AREA.--23.6 sq mi.\n\nPERIOD OF RECORD.--October 1930 to September 1932, October 1933 to September 1936, October 1937 to current year.\n\nGAGE. -Water-stage recorder. Concrete control since October 1967 (ineffective due to fill). Altitude of gage is 590 ft (from topographic map)\n\nAVERAGE DISCHARGE. 37 years, 5.71 cfs (4,140 acre-it per year); median of yearly mean discharges, 2.2 cfs (1,600 acre-ft per year).\n\nEXTREMES.--Current year Maximum discharge, 8,400 cfs Jan. 25 (gage height, 12.72 ft, from floodmark), from rating curve extended above 850 cfs on basis of slope-area measurement of maximum flow; no flow for many days.\n\nPeriod of record: Maximum discharge, 8,400 cfs Jan. 25, 1969 (gage height, 12.72 ft, from floodmark), from rating curve extended above 850 cfs on basis of slope-area measurement of maximum flow; no flow for several months in most years.\n\nREMARKS. --No regulation above station. Some pumping along stream for irrigation.\n\nCOOPERATION. Records furnished by Ventura County Flood Control District and reviewed by Geological Survey.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.056878306878306875,
+                            "top": 0.13148565903963905,
+                            "width": 0.2054673721340388,
+                            "height": 0.009023525620367387,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.--23.6 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0564373897707231,
+                            "top": 0.14921044150821786,
+                            "width": 0.8134920634920635,
+                            "height": 0.019013857557202706,
+                            "page": 1
+                        },
+                        "content": "PERIOD OF RECORD.--October 1930 to September 1932, October 1933 to September 1936, October 1937 to current year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0564373897707231,
+                            "top": 0.17692555591363196,
+                            "width": 0.843915343915344,
+                            "height": 0.019658395101514663,
+                            "page": 1
+                        },
+                        "content": "GAGE. -Water-stage recorder. Concrete control since October 1967 (ineffective due to fill). Altitude of gage is 590 ft (from topographic map)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0564373897707231,
+                            "top": 0.20496293909120206,
+                            "width": 0.8134920634920635,
+                            "height": 0.019980663873670642,
+                            "page": 1
+                        },
+                        "content": "AVERAGE DISCHARGE. 37 years, 5.71 cfs (4,140 acre-it per year); median of yearly mean discharges, 2.2 cfs (1,600 acre-ft per year).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05599647266313933,
+                            "top": 0.2323557847244602,
+                            "width": 0.8298059964726632,
+                            "height": 0.029326458266194008,
+                            "page": 1
+                        },
+                        "content": "EXTREMES.--Current year Maximum discharge, 8,400 cfs Jan. 25 (gage height, 12.72 ft, from floodmark), from rating curve extended above 850 cfs on basis of slope-area measurement of maximum flow; no flow for many days.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07980599647266313,
+                            "top": 0.2607154366741863,
+                            "width": 0.800705467372134,
+                            "height": 0.029326458266194008,
+                            "page": 1
+                        },
+                        "content": "Period of record: Maximum discharge, 8,400 cfs Jan. 25, 1969 (gage height, 12.72 ft, from floodmark), from rating curve extended above 850 cfs on basis of slope-area measurement of maximum flow; no flow for several months in most years.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0564373897707231,
+                            "top": 0.29938768933290366,
+                            "width": 0.6190476190476191,
+                            "height": 0.0103126007089913,
+                            "page": 1
+                        },
+                        "content": "REMARKS. --No regulation above station. Some pumping along stream for irrigation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05555555555555555,
+                            "top": 0.3174347405736384,
+                            "width": 0.8187830687830688,
+                            "height": 0.010957138253303255,
+                            "page": 1
+                        },
+                        "content": "COOPERATION. Records furnished by Ventura County Flood Control District and reviewed by Geological Survey.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.18694885361552027,
+                            "top": 0.33451498549790526,
+                            "width": 0.5974426807760141,
+                            "height": 0.011279407025459234,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-1105. HOPPER CREEK NEAR PIRU, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th></th><th>OCT</th><th></th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th></th><th>MAR</th><th></th><th>APR</th><th>MAY</th><th></th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>40</td><td></td><td>80</td><td></td><td>16</td><td>7.6</td><td></td><td>4.8</td><td>2.9</td><td>1.8</td><td>.99</td></tr><tr><td>2</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>35</td><td></td><td>76</td><td></td><td>15</td><td>7.6</td><td></td><td>4.8</td><td>2.9</td><td>1.7</td><td>.98</td></tr><tr><td>3</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>30</td><td></td><td>68</td><td></td><td>15</td><td>7.7</td><td></td><td>4.8</td><td>2.9</td><td>1.7</td><td>.96</td></tr><tr><td>4</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.15</td><td>20</td><td></td><td>67</td><td></td><td>14</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.7</td><td>.94</td></tr><tr><td>5</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>50</td><td></td><td>62</td><td></td><td>14</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.6</td><td>.92</td></tr><tr><td>6</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>452</td><td></td><td>56</td><td></td><td>13</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.6</td><td>.90</td></tr><tr><td>7</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>80</td><td></td><td>50</td><td></td><td>12</td><td>7.5</td><td></td><td>4.6</td><td>3.0</td><td>1.6</td><td>.87</td></tr><tr><td>8</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>53</td><td></td><td>47</td><td></td><td>12</td><td>7.3</td><td></td><td>4.6</td><td>2.9</td><td>1.5</td><td>.85</td></tr><tr><td>9</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>46</td><td></td><td>44</td><td></td><td>11</td><td>7.0</td><td></td><td>4.6</td><td>2.7</td><td>1.5</td><td>.88</td></tr><tr><td>10</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>41</td><td></td><td>41</td><td></td><td>11</td><td>6.8</td><td></td><td>4.6</td><td>2.6</td><td>1.5</td><td>.91</td></tr><tr><td>11</td><td>0</td><td></td><td>0</td><td></td><td>.20</td><td>.21</td><td>35</td><td></td><td>39</td><td></td><td>10</td><td>6.6</td><td></td><td>4.6</td><td>2.4</td><td>1.4</td><td>.94</td></tr><tr><td>12</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>34</td><td></td><td>36</td><td></td><td>10</td><td>6.3</td><td></td><td>4.5</td><td>2.3</td><td>1.4</td><td>.97</td></tr><tr><td>13</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.67</td><td>29</td><td></td><td>34</td><td></td><td>10</td><td>6.2</td><td></td><td>4.5</td><td>2.1</td><td>1.4</td><td>.98</td></tr><tr><td>14</td><td></td><td>.45</td><td>0</td><td></td><td>.10</td><td>28</td><td>25</td><td></td><td>32</td><td></td><td>9.1</td><td>6.1</td><td></td><td>4.4</td><td>2.0</td><td>1.4</td><td>.99</td></tr><tr><td>15</td><td>0</td><td></td><td></td><td>.35</td><td>.52</td><td>2.2</td><td>34</td><td></td><td>30</td><td></td><td>9.0</td><td>5.9</td><td></td><td>4.4</td><td>2.0</td><td>1.4</td><td>1.0</td></tr><tr><td>16</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>1.2</td><td>31</td><td></td><td>27</td><td></td><td>8.9</td><td>5.8</td><td></td><td>4.3</td><td>2.0</td><td>1.4</td><td>1.1</td></tr><tr><td>17</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>.90</td><td>26</td><td></td><td>25</td><td></td><td>8.8</td><td>5.7</td><td></td><td>4.3</td><td>2.0</td><td>1.4</td><td>1.1</td></tr><tr><td>18</td><td>0</td><td></td><td>0</td><td></td><td>.15</td><td>2.2</td><td>26</td><td></td><td>24</td><td></td><td>8.7</td><td>5.6</td><td></td><td>4.2</td><td>1.9</td><td>1.4</td><td>1.1</td></tr><tr><td>19</td><td>0</td><td></td><td>0</td><td></td><td>.15</td><td>230</td><td>27</td><td></td><td>24</td><td></td><td>8.6</td><td>5.4</td><td></td><td>4.1</td><td>1.9</td><td>1.4</td><td>1.1</td></tr><tr><td>20</td><td>0</td><td></td><td>0</td><td></td><td>.21</td><td>119</td><td>27</td><td></td><td>23</td><td></td><td>8.5</td><td>5.4</td><td></td><td>4.0</td><td>1.9</td><td>1.3</td><td>1.0</td></tr><tr><td>21</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>734</td><td>26</td><td></td><td>22</td><td></td><td>8.4</td><td>5.3</td><td></td><td>4.0</td><td>1.9</td><td>1.3</td><td>1.0</td></tr><tr><td>22</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>180</td><td>31</td><td></td><td>21</td><td></td><td>8.3</td><td>5.3</td><td></td><td>3.9</td><td>1.8</td><td>1.3</td><td>1.0</td></tr><tr><td>23</td><td>0</td><td></td><td>0</td><td></td><td>.12</td><td>108</td><td>494</td><td></td><td>20</td><td></td><td>8.2</td><td>5.2</td><td></td><td>3.8</td><td>1.8</td><td>1.2</td><td>.93</td></tr><tr><td>24</td><td>0</td><td></td><td>0</td><td></td><td>.12</td><td>369</td><td>900</td><td></td><td>20</td><td></td><td>8.1</td><td>5.2</td><td></td><td>3.7</td><td>1.8</td><td>1.2</td><td>.86</td></tr><tr><td>25</td><td>0</td><td></td><td>0</td><td></td><td>.54</td><td>2,400</td><td>1,500</td><td></td><td>19</td><td></td><td>8.0</td><td>5.1</td><td></td><td>3.6</td><td>1.8</td><td>1.1</td><td>.79</td></tr><tr><td>26</td><td>0</td><td></td><td>0</td><td></td><td>2.4</td><td>1,660</td><td>420</td><td></td><td>18</td><td></td><td>7.9</td><td>5.0</td><td></td><td>3.4</td><td>1.9</td><td>1.1</td><td>.72</td></tr><tr><td>27</td><td>0</td><td></td><td>0</td><td></td><td>.82</td><td>140</td><td>160</td><td></td><td>18</td><td></td><td>7.8</td><td>5.0</td><td></td><td>3.3</td><td>1.9</td><td>1.1</td><td>.65</td></tr><tr><td>28</td><td>0</td><td></td><td>0</td><td></td><td>.59</td><td>60</td><td>90</td><td></td><td>17</td><td></td><td>7.7</td><td>5.0</td><td></td><td>3.2</td><td>1.9</td><td>1.1</td><td>.58</td></tr><tr><td>29</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>55</td><td></td><td></td><td>17</td><td></td><td>7.6</td><td>4.9</td><td></td><td>3.0</td><td>1.9</td><td>1.1</td><td>.51</td></tr><tr><td>30</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>50</td><td></td><td></td><td>17</td><td></td><td>7.6</td><td>4.9</td><td></td><td>2.9</td><td>1.9</td><td>1.0</td><td>.50</td></tr><tr><td>31</td><td>0</td><td></td><td></td><td></td><td>.28</td><td>47</td><td></td><td></td><td>16</td><td></td><td></td><td>4.9</td><td></td><td></td><td>1.8</td><td>1.0</td><td></td></tr><tr><td>TOTAL</td><td></td><td>0.45</td><td></td><td>0.35</td><td>7.94</td><td>6,189.54</td><td>4,762</td><td></td><td>1,090</td><td></td><td>304.2</td><td>189.4</td><td></td><td>125.0</td><td>69.8</td><td>42.6</td><td>27.02</td></tr><tr><td>MEAN\nMAX</td><td></td><td>.015\n.45</td><td></td><td>.012\n.35</td><td>.26\n2.4</td><td>200\n2,400</td><td>170\n1,500</td><td></td><td>35.2\n80</td><td></td><td>10.1\n16</td><td>6.11\n7.7</td><td></td><td>4.17\n4.8</td><td>2.25\n3.0</td><td>1.37\n1.8</td><td>.90\n1.1</td></tr><tr><td>MIN</td><td></td><td>0</td><td></td><td>0</td><td>0</td><td>.15</td><td>20</td><td></td><td>16</td><td></td><td>7.6</td><td>4.9</td><td></td><td>2.9</td><td>1.8</td><td>1.0</td><td>.50</td></tr><tr><td>AC-FT</td><td></td><td>.9</td><td></td><td>.7</td><td>16</td><td>12,280</td><td>9,450</td><td></td><td>2,160</td><td></td><td>603</td><td>376</td><td></td><td>248</td><td>138</td><td>85</td><td>54</td></tr><tr><td>CAL YR</td><td>1968</td><td>TOTAL</td><td></td><td>356.64</td><td></td><td>MEAN .97</td><td>MAX</td><td>75</td><td></td><td>MIN</td><td>0</td><td>AC-FT</td><td></td><td>707</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969</td><td>TOTAL</td><td></td><td>12,808.30</td><td></td><td>MEAN 35.1</td><td>MAX</td><td>2,400</td><td></td><td>MIN</td><td>0</td><td>AC-FT</td><td></td><td>25,400</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>PEAK DISCHARGE</td><td></td><td>(BASE, 90</td><td>CFS)</td><td></td><td></td><td></td><td></td><td colspan=\"6\">NOTE. - -1 gage-height record Jan. 26 to</td></tr><tr><td>DATE</td><td>TIME</td><td>G.H.</td><td></td><td>DISCHARGE</td><td></td><td>DATE</td><td>TIME</td><td>G.H.</td><td>DISCHARGE</td><td></td><td></td><td>Feb. 5,</td><td>Feb.</td><td>24 to</td><td>Sept. 30.</td><td></td><td></td></tr><tr><td>1 -14</td><td>0600</td><td>2.70</td><td></td><td>116</td><td></td><td>2 - 6</td><td>0400</td><td>7.68</td><td></td><td>1,960</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 -21</td><td>0600</td><td>5.83</td><td></td><td>1,770</td><td></td><td>2 -15</td><td>1800</td><td>4.98</td><td></td><td>105</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 -25</td><td>0700</td><td>a12.72</td><td></td><td>8,400</td><td></td><td>2 -25</td><td>b0100 a12,3</td><td></td><td></td><td>4,600</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\na From floodmarks,\nb Estimated,",
+                "embed": "# 11-1105. HOPPER CREEK NEAR PIRU, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th></th><th>OCT</th><th></th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th></th><th>MAR</th><th></th><th>APR</th><th>MAY</th><th></th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>40</td><td></td><td>80</td><td></td><td>16</td><td>7.6</td><td></td><td>4.8</td><td>2.9</td><td>1.8</td><td>.99</td></tr><tr><td>2</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>35</td><td></td><td>76</td><td></td><td>15</td><td>7.6</td><td></td><td>4.8</td><td>2.9</td><td>1.7</td><td>.98</td></tr><tr><td>3</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>30</td><td></td><td>68</td><td></td><td>15</td><td>7.7</td><td></td><td>4.8</td><td>2.9</td><td>1.7</td><td>.96</td></tr><tr><td>4</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.15</td><td>20</td><td></td><td>67</td><td></td><td>14</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.7</td><td>.94</td></tr><tr><td>5</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>50</td><td></td><td>62</td><td></td><td>14</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.6</td><td>.92</td></tr><tr><td>6</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>452</td><td></td><td>56</td><td></td><td>13</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.6</td><td>.90</td></tr><tr><td>7</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>80</td><td></td><td>50</td><td></td><td>12</td><td>7.5</td><td></td><td>4.6</td><td>3.0</td><td>1.6</td><td>.87</td></tr><tr><td>8</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>53</td><td></td><td>47</td><td></td><td>12</td><td>7.3</td><td></td><td>4.6</td><td>2.9</td><td>1.5</td><td>.85</td></tr><tr><td>9</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>46</td><td></td><td>44</td><td></td><td>11</td><td>7.0</td><td></td><td>4.6</td><td>2.7</td><td>1.5</td><td>.88</td></tr><tr><td>10</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>41</td><td></td><td>41</td><td></td><td>11</td><td>6.8</td><td></td><td>4.6</td><td>2.6</td><td>1.5</td><td>.91</td></tr><tr><td>11</td><td>0</td><td></td><td>0</td><td></td><td>.20</td><td>.21</td><td>35</td><td></td><td>39</td><td></td><td>10</td><td>6.6</td><td></td><td>4.6</td><td>2.4</td><td>1.4</td><td>.94</td></tr><tr><td>12</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>34</td><td></td><td>36</td><td></td><td>10</td><td>6.3</td><td></td><td>4.5</td><td>2.3</td><td>1.4</td><td>.97</td></tr><tr><td>13</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.67</td><td>29</td><td></td><td>34</td><td></td><td>10</td><td>6.2</td><td></td><td>4.5</td><td>2.1</td><td>1.4</td><td>.98</td></tr><tr><td>14</td><td></td><td>.45</td><td>0</td><td></td><td>.10</td><td>28</td><td>25</td><td></td><td>32</td><td></td><td>9.1</td><td>6.1</td><td></td><td>4.4</td><td>2.0</td><td>1.4</td><td>.99</td></tr><tr><td>15</td><td>0</td><td></td><td></td><td>.35</td><td>.52</td><td>2.2</td><td>34</td><td></td><td>30</td><td></td><td>9.0</td><td>5.9</td><td></td><td>4.4</td><td>2.0</td><td>1.4</td><td>1.0</td></tr><tr><td>16</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>1.2</td><td>31</td><td></td><td>27</td><td></td><td>8.9</td><td>5.8</td><td></td><td>4.3</td><td>2.0</td><td>1.4</td><td>1.1</td></tr><tr><td>17</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>.90</td><td>26</td><td></td><td>25</td><td></td><td>8.8</td><td>5.7</td><td></td><td>4.3</td><td>2.0</td><td>1.4</td><td>1.1</td></tr><tr><td>18</td><td>0</td><td></td><td>0</td><td></td><td>.15</td><td>2.2</td><td>26</td><td></td><td>24</td><td></td><td>8.7</td><td>5.6</td><td></td><td>4.2</td><td>1.9</td><td>1.4</td><td>1.1</td></tr><tr><td>19</td><td>0</td><td></td><td>0</td><td></td><td>.15</td><td>230</td><td>27</td><td></td><td>24</td><td></td><td>8.6</td><td>5.4</td><td></td><td>4.1</td><td>1.9</td><td>1.4</td><td>1.1</td></tr><tr><td>20</td><td>0</td><td></td><td>0</td><td></td><td>.21</td><td>119</td><td>27</td><td></td><td>23</td><td></td><td>8.5</td><td>5.4</td><td></td><td>4.0</td><td>1.9</td><td>1.3</td><td>1.0</td></tr><tr><td>21</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>734</td><td>26</td><td></td><td>22</td><td></td><td>8.4</td><td>5.3</td><td></td><td>4.0</td><td>1.9</td><td>1.3</td><td>1.0</td></tr><tr><td>22</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>180</td><td>31</td><td></td><td>21</td><td></td><td>8.3</td><td>5.3</td><td></td><td>3.9</td><td>1.8</td><td>1.3</td><td>1.0</td></tr><tr><td>23</td><td>0</td><td></td><td>0</td><td></td><td>.12</td><td>108</td><td>494</td><td></td><td>20</td><td></td><td>8.2</td><td>5.2</td><td></td><td>3.8</td><td>1.8</td><td>1.2</td><td>.93</td></tr><tr><td>24</td><td>0</td><td></td><td>0</td><td></td><td>.12</td><td>369</td><td>900</td><td></td><td>20</td><td></td><td>8.1</td><td>5.2</td><td></td><td>3.7</td><td>1.8</td><td>1.2</td><td>.86</td></tr><tr><td>25</td><td>0</td><td></td><td>0</td><td></td><td>.54</td><td>2,400</td><td>1,500</td><td></td><td>19</td><td></td><td>8.0</td><td>5.1</td><td></td><td>3.6</td><td>1.8</td><td>1.1</td><td>.79</td></tr><tr><td>26</td><td>0</td><td></td><td>0</td><td></td><td>2.4</td><td>1,660</td><td>420</td><td></td><td>18</td><td></td><td>7.9</td><td>5.0</td><td></td><td>3.4</td><td>1.9</td><td>1.1</td><td>.72</td></tr><tr><td>27</td><td>0</td><td></td><td>0</td><td></td><td>.82</td><td>140</td><td>160</td><td></td><td>18</td><td></td><td>7.8</td><td>5.0</td><td></td><td>3.3</td><td>1.9</td><td>1.1</td><td>.65</td></tr><tr><td>28</td><td>0</td><td></td><td>0</td><td></td><td>.59</td><td>60</td><td>90</td><td></td><td>17</td><td></td><td>7.7</td><td>5.0</td><td></td><td>3.2</td><td>1.9</td><td>1.1</td><td>.58</td></tr><tr><td>29</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>55</td><td></td><td></td><td>17</td><td></td><td>7.6</td><td>4.9</td><td></td><td>3.0</td><td>1.9</td><td>1.1</td><td>.51</td></tr><tr><td>30</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>50</td><td></td><td></td><td>17</td><td></td><td>7.6</td><td>4.9</td><td></td><td>2.9</td><td>1.9</td><td>1.0</td><td>.50</td></tr><tr><td>31</td><td>0</td><td></td><td></td><td></td><td>.28</td><td>47</td><td></td><td></td><td>16</td><td></td><td></td><td>4.9</td><td></td><td></td><td>1.8</td><td>1.0</td><td></td></tr><tr><td>TOTAL</td><td></td><td>0.45</td><td></td><td>0.35</td><td>7.94</td><td>6,189.54</td><td>4,762</td><td></td><td>1,090</td><td></td><td>304.2</td><td>189.4</td><td></td><td>125.0</td><td>69.8</td><td>42.6</td><td>27.02</td></tr><tr><td>MEAN\nMAX</td><td></td><td>.015\n.45</td><td></td><td>.012\n.35</td><td>.26\n2.4</td><td>200\n2,400</td><td>170\n1,500</td><td></td><td>35.2\n80</td><td></td><td>10.1\n16</td><td>6.11\n7.7</td><td></td><td>4.17\n4.8</td><td>2.25\n3.0</td><td>1.37\n1.8</td><td>.90\n1.1</td></tr><tr><td>MIN</td><td></td><td>0</td><td></td><td>0</td><td>0</td><td>.15</td><td>20</td><td></td><td>16</td><td></td><td>7.6</td><td>4.9</td><td></td><td>2.9</td><td>1.8</td><td>1.0</td><td>.50</td></tr><tr><td>AC-FT</td><td></td><td>.9</td><td></td><td>.7</td><td>16</td><td>12,280</td><td>9,450</td><td></td><td>2,160</td><td></td><td>603</td><td>376</td><td></td><td>248</td><td>138</td><td>85</td><td>54</td></tr><tr><td>CAL YR</td><td>1968</td><td>TOTAL</td><td></td><td>356.64</td><td></td><td>MEAN .97</td><td>MAX</td><td>75</td><td></td><td>MIN</td><td>0</td><td>AC-FT</td><td></td><td>707</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969</td><td>TOTAL</td><td></td><td>12,808.30</td><td></td><td>MEAN 35.1</td><td>MAX</td><td>2,400</td><td></td><td>MIN</td><td>0</td><td>AC-FT</td><td></td><td>25,400</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>PEAK DISCHARGE</td><td></td><td>(BASE, 90</td><td>CFS)</td><td></td><td></td><td></td><td></td><td colspan=\"6\">NOTE. - -1 gage-height record Jan. 26 to</td></tr><tr><td>DATE</td><td>TIME</td><td>G.H.</td><td></td><td>DISCHARGE</td><td></td><td>DATE</td><td>TIME</td><td>G.H.</td><td>DISCHARGE</td><td></td><td></td><td>Feb. 5,</td><td>Feb.</td><td>24 to</td><td>Sept. 30.</td><td></td><td></td></tr><tr><td>1 -14</td><td>0600</td><td>2.70</td><td></td><td>116</td><td></td><td>2 - 6</td><td>0400</td><td>7.68</td><td></td><td>1,960</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 -21</td><td>0600</td><td>5.83</td><td></td><td>1,770</td><td></td><td>2 -15</td><td>1800</td><td>4.98</td><td></td><td>105</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 -25</td><td>0700</td><td>a12.72</td><td></td><td>8,400</td><td></td><td>2 -25</td><td>b0100 a12,3</td><td></td><td></td><td>4,600</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\na From floodmarks,\nb Estimated,",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05460778157336792,
+                            "top": 0.35137225442112474,
+                            "width": 0.8737843091315483,
+                            "height": 0.5049827347023043,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DAY</th><th></th><th>OCT</th><th></th><th>NOV</th><th>DEC</th><th>JAN</th><th>FEB</th><th></th><th>MAR</th><th></th><th>APR</th><th>MAY</th><th></th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>40</td><td></td><td>80</td><td></td><td>16</td><td>7.6</td><td></td><td>4.8</td><td>2.9</td><td>1.8</td><td>.99</td></tr><tr><td>2</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>35</td><td></td><td>76</td><td></td><td>15</td><td>7.6</td><td></td><td>4.8</td><td>2.9</td><td>1.7</td><td>.98</td></tr><tr><td>3</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>30</td><td></td><td>68</td><td></td><td>15</td><td>7.7</td><td></td><td>4.8</td><td>2.9</td><td>1.7</td><td>.96</td></tr><tr><td>4</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.15</td><td>20</td><td></td><td>67</td><td></td><td>14</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.7</td><td>.94</td></tr><tr><td>5</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>50</td><td></td><td>62</td><td></td><td>14</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.6</td><td>.92</td></tr><tr><td>6</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.18</td><td>452</td><td></td><td>56</td><td></td><td>13</td><td>7.7</td><td></td><td>4.7</td><td>3.0</td><td>1.6</td><td>.90</td></tr><tr><td>7</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>80</td><td></td><td>50</td><td></td><td>12</td><td>7.5</td><td></td><td>4.6</td><td>3.0</td><td>1.6</td><td>.87</td></tr><tr><td>8</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>53</td><td></td><td>47</td><td></td><td>12</td><td>7.3</td><td></td><td>4.6</td><td>2.9</td><td>1.5</td><td>.85</td></tr><tr><td>9</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>46</td><td></td><td>44</td><td></td><td>11</td><td>7.0</td><td></td><td>4.6</td><td>2.7</td><td>1.5</td><td>.88</td></tr><tr><td>10</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>41</td><td></td><td>41</td><td></td><td>11</td><td>6.8</td><td></td><td>4.6</td><td>2.6</td><td>1.5</td><td>.91</td></tr><tr><td>11</td><td>0</td><td></td><td>0</td><td></td><td>.20</td><td>.21</td><td>35</td><td></td><td>39</td><td></td><td>10</td><td>6.6</td><td></td><td>4.6</td><td>2.4</td><td>1.4</td><td>.94</td></tr><tr><td>12</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.21</td><td>34</td><td></td><td>36</td><td></td><td>10</td><td>6.3</td><td></td><td>4.5</td><td>2.3</td><td>1.4</td><td>.97</td></tr><tr><td>13</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>.67</td><td>29</td><td></td><td>34</td><td></td><td>10</td><td>6.2</td><td></td><td>4.5</td><td>2.1</td><td>1.4</td><td>.98</td></tr><tr><td>14</td><td></td><td>.45</td><td>0</td><td></td><td>.10</td><td>28</td><td>25</td><td></td><td>32</td><td></td><td>9.1</td><td>6.1</td><td></td><td>4.4</td><td>2.0</td><td>1.4</td><td>.99</td></tr><tr><td>15</td><td>0</td><td></td><td></td><td>.35</td><td>.52</td><td>2.2</td><td>34</td><td></td><td>30</td><td></td><td>9.0</td><td>5.9</td><td></td><td>4.4</td><td>2.0</td><td>1.4</td><td>1.0</td></tr><tr><td>16</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>1.2</td><td>31</td><td></td><td>27</td><td></td><td>8.9</td><td>5.8</td><td></td><td>4.3</td><td>2.0</td><td>1.4</td><td>1.1</td></tr><tr><td>17</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>.90</td><td>26</td><td></td><td>25</td><td></td><td>8.8</td><td>5.7</td><td></td><td>4.3</td><td>2.0</td><td>1.4</td><td>1.1</td></tr><tr><td>18</td><td>0</td><td></td><td>0</td><td></td><td>.15</td><td>2.2</td><td>26</td><td></td><td>24</td><td></td><td>8.7</td><td>5.6</td><td></td><td>4.2</td><td>1.9</td><td>1.4</td><td>1.1</td></tr><tr><td>19</td><td>0</td><td></td><td>0</td><td></td><td>.15</td><td>230</td><td>27</td><td></td><td>24</td><td></td><td>8.6</td><td>5.4</td><td></td><td>4.1</td><td>1.9</td><td>1.4</td><td>1.1</td></tr><tr><td>20</td><td>0</td><td></td><td>0</td><td></td><td>.21</td><td>119</td><td>27</td><td></td><td>23</td><td></td><td>8.5</td><td>5.4</td><td></td><td>4.0</td><td>1.9</td><td>1.3</td><td>1.0</td></tr><tr><td>21</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>734</td><td>26</td><td></td><td>22</td><td></td><td>8.4</td><td>5.3</td><td></td><td>4.0</td><td>1.9</td><td>1.3</td><td>1.0</td></tr><tr><td>22</td><td>0</td><td></td><td>0</td><td></td><td>.18</td><td>180</td><td>31</td><td></td><td>21</td><td></td><td>8.3</td><td>5.3</td><td></td><td>3.9</td><td>1.8</td><td>1.3</td><td>1.0</td></tr><tr><td>23</td><td>0</td><td></td><td>0</td><td></td><td>.12</td><td>108</td><td>494</td><td></td><td>20</td><td></td><td>8.2</td><td>5.2</td><td></td><td>3.8</td><td>1.8</td><td>1.2</td><td>.93</td></tr><tr><td>24</td><td>0</td><td></td><td>0</td><td></td><td>.12</td><td>369</td><td>900</td><td></td><td>20</td><td></td><td>8.1</td><td>5.2</td><td></td><td>3.7</td><td>1.8</td><td>1.2</td><td>.86</td></tr><tr><td>25</td><td>0</td><td></td><td>0</td><td></td><td>.54</td><td>2,400</td><td>1,500</td><td></td><td>19</td><td></td><td>8.0</td><td>5.1</td><td></td><td>3.6</td><td>1.8</td><td>1.1</td><td>.79</td></tr><tr><td>26</td><td>0</td><td></td><td>0</td><td></td><td>2.4</td><td>1,660</td><td>420</td><td></td><td>18</td><td></td><td>7.9</td><td>5.0</td><td></td><td>3.4</td><td>1.9</td><td>1.1</td><td>.72</td></tr><tr><td>27</td><td>0</td><td></td><td>0</td><td></td><td>.82</td><td>140</td><td>160</td><td></td><td>18</td><td></td><td>7.8</td><td>5.0</td><td></td><td>3.3</td><td>1.9</td><td>1.1</td><td>.65</td></tr><tr><td>28</td><td>0</td><td></td><td>0</td><td></td><td>.59</td><td>60</td><td>90</td><td></td><td>17</td><td></td><td>7.7</td><td>5.0</td><td></td><td>3.2</td><td>1.9</td><td>1.1</td><td>.58</td></tr><tr><td>29</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>55</td><td></td><td></td><td>17</td><td></td><td>7.6</td><td>4.9</td><td></td><td>3.0</td><td>1.9</td><td>1.1</td><td>.51</td></tr><tr><td>30</td><td>0</td><td></td><td>0</td><td></td><td>.40</td><td>50</td><td></td><td></td><td>17</td><td></td><td>7.6</td><td>4.9</td><td></td><td>2.9</td><td>1.9</td><td>1.0</td><td>.50</td></tr><tr><td>31</td><td>0</td><td></td><td></td><td></td><td>.28</td><td>47</td><td></td><td></td><td>16</td><td></td><td></td><td>4.9</td><td></td><td></td><td>1.8</td><td>1.0</td><td></td></tr><tr><td>TOTAL</td><td></td><td>0.45</td><td></td><td>0.35</td><td>7.94</td><td>6,189.54</td><td>4,762</td><td></td><td>1,090</td><td></td><td>304.2</td><td>189.4</td><td></td><td>125.0</td><td>69.8</td><td>42.6</td><td>27.02</td></tr><tr><td>MEAN\nMAX</td><td></td><td>.015\n.45</td><td></td><td>.012\n.35</td><td>.26\n2.4</td><td>200\n2,400</td><td>170\n1,500</td><td></td><td>35.2\n80</td><td></td><td>10.1\n16</td><td>6.11\n7.7</td><td></td><td>4.17\n4.8</td><td>2.25\n3.0</td><td>1.37\n1.8</td><td>.90\n1.1</td></tr><tr><td>MIN</td><td></td><td>0</td><td></td><td>0</td><td>0</td><td>.15</td><td>20</td><td></td><td>16</td><td></td><td>7.6</td><td>4.9</td><td></td><td>2.9</td><td>1.8</td><td>1.0</td><td>.50</td></tr><tr><td>AC-FT</td><td></td><td>.9</td><td></td><td>.7</td><td>16</td><td>12,280</td><td>9,450</td><td></td><td>2,160</td><td></td><td>603</td><td>376</td><td></td><td>248</td><td>138</td><td>85</td><td>54</td></tr><tr><td>CAL YR</td><td>1968</td><td>TOTAL</td><td></td><td>356.64</td><td></td><td>MEAN .97</td><td>MAX</td><td>75</td><td></td><td>MIN</td><td>0</td><td>AC-FT</td><td></td><td>707</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969</td><td>TOTAL</td><td></td><td>12,808.30</td><td></td><td>MEAN 35.1</td><td>MAX</td><td>2,400</td><td></td><td>MIN</td><td>0</td><td>AC-FT</td><td></td><td>25,400</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>PEAK DISCHARGE</td><td></td><td>(BASE, 90</td><td>CFS)</td><td></td><td></td><td></td><td></td><td colspan=\"6\">NOTE. - -1 gage-height record Jan. 26 to</td></tr><tr><td>DATE</td><td>TIME</td><td>G.H.</td><td></td><td>DISCHARGE</td><td></td><td>DATE</td><td>TIME</td><td>G.H.</td><td>DISCHARGE</td><td></td><td></td><td>Feb. 5,</td><td>Feb.</td><td>24 to</td><td>Sept. 30.</td><td></td><td></td></tr><tr><td>1 -14</td><td>0600</td><td>2.70</td><td></td><td>116</td><td></td><td>2 - 6</td><td>0400</td><td>7.68</td><td></td><td>1,960</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 -21</td><td>0600</td><td>5.83</td><td></td><td>1,770</td><td></td><td>2 -15</td><td>1800</td><td>4.98</td><td></td><td>105</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 -25</td><td>0700</td><td>a12.72</td><td></td><td>8,400</td><td></td><td>2 -25</td><td>b0100 a12,3</td><td></td><td></td><td>4,600</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0736331569664903,
+                            "top": 0.867547534643893,
+                            "width": 0.1371252204585538,
+                            "height": 0.017402513696422817,
+                            "page": 1
+                        },
+                        "content": "a From floodmarks,\nb Estimated,",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

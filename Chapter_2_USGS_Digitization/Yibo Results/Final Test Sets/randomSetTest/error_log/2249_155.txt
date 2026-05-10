@@ -1,0 +1,34 @@
+```json
+{
+    "Watersource_Name": "Kings River",
+    "Actual_County": "Fresno",
+    "Inferred_County": "Fresno",
+    "Location": "near Sanger, California",
+    "Townships_Ranges_Sections": ["T. 10 N., R. 26 E., Sec. 20"],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "second-feet",
+    "Actual_Latitude": 36.6333,
+    "Actual_Longitude": -119.1333,
+    "Inferred_Latitude": null,
+    "Inferred_Longitude": null,
+    "Dates_of_Recording": "10/01/1911-09/30/1912",
+    "Water_Type": "Stream Discharge",
+    "KeyTerms": ["Daily discharge", "Kings River", "stream flow", "second-feet"]
+},
+{
+    "Watersource_Name": "Dinkey Creek",
+    "Actual_County": null,
+    "Inferred_County": "Tulare",
+    "Location": "above trail bridge at Dinkey Creek ranger station, Sierra National Forest",
+    "Townships_Ranges_Sections": ["NE 1 sec. 20, T. 10 S., R. 26 E."],
+    "Temporal_Resolution": null,
+    "Units_Of_Measurement": null,
+    "Actual_Latitude": 36.5,
+    "Actual_Longitude": -118.8333,
+    "Inferred_Latitude": null,
+    "Inferred_Longitude": null,
+    "Dates_of_Recording": null,
+    "Water_Type": null,
+    "KeyTerms": ["Dinkey Creek", "Sierra National Forest"]
+}
+```

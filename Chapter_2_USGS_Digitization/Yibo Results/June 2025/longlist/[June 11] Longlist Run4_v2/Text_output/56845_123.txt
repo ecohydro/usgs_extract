@@ -1,0 +1,18 @@
+```json
+{
+    "Watersource_Name": "Little Truckee River Below Boca Dam",
+    "County": "Nevada County",
+    "Location": {
+        "Latitude": 39.387,
+        "Longitude": -120.094
+    },
+    "Townships_Ranges_Sections": ["NE&NW4 sec. 28, T.18 N., R.12 E."],
+    "Temporal_Resolution": "daily",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second (ft3/s)",
+        "Volume": "acre-feet (acre-ft)"
+    },
+    "Dates_of_Recording": "January 1939 to current year",
+    "Water_Type": "Stream discharge"
+}
+```

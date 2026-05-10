@@ -1,0 +1,146 @@
+{
+    "job_id": "036baf36-f6d8-47ed-b439-86499ceaee09",
+    "duration": 4.2158308029174805,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/6280cd63-8012-4ea8-b152-24e6cbea4101?AWSAccessKeyId=ASIA2UOK6OVBDFIJIDVF&Signature=%2BwhQsigB7T93eYiOeI0W8aiCShs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIE2O04DN1%2B%2FET46sY9dMD2otw%2F%2BMfeSNr7LcrZe6pl9fAiAzZZPD0CG4oQxWuqVKGbgowRQD3dWWVGJ2DTHpmmO%2B8iqLBQhyEAAaDDczMTEwNjkzMjAzNCIMer3jEpF%2FvAK019cUKugETgM%2BIkSgOA7aHvXp30AydmtBD9XWWZcCVa2zZv4A7Z4HeEHL%2BFEZ%2FgGIJkLskJMzowv9yFT6Z8eKrFoxkw4slBNQeNEtzWPAFMcJCqsyOQxllTPeukLtJaXOg18PUc6Q4Q84RadyDl7LQRA76fA8pHyoil3FFbTpsqyrNneOI7yJ76eoPSomPYa4vTxRjbRBpa9KBjWn59%2FQX4iHV6hZU8m6d2gMb6YyCNb08CJwTaeQFZQBv%2BJLmMD1ErE0ISgaEb6Y1%2F4J0dfOPNsJTePYn11jandDb3ZxQnEdyHntuVNFj%2BbncW1qgtslzp2ySVV2VC2G3vAgaui5rHzAAjy36rS7FAgQoUbv%2BjDe4q99XWMa1w%2B8TYlEis6kYHhyWv9iEljQ1I%2BPlBj2RMmOTfotYew%2BtJgrr3kZxQiO3bX%2FF%2BYd5nLEs1m8X42MS7Vdwra%2FzwWK3zw9m69mNQUc%2FoJ4rU8%2BpDJJYGcdAI1FMOwW7%2BSu7QOZEwkvUzc0tnTyK%2FPdaDCH7SJuQN7ZgT%2BdAzh%2BQBdxentUZgbeGdC6seUO1EVftWUuZQiWVttZlEeSFDbW4i0z2kKUHSLC2L%2FQumTfaY%2BBqygsZ3a%2FUVqWUSC0DNvA%2BjUCxXEHT7hQHjqN1iYYdnY9AwKE69gAr12OiYAQFYNQ82we0sOR%2FN7kvEKaV%2FJi1KCBTo7%2FyOF28SiODNOjabYnTkFLrzYVr%2FjWczn9vdeQJopL6p11rcRI0x8CSQasxhP7HyXtSV6Q3fG65JpxROfm8lolODDn%2BlgVpaAVgnAwkqMXtW5uSamN8nR4iGrG60KXzd%2BjQTDuhqa6BjqcAaL8yEmdjJIzs%2BpDuYBNFEFmC3LnG%2B8oP%2BhhJWMT2bP1mQKUWQtNAENcFhyql%2FNYtYrULUHh%2FzZB9Bsm3VhkNbhHXDxhoa%2B4%2BGvVMIJcYKWN1OF%2B38MWN1EMxR4TIe0MCzqk%2FGc3L2BAnDBl8ZFexUeWGuF%2FOHqyfZkxqi0SrdG3M00VaQFz6Pz4MZAhnxMg1YWLQ0Au%2FpXEQmNg8g%3D%3D&Expires=1732874627",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SACRAMENTO RIVER BASIN\n\n# SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF.\n\nLOCATION.-Water-stage recorder in Jimeno land grant, Colusa County, 1,500 feet below Wilkins Slough and 6 miles southeast of Grimes. (Location formerly published in error.)\n\nRECORDS AVAILABLE. - August 1931 to October 1932 (low-water records only). EXTREMES.-Minimum discharge during summer 1932, 895 second-feet Aug. 11. 1931-32: Minimum discharge, 100 second-feet Aug. 1, 1931.\n\n- REMARKS.-Records good. Storage, regulation, and many diversions above\nstation.\n\nDischarge, in second-feet, 1931-32",
+                "embed": "# SACRAMENTO RIVER BASIN\n\n# SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF.\n\nLOCATION.-Water-stage recorder in Jimeno land grant, Colusa County, 1,500 feet below Wilkins Slough and 6 miles southeast of Grimes. (Location formerly published in error.)\n\nRECORDS AVAILABLE. - August 1931 to October 1932 (low-water records only). EXTREMES.-Minimum discharge during summer 1932, 895 second-feet Aug. 11. 1931-32: Minimum discharge, 100 second-feet Aug. 1, 1931.\n\n- REMARKS.-Records good. Storage, regulation, and many diversions above\nstation.\n\nDischarge, in second-feet, 1931-32",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.31523750771128933,
+                            "top": 0.05792098197161488,
+                            "width": 0.32634176434299816,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "SACRAMENTO RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.83775447254781,
+                            "top": 0.05293440736478711,
+                            "width": 0.048118445404071564,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "269",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2418260333127699,
+                            "top": 0.08707326428845416,
+                            "width": 0.4700801974090068,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07279457125231338,
+                            "top": 0.10663598005370158,
+                            "width": 0.8149290561381863,
+                            "height": 0.04104334484081319,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-Water-stage recorder in Jimeno land grant, Colusa County, 1,500 feet below Wilkins Slough and 6 miles southeast of Grimes. (Location formerly published in error.)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07217766810610735,
+                            "top": 0.14537782892213272,
+                            "width": 0.8124614435533621,
+                            "height": 0.04065976217874952,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE. - August 1931 to October 1932 (low-water records only). EXTREMES.-Minimum discharge during summer 1932, 895 second-feet Aug. 11. 1931-32: Minimum discharge, 100 second-feet Aug. 1, 1931.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.07217766810610735,
+                            "top": 0.1837360951285002,
+                            "width": 0.8143121529919802,
+                            "height": 0.025700038358266206,
+                            "page": 1
+                        },
+                        "content": "- REMARKS.-Records good. Storage, regulation, and many diversions above\nstation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3183220234423196,
+                            "top": 0.2140391254315305,
+                            "width": 0.33189389265885255,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "Discharge, in second-feet, 1931-32",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF. (cont.)\n\n<table><tr><th></th><th>Day</th><th>Oct.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>Oct.</th></tr><tr><td>1</td><td></td><td>2,430</td><td>7,470</td><td>6,720</td><td>2, 360</td><td>100</td><td>1, 140</td><td>2, 650</td></tr><tr><td>2</td><td></td><td>2,520</td><td>7,400</td><td>6,480</td><td>2,220</td><td>1,060</td><td>1,160</td><td>2, 650</td></tr><tr><td>3</td><td></td><td>2,430</td><td>8,320</td><td>6,300</td><td>2,180</td><td>1,020</td><td>1,200</td><td>2,650</td></tr><tr><td>4</td><td></td><td>2,380</td><td>11,000</td><td>6,060</td><td>2,140</td><td>982</td><td>1,240</td><td>2,700</td></tr><tr><td>5</td><td></td><td>2,380</td><td>12,500</td><td>6,060</td><td>2,040</td><td>965</td><td>1,200</td><td>2,650</td></tr><tr><td>6</td><td></td><td>2,380</td><td>12,000</td><td>5,940</td><td>2,000</td><td>948</td><td>1,200</td><td>2,600</td></tr><tr><td>7</td><td></td><td>2,430</td><td>11,500</td><td>5,700</td><td>,910</td><td>965</td><td>1,200</td><td>2,600</td></tr><tr><td>8</td><td></td><td>2,380</td><td>11,000</td><td>5,400</td><td>1,820</td><td>965</td><td>1,240</td><td>2,600</td></tr><tr><td>9</td><td></td><td>2,380</td><td>10,600</td><td>5,100</td><td>1,680</td><td>948</td><td>1,320</td><td>2,650</td></tr><tr><td>10</td><td></td><td>2,430</td><td>10,200</td><td>4,830</td><td>730</td><td>948</td><td>1,360</td><td>2,700</td></tr><tr><td>11</td><td></td><td>2,480</td><td>10,200</td><td>4,560</td><td>1,730</td><td>930</td><td>1,440</td><td>2,700</td></tr><tr><td>12</td><td></td><td>2,520</td><td>10,400</td><td>4,890</td><td>1,560</td><td>948</td><td>1,520</td><td>2,750</td></tr><tr><td>13</td><td></td><td>2,560</td><td>10,400</td><td>4,220</td><td>1,480</td><td>982</td><td>1,640</td><td>2,750</td></tr><tr><td>14</td><td></td><td>2,610</td><td>10,200</td><td>3,950</td><td>1,440</td><td>1,000</td><td>1,820</td><td>2,800</td></tr><tr><td>15</td><td></td><td>2,660</td><td>10,200</td><td>3,800</td><td>1,440</td><td>1,000</td><td>1,910</td><td>2,800</td></tr><tr><td>16</td><td></td><td>2,660</td><td>9,850</td><td>3,550</td><td>1,440</td><td>1,040</td><td>2,000</td><td>2,800</td></tr><tr><td>17</td><td></td><td>2,700</td><td>9,300</td><td>3,400</td><td>1,440</td><td>1,060</td><td>2,140</td><td>2,800</td></tr><tr><td>18</td><td></td><td>2,750</td><td>8,880</td><td>3,450</td><td>1,440</td><td>1,040</td><td>2,270</td><td>2,750</td></tr><tr><td>19</td><td></td><td>2,800</td><td>8,560</td><td>3,450</td><td>1,400</td><td>1,080</td><td>2,450</td><td>2,700</td></tr><tr><td>20</td><td></td><td>2,900</td><td>8,170</td><td>3,350</td><td>1,360</td><td>1,060</td><td>2,550</td><td>2,750</td></tr><tr><td>21</td><td></td><td>2,900</td><td>7,890</td><td>3,250</td><td>1,320</td><td>1,060</td><td>2,650</td><td>2,750</td></tr><tr><td>22</td><td></td><td>2,850</td><td>7,890</td><td>3,100</td><td>1,320</td><td>1,080</td><td>2,750</td><td>2,750</td></tr><tr><td>23</td><td></td><td>2,800</td><td>8,240</td><td>2,950</td><td>1,240</td><td>1,060</td><td>2,750</td><td>2,750</td></tr><tr><td>24</td><td></td><td>2,950</td><td>7,890.</td><td>2,800</td><td>1,240</td><td>1,060</td><td>2,750</td><td>2,850</td></tr><tr><td>25</td><td></td><td>3,780</td><td>7,400</td><td>2,750</td><td>1,320</td><td>1,100</td><td>2,700</td><td>2,850</td></tr><tr><td>26</td><td></td><td>4,050</td><td>6,910</td><td>2,700</td><td>1,160</td><td>1,080</td><td>2,750</td><td>2,850</td></tr><tr><td>27</td><td></td><td>3,940</td><td>6,540</td><td>650</td><td>1,120</td><td>1,080</td><td>2,700</td><td>2,800</td></tr><tr><td>28</td><td></td><td>4,050</td><td>6,300</td><td>2, 550</td><td>1,160</td><td>1,100</td><td>2,650</td><td>2,750</td></tr><tr><td>29</td><td></td><td>3,880</td><td>6,180</td><td>2,500</td><td>1,160</td><td>1,140</td><td>2,650</td><td>2,750</td></tr><tr><td>30</td><td></td><td>3,660</td><td>6,300</td><td>2,450</td><td>1,200</td><td>1,140</td><td>2,650</td><td>2,800</td></tr><tr><td>31</td><td></td><td>3,560</td><td>6,780</td><td></td><td>1,120</td><td>1,140</td><td></td><td>2,850</td></tr></table>",
+                "embed": "# SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF. (cont.)\n\n<table><tr><th></th><th>Day</th><th>Oct.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>Oct.</th></tr><tr><td>1</td><td></td><td>2,430</td><td>7,470</td><td>6,720</td><td>2, 360</td><td>100</td><td>1, 140</td><td>2, 650</td></tr><tr><td>2</td><td></td><td>2,520</td><td>7,400</td><td>6,480</td><td>2,220</td><td>1,060</td><td>1,160</td><td>2, 650</td></tr><tr><td>3</td><td></td><td>2,430</td><td>8,320</td><td>6,300</td><td>2,180</td><td>1,020</td><td>1,200</td><td>2,650</td></tr><tr><td>4</td><td></td><td>2,380</td><td>11,000</td><td>6,060</td><td>2,140</td><td>982</td><td>1,240</td><td>2,700</td></tr><tr><td>5</td><td></td><td>2,380</td><td>12,500</td><td>6,060</td><td>2,040</td><td>965</td><td>1,200</td><td>2,650</td></tr><tr><td>6</td><td></td><td>2,380</td><td>12,000</td><td>5,940</td><td>2,000</td><td>948</td><td>1,200</td><td>2,600</td></tr><tr><td>7</td><td></td><td>2,430</td><td>11,500</td><td>5,700</td><td>,910</td><td>965</td><td>1,200</td><td>2,600</td></tr><tr><td>8</td><td></td><td>2,380</td><td>11,000</td><td>5,400</td><td>1,820</td><td>965</td><td>1,240</td><td>2,600</td></tr><tr><td>9</td><td></td><td>2,380</td><td>10,600</td><td>5,100</td><td>1,680</td><td>948</td><td>1,320</td><td>2,650</td></tr><tr><td>10</td><td></td><td>2,430</td><td>10,200</td><td>4,830</td><td>730</td><td>948</td><td>1,360</td><td>2,700</td></tr><tr><td>11</td><td></td><td>2,480</td><td>10,200</td><td>4,560</td><td>1,730</td><td>930</td><td>1,440</td><td>2,700</td></tr><tr><td>12</td><td></td><td>2,520</td><td>10,400</td><td>4,890</td><td>1,560</td><td>948</td><td>1,520</td><td>2,750</td></tr><tr><td>13</td><td></td><td>2,560</td><td>10,400</td><td>4,220</td><td>1,480</td><td>982</td><td>1,640</td><td>2,750</td></tr><tr><td>14</td><td></td><td>2,610</td><td>10,200</td><td>3,950</td><td>1,440</td><td>1,000</td><td>1,820</td><td>2,800</td></tr><tr><td>15</td><td></td><td>2,660</td><td>10,200</td><td>3,800</td><td>1,440</td><td>1,000</td><td>1,910</td><td>2,800</td></tr><tr><td>16</td><td></td><td>2,660</td><td>9,850</td><td>3,550</td><td>1,440</td><td>1,040</td><td>2,000</td><td>2,800</td></tr><tr><td>17</td><td></td><td>2,700</td><td>9,300</td><td>3,400</td><td>1,440</td><td>1,060</td><td>2,140</td><td>2,800</td></tr><tr><td>18</td><td></td><td>2,750</td><td>8,880</td><td>3,450</td><td>1,440</td><td>1,040</td><td>2,270</td><td>2,750</td></tr><tr><td>19</td><td></td><td>2,800</td><td>8,560</td><td>3,450</td><td>1,400</td><td>1,080</td><td>2,450</td><td>2,700</td></tr><tr><td>20</td><td></td><td>2,900</td><td>8,170</td><td>3,350</td><td>1,360</td><td>1,060</td><td>2,550</td><td>2,750</td></tr><tr><td>21</td><td></td><td>2,900</td><td>7,890</td><td>3,250</td><td>1,320</td><td>1,060</td><td>2,650</td><td>2,750</td></tr><tr><td>22</td><td></td><td>2,850</td><td>7,890</td><td>3,100</td><td>1,320</td><td>1,080</td><td>2,750</td><td>2,750</td></tr><tr><td>23</td><td></td><td>2,800</td><td>8,240</td><td>2,950</td><td>1,240</td><td>1,060</td><td>2,750</td><td>2,750</td></tr><tr><td>24</td><td></td><td>2,950</td><td>7,890.</td><td>2,800</td><td>1,240</td><td>1,060</td><td>2,750</td><td>2,850</td></tr><tr><td>25</td><td></td><td>3,780</td><td>7,400</td><td>2,750</td><td>1,320</td><td>1,100</td><td>2,700</td><td>2,850</td></tr><tr><td>26</td><td></td><td>4,050</td><td>6,910</td><td>2,700</td><td>1,160</td><td>1,080</td><td>2,750</td><td>2,850</td></tr><tr><td>27</td><td></td><td>3,940</td><td>6,540</td><td>650</td><td>1,120</td><td>1,080</td><td>2,700</td><td>2,800</td></tr><tr><td>28</td><td></td><td>4,050</td><td>6,300</td><td>2, 550</td><td>1,160</td><td>1,100</td><td>2,650</td><td>2,750</td></tr><tr><td>29</td><td></td><td>3,880</td><td>6,180</td><td>2,500</td><td>1,160</td><td>1,140</td><td>2,650</td><td>2,750</td></tr><tr><td>30</td><td></td><td>3,660</td><td>6,300</td><td>2,450</td><td>1,200</td><td>1,140</td><td>2,650</td><td>2,800</td></tr><tr><td>31</td><td></td><td>3,560</td><td>6,780</td><td></td><td>1,120</td><td>1,140</td><td></td><td>2,850</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06905749989909055,
+                            "top": 0.23806880926052454,
+                            "width": 0.8241591409427894,
+                            "height": 0.4005527767039461,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Day</th><th>Oct.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>Oct.</th></tr><tr><td>1</td><td></td><td>2,430</td><td>7,470</td><td>6,720</td><td>2, 360</td><td>100</td><td>1, 140</td><td>2, 650</td></tr><tr><td>2</td><td></td><td>2,520</td><td>7,400</td><td>6,480</td><td>2,220</td><td>1,060</td><td>1,160</td><td>2, 650</td></tr><tr><td>3</td><td></td><td>2,430</td><td>8,320</td><td>6,300</td><td>2,180</td><td>1,020</td><td>1,200</td><td>2,650</td></tr><tr><td>4</td><td></td><td>2,380</td><td>11,000</td><td>6,060</td><td>2,140</td><td>982</td><td>1,240</td><td>2,700</td></tr><tr><td>5</td><td></td><td>2,380</td><td>12,500</td><td>6,060</td><td>2,040</td><td>965</td><td>1,200</td><td>2,650</td></tr><tr><td>6</td><td></td><td>2,380</td><td>12,000</td><td>5,940</td><td>2,000</td><td>948</td><td>1,200</td><td>2,600</td></tr><tr><td>7</td><td></td><td>2,430</td><td>11,500</td><td>5,700</td><td>,910</td><td>965</td><td>1,200</td><td>2,600</td></tr><tr><td>8</td><td></td><td>2,380</td><td>11,000</td><td>5,400</td><td>1,820</td><td>965</td><td>1,240</td><td>2,600</td></tr><tr><td>9</td><td></td><td>2,380</td><td>10,600</td><td>5,100</td><td>1,680</td><td>948</td><td>1,320</td><td>2,650</td></tr><tr><td>10</td><td></td><td>2,430</td><td>10,200</td><td>4,830</td><td>730</td><td>948</td><td>1,360</td><td>2,700</td></tr><tr><td>11</td><td></td><td>2,480</td><td>10,200</td><td>4,560</td><td>1,730</td><td>930</td><td>1,440</td><td>2,700</td></tr><tr><td>12</td><td></td><td>2,520</td><td>10,400</td><td>4,890</td><td>1,560</td><td>948</td><td>1,520</td><td>2,750</td></tr><tr><td>13</td><td></td><td>2,560</td><td>10,400</td><td>4,220</td><td>1,480</td><td>982</td><td>1,640</td><td>2,750</td></tr><tr><td>14</td><td></td><td>2,610</td><td>10,200</td><td>3,950</td><td>1,440</td><td>1,000</td><td>1,820</td><td>2,800</td></tr><tr><td>15</td><td></td><td>2,660</td><td>10,200</td><td>3,800</td><td>1,440</td><td>1,000</td><td>1,910</td><td>2,800</td></tr><tr><td>16</td><td></td><td>2,660</td><td>9,850</td><td>3,550</td><td>1,440</td><td>1,040</td><td>2,000</td><td>2,800</td></tr><tr><td>17</td><td></td><td>2,700</td><td>9,300</td><td>3,400</td><td>1,440</td><td>1,060</td><td>2,140</td><td>2,800</td></tr><tr><td>18</td><td></td><td>2,750</td><td>8,880</td><td>3,450</td><td>1,440</td><td>1,040</td><td>2,270</td><td>2,750</td></tr><tr><td>19</td><td></td><td>2,800</td><td>8,560</td><td>3,450</td><td>1,400</td><td>1,080</td><td>2,450</td><td>2,700</td></tr><tr><td>20</td><td></td><td>2,900</td><td>8,170</td><td>3,350</td><td>1,360</td><td>1,060</td><td>2,550</td><td>2,750</td></tr><tr><td>21</td><td></td><td>2,900</td><td>7,890</td><td>3,250</td><td>1,320</td><td>1,060</td><td>2,650</td><td>2,750</td></tr><tr><td>22</td><td></td><td>2,850</td><td>7,890</td><td>3,100</td><td>1,320</td><td>1,080</td><td>2,750</td><td>2,750</td></tr><tr><td>23</td><td></td><td>2,800</td><td>8,240</td><td>2,950</td><td>1,240</td><td>1,060</td><td>2,750</td><td>2,750</td></tr><tr><td>24</td><td></td><td>2,950</td><td>7,890.</td><td>2,800</td><td>1,240</td><td>1,060</td><td>2,750</td><td>2,850</td></tr><tr><td>25</td><td></td><td>3,780</td><td>7,400</td><td>2,750</td><td>1,320</td><td>1,100</td><td>2,700</td><td>2,850</td></tr><tr><td>26</td><td></td><td>4,050</td><td>6,910</td><td>2,700</td><td>1,160</td><td>1,080</td><td>2,750</td><td>2,850</td></tr><tr><td>27</td><td></td><td>3,940</td><td>6,540</td><td>650</td><td>1,120</td><td>1,080</td><td>2,700</td><td>2,800</td></tr><tr><td>28</td><td></td><td>4,050</td><td>6,300</td><td>2, 550</td><td>1,160</td><td>1,100</td><td>2,650</td><td>2,750</td></tr><tr><td>29</td><td></td><td>3,880</td><td>6,180</td><td>2,500</td><td>1,160</td><td>1,140</td><td>2,650</td><td>2,750</td></tr><tr><td>30</td><td></td><td>3,660</td><td>6,300</td><td>2,450</td><td>1,200</td><td>1,140</td><td>2,650</td><td>2,800</td></tr><tr><td>31</td><td></td><td>3,560</td><td>6,780</td><td></td><td>1,120</td><td>1,140</td><td></td><td>2,850</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF. (cont.)\n\n<table><tr><th>Month</th><th>Maximum</th><th>Minimum</th><th>Mean</th><th>Run-off in\nacre-feet</th></tr><tr><td>1931</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>4, 050</td><td>2, 380</td><td>2,880</td><td>177,000</td></tr><tr><td>1932</td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>12,500</td><td>6,180</td><td>8,920</td><td>548,000</td></tr><tr><td>June</td><td>6, 720</td><td>2,450</td><td>4,150</td><td>247,000</td></tr><tr><td>July</td><td>2,860</td><td>1,120</td><td>1,550</td><td>95,390</td></tr><tr><td>August</td><td>1,140</td><td>930</td><td>1,030</td><td>63,300</td></tr><tr><td>September</td><td>2,750</td><td>1,140</td><td>1,970</td><td>117,000</td></tr><tr><td>October</td><td>2,850</td><td>2,600</td><td>2,740</td><td>168,</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>1, 240, 000</td></tr></table>",
+                "embed": "# SACRAMENTO RIVER BELOW WILKINS SLOUGH, CALIF. (cont.)\n\n<table><tr><th>Month</th><th>Maximum</th><th>Minimum</th><th>Mean</th><th>Run-off in\nacre-feet</th></tr><tr><td>1931</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>4, 050</td><td>2, 380</td><td>2,880</td><td>177,000</td></tr><tr><td>1932</td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>12,500</td><td>6,180</td><td>8,920</td><td>548,000</td></tr><tr><td>June</td><td>6, 720</td><td>2,450</td><td>4,150</td><td>247,000</td></tr><tr><td>July</td><td>2,860</td><td>1,120</td><td>1,550</td><td>95,390</td></tr><tr><td>August</td><td>1,140</td><td>930</td><td>1,030</td><td>63,300</td></tr><tr><td>September</td><td>2,750</td><td>1,140</td><td>1,970</td><td>117,000</td></tr><tr><td>October</td><td>2,850</td><td>2,600</td><td>2,740</td><td>168,</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>1, 240, 000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07053052842212562,
+                            "top": 0.6405104683604239,
+                            "width": 0.8186883661645493,
+                            "height": 0.16841591972933448,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Maximum</th><th>Minimum</th><th>Mean</th><th>Run-off in\nacre-feet</th></tr><tr><td>1931</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>4, 050</td><td>2, 380</td><td>2,880</td><td>177,000</td></tr><tr><td>1932</td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>12,500</td><td>6,180</td><td>8,920</td><td>548,000</td></tr><tr><td>June</td><td>6, 720</td><td>2,450</td><td>4,150</td><td>247,000</td></tr><tr><td>July</td><td>2,860</td><td>1,120</td><td>1,550</td><td>95,390</td></tr><tr><td>August</td><td>1,140</td><td>930</td><td>1,030</td><td>63,300</td></tr><tr><td>September</td><td>2,750</td><td>1,140</td><td>1,970</td><td>117,000</td></tr><tr><td>October</td><td>2,850</td><td>2,600</td><td>2,740</td><td>168,</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>1, 240, 000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

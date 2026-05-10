@@ -1,0 +1,130 @@
+{
+    "job_id": "ea3d679b-fd5d-4dbe-b9e6-c25650cf894d",
+    "duration": 5.415308713912964,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/ce920cf6-3875-4616-b0fc-76c9a838965a?AWSAccessKeyId=ASIA2UOK6OVBE2J7LRZZ&Signature=wKls1DCJr2PXGulpLY8iGKn9wLs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIGJWFZKsqCQyFk7vHWak1KKjk0qUnpjrAnJ7V8gAIObGAiEA%2FQiAVMz5DpgLZMW1J8EpPWJzU4WK4WscLBsbKnWEhlgqiwUIIxAAGgw3MzExMDY5MzIwMzQiDFecNdgEXZt3P96xqSroBCKQ4GknEQiexVfWLczBqshSf09o%2BO0iMWwicuoaXIPzpis%2FJTmitxhGF9ZDzZ3bPj7BAv0vAg%2B2XhGJ7cc%2BvYvQp6poziMzrjaIsfY1p1TvZ%2FAu9czWqG20EMbnaofKVHIIey6oxtc6s6Ix6nsx4sz7XnblvdDbrv8WgkZWD6CkxlVpraHtiwAO6cuak0ns88%2FgxBiV0gQAj8sGM73QK3trE5Ubhk4RMrAhqrWTIIl1TrDWeo2viEImK%2F0DZYj5IUbNYLcNgMKC1b%2Fmc%2FYofhU3sA7OLjfOmRIQLeQByyLO5M%2F9UsYV0w1JkhiMlTn0QqQJQrIXL%2FXxC4eU3RresddiPh9YdQCGVYlRVY6gT%2BocrMqv%2Fessr%2FVn5b%2FwS4GbSgOUUBAvg%2BeF0rqO1RU%2FP9SVLBZFPJHH8nvIYIbrc8mxyIrT6m6E65SvE03FcPM7NO1N%2F2bT0FX7XLmi%2BT37i4U63p0dp1At6JMCFtjdskQ1kh1M9X%2FKFP8iTI7VI%2B5Ek%2F7w9TVvnJtaPFpQXZiQSgWCClsYUaltyNEDgyYGAZcuP7Pvz%2BxF8esjCQrETQpi25mqWfbJV2r%2F051vdx7tESLvSu7sFDszndckGpbgegHQY6iy6ZgnWvlCC3J%2FirYRR%2BF%2B%2B4wBMdsJYJgv1Fml%2BzJq6df2LFOzFhdzgrN8%2FCPD%2FSLHqWlrnvnVnc6S8A6Mi0Gn3kqi7MQvJB%2FvbxKzO0EZulx5vPhT6orGTqKMIn0bG25KPfy30Qh1x51Q6HQhQz3e2w1HWfMw9Tymgc4ptdNYpOtlq%2Falvttm72EWahhifHuL3a7Dp8ww0bPJugY6mwEeH23uYmMnOCfOFRwz6HCFWi9yK3N4yHwFwc%2BpSwDUfWLA5D1zLb9h2darJmLJ2AvMQdtgmtS5Cp7anhoTTetqI6JjcNPDGnj7Y7pZchBNhH4%2FfBVvzVHqfNpm1zhzefrywHo%2FtkO27n9O35V3%2FxPpvU7Cfr2bTq0ow6UuczE8U69ejTKp5gMByEsOft%2Bs%2BaoHNkCHrh%2FYwL5zIg%3D%3D&Expires=1733456072",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.129210042865891,
+                            "top": 0.052571860816944024,
+                            "width": 0.029393753827311696,
+                            "height": 0.014372163388804841,
+                            "page": 1
+                        },
+                        "content": "58",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI.\n\nDischarge measurements of West San Pasqual ditch near Escondido, Cal., during the year ending Sept. 30, 1915.\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td rowspan=\"5\">Jan. 25\nFeb. 7\nMar. 3\n27</td><td></td><td>Feet.</td><td>Sec.-ft.</td><td rowspan=\"5\">Apr. 10\nJuly 7\nAug. 2</td><td rowspan=\"5\">R. W. Day\nF. C. Ebert\ndo</td><td rowspan=\"5\">Feet.\n2.11\n2.27</td><td rowspan=\"5\">Sec.-ft.\n5.8\n5.5\n.0</td></tr><tr><td>F. C. Ebert</td><td>1.93</td><td>5.3</td></tr><tr><td>K. B. Sleppy</td><td>2.01</td><td>6.5</td></tr><tr><td>F. C. Ebert</td><td></td><td>.0</td></tr><tr><td>do</td><td>2.29</td><td>7.2</td></tr></table>\n\nDaily discharge, in second-feet, of West San Pasqual ditch near Escond do, Cal., for the year ending Sept. 30, 1915.",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI.\n\nDischarge measurements of West San Pasqual ditch near Escondido, Cal., during the year ending Sept. 30, 1915.\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td rowspan=\"5\">Jan. 25\nFeb. 7\nMar. 3\n27</td><td></td><td>Feet.</td><td>Sec.-ft.</td><td rowspan=\"5\">Apr. 10\nJuly 7\nAug. 2</td><td rowspan=\"5\">R. W. Day\nF. C. Ebert\ndo</td><td rowspan=\"5\">Feet.\n2.11\n2.27</td><td rowspan=\"5\">Sec.-ft.\n5.8\n5.5\n.0</td></tr><tr><td>F. C. Ebert</td><td>1.93</td><td>5.3</td></tr><tr><td>K. B. Sleppy</td><td>2.01</td><td>6.5</td></tr><tr><td>F. C. Ebert</td><td></td><td>.0</td></tr><tr><td>do</td><td>2.29</td><td>7.2</td></tr></table>\n\nDaily discharge, in second-feet, of West San Pasqual ditch near Escond do, Cal., for the year ending Sept. 30, 1915.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.30067360685854255,
+                            "top": 0.054841149773071106,
+                            "width": 0.4684629516227802,
+                            "height": 0.015506807866868382,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1915, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12798530312308634,
+                            "top": 0.0832072617246596,
+                            "width": 0.8113900796080833,
+                            "height": 0.029500756429652043,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of West San Pasqual ditch near Escondido, Cal., during the year ending Sept. 30, 1915.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1256996056672918,
+                            "top": 0.12486278632044251,
+                            "width": 0.8167355333598055,
+                            "height": 0.10984952294700265,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td rowspan=\"5\">Jan. 25\nFeb. 7\nMar. 3\n27</td><td></td><td>Feet.</td><td>Sec.-ft.</td><td rowspan=\"5\">Apr. 10\nJuly 7\nAug. 2</td><td rowspan=\"5\">R. W. Day\nF. C. Ebert\ndo</td><td rowspan=\"5\">Feet.\n2.11\n2.27</td><td rowspan=\"5\">Sec.-ft.\n5.8\n5.5\n.0</td></tr><tr><td>F. C. Ebert</td><td>1.93</td><td>5.3</td></tr><tr><td>K. B. Sleppy</td><td>2.01</td><td>6.5</td></tr><tr><td>F. C. Ebert</td><td></td><td>.0</td></tr><tr><td>do</td><td>2.29</td><td>7.2</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12737293325168403,
+                            "top": 0.2481089258698941,
+                            "width": 0.8113900796080833,
+                            "height": 0.028744326777609682,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of West San Pasqual ditch near Escond do, Cal., for the year ending Sept. 30, 1915.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n<table><tr><th></th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th></tr><tr><td>1</td><td></td><td></td><td>0</td><td>0</td><td>10</td><td>0</td><td>3.5</td><td>5</td></tr><tr><td>2</td><td></td><td></td><td>0</td><td>0</td><td>9</td><td>0</td><td>2</td><td>3.5</td></tr><tr><td>3</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3.5</td><td>3.5</td></tr><tr><td>4</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>3.5</td></tr><tr><td>5</td><td></td><td></td><td>7.5</td><td>0</td><td>5</td><td>0</td><td>3. 5</td><td>3.5</td></tr><tr><td>6</td><td></td><td></td><td>7</td><td>0</td><td>9</td><td>0</td><td>3. 5</td><td>3</td></tr><tr><td>7</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>5</td></tr><tr><td>8</td><td></td><td></td><td>7</td><td>0</td><td>6.5</td><td>0</td><td>3.5</td><td>3.5</td></tr><tr><td>9</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>7</td></tr><tr><td>10</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3</td><td>5</td></tr><tr><td>11</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>6</td></tr><tr><td>12</td><td></td><td></td><td>0</td><td>0</td><td>5. 5</td><td>0</td><td>3. 5</td><td>6</td></tr><tr><td>13</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>5</td></tr><tr><td>14</td><td></td><td></td><td>0</td><td>0</td><td>4. 5</td><td>0</td><td>3. 5</td><td>7</td></tr><tr><td>15</td><td></td><td></td><td>0</td><td>0</td><td>4. 5</td><td>0</td><td>3. 5</td><td>8</td></tr><tr><td>16</td><td></td><td></td><td>0</td><td>0</td><td>6. 5</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>17</td><td></td><td></td><td>6.5</td><td>0</td><td>4. 5</td><td>0</td><td>5</td><td>5</td></tr><tr><td>18</td><td></td><td></td><td>9</td><td>0</td><td>4.5</td><td>5</td><td>5</td><td>61</td></tr><tr><td>19</td><td></td><td></td><td>6.5</td><td>0</td><td>4.5</td><td>3 5</td><td>6</td><td>6</td></tr><tr><td>20</td><td></td><td></td><td>6.5</td><td>0</td><td>5. 5</td><td>6</td><td>5</td><td>7</td></tr><tr><td>21</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>3 5</td><td>5</td><td>6</td></tr><tr><td>22</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>3 5</td><td>3. 5</td><td>8</td></tr><tr><td>23</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>24</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>25</td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>0</td><td>3. 5</td><td>&amp;</td></tr><tr><td>26</td><td></td><td>6.5</td><td>0</td><td>5</td><td>0</td><td>0</td><td>6</td><td>8</td></tr><tr><td>27</td><td></td><td>6.5</td><td>0</td><td>6</td><td>0</td><td>5</td><td>3.5</td><td>8</td></tr><tr><td>28</td><td></td><td>6. 5</td><td>0</td><td>7</td><td>0</td><td>3 5</td><td>3.5</td><td>8</td></tr><tr><td>29</td><td></td><td>0</td><td></td><td>7</td><td>0</td><td>6</td><td>3. 5</td><td>6</td></tr><tr><td>30</td><td></td><td>0</td><td></td><td>5</td><td>0</td><td>.6</td><td>3. 5</td><td>7</td></tr><tr><td>31</td><td></td><td>0</td><td></td><td>5</td><td></td><td>6</td><td></td><td>0</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\n<table><tr><th></th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th></tr><tr><td>1</td><td></td><td></td><td>0</td><td>0</td><td>10</td><td>0</td><td>3.5</td><td>5</td></tr><tr><td>2</td><td></td><td></td><td>0</td><td>0</td><td>9</td><td>0</td><td>2</td><td>3.5</td></tr><tr><td>3</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3.5</td><td>3.5</td></tr><tr><td>4</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>3.5</td></tr><tr><td>5</td><td></td><td></td><td>7.5</td><td>0</td><td>5</td><td>0</td><td>3. 5</td><td>3.5</td></tr><tr><td>6</td><td></td><td></td><td>7</td><td>0</td><td>9</td><td>0</td><td>3. 5</td><td>3</td></tr><tr><td>7</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>5</td></tr><tr><td>8</td><td></td><td></td><td>7</td><td>0</td><td>6.5</td><td>0</td><td>3.5</td><td>3.5</td></tr><tr><td>9</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>7</td></tr><tr><td>10</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3</td><td>5</td></tr><tr><td>11</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>6</td></tr><tr><td>12</td><td></td><td></td><td>0</td><td>0</td><td>5. 5</td><td>0</td><td>3. 5</td><td>6</td></tr><tr><td>13</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>5</td></tr><tr><td>14</td><td></td><td></td><td>0</td><td>0</td><td>4. 5</td><td>0</td><td>3. 5</td><td>7</td></tr><tr><td>15</td><td></td><td></td><td>0</td><td>0</td><td>4. 5</td><td>0</td><td>3. 5</td><td>8</td></tr><tr><td>16</td><td></td><td></td><td>0</td><td>0</td><td>6. 5</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>17</td><td></td><td></td><td>6.5</td><td>0</td><td>4. 5</td><td>0</td><td>5</td><td>5</td></tr><tr><td>18</td><td></td><td></td><td>9</td><td>0</td><td>4.5</td><td>5</td><td>5</td><td>61</td></tr><tr><td>19</td><td></td><td></td><td>6.5</td><td>0</td><td>4.5</td><td>3 5</td><td>6</td><td>6</td></tr><tr><td>20</td><td></td><td></td><td>6.5</td><td>0</td><td>5. 5</td><td>6</td><td>5</td><td>7</td></tr><tr><td>21</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>3 5</td><td>5</td><td>6</td></tr><tr><td>22</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>3 5</td><td>3. 5</td><td>8</td></tr><tr><td>23</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>24</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>25</td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>0</td><td>3. 5</td><td>&amp;</td></tr><tr><td>26</td><td></td><td>6.5</td><td>0</td><td>5</td><td>0</td><td>0</td><td>6</td><td>8</td></tr><tr><td>27</td><td></td><td>6.5</td><td>0</td><td>6</td><td>0</td><td>5</td><td>3.5</td><td>8</td></tr><tr><td>28</td><td></td><td>6. 5</td><td>0</td><td>7</td><td>0</td><td>3 5</td><td>3.5</td><td>8</td></tr><tr><td>29</td><td></td><td>0</td><td></td><td>7</td><td>0</td><td>6</td><td>3. 5</td><td>6</td></tr><tr><td>30</td><td></td><td>0</td><td></td><td>5</td><td>0</td><td>.6</td><td>3. 5</td><td>7</td></tr><tr><td>31</td><td></td><td>0</td><td></td><td>5</td><td></td><td>6</td><td></td><td>0</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12683945496390367,
+                            "top": 0.28871517210251985,
+                            "width": 0.8161750882225247,
+                            "height": 0.3926006553753782,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Day.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th></tr><tr><td>1</td><td></td><td></td><td>0</td><td>0</td><td>10</td><td>0</td><td>3.5</td><td>5</td></tr><tr><td>2</td><td></td><td></td><td>0</td><td>0</td><td>9</td><td>0</td><td>2</td><td>3.5</td></tr><tr><td>3</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3.5</td><td>3.5</td></tr><tr><td>4</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>3.5</td></tr><tr><td>5</td><td></td><td></td><td>7.5</td><td>0</td><td>5</td><td>0</td><td>3. 5</td><td>3.5</td></tr><tr><td>6</td><td></td><td></td><td>7</td><td>0</td><td>9</td><td>0</td><td>3. 5</td><td>3</td></tr><tr><td>7</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>5</td></tr><tr><td>8</td><td></td><td></td><td>7</td><td>0</td><td>6.5</td><td>0</td><td>3.5</td><td>3.5</td></tr><tr><td>9</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>7</td></tr><tr><td>10</td><td></td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>3</td><td>5</td></tr><tr><td>11</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>6</td></tr><tr><td>12</td><td></td><td></td><td>0</td><td>0</td><td>5. 5</td><td>0</td><td>3. 5</td><td>6</td></tr><tr><td>13</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3. 5</td><td>5</td></tr><tr><td>14</td><td></td><td></td><td>0</td><td>0</td><td>4. 5</td><td>0</td><td>3. 5</td><td>7</td></tr><tr><td>15</td><td></td><td></td><td>0</td><td>0</td><td>4. 5</td><td>0</td><td>3. 5</td><td>8</td></tr><tr><td>16</td><td></td><td></td><td>0</td><td>0</td><td>6. 5</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>17</td><td></td><td></td><td>6.5</td><td>0</td><td>4. 5</td><td>0</td><td>5</td><td>5</td></tr><tr><td>18</td><td></td><td></td><td>9</td><td>0</td><td>4.5</td><td>5</td><td>5</td><td>61</td></tr><tr><td>19</td><td></td><td></td><td>6.5</td><td>0</td><td>4.5</td><td>3 5</td><td>6</td><td>6</td></tr><tr><td>20</td><td></td><td></td><td>6.5</td><td>0</td><td>5. 5</td><td>6</td><td>5</td><td>7</td></tr><tr><td>21</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>3 5</td><td>5</td><td>6</td></tr><tr><td>22</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>3 5</td><td>3. 5</td><td>8</td></tr><tr><td>23</td><td></td><td></td><td>0</td><td>0</td><td>5.5</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>24</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3.5</td><td>8</td></tr><tr><td>25</td><td></td><td>6.5</td><td>0</td><td>5.5</td><td>0</td><td>0</td><td>3. 5</td><td>&amp;</td></tr><tr><td>26</td><td></td><td>6.5</td><td>0</td><td>5</td><td>0</td><td>0</td><td>6</td><td>8</td></tr><tr><td>27</td><td></td><td>6.5</td><td>0</td><td>6</td><td>0</td><td>5</td><td>3.5</td><td>8</td></tr><tr><td>28</td><td></td><td>6. 5</td><td>0</td><td>7</td><td>0</td><td>3 5</td><td>3.5</td><td>8</td></tr><tr><td>29</td><td></td><td>0</td><td></td><td>7</td><td>0</td><td>6</td><td>3. 5</td><td>6</td></tr><tr><td>30</td><td></td><td>0</td><td></td><td>5</td><td>0</td><td>.6</td><td>3. 5</td><td>7</td></tr><tr><td>31</td><td></td><td>0</td><td></td><td>5</td><td></td><td>6</td><td></td><td>0</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\nby indirect method for shifting control from Mar. 28 to Apr. 9. Ditch dry Oct. 1 to Jan. 24 and July 31 to Sept. 30. NOTE.-Discharge determined from five poorly defined rating curves applicable fo short periods, and",
+                "embed": "# SURFACE WATER SUPPLY, 1915, PART XI. (cont.)\n\nby indirect method for shifting control from Mar. 28 to Apr. 9. Ditch dry Oct. 1 to Jan. 24 and July 31 to Sept. 30. NOTE.-Discharge determined from five poorly defined rating curves applicable fo short periods, and",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12982241273729334,
+                            "top": 0.6875945537065052,
+                            "width": 0.8077158603796694,
+                            "height": 0.031391830559757944,
+                            "page": 1
+                        },
+                        "content": "by indirect method for shifting control from Mar. 28 to Apr. 9. Ditch dry Oct. 1 to Jan. 24 and July 31 to Sept. 30. NOTE.-Discharge determined from five poorly defined rating curves applicable fo short periods, and",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

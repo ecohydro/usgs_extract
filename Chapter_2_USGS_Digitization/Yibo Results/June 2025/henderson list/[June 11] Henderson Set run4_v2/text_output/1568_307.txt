@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "Bear River at Van Trent",
+        "County": "California (assumed Sierra County based on geographical context)",
+        "Location": "Van Trent, Calif.",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 39.65,
+        "Longitude": -121.00,
+        "Dates_of_Recording": "10/01/1925-09/30/1926",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Bear River Canal near Colfax",
+        "County": "Placer County",
+        "Location": "Just below lower spillway gates about 1 mile below diversion dam on Bear River and 2 miles northwest of Colfax, Placer County",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "second-feet",
+        "Latitude": 39.17,
+        "Longitude": -121.15,
+        "Dates_of_Recording": "01/01/1925-09/30/1925",
+        "Water_Type": "Irrigation"
+    }
+]
+```

@@ -1,0 +1,34 @@
+```json
+{
+    "Watersource_Name": "Relief Reservoir Near Baker Station",
+    "Actual_County": "Tuolumne County",
+    "Inferred_County": "",
+    "Location": "NW. 1/4 sec. 13, T. 5 N., R. 20 E., on Relief Creek about five-eighths mile above junction with East Fork, and about 31 miles southeast of Baker Station, Tuolumne County",
+    "Townships_Ranges_Sections": ["T. 5 N., R. 20 E., sec. 13"],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "acre-feet",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 37.8, // Approximate latitude for Baker Station vicinity
+    "Inferred_Longitude": -120.3, // Approximate longitude for Baker Station vicinity
+    "Dates_of_Recording": "10/01/1910-09/30/1916",
+    "Water_Type": "Reservoir",
+    "KeyTerms": ["storage", "power", "reservoir empty"]
+},
+{
+    "Watersource_Name": "Relief Creek Near Baker Station",
+    "Actual_County": "Tuolumne County",
+    "Inferred_County": "",
+    "Location": "NW. 1 sec. 13, T. 5 N., R. 20 E., one-fourth mile below Relief Reservoir of the Sierra & San Francisco Power Co., one-fourth mile above junction with East Fork, and about 3 miles southeast of Baker Station, Tuolumne County",
+    "Townships_Ranges_Sections": ["T. 5 N., R. 20 E., sec. 13"],
+    "Temporal_Resolution": "Inconsistent (incomplete)",
+    "Units_Of_Measurement": "",
+    "Actual_Latitude": null,
+    "Actual_Longitude": null,
+    "Inferred_Latitude": 37.8, // Approximate latitude for Baker Station vicinity
+    "Inferred_Longitude": -120.3, // Approximate longitude for Baker Station vicinity
+    "Dates_of_Recording": "10/1910-09/30/1916",
+    "Water_Type": "Stream Discharge",
+    "KeyTerms": ["Relief Creek", "junction with East Fork"]
+}
+```

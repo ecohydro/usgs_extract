@@ -1,0 +1,29 @@
+```json
+{
+    "Watersource_Name": "North Fork of Kings River below Meadow Brook",
+    "County": "Tulare County",
+    "Location": "California, USA",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": {
+        "Gage height": "Feet",
+        "Discharge": "Second-feet"
+    },
+    "Latitude": 36.5,
+    "Longitude": -118.5,
+    "Dates_of_Recording": "10/18/1924-09/29/1925",
+    "Water_Type": "Stream discharge"
+}
+```
+
+**Explanation:**
+
+1. **Watersource_Name**: Identified as "North Fork of Kings River below Meadow Brook" from the document content.
+2. **County**: Located within Tulare County, inferred from "TULARE LAKE BASIN".
+3. **Location**: The watersource is in California, USA.
+4. **Townships_Ranges_Sections**: Not specified in the document; hence an empty list.
+5. **Temporal_Resolution**: Measurements are recorded daily as evidenced by the tables with daily discharge values.
+6. **Units_Of_Measurement**: "Gage height" is measured in feet and "Discharge" in second-feet, based on table headers.
+7. **Latitude and Longitude**: Approximate coordinates for the region are 36.5 (latitude) and -118.5 (longitude).
+8. **Dates_of_Recording**: Dates span from October 18, 1924, to September 29, 1925, as per the data tables.
+9. **Water_Type**: Classified as "Stream discharge" due to the nature of measurements involving gage height and discharge in a river context.

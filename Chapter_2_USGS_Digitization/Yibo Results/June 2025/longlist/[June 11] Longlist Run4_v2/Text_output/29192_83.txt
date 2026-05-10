@@ -1,0 +1,56 @@
+```json
+[
+    {
+        "Watersource_Name": "Walnut Creek at Walnut Creek",
+        "County": "Alameda County",
+        "Location": "near Walnut Creek, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual intervals from 1909 to 1966",
+        "Units_Of_Measurement": {
+            "Water_Discharge": "ft3/s",
+            "Sediment_Discharge_Suspended": "ton/d",
+            "Sediment_Discharge_Sand": "ton/d",
+            "Suspended_Sediment_Yield": "ton/mi²"
+        },
+        "Latitude": 37.9012,
+        "Longitude": -122.0577,
+        "Dates_of_Recording": "1909-01-01-1966-12-31",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Napa River near St. Helena",
+        "County": "Napa County",
+        "Location": "near St. Helena, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual intervals from 1909 to 1966",
+        "Units_Of_Measurement": {
+            "Water_Discharge": "ft3/s",
+            "Sediment_Discharge_Suspended": "ton/d",
+            "Sediment_Discharge_Sand": "ton/d",
+            "Total_Sediment_Discharge": "ton/d",
+            "Suspended_Sediment_Yield": "ton/mi²"
+        },
+        "Latitude": 38.4850,
+        "Longitude": -122.4903,
+        "Dates_of_Recording": "1909-01-01-1966-12-31",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Sonoma Creek at Boyes Hot Springs",
+        "County": "Sonoma County",
+        "Location": "at Boyes Hot Springs, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Annual intervals from 1909 to 1966",
+        "Units_Of_Measurement": {
+            "Water_Discharge": "ft3/s",
+            "Sediment_Discharge_Suspended": "ton/d",
+            "Total_Sediment_Discharge": "ton/d",
+            "Suspended_Sediment_Yield": "ton/mi²"
+        },
+        "Latitude": 38.4319,
+        "Longitude": -122.8514,
+        "Dates_of_Recording": "1909-01-01-1966-12-31",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

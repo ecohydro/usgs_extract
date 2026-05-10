@@ -1,0 +1,17 @@
+```json
+{
+  "Watersource_Name": "Colorado River",
+  "County": "Riverside County",
+  "Location": "Near Blythe, Calif.",
+  "Townships_Ranges_Sections": [],
+  "Temporal_Resolution": "Monthly",
+  "Units_Of_Measurement": {
+    "Discharge": "second-feet",
+    "Runoff": "acre-feet"
+  },
+  "Latitude": 33.605,
+  "Longitude": -114.727,
+  "Dates_of_Recording": "10/01/1930-09/30/1935",
+  "Water_Type": "Stream discharge"
+}
+```

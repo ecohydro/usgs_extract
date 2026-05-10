@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "Watersource_Name": "Murrieta Creek at Temecula",
+        "County": "Riverside County",
+        "Location": "Temecula Grant, on left bank at upper end of Temecula Canyon, 0.1 mile downstream from Murrieta Creek and 1.4 miles south of Temecula",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Varies (individual dates)",
+        "Units_Of_Measurement": {
+            "Gage_height": "feet",
+            "Discharge": "cubic feet per second (cfs)"
+        },
+        "Latitude": 33.473889,
+        "Longitude": -117.141667,
+        "Dates_of_Recording": "02/05/1931-02/14/1962",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

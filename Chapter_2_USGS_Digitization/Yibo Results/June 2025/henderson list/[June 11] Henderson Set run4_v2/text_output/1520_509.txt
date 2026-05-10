@@ -1,0 +1,244 @@
+```json
+[
+    {
+        "Watersource_Name": "Mattole River",
+        "County": "Humboldt County",
+        "Location": "Ettersburg, NW 1 sec 7, T. 4 N., R. 2 E.",
+        "Townships_Ranges_Sections": ["T. 4 N., R. 2 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Gage height": "Feet",
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.4833,
+        "Longitude": -124.1,
+        "Dates_of_Recording": "10/12/1912-09/04/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Bear Creek or West Fork",
+        "County": "Humboldt County",
+        "Location": "Ettersburg at mouth, NW 1 sec. 7, T. 4 N., R. E.",
+        "Townships_Ranges_Sections": ["T. 4 N., R. E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.4833,
+        "Longitude": -124.1,
+        "Dates_of_Recording": "10/12/1912-09/04/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Honey Dew Creek",
+        "County": "Humboldt County",
+        "Location": "Mouth near Upper Mattole, sec. 6, T. 3 S., R. E.",
+        "Townships_Ranges_Sections": ["T. 3 S., R. E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.1833,
+        "Longitude": -123.8,
+        "Dates_of_Recording": "10/11/1912-09/03/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Squaw Creek",
+        "County": "Humboldt County",
+        "Location": "Mouth near Petrolia, sec. 30, T. 2 S., R. 1 W.",
+        "Townships_Ranges_Sections": ["T. 2 S., R. 1 W."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.1833,
+        "Longitude": -123.9,
+        "Dates_of_Recording": "10/11/1912-09/03/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "North Fork of Mattole River",
+        "County": "Humboldt County",
+        "Location": "Mouth at Petrolia, NW sec. 4, T. S., R. 2 W.",
+        "Townships_Ranges_Sections": ["T. S., R. 2 W."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.1833,
+        "Longitude": -124.1,
+        "Dates_of_Recording": "10/10/1912-09/02/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Bear River",
+        "County": "Humboldt County",
+        "Location": "Highway bridge at Capetown, sec. 13, T. 1 N., R. 3 W.",
+        "Townships_Ranges_Sections": ["T. 1 N., R. 3 W."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.3333,
+        "Longitude": -123.9333,
+        "Dates_of_Recording": "10/10/1912-09/02/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Williams Creek",
+        "County": "Mendocino County",
+        "Location": "Mouth near Covelo, NW. 1/2 sec. 31, T. 23 N., R. 11 W.",
+        "Townships_Ranges_Sections": ["T. 23 N., R. 11 W."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 39.3,
+        "Longitude": -123.1333,
+        "Dates_of_Recording": "12/20/1912-09/04/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Redwood Creek",
+        "County": "Humboldt County",
+        "Location": "Highway bridge at Briceland, SW. 1/4 sec. 18, T. 4 S., R. 3 E.",
+        "Townships_Ranges_Sections": ["T. 4 S., R. 3 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.0833,
+        "Longitude": -123.5167,
+        "Dates_of_Recording": "09/04/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Dean Creek",
+        "County": "Humboldt County",
+        "Location": "Highway bridge, 5 miles below Garberville, NW. 1 sec. 12, T. S., R. 3 E.",
+        "Townships_Ranges_Sections": ["T. S., R. 3 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.1167,
+        "Longitude": -123.5167,
+        "Dates_of_Recording": "09/05/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Chad Creek",
+        "County": "Humboldt County",
+        "Location": "Highway bridge, a mile from Holmes, SE. 1 sec. 32, T. 1 N., R. 1 E.",
+        "Townships_Ranges_Sections": ["T. 1 N., R. 1 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.2,
+        "Longitude": -123.75,
+        "Dates_of_Recording": "09/05/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Bear Creek",
+        "County": "Humboldt County",
+        "Location": "Highway bridge, one-half mile above Pepperwood, NW. 1/2 sec. 32, T. 1 N., R.",
+        "Townships_Ranges_Sections": ["T. 1 N."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.2,
+        "Longitude": "-",
+        "Dates_of_Recording": "09/05/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Grizzley Creek",
+        "County": "Humboldt County",
+        "Location": "Highway bridge, near Cuddaback, NE. 1/4 sec. 11, T. 1 N., R. 2 E.",
+        "Townships_Ranges_Sections": ["T. 1 N., R. 2 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.1833,
+        "Longitude": -123.65,
+        "Dates_of_Recording": "08/28/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Healy Creek",
+        "County": "Humboldt County",
+        "Location": "Highway bridge, near Cuddaback, NE. 1/4 sec. 36, T. 2 N., R. 1 E.",
+        "Townships_Ranges_Sections": ["T. 2 N., R. 1 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.2667,
+        "Longitude": -123.75,
+        "Dates_of_Recording": "08/28/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Salmon Creek",
+        "County": "Humboldt County",
+        "Location": "Road crossing near Cuddaback, SW. T. 2 N., R. 1 E.",
+        "Townships_Ranges_Sections": ["T. 2 N., R. 1 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Dry"
+        },
+        "Latitude": 40.2667,
+        "Longitude": -123.75,
+        "Dates_of_Recording": "08/28/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "North Fork of Mad River",
+        "County": "Madera County",
+        "Location": "Highway bridge at Korbel, sec. 22 and 33, T. 6 N., R. E.",
+        "Townships_Ranges_Sections": ["T. 6 N."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 37.3167,
+        "Longitude": -119.7833,
+        "Dates_of_Recording": "11/01/1912-09/09/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Minor Creek",
+        "County": "Humboldt County",
+        "Location": "Bairs ranch near Korbel, sec. 28, T. 7 N., R. 3 E.",
+        "Townships_Ranges_Sections": ["T. 7 N., R. 3 E."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.3333,
+        "Longitude": -123.4833,
+        "Dates_of_Recording": "10/31/1912-09/10/1913",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Prairie Creek",
+        "County": "Humboldt County",
+        "Location": "Mouth 13 miles above Orick, sec. 34, T. it N., R. E.",
+        "Townships_Ranges_Sections": ["T. it N."],
+        "Temporal_Resolution": "Variable (specific dates)",
+        "Units_Of_Measurement": {
+            "Gage height": "Feet",
+            "Discharge": "Sec.-ft"
+        },
+        "Latitude": 40.1167,
+        "Longitude": -124.1,
+        "Dates_of_Recording": "10/04/1912-09/09/1913",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

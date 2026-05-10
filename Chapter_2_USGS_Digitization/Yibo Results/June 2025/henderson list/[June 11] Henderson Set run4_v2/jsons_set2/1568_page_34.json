@@ -1,0 +1,154 @@
+{
+    "job_id": "c08bc086-1880-49ea-93fe-48f181ebb8c3",
+    "duration": 7.642759084701538,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/05c9feae-f5c1-4d64-9075-31ec1f624f94?AWSAccessKeyId=ASIA2UOK6OVBN7IR6EXV&Signature=y%2BKSMikqAHN93NA7Az3yYQsaVZE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIQDfKRKQfRG2hLKPHIpGal16Bd%2Bx4P4YXVRP6t0d6e6rZwIgOFcSguNQV9xLa6dYuRw0jNLJMkcuXRozt9yMDHZLFPkqiwUIIxAAGgw3MzExMDY5MzIwMzQiDL5XjLCW%2Fw7HIj0wDSroBC2EdNCvsglCiZ7zWNygSHWB9ujiIis36v1BxtyyVsLaynIbMp5iTrRRSNXPFYfi5I0A4cfVrxrlQXV%2ByIiGCBYlNaDkoziDevDmzkQYQsIqjVp%2F%2FHh9LWuC%2FEutLVnzsIbUczPBvQLDjxfrNv0R6nlniLk%2FSzeUZb859PJnwqlZYAdSSK1NTf2VrfdQsMLosLNe0916b0PEitcs1MJBxV1SmMm9GP8P%2FdstZCGFmEKCnGWd2%2FrtP0s4vbPnWZWgOMs6U5qm89tzh74BWwkr8fljQSuKjvTIvXGOFnq4MaH8pTJMiDBLR9AFpcH0H57P0UJMJXumlIvOiIUyj330SGXc5AiHKJnia7ppXgHcEa3sbAyFYC07UCnLWn8xV2zmYbYCFQn6HOL%2BszP%2FBewjT7zUXrqn8yCfC8vKnYoGRIC5zmF1LxIIw7Z6YSkhgYwY3NFiYh67c%2FTxDGqmwXqrBbx5XtVLZ5pg0%2FPfTyfFvtUZdV18bp2VhRX3UtXwWY4QZMShcwcjUc8wi4epsM5g7fJWTveipGr1Z3zTtPSDNMC3jdL74WXTdOlwqCm7RNJZg3NIIyWDu84SIlGsRCftbn0LiwMcBjz6X1ehQpI76GrSTJDvezaMUJcsQzzn1TG25ofSrZSHgNgMdPHtVaTA2mKqM%2FVfvYskpub6McZaHnk99FCKXhHOIj8LQh9e%2BmqFjT0lleSY3aiHuaxtLxBxiq81kiaAMvXopzPwTFw9Ii9SbeaiEktCeuj5FMkv1ERsdwN5Jn%2Fzi4Sh9Kt%2F0U43sC%2BqCm%2F1ZE02ev3dfrHZBaHhoL5391NsN%2BUwwLDJugY6mwGZVWFvnwzCFW3ePtSURUICFbdSPvMmmoz3cXMmLUh1%2FCFufpVv4ZKObbqWf1zirXXS5qRZRSaN6EfGFzlLpWQ3aS%2Bl9IXBlE4gZvkmIgyh6BclIYfbHVzvmtgnC%2FQpLZ6EJ1wN0JcCA7cYHuQF9VkPnYaqxMNHiD4RM0ljjsT7EC4RaoX3tlz82Wtd1MJCD37E%2Fupo9O4eDpVreA%3D%3D&Expires=1733454845",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "16\n\n# SURFACE WATER SUPPLY, 1925, PART XI\n\nDaily discharge, in second-feet, of Cuyamaca Water Co.'s flume near Lakeside, Calif., for the year ending September 30, 1925",
+                "embed": "16\n\n# SURFACE WATER SUPPLY, 1925, PART XI\n\nDaily discharge, in second-feet, of Cuyamaca Water Co.'s flume near Lakeside, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11104256631708821,
+                            "top": 0.050694705219677054,
+                            "width": 0.02961135101789019,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "16",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.27390499691548426,
+                            "top": 0.05294780322944048,
+                            "width": 0.48673658235657,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1925, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.107958050586058,
+                            "top": 0.08411565903116786,
+                            "width": 0.8180135718692165,
+                            "height": 0.026661659782200527,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Cuyamaca Water Co.'s flume near Lakeside, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>9.0.</td><td>8.8</td><td>2.5</td><td>5.9</td><td>3.0</td><td>4.5</td><td>22</td><td>20</td><td>2.2</td><td>10</td><td>3.6</td><td>17</td></tr><tr><td>2</td><td>9.0</td><td>7.1</td><td>2.8</td><td>2.4</td><td>3.0</td><td>4.0</td><td>22</td><td>20</td><td>1.4</td><td>7.0</td><td>5.2</td><td>17.5</td></tr><tr><td>3</td><td>11</td><td>6.9</td><td>2.7</td><td>2.8</td><td>3.3</td><td>4.1</td><td>19.5</td><td>19</td><td>8.0</td><td>6.8</td><td>4.6</td><td>15</td></tr><tr><td>4</td><td>11</td><td>7.3</td><td>3.6</td><td>3.2</td><td>2.8</td><td>6.1</td><td>17.5</td><td>19</td><td>13</td><td>6.4</td><td>4.4</td><td>18.5</td></tr><tr><td>5</td><td>12</td><td>6.1</td><td>5.5</td><td>3.2</td><td>2.8</td><td>7.1</td><td>21</td><td>18</td><td>16</td><td>6.4</td><td>1.6</td><td>11</td></tr><tr><td>6</td><td>12</td><td>6.5</td><td>5.0</td><td>2.7</td><td>2.8</td><td>6.7</td><td>16</td><td>18</td><td>17</td><td>6.1</td><td>5.4</td><td>8.0</td></tr><tr><td>7</td><td>13</td><td>5.9</td><td>2.8</td><td>2.8</td><td>2.8</td><td>15</td><td>19</td><td>17.5</td><td>14</td><td>5.7</td><td>5.7</td><td>7.8</td></tr><tr><td>8</td><td>13</td><td>5.9</td><td>2.8</td><td>2.8</td><td>3.0</td><td>19</td><td>20</td><td>16</td><td>5.2</td><td>5.9</td><td>4.4</td><td>7.8</td></tr><tr><td>9</td><td>13</td><td>2.7</td><td>3.2</td><td>2.8</td><td>3.2</td><td>26</td><td>20</td><td>11</td><td>.6</td><td>6.6</td><td>7.8</td><td>8.0</td></tr><tr><td>10</td><td>13.5</td><td>2.8</td><td>2.8</td><td>2.8</td><td>3.2</td><td>26</td><td>20</td><td>1.4</td><td>6.6</td><td>5.7</td><td>6.8</td><td>&amp; 2</td></tr><tr><td>11</td><td>16.5</td><td>5.0</td><td>2.7</td><td>2.8</td><td>3.0</td><td>26</td><td>20</td><td>6.6</td><td>4.0</td><td>6.8</td><td>7.8</td><td>11</td></tr><tr><td>12</td><td>9.5</td><td>3.2</td><td>2.5</td><td>2.7</td><td>3.2</td><td>26</td><td>20</td><td>8.5</td><td>3.4</td><td>6.1</td><td>8.2</td><td>8.5</td></tr><tr><td>13</td><td>7.3</td><td>3.6</td><td>5.5</td><td>2.7</td><td>3.8</td><td>26</td><td>20</td><td>.10</td><td>5.0</td><td>1.8</td><td>8.8</td><td>9.0</td></tr><tr><td>14</td><td>7.3</td><td>3.3</td><td>4.3</td><td>27</td><td>3.8</td><td>22</td><td>19</td><td>10.5</td><td>4.0</td><td>4.8</td><td>7.8</td><td>9.5</td></tr><tr><td>15</td><td>6.3</td><td>5.0</td><td>4.1</td><td>3.6</td><td>4.0</td><td>17.5</td><td>13.5</td><td>14.5</td><td>3.8</td><td>4.6</td><td>9.0</td><td>8.0</td></tr><tr><td>16</td><td>5.2</td><td>3.8</td><td>4.3</td><td>3.5</td><td>4.0</td><td>18.5</td><td>4.8</td><td>12</td><td>2.4</td><td>4.8</td><td>8.8</td><td>12</td></tr><tr><td>17</td><td>4.8</td><td>2.4</td><td>15.5</td><td>3.8</td><td>4.0</td><td>17.5</td><td>6.4</td><td>9.5</td><td>1.2</td><td>5.9</td><td>13</td><td>15</td></tr><tr><td>18</td><td>3.3</td><td>2.7</td><td>5.9</td><td>3.5</td><td>4.0</td><td>12.5</td><td>9.0</td><td>6.1</td><td>2.0</td><td>6.1</td><td>8.5</td><td>16.</td></tr><tr><td>19</td><td>3.6</td><td>2.5</td><td>15</td><td>3.3</td><td>3.6</td><td>4.6</td><td>&amp; 8</td><td>5.4</td><td>2.0</td><td>.6</td><td>7.5</td><td>16</td></tr><tr><td>20</td><td>3.3</td><td>2.5</td><td>16</td><td>3.5</td><td>4.5</td><td>6.5</td><td>7.3</td><td>4.4</td><td>3.2</td><td>1.8</td><td>8.5</td><td>16</td></tr><tr><td>21</td><td>5.7</td><td>2.5</td><td>15.5</td><td>3.5</td><td>6.3</td><td>3.5</td><td>14</td><td>7.3</td><td>3.6</td><td>5.7</td><td>8.0</td><td>16</td></tr><tr><td>22</td><td>5.9</td><td>2.4</td><td>8.2</td><td>3.5</td><td>19</td><td>3.8</td><td>20</td><td>6.1</td><td>1.4</td><td>5.9</td><td>8.8</td><td>11.5</td></tr><tr><td>23</td><td>6.3</td><td>2.2</td><td>13</td><td>3.3</td><td>21</td><td>6.7</td><td>21</td><td>5.7</td><td>2.6</td><td>7.0</td><td>11.5</td><td>8.2</td></tr><tr><td>24</td><td>9.2</td><td>2.5</td><td>19</td><td>3.3</td><td>19.5</td><td>6.7</td><td>20</td><td>4.4</td><td>3.0</td><td>5.2</td><td>8.0</td><td>&amp; 8</td></tr><tr><td>25</td><td>5.7</td><td>5.5</td><td>24</td><td>3,3</td><td>19</td><td>4.0</td><td>21</td><td>3.0</td><td>2.8</td><td>5.9</td><td>9.5</td><td>14</td></tr><tr><td>26</td><td>5.5</td><td>3.3</td><td>20</td><td>3.3</td><td>9.5</td><td>4.0</td><td>21</td><td>2.4</td><td>6.8</td><td>7.8</td><td>11.51</td><td>9,5</td></tr><tr><td>27</td><td>6.5</td><td>3.0</td><td>15.5</td><td>3.3</td><td>1.6</td><td>5.3</td><td>19</td><td>1.0</td><td>10</td><td>8.2</td><td>14</td><td>11.5</td></tr><tr><td>28</td><td>8.5</td><td>2.7</td><td>11</td><td>3.3</td><td>4.6</td><td>7.3</td><td>20</td><td>6.1</td><td>10.5</td><td>9.0</td><td>19</td><td>13</td></tr><tr><td>29</td><td>8.2</td><td>2.7</td><td>9.5</td><td>3.5</td><td></td><td>5.3</td><td>20</td><td>.7</td><td>9.8</td><td>7.0</td><td>19</td><td>10</td></tr><tr><td>30</td><td>9.0</td><td>2.8</td><td>7.5</td><td>3.3</td><td></td><td>18</td><td>21</td><td>1.4</td><td>8.0</td><td>3.0</td><td>19</td><td>9.0</td></tr><tr><td>31</td><td>7.1</td><td></td><td>6.9</td><td>3.0</td><td></td><td>23</td><td></td><td>1.8</td><td></td><td>3.2</td><td>16</td><td></td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>9.0.</td><td>8.8</td><td>2.5</td><td>5.9</td><td>3.0</td><td>4.5</td><td>22</td><td>20</td><td>2.2</td><td>10</td><td>3.6</td><td>17</td></tr><tr><td>2</td><td>9.0</td><td>7.1</td><td>2.8</td><td>2.4</td><td>3.0</td><td>4.0</td><td>22</td><td>20</td><td>1.4</td><td>7.0</td><td>5.2</td><td>17.5</td></tr><tr><td>3</td><td>11</td><td>6.9</td><td>2.7</td><td>2.8</td><td>3.3</td><td>4.1</td><td>19.5</td><td>19</td><td>8.0</td><td>6.8</td><td>4.6</td><td>15</td></tr><tr><td>4</td><td>11</td><td>7.3</td><td>3.6</td><td>3.2</td><td>2.8</td><td>6.1</td><td>17.5</td><td>19</td><td>13</td><td>6.4</td><td>4.4</td><td>18.5</td></tr><tr><td>5</td><td>12</td><td>6.1</td><td>5.5</td><td>3.2</td><td>2.8</td><td>7.1</td><td>21</td><td>18</td><td>16</td><td>6.4</td><td>1.6</td><td>11</td></tr><tr><td>6</td><td>12</td><td>6.5</td><td>5.0</td><td>2.7</td><td>2.8</td><td>6.7</td><td>16</td><td>18</td><td>17</td><td>6.1</td><td>5.4</td><td>8.0</td></tr><tr><td>7</td><td>13</td><td>5.9</td><td>2.8</td><td>2.8</td><td>2.8</td><td>15</td><td>19</td><td>17.5</td><td>14</td><td>5.7</td><td>5.7</td><td>7.8</td></tr><tr><td>8</td><td>13</td><td>5.9</td><td>2.8</td><td>2.8</td><td>3.0</td><td>19</td><td>20</td><td>16</td><td>5.2</td><td>5.9</td><td>4.4</td><td>7.8</td></tr><tr><td>9</td><td>13</td><td>2.7</td><td>3.2</td><td>2.8</td><td>3.2</td><td>26</td><td>20</td><td>11</td><td>.6</td><td>6.6</td><td>7.8</td><td>8.0</td></tr><tr><td>10</td><td>13.5</td><td>2.8</td><td>2.8</td><td>2.8</td><td>3.2</td><td>26</td><td>20</td><td>1.4</td><td>6.6</td><td>5.7</td><td>6.8</td><td>&amp; 2</td></tr><tr><td>11</td><td>16.5</td><td>5.0</td><td>2.7</td><td>2.8</td><td>3.0</td><td>26</td><td>20</td><td>6.6</td><td>4.0</td><td>6.8</td><td>7.8</td><td>11</td></tr><tr><td>12</td><td>9.5</td><td>3.2</td><td>2.5</td><td>2.7</td><td>3.2</td><td>26</td><td>20</td><td>8.5</td><td>3.4</td><td>6.1</td><td>8.2</td><td>8.5</td></tr><tr><td>13</td><td>7.3</td><td>3.6</td><td>5.5</td><td>2.7</td><td>3.8</td><td>26</td><td>20</td><td>.10</td><td>5.0</td><td>1.8</td><td>8.8</td><td>9.0</td></tr><tr><td>14</td><td>7.3</td><td>3.3</td><td>4.3</td><td>27</td><td>3.8</td><td>22</td><td>19</td><td>10.5</td><td>4.0</td><td>4.8</td><td>7.8</td><td>9.5</td></tr><tr><td>15</td><td>6.3</td><td>5.0</td><td>4.1</td><td>3.6</td><td>4.0</td><td>17.5</td><td>13.5</td><td>14.5</td><td>3.8</td><td>4.6</td><td>9.0</td><td>8.0</td></tr><tr><td>16</td><td>5.2</td><td>3.8</td><td>4.3</td><td>3.5</td><td>4.0</td><td>18.5</td><td>4.8</td><td>12</td><td>2.4</td><td>4.8</td><td>8.8</td><td>12</td></tr><tr><td>17</td><td>4.8</td><td>2.4</td><td>15.5</td><td>3.8</td><td>4.0</td><td>17.5</td><td>6.4</td><td>9.5</td><td>1.2</td><td>5.9</td><td>13</td><td>15</td></tr><tr><td>18</td><td>3.3</td><td>2.7</td><td>5.9</td><td>3.5</td><td>4.0</td><td>12.5</td><td>9.0</td><td>6.1</td><td>2.0</td><td>6.1</td><td>8.5</td><td>16.</td></tr><tr><td>19</td><td>3.6</td><td>2.5</td><td>15</td><td>3.3</td><td>3.6</td><td>4.6</td><td>&amp; 8</td><td>5.4</td><td>2.0</td><td>.6</td><td>7.5</td><td>16</td></tr><tr><td>20</td><td>3.3</td><td>2.5</td><td>16</td><td>3.5</td><td>4.5</td><td>6.5</td><td>7.3</td><td>4.4</td><td>3.2</td><td>1.8</td><td>8.5</td><td>16</td></tr><tr><td>21</td><td>5.7</td><td>2.5</td><td>15.5</td><td>3.5</td><td>6.3</td><td>3.5</td><td>14</td><td>7.3</td><td>3.6</td><td>5.7</td><td>8.0</td><td>16</td></tr><tr><td>22</td><td>5.9</td><td>2.4</td><td>8.2</td><td>3.5</td><td>19</td><td>3.8</td><td>20</td><td>6.1</td><td>1.4</td><td>5.9</td><td>8.8</td><td>11.5</td></tr><tr><td>23</td><td>6.3</td><td>2.2</td><td>13</td><td>3.3</td><td>21</td><td>6.7</td><td>21</td><td>5.7</td><td>2.6</td><td>7.0</td><td>11.5</td><td>8.2</td></tr><tr><td>24</td><td>9.2</td><td>2.5</td><td>19</td><td>3.3</td><td>19.5</td><td>6.7</td><td>20</td><td>4.4</td><td>3.0</td><td>5.2</td><td>8.0</td><td>&amp; 8</td></tr><tr><td>25</td><td>5.7</td><td>5.5</td><td>24</td><td>3,3</td><td>19</td><td>4.0</td><td>21</td><td>3.0</td><td>2.8</td><td>5.9</td><td>9.5</td><td>14</td></tr><tr><td>26</td><td>5.5</td><td>3.3</td><td>20</td><td>3.3</td><td>9.5</td><td>4.0</td><td>21</td><td>2.4</td><td>6.8</td><td>7.8</td><td>11.51</td><td>9,5</td></tr><tr><td>27</td><td>6.5</td><td>3.0</td><td>15.5</td><td>3.3</td><td>1.6</td><td>5.3</td><td>19</td><td>1.0</td><td>10</td><td>8.2</td><td>14</td><td>11.5</td></tr><tr><td>28</td><td>8.5</td><td>2.7</td><td>11</td><td>3.3</td><td>4.6</td><td>7.3</td><td>20</td><td>6.1</td><td>10.5</td><td>9.0</td><td>19</td><td>13</td></tr><tr><td>29</td><td>8.2</td><td>2.7</td><td>9.5</td><td>3.5</td><td></td><td>5.3</td><td>20</td><td>.7</td><td>9.8</td><td>7.0</td><td>19</td><td>10</td></tr><tr><td>30</td><td>9.0</td><td>2.8</td><td>7.5</td><td>3.3</td><td></td><td>18</td><td>21</td><td>1.4</td><td>8.0</td><td>3.0</td><td>19</td><td>9.0</td></tr><tr><td>31</td><td>7.1</td><td></td><td>6.9</td><td>3.0</td><td></td><td>23</td><td></td><td>1.8</td><td></td><td>3.2</td><td>16</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10301492774582144,
+                            "top": 0.11340840848549569,
+                            "width": 0.8313454328533457,
+                            "height": 0.37986745630222024,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>9.0.</td><td>8.8</td><td>2.5</td><td>5.9</td><td>3.0</td><td>4.5</td><td>22</td><td>20</td><td>2.2</td><td>10</td><td>3.6</td><td>17</td></tr><tr><td>2</td><td>9.0</td><td>7.1</td><td>2.8</td><td>2.4</td><td>3.0</td><td>4.0</td><td>22</td><td>20</td><td>1.4</td><td>7.0</td><td>5.2</td><td>17.5</td></tr><tr><td>3</td><td>11</td><td>6.9</td><td>2.7</td><td>2.8</td><td>3.3</td><td>4.1</td><td>19.5</td><td>19</td><td>8.0</td><td>6.8</td><td>4.6</td><td>15</td></tr><tr><td>4</td><td>11</td><td>7.3</td><td>3.6</td><td>3.2</td><td>2.8</td><td>6.1</td><td>17.5</td><td>19</td><td>13</td><td>6.4</td><td>4.4</td><td>18.5</td></tr><tr><td>5</td><td>12</td><td>6.1</td><td>5.5</td><td>3.2</td><td>2.8</td><td>7.1</td><td>21</td><td>18</td><td>16</td><td>6.4</td><td>1.6</td><td>11</td></tr><tr><td>6</td><td>12</td><td>6.5</td><td>5.0</td><td>2.7</td><td>2.8</td><td>6.7</td><td>16</td><td>18</td><td>17</td><td>6.1</td><td>5.4</td><td>8.0</td></tr><tr><td>7</td><td>13</td><td>5.9</td><td>2.8</td><td>2.8</td><td>2.8</td><td>15</td><td>19</td><td>17.5</td><td>14</td><td>5.7</td><td>5.7</td><td>7.8</td></tr><tr><td>8</td><td>13</td><td>5.9</td><td>2.8</td><td>2.8</td><td>3.0</td><td>19</td><td>20</td><td>16</td><td>5.2</td><td>5.9</td><td>4.4</td><td>7.8</td></tr><tr><td>9</td><td>13</td><td>2.7</td><td>3.2</td><td>2.8</td><td>3.2</td><td>26</td><td>20</td><td>11</td><td>.6</td><td>6.6</td><td>7.8</td><td>8.0</td></tr><tr><td>10</td><td>13.5</td><td>2.8</td><td>2.8</td><td>2.8</td><td>3.2</td><td>26</td><td>20</td><td>1.4</td><td>6.6</td><td>5.7</td><td>6.8</td><td>&amp; 2</td></tr><tr><td>11</td><td>16.5</td><td>5.0</td><td>2.7</td><td>2.8</td><td>3.0</td><td>26</td><td>20</td><td>6.6</td><td>4.0</td><td>6.8</td><td>7.8</td><td>11</td></tr><tr><td>12</td><td>9.5</td><td>3.2</td><td>2.5</td><td>2.7</td><td>3.2</td><td>26</td><td>20</td><td>8.5</td><td>3.4</td><td>6.1</td><td>8.2</td><td>8.5</td></tr><tr><td>13</td><td>7.3</td><td>3.6</td><td>5.5</td><td>2.7</td><td>3.8</td><td>26</td><td>20</td><td>.10</td><td>5.0</td><td>1.8</td><td>8.8</td><td>9.0</td></tr><tr><td>14</td><td>7.3</td><td>3.3</td><td>4.3</td><td>27</td><td>3.8</td><td>22</td><td>19</td><td>10.5</td><td>4.0</td><td>4.8</td><td>7.8</td><td>9.5</td></tr><tr><td>15</td><td>6.3</td><td>5.0</td><td>4.1</td><td>3.6</td><td>4.0</td><td>17.5</td><td>13.5</td><td>14.5</td><td>3.8</td><td>4.6</td><td>9.0</td><td>8.0</td></tr><tr><td>16</td><td>5.2</td><td>3.8</td><td>4.3</td><td>3.5</td><td>4.0</td><td>18.5</td><td>4.8</td><td>12</td><td>2.4</td><td>4.8</td><td>8.8</td><td>12</td></tr><tr><td>17</td><td>4.8</td><td>2.4</td><td>15.5</td><td>3.8</td><td>4.0</td><td>17.5</td><td>6.4</td><td>9.5</td><td>1.2</td><td>5.9</td><td>13</td><td>15</td></tr><tr><td>18</td><td>3.3</td><td>2.7</td><td>5.9</td><td>3.5</td><td>4.0</td><td>12.5</td><td>9.0</td><td>6.1</td><td>2.0</td><td>6.1</td><td>8.5</td><td>16.</td></tr><tr><td>19</td><td>3.6</td><td>2.5</td><td>15</td><td>3.3</td><td>3.6</td><td>4.6</td><td>&amp; 8</td><td>5.4</td><td>2.0</td><td>.6</td><td>7.5</td><td>16</td></tr><tr><td>20</td><td>3.3</td><td>2.5</td><td>16</td><td>3.5</td><td>4.5</td><td>6.5</td><td>7.3</td><td>4.4</td><td>3.2</td><td>1.8</td><td>8.5</td><td>16</td></tr><tr><td>21</td><td>5.7</td><td>2.5</td><td>15.5</td><td>3.5</td><td>6.3</td><td>3.5</td><td>14</td><td>7.3</td><td>3.6</td><td>5.7</td><td>8.0</td><td>16</td></tr><tr><td>22</td><td>5.9</td><td>2.4</td><td>8.2</td><td>3.5</td><td>19</td><td>3.8</td><td>20</td><td>6.1</td><td>1.4</td><td>5.9</td><td>8.8</td><td>11.5</td></tr><tr><td>23</td><td>6.3</td><td>2.2</td><td>13</td><td>3.3</td><td>21</td><td>6.7</td><td>21</td><td>5.7</td><td>2.6</td><td>7.0</td><td>11.5</td><td>8.2</td></tr><tr><td>24</td><td>9.2</td><td>2.5</td><td>19</td><td>3.3</td><td>19.5</td><td>6.7</td><td>20</td><td>4.4</td><td>3.0</td><td>5.2</td><td>8.0</td><td>&amp; 8</td></tr><tr><td>25</td><td>5.7</td><td>5.5</td><td>24</td><td>3,3</td><td>19</td><td>4.0</td><td>21</td><td>3.0</td><td>2.8</td><td>5.9</td><td>9.5</td><td>14</td></tr><tr><td>26</td><td>5.5</td><td>3.3</td><td>20</td><td>3.3</td><td>9.5</td><td>4.0</td><td>21</td><td>2.4</td><td>6.8</td><td>7.8</td><td>11.51</td><td>9,5</td></tr><tr><td>27</td><td>6.5</td><td>3.0</td><td>15.5</td><td>3.3</td><td>1.6</td><td>5.3</td><td>19</td><td>1.0</td><td>10</td><td>8.2</td><td>14</td><td>11.5</td></tr><tr><td>28</td><td>8.5</td><td>2.7</td><td>11</td><td>3.3</td><td>4.6</td><td>7.3</td><td>20</td><td>6.1</td><td>10.5</td><td>9.0</td><td>19</td><td>13</td></tr><tr><td>29</td><td>8.2</td><td>2.7</td><td>9.5</td><td>3.5</td><td></td><td>5.3</td><td>20</td><td>.7</td><td>9.8</td><td>7.0</td><td>19</td><td>10</td></tr><tr><td>30</td><td>9.0</td><td>2.8</td><td>7.5</td><td>3.3</td><td></td><td>18</td><td>21</td><td>1.4</td><td>8.0</td><td>3.0</td><td>19</td><td>9.0</td></tr><tr><td>31</td><td>7.1</td><td></td><td>6.9</td><td>3.0</td><td></td><td>23</td><td></td><td>1.8</td><td></td><td>3.2</td><td>16</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\nMonthly discharge of Cuyamaca Water Co.'s flume near Lakeside, Calif., for the year ending September 30, 1925\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off\ninacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>16.5</td><td>3.3</td><td>8.43</td><td>518</td></tr><tr><td>November</td><td>8.8</td><td>2.2</td><td>4.12</td><td>245</td></tr><tr><td>December</td><td>24</td><td>25</td><td>8.37</td><td>515</td></tr><tr><td>January</td><td>5.9</td><td>2.4</td><td>3.23</td><td>199</td></tr><tr><td>February</td><td>21</td><td>1.6</td><td>6.01</td><td>334</td></tr><tr><td>March</td><td>26</td><td>3.5</td><td>12.4</td><td>762</td></tr><tr><td>April</td><td>22</td><td>4.8</td><td>17.4</td><td>1,040</td></tr><tr><td>May</td><td>20</td><td>.7</td><td>9.27</td><td>570</td></tr><tr><td>June</td><td>17</td><td>.6</td><td>5.78</td><td>344</td></tr><tr><td>July</td><td>10</td><td>.6</td><td>5.74</td><td>353</td></tr><tr><td>August</td><td>19</td><td>1.6</td><td>9.09</td><td>559</td></tr><tr><td>September</td><td>18. 5</td><td>7,8</td><td>11.7</td><td>696</td></tr><tr><td>The year</td><td>26</td><td>.6</td><td>8.47</td><td>6,148</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\nMonthly discharge of Cuyamaca Water Co.'s flume near Lakeside, Calif., for the year ending September 30, 1925\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off\ninacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>16.5</td><td>3.3</td><td>8.43</td><td>518</td></tr><tr><td>November</td><td>8.8</td><td>2.2</td><td>4.12</td><td>245</td></tr><tr><td>December</td><td>24</td><td>25</td><td>8.37</td><td>515</td></tr><tr><td>January</td><td>5.9</td><td>2.4</td><td>3.23</td><td>199</td></tr><tr><td>February</td><td>21</td><td>1.6</td><td>6.01</td><td>334</td></tr><tr><td>March</td><td>26</td><td>3.5</td><td>12.4</td><td>762</td></tr><tr><td>April</td><td>22</td><td>4.8</td><td>17.4</td><td>1,040</td></tr><tr><td>May</td><td>20</td><td>.7</td><td>9.27</td><td>570</td></tr><tr><td>June</td><td>17</td><td>.6</td><td>5.78</td><td>344</td></tr><tr><td>July</td><td>10</td><td>.6</td><td>5.74</td><td>353</td></tr><tr><td>August</td><td>19</td><td>1.6</td><td>9.09</td><td>559</td></tr><tr><td>September</td><td>18. 5</td><td>7,8</td><td>11.7</td><td>696</td></tr><tr><td>The year</td><td>26</td><td>.6</td><td>8.47</td><td>6,148</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10240592227020358,
+                            "top": 0.498685692827638,
+                            "width": 0.8217149907464528,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Cuyamaca Water Co.'s flume near Lakeside, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10173868677043973,
+                            "top": 0.5286286282799005,
+                            "width": 0.8251780957663817,
+                            "height": 0.18828046156238265,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off\ninacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>16.5</td><td>3.3</td><td>8.43</td><td>518</td></tr><tr><td>November</td><td>8.8</td><td>2.2</td><td>4.12</td><td>245</td></tr><tr><td>December</td><td>24</td><td>25</td><td>8.37</td><td>515</td></tr><tr><td>January</td><td>5.9</td><td>2.4</td><td>3.23</td><td>199</td></tr><tr><td>February</td><td>21</td><td>1.6</td><td>6.01</td><td>334</td></tr><tr><td>March</td><td>26</td><td>3.5</td><td>12.4</td><td>762</td></tr><tr><td>April</td><td>22</td><td>4.8</td><td>17.4</td><td>1,040</td></tr><tr><td>May</td><td>20</td><td>.7</td><td>9.27</td><td>570</td></tr><tr><td>June</td><td>17</td><td>.6</td><td>5.78</td><td>344</td></tr><tr><td>July</td><td>10</td><td>.6</td><td>5.74</td><td>353</td></tr><tr><td>August</td><td>19</td><td>1.6</td><td>9.09</td><td>559</td></tr><tr><td>September</td><td>18. 5</td><td>7,8</td><td>11.7</td><td>696</td></tr><tr><td>The year</td><td>26</td><td>.6</td><td>8.47</td><td>6,148</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n## SAN DIEGUITO RIVER BASIN\n\nSANTA YSABEL CREEK NEAR MESA GRANDE, CALIF.\n\nLOCATION.-In NW. 1/4 sec. 21, T. 12 S., R. 2 E., at Sutherland Dam site, 1 mile below Sutherland, 11/2 miles above mouth of Black Canyon Creek, and 41/2 miles southwest of Mesa Grande, San Diego County. DRAINAGE AREA.-53.4 square miles (measured on topographic map). RECORDS AVAILABLE.-December 29, 1912, to September 30, 1925. GAGE. Water-stage recorder on right bank just above Sutherland Dam site. DISCHARGE MEASUREMENTS.-Made from cable at gage or by wading. CHANNEL AND CONTROL.-Bed is shifting sand. A concrete control has been. constructed at an outcropping of bedrock 20 feet below gage. Banks are high, covered with brush, and not subject to overflow. EXTREMES OF DISCHARGE.-No information for this year.",
+                "embed": "# SURFACE WATER SUPPLY, 1925, PART XI (cont.)\n\n## SAN DIEGUITO RIVER BASIN\n\nSANTA YSABEL CREEK NEAR MESA GRANDE, CALIF.\n\nLOCATION.-In NW. 1/4 sec. 21, T. 12 S., R. 2 E., at Sutherland Dam site, 1 mile below Sutherland, 11/2 miles above mouth of Black Canyon Creek, and 41/2 miles southwest of Mesa Grande, San Diego County. DRAINAGE AREA.-53.4 square miles (measured on topographic map). RECORDS AVAILABLE.-December 29, 1912, to September 30, 1925. GAGE. Water-stage recorder on right bank just above Sutherland Dam site. DISCHARGE MEASUREMENTS.-Made from cable at gage or by wading. CHANNEL AND CONTROL.-Bed is shifting sand. A concrete control has been. constructed at an outcropping of bedrock 20 feet below gage. Banks are high, covered with brush, and not subject to overflow. EXTREMES OF DISCHARGE.-No information for this year.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.33066008636644045,
+                            "top": 0.7254975591438227,
+                            "width": 0.36644046884639114,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "SAN DIEGUITO RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.28439235040098704,
+                            "top": 0.7438978595568907,
+                            "width": 0.4602097470697101,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "SANTA YSABEL CREEK NEAR MESA GRANDE, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10240592227020358,
+                            "top": 0.7592940292902741,
+                            "width": 0.8223318938926588,
+                            "height": 0.17048441607209913,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In NW. 1/4 sec. 21, T. 12 S., R. 2 E., at Sutherland Dam site, 1 mile below Sutherland, 11/2 miles above mouth of Black Canyon Creek, and 41/2 miles southwest of Mesa Grande, San Diego County. DRAINAGE AREA.-53.4 square miles (measured on topographic map). RECORDS AVAILABLE.-December 29, 1912, to September 30, 1925. GAGE. Water-stage recorder on right bank just above Sutherland Dam site. DISCHARGE MEASUREMENTS.-Made from cable at gage or by wading. CHANNEL AND CONTROL.-Bed is shifting sand. A concrete control has been. constructed at an outcropping of bedrock 20 feet below gage. Banks are high, covered with brush, and not subject to overflow. EXTREMES OF DISCHARGE.-No information for this year.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

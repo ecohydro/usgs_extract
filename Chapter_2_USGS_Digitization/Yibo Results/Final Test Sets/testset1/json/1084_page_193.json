@@ -1,0 +1,318 @@
+{
+    "job_id": "ac5e427b-e8ca-4fa5-bc70-901b9cbbc65d",
+    "duration": 4.668400526046753,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/deb6a968-2646-495d-8fc8-b83935435428?AWSAccessKeyId=ASIA2UOK6OVBKB23AVWB&Signature=E9thPzByaRU%2BzJQse7rf7hmLxs8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJGMEQCIC0ySPFIoLOAdtO%2Fzhg%2FOxDq1iSvVi03ndrTXADStyGcAiAhB0il7sx9Np157o2yHu55iq73J3loYKAKK6yNSCEhiCqLBQgiEAAaDDczMTEwNjkzMjAzNCIM4NYUuUhCxqC0Zy06KugEZh6CKT0Ej1z2tDVSuuFlEKNKGIs%2FE0WqgLRNaVoR1kCiHmVy%2FWJi5bQh8VFtexAW%2FH5JK8pslgmbm1UIR2heIfzpKsAQHTDEmajzfLFGOWAFIYePRQiOf6xq58XlzXjZPq1Y7iEjwefIQ6VeqZX%2BGjDQYwxKlAhbALuoJvIcOfY4GJS7cJT3yHKQMqKCz%2BdwjlQj6HlD2rrptnWuUZDGsob3NeMF8qTcLV556BuES3N7jiFi0%2BjzjjRO3t%2FX%2Bk4RSA2P74Zd6DmXyB6E%2BeZCn8iBXPnKm0Uc8b%2FqV7GoitjLiSG9d%2FjKlQLb%2FEjYnRlMDZZwuYzPyO5vBFvDI5if50dzRcY2gCXqbE9Ig90ww6T2Vyv0girHc9rDCHzpLx0znw39RgUlweUmTInFFJCKZQbsdaHeNE1MhAcQH99crdpf%2Fq0HXj2ommfVKJgJpiMXQQp06XTYdlulkbTu8ibmX6H6%2FXmEujwu3Q4HxD65KK6ThS1k0opjfuUWivF%2FyaqaycqUYzpAxC1vkC7wHD6G7sWEj13jfBx7KuL6I4sh5YEl1kDu3hiCp9HU6TQ4PsQe7mBi0qHsgNMmDskB9AQ1jdtRIOqPV8EzaQBs%2BMB7rEsb5QVkRYh%2FmGbGckGVnq%2BHwFC1WmjOShHyArpjBi6ATHsibB%2BZB%2FtptKuZzwW1t%2BimlK0aGYzxZ82FbDdp16s4F4AS35o9AlTt6sjtzS5AJ0sxAH8jIS6IHJIiV1zh71X6yN2dxtw4e9xMH7%2BRApVNI%2BR4SZTZvxvC8SQQAuR8hBhhVZ42EVfrJ%2BTNmfkChhNN%2B30f169CGTCEicm6BjqcAW66O0JeH2Fdll7LJ7x7wKeid58K2YSHJ2xed%2BaM1ZcBzVwLUtcRr7oMwYCqLbRBLlAXMshOMe2kKj%2Fxw4HmkAelYcRMvB1CRf%2BDkNRFiDpcMBBsFDCrR%2BrrOvgJaW5mRvqMWL0NxoqbVnu4ouvTEkHb8cROkikG6jlw11vXK8p8SscR03XNzddCOIaGcguYGhym83pzwqzMMSTdLQ%3D%3D&Expires=1733450558",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# EAST SUTTER BASIN AREA.\n\n# Chemical composition and classification of ground waters in East Sutter Basin area.\n\n[Analyses by S. C. Dinsmore; assays by G. H. P. Lichthardt. Parts per million except as otherwise desig- nated. Numbers at heads of columns refer to locations so marked on Pl. IV.]",
+                "embed": "# EAST SUTTER BASIN AREA.\n\n# Chemical composition and classification of ground waters in East Sutter Basin area.\n\n[Analyses by S. C. Dinsmore; assays by G. H. P. Lichthardt. Parts per million except as otherwise desig- nated. Numbers at heads of columns refer to locations so marked on Pl. IV.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2807570977917981,
+                            "top": 0.05408515535097814,
+                            "width": 0.3173501577287066,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "EAST SUTTER BASIN AREA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8100946372239748,
+                            "top": 0.05063291139240506,
+                            "width": 0.04605678233438486,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "163",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.05236593059936909,
+                            "top": 0.08362102032988109,
+                            "width": 0.7810725552050474,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "Chemical composition and classification of ground waters in East Sutter Basin area.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.02082018927444795,
+                            "top": 0.10586881472957423,
+                            "width": 0.8378548895899054,
+                            "height": 0.02109704641350211,
+                            "page": 1
+                        },
+                        "content": "[Analyses by S. C. Dinsmore; assays by G. H. P. Lichthardt. Parts per million except as otherwise desig- nated. Numbers at heads of columns refer to locations so marked on Pl. IV.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\n<table><tr><th></th><th colspan=\"2\">Analyses.</th><th colspan=\"2\">Assays.</th></tr><tr><td></td><td>A18</td><td>A19</td><td>A20</td><td>A21</td></tr><tr><td>Silica (SiO2)</td><td>50</td><td>34</td><td></td><td></td></tr><tr><td>Iron (Fe)</td><td>06</td><td>Trace.</td><td></td><td></td></tr><tr><td>Calcium (Ca)</td><td>36</td><td>42</td><td></td><td></td></tr><tr><td>Magnesium (Mg)</td><td>28</td><td>14</td><td></td><td></td></tr><tr><td>Sodium and potassium (Na+K) a</td><td>629</td><td>8.1</td><td>940</td><td>240</td></tr><tr><td>Carbonate radicle (CO3)</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Bicarbonate radicle (HCO3)</td><td>274</td><td>204</td><td>302</td><td>256</td></tr><tr><td>Sulphate radicle (SO4)</td><td>18</td><td>Trace.</td><td>Trace.</td><td>0</td></tr><tr><td>Chloride radicle (CI)</td><td>22</td><td>9.0</td><td>,170</td><td>860</td></tr><tr><td>Nitrate radicle (NO3)</td><td>13</td><td>.00</td><td></td><td></td></tr><tr><td>Total dissolved solids</td><td>321</td><td>217</td><td>3,800</td><td>a 1,600</td></tr><tr><td>Total hardness as CaCO3</td><td>a 205</td><td>a 162</td><td>1,450</td><td>950</td></tr><tr><td>Scale-forming constituents</td><td>200</td><td>180</td><td>1,500</td><td>990</td></tr><tr><td>Foaming constituents</td><td>78</td><td>22</td><td>2,500</td><td>650</td></tr><tr><td>Alkali coefficient (inches)</td><td>47</td><td>130</td><td>.9</td><td>2.4</td></tr><tr><td>Classification:</td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic use</td><td>Good.</td><td>Good.</td><td>Unfit.</td><td>Bad.</td></tr><tr><td>Boiler use</td><td>Fair.</td><td>Fair.</td><td>Unfit.</td><td>Unfit.</td></tr><tr><td>Irrigation use</td><td>Good.</td><td>Good.</td><td>Bad.</td><td>Poor.</td></tr><tr><td>Mineral content</td><td>Moderate.</td><td>Moderate.</td><td>Very high.</td><td>High.</td></tr><tr><td>Date of collection (1913)</td><td>Dec. 30.</td><td>July 2</td><td>Aug. 18</td><td>July 21</td></tr></table>",
+                "embed": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\n<table><tr><th></th><th colspan=\"2\">Analyses.</th><th colspan=\"2\">Assays.</th></tr><tr><td></td><td>A18</td><td>A19</td><td>A20</td><td>A21</td></tr><tr><td>Silica (SiO2)</td><td>50</td><td>34</td><td></td><td></td></tr><tr><td>Iron (Fe)</td><td>06</td><td>Trace.</td><td></td><td></td></tr><tr><td>Calcium (Ca)</td><td>36</td><td>42</td><td></td><td></td></tr><tr><td>Magnesium (Mg)</td><td>28</td><td>14</td><td></td><td></td></tr><tr><td>Sodium and potassium (Na+K) a</td><td>629</td><td>8.1</td><td>940</td><td>240</td></tr><tr><td>Carbonate radicle (CO3)</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Bicarbonate radicle (HCO3)</td><td>274</td><td>204</td><td>302</td><td>256</td></tr><tr><td>Sulphate radicle (SO4)</td><td>18</td><td>Trace.</td><td>Trace.</td><td>0</td></tr><tr><td>Chloride radicle (CI)</td><td>22</td><td>9.0</td><td>,170</td><td>860</td></tr><tr><td>Nitrate radicle (NO3)</td><td>13</td><td>.00</td><td></td><td></td></tr><tr><td>Total dissolved solids</td><td>321</td><td>217</td><td>3,800</td><td>a 1,600</td></tr><tr><td>Total hardness as CaCO3</td><td>a 205</td><td>a 162</td><td>1,450</td><td>950</td></tr><tr><td>Scale-forming constituents</td><td>200</td><td>180</td><td>1,500</td><td>990</td></tr><tr><td>Foaming constituents</td><td>78</td><td>22</td><td>2,500</td><td>650</td></tr><tr><td>Alkali coefficient (inches)</td><td>47</td><td>130</td><td>.9</td><td>2.4</td></tr><tr><td>Classification:</td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic use</td><td>Good.</td><td>Good.</td><td>Unfit.</td><td>Bad.</td></tr><tr><td>Boiler use</td><td>Fair.</td><td>Fair.</td><td>Unfit.</td><td>Unfit.</td></tr><tr><td>Irrigation use</td><td>Good.</td><td>Good.</td><td>Bad.</td><td>Poor.</td></tr><tr><td>Mineral content</td><td>Moderate.</td><td>Moderate.</td><td>Very high.</td><td>High.</td></tr><tr><td>Date of collection (1913)</td><td>Dec. 30.</td><td>July 2</td><td>Aug. 18</td><td>July 21</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.021992302542605233,
+                            "top": 0.13691363171869006,
+                            "width": 0.8395774985713538,
+                            "height": 0.29591913373249906,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th colspan=\"2\">Analyses.</th><th colspan=\"2\">Assays.</th></tr><tr><td></td><td>A18</td><td>A19</td><td>A20</td><td>A21</td></tr><tr><td>Silica (SiO2)</td><td>50</td><td>34</td><td></td><td></td></tr><tr><td>Iron (Fe)</td><td>06</td><td>Trace.</td><td></td><td></td></tr><tr><td>Calcium (Ca)</td><td>36</td><td>42</td><td></td><td></td></tr><tr><td>Magnesium (Mg)</td><td>28</td><td>14</td><td></td><td></td></tr><tr><td>Sodium and potassium (Na+K) a</td><td>629</td><td>8.1</td><td>940</td><td>240</td></tr><tr><td>Carbonate radicle (CO3)</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Bicarbonate radicle (HCO3)</td><td>274</td><td>204</td><td>302</td><td>256</td></tr><tr><td>Sulphate radicle (SO4)</td><td>18</td><td>Trace.</td><td>Trace.</td><td>0</td></tr><tr><td>Chloride radicle (CI)</td><td>22</td><td>9.0</td><td>,170</td><td>860</td></tr><tr><td>Nitrate radicle (NO3)</td><td>13</td><td>.00</td><td></td><td></td></tr><tr><td>Total dissolved solids</td><td>321</td><td>217</td><td>3,800</td><td>a 1,600</td></tr><tr><td>Total hardness as CaCO3</td><td>a 205</td><td>a 162</td><td>1,450</td><td>950</td></tr><tr><td>Scale-forming constituents</td><td>200</td><td>180</td><td>1,500</td><td>990</td></tr><tr><td>Foaming constituents</td><td>78</td><td>22</td><td>2,500</td><td>650</td></tr><tr><td>Alkali coefficient (inches)</td><td>47</td><td>130</td><td>.9</td><td>2.4</td></tr><tr><td>Classification:</td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic use</td><td>Good.</td><td>Good.</td><td>Unfit.</td><td>Bad.</td></tr><tr><td>Boiler use</td><td>Fair.</td><td>Fair.</td><td>Unfit.</td><td>Unfit.</td></tr><tr><td>Irrigation use</td><td>Good.</td><td>Good.</td><td>Bad.</td><td>Poor.</td></tr><tr><td>Mineral content</td><td>Moderate.</td><td>Moderate.</td><td>Very high.</td><td>High.</td></tr><tr><td>Date of collection (1913)</td><td>Dec. 30.</td><td>July 2</td><td>Aug. 18</td><td>July 21</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\na Calculated.\nb Determined. Na=24: I=4.8 parts per million.\n\n- c Depth in inches of water which on evaporation would yield sufficient alkali to render a 4-foot depth of soil injurious to the most sensitive crops.\n\n\t- A18. Municipal supply (composite of two wells, 85 and 165 feet deep, 12 inches in diameter), Yuba City.\n\nA19. Well at camp near New Chandler.\n\n- A20. Shallow well, 6 inches in diameter, at camp of Hudson estate (SW. 1 sec. 7, T. 13 N., R. 2 E.). A21. Well (42 feet deep, 12 inchesin diameter), at pumping plant of E. R. Edwards, 3 miles southwest of Nicolaus (SE. 1/2 sec. 10, T. 12 N., R. 3 E.).\n\n## PUMPING PLANTS.\n\nPumping plants in the East Sutter Basin.",
+                "embed": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\na Calculated.\nb Determined. Na=24: I=4.8 parts per million.\n\n- c Depth in inches of water which on evaporation would yield sufficient alkali to render a 4-foot depth of soil injurious to the most sensitive crops.\n\n\t- A18. Municipal supply (composite of two wells, 85 and 165 feet deep, 12 inches in diameter), Yuba City.\n\nA19. Well at camp near New Chandler.\n\n- A20. Shallow well, 6 inches in diameter, at camp of Hudson estate (SW. 1 sec. 7, T. 13 N., R. 2 E.). A21. Well (42 feet deep, 12 inchesin diameter), at pumping plant of E. R. Edwards, 3 miles southwest of Nicolaus (SE. 1/2 sec. 10, T. 12 N., R. 3 E.).\n\n## PUMPING PLANTS.\n\nPumping plants in the East Sutter Basin.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04227129337539432,
+                            "top": 0.4415036440352896,
+                            "width": 0.3905362776025237,
+                            "height": 0.019562715765247412,
+                            "page": 1
+                        },
+                        "content": "a Calculated.\nb Determined. Na=24: I=4.8 parts per million.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.0277602523659306,
+                            "top": 0.459915611814346,
+                            "width": 0.8309148264984227,
+                            "height": 0.020713463751438434,
+                            "page": 1
+                        },
+                        "content": "- c Depth in inches of water which on evaporation would yield sufficient alkali to render a 4-foot depth of soil injurious to the most sensitive crops.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.043533123028391164,
+                            "top": 0.4856156501726122,
+                            "width": 0.7993690851735016,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "\t- A18. Municipal supply (composite of two wells, 85 and 165 feet deep, 12 inches in diameter), Yuba City.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.043533123028391164,
+                            "top": 0.49558879938626776,
+                            "width": 0.31041009463722397,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "A19. Well at camp near New Chandler.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.028391167192429023,
+                            "top": 0.5044112006137322,
+                            "width": 0.8151419558359622,
+                            "height": 0.03068661296509398,
+                            "page": 1
+                        },
+                        "content": "- A20. Shallow well, 6 inches in diameter, at camp of Hudson estate (SW. 1 sec. 7, T. 13 N., R. 2 E.). A21. Well (42 feet deep, 12 inchesin diameter), at pumping plant of E. R. Edwards, 3 miles southwest of Nicolaus (SE. 1/2 sec. 10, T. 12 N., R. 3 E.).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.34069400630914826,
+                            "top": 0.5527426160337553,
+                            "width": 0.2088328075709779,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "PUMPING PLANTS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.24984227129337538,
+                            "top": 0.5772919064058305,
+                            "width": 0.3949526813880126,
+                            "height": 0.01457614115841964,
+                            "page": 1
+                        },
+                        "content": "Pumping plants in the East Sutter Basin.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n<table><tr><th rowspan=\"2\">Owner.</th><th colspan=\"3\">Location.</th><th rowspan=\"2\">Diam-\neter of\nwell.</th><th rowspan=\"2\">Depth\nof\nwell.</th><th rowspan=\"2\">Depth\nto\nwater.</th><th rowspan=\"2\">Size of\ncentrif-\nugal\npump.</th><th rowspan=\"2\">Horse-\npower.</th><th rowspan=\"2\">Area\nirri-\ngated.</th></tr><tr><td>Section.</td><td>Town-\nship\nN.</td><td>Range\nE.</td></tr><tr><td></td><td></td><td></td><td></td><td>Inches.</td><td>Feet.</td><td>Feet.</td><td>Inches.</td><td></td><td>Acres.</td></tr><tr><td>W.F. Sperry</td><td>Yuba City</td><td></td><td></td><td>10</td><td></td><td></td><td>3</td><td>5</td><td>20</td></tr><tr><td>Giblin Bros. No. 1</td><td colspan=\"3\">Outskirts of Yuba City</td><td>12</td><td>75</td><td></td><td>3</td><td>5</td><td></td></tr><tr><td>Giblin Bros. No. 2</td><td>do</td><td></td><td></td><td>12</td><td>40</td><td></td><td>3</td><td>71</td><td>20</td></tr><tr><td>J. G. Sternes</td><td>SE. 12</td><td>15</td><td>2</td><td>8</td><td>40(?)</td><td>17.</td><td>3</td><td>7)</td><td>10</td></tr><tr><td>J. G. Choffin</td><td>SE.1 12</td><td>15</td><td>2</td><td>10</td><td>65</td><td>a 14.</td><td>3</td><td>6</td><td>12</td></tr><tr><td>Yuba Dairy Co. No. 1</td><td>NW.1. 19</td><td>15</td><td>3</td><td>d 12</td><td>178</td><td></td><td>6</td><td>20</td><td>80</td></tr><tr><td>Yuba Dairy Co. No. 2</td><td>SW. 18</td><td>15</td><td>3</td><td>12</td><td>148</td><td></td><td>6</td><td>20</td><td>40</td></tr><tr><td>W.L. Henson</td><td>SE. 17</td><td>15</td><td>3</td><td>e 10</td><td>8</td><td></td><td>3</td><td>6</td><td>17</td></tr><tr><td>J. J. Weber No. 1</td><td>SE.1 20</td><td>15</td><td>3</td><td>10</td><td>46</td><td></td><td>5</td><td>15</td><td></td></tr><tr><td>J. J. Weber No. 2</td><td>SE.1 20</td><td>15</td><td>3</td><td>e 10</td><td>45</td><td></td><td>5</td><td>20</td><td>80</td></tr><tr><td>Mr. Paten</td><td>SE.1 20</td><td>15</td><td>3</td><td>e 12</td><td></td><td>g 16.8</td><td>4</td><td>6</td><td>10</td></tr><tr><td>J. L. Welter</td><td>SE.1 24</td><td>15</td><td>3</td><td>8</td><td>20 +</td><td></td><td>3</td><td>6</td><td>15</td></tr><tr><td>John Storm</td><td>SW.I. 24</td><td>15</td><td>2</td><td>h 12</td><td>56</td><td></td><td>4</td><td>8</td><td>30</td></tr><tr><td>G. W. Knight</td><td>SW. 24</td><td>15</td><td>2</td><td>h 12</td><td>40</td><td>g 14.</td><td>3</td><td>6</td><td>12</td></tr><tr><td>W. A. Clements</td><td>SW. 21</td><td>15</td><td>2</td><td>f 10</td><td>40</td><td></td><td>3</td><td>5</td><td>20</td></tr><tr><td>E. W. Eixson:</td><td></td><td></td><td></td><td></td><td>and 50</td><td></td><td></td><td></td><td></td></tr><tr><td>Plant No. 1</td><td>SW. 30</td><td>15</td><td>3</td><td>10</td><td>\u20ac 86</td><td></td><td>3</td><td>6</td><td></td></tr><tr><td>Plant No. 2</td><td>S.1, 29</td><td>15</td><td>3</td><td>10</td><td>i 75</td><td></td><td>4</td><td>8</td><td>27</td></tr></table>",
+                "embed": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n<table><tr><th rowspan=\"2\">Owner.</th><th colspan=\"3\">Location.</th><th rowspan=\"2\">Diam-\neter of\nwell.</th><th rowspan=\"2\">Depth\nof\nwell.</th><th rowspan=\"2\">Depth\nto\nwater.</th><th rowspan=\"2\">Size of\ncentrif-\nugal\npump.</th><th rowspan=\"2\">Horse-\npower.</th><th rowspan=\"2\">Area\nirri-\ngated.</th></tr><tr><td>Section.</td><td>Town-\nship\nN.</td><td>Range\nE.</td></tr><tr><td></td><td></td><td></td><td></td><td>Inches.</td><td>Feet.</td><td>Feet.</td><td>Inches.</td><td></td><td>Acres.</td></tr><tr><td>W.F. Sperry</td><td>Yuba City</td><td></td><td></td><td>10</td><td></td><td></td><td>3</td><td>5</td><td>20</td></tr><tr><td>Giblin Bros. No. 1</td><td colspan=\"3\">Outskirts of Yuba City</td><td>12</td><td>75</td><td></td><td>3</td><td>5</td><td></td></tr><tr><td>Giblin Bros. No. 2</td><td>do</td><td></td><td></td><td>12</td><td>40</td><td></td><td>3</td><td>71</td><td>20</td></tr><tr><td>J. G. Sternes</td><td>SE. 12</td><td>15</td><td>2</td><td>8</td><td>40(?)</td><td>17.</td><td>3</td><td>7)</td><td>10</td></tr><tr><td>J. G. Choffin</td><td>SE.1 12</td><td>15</td><td>2</td><td>10</td><td>65</td><td>a 14.</td><td>3</td><td>6</td><td>12</td></tr><tr><td>Yuba Dairy Co. No. 1</td><td>NW.1. 19</td><td>15</td><td>3</td><td>d 12</td><td>178</td><td></td><td>6</td><td>20</td><td>80</td></tr><tr><td>Yuba Dairy Co. No. 2</td><td>SW. 18</td><td>15</td><td>3</td><td>12</td><td>148</td><td></td><td>6</td><td>20</td><td>40</td></tr><tr><td>W.L. Henson</td><td>SE. 17</td><td>15</td><td>3</td><td>e 10</td><td>8</td><td></td><td>3</td><td>6</td><td>17</td></tr><tr><td>J. J. Weber No. 1</td><td>SE.1 20</td><td>15</td><td>3</td><td>10</td><td>46</td><td></td><td>5</td><td>15</td><td></td></tr><tr><td>J. J. Weber No. 2</td><td>SE.1 20</td><td>15</td><td>3</td><td>e 10</td><td>45</td><td></td><td>5</td><td>20</td><td>80</td></tr><tr><td>Mr. Paten</td><td>SE.1 20</td><td>15</td><td>3</td><td>e 12</td><td></td><td>g 16.8</td><td>4</td><td>6</td><td>10</td></tr><tr><td>J. L. Welter</td><td>SE.1 24</td><td>15</td><td>3</td><td>8</td><td>20 +</td><td></td><td>3</td><td>6</td><td>15</td></tr><tr><td>John Storm</td><td>SW.I. 24</td><td>15</td><td>2</td><td>h 12</td><td>56</td><td></td><td>4</td><td>8</td><td>30</td></tr><tr><td>G. W. Knight</td><td>SW. 24</td><td>15</td><td>2</td><td>h 12</td><td>40</td><td>g 14.</td><td>3</td><td>6</td><td>12</td></tr><tr><td>W. A. Clements</td><td>SW. 21</td><td>15</td><td>2</td><td>f 10</td><td>40</td><td></td><td>3</td><td>5</td><td>20</td></tr><tr><td>E. W. Eixson:</td><td></td><td></td><td></td><td></td><td>and 50</td><td></td><td></td><td></td><td></td></tr><tr><td>Plant No. 1</td><td>SW. 30</td><td>15</td><td>3</td><td>10</td><td>\u20ac 86</td><td></td><td>3</td><td>6</td><td></td></tr><tr><td>Plant No. 2</td><td>S.1, 29</td><td>15</td><td>3</td><td>10</td><td>i 75</td><td></td><td>4</td><td>8</td><td>27</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.027085149626626576,
+                            "top": 0.6009993470853712,
+                            "width": 0.8411406796813388,
+                            "height": 0.28981922355976697,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Owner.</th><th colspan=\"3\">Location.</th><th rowspan=\"2\">Diam-\neter of\nwell.</th><th rowspan=\"2\">Depth\nof\nwell.</th><th rowspan=\"2\">Depth\nto\nwater.</th><th rowspan=\"2\">Size of\ncentrif-\nugal\npump.</th><th rowspan=\"2\">Horse-\npower.</th><th rowspan=\"2\">Area\nirri-\ngated.</th></tr><tr><td>Section.</td><td>Town-\nship\nN.</td><td>Range\nE.</td></tr><tr><td></td><td></td><td></td><td></td><td>Inches.</td><td>Feet.</td><td>Feet.</td><td>Inches.</td><td></td><td>Acres.</td></tr><tr><td>W.F. Sperry</td><td>Yuba City</td><td></td><td></td><td>10</td><td></td><td></td><td>3</td><td>5</td><td>20</td></tr><tr><td>Giblin Bros. No. 1</td><td colspan=\"3\">Outskirts of Yuba City</td><td>12</td><td>75</td><td></td><td>3</td><td>5</td><td></td></tr><tr><td>Giblin Bros. No. 2</td><td>do</td><td></td><td></td><td>12</td><td>40</td><td></td><td>3</td><td>71</td><td>20</td></tr><tr><td>J. G. Sternes</td><td>SE. 12</td><td>15</td><td>2</td><td>8</td><td>40(?)</td><td>17.</td><td>3</td><td>7)</td><td>10</td></tr><tr><td>J. G. Choffin</td><td>SE.1 12</td><td>15</td><td>2</td><td>10</td><td>65</td><td>a 14.</td><td>3</td><td>6</td><td>12</td></tr><tr><td>Yuba Dairy Co. No. 1</td><td>NW.1. 19</td><td>15</td><td>3</td><td>d 12</td><td>178</td><td></td><td>6</td><td>20</td><td>80</td></tr><tr><td>Yuba Dairy Co. No. 2</td><td>SW. 18</td><td>15</td><td>3</td><td>12</td><td>148</td><td></td><td>6</td><td>20</td><td>40</td></tr><tr><td>W.L. Henson</td><td>SE. 17</td><td>15</td><td>3</td><td>e 10</td><td>8</td><td></td><td>3</td><td>6</td><td>17</td></tr><tr><td>J. J. Weber No. 1</td><td>SE.1 20</td><td>15</td><td>3</td><td>10</td><td>46</td><td></td><td>5</td><td>15</td><td></td></tr><tr><td>J. J. Weber No. 2</td><td>SE.1 20</td><td>15</td><td>3</td><td>e 10</td><td>45</td><td></td><td>5</td><td>20</td><td>80</td></tr><tr><td>Mr. Paten</td><td>SE.1 20</td><td>15</td><td>3</td><td>e 12</td><td></td><td>g 16.8</td><td>4</td><td>6</td><td>10</td></tr><tr><td>J. L. Welter</td><td>SE.1 24</td><td>15</td><td>3</td><td>8</td><td>20 +</td><td></td><td>3</td><td>6</td><td>15</td></tr><tr><td>John Storm</td><td>SW.I. 24</td><td>15</td><td>2</td><td>h 12</td><td>56</td><td></td><td>4</td><td>8</td><td>30</td></tr><tr><td>G. W. Knight</td><td>SW. 24</td><td>15</td><td>2</td><td>h 12</td><td>40</td><td>g 14.</td><td>3</td><td>6</td><td>12</td></tr><tr><td>W. A. Clements</td><td>SW. 21</td><td>15</td><td>2</td><td>f 10</td><td>40</td><td></td><td>3</td><td>5</td><td>20</td></tr><tr><td>E. W. Eixson:</td><td></td><td></td><td></td><td></td><td>and 50</td><td></td><td></td><td></td><td></td></tr><tr><td>Plant No. 1</td><td>SW. 30</td><td>15</td><td>3</td><td>10</td><td>\u20ac 86</td><td></td><td>3</td><td>6</td><td></td></tr><tr><td>Plant No. 2</td><td>S.1, 29</td><td>15</td><td>3</td><td>10</td><td>i 75</td><td></td><td>4</td><td>8</td><td>27</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n- a Measured in September, 1913.\n\n- b From floor of pump house.\n\n- c From bottom of timbers over pit.\n\n- d Cased to 40 feet.\n\n- No casing.\n\n\t- f Two wells, machinery shifted from well to well.\n\n\t- g Measured in August, 1913.\n\n\t- h Cased for 6 feet below pit.\n\n\t& Cased to 45 feet.",
+                "embed": "# Chemical composition and classification of ground waters in East Sutter Basin area. (cont.)\n\n## PUMPING PLANTS. (cont.)\n\n- a Measured in September, 1913.\n\n- b From floor of pump house.\n\n- c From bottom of timbers over pit.\n\n- d Cased to 40 feet.\n\n- No casing.\n\n\t- f Two wells, machinery shifted from well to well.\n\n\t- g Measured in August, 1913.\n\n\t- h Cased for 6 feet below pit.\n\n\t& Cased to 45 feet.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.061198738170347,
+                            "top": 0.8925968546221711,
+                            "width": 0.2473186119873817,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "- a Measured in September, 1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.062460567823343846,
+                            "top": 0.9021864211737629,
+                            "width": 0.2246056782334385,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "- b From floor of pump house.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.062460567823343846,
+                            "top": 0.9117759877253548,
+                            "width": 0.2725552050473186,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "- c From bottom of timbers over pit.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.061198738170347,
+                            "top": 0.9213655542769467,
+                            "width": 0.138801261829653,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "- d Cased to 40 feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06813880126182965,
+                            "top": 0.9309551208285386,
+                            "width": 0.08643533123028391,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "- No casing.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.4466876971608833,
+                            "top": 0.8925968546221711,
+                            "width": 0.3886435331230284,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "\t- f Two wells, machinery shifted from well to well.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.444794952681388,
+                            "top": 0.9029535864978903,
+                            "width": 0.22018927444794953,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "\t- g Measured in August, 1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.44353312302839115,
+                            "top": 0.9125431530494822,
+                            "width": 0.2170347003154574,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "\t- h Cased for 6 feet below pit.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.444794952681388,
+                            "top": 0.922132719601074,
+                            "width": 0.1381703470031546,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "\t& Cased to 45 feet.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

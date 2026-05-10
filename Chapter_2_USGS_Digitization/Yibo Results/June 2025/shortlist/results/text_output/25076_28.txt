@@ -1,0 +1,52 @@
+```json
+[
+    {
+        "Watersource_Name": "South Fork of Kern River near Onyx",
+        "County": "Kern County",
+        "Location": "San Joaquin River Basin, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "cubic feet per second",
+        "Latitude": 35.5,
+        "Longitude": -118.7,
+        "Dates_of_Recording": "1911-12-01 to 1924-25-12",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Erskine Creek near Isabella",
+        "County": "Kern County",
+        "Location": "San Joaquin River Basin, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "inches of water",
+        "Latitude": 35.3,
+        "Longitude": -118.9,
+        "Dates_of_Recording": "1910-11-01 to 1911-12-01",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Basin Creek near Havilah",
+        "County": "Kern County",
+        "Location": "San Joaquin River Basin, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "cubic feet per second",
+        "Latitude": 35.4,
+        "Longitude": -119.1,
+        "Dates_of_Recording": "1910-11-01 to 1911-12-01",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Tejon House Creek at Tejon ranch house",
+        "County": "Kern County",
+        "Location": "San Joaquin River Basin, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "cubic feet per second",
+        "Latitude": 35.2,
+        "Longitude": -118.6,
+        "Dates_of_Recording": "1894-95-01 to 1896-97-01",
+        "Water_Type": "Stream discharge"
+    }
+]
+```

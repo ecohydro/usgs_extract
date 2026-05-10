@@ -1,0 +1,34 @@
+{
+    "job_id": "2549034e-918f-473b-a4f0-273d72af1ac5",
+    "duration": 4.872367858886719,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/573d9f2b-bffc-46b3-9bab-24407c11eed3?AWSAccessKeyId=ASIA2UOK6OVBMJKNO5YW&Signature=kIw6KEqAsv1gNRx141ph3IqznLs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIDj1OSodjRkThedOSYTg%2Bx47ZweLcWkp8MGZ2WXpYE1cAiAHOuSpl8FWFbUcM%2B2EYqNdOcKdUbdyl6qbJvYW4Nqz9SqLBQglEAAaDDczMTEwNjkzMjAzNCIMdsuP5LDstZYkS2ocKugE8%2BuKIpPDttGbtlXoH%2F0E4x3L7rT7Fqjrkf2WdJHeGGNXz0Wjt8XML8KzmUZ0o082RWcikiZWg9T1trVK45g5yD6PV9gDQP7TZyU8V%2BIg4C1dVsXvSAXtodabLIZ2jHqYhokQJ72OTyGRbx%2BL25gT%2Fv4v7Mlg7b2EBkBSZc5ENwpShVudJefkh5ZXCxAxxDxZDtlhYMVKhZexR6VDnRY2ITwdwLt3fCREGl4SebGc%2F%2BxxRoH5bdGga6OTgF3Rt3eTA5Sdso%2BAJIb3xdFwalRKjCU45cCPRB6yOummjD8fRTyllXnngvwYi3neF4ehJyyjR0pG%2Fo8inT%2BlhcwPepdaleQ4JNG%2FW9jAuclZyH2T0LXCqiQN6lVU21WtdweTSNaG3SbZUXDokM8D1DMrg0dpuHXUkg2co4pKffWhKAHpbruM9W4IQFekwQha6KI8Mm7HsTUtuct9fCJ83s1t5Q%2BDfXxuO0SeC4lq3jqMaE1xjWhenUa4Ghaz1wNi5Qs2a6hAtUUebf2c7PbUs5vhxOqcZec8mkWb4VnnY1Wr%2FtjoOvcDUjoRDAvt56fFoiHe%2BHV74dJHMbe1DwKaqYCCcwCGWiHS2BU6Eb8A%2BEcEIlQ3qH4h2D4i9XY%2FB4ARAbRkrOpo5q3ZNzsIh7Apm50efriHuCy5x4EHLJsDt5f1jUF5cMHqG0kTs04HCpe%2Fl5uUJQWNOjzejanXNoK9tS9iVnDS63SvIx92A4VYrrrnkuYLZqvDL6Im7%2FXucRYGENRXr7h%2Bxgxi8eNa%2BHswBX370pj563c3GD8YhRNEL6UoI%2F%2BJ24c4S2zrD2P97TDg5sm6BjqcAbjIUo1SGp1dhvqjRXDm8T%2FATWUBABnkZ74xt9lkXujzkNbL7g5NpNE2BBovItw56eNEobYwA2o25JHTYZU8TwY0HwYs5kJEYYKumKXWiw%2Fm3jljOp38uwMMVlOACUDThhHGmu0K3Iez0f3caNO6vovoyjvoDh3ks%2FniafmU1h6FGTot9PaW2bpbjbP%2F%2Fk6zYd7KhqkU0AyEJWKQNQ%3D%3D&Expires=1733461064",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.0,
+                            "top": 0.0,
+                            "width": 1.0,
+                            "height": 0.9975187532625281,
+                            "page": 1
+                        },
+                        "content": "",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

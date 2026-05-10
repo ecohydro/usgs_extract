@@ -1,0 +1,178 @@
+{
+    "job_id": "c30fea5f-e318-4be1-a116-9f304cf6ca3a",
+    "duration": 4.173184156417847,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/7f1a0364-f8ac-4717-afe7-9733f662114b?AWSAccessKeyId=ASIA2UOK6OVBBZISRZIA&Signature=7ly3fytYeDLTFc5Yv0z3PQQIzqc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDM5Y%2B66k9TxHIV4aDlzKULPRNVqNdD8eZ%2BkoH%2B7na%2FgAIhANbV80nKayHOqFBGjBX0%2Fm5t6qDi5V4yvZy7NafactCMKpQFCL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzMxMTA2OTMyMDM0Igzm%2BWta8FvNcNM%2FkVcq6ASEo2Xl6Xfp1h44NT9prYKUInhfpSR5W2bZFSVa5vF36elMwxauONjQ4J9OHZungf09MjdamV9Bbtz84VK%2BGoUEXQSlORFXSzdwXO0luGWWDZnTv8awxeTHEfcWmx%2FM%2B4I6S8trQ0uGg2%2BnSY4KVnJYqCvDhhuum3mLaKjz5Uw3TDNq4vInvJxG7Cz%2BLhjoP8PF6Q5oqmPWa9cUFKg5CW1eD4HRZjtrphM3w3nzlSGo%2FNFKuC8n39qBksQ6zvMEd5uLKvFjvgI0bf1nRBeocFukUzad9H5GuA5kBGffXxZrEwiQt%2FVL6YqUlH5Uof5mYkhn07WgXNLQlpyL5MtfZDyeOlhknWXkWjbSX74AtFLfju4BPNZ1k3SIJPRc%2FGUoAR4fwwHI%2BfIEyQo2o5mD86zhiX5ZoD0KKT0pZL3udHJ%2BePok61YpnvvQEZlzulLeC3hdWw1fLhblcIZfoGKeqs7DqE88usmMmYIf19PbLMfB%2BSzvpe2tfC3%2BY5qV64UBBMeCeDAhd5zHyRjpDvi0QegqDtTBs2klhq92M0Oi0vYPNApFXs4YEt1c54IRxGzFVtuT9%2FyChn1r%2F6AlkVdl83%2FG2OlQfQxJCr4K%2FeDPnF76pbpYVuYTX%2BaSfIn99FDtZGaEWXcZY0OfGPe%2B9AfIpAMGYlN1ghl3yYMpuVNJ1%2BKC6BxuWoJdj50j8dOO7JJP4uwVZ6NDYONsMhgWnjq5it8xdadz5PRH6Homg4xWhKDZDy0IxKeGx3muVcQr1SBRvTsYFH8ce4CVaxCk5vBia7nQt6MoHURlCikFEcnXhBamGi97I6M7TfXUMMOqibwGOpoBTbd%2F%2Bq9kgnNa3WVWhdd2KzCEs%2Bxu7ReZL1nxSLRzNDZ6jIP8rdZTsneJjCoFjXzhFekhrlSWSfV1r8W9tOQgegeBX4cHYzGozy0piyQbWdu10rnuRnMJr9JVIPu1v0sXfmaxpRU0PKa20E2XAWqK%2BxXYxGHJnZEZNdLcf4XadtjRZwZKv3zAjJv5CPnUHqJLs4DeY5PWPkxqeA%3D%3D&Expires=1736598590",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# HYDROLOGIC SYSTEM\n\nTABLE 8.-Recharge to Whitewater River subbasin [Steady-state conditions (defined in section \"Steady State\")\n\n<table><tr><th>Source</th><th>Recharge\n(acre-ft)</th></tr><tr><td>Whitewater River</td><td>12,000</td></tr><tr><td>San Gorgonio Pass subbasin</td><td>13,000</td></tr><tr><td>Snow Creek</td><td>2,000</td></tr><tr><td>Falls Creek</td><td>1,000</td></tr><tr><td>Chino Canyon</td><td>2,000</td></tr><tr><td>Tahquitz Creek</td><td>2,000</td></tr><tr><td>Palm Canyon</td><td>2,000</td></tr><tr><td>Deep Creek (Palm Desert)</td><td>2,000</td></tr><tr><td>Miscellaneous</td><td>2,000</td></tr><tr><td>Total</td><td>38,000</td></tr></table>\n\nTable 8 is not equal to table 6, because, as stated earlier, the recharge to this basin is less than the total recoverable water but greater than the subsurface flow at the boundary.",
+                "embed": "# HYDROLOGIC SYSTEM\n\nTABLE 8.-Recharge to Whitewater River subbasin [Steady-state conditions (defined in section \"Steady State\")\n\n<table><tr><th>Source</th><th>Recharge\n(acre-ft)</th></tr><tr><td>Whitewater River</td><td>12,000</td></tr><tr><td>San Gorgonio Pass subbasin</td><td>13,000</td></tr><tr><td>Snow Creek</td><td>2,000</td></tr><tr><td>Falls Creek</td><td>1,000</td></tr><tr><td>Chino Canyon</td><td>2,000</td></tr><tr><td>Tahquitz Creek</td><td>2,000</td></tr><tr><td>Palm Canyon</td><td>2,000</td></tr><tr><td>Deep Creek (Palm Desert)</td><td>2,000</td></tr><tr><td>Miscellaneous</td><td>2,000</td></tr><tr><td>Total</td><td>38,000</td></tr></table>\n\nTable 8 is not equal to table 6, because, as stated earlier, the recharge to this basin is less than the total recoverable water but greater than the subsurface flow at the boundary.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.320269442743417,
+                            "top": 0.04814814814814815,
+                            "width": 0.2823025107164728,
+                            "height": 0.011481481481481481,
+                            "page": 1
+                        },
+                        "content": "HYDROLOGIC SYSTEM",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.838946723821188,
+                            "top": 0.04925925925925926,
+                            "width": 0.027556644213104716,
+                            "height": 0.012592592592592593,
+                            "page": 1
+                        },
+                        "content": "23",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.19779546846295162,
+                            "top": 0.08148148148148149,
+                            "width": 0.5272504592774035,
+                            "height": 0.025925925925925925,
+                            "page": 1
+                        },
+                        "content": "TABLE 8.-Recharge to Whitewater River subbasin [Steady-state conditions (defined in section \"Steady State\")",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.21381342199340744,
+                            "top": 0.11481354890046297,
+                            "width": 0.49671757564322755,
+                            "height": 0.16418730559172454,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Source</th><th>Recharge\n(acre-ft)</th></tr><tr><td>Whitewater River</td><td>12,000</td></tr><tr><td>San Gorgonio Pass subbasin</td><td>13,000</td></tr><tr><td>Snow Creek</td><td>2,000</td></tr><tr><td>Falls Creek</td><td>1,000</td></tr><tr><td>Chino Canyon</td><td>2,000</td></tr><tr><td>Tahquitz Creek</td><td>2,000</td></tr><tr><td>Palm Canyon</td><td>2,000</td></tr><tr><td>Deep Creek (Palm Desert)</td><td>2,000</td></tr><tr><td>Miscellaneous</td><td>2,000</td></tr><tr><td>Total</td><td>38,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05756276791181874,
+                            "top": 0.2903703703703704,
+                            "width": 0.8077158603796694,
+                            "height": 0.053703703703703705,
+                            "page": 1
+                        },
+                        "content": "Table 8 is not equal to table 6, because, as stated earlier, the recharge to this basin is less than the total recoverable water but greater than the subsurface flow at the boundary.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# HYDROLOGIC SYSTEM (cont.)\n\nIn addition to the preceding sources of natural runoff, inflow from irrigation north of the Coachella Canal includes the diversions of the Colorado River water in secs. 3 and 9, T. 5 S., R. 7 E. Table 9 shows the total Colorado River water deliveries into these sections for 1948- 67. The water deliveries shown in table 9 were added to the pumpage to determine total water applied. The annual total water applied was then compared with the total water requirement for secs. 3 and 9 of T. 5 S., R. 7 E., and the excess was considered to be irrigation return to the ground-water system.",
+                "embed": "# HYDROLOGIC SYSTEM (cont.)\n\nIn addition to the preceding sources of natural runoff, inflow from irrigation north of the Coachella Canal includes the diversions of the Colorado River water in secs. 3 and 9, T. 5 S., R. 7 E. Table 9 shows the total Colorado River water deliveries into these sections for 1948- 67. The water deliveries shown in table 9 were added to the pumpage to determine total water applied. The annual total water applied was then compared with the total water requirement for secs. 3 and 9 of T. 5 S., R. 7 E., and the excess was considered to be irrigation return to the ground-water system.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.056338028169014086,
+                            "top": 0.34555555555555556,
+                            "width": 0.8095529699938763,
+                            "height": 0.16592592592592592,
+                            "page": 1
+                        },
+                        "content": "In addition to the preceding sources of natural runoff, inflow from irrigation north of the Coachella Canal includes the diversions of the Colorado River water in secs. 3 and 9, T. 5 S., R. 7 E. Table 9 shows the total Colorado River water deliveries into these sections for 1948- 67. The water deliveries shown in table 9 were added to the pumpage to determine total water applied. The annual total water applied was then compared with the total water requirement for secs. 3 and 9 of T. 5 S., R. 7 E., and the excess was considered to be irrigation return to the ground-water system.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# HYDROLOGIC SYSTEM (cont.)\n\nTABLE 9.-Colorado River water deliveries through Coachella Canal to secs. 3 and 9, T. 5 S., R. 7 E. [Figures supplied by Coachella Valley County Water District]\n\n<table><tr><th>Year</th><th>Acre-feet</th><th>Year</th><th>Acre-feet</th></tr><tr><td>1948</td><td>0</td><td>1960</td><td>4,342</td></tr><tr><td>1949</td><td>510</td><td>1961</td><td>4,000</td></tr><tr><td>1950</td><td>1,075</td><td>1962</td><td>3,625</td></tr><tr><td>1951</td><td>1,631</td><td>1963</td><td>3,315</td></tr><tr><td>1952</td><td>1,925</td><td>1964</td><td>2,920</td></tr><tr><td>1953</td><td>2,200</td><td>1965</td><td>2,596</td></tr><tr><td>1954</td><td>2,480</td><td>1966</td><td>2,480</td></tr><tr><td>1955</td><td>2,375</td><td>1967</td><td>2,331</td></tr><tr><td>1956</td><td>2,240</td><td></td><td></td></tr><tr><td>1957</td><td>2,128</td><td>Total</td><td>48,598</td></tr><tr><td>1958</td><td>2,825</td><td></td><td></td></tr><tr><td>1959</td><td>3,600</td><td>20-year average</td><td>2,429</td></tr></table>\n\n## OUTFLOW",
+                "embed": "# HYDROLOGIC SYSTEM (cont.)\n\nTABLE 9.-Colorado River water deliveries through Coachella Canal to secs. 3 and 9, T. 5 S., R. 7 E. [Figures supplied by Coachella Valley County Water District]\n\n<table><tr><th>Year</th><th>Acre-feet</th><th>Year</th><th>Acre-feet</th></tr><tr><td>1948</td><td>0</td><td>1960</td><td>4,342</td></tr><tr><td>1949</td><td>510</td><td>1961</td><td>4,000</td></tr><tr><td>1950</td><td>1,075</td><td>1962</td><td>3,625</td></tr><tr><td>1951</td><td>1,631</td><td>1963</td><td>3,315</td></tr><tr><td>1952</td><td>1,925</td><td>1964</td><td>2,920</td></tr><tr><td>1953</td><td>2,200</td><td>1965</td><td>2,596</td></tr><tr><td>1954</td><td>2,480</td><td>1966</td><td>2,480</td></tr><tr><td>1955</td><td>2,375</td><td>1967</td><td>2,331</td></tr><tr><td>1956</td><td>2,240</td><td></td><td></td></tr><tr><td>1957</td><td>2,128</td><td>Total</td><td>48,598</td></tr><tr><td>1958</td><td>2,825</td><td></td><td></td></tr><tr><td>1959</td><td>3,600</td><td>20-year average</td><td>2,429</td></tr></table>\n\n## OUTFLOW",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11451316595223515,
+                            "top": 0.5244444444444445,
+                            "width": 0.6925903245560319,
+                            "height": 0.03962962962962963,
+                            "page": 1
+                        },
+                        "content": "TABLE 9.-Colorado River water deliveries through Coachella Canal to secs. 3 and 9, T. 5 S., R. 7 E. [Figures supplied by Coachella Valley County Water District]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0519618345635549,
+                            "top": 0.5710676179108797,
+                            "width": 0.8143814890500014,
+                            "height": 0.17372875072337962,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year</th><th>Acre-feet</th><th>Year</th><th>Acre-feet</th></tr><tr><td>1948</td><td>0</td><td>1960</td><td>4,342</td></tr><tr><td>1949</td><td>510</td><td>1961</td><td>4,000</td></tr><tr><td>1950</td><td>1,075</td><td>1962</td><td>3,625</td></tr><tr><td>1951</td><td>1,631</td><td>1963</td><td>3,315</td></tr><tr><td>1952</td><td>1,925</td><td>1964</td><td>2,920</td></tr><tr><td>1953</td><td>2,200</td><td>1965</td><td>2,596</td></tr><tr><td>1954</td><td>2,480</td><td>1966</td><td>2,480</td></tr><tr><td>1955</td><td>2,375</td><td>1967</td><td>2,331</td></tr><tr><td>1956</td><td>2,240</td><td></td><td></td></tr><tr><td>1957</td><td>2,128</td><td>Total</td><td>48,598</td></tr><tr><td>1958</td><td>2,825</td><td></td><td></td></tr><tr><td>1959</td><td>3,600</td><td>20-year average</td><td>2,429</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.4011022657685242,
+                            "top": 0.7622222222222222,
+                            "width": 0.11512553582363748,
+                            "height": 0.01074074074074074,
+                            "page": 1
+                        },
+                        "content": "OUTFLOW",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# HYDROLOGIC SYSTEM (cont.)\n\n## SURFACE-WATER DISCHARGE\n\nDischarge from the upper Coachella Valley consists of surface- water discharge and ground-water discharge. The only significant surface-water discharge from the upper Coachella Valley is stream- flow in the Whitewater River. Unfortunately, long-term records are not available for the streamflow upstream from Mecca, Calif. A new",
+                "embed": "# HYDROLOGIC SYSTEM (cont.)\n\n## SURFACE-WATER DISCHARGE\n\nDischarge from the upper Coachella Valley consists of surface- water discharge and ground-water discharge. The only significant surface-water discharge from the upper Coachella Valley is stream- flow in the Whitewater River. Unfortunately, long-term records are not available for the streamflow upstream from Mecca, Calif. A new",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.28536436007348437,
+                            "top": 0.7833333333333333,
+                            "width": 0.3441518677281078,
+                            "height": 0.011111111111111112,
+                            "page": 1
+                        },
+                        "content": "SURFACE-WATER DISCHARGE",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0520514390691978,
+                            "top": 0.8033333333333333,
+                            "width": 0.810777709736681,
+                            "height": 0.09074074074074075,
+                            "page": 1
+                        },
+                        "content": "Discharge from the upper Coachella Valley consists of surface- water discharge and ground-water discharge. The only significant surface-water discharge from the upper Coachella Valley is stream- flow in the Whitewater River. Unfortunately, long-term records are not available for the streamflow upstream from Mecca, Calif. A new",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

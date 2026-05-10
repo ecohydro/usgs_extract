@@ -1,0 +1,26 @@
+### Summary
+
+The document discusses potential sources of error in a transient-flow model for the Sacramento River at Sacramento, California. The primary focus is on errors associated with synchronized-stage data, which are crucial for defining water surface gradients within the river reach. Errors can arise from intake lag, partially plugged intakes, unsynchronized stage readings, and incorrect recordings by digital recorders.
+
+1. **Intake Lag/Partially Plugged Intake**: Minor errors in water level measurements (a few hundredths of a foot) can lead to significant errors (10-20%) in calculating instantaneous discharge under highly transient flow conditions, particularly when the fall is near zero. However, these errors tend to balance out over a full tidal cycle, minimizing impact on daily mean discharge.
+
+2. **Synchronization Issues**: If digital recorders are not synchronized, errors in the stage fall between gages can occur, affecting model results similarly to intake lag issues.
+
+3. **Incorrect Recordings**: Errors that do not self-correct (e.g., consistently recording water stages 0.02 ft low) lead to imbalances and inaccuracies that persist throughout a tidal cycle.
+
+4. **Impact of Discharge Levels**: The significance of stage-data errors decreases with higher discharge levels, as larger falls between gages mitigate the impact of minor recording errors.
+
+5. **Channel Changes**: If model results deviate from actual measurements despite accurate stage data, changes in channel configuration (scouring or filling) may be occurring. This requires resurveying and potentially recalibrating the model based on new cross-sectional data.
+
+### Information Requested
+
+- **Latitude/Longitude**: Not specified.
+- **Townships_Ranges_Sections**: Not specified.
+- **Watersource_Name**: Sacramento River at Sacramento, California.
+- **County**: Sacramento County (inferred from location).
+- **Dates_of_Recording**: Not specified.
+- **Temporal_Resolution**: Mentioned in the context of daily mean discharge and tidal cycles (approximately 24.8 hours).
+- **Units_Of_Measurement**: Feet for stage measurements.
+- **Water_Type**: Stream Discharge (focus on modeling flow conditions).
+
+The document provides detailed insights into error sources affecting transient-flow models but lacks specific geographic coordinates or temporal data related to the recordings. The water type involved is stream discharge, given the focus on river flow and stage conditions.

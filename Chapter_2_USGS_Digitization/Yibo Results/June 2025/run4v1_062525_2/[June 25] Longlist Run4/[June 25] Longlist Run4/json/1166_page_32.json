@@ -1,0 +1,166 @@
+{
+    "job_id": "c9c7035d-a7c7-4bd7-ba6f-1671e7fce0f8",
+    "duration": 3.7950539588928223,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/376eddcf-f16b-457c-a9ba-497fc3ae2e5c?AWSAccessKeyId=ASIA2UOK6OVBPF6TN6ZC&Signature=EPbAu2E35%2FRGxj1cNavWc28%2BIV8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJGMEQCIEmOl3xTgoh3sUte%2BCoP%2FAqRpvnJP93fdMoklonsVJ8mAiAnXXM4lAxNFphvgmB5WmKpc2nrHYgANwYqytmakpmRtSqLBQgmEAAaDDczMTEwNjkzMjAzNCIMKibVa0FU0vxS4tK%2FKugErmTAWgjCYBp47g5BfxFMiXQ%2BHgWYgiK1lkwqTpXXfoYWB7Q7Q3tP04%2FlFdibupFy3XS%2BYKm5WdYl1hfV7gu7tLEZpnf4UkYyEf3kAutZG5Qo1Wnviw5Dl%2Bkfbl2xOcCV7sF6OgoSSJgKg%2FznV07QiY4ZLH8m4vtFLXbZI%2FRPrcUmyulvwkbNyUbMa8SRd8%2BnlVbGNm%2FMCGKWslssFO37I8lMqgUvtlDBb5ijt2%2FbKxVP5iTb826iR57hyJBq7vLq9dv7xgJbuXtA5NxbcOZrpjVfAlE6vO8c2wI%2FPtnMRXGoEHwL%2B6OiErj%2BliMjW10R6BFf3Gw%2FDL7WFNp%2F%2FkoFvMb8ajsIlT74Uugh%2BlvrafysOfnmK2Q42ls3XrOpmt%2FdiHwR7czqjDaFvtM9Im%2F2%2Fa4fUOtWkVnAVp7Q%2BAQwQb%2FM7%2BZyFwko%2Bak9pVDLjHuaLopKL3cv4HkYSjjL%2BZWzCBF%2BjLI0guIwVli%2B75fjqipOEz4FHRtx6lS2XFZJusiZBSoMxLmLF2XdcGMX63WamaRici3%2FnzxlrHe24SledoTDPloKE%2FQe8MdXTMl6SNP2T5HsPpRjLvUS%2FMM2VkLm4CwE7zzbaBhDAOupTNgzT%2Bc3rm29dCGoKLeOEJSf%2B6IE5dxpULz8d4WGvNufXkzLJZImhEDjZx8CZbrU%2BqxJZLVrsnw83DgTxEWkvbxodZviIe8tXk8ZJ6eIp%2FN9Q0ytH2R1it6EPvcBdtwniNs70OWVUbxKAR0mB3j0lxNL9DzYnfrOrKjBKYv18p3pQdhv5NQ2mNzOavZLBrrWRRY93bLrJlAEFXoGLjCj%2B8m6BjqcAc%2BYUGo4GxDyMIaohceXJ%2B2xa7td8%2FoCVbXuvgpzTFSDfiz0NQJY0E0CVs4PVMm%2BecnwPyxvkWJiqOkSEpn5d4Kxk8quB%2FgxZIzWPGM98LoH7jj3MzkwNydIRATFyDjIn3c6YqHiHKwY786d0MgjLjUg52e%2F5wDDn29RiqKns2jnUOsV6CNgpoezNx1LcgKCuYxRTOEGATBULnqRNQ%3D%3D&Expires=1733464564",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# Precipitation, in inches, at Weaverville, Trinity County.\n\n[Latitude, 40\u00b0 46'; longitude, 123\u00b0 25'; elevation, 2,162 feet; authority, George E. Noonan.]",
+                "embed": "# Precipitation, in inches, at Weaverville, Trinity County.\n\n[Latitude, 40\u00b0 46'; longitude, 123\u00b0 25'; elevation, 2,162 feet; authority, George E. Noonan.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.04037854889589906,
+                            "top": 0.07123809523809524,
+                            "width": 0.049842271293375394,
+                            "height": 0.009904761904761904,
+                            "page": 1
+                        },
+                        "content": "COLE.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.22965299684542587,
+                            "top": 0.07085714285714285,
+                            "width": 0.4473186119873817,
+                            "height": 0.010666666666666666,
+                            "page": 1
+                        },
+                        "content": "RAINFALL IN STONY CREEK BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8372239747634069,
+                            "top": 0.06819047619047619,
+                            "width": 0.029022082018927444,
+                            "height": 0.012952380952380953,
+                            "page": 1
+                        },
+                        "content": "25",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.16466876971608832,
+                            "top": 0.10704761904761904,
+                            "width": 0.5760252365930599,
+                            "height": 0.012952380952380953,
+                            "page": 1
+                        },
+                        "content": "Precipitation, in inches, at Weaverville, Trinity County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07192429022082018,
+                            "top": 0.13142857142857142,
+                            "width": 0.7634069400630915,
+                            "height": 0.011047619047619047,
+                            "page": 1
+                        },
+                        "content": "[Latitude, 40\u00b0 46'; longitude, 123\u00b0 25'; elevation, 2,162 feet; authority, George E. Noonan.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Precipitation, in inches, at Weaverville, Trinity County. (cont.)\n\n<table><tr><th>Year.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Total.</th></tr><tr><td>1869 -70</td><td>1.06</td><td>1.03</td><td>8.01</td><td>6.15</td><td>10.11</td><td>9.64</td><td>2.05</td><td>1.06</td><td>0.22</td><td>0</td><td>0</td><td>0</td><td>39.33</td></tr><tr><td>1870 -71</td><td>.64</td><td>1.39</td><td>6.41</td><td>9.43</td><td>8.16</td><td>11.19</td><td>3.02</td><td>1.73</td><td>1.03</td><td>0.14</td><td>0</td><td>0</td><td>43.14</td></tr><tr><td>1871 -72</td><td>.29</td><td>.40</td><td>11.50</td><td>3.52</td><td>19.62</td><td>15.09</td><td>3.11</td><td>2.43</td><td>.84</td><td>.17</td><td>0</td><td>0.25</td><td>57.22</td></tr><tr><td>1872 -73</td><td>.35</td><td>.78</td><td>3.01</td><td>6.32</td><td>6.51</td><td>4.29</td><td>2.78</td><td>.50</td><td>.27</td><td>0</td><td>0</td><td>0</td><td>24.81</td></tr><tr><td>1873 -74</td><td>1.80</td><td>4.39</td><td>4.02</td><td>9.57</td><td>15.40</td><td>4.41</td><td>3.12</td><td>3.58</td><td>2.67</td><td>.70</td><td>0</td><td>0</td><td>49.66</td></tr><tr><td>1874 -75</td><td>0</td><td>1.57</td><td>10.30</td><td>1.32</td><td>6.59</td><td>.46</td><td>2.14</td><td>.19</td><td>1.22</td><td>.93</td><td>0</td><td>0</td><td>24.72</td></tr><tr><td>1875 -76</td><td>0</td><td>2.82</td><td>15.39</td><td>11.94</td><td>9.69</td><td>9.49</td><td>8.23</td><td>2.79</td><td>1.63</td><td>.15</td><td>0.47</td><td>0</td><td>62.60</td></tr><tr><td>1876 -77</td><td>.67</td><td>7.38</td><td>1.50</td><td>.29</td><td>6.27</td><td>6.24</td><td>4.52</td><td>2.26</td><td>1.62</td><td>1.72</td><td>.02</td><td>0.21</td><td>32.70</td></tr><tr><td>1877 -78</td><td>0</td><td>1.83</td><td>8.72</td><td>6.50</td><td>19.83</td><td>16.20</td><td>8.53</td><td>2.42</td><td>1.07</td><td>.07</td><td>.02</td><td>.03</td><td>65.22</td></tr><tr><td>1878 -79</td><td>1.28</td><td>1.80</td><td>3.58</td><td>4.91</td><td>2.02</td><td>6.48</td><td>12.84</td><td>4.05</td><td>4.02</td><td>.68</td><td>.02</td><td>.03</td><td>41.71</td></tr><tr><td>1879 -80</td><td>.03</td><td>2.08</td><td>8.09</td><td>13.20</td><td>6.64</td><td>2.59</td><td>4.72</td><td>10.78</td><td>1.46</td><td>.23</td><td>.38</td><td>.36</td><td>50.56</td></tr><tr><td>1880 -81</td><td>0</td><td>.55</td><td>1.49</td><td>14.14</td><td>18.61</td><td>11.05</td><td>1.21</td><td>3.13</td><td>1.15</td><td>.99</td><td>0</td><td>0</td><td>52.32</td></tr><tr><td>1881 -82</td><td>.93</td><td>3.77</td><td>2.58</td><td>8.00</td><td>4.19</td><td>6.90</td><td>3.62</td><td>2.44</td><td>1.29</td><td>0</td><td>0</td><td>0</td><td>33.72</td></tr><tr><td>1882 -83</td><td>1.38</td><td>8.36</td><td>.78</td><td>5.05</td><td>4.46</td><td>1.50</td><td>3.24</td><td>5.00</td><td>3.72</td><td>0</td><td>0</td><td>0</td><td>33.49</td></tr><tr><td>1883 -84</td><td>.88</td><td>2.45</td><td>1.50</td><td>4.97</td><td>8.81</td><td>3.56</td><td>5.10</td><td>6.29</td><td>1.60</td><td>2.93</td><td>.13</td><td>0</td><td>38.22</td></tr><tr><td>1884 -85</td><td>.44</td><td>.11</td><td>16.56</td><td>6.78</td><td>3.68</td><td>3.70</td><td>.15</td><td>2.78</td><td>.51</td><td>1.41</td><td>0</td><td>0</td><td>36.12</td></tr><tr><td>Mean</td><td>.61</td><td>2.54</td><td>6.47</td><td>7.15</td><td>9.41</td><td>7.05</td><td>4.27</td><td>3.21</td><td>1.52</td><td>.63</td><td>.07</td><td>.05</td><td>42.84</td></tr></table>",
+                "embed": "# Precipitation, in inches, at Weaverville, Trinity County. (cont.)\n\n<table><tr><th>Year.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Total.</th></tr><tr><td>1869 -70</td><td>1.06</td><td>1.03</td><td>8.01</td><td>6.15</td><td>10.11</td><td>9.64</td><td>2.05</td><td>1.06</td><td>0.22</td><td>0</td><td>0</td><td>0</td><td>39.33</td></tr><tr><td>1870 -71</td><td>.64</td><td>1.39</td><td>6.41</td><td>9.43</td><td>8.16</td><td>11.19</td><td>3.02</td><td>1.73</td><td>1.03</td><td>0.14</td><td>0</td><td>0</td><td>43.14</td></tr><tr><td>1871 -72</td><td>.29</td><td>.40</td><td>11.50</td><td>3.52</td><td>19.62</td><td>15.09</td><td>3.11</td><td>2.43</td><td>.84</td><td>.17</td><td>0</td><td>0.25</td><td>57.22</td></tr><tr><td>1872 -73</td><td>.35</td><td>.78</td><td>3.01</td><td>6.32</td><td>6.51</td><td>4.29</td><td>2.78</td><td>.50</td><td>.27</td><td>0</td><td>0</td><td>0</td><td>24.81</td></tr><tr><td>1873 -74</td><td>1.80</td><td>4.39</td><td>4.02</td><td>9.57</td><td>15.40</td><td>4.41</td><td>3.12</td><td>3.58</td><td>2.67</td><td>.70</td><td>0</td><td>0</td><td>49.66</td></tr><tr><td>1874 -75</td><td>0</td><td>1.57</td><td>10.30</td><td>1.32</td><td>6.59</td><td>.46</td><td>2.14</td><td>.19</td><td>1.22</td><td>.93</td><td>0</td><td>0</td><td>24.72</td></tr><tr><td>1875 -76</td><td>0</td><td>2.82</td><td>15.39</td><td>11.94</td><td>9.69</td><td>9.49</td><td>8.23</td><td>2.79</td><td>1.63</td><td>.15</td><td>0.47</td><td>0</td><td>62.60</td></tr><tr><td>1876 -77</td><td>.67</td><td>7.38</td><td>1.50</td><td>.29</td><td>6.27</td><td>6.24</td><td>4.52</td><td>2.26</td><td>1.62</td><td>1.72</td><td>.02</td><td>0.21</td><td>32.70</td></tr><tr><td>1877 -78</td><td>0</td><td>1.83</td><td>8.72</td><td>6.50</td><td>19.83</td><td>16.20</td><td>8.53</td><td>2.42</td><td>1.07</td><td>.07</td><td>.02</td><td>.03</td><td>65.22</td></tr><tr><td>1878 -79</td><td>1.28</td><td>1.80</td><td>3.58</td><td>4.91</td><td>2.02</td><td>6.48</td><td>12.84</td><td>4.05</td><td>4.02</td><td>.68</td><td>.02</td><td>.03</td><td>41.71</td></tr><tr><td>1879 -80</td><td>.03</td><td>2.08</td><td>8.09</td><td>13.20</td><td>6.64</td><td>2.59</td><td>4.72</td><td>10.78</td><td>1.46</td><td>.23</td><td>.38</td><td>.36</td><td>50.56</td></tr><tr><td>1880 -81</td><td>0</td><td>.55</td><td>1.49</td><td>14.14</td><td>18.61</td><td>11.05</td><td>1.21</td><td>3.13</td><td>1.15</td><td>.99</td><td>0</td><td>0</td><td>52.32</td></tr><tr><td>1881 -82</td><td>.93</td><td>3.77</td><td>2.58</td><td>8.00</td><td>4.19</td><td>6.90</td><td>3.62</td><td>2.44</td><td>1.29</td><td>0</td><td>0</td><td>0</td><td>33.72</td></tr><tr><td>1882 -83</td><td>1.38</td><td>8.36</td><td>.78</td><td>5.05</td><td>4.46</td><td>1.50</td><td>3.24</td><td>5.00</td><td>3.72</td><td>0</td><td>0</td><td>0</td><td>33.49</td></tr><tr><td>1883 -84</td><td>.88</td><td>2.45</td><td>1.50</td><td>4.97</td><td>8.81</td><td>3.56</td><td>5.10</td><td>6.29</td><td>1.60</td><td>2.93</td><td>.13</td><td>0</td><td>38.22</td></tr><tr><td>1884 -85</td><td>.44</td><td>.11</td><td>16.56</td><td>6.78</td><td>3.68</td><td>3.70</td><td>.15</td><td>2.78</td><td>.51</td><td>1.41</td><td>0</td><td>0</td><td>36.12</td></tr><tr><td>Mean</td><td>.61</td><td>2.54</td><td>6.47</td><td>7.15</td><td>9.41</td><td>7.05</td><td>4.27</td><td>3.21</td><td>1.52</td><td>.63</td><td>.07</td><td>.05</td><td>42.84</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.03646483316030412,
+                            "top": 0.15280984933035716,
+                            "width": 0.8347472903856343,
+                            "height": 0.3003461216517857,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Total.</th></tr><tr><td>1869 -70</td><td>1.06</td><td>1.03</td><td>8.01</td><td>6.15</td><td>10.11</td><td>9.64</td><td>2.05</td><td>1.06</td><td>0.22</td><td>0</td><td>0</td><td>0</td><td>39.33</td></tr><tr><td>1870 -71</td><td>.64</td><td>1.39</td><td>6.41</td><td>9.43</td><td>8.16</td><td>11.19</td><td>3.02</td><td>1.73</td><td>1.03</td><td>0.14</td><td>0</td><td>0</td><td>43.14</td></tr><tr><td>1871 -72</td><td>.29</td><td>.40</td><td>11.50</td><td>3.52</td><td>19.62</td><td>15.09</td><td>3.11</td><td>2.43</td><td>.84</td><td>.17</td><td>0</td><td>0.25</td><td>57.22</td></tr><tr><td>1872 -73</td><td>.35</td><td>.78</td><td>3.01</td><td>6.32</td><td>6.51</td><td>4.29</td><td>2.78</td><td>.50</td><td>.27</td><td>0</td><td>0</td><td>0</td><td>24.81</td></tr><tr><td>1873 -74</td><td>1.80</td><td>4.39</td><td>4.02</td><td>9.57</td><td>15.40</td><td>4.41</td><td>3.12</td><td>3.58</td><td>2.67</td><td>.70</td><td>0</td><td>0</td><td>49.66</td></tr><tr><td>1874 -75</td><td>0</td><td>1.57</td><td>10.30</td><td>1.32</td><td>6.59</td><td>.46</td><td>2.14</td><td>.19</td><td>1.22</td><td>.93</td><td>0</td><td>0</td><td>24.72</td></tr><tr><td>1875 -76</td><td>0</td><td>2.82</td><td>15.39</td><td>11.94</td><td>9.69</td><td>9.49</td><td>8.23</td><td>2.79</td><td>1.63</td><td>.15</td><td>0.47</td><td>0</td><td>62.60</td></tr><tr><td>1876 -77</td><td>.67</td><td>7.38</td><td>1.50</td><td>.29</td><td>6.27</td><td>6.24</td><td>4.52</td><td>2.26</td><td>1.62</td><td>1.72</td><td>.02</td><td>0.21</td><td>32.70</td></tr><tr><td>1877 -78</td><td>0</td><td>1.83</td><td>8.72</td><td>6.50</td><td>19.83</td><td>16.20</td><td>8.53</td><td>2.42</td><td>1.07</td><td>.07</td><td>.02</td><td>.03</td><td>65.22</td></tr><tr><td>1878 -79</td><td>1.28</td><td>1.80</td><td>3.58</td><td>4.91</td><td>2.02</td><td>6.48</td><td>12.84</td><td>4.05</td><td>4.02</td><td>.68</td><td>.02</td><td>.03</td><td>41.71</td></tr><tr><td>1879 -80</td><td>.03</td><td>2.08</td><td>8.09</td><td>13.20</td><td>6.64</td><td>2.59</td><td>4.72</td><td>10.78</td><td>1.46</td><td>.23</td><td>.38</td><td>.36</td><td>50.56</td></tr><tr><td>1880 -81</td><td>0</td><td>.55</td><td>1.49</td><td>14.14</td><td>18.61</td><td>11.05</td><td>1.21</td><td>3.13</td><td>1.15</td><td>.99</td><td>0</td><td>0</td><td>52.32</td></tr><tr><td>1881 -82</td><td>.93</td><td>3.77</td><td>2.58</td><td>8.00</td><td>4.19</td><td>6.90</td><td>3.62</td><td>2.44</td><td>1.29</td><td>0</td><td>0</td><td>0</td><td>33.72</td></tr><tr><td>1882 -83</td><td>1.38</td><td>8.36</td><td>.78</td><td>5.05</td><td>4.46</td><td>1.50</td><td>3.24</td><td>5.00</td><td>3.72</td><td>0</td><td>0</td><td>0</td><td>33.49</td></tr><tr><td>1883 -84</td><td>.88</td><td>2.45</td><td>1.50</td><td>4.97</td><td>8.81</td><td>3.56</td><td>5.10</td><td>6.29</td><td>1.60</td><td>2.93</td><td>.13</td><td>0</td><td>38.22</td></tr><tr><td>1884 -85</td><td>.44</td><td>.11</td><td>16.56</td><td>6.78</td><td>3.68</td><td>3.70</td><td>.15</td><td>2.78</td><td>.51</td><td>1.41</td><td>0</td><td>0</td><td>36.12</td></tr><tr><td>Mean</td><td>.61</td><td>2.54</td><td>6.47</td><td>7.15</td><td>9.41</td><td>7.05</td><td>4.27</td><td>3.21</td><td>1.52</td><td>.63</td><td>.07</td><td>.05</td><td>42.84</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Precipitation, in inches, at Weaverville, Trinity County. (cont.)\n\n## Precipitation, in inches, at Jacinto, Glenn County.\n\n[Latitude, 39\u00b0 35'; longitude, 1220; elevation, 110 feet.]",
+                "embed": "# Precipitation, in inches, at Weaverville, Trinity County. (cont.)\n\n## Precipitation, in inches, at Jacinto, Glenn County.\n\n[Latitude, 39\u00b0 35'; longitude, 1220; elevation, 110 feet.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.19242902208201892,
+                            "top": 0.4704761904761905,
+                            "width": 0.522397476340694,
+                            "height": 0.012952380952380953,
+                            "page": 1
+                        },
+                        "content": "Precipitation, in inches, at Jacinto, Glenn County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.22397476340694006,
+                            "top": 0.49752380952380953,
+                            "width": 0.45930599369085173,
+                            "height": 0.010666666666666666,
+                            "page": 1
+                        },
+                        "content": "[Latitude, 39\u00b0 35'; longitude, 1220; elevation, 110 feet.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Precipitation, in inches, at Weaverville, Trinity County. (cont.)\n\n## Precipitation, in inches, at Jacinto, Glenn County. (cont.)\n\n<table><tr><th>Year.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June.</th><th>July</th><th>Aug.</th><th>Total.</th></tr><tr><td>1892 -93</td><td></td><td></td><td>6.32</td><td>8.13</td><td>4.20</td><td>2.99</td><td>3.71</td><td>0.87</td><td>1.44</td><td>0</td><td>0</td><td>0</td><td>29.49</td></tr><tr><td>1893 -94</td><td>0.47</td><td>0.06</td><td>2.67</td><td>1.61</td><td>4.50</td><td>1.47</td><td>.89</td><td>.51</td><td>1.24</td><td>0</td><td>0</td><td>0</td><td>13.42</td></tr><tr><td>1894 -95</td><td>1.20</td><td>1.33</td><td>.35</td><td>8.69</td><td>8.73</td><td>1.86</td><td>.1.74</td><td>2.49</td><td>.22</td><td>0</td><td>.36</td><td>0</td><td>26.97</td></tr><tr><td>1895 -96</td><td>2.33</td><td>0</td><td>1.10</td><td>.94</td><td>9.37</td><td>.24</td><td>2.92</td><td>4.03</td><td>.69</td><td>0</td><td>0</td><td>52</td><td>22.14</td></tr><tr><td>1896 -97</td><td>.63</td><td>.68</td><td>3.06</td><td>5.28</td><td>3.78</td><td>3.54</td><td>1.72</td><td>.77</td><td>.60</td><td>.44</td><td>0</td><td>0</td><td>20.50</td></tr><tr><td>1897 -98</td><td>0</td><td>2.12</td><td>1.16</td><td>1.40</td><td>.76</td><td>3.42</td><td>.31</td><td>2.07</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11.24</td></tr><tr><td>1898 -99</td><td>.35</td><td>.41</td><td>.49</td><td>1.39</td><td>6.36</td><td>0</td><td>4.29</td><td>.36</td><td>1.21</td><td>.53</td><td>0</td><td>0</td><td>15.39</td></tr><tr><td>1899 -1900</td><td>0</td><td>2.68</td><td>4.40</td><td>3.40</td><td>3.06</td><td>.17</td><td>1.27</td><td>1.68</td><td>.72</td><td>0</td><td>0</td><td>0</td><td>17.38</td></tr><tr><td>1900 -1901</td><td>0</td><td>2.42</td><td>5.00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>a7.42</td></tr><tr><td>Mean</td><td>.62</td><td>1.21</td><td>2.72</td><td>3.85</td><td>5.09</td><td>1.71</td><td>2.11</td><td>1.59</td><td>.76</td><td>.12</td><td>.04</td><td>.06</td><td>18.22</td></tr></table>\n\na Year incomplete.",
+                "embed": "# Precipitation, in inches, at Weaverville, Trinity County. (cont.)\n\n## Precipitation, in inches, at Jacinto, Glenn County. (cont.)\n\n<table><tr><th>Year.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June.</th><th>July</th><th>Aug.</th><th>Total.</th></tr><tr><td>1892 -93</td><td></td><td></td><td>6.32</td><td>8.13</td><td>4.20</td><td>2.99</td><td>3.71</td><td>0.87</td><td>1.44</td><td>0</td><td>0</td><td>0</td><td>29.49</td></tr><tr><td>1893 -94</td><td>0.47</td><td>0.06</td><td>2.67</td><td>1.61</td><td>4.50</td><td>1.47</td><td>.89</td><td>.51</td><td>1.24</td><td>0</td><td>0</td><td>0</td><td>13.42</td></tr><tr><td>1894 -95</td><td>1.20</td><td>1.33</td><td>.35</td><td>8.69</td><td>8.73</td><td>1.86</td><td>.1.74</td><td>2.49</td><td>.22</td><td>0</td><td>.36</td><td>0</td><td>26.97</td></tr><tr><td>1895 -96</td><td>2.33</td><td>0</td><td>1.10</td><td>.94</td><td>9.37</td><td>.24</td><td>2.92</td><td>4.03</td><td>.69</td><td>0</td><td>0</td><td>52</td><td>22.14</td></tr><tr><td>1896 -97</td><td>.63</td><td>.68</td><td>3.06</td><td>5.28</td><td>3.78</td><td>3.54</td><td>1.72</td><td>.77</td><td>.60</td><td>.44</td><td>0</td><td>0</td><td>20.50</td></tr><tr><td>1897 -98</td><td>0</td><td>2.12</td><td>1.16</td><td>1.40</td><td>.76</td><td>3.42</td><td>.31</td><td>2.07</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11.24</td></tr><tr><td>1898 -99</td><td>.35</td><td>.41</td><td>.49</td><td>1.39</td><td>6.36</td><td>0</td><td>4.29</td><td>.36</td><td>1.21</td><td>.53</td><td>0</td><td>0</td><td>15.39</td></tr><tr><td>1899 -1900</td><td>0</td><td>2.68</td><td>4.40</td><td>3.40</td><td>3.06</td><td>.17</td><td>1.27</td><td>1.68</td><td>.72</td><td>0</td><td>0</td><td>0</td><td>17.38</td></tr><tr><td>1900 -1901</td><td>0</td><td>2.42</td><td>5.00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>a7.42</td></tr><tr><td>Mean</td><td>.62</td><td>1.21</td><td>2.72</td><td>3.85</td><td>5.09</td><td>1.71</td><td>2.11</td><td>1.59</td><td>.76</td><td>.12</td><td>.04</td><td>.06</td><td>18.22</td></tr></table>\n\na Year incomplete.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.036968592213531395,
+                            "top": 0.518024925595238,
+                            "width": 0.834436379321366,
+                            "height": 0.1998794642857143,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June.</th><th>July</th><th>Aug.</th><th>Total.</th></tr><tr><td>1892 -93</td><td></td><td></td><td>6.32</td><td>8.13</td><td>4.20</td><td>2.99</td><td>3.71</td><td>0.87</td><td>1.44</td><td>0</td><td>0</td><td>0</td><td>29.49</td></tr><tr><td>1893 -94</td><td>0.47</td><td>0.06</td><td>2.67</td><td>1.61</td><td>4.50</td><td>1.47</td><td>.89</td><td>.51</td><td>1.24</td><td>0</td><td>0</td><td>0</td><td>13.42</td></tr><tr><td>1894 -95</td><td>1.20</td><td>1.33</td><td>.35</td><td>8.69</td><td>8.73</td><td>1.86</td><td>.1.74</td><td>2.49</td><td>.22</td><td>0</td><td>.36</td><td>0</td><td>26.97</td></tr><tr><td>1895 -96</td><td>2.33</td><td>0</td><td>1.10</td><td>.94</td><td>9.37</td><td>.24</td><td>2.92</td><td>4.03</td><td>.69</td><td>0</td><td>0</td><td>52</td><td>22.14</td></tr><tr><td>1896 -97</td><td>.63</td><td>.68</td><td>3.06</td><td>5.28</td><td>3.78</td><td>3.54</td><td>1.72</td><td>.77</td><td>.60</td><td>.44</td><td>0</td><td>0</td><td>20.50</td></tr><tr><td>1897 -98</td><td>0</td><td>2.12</td><td>1.16</td><td>1.40</td><td>.76</td><td>3.42</td><td>.31</td><td>2.07</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11.24</td></tr><tr><td>1898 -99</td><td>.35</td><td>.41</td><td>.49</td><td>1.39</td><td>6.36</td><td>0</td><td>4.29</td><td>.36</td><td>1.21</td><td>.53</td><td>0</td><td>0</td><td>15.39</td></tr><tr><td>1899 -1900</td><td>0</td><td>2.68</td><td>4.40</td><td>3.40</td><td>3.06</td><td>.17</td><td>1.27</td><td>1.68</td><td>.72</td><td>0</td><td>0</td><td>0</td><td>17.38</td></tr><tr><td>1900 -1901</td><td>0</td><td>2.42</td><td>5.00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>a7.42</td></tr><tr><td>Mean</td><td>.62</td><td>1.21</td><td>2.72</td><td>3.85</td><td>5.09</td><td>1.71</td><td>2.11</td><td>1.59</td><td>.76</td><td>.12</td><td>.04</td><td>.06</td><td>18.22</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.37350157728706623,
+                            "top": 0.7219047619047619,
+                            "width": 0.15962145110410095,
+                            "height": 0.011428571428571429,
+                            "page": 1
+                        },
+                        "content": "a Year incomplete.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

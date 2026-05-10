@@ -1,0 +1,32 @@
+```json
+[
+    {
+        "Watersource_Name": "Gaspur water-bearing zone well near Montebello",
+        "County": "Los Angeles County",
+        "Location": "Near Montebello, Coastal Plain",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Daily to Monthly",
+        "Units_Of_Measurement": "Feet below land-surface datum (lsd)",
+        "Actual_Latitude": null,
+        "Actual_Longitude": null,
+        "Inferred_Latitude": 34.0577, // Approximate latitude for Montebello, CA
+        "Inferred_Longitude": -118.1154, // Approximate longitude for Montebello, CA
+        "Dates_of_Recording": "1928-1952",
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Artesian well at Los Angeles County Farm near Downey",
+        "County": "Los Angeles County",
+        "Location": "Near Downey, Coastal Plain",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": "Monthly",
+        "Units_Of_Measurement": "Feet below land-surface datum (lsd)",
+        "Actual_Latitude": null,
+        "Actual_Longitude": null,
+        "Inferred_Latitude": 33.9301, // Approximate latitude for Downey, CA
+        "Inferred_Longitude": -118.1349, // Approximate longitude for Downey, CA
+        "Dates_of_Recording": "1930-1952",
+        "Water_Type": "Groundwater"
+    }
+]
+```

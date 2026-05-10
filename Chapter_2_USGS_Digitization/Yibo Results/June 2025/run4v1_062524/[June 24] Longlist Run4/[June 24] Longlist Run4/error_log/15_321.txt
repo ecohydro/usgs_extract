@@ -1,0 +1,19 @@
+```json
+{
+    "Watersource_Name": "Sacramento River Main Stem",
+    "County": "unknown",
+    "Location": "Bitte City, Calif.",
+    "Townships_Ranges_Sections": null,
+    "Temporal_Resolution": "Monthly and yearly",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second",
+        "Runoff": "thousands of acre-feet"
+    },
+    "Actual_Latitude": 38.5821, // Inferred from Bitte City location near Sacramento, CA
+    "Actual_Longitude": -121.4944, // Inferred from Bitte City location near Sacramento, CA
+    "Inferred_Latitude": 38.5821,
+    "Inferred_Longitude": -121.4944,
+    "Dates_of_Recording": "10/01/1946-09/30/1950",
+    "Water_Type": "Stream Discharge"
+}
+```

@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "Watersource_Name": "McArthur Drainage Canal",
+        "County": "Shasta County",
+        "Location": "Near McArthur, Calif.",
+        "Townships_Ranges_Sections": ["T. 34 N., R. 4 W., sec. 23"],
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": "Second-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "10/01/1925-09/30/1926",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "McCloud River at Baird",
+        "County": "Shasta County",
+        "Location": "In NW. 1/4 sec. 23, T. 34 N., R. 4 W., United States fishery at Baird",
+        "Townships_Ranges_Sections": ["T. 34 N., R. 4 W., sec. 23"],
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": null,
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream discharge"
+    }
+]
+```

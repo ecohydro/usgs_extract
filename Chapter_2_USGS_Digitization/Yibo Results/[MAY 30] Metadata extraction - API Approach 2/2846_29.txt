@@ -1,0 +1,114 @@
+```json
+[
+    {
+        "Watersource_Name": "Whitewater River",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "San Gorgonio Pass subbasin",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Snow Creek",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Falls Creek",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Chino Canyon",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Tahquitz Creek",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Palm Canyon",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Deep Creek (Palm Desert)",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Stream Discharge"
+    },
+    {
+        "Watersource_Name": "Miscellaneous",
+        "County": null,
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": "acre-ft",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": null,
+        "Water_Type": "Groundwater"
+    },
+    {
+        "Watersource_Name": "Colorado River water deliveries through Coachella Canal",
+        "County": null,
+        "Townships_Ranges_Sections": ["secs. 3 and 9, T. 5 S., R. 7 E."],
+        "Temporal_Resolution": "Annual",
+        "Units_Of_Measurement": "acre-feet",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": ["1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967"],
+        "Water_Type": "Irrigation"
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "Watersource_Name": "Los Gatos Creek above Nunez Canyon near Coalinga",
+        "County": "Tulare",
+        "Townships_Ranges_Sections": "SW1 and SE1 of sec. 5, T. 20 S., R. 14 E.",
+        "Temporal_Resolution": "Daily",
+        "Units_Of_Measurement": {
+            "Gage_Height": "feet",
+            "Discharge": "cubic feet per second"
+        },
+        "Latitude": 36.2152778,
+        "Longitude": -120.4694444,
+        "Dates_of_Recording": "October 1949 to September 1956",
+        "Water_Type": "Stream Discharge"
+    }
+]
+```
+
+### Explanation:
+
+- **Watersource_Name**: Derived from the document title and location.
+- **County**: Inferred as Tulare Lake Basin is in Tulare County, California.
+- **Townships_Ranges_Sections**: Extracted directly from the location details provided.
+- **Temporal_Resolution**: "Daily" based on discharge data being recorded for each day of several months.
+- **Units_Of_Measurement**: Identified gage height (feet) and discharge (cubic feet per second) as units used in the tables.
+- **Latitude & Longitude**: Converted from degrees, minutes to decimal format using conversion formulas.
+- **Dates_of_Recording**: Provided range of record availability.
+- **Water_Type**: "Stream Discharge" is appropriate due to the nature of data collected at a stream gage.

@@ -1,0 +1,35 @@
+```json
+{
+    "Watersource_Name": "SMITH RIVER NEAR CRESCENT CITY",
+    "County": "Del Norte County",
+    "Location": "0.5 mile downstream from South Fork, and 8 miles east of Crescent City",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Monthly",
+    "Units_Of_Measurement": {
+        "pH": "",
+        "Specific_conductance": "micro-mhos at 25°C",
+        "Sodium_adoption_ratio": "",
+        "Hardness_CaCO3_as_Non_carbonate": "mg/L as CaCO3",
+        "Calcium_Magnesium_hardness": "mg/L as CaCO3",
+        "Solids_Dissolved_Tons_per_day": "Tons/day",
+        "Solids_Dissolved_Tons_per_acre-foot": "Tons/acre-foot",
+        "Solids_Parts_per_million": "ppm",
+        "Boron": "mg/L",
+        "Nitrate": "mg/L as N",
+        "Fluoride": "mg/L",
+        "Chloride": "mg/L",
+        "Sulfate": "mg/L",
+        "Carbonate": "",
+        "Bicarbonate": "mg/L as CaCO3",
+        "Potassium_Sodium": "mg/L",
+        "Magnesium": "mg/L",
+        "Calcium": "mg/L",
+        "Iron_Silica": "mg/L",
+        "Mean_discharge_cfs": "cubic feet per second"
+    },
+    "Latitude": 41.765,
+    "Longitude": -124.217,
+    "Dates_of_Recording": "10/01/1963-09/30/1964",
+    "Water_Type": "Stream discharge"
+}
+```

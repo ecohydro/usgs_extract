@@ -1,0 +1,82 @@
+{
+    "job_id": "018778f8-d3c6-4cba-b579-9df693d86832",
+    "duration": 7.730824947357178,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/9db1d2c4-b52a-4788-b630-97bf9baa7c25?AWSAccessKeyId=ASIA2UOK6OVBNHE3FQ7H&Signature=BjhCkly4PCLQk9lGEtPyb7Emj4c%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEoFxHq04mFeJ8M9KKop010WDtIItsWoZU%2FLZZ2zg5WlAiAg5cjlfZCPiL5G8VPB5MU3qsrFDNKpED2q40nvD82b6SqUBQi5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDczMTEwNjkzMjAzNCIM6YtWqEBOap5cMNtMKugE%2B%2BGy1etSDD7%2Fyw5ihOeWhDGLB7pzguYWvYgsGzwDYBQNlLIEvOs7L8OMIpXzSgHbMdedzIfjDYOFBgKJPZMPnPyYQWbxVNshEeH8wHlM7XJMcmTqBCl6x98WCWtOolIrLahi0pJLBVdrkQh7kB61Z3FNn821y%2B8eJ9q2fZt706oDyB29akbvEfgayWCQMtz0Dnu2bf3hoFnpurDzWGEC2lGZeh2Kx2Vx%2Fkyw1M62m44M4UGRRU5Czs%2FltcWr5RZqdkK4SJwa88T14VKToScn0ZS7yNG90T2dix805pz%2BQY7ZumWL0g6m9ItA9cXPQXlIdcgB0X2zoDdvYgHjRaOvBAepWKhjubewE9E7Og57JfEWIkRkO2ilWhl8aTal%2BFxBj%2FLwG5qWPsCG37O01%2BeFmt%2B9SS7Uv1nKyu%2Fp6kutIZ0h9MdZWXitLYDKoI882FRXDEN2KJHmKV9j0QTWWlJqkQfYw3s5K79EHfROvlGCOQrow1Y8azD9gyzWQ1LwZ28YeZV72%2FGVDREEVHZBtqcWAU76PdyGuA1mn75vYWUv3ThQH%2BmxhDzs0q7nMBvkQ2bzJjWBrDgB0IuS%2F7kUkFs10KytI3kDsks5ICbKro2g0HZpp2WH0Fgek8%2F5FghLj7QMMH8NGPbQ2bW0EcP2Irw5bZYO5zllBFzB09zAVAYSG9CThLztoo3Rs6j%2BGxB1nUUcCG8dXKcyh3S%2B9IJuItis40Khi%2FPg%2BrUTQbtA5AbAZm6T%2FamBCcgY%2BbpP%2FoizkhbKZt9HY4kdnIdMv7rcJIK5VqwjS7gfjh47aJgNANd6CRVDV8dksEn%2FmTCazoi8BjqcAZVMXnhXkkE743dcKPGC%2B%2F4ZMb8amiGLdbu5IJ2uJ7EnO%2FC9PCyx%2F9hllTt9RGevA0RhEuQsQsAwcC9TzQCo2R%2F8NzczmCwYml%2FXu52ivL02m4iF8QBEEeTOZAYc4U74kgwO3cPE3U9GVoVcSpsyPAtHnNjZmcq40NB8SUkC0lp%2BwGgl5Hve9qD%2BDh%2FyxEWbDXwSZ3f7rtu9q0WwOA%3D%3D&Expires=1736587786",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "64. DEPTH TO WATER, IN FEET BELOW MEASURING POINT 65.0 65.5 OF MERCURY IN INCHES PRECIPITATION, IN INCHES\n\nPRESSURE,\n\nBAROMETRIC",
+                "embed": "64. DEPTH TO WATER, IN FEET BELOW MEASURING POINT 65.0 65.5 OF MERCURY IN INCHES PRECIPITATION, IN INCHES\n\nPRESSURE,\n\nBAROMETRIC",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.02248036562293118,
+                            "top": 0.015994471172953762,
+                            "width": 0.025467290842989158,
+                            "height": 0.02343763890727497,
+                            "page": 1
+                        },
+                        "content": "",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.04689428218839983,
+                            "top": 0.9421664626682986,
+                            "width": 0.018922254216371864,
+                            "height": 0.011015911872705019,
+                            "page": 1
+                        },
+                        "content": "87",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.16254204420923746,
+                            "top": 0.03436908698578068,
+                            "width": 0.6652804162462078,
+                            "height": 0.9205293690414148,
+                            "page": 1
+                        },
+                        "content": "64. DEPTH TO WATER, IN FEET BELOW MEASURING POINT 65.0 65.5 OF MERCURY IN INCHES PRECIPITATION, IN INCHES",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.5265322912381736,
+                            "top": 0.9482864137086904,
+                            "width": 0.0765117235705471,
+                            "height": 0.014075887392900856,
+                            "page": 1
+                        },
+                        "content": "PRESSURE,",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.5191279308926368,
+                            "top": 0.9629742962056304,
+                            "width": 0.09337721102426985,
+                            "height": 0.013769889840881273,
+                            "page": 1
+                        },
+                        "content": "BAROMETRIC",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

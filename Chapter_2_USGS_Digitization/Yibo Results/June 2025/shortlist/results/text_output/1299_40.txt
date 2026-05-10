@@ -1,0 +1,52 @@
+```json
+[
+    {
+        "Watersource_Name": "Palm Springs Water Co., well 5",
+        "County": "Riverside",
+        "Location": "Near Agua Caliente Spring, Palm Springs",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": ["feet"],
+        "Latitude": 33.8295,
+        "Longitude": -116.5453,
+        "Dates_of_Recording": "1948-01-01-1948-12-31",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Agua Caliente Indian Tribe, test well 1",
+        "County": "Riverside",
+        "Location": "Near Agua Caliente Spring",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": ["feet"],
+        "Latitude": 33.8276,
+        "Longitude": -116.5435,
+        "Dates_of_Recording": "1958-06-10-1958-06-10",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Agua Caliente Indian Tribe, test well 2",
+        "County": "Riverside",
+        "Location": "Near Agua Caliente Spring",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": ["feet"],
+        "Latitude": 33.8276,
+        "Longitude": -116.5435,
+        "Dates_of_Recording": "1958-06-11-1958-06-11",
+        "Water_Type": "Groundwater well"
+    },
+    {
+        "Watersource_Name": "Agua Caliente Indian Tribe, test well 3",
+        "County": "Riverside",
+        "Location": "Near Agua Caliente Spring",
+        "Townships_Ranges_Sections": null,
+        "Temporal_Resolution": null,
+        "Units_Of_Measurement": ["feet"],
+        "Latitude": 33.8276,
+        "Longitude": -116.5435,
+        "Dates_of_Recording": "1958-06-11-1958-06-11",
+        "Water_Type": "Groundwater well"
+    }
+]
+```

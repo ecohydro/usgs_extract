@@ -1,0 +1,15 @@
+```json
+{
+  "Watersource_Name": "El Dorado Canal near Kyburz",
+  "County": "Placer County",
+  "Location": {
+    "Townships_Ranges_Sections": ["T. 11 N., R. 15 E., sec. 29"],
+    "Latitude": 39.0276,
+    "Longitude": -120.7667
+  },
+  "Temporal_Resolution": "Daily",
+  "Units_Of_Measurement": "second-feet",
+  "Dates_of_Recording": "10/01/1922-09/30/1932",
+  "Water_Type": "Irrigation"
+}
+```

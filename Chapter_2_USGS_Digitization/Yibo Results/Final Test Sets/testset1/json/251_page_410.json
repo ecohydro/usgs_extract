@@ -1,0 +1,182 @@
+{
+    "job_id": "0d238d36-b479-4416-8999-2119ba8c791f",
+    "duration": 5.97049617767334,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f71e18f6-7029-4e99-9111-7feccf3c3e1c?AWSAccessKeyId=ASIA2UOK6OVBGHTF5ZDJ&Signature=jNBI802gRfJOyce7ede3swa8czM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJGMEQCIAXsX7hiR%2Fcc7duvDbBhZoTZV61IkyiKmDf3Nz7HvErvAiBsH8XJ8BnZjYSc7aQHYcxlyuH8c%2BpdH1%2B4MBLZYHUxoCqLBQgkEAAaDDczMTEwNjkzMjAzNCIMfuMRd8D51Y6nED%2BgKugE2hZhIef3GKsBq3LkwM6OAU344OZ%2FESzgp%2Fwl6C2C5bDjthytHO%2FcbmWvRtArYidPjRuXvg9FSUWF0hulTbUOWOTvkKhzoMTS6d0PJUSAf7vnxjQ9asetGFmXhHSC1RdQRbik%2F3hH4nG0U5vPca1vLBzlwwNEBbhigz9ij3e6Yy7mvtKwpP5e4eQ2Ih%2BWCUpdvSOdceA1d0m3lhfDePNmhneaeFocp0FBp2ZJfusSG8c2NrbOMqefG9zrPjocdSjvnkqp9ezjMjlzKYzIZoi3qlVGUAcFOx1Z%2FjL2br7V%2BI4bQcZERNAotNFs0WXDgYlDAnJsCBmZ%2F2lOM6oFZIAbR27mZgkEQmrYlZgylFjIIr8ZPHrp4E%2BoPdluamp%2FIzuJNVLQQTLO8tagWwjWua4TXAg%2BExmvyE1C0Co1wNhf%2BgxwXmXf16snk9SI3%2FILM2IZPXlZrbMdOlBsvfoIalqGgGGLJC2G%2BNyTUgNDjQxi4kXJ5w0HI56gHxUQbiIQrkpULnWC2Rkdi3tH9H7vEAfY8JYvKEfvElkTThxvhCMFD7i220A%2BjbHbRlrQST6n9CkYaTEkuzFOZJGe8WvohwuEYKtMkUI13gQMa%2B4Ryrh5gEjEk7CgjckmAKb29HPI6TX3vCnJGuu3C3oRRlGPFQuGavG%2BgC0RCGyOoa6VWqaSiVEZuqH4jYIB%2FGa9KyUk24jiiBg8pzc6Vp%2BZPkJNc7oU4G9KPN3kEIJqxqeQ8BTacoanwRQeRP%2F08U7hh7gFKI0NU%2Fzs1BxbEt1aBX51JxgQD6h9cM7UWtrSX92zcwSqs0U33X%2BCTiyQCzCQ0cm6BjqcAWu6e3Sw64UiA%2FloGucIUijMzgejev2dg4rwbG%2FuOltbAoyRiqtYCnVgEUGeQDZGqpQ%2Fwd4V9Ldbkd8moLhNFLS5%2BNzyN%2BO616OmLjI%2F7dcDUDTUShWOfdWnjoJ1771mYhdR2%2F1wDQ31%2FPsLhKn4C0k7PvicoRIVnYqjSKUp3GAlIiAqwsB%2B9nhS2v0owLDpKkKCqKjUCeZysCXOFw%3D%3D&Expires=1733457589",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GILA RIVER BASIN\n\nUsable contents, in thousands of acre-feet, on last day of each month for reservoir system on Salt River at and below Roosevelt Dam, Ariz., 1910-38--Continued -",
+                "embed": "# GILA RIVER BASIN\n\nUsable contents, in thousands of acre-feet, on last day of each month for reservoir system on Salt River at and below Roosevelt Dam, Ariz., 1910-38--Continued -",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3800876643706951,
+                            "top": 0.05446293494704992,
+                            "width": 0.15028177833437695,
+                            "height": 0.007564296520423601,
+                            "page": 1
+                        },
+                        "content": "GILA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8102692548528491,
+                            "top": 0.052571860816944024,
+                            "width": 0.028804007514088917,
+                            "height": 0.007564296520423601,
+                            "page": 1
+                        },
+                        "content": "407",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07138384470882905,
+                            "top": 0.08131618759455371,
+                            "width": 0.7764558547276142,
+                            "height": 0.020045385779122543,
+                            "page": 1
+                        },
+                        "content": "Usable contents, in thousands of acre-feet, on last day of each month for reservoir system on Salt River at and below Roosevelt Dam, Ariz., 1910-38--Continued -",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GILA RIVER BASIN (cont.)\n\n<table><tr><th>Month</th><th>1924 -25</th><th>1925 -26</th><th>1926 -27</th><th>1927 -28</th><th>1928 -29</th><th>1929 -30</th><th>1930 -31</th></tr><tr><td>October</td><td>362.6</td><td>131.4</td><td>359.4</td><td>740.3</td><td>209.1</td><td>107.9</td><td>140.3</td></tr><tr><td>November</td><td>350.4</td><td>136.5</td><td>333.3</td><td>716.0</td><td>206.7</td><td>101.2</td><td>149.5</td></tr><tr><td>December</td><td>365.1</td><td>147.1</td><td>356.7</td><td>716.2</td><td>214.3</td><td>110.2</td><td>160.4</td></tr><tr><td>January</td><td>366.7</td><td>157.6</td><td>353.2</td><td>719.6</td><td>222.3</td><td>135.2</td><td>168.2</td></tr><tr><td>February</td><td>351.7</td><td>155.5</td><td>718.5</td><td>760.4</td><td>229.9</td><td>154.6</td><td>385.6</td></tr><tr><td>March</td><td>363.4</td><td>224.0</td><td>868.3</td><td>775.8</td><td>258.6</td><td>375.6</td><td>410.1</td></tr><tr><td>April</td><td>325.4</td><td>610.4</td><td>968.2</td><td>732.2</td><td>359.6</td><td>340.2</td><td>458.8</td></tr><tr><td>May</td><td>259.1</td><td>686.4</td><td>960.9</td><td>662.4</td><td>297.7</td><td>318.5</td><td>449.9</td></tr><tr><td>June</td><td>184.8</td><td>613.8</td><td>906.4</td><td>533.6</td><td>216.6</td><td>245.8</td><td>377.8</td></tr><tr><td>July</td><td>114.3</td><td>536.7</td><td>822.4</td><td>407.1</td><td>161.9</td><td>226.4</td><td>312.6</td></tr><tr><td>August</td><td>92.25</td><td>470.1</td><td>779.9</td><td>348.7</td><td>181.1</td><td>257.3</td><td>353.7</td></tr><tr><td>September</td><td>106.5</td><td>388.0</td><td>787.2</td><td>230.9</td><td>133.3</td><td>169.2</td><td>343.4</td></tr><tr><td>Month</td><td>1931 -32</td><td>1932 -33</td><td>1933 -34</td><td>1934 -35</td><td>1935 -36</td><td>1936 -37</td><td>1937 -38</td></tr><tr><td>October</td><td>345.2</td><td>1,037</td><td>762.6</td><td>194.9</td><td>511.3</td><td>428.4</td><td>687.6</td></tr><tr><td>November</td><td>405.5</td><td>999.1</td><td>733.3</td><td>186.2</td><td>484.5</td><td>407.5</td><td>656.2</td></tr><tr><td>December</td><td>525.3</td><td>1,008</td><td>728.6</td><td>198.2</td><td>477.6</td><td>417.9</td><td>652.8</td></tr><tr><td>January</td><td>580.3</td><td>1,027</td><td>703.3</td><td>273.3</td><td>469.4</td><td>462.4</td><td>651.1</td></tr><tr><td>February</td><td>1,066</td><td>1,051</td><td>615.4</td><td>446.0</td><td>603.2</td><td>834.2</td><td>651.2</td></tr><tr><td>March</td><td>1,295</td><td>1,113</td><td>577.6</td><td>665.1</td><td>694.9</td><td>1,155.2</td><td>821.1</td></tr><tr><td>April</td><td>1,427</td><td>1,123</td><td>521.9</td><td>816.6</td><td>827.0</td><td>1,331.0</td><td>773.6</td></tr><tr><td>May</td><td>1,390</td><td>1,112</td><td>459.2</td><td>807.6</td><td>795.0</td><td>1,264.6</td><td>694.3</td></tr><tr><td>June</td><td>1,300</td><td>1,036</td><td>389.3</td><td>739.2</td><td>695.1</td><td>1,165.2</td><td>580.1</td></tr><tr><td>July</td><td>1,228</td><td>951.4</td><td>312.0</td><td>630.3</td><td>595.4</td><td>1,029.3</td><td>474.3</td></tr><tr><td>August</td><td>1,280</td><td>884.4</td><td>319.1</td><td>610.5</td><td>551.1</td><td>878.4</td><td>408.0</td></tr><tr><td>September</td><td>1,063</td><td>810.0</td><td>237.9</td><td>562.1</td><td>474.5</td><td>746.9</td><td>314.7</td></tr></table>\n\nSalt River 50 miles above Phoenix, Ariz.",
+                "embed": "# GILA RIVER BASIN (cont.)\n\n<table><tr><th>Month</th><th>1924 -25</th><th>1925 -26</th><th>1926 -27</th><th>1927 -28</th><th>1928 -29</th><th>1929 -30</th><th>1930 -31</th></tr><tr><td>October</td><td>362.6</td><td>131.4</td><td>359.4</td><td>740.3</td><td>209.1</td><td>107.9</td><td>140.3</td></tr><tr><td>November</td><td>350.4</td><td>136.5</td><td>333.3</td><td>716.0</td><td>206.7</td><td>101.2</td><td>149.5</td></tr><tr><td>December</td><td>365.1</td><td>147.1</td><td>356.7</td><td>716.2</td><td>214.3</td><td>110.2</td><td>160.4</td></tr><tr><td>January</td><td>366.7</td><td>157.6</td><td>353.2</td><td>719.6</td><td>222.3</td><td>135.2</td><td>168.2</td></tr><tr><td>February</td><td>351.7</td><td>155.5</td><td>718.5</td><td>760.4</td><td>229.9</td><td>154.6</td><td>385.6</td></tr><tr><td>March</td><td>363.4</td><td>224.0</td><td>868.3</td><td>775.8</td><td>258.6</td><td>375.6</td><td>410.1</td></tr><tr><td>April</td><td>325.4</td><td>610.4</td><td>968.2</td><td>732.2</td><td>359.6</td><td>340.2</td><td>458.8</td></tr><tr><td>May</td><td>259.1</td><td>686.4</td><td>960.9</td><td>662.4</td><td>297.7</td><td>318.5</td><td>449.9</td></tr><tr><td>June</td><td>184.8</td><td>613.8</td><td>906.4</td><td>533.6</td><td>216.6</td><td>245.8</td><td>377.8</td></tr><tr><td>July</td><td>114.3</td><td>536.7</td><td>822.4</td><td>407.1</td><td>161.9</td><td>226.4</td><td>312.6</td></tr><tr><td>August</td><td>92.25</td><td>470.1</td><td>779.9</td><td>348.7</td><td>181.1</td><td>257.3</td><td>353.7</td></tr><tr><td>September</td><td>106.5</td><td>388.0</td><td>787.2</td><td>230.9</td><td>133.3</td><td>169.2</td><td>343.4</td></tr><tr><td>Month</td><td>1931 -32</td><td>1932 -33</td><td>1933 -34</td><td>1934 -35</td><td>1935 -36</td><td>1936 -37</td><td>1937 -38</td></tr><tr><td>October</td><td>345.2</td><td>1,037</td><td>762.6</td><td>194.9</td><td>511.3</td><td>428.4</td><td>687.6</td></tr><tr><td>November</td><td>405.5</td><td>999.1</td><td>733.3</td><td>186.2</td><td>484.5</td><td>407.5</td><td>656.2</td></tr><tr><td>December</td><td>525.3</td><td>1,008</td><td>728.6</td><td>198.2</td><td>477.6</td><td>417.9</td><td>652.8</td></tr><tr><td>January</td><td>580.3</td><td>1,027</td><td>703.3</td><td>273.3</td><td>469.4</td><td>462.4</td><td>651.1</td></tr><tr><td>February</td><td>1,066</td><td>1,051</td><td>615.4</td><td>446.0</td><td>603.2</td><td>834.2</td><td>651.2</td></tr><tr><td>March</td><td>1,295</td><td>1,113</td><td>577.6</td><td>665.1</td><td>694.9</td><td>1,155.2</td><td>821.1</td></tr><tr><td>April</td><td>1,427</td><td>1,123</td><td>521.9</td><td>816.6</td><td>827.0</td><td>1,331.0</td><td>773.6</td></tr><tr><td>May</td><td>1,390</td><td>1,112</td><td>459.2</td><td>807.6</td><td>795.0</td><td>1,264.6</td><td>694.3</td></tr><tr><td>June</td><td>1,300</td><td>1,036</td><td>389.3</td><td>739.2</td><td>695.1</td><td>1,165.2</td><td>580.1</td></tr><tr><td>July</td><td>1,228</td><td>951.4</td><td>312.0</td><td>630.3</td><td>595.4</td><td>1,029.3</td><td>474.3</td></tr><tr><td>August</td><td>1,280</td><td>884.4</td><td>319.1</td><td>610.5</td><td>551.1</td><td>878.4</td><td>408.0</td></tr><tr><td>September</td><td>1,063</td><td>810.0</td><td>237.9</td><td>562.1</td><td>474.5</td><td>746.9</td><td>314.7</td></tr></table>\n\nSalt River 50 miles above Phoenix, Ariz.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05105507217053704,
+                            "top": 0.10313653296674073,
+                            "width": 0.8139269834170882,
+                            "height": 0.3147143480817417,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>1924 -25</th><th>1925 -26</th><th>1926 -27</th><th>1927 -28</th><th>1928 -29</th><th>1929 -30</th><th>1930 -31</th></tr><tr><td>October</td><td>362.6</td><td>131.4</td><td>359.4</td><td>740.3</td><td>209.1</td><td>107.9</td><td>140.3</td></tr><tr><td>November</td><td>350.4</td><td>136.5</td><td>333.3</td><td>716.0</td><td>206.7</td><td>101.2</td><td>149.5</td></tr><tr><td>December</td><td>365.1</td><td>147.1</td><td>356.7</td><td>716.2</td><td>214.3</td><td>110.2</td><td>160.4</td></tr><tr><td>January</td><td>366.7</td><td>157.6</td><td>353.2</td><td>719.6</td><td>222.3</td><td>135.2</td><td>168.2</td></tr><tr><td>February</td><td>351.7</td><td>155.5</td><td>718.5</td><td>760.4</td><td>229.9</td><td>154.6</td><td>385.6</td></tr><tr><td>March</td><td>363.4</td><td>224.0</td><td>868.3</td><td>775.8</td><td>258.6</td><td>375.6</td><td>410.1</td></tr><tr><td>April</td><td>325.4</td><td>610.4</td><td>968.2</td><td>732.2</td><td>359.6</td><td>340.2</td><td>458.8</td></tr><tr><td>May</td><td>259.1</td><td>686.4</td><td>960.9</td><td>662.4</td><td>297.7</td><td>318.5</td><td>449.9</td></tr><tr><td>June</td><td>184.8</td><td>613.8</td><td>906.4</td><td>533.6</td><td>216.6</td><td>245.8</td><td>377.8</td></tr><tr><td>July</td><td>114.3</td><td>536.7</td><td>822.4</td><td>407.1</td><td>161.9</td><td>226.4</td><td>312.6</td></tr><tr><td>August</td><td>92.25</td><td>470.1</td><td>779.9</td><td>348.7</td><td>181.1</td><td>257.3</td><td>353.7</td></tr><tr><td>September</td><td>106.5</td><td>388.0</td><td>787.2</td><td>230.9</td><td>133.3</td><td>169.2</td><td>343.4</td></tr><tr><td>Month</td><td>1931 -32</td><td>1932 -33</td><td>1933 -34</td><td>1934 -35</td><td>1935 -36</td><td>1936 -37</td><td>1937 -38</td></tr><tr><td>October</td><td>345.2</td><td>1,037</td><td>762.6</td><td>194.9</td><td>511.3</td><td>428.4</td><td>687.6</td></tr><tr><td>November</td><td>405.5</td><td>999.1</td><td>733.3</td><td>186.2</td><td>484.5</td><td>407.5</td><td>656.2</td></tr><tr><td>December</td><td>525.3</td><td>1,008</td><td>728.6</td><td>198.2</td><td>477.6</td><td>417.9</td><td>652.8</td></tr><tr><td>January</td><td>580.3</td><td>1,027</td><td>703.3</td><td>273.3</td><td>469.4</td><td>462.4</td><td>651.1</td></tr><tr><td>February</td><td>1,066</td><td>1,051</td><td>615.4</td><td>446.0</td><td>603.2</td><td>834.2</td><td>651.2</td></tr><tr><td>March</td><td>1,295</td><td>1,113</td><td>577.6</td><td>665.1</td><td>694.9</td><td>1,155.2</td><td>821.1</td></tr><tr><td>April</td><td>1,427</td><td>1,123</td><td>521.9</td><td>816.6</td><td>827.0</td><td>1,331.0</td><td>773.6</td></tr><tr><td>May</td><td>1,390</td><td>1,112</td><td>459.2</td><td>807.6</td><td>795.0</td><td>1,264.6</td><td>694.3</td></tr><tr><td>June</td><td>1,300</td><td>1,036</td><td>389.3</td><td>739.2</td><td>695.1</td><td>1,165.2</td><td>580.1</td></tr><tr><td>July</td><td>1,228</td><td>951.4</td><td>312.0</td><td>630.3</td><td>595.4</td><td>1,029.3</td><td>474.3</td></tr><tr><td>August</td><td>1,280</td><td>884.4</td><td>319.1</td><td>610.5</td><td>551.1</td><td>878.4</td><td>408.0</td></tr><tr><td>September</td><td>1,063</td><td>810.0</td><td>237.9</td><td>562.1</td><td>474.5</td><td>746.9</td><td>314.7</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.26988102692548527,
+                            "top": 0.45310136157337366,
+                            "width": 0.371947401377583,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Salt River 50 miles above Phoenix, Ariz.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GILA RIVER BASIN (cont.)\n\nLocation.- In T. 3 N., R. 8 or 9 E., in the canyon, probably between sites of Etewart Mountain and Mormon Flat Dams, and about 15 miles upstream from Verde River.\n\nRecords available. - May to August 1890.\n\nDetermination of discharge. - Discharge computed by usual methods of stream gaging using gage heights, probably read daily on a staff gage, and current-meter discharge measurements.\n\nRemarks. - Records probably good; 21 discharge measurements were made during the 3-month period. Small diversions above station for irrigation. Record shows water avail- able from Salt River above Verde River for irrigation of Salt River Valley.\n\nMonthly summary of discharge of Salt River 50 miles above Phoenix, Ariz., 1890\n\n($ Corrected)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th colspan=\"2\">Runoff</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td><td>Second-\nfoot-days</td><td>Acre-feet</td></tr><tr><td>May 28 -31, 1890</td><td>520</td><td>520</td><td>520</td><td>-</td><td>14,130</td></tr><tr><td>June</td><td>520</td><td>193</td><td>298</td><td>-</td><td>17,730</td></tr><tr><td>July</td><td>375</td><td>185</td><td>215</td><td>-</td><td>13,220</td></tr><tr><td>August 1 -28</td><td>2,200</td><td>600</td><td>1,362</td><td>-</td><td>175,640</td></tr></table>",
+                "embed": "# GILA RIVER BASIN (cont.)\n\nLocation.- In T. 3 N., R. 8 or 9 E., in the canyon, probably between sites of Etewart Mountain and Mormon Flat Dams, and about 15 miles upstream from Verde River.\n\nRecords available. - May to August 1890.\n\nDetermination of discharge. - Discharge computed by usual methods of stream gaging using gage heights, probably read daily on a staff gage, and current-meter discharge measurements.\n\nRemarks. - Records probably good; 21 discharge measurements were made during the 3-month period. Small diversions above station for irrigation. Record shows water avail- able from Salt River above Verde River for irrigation of Salt River Valley.\n\nMonthly summary of discharge of Salt River 50 miles above Phoenix, Ariz., 1890\n\n($ Corrected)\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th colspan=\"2\">Runoff</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td><td>Second-\nfoot-days</td><td>Acre-feet</td></tr><tr><td>May 28 -31, 1890</td><td>520</td><td>520</td><td>520</td><td>-</td><td>14,130</td></tr><tr><td>June</td><td>520</td><td>193</td><td>298</td><td>-</td><td>17,730</td></tr><tr><td>July</td><td>375</td><td>185</td><td>215</td><td>-</td><td>13,220</td></tr><tr><td>August 1 -28</td><td>2,200</td><td>600</td><td>1,362</td><td>-</td><td>175,640</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.045710707576706325,
+                            "top": 0.481089258698941,
+                            "width": 0.793988728866625,
+                            "height": 0.02042360060514372,
+                            "page": 1
+                        },
+                        "content": "Location.- In T. 3 N., R. 8 or 9 E., in the canyon, probably between sites of Etewart Mountain and Mormon Flat Dams, and about 15 miles upstream from Verde River.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.045710707576706325,
+                            "top": 0.5098335854765507,
+                            "width": 0.3625547902316844,
+                            "height": 0.01021180030257186,
+                            "page": 1
+                        },
+                        "content": "Records available. - May to August 1890.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.5283661119515886,
+                            "width": 0.8134001252348153,
+                            "height": 0.02760968229954614,
+                            "page": 1
+                        },
+                        "content": "Determination of discharge. - Discharge computed by usual methods of stream gaging using gage heights, probably read daily on a staff gage, and current-meter discharge measurements.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.045084533500313086,
+                            "top": 0.5661875945537065,
+                            "width": 0.8140262993112085,
+                            "height": 0.029878971255673223,
+                            "page": 1
+                        },
+                        "content": "Remarks. - Records probably good; 21 discharge measurements were made during the 3-month period. Small diversions above station for irrigation. Record shows water avail- able from Salt River above Verde River for irrigation of Salt River Valley.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09142141515341265,
+                            "top": 0.6127080181543116,
+                            "width": 0.7294927989981215,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "Monthly summary of discharge of Salt River 50 miles above Phoenix, Ariz., 1890",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3938634940513463,
+                            "top": 0.6316187594553706,
+                            "width": 0.11709455228553538,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "($ Corrected)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04536034781707401,
+                            "top": 0.6467734378693504,
+                            "width": 0.8240336667170134,
+                            "height": 0.09305183537608737,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th colspan=\"2\">Runoff</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td><td>Second-\nfoot-days</td><td>Acre-feet</td></tr><tr><td>May 28 -31, 1890</td><td>520</td><td>520</td><td>520</td><td>-</td><td>14,130</td></tr><tr><td>June</td><td>520</td><td>193</td><td>298</td><td>-</td><td>17,730</td></tr><tr><td>July</td><td>375</td><td>185</td><td>215</td><td>-</td><td>13,220</td></tr><tr><td>August 1 -28</td><td>2,200</td><td>600</td><td>1,362</td><td>-</td><td>175,640</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

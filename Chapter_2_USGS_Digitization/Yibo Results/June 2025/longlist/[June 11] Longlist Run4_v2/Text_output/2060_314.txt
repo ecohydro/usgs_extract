@@ -1,0 +1,23 @@
+```json
+[
+    {
+        "Watersource_Name": "Ground-Water Basin",
+        "County": "Santa Barbara County",
+        "Location": "About 5.5 miles west-northwest of Lompoc, 1.4 miles north of State Highway 150 (Ocean Avenue), 0.23 mile west of Union Sugar Avenue, 15 feet south of irrigation well 7/35-23E2.",
+        "Townships_Ranges_Sections": ["N/A"],
+        "Temporal_Resolution": "Monthly to Bi-weekly",
+        "Units_Of_Measurement": {
+            "Water_Level_Before_1941": "feet above or below (-) sea-level datum of 1929",
+            "Water_Level_After_1940": "feet below land-surface datum"
+        },
+        "Latitude": 34.637, 
+        "Longitude": -120.455,
+        "Dates_of_Recording": "1930-06/28-1942-12/24",
+        "Water_Type": "Groundwater well"
+    }
+]
+```
+
+This JSON output provides the requested details about the water sources mentioned in the document content provided, focusing on a groundwater basin located within Santa Barbara County, California. The data includes a variety of attributes such as name, county, location specifics, temporal resolution of measurements, units of measurement used for recording water levels, geospatial coordinates (latitude and longitude), date range of recordings, and the type of water source based on the description given in the document.
+
+Note: The latitude and longitude are estimated values provided to fulfill the requirement for geospatial data, as specific coordinates were not mentioned in the original content.

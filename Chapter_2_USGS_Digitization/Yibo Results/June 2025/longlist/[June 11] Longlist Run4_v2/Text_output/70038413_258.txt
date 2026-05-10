@@ -1,0 +1,19 @@
+```json
+{
+    "Watersource_Name": "Hopper Creek",
+    "County": "Ventura County",
+    "Location": {
+        "Latitude": 34.400833,
+        "Longitude": -118.825556
+    },
+    "Townships_Ranges_Sections": [
+        "[NE}NE}SW} sec. 25, T.4 N., R.19 W."
+    ],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": "cubic feet per second (cfs)",
+    "Latitude": 34.400833,
+    "Longitude": -118.825556,
+    "Dates_of_Recording": "10/1968-09/1969",
+    "Water_Type": "Stream discharge"
+}
+```

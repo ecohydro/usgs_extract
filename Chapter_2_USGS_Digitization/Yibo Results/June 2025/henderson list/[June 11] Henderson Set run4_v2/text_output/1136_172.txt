@@ -1,0 +1,64 @@
+```json
+[
+    {
+        "Watersource_Name": "Cottonwood Creek",
+        "County": "Tulare County",
+        "Location": "Ono, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily to monthly",
+        "Units_Of_Measurement": "Second-feet (Sec.-ft.)",
+        "Latitude": 36.1331,
+        "Longitude": -119.0978,
+        "Dates_of_Recording": "10/28/1907-12/19/1908",
+        "Water_Type": "Stream discharge"
+    },
+    {
+        "Watersource_Name": "Bee Creek Ditch Co Canal",
+        "County": "Tulare County",
+        "Location": "1 mile below intake from Cottonwood Creek, Ono, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Specific dates in September 1908",
+        "Units_Of_Measurement": "Second-feet (Sec.-ft.)",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "09/26/1908-09/27/1908",
+        "Water_Type": "Irrigation"
+    },
+    {
+        "Watersource_Name": "Happy Valley Land and Water Co Canal",
+        "County": "Tulare County",
+        "Location": "Miles below intake from Cottonwood Creek, Ono, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Specific dates in September 1908",
+        "Units_Of_Measurement": "Second-feet (Sec.-ft.)",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "09/26/1908-09/27/1908",
+        "Water_Type": "Irrigation"
+    },
+    {
+        "Watersource_Name": "Jerusalem Canal",
+        "County": "Tulare County",
+        "Location": "Mile below intake from Cottonwood Creek, Ono, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Specific dates in September 1908",
+        "Units_Of_Measurement": "Second-feet (Sec.-ft.)",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "09/26/1908-09/27/1908",
+        "Water_Type": "Irrigation"
+    },
+    {
+        "Watersource_Name": "Marina Gold Mining Co Canal",
+        "County": "Tulare County",
+        "Location": "Mile below intake from Cottonwood Creek, Ono, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Specific dates in September 1908",
+        "Units_Of_Measurement": "Second-feet (Sec.-ft.)",
+        "Latitude": null,
+        "Longitude": null,
+        "Dates_of_Recording": "09/26/1908-09/27/1908",
+        "Water_Type": "Irrigation"
+    }
+]
+```

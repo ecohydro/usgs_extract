@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "Deer Creek below Slate Creek",
+    "County": "Placer County",
+    "Location": "40°14'00\", long 121°27'50\"",
+    "Townships_Ranges_Sections": ["T. 27 N., R.4 E., sec.1"],
+    "Temporal_Resolution": "Daily",
+    "Units_Of_Measurement": {
+        "Discharge": "cubic feet per second (CFS)",
+        "Gage_Height": "feet"
+    },
+    "Latitude": 40.2333,
+    "Longitude": -121.4639,
+    "Dates_of_Recording": "08/01/1961-09/30/1962",
+    "Water_Type": "Stream discharge"
+}
+```

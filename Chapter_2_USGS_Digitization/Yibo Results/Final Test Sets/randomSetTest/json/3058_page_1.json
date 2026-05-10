@@ -1,0 +1,82 @@
+{
+    "job_id": "3a74237e-2744-46e8-96ef-d45dd40c6e9c",
+    "duration": 4.2770373821258545,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/9dcae244-a4cc-43f8-b4ac-79cae5126748?AWSAccessKeyId=ASIA2UOK6OVBB4FHDB76&Signature=pjWt%2BTO9NINRpa1ZkdFgDkY44Vk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIH%2BikbOIFOBqGM0ZFpK5RS55rSlqxWWZA6yEBquFuBB5AiAfJMhbVTZajLJ%2FfNz6o%2BbKTVkHBOQi8%2FeZs0vjjGktJiqLBQgjEAAaDDczMTEwNjkzMjAzNCIMw%2FjS0nuSYzEu7DBqKugEkzqqcWG5SW3Y1u2MOxfp22%2BwuumJClDpiysa%2FGD3IzP151GotFVZo%2B6z83HM6IA%2BNMDMrhttlTJ2qM3ohLa4HkE3sU64bZV4o8Qp1s5XI5hSZkoTtwK7lGYIohpJqEcypjGS9mEtlGjulJ2ks6VzTiHIqiUdHCP6yutKe8CRgUNcHoHkrachDKXX3bncrBOTObSHBYfBdXblbKD9pX5CU18V577VsZb6Rhqo3UcbRPxStMWM%2FJdJcbPF7p8oI6sH3mFBPIS7C5WT6w2Ze%2B%2BTjRPHqfRYTLKxAthQPoV5b8xkCkJweazoOiStE062BldZpqlhqIpVzs%2FfKkKuGophg6a0%2Bm6F0gA9aFyx2y3pU4tqS0tItQvvLiD2XBcJp%2BCQmHk3Jl16sinpNra5zayaQrcy1%2BhtEwaWhs4VXGSjAG1f6h1hXjVMSK4s200JD3qW5aRLgVu6pqJa5vbG%2BiYEmaBfaIW5aS3%2F7CqBQkLvhQ0ZYsynU%2FxJFGTaOPAQgXmPKNhXNvuy6QqDoIzlp%2FJexdxwfrDvPya3lzPayUC%2Fqw3dIoVjz5t7cpLA0OT8FZD8TTIkxAYvrenqanslI7bg3OLNzc7obfdfEmjCzO0ZykQXeU11LDci1ckiTxod6ponkAA63HaKJdecaIYJZTejqnJnX75eHaUqhrB3DzL5IloaW0CgELjb%2BWgG1o8zwCRDEd7bfI3ckUvRGWWb63Lp0wzn2I2wIskqIjrrMpPuaENkQ01lWrXUfBtNVaCxooaaiEsNOPINaeeEQP4dNL4d0YFZDHJCtH%2B6o%2BkuQBxv8e78BP6yKVf%2BADDis8m6BjqcAcHcOYEo82jakBFByhdRYyoe7ubFXnnTOUiZMFqnzAHuIUgv5Dlk%2Bxl8E0NWSZc%2BJb9%2BFWGXMR0xysVvHjOewDSH3D4Fl3GUGUdyXN8FoI7nsf5qF0G5o5CyPNiUdvVrtGoi3H6S4g008QZqiUbArvY9GJPlNKtQQmk9WiEkpdjJfogUK5Po9b8WDkmhIv2FuQTUdYK7nnYhXn91cA%3D%3D&Expires=1733455491",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "11 5 GEOLOGICAL SURVEY WATER REPOLITIES DIVISION\n\nCompilation of Records\nof Surface Waters of the\nUnited States, October\n1950 to September 1960\n\nPart 11. Pacific Slope Basins in California\n\nGEOLOGICAL SURVEY WATER-SUPPLY PAPER 1735\n\nDESCRIPTION OF THE\nSECURITY\nST\nMarch 3. 1849",
+                "embed": "11 5 GEOLOGICAL SURVEY WATER REPOLITIES DIVISION\n\nCompilation of Records\nof Surface Waters of the\nUnited States, October\n1950 to September 1960\n\nPart 11. Pacific Slope Basins in California\n\nGEOLOGICAL SURVEY WATER-SUPPLY PAPER 1735\n\nDESCRIPTION OF THE\nSECURITY\nST\nMarch 3. 1849",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08298001211387038,
+                            "top": 0.03417198648141194,
+                            "width": 0.30466384009691094,
+                            "height": 0.04656402553511078,
+                            "page": 1
+                        },
+                        "content": "11 5 GEOLOGICAL SURVEY WATER REPOLITIES DIVISION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.049061175045427015,
+                            "top": 0.0912504693954187,
+                            "width": 0.8304058146577832,
+                            "height": 0.238828389034923,
+                            "page": 1
+                        },
+                        "content": "Compilation of Records\nof Surface Waters of the\nUnited States, October\n1950 to September 1960",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.050878255602665054,
+                            "top": 0.35260983852797595,
+                            "width": 0.8491823137492429,
+                            "height": 0.030416823131806235,
+                            "page": 1
+                        },
+                        "content": "Part 11. Pacific Slope Basins in California",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0514839491217444,
+                            "top": 0.4416072099136312,
+                            "width": 0.8625075711689885,
+                            "height": 0.016147202403304545,
+                            "page": 1
+                        },
+                        "content": "GEOLOGICAL SURVEY WATER-SUPPLY PAPER 1735",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.009414492052010085,
+                            "top": 0.468731664241457,
+                            "width": 0.9789600666907973,
+                            "height": 0.5308897940234228,
+                            "page": 1
+                        },
+                        "content": "DESCRIPTION OF THE\nSECURITY\nST\nMarch 3. 1849",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

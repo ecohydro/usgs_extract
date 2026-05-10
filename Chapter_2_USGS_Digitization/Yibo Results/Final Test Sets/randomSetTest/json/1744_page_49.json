@@ -1,0 +1,190 @@
+{
+    "job_id": "6d1ca7bb-fa4d-4d58-9da3-78c30147009f",
+    "duration": 5.814145088195801,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/046f3e07-fb44-4b50-8904-24b0952db664?AWSAccessKeyId=ASIA2UOK6OVBC73P4K3I&Signature=R%2BNHQWUGt0aGUA%2BMlaOK83bKUrg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCIEGZGIhTq%2BVN2fZLzqQv5CQcs70gXjKe45hm9naXdD43AiAUjk%2FUh9TabLg3NO6%2FT49FrNoPOTEBi10UcxdIKV4ilSqLBQghEAAaDDczMTEwNjkzMjAzNCIMyn290tEFp0FeLdHXKugE5e9mGJGvMNIDgmXD5gj8M1lCkdM8keQX9Txwza7bnngl5cxciNsqtSXQ%2FmFCru8FX17XQrl075tXe3URG8BlRO0QbhVCOHxwYOH9nVu4337lnO%2BikvC7ZOvDsjvcu%2FhpBuKSkhltPx8ijGA0grXAbRwnkykckgtqBAUzGYPVyYjStUY9puPlvwj6dxSzZsaf8dmwvMzEnPlpyt8bZAckKOj%2BCb8NYLfX9tZ0oyrrjZMzLqHm4KMrqp088oK0Sl5FG7dQEhd5kDMLNJ5Uh%2FfLlhpfx89VbgA%2BkVS%2B4u59CpDLjM6Sm2tzDVOQd5c9Cw2%2FWvGlhE4knQXSitaanWiQMQFUMJUZlwzUKgaYS%2FMOWdlOcACDsnrYTDU%2FSApYn8jKdCIuEA2cI0TQcxG0Aj3GUseEZgt%2FXwPt%2BOvhyw%2BLZ5%2F67rTMICZ0OQVbh7WodiyBS0CB7n3hSN01HPH6wwsTBtYJJsg%2B%2FGtd4oUGMmkV7PTF9Lw5zCuEZtcutAd9ST7YnP3Xyq9wkEI8A8FDjSgwKX5iVzmZsnz9AARbMRYQNcIJO1rwEjNDTHp3eozXWdfsGsEGbcWOOuc9F82WSb4trl31tBP9rF%2Bqpm2dc%2FuEczzXZa%2B5yrwGwJhJDto06F%2BiVdYu%2B6NKwJALU7xTpStIqGTyxH8K5FMGPELXoWFPVriuVjywwyxob57u6C8zCVI3DSUUGvAJ8QZ5JQiyXZMWwEiJYOmfqXckPuZelrvqwbsVFPiBeooLH0kqC1Hm2El0kxxIECr%2B9noY8XxXRGQDEEk4SOe1aD2crhjhlQms1PSSFHJEgosw9jCR9Mi6BjqcAQ93LIroev3MMowLRvWRNNH9xr3Tl7EkGn1F54T1snflubP%2FVq08Wp%2FKJjMjODsZyHnWlCD1y4nOWqS0fwj63Kp5KdXpR2sNXepOHDccvWc8gp2%2Fyq6FkCMZCfzsbC7EXK5c0baYMD4lu4nLIxSctfv8mzhSpvZRToAhjIg4n0uK%2BWF0ZTZAhV1pPuHK5pnIhLof1WxVjoECJsxT%2BA%3D%3D&Expires=1733445751",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN.\n\nDaily discharge, in second-feet, of Black Canyon Creek near Mesa Grande, Cal., for the year ending Sept. 30, 1914.",
+                "embed": "# SAN DIEGUITO RIVER BASIN.\n\nDaily discharge, in second-feet, of Black Canyon Creek near Mesa Grande, Cal., for the year ending Sept. 30, 1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.28804007514088914,
+                            "top": 0.04280886218550507,
+                            "width": 0.3337507827175955,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "SAN DIEGUITO RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8378209142141515,
+                            "top": 0.04093128051070222,
+                            "width": 0.030682529743268627,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "49",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.045084533500313086,
+                            "top": 0.07172361997746902,
+                            "width": 0.8246712586098935,
+                            "height": 0.02853924145700338,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Black Canyon Creek near Mesa Grande, Cal., for the year ending Sept. 30, 1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN. (cont.)\n\n<table><tr><th></th><th>Day.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th></tr><tr><td>1</td><td></td><td>0.0</td><td>0.1</td><td>0.3</td><td>8.0</td><td>14</td><td>6.3</td><td>6.0</td></tr><tr><td>2</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>7.0</td><td>13</td><td>6.0</td><td>5.0</td></tr><tr><td>3</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>5.5</td><td>12</td><td>5.8</td><td>4.5</td></tr><tr><td>4</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>5.4</td><td>11</td><td>5.5</td><td>4.0</td></tr><tr><td>5</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>10</td><td>5.3</td><td>3.8</td></tr><tr><td>6</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>9.0</td><td>5.0</td><td>3.6</td></tr><tr><td>7</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>4.0</td><td>8.5</td><td>4.7</td><td>3.4</td></tr><tr><td>8</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>8.0</td><td>4.5</td><td>3.2</td></tr><tr><td>9</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>4.0</td><td>7.5</td><td>4.3</td><td>3.0</td></tr><tr><td>10</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>3.0</td><td>7.0</td><td>4.1</td><td>2.8</td></tr><tr><td>11</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>3.0</td><td>6.7</td><td>3.</td><td>2.6</td></tr><tr><td>12</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>2.8</td><td>6.5</td><td>3.7</td><td>2.4</td></tr><tr><td>13</td><td></td><td>2.5</td><td>.1</td><td>.2</td><td>2.8</td><td>6.2</td><td>3.5</td><td>2.2</td></tr><tr><td>14</td><td></td><td>1.5</td><td>.1</td><td>.2</td><td>2.5</td><td>5.8</td><td>3.3</td><td>2.1</td></tr><tr><td>15</td><td></td><td>.5</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.5</td><td>3.1</td><td>2.1</td></tr><tr><td>16</td><td></td><td>.1</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.3</td><td>3.1</td><td>2.0</td></tr><tr><td>17</td><td></td><td>.0</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.0</td><td>3.1</td><td>1.9</td></tr><tr><td>18</td><td></td><td>.0</td><td>.1</td><td>2.0</td><td>2.5</td><td>4.8</td><td>3.0</td><td>1.9</td></tr><tr><td>19</td><td></td><td>2.5</td><td>.1</td><td>2.0</td><td>125</td><td>4.8</td><td>3.0</td><td>1.8</td></tr><tr><td>20</td><td></td><td>2.5</td><td>.1</td><td>1.5</td><td>54</td><td>4.8</td><td>3.</td><td>1.7</td></tr><tr><td>21</td><td></td><td>1.5</td><td>.1</td><td>1.5</td><td>250</td><td>4.7</td><td>2.9</td><td>1.7</td></tr><tr><td>22</td><td></td><td>.5</td><td>.5</td><td>1.5</td><td>100</td><td>4.7</td><td>2.9</td><td>1.6</td></tr><tr><td>23</td><td></td><td>.1</td><td>.3</td><td>1.5</td><td>75</td><td>4.6</td><td>2.9</td><td>1.5</td></tr><tr><td>?1</td><td></td><td>.1</td><td>.1</td><td>2.5</td><td>50</td><td>4.6</td><td>2.8</td><td>1,5</td></tr><tr><td>25</td><td></td><td>.1</td><td>.1</td><td>5.0</td><td>40</td><td>4.6</td><td>2.8</td><td>1.4</td></tr><tr><td>26</td><td></td><td>.1</td><td>.1</td><td>40</td><td>30</td><td>4.6</td><td>2.8</td><td>1.3</td></tr><tr><td>27</td><td></td><td>.1</td><td>.1</td><td>175</td><td>25</td><td>5.0</td><td>3.0</td><td>1.3</td></tr><tr><td>28</td><td></td><td>.1</td><td>.2</td><td>36</td><td>15</td><td>5.0</td><td>3.0</td><td>1.2</td></tr><tr><td>29</td><td></td><td>.1</td><td>.2</td><td>20</td><td></td><td>8. 0</td><td>5.6</td><td>1.1</td></tr><tr><td>30</td><td></td><td>.1</td><td>.2</td><td>15</td><td></td><td>10</td><td>6.0</td><td>1.1</td></tr><tr><td>31</td><td></td><td></td><td>.2</td><td>10</td><td></td><td>7.0</td><td></td><td>1.0</td></tr></table>",
+                "embed": "# SAN DIEGUITO RIVER BASIN. (cont.)\n\n<table><tr><th></th><th>Day.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th></tr><tr><td>1</td><td></td><td>0.0</td><td>0.1</td><td>0.3</td><td>8.0</td><td>14</td><td>6.3</td><td>6.0</td></tr><tr><td>2</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>7.0</td><td>13</td><td>6.0</td><td>5.0</td></tr><tr><td>3</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>5.5</td><td>12</td><td>5.8</td><td>4.5</td></tr><tr><td>4</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>5.4</td><td>11</td><td>5.5</td><td>4.0</td></tr><tr><td>5</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>10</td><td>5.3</td><td>3.8</td></tr><tr><td>6</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>9.0</td><td>5.0</td><td>3.6</td></tr><tr><td>7</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>4.0</td><td>8.5</td><td>4.7</td><td>3.4</td></tr><tr><td>8</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>8.0</td><td>4.5</td><td>3.2</td></tr><tr><td>9</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>4.0</td><td>7.5</td><td>4.3</td><td>3.0</td></tr><tr><td>10</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>3.0</td><td>7.0</td><td>4.1</td><td>2.8</td></tr><tr><td>11</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>3.0</td><td>6.7</td><td>3.</td><td>2.6</td></tr><tr><td>12</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>2.8</td><td>6.5</td><td>3.7</td><td>2.4</td></tr><tr><td>13</td><td></td><td>2.5</td><td>.1</td><td>.2</td><td>2.8</td><td>6.2</td><td>3.5</td><td>2.2</td></tr><tr><td>14</td><td></td><td>1.5</td><td>.1</td><td>.2</td><td>2.5</td><td>5.8</td><td>3.3</td><td>2.1</td></tr><tr><td>15</td><td></td><td>.5</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.5</td><td>3.1</td><td>2.1</td></tr><tr><td>16</td><td></td><td>.1</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.3</td><td>3.1</td><td>2.0</td></tr><tr><td>17</td><td></td><td>.0</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.0</td><td>3.1</td><td>1.9</td></tr><tr><td>18</td><td></td><td>.0</td><td>.1</td><td>2.0</td><td>2.5</td><td>4.8</td><td>3.0</td><td>1.9</td></tr><tr><td>19</td><td></td><td>2.5</td><td>.1</td><td>2.0</td><td>125</td><td>4.8</td><td>3.0</td><td>1.8</td></tr><tr><td>20</td><td></td><td>2.5</td><td>.1</td><td>1.5</td><td>54</td><td>4.8</td><td>3.</td><td>1.7</td></tr><tr><td>21</td><td></td><td>1.5</td><td>.1</td><td>1.5</td><td>250</td><td>4.7</td><td>2.9</td><td>1.7</td></tr><tr><td>22</td><td></td><td>.5</td><td>.5</td><td>1.5</td><td>100</td><td>4.7</td><td>2.9</td><td>1.6</td></tr><tr><td>23</td><td></td><td>.1</td><td>.3</td><td>1.5</td><td>75</td><td>4.6</td><td>2.9</td><td>1.5</td></tr><tr><td>?1</td><td></td><td>.1</td><td>.1</td><td>2.5</td><td>50</td><td>4.6</td><td>2.8</td><td>1,5</td></tr><tr><td>25</td><td></td><td>.1</td><td>.1</td><td>5.0</td><td>40</td><td>4.6</td><td>2.8</td><td>1.4</td></tr><tr><td>26</td><td></td><td>.1</td><td>.1</td><td>40</td><td>30</td><td>4.6</td><td>2.8</td><td>1.3</td></tr><tr><td>27</td><td></td><td>.1</td><td>.1</td><td>175</td><td>25</td><td>5.0</td><td>3.0</td><td>1.3</td></tr><tr><td>28</td><td></td><td>.1</td><td>.2</td><td>36</td><td>15</td><td>5.0</td><td>3.0</td><td>1.2</td></tr><tr><td>29</td><td></td><td>.1</td><td>.2</td><td>20</td><td></td><td>8. 0</td><td>5.6</td><td>1.1</td></tr><tr><td>30</td><td></td><td>.1</td><td>.2</td><td>15</td><td></td><td>10</td><td>6.0</td><td>1.1</td></tr><tr><td>31</td><td></td><td></td><td>.2</td><td>10</td><td></td><td>7.0</td><td></td><td>1.0</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04156437290409019,
+                            "top": 0.10742059149690199,
+                            "width": 0.8342502190309834,
+                            "height": 0.39506990874659687,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Day.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th></tr><tr><td>1</td><td></td><td>0.0</td><td>0.1</td><td>0.3</td><td>8.0</td><td>14</td><td>6.3</td><td>6.0</td></tr><tr><td>2</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>7.0</td><td>13</td><td>6.0</td><td>5.0</td></tr><tr><td>3</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>5.5</td><td>12</td><td>5.8</td><td>4.5</td></tr><tr><td>4</td><td></td><td>.0</td><td>.1</td><td>.3</td><td>5.4</td><td>11</td><td>5.5</td><td>4.0</td></tr><tr><td>5</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>10</td><td>5.3</td><td>3.8</td></tr><tr><td>6</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>9.0</td><td>5.0</td><td>3.6</td></tr><tr><td>7</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>4.0</td><td>8.5</td><td>4.7</td><td>3.4</td></tr><tr><td>8</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>5.0</td><td>8.0</td><td>4.5</td><td>3.2</td></tr><tr><td>9</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>4.0</td><td>7.5</td><td>4.3</td><td>3.0</td></tr><tr><td>10</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>3.0</td><td>7.0</td><td>4.1</td><td>2.8</td></tr><tr><td>11</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>3.0</td><td>6.7</td><td>3.</td><td>2.6</td></tr><tr><td>12</td><td></td><td>.0</td><td>.1</td><td>.2</td><td>2.8</td><td>6.5</td><td>3.7</td><td>2.4</td></tr><tr><td>13</td><td></td><td>2.5</td><td>.1</td><td>.2</td><td>2.8</td><td>6.2</td><td>3.5</td><td>2.2</td></tr><tr><td>14</td><td></td><td>1.5</td><td>.1</td><td>.2</td><td>2.5</td><td>5.8</td><td>3.3</td><td>2.1</td></tr><tr><td>15</td><td></td><td>.5</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.5</td><td>3.1</td><td>2.1</td></tr><tr><td>16</td><td></td><td>.1</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.3</td><td>3.1</td><td>2.0</td></tr><tr><td>17</td><td></td><td>.0</td><td>.1</td><td>1.5</td><td>2.5</td><td>5.0</td><td>3.1</td><td>1.9</td></tr><tr><td>18</td><td></td><td>.0</td><td>.1</td><td>2.0</td><td>2.5</td><td>4.8</td><td>3.0</td><td>1.9</td></tr><tr><td>19</td><td></td><td>2.5</td><td>.1</td><td>2.0</td><td>125</td><td>4.8</td><td>3.0</td><td>1.8</td></tr><tr><td>20</td><td></td><td>2.5</td><td>.1</td><td>1.5</td><td>54</td><td>4.8</td><td>3.</td><td>1.7</td></tr><tr><td>21</td><td></td><td>1.5</td><td>.1</td><td>1.5</td><td>250</td><td>4.7</td><td>2.9</td><td>1.7</td></tr><tr><td>22</td><td></td><td>.5</td><td>.5</td><td>1.5</td><td>100</td><td>4.7</td><td>2.9</td><td>1.6</td></tr><tr><td>23</td><td></td><td>.1</td><td>.3</td><td>1.5</td><td>75</td><td>4.6</td><td>2.9</td><td>1.5</td></tr><tr><td>?1</td><td></td><td>.1</td><td>.1</td><td>2.5</td><td>50</td><td>4.6</td><td>2.8</td><td>1,5</td></tr><tr><td>25</td><td></td><td>.1</td><td>.1</td><td>5.0</td><td>40</td><td>4.6</td><td>2.8</td><td>1.4</td></tr><tr><td>26</td><td></td><td>.1</td><td>.1</td><td>40</td><td>30</td><td>4.6</td><td>2.8</td><td>1.3</td></tr><tr><td>27</td><td></td><td>.1</td><td>.1</td><td>175</td><td>25</td><td>5.0</td><td>3.0</td><td>1.3</td></tr><tr><td>28</td><td></td><td>.1</td><td>.2</td><td>36</td><td>15</td><td>5.0</td><td>3.0</td><td>1.2</td></tr><tr><td>29</td><td></td><td>.1</td><td>.2</td><td>20</td><td></td><td>8. 0</td><td>5.6</td><td>1.1</td></tr><tr><td>30</td><td></td><td>.1</td><td>.2</td><td>15</td><td></td><td>10</td><td>6.0</td><td>1.1</td></tr><tr><td>31</td><td></td><td></td><td>.2</td><td>10</td><td></td><td>7.0</td><td></td><td>1.0</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN. (cont.)\n\nNOTE.-Creek was practically dry October, August, and September. Discharge determined almost entirely by interpolation between measurements.\n\nMonthly discharge of Black Canyon Creek near Mesa Grande, Cal., for the year ending Sept. 30, 1914.",
+                "embed": "# SAN DIEGUITO RIVER BASIN. (cont.)\n\nNOTE.-Creek was practically dry October, August, and September. Discharge determined almost entirely by interpolation between measurements.\n\nMonthly discharge of Black Canyon Creek near Mesa Grande, Cal., for the year ending Sept. 30, 1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.043206011271133375,
+                            "top": 0.5084491175366128,
+                            "width": 0.8265497808390733,
+                            "height": 0.021404431092752536,
+                            "page": 1
+                        },
+                        "content": "NOTE.-Creek was practically dry October, August, and September. Discharge determined almost entirely by interpolation between measurements.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.5366128426586556,
+                            "width": 0.8221665623043206,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Black Canyon Creek near Mesa Grande, Cal., for the year ending Sept. 30, 1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN. (cont.)\n\n<table><tr><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th></tr><tr><td>October</td><td>0.00</td><td>0</td><td>May</td><td>2.41</td><td>148</td></tr><tr><td>November</td><td>.41</td><td>24</td><td>June</td><td>@1.0</td><td>60</td></tr><tr><td>December</td><td>.13</td><td>8</td><td>July</td><td>a .15</td><td>9</td></tr><tr><td>January</td><td>10.4</td><td>640</td><td>August</td><td>.0</td><td>0</td></tr><tr><td>February</td><td>29.9</td><td>1,660</td><td>September</td><td>.0</td><td>0</td></tr><tr><td>March</td><td>7.04</td><td>433</td><td></td><td></td><td></td></tr><tr><td>April</td><td>3.96</td><td>236</td><td>The year</td><td>4.44</td><td>3,220</td></tr></table>\n\na Estimated.\n\nNOTE.-See statement under \" Accuracy\" in description.\n\n## TEMESCAL CREEK NEAR ALMOND, CAL.\n\nLOCATION.- the NW. 1/4 sec. 23, T. 12 S., R. 1 E., about 400 feet above junction with Santa Ysabel Creek and 11 miles south of Almond. DRAINAGE AREA.-31.5 square miles (measured on topographic map). RECORDS AVAILABLE.-February 15, 1913, to September 30, 1914. (Discharge meas- urements only prior to October 1, 1913.) Gage.-Inclined staff on right bank. Observer, C. M. De Venelle. DISCHARGE MEASUREMENTS.-Made by wading near gage. CHANNEL AND CONTROL.-Shifting sand.\n\n46980\u00b0-W 391-17--4",
+                "embed": "# SAN DIEGUITO RIVER BASIN. (cont.)\n\n<table><tr><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th></tr><tr><td>October</td><td>0.00</td><td>0</td><td>May</td><td>2.41</td><td>148</td></tr><tr><td>November</td><td>.41</td><td>24</td><td>June</td><td>@1.0</td><td>60</td></tr><tr><td>December</td><td>.13</td><td>8</td><td>July</td><td>a .15</td><td>9</td></tr><tr><td>January</td><td>10.4</td><td>640</td><td>August</td><td>.0</td><td>0</td></tr><tr><td>February</td><td>29.9</td><td>1,660</td><td>September</td><td>.0</td><td>0</td></tr><tr><td>March</td><td>7.04</td><td>433</td><td></td><td></td><td></td></tr><tr><td>April</td><td>3.96</td><td>236</td><td>The year</td><td>4.44</td><td>3,220</td></tr></table>\n\na Estimated.\n\nNOTE.-See statement under \" Accuracy\" in description.\n\n## TEMESCAL CREEK NEAR ALMOND, CAL.\n\nLOCATION.- the NW. 1/4 sec. 23, T. 12 S., R. 1 E., about 400 feet above junction with Santa Ysabel Creek and 11 miles south of Almond. DRAINAGE AREA.-31.5 square miles (measured on topographic map). RECORDS AVAILABLE.-February 15, 1913, to September 30, 1914. (Discharge meas- urements only prior to October 1, 1913.) Gage.-Inclined staff on right bank. Observer, C. M. De Venelle. DISCHARGE MEASUREMENTS.-Made by wading near gage. CHANNEL AND CONTROL.-Shifting sand.\n\n46980\u00b0-W 391-17--4",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04347760720632191,
+                            "top": 0.5732432876455126,
+                            "width": 0.830246196214154,
+                            "height": 0.13815581507580735,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th></tr><tr><td>October</td><td>0.00</td><td>0</td><td>May</td><td>2.41</td><td>148</td></tr><tr><td>November</td><td>.41</td><td>24</td><td>June</td><td>@1.0</td><td>60</td></tr><tr><td>December</td><td>.13</td><td>8</td><td>July</td><td>a .15</td><td>9</td></tr><tr><td>January</td><td>10.4</td><td>640</td><td>August</td><td>.0</td><td>0</td></tr><tr><td>February</td><td>29.9</td><td>1,660</td><td>September</td><td>.0</td><td>0</td></tr><tr><td>March</td><td>7.04</td><td>433</td><td></td><td></td><td></td></tr><tr><td>April</td><td>3.96</td><td>236</td><td>The year</td><td>4.44</td><td>3,220</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.40388227927363807,
+                            "top": 0.7179872324446114,
+                            "width": 0.09956167814652474,
+                            "height": 0.008636875704093128,
+                            "page": 1
+                        },
+                        "content": "a Estimated.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.058860363180964305,
+                            "top": 0.7352609838527976,
+                            "width": 0.4452097683155917,
+                            "height": 0.012392039053698836,
+                            "page": 1
+                        },
+                        "content": "NOTE.-See statement under \" Accuracy\" in description.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.25923606762680024,
+                            "top": 0.7574164476154712,
+                            "width": 0.3969943644333125,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "TEMESCAL CREEK NEAR ALMOND, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.044458359423919847,
+                            "top": 0.7788208787082238,
+                            "width": 0.8259236067626801,
+                            "height": 0.12392039053698836,
+                            "page": 1
+                        },
+                        "content": "LOCATION.- the NW. 1/4 sec. 23, T. 12 S., R. 1 E., about 400 feet above junction with Santa Ysabel Creek and 11 miles south of Almond. DRAINAGE AREA.-31.5 square miles (measured on topographic map). RECORDS AVAILABLE.-February 15, 1913, to September 30, 1914. (Discharge meas- urements only prior to October 1, 1913.) Gage.-Inclined staff on right bank. Observer, C. M. De Venelle. DISCHARGE MEASUREMENTS.-Made by wading near gage. CHANNEL AND CONTROL.-Shifting sand.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11145898559799625,
+                            "top": 0.9110026286143448,
+                            "width": 0.2680025046963056,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "46980\u00b0-W 391-17--4",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

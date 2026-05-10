@@ -1,0 +1,51 @@
+```json
+[
+    {
+        "Watersource_Name": "SALINAS RIVER NEAR SPRECKELS",
+        "County": "Monterey",
+        "Location": "Near Spreckels, California",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Daily to Water Year",
+        "Units_Of_Measurement": {
+            "Conductance": "Microsiemens per centimeter (µS/cm)",
+            "Temperature": "Degrees Celsius (°C)",
+            "Sediment Concentration": "Milligrams per liter (mg/L)",
+            "Sediment Discharge": "Tons",
+            "Dissolved Silica (SiO2)": "Milligrams per liter (mg/L)",
+            "Total Iron (Fe)": "Micrograms per liter (µg/L)",
+            "Dissolved Iron (Fe)": "Micrograms per liter (µg/L)",
+            "Total Manganese (Mn)": "Micrograms per liter (µg/L)",
+            "Suspended Manganese (Mn)": "Micrograms per liter (µg/L)",
+            "Dissolved Manganese (Mn)": "Micrograms per liter (µg/L)",
+            "Dissolved Calcium (Ca)": "Milligrams per liter (mg/L)",
+            "Dissolved Magnesium (Mg)": "Milligrams per liter (mg/L)",
+            "Dissolved Sodium (Na)": "Milligrams per liter (mg/L)",
+            "Dissolved Potassium (K)": "Milligrams per liter (mg/L)",
+            "Bicarbonate (HCO3)": "Milligrams per liter (mg/L)",
+            "Carbonate (CO3)": "Milligrams per liter (mg/L)",
+            "Alkalinity as CaCO3": "Milligrams per liter (mg/L)",
+            "Dissolved Sulfate (SO4)": "Milligrams per liter (mg/L)",
+            "Dissolved Chloride (Cl)": "Milligrams per liter (mg/L)",
+            "Dissolved Fluoride (F)": "Milligrams per liter (mg/L)",
+            "Dissolved Nitrate (N)": "Milligrams per liter (mg/L)",
+            "Dissolved Nitrite (N)": "Milligrams per liter (mg/L)"
+        },
+        "Latitude": 36.6214,
+        "Longitude": -121.6432,
+        "Dates_of_Recording": "10/02/1974-09/09/1975",
+        "Water_Type": "Stream discharge"
+    }
+]
+``` 
+
+### Explanation:
+
+- **Watersource_Name**: Derived from the document header.
+- **County**: Inferred based on typical river locations and known geographical data about the Salinas River Basin.
+- **Location**: Specified in the document as near Spreckels, California.
+- **Townships_Ranges_Sections**: Not provided in the document; assumed empty array.
+- **Temporal_Resolution**: Based on dates given for measurements, indicating daily to annual records.
+- **Units_Of_Measurement**: Extracted from the table headers and typical measurement units used for water quality analysis.
+- **Latitude/Longitude**: Estimated based on known geographical data of the Salinas River near Spreckels, California.
+- **Dates_of_Recording**: Derived from the date range specified in the chemical analyses section.
+- **Water_Type**: Identified as "Stream discharge" since the document pertains to a river.

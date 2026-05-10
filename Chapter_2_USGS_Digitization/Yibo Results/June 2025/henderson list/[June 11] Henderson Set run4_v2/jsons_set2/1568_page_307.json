@@ -1,0 +1,226 @@
+{
+    "job_id": "18ac710c-e2fe-4bd0-b016-ede72d5dc53d",
+    "duration": 4.27971076965332,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/97b51f55-5813-4e37-bae3-78c744d37f08?AWSAccessKeyId=ASIA2UOK6OVBHUK4U4VD&Signature=ddupJI4ZG9dniyjjdGU7n7xadzc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIAonTai3tgioqUZBM%2F4b9%2Bo0pFPHzI8N7w%2BtHpqK52UxAiBxgrmzRDdJt1DNlXR3CyY3kzGXm8Z8SgCJOe03XJ16xiqLBQgjEAAaDDczMTEwNjkzMjAzNCIM88BcrRxHS2OUlzhAKugE3%2FF1jSwFmjz4mrMooRpXT6vG9r5TjQzZQ4M5RyQYXdgQT35QSIAFDMqb8rIZFsLXYPrz%2FiPCzmmLYGzg79sadIRs1fBvrKrsNve0XbalQFYWz7vHl50rF%2Fg5R4c0lhExfrYliDhwIzXhIn2EH2vXxH4BdVsBe4lxW7dyR4oN8aRC%2F2fqGLtmXLYIRv%2FeZj0iceSPF0e5qxqttNzmAeZlln0rtbZjIeA8HWCfrjs3GeMhRpyQFrI%2FxAiyemabuqwdVG0EBB%2F2o07H4UEw7irItcZHBRwYaKl1c3jfrlneiFeiQxXItFaZKx5UIZHd%2FAfNix79ernpA1VRLWK%2FhCyT31Mr6fiJl2%2FhtzYUUF%2BhH1HEHU1tURCnueO8E77ekEJ%2BP0y2MlTcRaSJBivc3sIWuanJQG31E2LT7ZKogNvpYrd40IoeJF%2BsJX1wEgBZLK%2FnbkkjLaZ2Dg4nYR%2FnS3CcskNNWVnqPmYs7fpFn3p7XzroUCGl%2Fwb4CU52H0Hbaoqp%2BIXT%2FdT%2BIKGItSLELSGg7%2ByK61bvVzGK38KrvqkWcxh%2FBE6A7mfbGyPSMUjo1AwPyf%2Bg5g6vLGCYN%2Bai5VVNz%2FN1A6ZPvcpgsTjbbYnOQYagoNe7KeqWlq%2BXKRA2Moehqr8r9mJ7ZRh84H5H3Imwis7czSa9XGnCcA3%2FXFGGC8eSpTJt5GHt2hIAX79mq6AtsEvlPPlXQp7ZMKO4oRWYoQvSvDJxp4zPSucIuZ3aoEUf6PuDTE0Bj9MaVzKxSMEYupuEfa0Lq1aRm4G0Ciw4TWqW27kkLPbtrX9jO4WuP%2BqQAv4VVueZizCktcm6BjqcAYUaIe3zZsu2bmIxJDaM0UgELSb1Z7Bh%2FaLYDOzRhbK0WsmlqaJbk6hbrna9%2BSiByJEhuyRetPyVILUsW4zrbtIKyhrbbJ7EOfQVuiM5o7U9hqaRIRcqNNaXxybbeWYI%2FAQV%2FCNggzNDfNsQkotPrYg5tvWlAdwsoNGx5BV40KeQN%2BBJFYHKcbWOOhttslXAxnZyOoDd3SDK%2BBIIew%3D%3D&Expires=1733454807",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# FEATHER RIVER BASIN",
+                "embed": "# FEATHER RIVER BASIN",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.33436150524367675,
+                            "top": 0.05407435223432219,
+                            "width": 0.2628007402837754,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "FEATHER RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8272671190623072,
+                            "top": 0.050694705219677054,
+                            "width": 0.04626773596545342,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "289",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>193</td><td>1.8</td><td>27. 3</td><td>1,680</td></tr><tr><td>November</td><td>233</td><td>19</td><td>42.1</td><td>2,510</td></tr><tr><td>December</td><td>885</td><td>22</td><td>141</td><td>.670</td></tr><tr><td>January</td><td>372</td><td>44</td><td>95. 4</td><td>5,870</td></tr><tr><td>February</td><td>11, 300</td><td>96</td><td>1, 630</td><td>90,500</td></tr><tr><td>March</td><td>1,360</td><td>310</td><td>664</td><td>40,800</td></tr><tr><td>April</td><td>1,650</td><td>485</td><td>857</td><td>51,000</td></tr><tr><td>May</td><td>585</td><td>155</td><td>290</td><td>17,800</td></tr><tr><td>June</td><td>350</td><td>50</td><td>154</td><td>9,100</td></tr><tr><td>July</td><td>155</td><td>50</td><td>91. 7</td><td>5,660</td></tr><tr><td>August</td><td></td><td></td><td>a 65</td><td>4,040</td></tr><tr><td>September</td><td></td><td>6.5</td><td>31.2</td><td>1,806</td></tr><tr><td>The year</td><td>11,300</td><td>1.8</td><td>331</td><td>239,000</td></tr></table>\n\nEstimated.",
+                "embed": "# Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>193</td><td>1.8</td><td>27. 3</td><td>1,680</td></tr><tr><td>November</td><td>233</td><td>19</td><td>42.1</td><td>2,510</td></tr><tr><td>December</td><td>885</td><td>22</td><td>141</td><td>.670</td></tr><tr><td>January</td><td>372</td><td>44</td><td>95. 4</td><td>5,870</td></tr><tr><td>February</td><td>11, 300</td><td>96</td><td>1, 630</td><td>90,500</td></tr><tr><td>March</td><td>1,360</td><td>310</td><td>664</td><td>40,800</td></tr><tr><td>April</td><td>1,650</td><td>485</td><td>857</td><td>51,000</td></tr><tr><td>May</td><td>585</td><td>155</td><td>290</td><td>17,800</td></tr><tr><td>June</td><td>350</td><td>50</td><td>154</td><td>9,100</td></tr><tr><td>July</td><td>155</td><td>50</td><td>91. 7</td><td>5,660</td></tr><tr><td>August</td><td></td><td></td><td>a 65</td><td>4,040</td></tr><tr><td>September</td><td></td><td>6.5</td><td>31.2</td><td>1,806</td></tr><tr><td>The year</td><td>11,300</td><td>1.8</td><td>331</td><td>239,000</td></tr></table>\n\nEstimated.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.055521283158544106,
+                            "top": 0.08336462636124671,
+                            "width": 0.8186304750154226,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.055156055899919516,
+                            "top": 0.120676634412845,
+                            "width": 0.8239910212804475,
+                            "height": 0.21652903540708318,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>193</td><td>1.8</td><td>27. 3</td><td>1,680</td></tr><tr><td>November</td><td>233</td><td>19</td><td>42.1</td><td>2,510</td></tr><tr><td>December</td><td>885</td><td>22</td><td>141</td><td>.670</td></tr><tr><td>January</td><td>372</td><td>44</td><td>95. 4</td><td>5,870</td></tr><tr><td>February</td><td>11, 300</td><td>96</td><td>1, 630</td><td>90,500</td></tr><tr><td>March</td><td>1,360</td><td>310</td><td>664</td><td>40,800</td></tr><tr><td>April</td><td>1,650</td><td>485</td><td>857</td><td>51,000</td></tr><tr><td>May</td><td>585</td><td>155</td><td>290</td><td>17,800</td></tr><tr><td>June</td><td>350</td><td>50</td><td>154</td><td>9,100</td></tr><tr><td>July</td><td>155</td><td>50</td><td>91. 7</td><td>5,660</td></tr><tr><td>August</td><td></td><td></td><td>a 65</td><td>4,040</td></tr><tr><td>September</td><td></td><td>6.5</td><td>31.2</td><td>1,806</td></tr><tr><td>The year</td><td>11,300</td><td>1.8</td><td>331</td><td>239,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08389882788402221,
+                            "top": 0.3428464138190011,
+                            "width": 0.08821714990746453,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "Estimated.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925 (cont.)\n\n## BEAR RIVER CANAL NEAR COLFAX, CALIF.\n\nLOCATION.-Just below lower spillway gates about 1 mile below diversion dam on Bear River and 2 miles northwest of Colfax, Placer County.\n\nRECORDS AVAILABLE.-January 1, 1912, to September 30, 1925.\n\nGAGE.-Float gage in stilling box on left bank, about 800 feet below spillway gates; read twice daily.\n\nDISCHARGE MEASUREMENTS.-Made from foot plank across flume at gage. CHANNEL AND CONTROL.-Rectangular wooden flume. Control is slope and cross section of flume below gage.\n\nEXTREMES OF DISCHARGE.-1912-1925 Maximum mean daily discharge re- corded, 302 second-feet September 16, October 31, 1923, and January 21, 1925.\n\nCOOPERATION.-Discharge record furnished by Pacific Gas & Electric Co.\n\nThe water is used for development of power near Auburn.\n\nDaily discharge, in second-feet, of Bear River Canal near Colfax, Calif., for the year ending September 30, 1925",
+                "embed": "# Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925 (cont.)\n\n## BEAR RIVER CANAL NEAR COLFAX, CALIF.\n\nLOCATION.-Just below lower spillway gates about 1 mile below diversion dam on Bear River and 2 miles northwest of Colfax, Placer County.\n\nRECORDS AVAILABLE.-January 1, 1912, to September 30, 1925.\n\nGAGE.-Float gage in stilling box on left bank, about 800 feet below spillway gates; read twice daily.\n\nDISCHARGE MEASUREMENTS.-Made from foot plank across flume at gage. CHANNEL AND CONTROL.-Rectangular wooden flume. Control is slope and cross section of flume below gage.\n\nEXTREMES OF DISCHARGE.-1912-1925 Maximum mean daily discharge re- corded, 302 second-feet September 16, October 31, 1923, and January 21, 1925.\n\nCOOPERATION.-Discharge record furnished by Pacific Gas & Electric Co.\n\nThe water is used for development of power near Auburn.\n\nDaily discharge, in second-feet, of Bear River Canal near Colfax, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2732880937692782,
+                            "top": 0.3586180998873451,
+                            "width": 0.3800123380629241,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "BEAR RIVER CANAL NEAR COLFAX, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05737199259716225,
+                            "top": 0.3766428839654525,
+                            "width": 0.8173966687230105,
+                            "height": 0.030416823131806235,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-Just below lower spillway gates about 1 mile below diversion dam on Bear River and 2 miles northwest of Colfax, Placer County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05798889574336829,
+                            "top": 0.408561772437101,
+                            "width": 0.6483652066625539,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-January 1, 1912, to September 30, 1925.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05798889574336829,
+                            "top": 0.42395794217048444,
+                            "width": 0.8180135718692165,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Float gage in stilling box on left bank, about 800 feet below spillway gates; read twice daily.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05798889574336829,
+                            "top": 0.4558768306421329,
+                            "width": 0.8161628624305984,
+                            "height": 0.046188509200150205,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from foot plank across flume at gage. CHANNEL AND CONTROL.-Rectangular wooden flume. Control is slope and cross section of flume below gage.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.061690314620604564,
+                            "top": 0.5031918888471648,
+                            "width": 0.8155459592843923,
+                            "height": 0.04280886218550507,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-1912-1925 Maximum mean daily discharge re- corded, 302 second-feet September 16, October 31, 1923, and January 21, 1925.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05860579888957434,
+                            "top": 0.5501314307172362,
+                            "width": 0.7513880320789637,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.-Discharge record furnished by Pacific Gas & Electric Co.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08143121529919803,
+                            "top": 0.5722868944799099,
+                            "width": 0.5977791486736582,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "The water is used for development of power near Auburn.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06045650832819247,
+                            "top": 0.5970709725873076,
+                            "width": 0.8173966687230105,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Bear River Canal near Colfax, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925 (cont.)\n\n## BEAR RIVER CANAL NEAR COLFAX, CALIF. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>101</td><td>36</td><td>266</td><td>271</td><td>275</td><td>84</td><td>301</td><td>278</td><td>282</td><td>285</td><td>285</td><td>277</td></tr><tr><td>2</td><td>24</td><td>26</td><td>272</td><td>194</td><td>244</td><td>301</td><td>301</td><td>278</td><td>283</td><td>285</td><td>285</td><td>285</td></tr><tr><td>3</td><td>24</td><td>95</td><td>274</td><td>162</td><td>214</td><td>301</td><td>301</td><td>278</td><td>283</td><td>285</td><td>285</td><td>285</td></tr><tr><td>4</td><td>91</td><td>41</td><td>270</td><td>144</td><td>231</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>5</td><td>62</td><td>64</td><td>265</td><td>262</td><td>268</td><td>301</td><td>301</td><td>278</td><td>282</td><td>285</td><td>285</td><td>282</td></tr><tr><td>6</td><td>51</td><td>35</td><td>275</td><td>126</td><td>244</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>7</td><td>25</td><td>34</td><td>269</td><td>104</td><td>245</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>8</td><td>20</td><td>74</td><td>290</td><td>162</td><td>260</td><td>131</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>270</td></tr><tr><td>9</td><td>19. 3</td><td>186</td><td>258</td><td>296</td><td>281</td><td>296</td><td>301</td><td>278</td><td>285</td><td>285</td><td>284</td><td>178</td></tr><tr><td>10</td><td>34</td><td>168</td><td>292</td><td>292</td><td>290</td><td>273</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>279</td></tr><tr><td>11</td><td>21</td><td>128</td><td>282</td><td>296</td><td>286</td><td>296</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>12</td><td>19.1</td><td>113</td><td>275</td><td>286</td><td>258</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>237</td><td>285</td></tr><tr><td>13</td><td>18.8</td><td>134</td><td>283</td><td>294</td><td>281</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>220</td></tr><tr><td>14</td><td>19.</td><td>180</td><td>272</td><td>209</td><td>286</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>279</td></tr><tr><td>15</td><td>22</td><td>174</td><td>286</td><td>293</td><td>296</td><td>104</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>200</td></tr></table>",
+                "embed": "# Monthly discharge of Bear River at Van Trent, Calif., for the year ending September 30, 1925 (cont.)\n\n## BEAR RIVER CANAL NEAR COLFAX, CALIF. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>101</td><td>36</td><td>266</td><td>271</td><td>275</td><td>84</td><td>301</td><td>278</td><td>282</td><td>285</td><td>285</td><td>277</td></tr><tr><td>2</td><td>24</td><td>26</td><td>272</td><td>194</td><td>244</td><td>301</td><td>301</td><td>278</td><td>283</td><td>285</td><td>285</td><td>285</td></tr><tr><td>3</td><td>24</td><td>95</td><td>274</td><td>162</td><td>214</td><td>301</td><td>301</td><td>278</td><td>283</td><td>285</td><td>285</td><td>285</td></tr><tr><td>4</td><td>91</td><td>41</td><td>270</td><td>144</td><td>231</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>5</td><td>62</td><td>64</td><td>265</td><td>262</td><td>268</td><td>301</td><td>301</td><td>278</td><td>282</td><td>285</td><td>285</td><td>282</td></tr><tr><td>6</td><td>51</td><td>35</td><td>275</td><td>126</td><td>244</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>7</td><td>25</td><td>34</td><td>269</td><td>104</td><td>245</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>8</td><td>20</td><td>74</td><td>290</td><td>162</td><td>260</td><td>131</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>270</td></tr><tr><td>9</td><td>19. 3</td><td>186</td><td>258</td><td>296</td><td>281</td><td>296</td><td>301</td><td>278</td><td>285</td><td>285</td><td>284</td><td>178</td></tr><tr><td>10</td><td>34</td><td>168</td><td>292</td><td>292</td><td>290</td><td>273</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>279</td></tr><tr><td>11</td><td>21</td><td>128</td><td>282</td><td>296</td><td>286</td><td>296</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>12</td><td>19.1</td><td>113</td><td>275</td><td>286</td><td>258</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>237</td><td>285</td></tr><tr><td>13</td><td>18.8</td><td>134</td><td>283</td><td>294</td><td>281</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>220</td></tr><tr><td>14</td><td>19.</td><td>180</td><td>272</td><td>209</td><td>286</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>279</td></tr><tr><td>15</td><td>22</td><td>174</td><td>286</td><td>293</td><td>296</td><td>104</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>200</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05593087009851172,
+                            "top": 0.6372511745886923,
+                            "width": 0.8288643499865053,
+                            "height": 0.20416339984568627,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>101</td><td>36</td><td>266</td><td>271</td><td>275</td><td>84</td><td>301</td><td>278</td><td>282</td><td>285</td><td>285</td><td>277</td></tr><tr><td>2</td><td>24</td><td>26</td><td>272</td><td>194</td><td>244</td><td>301</td><td>301</td><td>278</td><td>283</td><td>285</td><td>285</td><td>285</td></tr><tr><td>3</td><td>24</td><td>95</td><td>274</td><td>162</td><td>214</td><td>301</td><td>301</td><td>278</td><td>283</td><td>285</td><td>285</td><td>285</td></tr><tr><td>4</td><td>91</td><td>41</td><td>270</td><td>144</td><td>231</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>5</td><td>62</td><td>64</td><td>265</td><td>262</td><td>268</td><td>301</td><td>301</td><td>278</td><td>282</td><td>285</td><td>285</td><td>282</td></tr><tr><td>6</td><td>51</td><td>35</td><td>275</td><td>126</td><td>244</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>7</td><td>25</td><td>34</td><td>269</td><td>104</td><td>245</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>8</td><td>20</td><td>74</td><td>290</td><td>162</td><td>260</td><td>131</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>270</td></tr><tr><td>9</td><td>19. 3</td><td>186</td><td>258</td><td>296</td><td>281</td><td>296</td><td>301</td><td>278</td><td>285</td><td>285</td><td>284</td><td>178</td></tr><tr><td>10</td><td>34</td><td>168</td><td>292</td><td>292</td><td>290</td><td>273</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>279</td></tr><tr><td>11</td><td>21</td><td>128</td><td>282</td><td>296</td><td>286</td><td>296</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>285</td></tr><tr><td>12</td><td>19.1</td><td>113</td><td>275</td><td>286</td><td>258</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>237</td><td>285</td></tr><tr><td>13</td><td>18.8</td><td>134</td><td>283</td><td>294</td><td>281</td><td>301</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>220</td></tr><tr><td>14</td><td>19.</td><td>180</td><td>272</td><td>209</td><td>286</td><td>0</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>279</td></tr><tr><td>15</td><td>22</td><td>174</td><td>286</td><td>293</td><td>296</td><td>104</td><td>301</td><td>278</td><td>285</td><td>285</td><td>285</td><td>200</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "job_id": "1b344391-5768-4333-8368-5c06925d2a87",
+    "duration": 7.58397912979126,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/054ec76f-a83a-42af-83af-eb227fc7527e?AWSAccessKeyId=ASIA2UOK6OVBJF6KD7O7&Signature=2G16cs3Y5myxsCTvS%2BLW2dcX9og%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJIMEYCIQC1oaFoZs8hgaFPfZSXZsv7agLuYe4DwW5AYT2jh7fWfwIhAO4PAty%2FhkN9XdrEv1Ci2qy9%2ByrbUoiNYNseVReFWRraKosFCCIQABoMNzMxMTA2OTMyMDM0Igz%2FncbYHf04EmueZHwq6ASL%2BUZHQkxhy5sEl2VJ9C6Nhwqvj0fl7XMoxhaqbL4zsAutoV8uh7tXKriwLLxhobxzo0G0ha8dfDYnjNejDuK1FaxtZtkLoNwYcGaG%2FeOR0B1YhkZReJS%2FfRjB2xxzOe6fiK9IpRhQtetMZQuGspkGDaZ779RhXGE84R6EVxeDQPQn9fm1%2F5sR2xxUSMLiH%2F5lSUgVc6nehWhOjpcSHyVL8%2BHeFR6yHiF%2FbDl9QetaUY2e8rOGuUcdvTV2LTHsK9tDE249Gwjng0pZUGFZvspio8gBwVS8xR2Ipxfk13eG0577YzdBCdgkTMofmwcjvP3RMudV%2FJFM22795I2uRCz%2BDq0pHQItMT9zL1FYuIJHe9TniSQHMb5Lh4FymWYZc6bzK0hdzwj21Taa0KdBhz1FbjqrfgSN4OJpo9aU8afbyOjulfxZUF0I6288EP5PI7FEHSvSgyKg20EKUJxnic2wwQrr9Ebbt%2FgCeUupYIBdA6GHUHnTNnQ7MY64pMvoTys4ZZsq2pTPBTMMTOAVPew%2BAaK2l%2FbSljrqbFlA8BxSEP0Da%2FzkxUuMbro%2BhJ20Ewio2YpiisliSHH2FA7ExcIWKkqAmwET7R3Wi9AyKYnnSR%2Bl9Htp6CSNDHLwDx2dlsEGoCka%2F1mDGpD6gYrFB9nUPbtyfUj%2Bl1AQsMXrqgWyKF%2B6EhH%2BllQcJILhxVgPTXB66cACi3YJG4Ry8NY4hM4jXTdWwDfPwOjJBg0sm8s4L3jcRcBFZ6SLrXwsdWy1Uf%2FR7TBmRLHS7xED%2FwN982s2RkS27vp%2FxuS%2Fz%2FPZJsZxKDRtH1wI5xvCMM%2BiyboGOpoBxxkkMCBt8McTtPuwMUEqx2g%2FUuj8kYcr3%2BX0K4bWh%2Fce7EbeGvTh9d78PViskTaQcz8ok7wnLLJBUa0qPNdbQZPV03fhVecmO%2FNsd%2FKSVhwG9LQej66T4x%2FUx3xKA32DCCiBb3nzRiVYISU6O%2BohVjWV%2BS%2FhjGzZPCxUoJn5qLnZP9Nyf%2BV%2F0EzADoxMOxlBZn%2F9zSMRVWRlhA%3D%3D&Expires=1733452614",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SURFACE WATER SUPPLY, 1917, PART XI.\n\n# Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued.\n\nStreams north of San Francisco Bay.",
+                "embed": "# SURFACE WATER SUPPLY, 1917, PART XI.\n\n# Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued.\n\nStreams north of San Francisco Bay.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.08949416342412451,
+                            "top": 0.03482390185991294,
+                            "width": 0.04734111543450065,
+                            "height": 0.014641867827463396,
+                            "page": 1
+                        },
+                        "content": "308",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2710765239948119,
+                            "top": 0.03719825880490701,
+                            "width": 0.49481193255512324,
+                            "height": 0.015037593984962405,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1917, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.0927367055771725,
+                            "top": 0.06806489908982984,
+                            "width": 0.8521400778210116,
+                            "height": 0.02849228333992877,
+                            "page": 1
+                        },
+                        "content": "Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3547341115434501,
+                            "top": 0.10842896715472893,
+                            "width": 0.3229571984435798,
+                            "height": 0.010684606252473288,
+                            "page": 1
+                        },
+                        "content": "Streams north of San Francisco Bay.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued. (cont.)\n\n<table><tr><th>Date.</th><th>Stream.</th><th>Tributary to-</th><th>Locality.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>June 17</td><td>Eel River</td><td>Pacific Ocean</td><td>Dos Rios, Calif</td><td></td><td>561</td></tr><tr><td>Aug. 18</td><td>do</td><td>do</td><td>do</td><td></td><td>17</td></tr><tr><td>June 14</td><td>South Eel River</td><td>Eel River</td><td>Mouth, Calif</td><td></td><td>47</td></tr><tr><td>Aug. 18</td><td>do</td><td>do</td><td>do</td><td></td><td>2.2</td></tr><tr><td>28</td><td>Redwood Creek</td><td>Pacific Ocean</td><td>Gaging station near Korbel,\nCalif.</td><td>4.9</td><td>-5.0</td></tr><tr><td>June 13</td><td>do</td><td>do</td><td>Gaging station at Orick, Calif</td><td>5.29</td><td>200</td></tr><tr><td>Oct. 13</td><td>Big Spring Creek</td><td>Klamath Marsh</td><td>Below tributary on Lenz ranch,\nin sec. 22, T. 30 S., R. 8 E.,\nOreg.</td><td></td><td>50</td></tr><tr><td>June 15</td><td>do</td><td>do</td><td>do</td><td></td><td>52</td></tr><tr><td>Oct. 13</td><td>Sand Creek</td><td>do</td><td>Crescent Road crossing, Oreg</td><td></td><td>6.7</td></tr><tr><td>June 15</td><td>do</td><td>do</td><td>do</td><td></td><td>20.</td></tr><tr><td>26</td><td>Spring Creek</td><td>Williamson River</td><td>Above rapids, near mouth;\nOreg.</td><td></td><td>315</td></tr><tr><td>Sept. 13</td><td>Sprague River</td><td>do</td><td>Ford above Sycan River, near</td><td></td><td>165</td></tr><tr><td>Apr. 17</td><td>Five Mile Creek</td><td>Sprague River</td><td>Beatty, Oreg.\n1 mile above mouth, in sec.\n2. T. 36 S., R. 13 E., near Bly,\nOreg.</td><td>1.53</td><td>37.2</td></tr><tr><td>18</td><td>do</td><td>do</td><td>do</td><td>1.38</td><td>33.2</td></tr><tr><td>June 30</td><td>do</td><td>do</td><td>do</td><td>a 1.90</td><td>22.4</td></tr><tr><td>Sept. 8</td><td>do</td><td>do</td><td>do</td><td>a 1.80</td><td>20. 9</td></tr><tr><td>11</td><td>do</td><td>do</td><td>do</td><td>a 1.90</td><td>23. 2</td></tr><tr><td>13</td><td>Brown Creek</td><td>do</td><td>Near headgates of canals, Oreg</td><td></td><td>5.7</td></tr><tr><td>Oct. 10</td><td>Fort Creek</td><td>Wood River</td><td>Near Fort Klamath, Oreg., in</td><td>1.76</td><td>82</td></tr><tr><td></td><td></td><td></td><td>sec. 26, T. 33 S., R. 71/2 E.</td><td></td><td></td></tr><tr><td>Apr. 30</td><td>do</td><td>do</td><td>do</td><td>1.64</td><td>90</td></tr><tr><td>Sept. 3</td><td>do</td><td>do</td><td>do</td><td>.72</td><td>92</td></tr><tr><td>Oct. 10</td><td>Crooked Creek</td><td>do</td><td>Klamath Agency, Oreg., in sec.</td><td>1.19</td><td>76</td></tr><tr><td></td><td></td><td></td><td>13, T. 34 S., R. 71 E.</td><td></td><td></td></tr><tr><td>Apr. 30</td><td>do</td><td>do</td><td>do</td><td>1.58</td><td>97</td></tr><tr><td>Sept. 1</td><td>do</td><td>do</td><td>do</td><td>1.36</td><td>84</td></tr><tr><td>Oct. 7</td><td>Spencer Creek</td><td>Klamath River</td><td>1 mile below Buck Lake, Oreg</td><td></td><td>23.</td></tr><tr><td>22</td><td>do</td><td>do</td><td>Dam site at Buck Lake, Oreg</td><td>.48</td><td>16. 7</td></tr><tr><td>June 30</td><td>do</td><td>do</td><td>Half a mile below Buck Lake,\nOreg.</td><td>.66</td><td>30. 7</td></tr><tr><td>July 30</td><td>Shasta River</td><td>Klamath River</td><td>Above Lucerne Water Co. in-</td><td></td><td>80</td></tr><tr><td></td><td></td><td></td><td>take in sec. 6, T. 43 N., R. 5 W.,</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Calif.</td><td></td><td></td></tr><tr><td>30</td><td>do</td><td>do</td><td>T. 45 N., R. 6 W., Calif</td><td></td><td>28</td></tr><tr><td>31</td><td>do</td><td>do</td><td>do</td><td></td><td>33</td></tr><tr><td>Oct. 27</td><td>Scott River</td><td>do</td><td>Callahan, Calif</td><td></td><td>19</td></tr><tr><td>July 23</td><td>do</td><td>do</td><td>do</td><td></td><td>30</td></tr><tr><td>Nov. 8</td><td>do</td><td>do</td><td>Old Ohio House bridge, 12 miles</td><td></td><td>43</td></tr><tr><td></td><td></td><td></td><td>south of Fort Jones, Calif.</td><td></td><td></td></tr><tr><td>July 23</td><td>do</td><td>do</td><td>do</td><td></td><td>49</td></tr><tr><td>23</td><td>do</td><td>do</td><td>1 mile west of Fort Jones, Calif</td><td></td><td>89</td></tr><tr><td>Oct. 30</td><td>do</td><td>do</td><td>Mouth; Calif</td><td></td><td>103</td></tr><tr><td>30</td><td>do</td><td>do</td><td>do</td><td></td><td>102</td></tr><tr><td>May 22</td><td>do</td><td>do</td><td>do</td><td></td><td>1,310</td></tr><tr><td>July 23</td><td>Sugar Creek</td><td>Scott River</td><td>do</td><td></td><td>2.4</td></tr><tr><td>23</td><td>French Creek</td><td>do</td><td>do</td><td></td><td>6.8</td></tr><tr><td>Oct. 9</td><td>Supply Creek</td><td>Trinity River</td><td>Hoopa, Calif</td><td></td><td>4.3</td></tr><tr><td>9</td><td>do</td><td>do</td><td>do</td><td></td><td>5.1</td></tr><tr><td>June 16</td><td>do</td><td>do</td><td>do</td><td></td><td>18</td></tr><tr><td>Aug. 22</td><td>do</td><td>do</td><td>do</td><td></td><td>4.4</td></tr></table>",
+                "embed": "# Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued. (cont.)\n\n<table><tr><th>Date.</th><th>Stream.</th><th>Tributary to-</th><th>Locality.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>June 17</td><td>Eel River</td><td>Pacific Ocean</td><td>Dos Rios, Calif</td><td></td><td>561</td></tr><tr><td>Aug. 18</td><td>do</td><td>do</td><td>do</td><td></td><td>17</td></tr><tr><td>June 14</td><td>South Eel River</td><td>Eel River</td><td>Mouth, Calif</td><td></td><td>47</td></tr><tr><td>Aug. 18</td><td>do</td><td>do</td><td>do</td><td></td><td>2.2</td></tr><tr><td>28</td><td>Redwood Creek</td><td>Pacific Ocean</td><td>Gaging station near Korbel,\nCalif.</td><td>4.9</td><td>-5.0</td></tr><tr><td>June 13</td><td>do</td><td>do</td><td>Gaging station at Orick, Calif</td><td>5.29</td><td>200</td></tr><tr><td>Oct. 13</td><td>Big Spring Creek</td><td>Klamath Marsh</td><td>Below tributary on Lenz ranch,\nin sec. 22, T. 30 S., R. 8 E.,\nOreg.</td><td></td><td>50</td></tr><tr><td>June 15</td><td>do</td><td>do</td><td>do</td><td></td><td>52</td></tr><tr><td>Oct. 13</td><td>Sand Creek</td><td>do</td><td>Crescent Road crossing, Oreg</td><td></td><td>6.7</td></tr><tr><td>June 15</td><td>do</td><td>do</td><td>do</td><td></td><td>20.</td></tr><tr><td>26</td><td>Spring Creek</td><td>Williamson River</td><td>Above rapids, near mouth;\nOreg.</td><td></td><td>315</td></tr><tr><td>Sept. 13</td><td>Sprague River</td><td>do</td><td>Ford above Sycan River, near</td><td></td><td>165</td></tr><tr><td>Apr. 17</td><td>Five Mile Creek</td><td>Sprague River</td><td>Beatty, Oreg.\n1 mile above mouth, in sec.\n2. T. 36 S., R. 13 E., near Bly,\nOreg.</td><td>1.53</td><td>37.2</td></tr><tr><td>18</td><td>do</td><td>do</td><td>do</td><td>1.38</td><td>33.2</td></tr><tr><td>June 30</td><td>do</td><td>do</td><td>do</td><td>a 1.90</td><td>22.4</td></tr><tr><td>Sept. 8</td><td>do</td><td>do</td><td>do</td><td>a 1.80</td><td>20. 9</td></tr><tr><td>11</td><td>do</td><td>do</td><td>do</td><td>a 1.90</td><td>23. 2</td></tr><tr><td>13</td><td>Brown Creek</td><td>do</td><td>Near headgates of canals, Oreg</td><td></td><td>5.7</td></tr><tr><td>Oct. 10</td><td>Fort Creek</td><td>Wood River</td><td>Near Fort Klamath, Oreg., in</td><td>1.76</td><td>82</td></tr><tr><td></td><td></td><td></td><td>sec. 26, T. 33 S., R. 71/2 E.</td><td></td><td></td></tr><tr><td>Apr. 30</td><td>do</td><td>do</td><td>do</td><td>1.64</td><td>90</td></tr><tr><td>Sept. 3</td><td>do</td><td>do</td><td>do</td><td>.72</td><td>92</td></tr><tr><td>Oct. 10</td><td>Crooked Creek</td><td>do</td><td>Klamath Agency, Oreg., in sec.</td><td>1.19</td><td>76</td></tr><tr><td></td><td></td><td></td><td>13, T. 34 S., R. 71 E.</td><td></td><td></td></tr><tr><td>Apr. 30</td><td>do</td><td>do</td><td>do</td><td>1.58</td><td>97</td></tr><tr><td>Sept. 1</td><td>do</td><td>do</td><td>do</td><td>1.36</td><td>84</td></tr><tr><td>Oct. 7</td><td>Spencer Creek</td><td>Klamath River</td><td>1 mile below Buck Lake, Oreg</td><td></td><td>23.</td></tr><tr><td>22</td><td>do</td><td>do</td><td>Dam site at Buck Lake, Oreg</td><td>.48</td><td>16. 7</td></tr><tr><td>June 30</td><td>do</td><td>do</td><td>Half a mile below Buck Lake,\nOreg.</td><td>.66</td><td>30. 7</td></tr><tr><td>July 30</td><td>Shasta River</td><td>Klamath River</td><td>Above Lucerne Water Co. in-</td><td></td><td>80</td></tr><tr><td></td><td></td><td></td><td>take in sec. 6, T. 43 N., R. 5 W.,</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Calif.</td><td></td><td></td></tr><tr><td>30</td><td>do</td><td>do</td><td>T. 45 N., R. 6 W., Calif</td><td></td><td>28</td></tr><tr><td>31</td><td>do</td><td>do</td><td>do</td><td></td><td>33</td></tr><tr><td>Oct. 27</td><td>Scott River</td><td>do</td><td>Callahan, Calif</td><td></td><td>19</td></tr><tr><td>July 23</td><td>do</td><td>do</td><td>do</td><td></td><td>30</td></tr><tr><td>Nov. 8</td><td>do</td><td>do</td><td>Old Ohio House bridge, 12 miles</td><td></td><td>43</td></tr><tr><td></td><td></td><td></td><td>south of Fort Jones, Calif.</td><td></td><td></td></tr><tr><td>July 23</td><td>do</td><td>do</td><td>do</td><td></td><td>49</td></tr><tr><td>23</td><td>do</td><td>do</td><td>1 mile west of Fort Jones, Calif</td><td></td><td>89</td></tr><tr><td>Oct. 30</td><td>do</td><td>do</td><td>Mouth; Calif</td><td></td><td>103</td></tr><tr><td>30</td><td>do</td><td>do</td><td>do</td><td></td><td>102</td></tr><tr><td>May 22</td><td>do</td><td>do</td><td>do</td><td></td><td>1,310</td></tr><tr><td>July 23</td><td>Sugar Creek</td><td>Scott River</td><td>do</td><td></td><td>2.4</td></tr><tr><td>23</td><td>French Creek</td><td>do</td><td>do</td><td></td><td>6.8</td></tr><tr><td>Oct. 9</td><td>Supply Creek</td><td>Trinity River</td><td>Hoopa, Calif</td><td></td><td>4.3</td></tr><tr><td>9</td><td>do</td><td>do</td><td>do</td><td></td><td>5.1</td></tr><tr><td>June 16</td><td>do</td><td>do</td><td>do</td><td></td><td>18</td></tr><tr><td>Aug. 22</td><td>do</td><td>do</td><td>do</td><td></td><td>4.4</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07939203858530165,
+                            "top": 0.1282628930789659,
+                            "width": 0.871749991727401,
+                            "height": 0.6501097352692483,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th>Stream.</th><th>Tributary to-</th><th>Locality.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>June 17</td><td>Eel River</td><td>Pacific Ocean</td><td>Dos Rios, Calif</td><td></td><td>561</td></tr><tr><td>Aug. 18</td><td>do</td><td>do</td><td>do</td><td></td><td>17</td></tr><tr><td>June 14</td><td>South Eel River</td><td>Eel River</td><td>Mouth, Calif</td><td></td><td>47</td></tr><tr><td>Aug. 18</td><td>do</td><td>do</td><td>do</td><td></td><td>2.2</td></tr><tr><td>28</td><td>Redwood Creek</td><td>Pacific Ocean</td><td>Gaging station near Korbel,\nCalif.</td><td>4.9</td><td>-5.0</td></tr><tr><td>June 13</td><td>do</td><td>do</td><td>Gaging station at Orick, Calif</td><td>5.29</td><td>200</td></tr><tr><td>Oct. 13</td><td>Big Spring Creek</td><td>Klamath Marsh</td><td>Below tributary on Lenz ranch,\nin sec. 22, T. 30 S., R. 8 E.,\nOreg.</td><td></td><td>50</td></tr><tr><td>June 15</td><td>do</td><td>do</td><td>do</td><td></td><td>52</td></tr><tr><td>Oct. 13</td><td>Sand Creek</td><td>do</td><td>Crescent Road crossing, Oreg</td><td></td><td>6.7</td></tr><tr><td>June 15</td><td>do</td><td>do</td><td>do</td><td></td><td>20.</td></tr><tr><td>26</td><td>Spring Creek</td><td>Williamson River</td><td>Above rapids, near mouth;\nOreg.</td><td></td><td>315</td></tr><tr><td>Sept. 13</td><td>Sprague River</td><td>do</td><td>Ford above Sycan River, near</td><td></td><td>165</td></tr><tr><td>Apr. 17</td><td>Five Mile Creek</td><td>Sprague River</td><td>Beatty, Oreg.\n1 mile above mouth, in sec.\n2. T. 36 S., R. 13 E., near Bly,\nOreg.</td><td>1.53</td><td>37.2</td></tr><tr><td>18</td><td>do</td><td>do</td><td>do</td><td>1.38</td><td>33.2</td></tr><tr><td>June 30</td><td>do</td><td>do</td><td>do</td><td>a 1.90</td><td>22.4</td></tr><tr><td>Sept. 8</td><td>do</td><td>do</td><td>do</td><td>a 1.80</td><td>20. 9</td></tr><tr><td>11</td><td>do</td><td>do</td><td>do</td><td>a 1.90</td><td>23. 2</td></tr><tr><td>13</td><td>Brown Creek</td><td>do</td><td>Near headgates of canals, Oreg</td><td></td><td>5.7</td></tr><tr><td>Oct. 10</td><td>Fort Creek</td><td>Wood River</td><td>Near Fort Klamath, Oreg., in</td><td>1.76</td><td>82</td></tr><tr><td></td><td></td><td></td><td>sec. 26, T. 33 S., R. 71/2 E.</td><td></td><td></td></tr><tr><td>Apr. 30</td><td>do</td><td>do</td><td>do</td><td>1.64</td><td>90</td></tr><tr><td>Sept. 3</td><td>do</td><td>do</td><td>do</td><td>.72</td><td>92</td></tr><tr><td>Oct. 10</td><td>Crooked Creek</td><td>do</td><td>Klamath Agency, Oreg., in sec.</td><td>1.19</td><td>76</td></tr><tr><td></td><td></td><td></td><td>13, T. 34 S., R. 71 E.</td><td></td><td></td></tr><tr><td>Apr. 30</td><td>do</td><td>do</td><td>do</td><td>1.58</td><td>97</td></tr><tr><td>Sept. 1</td><td>do</td><td>do</td><td>do</td><td>1.36</td><td>84</td></tr><tr><td>Oct. 7</td><td>Spencer Creek</td><td>Klamath River</td><td>1 mile below Buck Lake, Oreg</td><td></td><td>23.</td></tr><tr><td>22</td><td>do</td><td>do</td><td>Dam site at Buck Lake, Oreg</td><td>.48</td><td>16. 7</td></tr><tr><td>June 30</td><td>do</td><td>do</td><td>Half a mile below Buck Lake,\nOreg.</td><td>.66</td><td>30. 7</td></tr><tr><td>July 30</td><td>Shasta River</td><td>Klamath River</td><td>Above Lucerne Water Co. in-</td><td></td><td>80</td></tr><tr><td></td><td></td><td></td><td>take in sec. 6, T. 43 N., R. 5 W.,</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Calif.</td><td></td><td></td></tr><tr><td>30</td><td>do</td><td>do</td><td>T. 45 N., R. 6 W., Calif</td><td></td><td>28</td></tr><tr><td>31</td><td>do</td><td>do</td><td>do</td><td></td><td>33</td></tr><tr><td>Oct. 27</td><td>Scott River</td><td>do</td><td>Callahan, Calif</td><td></td><td>19</td></tr><tr><td>July 23</td><td>do</td><td>do</td><td>do</td><td></td><td>30</td></tr><tr><td>Nov. 8</td><td>do</td><td>do</td><td>Old Ohio House bridge, 12 miles</td><td></td><td>43</td></tr><tr><td></td><td></td><td></td><td>south of Fort Jones, Calif.</td><td></td><td></td></tr><tr><td>July 23</td><td>do</td><td>do</td><td>do</td><td></td><td>49</td></tr><tr><td>23</td><td>do</td><td>do</td><td>1 mile west of Fort Jones, Calif</td><td></td><td>89</td></tr><tr><td>Oct. 30</td><td>do</td><td>do</td><td>Mouth; Calif</td><td></td><td>103</td></tr><tr><td>30</td><td>do</td><td>do</td><td>do</td><td></td><td>102</td></tr><tr><td>May 22</td><td>do</td><td>do</td><td>do</td><td></td><td>1,310</td></tr><tr><td>July 23</td><td>Sugar Creek</td><td>Scott River</td><td>do</td><td></td><td>2.4</td></tr><tr><td>23</td><td>French Creek</td><td>do</td><td>do</td><td></td><td>6.8</td></tr><tr><td>Oct. 9</td><td>Supply Creek</td><td>Trinity River</td><td>Hoopa, Calif</td><td></td><td>4.3</td></tr><tr><td>9</td><td>do</td><td>do</td><td>do</td><td></td><td>5.1</td></tr><tr><td>June 16</td><td>do</td><td>do</td><td>do</td><td></td><td>18</td></tr><tr><td>Aug. 22</td><td>do</td><td>do</td><td>do</td><td></td><td>4.4</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued. (cont.)\n\nStage discharge relation affected by back water from diversion dam.",
+                "embed": "# Miscellaneous discharge measurements in the Pacific slope basins of California during the year ending Sept. 30, 917-Continued. (cont.)\n\nStage discharge relation affected by back water from diversion dam.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2457846952010376,
+                            "top": 0.7839335180055401,
+                            "width": 0.5538261997405967,
+                            "height": 0.01187178472497032,
+                            "page": 1
+                        },
+                        "content": "Stage discharge relation affected by back water from diversion dam.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

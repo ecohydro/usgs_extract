@@ -1,0 +1,10 @@
+detection_transform = transforms.Compose([
+    ToGrayscale(),
+    ApplyGaussianBlur(kernel_size=(3, 3), sigma=0),
+    EnhanceContrast(),
+    CannyEdgeDetection(low_threshold=50, high_threshold=150),
+    GrayscaleTo3Channel(),
+    MaxResize(800),
+    transforms.ToTensor(),
+    transforms.Normalize([0.485, 0.485, 0.485], [0.229, 0.229, 0.229])  # Same mean and std for each channel
+])

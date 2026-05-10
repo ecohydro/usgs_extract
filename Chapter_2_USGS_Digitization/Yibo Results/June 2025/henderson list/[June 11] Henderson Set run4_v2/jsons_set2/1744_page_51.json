@@ -1,0 +1,250 @@
+{
+    "job_id": "dbd9b263-256c-439a-b1b7-7615f773b4ce",
+    "duration": 6.499754428863525,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/ff5ae020-9dba-422c-aa44-f351d969f104?AWSAccessKeyId=ASIA2UOK6OVBDH6TM32F&Signature=FiQTJad20nGN8E0CWAkbo9XCvPM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJHMEUCIQCTgnEXTs0vs6EaHPWFbd%2FnVtDT%2B1sJQy4UJZ9lJnkdBQIgXf4mYwo7ThdFKWhBlsyFw93Pe1zIPeoXQla%2BhJna6iwqiwUIIBAAGgw3MzExMDY5MzIwMzQiDB9LRatMJa%2BK8hFC7SroBIlbKiin%2F4KuDqfaau15fsyLdMVmvxOcEjyHvTHGxR0eIpfu%2BFV1VO6oT7OVKE5wfARsEPQ9MzcHlLESKQPV8zIA8lk7v%2BwJavCizz3lC9NS8IdnCn7n84MJB3PKsF8n0B4LF9dyc3f0Apdyp%2Fx3yQ9OGdokeZX7S2rd5ta298ypzEtLMWUKBqzxIt7xUKx9qYV6V7%2FEnXNYKBtx2DXr8gKuJN%2F4KLwkaCwNZW%2FJoEYyYRlVZR1FQSCL%2FWgVF9nML3piphD31KwJZmv%2F3iRGX4Ig3QqMFYMpnfv9fAZbOlsNa1NlbRrubzr9u2AUT12TLOtP4wY0dpcEqA3hhUjehU824If9yjLnYdkXkgtkhwA9HiqgaxATbRlQu8gzbOILhjXbi6Kn88W4VHAx%2FTyc8UpEqTAMhPjn9WiqbBB7fJffaeLo%2BwV9I59iUWrii23spETdZhHHQcS8fyfKzgLwz94tWXhGzi9Y7%2B6lmJaQNwwzpjsDYVB1exxueGwCKv5nRQ6lZP2M5yg3xk7xKs%2BrL0mdEiFFqzpcGecHrKbvHEbjcSI7qDwCXWKIbxisGhLYZRnIRon79yOOMPC6WAydUFUiaUNB1nGp5Qtt42XBajQrCCAnZJx%2FB35rRbdrJSdPcwYy%2F5VVp8%2FApOo%2BuCdU8O1I68Nx066I5VnU%2FvYr4QhGVR2I9WqLNMah6FKiGXMjR%2FDMCoEb0yrHX4wo7whTbBYVyp9uhaB9ZerebbpnljVQIDWcD8swKWj5Fl6jmv8A%2BKj1nCdZAYQoHTDt8X5It1RC45AgvMCLTJHPsL%2BHRbKVKTZcuGbmAkIw5OfIugY6mwHcUdqGOESDBev0kKmwcvaw3SdXFzhJoA%2FTcihtAzgbeiNebwJaXkoZFcHN7%2B%2Fb8F59H6G6OM16L4Ic8a%2BTdqQ7csRSQJ4SE20G5pqKlUxyaY4EwCy6ifK7%2B8689hpNnkRsl3SequNYxILhO3Cy7Kr1c914ZzVoNPCXXuN%2FOlcP26TyjxwFd5YAjITydPy77vZo5Lr9nU67RhZUEw%3D%3D&Expires=1733445723",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN.",
+                "embed": "# SAN DIEGUITO RIVER BASIN.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.30932999373825926,
+                            "top": 0.04205782951558393,
+                            "width": 0.33312460864120225,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "SAN DIEGUITO RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8597370068879149,
+                            "top": 0.039804731505820506,
+                            "width": 0.028804007514088917,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "51",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914.\n\n<table><tr><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th></tr><tr><td>October</td><td>0.077</td><td>5</td><td>May</td><td>1.67</td><td>103</td></tr><tr><td>November</td><td>.483</td><td>29</td><td>June</td><td>a.70</td><td>42</td></tr><tr><td>December</td><td>.23</td><td>14</td><td>July</td><td>0.10</td><td>6</td></tr><tr><td>January</td><td>10.9</td><td>670</td><td>August</td><td>.00</td><td>0</td></tr><tr><td>February</td><td>29.6</td><td>1,640</td><td>September</td><td>.00</td><td>0</td></tr><tr><td>March</td><td>5.05</td><td>311</td><td></td><td></td><td></td></tr><tr><td>April</td><td>3.44</td><td>205</td><td>The year</td><td>4.18</td><td>3,020</td></tr></table>\n\na Estimated.\n\nNOTE.-See \"Accuracy\" in station description.",
+                "embed": "# Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914.\n\n<table><tr><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th></tr><tr><td>October</td><td>0.077</td><td>5</td><td>May</td><td>1.67</td><td>103</td></tr><tr><td>November</td><td>.483</td><td>29</td><td>June</td><td>a.70</td><td>42</td></tr><tr><td>December</td><td>.23</td><td>14</td><td>July</td><td>0.10</td><td>6</td></tr><tr><td>January</td><td>10.9</td><td>670</td><td>August</td><td>.00</td><td>0</td></tr><tr><td>February</td><td>29.6</td><td>1,640</td><td>September</td><td>.00</td><td>0</td></tr><tr><td>March</td><td>5.05</td><td>311</td><td></td><td></td><td></td></tr><tr><td>April</td><td>3.44</td><td>205</td><td>The year</td><td>4.18</td><td>3,020</td></tr></table>\n\na Estimated.\n\nNOTE.-See \"Accuracy\" in station description.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.06887914840325611,
+                            "top": 0.07097258730754788,
+                            "width": 0.8196618659987477,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06513327811760088,
+                            "top": 0.09782712780977164,
+                            "width": 0.8294034753654924,
+                            "height": 0.1373515284871679,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th><th>Month.</th><th>Mean dis-\ncharge in\nsecond-feet.</th><th>Run-off\n(total in\nacre-feet).</th></tr><tr><td>October</td><td>0.077</td><td>5</td><td>May</td><td>1.67</td><td>103</td></tr><tr><td>November</td><td>.483</td><td>29</td><td>June</td><td>a.70</td><td>42</td></tr><tr><td>December</td><td>.23</td><td>14</td><td>July</td><td>0.10</td><td>6</td></tr><tr><td>January</td><td>10.9</td><td>670</td><td>August</td><td>.00</td><td>0</td></tr><tr><td>February</td><td>29.6</td><td>1,640</td><td>September</td><td>.00</td><td>0</td></tr><tr><td>March</td><td>5.05</td><td>311</td><td></td><td></td><td></td></tr><tr><td>April</td><td>3.44</td><td>205</td><td>The year</td><td>4.18</td><td>3,020</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4276768941765811,
+                            "top": 0.2418325197146076,
+                            "width": 0.09830932999373826,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "a Estimated.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08202880400751408,
+                            "top": 0.26023282012767557,
+                            "width": 0.3888541014402004,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "NOTE.-See \"Accuracy\" in station description.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914. (cont.)\n\n## EAST SAN PASQUAL DITCH NEAR ESCONDIDO, CAL.\n\nLOCATION.-In the NE. 1/4 sec. 36, T. 12 S., R. 1 W., at upper end of San Pasqual Valley, about 9 miles southeast of Escondido.\n\n- RECORDS AVAILABLE.-1912 to 1914; station discontinued.\n\nGAGE.-Gage heights determined by measuring distance to water surface from ref- erence point at top of flume.\n\nDISCHARGE MEASUREMENTS.-Made from foot plank across flume at gage or by wading.\n\nCHANNEL AND CONTROL.-Considerable silt from the Santa Ysabel is deposited in the ditch.\n\nAccuracy.-No gage-height record obtained during year; only discharge measure- ments available.\n\nCOOPERATION.-Station maintained in cooperation with Volcan Land & Water Co., through W. S. Post, engineer.\n\nThe intake of San Pasqual ditch is on the left bank of the Santa Ysabel near the mouth of the canyon. From August 15 to January 15 this ditch is entitled to the entire flow of the stream; during the remainder of the year it has a right to divert 16 second-feet for 10 consecutive days out of each 30.\n\nDischarge measurements of East San Pasqual ditch near Escondido, Cal., during the year ending Sept. 30, 1914.",
+                "embed": "# Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914. (cont.)\n\n## EAST SAN PASQUAL DITCH NEAR ESCONDIDO, CAL.\n\nLOCATION.-In the NE. 1/4 sec. 36, T. 12 S., R. 1 W., at upper end of San Pasqual Valley, about 9 miles southeast of Escondido.\n\n- RECORDS AVAILABLE.-1912 to 1914; station discontinued.\n\nGAGE.-Gage heights determined by measuring distance to water surface from ref- erence point at top of flume.\n\nDISCHARGE MEASUREMENTS.-Made from foot plank across flume at gage or by wading.\n\nCHANNEL AND CONTROL.-Considerable silt from the Santa Ysabel is deposited in the ditch.\n\nAccuracy.-No gage-height record obtained during year; only discharge measure- ments available.\n\nCOOPERATION.-Station maintained in cooperation with Volcan Land & Water Co., through W. S. Post, engineer.\n\nThe intake of San Pasqual ditch is on the left bank of the Santa Ysabel near the mouth of the canyon. From August 15 to January 15 this ditch is entitled to the entire flow of the stream; during the remainder of the year it has a right to divert 16 second-feet for 10 consecutive days out of each 30.\n\nDischarge measurements of East San Pasqual ditch near Escondido, Cal., during the year ending Sept. 30, 1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2197871008140263,
+                            "top": 0.28576793090499436,
+                            "width": 0.5159674389480275,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "EAST SAN PASQUAL DITCH NEAR ESCONDIDO, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06449592986850344,
+                            "top": 0.31055200901239205,
+                            "width": 0.8240450845335003,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In the NE. 1/4 sec. 36, T. 12 S., R. 1 W., at upper end of San Pasqual Valley, about 9 miles southeast of Escondido.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06574827802128992,
+                            "top": 0.3424708974840406,
+                            "width": 0.5635566687539136,
+                            "height": 0.012016522718738265,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE.-1912 to 1914; station discontinued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06261740763932373,
+                            "top": 0.35824258355238453,
+                            "width": 0.8259236067626801,
+                            "height": 0.02929027412692452,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Gage heights determined by measuring distance to water surface from ref- erence point at top of flume.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06512210394489668,
+                            "top": 0.3890349230191513,
+                            "width": 0.823418910457107,
+                            "height": 0.02929027412692452,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made from foot plank across flume at gage or by wading.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06512210394489668,
+                            "top": 0.4202027788208787,
+                            "width": 0.8227927363807138,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "CHANNEL AND CONTROL.-Considerable silt from the Santa Ysabel is deposited in the ditch.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06449592986850344,
+                            "top": 0.45137063462260607,
+                            "width": 0.823418910457107,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "Accuracy.-No gage-height record obtained during year; only discharge measure- ments available.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06261740763932373,
+                            "top": 0.482914006759294,
+                            "width": 0.8252974326862867,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.-Station maintained in cooperation with Volcan Land & Water Co., through W. S. Post, engineer.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06324358171571696,
+                            "top": 0.5204656402553511,
+                            "width": 0.8259236067626801,
+                            "height": 0.06083364626361247,
+                            "page": 1
+                        },
+                        "content": "The intake of San Pasqual ditch is on the left bank of the Santa Ysabel near the mouth of the canyon. From August 15 to January 15 this ditch is entitled to the entire flow of the stream; during the remainder of the year it has a right to divert 16 second-feet for 10 consecutive days out of each 30.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06324358171571696,
+                            "top": 0.5959444235824258,
+                            "width": 0.8252974326862867,
+                            "height": 0.026286143447239955,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of East San Pasqual ditch near Escondido, Cal., during the year ending Sept. 30, 1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914. (cont.)\n\n## EAST SAN PASQUAL DITCH NEAR ESCONDIDO, CAL. (cont.)\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>Oct. 27</td><td>R. W. Day</td><td></td><td>Dry.</td><td>Feb. 27</td><td>R. W. Day</td><td></td><td>Dry.</td></tr><tr><td>Nov. 3</td><td>do</td><td></td><td>Dry.</td><td>Mar. 6</td><td>do</td><td>1.13</td><td>10</td></tr><tr><td>10</td><td>do</td><td></td><td>Dry.</td><td>13</td><td>do</td><td>1.45</td><td>16</td></tr><tr><td>21</td><td>do</td><td>0.81</td><td>3.0</td><td>27</td><td>do</td><td></td><td>Dry.</td></tr><tr><td>Dec. 5</td><td>do</td><td></td><td>Dry.</td><td>Apr. 3</td><td>do</td><td></td><td>Dry.</td></tr><tr><td>15</td><td>do</td><td></td><td>Dry.</td><td>10</td><td>do</td><td>1.24</td><td>11</td></tr><tr><td>26</td><td>do</td><td></td><td>Dry.</td><td>17</td><td>do</td><td>1.25</td><td>14</td></tr><tr><td>Jan. 5</td><td>do</td><td></td><td>Dry.</td><td>24</td><td>do</td><td>1.18</td><td>12</td></tr><tr><td>12</td><td>do</td><td></td><td>Dry.</td><td>May 8</td><td>do</td><td>1.26</td><td>12</td></tr><tr><td>19</td><td>do</td><td></td><td>Dry.</td><td>June 12</td><td>C. E. Hickok</td><td>.35</td><td>3.0</td></tr><tr><td>30</td><td>do</td><td></td><td>Dry.</td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# Monthly discharge of Temescal Creek near Almond, Cal., for the year ending Sept. 30, 1914. (cont.)\n\n## EAST SAN PASQUAL DITCH NEAR ESCONDIDO, CAL. (cont.)\n\n<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>Oct. 27</td><td>R. W. Day</td><td></td><td>Dry.</td><td>Feb. 27</td><td>R. W. Day</td><td></td><td>Dry.</td></tr><tr><td>Nov. 3</td><td>do</td><td></td><td>Dry.</td><td>Mar. 6</td><td>do</td><td>1.13</td><td>10</td></tr><tr><td>10</td><td>do</td><td></td><td>Dry.</td><td>13</td><td>do</td><td>1.45</td><td>16</td></tr><tr><td>21</td><td>do</td><td>0.81</td><td>3.0</td><td>27</td><td>do</td><td></td><td>Dry.</td></tr><tr><td>Dec. 5</td><td>do</td><td></td><td>Dry.</td><td>Apr. 3</td><td>do</td><td></td><td>Dry.</td></tr><tr><td>15</td><td>do</td><td></td><td>Dry.</td><td>10</td><td>do</td><td>1.24</td><td>11</td></tr><tr><td>26</td><td>do</td><td></td><td>Dry.</td><td>17</td><td>do</td><td>1.25</td><td>14</td></tr><tr><td>Jan. 5</td><td>do</td><td></td><td>Dry.</td><td>24</td><td>do</td><td>1.18</td><td>12</td></tr><tr><td>12</td><td>do</td><td></td><td>Dry.</td><td>May 8</td><td>do</td><td>1.26</td><td>12</td></tr><tr><td>19</td><td>do</td><td></td><td>Dry.</td><td>June 12</td><td>C. E. Hickok</td><td>.35</td><td>3.0</td></tr><tr><td>30</td><td>do</td><td></td><td>Dry.</td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06209192055049507,
+                            "top": 0.6338175746045344,
+                            "width": 0.8299501499087645,
+                            "height": 0.17541114271380961,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Made by-</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>Oct. 27</td><td>R. W. Day</td><td></td><td>Dry.</td><td>Feb. 27</td><td>R. W. Day</td><td></td><td>Dry.</td></tr><tr><td>Nov. 3</td><td>do</td><td></td><td>Dry.</td><td>Mar. 6</td><td>do</td><td>1.13</td><td>10</td></tr><tr><td>10</td><td>do</td><td></td><td>Dry.</td><td>13</td><td>do</td><td>1.45</td><td>16</td></tr><tr><td>21</td><td>do</td><td>0.81</td><td>3.0</td><td>27</td><td>do</td><td></td><td>Dry.</td></tr><tr><td>Dec. 5</td><td>do</td><td></td><td>Dry.</td><td>Apr. 3</td><td>do</td><td></td><td>Dry.</td></tr><tr><td>15</td><td>do</td><td></td><td>Dry.</td><td>10</td><td>do</td><td>1.24</td><td>11</td></tr><tr><td>26</td><td>do</td><td></td><td>Dry.</td><td>17</td><td>do</td><td>1.25</td><td>14</td></tr><tr><td>Jan. 5</td><td>do</td><td></td><td>Dry.</td><td>24</td><td>do</td><td>1.18</td><td>12</td></tr><tr><td>12</td><td>do</td><td></td><td>Dry.</td><td>May 8</td><td>do</td><td>1.26</td><td>12</td></tr><tr><td>19</td><td>do</td><td></td><td>Dry.</td><td>June 12</td><td>C. E. Hickok</td><td>.35</td><td>3.0</td></tr><tr><td>30</td><td>do</td><td></td><td>Dry.</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

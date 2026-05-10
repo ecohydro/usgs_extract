@@ -1,0 +1,17 @@
+```json
+{
+    "Watersource_Name": "SAN JOSE CREEK",
+    "County": "Santa Barbara County",
+    "Location": "La Goleta Grant, on right bank south of Avenue on Kellogg Avenue, 0.5 mi southeast of Goleta",
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily (October 1970 to current year)",
+    "Units_Of_Measurement": {
+        "Discharge": ["ft3/s", "m3/s"],
+        "Gage_height": "ft, m"
+    },
+    "Latitude": 34.430278,
+    "Longitude": -119.821111,
+    "Dates_of_Recording": "10/01/1970-Current Year",
+    "Water_Type": "Stream discharge"
+}
+```

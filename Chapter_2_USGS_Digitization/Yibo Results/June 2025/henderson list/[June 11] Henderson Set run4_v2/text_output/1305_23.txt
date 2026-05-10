@@ -1,0 +1,36 @@
+```json
+[
+    {
+        "Watersource_Name": "C. C. Jorgensen well",
+        "County": "Los Angeles County",
+        "Location": "half a mile north of Moneta, Redondo quadrangle",
+        "Townships_Ranges_Sections": [],
+        "Temporal_Resolution": "Varies between measurements; approximately monthly intervals observed in the data.",
+        "Units_Of_Measurement": "Feet and inches (Ft. in.)",
+        "Latitude": 33.789,
+        "Longitude": -118.287,
+        "Dates_of_Recording": "01/27/1910-15/10/1919",
+        "Water_Type": "Groundwater well"
+    }
+]
+```
+
+**Notes:**
+
+- **Watersource_Name**: The document refers to a borewell owned by C. C. Jorgensen, previously owned by H. J. Harris.
+  
+- **County**: Based on the location description ("half a mile north of Moneta, Redondo quadrangle"), this is in Los Angeles County, California.
+
+- **Location**: As described in the document, "half a mile north of Moneta, Redondo quadrangle."
+
+- **Townships_Ranges_Sections**: No specific township, range, or section data provided; hence left as an empty list.
+
+- **Temporal_Resolution**: Measurements are made approximately monthly, but exact intervals vary between entries.
+
+- **Units_Of_Measurement**: Depth measurements are given in feet and inches (Ft. in.).
+
+- **Latitude and Longitude**: Approximate coordinates based on the description near Moneta, Redondo Beach area.
+
+- **Dates_of_Recording**: Based on the earliest and latest dates provided in the data tables.
+
+- **Water_Type**: Identified as a "Groundwater well" due to its characteristics and method of measurement.

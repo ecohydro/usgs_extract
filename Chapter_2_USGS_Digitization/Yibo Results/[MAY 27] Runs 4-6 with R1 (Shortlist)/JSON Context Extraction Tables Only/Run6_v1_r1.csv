@@ -1,0 +1,74 @@
+,ID,PAGE_NUMBER,LATITUDE,LONGITUDE,COUNTY,DATE_OF_DATA,WATER_TYPE,Comments,SUM SCORES PER TABLE/DOC,
+0,56394,282,NA,NA,NA,01/01/1975-12/31/1976,Groundwater,,Total points (out of 5) ,Percentage
+,56394,282,1,1,1,1,0,,4,0.8
+1,56394,282,NA,NA,NA,01/01/1975-12/31/1976,Total Water,,,
+,56394,282,1,1,1,1,0,Duplicated entries? ,4,0.8
+2,2846,29,NA,NA,NA,1948-1967,Precipitation,,,
+,2846,29,1,1,1,1,0,,4,0.8
+3,2846,29,NA,NA,NA,1948-1967,Precipitation,,,
+,2846,29,1,1,1,1,0,,4,0.8
+4,38797,8,-38.5,-122.5,CALIFORNIAA3,NA-NA,Stream Discharge,,,
+,38797,8,0,0,0,0,0,*NO table on this page; should not pull anything? ,0,0
+5,53419,29,-38.5,143.333333,Mendocino,01/01/1960-12/31/1969,Springs,,,
+,53419,29,0,0,1,0.5,1,,2.5,0.5
+6,53419,29,-38.416667,122.583333,Napa,01/01/1970-12/31/1974,Springs,,,
+,53419,29,0,0,1,0,1,,2,0.4
+7,3067,268,NA,NA,NA,01/01/2020-12/31/2020,Precipitation,,,
+,3067,268,1,1,0,0,0,,2,0.4
+8,3067,268,NA,NA,NA,01/01/2021-12/31/2021,Precipitation,,,
+,3067,268,1,1,0,0,0,,2,0.4
+9,10372,13,NA,NA,MOUNT DIABLO BASE LINE AND MERIDIAN,01/01/1975-12/31/1977,Precipitation,,,
+,10372,13,1,1,1,1,0,,4,0.8
+10,10372,13,NA,NA,MOUNT DIABLO BASE LINE AND MERIDIAN,01/01/1975-12/31/1977,Precipitation,,,
+,10372,13,1,1,1,1,0,,4,0.8
+11,10372,13,NA,NA,"T. 30 S., R. 27 E.",01/01/1975-12/31/1977,Stream Discharge,,,
+,10372,13,1,1,0,1,0,,3,0.6
+12,48176,27,37.1425,-121.9233,"Monterey County, California",01/01/1963-12/31/1968,Irrigation,,,
+,48176,27,0,0,0,0.5,1,,1.5,0.3
+13,48176,27,NA,NA,"Monterey County, California",NA-NA,Other Activities,,,
+,48176,27,1,1,0,0,0,,2,0.4
+14,48176,27,NA,NA,"Monterey County, California",NA-NA,Irrigation,,,
+,48176,27,1,1,0,0,1,,3,0.6
+15,48176,27,37.1425,-121.9233,"Monterey County, California",01/01/1964-12/31/1968,Irrigation,,,
+,48176,27,0,0,0,0.5,1,,1.5,0.3
+16,48176,27,NA,NA,"Monterey County, California",NA-NA,Other Activities,,,
+,48176,27,1,1,0,0,0,,2,0.4
+17,48176,27,37.1425,-121.9233,"Monterey County, California",01/01/1968-12/31/1968,Irrigation,,,
+,,,0,0,0,0.5,1,,1.5,0.3
+18,3067,266,NA,NA,NA,01/01/1955-30/09/1955,Precipitation,,,
+,,,1,1,0,1,0,,3,0.6
+19,3067,266,NA,NA,NA,01/10/1955-30/09/1956,Reservoir,,,
+,,,1,1,0,1,0,,3,0.6
+20,28950,19,NA,NA,NA,01/01/1970-12/31/2022,Groundwater,,,
+,,,0,0,0,0,0,"*This page has no table, should not pull any info",0,0
+21,28950,19,NA,NA,NA,01/01/1970-12/31/2022,NA,,,
+,,,0,0,0,0,0,"*This page has no table, should not pull any info",0,0
+22,25076,28,-35.3667,120.7833,NA,01/09/1910-31/12/2025,Stream Discharge,,,
+,,,0,0,0,0.5,1,,1.5,0.3
+23,25076,28,-35.4,120.7,NA,01/11/1911-31/12/2025,Stream Discharge,,,
+,,,0,0,0,0.5,1,,1.5,0.3
+24,25076,28,-35.3333,120.6667,NA,01/09/1913-31/12/2025,Stream Discharge,,,
+,,,0,0,0,0.5,1,,1.5,0.3
+25,25076,32,-36.4322,119.2433,Tulare,01/10/1902-30/09/1926,Stream Discharge,,,
+,,,0,0,0,0.5,1,,1.5,0.3
+26,25076,32,-36.4322,119.2433,Tulare,NA,Stream Discharge,,,
+,,,0,0,0,0,1,,1,0.2
+27,25076,32,-36.4322,119.2433,Tulare,01/10/1918-30/09/1919,Stream Discharge,,,
+,,,0,0,0,0.5,1,,1.5,0.3
+28,2846,46,NA,NA,Riverside,01/01/2022-12/31/2022,Groundwater,"*This page is very concerning--totally made up dates, county, and lat/longs",,
+,,,1,1,0,0,1,,3,0.6
+29,2846,46,NA,NA,Riverside,01/01/2022-12/31/2022,Groundwater,,,
+,,,1,1,0,0,1,,3,0.6
+30,2846,46,33.8333333,-116.5666667,Riverside,01/01/2022-12/31/2022,Groundwater,,,
+,,,0,0,0,0,1,,1,0.2
+31,2846,46,33.5333333,-116.6333333,Riverside,01/01/2022-12/31/2022,Groundwater,,,
+,,,0,0,0,0,1,,1,0.2
+32,2846,46,33.6666667,-116.5666667,Riverside,01/01/2022-12/31/2022,Groundwater,,,
+,,,0,0,0,0,1,,1,0.2
+33,2846,46,NA,NA,NA,NA,Water Quality,,,
+,,,1,1,0,1,0,,3,0.6
+34,56394,254,NA,NA,NA,01/10/2022-30/09/2023,NA,,,
+,,,1,1,1,0,0,,3,0.6
+SUM SCORES PER CATEGORY,,,,,,,,,,
+,Total points (out of 35),,18,18,9,14.5,17,,,
+,Percentage,,0.514285714,0.514285714,0.257142857,0.414285714,0.485714286,,,

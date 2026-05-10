@@ -1,0 +1,166 @@
+{
+    "job_id": "e6cc9d25-14d5-4991-a098-2e3fc968ab8e",
+    "duration": 4.715753078460693,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/190a27ff-5ca1-4326-b7ef-5840bfd11fb9?AWSAccessKeyId=ASIA2UOK6OVBMC4MVHKI&Signature=cISGNILXSlIPv8pX8hqqkzCXmPk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIQDX2m6JoeQgL4HrP0hzuY1Jmw%2FVqAmupo3oQ%2BD3HDEVyAIgKaRKPouzTV31%2FmbNy%2FgZqLBJQgLrHtsF9SzF4klJUuUqiwUIIhAAGgw3MzExMDY5MzIwMzQiDNgvX9SIHSwcg%2FzupSroBCpPXORDU3luOBjsHSSvXiRNOEoIWkbDvZT2WxxAWsMx5nuLI%2BQ1vwMWC%2Fe1%2BIQDdVtvOEhV8dz%2Bo8%2BgBTXipptMUcW1Uv0wbqYbHZh%2FtJsDEAMAOoqSz2e4kPKtAUs1ZHiAIr6dvZyQyhQl59rNwIrtF2cICDKffWaC9dK%2Bgzn44uhajQb2bQq5wOudOLcwX%2FnZGX4zdYc19NU6rHgFL2XYgRpB6X54NL%2FY2wWcH4%2Flr0RIRcIOQm6WzSd%2B5TlUktGmg2UZLcvfknlhJGSci9%2FLuRyN4rB7yLmpldz%2BSVaidbz0sQRs0vg5Z5BWgSEhrySiInLDHb3RBHIMyCUCRrC9OonLO8%2Fsug8B%2BhenAD1vFlimSGER9BmxV4aJBt%2Fy%2FelF%2B61GpylYaBNFAMctUlKbzdTaREy3JF9eT9RbUppn0%2B5ejHAfw8edbHN9kMorVd8ZMbtR1Ck521SBmN753Y1%2FJqKawWlrNTv7q8yW7hLqZbAtid5Te0JHB%2Fo%2B8Zgu13vrI2ot72eLoNufwwDtMjHn2uRr8RFXbEj9Wmb%2BqmzRGKcT7d59X%2B0l77oHNE0N0Ci0yqQT8%2FeUxmYi7z4nhHhai8hNekOSwjqPAzEE2meLVB6OsziX6vsiiR2wJ8ISvgXMicYwnig3x1Rg6ZzPN%2BbXEd%2FhE%2F20ouy01taiJWT1F1zYt5QgJYxRTc1zGknpOgHtXC5onmrtapUaL8AHUqS2PEmwIPqbSt%2B9IBLZ6UXgX9kbOloko8bCFxRR3Eh1qsWPpcDvGWQ7jdzOjiI4S3EIZ89OJICjtjnvAaH%2FbcFRj%2FuWHn5j6WAw4o3JugY6mwG016GFqKoA7gI6WvUt%2BosIBio%2FoXbNyvoPm11rjOS%2FWosp8Ks1v6hon3vM%2F2c2jsqZITSQLaHV4T3T2dFWb%2FTyun0HH07MM%2Ft5%2Fh30%2B04xSl%2BDMuSj85qXyXuRw52HfZzDxZgV3dsfs40ufkJGR2cIncXWrFspYpjRhaqjSKBO0d8%2BLT%2BwwhBUGthdETtiu461sjspotGsvdnIgg%3D%3D&Expires=1733451385",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA.\n\nNO. 45.\n\nInches.\n6\n\n4\n\n2\n\n0\nKONO TAYEE\n\n4\n\n2\n\n0\nRUMSEY\n\n4\n\n2\n\n0\nWOODLAND\n\nFIG. 2.-Diagram of mean monthly precipitation at Kono Tayee, Rumsey, and Woodland.\n\nPrecipitation in Cache Creek drainage basin.",
+                "embed": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA.\n\nNO. 45.\n\nInches.\n6\n\n4\n\n2\n\n0\nKONO TAYEE\n\n4\n\n2\n\n0\nRUMSEY\n\n4\n\n2\n\n0\nWOODLAND\n\nFIG. 2.-Diagram of mean monthly precipitation at Kono Tayee, Rumsey, and Woodland.\n\nPrecipitation in Cache Creek drainage basin.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.066,
+                            "top": 0.045208655332302936,
+                            "width": 0.030666666666666665,
+                            "height": 0.013523956723338485,
+                            "page": 1
+                        },
+                        "content": "14",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.17333333333333334,
+                            "top": 0.04829984544049459,
+                            "width": 0.6533333333333333,
+                            "height": 0.011978361669242658,
+                            "page": 1
+                        },
+                        "content": "WATER STORAGE ON CACHE CREEK, CALIFORNIA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.88,
+                            "top": 0.04636785162287481,
+                            "width": 0.058666666666666666,
+                            "height": 0.011591962905718702,
+                            "page": 1
+                        },
+                        "content": "NO. 45.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.23023919677734375,
+                            "top": 0.07804960813920317,
+                            "width": 0.5067208455403646,
+                            "height": 0.35094938322418073,
+                            "page": 1
+                        },
+                        "content": "Inches.\n6\n\n4\n\n2\n\n0\nKONO TAYEE\n\n4\n\n2\n\n0\nRUMSEY\n\n4\n\n2\n\n0\nWOODLAND",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08666666666666667,
+                            "top": 0.43585780525502316,
+                            "width": 0.8213333333333334,
+                            "height": 0.011591962905718702,
+                            "page": 1
+                        },
+                        "content": "FIG. 2.-Diagram of mean monthly precipitation at Kono Tayee, Rumsey, and Woodland.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.25733333333333336,
+                            "top": 0.4578825347758887,
+                            "width": 0.4846666666666667,
+                            "height": 0.013910355486862442,
+                            "page": 1
+                        },
+                        "content": "Precipitation in Cache Creek drainage basin.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA. (cont.)\n\n<table><tr><th rowspan=\"2\">Station.</th><th rowspan=\"2\">Eleva-\ntion.</th><th rowspan=\"2\">Length\nof\nrecord.</th><th colspan=\"2\">Maximum rain-\nfall.</th><th colspan=\"2\">Minimum rain-\nfall.</th><th rowspan=\"2\">Average\nrainfall.</th><th rowspan=\"2\">Estimated\nmean\nannual\nrainfall.</th></tr><tr><td>Year.</td><td>Amount.</td><td>Year.</td><td>Amount.</td></tr><tr><td></td><td>Feet.</td><td>Years.</td><td></td><td>Inches.</td><td></td><td>Inches.</td><td>Inches.</td><td>Inches.</td></tr><tr><td>Bartlett Springs</td><td>3,44</td><td>3</td><td>1899</td><td>47.67</td><td>1898</td><td>17.35</td><td>29.71</td><td>38.62</td></tr><tr><td>Lakeport</td><td>1,335</td><td>14</td><td>1894</td><td>40.85</td><td>1898</td><td>13.50</td><td>28.81</td><td>29.57</td></tr><tr><td>Kono Tayee</td><td>1,325</td><td>23</td><td>1878</td><td>39.53</td><td>1898</td><td>10.89</td><td>21.66</td><td></td></tr><tr><td>Kelseyville</td><td>1,425</td><td>6</td><td>1896</td><td>39.38</td><td>1898</td><td>14.73</td><td>27.04</td><td>26.85</td></tr><tr><td>Rumsey</td><td>425</td><td>14</td><td>1892</td><td>36.31</td><td>1898</td><td>7.96</td><td>23.92</td><td>24.58</td></tr><tr><td>Capay</td><td>220</td><td>10</td><td>1896</td><td>32.77</td><td>1898</td><td>8.68</td><td>22.79</td><td>21.73</td></tr><tr><td>Esparto</td><td>192</td><td>10</td><td>1896</td><td>28.45</td><td>1898</td><td>6.01</td><td>18.63</td><td>17.39</td></tr><tr><td>Woodland</td><td>63</td><td>22</td><td>1899</td><td>31.35</td><td>1898</td><td>9.00</td><td>18.25</td><td></td></tr><tr><td>Yolo</td><td>79</td><td>6</td><td>1894</td><td>22.88</td><td>1898</td><td>5.32</td><td>16.</td><td>14.83</td></tr></table>",
+                "embed": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA. (cont.)\n\n<table><tr><th rowspan=\"2\">Station.</th><th rowspan=\"2\">Eleva-\ntion.</th><th rowspan=\"2\">Length\nof\nrecord.</th><th colspan=\"2\">Maximum rain-\nfall.</th><th colspan=\"2\">Minimum rain-\nfall.</th><th rowspan=\"2\">Average\nrainfall.</th><th rowspan=\"2\">Estimated\nmean\nannual\nrainfall.</th></tr><tr><td>Year.</td><td>Amount.</td><td>Year.</td><td>Amount.</td></tr><tr><td></td><td>Feet.</td><td>Years.</td><td></td><td>Inches.</td><td></td><td>Inches.</td><td>Inches.</td><td>Inches.</td></tr><tr><td>Bartlett Springs</td><td>3,44</td><td>3</td><td>1899</td><td>47.67</td><td>1898</td><td>17.35</td><td>29.71</td><td>38.62</td></tr><tr><td>Lakeport</td><td>1,335</td><td>14</td><td>1894</td><td>40.85</td><td>1898</td><td>13.50</td><td>28.81</td><td>29.57</td></tr><tr><td>Kono Tayee</td><td>1,325</td><td>23</td><td>1878</td><td>39.53</td><td>1898</td><td>10.89</td><td>21.66</td><td></td></tr><tr><td>Kelseyville</td><td>1,425</td><td>6</td><td>1896</td><td>39.38</td><td>1898</td><td>14.73</td><td>27.04</td><td>26.85</td></tr><tr><td>Rumsey</td><td>425</td><td>14</td><td>1892</td><td>36.31</td><td>1898</td><td>7.96</td><td>23.92</td><td>24.58</td></tr><tr><td>Capay</td><td>220</td><td>10</td><td>1896</td><td>32.77</td><td>1898</td><td>8.68</td><td>22.79</td><td>21.73</td></tr><tr><td>Esparto</td><td>192</td><td>10</td><td>1896</td><td>28.45</td><td>1898</td><td>6.01</td><td>18.63</td><td>17.39</td></tr><tr><td>Woodland</td><td>63</td><td>22</td><td>1899</td><td>31.35</td><td>1898</td><td>9.00</td><td>18.25</td><td></td></tr><tr><td>Yolo</td><td>79</td><td>6</td><td>1894</td><td>22.88</td><td>1898</td><td>5.32</td><td>16.</td><td>14.83</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.057241043090820315,
+                            "top": 0.4743167930261061,
+                            "width": 0.8854326222737631,
+                            "height": 0.217968900937017,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Station.</th><th rowspan=\"2\">Eleva-\ntion.</th><th rowspan=\"2\">Length\nof\nrecord.</th><th colspan=\"2\">Maximum rain-\nfall.</th><th colspan=\"2\">Minimum rain-\nfall.</th><th rowspan=\"2\">Average\nrainfall.</th><th rowspan=\"2\">Estimated\nmean\nannual\nrainfall.</th></tr><tr><td>Year.</td><td>Amount.</td><td>Year.</td><td>Amount.</td></tr><tr><td></td><td>Feet.</td><td>Years.</td><td></td><td>Inches.</td><td></td><td>Inches.</td><td>Inches.</td><td>Inches.</td></tr><tr><td>Bartlett Springs</td><td>3,44</td><td>3</td><td>1899</td><td>47.67</td><td>1898</td><td>17.35</td><td>29.71</td><td>38.62</td></tr><tr><td>Lakeport</td><td>1,335</td><td>14</td><td>1894</td><td>40.85</td><td>1898</td><td>13.50</td><td>28.81</td><td>29.57</td></tr><tr><td>Kono Tayee</td><td>1,325</td><td>23</td><td>1878</td><td>39.53</td><td>1898</td><td>10.89</td><td>21.66</td><td></td></tr><tr><td>Kelseyville</td><td>1,425</td><td>6</td><td>1896</td><td>39.38</td><td>1898</td><td>14.73</td><td>27.04</td><td>26.85</td></tr><tr><td>Rumsey</td><td>425</td><td>14</td><td>1892</td><td>36.31</td><td>1898</td><td>7.96</td><td>23.92</td><td>24.58</td></tr><tr><td>Capay</td><td>220</td><td>10</td><td>1896</td><td>32.77</td><td>1898</td><td>8.68</td><td>22.79</td><td>21.73</td></tr><tr><td>Esparto</td><td>192</td><td>10</td><td>1896</td><td>28.45</td><td>1898</td><td>6.01</td><td>18.63</td><td>17.39</td></tr><tr><td>Woodland</td><td>63</td><td>22</td><td>1899</td><td>31.35</td><td>1898</td><td>9.00</td><td>18.25</td><td></td></tr><tr><td>Yolo</td><td>79</td><td>6</td><td>1894</td><td>22.88</td><td>1898</td><td>5.32</td><td>16.</td><td>14.83</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA. (cont.)\n\nThe last column of the foregoing table gives the estimated mean annual rainfall at Bartlett Springs, Lakeport, and Kelseyville for a period of twenty-three years, and at Rumsey, Capay, Esparto, and Yolo for a period of twenty-two years.\n\nMonthly precipitation, in inches, at various places in Cache Creek drainage basin. BARTLETT SPRINGS. [Observer, Bartlett Springs Hotel.]",
+                "embed": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA. (cont.)\n\nThe last column of the foregoing table gives the estimated mean annual rainfall at Bartlett Springs, Lakeport, and Kelseyville for a period of twenty-three years, and at Rumsey, Capay, Esparto, and Yolo for a period of twenty-two years.\n\nMonthly precipitation, in inches, at various places in Cache Creek drainage basin. BARTLETT SPRINGS. [Observer, Bartlett Springs Hotel.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06066666666666667,
+                            "top": 0.6978361669242659,
+                            "width": 0.878,
+                            "height": 0.07187017001545595,
+                            "page": 1
+                        },
+                        "content": "The last column of the foregoing table gives the estimated mean annual rainfall at Bartlett Springs, Lakeport, and Kelseyville for a period of twenty-three years, and at Rumsey, Capay, Esparto, and Yolo for a period of twenty-two years.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06066666666666667,
+                            "top": 0.7751159196290572,
+                            "width": 0.876,
+                            "height": 0.04327666151468315,
+                            "page": 1
+                        },
+                        "content": "Monthly precipitation, in inches, at various places in Cache Creek drainage basin. BARTLETT SPRINGS. [Observer, Bartlett Springs Hotel.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA. (cont.)\n\n<table><tr><th>Year.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Annual.</th></tr><tr><td>1897</td><td>3.50</td><td>6.78</td><td>5.36</td><td>0.75</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.70</td><td>.31</td><td>3.72</td><td>24.12</td></tr><tr><td>1898</td><td>1.53</td><td>8.36</td><td>0.19</td><td>0.63</td><td>2.39</td><td>1.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.87</td><td>1.28</td><td>17.35</td></tr><tr><td>1899</td><td>13.14</td><td>0.00</td><td>8.49</td><td>0.85</td><td>2.47</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>4.79</td><td>10.06</td><td>7.87</td><td>47.67</td></tr><tr><td>1900</td><td>7.51</td><td>1.27</td><td>6.42</td><td>3.23</td><td>0.88</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Average for\n3 years</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>29.71</td></tr></table>",
+                "embed": "# WATER STORAGE ON CACHE CREEK, CALIFORNIA. (cont.)\n\n<table><tr><th>Year.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Annual.</th></tr><tr><td>1897</td><td>3.50</td><td>6.78</td><td>5.36</td><td>0.75</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.70</td><td>.31</td><td>3.72</td><td>24.12</td></tr><tr><td>1898</td><td>1.53</td><td>8.36</td><td>0.19</td><td>0.63</td><td>2.39</td><td>1.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.87</td><td>1.28</td><td>17.35</td></tr><tr><td>1899</td><td>13.14</td><td>0.00</td><td>8.49</td><td>0.85</td><td>2.47</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>4.79</td><td>10.06</td><td>7.87</td><td>47.67</td></tr><tr><td>1900</td><td>7.51</td><td>1.27</td><td>6.42</td><td>3.23</td><td>0.88</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Average for\n3 years</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>29.71</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05719957987467448,
+                            "top": 0.8218977160210588,
+                            "width": 0.8860706024169922,
+                            "height": 0.1434417677441557,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th>Sept.</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Annual.</th></tr><tr><td>1897</td><td>3.50</td><td>6.78</td><td>5.36</td><td>0.75</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.70</td><td>.31</td><td>3.72</td><td>24.12</td></tr><tr><td>1898</td><td>1.53</td><td>8.36</td><td>0.19</td><td>0.63</td><td>2.39</td><td>1.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.87</td><td>1.28</td><td>17.35</td></tr><tr><td>1899</td><td>13.14</td><td>0.00</td><td>8.49</td><td>0.85</td><td>2.47</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>4.79</td><td>10.06</td><td>7.87</td><td>47.67</td></tr><tr><td>1900</td><td>7.51</td><td>1.27</td><td>6.42</td><td>3.23</td><td>0.88</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Average for\n3 years</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>29.71</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

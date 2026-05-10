@@ -1,0 +1,226 @@
+{
+    "job_id": "9be31462-fd3e-4479-ba15-e64ff749c095",
+    "duration": 4.6816747188568115,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/242d1b06-43b5-447f-ae34-69662e82a89c?AWSAccessKeyId=ASIA2UOK6OVBB7NY4K7Z&Signature=T0h37g%2F9oCmRpjv7HWrL%2BKmB8kQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQDlAp0vx%2BFXCib0FVCIngvzN204F5ZY%2Fpu8fydD0AWRngIhAKI8b4gKWzZb7EiDFsd1LrXsebXSDE56vA%2BwQ0srCCpuKosFCCUQABoMNzMxMTA2OTMyMDM0Igw9ZNUZ3w8VuNIGtlkq6AQHViIEeTKQjiFn0KWl6p2Fc8shE0iUa8pk%2FvmaGcqvb5xX%2Fp9dx8EMu%2FTVUwB3Tg8XAIejuIyM1pa0b9YVR5uSX7oIMpdvhLD%2Fu0VtTHB1Njw7oeUh69k2hKkY2bTkf0BUcfUeyljpjx4gv8n8xBHxT6nuJqeYpKGL%2BYVJt8RrDF2ewfpge%2BbQEAQTAkBv%2BnkWJrRlv8qhdIvFntxpz7S3IClHBAf%2F3N9p7I5bkpmTuFlHFMHdgMNvhDwm61oojtrDQvon3HlZoRi%2F9jpYYlqQ2KgkMsUKmR2ybZEDyJOKSogUnoS5xR9%2Bnr90Hl7ZwfMmYbBZOVRueIldwd3epEzSY0EMHheMCrz2QGY%2FCKc7L68SdGIu52%2FAeNA26l%2Bn5lf5WLYBFVCeazxKhyi7OzIymZ%2F99pFotiAzuiUZo6st7%2Bwx4iy9onSDnlZPDfEDxKMGx9fkvIT4H3OxflOiJFWI9cklxR5%2FMBpDSzfyYE03NOL%2FVVF35qnWi13R8fEucGiaPvcA5n6XWY3XNbG27fj2a4D%2FnNcL2iVbOzSUKgKgBndNXsG%2Bc2o78v%2Bs0fN61J7YF%2BPO4awulKqt6R6EBpgsuCOxdnD%2BDCmIy4Vo9vVplesS%2FDsXBbMRqFI6QTK%2FDQg0YhmTOc%2BLTBQRCqr5ItyKmvvVCKf1b0u2M2Xt3OIfbaIWbe9EGe9TklF3f%2Bv%2BlplgKJg29HrmKh7FOJCokO8rZHJw0Z86R9ArqZA61ThDn%2FSvBqG0UeiBouO%2B%2BewU3eomYzY0aCgIncd9lZGvSYNbOTNFUlMPc%2BBj00ZluifZaeWddHMV7mHQMPPpyboGOpoBYxX9Zb%2BJNZHSGEyG0KK5i2jFmoc%2B5y9sM9iO%2FOUfK%2FIAcfc4%2BXARZn1y7D5G8nQuSGJQO0rx%2FtRzVeqFW9%2BOYFMyY0zwVKScEhVwzDdkBUYYNPBJJnJbs0R%2BeMvUifJkcMmGxVNlZOlbpBxPN%2BHeWvK%2FvGRMFipwVsQu%2BtPUULmrSMCpLcCGpWWkPU8CG5QYcPxg93nmuv1eDw%3D%3D&Expires=1733462748",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# PIT RIVER BASIN.",
+                "embed": "# PIT RIVER BASIN.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3647435897435897,
+                            "top": 0.048817123544874205,
+                            "width": 0.21153846153846154,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "PIT RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8467948717948718,
+                            "top": 0.044310927525347356,
+                            "width": 0.046794871794871795,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "285",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off in\nacre-feet.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1918 -19.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>23,600</td><td>490</td><td>5,680</td><td>349,000</td></tr><tr><td>November</td><td>9,540</td><td>4, 490</td><td>5, ,650</td><td>336,000</td></tr><tr><td>December</td><td>13,700</td><td>4,700</td><td>,890</td><td>362,000</td></tr><tr><td>January</td><td>55,000</td><td>4,700</td><td>13,400</td><td>824,000</td></tr><tr><td>February</td><td>118,000</td><td>7,430</td><td>29,200</td><td>1,620,000</td></tr><tr><td>March</td><td>56,200</td><td>12,2</td><td>21,800</td><td>1,340,000</td></tr><tr><td>April</td><td>24,900</td><td></td><td>17,500</td><td>1,040,000</td></tr><tr><td>May</td><td></td><td>6,890</td><td>420</td><td>579,000</td></tr><tr><td>June</td><td>6,120</td><td>4,590</td><td>5,150</td><td>306,000</td></tr><tr><td>July</td><td>4,590</td><td>4,100</td><td>4,290</td><td>264,000</td></tr><tr><td>August</td><td>4,100</td><td>3,740</td><td>3,950</td><td>243,000</td></tr><tr><td>September</td><td>5,880</td><td>3,660</td><td>4,040</td><td>240,000</td></tr><tr><td>The year</td><td>118,000</td><td>3,660</td><td>10,400</td><td>7,500,000</td></tr><tr><td>1919 -20.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>5,210</td><td>4,010</td><td>4,460</td><td>274,000</td></tr><tr><td>November</td><td>,390</td><td>200</td><td>4,260</td><td>253,000</td></tr><tr><td>December</td><td>17,800</td><td>200</td><td>5,760</td><td>354,000</td></tr><tr><td>January</td><td>5,320</td><td>4,690</td><td>4,910</td><td>302,0</td></tr><tr><td>February</td><td>,120</td><td>4,490</td><td>4,780</td><td>275,0</td></tr><tr><td>March</td><td>18,200</td><td>5,210</td><td>8,380</td><td>515,00</td></tr><tr><td>April</td><td>,500</td><td>6,120</td><td>11,300</td><td>672,000</td></tr><tr><td>May</td><td>7,710</td><td>4,490</td><td>5,870</td><td>361,00</td></tr><tr><td>June</td><td>,100</td><td>3,740</td><td>4,170</td><td>248,000</td></tr><tr><td>July</td><td>,830</td><td>3,400</td><td>3,590</td><td>221,00</td></tr><tr><td>August</td><td>3,400</td><td>3,240</td><td>3,370</td><td>207,000</td></tr><tr><td>September</td><td>3,580</td><td>3,320</td><td>3,440</td><td>205,000</td></tr><tr><td>The year</td><td>28,500</td><td>3,240</td><td>5,380</td><td>3,890,000</td></tr></table>",
+                "embed": "# Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920.\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off in\nacre-feet.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1918 -19.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>23,600</td><td>490</td><td>5,680</td><td>349,000</td></tr><tr><td>November</td><td>9,540</td><td>4, 490</td><td>5, ,650</td><td>336,000</td></tr><tr><td>December</td><td>13,700</td><td>4,700</td><td>,890</td><td>362,000</td></tr><tr><td>January</td><td>55,000</td><td>4,700</td><td>13,400</td><td>824,000</td></tr><tr><td>February</td><td>118,000</td><td>7,430</td><td>29,200</td><td>1,620,000</td></tr><tr><td>March</td><td>56,200</td><td>12,2</td><td>21,800</td><td>1,340,000</td></tr><tr><td>April</td><td>24,900</td><td></td><td>17,500</td><td>1,040,000</td></tr><tr><td>May</td><td></td><td>6,890</td><td>420</td><td>579,000</td></tr><tr><td>June</td><td>6,120</td><td>4,590</td><td>5,150</td><td>306,000</td></tr><tr><td>July</td><td>4,590</td><td>4,100</td><td>4,290</td><td>264,000</td></tr><tr><td>August</td><td>4,100</td><td>3,740</td><td>3,950</td><td>243,000</td></tr><tr><td>September</td><td>5,880</td><td>3,660</td><td>4,040</td><td>240,000</td></tr><tr><td>The year</td><td>118,000</td><td>3,660</td><td>10,400</td><td>7,500,000</td></tr><tr><td>1919 -20.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>5,210</td><td>4,010</td><td>4,460</td><td>274,000</td></tr><tr><td>November</td><td>,390</td><td>200</td><td>4,260</td><td>253,000</td></tr><tr><td>December</td><td>17,800</td><td>200</td><td>5,760</td><td>354,000</td></tr><tr><td>January</td><td>5,320</td><td>4,690</td><td>4,910</td><td>302,0</td></tr><tr><td>February</td><td>,120</td><td>4,490</td><td>4,780</td><td>275,0</td></tr><tr><td>March</td><td>18,200</td><td>5,210</td><td>8,380</td><td>515,00</td></tr><tr><td>April</td><td>,500</td><td>6,120</td><td>11,300</td><td>672,000</td></tr><tr><td>May</td><td>7,710</td><td>4,490</td><td>5,870</td><td>361,00</td></tr><tr><td>June</td><td>,100</td><td>3,740</td><td>4,170</td><td>248,000</td></tr><tr><td>July</td><td>,830</td><td>3,400</td><td>3,590</td><td>221,00</td></tr><tr><td>August</td><td>3,400</td><td>3,240</td><td>3,370</td><td>207,000</td></tr><tr><td>September</td><td>3,580</td><td>3,320</td><td>3,440</td><td>205,000</td></tr><tr><td>The year</td><td>28,500</td><td>3,240</td><td>5,380</td><td>3,890,000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.05128205128205128,
+                            "top": 0.07622981599699587,
+                            "width": 0.842948717948718,
+                            "height": 0.028914757791963952,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04484864748441256,
+                            "top": 0.11807145545950878,
+                            "width": 0.8545183866451949,
+                            "height": 0.3769670257969454,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off in\nacre-feet.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1918 -19.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>23,600</td><td>490</td><td>5,680</td><td>349,000</td></tr><tr><td>November</td><td>9,540</td><td>4, 490</td><td>5, ,650</td><td>336,000</td></tr><tr><td>December</td><td>13,700</td><td>4,700</td><td>,890</td><td>362,000</td></tr><tr><td>January</td><td>55,000</td><td>4,700</td><td>13,400</td><td>824,000</td></tr><tr><td>February</td><td>118,000</td><td>7,430</td><td>29,200</td><td>1,620,000</td></tr><tr><td>March</td><td>56,200</td><td>12,2</td><td>21,800</td><td>1,340,000</td></tr><tr><td>April</td><td>24,900</td><td></td><td>17,500</td><td>1,040,000</td></tr><tr><td>May</td><td></td><td>6,890</td><td>420</td><td>579,000</td></tr><tr><td>June</td><td>6,120</td><td>4,590</td><td>5,150</td><td>306,000</td></tr><tr><td>July</td><td>4,590</td><td>4,100</td><td>4,290</td><td>264,000</td></tr><tr><td>August</td><td>4,100</td><td>3,740</td><td>3,950</td><td>243,000</td></tr><tr><td>September</td><td>5,880</td><td>3,660</td><td>4,040</td><td>240,000</td></tr><tr><td>The year</td><td>118,000</td><td>3,660</td><td>10,400</td><td>7,500,000</td></tr><tr><td>1919 -20.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>5,210</td><td>4,010</td><td>4,460</td><td>274,000</td></tr><tr><td>November</td><td>,390</td><td>200</td><td>4,260</td><td>253,000</td></tr><tr><td>December</td><td>17,800</td><td>200</td><td>5,760</td><td>354,000</td></tr><tr><td>January</td><td>5,320</td><td>4,690</td><td>4,910</td><td>302,0</td></tr><tr><td>February</td><td>,120</td><td>4,490</td><td>4,780</td><td>275,0</td></tr><tr><td>March</td><td>18,200</td><td>5,210</td><td>8,380</td><td>515,00</td></tr><tr><td>April</td><td>,500</td><td>6,120</td><td>11,300</td><td>672,000</td></tr><tr><td>May</td><td>7,710</td><td>4,490</td><td>5,870</td><td>361,00</td></tr><tr><td>June</td><td>,100</td><td>3,740</td><td>4,170</td><td>248,000</td></tr><tr><td>July</td><td>,830</td><td>3,400</td><td>3,590</td><td>221,00</td></tr><tr><td>August</td><td>3,400</td><td>3,240</td><td>3,370</td><td>207,000</td></tr><tr><td>September</td><td>3,580</td><td>3,320</td><td>3,440</td><td>205,000</td></tr><tr><td>The year</td><td>28,500</td><td>3,240</td><td>5,380</td><td>3,890,000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920. (cont.)\n\n## PIT RIVER BASIN.\n\n## PIT RIVER AT HENDERSON, CALIF.\n\nLOCATION.-In sec. 36, T. 37 N., R. 1 W., at Big Bend ferry, one-fourth of a mile above Henderson, Shasta County. Nelson Creek enters half a mile above and Kosk Creek 1 mile below station.\n\nDRAINAGE AREA.-Not measured.\n\n- RECORDS AVAILABLE.-September 28, 1910, to September 30, 1920.\n\nGage.-Gurley graph water-stage recorder 50 feet below vertical staff fastened to an alder tree on left bank about 100 feet above ferry; the gages do not read exactly the same on account of the slope of water surface. Staff gage is the original gage. From December 28, 1912, to September 21, 1917, a Gurley printing water-stage recorder was used. Original datum has been maintained.\n\nDISCHARGE MEASUREMETS.-Made from cable 25 feet downstream from water-stage recorder.",
+                "embed": "# Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920. (cont.)\n\n## PIT RIVER BASIN.\n\n## PIT RIVER AT HENDERSON, CALIF.\n\nLOCATION.-In sec. 36, T. 37 N., R. 1 W., at Big Bend ferry, one-fourth of a mile above Henderson, Shasta County. Nelson Creek enters half a mile above and Kosk Creek 1 mile below station.\n\nDRAINAGE AREA.-Not measured.\n\n- RECORDS AVAILABLE.-September 28, 1910, to September 30, 1920.\n\nGage.-Gurley graph water-stage recorder 50 feet below vertical staff fastened to an alder tree on left bank about 100 feet above ferry; the gages do not read exactly the same on account of the slope of water surface. Staff gage is the original gage. From December 28, 1912, to September 21, 1917, a Gurley printing water-stage recorder was used. Original datum has been maintained.\n\nDISCHARGE MEASUREMETS.-Made from cable 25 feet downstream from water-stage recorder.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.36217948717948717,
+                            "top": 0.5137063462260608,
+                            "width": 0.2141025641025641,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "PIT RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2858974358974359,
+                            "top": 0.5377393916635373,
+                            "width": 0.36730769230769234,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "PIT RIVER AT HENDERSON, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046794871794871795,
+                            "top": 0.5565152084115659,
+                            "width": 0.8467948717948718,
+                            "height": 0.04280886218550507,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In sec. 36, T. 37 N., R. 1 W., at Big Bend ferry, one-fourth of a mile above Henderson, Shasta County. Nelson Creek enters half a mile above and Kosk Creek 1 mile below station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046153846153846156,
+                            "top": 0.6034547502816372,
+                            "width": 0.3391025641025641,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-Not measured.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.04551282051282051,
+                            "top": 0.6192264363499812,
+                            "width": 0.6801282051282052,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE.-September 28, 1910, to September 30, 1920.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04487179487179487,
+                            "top": 0.6346226060833646,
+                            "width": 0.8487179487179487,
+                            "height": 0.07698084866691701,
+                            "page": 1
+                        },
+                        "content": "Gage.-Gurley graph water-stage recorder 50 feet below vertical staff fastened to an alder tree on left bank about 100 feet above ferry; the gages do not read exactly the same on account of the slope of water surface. Staff gage is the original gage. From December 28, 1912, to September 21, 1917, a Gurley printing water-stage recorder was used. Original datum has been maintained.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04551282051282051,
+                            "top": 0.7123544874202028,
+                            "width": 0.8467948717948718,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMETS.-Made from cable 25 feet downstream from water-stage recorder.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920. (cont.)\n\n## PIT RIVER AT HENDERSON, CALIF. (cont.)\n\nCHANNEL AND CONTROL.-Rough; boulders and coarse gravel; fairly permanent. One channel at all stages; banks not subject to overflow.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year ending September 30, 1919, from water-stage recorder, 3.60 feet at 7 p.m. April 2 (discharge, 8,830 second- feet); minimum stage from water-stage recorder, 0.41 foot August 22 and 23 (discharge, 2,150 second-feet).\n\nMaximum stage during year ending September 30, 1920, from water-stage recorder, 1.88 feet at 5 a.m. April 18 (discharge, 4,780 second-feet); minimum stage from water-stage recorder, 0.32 foot September 22 (discharge, 2,010 second- feet).\n\n1910-1920: Maximum stage from water-stage recorder, 5.39 feet at 8 p.m. April 25, 1917 (discharge, 13,600 second-feet); minimum stage occurred in 1920.",
+                "embed": "# Monthly discharge of Sacramento River near Red Bluff, Calif., for the years ending Sept. 30, 1919 and 1920. (cont.)\n\n## PIT RIVER AT HENDERSON, CALIF. (cont.)\n\nCHANNEL AND CONTROL.-Rough; boulders and coarse gravel; fairly permanent. One channel at all stages; banks not subject to overflow.\n\nEXTREMES OF DISCHARGE.-Maximum stage during year ending September 30, 1919, from water-stage recorder, 3.60 feet at 7 p.m. April 2 (discharge, 8,830 second- feet); minimum stage from water-stage recorder, 0.41 foot August 22 and 23 (discharge, 2,150 second-feet).\n\nMaximum stage during year ending September 30, 1920, from water-stage recorder, 1.88 feet at 5 a.m. April 18 (discharge, 4,780 second-feet); minimum stage from water-stage recorder, 0.32 foot September 22 (discharge, 2,010 second- feet).\n\n1910-1920: Maximum stage from water-stage recorder, 5.39 feet at 8 p.m. April 25, 1917 (discharge, 13,600 second-feet); minimum stage occurred in 1920.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04551282051282051,
+                            "top": 0.7438978595568907,
+                            "width": 0.8455128205128205,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "CHANNEL AND CONTROL.-Rough; boulders and coarse gravel; fairly permanent. One channel at all stages; banks not subject to overflow.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04423076923076923,
+                            "top": 0.7750657153586181,
+                            "width": 0.8487179487179487,
+                            "height": 0.06083364626361247,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-Maximum stage during year ending September 30, 1919, from water-stage recorder, 3.60 feet at 7 p.m. April 2 (discharge, 8,830 second- feet); minimum stage from water-stage recorder, 0.41 foot August 22 and 23 (discharge, 2,150 second-feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0858974358974359,
+                            "top": 0.8377769432970334,
+                            "width": 0.8064102564102564,
+                            "height": 0.0604581299286519,
+                            "page": 1
+                        },
+                        "content": "Maximum stage during year ending September 30, 1920, from water-stage recorder, 1.88 feet at 5 a.m. April 18 (discharge, 4,780 second-feet); minimum stage from water-stage recorder, 0.32 foot September 22 (discharge, 2,010 second- feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08717948717948718,
+                            "top": 0.9008636875704094,
+                            "width": 0.8038461538461539,
+                            "height": 0.030416823131806235,
+                            "page": 1
+                        },
+                        "content": "1910-1920: Maximum stage from water-stage recorder, 5.39 feet at 8 p.m. April 25, 1917 (discharge, 13,600 second-feet); minimum stage occurred in 1920.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

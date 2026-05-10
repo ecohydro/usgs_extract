@@ -1,0 +1,49 @@
+,ID,PAGE_NUMBER,LATITUDE,LONGITUDE,WATERSOURCE_NAME,COUNTY,DATE_OF_DATA,RESOLUTION,WATER_TYPE
+0,56394,282,NA,NA,NA,NA,01/01/1975-31/12/2031,yearly,Groundwater
+1,56394,282,NA,NA,NA,NA,01/01/1975-31/12/2031,yearly,Groundwater
+2,2846,29,NA,NA,Whitewater River,NA,NA-NA,Yearly,Groundwater
+3,2846,29,NA,NA,San Gorgonio Pass subbasin,NA,NA-NA,Yearly,Groundwater
+4,2846,29,NA,NA,Snow Creek,NA,NA-NA,Yearly,Groundwater
+5,2846,29,NA,NA,Falls Creek,NA,NA-NA,Yearly,Groundwater
+6,2846,29,NA,NA,Chino Canyon,NA,NA-NA,Yearly,Groundwater
+7,2846,29,NA,NA,Tahquitz Creek,NA,NA-NA,Yearly,Groundwater
+8,2846,29,NA,NA,Palm Canyon,NA,NA-NA,Yearly,Groundwater
+9,2846,29,NA,NA,Deep Creek (Palm Desert),NA,NA-NA,Yearly,Groundwater
+10,2846,29,NA,NA,Miscellaneous,NA,NA-NA,Yearly,Groundwater
+11,38797,8,-123.4567,37.8902,CACHE CREEK DRAINAGE BASIN,California,01/01/2020-12/31/2020,yearly,Stream
+12,38797,8,-123.4567,37.8902,Small lake in the basin,California,01/01/2020-12/31/2020,yearly,Reservoir
+13,53419,29,"39°41'45""N","123°28'46""",Spring Pinches,MENDOCINO,May-September 1965,daily,Groundwater
+14,53419,29,"39°39'25""N","123°35'15""","21N/15W -19M,M",MENDOCINO,May-September 1965,daily,Groundwater
+15,53419,29,"39°49'34""N","123°34'48""","23N/15W -19L,M",MENDOCINO,May-September 1965,daily,Groundwater
+16,53419,29,"38°05'04""N","122°19'41""","6N/3W -19X,M",MENDOCINO,May-September 1965,daily,Groundwater
+17,53419,29,"38°23'23""N","122°16'39""","6N/4W -2N,M",MENDOCINO,May-September 1965,daily,Groundwater
+18,53419,29,"38°20'20""N","122°15'33""","6N/4W -25E,M",MENDOCINO,May-September 1965,daily,Groundwater
+19,53419,29,"38°23'49""N","122°16'39""","6N/4W -2N,M",NAPA,May-September 1965,daily,Groundwater
+20,53419,29,"38°20'50""N","122°14'06""","6N/3W -19X,M",NAPA,May-September 1965,daily,Groundwater
+21,53419,29,"38°17'04""N","122°19'41""","5N/4W -17C,M",NAPA,May-September 1965,daily,Groundwater
+22,3067,268,-NA-,-NA-,Rainfall Data,-NA-,01/01/1955-12/31/2013,Monthly,Precipitation
+23,3067,268,-NA-,-NA-,Water Volume (Ac-ft),-NA-,01/01/1955-12/31/2013,Annual,Groundwater
+24,10372,13,NA,NA,"T. 30 S., R. 27 E.",Mount Diablo,01/01/1975-12/31/1977,Yearly,Groundwater
+25,10372,13,NA,NA,30 E.,Mount Diablo,01/01/1975-12/31/1977,Yearly,Groundwater
+26,10372,13,NA,NA,N. 18 W.,San Bernardino,01/01/1975-12/31/1977,Yearly,Groundwater
+27,10372,13,NA,NA,20 W.,San Bernardino,01/01/1975-12/31/1977,Yearly,Groundwater
+28,48176,27,NA,NA,Pajaro Valley,"Santa Cruz, California",01/1963-12/1968,Yearly,Groundwater
+29,48176,27,NA,NA,Irrigation Pumpage,"Santa Cruz, California",01/1963-12/1968,Yearly,Groundwater
+30,48176,27,NA,NA,Other Pumpage,"Santa Cruz, California",01/1963-12/1968,Yearly,Groundwater
+31,48176,27,NA,NA,Total Pumpage,"Santa Cruz, California",01/1963-12/1968,Yearly,Groundwater
+32,3067,266,NA,NA,NA,NA,01/01/1955-12/31/1956,monthly,Precipitation
+33,3067,266,NA,NA,NA,NA,01/01/1955-12/31/1956,monthly,Precipitation
+34,28950,19,NA,NA,No data available.,No data available.,No data available.-No data available.,No data available.,Other (Choose a WATER_TYPE that best describes the data)
+35,25076,28,NA,NA,Erskine Creek near Isabella,NA,01/10/1911-30/09/1912,monthly,Stream
+36,25076,28,NA,NA,Erskine Creek near Isabella,NA,01/10/1912-30/09/1913,monthly,Stream
+37,25076,28,NA,NA,Erskine Creek near Isabella,NA,01/10/1913-30/09/1914,monthly,Stream
+38,25076,28,NA,NA,Basin Creek near Havilah,NA,01/10/1911-30/11/1912,monthly,Stream
+39,25076,28,NA,NA,Tejon House Creek at Tejon ranch house,NA,01/10/1910-30/02/1911,monthly,Stream
+40,25076,32,36.5432,-118.8131,"Kaweah River at McKay Point, Lemon Cove",Tulare County,NA-NA,yearly,Stream
+41,25076,32,36.5432,-118.8131,"Kaweah River at McKay Point, Lemon Cove",Tulare County,NA-NA,yearly,Stream
+42,2846,46,-33.5833,-117.3333,Desert Hot Springs,NA,01/01/1970-12/31/1999,yearly,Reservoir
+43,2846,46,-33.7333,-116.5833,Mission Creek,NA,01/01/1970-12/31/1999,yearly,Reservoir
+44,2846,46,-33.8333,-116.8333,Garnet Hill,NA,01/01/1970-12/31/1999,yearly,Reservoir
+45,2846,46,-33.9167,-117.0833,Whitewater River,NA,01/01/1970-12/31/1999,yearly,Reservoir
+46,56394,254,NA,NA,NA,NA,01/10/2022-30/09/2022,monthly,Precipitation
+47,56394,254,NA,NA,NA,NA,01/10/2022-30/09/2022,monthly,Precipitation

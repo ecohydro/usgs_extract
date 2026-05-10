@@ -1,0 +1,28 @@
+```json
+{
+    "Watersource_Name": "Fresno River",
+    "County": "Merced County",
+    "Location": {
+        "Latitude": 37.373,
+        "Longitude": -120.6523
+    },
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily and Monthly",
+    "Units_Of_Measurement": "Second-feet for discharge, acre-feet for run-off",
+    "Dates_of_Recording": "01/11/1915-09/30/1925",
+    "Water_Type": "Stream discharge"
+},
+{
+    "Watersource_Name": "Merced River at Happy Isles Bridge",
+    "County": "Mariposa County",
+    "Location": {
+        "Latitude": 37.7546,
+        "Longitude": -119.5869
+    },
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Daily (Starting August 23, 1915)",
+    "Units_Of_Measurement": "Not specified",
+    "Dates_of_Recording": "08/23/1915-09/30/1925",
+    "Water_Type": "Stream discharge"
+}
+```

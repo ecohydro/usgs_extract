@@ -1,0 +1,37 @@
+```json
+{
+    "Watersource_Name": "ANTELOPE CREEK NEAR RED BLUFF",
+    "County": "Tehama County",
+    "Location": {
+        "Latitude": 40.202778,
+        "Longitude": -122.118056,
+        "Description": "1.8 miles upstream from diversion dam of Los Molinos Mutual Water Co., 6.5 miles east of Red Bluff, and 9.7 miles upstream from the mouth."
+    },
+    "Townships_Ranges_Sections": [],
+    "Temporal_Resolution": "Variable (dates provided in table)",
+    "Units_Of_Measurement": {
+        "pH": "",
+        "Specific Conductance": "micro-mhos at 25°C",
+        "Sodium Absorption Ratio": "",
+        "Hardness as CaCO3": "mg/L",
+        "Dissolved Solids": ["Tons per day", "Tons per acre-foot", "Parts per million"],
+        "Boron": "ppm",
+        "Nitrate": "ppm",
+        "Fluoride": "",
+        "Chloride": "ppm",
+        "Sulfate": "ppm",
+        "Carbonate": "mg/L",
+        "Bicarbonate": "mg/L",
+        "Potassium": "ppm",
+        "Sodium": "ppm",
+        "Magnesium": "ppm",
+        "Calcium": "ppm",
+        "Silica": "ppm"
+    },
+    "Dates_of_Recording": {
+        "Start_Date": "10/06/1965",
+        "End_Date": "09/01/1966"
+    },
+    "Water_Type": "Stream discharge"
+}
+```
