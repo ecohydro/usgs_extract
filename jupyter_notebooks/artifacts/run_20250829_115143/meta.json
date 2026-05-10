@@ -1,0 +1,13 @@
+{
+  "created": "2025-08-29 11:51:43",
+  "n_tables": 5,
+  "notes": "Summaries + full analysis table exported for plotting/other notebooks",
+  "source_notebook": "working_datacrunch.ipynb",
+  "summary_keys": [
+    "df_summary",
+    "summary_by_type",
+    "summary_by_year",
+    "summary_by_decade"
+  ],
+  "everything_key": "df"
+}

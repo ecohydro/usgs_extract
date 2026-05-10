@@ -1,0 +1,11 @@
+Metadata for NWIS Sites exported from NWIS Mapper
+(Exporter Version 1.1.0)
+Time and Date data were exported: 2025-08-26 16:36
+Request Number: bac1707a-51a8-4137-a781-8fcdc748a25b
+Number of sites in request: 32
+Site type: Surface-Water
+
+Unique NWIS query arguments: county_cd=06083
+
+NWIS request URL as XML:
+https://waterdata.usgs.gov/ca/nwis/measurements?county_cd=06083&format=station_list&station_list_format=xml&column_name=agency_cd&column_name=site_no&column_name=station_nm&begin_date=1800-01-01&end_date=1979-12-31&set_logscale_y=1&channel_html_info=0&date_format=YYYY-MM-DD&channel_rdb_info=0&rdb_compression=file&list_of_search_criteria=county_cd&column_name=site_tp_cd&column_name=dec_lat_va&column_name=dec_long_va&column_name=agency_use_cd

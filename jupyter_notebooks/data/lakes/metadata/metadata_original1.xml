@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Consolidated Data Basin Info: </procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<eainfo>
+		<detailed>
+			<attr>
+				<attrlabl>ACRES</attrlabl>
+				<attalias>ACRES</attalias>
+				<attrdef>Area of the polygon in acres.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ATTRIBUTE</attrlabl>
+				<attalias>ATTRIBUTE</attalias>
+				<attrdef>Alphanumeric code identifying the wetland classification of the polygon.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attalias>OBJECTID</attalias>
+				<attrdef>Internal feature number.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attalias>SHAPE</attalias>
+				<attrdef>Feature geometry.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_Area</attrlabl>
+				<attalias>SHAPE_Area</attalias>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_Length</attrlabl>
+				<attalias>SHAPE_Length</attalias>
+				<attrdef>Length of feature in internal units.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>WETLAND_TYPE</attrlabl>
+				<attalias>WETLAND_TYPE</attalias>
+				<attrdef>General description of the wetland based on the Cowardin wetland classification.</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<idinfo>
+		<descript>
+			<abstract>This data set represents the extent, approximate location and type of wetlands and deepwater habitats in and around Santa Barbara County. These data delineate the areal extent of wetlands and surface waters.For original data set and full description, please visit https://www.fws.gov/wetlands/data/mapper.html</abstract>
+		</descript>
+		<ptcontac>
+			<cntinfo>
+				<cntemail>justin.brice@consbio.org</cntemail>
+				<cntpos>GIS Technician</cntpos>
+				<cntperp>
+					<cntper>Justin Brice</cntper>
+					<cntorg>US Fish &amp;amp; Wildlife Service</cntorg>
+				</cntperp>
+			</cntinfo>
+		</ptcontac>
+		<useconst>This work is licensed under a  Creative Commons Attribution 3.0 License.</useconst>
+		<keywords>
+			<theme>
+				<themekey>santa barbara,national,wetlands,usfws,inventory</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<onlink>https://databasin.org/datasets/5b0789a8762c4f82a70f8df66b1fbee8</onlink>
+				<title>USFWS National Wetlands Inventory in Santa Barbara</title>
+				<origin>USFWS National Wetlands InventoryDownloaded from https://www.fws.gov/wetlands/Data/Mapper.html</origin>
+			</citeinfo>
+		</citation>
+		<spdom>
+			<bounding>
+				<southbc>3946388.8887</southbc>
+				<northbc>4210052.1285</northbc>
+				<eastbc>-13243312.4957</eastbc>
+				<westbc>-13458705.5572</westbc>
+			</bounding>
+		</spdom>
+	</idinfo>
+	<distinfo>
+		<techpreq>Desktop GIS software.</techpreq>
+		<stdorder>
+			<digform>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Download from https://databasin.org</accinstr>
+					</onlinopt>
+					<onlineopt>
+						<computer>
+							<networka>
+								<networkr>https://databasin.org/datasets/5b0789a8762c4f82a70f8df66b1fbee8</networkr>
+							</networka>
+						</computer>
+					</onlineopt>
+				</digtopt>
+				<digtinfo>
+					<filedec>No compression applied</filedec>
+					<formvern>ArcGIS 10</formvern>
+					<formspec>Feature Layer</formspec>
+					<formname>Feature Layer</formname>
+				</digtinfo>
+			</digform>
+			<ordering>Download from https://databasin.org</ordering>
+			<fees>None</fees>
+		</stdorder>
+		<distliab>No warranty is made by Data Basin for use of this dataset.  No warranty is made by Data Basin regarding the accuracy, reliability, or completeness of this dataset. In no event shall Data Basin have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic or attribute data contained within this dataset or arising out of the delivery, installation, operation, or support by Data Basin.</distliab>
+		<distrib>
+			<cntinfo>
+				<cntvoice>541-757-0687</cntvoice>
+				<cntemail>databasin_admin@consbio.org</cntemail>
+				<cntperp>
+					<cntorg>Data Basin</cntorg>
+					<cntper>Data Basin Administrator</cntper>
+				</cntperp>
+				<cntaddr>
+					<country>USA</country>
+					<city>Corvallis</city>
+					<postal>97333</postal>
+					<address>136 SW Washington Ave, Suite 202</address>
+					<addrtype>physical address</addrtype>
+					<state>OR</state>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<Esri>
+		<CreaDate>20161129</CreaDate>
+		<CreaTime>13284500</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>TRUE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\ORCA\Users\annie.jacobs\CBI-GIS\Jacobs\Data\Layer_Packages\wetlands_lakes\commondata\inlandwaters\wetlands_lakes</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<copyHistory><copy source="C:\Users\annie.jacobs\CBI-GIS\Jacobs\Data\Source_Prepared\Folders\inlandWaters\wetlands_lakes" dest="\\ORCA\Users\annie.jacobs\CBI-GIS\Jacobs\Data\Layer_Packages\wetlands_lakes\commondata\inlandwaters\wetlands_lakes" date="20161129" time="13284500"></copy></copyHistory></DataProperties>
+		<ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri>
+</metadata>

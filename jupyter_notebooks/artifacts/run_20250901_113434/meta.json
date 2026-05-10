@@ -1,0 +1,19 @@
+{
+  "created": "2025-09-01 11:34:34",
+  "n_tables": 4,
+  "notes": "Dual-file processing: main + additional Santa Barbara datasets",
+  "source_notebook": "working_datacrunch_sbaddition.ipynb",
+  "summary_keys": [
+    "df_additional",
+    "df_additional_processed",
+    "df_main_processed",
+    "df_combined"
+  ],
+  "everything_key": "df_combined",
+  "processing_type": "dual_file_with_sb_additional",
+  "datasets": {
+    "main": "cleaned_metadata_final.csv",
+    "additional": "final_sbmetadata.csv",
+    "combined": "combined_metadata_with_years.csv"
+  }
+}

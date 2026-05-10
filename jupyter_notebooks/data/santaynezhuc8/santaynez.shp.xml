@@ -1,0 +1,191 @@
+<metadata>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Consolidated Data Basin Info: </procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<eainfo>
+		<detailed Name="santaynez">
+			<attr>
+				<attrlabl>AreaAcres</attrlabl>
+				<attalias>AreaAcres</attalias>
+				<attrdef>AreaAcres</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>AreaSqKm</attrlabl>
+				<attalias>AreaSqKm</attalias>
+				<attrdef>AreaSqKm</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrdef>FID</attrdef>
+				<attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr><attrlabl Sync="TRUE">OBJECTID_1</attrlabl><attalias Sync="TRUE">OBJECTID_1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>GNIS_ID</attrlabl>
+				<attalias>GNIS_ID</attalias>
+				<attrdef>GNIS_ID</attrdef>
+				<attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>HUC8</attrlabl>
+				<attalias>HUC8</attalias>
+				<attrdef>HUC8</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LoadDate</attrlabl>
+				<attalias>LoadDate</attalias>
+				<attrdef>LoadDate</attrdef>
+				<attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>MetaSource</attrlabl>
+				<attalias>MetaSource</attalias>
+				<attrdef>MetaSource</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Name</attrlabl>
+				<attalias>Name</attalias>
+				<attrdef>Name</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">120</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrdef>Shape</attrdef>
+				<attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attalias>Shape_Area</attalias>
+				<attrdef>Shape_Area</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attalias>Shape_Leng</attalias>
+				<attrdef>Shape_Leng</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SourceData</attrlabl>
+				<attalias>SourceData</attalias>
+				<attrdef>SourceData</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SourceFeat</attrlabl>
+				<attalias>SourceFeat</attalias>
+				<attrdef>SourceFeat</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SourceOrig</attrlabl>
+				<attalias>SourceOrig</attalias>
+				<attrdef>SourceOrig</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">130</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>States</attrlabl>
+				<attalias>States</attalias>
+				<attrdef>States</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>TNMID</attrlabl>
+				<attalias>TNMID</attalias>
+				<attrdef>TNMID</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<enttyp><enttypl Sync="TRUE">santaynez</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp></detailed>
+	</eainfo>
+	<idinfo>
+		<descript>
+			<abstract>A "Select by Location" was performed to select all HUC 8 boundaries that intersected the Santa Barbara County buffered boundary.The Watershed Boundary Dataset (WBD) defines the areal extent of surface water drainage to a point, accounting for all land and surface areas. Watershed Boundaries are determined solely upon science-based hydrologic principles, not favoring any administrative boundaries or special projects, nor particular program or agency. The intent of defining Hydrologic Units (HU) for the Watershed Boundary Dataset is to establish a base-line drainage boundary framework, accounting for all land and surface areas. At a minimum, the WBD is being delineated and georeferenced to the USGS 1:24,000 scale topographic base map meeting National Map Accuracy Standards (NMAS). Hydrologic units are given a Hydrologic Unit Code (HUC). For example, a hydrologic region has a 2-digit HUC. A HUC describes where the unit is in the country and the level of the unit."A hydrologic unit is a drainage area delineated to nest in a multi-level, hierarchical drainage system. Its boundaries are defined by hydrographic and topographic criteria that delineate an area of land upstream from a specific point on a river, stream or similar surface waters. A hydrologic unit can accept surface water directly from upstream drainage areas, and indirectly from associated surface areas such as remnant, non-contributing, and diversions to form a drainage area with single or multiple outlet points. Hydrologic units are only synonymous with classic watersheds when their boundaries include all the source area contributing surface water to a single defined outlet point."Layer ID: 213</abstract>
+		</descript>
+		<ptcontac>
+			<cntinfo>
+				<cntemail>justin.brice@consbio.org</cntemail>
+				<cntpos>GIS Technician</cntpos>
+				<cntperp>
+					<cntper>Justin Brice</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+			</cntinfo>
+		</ptcontac>
+		<useconst>This work is licensed under a  Creative Commons Attribution 3.0 License.</useconst>
+		<keywords>
+			<theme>
+				<themekey>WBD,California,Santa Barbara,hydrologic,HUC</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<onlink>https://databasin.org/datasets/863edef35dfe4db5ae7a52fea8e8b19e</onlink>
+				<title>HUC 8 Watershed Boundaries in and around Santa Barbara County CA</title>
+				<origin>USGSDownloaded from:http://nhd.usgs.gov/data.html</origin>
+			</citeinfo>
+		</citation>
+		<spdom>
+			<bounding>
+				<southbc>3853744.4143</southbc>
+				<northbc>4413453.6615</northbc>
+				<eastbc>-13141375.1276</eastbc>
+				<westbc>-13586713.4637</westbc>
+			</bounding>
+		</spdom>
+	</idinfo>
+	<distinfo>
+		<techpreq>Desktop GIS software.</techpreq>
+		<stdorder>
+			<digform>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Download from https://databasin.org</accinstr>
+					</onlinopt>
+					<onlineopt>
+						<computer>
+							<networka>
+								<networkr>https://databasin.org/datasets/863edef35dfe4db5ae7a52fea8e8b19e</networkr>
+							</networka>
+						</computer>
+					</onlineopt>
+				</digtopt>
+				<digtinfo>
+					<filedec>No compression applied</filedec>
+					<formvern>ArcGIS 10</formvern>
+					<formspec>Feature Layer</formspec>
+					<formname>Feature Layer</formname>
+				</digtinfo>
+			</digform>
+			<ordering>Download from https://databasin.org</ordering>
+			<fees>None</fees>
+		</stdorder>
+		<distliab>No warranty is made by Data Basin for use of this dataset.  No warranty is made by Data Basin regarding the accuracy, reliability, or completeness of this dataset. In no event shall Data Basin have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic or attribute data contained within this dataset or arising out of the delivery, installation, operation, or support by Data Basin.</distliab>
+		<distrib>
+			<cntinfo>
+				<cntvoice>541-757-0687</cntvoice>
+				<cntemail>databasin_admin@consbio.org</cntemail>
+				<cntperp>
+					<cntorg>Data Basin</cntorg>
+					<cntper>Data Basin Administrator</cntper>
+				</cntperp>
+				<cntaddr>
+					<country>USA</country>
+					<city>Corvallis</city>
+					<postal>97333</postal>
+					<address>136 SW Washington Ave, Suite 202</address>
+					<addrtype>physical address</addrtype>
+					<state>OR</state>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<Esri>
+		<CreaDate>20160504</CreaDate>
+		<CreaTime>17203700</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\LUNASTATION\C$\Users\aeliz\Dropbox\Documents\ArcGIS\chap2_map\data\santaynez.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<itemName Sync="TRUE">santaynez</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps>
+			<copyHistory>
+				<copy source="C:\windows\temp\tmp34elvo\commondata\outputs\HU8_select" dest="C:\windows\temp\tmp34elvo\863edef35dfe4db5ae7a52fea8e8b19e\commondata\outputs\HU8_select" date="20160504" time="17203700"/>
+			</copyHistory>
+			<coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_California_V_FIPS_0405_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.3.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_California_V_FIPS_0405_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,6561666.666666666],PARAMETER[&amp;quot;False_Northing&amp;quot;,1640416.666666667],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-118.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,34.03333333333333],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,35.46666666666667],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,33.5],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2229]]&lt;/WKT&gt;&lt;XOrigin&gt;-117608900&lt;/XOrigin&gt;&lt;YOrigin&gt;-91881400&lt;/YOrigin&gt;&lt;XYScale&gt;36269466.692146368&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102645&lt;/WKID&gt;&lt;LatestWKID&gt;2229&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportFeatures" Date="20250902" Time="162202">ExportFeatures "HUC 8 Watershed Boundaries in and around Santa Barbara County CA" C:\Users\aeliz\Dropbox\Documents\ArcGIS\chap2_map\data\santaynez.shp # NOT_USE_ALIAS "OBJECTID "OBJECTID" true true false 10 Long 0 10,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,OBJECTID,-1,-1;TNMID "TNMID" true true false 40 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,TNMID,0,39;MetaSource "MetaSource" true true false 40 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,MetaSource,0,39;SourceData "SourceData" true true false 100 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,SourceData,0,99;SourceOrig "SourceOrig" true true false 130 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,SourceOrig,0,129;SourceFeat "SourceFeat" true true false 40 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,SourceFeat,0,39;LoadDate "LoadDate" true true false 8 Date 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,LoadDate,-1,-1;GNIS_ID "GNIS_ID" true true false 10 Long 0 10,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,GNIS_ID,-1,-1;AreaAcres "AreaAcres" true true false 19 Double 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,AreaAcres,-1,-1;AreaSqKm "AreaSqKm" true true false 19 Double 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,AreaSqKm,-1,-1;States "States" true true false 50 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,States,0,49;HUC8 "HUC8" true true false 8 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,HUC8,0,7;Name "Name" true true false 120 Text 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,Name,0,119;Shape_Leng "Shape_Leng" true true false 19 Double 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,Shape_Leng,-1,-1;Shape_Area "Shape_Area" true true false 19 Double 0 0,First,#,HUC 8 Watershed Boundaries in and around Santa Barbara County CA,Shape_Area,-1,-1" #</Process></lineage></DataProperties>
+		<SyncDate>20250902</SyncDate><SyncTime>16220200</SyncTime><ModDate>20250902</ModDate><ModTime>16220200</ModTime></Esri>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 26100) ; Esri ArcGIS 13.3.0.52636</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">santaynez</resTitle><presForm><PresFormCd value="005" Sync="TRUE"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd value="001" Sync="TRUE"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="005" Sync="TRUE"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="2229" Sync="TRUE"></identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">5.3(9.0.0)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="santaynez"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><spdoinfo><ptvctinf><esriterm Name="santaynez"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><mdDateSt Sync="TRUE">20250902</mdDateSt></metadata>

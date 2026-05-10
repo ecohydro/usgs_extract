@@ -1,0 +1,59 @@
+
+# Lakes, National Wetlands Inventory
+
+
+## URL
+https://databasin.org/datasets/0278b9eedb6a4536b5cbb155956ee284/
+
+
+## Dataset Type
+ArcGIS
+
+
+## Credits
+USFWS National Wetlands Inventory
+
+
+## Uploaded By
+[Conservation Biology Institute](https://databasin.org/people/consbio/)
+
+
+## Description
+This data set represents the extent, approximate location and type of lakes in and around Santa Barbara County.
+
+  
+
+ For original data set and full description, please visit
+
+
+[https://www.fws.gov/wetlands/data/mapper.html](https://www.fws.gov/wetlands/data/mapper.html)
+
+
+## Use Constraints
+This work is licensed under a  Creative Commons Attribution 3.0 License .
+
+
+### Original Metadata
+metadata/metadata1_original.xml
+
+
+### Data Basin Metadata
+metadata/metadata1.xml
+
+
+### Data Files
+Lakes, National Wetlands Inventory.lpk
+
+
+
+### Attribute Data
+
+ACRES    ACRES    Area of the polygon in acres.    
+ATTRIBUTE    ATTRIBUTE    Alphanumeric code identifying the wetland classification of the polygon.    
+FID    FID    FID    
+OBJECTID    OBJECTID    Internal feature number.    
+Shape    Shape    Feature geometry.    
+SHAPE_Area    SHAPE_Area    Area of feature in internal units squared.    
+SHAPE_Leng    SHAPE_Leng    SHAPE_Leng    
+WETLAND_TY    WETLAND_TY    Wetland type    
+
