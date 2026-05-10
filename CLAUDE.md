@@ -168,6 +168,7 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 ### Step 1: Organize Final Data Output
 - Write a script to reorganize all files into the unified `{doc_id}/page_{N}/` structure
 - Extract metadata rows per page from `cleaned_metadata_final - Copy.csv` and save as individual CSVs
+- Join USGS document-level metadata from `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` into each per-page metadata CSV — the `id` column in the master metadata maps directly to the `Publication ID` column in `USGS_ID.xlsx`, which provides the USGS URL, Index ID (series), title, year, author, and ~55 additional document-level fields
 - Handle the SB County data exception
 - Identify and document any doc IDs present in metadata but missing from data folders (or vice versa)
 
@@ -194,6 +195,7 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 | File | Purpose |
 |------|---------|
 | `Data_Files/cleaned_metadata_final - Copy.csv` | Master metadata; links every page to its doc ID, coordinates, water type, dates |
+| `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` | ID crosswalk: maps project number ID (`Publication ID`) → USGS URL, Index ID, title, year, author, and ~55 document-level fields. 1,550 rows covering all documents. |
 | `Data_Files/2252_728 example/` | Reference example of target output folder structure |
 | `Hilton_Dissertation_USGSDig.docx` | Full paper draft — authoritative description of all methods and results |
 | `Chapter_2_USGS_Digitization/Yibo Results/May 27 2025 R4-6/api_run.py` | Core LLM metadata extraction script (calls UCSB HPC API: llama3 + deepseek-r1) |
