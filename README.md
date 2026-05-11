@@ -17,8 +17,8 @@ usgs_extract/
 │   │   │   ├── reducto/               ← Reducto.ai digitization scripts (final pipeline)
 │   │   │   └── validation/            ← accuracy evaluation of OCR outputs
 │   │   ├── 04_metadata_extraction/
-│   │   │   ├── workflow/              ← LLM (Phi-4) metadata extraction via UCSB HPC API
-│   │   │   └── validation/            ← accuracy evaluation of extracted metadata
+│   │   │   ├── 01_extract_metadata.py ← LLM (Phi-4) metadata extraction via UCSB HPC API
+│   │   │   └── validation/            ← MISSING: accuracy evaluation of extracted metadata
 │   │   └── 05_final_data_organization/ ← scripts to reorganize outputs into final per-page structure
 │   ├── 02_hydroshare/                 ← scripts to package data for HydroShare upload
 │   ├── 03_inventory/                  ← data inventory notebooks and summary figures
@@ -49,21 +49,6 @@ usgs_extract/
 
 ---
 
-## Quickstart: Table Detection (`code/01_digitization/02_table_detection/`)
-
-**Detect tables in PNGs using Microsoft Table Transformer**
-```bash
-python 01_detect.py \
-  --png-dir data/digitization_intermediates/01_download_and_preprocess/pngs/ \
-  --output-csv data/digitization_intermediates/02_table_detection/detections.csv \
-  --threshold 0.8
-```
-Output CSV has one row per detected table: `filename`, `doc_id`, `page_num`, `label` (table/table rotated), `score`, `bbox`. Already-processed files are skipped automatically on re-run.
-
-Ground truth validation data is in `data/digitization_intermediates/02_table_detection/validation/`. A script to compute recall/precision against that ground truth is **missing** — the 79% recall figure in the paper was computed manually.
-
----
-
 ## Quickstart: Download & Preprocess (`code/01_digitization/01_download_and_preprocess/`)
 
 **Step 1 — Download PDFs from USGS Publications Warehouse**
@@ -90,3 +75,41 @@ python 03_preprocess.py \
   --output-dir data/digitization_intermediates/01_download_and_preprocess/pngs/
 ```
 Outputs one `{pub_id}_page_{N}.png` per page at 300 DPI, grayscale.
+
+---
+
+## Quickstart: Table Detection (`code/01_digitization/02_table_detection/`)
+
+**Detect tables in PNGs using Microsoft Table Transformer**
+```bash
+python 01_detect.py \
+  --png-dir data/digitization_intermediates/01_download_and_preprocess/pngs/ \
+  --output-csv data/digitization_intermediates/02_table_detection/detections.csv \
+  --threshold 0.8
+```
+Output CSV has one row per detected table: `filename`, `doc_id`, `page_num`, `label` (table/table rotated), `score`, `bbox`. Already-processed files are skipped automatically on re-run.
+
+Ground truth validation data is in `data/digitization_intermediates/02_table_detection/validation/`. A script to compute recall/precision against that ground truth is **missing** — the 79% recall figure in the paper was computed manually.
+
+---
+
+## Step 3: OCR (`code/01_digitization/03_ocr/`)
+
+Tables were digitized using [Reducto.ai](https://reducto.ai) (paid API). Reducto outputs per-page JSON files with structured HTML tables extracted from the scanned PNGs. Scripts to call the Reducto API and convert its JSON output to CSV are **missing** — the raw JSON and CSV outputs are preserved in the data directories. PaddleOCR was tested but discarded due to poor structure preservation.
+
+---
+
+## Quickstart: Metadata Extraction (`code/01_digitization/04_metadata_extraction/`)
+
+**Extract metadata from Reducto per-page JSONs using Phi-4 via UCSB HPC**
+```bash
+export UCSB_LLM_API_KEY=your_key_here
+python 01_extract_metadata.py \
+  --json-dir data/digitization_intermediates/03_ocr/jsons/ \
+  --output-csv data/digitization_intermediates/04_metadata_extraction/metadata.csv
+```
+Requires per-page Reducto JSON files (one file per page, named `{doc_id}_page_{N}.json`). Skips pages with no Table blocks. Already-processed `(ID, PAGE_NUMBER)` pairs are skipped on re-run. Parse failures are written to `{doc_id}_{page_num}_error.txt` in the JSON directory.
+
+Output CSV matches the column schema of `cleaned_metadata_final - Copy.csv`: `ID, PAGE_NUMBER, Inferred_Latitude, Inferred_Longitude, Actual_Latitude, Actual_Longitude, Location, Townships_Ranges_Sections, Watersource_Name, County, Dates_of_Recording, Temporal_Resolution, Units_Of_Measurement, Water_Type, KeyTerms`.
+
+Validation data is in `Chapter_2_USGS_Digitization/Literature-Data Review/LLM-Metadata Testing/Accuracy evaluation/`. A script to compute accuracy against that ground truth is **missing**.
