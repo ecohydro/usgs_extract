@@ -218,6 +218,49 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 
 ---
 
+## Data Coverage Notes (organized output)
+
+The `data/digitized/` folder was populated by `code/01_digitization/06_final_data_organization/organize_data.py`. Across 622 docs and 74,492 pages, three categories of pages exist but have **no `_metadata.csv` file**:
+
+### Pages with no metadata rows (~10,919 pages, ~14.7%)
+The LLM metadata extraction (Phi-4) was only run on pages where a table was detected. Pages that Reducto processed but where no table was found — or where the table was output as plain text rather than structured HTML — were never sent to the LLM and therefore have no entry in `cleaned_metadata_final - Copy.csv`. These fall into three sub-types:
+
+1. **Non-data pages** — title pages, cover pages, introductions, references, figures. No table content present. Expected and not a data loss.
+
+2. **Tables that Reducto could not structure** — the page contains a visible table (e.g., `10166/page_10`: "Table 2.--Age and type of bedrock at each spring") but Reducto returned the content as plain text chunks rather than HTML `<table>` elements. The raw text is preserved in the `.json` file. This represents tables the pipeline did not successfully digitize. **No further digitization will be performed** — this is documented as a known limitation.
+
+3. **Table-of-contents pages** — pages with TOC-style formatting that Reducto parsed as a table but which contain no water measurement data.
+
+### Pages with no table CSVs (~7,127 pages, ~9.6%)
+These pages have a `.json` (Reducto ran) but no `_table*.csv` files. This occurs when Reducto processed the page but the downstream CSV conversion was not completed or the page had no digitizable table. The JSON is preserved.
+
+### Pages with no PNG (~260 pages, ~0.3%)
+A small number of pages have a JSON and CSVs but no corresponding `.png` file in either `UpdatedDataDec/` or `UpdatedDataJan/`. These are pages from documents that may have been processed outside the main PNG batches.
+
+### Santa Barbara County data (excluded)
+The SB County data was processed as an early test batch before standardized naming conventions were established. It is **not included** in `data/digitized/`. There are two distinct SB datasets:
+
+**sb1–sb7 + sb_page_full** (`Data_Files/updatedSB/Scanned_SB/`, naming: `sb{N}_page_full_table{M}.csv`): Eight documents, all from the annual "Water levels in observation wells in Santa Barbara County" Open-File Report series (USGS) and one Tecolote Tunnel springs report. Each has a readable Reducto JSON (`Data_Files/updatedSB/Scanned_SB/json/`). The USGS document identities were recovered from the JSON content:
+
+| File | Data year | USGS Index ID | Pub ID |
+|------|-----------|--------------|--------|
+| sb1 | 1956 | ofr5778 | 23995 |
+| sb2 | 1958 | ofr5983 | None |
+| sb3 | 1960 | ofr6196 | None |
+| sb4 | 1948–49 | ofr49118 (Tecolote Tunnel, 1st progress report) | None |
+| sb5 | 1963 | ofr64117 | None |
+| sb6 | 1961–63 | ofr6291/63103/64117 (multi-year) | None |
+| sb7 | 1962 | ofr63103 | None |
+| sb (unnumbered) | 1959 | ofr60102 | None |
+
+**70300001 files** (`Data_Files/Scanned_SB/`, naming: `70300001_page{N}.csv` / `70300001_table{N}.csv`): 434 CSV files from an unidentified document (same annual observation well series, mid-1950s era based on content). Two orphaned Reducto JSONs (`ReductJson/Scanned_SB/report (8).json` and `report (9).json`, 180 and 281 pages respectively) have their content stored at expired S3 URLs (expired 2025-01-11) and cannot be read. Since no readable JSON exists for these CSVs, **this data is permanently excluded**.
+
+See `jupyter_notebooks/santabarbara.ipynb` for analysis using the SB data.
+
+A full per-page log is at `data/digitized/_organization_log.txt`.
+
+---
+
 ## Technical Notes
 
 - Metadata extraction uses Microsoft Phi-4 via UCSB's LLM API (`llm.grit.ucsb.edu`); some iteration scripts also tested llama3 and deepseek-r1
