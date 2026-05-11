@@ -88,9 +88,7 @@ usgs_extract/
 │   ├── ReductCSVs/                    ← 623 document ID subfolders → .csv files
 │   ├── ReductJson/                    ← 623 document ID subfolders → .json files
 │   ├── UpdatedDataDec/                ← 353 document ID subfolders → .png files
-│   ├── UpdatedDataJan/                ← 287 document ID subfolders → .png files
-│   ├── updatedSB/Scanned_SB/          ← Santa Barbara County .csv + .json (different naming)
-│   └── Scanned_SB/                   ← (duplicate/legacy SB folder at top level)
+│   └── UpdatedDataJan/                ← 287 document ID subfolders → .png files
 │
 ├── Chapter_2_USGS_Digitization/       ← Project documents, legacy code, manuscript
 │   ├── Manuscript/
@@ -142,8 +140,6 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 
 **Key data gap**: PNGs are split across `UpdatedDataDec/` (353 doc folders) and `UpdatedDataJan/` (287 doc folders), while CSVs and JSONs are each in their own 623-folder directories. These need to be merged into the unified per-page structure.
 
-**Santa Barbara exception**: SB County data lives in `updatedSB/Scanned_SB/` with a different naming convention (`70300001_pageN.csv`) and needs special handling.
-
 ---
 
 ## Planned Work (Four Steps)
@@ -152,7 +148,6 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 - Write a script to reorganize all files into the unified `{doc_id}/page_{N}/` structure
 - Extract metadata rows per page from `cleaned_metadata_final - Copy.csv` and save as individual CSVs
 - Join USGS document-level metadata from `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` into each per-page metadata CSV — the `id` column in the main metadata maps directly to the `Publication ID` column in `USGS_ID.xlsx`, which provides the USGS URL, Index ID (series), title, year, author, and ~55 additional document-level fields
-- Handle the SB County data exception
 - Identify and document any doc IDs present in metadata but missing from data folders (or vice versa)
 
 ### Step 2: HydroShare Upload Organization
@@ -215,7 +210,7 @@ These were copied to `data/digitization_intermediates/02_table_detection/validat
 
 ## Data Coverage Notes (organized output)
 
-The `data/digitized/` folder was populated by `code/01_digitization/06_final_data_organization/organize_data.py`. Across 622 docs and 74,492 pages, three categories of pages exist but have **no `_metadata.csv` file**:
+The `data/digitized/` folder was populated by `code/01_digitization/05_final_data_organization/organize_data.py`. Across 622 docs and 74,492 pages, three categories of pages exist but have **no `_metadata.csv` file**:
 
 ### Pages with no metadata rows (~10,919 pages, ~14.7%)
 The LLM metadata extraction (Phi-4) was only run on pages where a table was detected. Pages that Reducto processed but where no table was found — or where the table was output as plain text rather than structured HTML — were never sent to the LLM and therefore have no entry in `cleaned_metadata_final - Copy.csv`. These fall into three sub-types:
@@ -232,26 +227,6 @@ These pages have a `.json` (Reducto ran) but no `_table*.csv` files. This occurs
 ### Pages with no PNG (~260 pages, ~0.3%)
 A small number of pages have a JSON and CSVs but no corresponding `.png` file in either `UpdatedDataDec/` or `UpdatedDataJan/`. These are pages from documents that may have been processed outside the main PNG batches.
 
-### Santa Barbara County data (excluded)
-The SB County data was processed as an early test batch before standardized naming conventions were established. It is **not included** in `data/digitized/`. There are two distinct SB datasets:
-
-**sb1–sb7 + sb_page_full** (`Data_Files/updatedSB/Scanned_SB/`, naming: `sb{N}_page_full_table{M}.csv`): Eight documents, all from the annual "Water levels in observation wells in Santa Barbara County" Open-File Report series (USGS) and one Tecolote Tunnel springs report. Each has a readable Reducto JSON (`Data_Files/updatedSB/Scanned_SB/json/`). The USGS document identities were recovered from the JSON content:
-
-| File | Data year | USGS Index ID | Pub ID |
-|------|-----------|--------------|--------|
-| sb1 | 1956 | ofr5778 | 23995 |
-| sb2 | 1958 | ofr5983 | None |
-| sb3 | 1960 | ofr6196 | None |
-| sb4 | 1948–49 | ofr49118 (Tecolote Tunnel, 1st progress report) | None |
-| sb5 | 1963 | ofr64117 | None |
-| sb6 | 1961–63 | ofr6291/63103/64117 (multi-year) | None |
-| sb7 | 1962 | ofr63103 | None |
-| sb (unnumbered) | 1959 | ofr60102 | None |
-
-**70300001 files** (`Data_Files/Scanned_SB/`, naming: `70300001_page{N}.csv` / `70300001_table{N}.csv`): 434 CSV files from an unidentified document (same annual observation well series, mid-1950s era based on content). Two orphaned Reducto JSONs (`ReductJson/Scanned_SB/report (8).json` and `report (9).json`, 180 and 281 pages respectively) have their content stored at expired S3 URLs (expired 2025-01-11) and cannot be read. Since no readable JSON exists for these CSVs, **this data is permanently excluded**.
-
-See `jupyter_notebooks/santabarbara.ipynb` for analysis using the SB data.
-
 A full per-page log is at `data/digitized/_organization_log.txt`.
 
 ---
@@ -262,5 +237,4 @@ A full per-page log is at `data/digitized/_organization_log.txt`.
 - Table detection threshold: 0.8 (recovers ~79% of known tables)
 - Reducto.ai used for final digitization (not open source — requires paid API access)
 - PaddleOCR was tested but discarded for structure preservation failures
-- The SB County data (`updatedSB/Scanned_SB/`) uses a different naming convention (e.g., `70300001_pageN.csv`) — these appear to be separately scanned/processed documents
 - Multiple iterations of LLM prompt engineering are preserved in `Chapter_2_USGS_Digitization/Yibo Results/` — the final production prompt is in Supplementary Information S1 of the dissertation
