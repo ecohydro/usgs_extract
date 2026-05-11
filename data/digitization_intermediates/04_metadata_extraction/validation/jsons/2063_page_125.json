@@ -1,0 +1,154 @@
+{
+    "job_id": "3f4e8d05-9cde-4238-b534-d86ee79608f7",
+    "duration": 5.692937135696411,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/1032e0e2-a6b5-49c0-a9d2-3d7901da355c?AWSAccessKeyId=ASIA2UOK6OVBL5WPOQSY&Signature=vw0pwc0t3fVWq0i2KEN0gaxiV3E%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJIMEYCIQCciy67P%2FCMEeUuWgMvZxWIB3VctVyyfpnxpWb4zlFbCAIhAIKaNZLT6ng%2FcGH%2FtUorK%2BCrNIfQS%2B4FdplOX1kOVDbEKosFCCAQABoMNzMxMTA2OTMyMDM0IgwHoEyvhN9vCJFSde8q6AT4VmVG8epfVMFvBYUwx0Q%2BEimjI74kDj7TPGKOIu%2FTq6Zg%2F910ohAV1krseqLLjFgw4kkvXklkiXl9ORUtEZ67kZXt8OQSg03rIto2k7ATAxeQKsLiMmhkRWYdDn0QKEMu4fL5fO2bDMu%2BLvMIslFDDxxJP4ULDS13%2BfpatAdVIDTQJlLV%2B2sDeVomyVsU7%2B1HqpL7X08QovWN%2F7mmY94LapwSJ9EQ1SR0yzleNBVTgrcBgwDUElj3KkjFShbI6Xc%2BPIdVZ1oIea8XFJjYVCJskmOuiFPhRDCXI7vf64Gq6U%2FcY80m0cJjbCCiWNHVim8C9HAEoeMGfyhTON675Nx2zPt5F9sPLkZrcDIWni9D52G%2FWykbQZtNAlR%2Fo12woEOT21RgTQIzJVc09HjOdSii2JMNHFJ6SCwmTGAiZg4NYk7g2NKnKPOXiQoTU0f%2FPH%2FjRIGmjCERwxf712rqdVa3n6d%2BXaf8nF%2Fsp8sl7I1GYBi4VOVYLpiIRO7BaXg1CcPdhB0X2cF8GRuZYrMTEhmmA64pr08oLtTpz3KcmB%2Bs1GvTwZMLof737U6CNgQzOkWoezdhOD00UUQNEm2iybaX8MhsghuvbZ3u3qOC2LivTns0re%2BwiH%2FPi1mKQZT%2BNsenPnNCm52WTiR%2FnY4rQ6w4NVrm5xACmiEqKZoJi1FDwT6YMlPAahwj3yfW%2FVAknXAzEH47gaKX96GYZMpcuXjvc0ULhrcHnvvFlv5ikpKaQrlDHeVsBqLAY1WZPxse795R1NR8XVYkCZvoe8gD3eHwx8Y901Hq5s1k8qLbbiPKNcWOF%2BgSVL9OMIvlyLoGOpoBxpz9rcNTwWID5zXSFGT4zUlmFpzKg1BfyFIzRzanpVdWnOOwI5646GYEiPEZEGRss40YpsMbEUvdFz5qJ5PFZo4EfdL%2BHvH8eBuMZ%2BB%2FPp9KMO6qRqALFyEQCaY%2BK9Z2glUpbm64fw%2B%2FoZOZmgAAJomhIXF76REi6PVnhEJ5M49O8uii4tyA2vAOxrWI2Bw%2FbIPHh1amvvks5g%3D%3D&Expires=1733444023",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER.\n\nMonthly discharge of Little Colorado River at Holbrook, Ariz., for the years ending Sept. 30, 1905-1907-Continued.",
+                "embed": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER.\n\nMonthly discharge of Little Colorado River at Holbrook, Ariz., for the years ending Sept. 30, 1905-1907-Continued.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.13024420788979335,
+                            "top": 0.055576417574164476,
+                            "width": 0.6499686912961803,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8240450845335003,
+                            "top": 0.05294780322944048,
+                            "width": 0.045710707576706325,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "109",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046963055729492796,
+                            "top": 0.08524220803604957,
+                            "width": 0.8209142141515341,
+                            "height": 0.026286143447239955,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Little Colorado River at Holbrook, Ariz., for the years ending Sept. 30, 1905-1907-Continued.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1905 -6.</td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>987</td><td>100</td><td>245</td><td>14,600</td></tr><tr><td>May</td><td>150</td><td>5</td><td>54. 0</td><td>3, 320</td></tr><tr><td>June</td><td>5</td><td>3</td><td>4. 1</td><td>244</td></tr><tr><td>July</td><td>140</td><td>3</td><td>24. 9</td><td>1,530</td></tr><tr><td>August</td><td>275</td><td>15</td><td>71. 5</td><td>4, 400</td></tr><tr><td>September</td><td>600</td><td>4</td><td>68. 7</td><td>4, , 090</td></tr><tr><td>The year</td><td>20,200</td><td>3</td><td>253</td><td>183,000</td></tr><tr><td>1906 -7.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>250</td><td>5</td><td>26. 6</td><td>1,640</td></tr><tr><td>November</td><td>63</td><td>4</td><td>11. 3</td><td>672</td></tr><tr><td>December</td><td>890</td><td>25</td><td>181</td><td>11,100</td></tr><tr><td>January</td><td>1,000</td><td>90</td><td>276</td><td>17,000</td></tr><tr><td>February</td><td>380</td><td>73</td><td>176</td><td>9, 780</td></tr><tr><td>March</td><td>2,100</td><td>115</td><td>444</td><td>27, 300</td></tr><tr><td>April</td><td>573</td><td>290</td><td>401</td><td>23, 900</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>91, 400</td></tr></table>",
+                "embed": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1905 -6.</td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>987</td><td>100</td><td>245</td><td>14,600</td></tr><tr><td>May</td><td>150</td><td>5</td><td>54. 0</td><td>3, 320</td></tr><tr><td>June</td><td>5</td><td>3</td><td>4. 1</td><td>244</td></tr><tr><td>July</td><td>140</td><td>3</td><td>24. 9</td><td>1,530</td></tr><tr><td>August</td><td>275</td><td>15</td><td>71. 5</td><td>4, 400</td></tr><tr><td>September</td><td>600</td><td>4</td><td>68. 7</td><td>4, , 090</td></tr><tr><td>The year</td><td>20,200</td><td>3</td><td>253</td><td>183,000</td></tr><tr><td>1906 -7.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>250</td><td>5</td><td>26. 6</td><td>1,640</td></tr><tr><td>November</td><td>63</td><td>4</td><td>11. 3</td><td>672</td></tr><tr><td>December</td><td>890</td><td>25</td><td>181</td><td>11,100</td></tr><tr><td>January</td><td>1,000</td><td>90</td><td>276</td><td>17,000</td></tr><tr><td>February</td><td>380</td><td>73</td><td>176</td><td>9, 780</td></tr><tr><td>March</td><td>2,100</td><td>115</td><td>444</td><td>27, 300</td></tr><tr><td>April</td><td>573</td><td>290</td><td>401</td><td>23, 900</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>91, 400</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04152302512095433,
+                            "top": 0.1168955947239955,
+                            "width": 0.8345077314000616,
+                            "height": 0.2741015294956346,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1905 -6.</td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>987</td><td>100</td><td>245</td><td>14,600</td></tr><tr><td>May</td><td>150</td><td>5</td><td>54. 0</td><td>3, 320</td></tr><tr><td>June</td><td>5</td><td>3</td><td>4. 1</td><td>244</td></tr><tr><td>July</td><td>140</td><td>3</td><td>24. 9</td><td>1,530</td></tr><tr><td>August</td><td>275</td><td>15</td><td>71. 5</td><td>4, 400</td></tr><tr><td>September</td><td>600</td><td>4</td><td>68. 7</td><td>4, , 090</td></tr><tr><td>The year</td><td>20,200</td><td>3</td><td>253</td><td>183,000</td></tr><tr><td>1906 -7.</td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>250</td><td>5</td><td>26. 6</td><td>1,640</td></tr><tr><td>November</td><td>63</td><td>4</td><td>11. 3</td><td>672</td></tr><tr><td>December</td><td>890</td><td>25</td><td>181</td><td>11,100</td></tr><tr><td>January</td><td>1,000</td><td>90</td><td>276</td><td>17,000</td></tr><tr><td>February</td><td>380</td><td>73</td><td>176</td><td>9, 780</td></tr><tr><td>March</td><td>2,100</td><td>115</td><td>444</td><td>27, 300</td></tr><tr><td>April</td><td>573</td><td>290</td><td>401</td><td>23, 900</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>91, 400</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER. (cont.)\n\n## VIRGIN RIVER AT VIRGIN, UTAH.\n\nLocation.--In sec. 23; T. 41 S., R. 12 W., half a mile east of Virgin, 600 feet below the mouth of North Creek. Records presented.-April 18, 1909, to September 30, 1914. Drainage area.-1,010 square miles. Gage.-Inclined staff. Channel.-Gravel, sand, and bowlders; shifts during heavy floods. Discharge measurements.-Made from cable and car and by wading. Floods.-Virgin River is subject to occasional short but severe floods. Winter flow.-Some ice occasionally forms at this station during the winter months. Diversions.-Several small canals divert water above the station. Accuracy.-Records fair for discharges below 1,000 second-feet.\n\nMonthly discharge of Virgin River at Virgin, Utah, for the years ending Sept. 30, 1909-1914.",
+                "embed": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER. (cont.)\n\n## VIRGIN RIVER AT VIRGIN, UTAH.\n\nLocation.--In sec. 23; T. 41 S., R. 12 W., half a mile east of Virgin, 600 feet below the mouth of North Creek. Records presented.-April 18, 1909, to September 30, 1914. Drainage area.-1,010 square miles. Gage.-Inclined staff. Channel.-Gravel, sand, and bowlders; shifts during heavy floods. Discharge measurements.-Made from cable and car and by wading. Floods.-Virgin River is subject to occasional short but severe floods. Winter flow.-Some ice occasionally forms at this station during the winter months. Diversions.-Several small canals divert water above the station. Accuracy.-Records fair for discharges below 1,000 second-feet.\n\nMonthly discharge of Virgin River at Virgin, Utah, for the years ending Sept. 30, 1909-1914.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.28804007514088914,
+                            "top": 0.403304543747653,
+                            "width": 0.3343769567939887,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "VIRGIN RIVER AT VIRGIN, UTAH.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.043206011271133375,
+                            "top": 0.421704844160721,
+                            "width": 0.8259236067626801,
+                            "height": 0.17048441607209913,
+                            "page": 1
+                        },
+                        "content": "Location.--In sec. 23; T. 41 S., R. 12 W., half a mile east of Virgin, 600 feet below the mouth of North Creek. Records presented.-April 18, 1909, to September 30, 1914. Drainage area.-1,010 square miles. Gage.-Inclined staff. Channel.-Gravel, sand, and bowlders; shifts during heavy floods. Discharge measurements.-Made from cable and car and by wading. Floods.-Virgin River is subject to occasional short but severe floods. Winter flow.-Some ice occasionally forms at this station during the winter months. Diversions.-Several small canals divert water above the station. Accuracy.-Records fair for discharges below 1,000 second-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.047589229805886035,
+                            "top": 0.6008261359369133,
+                            "width": 0.8215403882279274,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Virgin River at Virgin, Utah, for the years ending Sept. 30, 1909-1914.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER. (cont.)\n\n## VIRGIN RIVER AT VIRGIN, UTAH. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1909.</td><td></td><td></td><td></td><td></td><td rowspan=\"7\">C.\nC.\nB.\nB.\nB.</td></tr><tr><td>April 18 -30</td><td>2,580</td><td>675</td><td>1, 330</td><td>34, 300</td></tr><tr><td>May</td><td>1,550</td><td>440</td><td>819</td><td>50, 400</td></tr><tr><td>June</td><td>440</td><td>78</td><td>314</td><td>18,700</td></tr><tr><td>July</td><td>550</td><td>24</td><td>128</td><td>7,870</td></tr><tr><td>August 1 -7</td><td>101</td><td>40</td><td>67. 3</td><td>934</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>112,</td></tr><tr><td>1909 -10.</td><td></td><td></td><td></td><td></td><td rowspan=\"14\">B.\nB.\nC.\nC.\nC.\nC.\nD.\nC.\nC.\nB.\nB.\nC.</td></tr><tr><td>October 13 -31</td><td>321</td><td>131</td><td>182</td><td>6, 860</td></tr><tr><td>November</td><td>418</td><td>158</td><td>233</td><td>13,900</td></tr><tr><td>December</td><td>1, 930</td><td>118</td><td>226</td><td>13,900</td></tr><tr><td>January</td><td>2,770</td><td>144</td><td>286</td><td>17,600</td></tr><tr><td>February</td><td>300</td><td>144</td><td>226</td><td>12,600</td></tr><tr><td>March</td><td>2,410</td><td>445</td><td>822</td><td>50,500</td></tr><tr><td>April</td><td></td><td></td><td>a 620</td><td>36,900</td></tr><tr><td>May</td><td>755</td><td>160</td><td>332</td><td>20,400</td></tr><tr><td>June</td><td>155</td><td>80</td><td>108</td><td>430</td></tr><tr><td>July</td><td>127</td><td>84</td><td>100</td><td>6, ,150</td></tr><tr><td>August</td><td>875</td><td>98</td><td>247</td><td>15,200</td></tr><tr><td>September</td><td>1, 510</td><td>127</td><td>317</td><td>18,900</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>219,000</td></tr></table>\n\na Estimated.",
+                "embed": "# WATER SUPPLY-COLORADO RIVER BELOW GRAND RIVER. (cont.)\n\n## VIRGIN RIVER AT VIRGIN, UTAH. (cont.)\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1909.</td><td></td><td></td><td></td><td></td><td rowspan=\"7\">C.\nC.\nB.\nB.\nB.</td></tr><tr><td>April 18 -30</td><td>2,580</td><td>675</td><td>1, 330</td><td>34, 300</td></tr><tr><td>May</td><td>1,550</td><td>440</td><td>819</td><td>50, 400</td></tr><tr><td>June</td><td>440</td><td>78</td><td>314</td><td>18,700</td></tr><tr><td>July</td><td>550</td><td>24</td><td>128</td><td>7,870</td></tr><tr><td>August 1 -7</td><td>101</td><td>40</td><td>67. 3</td><td>934</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>112,</td></tr><tr><td>1909 -10.</td><td></td><td></td><td></td><td></td><td rowspan=\"14\">B.\nB.\nC.\nC.\nC.\nC.\nD.\nC.\nC.\nB.\nB.\nC.</td></tr><tr><td>October 13 -31</td><td>321</td><td>131</td><td>182</td><td>6, 860</td></tr><tr><td>November</td><td>418</td><td>158</td><td>233</td><td>13,900</td></tr><tr><td>December</td><td>1, 930</td><td>118</td><td>226</td><td>13,900</td></tr><tr><td>January</td><td>2,770</td><td>144</td><td>286</td><td>17,600</td></tr><tr><td>February</td><td>300</td><td>144</td><td>226</td><td>12,600</td></tr><tr><td>March</td><td>2,410</td><td>445</td><td>822</td><td>50,500</td></tr><tr><td>April</td><td></td><td></td><td>a 620</td><td>36,900</td></tr><tr><td>May</td><td>755</td><td>160</td><td>332</td><td>20,400</td></tr><tr><td>June</td><td>155</td><td>80</td><td>108</td><td>430</td></tr><tr><td>July</td><td>127</td><td>84</td><td>100</td><td>6, ,150</td></tr><tr><td>August</td><td>875</td><td>98</td><td>247</td><td>15,200</td></tr><tr><td>September</td><td>1, 510</td><td>127</td><td>317</td><td>18,900</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>219,000</td></tr></table>\n\na Estimated.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.042330957459298685,
+                            "top": 0.6194953760884107,
+                            "width": 0.8330750772933626,
+                            "height": 0.30835213054179966,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td>1909.</td><td></td><td></td><td></td><td></td><td rowspan=\"7\">C.\nC.\nB.\nB.\nB.</td></tr><tr><td>April 18 -30</td><td>2,580</td><td>675</td><td>1, 330</td><td>34, 300</td></tr><tr><td>May</td><td>1,550</td><td>440</td><td>819</td><td>50, 400</td></tr><tr><td>June</td><td>440</td><td>78</td><td>314</td><td>18,700</td></tr><tr><td>July</td><td>550</td><td>24</td><td>128</td><td>7,870</td></tr><tr><td>August 1 -7</td><td>101</td><td>40</td><td>67. 3</td><td>934</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>112,</td></tr><tr><td>1909 -10.</td><td></td><td></td><td></td><td></td><td rowspan=\"14\">B.\nB.\nC.\nC.\nC.\nC.\nD.\nC.\nC.\nB.\nB.\nC.</td></tr><tr><td>October 13 -31</td><td>321</td><td>131</td><td>182</td><td>6, 860</td></tr><tr><td>November</td><td>418</td><td>158</td><td>233</td><td>13,900</td></tr><tr><td>December</td><td>1, 930</td><td>118</td><td>226</td><td>13,900</td></tr><tr><td>January</td><td>2,770</td><td>144</td><td>286</td><td>17,600</td></tr><tr><td>February</td><td>300</td><td>144</td><td>226</td><td>12,600</td></tr><tr><td>March</td><td>2,410</td><td>445</td><td>822</td><td>50,500</td></tr><tr><td>April</td><td></td><td></td><td>a 620</td><td>36,900</td></tr><tr><td>May</td><td>755</td><td>160</td><td>332</td><td>20,400</td></tr><tr><td>June</td><td>155</td><td>80</td><td>108</td><td>430</td></tr><tr><td>July</td><td>127</td><td>84</td><td>100</td><td>6, ,150</td></tr><tr><td>August</td><td>875</td><td>98</td><td>247</td><td>15,200</td></tr><tr><td>September</td><td>1, 510</td><td>127</td><td>317</td><td>18,900</td></tr><tr><td>The period</td><td></td><td></td><td></td><td>219,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4113963681903569,
+                            "top": 0.9324070597070973,
+                            "width": 0.1008140262993112,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "a Estimated.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "job_id": "f68c002d-178b-4617-a0c8-d3abc1ca65dc",
+    "duration": 8.789595127105713,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/7b243f32-81fb-4f02-b4fa-6ae092ed5c33?AWSAccessKeyId=ASIA2UOK6OVBHAEHDBCD&Signature=PPgSJlaNi03FaSo%2B1ahvC0obLeQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIHotBSz%2FWuYla4jQWbXoiM6XZAuW5UkAOX5uoYivVxZ4AiBESy5RgtkP4cfkHEZnjRNuT%2FFtS1DxOVJL3u%2BIGmN4DSqLBQglEAAaDDczMTEwNjkzMjAzNCIMdln%2Fo9Ak6l8f0qifKugEE08vfhkEdpxAXAaDegWEOLTJLvom2RP7PSBXYTfJ98hThwFmFCeJ%2BlFCVMZ7XSMD3hbkw1R6svQxmUvCWA%2BlgoPIOL94IbWI2aCM%2BCuE1lezlc%2FzEoUktpzSIt%2B%2FIkomAH2FMPTWwhdOCRfrk1Wd8Y2W4IKnZIslkkeH2gDmG6k3JlbJocI9yVJvWtmCtA%2FZCfvlUTnXDyWkPNprd%2FsqfQ%2BwaWaXkCkHjJOfj815l6Rqa0D%2F6aNkzqak9Kl1HDSKpJOz%2FYogE2awBnRFadKPVXcTGDJiCBuQ3yyzQnMJpvNzxuXXy1JZo2GirkPc9%2Fv9OBMOduficv%2BiyrLr4jdqZ734hqBvh7AIBCLjo1PC%2FX6RXuF339e9xhCACeOhhAixVGx8F19Py5svgjhAq9T9mS213pJLFGKfYKBKVHKTisx5c5wBXP4o7CMMs%2F11yk2V7tfxHPyR0V12EX%2Bgt%2FJU%2BvRFT87TCFmpM%2FcBS0okSCKRELdbcq4by71k7D5Ou312veH3g6Oq46IIqE2qGblz7dix%2FOuP8AWJfmz0AGtZAUtuydQ5DdUvEJLWbaeWZG6wCHCJaVnDwWpmRny8QeNPx5U%2FH3Dsq9aeIyOseNIAwx3EM6gsZaWwnZCtDXnnnF3or%2BZjL9VuEGWVwqYpnfVZREUl8Itz%2Fguv3GXlzz%2BUC5wBsPviBCWKJzynqUbsqHAJfkLZcDxyjX4e%2BGC9Ky3kti995hdliubXyLJvUVv4vEVyh11zNvcyBPvQLV53c%2Bn%2Bvm2ZozOXXYOApSzlRwsuMMWnEnx55ORSmC6j%2BSmzXIIxLSe0khHgBzCf4sm6BjqcAUe9OSwjY7tjZznsNFVgAhqRBCnH0bgfWwnmdkhHIuz14QDW0A%2FPMsn473snWcvdTJkhAGp69MSDbkN2wLFwdoRid%2F4ZuqhXQSVY91G2TI2CeTr5P2JJyucRRu%2BbNWdONfty%2B%2FpJal3RZv4dEhOfj4BtvI5xc8VZHEsGJw4RuX5ufHMYaJ3HMzSbNHYLqUr7Oi0lQbAWzPa%2Flc2hbw%3D%3D&Expires=1733460823",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SANTA BARBARA COUNTY\n\n205",
+                "embed": "# SANTA BARBARA COUNTY\n\n205",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.40950719581334494,
+                            "top": 0.05,
+                            "width": 0.2546881814217183,
+                            "height": 0.011858974358974358,
+                            "page": 1
+                        },
+                        "content": "SANTA BARBARA COUNTY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.9167030091583079,
+                            "top": 0.05064102564102564,
+                            "width": 0.028347143480157,
+                            "height": 0.010256410256410256,
+                            "page": 1
+                        },
+                        "content": "205",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA BARBARA COUNTY (cont.)\n\n10N/34W-34G2 S. COUNTY OF SANTA BARBARA. WALLER COUNTY PARK. DRILLED PUBLIC SUPPLY AND IRRIGATION WELL IN PASO ROBLES FORMATION OF PLIOCENE AND PLEISTOCENE AGE, DIAMETER 14 1/2 INCHES, PERFORATED INTERVAL 250-325, 390-465, 610-700 FEET. DEPTH 700 FT., LSD 263 FT. ABOVE MSL. HIGHEST WATER LEVEL 202.70 FT BELOW LSD, MAR. 21, 1967. LOWEST STATIC WATER LEVEL 214.80 FT BELOW LSD, OCT. 8, 1968. RECORDS AVAILABLE: 1967-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>MAR. 21, 1967</td><td>202.7</td><td>NOV.</td><td>2, 1967</td><td>212.70</td><td>MAR. 12, 1968</td><td>204.8</td><td>OCT.</td><td>8, 1968</td><td>214.8</td></tr></table>",
+                "embed": "# SANTA BARBARA COUNTY (cont.)\n\n10N/34W-34G2 S. COUNTY OF SANTA BARBARA. WALLER COUNTY PARK. DRILLED PUBLIC SUPPLY AND IRRIGATION WELL IN PASO ROBLES FORMATION OF PLIOCENE AND PLEISTOCENE AGE, DIAMETER 14 1/2 INCHES, PERFORATED INTERVAL 250-325, 390-465, 610-700 FEET. DEPTH 700 FT., LSD 263 FT. ABOVE MSL. HIGHEST WATER LEVEL 202.70 FT BELOW LSD, MAR. 21, 1967. LOWEST STATIC WATER LEVEL 214.80 FT BELOW LSD, OCT. 8, 1968. RECORDS AVAILABLE: 1967-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>MAR. 21, 1967</td><td>202.7</td><td>NOV.</td><td>2, 1967</td><td>212.70</td><td>MAR. 12, 1968</td><td>204.8</td><td>OCT.</td><td>8, 1968</td><td>214.8</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13563017880505887,
+                            "top": 0.08557692307692308,
+                            "width": 0.7836894897514174,
+                            "height": 0.05897435897435897,
+                            "page": 1
+                        },
+                        "content": "10N/34W-34G2 S. COUNTY OF SANTA BARBARA. WALLER COUNTY PARK. DRILLED PUBLIC SUPPLY AND IRRIGATION WELL IN PASO ROBLES FORMATION OF PLIOCENE AND PLEISTOCENE AGE, DIAMETER 14 1/2 INCHES, PERFORATED INTERVAL 250-325, 390-465, 610-700 FEET. DEPTH 700 FT., LSD 263 FT. ABOVE MSL. HIGHEST WATER LEVEL 202.70 FT BELOW LSD, MAR. 21, 1967. LOWEST STATIC WATER LEVEL 214.80 FT BELOW LSD, OCT. 8, 1968. RECORDS AVAILABLE: 1967-68.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13465196598683493,
+                            "top": 0.15157010005070612,
+                            "width": 0.81088646790163,
+                            "height": 0.05044269072703826,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>MAR. 21, 1967</td><td>202.7</td><td>NOV.</td><td>2, 1967</td><td>212.70</td><td>MAR. 12, 1968</td><td>204.8</td><td>OCT.</td><td>8, 1968</td><td>214.8</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA BARBARA COUNTY (cont.)\n\n10N/35W-6A1 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 33.5 FT., LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 14.00 FT BELOW LSD, MAR. 17, 1967. LOWEST STATIC WATER LEVEL 15.47 FT BELOW LSD, OCT. 10, 1968. RECORDS AVAILABLE: 1962-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>14.72</td><td>APR. 29, 1966</td><td>14.63</td><td>MAR. 17, 1967</td><td>14.00</td><td>MAR. 12, 1968</td><td>14.38</td></tr><tr><td>MAR. 25</td><td>14.62</td><td>OCT. 24</td><td>15.00</td><td>NOV. 8</td><td>15.00</td><td>OCT. 10</td><td>15.47</td></tr></table>",
+                "embed": "# SANTA BARBARA COUNTY (cont.)\n\n10N/35W-6A1 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 33.5 FT., LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 14.00 FT BELOW LSD, MAR. 17, 1967. LOWEST STATIC WATER LEVEL 15.47 FT BELOW LSD, OCT. 10, 1968. RECORDS AVAILABLE: 1962-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>14.72</td><td>APR. 29, 1966</td><td>14.63</td><td>MAR. 17, 1967</td><td>14.00</td><td>MAR. 12, 1968</td><td>14.38</td></tr><tr><td>MAR. 25</td><td>14.62</td><td>OCT. 24</td><td>15.00</td><td>NOV. 8</td><td>15.00</td><td>OCT. 10</td><td>15.47</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1360662887047536,
+                            "top": 0.22532051282051282,
+                            "width": 0.7431312690798081,
+                            "height": 0.04935897435897436,
+                            "page": 1
+                        },
+                        "content": "10N/35W-6A1 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 33.5 FT., LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 14.00 FT BELOW LSD, MAR. 17, 1967. LOWEST STATIC WATER LEVEL 15.47 FT BELOW LSD, OCT. 10, 1968. RECORDS AVAILABLE: 1962-68.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1337947188326224,
+                            "top": 0.2807399260692107,
+                            "width": 0.8095683826923994,
+                            "height": 0.05797490829076522,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>14.72</td><td>APR. 29, 1966</td><td>14.63</td><td>MAR. 17, 1967</td><td>14.00</td><td>MAR. 12, 1968</td><td>14.38</td></tr><tr><td>MAR. 25</td><td>14.62</td><td>OCT. 24</td><td>15.00</td><td>NOV. 8</td><td>15.00</td><td>OCT. 10</td><td>15.47</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA BARBARA COUNTY (cont.)\n\n10N/35W-6A2 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 20 FT.. LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 14.26 FT BELOW LSD, MAR. 17, 1967. LOWEST STATIC WATER LEVEL 15.71 FT BELOW LSD, OCT. 10, 1968. RECORDS AVAILABLE: 1962-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>14.93</td><td>APR. 29, 1966</td><td>14.92</td><td>MAR. 17, 1967</td><td>14.26</td><td>MAR. 12, 1968</td><td>14.64</td></tr><tr><td>MAR. 25</td><td>14.90</td><td>OCT. 24</td><td>15.22</td><td>NOV. 8</td><td>15.24</td><td>OCT. 10</td><td>15.71</td></tr></table>",
+                "embed": "# SANTA BARBARA COUNTY (cont.)\n\n10N/35W-6A2 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 20 FT.. LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 14.26 FT BELOW LSD, MAR. 17, 1967. LOWEST STATIC WATER LEVEL 15.71 FT BELOW LSD, OCT. 10, 1968. RECORDS AVAILABLE: 1962-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>14.93</td><td>APR. 29, 1966</td><td>14.92</td><td>MAR. 17, 1967</td><td>14.26</td><td>MAR. 12, 1968</td><td>14.64</td></tr><tr><td>MAR. 25</td><td>14.90</td><td>OCT. 24</td><td>15.22</td><td>NOV. 8</td><td>15.24</td><td>OCT. 10</td><td>15.71</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1360662887047536,
+                            "top": 0.3628205128205128,
+                            "width": 0.7444395987788923,
+                            "height": 0.049679487179487176,
+                            "page": 1
+                        },
+                        "content": "10N/35W-6A2 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 20 FT.. LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 14.26 FT BELOW LSD, MAR. 17, 1967. LOWEST STATIC WATER LEVEL 15.71 FT BELOW LSD, OCT. 10, 1968. RECORDS AVAILABLE: 1962-68.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13428853663408336,
+                            "top": 0.41906182704827727,
+                            "width": 0.8113039851032695,
+                            "height": 0.05838083120492788,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>14.93</td><td>APR. 29, 1966</td><td>14.92</td><td>MAR. 17, 1967</td><td>14.26</td><td>MAR. 12, 1968</td><td>14.64</td></tr><tr><td>MAR. 25</td><td>14.90</td><td>OCT. 24</td><td>15.22</td><td>NOV. 8</td><td>15.24</td><td>OCT. 10</td><td>15.71</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA BARBARA COUNTY (cont.)\n\n10N/35W-6A3 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 117.6 FT., LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 31.00 FT BELOW LSD, FEB. 25, 1966. LOWEST STATIC WATER LEVEL 41.59 FT BELOW LSD, OCT. 24, 1966. RECORDS AVAILABLE: 1962-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FER. 25, 1966</td><td>31.00</td><td>APR. 29, 1966</td><td>40.55</td><td>MAR. 17, 1967</td><td>31.60</td><td>MAR. 12, 1968</td><td>31.83</td></tr><tr><td>MAR. 25</td><td>36.88</td><td>OCT. 24</td><td>41.59</td><td>NOV. 8</td><td>40.80</td><td>OCT. 10</td><td>40.55</td></tr></table>\n\n10N/35W-7F1 S. M. J. ELLIS. NEAR GUADALUPE. DRILLED DOMESTIC AND IRRIGATION ARTESIAN WELL IN ALLUVIUM AND PASO ROBLES FORMATION OF PLIOCENE AND PLEISTOCENE (?) AGE, DIAMETER 12 INCHES. DEPTH 249 FT., LSD 48 FT. ABOVE MSL. HIGHEST WATER LEVEL 19.40 FT BELOW LSD, JAN. 1, 1966. LOWEST STATIC WATER LEVEL 33.30 FT BELOW LSD, JULY 1, 1966. RECORDS AVAILABLE: 1929-36, 1938-68.",
+                "embed": "# SANTA BARBARA COUNTY (cont.)\n\n10N/35W-6A3 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 117.6 FT., LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 31.00 FT BELOW LSD, FEB. 25, 1966. LOWEST STATIC WATER LEVEL 41.59 FT BELOW LSD, OCT. 24, 1966. RECORDS AVAILABLE: 1962-68.\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FER. 25, 1966</td><td>31.00</td><td>APR. 29, 1966</td><td>40.55</td><td>MAR. 17, 1967</td><td>31.60</td><td>MAR. 12, 1968</td><td>31.83</td></tr><tr><td>MAR. 25</td><td>36.88</td><td>OCT. 24</td><td>41.59</td><td>NOV. 8</td><td>40.80</td><td>OCT. 10</td><td>40.55</td></tr></table>\n\n10N/35W-7F1 S. M. J. ELLIS. NEAR GUADALUPE. DRILLED DOMESTIC AND IRRIGATION ARTESIAN WELL IN ALLUVIUM AND PASO ROBLES FORMATION OF PLIOCENE AND PLEISTOCENE (?) AGE, DIAMETER 12 INCHES. DEPTH 249 FT., LSD 48 FT. ABOVE MSL. HIGHEST WATER LEVEL 19.40 FT BELOW LSD, JAN. 1, 1966. LOWEST STATIC WATER LEVEL 33.30 FT BELOW LSD, JULY 1, 1966. RECORDS AVAILABLE: 1929-36, 1938-68.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1360662887047536,
+                            "top": 0.5019230769230769,
+                            "width": 0.7431312690798081,
+                            "height": 0.04903846153846154,
+                            "page": 1
+                        },
+                        "content": "10N/35W-6A3 S. USGS, UNION OIL CO. DRILLED OBSERVATION WATER-TABLE WELL IN DUNE SAND, DIAMETER 1 1/4 INCHES. DEPTH 117.6 FT., LSD 72 FT. ABOVE MSL. HIGHEST WATER LEVEL 31.00 FT BELOW LSD, FEB. 25, 1966. LOWEST STATIC WATER LEVEL 41.59 FT BELOW LSD, OCT. 24, 1966. RECORDS AVAILABLE: 1962-68.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1351034478022446,
+                            "top": 0.5603972997420873,
+                            "width": 0.8103870736216542,
+                            "height": 0.0564178466796875,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FER. 25, 1966</td><td>31.00</td><td>APR. 29, 1966</td><td>40.55</td><td>MAR. 17, 1967</td><td>31.60</td><td>MAR. 12, 1968</td><td>31.83</td></tr><tr><td>MAR. 25</td><td>36.88</td><td>OCT. 24</td><td>41.59</td><td>NOV. 8</td><td>40.80</td><td>OCT. 10</td><td>40.55</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13563017880505887,
+                            "top": 0.6419871794871795,
+                            "width": 0.8102921936327955,
+                            "height": 0.05993589743589744,
+                            "page": 1
+                        },
+                        "content": "10N/35W-7F1 S. M. J. ELLIS. NEAR GUADALUPE. DRILLED DOMESTIC AND IRRIGATION ARTESIAN WELL IN ALLUVIUM AND PASO ROBLES FORMATION OF PLIOCENE AND PLEISTOCENE (?) AGE, DIAMETER 12 INCHES. DEPTH 249 FT., LSD 48 FT. ABOVE MSL. HIGHEST WATER LEVEL 19.40 FT BELOW LSD, JAN. 1, 1966. LOWEST STATIC WATER LEVEL 33.30 FT BELOW LSD, JULY 1, 1966. RECORDS AVAILABLE: 1929-36, 1938-68.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA BARBARA COUNTY (cont.)\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>JAN. 1, 1966</td><td>19.4 G</td><td>JULY</td><td>1, 1966</td><td>33.3 G</td><td>APR.</td><td>1, 1967</td><td>23.9 G</td><td>MAR. 11, 1968</td><td>21.39</td></tr><tr><td>FEB. 25</td><td>22.41</td><td>OCT.</td><td>1</td><td>32.4 G</td><td>JULY</td><td>1</td><td>25.5 G</td><td>APR. 1</td><td>23.2 G</td></tr><tr><td>MAR. 24</td><td>25.81</td><td>OCT.</td><td>19</td><td>32.47</td><td>OCT.</td><td>1</td><td>31.2 G</td><td>JULY 1</td><td>31.9 G</td></tr><tr><td>APR. 1</td><td>27.4 G</td><td>JAN.</td><td>1, 1967</td><td>24.2 G</td><td>NOV.</td><td>2</td><td>30.87</td><td>OCT. 1</td><td>31.8 G</td></tr><tr><td>MAY 2</td><td>30.20</td><td>MAR.</td><td>17</td><td>21.20</td><td>JAN.</td><td>1, 1968</td><td>22.5 G</td><td>OCT. 7</td><td>31.42</td></tr></table>\n\n10N/35W-7G3 S. JOHN JENKINS. DRILLED UNUSED ARTESIAN WELL IN ALLUVIUM AND PASO ROBLES FORMATION, DIAMETER 16 INCHES. DEPTH 286 FT., LSD 53 FT. ABOVE MSL. HIGHEST WATER LEVEL 32.25 FT BELOW LSD, MAR. 21, 1967. LOWEST STATIC WATER LEVEL 43.88 FT BELOW LSD, OCT. 19, 1966. RECORDS AVAILABLE: 1942-68.",
+                "embed": "# SANTA BARBARA COUNTY (cont.)\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>JAN. 1, 1966</td><td>19.4 G</td><td>JULY</td><td>1, 1966</td><td>33.3 G</td><td>APR.</td><td>1, 1967</td><td>23.9 G</td><td>MAR. 11, 1968</td><td>21.39</td></tr><tr><td>FEB. 25</td><td>22.41</td><td>OCT.</td><td>1</td><td>32.4 G</td><td>JULY</td><td>1</td><td>25.5 G</td><td>APR. 1</td><td>23.2 G</td></tr><tr><td>MAR. 24</td><td>25.81</td><td>OCT.</td><td>19</td><td>32.47</td><td>OCT.</td><td>1</td><td>31.2 G</td><td>JULY 1</td><td>31.9 G</td></tr><tr><td>APR. 1</td><td>27.4 G</td><td>JAN.</td><td>1, 1967</td><td>24.2 G</td><td>NOV.</td><td>2</td><td>30.87</td><td>OCT. 1</td><td>31.8 G</td></tr><tr><td>MAY 2</td><td>30.20</td><td>MAR.</td><td>17</td><td>21.20</td><td>JAN.</td><td>1, 1968</td><td>22.5 G</td><td>OCT. 7</td><td>31.42</td></tr></table>\n\n10N/35W-7G3 S. JOHN JENKINS. DRILLED UNUSED ARTESIAN WELL IN ALLUVIUM AND PASO ROBLES FORMATION, DIAMETER 16 INCHES. DEPTH 286 FT., LSD 53 FT. ABOVE MSL. HIGHEST WATER LEVEL 32.25 FT BELOW LSD, MAR. 21, 1967. LOWEST STATIC WATER LEVEL 43.88 FT BELOW LSD, OCT. 19, 1966. RECORDS AVAILABLE: 1942-68.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1332287661539536,
+                            "top": 0.7093796950120193,
+                            "width": 0.8141769761868662,
+                            "height": 0.08920037685296474,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>JAN. 1, 1966</td><td>19.4 G</td><td>JULY</td><td>1, 1966</td><td>33.3 G</td><td>APR.</td><td>1, 1967</td><td>23.9 G</td><td>MAR. 11, 1968</td><td>21.39</td></tr><tr><td>FEB. 25</td><td>22.41</td><td>OCT.</td><td>1</td><td>32.4 G</td><td>JULY</td><td>1</td><td>25.5 G</td><td>APR. 1</td><td>23.2 G</td></tr><tr><td>MAR. 24</td><td>25.81</td><td>OCT.</td><td>19</td><td>32.47</td><td>OCT.</td><td>1</td><td>31.2 G</td><td>JULY 1</td><td>31.9 G</td></tr><tr><td>APR. 1</td><td>27.4 G</td><td>JAN.</td><td>1, 1967</td><td>24.2 G</td><td>NOV.</td><td>2</td><td>30.87</td><td>OCT. 1</td><td>31.8 G</td></tr><tr><td>MAY 2</td><td>30.20</td><td>MAR.</td><td>17</td><td>21.20</td><td>JAN.</td><td>1, 1968</td><td>22.5 G</td><td>OCT. 7</td><td>31.42</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13519406890536415,
+                            "top": 0.8211538461538461,
+                            "width": 0.7444395987788923,
+                            "height": 0.04935897435897436,
+                            "page": 1
+                        },
+                        "content": "10N/35W-7G3 S. JOHN JENKINS. DRILLED UNUSED ARTESIAN WELL IN ALLUVIUM AND PASO ROBLES FORMATION, DIAMETER 16 INCHES. DEPTH 286 FT., LSD 53 FT. ABOVE MSL. HIGHEST WATER LEVEL 32.25 FT BELOW LSD, MAR. 21, 1967. LOWEST STATIC WATER LEVEL 43.88 FT BELOW LSD, OCT. 19, 1966. RECORDS AVAILABLE: 1942-68.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SANTA BARBARA COUNTY (cont.)\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>32.45</td><td>MAY</td><td>2, 1966</td><td>40.87</td><td>MAR. 21, 1967</td><td>32.25</td><td>MAR. 11, 1968</td><td>N</td></tr><tr><td>MAR. 24</td><td>35.91</td><td>OCT.</td><td>19</td><td>43.88</td><td>NOV. 2</td><td>42.98C</td><td>OCT. 7</td><td>42.40</td></tr></table>",
+                "embed": "# SANTA BARBARA COUNTY (cont.)\n\n<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>32.45</td><td>MAY</td><td>2, 1966</td><td>40.87</td><td>MAR. 21, 1967</td><td>32.25</td><td>MAR. 11, 1968</td><td>N</td></tr><tr><td>MAR. 24</td><td>35.91</td><td>OCT.</td><td>19</td><td>43.88</td><td>NOV. 2</td><td>42.98C</td><td>OCT. 7</td><td>42.40</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13327836886379743,
+                            "top": 0.8774263039613381,
+                            "width": 0.8112878678825501,
+                            "height": 0.06050649789663461,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>WATER\nLEVEL</th><th></th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th><th>DATE</th><th>WATER\nLEVEL</th></tr><tr><td>FEB. 25, 1966</td><td>32.45</td><td>MAY</td><td>2, 1966</td><td>40.87</td><td>MAR. 21, 1967</td><td>32.25</td><td>MAR. 11, 1968</td><td>N</td></tr><tr><td>MAR. 24</td><td>35.91</td><td>OCT.</td><td>19</td><td>43.88</td><td>NOV. 2</td><td>42.98C</td><td>OCT. 7</td><td>42.40</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

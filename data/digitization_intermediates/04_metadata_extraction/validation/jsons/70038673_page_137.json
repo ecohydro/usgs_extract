@@ -1,0 +1,182 @@
+{
+    "job_id": "3c0c2039-c45f-47ab-978e-dc2b0876af2a",
+    "duration": 4.908930778503418,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/80902a77-80d6-463b-a242-6ac473d0ac33?AWSAccessKeyId=ASIA2UOK6OVBJCNF5HN2&Signature=2hqWPFG%2F05lJpN4qydLuKvZxfUA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCIEIJ4Pv451yEQSDwJDHDFukZKiQWQfHZQp36X08v4E4PAiA3lN4inO5%2Bo06kVVd4zLPty4Ziot6BFY3TUsuoF0jTKSqLBQghEAAaDDczMTEwNjkzMjAzNCIMotwBw0UIZcKg%2BhhZKugEWaYv5zdSnzYsZkH1SQ14MXU8euETd433YQqPNq6j6D5xSzTC2x3CVd6jSfQbwMvMrQNUdfpfDHQDaG%2BOV3Zi%2Bh8RGwRPTv0QSd9HQ%2BCsA9LEMvcejEZnqqIjICXs14O2Fr7%2F%2FFn9LOI0mWC%2FaKV8TnZAuVxeuQO3FHT%2FAsO6eu2%2FZyA49BMQreHfN3skQVrCOa6TD%2FX%2BqA6RquPi9yhL6uDHG9ZoTXq%2BXGg%2B5GPFPlCXOqreuTxKiRA5CZDwiC8M%2BJc%2FHgrR6c0MZjg%2B6PlqKxgD8WEC9pkRrsMdLfNlJ49hm1LcCi5B%2BkFmdgK5rsgWvH9Vvcj8OSVkSV%2BMDKKuAs6R7%2BN0hZj%2Br87AZP0Ys%2F8pYX0iDQ0pCyecaCJIAIuSi6RurfvWoH%2F%2BevV4jGhkpPhd1AuvjaFseq7UG7Wgg%2BH8rkBBnBfZqfkoloJ7SUva97HLIh22F12QyF4A%2Bb4%2B4vkGKvzvdulCHn5q%2By6%2F7Ymo0IB1siunrc8lKg8QDhvW4VdG55MSABvePW24%2FAfAU8oXYe4t6sL24ujtydJBE1RkJB1ftxik6r%2FKe4IeK5H5a6GJSIcSz0KV36%2BifglgIBy%2BziouLyV3bD8ZWKcFk%2Fhmw2b9zKsirxgP%2FqtnfHxKBzLRzQnMSnHvsif%2FHMKBb59ObXka6ftMYXQnAYbagD3AdXRaBhh7Xo0HdGn3oEXijdOS9PWtKdxqycstu%2FQManvlDi66nzixxIhj2%2F1KE9hvhonnC5MVsosX71Cl7We6gctFohxPeg1vhAzI3If%2FrpKBz9iwX1hoXq51sNx67QWKZ3m3RPFyQDD59Mi6BjqcAS71z%2FQoheMWU%2F%2FDMm8a8dWn4cvZKmyrWw6%2Bx2LUXYHPEqYy4qmpeVt1zZmb3lskITLB9%2BUXeMY%2FAmZAwdDOsr%2BG3ulv4niEX49KJjOkchQ7Ux6oFU%2BzXQpSu%2BsiWrVhwll4HTSfC4HKKH%2BVcedvTaTBkesDukW%2FPVPLT8QXAsDhWyASo4a5Tyzj8ynEfaLB0NIurczRWdwDPO9%2F9A%3D%3D&Expires=1733447076",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TIJUANA RIVER BASIN\n\n# 11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO\n\nLOCATION Lat 32\u00b0 26'40\", long 116\u00b054'25\" at Rodriguez Dam on Rio de las Palmas, a quarter of a mile upstream from Arroyo Matanuco and 10 miles southeast of Tijuana, Baja California, Mexico.\n\nDRAINAGE AREA.--977 sq mi, of which 10 sq mi are in the United States.\n\nRECORDS AVAILABLE April 1937 to September 1968. Published with record for Tia Juana River near Nestor, Calif., October 1953 to September 1957. Month-end contents for April 1937 to September 1950 published in WSP 1315-B and for October 1950 to September 1960 in WSP 1735.",
+                "embed": "# TIJUANA RIVER BASIN\n\n# 11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO\n\nLOCATION Lat 32\u00b0 26'40\", long 116\u00b054'25\" at Rodriguez Dam on Rio de las Palmas, a quarter of a mile upstream from Arroyo Matanuco and 10 miles southeast of Tijuana, Baja California, Mexico.\n\nDRAINAGE AREA.--977 sq mi, of which 10 sq mi are in the United States.\n\nRECORDS AVAILABLE April 1937 to September 1968. Published with record for Tia Juana River near Nestor, Calif., October 1953 to September 1957. Month-end contents for April 1937 to September 1950 published in WSP 1315-B and for October 1950 to September 1960 in WSP 1735.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4533049040511727,
+                            "top": 0.057872615583575815,
+                            "width": 0.14115138592750534,
+                            "height": 0.007436146136437116,
+                            "page": 1
+                        },
+                        "content": "TIJUANA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9095948827292111,
+                            "top": 0.05754930488199159,
+                            "width": 0.01791044776119403,
+                            "height": 0.006789524733268671,
+                            "page": 1
+                        },
+                        "content": "117",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.261407249466951,
+                            "top": 0.07630132557387649,
+                            "width": 0.518550106609808,
+                            "height": 0.009699321047526674,
+                            "page": 1
+                        },
+                        "content": "11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0976545842217484,
+                            "top": 0.09408341416100872,
+                            "width": 0.8166311300639659,
+                            "height": 0.02004526349822179,
+                            "page": 1
+                        },
+                        "content": "LOCATION Lat 32\u00b0 26'40\", long 116\u00b054'25\" at Rodriguez Dam on Rio de las Palmas, a quarter of a mile upstream from Arroyo Matanuco and 10 miles southeast of Tijuana, Baja California, Mexico.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09722814498933902,
+                            "top": 0.12318137730358875,
+                            "width": 0.5181236673773987,
+                            "height": 0.009699321047526674,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.--977 sq mi, of which 10 sq mi are in the United States.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0976545842217484,
+                            "top": 0.14193339799547364,
+                            "width": 0.8307036247334755,
+                            "height": 0.028128031037827354,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE April 1937 to September 1968. Published with record for Tia Juana River near Nestor, Calif., October 1953 to September 1957. Month-end contents for April 1937 to September 1950 published in WSP 1315-B and for October 1950 to September 1960 in WSP 1735.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO (cont.)\n\nGAGE.--Staff gage read once a day. Altitude of gage is 250 ft (from topographic map).\n\nEXTREMES Maximum contents during year, 1,432 acre-ft Oct. 1; minimum contents, 404 acre-ft Sept. 30. 1937-68: Reservoir spilled during March 1938, September 1940, February to May 1941, March 1942, and February, March 1944; reservoir dry Apr. 2, 1964, to Apr. 9, 1965, Aug. 21 to Nov. 22, 1965.\n\nREMARKS Reservoir is formed by thin-shell concrete arch dam completed in 1936; storage began in 1937. Capacity table is based on surveys made in 1927. Maximum storage at top of spillway gates (elevation, 410.10 ft), 111,070 acre-ft; at spillway lip (elevation, 380.08 ft), 74,580 acre-ft; dead storage below outlet (elevation, 267.39 ft), 1,650 acre-ft included in contents. Reservoir is used to store water for irrigation of about 3,000 acres on both banks one-half to 5.5 miles downstream and for municipal supply of city of Tijuana.\n\nCOOPERATION Records furnished by Ministry of Hydraulic Resources, Government of Mexico, through International Boundary and Water Commission, United States Section.",
+                "embed": "# 11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO (cont.)\n\nGAGE.--Staff gage read once a day. Altitude of gage is 250 ft (from topographic map).\n\nEXTREMES Maximum contents during year, 1,432 acre-ft Oct. 1; minimum contents, 404 acre-ft Sept. 30. 1937-68: Reservoir spilled during March 1938, September 1940, February to May 1941, March 1942, and February, March 1944; reservoir dry Apr. 2, 1964, to Apr. 9, 1965, Aug. 21 to Nov. 22, 1965.\n\nREMARKS Reservoir is formed by thin-shell concrete arch dam completed in 1936; storage began in 1937. Capacity table is based on surveys made in 1927. Maximum storage at top of spillway gates (elevation, 410.10 ft), 111,070 acre-ft; at spillway lip (elevation, 380.08 ft), 74,580 acre-ft; dead storage below outlet (elevation, 267.39 ft), 1,650 acre-ft included in contents. Reservoir is used to store water for irrigation of about 3,000 acres on both banks one-half to 5.5 miles downstream and for municipal supply of city of Tijuana.\n\nCOOPERATION Records furnished by Ministry of Hydraulic Resources, Government of Mexico, through International Boundary and Water Commission, United States Section.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09339019189765459,
+                            "top": 0.17943743937924345,
+                            "width": 0.6392324093816631,
+                            "height": 0.010022631749110895,
+                            "page": 1
+                        },
+                        "content": "GAGE.--Staff gage read once a day. Altitude of gage is 250 ft (from topographic map).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09722814498933902,
+                            "top": 0.19851277077271257,
+                            "width": 0.7863539445628998,
+                            "height": 0.028451341739411575,
+                            "page": 1
+                        },
+                        "content": "EXTREMES Maximum contents during year, 1,432 acre-ft Oct. 1; minimum contents, 404 acre-ft Sept. 30. 1937-68: Reservoir spilled during March 1938, September 1940, February to May 1941, March 1942, and February, March 1944; reservoir dry Apr. 2, 1964, to Apr. 9, 1965, Aug. 21 to Nov. 22, 1965.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09722814498933902,
+                            "top": 0.23601681215648238,
+                            "width": 0.8076759061833688,
+                            "height": 0.05625606207565471,
+                            "page": 1
+                        },
+                        "content": "REMARKS Reservoir is formed by thin-shell concrete arch dam completed in 1936; storage began in 1937. Capacity table is based on surveys made in 1927. Maximum storage at top of spillway gates (elevation, 410.10 ft), 111,070 acre-ft; at spillway lip (elevation, 380.08 ft), 74,580 acre-ft; dead storage below outlet (elevation, 267.39 ft), 1,650 acre-ft included in contents. Reservoir is used to store water for irrigation of about 3,000 acres on both banks one-half to 5.5 miles downstream and for municipal supply of city of Tijuana.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09594882729211088,
+                            "top": 0.30197219527966374,
+                            "width": 0.8230277185501066,
+                            "height": 0.0187520206918849,
+                            "page": 1
+                        },
+                        "content": "COOPERATION Records furnished by Ministry of Hydraulic Resources, Government of Mexico, through International Boundary and Water Commission, United States Section.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO (cont.)\n\nMONTH-END CONTENTS, WATER YEAR OCTOBER 1967 TO SEPTEMBER 1968\n\n<table><tr><th>Month</th><th>Contents\n(acre-\nfeet)</th><th>Change in\ncontents\n(acre-\nfeet)</th></tr><tr><td>Sept. 30</td><td>1,432</td><td>-</td></tr><tr><td>Oct. 31</td><td>1,274</td><td>-158</td></tr><tr><td>Nov. 30</td><td>1,218</td><td>-56</td></tr><tr><td>Dec. 31</td><td>1,307</td><td>+89</td></tr><tr><td>Calendar year 1967</td><td>-</td><td>-2,737</td></tr><tr><td>Jan. 31</td><td>1,203</td><td>-104</td></tr><tr><td>Feb. 29</td><td>1,111</td><td>-92</td></tr><tr><td>Mar. 31</td><td>1,012</td><td>-99</td></tr><tr><td>Apr. 30</td><td>856</td><td>-156</td></tr><tr><td>May 31</td><td>777</td><td>-79</td></tr><tr><td>June 30</td><td>692</td><td>-85</td></tr><tr><td>July 31</td><td>625</td><td>-67</td></tr><tr><td>Aug. 31</td><td>513</td><td>-112</td></tr><tr><td>Sept. 30</td><td>404</td><td>-109</td></tr><tr><td>Water year 1967 -68</td><td>-</td><td>-1,028</td></tr></table>",
+                "embed": "# 11-0132. RODRIGUEZ RESERVOIR AT RODRIGUEZ DAM, BAJA CALIFORNIA, MEXICO (cont.)\n\nMONTH-END CONTENTS, WATER YEAR OCTOBER 1967 TO SEPTEMBER 1968\n\n<table><tr><th>Month</th><th>Contents\n(acre-\nfeet)</th><th>Change in\ncontents\n(acre-\nfeet)</th></tr><tr><td>Sept. 30</td><td>1,432</td><td>-</td></tr><tr><td>Oct. 31</td><td>1,274</td><td>-158</td></tr><tr><td>Nov. 30</td><td>1,218</td><td>-56</td></tr><tr><td>Dec. 31</td><td>1,307</td><td>+89</td></tr><tr><td>Calendar year 1967</td><td>-</td><td>-2,737</td></tr><tr><td>Jan. 31</td><td>1,203</td><td>-104</td></tr><tr><td>Feb. 29</td><td>1,111</td><td>-92</td></tr><tr><td>Mar. 31</td><td>1,012</td><td>-99</td></tr><tr><td>Apr. 30</td><td>856</td><td>-156</td></tr><tr><td>May 31</td><td>777</td><td>-79</td></tr><tr><td>June 30</td><td>692</td><td>-85</td></tr><tr><td>July 31</td><td>625</td><td>-67</td></tr><tr><td>Aug. 31</td><td>513</td><td>-112</td></tr><tr><td>Sept. 30</td><td>404</td><td>-109</td></tr><tr><td>Water year 1967 -68</td><td>-</td><td>-1,028</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.29637526652452023,
+                            "top": 0.33042353701907534,
+                            "width": 0.4520255863539446,
+                            "height": 0.009052699644358229,
+                            "page": 1
+                        },
+                        "content": "MONTH-END CONTENTS, WATER YEAR OCTOBER 1967 TO SEPTEMBER 1968",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.27129148308402184,
+                            "top": 0.3437231232192653,
+                            "width": 0.5008522277701892,
+                            "height": 0.2336621141109966,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Contents\n(acre-\nfeet)</th><th>Change in\ncontents\n(acre-\nfeet)</th></tr><tr><td>Sept. 30</td><td>1,432</td><td>-</td></tr><tr><td>Oct. 31</td><td>1,274</td><td>-158</td></tr><tr><td>Nov. 30</td><td>1,218</td><td>-56</td></tr><tr><td>Dec. 31</td><td>1,307</td><td>+89</td></tr><tr><td>Calendar year 1967</td><td>-</td><td>-2,737</td></tr><tr><td>Jan. 31</td><td>1,203</td><td>-104</td></tr><tr><td>Feb. 29</td><td>1,111</td><td>-92</td></tr><tr><td>Mar. 31</td><td>1,012</td><td>-99</td></tr><tr><td>Apr. 30</td><td>856</td><td>-156</td></tr><tr><td>May 31</td><td>777</td><td>-79</td></tr><tr><td>June 30</td><td>692</td><td>-85</td></tr><tr><td>July 31</td><td>625</td><td>-67</td></tr><tr><td>Aug. 31</td><td>513</td><td>-112</td></tr><tr><td>Sept. 30</td><td>404</td><td>-109</td></tr><tr><td>Water year 1967 -68</td><td>-</td><td>-1,028</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "job_id": "6a3ae5c5-fb2d-4016-95ea-b8ebe871e43c",
+    "duration": 5.319786310195923,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/2b8d0eb6-9bb5-4218-a464-be10774bade5?AWSAccessKeyId=ASIA2UOK6OVBO7XSNEFK&Signature=xhW2lpE8Jh04Mmaj%2FanH5zc89Dg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJIMEYCIQDPI7aP6tUsRwXduLrAFN%2B0%2F%2BAZFE7uy0mpgcy%2F9Th4aAIhAOcF3TAIWFRlfVRAGIb%2BxFEPSYDI25G1AVwKNon8Vx3NKosFCCIQABoMNzMxMTA2OTMyMDM0IgzUWm5OIJQ3r2P2a9wq6ARdlbCFhpQW8nkDojbOzljEVXwhHV4oMCY1AQbdJ89gtD1xuu6Y8xMiJBhT9ujHspl5QnnEvTEzGErOismDc%2B7Kjkst2XISyukflriMFgKMRjlGXhUhaEZuET2CGCeUZa%2BAJQPS2K8QgzzomAIRIVTPVpU240VVxYFGTbVIR%2FHnd6%2FWPuvG%2BPJZOrfNuePL9os5tvF19se3gl3J8g8BV5%2FEPbQhgXq3w6FoHoTDw%2F%2F01HdA4yO%2FMJnLVM9%2FvKiB%2B6FLRnbQDANMFAMPQKNGRMLSIXeY8hwrq5BB6WwWUZ1WG5PJZ03XjEVxYpIaGclV9PJyeemyzb4RWD9SFwnHNxk5elJPJIhH%2FvUJdOL4JtaTkwgUu0%2FDaFgMjRrVGIJigzqdU34XIT8g8frtdP4MgQ49MrYNwZ0IZBxaY3gMWNKaF7sKFrZr7QRZ5uUBFnje%2BF%2FnOHJcymhS1H%2BKVxKHiSuWcJqiSL4%2F%2BtCs0np%2F42Z031kiuzrpgfIia5tpRrx8fmpDLlgw%2BWkyJ9tU5YVhJBXitUcQna4wNhFm7y9kEoiOrs1UAFCSYWMKV77UNZokYIMw3c1uhyh8jtMWRmtfd5HHnTIGDz9MX79EdyHY4IwoTfzvd1DnYBk97evyp2r7%2FSQ8lZSMHE6zsqgifAm855sPqe2Ogd2bIbOHT%2FYQqMuCmaj6Ymx%2B4rAEhflTh1jyF%2BGW15xMT3HtqiSQk%2BjUB%2B61j5qvTzbrZ1RwxDpcJtWhPdpIc%2FKF2qRgU9YdI5nEUn1BvsJAWSeK7dPcluOgWiCl47X8dTWmJ8J1NvLajXNzaHQpH%2FI7hpp5MM2PyboGOpoBUCnuIBmyWIjJU5VYOgUl2bltEYWJYbrKx0kFRzY%2FI4MzloSxud%2BBvVQWnNs1RnYfqSUeM1Cgbs9Kd4DtDPkn5e3ODi6RK3Xc46McNdCQJ5btNF4jZgzM5R%2B8hPZWRDTBqVZ26TmA86QuAKFL6PSVmsNitXYWKZM1OmCKfqDJuXIwAM4IP9SQSrg8UFyXj7jji705hD2h72LMWQ%3D%3D&Expires=1733451085",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF.\n\nground water, the net draft-the pumpage less that part of the ap- plied water that returns to become ground water-was somewhat less than the pumpage.",
+                "embed": "# GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF.\n\nground water, the net draft-the pumpage less that part of the ap- plied water that returns to become ground water-was somewhat less than the pumpage.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.04533333333333334,
+                            "width": 0.030228254164096236,
+                            "height": 0.014476190476190476,
+                            "page": 1
+                        },
+                        "content": "30",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.19740900678593462,
+                            "top": 0.04838095238095238,
+                            "width": 0.6526835286859963,
+                            "height": 0.012571428571428572,
+                            "page": 1
+                        },
+                        "content": "GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.07885714285714286,
+                            "width": 0.8173966687230105,
+                            "height": 0.05561904761904762,
+                            "page": 1
+                        },
+                        "content": "ground water, the net draft-the pumpage less that part of the ap- plied water that returns to become ground water-was somewhat less than the pumpage.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF. (cont.)\n\nTABLE -Estimated pumpage, in acre-feet, for irrigation in the Eureka area, Humboldt County, Calif., in 1952\n\n<table><tr><th>Area</th><th>Pumpage</th></tr><tr><td rowspan=\"4\">Eel and Van Duzen River valleys, upstream from the confluence\nEel River valley coastal plain\nMad River valley coastal plain (Arcata plain)\nOther areas</td><td>1, 200</td></tr><tr><td>8, 400</td></tr><tr><td>1, 600</td></tr><tr><td>800 +</td></tr><tr><td>Total</td><td>12, 000 +</td></tr></table>\n\nThere are several creameries in the area, and of these the plant of the Golden State Co. at Loleta probably is the largest consumer of ground water. Mr. Larson, general manager of the Loleta plant, estimated the ground-water consumption to be 700 gpm, or about 1,100 acre-feet per year. One large lumber mill has a log pond that is about 6 feet deep and covers 18 acres. It is necessary to pump water about one day a week to maintain sufficient water in the pond to float logs. This mill and the other mills and industries in the area probably pumped an additional total of about 1,000 acre-feet in 1952. Other industrial pumpage was small. Thus, the industries in the Eureka area pumped a total of about 2,000 acre-feet of ground water in 1952.",
+                "embed": "# GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF. (cont.)\n\nTABLE -Estimated pumpage, in acre-feet, for irrigation in the Eureka area, Humboldt County, Calif., in 1952\n\n<table><tr><th>Area</th><th>Pumpage</th></tr><tr><td rowspan=\"4\">Eel and Van Duzen River valleys, upstream from the confluence\nEel River valley coastal plain\nMad River valley coastal plain (Arcata plain)\nOther areas</td><td>1, 200</td></tr><tr><td>8, 400</td></tr><tr><td>1, 600</td></tr><tr><td>800 +</td></tr><tr><td>Total</td><td>12, 000 +</td></tr></table>\n\nThere are several creameries in the area, and of these the plant of the Golden State Co. at Loleta probably is the largest consumer of ground water. Mr. Larson, general manager of the Loleta plant, estimated the ground-water consumption to be 700 gpm, or about 1,100 acre-feet per year. One large lumber mill has a log pond that is about 6 feet deep and covers 18 acres. It is necessary to pump water about one day a week to maintain sufficient water in the pond to float logs. This mill and the other mills and industries in the area probably pumped an additional total of about 1,000 acre-feet in 1952. Other industrial pumpage was small. Thus, the industries in the Eureka area pumped a total of about 2,000 acre-feet of ground water in 1952.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1147439851943245,
+                            "top": 0.14895238095238095,
+                            "width": 0.8180135718692165,
+                            "height": 0.02666666666666667,
+                            "page": 1
+                        },
+                        "content": "TABLE -Estimated pumpage, in acre-feet, for irrigation in the Eureka area, Humboldt County, Calif., in 1952",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11139111810080583,
+                            "top": 0.18217936197916668,
+                            "width": 0.8241753363447525,
+                            "height": 0.13522405133928572,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Area</th><th>Pumpage</th></tr><tr><td rowspan=\"4\">Eel and Van Duzen River valleys, upstream from the confluence\nEel River valley coastal plain\nMad River valley coastal plain (Arcata plain)\nOther areas</td><td>1, 200</td></tr><tr><td>8, 400</td></tr><tr><td>1, 600</td></tr><tr><td>800 +</td></tr><tr><td>Total</td><td>12, 000 +</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.32876190476190476,
+                            "width": 0.8186304750154226,
+                            "height": 0.2083809523809524,
+                            "page": 1
+                        },
+                        "content": "There are several creameries in the area, and of these the plant of the Golden State Co. at Loleta probably is the largest consumer of ground water. Mr. Larson, general manager of the Loleta plant, estimated the ground-water consumption to be 700 gpm, or about 1,100 acre-feet per year. One large lumber mill has a log pond that is about 6 feet deep and covers 18 acres. It is necessary to pump water about one day a week to maintain sufficient water in the pond to float logs. This mill and the other mills and industries in the area probably pumped an additional total of about 1,000 acre-feet in 1952. Other industrial pumpage was small. Thus, the industries in the Eureka area pumped a total of about 2,000 acre-feet of ground water in 1952.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF. (cont.)\n\nThe water supply for the cities of Arcata and Fortuna is largely from ground water obtained from shallow wells penetrating alluvial deposits, although from May to September, inclusive, it is neces- sary for Arcata to supplement its water supply from surface reser- voirs. Loleta and Rio Dell use ground water for their supplies, and Blue Lake and Fields Landing use some ground water from wells during the summer, when their regular supplies from springs are low. Table 3 shows the increase in water consumption from 1946-47 to 1951-52 for the cities of Arcata and Fortuna.\n\nTABLE 3. -Metered water consumption, in thousands of gallons, for the cities of Arcata and Fortuna, Humboldt County, Calif., 1947-52\n\n<table><tr><th>Year ending May 31</th><th>Arcata a\n(ground and\nsurface water)</th><th>Fortuna b\n(ground\nwater)</th></tr><tr><td>1946 -47</td><td>103, 507</td><td>47, 500</td></tr><tr><td>1947 -48</td><td>107, 868</td><td>58, 382</td></tr><tr><td>1948 -49</td><td>121, 903</td><td>69, 540</td></tr><tr><td>1949 -50</td><td>130, 320</td><td>71, 706</td></tr><tr><td>1950 -51</td><td>151, 901</td><td>78, 082</td></tr><tr><td>1951 -52</td><td>170, 048</td><td>80, 103</td></tr></table>\n\na Population 3,747 in 1950 census. b Population 1,761 in 1950 census.",
+                "embed": "# GEOLOGY AND GROUND WATER, EUREKA AREA, CALIF. (cont.)\n\nThe water supply for the cities of Arcata and Fortuna is largely from ground water obtained from shallow wells penetrating alluvial deposits, although from May to September, inclusive, it is neces- sary for Arcata to supplement its water supply from surface reser- voirs. Loleta and Rio Dell use ground water for their supplies, and Blue Lake and Fields Landing use some ground water from wells during the summer, when their regular supplies from springs are low. Table 3 shows the increase in water consumption from 1946-47 to 1951-52 for the cities of Arcata and Fortuna.\n\nTABLE 3. -Metered water consumption, in thousands of gallons, for the cities of Arcata and Fortuna, Humboldt County, Calif., 1947-52\n\n<table><tr><th>Year ending May 31</th><th>Arcata a\n(ground and\nsurface water)</th><th>Fortuna b\n(ground\nwater)</th></tr><tr><td>1946 -47</td><td>103, 507</td><td>47, 500</td></tr><tr><td>1947 -48</td><td>107, 868</td><td>58, 382</td></tr><tr><td>1948 -49</td><td>121, 903</td><td>69, 540</td></tr><tr><td>1949 -50</td><td>130, 320</td><td>71, 706</td></tr><tr><td>1950 -51</td><td>151, 901</td><td>78, 082</td></tr><tr><td>1951 -52</td><td>170, 048</td><td>80, 103</td></tr></table>\n\na Population 3,747 in 1950 census. b Population 1,761 in 1950 census.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.5401904761904762,
+                            "width": 0.8180135718692165,
+                            "height": 0.1660952380952381,
+                            "page": 1
+                        },
+                        "content": "The water supply for the cities of Arcata and Fortuna is largely from ground water obtained from shallow wells penetrating alluvial deposits, although from May to September, inclusive, it is neces- sary for Arcata to supplement its water supply from surface reser- voirs. Loleta and Rio Dell use ground water for their supplies, and Blue Lake and Fields Landing use some ground water from wells during the summer, when their regular supplies from springs are low. Table 3 shows the increase in water consumption from 1946-47 to 1951-52 for the cities of Arcata and Fortuna.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11536088834053054,
+                            "top": 0.7241904761904762,
+                            "width": 0.8204811844540407,
+                            "height": 0.026285714285714287,
+                            "page": 1
+                        },
+                        "content": "TABLE 3. -Metered water consumption, in thousands of gallons, for the cities of Arcata and Fortuna, Humboldt County, Calif., 1947-52",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11315083018355278,
+                            "top": 0.7570236700148809,
+                            "width": 0.8243442749550577,
+                            "height": 0.15214002046130953,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year ending May 31</th><th>Arcata a\n(ground and\nsurface water)</th><th>Fortuna b\n(ground\nwater)</th></tr><tr><td>1946 -47</td><td>103, 507</td><td>47, 500</td></tr><tr><td>1947 -48</td><td>107, 868</td><td>58, 382</td></tr><tr><td>1948 -49</td><td>121, 903</td><td>69, 540</td></tr><tr><td>1949 -50</td><td>130, 320</td><td>71, 706</td></tr><tr><td>1950 -51</td><td>151, 901</td><td>78, 082</td></tr><tr><td>1951 -52</td><td>170, 048</td><td>80, 103</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1295496607032696,
+                            "top": 0.9165714285714286,
+                            "width": 0.25169648365206665,
+                            "height": 0.019428571428571427,
+                            "page": 1
+                        },
+                        "content": "a Population 3,747 in 1950 census. b Population 1,761 in 1950 census.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "job_id": "60e078c4-f9a2-4ff8-9a22-e894c5e05584",
+    "duration": 7.405162334442139,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/23114da6-c30a-4a96-b1ab-1e621c952166?AWSAccessKeyId=ASIA2UOK6OVBH7G4OW6I&Signature=OJjeklhfAC1ED9WFkiF3AwvEzyE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJIMEYCIQCVEj5FZk2SBEZvvnc0buU0IebQ6Xs0J0C7r%2B3uKkJizQIhALxSdVd6j5jJh6noDa%2FbsvV9oMrxyj77LWbo0wXzfyHRKosFCCIQABoMNzMxMTA2OTMyMDM0Igx6QUQQJXJCKxtq8K4q6ASfdrf21cSPw2t8JVIf%2FIYy3XA7Nyh%2B%2FbOLa6gK%2BWWqtsnbFDlwFsgUmEMN2eHmF6aOreYKDzmJKT0yb1ew7ogwhysLPIHSbbkCmpv2KYWbx1IRfg4RcFYRiuEqz97Nd8LcdFO47rrTeGxmE74L6NIWNxHFzze8p39Er1JqeZtW9eaLCAkS6gveuCLPN0192Fu9wnwIHmRm7wlZ5qPLcIXmFz8xt3dfaCiFkpL7M0uKp2D6cfn%2F46QD9NWhTOLRjpBY2NOexbSDS2kHp5ZO6mTbB4Ga2VHMjUHWhPcN%2BtIlewIqXzpGPV7nJQLCWDF1MGCa0vKTNDmB0ge51SPT%2FMnegpnAv0QVySfsouLojko31g11E42578uspe8NmA68o%2FhTMWs99N83AalbL%2BZFehlBmSUTmaJiPl9juRJlg0M0PlwMk0WlQP5Hj6GdBj6qLkUtKyPd0q%2BKYKvU%2FX%2FaPS4820ru40SCbrlL5YvnH4hi1XvZH1bKtv6w2lYlMJGry3gIAzDyBo6H71aNmQJpzWRZI2KHh%2BanDfAj%2BzaVT88R%2Fmfl%2FYbouwOKh5%2Bcr%2FzQYh20bVGg1MC9OCcznVjqLSN3e3zKNx7dLTbmYNcH1Jqkj3CpP4HO4knH3oa9G5j%2FFt3fsLeG6EjxveTWSMwlKfN45rXtT7Itz%2BgeQM9Ek2ma%2FPWIAL2QxWtEy7Tnwf8CKGZ5lSKrOKUS1VPnCmnYLc2mvdozgbx3BUqxfxhUdJtahj%2B3jBuEqaXsFfdIAy2Bcp1KJKAF5B5aC%2B%2BfSDLIOhiWo7J83CEUiSLwPAxD%2FkjxS9IJhmyNRJhAMM%2BKyboGOpoB3uQEqdlch0UIXpYZd5Rp967aezG2ek1YWYDkZ5FsMutltNv1hVuTg%2Bzne9Hymi%2B7flOW%2FgkRHPGBIHNepcNLTy3tfwSnXSwhBi0Xh%2FuLP7EEkSuMSpb3NOCg3L4IkilOgg959cF7rBclyDICYEhnY%2FhnEPy71CwP%2FhPKZ8SUSQc%2FmR3KDcCmK2Y8PKuCba3zTG0t9BEfMzpa5A%3D%3D&Expires=1733450808",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# EEL RIVER BASIN.",
+                "embed": "# EEL RIVER BASIN.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3287413901064496,
+                            "top": 0.04806609087495306,
+                            "width": 0.21728240450845335,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "EEL RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8027551659361303,
+                            "top": 0.045061960195268494,
+                            "width": 0.046963055729492796,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "403",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913.\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td></td><td>1911.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>August 22 -31</td><td></td><td>18</td><td>11</td><td>13.0</td><td>258</td><td>B</td></tr><tr><td>September</td><td></td><td>14</td><td>10</td><td>11.9</td><td>708</td><td>B.</td></tr><tr><td></td><td>1911 -12.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td></td><td>18</td><td>11</td><td>14.4</td><td>885</td><td>B.</td></tr><tr><td>November</td><td></td><td>215</td><td>14</td><td>43. 6</td><td>2, 590</td><td>B.</td></tr><tr><td>December</td><td></td><td>56</td><td>22</td><td>36. 4</td><td>2,240</td><td>B.</td></tr><tr><td>January</td><td></td><td>13,400</td><td>46</td><td>1, 420</td><td>87,300</td><td>C.</td></tr><tr><td>February</td><td></td><td>6, 930</td><td>516</td><td>1,480</td><td>85,1</td><td>B.</td></tr><tr><td>March</td><td></td><td>1, 690</td><td>420</td><td>947</td><td>58,200</td><td>B.</td></tr><tr><td>April</td><td></td><td>4,500</td><td>760</td><td>1,180</td><td>70,200</td><td>B.</td></tr><tr><td>May</td><td></td><td>6,080</td><td>1,280</td><td>2,470</td><td>152,000</td><td>B.</td></tr><tr><td>June</td><td></td><td>1,520</td><td>186</td><td>549</td><td>32,700</td><td>B.</td></tr><tr><td>July</td><td></td><td>172</td><td>38</td><td>81. 7</td><td>5,020</td><td>B.</td></tr><tr><td>August</td><td></td><td>38</td><td>11</td><td>23. 0</td><td>1,410</td><td>B.</td></tr><tr><td>September</td><td></td><td>1,960</td><td>12</td><td>132</td><td>7,860</td><td>B.</td></tr><tr><td>The year</td><td></td><td>13, 400</td><td>11</td><td>696</td><td>506,000</td><td></td></tr><tr><td></td><td>1912 -13.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td></td><td>420</td><td>20</td><td>68. 3</td><td>200</td><td>B.</td></tr><tr><td>November</td><td></td><td>14, 800</td><td>128</td><td>1,720</td><td>102, 000</td><td>C.</td></tr><tr><td>December</td><td></td><td>6, 080</td><td>246</td><td>1, 420</td><td>87, 300</td><td>B.</td></tr><tr><td>January</td><td></td><td>7,440</td><td>630</td><td>1,920</td><td>118,000</td><td>C.</td></tr><tr><td>February</td><td></td><td>,920</td><td>590</td><td>1,290</td><td>71,600</td><td>B.</td></tr><tr><td>March</td><td></td><td>2,110</td><td>590</td><td>1,100</td><td>67,600</td><td>B.</td></tr><tr><td>April</td><td></td><td>6,500</td><td>1,240</td><td>2,370</td><td>141,000</td><td>B.</td></tr><tr><td>May</td><td></td><td>2,210</td><td>826</td><td>1,420</td><td>87,300</td><td>B.</td></tr><tr><td>June</td><td></td><td>826</td><td>104</td><td>360</td><td>21, 400</td><td>B.</td></tr><tr><td>July</td><td></td><td>140</td><td>30</td><td>60. 0</td><td>3, 690</td><td>B.</td></tr><tr><td>August</td><td></td><td>51</td><td>16</td><td>29. 3</td><td>1,800</td><td>B.</td></tr><tr><td>September</td><td></td><td>22</td><td>10</td><td>14. 3</td><td>851</td><td>B.</td></tr><tr><td>The year</td><td></td><td>14,800</td><td>10</td><td>978</td><td>707,00</td><td></td></tr></table>",
+                "embed": "# Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913.\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td></td><td>1911.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>August 22 -31</td><td></td><td>18</td><td>11</td><td>13.0</td><td>258</td><td>B</td></tr><tr><td>September</td><td></td><td>14</td><td>10</td><td>11.9</td><td>708</td><td>B.</td></tr><tr><td></td><td>1911 -12.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td></td><td>18</td><td>11</td><td>14.4</td><td>885</td><td>B.</td></tr><tr><td>November</td><td></td><td>215</td><td>14</td><td>43. 6</td><td>2, 590</td><td>B.</td></tr><tr><td>December</td><td></td><td>56</td><td>22</td><td>36. 4</td><td>2,240</td><td>B.</td></tr><tr><td>January</td><td></td><td>13,400</td><td>46</td><td>1, 420</td><td>87,300</td><td>C.</td></tr><tr><td>February</td><td></td><td>6, 930</td><td>516</td><td>1,480</td><td>85,1</td><td>B.</td></tr><tr><td>March</td><td></td><td>1, 690</td><td>420</td><td>947</td><td>58,200</td><td>B.</td></tr><tr><td>April</td><td></td><td>4,500</td><td>760</td><td>1,180</td><td>70,200</td><td>B.</td></tr><tr><td>May</td><td></td><td>6,080</td><td>1,280</td><td>2,470</td><td>152,000</td><td>B.</td></tr><tr><td>June</td><td></td><td>1,520</td><td>186</td><td>549</td><td>32,700</td><td>B.</td></tr><tr><td>July</td><td></td><td>172</td><td>38</td><td>81. 7</td><td>5,020</td><td>B.</td></tr><tr><td>August</td><td></td><td>38</td><td>11</td><td>23. 0</td><td>1,410</td><td>B.</td></tr><tr><td>September</td><td></td><td>1,960</td><td>12</td><td>132</td><td>7,860</td><td>B.</td></tr><tr><td>The year</td><td></td><td>13, 400</td><td>11</td><td>696</td><td>506,000</td><td></td></tr><tr><td></td><td>1912 -13.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td></td><td>420</td><td>20</td><td>68. 3</td><td>200</td><td>B.</td></tr><tr><td>November</td><td></td><td>14, 800</td><td>128</td><td>1,720</td><td>102, 000</td><td>C.</td></tr><tr><td>December</td><td></td><td>6, 080</td><td>246</td><td>1, 420</td><td>87, 300</td><td>B.</td></tr><tr><td>January</td><td></td><td>7,440</td><td>630</td><td>1,920</td><td>118,000</td><td>C.</td></tr><tr><td>February</td><td></td><td>,920</td><td>590</td><td>1,290</td><td>71,600</td><td>B.</td></tr><tr><td>March</td><td></td><td>2,110</td><td>590</td><td>1,100</td><td>67,600</td><td>B.</td></tr><tr><td>April</td><td></td><td>6,500</td><td>1,240</td><td>2,370</td><td>141,000</td><td>B.</td></tr><tr><td>May</td><td></td><td>2,210</td><td>826</td><td>1,420</td><td>87,300</td><td>B.</td></tr><tr><td>June</td><td></td><td>826</td><td>104</td><td>360</td><td>21, 400</td><td>B.</td></tr><tr><td>July</td><td></td><td>140</td><td>30</td><td>60. 0</td><td>3, 690</td><td>B.</td></tr><tr><td>August</td><td></td><td>51</td><td>16</td><td>29. 3</td><td>1,800</td><td>B.</td></tr><tr><td>September</td><td></td><td>22</td><td>10</td><td>14. 3</td><td>851</td><td>B.</td></tr><tr><td>The year</td><td></td><td>14,800</td><td>10</td><td>978</td><td>707,00</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.029430181590482152,
+                            "top": 0.07773188133683816,
+                            "width": 0.8196618659987477,
+                            "height": 0.02403304543747653,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.027079549370218083,
+                            "top": 0.1197756725372876,
+                            "width": 0.830499174897941,
+                            "height": 0.41276411055802315,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-feet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-feet).</th><th rowspan=\"2\">Accu-\nracy.</th></tr><tr><td>Maximum.</td><td>Minimum.</td><td>Mean.</td></tr><tr><td></td><td>1911.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>August 22 -31</td><td></td><td>18</td><td>11</td><td>13.0</td><td>258</td><td>B</td></tr><tr><td>September</td><td></td><td>14</td><td>10</td><td>11.9</td><td>708</td><td>B.</td></tr><tr><td></td><td>1911 -12.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td></td><td>18</td><td>11</td><td>14.4</td><td>885</td><td>B.</td></tr><tr><td>November</td><td></td><td>215</td><td>14</td><td>43. 6</td><td>2, 590</td><td>B.</td></tr><tr><td>December</td><td></td><td>56</td><td>22</td><td>36. 4</td><td>2,240</td><td>B.</td></tr><tr><td>January</td><td></td><td>13,400</td><td>46</td><td>1, 420</td><td>87,300</td><td>C.</td></tr><tr><td>February</td><td></td><td>6, 930</td><td>516</td><td>1,480</td><td>85,1</td><td>B.</td></tr><tr><td>March</td><td></td><td>1, 690</td><td>420</td><td>947</td><td>58,200</td><td>B.</td></tr><tr><td>April</td><td></td><td>4,500</td><td>760</td><td>1,180</td><td>70,200</td><td>B.</td></tr><tr><td>May</td><td></td><td>6,080</td><td>1,280</td><td>2,470</td><td>152,000</td><td>B.</td></tr><tr><td>June</td><td></td><td>1,520</td><td>186</td><td>549</td><td>32,700</td><td>B.</td></tr><tr><td>July</td><td></td><td>172</td><td>38</td><td>81. 7</td><td>5,020</td><td>B.</td></tr><tr><td>August</td><td></td><td>38</td><td>11</td><td>23. 0</td><td>1,410</td><td>B.</td></tr><tr><td>September</td><td></td><td>1,960</td><td>12</td><td>132</td><td>7,860</td><td>B.</td></tr><tr><td>The year</td><td></td><td>13, 400</td><td>11</td><td>696</td><td>506,000</td><td></td></tr><tr><td></td><td>1912 -13.</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td></td><td>420</td><td>20</td><td>68. 3</td><td>200</td><td>B.</td></tr><tr><td>November</td><td></td><td>14, 800</td><td>128</td><td>1,720</td><td>102, 000</td><td>C.</td></tr><tr><td>December</td><td></td><td>6, 080</td><td>246</td><td>1, 420</td><td>87, 300</td><td>B.</td></tr><tr><td>January</td><td></td><td>7,440</td><td>630</td><td>1,920</td><td>118,000</td><td>C.</td></tr><tr><td>February</td><td></td><td>,920</td><td>590</td><td>1,290</td><td>71,600</td><td>B.</td></tr><tr><td>March</td><td></td><td>2,110</td><td>590</td><td>1,100</td><td>67,600</td><td>B.</td></tr><tr><td>April</td><td></td><td>6,500</td><td>1,240</td><td>2,370</td><td>141,000</td><td>B.</td></tr><tr><td>May</td><td></td><td>2,210</td><td>826</td><td>1,420</td><td>87,300</td><td>B.</td></tr><tr><td>June</td><td></td><td>826</td><td>104</td><td>360</td><td>21, 400</td><td>B.</td></tr><tr><td>July</td><td></td><td>140</td><td>30</td><td>60. 0</td><td>3, 690</td><td>B.</td></tr><tr><td>August</td><td></td><td>51</td><td>16</td><td>29. 3</td><td>1,800</td><td>B.</td></tr><tr><td>September</td><td></td><td>22</td><td>10</td><td>14. 3</td><td>851</td><td>B.</td></tr><tr><td>The year</td><td></td><td>14,800</td><td>10</td><td>978</td><td>707,00</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913. (cont.)\n\n## SOUTH FORK OF EEL RIVER AT GARBERVILLE, CAL.\n\n- LOCATION.-In the SW. 1/4 sec. 24, T. 4 S., R. 3 E. , at highway bridge, about a mile southwest of Garberville.\n\n- RECORDS AVAILABLE.-August 25, 1911, to September 5, 1913, when station was dis- continued.\n\nDRAINAGE AREA.-84 square miles.\n\nGAGE.-Chain gage on downstream side of bridge; length of chain changed to 51.02 feet beginning May 18, 1913.\n\n- CHANNEL.-Bowlders and gravel; somewhat shifting during high water.\n\n- DISCHARGE MEASUREMENTS.-Made - from bridge or by wading.\n\n- ACCURACY.-Rating curves fairly well defined for low and medium stages. Esti- mates for high water approximate.",
+                "embed": "# Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913. (cont.)\n\n## SOUTH FORK OF EEL RIVER AT GARBERVILLE, CAL.\n\n- LOCATION.-In the SW. 1/4 sec. 24, T. 4 S., R. 3 E. , at highway bridge, about a mile southwest of Garberville.\n\n- RECORDS AVAILABLE.-August 25, 1911, to September 5, 1913, when station was dis- continued.\n\nDRAINAGE AREA.-84 square miles.\n\nGAGE.-Chain gage on downstream side of bridge; length of chain changed to 51.02 feet beginning May 18, 1913.\n\n- CHANNEL.-Bowlders and gravel; somewhat shifting during high water.\n\n- DISCHARGE MEASUREMENTS.-Made - from bridge or by wading.\n\n- ACCURACY.-Rating curves fairly well defined for low and medium stages. Esti- mates for high water approximate.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.13149655604257984,
+                            "top": 0.5512579797221179,
+                            "width": 0.6230432060112712,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "SOUTH FORK OF EEL RIVER AT GARBERVILLE, CAL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.030682529743268627,
+                            "top": 0.5764175741644761,
+                            "width": 0.8240450845335003,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "- LOCATION.-In the SW. 1/4 sec. 24, T. 4 S., R. 3 E. , at highway bridge, about a mile southwest of Garberville.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.030682529743268627,
+                            "top": 0.6075854299662036,
+                            "width": 0.8246712586098935,
+                            "height": 0.030792339466766804,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE.-August 25, 1911, to September 5, 1913, when station was dis- continued.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.031308703819661866,
+                            "top": 0.6428839654524972,
+                            "width": 0.34439574201628054,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-84 square miles.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.031934877896055106,
+                            "top": 0.65790461885092,
+                            "width": 0.8227927363807138,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Chain gage on downstream side of bridge; length of chain changed to 51.02 feet beginning May 18, 1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.036944270507201005,
+                            "top": 0.689447990987608,
+                            "width": 0.6862867877269881,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "- CHANNEL.-Bowlders and gravel; somewhat shifting during high water.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.03256105197244834,
+                            "top": 0.7052196770559519,
+                            "width": 0.6080150281778335,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "- DISCHARGE MEASUREMENTS.-Made - from bridge or by wading.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.031934877896055106,
+                            "top": 0.7206158467893353,
+                            "width": 0.8252974326862867,
+                            "height": 0.02929027412692452,
+                            "page": 1
+                        },
+                        "content": "- ACCURACY.-Rating curves fairly well defined for low and medium stages. Esti- mates for high water approximate.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913. (cont.)\n\n## SOUTH FORK OF EEL RIVER AT GARBERVILLE, CAL. (cont.)\n\nDischarge measurements of South Fork of Eel River at Garberville, Cal., during the year ending Sept. 30, 1913.\n\n[Made by Charles Leidl.]\n\n<table><tr><th>Date.</th><th></th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft</td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>Oct. 13</td><td></td><td>6,50</td><td>63</td><td>May 18</td><td>7.90</td><td>504</td><td>Sept. 5</td><td>6.47</td><td>24</td></tr><tr><td>Feb. 5</td><td></td><td>9.11</td><td>1, 240</td><td>Sept. 4</td><td>6.40</td><td>40</td><td>5</td><td>6.47</td><td>42</td></tr><tr><td>Mar. 21</td><td></td><td>9.08</td><td>1, 490</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# Monthly discharge of Middle Eel River near Covelo, Cal., for the years ending Sept. 30, 1911-1913. (cont.)\n\n## SOUTH FORK OF EEL RIVER AT GARBERVILLE, CAL. (cont.)\n\nDischarge measurements of South Fork of Eel River at Garberville, Cal., during the year ending Sept. 30, 1913.\n\n[Made by Charles Leidl.]\n\n<table><tr><th>Date.</th><th></th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft</td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>Oct. 13</td><td></td><td>6,50</td><td>63</td><td>May 18</td><td>7.90</td><td>504</td><td>Sept. 5</td><td>6.47</td><td>24</td></tr><tr><td>Feb. 5</td><td></td><td>9.11</td><td>1, 240</td><td>Sept. 4</td><td>6.40</td><td>40</td><td>5</td><td>6.47</td><td>42</td></tr><tr><td>Mar. 21</td><td></td><td>9.08</td><td>1, 490</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03256105197244834,
+                            "top": 0.7634247089748404,
+                            "width": 0.8246712586098935,
+                            "height": 0.027788208787082238,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of South Fork of Eel River at Garberville, Cal., during the year ending Sept. 30, 1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3368816530995617,
+                            "top": 0.8017273751408186,
+                            "width": 0.1959924859110833,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "[Made by Charles Leidl.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.03175672412889035,
+                            "top": 0.8174741245775441,
+                            "width": 0.8299338663826156,
+                            "height": 0.10868951766687007,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th></th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th><th>Date.</th><th>Gage\nheight.</th><th>Dis-\ncharge.</th></tr><tr><td></td><td></td><td>Feet.</td><td>Sec.-ft</td><td></td><td>Feet.</td><td>Sec.-ft.</td><td></td><td>Feet.</td><td>Sec.-ft.</td></tr><tr><td>Oct. 13</td><td></td><td>6,50</td><td>63</td><td>May 18</td><td>7.90</td><td>504</td><td>Sept. 5</td><td>6.47</td><td>24</td></tr><tr><td>Feb. 5</td><td></td><td>9.11</td><td>1, 240</td><td>Sept. 4</td><td>6.40</td><td>40</td><td>5</td><td>6.47</td><td>42</td></tr><tr><td>Mar. 21</td><td></td><td>9.08</td><td>1, 490</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "job_id": "c4d671d0-2108-41f2-a150-7ccd93bcbadc",
+    "duration": 4.631855249404907,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f45a5fda-6ddd-4195-932e-5ae0759ec652?AWSAccessKeyId=ASIA2UOK6OVBJBPD2K7Y&Signature=L9WuW1qxsuZocU2lQEwkgxlYa4Q%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIQCbJzl3Wy9c6GvVZzxAs7j0wCJa7bo0qksHCFZWlNDNWAIgTLm%2BuCDDq5zKqfQ1ph7cQ8SPzqHzJTxLXqpjtDtbZBEqiwUIIhAAGgw3MzExMDY5MzIwMzQiDHgqys8OKhJC6mNNIiroBEL57uQ2ulHRmNIQtvz6dYZM5B5K%2BXTZjeQ%2FMQeDXhaC9Slp4ev0oa8cIb4294asIc41g9%2FDeXgREpFCml5bHp3XMVQtpuqXLVZQdsmTHpYdgLTl9mlA8TRZtb4S1kXqsDnDtI9%2BWlk%2FHNm2WTaIX1bheQDzCgX4ky8%2FJzHKNQ7QzKue6DHx%2FY9JXyVutiI8HgvAowH7yktaU93vpH6w60ErR1LKNptdTQ2ENpXDNvWWxELU4eK2cKx0iDlZ3MZdHU6Skwowu8M3WUbfYBbBmue8JeFyvSM7xBJOXZzrNN9xRE8sRZclUBOUSsiHeoyPOiNQmYFNeIyhIiYdvsVF3ubkzpRtmG4EE5KrgE8j2wEhHzT7dVOGOnyQJGq9Rqlry6pImgrHcCDjDnO71gThO9kkqZ2lZR2GJGJsINAM0JsbIGZVpPwH7nzyx5WsdAcR3GUdp9yA1JZU0JFHnpHabOQTwInFyiTBNOJnOpeJ9jEOIr3J7I%2Bfk4RmjtO%2BxKXfrfwe42LzkCemd9wArbratuQLUfjnd%2BzRdFhWrwx7%2FC2Fjn7SFxqVKrujm8ZizkdIUIIffraQlJj6ykMt%2FokgEy8n%2FrlsOUKYbcPXTJ1PtMhR93AALJGs9vhk292NE9%2FHHUB%2BbxToS0GziJ258AA9lS08feMOONpMzgb3CCYNYjeKN9GSCTOrjCCGl%2FlrmpY5BXQzn%2FKbfFuyuAHNtTkKH2kVQ4yQa5mBc0dEVIF8YNHCApKQ1EWpN9c4BxlQwQCP2Y8qfMl6ab3LnXeNRFsUyxDtl2buL1KCm%2FOGqZLkqUV3CM1UDc27mHUw443JugY6mwHQimV3NPschWj%2BQLNF5WLnT667FnPYaeotGJFf2yB6UYMsDhQ4t7dOEYk4Eaag%2BJ8157y8AvTuojzSPR8QxIS8YgPawT9Wjew9Y9EdKV%2FFE6EJr2jenfVKgOJr0IJdIx61Q8MFjdJM6z9%2Fo6nZeNVYmk2OmsvQSeghorGZAvEbQ70yWscI5j21GLaJr5c28E5HgBfmBAcJmq23%2BQ%3D%3D&Expires=1733451384",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# UNDERGROUND WATERS.",
+                "embed": "# UNDERGROUND WATERS.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.06666666666666667,
+                            "top": 0.03323029366306028,
+                            "width": 0.11333333333333333,
+                            "height": 0.009659969088098918,
+                            "page": 1
+                        },
+                        "content": "CHANDLER.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3433333333333333,
+                            "top": 0.03207109737248841,
+                            "width": 0.32066666666666666,
+                            "height": 0.010432766615146832,
+                            "page": 1
+                        },
+                        "content": "UNDERGROUND WATERS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9086666666666666,
+                            "top": 0.02820710973724884,
+                            "width": 0.030666666666666665,
+                            "height": 0.01313755795981453,
+                            "page": 1
+                        },
+                        "content": "25",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Irrigation pumping plants in Woodland district.\n\n<table><tr><th rowspan=\"2\">Owner.</th><th rowspan=\"2\"></th><th rowspan=\"2\"></th><th colspan=\"2\">Size of well.</th><th rowspan=\"2\"></th><th rowspan=\"2\">the</th><th colspan=\"2\">Engine.</th><th colspan=\"3\">Pump.</th><th rowspan=\"2\"></th></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Ins.</td><td>Feet.</td><td>Feet.</td><td>Feet.</td><td></td><td></td><td>Ins.</td><td>Gallons\nper min-\nute.</td><td></td><td></td></tr><tr><td>Byron Jackson</td><td>6 wells.</td><td>160</td><td>8</td><td>78</td><td>18</td><td>18 to 44</td><td>60</td><td>$1,600</td><td></td><td>3, 000</td><td>$500</td><td>$1.50</td></tr><tr><td>R.B. Blower</td><td>Well</td><td>80</td><td>18</td><td>25</td><td>10</td><td>10 to 24</td><td>25</td><td>230</td><td>6</td><td>2,600</td><td></td><td>.83</td></tr><tr><td>J. R. Fisher</td><td>3 wells</td><td>10</td><td>2 -12\nl1 - 8</td><td>60</td><td>24</td><td>28</td><td>17</td><td>a 600</td><td>6</td><td>1, 800</td><td>213</td><td>3.20</td></tr><tr><td>J. E. Scarlet</td><td>do</td><td>80</td><td>12</td><td>42</td><td>16</td><td>28</td><td>25</td><td></td><td>8</td><td>2, 000</td><td>214</td><td>1.50</td></tr><tr><td>S. V. Scarlet</td><td>2 wells.</td><td>20</td><td>12</td><td>80</td><td>21</td><td>31</td><td>25</td><td>1, 675</td><td>6</td><td>3,000</td><td>150</td><td>1.00</td></tr><tr><td>C.H. Steinberg</td><td>do</td><td>30</td><td>24</td><td>45</td><td>15</td><td>25 to 30</td><td>25</td><td>a 700</td><td>6</td><td></td><td>160</td><td>1.57</td></tr><tr><td>C.S. Mering</td><td>3 wells</td><td>18</td><td>10</td><td>45</td><td>16</td><td>30</td><td>35</td><td></td><td>8</td><td>3,000</td><td>450</td><td>.75</td></tr><tr><td>F. Martinelli</td><td>do</td><td>30</td><td>5</td><td></td><td>20</td><td>30</td><td>16</td><td>500</td><td></td><td></td><td></td><td>2.00</td></tr><tr><td>L. Cramer</td><td>Well\nand\nCache\nCreek.</td><td>25</td><td>24</td><td>55</td><td>25</td><td>25 to 35</td><td>20</td><td>1,800</td><td>10</td><td>7,000</td><td>550</td><td>75</td></tr><tr><td>O.J. Adams</td><td>Cache\nCreek.</td><td>13</td><td></td><td></td><td></td><td>27</td><td>8</td><td>250</td><td></td><td>400</td><td>125</td><td>.83</td></tr><tr><td>Mrs. Peart</td><td>do</td><td>70</td><td></td><td></td><td></td><td>20</td><td>(b)</td><td>(b)</td><td>12</td><td>5, 000</td><td></td><td>1.20</td></tr><tr><td>W. W. Nelson</td><td>do</td><td>30</td><td></td><td></td><td></td><td>11</td><td>45</td><td>2,200</td><td>10</td><td>5, 000</td><td>250</td><td>2.57</td></tr><tr><td>F. Sanderson</td><td>do</td><td>17</td><td></td><td></td><td></td><td>20</td><td>(b)</td><td>(b)</td><td>5</td><td>1,200</td><td>250</td><td>2.00</td></tr><tr><td>Robert Morrison</td><td>do</td><td>10</td><td></td><td></td><td></td><td>25</td><td>(b)</td><td>(b)</td><td>6</td><td>2, 000</td><td>100</td><td>1.50</td></tr></table>\n\nSecondhand.",
+                "embed": "# Irrigation pumping plants in Woodland district.\n\n<table><tr><th rowspan=\"2\">Owner.</th><th rowspan=\"2\"></th><th rowspan=\"2\"></th><th colspan=\"2\">Size of well.</th><th rowspan=\"2\"></th><th rowspan=\"2\">the</th><th colspan=\"2\">Engine.</th><th colspan=\"3\">Pump.</th><th rowspan=\"2\"></th></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Ins.</td><td>Feet.</td><td>Feet.</td><td>Feet.</td><td></td><td></td><td>Ins.</td><td>Gallons\nper min-\nute.</td><td></td><td></td></tr><tr><td>Byron Jackson</td><td>6 wells.</td><td>160</td><td>8</td><td>78</td><td>18</td><td>18 to 44</td><td>60</td><td>$1,600</td><td></td><td>3, 000</td><td>$500</td><td>$1.50</td></tr><tr><td>R.B. Blower</td><td>Well</td><td>80</td><td>18</td><td>25</td><td>10</td><td>10 to 24</td><td>25</td><td>230</td><td>6</td><td>2,600</td><td></td><td>.83</td></tr><tr><td>J. R. Fisher</td><td>3 wells</td><td>10</td><td>2 -12\nl1 - 8</td><td>60</td><td>24</td><td>28</td><td>17</td><td>a 600</td><td>6</td><td>1, 800</td><td>213</td><td>3.20</td></tr><tr><td>J. E. Scarlet</td><td>do</td><td>80</td><td>12</td><td>42</td><td>16</td><td>28</td><td>25</td><td></td><td>8</td><td>2, 000</td><td>214</td><td>1.50</td></tr><tr><td>S. V. Scarlet</td><td>2 wells.</td><td>20</td><td>12</td><td>80</td><td>21</td><td>31</td><td>25</td><td>1, 675</td><td>6</td><td>3,000</td><td>150</td><td>1.00</td></tr><tr><td>C.H. Steinberg</td><td>do</td><td>30</td><td>24</td><td>45</td><td>15</td><td>25 to 30</td><td>25</td><td>a 700</td><td>6</td><td></td><td>160</td><td>1.57</td></tr><tr><td>C.S. Mering</td><td>3 wells</td><td>18</td><td>10</td><td>45</td><td>16</td><td>30</td><td>35</td><td></td><td>8</td><td>3,000</td><td>450</td><td>.75</td></tr><tr><td>F. Martinelli</td><td>do</td><td>30</td><td>5</td><td></td><td>20</td><td>30</td><td>16</td><td>500</td><td></td><td></td><td></td><td>2.00</td></tr><tr><td>L. Cramer</td><td>Well\nand\nCache\nCreek.</td><td>25</td><td>24</td><td>55</td><td>25</td><td>25 to 35</td><td>20</td><td>1,800</td><td>10</td><td>7,000</td><td>550</td><td>75</td></tr><tr><td>O.J. Adams</td><td>Cache\nCreek.</td><td>13</td><td></td><td></td><td></td><td>27</td><td>8</td><td>250</td><td></td><td>400</td><td>125</td><td>.83</td></tr><tr><td>Mrs. Peart</td><td>do</td><td>70</td><td></td><td></td><td></td><td>20</td><td>(b)</td><td>(b)</td><td>12</td><td>5, 000</td><td></td><td>1.20</td></tr><tr><td>W. W. Nelson</td><td>do</td><td>30</td><td></td><td></td><td></td><td>11</td><td>45</td><td>2,200</td><td>10</td><td>5, 000</td><td>250</td><td>2.57</td></tr><tr><td>F. Sanderson</td><td>do</td><td>17</td><td></td><td></td><td></td><td>20</td><td>(b)</td><td>(b)</td><td>5</td><td>1,200</td><td>250</td><td>2.00</td></tr><tr><td>Robert Morrison</td><td>do</td><td>10</td><td></td><td></td><td></td><td>25</td><td>(b)</td><td>(b)</td><td>6</td><td>2, 000</td><td>100</td><td>1.50</td></tr></table>\n\nSecondhand.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.24066666666666667,
+                            "top": 0.06143740340030912,
+                            "width": 0.522,
+                            "height": 0.0142967542503864,
+                            "page": 1
+                        },
+                        "content": "Irrigation pumping plants in Woodland district.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0625008290608724,
+                            "top": 0.09047059850678009,
+                            "width": 0.8862966156005859,
+                            "height": 0.4009258971884962,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Owner.</th><th rowspan=\"2\"></th><th rowspan=\"2\"></th><th colspan=\"2\">Size of well.</th><th rowspan=\"2\"></th><th rowspan=\"2\">the</th><th colspan=\"2\">Engine.</th><th colspan=\"3\">Pump.</th><th rowspan=\"2\"></th></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Ins.</td><td>Feet.</td><td>Feet.</td><td>Feet.</td><td></td><td></td><td>Ins.</td><td>Gallons\nper min-\nute.</td><td></td><td></td></tr><tr><td>Byron Jackson</td><td>6 wells.</td><td>160</td><td>8</td><td>78</td><td>18</td><td>18 to 44</td><td>60</td><td>$1,600</td><td></td><td>3, 000</td><td>$500</td><td>$1.50</td></tr><tr><td>R.B. Blower</td><td>Well</td><td>80</td><td>18</td><td>25</td><td>10</td><td>10 to 24</td><td>25</td><td>230</td><td>6</td><td>2,600</td><td></td><td>.83</td></tr><tr><td>J. R. Fisher</td><td>3 wells</td><td>10</td><td>2 -12\nl1 - 8</td><td>60</td><td>24</td><td>28</td><td>17</td><td>a 600</td><td>6</td><td>1, 800</td><td>213</td><td>3.20</td></tr><tr><td>J. E. Scarlet</td><td>do</td><td>80</td><td>12</td><td>42</td><td>16</td><td>28</td><td>25</td><td></td><td>8</td><td>2, 000</td><td>214</td><td>1.50</td></tr><tr><td>S. V. Scarlet</td><td>2 wells.</td><td>20</td><td>12</td><td>80</td><td>21</td><td>31</td><td>25</td><td>1, 675</td><td>6</td><td>3,000</td><td>150</td><td>1.00</td></tr><tr><td>C.H. Steinberg</td><td>do</td><td>30</td><td>24</td><td>45</td><td>15</td><td>25 to 30</td><td>25</td><td>a 700</td><td>6</td><td></td><td>160</td><td>1.57</td></tr><tr><td>C.S. Mering</td><td>3 wells</td><td>18</td><td>10</td><td>45</td><td>16</td><td>30</td><td>35</td><td></td><td>8</td><td>3,000</td><td>450</td><td>.75</td></tr><tr><td>F. Martinelli</td><td>do</td><td>30</td><td>5</td><td></td><td>20</td><td>30</td><td>16</td><td>500</td><td></td><td></td><td></td><td>2.00</td></tr><tr><td>L. Cramer</td><td>Well\nand\nCache\nCreek.</td><td>25</td><td>24</td><td>55</td><td>25</td><td>25 to 35</td><td>20</td><td>1,800</td><td>10</td><td>7,000</td><td>550</td><td>75</td></tr><tr><td>O.J. Adams</td><td>Cache\nCreek.</td><td>13</td><td></td><td></td><td></td><td>27</td><td>8</td><td>250</td><td></td><td>400</td><td>125</td><td>.83</td></tr><tr><td>Mrs. Peart</td><td>do</td><td>70</td><td></td><td></td><td></td><td>20</td><td>(b)</td><td>(b)</td><td>12</td><td>5, 000</td><td></td><td>1.20</td></tr><tr><td>W. W. Nelson</td><td>do</td><td>30</td><td></td><td></td><td></td><td>11</td><td>45</td><td>2,200</td><td>10</td><td>5, 000</td><td>250</td><td>2.57</td></tr><tr><td>F. Sanderson</td><td>do</td><td>17</td><td></td><td></td><td></td><td>20</td><td>(b)</td><td>(b)</td><td>5</td><td>1,200</td><td>250</td><td>2.00</td></tr><tr><td>Robert Morrison</td><td>do</td><td>10</td><td></td><td></td><td></td><td>25</td><td>(b)</td><td>(b)</td><td>6</td><td>2, 000</td><td>100</td><td>1.50</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12866666666666668,
+                            "top": 0.49845440494590415,
+                            "width": 0.11733333333333333,
+                            "height": 0.008887171561051005,
+                            "page": 1
+                        },
+                        "content": "Secondhand.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Irrigation pumping plants in Woodland district. (cont.)\n\nb Use S. V. Scarlet's gasoline engine.\n\nc One irrigation.\n\nThis spring (1900) the firm of Botsford & Blithroad bored a number of wells along the roads leading from Woodland, for the use of water- ing carts. The depths to first water and gravel in thirteen of these are as follows:\n\nWell borings near Woodland.\n\n<table><tr><th>Boring.</th><th>Depth to\nwater.</th><th>Depth to\ngravel.</th></tr><tr><td></td><td>Feet.</td><td>Feet.</td></tr><tr><td>No. 1</td><td>16</td><td>32</td></tr><tr><td>No. 2</td><td>18</td><td>38</td></tr><tr><td>No. 3</td><td>20</td><td>20</td></tr><tr><td>No. 4</td><td>24</td><td>114</td></tr><tr><td>No. 5</td><td>30</td><td>40</td></tr><tr><td>No. 6</td><td>30</td><td>3</td></tr><tr><td>No. 7</td><td>19</td><td></td></tr><tr><td>No. 8</td><td>19</td><td></td></tr><tr><td>No. 9</td><td>19</td><td>46</td></tr><tr><td>No. 10</td><td>10</td><td>36</td></tr><tr><td>No. 11</td><td>7</td><td>24</td></tr><tr><td>No. 12</td><td>3. 5</td><td>20</td></tr><tr><td>No. 13</td><td>7.5</td><td></td></tr></table>",
+                "embed": "# Irrigation pumping plants in Woodland district. (cont.)\n\nb Use S. V. Scarlet's gasoline engine.\n\nc One irrigation.\n\nThis spring (1900) the firm of Botsford & Blithroad bored a number of wells along the roads leading from Woodland, for the use of water- ing carts. The depths to first water and gravel in thirteen of these are as follows:\n\nWell borings near Woodland.\n\n<table><tr><th>Boring.</th><th>Depth to\nwater.</th><th>Depth to\ngravel.</th></tr><tr><td></td><td>Feet.</td><td>Feet.</td></tr><tr><td>No. 1</td><td>16</td><td>32</td></tr><tr><td>No. 2</td><td>18</td><td>38</td></tr><tr><td>No. 3</td><td>20</td><td>20</td></tr><tr><td>No. 4</td><td>24</td><td>114</td></tr><tr><td>No. 5</td><td>30</td><td>40</td></tr><tr><td>No. 6</td><td>30</td><td>3</td></tr><tr><td>No. 7</td><td>19</td><td></td></tr><tr><td>No. 8</td><td>19</td><td></td></tr><tr><td>No. 9</td><td>19</td><td>46</td></tr><tr><td>No. 10</td><td>10</td><td>36</td></tr><tr><td>No. 11</td><td>7</td><td>24</td></tr><tr><td>No. 12</td><td>3. 5</td><td>20</td></tr><tr><td>No. 13</td><td>7.5</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.33466666666666667,
+                            "top": 0.4988408037094281,
+                            "width": 0.3313333333333333,
+                            "height": 0.010432766615146832,
+                            "page": 1
+                        },
+                        "content": "b Use S. V. Scarlet's gasoline engine.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.7426666666666667,
+                            "top": 0.49845440494590415,
+                            "width": 0.14733333333333334,
+                            "height": 0.010046367851622875,
+                            "page": 1
+                        },
+                        "content": "c One irrigation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.068,
+                            "top": 0.5239567233384853,
+                            "width": 0.876,
+                            "height": 0.06916537867078826,
+                            "page": 1
+                        },
+                        "content": "This spring (1900) the firm of Botsford & Blithroad bored a number of wells along the roads leading from Woodland, for the use of water- ing carts. The depths to first water and gravel in thirteen of these are as follows:",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.35133333333333333,
+                            "top": 0.5958268933539412,
+                            "width": 0.312,
+                            "height": 0.012751159196290572,
+                            "page": 1
+                        },
+                        "content": "Well borings near Woodland.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.19562740071614584,
+                            "top": 0.6152008858493527,
+                            "width": 0.6236575927734375,
+                            "height": 0.32649544623019705,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Boring.</th><th>Depth to\nwater.</th><th>Depth to\ngravel.</th></tr><tr><td></td><td>Feet.</td><td>Feet.</td></tr><tr><td>No. 1</td><td>16</td><td>32</td></tr><tr><td>No. 2</td><td>18</td><td>38</td></tr><tr><td>No. 3</td><td>20</td><td>20</td></tr><tr><td>No. 4</td><td>24</td><td>114</td></tr><tr><td>No. 5</td><td>30</td><td>40</td></tr><tr><td>No. 6</td><td>30</td><td>3</td></tr><tr><td>No. 7</td><td>19</td><td></td></tr><tr><td>No. 8</td><td>19</td><td></td></tr><tr><td>No. 9</td><td>19</td><td>46</td></tr><tr><td>No. 10</td><td>10</td><td>36</td></tr><tr><td>No. 11</td><td>7</td><td>24</td></tr><tr><td>No. 12</td><td>3. 5</td><td>20</td></tr><tr><td>No. 13</td><td>7.5</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "job_id": "96776039-0cdc-4863-ab9a-201ced280217",
+    "duration": 5.771605730056763,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/e8dd0781-e54a-42b2-9ed1-d860e233a194?AWSAccessKeyId=ASIA2UOK6OVBHAEHDBCD&Signature=ndlJEnkDD5dQO%2F39vHSkHqPY8Qo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIHotBSz%2FWuYla4jQWbXoiM6XZAuW5UkAOX5uoYivVxZ4AiBESy5RgtkP4cfkHEZnjRNuT%2FFtS1DxOVJL3u%2BIGmN4DSqLBQglEAAaDDczMTEwNjkzMjAzNCIMdln%2Fo9Ak6l8f0qifKugEE08vfhkEdpxAXAaDegWEOLTJLvom2RP7PSBXYTfJ98hThwFmFCeJ%2BlFCVMZ7XSMD3hbkw1R6svQxmUvCWA%2BlgoPIOL94IbWI2aCM%2BCuE1lezlc%2FzEoUktpzSIt%2B%2FIkomAH2FMPTWwhdOCRfrk1Wd8Y2W4IKnZIslkkeH2gDmG6k3JlbJocI9yVJvWtmCtA%2FZCfvlUTnXDyWkPNprd%2FsqfQ%2BwaWaXkCkHjJOfj815l6Rqa0D%2F6aNkzqak9Kl1HDSKpJOz%2FYogE2awBnRFadKPVXcTGDJiCBuQ3yyzQnMJpvNzxuXXy1JZo2GirkPc9%2Fv9OBMOduficv%2BiyrLr4jdqZ734hqBvh7AIBCLjo1PC%2FX6RXuF339e9xhCACeOhhAixVGx8F19Py5svgjhAq9T9mS213pJLFGKfYKBKVHKTisx5c5wBXP4o7CMMs%2F11yk2V7tfxHPyR0V12EX%2Bgt%2FJU%2BvRFT87TCFmpM%2FcBS0okSCKRELdbcq4by71k7D5Ou312veH3g6Oq46IIqE2qGblz7dix%2FOuP8AWJfmz0AGtZAUtuydQ5DdUvEJLWbaeWZG6wCHCJaVnDwWpmRny8QeNPx5U%2FH3Dsq9aeIyOseNIAwx3EM6gsZaWwnZCtDXnnnF3or%2BZjL9VuEGWVwqYpnfVZREUl8Itz%2Fguv3GXlzz%2BUC5wBsPviBCWKJzynqUbsqHAJfkLZcDxyjX4e%2BGC9Ky3kti995hdliubXyLJvUVv4vEVyh11zNvcyBPvQLV53c%2Bn%2Bvm2ZozOXXYOApSzlRwsuMMWnEnx55ORSmC6j%2BSmzXIIxLSe0khHgBzCf4sm6BjqcAUe9OSwjY7tjZznsNFVgAhqRBCnH0bgfWwnmdkhHIuz14QDW0A%2FPMsn473snWcvdTJkhAGp69MSDbkN2wLFwdoRid%2F4ZuqhXQSVY91G2TI2CeTr5P2JJyucRRu%2BbNWdONfty%2B%2FpJal3RZv4dEhOfj4BtvI5xc8VZHEsGJw4RuX5ufHMYaJ3HMzSbNHYLqUr7Oi0lQbAWzPa%2Flc2hbw%3D%3D&Expires=1733462177",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SANTA ANA RIVER BASIN\n\n77\n\n# Santa Ana River at Riverside Narrows, near Arlington, Calif.\n\nLocation. --Lat 33\u00b057'53\", long 117\u00b027'55\" in SW1NE1SW1 sec. 25, T. 2 S., R. 6 W., on right bank at downstream side of bridge on Pedley Road, 1.8 miles downstream from Union Pacific Railroad bridge, 3.3 miles northwest of Arlington, and 12 miles upstream from Temescal Creek.\n\nDrainage area --858 sq mi.",
+                "embed": "# SANTA ANA RIVER BASIN\n\n77\n\n# Santa Ana River at Riverside Narrows, near Arlington, Calif.\n\nLocation. --Lat 33\u00b057'53\", long 117\u00b027'55\" in SW1NE1SW1 sec. 25, T. 2 S., R. 6 W., on right bank at downstream side of bridge on Pedley Road, 1.8 miles downstream from Union Pacific Railroad bridge, 3.3 miles northwest of Arlington, and 12 miles upstream from Temescal Creek.\n\nDrainage area --858 sq mi.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.371947401377583,
+                            "top": 0.0472768532526475,
+                            "width": 0.19411396368190356,
+                            "height": 0.00869894099848714,
+                            "page": 1
+                        },
+                        "content": "SANTA ANA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8741390106449592,
+                            "top": 0.0453857791225416,
+                            "width": 0.018159048215403883,
+                            "height": 0.00832072617246596,
+                            "page": 1
+                        },
+                        "content": "77",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.19787100814026298,
+                            "top": 0.07488653555219364,
+                            "width": 0.5504070131496556,
+                            "height": 0.0113464447806354,
+                            "page": 1
+                        },
+                        "content": "Santa Ana River at Riverside Narrows, near Arlington, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06825297432686286,
+                            "top": 0.10249621785173979,
+                            "width": 0.8196618659987477,
+                            "height": 0.04046898638426626,
+                            "page": 1
+                        },
+                        "content": "Location. --Lat 33\u00b057'53\", long 117\u00b027'55\" in SW1NE1SW1 sec. 25, T. 2 S., R. 6 W., on right bank at downstream side of bridge on Pedley Road, 1.8 miles downstream from Union Pacific Railroad bridge, 3.3 miles northwest of Arlington, and 12 miles upstream from Temescal Creek.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06887914840325611,
+                            "top": 0.15279878971255673,
+                            "width": 0.23731997495303694,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Drainage area --858 sq mi.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Santa Ana River at Riverside Narrows, near Arlington, Calif. (cont.)\n\nRecords available.--January 1929 to September 1957.\n\nGage --Water-stage recorder. Datum of gage is 666.87 ft above mean sea level (levels by Riverside County engineer) Prior to Nov. 15, 1943, at site 11 miles upstream at different datum. During this period temporary stations were maintained at different sites and datums within a quarter of a mile of the permanent gage. Nov. 15, 1943, to Aug. 31, 1954, at same site at datum 3.00 ft higher. Sept. 1, 1954, to Jan. 17, 1955, at same site at datum 2.00 ft higher.\n\nExtremes -Maximum discharge during year, 3,450 cfs Jan. 13 (gage height, 5.57 ft); mini- mum daily, 21 cfs July 28 to Aug. 1. 1929-57: Maximum discharge, 100,000 cfs Mar. 2, 1938, on basis of slope-area determination of peak flow; minimum daily, 20 cfs for several days during August and September 1947.\n\nRemarks.--Records good, except those above 350 cfs, which are fair. Discharge measure- ments generally made once a week. Flow partly regulated by Big Bear Lake (see p. 54) Natural flow of stream affected by ground-water withdrawals, diversions for irrigation, and return flow from irrigated areas. The Metropolitan Water District of Southern California released 3,930 acre-ft of Colorado River water into Santa Ana River about 1.1 miles above station during October 1956.\n\nDischarge, in cubic feet per second, water year October 1956 to September\n\n1957",
+                "embed": "# Santa Ana River at Riverside Narrows, near Arlington, Calif. (cont.)\n\nRecords available.--January 1929 to September 1957.\n\nGage --Water-stage recorder. Datum of gage is 666.87 ft above mean sea level (levels by Riverside County engineer) Prior to Nov. 15, 1943, at site 11 miles upstream at different datum. During this period temporary stations were maintained at different sites and datums within a quarter of a mile of the permanent gage. Nov. 15, 1943, to Aug. 31, 1954, at same site at datum 3.00 ft higher. Sept. 1, 1954, to Jan. 17, 1955, at same site at datum 2.00 ft higher.\n\nExtremes -Maximum discharge during year, 3,450 cfs Jan. 13 (gage height, 5.57 ft); mini- mum daily, 21 cfs July 28 to Aug. 1. 1929-57: Maximum discharge, 100,000 cfs Mar. 2, 1938, on basis of slope-area determination of peak flow; minimum daily, 20 cfs for several days during August and September 1947.\n\nRemarks.--Records good, except those above 350 cfs, which are fair. Discharge measure- ments generally made once a week. Flow partly regulated by Big Bear Lake (see p. 54) Natural flow of stream affected by ground-water withdrawals, diversions for irrigation, and return flow from irrigated areas. The Metropolitan Water District of Southern California released 3,930 acre-ft of Colorado River water into Santa Ana River about 1.1 miles above station during October 1956.\n\nDischarge, in cubic feet per second, water year October 1956 to September\n\n1957",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06887914840325611,
+                            "top": 0.17095310136157338,
+                            "width": 0.4646211646837821,
+                            "height": 0.0113464447806354,
+                            "page": 1
+                        },
+                        "content": "Records available.--January 1929 to September 1957.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06887914840325611,
+                            "top": 0.18872919818456885,
+                            "width": 0.8090169067000627,
+                            "height": 0.06013615733736762,
+                            "page": 1
+                        },
+                        "content": "Gage --Water-stage recorder. Datum of gage is 666.87 ft above mean sea level (levels by Riverside County engineer) Prior to Nov. 15, 1943, at site 11 miles upstream at different datum. During this period temporary stations were maintained at different sites and datums within a quarter of a mile of the permanent gage. Nov. 15, 1943, to Aug. 31, 1954, at same site at datum 3.00 ft higher. Sept. 1, 1954, to Jan. 17, 1955, at same site at datum 2.00 ft higher.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06887914840325611,
+                            "top": 0.2552950075642965,
+                            "width": 0.817783343769568,
+                            "height": 0.05030257186081694,
+                            "page": 1
+                        },
+                        "content": "Extremes -Maximum discharge during year, 3,450 cfs Jan. 13 (gage height, 5.57 ft); mini- mum daily, 21 cfs July 28 to Aug. 1. 1929-57: Maximum discharge, 100,000 cfs Mar. 2, 1938, on basis of slope-area determination of peak flow; minimum daily, 20 cfs for several days during August and September 1947.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06825297432686286,
+                            "top": 0.31316187594553707,
+                            "width": 0.8008766437069506,
+                            "height": 0.05937972768532526,
+                            "page": 1
+                        },
+                        "content": "Remarks.--Records good, except those above 350 cfs, which are fair. Discharge measure- ments generally made once a week. Flow partly regulated by Big Bear Lake (see p. 54) Natural flow of stream affected by ground-water withdrawals, diversions for irrigation, and return flow from irrigated areas. The Metropolitan Water District of Southern California released 3,930 acre-ft of Colorado River water into Santa Ana River about 1.1 miles above station during October 1956.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1559173450219161,
+                            "top": 0.3891830559757943,
+                            "width": 0.606762680025047,
+                            "height": 0.009077155824508321,
+                            "page": 1
+                        },
+                        "content": "Discharge, in cubic feet per second, water year October 1956 to September",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.7708202880400752,
+                            "top": 0.3891830559757943,
+                            "width": 0.03256105197244834,
+                            "height": 0.0071860816944024205,
+                            "page": 1
+                        },
+                        "content": "1957",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Santa Ana River at Riverside Narrows, near Arlington, Calif. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>167</td><td>27</td><td>26</td><td>26</td><td>33</td><td>130</td><td>34</td><td>25</td><td>28</td><td>26</td><td>21</td><td>23</td></tr><tr><td>2</td><td>167</td><td>27</td><td>26</td><td>25</td><td>32</td><td>30</td><td>26</td><td>25</td><td>27</td><td>26</td><td>23</td><td>23</td></tr><tr><td>3</td><td>170</td><td>27</td><td>25</td><td>25</td><td>30</td><td>30</td><td>26</td><td>25</td><td>27</td><td>26</td><td>23</td><td>23</td></tr><tr><td>4</td><td>174</td><td>27</td><td>25</td><td>25</td><td>30</td><td>30</td><td>26</td><td>25</td><td>28</td><td>26</td><td>23</td><td>23</td></tr><tr><td>5</td><td>174</td><td>27</td><td>25</td><td>39</td><td>30</td><td>28</td><td>25</td><td>25</td><td>28</td><td>26</td><td>25</td><td>23</td></tr><tr><td>6</td><td>180</td><td>27</td><td>26</td><td>29</td><td>30</td><td>28</td><td>25</td><td>25</td><td>28</td><td>26</td><td>26</td><td>23</td></tr><tr><td>7</td><td>182</td><td>27</td><td>26</td><td>47</td><td>30</td><td>27</td><td>25</td><td>25</td><td>28</td><td>25</td><td>26</td><td>23</td></tr><tr><td>8</td><td>182</td><td>27</td><td>26</td><td>42</td><td>30</td><td>27</td><td>25</td><td>25</td><td>27</td><td>26</td><td>26</td><td>24</td></tr><tr><td>9</td><td>182</td><td>27</td><td>27</td><td>34</td><td>30</td><td>30</td><td>25</td><td>25</td><td>26</td><td>26</td><td>26</td><td>24</td></tr><tr><td>10</td><td>182</td><td>26</td><td>28</td><td>41</td><td>28</td><td>43</td><td>25</td><td>25</td><td>28</td><td>26</td><td>25</td><td>25</td></tr><tr><td>11</td><td>144</td><td>26</td><td>28</td><td>35</td><td>28</td><td>30</td><td>25</td><td>32</td><td>26</td><td>28</td><td>25</td><td>25</td></tr><tr><td>12</td><td>95</td><td>26</td><td>28</td><td>35</td><td>28</td><td>30</td><td>26</td><td>27</td><td>26</td><td>28</td><td>26</td><td>24</td></tr><tr><td>13</td><td>90</td><td>26</td><td>27</td><td>757</td><td>28</td><td>30</td><td>26</td><td>24</td><td>26</td><td>27</td><td>26</td><td>25</td></tr><tr><td>14</td><td>70</td><td>26</td><td>27</td><td>50</td><td>28</td><td>30</td><td>26</td><td>23</td><td>26</td><td>25</td><td>26</td><td>24</td></tr><tr><td>15</td><td>25</td><td>26</td><td>27</td><td>33</td><td>28</td><td>29</td><td>27</td><td>23</td><td>26</td><td>25</td><td>25</td><td>23</td></tr><tr><td>16</td><td>25</td><td>26</td><td>27</td><td>29</td><td>28</td><td>34</td><td>28</td><td>23</td><td>25</td><td>25</td><td>24</td><td>23</td></tr><tr><td>17</td><td>25</td><td>26</td><td>26</td><td>27</td><td>28</td><td>32</td><td>28</td><td>23</td><td>25</td><td>25</td><td>24</td><td>22</td></tr><tr><td>18</td><td>25</td><td>26</td><td>26</td><td>26</td><td>28</td><td>33</td><td>32</td><td>23</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>19</td><td>25</td><td>26</td><td>26</td><td>26</td><td>28</td><td>33</td><td>28</td><td>45</td><td>25</td><td>25</td><td>24</td><td>23</td></tr><tr><td>20</td><td>26</td><td>26</td><td>26</td><td>29</td><td>28</td><td>32</td><td>44</td><td>38</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>21</td><td>27</td><td>27</td><td>26</td><td>27</td><td>28</td><td>29</td><td>37</td><td>42</td><td>25</td><td>23</td><td>23</td><td>23</td></tr><tr><td>22</td><td>27</td><td>27</td><td>28</td><td>26</td><td>28</td><td>27</td><td>30</td><td>30</td><td>24</td><td>25</td><td>24</td><td>23</td></tr><tr><td>23</td><td>27</td><td>27</td><td>28</td><td>26</td><td>60</td><td>25</td><td>27</td><td>29</td><td>24</td><td>25</td><td>24</td><td>23</td></tr><tr><td>24</td><td>27</td><td>27</td><td>29</td><td>27</td><td>32</td><td>23</td><td>28</td><td>29</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>25</td><td>27</td><td>27</td><td>28</td><td>26</td><td>30</td><td>22</td><td>27</td><td>27</td><td>25</td><td>24</td><td>23</td><td>23</td></tr><tr><td>26</td><td>28</td><td>27</td><td>28</td><td>29</td><td>28</td><td>22</td><td>27</td><td>26</td><td>26</td><td>24</td><td>25</td><td>23</td></tr><tr><td>27</td><td>27</td><td>27</td><td>27</td><td>27</td><td>28</td><td>22</td><td>25</td><td>26</td><td>26</td><td>22</td><td>24</td><td>23</td></tr><tr><td>28</td><td>28</td><td>27</td><td>27</td><td>27</td><td>67</td><td>22</td><td>25</td><td>26</td><td>26</td><td>21</td><td>23</td><td>23</td></tr><tr><td>29</td><td>28</td><td>26</td><td>26</td><td>71</td><td>-</td><td>22</td><td>24</td><td>27</td><td>26</td><td>21</td><td>23</td><td>23</td></tr><tr><td>30</td><td>26</td><td>26</td><td>26</td><td>36</td><td></td><td>22</td><td>25</td><td>27</td><td>26</td><td>21</td><td>24</td><td>23</td></tr><tr><td>31</td><td>26</td><td></td><td>26</td><td>35</td><td></td><td>22</td><td></td><td>27</td><td></td><td>21</td><td>24</td><td></td></tr><tr><td>Total</td><td>2,608</td><td>797</td><td>827</td><td>1,737</td><td>884</td><td>974</td><td>827</td><td>847</td><td>783</td><td>766</td><td>753</td><td>699</td></tr><tr><td>Mean</td><td>84.1</td><td>26.6</td><td>26.7</td><td>56.0</td><td>31.6</td><td>31.4</td><td>27.6</td><td>27.3</td><td>26.1</td><td>24.7</td><td>24.3</td><td>23.3</td></tr><tr><td>Ac-ft</td><td>5,170</td><td>1,580</td><td>1,640</td><td>3,450</td><td>1,750</td><td>1,930</td><td>1,640</td><td>1,680</td><td>1,550</td><td>1,520</td><td>1,490</td><td>1,390</td></tr><tr><td>(+)</td><td>3,930</td><td>o</td><td>o</td><td>0</td><td>0</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>O</td></tr><tr><td colspan=\"13\">Adjusted for release of Colorado River water</td></tr><tr><td>Mean\nCfsm\nIn.\nAc-ft</td><td>1,240</td><td>1,580</td><td>1,640</td><td>3,450</td><td>1,750</td><td>1,930</td><td>1,640</td><td>1,680</td><td>1,550</td><td>1,520</td><td>1,490</td><td>1,390</td></tr><tr><td colspan=\"13\">Observed</td></tr><tr><td>Calendar</td><td>year</td><td>1956:</td><td>Max 1,480</td><td></td><td>Min 22</td><td>Mean</td><td>65.9</td><td>Ac-ft</td><td>47,830</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year 1956</td><td>-57:</td><td>Max 757</td><td></td><td>Min 21</td><td>Mean</td><td>34.3</td><td>Ac-ft</td><td>24,800</td><td></td><td></td><td></td></tr><tr><td colspan=\"10\">Adjusted</td><td></td><td></td><td></td></tr><tr><td rowspan=\"2\" colspan=\"4\">Calendar year 1956: Mean\nWater year 1956 -57: Mean</td><td></td><td>Cfsm</td><td>In.</td><td></td><td>Ac-ft</td><td>24,680</td><td></td><td></td><td></td></tr><tr><td></td><td>Cfsm</td><td>In.</td><td></td><td>Ac-ft</td><td>20,860</td><td></td><td></td><td></td></tr><tr><td colspan=\"10\">Peak discharge (base, 500 cfs) --Jan. 13 (10:30 a.m.) 3,450 cfs (5.57 ft)</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# Santa Ana River at Riverside Narrows, near Arlington, Calif. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>167</td><td>27</td><td>26</td><td>26</td><td>33</td><td>130</td><td>34</td><td>25</td><td>28</td><td>26</td><td>21</td><td>23</td></tr><tr><td>2</td><td>167</td><td>27</td><td>26</td><td>25</td><td>32</td><td>30</td><td>26</td><td>25</td><td>27</td><td>26</td><td>23</td><td>23</td></tr><tr><td>3</td><td>170</td><td>27</td><td>25</td><td>25</td><td>30</td><td>30</td><td>26</td><td>25</td><td>27</td><td>26</td><td>23</td><td>23</td></tr><tr><td>4</td><td>174</td><td>27</td><td>25</td><td>25</td><td>30</td><td>30</td><td>26</td><td>25</td><td>28</td><td>26</td><td>23</td><td>23</td></tr><tr><td>5</td><td>174</td><td>27</td><td>25</td><td>39</td><td>30</td><td>28</td><td>25</td><td>25</td><td>28</td><td>26</td><td>25</td><td>23</td></tr><tr><td>6</td><td>180</td><td>27</td><td>26</td><td>29</td><td>30</td><td>28</td><td>25</td><td>25</td><td>28</td><td>26</td><td>26</td><td>23</td></tr><tr><td>7</td><td>182</td><td>27</td><td>26</td><td>47</td><td>30</td><td>27</td><td>25</td><td>25</td><td>28</td><td>25</td><td>26</td><td>23</td></tr><tr><td>8</td><td>182</td><td>27</td><td>26</td><td>42</td><td>30</td><td>27</td><td>25</td><td>25</td><td>27</td><td>26</td><td>26</td><td>24</td></tr><tr><td>9</td><td>182</td><td>27</td><td>27</td><td>34</td><td>30</td><td>30</td><td>25</td><td>25</td><td>26</td><td>26</td><td>26</td><td>24</td></tr><tr><td>10</td><td>182</td><td>26</td><td>28</td><td>41</td><td>28</td><td>43</td><td>25</td><td>25</td><td>28</td><td>26</td><td>25</td><td>25</td></tr><tr><td>11</td><td>144</td><td>26</td><td>28</td><td>35</td><td>28</td><td>30</td><td>25</td><td>32</td><td>26</td><td>28</td><td>25</td><td>25</td></tr><tr><td>12</td><td>95</td><td>26</td><td>28</td><td>35</td><td>28</td><td>30</td><td>26</td><td>27</td><td>26</td><td>28</td><td>26</td><td>24</td></tr><tr><td>13</td><td>90</td><td>26</td><td>27</td><td>757</td><td>28</td><td>30</td><td>26</td><td>24</td><td>26</td><td>27</td><td>26</td><td>25</td></tr><tr><td>14</td><td>70</td><td>26</td><td>27</td><td>50</td><td>28</td><td>30</td><td>26</td><td>23</td><td>26</td><td>25</td><td>26</td><td>24</td></tr><tr><td>15</td><td>25</td><td>26</td><td>27</td><td>33</td><td>28</td><td>29</td><td>27</td><td>23</td><td>26</td><td>25</td><td>25</td><td>23</td></tr><tr><td>16</td><td>25</td><td>26</td><td>27</td><td>29</td><td>28</td><td>34</td><td>28</td><td>23</td><td>25</td><td>25</td><td>24</td><td>23</td></tr><tr><td>17</td><td>25</td><td>26</td><td>26</td><td>27</td><td>28</td><td>32</td><td>28</td><td>23</td><td>25</td><td>25</td><td>24</td><td>22</td></tr><tr><td>18</td><td>25</td><td>26</td><td>26</td><td>26</td><td>28</td><td>33</td><td>32</td><td>23</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>19</td><td>25</td><td>26</td><td>26</td><td>26</td><td>28</td><td>33</td><td>28</td><td>45</td><td>25</td><td>25</td><td>24</td><td>23</td></tr><tr><td>20</td><td>26</td><td>26</td><td>26</td><td>29</td><td>28</td><td>32</td><td>44</td><td>38</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>21</td><td>27</td><td>27</td><td>26</td><td>27</td><td>28</td><td>29</td><td>37</td><td>42</td><td>25</td><td>23</td><td>23</td><td>23</td></tr><tr><td>22</td><td>27</td><td>27</td><td>28</td><td>26</td><td>28</td><td>27</td><td>30</td><td>30</td><td>24</td><td>25</td><td>24</td><td>23</td></tr><tr><td>23</td><td>27</td><td>27</td><td>28</td><td>26</td><td>60</td><td>25</td><td>27</td><td>29</td><td>24</td><td>25</td><td>24</td><td>23</td></tr><tr><td>24</td><td>27</td><td>27</td><td>29</td><td>27</td><td>32</td><td>23</td><td>28</td><td>29</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>25</td><td>27</td><td>27</td><td>28</td><td>26</td><td>30</td><td>22</td><td>27</td><td>27</td><td>25</td><td>24</td><td>23</td><td>23</td></tr><tr><td>26</td><td>28</td><td>27</td><td>28</td><td>29</td><td>28</td><td>22</td><td>27</td><td>26</td><td>26</td><td>24</td><td>25</td><td>23</td></tr><tr><td>27</td><td>27</td><td>27</td><td>27</td><td>27</td><td>28</td><td>22</td><td>25</td><td>26</td><td>26</td><td>22</td><td>24</td><td>23</td></tr><tr><td>28</td><td>28</td><td>27</td><td>27</td><td>27</td><td>67</td><td>22</td><td>25</td><td>26</td><td>26</td><td>21</td><td>23</td><td>23</td></tr><tr><td>29</td><td>28</td><td>26</td><td>26</td><td>71</td><td>-</td><td>22</td><td>24</td><td>27</td><td>26</td><td>21</td><td>23</td><td>23</td></tr><tr><td>30</td><td>26</td><td>26</td><td>26</td><td>36</td><td></td><td>22</td><td>25</td><td>27</td><td>26</td><td>21</td><td>24</td><td>23</td></tr><tr><td>31</td><td>26</td><td></td><td>26</td><td>35</td><td></td><td>22</td><td></td><td>27</td><td></td><td>21</td><td>24</td><td></td></tr><tr><td>Total</td><td>2,608</td><td>797</td><td>827</td><td>1,737</td><td>884</td><td>974</td><td>827</td><td>847</td><td>783</td><td>766</td><td>753</td><td>699</td></tr><tr><td>Mean</td><td>84.1</td><td>26.6</td><td>26.7</td><td>56.0</td><td>31.6</td><td>31.4</td><td>27.6</td><td>27.3</td><td>26.1</td><td>24.7</td><td>24.3</td><td>23.3</td></tr><tr><td>Ac-ft</td><td>5,170</td><td>1,580</td><td>1,640</td><td>3,450</td><td>1,750</td><td>1,930</td><td>1,640</td><td>1,680</td><td>1,550</td><td>1,520</td><td>1,490</td><td>1,390</td></tr><tr><td>(+)</td><td>3,930</td><td>o</td><td>o</td><td>0</td><td>0</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>O</td></tr><tr><td colspan=\"13\">Adjusted for release of Colorado River water</td></tr><tr><td>Mean\nCfsm\nIn.\nAc-ft</td><td>1,240</td><td>1,580</td><td>1,640</td><td>3,450</td><td>1,750</td><td>1,930</td><td>1,640</td><td>1,680</td><td>1,550</td><td>1,520</td><td>1,490</td><td>1,390</td></tr><tr><td colspan=\"13\">Observed</td></tr><tr><td>Calendar</td><td>year</td><td>1956:</td><td>Max 1,480</td><td></td><td>Min 22</td><td>Mean</td><td>65.9</td><td>Ac-ft</td><td>47,830</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year 1956</td><td>-57:</td><td>Max 757</td><td></td><td>Min 21</td><td>Mean</td><td>34.3</td><td>Ac-ft</td><td>24,800</td><td></td><td></td><td></td></tr><tr><td colspan=\"10\">Adjusted</td><td></td><td></td><td></td></tr><tr><td rowspan=\"2\" colspan=\"4\">Calendar year 1956: Mean\nWater year 1956 -57: Mean</td><td></td><td>Cfsm</td><td>In.</td><td></td><td>Ac-ft</td><td>24,680</td><td></td><td></td><td></td></tr><tr><td></td><td>Cfsm</td><td>In.</td><td></td><td>Ac-ft</td><td>20,860</td><td></td><td></td><td></td></tr><tr><td colspan=\"10\">Peak discharge (base, 500 cfs) --Jan. 13 (10:30 a.m.) 3,450 cfs (5.57 ft)</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05653585339607712,
+                            "top": 0.4000377568462793,
+                            "width": 0.8394544311217689,
+                            "height": 0.5187764362560278,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>167</td><td>27</td><td>26</td><td>26</td><td>33</td><td>130</td><td>34</td><td>25</td><td>28</td><td>26</td><td>21</td><td>23</td></tr><tr><td>2</td><td>167</td><td>27</td><td>26</td><td>25</td><td>32</td><td>30</td><td>26</td><td>25</td><td>27</td><td>26</td><td>23</td><td>23</td></tr><tr><td>3</td><td>170</td><td>27</td><td>25</td><td>25</td><td>30</td><td>30</td><td>26</td><td>25</td><td>27</td><td>26</td><td>23</td><td>23</td></tr><tr><td>4</td><td>174</td><td>27</td><td>25</td><td>25</td><td>30</td><td>30</td><td>26</td><td>25</td><td>28</td><td>26</td><td>23</td><td>23</td></tr><tr><td>5</td><td>174</td><td>27</td><td>25</td><td>39</td><td>30</td><td>28</td><td>25</td><td>25</td><td>28</td><td>26</td><td>25</td><td>23</td></tr><tr><td>6</td><td>180</td><td>27</td><td>26</td><td>29</td><td>30</td><td>28</td><td>25</td><td>25</td><td>28</td><td>26</td><td>26</td><td>23</td></tr><tr><td>7</td><td>182</td><td>27</td><td>26</td><td>47</td><td>30</td><td>27</td><td>25</td><td>25</td><td>28</td><td>25</td><td>26</td><td>23</td></tr><tr><td>8</td><td>182</td><td>27</td><td>26</td><td>42</td><td>30</td><td>27</td><td>25</td><td>25</td><td>27</td><td>26</td><td>26</td><td>24</td></tr><tr><td>9</td><td>182</td><td>27</td><td>27</td><td>34</td><td>30</td><td>30</td><td>25</td><td>25</td><td>26</td><td>26</td><td>26</td><td>24</td></tr><tr><td>10</td><td>182</td><td>26</td><td>28</td><td>41</td><td>28</td><td>43</td><td>25</td><td>25</td><td>28</td><td>26</td><td>25</td><td>25</td></tr><tr><td>11</td><td>144</td><td>26</td><td>28</td><td>35</td><td>28</td><td>30</td><td>25</td><td>32</td><td>26</td><td>28</td><td>25</td><td>25</td></tr><tr><td>12</td><td>95</td><td>26</td><td>28</td><td>35</td><td>28</td><td>30</td><td>26</td><td>27</td><td>26</td><td>28</td><td>26</td><td>24</td></tr><tr><td>13</td><td>90</td><td>26</td><td>27</td><td>757</td><td>28</td><td>30</td><td>26</td><td>24</td><td>26</td><td>27</td><td>26</td><td>25</td></tr><tr><td>14</td><td>70</td><td>26</td><td>27</td><td>50</td><td>28</td><td>30</td><td>26</td><td>23</td><td>26</td><td>25</td><td>26</td><td>24</td></tr><tr><td>15</td><td>25</td><td>26</td><td>27</td><td>33</td><td>28</td><td>29</td><td>27</td><td>23</td><td>26</td><td>25</td><td>25</td><td>23</td></tr><tr><td>16</td><td>25</td><td>26</td><td>27</td><td>29</td><td>28</td><td>34</td><td>28</td><td>23</td><td>25</td><td>25</td><td>24</td><td>23</td></tr><tr><td>17</td><td>25</td><td>26</td><td>26</td><td>27</td><td>28</td><td>32</td><td>28</td><td>23</td><td>25</td><td>25</td><td>24</td><td>22</td></tr><tr><td>18</td><td>25</td><td>26</td><td>26</td><td>26</td><td>28</td><td>33</td><td>32</td><td>23</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>19</td><td>25</td><td>26</td><td>26</td><td>26</td><td>28</td><td>33</td><td>28</td><td>45</td><td>25</td><td>25</td><td>24</td><td>23</td></tr><tr><td>20</td><td>26</td><td>26</td><td>26</td><td>29</td><td>28</td><td>32</td><td>44</td><td>38</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>21</td><td>27</td><td>27</td><td>26</td><td>27</td><td>28</td><td>29</td><td>37</td><td>42</td><td>25</td><td>23</td><td>23</td><td>23</td></tr><tr><td>22</td><td>27</td><td>27</td><td>28</td><td>26</td><td>28</td><td>27</td><td>30</td><td>30</td><td>24</td><td>25</td><td>24</td><td>23</td></tr><tr><td>23</td><td>27</td><td>27</td><td>28</td><td>26</td><td>60</td><td>25</td><td>27</td><td>29</td><td>24</td><td>25</td><td>24</td><td>23</td></tr><tr><td>24</td><td>27</td><td>27</td><td>29</td><td>27</td><td>32</td><td>23</td><td>28</td><td>29</td><td>25</td><td>24</td><td>24</td><td>23</td></tr><tr><td>25</td><td>27</td><td>27</td><td>28</td><td>26</td><td>30</td><td>22</td><td>27</td><td>27</td><td>25</td><td>24</td><td>23</td><td>23</td></tr><tr><td>26</td><td>28</td><td>27</td><td>28</td><td>29</td><td>28</td><td>22</td><td>27</td><td>26</td><td>26</td><td>24</td><td>25</td><td>23</td></tr><tr><td>27</td><td>27</td><td>27</td><td>27</td><td>27</td><td>28</td><td>22</td><td>25</td><td>26</td><td>26</td><td>22</td><td>24</td><td>23</td></tr><tr><td>28</td><td>28</td><td>27</td><td>27</td><td>27</td><td>67</td><td>22</td><td>25</td><td>26</td><td>26</td><td>21</td><td>23</td><td>23</td></tr><tr><td>29</td><td>28</td><td>26</td><td>26</td><td>71</td><td>-</td><td>22</td><td>24</td><td>27</td><td>26</td><td>21</td><td>23</td><td>23</td></tr><tr><td>30</td><td>26</td><td>26</td><td>26</td><td>36</td><td></td><td>22</td><td>25</td><td>27</td><td>26</td><td>21</td><td>24</td><td>23</td></tr><tr><td>31</td><td>26</td><td></td><td>26</td><td>35</td><td></td><td>22</td><td></td><td>27</td><td></td><td>21</td><td>24</td><td></td></tr><tr><td>Total</td><td>2,608</td><td>797</td><td>827</td><td>1,737</td><td>884</td><td>974</td><td>827</td><td>847</td><td>783</td><td>766</td><td>753</td><td>699</td></tr><tr><td>Mean</td><td>84.1</td><td>26.6</td><td>26.7</td><td>56.0</td><td>31.6</td><td>31.4</td><td>27.6</td><td>27.3</td><td>26.1</td><td>24.7</td><td>24.3</td><td>23.3</td></tr><tr><td>Ac-ft</td><td>5,170</td><td>1,580</td><td>1,640</td><td>3,450</td><td>1,750</td><td>1,930</td><td>1,640</td><td>1,680</td><td>1,550</td><td>1,520</td><td>1,490</td><td>1,390</td></tr><tr><td>(+)</td><td>3,930</td><td>o</td><td>o</td><td>0</td><td>0</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>O</td></tr><tr><td colspan=\"13\">Adjusted for release of Colorado River water</td></tr><tr><td>Mean\nCfsm\nIn.\nAc-ft</td><td>1,240</td><td>1,580</td><td>1,640</td><td>3,450</td><td>1,750</td><td>1,930</td><td>1,640</td><td>1,680</td><td>1,550</td><td>1,520</td><td>1,490</td><td>1,390</td></tr><tr><td colspan=\"13\">Observed</td></tr><tr><td>Calendar</td><td>year</td><td>1956:</td><td>Max 1,480</td><td></td><td>Min 22</td><td>Mean</td><td>65.9</td><td>Ac-ft</td><td>47,830</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year 1956</td><td>-57:</td><td>Max 757</td><td></td><td>Min 21</td><td>Mean</td><td>34.3</td><td>Ac-ft</td><td>24,800</td><td></td><td></td><td></td></tr><tr><td colspan=\"10\">Adjusted</td><td></td><td></td><td></td></tr><tr><td rowspan=\"2\" colspan=\"4\">Calendar year 1956: Mean\nWater year 1956 -57: Mean</td><td></td><td>Cfsm</td><td>In.</td><td></td><td>Ac-ft</td><td>24,680</td><td></td><td></td><td></td></tr><tr><td></td><td>Cfsm</td><td>In.</td><td></td><td>Ac-ft</td><td>20,860</td><td></td><td></td><td></td></tr><tr><td colspan=\"10\">Peak discharge (base, 500 cfs) --Jan. 13 (10:30 a.m.) 3,450 cfs (5.57 ft)</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Santa Ana River at Riverside Narrows, near Arlington, Calif. (cont.)\n\nt Colorado River water released to Santa Ana River.",
+                "embed": "# Santa Ana River at Riverside Narrows, near Arlington, Calif. (cont.)\n\nt Colorado River water released to Santa Ana River.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08077645585472762,
+                            "top": 0.9164145234493192,
+                            "width": 0.4207889793362555,
+                            "height": 0.00794251134644478,
+                            "page": 1
+                        },
+                        "content": "t Colorado River water released to Santa Ana River.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

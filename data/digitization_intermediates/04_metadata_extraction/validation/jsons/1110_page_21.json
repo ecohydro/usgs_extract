@@ -1,0 +1,78 @@
+{
+    "job_id": "48dc9096-58fd-42ac-9830-0686f1f67586",
+    "duration": 3.9993443489074707,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/95c5abd3-429d-4acd-8d88-061df28dd0ba?AWSAccessKeyId=ASIA2UOK6OVBDXTTKEAL&Signature=q%2FS2XgKe4SDCyT%2FVweb2%2B5wQcv8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIQC4%2BmB9OLMepQ54rnOwfTH7EYaB4y9R5ZzdLpB8nErbEAIgMTSEWL7EkaT6gO2L33HcLxlJqhe2oB5rWbyQS7AMYdoqiwUIIhAAGgw3MzExMDY5MzIwMzQiDGmgtKcFJZmg8bfm4CroBBu426uV0uvB3C4T%2FVI%2Bud%2FfCvI%2Bo5dTXmJKa0YYIcLX5f4Qc8ULq20iDhXvVJ8e0CLPcYGNAyGtZ3prgb4pG7AtzCkRbER6c3pUM89au7PS3AGSJRkkJiZtm3chzOd4TZdLrhVY8T%2BB3FDs2JIw0AvfyVnhet%2Fz8cc8kkJ1hjLeFl%2Fy2XMLGipLAdSA%2FquY9apPWceCmAARqp4YCaDKv%2BsNFT%2F8WI3e9BFfXryeirbZx6ybO%2Fdc64SgEx7TNcQABv1egeB%2BaU4u5F4H8wAFBQn3uVll7S52dKjhMlTPSUxW0a%2FSF8oRrK8J0v6qIw6Wuwj0fsNgx8symDoBJ5FLkhOCkGMyanAeYTRRUHT739HO4huoXQ1QpS%2Fe1yKymPN4NeSXD2MJm%2BlwqyL0Rcf2SriMsAmS6%2Fs0l5IImGGuGCFI3wnZCE%2FFmFGHu4c290kbPNW%2BSnmWnOTD4T6lALR%2FDMGFzXkvaKxtBa8W9G9KbXPzr5RhhELmAxtli3Sy6qh99amqwh%2FQ2T%2FeK73hkT84iHaXuvyh23NoYUxTI3TswEqWHZmsH%2BX7aPqQXDEwCH0k7BOCIjmVWoN%2FRcxwdmfWikW8H3hYUnxFg%2BqlzqXOE3NVHNcJdMzPWsnlOd6SBRlbZF3y4PT%2Bc2n41LEAM6IitubFSuAOe6QZbi5qfP5fIDvbLi6Gwi84l6vSAmbT2pe5B%2FTZKjel0XkmaD%2FML2wN2Biv3%2BdIfiHDRfYXfKOHfR3LGpi3R8C0Nps%2FMn0LJj4YrSi303fqtWjMJ9jM%2F9o%2FMe4mbxK1eDcRaMEUvpglhKPyb9fXxNdkdqwwl43JugY6mwG8Ce9YlyhvbXRQbcYwNaA1i%2F3W1AqVwDbhJq6kc4Dhu6TgF0SiSyLLaHdNCElQthV%2Fn9OsOEAy8cJ9ZejJvhMMw3XmAtIbZQkSz%2BNMHGd0Ad3%2FWPl3OeWiKQ8tzSYX9cyFsY2fHHhBue2qrxmA%2F8gQWXsVAO8hMitKwr354yNvLHGTRCYwI4HSAgrX081WMNJwfeUOwoW8XHeCdQ%3D%3D&Expires=1733450600",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "[From publications of the U. S. Weather Bureau. T=trace]\n\nTABLE 1.-Monthly and yearly precipitation, in inches, at Santa Rosa,1 Sonoma County, Calif.-Continued",
+                "embed": "[From publications of the U. S. Weather Bureau. T=trace]\n\nTABLE 1.-Monthly and yearly precipitation, in inches, at Santa Rosa,1 Sonoma County, Calif.-Continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11775362318840579,
+                            "top": 0.3537363875328577,
+                            "width": 0.021739130434782608,
+                            "height": 0.2838903492301915,
+                            "page": 1
+                        },
+                        "content": "[From publications of the U. S. Weather Bureau. T=trace]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08031400966183574,
+                            "top": 0.18700713481036424,
+                            "width": 0.030193236714975844,
+                            "height": 0.6447615471273,
+                            "page": 1
+                        },
+                        "content": "TABLE 1.-Monthly and yearly precipitation, in inches, at Santa Rosa,1 Sonoma County, Calif.-Continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th>Annual</th><th>26.94 16.28 24.19 20.92 20.88 35.31 30.04 26.35 39.30 14.26 38.55 51.78 39.98 32.39 23.23 28.16 25.84 20.22 28.39 19.86 25.42 32.06 37.52 33.14 28.85</th><th>29.61</th><th>29.22</th></tr><tr><td>Sept.</td><td>.44 0 0 .17 .03 .23 0 .38 .08 .50 .13 .15 0 .02 .06 T .13 .02 0 .04 .05 0\nT T T</td><td>.36</td><td></td></tr><tr><td>Aug.</td><td>.12 .03 .04 .01 .17 1.35\n0 0 0 0 T 0 0 0 0 T 0 0 0 0 0 0 T 0 0</td><td>.04</td><td></td></tr><tr><td>July</td><td>.02 .05 .02 .02 .03 .20 .06 .05 .04\n0 0 T 0 0 T 0 0 0 0 T 0 0 0 0 T</td><td>.04</td><td></td></tr><tr><td>June</td><td>.67 .80 .07 .30 .28 .25 .06 .97 .26\n0 0 T 1.00 0 1.28 0 T T T T 0 1.63 0 T 1.38</td><td>.30</td><td></td></tr><tr><td>May</td><td>.62 .90 1.65 2.23 1.39 0 .61 .19 .06 .12 1.96 1.84 1.67 .05 1.58 1.39 .47 .40 1.03 .74 .56 1.48 .57 .57 .37</td><td>1.13</td><td></td></tr><tr><td>Apr.</td><td>1.53 .49 1.43 .12 .73 6.87 1.86 1.87 2.45 .14 1.84 6.71 5.58 2.67 2.15 .33 .10 .65 7.61 .08 1.31 1.27 .84 3.91 3.23</td><td>1.98</td><td></td></tr><tr><td>Mar.</td><td>2.53 2.94 1.21 4.64 1.13 6.31 1.58 6.31 8.03 2.41 7.14 5.59 3.78 4.85 2.25 5.82 2.20 4.94 5.57 6.83 3.29 1.25 4.62 3.17 5.74</td><td>4.10</td><td></td></tr><tr><td>Feb.</td><td>3.91 1.87 1.49 1.51 4.69 3.50 11.81 8.59 9.66 1.61 12.31 8.22 8.65 2.73 7.66 4.92 2.98 3.82 1.51 3.32 5.15 2.84 2.88 .08 3.19</td><td>5.07</td><td></td></tr><tr><td>Jan.</td><td>5.40 6.52 3.45 6.40 1.75 7.36 7.77 4.92 4.77 3.36 10.87 11.02 6.50 9.28 5.07 3.13 2.32 .76 4.18 1.39 10.12 5.14 10.19 6.74 7.80</td><td>6.16</td><td></td></tr><tr><td>Dec.</td><td>12.47 .62 11.29 4.06 8.14 3.45 3.09 2.90 5.40 2.14 2.88 13.56 9.12 5.80 2.38 4.22 10.37 3.66 1.22 4.67 2.79 9.38 8.01 14.72 .96</td><td>5.58</td><td></td></tr><tr><td>Nov.</td><td>0 1.40 2.27 1.69 0 5.19 1.47 .02 7.47 2.22 .46 2.59 2.98 5.75 1.16 5.90 4.23 4.08 1.55 1.87 2.12 7.19 6.26 2.73 4.64</td><td>3.32</td><td></td></tr><tr><td>Oct.</td><td>.04 .87 1.40 .08 2.02 2.28 1.02 .22 1.06 2.18 .52 1.82 1.53 1.23 .68 2.45 2.91 .28 5.28 .85 .02 3.46 2.68 .08 1.31</td><td>1.53</td><td></td></tr><tr><td rowspan=\"2\">year\nWater</td><td></td><td></td><td></td></tr><tr><td>1929 -30 1930 -31 1931 -32 1932 -33 1933 -34 1934 -35 1935 -36 1936 -37 1937 -38 1938 -39 1939 -40 1940 -41 1941 -42 1942 -43 1943 -44 1944 -45 1945 -46 1946 -47 1947 -48 1948 -49 1949 -50 1950 -51 1951 -52 1952 -53 1953 -54</td><td>average\nyear\n66</td><td>median\n66 -year</td></tr></table>\n\n1 Altitude, 167 feet.",
+                "embed": "<table><tr><th>Annual</th><th>26.94 16.28 24.19 20.92 20.88 35.31 30.04 26.35 39.30 14.26 38.55 51.78 39.98 32.39 23.23 28.16 25.84 20.22 28.39 19.86 25.42 32.06 37.52 33.14 28.85</th><th>29.61</th><th>29.22</th></tr><tr><td>Sept.</td><td>.44 0 0 .17 .03 .23 0 .38 .08 .50 .13 .15 0 .02 .06 T .13 .02 0 .04 .05 0\nT T T</td><td>.36</td><td></td></tr><tr><td>Aug.</td><td>.12 .03 .04 .01 .17 1.35\n0 0 0 0 T 0 0 0 0 T 0 0 0 0 0 0 T 0 0</td><td>.04</td><td></td></tr><tr><td>July</td><td>.02 .05 .02 .02 .03 .20 .06 .05 .04\n0 0 T 0 0 T 0 0 0 0 T 0 0 0 0 T</td><td>.04</td><td></td></tr><tr><td>June</td><td>.67 .80 .07 .30 .28 .25 .06 .97 .26\n0 0 T 1.00 0 1.28 0 T T T T 0 1.63 0 T 1.38</td><td>.30</td><td></td></tr><tr><td>May</td><td>.62 .90 1.65 2.23 1.39 0 .61 .19 .06 .12 1.96 1.84 1.67 .05 1.58 1.39 .47 .40 1.03 .74 .56 1.48 .57 .57 .37</td><td>1.13</td><td></td></tr><tr><td>Apr.</td><td>1.53 .49 1.43 .12 .73 6.87 1.86 1.87 2.45 .14 1.84 6.71 5.58 2.67 2.15 .33 .10 .65 7.61 .08 1.31 1.27 .84 3.91 3.23</td><td>1.98</td><td></td></tr><tr><td>Mar.</td><td>2.53 2.94 1.21 4.64 1.13 6.31 1.58 6.31 8.03 2.41 7.14 5.59 3.78 4.85 2.25 5.82 2.20 4.94 5.57 6.83 3.29 1.25 4.62 3.17 5.74</td><td>4.10</td><td></td></tr><tr><td>Feb.</td><td>3.91 1.87 1.49 1.51 4.69 3.50 11.81 8.59 9.66 1.61 12.31 8.22 8.65 2.73 7.66 4.92 2.98 3.82 1.51 3.32 5.15 2.84 2.88 .08 3.19</td><td>5.07</td><td></td></tr><tr><td>Jan.</td><td>5.40 6.52 3.45 6.40 1.75 7.36 7.77 4.92 4.77 3.36 10.87 11.02 6.50 9.28 5.07 3.13 2.32 .76 4.18 1.39 10.12 5.14 10.19 6.74 7.80</td><td>6.16</td><td></td></tr><tr><td>Dec.</td><td>12.47 .62 11.29 4.06 8.14 3.45 3.09 2.90 5.40 2.14 2.88 13.56 9.12 5.80 2.38 4.22 10.37 3.66 1.22 4.67 2.79 9.38 8.01 14.72 .96</td><td>5.58</td><td></td></tr><tr><td>Nov.</td><td>0 1.40 2.27 1.69 0 5.19 1.47 .02 7.47 2.22 .46 2.59 2.98 5.75 1.16 5.90 4.23 4.08 1.55 1.87 2.12 7.19 6.26 2.73 4.64</td><td>3.32</td><td></td></tr><tr><td>Oct.</td><td>.04 .87 1.40 .08 2.02 2.28 1.02 .22 1.06 2.18 .52 1.82 1.53 1.23 .68 2.45 2.91 .28 5.28 .85 .02 3.46 2.68 .08 1.31</td><td>1.53</td><td></td></tr><tr><td rowspan=\"2\">year\nWater</td><td></td><td></td><td></td></tr><tr><td>1929 -30 1930 -31 1931 -32 1932 -33 1933 -34 1934 -35 1935 -36 1936 -37 1937 -38 1938 -39 1939 -40 1940 -41 1941 -42 1942 -43 1943 -44 1944 -45 1945 -46 1946 -47 1947 -48 1948 -49 1949 -50 1950 -51 1951 -52 1952 -53 1953 -54</td><td>average\nyear\n66</td><td>median\n66 -year</td></tr></table>\n\n1 Altitude, 167 feet.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.14281894849694293,
+                            "top": 0.07637548213877089,
+                            "width": 0.5188902334314613,
+                            "height": 0.8373575242802115,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Annual</th><th>26.94 16.28 24.19 20.92 20.88 35.31 30.04 26.35 39.30 14.26 38.55 51.78 39.98 32.39 23.23 28.16 25.84 20.22 28.39 19.86 25.42 32.06 37.52 33.14 28.85</th><th>29.61</th><th>29.22</th></tr><tr><td>Sept.</td><td>.44 0 0 .17 .03 .23 0 .38 .08 .50 .13 .15 0 .02 .06 T .13 .02 0 .04 .05 0\nT T T</td><td>.36</td><td></td></tr><tr><td>Aug.</td><td>.12 .03 .04 .01 .17 1.35\n0 0 0 0 T 0 0 0 0 T 0 0 0 0 0 0 T 0 0</td><td>.04</td><td></td></tr><tr><td>July</td><td>.02 .05 .02 .02 .03 .20 .06 .05 .04\n0 0 T 0 0 T 0 0 0 0 T 0 0 0 0 T</td><td>.04</td><td></td></tr><tr><td>June</td><td>.67 .80 .07 .30 .28 .25 .06 .97 .26\n0 0 T 1.00 0 1.28 0 T T T T 0 1.63 0 T 1.38</td><td>.30</td><td></td></tr><tr><td>May</td><td>.62 .90 1.65 2.23 1.39 0 .61 .19 .06 .12 1.96 1.84 1.67 .05 1.58 1.39 .47 .40 1.03 .74 .56 1.48 .57 .57 .37</td><td>1.13</td><td></td></tr><tr><td>Apr.</td><td>1.53 .49 1.43 .12 .73 6.87 1.86 1.87 2.45 .14 1.84 6.71 5.58 2.67 2.15 .33 .10 .65 7.61 .08 1.31 1.27 .84 3.91 3.23</td><td>1.98</td><td></td></tr><tr><td>Mar.</td><td>2.53 2.94 1.21 4.64 1.13 6.31 1.58 6.31 8.03 2.41 7.14 5.59 3.78 4.85 2.25 5.82 2.20 4.94 5.57 6.83 3.29 1.25 4.62 3.17 5.74</td><td>4.10</td><td></td></tr><tr><td>Feb.</td><td>3.91 1.87 1.49 1.51 4.69 3.50 11.81 8.59 9.66 1.61 12.31 8.22 8.65 2.73 7.66 4.92 2.98 3.82 1.51 3.32 5.15 2.84 2.88 .08 3.19</td><td>5.07</td><td></td></tr><tr><td>Jan.</td><td>5.40 6.52 3.45 6.40 1.75 7.36 7.77 4.92 4.77 3.36 10.87 11.02 6.50 9.28 5.07 3.13 2.32 .76 4.18 1.39 10.12 5.14 10.19 6.74 7.80</td><td>6.16</td><td></td></tr><tr><td>Dec.</td><td>12.47 .62 11.29 4.06 8.14 3.45 3.09 2.90 5.40 2.14 2.88 13.56 9.12 5.80 2.38 4.22 10.37 3.66 1.22 4.67 2.79 9.38 8.01 14.72 .96</td><td>5.58</td><td></td></tr><tr><td>Nov.</td><td>0 1.40 2.27 1.69 0 5.19 1.47 .02 7.47 2.22 .46 2.59 2.98 5.75 1.16 5.90 4.23 4.08 1.55 1.87 2.12 7.19 6.26 2.73 4.64</td><td>3.32</td><td></td></tr><tr><td>Oct.</td><td>.04 .87 1.40 .08 2.02 2.28 1.02 .22 1.06 2.18 .52 1.82 1.53 1.23 .68 2.45 2.91 .28 5.28 .85 .02 3.46 2.68 .08 1.31</td><td>1.53</td><td></td></tr><tr><td rowspan=\"2\">year\nWater</td><td></td><td></td><td></td></tr><tr><td>1929 -30 1930 -31 1931 -32 1932 -33 1933 -34 1934 -35 1935 -36 1936 -37 1937 -38 1938 -39 1939 -40 1940 -41 1941 -42 1942 -43 1943 -44 1944 -45 1945 -46 1946 -47 1947 -48 1948 -49 1949 -50 1950 -51 1951 -52 1952 -53 1953 -54</td><td>average\nyear\n66</td><td>median\n66 -year</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.6612318840579711,
+                            "top": 0.7990987607960947,
+                            "width": 0.016908212560386472,
+                            "height": 0.08974840405557642,
+                            "page": 1
+                        },
+                        "content": "1 Altitude, 167 feet.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

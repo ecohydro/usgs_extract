@@ -1,0 +1,78 @@
+{
+    "job_id": "2f096ce7-3141-4acf-adaf-ccbc3d850c9a",
+    "duration": 8.230218648910522,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/023ff661-8c64-4d51-ac64-f7b7cc78a581?AWSAccessKeyId=ASIA2UOK6OVBJUBMYWLS&Signature=4p%2FTpQ7CI%2FOkomZGu9mI8EoAJxg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIG2kWiEVEIL2%2BBs4QlkzIMRX0Mv%2FC1BPCqY1lc%2B4y%2B22AiEA2NjU1X0r6BZ%2Bbo2L3EvQS21qu2re9ANPhtpKEs%2Fahm8qlAUIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDFKtihUqyTwRIeVuUyroBIF1RPyyujo8lgbRDAcgWO62TglFIF7l3A2izSXyvqxlhfU8h7E%2B06FMGKE6zCicc8XLOui%2FR3%2FPRJr8PHZyO0ydt62dnVfoJtglzG5A8hv3fpjk7l3N6nYFSe4QeNfMU4vxFJhNbhlzU9vEfpd0pGGyCDGjeegJiX3YabZapVvOPwUsaXm%2FOGsLrSodPgepbHl4R0r1MJb%2FwH%2FZNC7LZOPq9KqadS0qwfeUTIR7KtidyBmifMr%2FRDA9KQcyuJqsy4tvdAelJO26BuXkxCAJBdThSe1yojr5XA3BiaJRMPvgy8tsTo3C03dcszqmt2wXbvztLncpp7dZVfBzkvQn4aAIcAO8v19oD3BCvk9Y4cDsAo3HzYRFXOgXYxcre1P92JS3ZU1nv%2F0HmJO2zkDtJlIuaYBDtmjp9U5zGDFfy5%2FnkVD%2FRIwXJZ0aOZ%2BE1S10TIR7xWYYxA1D8LQnFCz50ZCgtEhCFb%2BkDUW%2Bg1suhvwH2xPal9o2PFpZLuJ7vobjK6dB4PnDVvLh1GIeo29fYHW1hq9oq6YbW9Uln9DOVXqSe6jaLvRvSikkD0OFuYa%2FpBB2wRMss3oP6ZudX9MRICmj7eYwTamusKamZgFtEn3vouRUbYZFiUQJeB7mG8UnPqn6Z8iF3W7qpWg%2Bz5GUmuE5eI0xAK5lM31%2BPsIxqLNjeY%2Bia6tyDux55ujRdiS7qOD6WAXqDf3Ie7%2FT8uhhw0zmx2nPLnonSfF14XxnlyYJPq8SGkxr1y1%2BBettwiZb%2Bm1A0rkeS6zWWUCVqik2Cy00PdK7ROj8Bs73Tr6ojgbgvI%2BLIC6%2BTwEw3syIvAY6mwEzloxYLBYakqSobouYUqe5foHfvpNJqJbSOxnGyE4K94ZyOGGVUunDloNSD0aoNmK%2BXd9g4GEi5n44wVTjBFoS%2BUsKmYd%2BrzpLtotV2BuHnJt7X2UkgYdoii38nG2Wnfp1dcDAguuhuBWPbA1yFpBQfDcH9ggYRJGk97uLgwe2zT6LUfssYbwiu7YlQUCU71K%2BYFYanW0Lb%2BweYg%3D%3D&Expires=1736587826",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS TABLE 2.--Thermograph stations showing significant\n\n[Sequence numbers correspond to those in table 5. Trend with absolute changes are in degrees Celsius (\u00b0C) for amplitude, coefficient. For \"Type of Coefficient,\" annual maximum",
+                "embed": "EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS TABLE 2.--Thermograph stations showing significant\n\n[Sequence numbers correspond to those in table 5. Trend with absolute changes are in degrees Celsius (\u00b0C) for amplitude, coefficient. For \"Type of Coefficient,\" annual maximum",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.06810176125244619,
+                            "top": 0.0841178256908594,
+                            "width": 0.019569471624266144,
+                            "height": 0.010021257212268448,
+                            "page": 1
+                        },
+                        "content": "12",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2050880626223092,
+                            "top": 0.06437898572730033,
+                            "width": 0.6183953033268101,
+                            "height": 0.044032796841785606,
+                            "page": 1
+                        },
+                        "content": "EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS TABLE 2.--Thermograph stations showing significant",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.225440313111546,
+                            "top": 0.1050713634983298,
+                            "width": 0.6035225048923679,
+                            "height": 0.0583054965077437,
+                            "page": 1
+                        },
+                        "content": "[Sequence numbers correspond to those in table 5. Trend with absolute changes are in degrees Celsius (\u00b0C) for amplitude, coefficient. For \"Type of Coefficient,\" annual maximum",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th rowspan=\"2\">Se-\nquence</th><th rowspan=\"2\">U.S. Geological Years\nSurvey\nnumber station number record</th><th rowspan=\"2\">of</th><th rowspan=\"2\">Type of\ndata</th><th rowspan=\"2\">Type of\ncoeffi- Number\ncient\nyears</th><th colspan=\"2\">First period</th></tr><tr><td>of</td><td>Mean</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>1</td><td>10263500</td><td>7</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>3</td><td>16.28</td></tr><tr><td>2</td><td>11111500</td><td>8</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>4</td><td>10.28\n\n2.61</td></tr><tr><td></td><td>11160500</td><td>6</td><td>Daily</td><td>Phase</td><td>3</td><td></td></tr><tr><td>5</td><td></td><td></td><td>maximum</td><td></td><td>3</td><td>15.14</td></tr><tr><td>5</td><td>11160500</td><td>6</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td></td><td>4.69</td></tr><tr><td>23</td><td>11319500</td><td>9</td><td>Daily\nmaximum</td><td>Amplitude</td><td>5</td><td>15.42</td></tr><tr><td>23</td><td>11319500</td><td>9</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>5</td><td>11.56</td></tr><tr><td>33</td><td>11382000</td><td>10</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>5</td><td>2.58</td></tr><tr><td>36</td><td>11390000</td><td>10</td><td>Daily\nminimum</td><td>Phase</td><td>5</td><td>8.48</td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Amplitude</td><td>6</td><td>13.06</td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Annual\nmean</td><td>6</td><td></td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>6</td><td>21.54</td></tr><tr><td>51</td><td>11445500</td><td>10</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td>5</td><td>17.66</td></tr><tr><td>66</td><td>11471000</td><td>5</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>2</td><td>20.90</td></tr><tr><td>72</td><td>11480500</td><td>9</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>5</td><td>10.73</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Amplitude</td><td>7</td><td>5.13\n\n10.48</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Annual\nmean</td><td>7</td><td></td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>7</td><td>15.61\n\n3.87</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Amplitude</td><td>7</td><td></td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>7</td><td>9.32</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td>7</td><td>13.20</td></tr></table>",
+                "embed": "<table><tr><th rowspan=\"2\">Se-\nquence</th><th rowspan=\"2\">U.S. Geological Years\nSurvey\nnumber station number record</th><th rowspan=\"2\">of</th><th rowspan=\"2\">Type of\ndata</th><th rowspan=\"2\">Type of\ncoeffi- Number\ncient\nyears</th><th colspan=\"2\">First period</th></tr><tr><td>of</td><td>Mean</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>1</td><td>10263500</td><td>7</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>3</td><td>16.28</td></tr><tr><td>2</td><td>11111500</td><td>8</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>4</td><td>10.28\n\n2.61</td></tr><tr><td></td><td>11160500</td><td>6</td><td>Daily</td><td>Phase</td><td>3</td><td></td></tr><tr><td>5</td><td></td><td></td><td>maximum</td><td></td><td>3</td><td>15.14</td></tr><tr><td>5</td><td>11160500</td><td>6</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td></td><td>4.69</td></tr><tr><td>23</td><td>11319500</td><td>9</td><td>Daily\nmaximum</td><td>Amplitude</td><td>5</td><td>15.42</td></tr><tr><td>23</td><td>11319500</td><td>9</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>5</td><td>11.56</td></tr><tr><td>33</td><td>11382000</td><td>10</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>5</td><td>2.58</td></tr><tr><td>36</td><td>11390000</td><td>10</td><td>Daily\nminimum</td><td>Phase</td><td>5</td><td>8.48</td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Amplitude</td><td>6</td><td>13.06</td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Annual\nmean</td><td>6</td><td></td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>6</td><td>21.54</td></tr><tr><td>51</td><td>11445500</td><td>10</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td>5</td><td>17.66</td></tr><tr><td>66</td><td>11471000</td><td>5</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>2</td><td>20.90</td></tr><tr><td>72</td><td>11480500</td><td>9</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>5</td><td>10.73</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Amplitude</td><td>7</td><td>5.13\n\n10.48</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Annual\nmean</td><td>7</td><td></td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>7</td><td>15.61\n\n3.87</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Amplitude</td><td>7</td><td></td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>7</td><td>9.32</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td>7</td><td>13.20</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1829606804595768,
+                            "top": 0.15887441904465913,
+                            "width": 0.6898547626054917,
+                            "height": 0.7456304166152634,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Se-\nquence</th><th rowspan=\"2\">U.S. Geological Years\nSurvey\nnumber station number record</th><th rowspan=\"2\">of</th><th rowspan=\"2\">Type of\ndata</th><th rowspan=\"2\">Type of\ncoeffi- Number\ncient\nyears</th><th colspan=\"2\">First period</th></tr><tr><td>of</td><td>Mean</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>1</td><td>10263500</td><td>7</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>3</td><td>16.28</td></tr><tr><td>2</td><td>11111500</td><td>8</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>4</td><td>10.28\n\n2.61</td></tr><tr><td></td><td>11160500</td><td>6</td><td>Daily</td><td>Phase</td><td>3</td><td></td></tr><tr><td>5</td><td></td><td></td><td>maximum</td><td></td><td>3</td><td>15.14</td></tr><tr><td>5</td><td>11160500</td><td>6</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td></td><td>4.69</td></tr><tr><td>23</td><td>11319500</td><td>9</td><td>Daily\nmaximum</td><td>Amplitude</td><td>5</td><td>15.42</td></tr><tr><td>23</td><td>11319500</td><td>9</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>5</td><td>11.56</td></tr><tr><td>33</td><td>11382000</td><td>10</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>5</td><td>2.58</td></tr><tr><td>36</td><td>11390000</td><td>10</td><td>Daily\nminimum</td><td>Phase</td><td>5</td><td>8.48</td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Amplitude</td><td>6</td><td>13.06</td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Annual\nmean</td><td>6</td><td></td></tr><tr><td>45</td><td>11407000</td><td>11</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>6</td><td>21.54</td></tr><tr><td>51</td><td>11445500</td><td>10</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td>5</td><td>17.66</td></tr><tr><td>66</td><td>11471000</td><td>5</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>2</td><td>20.90</td></tr><tr><td>72</td><td>11480500</td><td>9</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>5</td><td>10.73</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Amplitude</td><td>7</td><td>5.13\n\n10.48</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Annual\nmean</td><td>7</td><td></td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nmaximum</td><td>Annual\nmaximum</td><td>7</td><td>15.61\n\n3.87</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Amplitude</td><td>7</td><td></td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Annual\nmean</td><td>7</td><td>9.32</td></tr><tr><td>79</td><td>11525500</td><td>14</td><td>Daily\nminimum</td><td>Annual\nmaximum</td><td>7</td><td>13.20</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "job_id": "65ce3a4b-5ae6-4e7c-9666-dd5158ead3cf",
+    "duration": 4.069388151168823,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/883385be-4df4-42d4-948f-b5c7ec950a71?AWSAccessKeyId=ASIA2UOK6OVBB7NY4K7Z&Signature=Nhp4tw%2Bo3c40oBbrqD0rU1%2FuF%2FU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQDlAp0vx%2BFXCib0FVCIngvzN204F5ZY%2Fpu8fydD0AWRngIhAKI8b4gKWzZb7EiDFsd1LrXsebXSDE56vA%2BwQ0srCCpuKosFCCUQABoMNzMxMTA2OTMyMDM0Igw9ZNUZ3w8VuNIGtlkq6AQHViIEeTKQjiFn0KWl6p2Fc8shE0iUa8pk%2FvmaGcqvb5xX%2Fp9dx8EMu%2FTVUwB3Tg8XAIejuIyM1pa0b9YVR5uSX7oIMpdvhLD%2Fu0VtTHB1Njw7oeUh69k2hKkY2bTkf0BUcfUeyljpjx4gv8n8xBHxT6nuJqeYpKGL%2BYVJt8RrDF2ewfpge%2BbQEAQTAkBv%2BnkWJrRlv8qhdIvFntxpz7S3IClHBAf%2F3N9p7I5bkpmTuFlHFMHdgMNvhDwm61oojtrDQvon3HlZoRi%2F9jpYYlqQ2KgkMsUKmR2ybZEDyJOKSogUnoS5xR9%2Bnr90Hl7ZwfMmYbBZOVRueIldwd3epEzSY0EMHheMCrz2QGY%2FCKc7L68SdGIu52%2FAeNA26l%2Bn5lf5WLYBFVCeazxKhyi7OzIymZ%2F99pFotiAzuiUZo6st7%2Bwx4iy9onSDnlZPDfEDxKMGx9fkvIT4H3OxflOiJFWI9cklxR5%2FMBpDSzfyYE03NOL%2FVVF35qnWi13R8fEucGiaPvcA5n6XWY3XNbG27fj2a4D%2FnNcL2iVbOzSUKgKgBndNXsG%2Bc2o78v%2Bs0fN61J7YF%2BPO4awulKqt6R6EBpgsuCOxdnD%2BDCmIy4Vo9vVplesS%2FDsXBbMRqFI6QTK%2FDQg0YhmTOc%2BLTBQRCqr5ItyKmvvVCKf1b0u2M2Xt3OIfbaIWbe9EGe9TklF3f%2Bv%2BlplgKJg29HrmKh7FOJCokO8rZHJw0Z86R9ArqZA61ThDn%2FSvBqG0UeiBouO%2B%2BewU3eomYzY0aCgIncd9lZGvSYNbOTNFUlMPc%2BBj00ZluifZaeWddHMV7mHQMPPpyboGOpoBYxX9Zb%2BJNZHSGEyG0KK5i2jFmoc%2B5y9sM9iO%2FOUfK%2FIAcfc4%2BXARZn1y7D5G8nQuSGJQO0rx%2FtRzVeqFW9%2BOYFMyY0zwVKScEhVwzDdkBUYYNPBJJnJbs0R%2BeMvUifJkcMmGxVNlZOlbpBxPN%2BHeWvK%2FvGRMFipwVsQu%2BtPUULmrSMCpLcCGpWWkPU8CG5QYcPxg93nmuv1eDw%3D%3D&Expires=1733462486",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# STREAM MEASUREMENTS IN 1904, PART XI.",
+                "embed": "# STREAM MEASUREMENTS IN 1904, PART XI.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.07307692307692308,
+                            "top": 0.030303030303030304,
+                            "width": 0.03076923076923077,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "44",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2205128205128205,
+                            "top": 0.0333716915995397,
+                            "width": 0.5435897435897435,
+                            "height": 0.01304181051016494,
+                            "page": 1
+                        },
+                        "content": "STREAM MEASUREMENTS IN 1904, PART XI.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8448717948717949,
+                            "top": 0.032604526275412354,
+                            "width": 0.0685897435897436,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "[NO. 134.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly duty of water of left branch of Colorado Valley Pumping and Irrigation Company canal at Yuma, Ariz.\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"2\">Acre-feet.</th></tr><tr><td>Total.</td><td>Fer acre.</td></tr><tr><td>January</td><td></td><td>100. 7</td><td>0.22</td></tr><tr><td>February</td><td></td><td>105. 5</td><td>.23</td></tr><tr><td>March</td><td></td><td>174. 5</td><td>.39</td></tr><tr><td>April</td><td></td><td>249. 6</td><td>.55</td></tr><tr><td>May</td><td></td><td>243. 8</td><td>.54</td></tr><tr><td>June</td><td></td><td>398. 0</td><td>.88</td></tr><tr><td>July</td><td></td><td>330. 8</td><td>.73</td></tr><tr><td>August</td><td></td><td>245. 8</td><td>.55</td></tr><tr><td>September</td><td></td><td>204. 0</td><td>.45</td></tr><tr><td>October</td><td></td><td>223. 9</td><td>.50</td></tr><tr><td>November</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>December</td><td></td><td>51.5</td><td>11</td></tr><tr><td>Total</td><td></td><td>2, 328. 1</td><td>5.15</td></tr></table>\n\nNOTE.-The above includes seepage losses, Crops, mixed. Net area, 450 acres.\n\nMonthly duty of water at Laselle ranch, Yuma, Ariz.",
+                "embed": "# Monthly duty of water of left branch of Colorado Valley Pumping and Irrigation Company canal at Yuma, Ariz.\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"2\">Acre-feet.</th></tr><tr><td>Total.</td><td>Fer acre.</td></tr><tr><td>January</td><td></td><td>100. 7</td><td>0.22</td></tr><tr><td>February</td><td></td><td>105. 5</td><td>.23</td></tr><tr><td>March</td><td></td><td>174. 5</td><td>.39</td></tr><tr><td>April</td><td></td><td>249. 6</td><td>.55</td></tr><tr><td>May</td><td></td><td>243. 8</td><td>.54</td></tr><tr><td>June</td><td></td><td>398. 0</td><td>.88</td></tr><tr><td>July</td><td></td><td>330. 8</td><td>.73</td></tr><tr><td>August</td><td></td><td>245. 8</td><td>.55</td></tr><tr><td>September</td><td></td><td>204. 0</td><td>.45</td></tr><tr><td>October</td><td></td><td>223. 9</td><td>.50</td></tr><tr><td>November</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>December</td><td></td><td>51.5</td><td>11</td></tr><tr><td>Total</td><td></td><td>2, 328. 1</td><td>5.15</td></tr></table>\n\nNOTE.-The above includes seepage losses, Crops, mixed. Net area, 450 acres.\n\nMonthly duty of water at Laselle ranch, Yuma, Ariz.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.11666666666666667,
+                            "top": 0.06329113924050633,
+                            "width": 0.7576923076923077,
+                            "height": 0.031070195627157654,
+                            "page": 1
+                        },
+                        "content": "Monthly duty of water of left branch of Colorado Valley Pumping and Irrigation Company canal at Yuma, Ariz.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06830969590407152,
+                            "top": 0.10030389280213128,
+                            "width": 0.8533276582375551,
+                            "height": 0.34335787194782075,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\" colspan=\"2\">Month.</th><th colspan=\"2\">Acre-feet.</th></tr><tr><td>Total.</td><td>Fer acre.</td></tr><tr><td>January</td><td></td><td>100. 7</td><td>0.22</td></tr><tr><td>February</td><td></td><td>105. 5</td><td>.23</td></tr><tr><td>March</td><td></td><td>174. 5</td><td>.39</td></tr><tr><td>April</td><td></td><td>249. 6</td><td>.55</td></tr><tr><td>May</td><td></td><td>243. 8</td><td>.54</td></tr><tr><td>June</td><td></td><td>398. 0</td><td>.88</td></tr><tr><td>July</td><td></td><td>330. 8</td><td>.73</td></tr><tr><td>August</td><td></td><td>245. 8</td><td>.55</td></tr><tr><td>September</td><td></td><td>204. 0</td><td>.45</td></tr><tr><td>October</td><td></td><td>223. 9</td><td>.50</td></tr><tr><td>November</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>December</td><td></td><td>51.5</td><td>11</td></tr><tr><td>Total</td><td></td><td>2, 328. 1</td><td>5.15</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09038461538461538,
+                            "top": 0.44994246260069043,
+                            "width": 0.6576923076923077,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "NOTE.-The above includes seepage losses, Crops, mixed. Net area, 450 acres.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.24807692307692308,
+                            "top": 0.4721902570003836,
+                            "width": 0.49230769230769234,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "Monthly duty of water at Laselle ranch, Yuma, Ariz.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly duty of water of left branch of Colorado Valley Pumping and Irrigation Company canal at Yuma, Ariz. (cont.)\n\nAcre-feet.\n\n<table><tr><th colspan=\"2\">Month.</th><th>Total.</th><th>Per acre\nalfalfa.</th></tr><tr><td>January</td><td></td><td>76.0</td><td>0.58</td></tr><tr><td>February</td><td></td><td>48.5</td><td>.37</td></tr><tr><td>March</td><td></td><td>64. 3</td><td>.49</td></tr><tr><td>April</td><td></td><td>66. 9</td><td>.51</td></tr><tr><td>May</td><td></td><td>109. 1</td><td>.83</td></tr><tr><td>June</td><td></td><td>53. 3</td><td>40.</td></tr><tr><td>July</td><td></td><td>140. 7</td><td>1.07</td></tr><tr><td>August</td><td></td><td>65. 3</td><td>.49</td></tr><tr><td>September</td><td></td><td>80. 9</td><td>.61</td></tr><tr><td>October</td><td></td><td>74. 9.</td><td>.57</td></tr><tr><td>November</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>December</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>Total</td><td></td><td>779. 9</td><td>5. 92</td></tr></table>\n\nNOTE.-Acreage, net: Alfalfa, 128 acres; wheat, 17 acres; total, 145 acres; which is equivalent to 132 acres of alfalfa.\n\nREMARKS.-The measuring flume is 1,100 feet above the first lateral, SO that the loss by seepage after passing the flume and before reaching the ranch is probably about 1 per cent. The soil is very sandy. Most of the alfalfa was cut, but a part was used as pasture. Plenty of water was used, but apparently none was wasted.",
+                "embed": "# Monthly duty of water of left branch of Colorado Valley Pumping and Irrigation Company canal at Yuma, Ariz. (cont.)\n\nAcre-feet.\n\n<table><tr><th colspan=\"2\">Month.</th><th>Total.</th><th>Per acre\nalfalfa.</th></tr><tr><td>January</td><td></td><td>76.0</td><td>0.58</td></tr><tr><td>February</td><td></td><td>48.5</td><td>.37</td></tr><tr><td>March</td><td></td><td>64. 3</td><td>.49</td></tr><tr><td>April</td><td></td><td>66. 9</td><td>.51</td></tr><tr><td>May</td><td></td><td>109. 1</td><td>.83</td></tr><tr><td>June</td><td></td><td>53. 3</td><td>40.</td></tr><tr><td>July</td><td></td><td>140. 7</td><td>1.07</td></tr><tr><td>August</td><td></td><td>65. 3</td><td>.49</td></tr><tr><td>September</td><td></td><td>80. 9</td><td>.61</td></tr><tr><td>October</td><td></td><td>74. 9.</td><td>.57</td></tr><tr><td>November</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>December</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>Total</td><td></td><td>779. 9</td><td>5. 92</td></tr></table>\n\nNOTE.-Acreage, net: Alfalfa, 128 acres; wheat, 17 acres; total, 145 acres; which is equivalent to 132 acres of alfalfa.\n\nREMARKS.-The measuring flume is 1,100 feet above the first lateral, SO that the loss by seepage after passing the flume and before reaching the ranch is probably about 1 per cent. The soil is very sandy. Most of the alfalfa was cut, but a part was used as pasture. Plenty of water was used, but apparently none was wasted.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.7807692307692308,
+                            "top": 0.5063291139240507,
+                            "width": 0.07948717948717948,
+                            "height": 0.008822401227464518,
+                            "page": 1
+                        },
+                        "content": "Acre-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06989825322077825,
+                            "top": 0.5163054471734753,
+                            "width": 0.8524381882105119,
+                            "height": 0.32983950961354047,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th colspan=\"2\">Month.</th><th>Total.</th><th>Per acre\nalfalfa.</th></tr><tr><td>January</td><td></td><td>76.0</td><td>0.58</td></tr><tr><td>February</td><td></td><td>48.5</td><td>.37</td></tr><tr><td>March</td><td></td><td>64. 3</td><td>.49</td></tr><tr><td>April</td><td></td><td>66. 9</td><td>.51</td></tr><tr><td>May</td><td></td><td>109. 1</td><td>.83</td></tr><tr><td>June</td><td></td><td>53. 3</td><td>40.</td></tr><tr><td>July</td><td></td><td>140. 7</td><td>1.07</td></tr><tr><td>August</td><td></td><td>65. 3</td><td>.49</td></tr><tr><td>September</td><td></td><td>80. 9</td><td>.61</td></tr><tr><td>October</td><td></td><td>74. 9.</td><td>.57</td></tr><tr><td>November</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>December</td><td></td><td>0.0</td><td>.00</td></tr><tr><td>Total</td><td></td><td>779. 9</td><td>5. 92</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07371794871794872,
+                            "top": 0.8542385884158036,
+                            "width": 0.842948717948718,
+                            "height": 0.021480629075565784,
+                            "page": 1
+                        },
+                        "content": "NOTE.-Acreage, net: Alfalfa, 128 acres; wheat, 17 acres; total, 145 acres; which is equivalent to 132 acres of alfalfa.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07371794871794872,
+                            "top": 0.8860759493670886,
+                            "width": 0.8442307692307692,
+                            "height": 0.06175680859225163,
+                            "page": 1
+                        },
+                        "content": "REMARKS.-The measuring flume is 1,100 feet above the first lateral, SO that the loss by seepage after passing the flume and before reaching the ranch is probably about 1 per cent. The soil is very sandy. Most of the alfalfa was cut, but a part was used as pasture. Plenty of water was used, but apparently none was wasted.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

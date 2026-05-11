@@ -1,0 +1,98 @@
+{
+    "job_id": "e2d3b716-0f7f-4aea-a1cf-40ef105d18f3",
+    "duration": 3.935084581375122,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/22c4d4f9-0b3f-452f-b9c2-990712ec7739?AWSAccessKeyId=ASIA2UOK6OVBB3A2RI5U&Signature=uSVYg0ZzRBAkO0ggXavO107rdW0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIG1LjEN8FZTFSHot88L32Kc%2BhTg6p47mwCsoxzXL86HOAiEA2tKMS8xVf4obe244fxqLkN%2FFCI1D6ul6Pr%2Fqq8Hj2%2FcqiwUIJBAAGgw3MzExMDY5MzIwMzQiDK9ZvT%2BkiZEZeBF1KyroBISbtjAahKOW3vE4A5%2BlINWhOt%2BD7qJ75DOeeCkinwPqaEJKH9VeDvmdxexoLPmkdluznp%2FNNgT2KVH85pq5eGFBVwm7H%2FziFQwK8Chy4KsfCOh%2BUlF5gMBXVNSFsZOBybzgrg5pBO18pb9q00wEbiO6YY8Gfc%2Bya2DzPib%2Fk5nOa3UksrLCxF0%2FBO6dh0j2FOYikYnNLCkVnGYwZJ9ET2UIICIj0sPw2TfYDfx4awZEkp71yoqxtWZn3zi%2FHv8p9I98hypsHsHg4U7mLv%2Fvs7Xw4Q956QJmzDbzmoE95UQC3gdA5o9sqSutDg9uM%2B6zrnCGvhk%2BDVobGPI34A8nzVwcvx7VbpTAuzaWr5w1WbX9ZE4n%2BSprs8icj6DTxdSKMPen1isrqsE8qtPwF1yNWP2iahx%2BU%2Flem%2BHcj%2Flm5EISP2c4s2F3KQCaYJAf0XzJY46Cc8KPGnRJBKzE7Iccix9F52UKPBn001Nit0zsdFlO5WXtiBzmmjo7JMlrB4cqw9Vaxf7Ns7TXLfgi6WfdWnZr1hYZH2tw4fPfGdb0wtZC8kj1726R90mG8znnZeySYH0FwWdpfM25NiFEVrS%2FUB8UOMVlbhFNl10gQHFDRVzio%2ByZde%2BJV5%2B4tT%2FT7L4RVGSMHTmduusVGeaLXg3UNWTLjlDUYC%2FTxIt04OcvsyJ%2BLyg4XnrHSqI%2FcH4FIXwf00zkUcx3RIsLuktHGzT7YJuSIek%2BxuKz%2FjViRZqZwinLda1D6U4Y0euWBolBPmYBkmMETZLHK2Y1n9W6KAwVf%2BbT9kdaAJUOjKL9Kg2XURLETzjeQAHWxoswj9HJugY6mwGqlXX%2F09r9%2Fgeviopvs3NQ9%2Bt50jSkngEBObZ4eRLUb5ZsMmJiB%2FunjUGYfVzHb%2BRWIhbWtyuXfRCd1mfXqZ%2BPiVo9IEmwy%2Fdq3YLoHVXin8g7BdUvzz33ryAWcs8SeZk5LERVH59xiroOzhUStYQghMEhkzd%2B23WwaGwy03FPm6xfmS%2FYDaCZ61CgjIuNOmTjCe13dIDlkN%2FPOA%3D%3D&Expires=1733459715",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51\n\nTABLE 7.-Relative mobility of common elements calculated from their concentrations in water from springs and their abundances in rocks, considered by groups (re- calculated to 100 percent)",
+                "embed": "# MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51\n\nTABLE 7.-Relative mobility of common elements calculated from their concentrations in water from springs and their abundances in rocks, considered by groups (re- calculated to 100 percent)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.1702388242498469,
+                            "top": 0.039804731505820506,
+                            "width": 0.7225964482547459,
+                            "height": 0.016898235073225687,
+                            "page": 1
+                        },
+                        "content": "MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07960808328230251,
+                            "top": 0.07360120165227188,
+                            "width": 0.8156766687078996,
+                            "height": 0.04018024784078107,
+                            "page": 1
+                        },
+                        "content": "TABLE 7.-Relative mobility of common elements calculated from their concentrations in water from springs and their abundances in rocks, considered by groups (re- calculated to 100 percent)",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51 (cont.)\n\n<table><tr><th rowspan=\"2\">Element and source</th><th colspan=\"2\">Quartz monzonite and quartz\nmonzonite related springs</th><th colspan=\"3\">Granodiorite and granodiorite\nrelated springs</th></tr><tr><td>Percent</td><td>Ratio W/R</td><td>Percent</td><td></td><td>Ratio W/R</td></tr><tr><td>Water</td><td>43. 78</td><td></td><td>45. 30</td><td></td><td></td></tr><tr><td>Si\nRock</td><td>65. 99</td><td>0. 69</td><td>57. 38</td><td></td><td>0. 79</td></tr><tr><td>Water\nAl\nRock</td><td>0006\n\n15.32</td><td>. 00003</td><td>. 0005\n15. 93</td><td></td><td>. 00003</td></tr><tr><td>Water\nFe</td><td>001</td><td>0004</td><td>. 0007</td><td></td><td>00009</td></tr><tr><td>Rock</td><td>2. 75</td><td></td><td>7. 29</td><td></td><td>.</td></tr><tr><td>Water\nCa\nRock</td><td>29. 19\n\n(?)</td><td>11. 45</td><td>24. 51\n\n6. 14</td><td></td><td>3.99</td></tr><tr><td>Water</td><td>4. 03</td><td></td><td>3. 60</td><td></td><td></td></tr><tr><td>Mg\nRock</td><td>59</td><td>6. 83</td><td>2. 88</td><td></td><td>1. 25</td></tr><tr><td>Water</td><td>17. 56</td><td></td><td>21. 15</td><td></td><td></td></tr><tr><td>Na\nRock</td><td>5. 11</td><td>3. 44</td><td>4. 80</td><td></td><td>4. 41</td></tr><tr><td>Water</td><td>5. 22</td><td></td><td>5. 29</td><td></td><td></td></tr><tr><td>K {\nRock</td><td>7. 66</td><td>68</td><td>5. 56</td><td></td><td>95</td></tr><tr><td colspan=\"3\">Relative mobility: Ca &gt; Mg &gt; Na &gt; Si=K&gt;\nFe Al</td><td colspan=\"3\">Relative mobility: Na\nCa Mg) K Si\nFe Al</td></tr></table>",
+                "embed": "# MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51 (cont.)\n\n<table><tr><th rowspan=\"2\">Element and source</th><th colspan=\"2\">Quartz monzonite and quartz\nmonzonite related springs</th><th colspan=\"3\">Granodiorite and granodiorite\nrelated springs</th></tr><tr><td>Percent</td><td>Ratio W/R</td><td>Percent</td><td></td><td>Ratio W/R</td></tr><tr><td>Water</td><td>43. 78</td><td></td><td>45. 30</td><td></td><td></td></tr><tr><td>Si\nRock</td><td>65. 99</td><td>0. 69</td><td>57. 38</td><td></td><td>0. 79</td></tr><tr><td>Water\nAl\nRock</td><td>0006\n\n15.32</td><td>. 00003</td><td>. 0005\n15. 93</td><td></td><td>. 00003</td></tr><tr><td>Water\nFe</td><td>001</td><td>0004</td><td>. 0007</td><td></td><td>00009</td></tr><tr><td>Rock</td><td>2. 75</td><td></td><td>7. 29</td><td></td><td>.</td></tr><tr><td>Water\nCa\nRock</td><td>29. 19\n\n(?)</td><td>11. 45</td><td>24. 51\n\n6. 14</td><td></td><td>3.99</td></tr><tr><td>Water</td><td>4. 03</td><td></td><td>3. 60</td><td></td><td></td></tr><tr><td>Mg\nRock</td><td>59</td><td>6. 83</td><td>2. 88</td><td></td><td>1. 25</td></tr><tr><td>Water</td><td>17. 56</td><td></td><td>21. 15</td><td></td><td></td></tr><tr><td>Na\nRock</td><td>5. 11</td><td>3. 44</td><td>4. 80</td><td></td><td>4. 41</td></tr><tr><td>Water</td><td>5. 22</td><td></td><td>5. 29</td><td></td><td></td></tr><tr><td>K {\nRock</td><td>7. 66</td><td>68</td><td>5. 56</td><td></td><td>95</td></tr><tr><td colspan=\"3\">Relative mobility: Ca &gt; Mg &gt; Na &gt; Si=K&gt;\nFe Al</td><td colspan=\"3\">Relative mobility: Na\nCa Mg) K Si\nFe Al</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07207819324874178,
+                            "top": 0.12114677472173653,
+                            "width": 0.8264182862225151,
+                            "height": 0.504865634186215,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Element and source</th><th colspan=\"2\">Quartz monzonite and quartz\nmonzonite related springs</th><th colspan=\"3\">Granodiorite and granodiorite\nrelated springs</th></tr><tr><td>Percent</td><td>Ratio W/R</td><td>Percent</td><td></td><td>Ratio W/R</td></tr><tr><td>Water</td><td>43. 78</td><td></td><td>45. 30</td><td></td><td></td></tr><tr><td>Si\nRock</td><td>65. 99</td><td>0. 69</td><td>57. 38</td><td></td><td>0. 79</td></tr><tr><td>Water\nAl\nRock</td><td>0006\n\n15.32</td><td>. 00003</td><td>. 0005\n15. 93</td><td></td><td>. 00003</td></tr><tr><td>Water\nFe</td><td>001</td><td>0004</td><td>. 0007</td><td></td><td>00009</td></tr><tr><td>Rock</td><td>2. 75</td><td></td><td>7. 29</td><td></td><td>.</td></tr><tr><td>Water\nCa\nRock</td><td>29. 19\n\n(?)</td><td>11. 45</td><td>24. 51\n\n6. 14</td><td></td><td>3.99</td></tr><tr><td>Water</td><td>4. 03</td><td></td><td>3. 60</td><td></td><td></td></tr><tr><td>Mg\nRock</td><td>59</td><td>6. 83</td><td>2. 88</td><td></td><td>1. 25</td></tr><tr><td>Water</td><td>17. 56</td><td></td><td>21. 15</td><td></td><td></td></tr><tr><td>Na\nRock</td><td>5. 11</td><td>3. 44</td><td>4. 80</td><td></td><td>4. 41</td></tr><tr><td>Water</td><td>5. 22</td><td></td><td>5. 29</td><td></td><td></td></tr><tr><td>K {\nRock</td><td>7. 66</td><td>68</td><td>5. 56</td><td></td><td>95</td></tr><tr><td colspan=\"3\">Relative mobility: Ca &gt; Mg &gt; Na &gt; Si=K&gt;\nFe Al</td><td colspan=\"3\">Relative mobility: Na\nCa Mg) K Si\nFe Al</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51 (cont.)\n\nby sorption. Utilization of potassium by vegetation may also con- tribute to the element's low mobility.\n\nThe smaller relative mobility of calcium and magnesium in the environment of the ephemeral springs than in the environment of perennial springs implies selective removal of sodium where the activity of the hydrogen ion is high. The median pH of the ephemeral- spring water (table 2) is lower than that of the perennial springs. As hydrogen-ion activity lessens and pH rises, the rate of removal of sodium from mineral molecules seems to decrease. In turn, the percentage of the alkaline earths in water increases, and their apparent relative mobility likewise rises. That sodium is the most mobile of the elements in waters from granodiorite is unexpected. Granodio- rite should contain more calcium in the plagioclase feldspar and in hornblende than does quartz monzonite. Calcium should, therefore,",
+                "embed": "# MINERAL CONSTITUENTS IN WATER, SIERRA NEVADA I51 (cont.)\n\nby sorption. Utilization of potassium by vegetation may also con- tribute to the element's low mobility.\n\nThe smaller relative mobility of calcium and magnesium in the environment of the ephemeral springs than in the environment of perennial springs implies selective removal of sodium where the activity of the hydrogen ion is high. The median pH of the ephemeral- spring water (table 2) is lower than that of the perennial springs. As hydrogen-ion activity lessens and pH rises, the rate of removal of sodium from mineral molecules seems to decrease. In turn, the percentage of the alkaline earths in water increases, and their apparent relative mobility likewise rises. That sodium is the most mobile of the elements in waters from granodiorite is unexpected. Granodio- rite should contain more calcium in the plagioclase feldspar and in hornblende than does quartz monzonite. Calcium should, therefore,",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07348438456827924,
+                            "top": 0.6458880961321818,
+                            "width": 0.8169014084507042,
+                            "height": 0.03867818250093879,
+                            "page": 1
+                        },
+                        "content": "by sorption. Utilization of potassium by vegetation may also con- tribute to the element's low mobility.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0679730557256583,
+                            "top": 0.6834397296282388,
+                            "width": 0.8218003674219229,
+                            "height": 0.22718738265114533,
+                            "page": 1
+                        },
+                        "content": "The smaller relative mobility of calcium and magnesium in the environment of the ephemeral springs than in the environment of perennial springs implies selective removal of sodium where the activity of the hydrogen ion is high. The median pH of the ephemeral- spring water (table 2) is lower than that of the perennial springs. As hydrogen-ion activity lessens and pH rises, the rate of removal of sodium from mineral molecules seems to decrease. In turn, the percentage of the alkaline earths in water increases, and their apparent relative mobility likewise rises. That sodium is the most mobile of the elements in waters from granodiorite is unexpected. Granodio- rite should contain more calcium in the plagioclase feldspar and in hornblende than does quartz monzonite. Calcium should, therefore,",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "job_id": "a897de86-04b4-46d7-a33a-bbda3abebec7",
+    "duration": 5.7677834033966064,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/41a4dbed-25d8-416a-b545-63af01885b5e?AWSAccessKeyId=ASIA2UOK6OVBD5CPUQLT&Signature=6X1HU%2B1eK5RCQxDLclx6PmpLShc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJHMEUCIQC6SHeRGUHZI9iBmloLvv3bSjRX7Z35aR1vnqzwbG46oQIgGJpX58kjmF9KrKmXgsgHpTy4%2BFxuJZGaD%2FsnIvDlAIkqiwUIIRAAGgw3MzExMDY5MzIwMzQiDEy8nKf4yf%2BAVv9uMCroBJNjMEo7%2BcpW7oPNWS0zN3QyBOOEvW1fhaICHpk2a%2Bzh17qRAUp2K7cVpjNPJQdxcNSfGEltr6oJ7LOAbbrFeMCOZqgV%2FXbo7ZJhQhdjLKnGWF1Pc4vL2tshmBfVpli4iOny5vDdUJ9UNRWNnqPo%2BKLA%2FVoUT59Nvee0FkxKaQdIW%2BENjapfz4W%2FK5kaNSnR16%2BLIwc13Pj6WsHWhw9500AVPbH%2BUhcZDW4q6tW8Jk1xyTQpeShnIn7LTi%2B0PFrVwbluQJBx3c3nDtdQ6mvP%2BK8g6bcE3nik3JVEHMPtb%2Fj%2BIP7xizS5F5gwMZuv%2FOFuwvpJDmoQHUKqbqNrUvIqyygLM039JY1LWIEE0ogLxRhnjzLHJzUoXofDVLaTRgi13fpCV%2FIYpIfIhYG%2Bvr%2BtlxqfA%2F6QLpAtvmO%2F9o3WP0xKj7Pj8rMqoGoIOc7NlFu3g74VmG3pF7IzXKYy8LqaZZ5SmlwpYJNCbG3w2gfFudXrNiV1KpUx8RQhoWpo5xRlfZlc9FxducCd%2FYyhYPYRbUNaHCAXeFfI83tor4KM2tonZhWitiibzISfjqt0p8yE1agj8l%2BdZ0MRpORTzT%2BouNkBw%2Fz%2FGz263gv2Q9aoO2qGjQw6mLF2nbnP%2Fw%2BxGxCDAhsKVCDrZcatEH6ZdxREyOscsQ1cPuA1DfPZQRyAc7l%2FRpxyDyAlobnl2dMHR6mDunjdGzaF0GjYFkyJXr9ssowS%2BlBp2a5Ltko1RKZ5Rao0FYk%2F%2FfScLAgnKtGnva4ot2VnJ4S3pnpmVlVPF5Mf1BsJkYYUJfVq0D1IEbXllowoXnjVA2Hj9Pkwx%2FzIugY6mwEyX%2F9uqTgjdXrvA6wLuowVLkWCLYzHhAHIbKi3eYVs1lGntn7%2BacfFS%2FBudNoHD%2B9S7qlGYxAt0XR%2B25H21QoP%2BstJ3JZ43L5VNWGTninzDkvBAuuXQLhDzStAc%2BCOW8cPMRzkWoZc8GChFJNLsXY2P5vfGvuLC58CbK35gjemnC1qnvmNYJWPYgqsHN2KAF3GLy2X%2F4WQrdQkmw%3D%3D&Expires=1733447668",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.12836568566061365,
+                            "top": 0.06158467893353361,
+                            "width": 0.046963055729492796,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "196",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER OF PACIFIC SLOPE, SOUTHERN CALIFORNIA.\n\n# Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916,\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-\nfeet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-\nfeet).</th><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-\nfeet.</th><th rowspan=\"2\">Run-off\n(totalin\nacre-\nfeet).</th></tr><tr><td>Maxi-\nmum.</td><td>Mini-\nmum.</td><td>Mean.</td><td>Maxi-\nmum.</td><td>Mini-\nmum.</td><td>Mean.</td></tr><tr><td>1912.</td><td></td><td></td><td></td><td></td><td>1914 -15.</td><td></td><td></td><td></td><td></td></tr><tr><td>April 16 -30</td><td>228</td><td>27</td><td>108</td><td>3,210</td><td>November</td><td>1</td><td>0</td><td>0.53</td><td>32</td></tr><tr><td>May</td><td>170</td><td>1.0</td><td>33.7</td><td>2,070</td><td>December</td><td>20</td><td>1.5</td><td>6. 26</td><td>385</td></tr><tr><td>June</td><td>1.8</td><td>.0</td><td>.60</td><td>35.7</td><td>January</td><td>3,730</td><td>11</td><td>265.</td><td>16,300</td></tr><tr><td>July</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>February</td><td>7,000</td><td>113</td><td>939</td><td>52, 100</td></tr><tr><td>August</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>March</td><td>1,020</td><td>98</td><td>308</td><td>18,900</td></tr><tr><td>September</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>April</td><td>600</td><td>62</td><td>133</td><td>7, ,910</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>May</td><td>050</td><td>142</td><td>420</td><td>25,800</td></tr><tr><td>1912 -13.</td><td></td><td></td><td></td><td></td><td>June</td><td>142</td><td>28</td><td>75. 3</td><td>4, 480</td></tr><tr><td>December</td><td>3</td><td>0</td><td>1.9</td><td>117</td><td>July</td><td>28</td><td>.5</td><td>4.88</td><td>300</td></tr><tr><td>January</td><td>77</td><td>3</td><td>19.8</td><td>1,220</td><td>August</td><td>.4</td><td>.05</td><td>205</td><td>13</td></tr><tr><td>February</td><td>195</td><td>6</td><td>41.</td><td>2,280</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>March</td><td>157</td><td>14</td><td>36.</td><td>2,220</td><td>The year</td><td>7,000</td><td>0</td><td>175</td><td>126,000</td></tr><tr><td>April</td><td>14</td><td>1</td><td>10.</td><td>607</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>.3</td><td>.1</td><td>.28</td><td>17</td><td>1915 -16.</td><td rowspan=\"3\">11\n143</td><td></td><td></td><td></td></tr><tr><td>June</td><td>.3</td><td>0</td><td>.09</td><td>5</td><td>November\nDecember</td><td>0\n4</td><td>1.7\n28. 4</td><td>101\n,750</td></tr><tr><td>The year</td><td>195</td><td>0</td><td>8.93</td><td>6,470</td><td>January</td><td>42</td><td>4,180</td><td>257,000</td></tr><tr><td>1913 -14.</td><td></td><td></td><td></td><td></td><td>The period</td><td></td><td></td><td></td><td>259,000</td></tr><tr><td>December</td><td>7</td><td>1</td><td>4.0</td><td>246</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>January</td><td>530</td><td>4</td><td>102</td><td>6,270</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Feb. to 21 and 28</td><td>2,820</td><td>33</td><td>246</td><td>10,700</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>March</td><td>210</td><td>34</td><td>87. 5</td><td>5,380</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>81</td><td>0</td><td>33.</td><td>1,970</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>106</td><td>1</td><td>18.9</td><td>1,160</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>June</td><td>4</td><td>0</td><td>1.3</td><td>77</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# SURFACE WATER OF PACIFIC SLOPE, SOUTHERN CALIFORNIA.\n\n# Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916,\n\n<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-\nfeet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-\nfeet).</th><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-\nfeet.</th><th rowspan=\"2\">Run-off\n(totalin\nacre-\nfeet).</th></tr><tr><td>Maxi-\nmum.</td><td>Mini-\nmum.</td><td>Mean.</td><td>Maxi-\nmum.</td><td>Mini-\nmum.</td><td>Mean.</td></tr><tr><td>1912.</td><td></td><td></td><td></td><td></td><td>1914 -15.</td><td></td><td></td><td></td><td></td></tr><tr><td>April 16 -30</td><td>228</td><td>27</td><td>108</td><td>3,210</td><td>November</td><td>1</td><td>0</td><td>0.53</td><td>32</td></tr><tr><td>May</td><td>170</td><td>1.0</td><td>33.7</td><td>2,070</td><td>December</td><td>20</td><td>1.5</td><td>6. 26</td><td>385</td></tr><tr><td>June</td><td>1.8</td><td>.0</td><td>.60</td><td>35.7</td><td>January</td><td>3,730</td><td>11</td><td>265.</td><td>16,300</td></tr><tr><td>July</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>February</td><td>7,000</td><td>113</td><td>939</td><td>52, 100</td></tr><tr><td>August</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>March</td><td>1,020</td><td>98</td><td>308</td><td>18,900</td></tr><tr><td>September</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>April</td><td>600</td><td>62</td><td>133</td><td>7, ,910</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>May</td><td>050</td><td>142</td><td>420</td><td>25,800</td></tr><tr><td>1912 -13.</td><td></td><td></td><td></td><td></td><td>June</td><td>142</td><td>28</td><td>75. 3</td><td>4, 480</td></tr><tr><td>December</td><td>3</td><td>0</td><td>1.9</td><td>117</td><td>July</td><td>28</td><td>.5</td><td>4.88</td><td>300</td></tr><tr><td>January</td><td>77</td><td>3</td><td>19.8</td><td>1,220</td><td>August</td><td>.4</td><td>.05</td><td>205</td><td>13</td></tr><tr><td>February</td><td>195</td><td>6</td><td>41.</td><td>2,280</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>March</td><td>157</td><td>14</td><td>36.</td><td>2,220</td><td>The year</td><td>7,000</td><td>0</td><td>175</td><td>126,000</td></tr><tr><td>April</td><td>14</td><td>1</td><td>10.</td><td>607</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>.3</td><td>.1</td><td>.28</td><td>17</td><td>1915 -16.</td><td rowspan=\"3\">11\n143</td><td></td><td></td><td></td></tr><tr><td>June</td><td>.3</td><td>0</td><td>.09</td><td>5</td><td>November\nDecember</td><td>0\n4</td><td>1.7\n28. 4</td><td>101\n,750</td></tr><tr><td>The year</td><td>195</td><td>0</td><td>8.93</td><td>6,470</td><td>January</td><td>42</td><td>4,180</td><td>257,000</td></tr><tr><td>1913 -14.</td><td></td><td></td><td></td><td></td><td>The period</td><td></td><td></td><td></td><td>259,000</td></tr><tr><td>December</td><td>7</td><td>1</td><td>4.0</td><td>246</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>January</td><td>530</td><td>4</td><td>102</td><td>6,270</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Feb. to 21 and 28</td><td>2,820</td><td>33</td><td>246</td><td>10,700</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>March</td><td>210</td><td>34</td><td>87. 5</td><td>5,380</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>81</td><td>0</td><td>33.</td><td>1,970</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>106</td><td>1</td><td>18.9</td><td>1,160</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>June</td><td>4</td><td>0</td><td>1.3</td><td>77</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2028804007514089,
+                            "top": 0.06571535861809989,
+                            "width": 0.7169693174702567,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER OF PACIFIC SLOPE, SOUTHERN CALIFORNIA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.1959924859110833,
+                            "top": 0.09425460007510326,
+                            "width": 0.7031934877896056,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916,",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12433984955923215,
+                            "top": 0.11840666750522202,
+                            "width": 0.845551053060915,
+                            "height": 0.3764397466804943,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-\nfeet.</th><th rowspan=\"2\">Run-off\n(total in\nacre-\nfeet).</th><th rowspan=\"2\">Month.</th><th colspan=\"3\">Discharge in second-\nfeet.</th><th rowspan=\"2\">Run-off\n(totalin\nacre-\nfeet).</th></tr><tr><td>Maxi-\nmum.</td><td>Mini-\nmum.</td><td>Mean.</td><td>Maxi-\nmum.</td><td>Mini-\nmum.</td><td>Mean.</td></tr><tr><td>1912.</td><td></td><td></td><td></td><td></td><td>1914 -15.</td><td></td><td></td><td></td><td></td></tr><tr><td>April 16 -30</td><td>228</td><td>27</td><td>108</td><td>3,210</td><td>November</td><td>1</td><td>0</td><td>0.53</td><td>32</td></tr><tr><td>May</td><td>170</td><td>1.0</td><td>33.7</td><td>2,070</td><td>December</td><td>20</td><td>1.5</td><td>6. 26</td><td>385</td></tr><tr><td>June</td><td>1.8</td><td>.0</td><td>.60</td><td>35.7</td><td>January</td><td>3,730</td><td>11</td><td>265.</td><td>16,300</td></tr><tr><td>July</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>February</td><td>7,000</td><td>113</td><td>939</td><td>52, 100</td></tr><tr><td>August</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>March</td><td>1,020</td><td>98</td><td>308</td><td>18,900</td></tr><tr><td>September</td><td>.0</td><td>.0</td><td>.0</td><td>.0</td><td>April</td><td>600</td><td>62</td><td>133</td><td>7, ,910</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>May</td><td>050</td><td>142</td><td>420</td><td>25,800</td></tr><tr><td>1912 -13.</td><td></td><td></td><td></td><td></td><td>June</td><td>142</td><td>28</td><td>75. 3</td><td>4, 480</td></tr><tr><td>December</td><td>3</td><td>0</td><td>1.9</td><td>117</td><td>July</td><td>28</td><td>.5</td><td>4.88</td><td>300</td></tr><tr><td>January</td><td>77</td><td>3</td><td>19.8</td><td>1,220</td><td>August</td><td>.4</td><td>.05</td><td>205</td><td>13</td></tr><tr><td>February</td><td>195</td><td>6</td><td>41.</td><td>2,280</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>March</td><td>157</td><td>14</td><td>36.</td><td>2,220</td><td>The year</td><td>7,000</td><td>0</td><td>175</td><td>126,000</td></tr><tr><td>April</td><td>14</td><td>1</td><td>10.</td><td>607</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>.3</td><td>.1</td><td>.28</td><td>17</td><td>1915 -16.</td><td rowspan=\"3\">11\n143</td><td></td><td></td><td></td></tr><tr><td>June</td><td>.3</td><td>0</td><td>.09</td><td>5</td><td>November\nDecember</td><td>0\n4</td><td>1.7\n28. 4</td><td>101\n,750</td></tr><tr><td>The year</td><td>195</td><td>0</td><td>8.93</td><td>6,470</td><td>January</td><td>42</td><td>4,180</td><td>257,000</td></tr><tr><td>1913 -14.</td><td></td><td></td><td></td><td></td><td>The period</td><td></td><td></td><td></td><td>259,000</td></tr><tr><td>December</td><td>7</td><td>1</td><td>4.0</td><td>246</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>January</td><td>530</td><td>4</td><td>102</td><td>6,270</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Feb. to 21 and 28</td><td>2,820</td><td>33</td><td>246</td><td>10,700</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>March</td><td>210</td><td>34</td><td>87. 5</td><td>5,380</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>81</td><td>0</td><td>33.</td><td>1,970</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>May</td><td>106</td><td>1</td><td>18.9</td><td>1,160</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>June</td><td>4</td><td>0</td><td>1.3</td><td>77</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916, (cont.)\n\nNOTE.-No flow October and November, 1912; July to November, 1913; July to October, 1914; and September and October, 1915.",
+                "embed": "# Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916, (cont.)\n\nNOTE.-No flow October and November, 1912; July to November, 1913; July to October, 1914; and September and October, 1915.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12773951158422042,
+                            "top": 0.5035674051821254,
+                            "width": 0.8371947401377583,
+                            "height": 0.021028914757791964,
+                            "page": 1
+                        },
+                        "content": "NOTE.-No flow October and November, 1912; July to November, 1913; July to October, 1914; and September and October, 1915.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916, (cont.)\n\n## SAN LUIS REY RIVER NEAR BONSALL, CALIF.\n\nLOCATION.-In SW. 1 sec. 31, T. 10 S., R. 3 W., near junction of Escondido highway with Oceanside-Bonsall road, 2 miles southwest of Bonsall, and 7 miles northeast of Oceanside, San Diego County.\n\nDRAINAGE AREA.-N measured.\n\nELEVATION.- About 200 feet above sea level.\n\nRECORDS AVAILABLE.-Jul 26, 1916, to September 30, 1918. (Gage heights and discharge measurements only.)\n\nGAGE.-Staff in three sections on left bank 200 feet northwest of junction of high- ways. Zero of gage 122.82 feet above sea level. Previous to August 9, 1916, datum was 0.9 foot lower. January 2, 1918, a new staff was installed on left bank, 200 feet downstream, at an independent datum.\n\nDISCHARGE MEASUREMENTS.-Made by wading near gage at low and medium stages; high-water measurements made from highway bridge at Bonsall.\n\nCHANNEL AND CONTROL.-Sand; very shifting.\n\nDIVERSIONS.-See San Luis Rey River at Bonsall, page 193.\n\nREGULATION.-Non\n\nACcuRACy.-Stage-discharge relation not permanent. Daily discharge not com- puted as sufficient discharge measurements have not been made to define the numerous changes in channel. Gage read to hundredths once daily.",
+                "embed": "# Monthly discharge of San Luis Rey River at Bonsalt, Calif., for 1912-1916, (cont.)\n\n## SAN LUIS REY RIVER NEAR BONSALL, CALIF.\n\nLOCATION.-In SW. 1 sec. 31, T. 10 S., R. 3 W., near junction of Escondido highway with Oceanside-Bonsall road, 2 miles southwest of Bonsall, and 7 miles northeast of Oceanside, San Diego County.\n\nDRAINAGE AREA.-N measured.\n\nELEVATION.- About 200 feet above sea level.\n\nRECORDS AVAILABLE.-Jul 26, 1916, to September 30, 1918. (Gage heights and discharge measurements only.)\n\nGAGE.-Staff in three sections on left bank 200 feet northwest of junction of high- ways. Zero of gage 122.82 feet above sea level. Previous to August 9, 1916, datum was 0.9 foot lower. January 2, 1918, a new staff was installed on left bank, 200 feet downstream, at an independent datum.\n\nDISCHARGE MEASUREMENTS.-Made by wading near gage at low and medium stages; high-water measurements made from highway bridge at Bonsall.\n\nCHANNEL AND CONTROL.-Sand; very shifting.\n\nDIVERSIONS.-See San Luis Rey River at Bonsall, page 193.\n\nREGULATION.-Non\n\nACcuRACy.-Stage-discharge relation not permanent. Daily discharge not com- puted as sufficient discharge measurements have not been made to define the numerous changes in channel. Gage read to hundredths once daily.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.30932999373825926,
+                            "top": 0.5377393916635373,
+                            "width": 0.47088290544771444,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "SAN LUIS REY RIVER NEAR BONSALL, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12773951158422042,
+                            "top": 0.5598948554262111,
+                            "width": 0.8378209142141515,
+                            "height": 0.04581299286518964,
+                            "page": 1
+                        },
+                        "content": "LOCATION.-In SW. 1 sec. 31, T. 10 S., R. 3 W., near junction of Escondido highway with Oceanside-Bonsall road, 2 miles southwest of Bonsall, and 7 miles northeast of Oceanside, San Diego County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12836568566061365,
+                            "top": 0.6079609463011642,
+                            "width": 0.3343769567939887,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-N measured.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12836568566061365,
+                            "top": 0.6233571160345475,
+                            "width": 0.44395742016280526,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "ELEVATION.- About 200 feet above sea level.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12836568566061365,
+                            "top": 0.6380022530980097,
+                            "width": 0.8365685660613651,
+                            "height": 0.030416823131806235,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-Jul 26, 1916, to September 30, 1918. (Gage heights and discharge measurements only.)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1258609893550407,
+                            "top": 0.6691701088997372,
+                            "width": 0.8396994364433312,
+                            "height": 0.061209162598573036,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Staff in three sections on left bank 200 feet northwest of junction of high- ways. Zero of gage 122.82 feet above sea level. Previous to August 9, 1916, datum was 0.9 foot lower. January 2, 1918, a new staff was installed on left bank, 200 feet downstream, at an independent datum.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12836568566061365,
+                            "top": 0.7315058205031919,
+                            "width": 0.8371947401377583,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE MEASUREMENTS.-Made by wading near gage at low and medium stages; high-water measurements made from highway bridge at Bonsall.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1289918597370069,
+                            "top": 0.7634247089748404,
+                            "width": 0.46086412022542267,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "CHANNEL AND CONTROL.-Sand; very shifting.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12773951158422042,
+                            "top": 0.7788208787082238,
+                            "width": 0.5948653725735754,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "DIVERSIONS.-See San Luis Rey River at Bonsall, page 193.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13149655604257984,
+                            "top": 0.7957191137814494,
+                            "width": 0.1897307451471509,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "REGULATION.-Non",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1308703819661866,
+                            "top": 0.8099887345099512,
+                            "width": 0.8353162179085786,
+                            "height": 0.045061960195268494,
+                            "page": 1
+                        },
+                        "content": "ACcuRACy.-Stage-discharge relation not permanent. Daily discharge not com- puted as sufficient discharge measurements have not been made to define the numerous changes in channel. Gage read to hundredths once daily.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

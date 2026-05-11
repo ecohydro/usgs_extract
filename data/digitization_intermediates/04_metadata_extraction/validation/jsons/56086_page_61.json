@@ -1,0 +1,114 @@
+{
+    "job_id": "5151a871-973e-4a34-91ec-a7c5f093667f",
+    "duration": 4.230875253677368,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/a074e62a-4a32-443a-a768-647a2841d42f?AWSAccessKeyId=ASIA2UOK6OVBIHM7CYZ5&Signature=59ozkUVdpcnfUWWuWRtDhnVz5Qo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIFkXZmP3DOUuZY8QDEpDtnA75EPbOMjBjiY4UBWikRvuAiEA0HF7a%2BDdtErEbzNNMh%2FK1bn2vWWNRNrcoVQusDFWm%2FEqiwUIJBAAGgw3MzExMDY5MzIwMzQiDLYWLct6Sfu8uyWS4CroBLbdZbm0gSJ3lVmerVFcvKYum2TsiVMPv3lYRxvzzQOrmkZUFgS5hH6hjIvHSaaX1nhYuwB4nRzQZfJ0ta4LN%2Fyv7Zp1lUyIw4%2FtssYFYRaOuiSmTTG%2BPXfkwo%2F0q3MLksE9A3DHrGvlPj0p3qmSqix3bAe%2FzD523f6d0a3GlNo1z6BVzLMZWyFYof7Yz6pU3Wv4XjGg3f6PMhoTYlLvFKJvZarrns3Arii1%2BaUENLf6wwqb4u1oFJFjbTbNiOfrxcv9Rsjoe3k0jPAUwLwDUXih1FZpck5YEXxRMu874Ys%2Fv3H9%2BnrrIjIf6idcudI0vHbWs0j9uoX8mNvsC89%2B5Thive5uRKCDagrt3krCWalChr5zaR7qs%2Fj4v6%2Bh45MwM0DHkIeZnmJ0PJlBBUllpgeHu4xLJiMen5B2AkLgkPWlwJP5ZK6AAl4F663hJUIKAw3y1vxvS69IfcH%2BR%2BYQxx92i7Xoj4zDma%2BtCtAoVqdpNX6eHEuZjHlzd8HZyT75SyFHuE1tkOlyjxGi4bja12TmcwrVfhptVjkNBlhqWx0W0LczfG0EnUjFGH6RoOrObBQSH9DfsB%2BFzagHzPv5h7iG14pQHTwY1het1Xpx78lmeYtzMM%2Fbq%2BCIqlPM4UGqHZw7oXyZpXdl1vEew5YZ3zBqYTcN54iwtJtaogG5LQouf%2FTFUuU5DXsBYXeryufgoXsXFtsEsDxYBEyyYVOaL2H1qo0MkD%2BPeRz22JvqLLg8UQqqbo3KBfDfhNotOcQw8sO75%2BUxeqJyX9sWkQcqkponnRcliPPQAD9QRDpSAelWML8liwQF8sYwkNHJugY6mwE%2BI9v9Huu0Ht3aCzfq9RPvt524YJALNk65ho0N1QRq%2BG%2BekIHUe%2Fc9F1tJm3KRd2AZ8gSAEAz4rTRb1dRKx1tp1hAKA44OcAx6lOx1bOLnI1dtbjbpyV%2FkpL4%2B%2BX11Bb42sOcIiymjN6yqfvYhL7rm5pOTGhsxjqmz1WnYDMT%2BDKJ1qYnjyknYBSKoQ1CDGDFw88CnCmSJArzZGw%3D%3D&Expires=1733459254",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GATO CANYON CREEK ABOVE DIVERSIONS\n\nLocation. Lat. 34\u00b029'50\", long. 119\u00b058'10\", at end of roadway up Gato Canyon, about 2.8 miles north of Highway 101.\n\nAltitude About 1,100 feet, from topographic map.\n\nDescription Measuring site in stream channel about 50 feet above diversion. During low-flow periods, volumetric measurements made in junction box about 200 feet below point of diversion, owned by Edwards estate.\n\nDiversion No known diversions above station.",
+                "embed": "# GATO CANYON CREEK ABOVE DIVERSIONS\n\nLocation. Lat. 34\u00b029'50\", long. 119\u00b058'10\", at end of roadway up Gato Canyon, about 2.8 miles north of Highway 101.\n\nAltitude About 1,100 feet, from topographic map.\n\nDescription Measuring site in stream channel about 50 feet above diversion. During low-flow periods, volumetric measurements made in junction box about 200 feet below point of diversion, owned by Edwards estate.\n\nDiversion No known diversions above station.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.7878787878787878,
+                            "top": 0.0630074699577785,
+                            "width": 0.12204234122042341,
+                            "height": 0.015264696329977265,
+                            "page": 1
+                        },
+                        "content": "STATION 59.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.27812370278123705,
+                            "top": 0.09808379343942839,
+                            "width": 0.38563719385637196,
+                            "height": 0.013316011692107827,
+                            "page": 1
+                        },
+                        "content": "GATO CANYON CREEK ABOVE DIVERSIONS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05188875051888751,
+                            "top": 0.14842481325105553,
+                            "width": 0.879618098796181,
+                            "height": 0.03540110425462813,
+                            "page": 1
+                        },
+                        "content": "Location. Lat. 34\u00b029'50\", long. 119\u00b058'10\", at end of roadway up Gato Canyon, about 2.8 miles north of Highway 101.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05188875051888751,
+                            "top": 0.20363754465735628,
+                            "width": 0.5637193856371938,
+                            "height": 0.015589477102955504,
+                            "page": 1
+                        },
+                        "content": "Altitude About 1,100 feet, from topographic map.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.052303860523038606,
+                            "top": 0.2390386489119844,
+                            "width": 0.8821087588210876,
+                            "height": 0.05131536213056187,
+                            "page": 1
+                        },
+                        "content": "Description Measuring site in stream channel about 50 feet above diversion. During low-flow periods, volumetric measurements made in junction box about 200 feet below point of diversion, owned by Edwards estate.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05147364051473641,
+                            "top": 0.3098408574212407,
+                            "width": 0.518472395184724,
+                            "height": 0.012991230919129588,
+                            "page": 1
+                        },
+                        "content": "Diversion No known diversions above station.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GATO CANYON CREEK ABOVE DIVERSIONS (cont.)\n\n<table><tr><th rowspan=\"2\">Date</th><th rowspan=\"2\">Time</th><th colspan=\"2\">Discharge</th><th rowspan=\"2\">Temper-\nature\n\u00b0F</th><th rowspan=\"2\">Remarks</th></tr><tr><td>Cubic feet\nper second</td><td>Gallons\nper minute</td></tr><tr><td>1954</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>July 8</td><td>1:00 p.m.</td><td>0.035</td><td>16</td><td>72</td><td></td></tr><tr><td>Aug. 12</td><td>7:10 a.m.</td><td>.030</td><td>14</td><td>60</td><td></td></tr><tr><td>Sept. 13</td><td>12:30 p.m.</td><td>.0029</td><td>1.30</td><td>66</td><td></td></tr><tr><td>Oct. 15</td><td>10:00 a.m.</td><td>.00045</td><td>.20</td><td>62</td><td></td></tr><tr><td>Nov. 22</td><td>1:45 p.m.</td><td>.032</td><td>15</td><td>56</td><td></td></tr><tr><td>Dec. 9</td><td>8:05 a.m.</td><td>.15</td><td>65</td><td>51</td><td></td></tr><tr><td>1955\nJan. 12</td><td>1:00 p.m.</td><td>.27</td><td>120</td><td>48</td><td></td></tr><tr><td>Feb. 8</td><td>11:15 a.m.</td><td>.16</td><td>74</td><td>48</td><td></td></tr><tr><td>Mar. 28</td><td>9:30 a.m.</td><td>.16</td><td>69</td><td>50</td><td></td></tr><tr><td>Apr 18</td><td>8:10 a.m.</td><td>.061</td><td>27</td><td>50</td><td></td></tr><tr><td>May 6</td><td>7:30 a.m.</td><td>.72</td><td>320</td><td>50</td><td></td></tr><tr><td>June 8</td><td>9:30 a.m.</td><td>.13</td><td>59</td><td>57</td><td></td></tr><tr><td>July 20</td><td>7:45 a.m.</td><td>.027</td><td>12</td><td>60</td><td></td></tr><tr><td>Aug. 18</td><td>11:10 a.m.</td><td>.0007</td><td>.30</td><td>63</td><td></td></tr><tr><td>Sept. 26</td><td>10:00 a.m.</td><td>.022</td><td>10</td><td>60</td><td></td></tr><tr><td>Oct. 20</td><td>9:25 a.m.</td><td>.058</td><td>26</td><td>58</td><td></td></tr><tr><td>Nov. 10</td><td>1:15 p.m.</td><td>.054</td><td>24</td><td>60</td><td></td></tr><tr><td>Dec. 9</td><td>11:20 a.m.</td><td>.071</td><td>32</td><td>54</td><td></td></tr><tr><td>1956\nJan. 18</td><td>10:35 a.m.</td><td>.74</td><td>332</td><td>49</td><td rowspan=\"7\">New diversion pipe and\njunction box installed\nsince last visit.</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Feb. 15</td><td>9:30 a.m.</td><td>1.39</td><td>622</td><td>48</td></tr><tr><td>Mar. 13</td><td>11:00 a.m.</td><td>.73</td><td>328</td><td>52</td></tr><tr><td>Apr 10</td><td>10:50 a.m.</td><td>.34</td><td>153</td><td>55</td></tr><tr><td>May 7</td><td>2:15 p.m.</td><td>1.24</td><td>557</td><td>61</td></tr><tr><td>June 18</td><td>9:00 a.m.</td><td>.67</td><td>300</td><td>58</td></tr></table>",
+                "embed": "# GATO CANYON CREEK ABOVE DIVERSIONS (cont.)\n\n<table><tr><th rowspan=\"2\">Date</th><th rowspan=\"2\">Time</th><th colspan=\"2\">Discharge</th><th rowspan=\"2\">Temper-\nature\n\u00b0F</th><th rowspan=\"2\">Remarks</th></tr><tr><td>Cubic feet\nper second</td><td>Gallons\nper minute</td></tr><tr><td>1954</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>July 8</td><td>1:00 p.m.</td><td>0.035</td><td>16</td><td>72</td><td></td></tr><tr><td>Aug. 12</td><td>7:10 a.m.</td><td>.030</td><td>14</td><td>60</td><td></td></tr><tr><td>Sept. 13</td><td>12:30 p.m.</td><td>.0029</td><td>1.30</td><td>66</td><td></td></tr><tr><td>Oct. 15</td><td>10:00 a.m.</td><td>.00045</td><td>.20</td><td>62</td><td></td></tr><tr><td>Nov. 22</td><td>1:45 p.m.</td><td>.032</td><td>15</td><td>56</td><td></td></tr><tr><td>Dec. 9</td><td>8:05 a.m.</td><td>.15</td><td>65</td><td>51</td><td></td></tr><tr><td>1955\nJan. 12</td><td>1:00 p.m.</td><td>.27</td><td>120</td><td>48</td><td></td></tr><tr><td>Feb. 8</td><td>11:15 a.m.</td><td>.16</td><td>74</td><td>48</td><td></td></tr><tr><td>Mar. 28</td><td>9:30 a.m.</td><td>.16</td><td>69</td><td>50</td><td></td></tr><tr><td>Apr 18</td><td>8:10 a.m.</td><td>.061</td><td>27</td><td>50</td><td></td></tr><tr><td>May 6</td><td>7:30 a.m.</td><td>.72</td><td>320</td><td>50</td><td></td></tr><tr><td>June 8</td><td>9:30 a.m.</td><td>.13</td><td>59</td><td>57</td><td></td></tr><tr><td>July 20</td><td>7:45 a.m.</td><td>.027</td><td>12</td><td>60</td><td></td></tr><tr><td>Aug. 18</td><td>11:10 a.m.</td><td>.0007</td><td>.30</td><td>63</td><td></td></tr><tr><td>Sept. 26</td><td>10:00 a.m.</td><td>.022</td><td>10</td><td>60</td><td></td></tr><tr><td>Oct. 20</td><td>9:25 a.m.</td><td>.058</td><td>26</td><td>58</td><td></td></tr><tr><td>Nov. 10</td><td>1:15 p.m.</td><td>.054</td><td>24</td><td>60</td><td></td></tr><tr><td>Dec. 9</td><td>11:20 a.m.</td><td>.071</td><td>32</td><td>54</td><td></td></tr><tr><td>1956\nJan. 18</td><td>10:35 a.m.</td><td>.74</td><td>332</td><td>49</td><td rowspan=\"7\">New diversion pipe and\njunction box installed\nsince last visit.</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Feb. 15</td><td>9:30 a.m.</td><td>1.39</td><td>622</td><td>48</td></tr><tr><td>Mar. 13</td><td>11:00 a.m.</td><td>.73</td><td>328</td><td>52</td></tr><tr><td>Apr 10</td><td>10:50 a.m.</td><td>.34</td><td>153</td><td>55</td></tr><tr><td>May 7</td><td>2:15 p.m.</td><td>1.24</td><td>557</td><td>61</td></tr><tr><td>June 18</td><td>9:00 a.m.</td><td>.67</td><td>300</td><td>58</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04435615016989512,
+                            "top": 0.37641647551964924,
+                            "width": 0.9295958997600551,
+                            "height": 0.6071514886631212,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Date</th><th rowspan=\"2\">Time</th><th colspan=\"2\">Discharge</th><th rowspan=\"2\">Temper-\nature\n\u00b0F</th><th rowspan=\"2\">Remarks</th></tr><tr><td>Cubic feet\nper second</td><td>Gallons\nper minute</td></tr><tr><td>1954</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>July 8</td><td>1:00 p.m.</td><td>0.035</td><td>16</td><td>72</td><td></td></tr><tr><td>Aug. 12</td><td>7:10 a.m.</td><td>.030</td><td>14</td><td>60</td><td></td></tr><tr><td>Sept. 13</td><td>12:30 p.m.</td><td>.0029</td><td>1.30</td><td>66</td><td></td></tr><tr><td>Oct. 15</td><td>10:00 a.m.</td><td>.00045</td><td>.20</td><td>62</td><td></td></tr><tr><td>Nov. 22</td><td>1:45 p.m.</td><td>.032</td><td>15</td><td>56</td><td></td></tr><tr><td>Dec. 9</td><td>8:05 a.m.</td><td>.15</td><td>65</td><td>51</td><td></td></tr><tr><td>1955\nJan. 12</td><td>1:00 p.m.</td><td>.27</td><td>120</td><td>48</td><td></td></tr><tr><td>Feb. 8</td><td>11:15 a.m.</td><td>.16</td><td>74</td><td>48</td><td></td></tr><tr><td>Mar. 28</td><td>9:30 a.m.</td><td>.16</td><td>69</td><td>50</td><td></td></tr><tr><td>Apr 18</td><td>8:10 a.m.</td><td>.061</td><td>27</td><td>50</td><td></td></tr><tr><td>May 6</td><td>7:30 a.m.</td><td>.72</td><td>320</td><td>50</td><td></td></tr><tr><td>June 8</td><td>9:30 a.m.</td><td>.13</td><td>59</td><td>57</td><td></td></tr><tr><td>July 20</td><td>7:45 a.m.</td><td>.027</td><td>12</td><td>60</td><td></td></tr><tr><td>Aug. 18</td><td>11:10 a.m.</td><td>.0007</td><td>.30</td><td>63</td><td></td></tr><tr><td>Sept. 26</td><td>10:00 a.m.</td><td>.022</td><td>10</td><td>60</td><td></td></tr><tr><td>Oct. 20</td><td>9:25 a.m.</td><td>.058</td><td>26</td><td>58</td><td></td></tr><tr><td>Nov. 10</td><td>1:15 p.m.</td><td>.054</td><td>24</td><td>60</td><td></td></tr><tr><td>Dec. 9</td><td>11:20 a.m.</td><td>.071</td><td>32</td><td>54</td><td></td></tr><tr><td>1956\nJan. 18</td><td>10:35 a.m.</td><td>.74</td><td>332</td><td>49</td><td rowspan=\"7\">New diversion pipe and\njunction box installed\nsince last visit.</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Feb. 15</td><td>9:30 a.m.</td><td>1.39</td><td>622</td><td>48</td></tr><tr><td>Mar. 13</td><td>11:00 a.m.</td><td>.73</td><td>328</td><td>52</td></tr><tr><td>Apr 10</td><td>10:50 a.m.</td><td>.34</td><td>153</td><td>55</td></tr><tr><td>May 7</td><td>2:15 p.m.</td><td>1.24</td><td>557</td><td>61</td></tr><tr><td>June 18</td><td>9:00 a.m.</td><td>.67</td><td>300</td><td>58</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "job_id": "869e7cbc-dd60-4c38-ac48-e9fcfc57bdb1",
+    "duration": 4.714558362960815,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/e9b4832d-b1f4-452d-abd8-2ed097a7d48f?AWSAccessKeyId=ASIA2UOK6OVBPN3LYJIV&Signature=E6pWreXfdEd3esAg8b%2F%2FUBQ4HR8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJIMEYCIQD7n5TcJ9xjdHOf4YriEXBMgN4Nz4xkEMaiuYr774764AIhAMN32dICCCH0NVOdmjEph%2FLS%2Bsm5k%2FBtYp8rEB%2BL9jJfKosFCCIQABoMNzMxMTA2OTMyMDM0IgwHtSh1FSHMkoPxgWgq6AQwWiG7rB%2BlRz0%2BIhuPbt2TKnyDnQxymp2qz5y2o71V0EOLpIf5yEPLpD44xUTfzccC1ZIxMBwRpt1sdx%2FbdqmGdRbE0qicez4Hir9gSBM%2F%2FqAGOn0azKMD430qZ3tn75GOEocIoptT21kCC0tJ44QUqhz%2FF0RgZ3rkiLPiiUL7mn5ErgQToheIB176spWI0OqP6EVieNa5CHy8zwUo3HyoWT7gIcl25ZSUR8VW5Cf0FsxHCGSwy9K%2FFputxJhrRlvBsehVnRM4AOetttByGe%2BfNwHf4HruwMsitzegCjh7ZKNx5jb41CpONuOHS5IgDdt9gpprqJdCp6hStAKGUE%2F34Prvzbave8QPCap%2BfCA22R1hoCxw4pKsRWNsGc0VY%2BVmkD%2FZfF%2FNtmUektvQ5AcO79s3OTBk2IoMiIpxZLvbJ%2BrKP6c53i81EOZNkwWNzJqRIGVnY0rKXiwwxiyuXUXD48JaB4zdWqt7GqC2ZPsbwIMvR1Y2UQd1v3OjCLH8uWrvRfkPOycvB8b04YMuHuViOEzT73nyf0Z4Ks%2BaxBT7FwuWZaFAaUb%2FGQsRfhmPYWgR9%2FWUtT4W6pq7Qu7kamTe0mS6Tp%2FZXHlMy%2FdGfwA1kTEbs4gATbQIw3neyCTsgPS9BLNMEMClwE1SkM0p4ChHSqTFw6RPc2ylJEdi0ua%2BgrBGSYMlQAE8mWpMTJqjm7h50%2FMGf5NN5J23ypghrkiNy7Jwk5TjaRP8eO3FoFr4zHVoJC98UKkD5kOHTqFvrFGj5JjDdojUqehtreNNqp9Xea%2Bv1Xg0izQ27EQZBQ0DA2ZowY3GAruIMMeNyboGOpoB1lAv0wlT7ZjlSI1M%2FxOiyMc2rHh5GaSJKEix%2FIrbi%2FTgFU0DzydG5ZlMjtvU9FCrIp5SiPlC04XWiALd6e%2FyjVnpk5a%2FsIc90QWw2mWyZkUZu8g%2FUnAOqp5u98l0%2FuhmUDObPQk8GDmAsYNC1q9gzN%2FxKmU0Q6EfyUHjkcXPJ2%2FlGGhJNaGn%2BXPbbXKLRewK8d8VC5HNlHg3RQ%3D%3D&Expires=1733450558",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# IRRIGATION.\n\nClassification for irrigation is based on the alkali coefficient (k) proposed by Stabler and conforms to the limits given by him in the following table:\n\nClassification of irrigation waters.\n\n<table><tr><th>Alkali coefficient.</th><th>Class.</th><th>Remarks.</th></tr><tr><td>More than 18</td><td>Good</td><td>Have been used successfully for many years without special care to pre-\nvent alkali accumulation.</td></tr><tr><td>18 to 6</td><td>Fair</td><td>Special care to prevent gradual alkali accumulation has generally been\nfound necessary except on loose soils with free drainage.</td></tr><tr><td>5.9 to 1.2</td><td>Poor</td><td>Care in selection of soils has been found to be imperative, and artificial\ndrainage has frequently been found necessary.</td></tr><tr><td>Less than 1.2</td><td>Bad</td><td>Practically valueless for irrigation.</td></tr></table>\n\nU.S. Geol. Survey Water-Supply Paper 274, p. 179, 1911.",
+                "embed": "# IRRIGATION.\n\nClassification for irrigation is based on the alkali coefficient (k) proposed by Stabler and conforms to the limits given by him in the following table:\n\nClassification of irrigation waters.\n\n<table><tr><th>Alkali coefficient.</th><th>Class.</th><th>Remarks.</th></tr><tr><td>More than 18</td><td>Good</td><td>Have been used successfully for many years without special care to pre-\nvent alkali accumulation.</td></tr><tr><td>18 to 6</td><td>Fair</td><td>Special care to prevent gradual alkali accumulation has generally been\nfound necessary except on loose soils with free drainage.</td></tr><tr><td>5.9 to 1.2</td><td>Poor</td><td>Care in selection of soils has been found to be imperative, and artificial\ndrainage has frequently been found necessary.</td></tr><tr><td>Less than 1.2</td><td>Bad</td><td>Practically valueless for irrigation.</td></tr></table>\n\nU.S. Geol. Survey Water-Supply Paper 274, p. 179, 1911.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.12681388012618297,
+                            "top": 0.05024932873034139,
+                            "width": 0.030914826498422712,
+                            "height": 0.01304181051016494,
+                            "page": 1
+                        },
+                        "content": "98",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.22082018927444794,
+                            "top": 0.05293440736478711,
+                            "width": 0.6441640378548896,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "GROUND-WATER RESOURCES OF SACRAMENTO VALLEY.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.47066246056782335,
+                            "top": 0.08707326428845416,
+                            "width": 0.14069400630914827,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "IRRIGATION.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12555205047318613,
+                            "top": 0.11469121595703874,
+                            "width": 0.8340694006309148,
+                            "height": 0.05638665132336018,
+                            "page": 1
+                        },
+                        "content": "Classification for irrigation is based on the alkali coefficient (k) proposed by Stabler and conforms to the limits given by him in the following table:",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3798107255520505,
+                            "top": 0.1760644418872267,
+                            "width": 0.322397476340694,
+                            "height": 0.01457614115841964,
+                            "page": 1
+                        },
+                        "content": "Classification of irrigation waters.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12299601557879042,
+                            "top": 0.20143202945195626,
+                            "width": 0.8378847236512963,
+                            "height": 0.11319361878026707,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Alkali coefficient.</th><th>Class.</th><th>Remarks.</th></tr><tr><td>More than 18</td><td>Good</td><td>Have been used successfully for many years without special care to pre-\nvent alkali accumulation.</td></tr><tr><td>18 to 6</td><td>Fair</td><td>Special care to prevent gradual alkali accumulation has generally been\nfound necessary except on loose soils with free drainage.</td></tr><tr><td>5.9 to 1.2</td><td>Poor</td><td>Care in selection of soils has been found to be imperative, and artificial\ndrainage has frequently been found necessary.</td></tr><tr><td>Less than 1.2</td><td>Bad</td><td>Practically valueless for irrigation.</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15457413249211358,
+                            "top": 0.3306482546988876,
+                            "width": 0.4485804416403785,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "U.S. Geol. Survey Water-Supply Paper 274, p. 179, 1911.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# IRRIGATION. (cont.)\n\n## RESULTS.\n\nThe analyses given in tables in connection with discussions of separate areas show that the quality of ground water in Sacramento Valley is much more uniform than in many other areas of similar extent. The water is fairly hard, containing mainly calcium, mag- nesium, and bicarbonate radicles. The quantity of sodium salts is so small in nearly all the waters analyzed that no difficulty should be experienced in the use of these waters for irrigation.\n\nThe effect of the mineral ingredients on the value of the waters for domestic use is confined almost wholly to the increased soap con- sumption necessary with those that contain the larger quantities of calcium and magnesium. These harder waters may cause trouble from scale when used in steam boilers, but they can be improved by any of the commercial methods of softening.",
+                "embed": "# IRRIGATION. (cont.)\n\n## RESULTS.\n\nThe analyses given in tables in connection with discussions of separate areas show that the quality of ground water in Sacramento Valley is much more uniform than in many other areas of similar extent. The water is fairly hard, containing mainly calcium, mag- nesium, and bicarbonate radicles. The quantity of sodium salts is so small in nearly all the waters analyzed that no difficulty should be experienced in the use of these waters for irrigation.\n\nThe effect of the mineral ingredients on the value of the waters for domestic use is confined almost wholly to the increased soap con- sumption necessary with those that contain the larger quantities of calcium and magnesium. These harder waters may cause trouble from scale when used in steam boilers, but they can be improved by any of the commercial methods of softening.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.4782334384858044,
+                            "top": 0.35711545838128117,
+                            "width": 0.12492113564668769,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "RESULTS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12365930599369085,
+                            "top": 0.3816647487533564,
+                            "width": 0.8340694006309148,
+                            "height": 0.1323360184119678,
+                            "page": 1
+                        },
+                        "content": "The analyses given in tables in connection with discussions of separate areas show that the quality of ground water in Sacramento Valley is much more uniform than in many other areas of similar extent. The water is fairly hard, containing mainly calcium, mag- nesium, and bicarbonate radicles. The quantity of sodium salts is so small in nearly all the waters analyzed that no difficulty should be experienced in the use of these waters for irrigation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12365930599369085,
+                            "top": 0.5151515151515151,
+                            "width": 0.8321766561514196,
+                            "height": 0.11354046797084771,
+                            "page": 1
+                        },
+                        "content": "The effect of the mineral ingredients on the value of the waters for domestic use is confined almost wholly to the increased soap con- sumption necessary with those that contain the larger quantities of calcium and magnesium. These harder waters may cause trouble from scale when used in steam boilers, but they can be improved by any of the commercial methods of softening.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# IRRIGATION. (cont.)\n\n## RESULTS. (cont.)\n\nThree exceptionally bad waters were analyzed. One, No. A47, is from a well 64 feet deep near Arbuckle, at the western edge of the valley. It contains between four and five times the quantities of calcium and magnesium found in most of the waters in the valley and more than ten times the average chloride. Two deep wells in the eastern part of the valley, analyses Nos. A25 and A26, also yield very bad waters. These are brines containing large amounts of calcium and sulphate in addition to the sodium chloride, which is the main constituent. The three exceptional waters are omitted from the averages which have been obtained to show the general composition of waters in different parts of the valley.\n\nExamination of 42 analyses shows no general relation of quality to depth or to geologic formation. Neither is there any great variation in proportions of the constituents in different waters. The valley may, however, be divided roughly into three parts according to the mineral content and hardness of the waters. The area west of the",
+                "embed": "# IRRIGATION. (cont.)\n\n## RESULTS. (cont.)\n\nThree exceptionally bad waters were analyzed. One, No. A47, is from a well 64 feet deep near Arbuckle, at the western edge of the valley. It contains between four and five times the quantities of calcium and magnesium found in most of the waters in the valley and more than ten times the average chloride. Two deep wells in the eastern part of the valley, analyses Nos. A25 and A26, also yield very bad waters. These are brines containing large amounts of calcium and sulphate in addition to the sodium chloride, which is the main constituent. The three exceptional waters are omitted from the averages which have been obtained to show the general composition of waters in different parts of the valley.\n\nExamination of 42 analyses shows no general relation of quality to depth or to geologic formation. Neither is there any great variation in proportions of the constituents in different waters. The valley may, however, be divided roughly into three parts according to the mineral content and hardness of the waters. The area west of the",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.122397476340694,
+                            "top": 0.6302263137706176,
+                            "width": 0.832807570977918,
+                            "height": 0.20905255082470273,
+                            "page": 1
+                        },
+                        "content": "Three exceptionally bad waters were analyzed. One, No. A47, is from a well 64 feet deep near Arbuckle, at the western edge of the valley. It contains between four and five times the quantities of calcium and magnesium found in most of the waters in the valley and more than ten times the average chloride. Two deep wells in the eastern part of the valley, analyses Nos. A25 and A26, also yield very bad waters. These are brines containing large amounts of calcium and sulphate in addition to the sodium chloride, which is the main constituent. The three exceptional waters are omitted from the averages which have been obtained to show the general composition of waters in different parts of the valley.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12176656151419558,
+                            "top": 0.840813195243575,
+                            "width": 0.8334384858044164,
+                            "height": 0.09052550824702724,
+                            "page": 1
+                        },
+                        "content": "Examination of 42 analyses shows no general relation of quality to depth or to geologic formation. Neither is there any great variation in proportions of the constituents in different waters. The valley may, however, be divided roughly into three parts according to the mineral content and hardness of the waters. The area west of the",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

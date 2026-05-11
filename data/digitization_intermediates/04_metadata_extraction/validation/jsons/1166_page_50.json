@@ -1,0 +1,178 @@
+{
+    "job_id": "33d63efa-940b-451d-9d8d-c6c58245b1c7",
+    "duration": 6.553839683532715,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/b7babd08-d3a2-4ad6-b9da-70570c2e39a2?AWSAccessKeyId=ASIA2UOK6OVBEUZIVWCS&Signature=YNcBUEU8OALefJNqNIASSWcR7Ik%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJIMEYCIQC98Rms30IuX2X5uZNUCYTRn3KpnAB98%2FKTEuh1HQQdCgIhAPcY%2Btgt3tOv0alCerxOxriV5SvyQjoyjQhH1%2B4NftSjKosFCCYQABoMNzMxMTA2OTMyMDM0IgywsytojFKh3RZkViIq6ARFhmJbEc9Qi53CWHVeA2MmJF7tqFdUpZ9AmD5Zvhzmv2yjZpT2vj3HTIXJue5t3UuT6Ms1SsKS%2BW0GHkzV0Y8VsIml4YpA78BU2nhdOFAraOVJLZqK1UHnXSk2zUpablgg%2F8Pq8dbwFHS5oplY1Xd5cFtRVsVXaR%2FmMuEF80t379qTanJbg83k%2BVf1EQscrGGK1PJ7PwOAYTjGeCLgr%2FtPxlxlMdkUGZUj%2FXOMuMhYCO1059cP1QLAyJhcqi5aK4gY0USr9wudkD15P2ouvXLbbBhinGHh9gLPJcYJDSwyz1P2w4U%2FCGoxg%2B1dtUBJNFuE3UvoGZWv3ceBQW8fBU9se8vm8lc60hWa3aRtmDptjLMUgwalz%2BOf3TqDven9bcmmUAyZyiNs991obLik%2FaPWXG7XsJ1yn8DaO4igXFzKAjm6HU%2BgK5KjO%2FGiaGu0RNVJaHsuwlGsuoYqqTR8NMlf7%2Bi%2FFPbBoczpGxsBrEDPkQXo7FBZdl9hIBKHQPojzD7Qa5Fws1pC9rYQq9HyVdN7xuEkjsdhx3OJzsAFo8x11DEZKQYopK%2FSC%2Fk%2Byrx1hSacTc4CQFAk%2BEV5fFPu68%2Blqxz2KtSjm%2BI6OhpfHz2xxQwjEqSNpJiewd56RHoF%2BBxJRHrsUbAZ%2FeSUGdjo7MzxTbJZqY8RsPUalQgGktpn2MzlJjtSMbk6cvQi0xrbe%2FtlO9%2B5bzfTw8n0wHNTwY46mnns%2Bgb4Ft7hvqckaBdwoa0YCluqCT5WjA65RoSeQ4YCn5S7xdhAPZllFBYiQk1OEL5bvshozoqRoSUrTJSmTGZ4EAR%2FSqLoMLP5yboGOpoBc4dp8vji14%2FyAiXn8Tstm8chgvF3d8QdEI9zmF%2BoErieLaAas%2FTbyIYJwRyFwjG7U%2BDFLByz3yIrT3HdQ4J%2BrFsiQ4O1OhpoerLxU6pvrK0KD21mhziln6eOPR%2BuA10tlRlSW135grYZtmkaitPeCU03%2F11TnuTeTZFpFvChgKm3EhZ%2FkE8dwzE2v8GPMIkn4rXD8AhiqGnaPg%3D%3D&Expires=1733464566",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# BRISCOE RESERVOIR.",
+                "embed": "# BRISCOE RESERVOIR.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.05358255451713396,
+                            "top": 0.06750094804702313,
+                            "width": 0.049221183800623056,
+                            "height": 0.01061812665908229,
+                            "page": 1
+                        },
+                        "content": "COLE.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3414330218068536,
+                            "top": 0.06825938566552901,
+                            "width": 0.2498442367601246,
+                            "height": 0.009859689040576413,
+                            "page": 1
+                        },
+                        "content": "BRISCOE RESERVOIR.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8429906542056075,
+                            "top": 0.06560485400075844,
+                            "width": 0.02866043613707165,
+                            "height": 0.012514220705346985,
+                            "page": 1
+                        },
+                        "content": "41",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# BRISCOE RESERVOIR. (cont.)\n\ndesigned for the San Carlos dam on the Gila River, Arizona. In this plan the surplus water would pass over the dam. And third, a dry rubble or loose rock dam with straight crest and a plank water face.\n\nIn connection with the first and third type a concrete weir dam has been designed for a spillway at the location for the subsidiary dam.\n\nFor the second type, or overflow dam, an earth subsidiary dam is designed with concrete cut-off wall riprapped on water face. A con- crete tower and tunnel outlet has been designed for each of the types; that for the loose rock type requiring a longer outlet tunnel and longer bridge, connecting tower with crest of dam.\n\nThe following data have been used in connection with designing an overflow concrete dam for the spillway:",
+                "embed": "# BRISCOE RESERVOIR. (cont.)\n\ndesigned for the San Carlos dam on the Gila River, Arizona. In this plan the surplus water would pass over the dam. And third, a dry rubble or loose rock dam with straight crest and a plank water face.\n\nIn connection with the first and third type a concrete weir dam has been designed for a spillway at the location for the subsidiary dam.\n\nFor the second type, or overflow dam, an earth subsidiary dam is designed with concrete cut-off wall riprapped on water face. A con- crete tower and tunnel outlet has been designed for each of the types; that for the loose rock type requiring a longer outlet tunnel and longer bridge, connecting tower with crest of dam.\n\nThe following data have been used in connection with designing an overflow concrete dam for the spillway:",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0529595015576324,
+                            "top": 0.09708001516875236,
+                            "width": 0.8205607476635514,
+                            "height": 0.05422828972317027,
+                            "page": 1
+                        },
+                        "content": "designed for the San Carlos dam on the Gila River, Arizona. In this plan the surplus water would pass over the dam. And third, a dry rubble or loose rock dam with straight crest and a plank water face.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05358255451713396,
+                            "top": 0.1539628365566932,
+                            "width": 0.8186915887850468,
+                            "height": 0.03450891164201744,
+                            "page": 1
+                        },
+                        "content": "In connection with the first and third type a concrete weir dam has been designed for a spillway at the location for the subsidiary dam.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0529595015576324,
+                            "top": 0.19036784224497535,
+                            "width": 0.8193146417445483,
+                            "height": 0.08949563898369359,
+                            "page": 1
+                        },
+                        "content": "For the second type, or overflow dam, an earth subsidiary dam is designed with concrete cut-off wall riprapped on water face. A con- crete tower and tunnel outlet has been designed for each of the types; that for the loose rock type requiring a longer outlet tunnel and longer bridge, connecting tower with crest of dam.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05358255451713396,
+                            "top": 0.2821387940841866,
+                            "width": 0.8174454828660436,
+                            "height": 0.03450891164201744,
+                            "page": 1
+                        },
+                        "content": "The following data have been used in connection with designing an overflow concrete dam for the spillway:",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# BRISCOE RESERVOIR. (cont.)\n\nThe area of watershed is 50 square miles. Assuming the highest probable flood discharge at 100 second-feet per square mile, we have 5,000 second-feet flood discharge. It is desirable to have the surface level of the reservoir at the 180-foot contour (based upon an assumed datum), which, therefore, will be the level of lip of spillway weir. This will give a depth of 120 feet of water in the reservoir. The lowest point in the divide where the spillway is to be is at 154 feet elevation. Maximum height to crest of weir, 26 feet; length on top at 185-foot contour, 550 feet; length of weir opening at 180-foot con- tour, 500 feet. With a depth of water over weir of 21/2 feet the dis- charge capacity will be 6,580 second-feet, and with a depth over weir of 4 feet the capacity will be 13,320 second-feet, and the water level will be within 1 foot of the crest of main dam, the latter case being a most extreme assumption.",
+                "embed": "# BRISCOE RESERVOIR. (cont.)\n\nThe area of watershed is 50 square miles. Assuming the highest probable flood discharge at 100 second-feet per square mile, we have 5,000 second-feet flood discharge. It is desirable to have the surface level of the reservoir at the 180-foot contour (based upon an assumed datum), which, therefore, will be the level of lip of spillway weir. This will give a depth of 120 feet of water in the reservoir. The lowest point in the divide where the spillway is to be is at 154 feet elevation. Maximum height to crest of weir, 26 feet; length on top at 185-foot contour, 550 feet; length of weir opening at 180-foot con- tour, 500 feet. With a depth of water over weir of 21/2 feet the dis- charge capacity will be 6,580 second-feet, and with a depth over weir of 4 feet the capacity will be 13,320 second-feet, and the water level will be within 1 foot of the crest of main dam, the latter case being a most extreme assumption.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05046728971962617,
+                            "top": 0.3200606750094805,
+                            "width": 0.8218068535825546,
+                            "height": 0.25369738339021614,
+                            "page": 1
+                        },
+                        "content": "The area of watershed is 50 square miles. Assuming the highest probable flood discharge at 100 second-feet per square mile, we have 5,000 second-feet flood discharge. It is desirable to have the surface level of the reservoir at the 180-foot contour (based upon an assumed datum), which, therefore, will be the level of lip of spillway weir. This will give a depth of 120 feet of water in the reservoir. The lowest point in the divide where the spillway is to be is at 154 feet elevation. Maximum height to crest of weir, 26 feet; length on top at 185-foot contour, 550 feet; length of weir opening at 180-foot con- tour, 500 feet. With a depth of water over weir of 21/2 feet the dis- charge capacity will be 6,580 second-feet, and with a depth over weir of 4 feet the capacity will be 13,320 second-feet, and the water level will be within 1 foot of the crest of main dam, the latter case being a most extreme assumption.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# BRISCOE RESERVOIR. (cont.)\n\nCapacity of Briscoe reservoir.\n\n<table><tr><th>Contour.</th><th>Height of\ndam.</th><th>Area.</th><th>Capacity\nbetween\ncontours.</th><th>Total\ncapacity.</th></tr><tr><td>Feet.</td><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td><td>Acre-feet.</td></tr><tr><td>70</td><td>10</td><td>1.7</td><td>8.5</td><td>8.5</td></tr><tr><td>80</td><td>20</td><td>10.7</td><td>62</td><td>70. 5</td></tr><tr><td>90</td><td>30</td><td>17.2</td><td>139. 5</td><td>210</td></tr><tr><td>100</td><td>40</td><td>30.6</td><td>239</td><td>449</td></tr><tr><td>110</td><td>50</td><td>53.0</td><td>418</td><td>867</td></tr><tr><td>120</td><td>60</td><td>71.9</td><td>624</td><td>1,491</td></tr><tr><td>130</td><td>70</td><td>99. 1</td><td>855</td><td>2,344</td></tr><tr><td>140</td><td>80</td><td>144.8</td><td>1,219</td><td>3,565</td></tr><tr><td>150</td><td>90</td><td>211.1</td><td>1,779</td><td>5,344</td></tr><tr><td>160</td><td>100</td><td>271.0</td><td>2,410</td><td>7,754</td></tr><tr><td>170</td><td>110</td><td>347. 8</td><td>,094</td><td>10, 848</td></tr><tr><td>180</td><td>120</td><td>401. 5</td><td>747</td><td>14, 595</td></tr></table>\n\nElevation of outlet 30 feet above bottom of reservoir. Elevation of spillway 120 feet above bottom of reservoir. Capacity, 14,595-210=14,385 acre-feet.",
+                "embed": "# BRISCOE RESERVOIR. (cont.)\n\nCapacity of Briscoe reservoir.\n\n<table><tr><th>Contour.</th><th>Height of\ndam.</th><th>Area.</th><th>Capacity\nbetween\ncontours.</th><th>Total\ncapacity.</th></tr><tr><td>Feet.</td><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td><td>Acre-feet.</td></tr><tr><td>70</td><td>10</td><td>1.7</td><td>8.5</td><td>8.5</td></tr><tr><td>80</td><td>20</td><td>10.7</td><td>62</td><td>70. 5</td></tr><tr><td>90</td><td>30</td><td>17.2</td><td>139. 5</td><td>210</td></tr><tr><td>100</td><td>40</td><td>30.6</td><td>239</td><td>449</td></tr><tr><td>110</td><td>50</td><td>53.0</td><td>418</td><td>867</td></tr><tr><td>120</td><td>60</td><td>71.9</td><td>624</td><td>1,491</td></tr><tr><td>130</td><td>70</td><td>99. 1</td><td>855</td><td>2,344</td></tr><tr><td>140</td><td>80</td><td>144.8</td><td>1,219</td><td>3,565</td></tr><tr><td>150</td><td>90</td><td>211.1</td><td>1,779</td><td>5,344</td></tr><tr><td>160</td><td>100</td><td>271.0</td><td>2,410</td><td>7,754</td></tr><tr><td>170</td><td>110</td><td>347. 8</td><td>,094</td><td>10, 848</td></tr><tr><td>180</td><td>120</td><td>401. 5</td><td>747</td><td>14, 595</td></tr></table>\n\nElevation of outlet 30 feet above bottom of reservoir. Elevation of spillway 120 feet above bottom of reservoir. Capacity, 14,595-210=14,385 acre-feet.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3221183800623053,
+                            "top": 0.5866514979142965,
+                            "width": 0.29781931464174455,
+                            "height": 0.012893439514599925,
+                            "page": 1
+                        },
+                        "content": "Capacity of Briscoe reservoir.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1764716507861176,
+                            "top": 0.6081449460205727,
+                            "width": 0.5503270799868575,
+                            "height": 0.31362858332148275,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Contour.</th><th>Height of\ndam.</th><th>Area.</th><th>Capacity\nbetween\ncontours.</th><th>Total\ncapacity.</th></tr><tr><td>Feet.</td><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td><td>Acre-feet.</td></tr><tr><td>70</td><td>10</td><td>1.7</td><td>8.5</td><td>8.5</td></tr><tr><td>80</td><td>20</td><td>10.7</td><td>62</td><td>70. 5</td></tr><tr><td>90</td><td>30</td><td>17.2</td><td>139. 5</td><td>210</td></tr><tr><td>100</td><td>40</td><td>30.6</td><td>239</td><td>449</td></tr><tr><td>110</td><td>50</td><td>53.0</td><td>418</td><td>867</td></tr><tr><td>120</td><td>60</td><td>71.9</td><td>624</td><td>1,491</td></tr><tr><td>130</td><td>70</td><td>99. 1</td><td>855</td><td>2,344</td></tr><tr><td>140</td><td>80</td><td>144.8</td><td>1,219</td><td>3,565</td></tr><tr><td>150</td><td>90</td><td>211.1</td><td>1,779</td><td>5,344</td></tr><tr><td>160</td><td>100</td><td>271.0</td><td>2,410</td><td>7,754</td></tr><tr><td>170</td><td>110</td><td>347. 8</td><td>,094</td><td>10, 848</td></tr><tr><td>180</td><td>120</td><td>401. 5</td><td>747</td><td>14, 595</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06791277258566979,
+                            "top": 0.9328782707622298,
+                            "width": 0.5694704049844237,
+                            "height": 0.043989381873340914,
+                            "page": 1
+                        },
+                        "content": "Elevation of outlet 30 feet above bottom of reservoir. Elevation of spillway 120 feet above bottom of reservoir. Capacity, 14,595-210=14,385 acre-feet.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "job_id": "a4ca54f5-f2fe-4435-846c-f13ec17acdc0",
+    "duration": 4.049452304840088,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/6159fa35-22ea-4a8e-85f2-cc10bcb43a4d?AWSAccessKeyId=ASIA2UOK6OVBADGTVYYP&Signature=XqulqjITchgBcE4Qs2f9VBj%2BgdA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQDK1GS1QCeY9h9lEsbLX%2BFYO%2BW%2BRk9%2BPUrp95Dm6TiE9AIhALX%2FajeyFsOQv8BZegNhF0tkTgpwmUM7ZtE%2BJ5x6Mu%2FYKosFCCQQABoMNzMxMTA2OTMyMDM0IgywFk6wnpSccwTboc4q6AS0d2wual50XQlgbT6%2B6FAmVhpFuKdjrhjZMSon1vEsjL63WYZ0WJZqrWV4gXdBjlPILq61H9d9Lcb6AnAnaXMtOq9%2FBnhy1Tik4%2BXeQpGI8V7DUeMW28bfg1cFe6zNqvFYhC28z%2BJXXNYDjTj4%2BEhgtxMfTvDxjm8XpTB%2B9RyGzBSweVkb6lICfB7tV0xaMgJj8%2FFQqOwF0GjiK2G9EjhkOH%2BPwxW%2FZMU9KptlsAw8ZLddkbFq8xskIbciNCRxg69DXzP%2FbKep4hi7OOZszD8GCoLlQDJrilGS56vPxepcdYRoSPjnmYpCY6dbVBjLyullxUa%2BVg6VGnG%2Fyd9fT8eNlrdGvofVpUtkLLXkzwW%2B4SUnxu9mmthp9vRuyhAqi6%2FnEhPdniHWcsrjjHGNCQ0hInOHkGyOqp1YlruE30W4Np9CEO%2Bq2riikAIBpUE5Z%2BG2Cn7ABwgTUXyFReT3yfGbc0sLTz9HSJkOnQ3uqqs6nPau0LkMWkF13YRj7cPeEdknkyKwkIqA%2FsxdVnZqB7wEZ3dcAWpYrgkvZTpzpKZXgJ1LAUM%2BwEzAcLN8rQrbrWz%2BRPUlNFVZah0iS9Bat5nv%2FCM6D5M8BZMRfgL1bUEimkVxsaHBqhrACrUudsqHk9vSevAyfdCMVXRRFvZacFb%2ByX1WJwKBhYXSRWlk%2F4DZwIW9cv%2Bt1V5%2B5TB9iJGBOg928eW9K6AR8Ida20V%2B7Fju2DkT4%2B85UnQnKvKCED9od8uWwq3rbl7bBxFDQvqmG%2F602AWSlnUoiP09o8ZkHD0XYE1196WgHRe2aQgSi6Y%2BK9ZtHQZXQi4cMOLUyboGOpoB4pLRt35tNehqxFJmd12ywB13MbEoMNp8odzD%2FbnsXBdF38qpn%2FqSlJD36hWq50nKHLXeJuGfDVU%2BcFO0QChQKALMV884YRKsmnsQn25usGcSWt9CfUkInM37tvOVGF%2FO90NwmKCa8WebVu2u2dUSy8JcneXasBjC2Pq9S%2Bmb%2BTk8cmM7vKBAgZ9GT3QA4rDFGdOzmwNqlYugkQ%3D%3D&Expires=1733459697",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN\n\n# 2480. Fine Gold Creek near Friant, Calif.\n\nLocation.--Lat 37\u00b004'00\", long 119\u00b038'50\", in NW1NE1 sec 14, T.10 S., , R.21 E. on right bank 1,500 ft downstream from Willow Creek and 5.5 miles northeast of Friant.\n\nDrainage area.--92.6 sq mi.\n\nGage.--Recording. Altitude of gage is 620 ft (from topographic map).\n\nStage-discharge relation.--Defined by current-meter measurements below\n6,500 cfs.\n\nRemarks Only annual peaks are shown prior to Oct. 1, 1944. Base for partial- duration series, 500 cfs.\n\nPeak stages and discharges",
+                "embed": "# SAN JOAQUIN RIVER BASIN\n\n# 2480. Fine Gold Creek near Friant, Calif.\n\nLocation.--Lat 37\u00b004'00\", long 119\u00b038'50\", in NW1NE1 sec 14, T.10 S., , R.21 E. on right bank 1,500 ft downstream from Willow Creek and 5.5 miles northeast of Friant.\n\nDrainage area.--92.6 sq mi.\n\nGage.--Recording. Altitude of gage is 620 ft (from topographic map).\n\nStage-discharge relation.--Defined by current-meter measurements below\n6,500 cfs.\n\nRemarks Only annual peaks are shown prior to Oct. 1, 1944. Base for partial- duration series, 500 cfs.\n\nPeak stages and discharges",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.08580441640378549,
+                            "top": 0.05216724204065976,
+                            "width": 0.032176656151419555,
+                            "height": 0.009589566551591868,
+                            "page": 1
+                        },
+                        "content": "200",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3936908517350158,
+                            "top": 0.05178365937859609,
+                            "width": 0.2416403785488959,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.29842271293375394,
+                            "top": 0.08515535097813579,
+                            "width": 0.42839116719242903,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "2480. Fine Gold Creek near Friant, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08769716088328075,
+                            "top": 0.1047180667433832,
+                            "width": 0.8195583596214511,
+                            "height": 0.032604526275412354,
+                            "page": 1
+                        },
+                        "content": "Location.--Lat 37\u00b004'00\", long 119\u00b038'50\", in NW1NE1 sec 14, T.10 S., , R.21 E. on right bank 1,500 ft downstream from Willow Creek and 5.5 miles northeast of Friant.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08832807570977919,
+                            "top": 0.14998082086689682,
+                            "width": 0.28138801261829655,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "Drainage area.--92.6 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08895899053627761,
+                            "top": 0.1714614499424626,
+                            "width": 0.7205047318611988,
+                            "height": 0.01227464518603759,
+                            "page": 1
+                        },
+                        "content": "Gage.--Recording. Altitude of gage is 620 ft (from topographic map).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09022082018927445,
+                            "top": 0.19370924434215572,
+                            "width": 0.7337539432176656,
+                            "height": 0.02109704641350211,
+                            "page": 1
+                        },
+                        "content": "Stage-discharge relation.--Defined by current-meter measurements below\n6,500 cfs.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08643533123028391,
+                            "top": 0.2259301879555044,
+                            "width": 0.8296529968454258,
+                            "height": 0.021480629075565784,
+                            "page": 1
+                        },
+                        "content": "Remarks Only annual peaks are shown prior to Oct. 1, 1944. Base for partial- duration series, 500 cfs.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.38170347003154576,
+                            "top": 0.2600690448791715,
+                            "width": 0.24605678233438485,
+                            "height": 0.009205983889528193,
+                            "page": 1
+                        },
+                        "content": "Peak stages and discharges",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 2480. Fine Gold Creek near Friant, Calif. (cont.)\n\n<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1937</td><td>Feb. 6, 1937</td><td>16.45</td><td>6,780</td><td>1951</td><td>Dec. 4, 1950</td><td>14.00</td><td>4,900</td></tr><tr><td>1938</td><td>Mar. 12, 1938</td><td>20.4</td><td>10,300</td><td></td><td>Jan. 18, 1951</td><td>7.22</td><td>1,140</td></tr><tr><td>1939</td><td>Mar. 27, 1939</td><td>3.55</td><td>238</td><td></td><td></td><td></td><td></td></tr><tr><td>1940</td><td>Jan. 25, 1940</td><td>13.53</td><td>4,550</td><td>1952</td><td>Dec. 29, 1951</td><td>7.88</td><td>1,310</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 15, 1952</td><td>9.22</td><td>1,880</td></tr><tr><td>1941</td><td>Feb. 12, 1941</td><td>-</td><td>4,000</td><td></td><td>Jan. 25, 1952</td><td>10,80</td><td>2,730</td></tr><tr><td>1942</td><td>Dec. 30, 1941</td><td>9.34</td><td>1,950</td><td></td><td>Mar. 16, 1952</td><td>9.03</td><td>1,790</td></tr><tr><td>1943</td><td>Jan. 21, 1943</td><td>14.56</td><td>5,320</td><td></td><td>Mar. 18, 1952</td><td>7.14</td><td>1,050</td></tr><tr><td>1944</td><td>Mar. 4, 1944</td><td>4.98</td><td>548</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1953</td><td>Dec. 31, 1952</td><td>5.30</td><td>615</td></tr><tr><td>1945</td><td>Feb. 2, 1945</td><td>13.63</td><td>4,630</td><td></td><td>Jan. 13, 1953</td><td>6.76</td><td>1,050</td></tr><tr><td></td><td>Feb. 3, 1945</td><td>-</td><td>1,570</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 15, 1945</td><td>-</td><td>1,680</td><td>1954</td><td>Feb. 14, 1954</td><td>5.06</td><td>548</td></tr><tr><td></td><td>Mar. 23, 1945</td><td>-</td><td>1,010</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 26, 1945</td><td>-</td><td>1,360</td><td>1955</td><td>Jan. 1, 1955</td><td>4.75</td><td>334</td></tr><tr><td>1946</td><td>Dec. 22, 1945</td><td>-</td><td>636</td><td>1956</td><td>Dec. 23, 1955</td><td>17.94</td><td>7,450</td></tr><tr><td></td><td>Dec. 25, 1945</td><td>-</td><td>514</td><td></td><td>Dec. 26, 1955</td><td>8.12</td><td>1,370</td></tr><tr><td></td><td>Mar. 30, 1946</td><td>6.55</td><td>942</td><td></td><td>Jan. 23, 1956</td><td>6.52</td><td>831</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 25, 1956</td><td>13.38</td><td>3,940</td></tr><tr><td>1947</td><td>Dec. 27, 1946</td><td>7.93</td><td>1,480</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1957</td><td>May 19, 1957</td><td>4.97</td><td>407</td></tr><tr><td>1948</td><td>Apr. 10, 1948</td><td>5.95</td><td>810</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1958</td><td>Feb. 3, 1958</td><td>8.87</td><td>1,660</td></tr><tr><td>1949</td><td>Mar. 4, 1949</td><td>6.58</td><td>1,010</td><td></td><td>Feb. 25, 1958</td><td>9.79</td><td>2,050</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mar. 16, 1958</td><td>13.83</td><td>4,230</td></tr><tr><td>1950</td><td>Feb. 5, 1950</td><td>5.67</td><td>726</td><td></td><td>Mar. 22, 1958</td><td>13.12</td><td>3,800</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Apr. 3, 1958</td><td>13.52</td><td>4,040</td></tr><tr><td>1951</td><td>Nov. 19, 1950</td><td>15.58</td><td>6,110</td><td></td><td>Apr. 6, 1958</td><td>8.02</td><td>1,330</td></tr></table>",
+                "embed": "# 2480. Fine Gold Creek near Friant, Calif. (cont.)\n\n<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1937</td><td>Feb. 6, 1937</td><td>16.45</td><td>6,780</td><td>1951</td><td>Dec. 4, 1950</td><td>14.00</td><td>4,900</td></tr><tr><td>1938</td><td>Mar. 12, 1938</td><td>20.4</td><td>10,300</td><td></td><td>Jan. 18, 1951</td><td>7.22</td><td>1,140</td></tr><tr><td>1939</td><td>Mar. 27, 1939</td><td>3.55</td><td>238</td><td></td><td></td><td></td><td></td></tr><tr><td>1940</td><td>Jan. 25, 1940</td><td>13.53</td><td>4,550</td><td>1952</td><td>Dec. 29, 1951</td><td>7.88</td><td>1,310</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 15, 1952</td><td>9.22</td><td>1,880</td></tr><tr><td>1941</td><td>Feb. 12, 1941</td><td>-</td><td>4,000</td><td></td><td>Jan. 25, 1952</td><td>10,80</td><td>2,730</td></tr><tr><td>1942</td><td>Dec. 30, 1941</td><td>9.34</td><td>1,950</td><td></td><td>Mar. 16, 1952</td><td>9.03</td><td>1,790</td></tr><tr><td>1943</td><td>Jan. 21, 1943</td><td>14.56</td><td>5,320</td><td></td><td>Mar. 18, 1952</td><td>7.14</td><td>1,050</td></tr><tr><td>1944</td><td>Mar. 4, 1944</td><td>4.98</td><td>548</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1953</td><td>Dec. 31, 1952</td><td>5.30</td><td>615</td></tr><tr><td>1945</td><td>Feb. 2, 1945</td><td>13.63</td><td>4,630</td><td></td><td>Jan. 13, 1953</td><td>6.76</td><td>1,050</td></tr><tr><td></td><td>Feb. 3, 1945</td><td>-</td><td>1,570</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 15, 1945</td><td>-</td><td>1,680</td><td>1954</td><td>Feb. 14, 1954</td><td>5.06</td><td>548</td></tr><tr><td></td><td>Mar. 23, 1945</td><td>-</td><td>1,010</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 26, 1945</td><td>-</td><td>1,360</td><td>1955</td><td>Jan. 1, 1955</td><td>4.75</td><td>334</td></tr><tr><td>1946</td><td>Dec. 22, 1945</td><td>-</td><td>636</td><td>1956</td><td>Dec. 23, 1955</td><td>17.94</td><td>7,450</td></tr><tr><td></td><td>Dec. 25, 1945</td><td>-</td><td>514</td><td></td><td>Dec. 26, 1955</td><td>8.12</td><td>1,370</td></tr><tr><td></td><td>Mar. 30, 1946</td><td>6.55</td><td>942</td><td></td><td>Jan. 23, 1956</td><td>6.52</td><td>831</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 25, 1956</td><td>13.38</td><td>3,940</td></tr><tr><td>1947</td><td>Dec. 27, 1946</td><td>7.93</td><td>1,480</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1957</td><td>May 19, 1957</td><td>4.97</td><td>407</td></tr><tr><td>1948</td><td>Apr. 10, 1948</td><td>5.95</td><td>810</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1958</td><td>Feb. 3, 1958</td><td>8.87</td><td>1,660</td></tr><tr><td>1949</td><td>Mar. 4, 1949</td><td>6.58</td><td>1,010</td><td></td><td>Feb. 25, 1958</td><td>9.79</td><td>2,050</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mar. 16, 1958</td><td>13.83</td><td>4,230</td></tr><tr><td>1950</td><td>Feb. 5, 1950</td><td>5.67</td><td>726</td><td></td><td>Mar. 22, 1958</td><td>13.12</td><td>3,800</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Apr. 3, 1958</td><td>13.52</td><td>4,040</td></tr><tr><td>1951</td><td>Nov. 19, 1950</td><td>15.58</td><td>6,110</td><td></td><td>Apr. 6, 1958</td><td>8.02</td><td>1,330</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.08207645837440852,
+                            "top": 0.267706493147955,
+                            "width": 0.8415080651123817,
+                            "height": 0.3263010859809527,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th><th>Water\nyear</th><th>Date</th><th>Gage\nheight\n(feet)</th><th>Discharge\n(cfs)</th></tr><tr><td>1937</td><td>Feb. 6, 1937</td><td>16.45</td><td>6,780</td><td>1951</td><td>Dec. 4, 1950</td><td>14.00</td><td>4,900</td></tr><tr><td>1938</td><td>Mar. 12, 1938</td><td>20.4</td><td>10,300</td><td></td><td>Jan. 18, 1951</td><td>7.22</td><td>1,140</td></tr><tr><td>1939</td><td>Mar. 27, 1939</td><td>3.55</td><td>238</td><td></td><td></td><td></td><td></td></tr><tr><td>1940</td><td>Jan. 25, 1940</td><td>13.53</td><td>4,550</td><td>1952</td><td>Dec. 29, 1951</td><td>7.88</td><td>1,310</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 15, 1952</td><td>9.22</td><td>1,880</td></tr><tr><td>1941</td><td>Feb. 12, 1941</td><td>-</td><td>4,000</td><td></td><td>Jan. 25, 1952</td><td>10,80</td><td>2,730</td></tr><tr><td>1942</td><td>Dec. 30, 1941</td><td>9.34</td><td>1,950</td><td></td><td>Mar. 16, 1952</td><td>9.03</td><td>1,790</td></tr><tr><td>1943</td><td>Jan. 21, 1943</td><td>14.56</td><td>5,320</td><td></td><td>Mar. 18, 1952</td><td>7.14</td><td>1,050</td></tr><tr><td>1944</td><td>Mar. 4, 1944</td><td>4.98</td><td>548</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1953</td><td>Dec. 31, 1952</td><td>5.30</td><td>615</td></tr><tr><td>1945</td><td>Feb. 2, 1945</td><td>13.63</td><td>4,630</td><td></td><td>Jan. 13, 1953</td><td>6.76</td><td>1,050</td></tr><tr><td></td><td>Feb. 3, 1945</td><td>-</td><td>1,570</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 15, 1945</td><td>-</td><td>1,680</td><td>1954</td><td>Feb. 14, 1954</td><td>5.06</td><td>548</td></tr><tr><td></td><td>Mar. 23, 1945</td><td>-</td><td>1,010</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Mar. 26, 1945</td><td>-</td><td>1,360</td><td>1955</td><td>Jan. 1, 1955</td><td>4.75</td><td>334</td></tr><tr><td>1946</td><td>Dec. 22, 1945</td><td>-</td><td>636</td><td>1956</td><td>Dec. 23, 1955</td><td>17.94</td><td>7,450</td></tr><tr><td></td><td>Dec. 25, 1945</td><td>-</td><td>514</td><td></td><td>Dec. 26, 1955</td><td>8.12</td><td>1,370</td></tr><tr><td></td><td>Mar. 30, 1946</td><td>6.55</td><td>942</td><td></td><td>Jan. 23, 1956</td><td>6.52</td><td>831</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Jan. 25, 1956</td><td>13.38</td><td>3,940</td></tr><tr><td>1947</td><td>Dec. 27, 1946</td><td>7.93</td><td>1,480</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1957</td><td>May 19, 1957</td><td>4.97</td><td>407</td></tr><tr><td>1948</td><td>Apr. 10, 1948</td><td>5.95</td><td>810</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>1958</td><td>Feb. 3, 1958</td><td>8.87</td><td>1,660</td></tr><tr><td>1949</td><td>Mar. 4, 1949</td><td>6.58</td><td>1,010</td><td></td><td>Feb. 25, 1958</td><td>9.79</td><td>2,050</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mar. 16, 1958</td><td>13.83</td><td>4,230</td></tr><tr><td>1950</td><td>Feb. 5, 1950</td><td>5.67</td><td>726</td><td></td><td>Mar. 22, 1958</td><td>13.12</td><td>3,800</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Apr. 3, 1958</td><td>13.52</td><td>4,040</td></tr><tr><td>1951</td><td>Nov. 19, 1950</td><td>15.58</td><td>6,110</td><td></td><td>Apr. 6, 1958</td><td>8.02</td><td>1,330</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 2480. Fine Gold Creek near Friant, Calif. (cont.)\n\n2555. Panoche Creek below Silver Creek, near Panoche, Calif.\n\nLocation. --Lat 36\u00b037'08\", long 120\u00b040'22\" in SW1SW1 sec 16, T.15 S., R.12 E. on right bank 1.1 miles downstream from Silver Creek, 9 miles east of Panoche, and 18 miles southwest of Mendota.\n\nDrainage area.--293 sq mi.\n\nGage .--Recording Datum of gage is 558.26 ft above mean sea level, datum of 1929.\n\nStage-discharge relation -- Defined by current-meter measurements below 870 cfs and extended above on basis of slope-area measurements at 2,510 and 5,090 cfs.\n\nBankfull stage.--Not subject to overflow.\n\nRemarks -Only annual peak is shown for 1958. Base for partial-duration series, 50 cfs.",
+                "embed": "# 2480. Fine Gold Creek near Friant, Calif. (cont.)\n\n2555. Panoche Creek below Silver Creek, near Panoche, Calif.\n\nLocation. --Lat 36\u00b037'08\", long 120\u00b040'22\" in SW1SW1 sec 16, T.15 S., R.12 E. on right bank 1.1 miles downstream from Silver Creek, 9 miles east of Panoche, and 18 miles southwest of Mendota.\n\nDrainage area.--293 sq mi.\n\nGage .--Recording Datum of gage is 558.26 ft above mean sea level, datum of 1929.\n\nStage-discharge relation -- Defined by current-meter measurements below 870 cfs and extended above on basis of slope-area measurements at 2,510 and 5,090 cfs.\n\nBankfull stage.--Not subject to overflow.\n\nRemarks -Only annual peak is shown for 1958. Base for partial-duration series, 50 cfs.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1892744479495268,
+                            "top": 0.6217874952052167,
+                            "width": 0.6277602523659306,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "2555. Panoche Creek below Silver Creek, near Panoche, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0832807570977918,
+                            "top": 0.6428845416187189,
+                            "width": 0.8113564668769716,
+                            "height": 0.03298810893747603,
+                            "page": 1
+                        },
+                        "content": "Location. --Lat 36\u00b037'08\", long 120\u00b040'22\" in SW1SW1 sec 16, T.15 S., R.12 E. on right bank 1.1 miles downstream from Silver Creek, 9 miles east of Panoche, and 18 miles southwest of Mendota.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0832807570977918,
+                            "top": 0.6869965477560415,
+                            "width": 0.27129337539432175,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "Drainage area.--293 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08391167192429022,
+                            "top": 0.7088607594936709,
+                            "width": 0.7022082018927445,
+                            "height": 0.020713463751438434,
+                            "page": 1
+                        },
+                        "content": "Gage .--Recording Datum of gage is 558.26 ft above mean sea level, datum of 1929.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0832807570977918,
+                            "top": 0.741848868431147,
+                            "width": 0.8271293375394322,
+                            "height": 0.02339854238588416,
+                            "page": 1
+                        },
+                        "content": "Stage-discharge relation -- Defined by current-meter measurements below 870 cfs and extended above on basis of slope-area measurements at 2,510 and 5,090 cfs.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08264984227129338,
+                            "top": 0.7740698120444955,
+                            "width": 0.42902208201892744,
+                            "height": 0.011891062523973917,
+                            "page": 1
+                        },
+                        "content": "Bankfull stage.--Not subject to overflow.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08201892744479496,
+                            "top": 0.7959340237821251,
+                            "width": 0.8290220820189275,
+                            "height": 0.020713463751438434,
+                            "page": 1
+                        },
+                        "content": "Remarks -Only annual peak is shown for 1958. Base for partial-duration series, 50 cfs.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

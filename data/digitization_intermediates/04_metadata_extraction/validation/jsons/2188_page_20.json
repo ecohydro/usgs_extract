@@ -1,0 +1,158 @@
+{
+    "job_id": "61da1b3b-9f44-4382-aa12-51b7771b1b5f",
+    "duration": 5.130801200866699,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/950e5e5d-45ee-47be-8426-80d0dec34c97?AWSAccessKeyId=ASIA2UOK6OVBA7NM2KST&Signature=aWpXa%2Fqg6iFrDbqRgRwo0bXhRIQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJHMEUCIQDtGcasC4VUE2rcufsFSxhhL3wfVdjEmIS78hXflxLJpQIgbNykmcfLtLx2v%2FeX1Zg3vOr1g69otcSXqHPREtm2HTMqiwUIJRAAGgw3MzExMDY5MzIwMzQiDNbUXsOq%2FsGDL3cn%2BSroBNmU0fU2WDQzdm%2BoSkWxE%2B1T9siUV5hyC%2Bcj%2BY0ijBJ%2BkiYbvdyiCPVH7H5yJHkEFgT9168kUnDayaOcwSmp3bYO94jXbPxeoUxKN1%2FBmqmMYUuNftTByuR%2ByWoE81OJcQ2LFHXV8QS73sC4V4mFtCVgNUF9KLr33IU4UnDEY3Q8Dvfu30O%2F8v%2B8QlhnJwJpvGYIiAd%2Fk8o6p4v4UB3L29o4XUInEgx%2B8yLT3Cq75V9i6fX%2Flo%2B92hqQxZvyzHhUO8gbmRbqg2HHqVH%2F4rhbs%2B5VynNptpoActArGue%2BNbgOYqEKR8MkcAevXJqefrk3E%2Fxrh5sfh161vVon93XE98mksCRmVD6HQb3ULtm5c9%2BvR2OUanJVug74i6jUuIG4Qs6getK2lH5zva%2BZIH6SMd30UKd8ewCh3lsGlAPBUwZunH%2FHGKFfuRPbxtikrEnBKR34Jjov1sEjfWolDtHdyp5E4Pgfcbz0HfHfDwi1KMAxajTqq%2F0t7%2F5CyPG3XRlB9a8cbGodc86uGzcqr4%2B9Nyd%2Fpmw6p06Qba1VDnrDZMkBtCou6%2B1rd0dCP%2BlPF98%2Bsz0ciz4bgypAg8c5Uyo8iq52oVnPJrKTBxy21ogpiJsJTP1lHCk6YQxH7rUpCZ%2Fv5IjMGr9ABMETdtjoTMGaGeRmD9lGvBjzutlVQdah5XIEmtviZB7scS7mxsAf0ZsIUmhomzNkh306LLGV63Jqthe1w6LNmK5rQZpeWRNkB4zmgSYsJ9YB0uXeRHw3E1HF7CpjCx1n4bN1INDaKDeTdC8mbsBN7q5FITGhLPeubixUGNQk%2Bx8vuFgw4ObJugY6mwEVcvQOckCNdUXO4iyRoVxERr1u7ap%2FlQy5xWZebX1s8iPldJQRMi04lzlwh%2F64znXwpwWbk6MHwmzVH86rpOt5uNe7rW5PE2VLkmq974ffJxy8a9SCCYzVms3cFfgEN6GEm9%2FlcUQ9E6TNpmmkXeYRwxFba0qZ51lpSaPhdxDbSiduER9djQFGKipl76EI%2FMtMdopBC2whqLLqvg%3D%3D&Expires=1733462451",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOGRAPHY\n\n15\n\n# TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Precipitation\n(inches)</th><th>Month</th><th>Precipitation\n(inches)</th></tr><tr><td>January</td><td>3. 06</td><td>July</td><td>6. 35</td></tr><tr><td>February</td><td>2. 33</td><td>August</td><td>28</td></tr><tr><td>March</td><td>1.65</td><td>September</td><td>47</td></tr><tr><td>April</td><td>1. 03</td><td>October</td><td>1. 23</td></tr><tr><td>May</td><td>99</td><td>November</td><td>2. 38</td></tr><tr><td>June</td><td>67</td><td>December</td><td>3. 04</td></tr><tr><td></td><td></td><td colspan=\"2\">Average annual total 17. 49</td></tr></table>",
+                "embed": "# GEOGRAPHY\n\n15\n\n# TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Precipitation\n(inches)</th><th>Month</th><th>Precipitation\n(inches)</th></tr><tr><td>January</td><td>3. 06</td><td>July</td><td>6. 35</td></tr><tr><td>February</td><td>2. 33</td><td>August</td><td>28</td></tr><tr><td>March</td><td>1.65</td><td>September</td><td>47</td></tr><tr><td>April</td><td>1. 03</td><td>October</td><td>1. 23</td></tr><tr><td>May</td><td>99</td><td>November</td><td>2. 38</td></tr><tr><td>June</td><td>67</td><td>December</td><td>3. 04</td></tr><tr><td></td><td></td><td colspan=\"2\">Average annual total 17. 49</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4145272385723231,
+                            "top": 0.05485232067510549,
+                            "width": 0.13963681903569192,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "GEOGRAPHY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8672510958046337,
+                            "top": 0.05101649405446874,
+                            "width": 0.030682529743268627,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "15",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.13212273011897308,
+                            "top": 0.08630609896432681,
+                            "width": 0.6950532247964935,
+                            "height": 0.030303030303030304,
+                            "page": 1
+                        },
+                        "content": "TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.061751497635336765,
+                            "top": 0.12177802504000647,
+                            "width": 0.8404463336254256,
+                            "height": 0.19159905975423738,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Precipitation\n(inches)</th><th>Month</th><th>Precipitation\n(inches)</th></tr><tr><td>January</td><td>3. 06</td><td>July</td><td>6. 35</td></tr><tr><td>February</td><td>2. 33</td><td>August</td><td>28</td></tr><tr><td>March</td><td>1.65</td><td>September</td><td>47</td></tr><tr><td>April</td><td>1. 03</td><td>October</td><td>1. 23</td></tr><tr><td>May</td><td>99</td><td>November</td><td>2. 38</td></tr><tr><td>June</td><td>67</td><td>December</td><td>3. 04</td></tr><tr><td></td><td></td><td colspan=\"2\">Average annual total 17. 49</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau] (cont.)\n\nTABLE 4. -Average monthly temperature at Yreka, Calif., 1903-55 [Data from publications of the U.S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Temperature\n(\u00b0F)</th><th>Month</th><th>Temperature\n(\u00b0F)</th></tr><tr><td>January</td><td>33. 6</td><td>July</td><td>71. 5</td></tr><tr><td>February</td><td>38. 4</td><td>August</td><td>70. 5</td></tr><tr><td>March</td><td>43. 7</td><td>September</td><td>62. 5</td></tr><tr><td>April</td><td>49. 2</td><td>October</td><td>52. 4</td></tr><tr><td>May</td><td>56. 2</td><td>November</td><td>41. 6</td></tr><tr><td>June</td><td>63. 6</td><td>December</td><td>35. 0</td></tr><tr><td></td><td></td><td colspan=\"2\">Average annual total 51. 5</td></tr></table>",
+                "embed": "# TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau] (cont.)\n\nTABLE 4. -Average monthly temperature at Yreka, Calif., 1903-55 [Data from publications of the U.S. Weather Bureau]\n\n<table><tr><th>Month</th><th>Temperature\n(\u00b0F)</th><th>Month</th><th>Temperature\n(\u00b0F)</th></tr><tr><td>January</td><td>33. 6</td><td>July</td><td>71. 5</td></tr><tr><td>February</td><td>38. 4</td><td>August</td><td>70. 5</td></tr><tr><td>March</td><td>43. 7</td><td>September</td><td>62. 5</td></tr><tr><td>April</td><td>49. 2</td><td>October</td><td>52. 4</td></tr><tr><td>May</td><td>56. 2</td><td>November</td><td>41. 6</td></tr><tr><td>June</td><td>63. 6</td><td>December</td><td>35. 0</td></tr><tr><td></td><td></td><td colspan=\"2\">Average annual total 51. 5</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14840325610519725,
+                            "top": 0.334867663981588,
+                            "width": 0.6618659987476518,
+                            "height": 0.03068661296509398,
+                            "page": 1
+                        },
+                        "content": "TABLE 4. -Average monthly temperature at Yreka, Calif., 1903-55 [Data from publications of the U.S. Weather Bureau]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06184817644380822,
+                            "top": 0.36977914123183975,
+                            "width": 0.8389200486462043,
+                            "height": 0.19014773645024213,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Temperature\n(\u00b0F)</th><th>Month</th><th>Temperature\n(\u00b0F)</th></tr><tr><td>January</td><td>33. 6</td><td>July</td><td>71. 5</td></tr><tr><td>February</td><td>38. 4</td><td>August</td><td>70. 5</td></tr><tr><td>March</td><td>43. 7</td><td>September</td><td>62. 5</td></tr><tr><td>April</td><td>49. 2</td><td>October</td><td>52. 4</td></tr><tr><td>May</td><td>56. 2</td><td>November</td><td>41. 6</td></tr><tr><td>June</td><td>63. 6</td><td>December</td><td>35. 0</td></tr><tr><td></td><td></td><td colspan=\"2\">Average annual total 51. 5</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau] (cont.)\n\n## TRANSPORTATION\n\nU.S. Highways 97 and 99 connect the Shasta Valley area with nearby cities in Oregon and northern California. Highway 97, linking Weed, Calif., with Klamath Falls, Oreg., crosses the valley on the east side, following the main line of the Southern Pacific Railroad; Highway 99, along the west side of the valley, links Weed with Yreka and with Medford, Oreg. A system of State and county roads branches from Highways 97 and 99 and provides access to points within the flat farming country of the valley. The Siskiyou County Airport at Montague provides air transportation via South- west Airlines to many communities in Oregon and northern Cali- fornia.\n\n## POPULATION\n\nAccording to the 1950 census, Yreka, the county seat of Siskiyou County, had a population of 3,139, and Montague, a dairying and stockraising center east of Yreka, a population of 571. Weed, a large unincorporated town at the south end of Shasta Valley, is a logging and lumbering center whose estimated population is 4,000.",
+                "embed": "# TABLE 3. - Average monthly precipitation at Yreka, Calif., 1872-1954 [Data from publications of the U.S. Weather Bureau] (cont.)\n\n## TRANSPORTATION\n\nU.S. Highways 97 and 99 connect the Shasta Valley area with nearby cities in Oregon and northern California. Highway 97, linking Weed, Calif., with Klamath Falls, Oreg., crosses the valley on the east side, following the main line of the Southern Pacific Railroad; Highway 99, along the west side of the valley, links Weed with Yreka and with Medford, Oreg. A system of State and county roads branches from Highways 97 and 99 and provides access to points within the flat farming country of the valley. The Siskiyou County Airport at Montague provides air transportation via South- west Airlines to many communities in Oregon and northern Cali- fornia.\n\n## POPULATION\n\nAccording to the 1950 census, Yreka, the county seat of Siskiyou County, had a population of 3,139, and Montague, a dairying and stockraising center east of Yreka, a population of 571. Weed, a large unincorporated town at the south end of Shasta Valley, is a logging and lumbering center whose estimated population is 4,000.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.36192861615529115,
+                            "top": 0.5803605677023399,
+                            "width": 0.2298058860363181,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "TRANSPORTATION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06261740763932373,
+                            "top": 0.6075949367088608,
+                            "width": 0.8334376956793988,
+                            "height": 0.2109704641350211,
+                            "page": 1
+                        },
+                        "content": "U.S. Highways 97 and 99 connect the Shasta Valley area with nearby cities in Oregon and northern California. Highway 97, linking Weed, Calif., with Klamath Falls, Oreg., crosses the valley on the east side, following the main line of the Southern Pacific Railroad; Highway 99, along the west side of the valley, links Weed with Yreka and with Medford, Oreg. A system of State and county roads branches from Highways 97 and 99 and provides access to points within the flat farming country of the valley. The Siskiyou County Airport at Montague provides air transportation via South- west Airlines to many communities in Oregon and northern Cali- fornia.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.39887288666249215,
+                            "top": 0.8300728807057921,
+                            "width": 0.15842204132748905,
+                            "height": 0.010356731875719217,
+                            "page": 1
+                        },
+                        "content": "POPULATION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06261740763932373,
+                            "top": 0.8569236670502494,
+                            "width": 0.8321853475266124,
+                            "height": 0.09781357882623705,
+                            "page": 1
+                        },
+                        "content": "According to the 1950 census, Yreka, the county seat of Siskiyou County, had a population of 3,139, and Montague, a dairying and stockraising center east of Yreka, a population of 571. Weed, a large unincorporated town at the south end of Shasta Valley, is a logging and lumbering center whose estimated population is 4,000.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

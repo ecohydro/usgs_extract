@@ -1,0 +1,178 @@
+{
+    "job_id": "aea062d7-e16a-4de6-8a52-07b1e8257fa9",
+    "duration": 6.322693347930908,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/dd57911d-2865-4700-8d1d-471880836981?AWSAccessKeyId=ASIA2UOK6OVBBU5ZP224&Signature=RJlb7vSzLe8jcZpvrDObci5GP48%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJHMEUCIQCD03j8JsyUeHoWNtD5urNLJ5M9WKtuGJEWvf2zDsn5PgIgUlQKnrTdkOho6gsT8s4Xcv3jh6kI2ahPFDnzOrv5rOQqiwUIIBAAGgw3MzExMDY5MzIwMzQiDPUGf89twEiFSA8ofiroBIK2PtozJXca5ysSmvXfjyd1ZhMqHCSjyYWQrkVOnMRVbC%2Bc85mKB6XW5ngUrtX5Jf6VT3zIvtVV6yfOUDjGoiU9Q1h8%2BbBk047K4oT85vVLOHBQxGdMbWz1IB4GxhaxkJvvxx7oXkUo%2BZwSZ362VEEN%2Fw1umeJJfLaeAZ%2FbncpZKCswOgQnGQWXYZ3H6A%2Bkc%2F%2FwqdemgMVYwOboS4MNTUCeqvqiNzOU0PW6Aoq8CFFO3rTT3Rk2SfczhfHo2hCjHpZM8XjZ9XUYucRNVFleeQv9N7dqICFxIKukpoZqokc%2FII84CSwqbcdgpuMsUWOvlJv%2FF4IOl8UKFdbIE4an5OYW4Euko5z3VJyEmyodLzc0gKviSeJOnr9d7fu2RXLOigbEZfVXlmhRCcyCzl2LeANrH2jN506ez0EJq8y3ip%2BDpGzk0ag%2BSbPTp2N6nqlaemL9ekmgrKAhDsq3OkDzbF0efyUBqb553p3ND0N%2BgsXVk9kRnSCF8bLtEU%2FAu%2FTYhit7blcxC%2BOCC2cszglE6qtrGxP2fcypzQqDiRvY1uCusAVL3FptLWM3V6zItZwKE82FFRCb5n0E9T2vN%2BlA%2B9lmbapMiTUYr0AxqSPgY6aWuyTGHbMi4fByewoLI2GeKo1YCJyBgp8gMyDPU8n81T5CWC79mHeYwPWZWqjtYpZm8r5MqwdS2kgyPWUtJDc7N3CjWgn79vNw0OUC94pnf4Y0J2Zu6Zy1%2Fl9RJYYoxVqoCtE2tvCFutKweOEphbBM%2FxUkIDjyiCsp3esIW7vKue7YH%2FrZYsAesUNpXPfT55SykjTnNhEy2OQwteTIugY6mwGNLOXfuUF7V8g30oTxHiq6zplYgzo5L2LsxobzLlegjrgenQlWr4cojUzrr%2F0%2FhNBaEQf4qXfUtUbnGmfaYqBqZdMaRIXvzntofpWq2pM6T1jfUOWv6q%2FS9HX7Jgnj9TERP089mwBOEPjaTTXmHo9EKwgJrtY1EpV18i9jZaTyLGCT%2BXRdCVv3nbB%2Bs3nJInDRMkpchUDAx9fGmA%3D%3D&Expires=1733444046",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# RIVER CONTROL.\n\nRun-off available for storage.-The average annual run-off available for storage at the Colorado-San Juan reservoir site is about 15,000,000 acre-feet, or 92.6 per cent of the mean annual run-off of Colorado River at Laguna dam. Value of site.-The position of the Colorado-San Juan reservoir site is good. The water which passes it, with the exception of the Gila floods, is identical with that which goes to make up the floods on the lower Colorado, but the capacity of the reservoir might be seriously reduced in 50 years by the deposition of silt. Should the Green- Grand reservoir site prove unfeasible the Colorado-San Juan site should be thoroughly investigated.",
+                "embed": "# RIVER CONTROL.\n\nRun-off available for storage.-The average annual run-off available for storage at the Colorado-San Juan reservoir site is about 15,000,000 acre-feet, or 92.6 per cent of the mean annual run-off of Colorado River at Laguna dam. Value of site.-The position of the Colorado-San Juan reservoir site is good. The water which passes it, with the exception of the Gila floods, is identical with that which goes to make up the floods on the lower Colorado, but the capacity of the reservoir might be seriously reduced in 50 years by the deposition of silt. Should the Green- Grand reservoir site prove unfeasible the Colorado-San Juan site should be thoroughly investigated.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3681903569192235,
+                            "top": 0.051070221554637626,
+                            "width": 0.19098309329993737,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "RIVER CONTROL.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8309329993738259,
+                            "top": 0.04956815621479534,
+                            "width": 0.046336881653099564,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "215",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.050720100187852224,
+                            "top": 0.07998497934660158,
+                            "width": 0.8259236067626801,
+                            "height": 0.20766053323319564,
+                            "page": 1
+                        },
+                        "content": "Run-off available for storage.-The average annual run-off available for storage at the Colorado-San Juan reservoir site is about 15,000,000 acre-feet, or 92.6 per cent of the mean annual run-off of Colorado River at Laguna dam. Value of site.-The position of the Colorado-San Juan reservoir site is good. The water which passes it, with the exception of the Gila floods, is identical with that which goes to make up the floods on the lower Colorado, but the capacity of the reservoir might be seriously reduced in 50 years by the deposition of silt. Should the Green- Grand reservoir site prove unfeasible the Colorado-San Juan site should be thoroughly investigated.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# RIVER CONTROL. (cont.)\n\n## BULLS HEAD RESERVOIR SITE.\n\nGeneral conditions.-The dam site for the Bulls Head reservoir, at Bulls Head Rock, about 31 miles above Needles, Cal., and 18 miles above Camp Mohave, Ariz., has been investigated by the United States Reclamation Service. Borings taken at the dam site show that conditions are unfavorable for the construction of a high over- flow dam. Bedrock was not reached in holes carried to a depth of 100 feet, the material penetrated by the drill being mostly gravel and bowlders. Conditions are favorable for the construction of a spillway on solid rock on the Arizona side. The reservoir formed by a dam raising the water level 100 feet would have a capacity of 841,000 acre-feet.\n\nCapacity of the Bulls Head reservoir.",
+                "embed": "# RIVER CONTROL. (cont.)\n\n## BULLS HEAD RESERVOIR SITE.\n\nGeneral conditions.-The dam site for the Bulls Head reservoir, at Bulls Head Rock, about 31 miles above Needles, Cal., and 18 miles above Camp Mohave, Ariz., has been investigated by the United States Reclamation Service. Borings taken at the dam site show that conditions are unfavorable for the construction of a high over- flow dam. Bedrock was not reached in holes carried to a depth of 100 feet, the material penetrated by the drill being mostly gravel and bowlders. Conditions are favorable for the construction of a spillway on solid rock on the Arizona side. The reservoir formed by a dam raising the water level 100 feet would have a capacity of 841,000 acre-feet.\n\nCapacity of the Bulls Head reservoir.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.30619912335629307,
+                            "top": 0.3011641006383778,
+                            "width": 0.31246086412022545,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "BULLS HEAD RESERVOIR SITE.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.048841577958672514,
+                            "top": 0.3225685317311303,
+                            "width": 0.8265497808390733,
+                            "height": 0.20277882087870822,
+                            "page": 1
+                        },
+                        "content": "General conditions.-The dam site for the Bulls Head reservoir, at Bulls Head Rock, about 31 miles above Needles, Cal., and 18 miles above Camp Mohave, Ariz., has been investigated by the United States Reclamation Service. Borings taken at the dam site show that conditions are unfavorable for the construction of a high over- flow dam. Bedrock was not reached in holes carried to a depth of 100 feet, the material penetrated by the drill being mostly gravel and bowlders. Conditions are favorable for the construction of a spillway on solid rock on the Arizona side. The reservoir formed by a dam raising the water level 100 feet would have a capacity of 841,000 acre-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.29304946775203505,
+                            "top": 0.5339842283139317,
+                            "width": 0.33813400125234816,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "Capacity of the Bulls Head reservoir.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# RIVER CONTROL. (cont.)\n\n## BULLS HEAD RESERVOIR SITE. (cont.)\n\n<table><tr><th>Height above low water.</th><th>Area.</th><th>Total\ncapacity.</th><th>Height above low water.</th><th>Area.</th><th>Total\ncapacity.</th></tr><tr><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td></tr><tr><td>10</td><td>806</td><td>4,030</td><td>60</td><td>12,100</td><td>259,000</td></tr><tr><td>20</td><td>1,570</td><td>16,000</td><td>70</td><td>13,600</td><td>395,000</td></tr><tr><td>30</td><td>2,460</td><td>35,900</td><td>80</td><td>14,600</td><td>529,000</td></tr><tr><td>40</td><td>6,210</td><td>74,700</td><td>90</td><td>15,500</td><td>687,000</td></tr><tr><td>50</td><td>9,220</td><td>158,000</td><td>100</td><td>16,700</td><td>841,000</td></tr></table>",
+                "embed": "# RIVER CONTROL. (cont.)\n\n## BULLS HEAD RESERVOIR SITE. (cont.)\n\n<table><tr><th>Height above low water.</th><th>Area.</th><th>Total\ncapacity.</th><th>Height above low water.</th><th>Area.</th><th>Total\ncapacity.</th></tr><tr><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td></tr><tr><td>10</td><td>806</td><td>4,030</td><td>60</td><td>12,100</td><td>259,000</td></tr><tr><td>20</td><td>1,570</td><td>16,000</td><td>70</td><td>13,600</td><td>395,000</td></tr><tr><td>30</td><td>2,460</td><td>35,900</td><td>80</td><td>14,600</td><td>529,000</td></tr><tr><td>40</td><td>6,210</td><td>74,700</td><td>90</td><td>15,500</td><td>687,000</td></tr><tr><td>50</td><td>9,220</td><td>158,000</td><td>100</td><td>16,700</td><td>841,000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.044601755733406384,
+                            "top": 0.5595396001044405,
+                            "width": 0.8329419235774108,
+                            "height": 0.12188654236000282,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Height above low water.</th><th>Area.</th><th>Total\ncapacity.</th><th>Height above low water.</th><th>Area.</th><th>Total\ncapacity.</th></tr><tr><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td><td>Feet.</td><td>Acres.</td><td>Acre-feet.</td></tr><tr><td>10</td><td>806</td><td>4,030</td><td>60</td><td>12,100</td><td>259,000</td></tr><tr><td>20</td><td>1,570</td><td>16,000</td><td>70</td><td>13,600</td><td>395,000</td></tr><tr><td>30</td><td>2,460</td><td>35,900</td><td>80</td><td>14,600</td><td>529,000</td></tr><tr><td>40</td><td>6,210</td><td>74,700</td><td>90</td><td>15,500</td><td>687,000</td></tr><tr><td>50</td><td>9,220</td><td>158,000</td><td>100</td><td>16,700</td><td>841,000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# RIVER CONTROL. (cont.)\n\n## BULLS HEAD RESERVOIR SITE. (cont.)\n\nRun-off available for storage.-The storable run-off at the Bulls Head reservoir site is given in the table showing the annual discharge of Colorado River at Hardyville, Ariz., on page 192. The mean annual run-off for the period 1895 to 1914 was 16,200,000 acre-feet.\n\nValue of site.--The capacity of the reservoir site is small and would be reduced by the deposition of silt within a few years after the building of the dam. The site is therefore of no value for water storage except for emergency use.\n\nBy constructing a dam 20 feet above low water at Bulls Head Rock water can be diverted to irrigate 56,000 acres. The feasibility of constructing such a dam is not questioned.",
+                "embed": "# RIVER CONTROL. (cont.)\n\n## BULLS HEAD RESERVOIR SITE. (cont.)\n\nRun-off available for storage.-The storable run-off at the Bulls Head reservoir site is given in the table showing the annual discharge of Colorado River at Hardyville, Ariz., on page 192. The mean annual run-off for the period 1895 to 1914 was 16,200,000 acre-feet.\n\nValue of site.--The capacity of the reservoir site is small and would be reduced by the deposition of silt within a few years after the building of the dam. The site is therefore of no value for water storage except for emergency use.\n\nBy constructing a dam 20 feet above low water at Bulls Head Rock water can be diverted to irrigate 56,000 acres. The feasibility of constructing such a dam is not questioned.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.6943297033420954,
+                            "width": 0.8278021289918598,
+                            "height": 0.07547878332707472,
+                            "page": 1
+                        },
+                        "content": "Run-off available for storage.-The storable run-off at the Bulls Head reservoir site is given in the table showing the annual discharge of Colorado River at Hardyville, Ariz., on page 192. The mean annual run-off for the period 1895 to 1914 was 16,200,000 acre-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.7698084866691701,
+                            "width": 0.8278021289918598,
+                            "height": 0.07510326699211416,
+                            "page": 1
+                        },
+                        "content": "Value of site.--The capacity of the reservoir site is small and would be reduced by the deposition of silt within a few years after the building of the dam. The site is therefore of no value for water storage except for emergency use.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.8452872699962448,
+                            "width": 0.8271759549154665,
+                            "height": 0.05632745024408562,
+                            "page": 1
+                        },
+                        "content": "By constructing a dam 20 feet above low water at Bulls Head Rock water can be diverted to irrigate 56,000 acres. The feasibility of constructing such a dam is not questioned.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.24733876017532874,
+                            "top": 0.9140067592940293,
+                            "width": 0.4201628052598622,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "1 U. S. Recl. Service Second Ann. Rept., 1902-3, 1904.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

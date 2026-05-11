@@ -1,0 +1,134 @@
+{
+    "job_id": "95f1ae06-6937-41e4-bc7f-05851b60490c",
+    "duration": 7.213840961456299,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5de6874f-7694-4242-afac-e3ed3406a002?AWSAccessKeyId=ASIA2UOK6OVBLPU6V66Y&Signature=BjxBd03bO41RQQ4mPCIPHBqOp7Q%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQCbWeqJaorv7KTx12n3ijAmmlDUlZrUp0jI6zrMxNcDLQIhAIJVKEi%2FN%2FyjrNWA2RP%2FwUxweDfsNwUPajh5v%2F%2FyV1ZPKosFCCQQABoMNzMxMTA2OTMyMDM0Igxc2oLssMb8drGI5yMq6ARZ5suPHQHWkvxBmWEtdBOYEM%2BWELp3nd%2Fv0XmSlxuVHA3dpOX%2FkpoXf4KZKsjdVHvUIi08rllBe62ZSFgl%2B0bL%2Fzknqb42kfTgl3Qz66KpuL8DDEw7HiMDUYXBAppHi%2BZV4S5NXsBWM6AyGrpeBAZ%2F5uRp9JuhpKGFXUq8otr0IxHjE2dbRQURein0VJhKfp9WgpxpEQUGWoFkd7y7t9psqzoDL1TZ8%2Bhp5RTRhAdQarzMgXjk7ge%2FMgt7YGY8L0Rr%2BFdAGiZ7jM5g6YxcPlE8SNkPOra8WS7MBYSiqEVTTV%2Fa2sNouzAI3EnZ8AJ%2BU5AuoYo17YxsYS13b3vwqzh6yLA57oaaV81rMIWpbTPhqbPRrCEJGmNeH%2BqCnGeYeeFHAfX5uBc6I9T8VeOE73ZVyNgHZ9iADtl4G%2FIQtjvcdFhG0hOFnpwpcmOxhwcX5O7TlhKA7s2rHTBGMgTMZWsWbTCT%2BEkXGUckBmz%2BQ6YwuIVGLya7HGV4rAmodKTptWOOlPQeIGwCBZ%2FtBVKpBB3Lxl0Sp9ZLXOtruPa6Gr6wAh8imDe7fpp9Gb%2F7cvH%2FaFZfq%2FFJslhAhKGVUwmAWxAswEKglm1gKO2Jla8C8OaZvLYTwZZN2rFpVj%2B%2FduepkM7jhrS476PSe28DMdEZO8EaF43ZIh1RxBs%2F%2FwnEPJ0ihp0KzKsCCJwDFOfJ1IIGzc07p3ZzhTQCTHJWSrIbNLx3Twlomgs5F%2FgtPZgTyNanZM3fOUL11K4bWFVZrgQRTyB0lc%2B5lOmnVYU8U45bpyjCOwlZ3V1DM92E3l6D2JRUT7pLq%2B3wp7iBMPzQyboGOpoBFzGNSbKkts8IN6JWmJ1dM6fVWramUr0Pon6w0s2nvIaZwLf%2Fkm%2ByISt%2BLFfjZu%2FQMAqgGsbcMKuB8soYT9JwELlzOQ%2BqIgNk%2BkANnBtc2JFaaJ5clK77ul8Qidts4vFoY%2F85VhNgTcZhwH4pL7EsQvwS7z%2B1UeThpmlA8aNOdaua5HiMROLmxPCPMthRGgHuIrsSbUJEK4XDLA%3D%3D&Expires=1733459719",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOCHEMISTRY OF WATER\n\nAverage and extreme concentrations and percentage composition of water from the ephemeral and perennial springs, respectively, are compared in table 2.\n\nTABLE 2.-Concentrations of principal constituents in water from ephemeral and perennial springs\n\n[Data in parts per million except pH]",
+                "embed": "# GEOCHEMISTRY OF WATER\n\nAverage and extreme concentrations and percentage composition of water from the ephemeral and perennial springs, respectively, are compared in table 2.\n\nTABLE 2.-Concentrations of principal constituents in water from ephemeral and perennial springs\n\n[Data in parts per million except pH]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11941212492345377,
+                            "top": 0.046188509200150205,
+                            "width": 0.05143906919779547,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "I16",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.37293325168401714,
+                            "top": 0.050694705219677054,
+                            "width": 0.31598285364360074,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "GEOCHEMISTRY OF WATER",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12186160440906307,
+                            "top": 0.08261359369132558,
+                            "width": 0.8169014084507042,
+                            "height": 0.054449868569282765,
+                            "page": 1
+                        },
+                        "content": "Average and extreme concentrations and percentage composition of water from the ephemeral and perennial springs, respectively, are compared in table 2.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12492345376607471,
+                            "top": 0.1532106646639129,
+                            "width": 0.8175137783221066,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "TABLE 2.-Concentrations of principal constituents in water from ephemeral and perennial springs",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.38701775872627064,
+                            "top": 0.18850920015020653,
+                            "width": 0.28658909981628905,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "[Data in parts per million except pH]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOCHEMISTRY OF WATER (cont.)\n\n<table><tr><th rowspan=\"2\">Constituent or\nproperty</th><th colspan=\"4\">Ephemeral springs\n(15 samples except as noted)</th><th colspan=\"4\">Perennial springs\n(56 samples)</th></tr><tr><td>Max</td><td>Median</td><td>Min</td><td>Mean</td><td>Max</td><td>Median</td><td>Min</td><td>Mean</td></tr><tr><td>SiO2</td><td>37</td><td>13</td><td>3.3</td><td>16.</td><td>57</td><td>21. 5</td><td>8. 8</td><td>24. 6</td></tr><tr><td>Al</td><td>1 12</td><td>(.02</td><td>.00</td><td>.03</td><td>19</td><td>02</td><td>.00</td><td>. 018</td></tr><tr><td>Fe</td><td>1 12</td><td>.015</td><td>.00</td><td>.03</td><td>30</td><td>.01</td><td>.00</td><td>031</td></tr><tr><td>Ca</td><td>7.0</td><td>2.6</td><td>.8</td><td>3.11</td><td>26</td><td>9.9</td><td>1.0</td><td>10. 4</td></tr><tr><td>Mg</td><td>2.9</td><td>.5</td><td>.0</td><td>.70</td><td>6.3</td><td>1.0</td><td>.0</td><td>1. 70</td></tr><tr><td>Na</td><td>6.3</td><td>2.7</td><td>1.2</td><td>3.03</td><td>15</td><td>5.5</td><td>.8</td><td>5. .95</td></tr><tr><td>K</td><td>2. 5</td><td>1.0</td><td>.2</td><td>1.09</td><td>4. 5</td><td>1. 4</td><td>.1</td><td>1. 57</td></tr><tr><td>HCO3</td><td>42</td><td>14</td><td>5.0</td><td>20</td><td>120</td><td>51</td><td>8,0</td><td>54. 6</td></tr><tr><td>SO4</td><td>3. 6</td><td>.6</td><td>.0</td><td>1.00</td><td>14</td><td>1.6</td><td>.0</td><td>2. 38</td></tr><tr><td>Cl</td><td>2.0</td><td>. 2</td><td>.0</td><td>.50</td><td>10</td><td>.45</td><td>.0</td><td>1. 06</td></tr><tr><td>F</td><td>2.2</td><td>.1</td><td>.0</td><td>.07</td><td>.6</td><td>.1</td><td>.0</td><td>09</td></tr><tr><td>NO3</td><td>.1</td><td>.0</td><td>.0</td><td>02</td><td>3.0</td><td>.1</td><td>.0</td><td>28</td></tr><tr><td>Dissolved\nSolids</td><td>73</td><td>29</td><td>11</td><td>36</td><td>162</td><td>72</td><td rowspan=\"2\">15\n5.6</td><td>75</td></tr><tr><td>pH (lab.)</td><td>7.5</td><td>6.2</td><td>5.3</td><td></td><td>7.9</td><td>6.8</td><td></td></tr></table>",
+                "embed": "# GEOCHEMISTRY OF WATER (cont.)\n\n<table><tr><th rowspan=\"2\">Constituent or\nproperty</th><th colspan=\"4\">Ephemeral springs\n(15 samples except as noted)</th><th colspan=\"4\">Perennial springs\n(56 samples)</th></tr><tr><td>Max</td><td>Median</td><td>Min</td><td>Mean</td><td>Max</td><td>Median</td><td>Min</td><td>Mean</td></tr><tr><td>SiO2</td><td>37</td><td>13</td><td>3.3</td><td>16.</td><td>57</td><td>21. 5</td><td>8. 8</td><td>24. 6</td></tr><tr><td>Al</td><td>1 12</td><td>(.02</td><td>.00</td><td>.03</td><td>19</td><td>02</td><td>.00</td><td>. 018</td></tr><tr><td>Fe</td><td>1 12</td><td>.015</td><td>.00</td><td>.03</td><td>30</td><td>.01</td><td>.00</td><td>031</td></tr><tr><td>Ca</td><td>7.0</td><td>2.6</td><td>.8</td><td>3.11</td><td>26</td><td>9.9</td><td>1.0</td><td>10. 4</td></tr><tr><td>Mg</td><td>2.9</td><td>.5</td><td>.0</td><td>.70</td><td>6.3</td><td>1.0</td><td>.0</td><td>1. 70</td></tr><tr><td>Na</td><td>6.3</td><td>2.7</td><td>1.2</td><td>3.03</td><td>15</td><td>5.5</td><td>.8</td><td>5. .95</td></tr><tr><td>K</td><td>2. 5</td><td>1.0</td><td>.2</td><td>1.09</td><td>4. 5</td><td>1. 4</td><td>.1</td><td>1. 57</td></tr><tr><td>HCO3</td><td>42</td><td>14</td><td>5.0</td><td>20</td><td>120</td><td>51</td><td>8,0</td><td>54. 6</td></tr><tr><td>SO4</td><td>3. 6</td><td>.6</td><td>.0</td><td>1.00</td><td>14</td><td>1.6</td><td>.0</td><td>2. 38</td></tr><tr><td>Cl</td><td>2.0</td><td>. 2</td><td>.0</td><td>.50</td><td>10</td><td>.45</td><td>.0</td><td>1. 06</td></tr><tr><td>F</td><td>2.2</td><td>.1</td><td>.0</td><td>.07</td><td>.6</td><td>.1</td><td>.0</td><td>09</td></tr><tr><td>NO3</td><td>.1</td><td>.0</td><td>.0</td><td>02</td><td>3.0</td><td>.1</td><td>.0</td><td>28</td></tr><tr><td>Dissolved\nSolids</td><td>73</td><td>29</td><td>11</td><td>36</td><td>162</td><td>72</td><td rowspan=\"2\">15\n5.6</td><td>75</td></tr><tr><td>pH (lab.)</td><td>7.5</td><td>6.2</td><td>5.3</td><td></td><td>7.9</td><td>6.8</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12139531898848936,
+                            "top": 0.1997765696142743,
+                            "width": 0.8206422879370312,
+                            "height": 0.2891220912152647,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Constituent or\nproperty</th><th colspan=\"4\">Ephemeral springs\n(15 samples except as noted)</th><th colspan=\"4\">Perennial springs\n(56 samples)</th></tr><tr><td>Max</td><td>Median</td><td>Min</td><td>Mean</td><td>Max</td><td>Median</td><td>Min</td><td>Mean</td></tr><tr><td>SiO2</td><td>37</td><td>13</td><td>3.3</td><td>16.</td><td>57</td><td>21. 5</td><td>8. 8</td><td>24. 6</td></tr><tr><td>Al</td><td>1 12</td><td>(.02</td><td>.00</td><td>.03</td><td>19</td><td>02</td><td>.00</td><td>. 018</td></tr><tr><td>Fe</td><td>1 12</td><td>.015</td><td>.00</td><td>.03</td><td>30</td><td>.01</td><td>.00</td><td>031</td></tr><tr><td>Ca</td><td>7.0</td><td>2.6</td><td>.8</td><td>3.11</td><td>26</td><td>9.9</td><td>1.0</td><td>10. 4</td></tr><tr><td>Mg</td><td>2.9</td><td>.5</td><td>.0</td><td>.70</td><td>6.3</td><td>1.0</td><td>.0</td><td>1. 70</td></tr><tr><td>Na</td><td>6.3</td><td>2.7</td><td>1.2</td><td>3.03</td><td>15</td><td>5.5</td><td>.8</td><td>5. .95</td></tr><tr><td>K</td><td>2. 5</td><td>1.0</td><td>.2</td><td>1.09</td><td>4. 5</td><td>1. 4</td><td>.1</td><td>1. 57</td></tr><tr><td>HCO3</td><td>42</td><td>14</td><td>5.0</td><td>20</td><td>120</td><td>51</td><td>8,0</td><td>54. 6</td></tr><tr><td>SO4</td><td>3. 6</td><td>.6</td><td>.0</td><td>1.00</td><td>14</td><td>1.6</td><td>.0</td><td>2. 38</td></tr><tr><td>Cl</td><td>2.0</td><td>. 2</td><td>.0</td><td>.50</td><td>10</td><td>.45</td><td>.0</td><td>1. 06</td></tr><tr><td>F</td><td>2.2</td><td>.1</td><td>.0</td><td>.07</td><td>.6</td><td>.1</td><td>.0</td><td>09</td></tr><tr><td>NO3</td><td>.1</td><td>.0</td><td>.0</td><td>02</td><td>3.0</td><td>.1</td><td>.0</td><td>28</td></tr><tr><td>Dissolved\nSolids</td><td>73</td><td>29</td><td>11</td><td>36</td><td>162</td><td>72</td><td rowspan=\"2\">15\n5.6</td><td>75</td></tr><tr><td>pH (lab.)</td><td>7.5</td><td>6.2</td><td>5.3</td><td></td><td>7.9</td><td>6.8</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOCHEMISTRY OF WATER (cont.)\n\n<table><tr><th></th><th></th><th colspan=\"6\">Percentage composition</th></tr><tr><td></td><td></td><td colspan=\"3\">Ephemeral springs</td><td colspan=\"3\">Perennial springs</td></tr><tr><td></td><td></td><td>Max</td><td>Min</td><td>Mean</td><td>Max</td><td>Min</td><td>Mean</td></tr><tr><td>SiO2\nSum of dissolved solids</td><td>(ppm)</td><td>59</td><td>15</td><td>36. 4</td><td>59</td><td>30</td><td>45. 6</td></tr><tr><td>Ca\nCations (epm)</td><td></td><td>71</td><td>32</td><td>52. 5</td><td>61</td><td>25</td><td>40. 1</td></tr><tr><td>Mg (epm)\nCations</td><td></td><td>31</td><td>0</td><td>12. 1</td><td>31</td><td>0</td><td>13. 4</td></tr><tr><td>Na\nCations (epm)</td><td></td><td>60</td><td>14</td><td>30. 2</td><td>69</td><td>25</td><td>38. 7</td></tr><tr><td>K\nCations (epm)</td><td></td><td>14</td><td>0</td><td>5. 0</td><td>17</td><td>4</td><td>7.9</td></tr><tr><td>HCO3 (epm)\nAnions</td><td></td><td>100</td><td>44</td><td>89. 8</td><td>100</td><td>62</td><td>86. 9</td></tr><tr><td>SO4 (epm)\nAnions</td><td></td><td>23</td><td>0</td><td>5.4</td><td>25</td><td>0</td><td>6.2</td></tr><tr><td>Cl\nAnions (epm)</td><td></td><td>37</td><td>0</td><td>3.</td><td>21</td><td>0</td><td>6.3</td></tr></table>\n\n1 10 deter inations made.\n2 9 determinations made.",
+                "embed": "# GEOCHEMISTRY OF WATER (cont.)\n\n<table><tr><th></th><th></th><th colspan=\"6\">Percentage composition</th></tr><tr><td></td><td></td><td colspan=\"3\">Ephemeral springs</td><td colspan=\"3\">Perennial springs</td></tr><tr><td></td><td></td><td>Max</td><td>Min</td><td>Mean</td><td>Max</td><td>Min</td><td>Mean</td></tr><tr><td>SiO2\nSum of dissolved solids</td><td>(ppm)</td><td>59</td><td>15</td><td>36. 4</td><td>59</td><td>30</td><td>45. 6</td></tr><tr><td>Ca\nCations (epm)</td><td></td><td>71</td><td>32</td><td>52. 5</td><td>61</td><td>25</td><td>40. 1</td></tr><tr><td>Mg (epm)\nCations</td><td></td><td>31</td><td>0</td><td>12. 1</td><td>31</td><td>0</td><td>13. 4</td></tr><tr><td>Na\nCations (epm)</td><td></td><td>60</td><td>14</td><td>30. 2</td><td>69</td><td>25</td><td>38. 7</td></tr><tr><td>K\nCations (epm)</td><td></td><td>14</td><td>0</td><td>5. 0</td><td>17</td><td>4</td><td>7.9</td></tr><tr><td>HCO3 (epm)\nAnions</td><td></td><td>100</td><td>44</td><td>89. 8</td><td>100</td><td>62</td><td>86. 9</td></tr><tr><td>SO4 (epm)\nAnions</td><td></td><td>23</td><td>0</td><td>5.4</td><td>25</td><td>0</td><td>6.2</td></tr><tr><td>Cl\nAnions (epm)</td><td></td><td>37</td><td>0</td><td>3.</td><td>21</td><td>0</td><td>6.3</td></tr></table>\n\n1 10 deter inations made.\n2 9 determinations made.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11886555565987637,
+                            "top": 0.4975436042673911,
+                            "width": 0.8249781387245005,
+                            "height": 0.3989635070732022,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th></th><th colspan=\"6\">Percentage composition</th></tr><tr><td></td><td></td><td colspan=\"3\">Ephemeral springs</td><td colspan=\"3\">Perennial springs</td></tr><tr><td></td><td></td><td>Max</td><td>Min</td><td>Mean</td><td>Max</td><td>Min</td><td>Mean</td></tr><tr><td>SiO2\nSum of dissolved solids</td><td>(ppm)</td><td>59</td><td>15</td><td>36. 4</td><td>59</td><td>30</td><td>45. 6</td></tr><tr><td>Ca\nCations (epm)</td><td></td><td>71</td><td>32</td><td>52. 5</td><td>61</td><td>25</td><td>40. 1</td></tr><tr><td>Mg (epm)\nCations</td><td></td><td>31</td><td>0</td><td>12. 1</td><td>31</td><td>0</td><td>13. 4</td></tr><tr><td>Na\nCations (epm)</td><td></td><td>60</td><td>14</td><td>30. 2</td><td>69</td><td>25</td><td>38. 7</td></tr><tr><td>K\nCations (epm)</td><td></td><td>14</td><td>0</td><td>5. 0</td><td>17</td><td>4</td><td>7.9</td></tr><tr><td>HCO3 (epm)\nAnions</td><td></td><td>100</td><td>44</td><td>89. 8</td><td>100</td><td>62</td><td>86. 9</td></tr><tr><td>SO4 (epm)\nAnions</td><td></td><td>23</td><td>0</td><td>5.4</td><td>25</td><td>0</td><td>6.2</td></tr><tr><td>Cl\nAnions (epm)</td><td></td><td>37</td><td>0</td><td>3.</td><td>21</td><td>0</td><td>6.3</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1359461114513166,
+                            "top": 0.8971085242208036,
+                            "width": 0.19902020820575628,
+                            "height": 0.018024784078107398,
+                            "page": 1
+                        },
+                        "content": "1 10 deter inations made.\n2 9 determinations made.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

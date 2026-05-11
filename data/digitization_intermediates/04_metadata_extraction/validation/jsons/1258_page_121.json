@@ -1,0 +1,142 @@
+{
+    "job_id": "34b1e542-1d5e-4ece-a093-440961d2ba04",
+    "duration": 6.111392021179199,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/284d41f2-c76a-4b9a-a7ef-99940dc2f8a8?AWSAccessKeyId=ASIA2UOK6OVBDZDWLJMC&Signature=R8fFaEr9jKHcRQtyNbYLPzNoSJA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJHMEUCIQC57UwkucRT3zqf%2BYVX2vobhZ8WOpYgiQlFxDJfZ5AfHQIgXb4QQzv03f8Xk46nnFR%2Bm4vYcOa5OvbWdvjSStmVvhUqiwUIIRAAGgw3MzExMDY5MzIwMzQiDPFgxpmb0jXISqvzuyroBNEqOycikWB1z4q9pOO5iMUJZJ67cnolUD7sTHkt8EpNLH%2BiQVsXD5XPd2PRYPRvUUxBrSoHP8qukEDRRu%2FHrw2d1Mo9z7PaUzn8Kf9DyP0qvcN33awivGlxp7BsvlvtULy5ZADSECq3WZGhTmPsZ4x7ZXPY0C%2BM9hst1LBzzZWi3mgOwW55Nx3en16u%2Fo7sW7gro%2FzfX77D%2FW2OeBE%2BRVUjtYqkwoHwrd0anLcLIGFeIsZDY7n22n03KQaOyuZ4PaYyDw33lWyMHvdvBojteAdS%2FjJKau8wt9dkaV%2F7O%2FfAym1kyzSStYF2S0hrKe03zFKES1evM2sztDARs8hziq8Cxeh6KH1SohcIbiHYx5DyRgYEhGlYW%2FTVoOJwWhNpEvAO8UJBHF7zkKXkb3j0Wo9nHfqF%2B6grHUXfZ5UeeGfHGV4pBSeN%2BhGzJVpum7SAmtbl9UR67fAe26zBTZQ9GbkwktfFh0P5vfgxJG9bNYQ9IYFS96lThEmKwzsv3K%2BtSMKVInSGjqZivlrsxOrvmeELTvQFf%2BPJ6TAxW3t%2Fqwzw%2BR1AQjVnH4lZM8Enl3DJimmVJXgWNMZd9VXw9XtUX0x%2Bfv5MUPW3M9T0th9RUssYU8bRiqfT9%2F4sIai7%2BGONDuhsJaiGzQSWTK8IAwdvuUIv0hlnvzuuIbu%2FxPtHEGJXfFYNLqqGJ%2F80Ckaxm4e%2BZ6kneNGTAs7OiKTAfiUvQasctjwjwM%2F0g7%2Bm31VuJwnn2DYtZrtRMhKf6pgOW6dfZMsSyEThP3fC%2FsYoEzW5EnBcGgeLz1NYGPavwXl6VXi6mes4kx3x9rAwxPTIugY6mwH7jBQsq8L%2BANOsEX6khIV%2BEErKRvPLbSx7GNXZOc6puutO7iW%2FQ4KMjCTaCM%2FfGNfMexHgIN3N0gArx%2FhFVkoCfOIA98pSuvkJPsH5bOW7SIa5O8FETiWtfvynj4fVWjTaqkoDRkjWetPsR8XkaMbFLFHiRmqsJ86NAhju4o1%2Bhnl5l8%2FPzUqnN%2F9z1DCO8UBQzIe1r%2FXk30jWUQ%3D%3D&Expires=1733446234",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS\n\nTABLE 32.-System losses in the Kern River service area, in acre-feet, 1938, 1942, and 1952",
+                "embed": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS\n\nTABLE 32.-System losses in the Kern River service area, in acre-feet, 1938, 1942, and 1952",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.09085173501577287,
+                            "top": 0.050694705219677054,
+                            "width": 0.7375394321766562,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8618296529968454,
+                            "top": 0.04806609087495306,
+                            "width": 0.044794952681388014,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "113",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07129337539432176,
+                            "top": 0.08073601201652272,
+                            "width": 0.8353312302839117,
+                            "height": 0.02365752910251596,
+                            "page": 1
+                        },
+                        "content": "TABLE 32.-System losses in the Kern River service area, in acre-feet, 1938, 1942, and 1952",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS (cont.)\n\n<table><tr><th></th><th>1938</th><th>1942</th><th>1952</th></tr><tr><td>1. North Kern Water Storage District:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>172, 900</td><td>94, 700</td><td>228, 200</td></tr><tr><td>Less consumptive use</td><td>56, 200</td><td>70, 200</td><td>125, 700</td></tr><tr><td>System loss</td><td>116, 700</td><td>24, 500</td><td>102, 500</td></tr><tr><td>2. South Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>274, 000</td><td>250, 800</td><td>682, 000</td></tr><tr><td>Less consumptive use</td><td>198, 000</td><td>220, 500</td><td>195, 100</td></tr><tr><td>System loss</td><td>76, 000</td><td>30, 300</td><td>486, 900</td></tr><tr><td>3. East Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>41, 000</td><td>46, 000</td><td>62, 500</td></tr><tr><td>Less consumptive use</td><td>33, 100</td><td>42, 600</td><td>49, 600</td></tr><tr><td>System loss</td><td>7, 900</td><td>3, 400</td><td>12, 900</td></tr><tr><td>4. West Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>326, 500</td><td>265, 200</td><td>671, 100</td></tr><tr><td>Less consumptive use</td><td>149, 400</td><td>192, 000</td><td>206, 500</td></tr><tr><td>System loss</td><td>177, 100</td><td>73, 200</td><td>464, 600</td></tr><tr><td>5. Shafter-Wasco Irrigation District:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>90, 600</td><td>102, 400</td><td>172, 000</td></tr><tr><td>Less consumptive use</td><td>77, 000</td><td>87, 000</td><td>146, 200</td></tr><tr><td>System loss</td><td>13, 600</td><td>15, 400</td><td>25, 800</td></tr></table>\n\nTABLE 33. Water supply to the Kern River area, in acre-feet, 1938, 1942, and 1952",
+                "embed": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS (cont.)\n\n<table><tr><th></th><th>1938</th><th>1942</th><th>1952</th></tr><tr><td>1. North Kern Water Storage District:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>172, 900</td><td>94, 700</td><td>228, 200</td></tr><tr><td>Less consumptive use</td><td>56, 200</td><td>70, 200</td><td>125, 700</td></tr><tr><td>System loss</td><td>116, 700</td><td>24, 500</td><td>102, 500</td></tr><tr><td>2. South Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>274, 000</td><td>250, 800</td><td>682, 000</td></tr><tr><td>Less consumptive use</td><td>198, 000</td><td>220, 500</td><td>195, 100</td></tr><tr><td>System loss</td><td>76, 000</td><td>30, 300</td><td>486, 900</td></tr><tr><td>3. East Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>41, 000</td><td>46, 000</td><td>62, 500</td></tr><tr><td>Less consumptive use</td><td>33, 100</td><td>42, 600</td><td>49, 600</td></tr><tr><td>System loss</td><td>7, 900</td><td>3, 400</td><td>12, 900</td></tr><tr><td>4. West Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>326, 500</td><td>265, 200</td><td>671, 100</td></tr><tr><td>Less consumptive use</td><td>149, 400</td><td>192, 000</td><td>206, 500</td></tr><tr><td>System loss</td><td>177, 100</td><td>73, 200</td><td>464, 600</td></tr><tr><td>5. Shafter-Wasco Irrigation District:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>90, 600</td><td>102, 400</td><td>172, 000</td></tr><tr><td>Less consumptive use</td><td>77, 000</td><td>87, 000</td><td>146, 200</td></tr><tr><td>System loss</td><td>13, 600</td><td>15, 400</td><td>25, 800</td></tr></table>\n\nTABLE 33. Water supply to the Kern River area, in acre-feet, 1938, 1942, and 1952",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06952566152867459,
+                            "top": 0.1122102239639563,
+                            "width": 0.8429286680010967,
+                            "height": 0.3713263734766652,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>1938</th><th>1942</th><th>1952</th></tr><tr><td>1. North Kern Water Storage District:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>172, 900</td><td>94, 700</td><td>228, 200</td></tr><tr><td>Less consumptive use</td><td>56, 200</td><td>70, 200</td><td>125, 700</td></tr><tr><td>System loss</td><td>116, 700</td><td>24, 500</td><td>102, 500</td></tr><tr><td>2. South Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>274, 000</td><td>250, 800</td><td>682, 000</td></tr><tr><td>Less consumptive use</td><td>198, 000</td><td>220, 500</td><td>195, 100</td></tr><tr><td>System loss</td><td>76, 000</td><td>30, 300</td><td>486, 900</td></tr><tr><td>3. East Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>41, 000</td><td>46, 000</td><td>62, 500</td></tr><tr><td>Less consumptive use</td><td>33, 100</td><td>42, 600</td><td>49, 600</td></tr><tr><td>System loss</td><td>7, 900</td><td>3, 400</td><td>12, 900</td></tr><tr><td>4. West Side unit:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>326, 500</td><td>265, 200</td><td>671, 100</td></tr><tr><td>Less consumptive use</td><td>149, 400</td><td>192, 000</td><td>206, 500</td></tr><tr><td>System loss</td><td>177, 100</td><td>73, 200</td><td>464, 600</td></tr><tr><td>5. Shafter-Wasco Irrigation District:</td><td></td><td></td><td></td></tr><tr><td>Total water supply</td><td>90, 600</td><td>102, 400</td><td>172, 000</td></tr><tr><td>Less consumptive use</td><td>77, 000</td><td>87, 000</td><td>146, 200</td></tr><tr><td>System loss</td><td>13, 600</td><td>15, 400</td><td>25, 800</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07444794952681388,
+                            "top": 0.5031918888471648,
+                            "width": 0.8347003154574133,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "TABLE 33. Water supply to the Kern River area, in acre-feet, 1938, 1942, and 1952",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS (cont.)\n\n<table><tr><th>Water supply and year</th><th>North Kern\nWater\nStorage\nDistrict</th><th>South Side\nunit</th><th>East Side\nunit</th><th>West Side\nunit</th><th>Shafter-\nWasco\nIrrigation\nDistrict</th></tr><tr><td>1938</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Canal diversions</td><td>160, 000</td><td>216, 400</td><td>18, 316</td><td>264,400</td><td></td></tr><tr><td>Pumpage:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Electric (85 percent)</td><td>11, 000</td><td>49,000</td><td>19, 300</td><td>52,800</td><td>77,000</td></tr><tr><td>Engine (15 percent)</td><td>1, 900</td><td>8, 600</td><td>3, 400</td><td>9,300</td><td>13,590</td></tr><tr><td>Total supply</td><td>172, 900</td><td>274, 000</td><td>41, 016</td><td>326, 500</td><td>90,590</td></tr><tr><td>1942\nCanal diversions</td><td>81, 600</td><td>182, 600</td><td>21, 440</td><td>208, 400</td><td></td></tr><tr><td>Pumpage:\nElectric (85 percent)</td><td>11. 100</td><td>58, 000</td><td>20, 900</td><td>48, 300</td><td>87, 000</td></tr><tr><td>Engine (15 percent)</td><td>1, 960</td><td>10, 200</td><td>3, 690</td><td>8, ,500</td><td>15,350</td></tr><tr><td>Total supply</td><td>94, 660</td><td>250, 800</td><td>46, 030</td><td>265,200</td><td>102, 350</td></tr><tr><td>1952</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Canal diversions</td><td>197, 600</td><td>248, 000</td><td>16, 900</td><td>331, 100</td><td></td></tr><tr><td>Pumpage:\nElectric (85 percent)</td><td>26, 000</td><td>369, 000</td><td>38, 800</td><td>289, 000</td><td>146, 200</td></tr><tr><td>Engine (15 percent)</td><td>4, 600</td><td>65, 000</td><td>6, 800</td><td>51, 000</td><td>25, 800</td></tr><tr><td>Total supply</td><td>228, 200</td><td>682, 000</td><td>62, 500</td><td>671, 100</td><td>172, 000</td></tr></table>",
+                "embed": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS (cont.)\n\n<table><tr><th>Water supply and year</th><th>North Kern\nWater\nStorage\nDistrict</th><th>South Side\nunit</th><th>East Side\nunit</th><th>West Side\nunit</th><th>Shafter-\nWasco\nIrrigation\nDistrict</th></tr><tr><td>1938</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Canal diversions</td><td>160, 000</td><td>216, 400</td><td>18, 316</td><td>264,400</td><td></td></tr><tr><td>Pumpage:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Electric (85 percent)</td><td>11, 000</td><td>49,000</td><td>19, 300</td><td>52,800</td><td>77,000</td></tr><tr><td>Engine (15 percent)</td><td>1, 900</td><td>8, 600</td><td>3, 400</td><td>9,300</td><td>13,590</td></tr><tr><td>Total supply</td><td>172, 900</td><td>274, 000</td><td>41, 016</td><td>326, 500</td><td>90,590</td></tr><tr><td>1942\nCanal diversions</td><td>81, 600</td><td>182, 600</td><td>21, 440</td><td>208, 400</td><td></td></tr><tr><td>Pumpage:\nElectric (85 percent)</td><td>11. 100</td><td>58, 000</td><td>20, 900</td><td>48, 300</td><td>87, 000</td></tr><tr><td>Engine (15 percent)</td><td>1, 960</td><td>10, 200</td><td>3, 690</td><td>8, ,500</td><td>15,350</td></tr><tr><td>Total supply</td><td>94, 660</td><td>250, 800</td><td>46, 030</td><td>265,200</td><td>102, 350</td></tr><tr><td>1952</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Canal diversions</td><td>197, 600</td><td>248, 000</td><td>16, 900</td><td>331, 100</td><td></td></tr><tr><td>Pumpage:\nElectric (85 percent)</td><td>26, 000</td><td>369, 000</td><td>38, 800</td><td>289, 000</td><td>146, 200</td></tr><tr><td>Engine (15 percent)</td><td>4, 600</td><td>65, 000</td><td>6, 800</td><td>51, 000</td><td>25, 800</td></tr><tr><td>Total supply</td><td>228, 200</td><td>682, 000</td><td>62, 500</td><td>671, 100</td><td>172, 000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07219901099942085,
+                            "top": 0.5216093790338668,
+                            "width": 0.8434448579132369,
+                            "height": 0.2963333158532435,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water supply and year</th><th>North Kern\nWater\nStorage\nDistrict</th><th>South Side\nunit</th><th>East Side\nunit</th><th>West Side\nunit</th><th>Shafter-\nWasco\nIrrigation\nDistrict</th></tr><tr><td>1938</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Canal diversions</td><td>160, 000</td><td>216, 400</td><td>18, 316</td><td>264,400</td><td></td></tr><tr><td>Pumpage:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Electric (85 percent)</td><td>11, 000</td><td>49,000</td><td>19, 300</td><td>52,800</td><td>77,000</td></tr><tr><td>Engine (15 percent)</td><td>1, 900</td><td>8, 600</td><td>3, 400</td><td>9,300</td><td>13,590</td></tr><tr><td>Total supply</td><td>172, 900</td><td>274, 000</td><td>41, 016</td><td>326, 500</td><td>90,590</td></tr><tr><td>1942\nCanal diversions</td><td>81, 600</td><td>182, 600</td><td>21, 440</td><td>208, 400</td><td></td></tr><tr><td>Pumpage:\nElectric (85 percent)</td><td>11. 100</td><td>58, 000</td><td>20, 900</td><td>48, 300</td><td>87, 000</td></tr><tr><td>Engine (15 percent)</td><td>1, 960</td><td>10, 200</td><td>3, 690</td><td>8, ,500</td><td>15,350</td></tr><tr><td>Total supply</td><td>94, 660</td><td>250, 800</td><td>46, 030</td><td>265,200</td><td>102, 350</td></tr><tr><td>1952</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Canal diversions</td><td>197, 600</td><td>248, 000</td><td>16, 900</td><td>331, 100</td><td></td></tr><tr><td>Pumpage:\nElectric (85 percent)</td><td>26, 000</td><td>369, 000</td><td>38, 800</td><td>289, 000</td><td>146, 200</td></tr><tr><td>Engine (15 percent)</td><td>4, 600</td><td>65, 000</td><td>6, 800</td><td>51, 000</td><td>25, 800</td></tr><tr><td>Total supply</td><td>228, 200</td><td>682, 000</td><td>62, 500</td><td>671, 100</td><td>172, 000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS (cont.)\n\nThe estimate of 5 percent deducted from the system loss in arriving at a figure for infiltration allows for evaporation from open-water surfaces and transpiration by noncrop vegetation. Although it is an arbitrary figure, the writers believe that it is of the right order of magnitude.\n\n689-414-63-9",
+                "embed": "# ANALYSIS OF RECHARGE AND DISCHARGE IN SELECTED AREAS (cont.)\n\nThe estimate of 5 percent deducted from the system loss in arriving at a figure for infiltration allows for evaporation from open-water surfaces and transpiration by noncrop vegetation. Although it is an arbitrary figure, the writers believe that it is of the right order of magnitude.\n\n689-414-63-9",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07697160883280757,
+                            "top": 0.8253849042433345,
+                            "width": 0.8347003154574133,
+                            "height": 0.09350356740518212,
+                            "page": 1
+                        },
+                        "content": "The estimate of 5 percent deducted from the system loss in arriving at a figure for infiltration allows for evaporation from open-water surfaces and transpiration by noncrop vegetation. Although it is an arbitrary figure, the writers believe that it is of the right order of magnitude.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14258675078864352,
+                            "top": 0.9275253473526098,
+                            "width": 0.1665615141955836,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "689-414-63-9",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "job_id": "09332818-3dd5-466f-bddf-a0bb9dbdec01",
+    "duration": 5.248575925827026,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/a2152543-b214-496b-bfef-9ea1a2eef0cd?AWSAccessKeyId=ASIA2UOK6OVBKZN4V7VF&Signature=XLAoSKb3KzV7Ef6KHmQok26ae9g%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIQDnH6a6zrnZuJ6l%2F6sbWfGuLDKquP3YJQrSS4lp0Tb02AIgLS41%2Fys3xYoL5LZr7DEMnAnsvY%2BVyo2bcZI4NsG%2FR%2BgqiwUIIxAAGgw3MzExMDY5MzIwMzQiDDCkI%2Bc6vSth6uBKHSroBPe7nv5rcJ8v3eRXjDW6KqmEVfzoFtxFWT8lHLp0KoaouSngjFOLpTNNyZsUKo%2BneFbaCTs97lPehyfElZpbiR%2Bg3UqYE6c7sbyJM1o9DKOkdjZqdL23PuaAd%2BPGnwTJAUhHs73hA19loSR7DafukaUiV4KXPVBYgvFsF1ix0mock7TyI%2BoZmSeGpGmxPLZJHfzVcrc3EE%2BQAlaJrOtgzGrYxl9dLJxjWbgmfK01jlQp9bUspW%2B29f%2BdlWYIYEsBu3Lo%2FuKthQ6iKqWKG7mtGNENyg4sNZ5xp12RTsj2SK%2BKlQz6yrAQz48DSPS3mFAroWC%2F5FoqKDunwFOsJOtHYFZorarqPm%2BhiAs%2BOmY0YMVMXHXvRY55efRWh8%2B17cJURzgGCCcFK9%2BMo4Fziqj6tYptlh6FKyAF41pypElIwbRb40axIYmhc7IwpWUzPAO46p9nnKrAjpPHh8xNTBODQ0c7Q7iKdA2TALI6Qe2303WFTl2EB2mvyzfvFJnyr8bezICPr6vE5XFxIb6GNKoU%2Fv4JSCOpZyhuzVmx53Ifen5DYehczXTcEYsGVeGkhr9opeI7uz68RBu5xwckkJQAa5dS2QYbnNG8pKzEVern6L4yR4QujKCJ8iSWn%2F%2F20rSLEnsqW%2FiBBsFgoCWx%2BitqiAdfSlSIS2OH3Fuw2bC7oRwwPBnzi1BU0sTQe0EfpR7mBEmmMMnAOV9iH0ILSR3pz6PiufBXsSJkHCjoO7BXXmeTjx%2FKB51d3VScIpswsfmBYzbIRsYOZzCyIVUbxehdOBBQ195h2K%2B%2B1NLD%2FVDT6nuR4jkMjYqRck8w8LPJugY6mwGO43ma4R%2BTOOIMs7stDSOViRpugxTCPsBV2wPMCFE0%2FL4y4rjhCBSnDIPPl3%2FOKtU0zeKo%2BMlyyorhrQy6qQuYJyq3sCW5cX5UGcqe2ArZLGIhL2ZVMyanHaXj8WkN3gJ3fouMzAiPU3F%2BM4zV9fRGNM16Ls9lPS2GGgD43%2BLLSJnWlFicwiucNguTH76QdZ9kaK30VYzg4knLtw%3D%3D&Expires=1733454628",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# STONY CREEK BASIN\n\nREGULATION. East Park Reservoir is used for storage for the Orland project of the United States Bureau of Reclamation. Water from Stony Creek is diverted to the reservoir by the East Park feed canal. COOPERATION.-Daily-discharge record furnished by United States Bureau of Reclamation, through R. C. E. Weber, project manager.\n\nDaily discharge, in second-feet, of Little Stony Creek near Lodoga, Calif., for the year ending September 30, 1926",
+                "embed": "# STONY CREEK BASIN\n\nREGULATION. East Park Reservoir is used for storage for the Orland project of the United States Bureau of Reclamation. Water from Stony Creek is diverted to the reservoir by the East Park feed canal. COOPERATION.-Daily-discharge record furnished by United States Bureau of Reclamation, through R. C. E. Weber, project manager.\n\nDaily discharge, in second-feet, of Little Stony Creek near Lodoga, Calif., for the year ending September 30, 1926",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3302005012531328,
+                            "top": 0.06333973128598848,
+                            "width": 0.262531328320802,
+                            "height": 0.010748560460652591,
+                            "page": 1
+                        },
+                        "content": "STONY CREEK BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8258145363408521,
+                            "top": 0.05796545105566219,
+                            "width": 0.045739348370927316,
+                            "height": 0.01381957773512476,
+                            "page": 1
+                        },
+                        "content": "285",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04824561403508772,
+                            "top": 0.09443378119001919,
+                            "width": 0.8264411027568922,
+                            "height": 0.07907869481765835,
+                            "page": 1
+                        },
+                        "content": "REGULATION. East Park Reservoir is used for storage for the Orland project of the United States Bureau of Reclamation. Water from Stony Creek is diverted to the reservoir by the East Park feed canal. COOPERATION.-Daily-discharge record furnished by United States Bureau of Reclamation, through R. C. E. Weber, project manager.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04949874686716792,
+                            "top": 0.18809980806142035,
+                            "width": 0.825187969924812,
+                            "height": 0.02802303262955854,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Little Stony Creek near Lodoga, Calif., for the year ending September 30, 1926",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# STONY CREEK BASIN (cont.)\n\n<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th></tr><tr><td>1</td><td></td><td>2</td><td>4</td><td>505</td><td>55</td><td>32</td><td>40</td><td>6</td></tr><tr><td>2</td><td></td><td>2</td><td>4</td><td>187</td><td>47</td><td>11</td><td>40</td><td>6</td></tr><tr><td>3</td><td></td><td>2</td><td>4</td><td>817</td><td>40</td><td>12</td><td>40</td><td>6</td></tr><tr><td>4</td><td></td><td>2</td><td>4</td><td>1, 220</td><td>40</td><td>12</td><td>39</td><td>5</td></tr><tr><td>5</td><td></td><td>2</td><td>4</td><td>1, 030</td><td>35</td><td>12</td><td>39</td><td>5</td></tr><tr><td>6</td><td></td><td>2</td><td>4</td><td>322</td><td>35</td><td>293</td><td>39</td><td>5</td></tr><tr><td>7</td><td></td><td>2</td><td>3</td><td>257</td><td>35</td><td>370</td><td>39</td><td>5</td></tr><tr><td>8</td><td>2</td><td>2</td><td>3</td><td>132</td><td>35</td><td>335</td><td>39</td><td>4</td></tr><tr><td>9</td><td>4</td><td>2</td><td>3</td><td>154</td><td>35</td><td>1, 660</td><td>38</td><td>4</td></tr><tr><td>10</td><td>10</td><td>2</td><td>3</td><td>162</td><td>30</td><td>830</td><td>38</td><td>4</td></tr><tr><td>11</td><td>15</td><td>4</td><td>3</td><td>194</td><td>30</td><td>517</td><td>38</td><td>3</td></tr><tr><td>12</td><td>15</td><td>6</td><td>3</td><td>419</td><td>30</td><td>460</td><td>37</td><td>3</td></tr><tr><td>13</td><td>8</td><td>6</td><td>3</td><td>749</td><td>30</td><td>304</td><td>36</td><td>2</td></tr><tr><td>14</td><td>4</td><td>4</td><td>3</td><td>414</td><td>30</td><td>80</td><td>36</td><td>2</td></tr><tr><td>15</td><td>2</td><td>4</td><td>3</td><td>207</td><td>30</td><td>37</td><td>35</td><td>1</td></tr><tr><td>16</td><td>2</td><td>4</td><td>3</td><td>320</td><td>30</td><td>37</td><td>35</td><td>1</td></tr><tr><td>17</td><td>2</td><td>12</td><td>3</td><td>184</td><td>30</td><td>37</td><td>33</td><td></td></tr><tr><td>18</td><td>2</td><td>15</td><td>2</td><td>184</td><td>30</td><td>37</td><td>32</td><td></td></tr><tr><td>19</td><td>2</td><td>45</td><td>2</td><td>70</td><td>25</td><td>37</td><td>31</td><td></td></tr><tr><td>20</td><td>2</td><td>28</td><td>2</td><td>252</td><td>25</td><td>41</td><td>30</td><td></td></tr><tr><td>21</td><td>2</td><td>9</td><td>2</td><td>227</td><td>25</td><td>44</td><td>28</td><td></td></tr><tr><td>22</td><td>2</td><td>8</td><td>2</td><td>150</td><td>25</td><td>44</td><td>25</td><td></td></tr><tr><td>23</td><td>2</td><td>8</td><td>2</td><td>125</td><td>25</td><td>44</td><td>21</td><td></td></tr><tr><td>24</td><td>2</td><td>7</td><td>2</td><td>100</td><td>25</td><td>44</td><td>18</td><td></td></tr><tr><td>25</td><td>2</td><td>6</td><td>2</td><td>75</td><td>25</td><td>44</td><td>15</td><td></td></tr><tr><td>26</td><td>2</td><td>5</td><td>2</td><td>100</td><td>20</td><td>41</td><td>14</td><td></td></tr><tr><td>27</td><td>2</td><td>5</td><td>2</td><td>90</td><td>20</td><td>41</td><td>12</td><td></td></tr><tr><td>28</td><td>2</td><td>5</td><td>8</td><td>76</td><td>20</td><td>41</td><td>10</td><td></td></tr><tr><td>29</td><td>2</td><td>5</td><td>138</td><td></td><td>20</td><td>39</td><td>9</td><td></td></tr><tr><td>30</td><td>7</td><td>5</td><td>125</td><td></td><td>20</td><td>39</td><td>7</td><td></td></tr><tr><td>31</td><td></td><td>5</td><td>1, 110</td><td></td><td>20</td><td></td><td>7</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# STONY CREEK BASIN (cont.)\n\n<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th></tr><tr><td>1</td><td></td><td>2</td><td>4</td><td>505</td><td>55</td><td>32</td><td>40</td><td>6</td></tr><tr><td>2</td><td></td><td>2</td><td>4</td><td>187</td><td>47</td><td>11</td><td>40</td><td>6</td></tr><tr><td>3</td><td></td><td>2</td><td>4</td><td>817</td><td>40</td><td>12</td><td>40</td><td>6</td></tr><tr><td>4</td><td></td><td>2</td><td>4</td><td>1, 220</td><td>40</td><td>12</td><td>39</td><td>5</td></tr><tr><td>5</td><td></td><td>2</td><td>4</td><td>1, 030</td><td>35</td><td>12</td><td>39</td><td>5</td></tr><tr><td>6</td><td></td><td>2</td><td>4</td><td>322</td><td>35</td><td>293</td><td>39</td><td>5</td></tr><tr><td>7</td><td></td><td>2</td><td>3</td><td>257</td><td>35</td><td>370</td><td>39</td><td>5</td></tr><tr><td>8</td><td>2</td><td>2</td><td>3</td><td>132</td><td>35</td><td>335</td><td>39</td><td>4</td></tr><tr><td>9</td><td>4</td><td>2</td><td>3</td><td>154</td><td>35</td><td>1, 660</td><td>38</td><td>4</td></tr><tr><td>10</td><td>10</td><td>2</td><td>3</td><td>162</td><td>30</td><td>830</td><td>38</td><td>4</td></tr><tr><td>11</td><td>15</td><td>4</td><td>3</td><td>194</td><td>30</td><td>517</td><td>38</td><td>3</td></tr><tr><td>12</td><td>15</td><td>6</td><td>3</td><td>419</td><td>30</td><td>460</td><td>37</td><td>3</td></tr><tr><td>13</td><td>8</td><td>6</td><td>3</td><td>749</td><td>30</td><td>304</td><td>36</td><td>2</td></tr><tr><td>14</td><td>4</td><td>4</td><td>3</td><td>414</td><td>30</td><td>80</td><td>36</td><td>2</td></tr><tr><td>15</td><td>2</td><td>4</td><td>3</td><td>207</td><td>30</td><td>37</td><td>35</td><td>1</td></tr><tr><td>16</td><td>2</td><td>4</td><td>3</td><td>320</td><td>30</td><td>37</td><td>35</td><td>1</td></tr><tr><td>17</td><td>2</td><td>12</td><td>3</td><td>184</td><td>30</td><td>37</td><td>33</td><td></td></tr><tr><td>18</td><td>2</td><td>15</td><td>2</td><td>184</td><td>30</td><td>37</td><td>32</td><td></td></tr><tr><td>19</td><td>2</td><td>45</td><td>2</td><td>70</td><td>25</td><td>37</td><td>31</td><td></td></tr><tr><td>20</td><td>2</td><td>28</td><td>2</td><td>252</td><td>25</td><td>41</td><td>30</td><td></td></tr><tr><td>21</td><td>2</td><td>9</td><td>2</td><td>227</td><td>25</td><td>44</td><td>28</td><td></td></tr><tr><td>22</td><td>2</td><td>8</td><td>2</td><td>150</td><td>25</td><td>44</td><td>25</td><td></td></tr><tr><td>23</td><td>2</td><td>8</td><td>2</td><td>125</td><td>25</td><td>44</td><td>21</td><td></td></tr><tr><td>24</td><td>2</td><td>7</td><td>2</td><td>100</td><td>25</td><td>44</td><td>18</td><td></td></tr><tr><td>25</td><td>2</td><td>6</td><td>2</td><td>75</td><td>25</td><td>44</td><td>15</td><td></td></tr><tr><td>26</td><td>2</td><td>5</td><td>2</td><td>100</td><td>20</td><td>41</td><td>14</td><td></td></tr><tr><td>27</td><td>2</td><td>5</td><td>2</td><td>90</td><td>20</td><td>41</td><td>12</td><td></td></tr><tr><td>28</td><td>2</td><td>5</td><td>8</td><td>76</td><td>20</td><td>41</td><td>10</td><td></td></tr><tr><td>29</td><td>2</td><td>5</td><td>138</td><td></td><td>20</td><td>39</td><td>9</td><td></td></tr><tr><td>30</td><td>7</td><td>5</td><td>125</td><td></td><td>20</td><td>39</td><td>7</td><td></td></tr><tr><td>31</td><td></td><td>5</td><td>1, 110</td><td></td><td>20</td><td></td><td>7</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.048348462671265566,
+                            "top": 0.2268315935775552,
+                            "width": 0.8323073088375846,
+                            "height": 0.4014129462946857,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th></tr><tr><td>1</td><td></td><td>2</td><td>4</td><td>505</td><td>55</td><td>32</td><td>40</td><td>6</td></tr><tr><td>2</td><td></td><td>2</td><td>4</td><td>187</td><td>47</td><td>11</td><td>40</td><td>6</td></tr><tr><td>3</td><td></td><td>2</td><td>4</td><td>817</td><td>40</td><td>12</td><td>40</td><td>6</td></tr><tr><td>4</td><td></td><td>2</td><td>4</td><td>1, 220</td><td>40</td><td>12</td><td>39</td><td>5</td></tr><tr><td>5</td><td></td><td>2</td><td>4</td><td>1, 030</td><td>35</td><td>12</td><td>39</td><td>5</td></tr><tr><td>6</td><td></td><td>2</td><td>4</td><td>322</td><td>35</td><td>293</td><td>39</td><td>5</td></tr><tr><td>7</td><td></td><td>2</td><td>3</td><td>257</td><td>35</td><td>370</td><td>39</td><td>5</td></tr><tr><td>8</td><td>2</td><td>2</td><td>3</td><td>132</td><td>35</td><td>335</td><td>39</td><td>4</td></tr><tr><td>9</td><td>4</td><td>2</td><td>3</td><td>154</td><td>35</td><td>1, 660</td><td>38</td><td>4</td></tr><tr><td>10</td><td>10</td><td>2</td><td>3</td><td>162</td><td>30</td><td>830</td><td>38</td><td>4</td></tr><tr><td>11</td><td>15</td><td>4</td><td>3</td><td>194</td><td>30</td><td>517</td><td>38</td><td>3</td></tr><tr><td>12</td><td>15</td><td>6</td><td>3</td><td>419</td><td>30</td><td>460</td><td>37</td><td>3</td></tr><tr><td>13</td><td>8</td><td>6</td><td>3</td><td>749</td><td>30</td><td>304</td><td>36</td><td>2</td></tr><tr><td>14</td><td>4</td><td>4</td><td>3</td><td>414</td><td>30</td><td>80</td><td>36</td><td>2</td></tr><tr><td>15</td><td>2</td><td>4</td><td>3</td><td>207</td><td>30</td><td>37</td><td>35</td><td>1</td></tr><tr><td>16</td><td>2</td><td>4</td><td>3</td><td>320</td><td>30</td><td>37</td><td>35</td><td>1</td></tr><tr><td>17</td><td>2</td><td>12</td><td>3</td><td>184</td><td>30</td><td>37</td><td>33</td><td></td></tr><tr><td>18</td><td>2</td><td>15</td><td>2</td><td>184</td><td>30</td><td>37</td><td>32</td><td></td></tr><tr><td>19</td><td>2</td><td>45</td><td>2</td><td>70</td><td>25</td><td>37</td><td>31</td><td></td></tr><tr><td>20</td><td>2</td><td>28</td><td>2</td><td>252</td><td>25</td><td>41</td><td>30</td><td></td></tr><tr><td>21</td><td>2</td><td>9</td><td>2</td><td>227</td><td>25</td><td>44</td><td>28</td><td></td></tr><tr><td>22</td><td>2</td><td>8</td><td>2</td><td>150</td><td>25</td><td>44</td><td>25</td><td></td></tr><tr><td>23</td><td>2</td><td>8</td><td>2</td><td>125</td><td>25</td><td>44</td><td>21</td><td></td></tr><tr><td>24</td><td>2</td><td>7</td><td>2</td><td>100</td><td>25</td><td>44</td><td>18</td><td></td></tr><tr><td>25</td><td>2</td><td>6</td><td>2</td><td>75</td><td>25</td><td>44</td><td>15</td><td></td></tr><tr><td>26</td><td>2</td><td>5</td><td>2</td><td>100</td><td>20</td><td>41</td><td>14</td><td></td></tr><tr><td>27</td><td>2</td><td>5</td><td>2</td><td>90</td><td>20</td><td>41</td><td>12</td><td></td></tr><tr><td>28</td><td>2</td><td>5</td><td>8</td><td>76</td><td>20</td><td>41</td><td>10</td><td></td></tr><tr><td>29</td><td>2</td><td>5</td><td>138</td><td></td><td>20</td><td>39</td><td>9</td><td></td></tr><tr><td>30</td><td>7</td><td>5</td><td>125</td><td></td><td>20</td><td>39</td><td>7</td><td></td></tr><tr><td>31</td><td></td><td>5</td><td>1, 110</td><td></td><td>20</td><td></td><td>7</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# STONY CREEK BASIN (cont.)\n\nNOTE. - No flow on days for which discharge is not given.\n\nMonthly discharge of Little Stony Creek near Lodoga, Calif., for the year ending September 30, 1926",
+                "embed": "# STONY CREEK BASIN (cont.)\n\nNOTE. - No flow on days for which discharge is not given.\n\nMonthly discharge of Little Stony Creek near Lodoga, Calif., for the year ending September 30, 1926",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06704260651629072,
+                            "top": 0.6341650671785029,
+                            "width": 0.449874686716792,
+                            "height": 0.01036468330134357,
+                            "page": 1
+                        },
+                        "content": "NOTE. - No flow on days for which discharge is not given.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05200501253132832,
+                            "top": 0.6560460652591171,
+                            "width": 0.8245614035087719,
+                            "height": 0.0272552783109405,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Little Stony Creek near Lodoga, Calif., for the year ending September 30, 1926",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# STONY CREEK BASIN (cont.)\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td></td><td>15</td><td>0</td><td>3. 2</td><td>190</td></tr><tr><td>December</td><td></td><td>45</td><td>2</td><td>7. 0</td><td>430</td></tr><tr><td>January</td><td></td><td>1, 110</td><td>2</td><td>47. 0</td><td>2, 890</td></tr><tr><td>February</td><td></td><td>1, 220</td><td>70</td><td>312</td><td>17,300</td></tr><tr><td>March</td><td></td><td>55</td><td>20</td><td>29. 7</td><td>1,830</td></tr><tr><td>April</td><td></td><td>1, 660</td><td>11</td><td>186</td><td>11, ,100</td></tr><tr><td>May</td><td></td><td>40</td><td>7</td><td>29. 0</td><td>1, 780</td></tr><tr><td>June</td><td></td><td>6</td><td>0</td><td>2.</td><td>125</td></tr><tr><td>The year</td><td></td><td>1, 660</td><td>0</td><td>49. 2</td><td>35,600</td></tr></table>\n\nNOTE.-No flow during October and July to September",
+                "embed": "# STONY CREEK BASIN (cont.)\n\n<table><tr><th rowspan=\"2\" colspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td></td><td>15</td><td>0</td><td>3. 2</td><td>190</td></tr><tr><td>December</td><td></td><td>45</td><td>2</td><td>7. 0</td><td>430</td></tr><tr><td>January</td><td></td><td>1, 110</td><td>2</td><td>47. 0</td><td>2, 890</td></tr><tr><td>February</td><td></td><td>1, 220</td><td>70</td><td>312</td><td>17,300</td></tr><tr><td>March</td><td></td><td>55</td><td>20</td><td>29. 7</td><td>1,830</td></tr><tr><td>April</td><td></td><td>1, 660</td><td>11</td><td>186</td><td>11, ,100</td></tr><tr><td>May</td><td></td><td>40</td><td>7</td><td>29. 0</td><td>1, 780</td></tr><tr><td>June</td><td></td><td>6</td><td>0</td><td>2.</td><td>125</td></tr><tr><td>The year</td><td></td><td>1, 660</td><td>0</td><td>49. 2</td><td>35,600</td></tr></table>\n\nNOTE.-No flow during October and July to September",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.051796470967151766,
+                            "top": 0.6948312008907149,
+                            "width": 0.8288723030185938,
+                            "height": 0.18282360582113724,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\" colspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>November</td><td></td><td>15</td><td>0</td><td>3. 2</td><td>190</td></tr><tr><td>December</td><td></td><td>45</td><td>2</td><td>7. 0</td><td>430</td></tr><tr><td>January</td><td></td><td>1, 110</td><td>2</td><td>47. 0</td><td>2, 890</td></tr><tr><td>February</td><td></td><td>1, 220</td><td>70</td><td>312</td><td>17,300</td></tr><tr><td>March</td><td></td><td>55</td><td>20</td><td>29. 7</td><td>1,830</td></tr><tr><td>April</td><td></td><td>1, 660</td><td>11</td><td>186</td><td>11, ,100</td></tr><tr><td>May</td><td></td><td>40</td><td>7</td><td>29. 0</td><td>1, 780</td></tr><tr><td>June</td><td></td><td>6</td><td>0</td><td>2.</td><td>125</td></tr><tr><td>The year</td><td></td><td>1, 660</td><td>0</td><td>49. 2</td><td>35,600</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06704260651629072,
+                            "top": 0.8829174664107485,
+                            "width": 0.44110275689223055,
+                            "height": 0.010748560460652591,
+                            "page": 1
+                        },
+                        "content": "NOTE.-No flow during October and July to September",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

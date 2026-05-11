@@ -1,0 +1,142 @@
+{
+    "job_id": "476163e2-404e-4381-b3ae-b375996f3d87",
+    "duration": 6.55862832069397,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/53fdac24-11d6-4ce2-b72f-dae177125f75?AWSAccessKeyId=ASIA2UOK6OVBFJEU2ZZ4&Signature=Dz7Pb%2BUpcE7p6m6wL8Fpxygfzwo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQDRF0Oee7r7EGTQz52QZrCJ8KQgwYpz%2BYp5JJRntDbXPgIhALbUmIksuX4Jij5SamTHM2QT3E7W%2F4sN8DRNkQ7Zh%2BpJKosFCCUQABoMNzMxMTA2OTMyMDM0IgwQzslWI3W2cTsTwvYq6ATxkYtYxIJ2DouVSJKSR81puoB%2FrB1GYG2OzcrNahkvg2V1p6iviQ2%2BiqOOtiMMhGg3XXArgZnEEalYQkW%2F5BVmGWyxt3F4KGkp3IvZx57uhMwtTqIAH8smdomgA04VhZZVvZ1Lfh273Tpd3q14GF3CDDay3TQjbn4yx7YHOlAP%2FEzO1t2STTmO8akJTgAE%2BJRVbm1%2FWyJFbjrvGv7b3iVjT6kSIHMmDQeY6%2BDiQadcMoX%2BZE2vjZ1OQagbNlDpwDnqaATC20Anz7z7446DWo%2Bs5aD5ZugoXKoQggMvc7spULgChLKuAIBBDxJ%2BE9OtRV%2B8N8N0kLy1uKZCYIkMwppov1APuErxja3T6j%2BEe149u%2BBohsU57rFUBriO%2FzNbj3bnYIl21aDqXVaaD34M%2BmgATH50Pp5g8D9hOO6tE6TK7R6fzCj3g8pjYycAoGXl350qw87meRp54abXyxPTVW8Gm1yHJ7OHhFC%2F6m%2BIwSXPXsqA1LUYssF%2BYnF%2Fl3epl7oB9qqZ%2FYsHauazSk9j182pFlVVLTZMFmJqIVFILsCwYsuTvlneWsAm3WiePaY2nUHyR4sbS58o%2BfCWyW9lT1Fb6gwgAWXW6VJWRorwh4tyIWBNdRCJYmTrY1i%2FDHoGoxM68Q5PbhJ%2FobngJqHvyC%2BUn0ekqtWMKTn94yhHZ1f1CBpahCPwHIQDs0oes6sa4xSOGKIyQSTKO%2BuTjAwJyZNJLOU0ykNYdatcNcsqeDSag%2BxoMLxx2uLtcS0SS7w8pIrxm%2B3MxSSEE2mi%2BMZmOVKqNTDrmsrpQPNCpulPorGSF0J214xprfpvMPDxyboGOpoB1PlK05OQMZpls%2B33A0UfqEIoQB1Z5rS5p%2BwbpsAxIE2G5U%2B%2BIFis%2BcQu7mvgTaFlXfN9ds9RL34wHVGJBNq3tzqvppbFAqMBdEt2q7u0q0cT9T0aDlu2zOySISimrLPlcEZVYrvrzMkLV3HgjOMsTZrXGf5ys7zCPiRXKBh2Mb2ro%2FG4B4qg8TEN14fV3HrkNbzPRWDAlDzXew%3D%3D&Expires=1733462452",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF.\n\nAbout 2 miles to the north, at location 43/5-28B1, a flow of approxi- mately 6 cfs was recorded on September 24, 1954, from two vents in fractured lava at the base of a hill.",
+                "embed": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF.\n\nAbout 2 miles to the north, at location 43/5-28B1, a flow of approxi- mately 6 cfs was recorded on September 24, 1954, from two vents in fractured lava at the base of a hill.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.10895428929242329,
+                            "top": 0.05561948599923283,
+                            "width": 0.030682529743268627,
+                            "height": 0.01457614115841964,
+                            "page": 1
+                        },
+                        "content": "58",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.18096430807764557,
+                            "top": 0.05638665132336018,
+                            "width": 0.6850344395742016,
+                            "height": 0.014192558496355964,
+                            "page": 1
+                        },
+                        "content": "GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10832811521603006,
+                            "top": 0.08707326428845416,
+                            "width": 0.828428303068253,
+                            "height": 0.05561948599923283,
+                            "page": 1
+                        },
+                        "content": "About 2 miles to the north, at location 43/5-28B1, a flow of approxi- mately 6 cfs was recorded on September 24, 1954, from two vents in fractured lava at the base of a hill.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\nSeveral springs, including spring 44/4-28H1 which supplies the major flow of Spring Creek, are oriented along the fault that marks the east side of Yellow Butte. At spring 44/4-28H1 water gushes from several slits in the lava of the high Cascades and flows down a steep slope to join Spring Creek. On October 15, 1954, the flow in Spring Creek below the main spring was about 1-cfs. Above the junction with the main spring the flow was only about 0.2 cfs. Along the east edge of Shasta Valley, springs are common close to the contact between the volcanic rocks of the western Cascades and the overlying flows of the high Cascades. Cold Spring (also called Cleland Spring), 45/4-17Q1, gushes from numerous vents for a dis- tance of about 200 feet along the toe of a Recent lava flow from Goosenest. At one place water jets from fractured basalt as though forced from a pipe. At the most southerly vent, water flows quietly from clinkers and talus blocks lying beneath massive black finely vesicular basalt. Water from the spring area is collected in a channel and is used for irrigation in Little Shasta Valley. Table 9 shows the variation in flow at Cold Spring from January to May 1954.",
+                "embed": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\nSeveral springs, including spring 44/4-28H1 which supplies the major flow of Spring Creek, are oriented along the fault that marks the east side of Yellow Butte. At spring 44/4-28H1 water gushes from several slits in the lava of the high Cascades and flows down a steep slope to join Spring Creek. On October 15, 1954, the flow in Spring Creek below the main spring was about 1-cfs. Above the junction with the main spring the flow was only about 0.2 cfs. Along the east edge of Shasta Valley, springs are common close to the contact between the volcanic rocks of the western Cascades and the overlying flows of the high Cascades. Cold Spring (also called Cleland Spring), 45/4-17Q1, gushes from numerous vents for a dis- tance of about 200 feet along the toe of a Recent lava flow from Goosenest. At one place water jets from fractured basalt as though forced from a pipe. At the most southerly vent, water flows quietly from clinkers and talus blocks lying beneath massive black finely vesicular basalt. Water from the spring area is collected in a channel and is used for irrigation in Little Shasta Valley. Table 9 shows the variation in flow at Cold Spring from January to May 1954.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10770194113963683,
+                            "top": 0.14652857690832374,
+                            "width": 0.8334376956793988,
+                            "height": 0.35404679708477177,
+                            "page": 1
+                        },
+                        "content": "Several springs, including spring 44/4-28H1 which supplies the major flow of Spring Creek, are oriented along the fault that marks the east side of Yellow Butte. At spring 44/4-28H1 water gushes from several slits in the lava of the high Cascades and flows down a steep slope to join Spring Creek. On October 15, 1954, the flow in Spring Creek below the main spring was about 1-cfs. Above the junction with the main spring the flow was only about 0.2 cfs. Along the east edge of Shasta Valley, springs are common close to the contact between the volcanic rocks of the western Cascades and the overlying flows of the high Cascades. Cold Spring (also called Cleland Spring), 45/4-17Q1, gushes from numerous vents for a dis- tance of about 200 feet along the toe of a Recent lava flow from Goosenest. At one place water jets from fractured basalt as though forced from a pipe. At the most southerly vent, water flows quietly from clinkers and talus blocks lying beneath massive black finely vesicular basalt. Water from the spring area is collected in a channel and is used for irrigation in Little Shasta Valley. Table 9 shows the variation in flow at Cold Spring from January to May 1954.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\nTABLE 9.-Flow at Cold Spring from January to May 1954 1\n\n<table><tr><th></th><th>Date</th><th>Flow (cfs)</th></tr><tr><td></td><td>1954</td><td></td></tr><tr><td>Jan. 22</td><td></td><td>12. 7</td></tr><tr><td>Feb. 11</td><td></td><td>13. 5</td></tr><tr><td>Mar. 25</td><td></td><td>13. 8</td></tr><tr><td>Apr. 14</td><td></td><td>10. 8</td></tr><tr><td>May 11</td><td></td><td>11. 2</td></tr></table>\n\n1 Data from unpublished records in the files of the California Division of Water Resources.",
+                "embed": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\nTABLE 9.-Flow at Cold Spring from January to May 1954 1\n\n<table><tr><th></th><th>Date</th><th>Flow (cfs)</th></tr><tr><td></td><td>1954</td><td></td></tr><tr><td>Jan. 22</td><td></td><td>12. 7</td></tr><tr><td>Feb. 11</td><td></td><td>13. 5</td></tr><tr><td>Mar. 25</td><td></td><td>13. 8</td></tr><tr><td>Apr. 14</td><td></td><td>10. 8</td></tr><tr><td>May 11</td><td></td><td>11. 2</td></tr></table>\n\n1 Data from unpublished records in the files of the California Division of Water Resources.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.21665623043206012,
+                            "top": 0.5212888377445339,
+                            "width": 0.6105197244834064,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "TABLE 9.-Flow at Cold Spring from January to May 1954 1",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10323687740318761,
+                            "top": 0.5415723630190353,
+                            "width": 0.8402087188319407,
+                            "height": 0.13520052682681244,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Date</th><th>Flow (cfs)</th></tr><tr><td></td><td>1954</td><td></td></tr><tr><td>Jan. 22</td><td></td><td>12. 7</td></tr><tr><td>Feb. 11</td><td></td><td>13. 5</td></tr><tr><td>Mar. 25</td><td></td><td>13. 8</td></tr><tr><td>Apr. 14</td><td></td><td>10. 8</td></tr><tr><td>May 11</td><td></td><td>11. 2</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12147777082028804,
+                            "top": 0.6843114691215957,
+                            "width": 0.7075767063243582,
+                            "height": 0.009973149213655544,
+                            "page": 1
+                        },
+                        "content": "1 Data from unpublished records in the files of the California Division of Water Resources.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\nNumerous springs issue from the Plutos Cave basalt. The best known of these is the Big Springs, from which about 30,000 acre- feet of water is discharged yearly. Water from Big Springs flows westward and is impounded in an artificial lake and thence diverted to ditches for use by the Big Springs Irrigation District. Big Springs Creek flows from beyond the lake to the Shasta River-a distance of about a mile. Water rises in many places in the creek bed, and evidence of spring sapping in the banks is widespread. Measurements made in 1918 (Watson and others, 1923, p. 149) sum- marize spring discharge in the immediate area: flow of Big Springs at outlet, 32 cfs; Little Springs (located 1 mile southwest of Big Springs) near outlet, 6 cfs; Big Springs Creek at junction with Shasta River, 103 cfs. The results of these measurements show an",
+                "embed": "# GEOLOGY AND GROUND WATER, SHASTA VALLEY, CALIF. (cont.)\n\nNumerous springs issue from the Plutos Cave basalt. The best known of these is the Big Springs, from which about 30,000 acre- feet of water is discharged yearly. Water from Big Springs flows westward and is impounded in an artificial lake and thence diverted to ditches for use by the Big Springs Irrigation District. Big Springs Creek flows from beyond the lake to the Shasta River-a distance of about a mile. Water rises in many places in the creek bed, and evidence of spring sapping in the banks is widespread. Measurements made in 1918 (Watson and others, 1923, p. 149) sum- marize spring discharge in the immediate area: flow of Big Springs at outlet, 32 cfs; Little Springs (located 1 mile southwest of Big Springs) near outlet, 6 cfs; Big Springs Creek at junction with Shasta River, 103 cfs. The results of these measurements show an",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10519724483406387,
+                            "top": 0.7165324127349444,
+                            "width": 0.8334376956793988,
+                            "height": 0.25124664365170696,
+                            "page": 1
+                        },
+                        "content": "Numerous springs issue from the Plutos Cave basalt. The best known of these is the Big Springs, from which about 30,000 acre- feet of water is discharged yearly. Water from Big Springs flows westward and is impounded in an artificial lake and thence diverted to ditches for use by the Big Springs Irrigation District. Big Springs Creek flows from beyond the lake to the Shasta River-a distance of about a mile. Water rises in many places in the creek bed, and evidence of spring sapping in the banks is widespread. Measurements made in 1918 (Watson and others, 1923, p. 149) sum- marize spring discharge in the immediate area: flow of Big Springs at outlet, 32 cfs; Little Springs (located 1 mile southwest of Big Springs) near outlet, 6 cfs; Big Springs Creek at junction with Shasta River, 103 cfs. The results of these measurements show an",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

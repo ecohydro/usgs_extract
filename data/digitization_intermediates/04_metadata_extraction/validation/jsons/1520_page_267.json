@@ -1,0 +1,258 @@
+{
+    "job_id": "ff527d93-ef3b-4b9d-9911-a79192b3530a",
+    "duration": 4.861413478851318,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/92d950f3-ac7d-4415-aacb-7309d84c629c?AWSAccessKeyId=ASIA2UOK6OVBHIIRTSDD&Signature=X7hJ8f5wwem%2FBK6Tu6aWu3IgWIU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIH4wptgXJ6p6Se4gZ1hfD5%2FlOfkUee3xDjLI5FyzgzgYAiEAlxXjP5CcFEGSeKYibqel2av2n%2BD7qlHU6OxfS649iLgqiwUIIhAAGgw3MzExMDY5MzIwMzQiDGWy73kirnPQCgyhKSroBPslBoLXt%2BaToSTdE2ngCj5kqP1Y%2FDSRJkKqISsQAF0XEFq4K7Osv8GxbdSstOzSkTh8EfGPBvtwLgfP5nHenTrTag%2BXjAfRTejYP%2Fnhe9O6kmlvezYA8IaQDPxYrbDHUMxqxnUDST9cONmFzeAWpRQtuKAGwmKvX%2FFmxRdNr01Rkb6TUEq%2B7HvwvoYFA%2BPCvfgoUvxQgFxF8RQoVM5%2F5c29UneEWtJMAApohdyOuonzNlxgmRH40YAK%2FWp1Aou3PXhiWsWEoGvRkmmA5hFZwXoIAir2kP1rTGxYgrIeRBd0g4qoN2LHJZE9xs0dbPfacHKTmjOs8J0GQQfwGuST0Jv6n%2BFzP598f4SFwTwHsiRr7v8LBEcOCGxopCJTvm861INqLNnr01KcSPHcMeZOwGqIRL8I6UOcyy%2BGOvkBoSyJrGVkHboBUlgBuF9ryicnoRZO2DXBbM1m90jPVSVO9DvUwgQl6D%2BZCeNv6Stk0diIRMugHgaEBvFM9L0Q2mAO6mNzrEht4tLfeuTkPwBaDJKvPd%2BwQcRlAt6hPo3YCa5eBKKrQrilXzoD%2BxjOPRN3pC7Wpx%2F%2BxTQ%2BUnjCHp2jTt2iULMHgGo8mMxkh%2BlZ2DhdmIWNA1EoomeFBP31lXgNiwCX5OCbEyJA%2FtE7%2BiCqvBtyGJvxPals3qW03RCsJn36DLdpCwNrPQ%2BoYGMqo6%2Bh5Bs7rLauUyePvsqDhSzA2g2SKK37ciCh506ypBBEd5T6dUCgQg7h1%2FTFYpTwrBSIcNg9irAg3odHaKEsP%2F5AjflMbUBZqWv7RlZEvOMkxBKdl7%2FMUMttO1IwlZXJugY6mwESbMGlMp7z3jk78ElzJzLY8TJZ%2BWjJVar1FUqnCyxnXEsecVNRIleE%2FuL7LLQOkV3LWdK%2B7%2BaUVnZg8vlKQsg2R0xy4YPewJbgAmO1pfmSztHLTJAXNRlwvg334OntxBvOu7PT4SvVAcJNZU4PdXHZyhVzBXPo5Vqiv3MhVmKecR4gXJpnURfO2eVmh5a7WIuOpMizOdmzY4AWew%3D%3D&Expires=1733450670",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SACRAMENTO RIVER BASIN.",
+                "embed": "# SACRAMENTO RIVER BASIN.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2986850344395742,
+                            "top": 0.05257228689447991,
+                            "width": 0.3231058234189105,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "SACRAMENTO RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8271759549154665,
+                            "top": 0.04956815621479534,
+                            "width": 0.045710707576706325,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "265",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG.\n\n- LOCATION.-Dam is in sec. 5, T. 40 S., R. 18 E., about 14 miles southwest of Lakeview; reservoir is about 10 miles in length.\n\n- RECORDS AVAILABLE. - -February 26 to September 30, 1913.\n\nGage.-Readings obtained by measuring down from the floor of the gate house. Gage datum is lowest contour of reservoir.\n\nOUTLETS.--A tunnel with sill at elevation 16.3 feet, and a blow-out pipe in center of dam at bottom.\n\n- STORAGE.-Reservoir was filled up to outlet tunnel during winter of 1911-12, but was practically empty October 1, 1912. The rate of filling between that date and March 31, 1913, has been estimated.\n\n- Accuracy.-Monthly estimates of increase or decrease in volume of storage are only approximate, as the readings of water stage are very rough, but the error for the entire year is probably not great.\n\nDaily gage height, in feet, of Drews Creek reservoir near Lakeview, Oreg., for the year ending Sept. 30, 1913.",
+                "embed": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG.\n\n- LOCATION.-Dam is in sec. 5, T. 40 S., R. 18 E., about 14 miles southwest of Lakeview; reservoir is about 10 miles in length.\n\n- RECORDS AVAILABLE. - -February 26 to September 30, 1913.\n\nGage.-Readings obtained by measuring down from the floor of the gate house. Gage datum is lowest contour of reservoir.\n\nOUTLETS.--A tunnel with sill at elevation 16.3 feet, and a blow-out pipe in center of dam at bottom.\n\n- STORAGE.-Reservoir was filled up to outlet tunnel during winter of 1911-12, but was practically empty October 1, 1912. The rate of filling between that date and March 31, 1913, has been estimated.\n\n- Accuracy.-Monthly estimates of increase or decrease in volume of storage are only approximate, as the readings of water stage are very rough, but the error for the entire year is probably not great.\n\nDaily gage height, in feet, of Drews Creek reservoir near Lakeview, Oreg., for the year ending Sept. 30, 1913.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.19787100814026298,
+                            "top": 0.08148704468644385,
+                            "width": 0.5241077019411396,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.047589229805886035,
+                            "top": 0.1028914757791964,
+                            "width": 0.8259236067626801,
+                            "height": 0.030792339466766804,
+                            "page": 1
+                        },
+                        "content": "- LOCATION.-Dam is in sec. 5, T. 40 S., R. 18 E., about 14 miles southwest of Lakeview; reservoir is about 10 miles in length.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.048215403882279274,
+                            "top": 0.1351858805858055,
+                            "width": 0.580463368816531,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE. - -February 26 to September 30, 1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.1505820503191889,
+                            "width": 0.8271759549154665,
+                            "height": 0.02816372512204281,
+                            "page": 1
+                        },
+                        "content": "Gage.-Readings obtained by measuring down from the floor of the gate house. Gage datum is lowest contour of reservoir.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046963055729492796,
+                            "top": 0.18174990612091627,
+                            "width": 0.8271759549154665,
+                            "height": 0.02816372512204281,
+                            "page": 1
+                        },
+                        "content": "OUTLETS.--A tunnel with sill at elevation 16.3 feet, and a blow-out pipe in center of dam at bottom.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.21366879459256477,
+                            "width": 0.8278021289918598,
+                            "height": 0.04581299286518964,
+                            "page": 1
+                        },
+                        "content": "- STORAGE.-Reservoir was filled up to outlet tunnel during winter of 1911-12, but was practically empty October 1, 1912. The rate of filling between that date and March 31, 1913, has been estimated.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.048215403882279274,
+                            "top": 0.26098385279759667,
+                            "width": 0.8259236067626801,
+                            "height": 0.046188509200150205,
+                            "page": 1
+                        },
+                        "content": "- Accuracy.-Monthly estimates of increase or decrease in volume of storage are only approximate, as the readings of water stage are very rough, but the error for the entire year is probably not great.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.048841577958672514,
+                            "top": 0.3199399173864063,
+                            "width": 0.8246712586098935,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Daily gage height, in feet, of Drews Creek reservoir near Lakeview, Oreg., for the year ending Sept. 30, 1913.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG. (cont.)\n\n<table><tr><th>Day.</th><th>Feb.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th></th><th>Day.</th><th>Feb.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th></tr><tr><td>1</td><td></td><td></td><td>42.0</td><td></td><td></td><td></td><td>16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td>17</td><td></td><td></td><td>37.8</td><td>37.5</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>41.0</td><td></td><td></td><td></td><td>18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td>19</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>37.0</td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>36.5</td><td></td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td>23</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td>24</td><td></td><td></td><td></td><td>35.0</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td>39.8</td><td>41.0</td><td></td><td></td><td>25</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td>26</td><td></td><td>18.0</td><td>39.0</td><td></td><td></td><td>37.0</td><td></td></tr><tr><td>12</td><td></td><td>36.0</td><td></td><td></td><td></td><td></td><td>27</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td>28</td><td></td><td></td><td></td><td></td><td>37.0</td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td></td><td></td><td></td><td></td><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td></td><td></td><td></td><td></td><td></td><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td></td><td></td><td></td><td>36.0</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG. (cont.)\n\n<table><tr><th>Day.</th><th>Feb.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th></th><th>Day.</th><th>Feb.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th></tr><tr><td>1</td><td></td><td></td><td>42.0</td><td></td><td></td><td></td><td>16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td>17</td><td></td><td></td><td>37.8</td><td>37.5</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>41.0</td><td></td><td></td><td></td><td>18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td>19</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>37.0</td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>36.5</td><td></td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td>23</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td>24</td><td></td><td></td><td></td><td>35.0</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td>39.8</td><td>41.0</td><td></td><td></td><td>25</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td>26</td><td></td><td>18.0</td><td>39.0</td><td></td><td></td><td>37.0</td><td></td></tr><tr><td>12</td><td></td><td>36.0</td><td></td><td></td><td></td><td></td><td>27</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td>28</td><td></td><td></td><td></td><td></td><td>37.0</td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td></td><td></td><td></td><td></td><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td></td><td></td><td></td><td></td><td></td><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td></td><td></td><td></td><td>36.0</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04654599967865774,
+                            "top": 0.35882378125880116,
+                            "width": 0.8320663490367071,
+                            "height": 0.22343739915332803,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day.</th><th>Feb.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th><th></th><th>Day.</th><th>Feb.</th><th>Apr.</th><th>May.</th><th>June.</th><th>July.</th><th>Aug.</th></tr><tr><td>1</td><td></td><td></td><td>42.0</td><td></td><td></td><td></td><td>16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td>17</td><td></td><td></td><td>37.8</td><td>37.5</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>41.0</td><td></td><td></td><td></td><td>18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td>19</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>37.0</td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>36.5</td><td></td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td>23</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td>37.0</td><td>24</td><td></td><td></td><td></td><td>35.0</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td>39.8</td><td>41.0</td><td></td><td></td><td>25</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td>26</td><td></td><td>18.0</td><td>39.0</td><td></td><td></td><td>37.0</td><td></td></tr><tr><td>12</td><td></td><td>36.0</td><td></td><td></td><td></td><td></td><td>27</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td>28</td><td></td><td></td><td></td><td></td><td>37.0</td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td></td><td></td><td></td><td></td><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td></td><td></td><td></td><td></td><td></td><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>31</td><td></td><td></td><td></td><td>36.0</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG. (cont.)\n\nStorage in acre-feet in Drews Creek reservoir near Lakeview, Oreg., for the year ending Sept. 30, 1913.\n\n<table><tr><th>Month.</th><th>Total\nstorage\nat end\nof month.</th><th>Increase\nin storage.</th><th></th><th>Month.</th><th>Total\nstorage\nat end\nof month.</th><th>Increase\nin storage.</th></tr><tr><td>October</td><td>0</td><td>0</td><td>May</td><td></td><td>9,290</td><td>-9,710</td></tr><tr><td>November</td><td>0</td><td>0</td><td>June</td><td></td><td>10,740</td><td>+1,450</td></tr><tr><td>December</td><td>200</td><td>+200</td><td>July</td><td></td><td>10,740</td><td></td></tr><tr><td>January</td><td>300</td><td>+100</td><td>August</td><td></td><td>9,700</td><td>-1,040</td></tr><tr><td>February</td><td>580</td><td>+200</td><td>September</td><td></td><td>7,960</td><td>-1,740</td></tr><tr><td>March</td><td>6,000</td><td>+5,500</td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>19,000</td><td>+13,000</td><td></td><td>The year</td><td>7,960</td><td>+7,960</td></tr></table>",
+                "embed": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG. (cont.)\n\nStorage in acre-feet in Drews Creek reservoir near Lakeview, Oreg., for the year ending Sept. 30, 1913.\n\n<table><tr><th>Month.</th><th>Total\nstorage\nat end\nof month.</th><th>Increase\nin storage.</th><th></th><th>Month.</th><th>Total\nstorage\nat end\nof month.</th><th>Increase\nin storage.</th></tr><tr><td>October</td><td>0</td><td>0</td><td>May</td><td></td><td>9,290</td><td>-9,710</td></tr><tr><td>November</td><td>0</td><td>0</td><td>June</td><td></td><td>10,740</td><td>+1,450</td></tr><tr><td>December</td><td>200</td><td>+200</td><td>July</td><td></td><td>10,740</td><td></td></tr><tr><td>January</td><td>300</td><td>+100</td><td>August</td><td></td><td>9,700</td><td>-1,040</td></tr><tr><td>February</td><td>580</td><td>+200</td><td>September</td><td></td><td>7,960</td><td>-1,740</td></tr><tr><td>March</td><td>6,000</td><td>+5,500</td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>19,000</td><td>+13,000</td><td></td><td>The year</td><td>7,960</td><td>+7,960</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.046336881653099564,
+                            "top": 0.5910627112279384,
+                            "width": 0.8278021289918598,
+                            "height": 0.026661659782200527,
+                            "page": 1
+                        },
+                        "content": "Storage in acre-feet in Drews Creek reservoir near Lakeview, Oreg., for the year ending Sept. 30, 1913.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04628973419246781,
+                            "top": 0.6247146497576747,
+                            "width": 0.8317224291166665,
+                            "height": 0.14621140139469113,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month.</th><th>Total\nstorage\nat end\nof month.</th><th>Increase\nin storage.</th><th></th><th>Month.</th><th>Total\nstorage\nat end\nof month.</th><th>Increase\nin storage.</th></tr><tr><td>October</td><td>0</td><td>0</td><td>May</td><td></td><td>9,290</td><td>-9,710</td></tr><tr><td>November</td><td>0</td><td>0</td><td>June</td><td></td><td>10,740</td><td>+1,450</td></tr><tr><td>December</td><td>200</td><td>+200</td><td>July</td><td></td><td>10,740</td><td></td></tr><tr><td>January</td><td>300</td><td>+100</td><td>August</td><td></td><td>9,700</td><td>-1,040</td></tr><tr><td>February</td><td>580</td><td>+200</td><td>September</td><td></td><td>7,960</td><td>-1,740</td></tr><tr><td>March</td><td>6,000</td><td>+5,500</td><td></td><td></td><td></td><td></td></tr><tr><td>April</td><td>19,000</td><td>+13,000</td><td></td><td>The year</td><td>7,960</td><td>+7,960</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG. (cont.)\n\n## DREWS CREEK NEAR LAKEVIEW, OREG.\n\nLOCATION.- sec. 4, T. 40 S., R. 18 E., 1 mile below the Drews Creek dam and 13 miles southwest of Lakeview.\n\nRECORDS AVAILABLE.-January 16, 1909, to September 13, 1913. DRAINAGE AREA.-211 square miles.\n\nGAGE.-Friez water-stage recorder since March 19, 1912, referred to vertical staff installed on highway bridge March 1, 1910. Inclined staff used at station No. 1 at dam site a mile above present gage, January 16 to May 31, 1909, and vertical staff at station No. 2 at a dump-car bridge 100 feet below the dam site, Novem- ber 20, 1909, to February 28, 1910.",
+                "embed": "# DREWS CREEK RESERVOIR NEAR LAKEVIEW, OREG. (cont.)\n\n## DREWS CREEK NEAR LAKEVIEW, OREG.\n\nLOCATION.- sec. 4, T. 40 S., R. 18 E., 1 mile below the Drews Creek dam and 13 miles southwest of Lakeview.\n\nRECORDS AVAILABLE.-January 16, 1909, to September 13, 1913. DRAINAGE AREA.-211 square miles.\n\nGAGE.-Friez water-stage recorder since March 19, 1912, referred to vertical staff installed on highway bridge March 1, 1910. Inclined staff used at station No. 1 at dam site a mile above present gage, January 16 to May 31, 1909, and vertical staff at station No. 2 at a dump-car bridge 100 feet below the dam site, Novem- ber 20, 1909, to February 28, 1910.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2598622417031935,
+                            "top": 0.779571911378145,
+                            "width": 0.3994990607388854,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "DREWS CREEK NEAR LAKEVIEW, OREG.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.048841577958672514,
+                            "top": 0.7987232444611341,
+                            "width": 0.8246712586098935,
+                            "height": 0.02741269245212167,
+                            "page": 1
+                        },
+                        "content": "LOCATION.- sec. 4, T. 40 S., R. 18 E., 1 mile below the Drews Creek dam and 13 miles southwest of Lakeview.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.048215403882279274,
+                            "top": 0.8298911002628614,
+                            "width": 0.6186599874765185,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "RECORDS AVAILABLE.-January 16, 1909, to September 13, 1913. DRAINAGE AREA.-211 square miles.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.047589229805886035,
+                            "top": 0.8610589560645888,
+                            "width": 0.8265497808390733,
+                            "height": 0.07660533233195645,
+                            "page": 1
+                        },
+                        "content": "GAGE.-Friez water-stage recorder since March 19, 1912, referred to vertical staff installed on highway bridge March 1, 1910. Inclined staff used at station No. 1 at dam site a mile above present gage, January 16 to May 31, 1909, and vertical staff at station No. 2 at a dump-car bridge 100 feet below the dam site, Novem- ber 20, 1909, to February 28, 1910.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

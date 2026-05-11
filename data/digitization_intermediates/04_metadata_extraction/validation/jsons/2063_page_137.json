@@ -1,0 +1,198 @@
+{
+    "job_id": "c68eefa7-e834-4450-a7f5-dc79b1dbffd6",
+    "duration": 4.425414800643921,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/4f220ef1-8ada-4a26-ad9f-564cf90ab04e?AWSAccessKeyId=ASIA2UOK6OVBBT6D7ZAQ&Signature=E0Jj7Z3Da72a952qJ%2BKzAB8DkzI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJIMEYCIQDClK%2Fg0UFsxhSn5lrQBYD7%2FHLvDy1SU%2Bzd288YKVES3AIhAKUG3VYmUxNltHRAImsxgFpee2ivv%2BnDZUSrMo0UXg0OKosFCCAQABoMNzMxMTA2OTMyMDM0IgxGLOOj7IflCOEm5ooq6AToatP5eN%2Fs86EYfv2omet9ACAndEqZ%2BHNZedq2sj%2BQOCzwpLSYgTlOft8c5vlMQp9IsNOYxaozJvca9mgdltUTq86okU0Mbck0ET3h8tgrBpXWbWCfeHnNZ0osrTEYDzUMUqaElhpH0bA2XfuBGm%2F%2Bv3q%2FG2X9%2BgMHZtW97S7OUUSvLYx82TWf1D%2BF6qt%2Fitjbs1zWyJM7z2SfNlaAYbLsTJkyFMb9nBWyDNMgWZ7aX%2Fg%2FhM6sniEbwhuvydHcAQh1pyah6Dh32S5U2M56moF9vyZ49ivo%2BpX2dyebvP4bD9zyaxWJ1qm5wBfjIEfZW4hyIDiz9UtiooSw45EEXXKxNarA3H5CLV9kKIMN6o0Kp3%2B7s0j6tB65z71jwsrcSczgM36Zptv%2FUBrKLtJ6phLeiaO6eFwWRo4y8%2FU%2BRdIS8xNhVrupZQ5MtvAdbjFlnk8sV7Oi2A%2BM2u1xhyqugp%2FLNq6Dfll36j0Lb%2F5SVbsO8WRQXLUCnMGKu94rsoGBrFMJ1jx8LRDtgVJ%2FlfLV29MBZLmi2t5eFwkmhtw3Qde3oqw22FpExTQSPdAUOATvFfKas4j%2BfgLv925HVKxrq6V1bpE9USWw0XSLMpwUvCPmMny5%2Fym7bwjS%2F3296KavvR%2FWvx7RZujNmGa8dtoUh6pRHFJ8FiKgE52h7NA%2FHM2ls%2B5fxnWYfQuaZrSFwbCvILOqdjiyqn8lENLsfy54cXpmkG9YBnqrz68s6asEvSE9ZFEpp2D6scghRffXuMXD8H88QrpuQu%2Bov1lqbxq88plK%2BxjKI0mkKi36l%2FHswMLkaG4OJmrSlx2YMLfnyLoGOpoBiqkw9ED3g%2FpzKv1Fe%2FjWyTCb33G3glw9byxLKBg2ibpCRuD9J%2Fv5h2%2F2Qfl8ZpB7dZblvoE3z%2B5LlnntY9XIQspUl8reZDf%2FgtyiVvy1cnc7bcID4zOVQKnHpXzWIp2qUAQb50IiVOWRMJGOV7MeyywigOVwqTx7awLFMluWUzwp8j0Z3R4mlAoTHniOZ7%2Bg9ZgwBS0%2BzEPJPQ%3D%3D&Expires=1733444044",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# IRRIGATION.",
+                "embed": "# IRRIGATION.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3919849718221666,
+                            "top": 0.05482538490424334,
+                            "width": 0.13901064495929868,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "IRRIGATION.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8303068252974327,
+                            "top": 0.05219677055951934,
+                            "width": 0.043206011271133375,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "121",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Reservoir sites in the Little Colorado basin.\n\n<table><tr><th rowspan=\"2\">Name.</th><th rowspan=\"2\">Height\nof dam.</th><th colspan=\"3\">Location of dam.</th><th rowspan=\"2\">Capacity.</th></tr><tr><td>Section.</td><td>Town-\nship.</td><td>Range.</td></tr><tr><td></td><td>Feet.</td><td></td><td></td><td></td><td>Acre-feet.</td></tr><tr><td>Woodruff</td><td>100</td><td>36</td><td>17 N.</td><td>21 E.</td><td>108, 000</td></tr><tr><td>Forks</td><td>85</td><td>19</td><td>16 N.</td><td>22 E.</td><td>148,000</td></tr><tr><td>Leroux</td><td>35</td><td>23</td><td>18 N.</td><td>20 E.</td><td>54,000</td></tr><tr><td>Tucker Flat</td><td>50</td><td>26</td><td>20 N.</td><td>15 E.</td><td>118,000</td></tr><tr><td>Greer</td><td>60</td><td>5</td><td>14 N.</td><td>25 E.</td><td>260,000</td></tr><tr><td>Zuni</td><td>60</td><td>2</td><td>14 N.</td><td>26 E.</td><td>107,000</td></tr><tr><td>Colorado</td><td>60</td><td>21</td><td>14 N.</td><td>27 E.</td><td>140,000</td></tr><tr><td>Lyman</td><td>65</td><td>9</td><td>11 N.</td><td>28 E.</td><td>40,000</td></tr><tr><td>Baum</td><td>82</td><td>9</td><td>23 N.</td><td>12 E.</td><td>437, 000</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>1, 412, 000</td></tr></table>\n\nIt seems probable that some of these reservoir sites will be found commercially feasible of development.",
+                "embed": "# Reservoir sites in the Little Colorado basin.\n\n<table><tr><th rowspan=\"2\">Name.</th><th rowspan=\"2\">Height\nof dam.</th><th colspan=\"3\">Location of dam.</th><th rowspan=\"2\">Capacity.</th></tr><tr><td>Section.</td><td>Town-\nship.</td><td>Range.</td></tr><tr><td></td><td>Feet.</td><td></td><td></td><td></td><td>Acre-feet.</td></tr><tr><td>Woodruff</td><td>100</td><td>36</td><td>17 N.</td><td>21 E.</td><td>108, 000</td></tr><tr><td>Forks</td><td>85</td><td>19</td><td>16 N.</td><td>22 E.</td><td>148,000</td></tr><tr><td>Leroux</td><td>35</td><td>23</td><td>18 N.</td><td>20 E.</td><td>54,000</td></tr><tr><td>Tucker Flat</td><td>50</td><td>26</td><td>20 N.</td><td>15 E.</td><td>118,000</td></tr><tr><td>Greer</td><td>60</td><td>5</td><td>14 N.</td><td>25 E.</td><td>260,000</td></tr><tr><td>Zuni</td><td>60</td><td>2</td><td>14 N.</td><td>26 E.</td><td>107,000</td></tr><tr><td>Colorado</td><td>60</td><td>21</td><td>14 N.</td><td>27 E.</td><td>140,000</td></tr><tr><td>Lyman</td><td>65</td><td>9</td><td>11 N.</td><td>28 E.</td><td>40,000</td></tr><tr><td>Baum</td><td>82</td><td>9</td><td>23 N.</td><td>12 E.</td><td>437, 000</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>1, 412, 000</td></tr></table>\n\nIt seems probable that some of these reservoir sites will be found commercially feasible of development.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2648716343143394,
+                            "top": 0.084866691701089,
+                            "width": 0.39574201628052597,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "Reservoir sites in the Little Colorado basin.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04922939675557442,
+                            "top": 0.11146048625698225,
+                            "width": 0.8315971102203962,
+                            "height": 0.20763969922755116,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Name.</th><th rowspan=\"2\">Height\nof dam.</th><th colspan=\"3\">Location of dam.</th><th rowspan=\"2\">Capacity.</th></tr><tr><td>Section.</td><td>Town-\nship.</td><td>Range.</td></tr><tr><td></td><td>Feet.</td><td></td><td></td><td></td><td>Acre-feet.</td></tr><tr><td>Woodruff</td><td>100</td><td>36</td><td>17 N.</td><td>21 E.</td><td>108, 000</td></tr><tr><td>Forks</td><td>85</td><td>19</td><td>16 N.</td><td>22 E.</td><td>148,000</td></tr><tr><td>Leroux</td><td>35</td><td>23</td><td>18 N.</td><td>20 E.</td><td>54,000</td></tr><tr><td>Tucker Flat</td><td>50</td><td>26</td><td>20 N.</td><td>15 E.</td><td>118,000</td></tr><tr><td>Greer</td><td>60</td><td>5</td><td>14 N.</td><td>25 E.</td><td>260,000</td></tr><tr><td>Zuni</td><td>60</td><td>2</td><td>14 N.</td><td>26 E.</td><td>107,000</td></tr><tr><td>Colorado</td><td>60</td><td>21</td><td>14 N.</td><td>27 E.</td><td>140,000</td></tr><tr><td>Lyman</td><td>65</td><td>9</td><td>11 N.</td><td>28 E.</td><td>40,000</td></tr><tr><td>Baum</td><td>82</td><td>9</td><td>23 N.</td><td>12 E.</td><td>437, 000</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>1, 412, 000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.051972448340638695,
+                            "top": 0.3319564401051446,
+                            "width": 0.823418910457107,
+                            "height": 0.03642508449117537,
+                            "page": 1
+                        },
+                        "content": "It seems probable that some of these reservoir sites will be found commercially feasible of development.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Reservoir sites in the Little Colorado basin. (cont.)\n\n## SAN JUAN RIVER BASIN.\n\nIn the area drained by the San Juan, comprising approximately 25,800 square miles, irrigation has been practiced for more than 40 years, and on many of the tributaries the low-water flow is not suffi- cient to meet present needs. Only a small quantity of stored water is, however, being utilized. The area irrigated in the San Juan basin in 1913, consisting largely of bottom lands, is shown by the follow- ing table:\n\nLand irrigated in San Juan River basin in 1913.",
+                "embed": "# Reservoir sites in the Little Colorado basin. (cont.)\n\n## SAN JUAN RIVER BASIN.\n\nIn the area drained by the San Juan, comprising approximately 25,800 square miles, irrigation has been practiced for more than 40 years, and on many of the tributaries the low-water flow is not suffi- cient to meet present needs. Only a small quantity of stored water is, however, being utilized. The area irrigated in the San Juan basin in 1913, consisting largely of bottom lands, is shown by the follow- ing table:\n\nLand irrigated in San Juan River basin in 1913.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.3406386975579211,
+                            "top": 0.38265114532482164,
+                            "width": 0.24546023794614902,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "SAN JUAN RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05134627426424546,
+                            "top": 0.40480660908749533,
+                            "width": 0.8259236067626801,
+                            "height": 0.1299286518963575,
+                            "page": 1
+                        },
+                        "content": "In the area drained by the San Juan, comprising approximately 25,800 square miles, irrigation has been practiced for more than 40 years, and on many of the tributaries the low-water flow is not suffi- cient to meet present needs. Only a small quantity of stored water is, however, being utilized. The area irrigated in the San Juan basin in 1913, consisting largely of bottom lands, is shown by the follow- ing table:",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.23794614902943018,
+                            "top": 0.5399924896733008,
+                            "width": 0.45021916092673764,
+                            "height": 0.013143071723619977,
+                            "page": 1
+                        },
+                        "content": "Land irrigated in San Juan River basin in 1913.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Reservoir sites in the Little Colorado basin. (cont.)\n\n## SAN JUAN RIVER BASIN. (cont.)\n\n<table><tr><th>Stream.</th><th>State.</th><th>Area\nirrigated.</th></tr><tr><td>Navajo River</td><td></td><td>Acres.</td></tr><tr><td>Little Colorado River</td><td></td><td></td></tr><tr><td>San Juan River</td><td>Colorado</td><td>12,000</td></tr><tr><td>Rio Piedro</td><td></td><td></td></tr><tr><td>Los Pinos River</td><td>do</td><td>17,000</td></tr><tr><td>Florida River</td><td>do</td><td>6, ,000</td></tr><tr><td>Animas River</td><td>do</td><td>7,000</td></tr><tr><td>La Plata River</td><td>do</td><td>5,000</td></tr><tr><td>Mancos River</td><td>do</td><td>10,000</td></tr><tr><td>McElmo Creek a</td><td>do</td><td>20,000</td></tr><tr><td>San Juan and its tributaries</td><td>New Mexico</td><td>30,000</td></tr><tr><td>Do</td><td>Utah</td><td>10,000</td></tr><tr><td></td><td></td><td>117,000</td></tr></table>\n\na Water obtained from Dolores River. See U.S. Geol, Survey Twentieth Ann. Rept., pt. 4, p. 417, 1900,",
+                "embed": "# Reservoir sites in the Little Colorado basin. (cont.)\n\n## SAN JUAN RIVER BASIN. (cont.)\n\n<table><tr><th>Stream.</th><th>State.</th><th>Area\nirrigated.</th></tr><tr><td>Navajo River</td><td></td><td>Acres.</td></tr><tr><td>Little Colorado River</td><td></td><td></td></tr><tr><td>San Juan River</td><td>Colorado</td><td>12,000</td></tr><tr><td>Rio Piedro</td><td></td><td></td></tr><tr><td>Los Pinos River</td><td>do</td><td>17,000</td></tr><tr><td>Florida River</td><td>do</td><td>6, ,000</td></tr><tr><td>Animas River</td><td>do</td><td>7,000</td></tr><tr><td>La Plata River</td><td>do</td><td>5,000</td></tr><tr><td>Mancos River</td><td>do</td><td>10,000</td></tr><tr><td>McElmo Creek a</td><td>do</td><td>20,000</td></tr><tr><td>San Juan and its tributaries</td><td>New Mexico</td><td>30,000</td></tr><tr><td>Do</td><td>Utah</td><td>10,000</td></tr><tr><td></td><td></td><td>117,000</td></tr></table>\n\na Water obtained from Dolores River. See U.S. Geol, Survey Twentieth Ann. Rept., pt. 4, p. 417, 1900,",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04952812314257446,
+                            "top": 0.562622712064049,
+                            "width": 0.8335394480113469,
+                            "height": 0.19771127561138754,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Stream.</th><th>State.</th><th>Area\nirrigated.</th></tr><tr><td>Navajo River</td><td></td><td>Acres.</td></tr><tr><td>Little Colorado River</td><td></td><td></td></tr><tr><td>San Juan River</td><td>Colorado</td><td>12,000</td></tr><tr><td>Rio Piedro</td><td></td><td></td></tr><tr><td>Los Pinos River</td><td>do</td><td>17,000</td></tr><tr><td>Florida River</td><td>do</td><td>6, ,000</td></tr><tr><td>Animas River</td><td>do</td><td>7,000</td></tr><tr><td>La Plata River</td><td>do</td><td>5,000</td></tr><tr><td>Mancos River</td><td>do</td><td>10,000</td></tr><tr><td>McElmo Creek a</td><td>do</td><td>20,000</td></tr><tr><td>San Juan and its tributaries</td><td>New Mexico</td><td>30,000</td></tr><tr><td>Do</td><td>Utah</td><td>10,000</td></tr><tr><td></td><td></td><td>117,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0670006261740764,
+                            "top": 0.7660533233195644,
+                            "width": 0.8090169067000627,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "a Water obtained from Dolores River. See U.S. Geol, Survey Twentieth Ann. Rept., pt. 4, p. 417, 1900,",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Reservoir sites in the Little Colorado basin. (cont.)\n\n## SAN JUAN RIVER BASIN. (cont.)\n\nTrustworthy records of the quantity of water discharged by the San Juan into the Colorado are not available, but incomplete records obtained at gaging stations established on the San Juan near Farm- ington and Shiprock, N. Mex., indicate that the stream may con- tribute to the Colorado between 1,500,000 and 3,000,000 acre-feet annually.1 Evidently there is sufficient unappropriated water in the",
+                "embed": "# Reservoir sites in the Little Colorado basin. (cont.)\n\n## SAN JUAN RIVER BASIN. (cont.)\n\nTrustworthy records of the quantity of water discharged by the San Juan into the Colorado are not available, but incomplete records obtained at gaging stations established on the San Juan near Farm- ington and Shiprock, N. Mex., indicate that the stream may con- tribute to the Colorado between 1,500,000 and 3,000,000 acre-feet annually.1 Evidently there is sufficient unappropriated water in the",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.051972448340638695,
+                            "top": 0.7908374014269621,
+                            "width": 0.8259236067626801,
+                            "height": 0.1119038678182501,
+                            "page": 1
+                        },
+                        "content": "Trustworthy records of the quantity of water discharged by the San Juan into the Colorado are not available, but incomplete records obtained at gaging stations established on the San Juan near Farm- ington and Shiprock, N. Mex., indicate that the stream may con- tribute to the Colorado between 1,500,000 and 3,000,000 acre-feet annually.1 Evidently there is sufficient unappropriated water in the",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.05134627426424546,
+                            "top": 0.915133308298911,
+                            "width": 0.8252974326862867,
+                            "height": 0.02403304543747653,
+                            "page": 1
+                        },
+                        "content": "1 In October, 1914, a station was established on the San Juan at Bluff, Utah, below all diversions for irrigation. Records from this station may be expected to furnish information of more definite value.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

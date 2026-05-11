@@ -1,0 +1,258 @@
+{
+    "job_id": "3b18d5cf-a598-49d4-8719-7c7d3d4294c1",
+    "duration": 7.498905658721924,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/3236d380-3ab6-4e1c-939a-a2ec1f2f48a2?AWSAccessKeyId=ASIA2UOK6OVBK2I2X6Z3&Signature=6LqA%2BiQKdAIQF5bT%2FJdyCxHAn6E%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJIMEYCIQD788un99UxNjDpnC2r4iVNdNIVNOuNuCLJoFBKze8e0AIhAL0DqZQkFHilThLmNXIJubxUsXb7rzGE%2FVHgqzeOX2maKosFCCMQABoMNzMxMTA2OTMyMDM0IgxbY1kbe2rtxK%2Fj3Gwq6AQCnsSUYf9OErDEXJesfoA1KJYEg4Zj5PZzWXtmjyPBaIOykdwdVn4sOhtzgPfLT9088S1YZz8lqKCRJGL%2FskA1fs8qfuKGaOgpO0TGlkebgR4QVHzE5jG13RggvcD5HMtavspf%2FZsCEvEASG30ULpIdVUra5JjqNR6JjP2E1bkXxU0cchfLJrtC9%2FpJfWfWn2Ow83aWVj8nIScQlGEZIUMhZKNhR0p%2FTuub9QauoP9XFExm4eOMJ8XcUIvfAYdsHfOq4ogYtgnvgIc6D56uhqdc%2FcRtldTKWthpr1ZCpZonOrQBlob16AA1pIZ9k2QBwNoR2Hd5YYu%2FFFXTI%2BCjI3fS9yHe4wRavZu0igeURb0r4rlGfcTZRyw3D5fvxfdb92MSyxlz2lAd8BLDqv2Xw8smN3H3ZseDA2hfy2ydJbqNmowg49T4ox%2FKMwTNdGJovtX5xyi3NsDAJS4tAe15H%2FurP8U25%2BrSNGWaXwfh8p%2BrpMdjHojS%2FI9JzlIIo0ydqlB6oif7RfKWo4iruXWpk7FSMnArRupv4QY2Ks3%2FkR0VvEJhrojpI9ajdgOyjPHkx9Au2ksLMsZ0t7%2FaDduPFaM%2BGizVgxmZrXfr0FWzRzIh1bRcL%2Bj0Yh2pTf07%2Bf6TevOzrZ6vYQb1GTWn9KQc%2FJ0QJfd0frF8tQM39cLWk5lnDxFwCeLIrY6EAlFqyEUQRLNecxCWUncF%2BwHrUdc3qpzrgS1B4w%2FJZQIsfPTmGbGQaz0jiVgToTWbdwWkdFZ%2FPh4QIj%2BAHnKVWeeUaVkk17bf4raFvblSVDKzU1dDVmmxfG%2FeaL7VGM5MPqmyboGOpoBnzpVWdVJSJEBkVj%2BWecsuanpy9JAhdJUJi0AjV3Naz3FrnjPv2ZfmgNb96Kao6YyomQcG4CXQrNH5C9hFelUIXQOM0JqAPXW9EvgptgzAz9orKjq4g3PEQyOHo8i2E58B5nv5LbDh%2BNYM2AOk5VOKwcP4vgW3R%2FYa3qKPmQC7NxBESdRxMrhD3IzB1rM2R6lRhdJ8Juml%2BYyiQ%3D%3D&Expires=1733453754",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# 438 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.\n\n# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41\n\n[Except as indicated, by Santa Maria Valley Water Conservation District]",
+                "embed": "# 438 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.\n\n# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41\n\n[Except as indicated, by Santa Maria Valley Water Conservation District]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.07576706324358172,
+                            "top": 0.04731505820503192,
+                            "width": 0.7639323731997495,
+                            "height": 0.016147202403304545,
+                            "page": 1
+                        },
+                        "content": "438 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.14464621164683783,
+                            "top": 0.08298911002628614,
+                            "width": 0.6975579211020664,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "Water level, in feet below land-surface datum, 1930, 1934, and 1936-41",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1959924859110833,
+                            "top": 0.10176492677431469,
+                            "width": 0.5867251095804634,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "[Except as indicated, by Santa Maria Valley Water Conservation District]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1930</td><td></td><td>1939</td><td></td><td>1941</td><td></td></tr><tr><td>Oct. 3</td><td>61. 3</td><td>Jan. 1</td><td>61. 72</td><td>June 4</td><td>2 4 60. 43.</td></tr><tr><td></td><td></td><td>Apr. 1</td><td>60. 00</td><td>July 1</td><td>57. 41</td></tr><tr><td>1934</td><td></td><td>July 1</td><td>3 66. 13</td><td>July 23</td><td>4 57. 72</td></tr><tr><td>Feb. 2</td><td>67. 46</td><td>Oct. 1</td><td>3 67. 22</td><td>Aug. 6</td><td>2 4 63. 50</td></tr><tr><td></td><td></td><td></td><td></td><td>Aug. 20</td><td>2 4 62. 49</td></tr><tr><td>1936</td><td></td><td>1940</td><td></td><td>Sept. 3</td><td>4 58. 02</td></tr><tr><td>Sept. 12</td><td>62. 55</td><td>Jan. 1</td><td>64. 20</td><td>Sept. 17\nOct. 1</td><td>24 61. 88\n4 58. 34</td></tr><tr><td>1937</td><td></td><td>Apr. 1</td><td>64. 20</td><td>Oct. 1</td><td>57. 47</td></tr><tr><td></td><td></td><td>July 1</td><td>3 69. 13</td><td>Oct. 8</td><td>4 57. 72</td></tr><tr><td>June 1</td><td>71. 8</td><td>Oct. 1</td><td>70. 30</td><td>Oct. 22</td><td>4 56. 51</td></tr><tr><td>1938</td><td></td><td>1941</td><td></td><td>Nov. 5</td><td>4 56. 15</td></tr><tr><td></td><td></td><td></td><td></td><td>Nov. 19</td><td>4 56. 62</td></tr><tr><td>Apr. 1</td><td>61. 63</td><td>Jan. 1</td><td>67.90</td><td>Dec. 3</td><td>4 55. 26</td></tr><tr><td>July 1</td><td>64.38</td><td>Apr. 1</td><td>59.30</td><td>Dec. 17</td><td>4 54. 61</td></tr><tr><td>Oct. 1</td><td>63.05</td><td>May 14</td><td>4 55.08</td><td>Dec. 31</td><td>4 54. 47</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\n1 By J. B. Lippincott Engineering Offices, Los Angeles.\n2 Pump operating in well.",
+                "embed": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1930</td><td></td><td>1939</td><td></td><td>1941</td><td></td></tr><tr><td>Oct. 3</td><td>61. 3</td><td>Jan. 1</td><td>61. 72</td><td>June 4</td><td>2 4 60. 43.</td></tr><tr><td></td><td></td><td>Apr. 1</td><td>60. 00</td><td>July 1</td><td>57. 41</td></tr><tr><td>1934</td><td></td><td>July 1</td><td>3 66. 13</td><td>July 23</td><td>4 57. 72</td></tr><tr><td>Feb. 2</td><td>67. 46</td><td>Oct. 1</td><td>3 67. 22</td><td>Aug. 6</td><td>2 4 63. 50</td></tr><tr><td></td><td></td><td></td><td></td><td>Aug. 20</td><td>2 4 62. 49</td></tr><tr><td>1936</td><td></td><td>1940</td><td></td><td>Sept. 3</td><td>4 58. 02</td></tr><tr><td>Sept. 12</td><td>62. 55</td><td>Jan. 1</td><td>64. 20</td><td>Sept. 17\nOct. 1</td><td>24 61. 88\n4 58. 34</td></tr><tr><td>1937</td><td></td><td>Apr. 1</td><td>64. 20</td><td>Oct. 1</td><td>57. 47</td></tr><tr><td></td><td></td><td>July 1</td><td>3 69. 13</td><td>Oct. 8</td><td>4 57. 72</td></tr><tr><td>June 1</td><td>71. 8</td><td>Oct. 1</td><td>70. 30</td><td>Oct. 22</td><td>4 56. 51</td></tr><tr><td>1938</td><td></td><td>1941</td><td></td><td>Nov. 5</td><td>4 56. 15</td></tr><tr><td></td><td></td><td></td><td></td><td>Nov. 19</td><td>4 56. 62</td></tr><tr><td>Apr. 1</td><td>61. 63</td><td>Jan. 1</td><td>67.90</td><td>Dec. 3</td><td>4 55. 26</td></tr><tr><td>July 1</td><td>64.38</td><td>Apr. 1</td><td>59.30</td><td>Dec. 17</td><td>4 54. 61</td></tr><tr><td>Oct. 1</td><td>63.05</td><td>May 14</td><td>4 55.08</td><td>Dec. 31</td><td>4 54. 47</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\n1 By J. B. Lippincott Engineering Offices, Los Angeles.\n2 Pump operating in well.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07213023549404156,
+                            "top": 0.11570600508927315,
+                            "width": 0.8416489115639186,
+                            "height": 0.21061438955492512,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1930</td><td></td><td>1939</td><td></td><td>1941</td><td></td></tr><tr><td>Oct. 3</td><td>61. 3</td><td>Jan. 1</td><td>61. 72</td><td>June 4</td><td>2 4 60. 43.</td></tr><tr><td></td><td></td><td>Apr. 1</td><td>60. 00</td><td>July 1</td><td>57. 41</td></tr><tr><td>1934</td><td></td><td>July 1</td><td>3 66. 13</td><td>July 23</td><td>4 57. 72</td></tr><tr><td>Feb. 2</td><td>67. 46</td><td>Oct. 1</td><td>3 67. 22</td><td>Aug. 6</td><td>2 4 63. 50</td></tr><tr><td></td><td></td><td></td><td></td><td>Aug. 20</td><td>2 4 62. 49</td></tr><tr><td>1936</td><td></td><td>1940</td><td></td><td>Sept. 3</td><td>4 58. 02</td></tr><tr><td>Sept. 12</td><td>62. 55</td><td>Jan. 1</td><td>64. 20</td><td>Sept. 17\nOct. 1</td><td>24 61. 88\n4 58. 34</td></tr><tr><td>1937</td><td></td><td>Apr. 1</td><td>64. 20</td><td>Oct. 1</td><td>57. 47</td></tr><tr><td></td><td></td><td>July 1</td><td>3 69. 13</td><td>Oct. 8</td><td>4 57. 72</td></tr><tr><td>June 1</td><td>71. 8</td><td>Oct. 1</td><td>70. 30</td><td>Oct. 22</td><td>4 56. 51</td></tr><tr><td>1938</td><td></td><td>1941</td><td></td><td>Nov. 5</td><td>4 56. 15</td></tr><tr><td></td><td></td><td></td><td></td><td>Nov. 19</td><td>4 56. 62</td></tr><tr><td>Apr. 1</td><td>61. 63</td><td>Jan. 1</td><td>67.90</td><td>Dec. 3</td><td>4 55. 26</td></tr><tr><td>July 1</td><td>64.38</td><td>Apr. 1</td><td>59.30</td><td>Dec. 17</td><td>4 54. 61</td></tr><tr><td>Oct. 1</td><td>63.05</td><td>May 14</td><td>4 55.08</td><td>Dec. 31</td><td>4 54. 47</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09204758922980588,
+                            "top": 0.32820127675553884,
+                            "width": 0.4314339386349405,
+                            "height": 0.020277882087870822,
+                            "page": 1
+                        },
+                        "content": "1 By J. B. Lippincott Engineering Offices, Los Angeles.\n2 Pump operating in well.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\n3 Pump shut down prior to measurement. 4 By Geological Survey.\n\n10/34-7B1 (SJP 16,7 JBL 156-F). A. F. Pereira. About 3.5 miles nearly west of Santa Maria, about 0.6 mile north of State Highway 166, 0.4 mile west of Casmalia Road (extended), 120 feet north of farm road, 20 feet west of property- line fence, 10 feet north of frame tank and tower, in corrugated-steel pump house. Measuring point, top west side of pump base through hole, 0.60 foot above land- surface datum and about 162 feet above sea-level datum of 1929.",
+                "embed": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\n3 Pump shut down prior to measurement. 4 By Geological Survey.\n\n10/34-7B1 (SJP 16,7 JBL 156-F). A. F. Pereira. About 3.5 miles nearly west of Santa Maria, about 0.6 mile north of State Highway 166, 0.4 mile west of Casmalia Road (extended), 120 feet north of farm road, 20 feet west of property- line fence, 10 feet north of frame tank and tower, in corrugated-steel pump house. Measuring point, top west side of pump base through hole, 0.60 foot above land- surface datum and about 162 feet above sea-level datum of 1929.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.5623043206011271,
+                            "top": 0.3285767930904994,
+                            "width": 0.3287413901064496,
+                            "height": 0.01952684941794968,
+                            "page": 1
+                        },
+                        "content": "3 Pump shut down prior to measurement. 4 By Geological Survey.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07764558547276143,
+                            "top": 0.3586180998873451,
+                            "width": 0.8359423919849718,
+                            "height": 0.09012392039053699,
+                            "page": 1
+                        },
+                        "content": "10/34-7B1 (SJP 16,7 JBL 156-F). A. F. Pereira. About 3.5 miles nearly west of Santa Maria, about 0.6 mile north of State Highway 166, 0.4 mile west of Casmalia Road (extended), 120 feet north of farm road, 20 feet west of property- line fence, 10 feet north of frame tank and tower, in corrugated-steel pump house. Measuring point, top west side of pump base through hole, 0.60 foot above land- surface datum and about 162 feet above sea-level datum of 1929.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\nWater level, in feet below land-surface datum, 1929-34 [By San Joaquin Power Division of Pacific Gas & Electric Co.]\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1929\nAugust</td><td>63.00</td><td>1931\nAugust</td><td>70.25</td><td>1933\nAugust</td><td>75. 00</td></tr><tr><td>1930\nAugust\nOct. 3</td><td>62. 50\n1 66. 2</td><td>1932\nAugust</td><td>72. 08</td><td>1934\nAugust</td><td>86. 16</td></tr></table>\n\n1 By J. B. Lippincott Engineering Offices, Los Angeles.\n\n10/34-7G1 (SJP 16 8). J. J. Souza. About 3.5 miles nearly west of Santa Maria, about 0.45 mile north of State Highway 166, 0.4 mile west of Casmalia Road (extended), 0.2 mile nearly south of irrigation well 10/34-7B1, 10 feet west of farm road, in corrugated-steel pump house by open field. Measuring point, bottom west side of pump base through square hole in concrete foundation, 0.20 foot above land-surface datum and about 164 feet above sea-level datum of 1929.",
+                "embed": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\nWater level, in feet below land-surface datum, 1929-34 [By San Joaquin Power Division of Pacific Gas & Electric Co.]\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1929\nAugust</td><td>63.00</td><td>1931\nAugust</td><td>70.25</td><td>1933\nAugust</td><td>75. 00</td></tr><tr><td>1930\nAugust\nOct. 3</td><td>62. 50\n1 66. 2</td><td>1932\nAugust</td><td>72. 08</td><td>1934\nAugust</td><td>86. 16</td></tr></table>\n\n1 By J. B. Lippincott Engineering Offices, Los Angeles.\n\n10/34-7G1 (SJP 16 8). J. J. Souza. About 3.5 miles nearly west of Santa Maria, about 0.45 mile north of State Highway 166, 0.4 mile west of Casmalia Road (extended), 0.2 mile nearly south of irrigation well 10/34-7B1, 10 feet west of farm road, in corrugated-steel pump house by open field. Measuring point, bottom west side of pump base through square hole in concrete foundation, 0.20 foot above land-surface datum and about 164 feet above sea-level datum of 1929.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2285535378835316,
+                            "top": 0.46301164100638376,
+                            "width": 0.5341264871634315,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "Water level, in feet below land-surface datum, 1929-34 [By San Joaquin Power Division of Pacific Gas & Electric Co.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07106985475543744,
+                            "top": 0.49458732991750376,
+                            "width": 0.8451226460762,
+                            "height": 0.09834480357268588,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1929\nAugust</td><td>63.00</td><td>1931\nAugust</td><td>70.25</td><td>1933\nAugust</td><td>75. 00</td></tr><tr><td>1930\nAugust\nOct. 3</td><td>62. 50\n1 66. 2</td><td>1932\nAugust</td><td>72. 08</td><td>1934\nAugust</td><td>86. 16</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09392611145898559,
+                            "top": 0.5944423582425835,
+                            "width": 0.43519098309329995,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "1 By J. B. Lippincott Engineering Offices, Los Angeles.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07764558547276143,
+                            "top": 0.6180998873450995,
+                            "width": 0.8371947401377583,
+                            "height": 0.09049943672549755,
+                            "page": 1
+                        },
+                        "content": "10/34-7G1 (SJP 16 8). J. J. Souza. About 3.5 miles nearly west of Santa Maria, about 0.45 mile north of State Highway 166, 0.4 mile west of Casmalia Road (extended), 0.2 mile nearly south of irrigation well 10/34-7B1, 10 feet west of farm road, in corrugated-steel pump house by open field. Measuring point, bottom west side of pump base through square hole in concrete foundation, 0.20 foot above land-surface datum and about 164 feet above sea-level datum of 1929.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\nWater level, in feet below land-surface datum, 1935-41\n\n[Except as indicated, by San Joaquin Power Division of Pacific Gas & Electric Co.]\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1935\nAugust</td><td>90.17</td><td>1938\nAugust</td><td>88. 00</td><td>1941</td><td></td></tr><tr><td>1936\nAugust</td><td>92. 75</td><td>1939\nAugust</td><td>86. 25</td><td>August</td><td>1 84. 0</td></tr><tr><td>1937\nAugust</td><td>91. 83</td><td>1940\nAugust</td><td>1 91. 03</td><td>Dec. 16</td><td>2 63. 41</td></tr></table>\n\n1 Pump shut down prior to measurement. 2 By Geological Survey.",
+                "embed": "# Water level, in feet below land-surface datum, 1930, 1934, and 1936-41 (cont.)\n\nWater level, in feet below land-surface datum, 1935-41\n\n[Except as indicated, by San Joaquin Power Division of Pacific Gas & Electric Co.]\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1935\nAugust</td><td>90.17</td><td>1938\nAugust</td><td>88. 00</td><td>1941</td><td></td></tr><tr><td>1936\nAugust</td><td>92. 75</td><td>1939\nAugust</td><td>86. 25</td><td>August</td><td>1 84. 0</td></tr><tr><td>1937\nAugust</td><td>91. 83</td><td>1940\nAugust</td><td>1 91. 03</td><td>Dec. 16</td><td>2 63. 41</td></tr></table>\n\n1 Pump shut down prior to measurement. 2 By Geological Survey.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.23418910457107076,
+                            "top": 0.7224934284641382,
+                            "width": 0.5322479649342517,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "Water level, in feet below land-surface datum, 1935-41",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16718847839699436,
+                            "top": 0.7412692452121667,
+                            "width": 0.6562304320601127,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "[Except as indicated, by San Joaquin Power Division of Pacific Gas & Electric Co.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07108377111503013,
+                            "top": 0.7544091998568344,
+                            "width": 0.8454658446195503,
+                            "height": 0.10636445180482539,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1935\nAugust</td><td>90.17</td><td>1938\nAugust</td><td>88. 00</td><td>1941</td><td></td></tr><tr><td>1936\nAugust</td><td>92. 75</td><td>1939\nAugust</td><td>86. 25</td><td>August</td><td>1 84. 0</td></tr><tr><td>1937\nAugust</td><td>91. 83</td><td>1940\nAugust</td><td>1 91. 03</td><td>Dec. 16</td><td>2 63. 41</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09392611145898559,
+                            "top": 0.8636875704093128,
+                            "width": 0.32686286787726987,
+                            "height": 0.01915133308298911,
+                            "page": 1
+                        },
+                        "content": "1 Pump shut down prior to measurement. 2 By Geological Survey.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.09455228553537884,
+                            "top": 0.8914757791963951,
+                            "width": 0.3638071383844709,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "7 After 1934, SJP 16 assigned to well 10/34-7G1.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.09455228553537884,
+                            "top": 0.9012392039053699,
+                            "width": 0.38384470882905447,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "8 Prior to 1935, SJP 16 assigned to well 10/34-7B1.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

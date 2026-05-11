@@ -1,0 +1,334 @@
+{
+    "job_id": "5b97b483-43e5-45a6-9392-ddc48df6ffd8",
+    "duration": 6.844588041305542,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/ebd3735a-06d7-497d-ab81-746184799338?AWSAccessKeyId=ASIA2UOK6OVBH75VXP7J&Signature=oHQl1zNQcX9kcRqLNPtbtb9in5s%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIE6%2BgUj3kIyLpLRNDqFSBNLc4tWQaxQXIohA%2BRMpBcUTAiEApAJa188kE9YAHUyiAR3SDoXmojGu2SAtwhGc1HFixPgqiwUIIhAAGgw3MzExMDY5MzIwMzQiDPNS2q2594qT9u2HziroBG5znMGV37yTFVY7mSkd21LZf3UELb%2BrJ2VdQvgno11fSHtWFsRQSkSsH4ISFOLkKekPmHO9tLrR8hDIohQuZ1nfiw8Waa%2Fu251u%2Fy%2BciFE1uIsc5KjxKj3tfNBOuuO%2BuJjqWcmdE76O9OzNCrxQeNmnKLyORaNTep4cS6RpUdtFQHh2c6Atv8tyIkhq4Za%2FVBklE4VnT3DhZua3sxlAKyyoTXcXUcqgNkgNq%2BHvgZvqkIpTHhi2O3%2BDHTN5Je93WGITWK1MqB%2BzwH4pH2jLh99KGAo%2BvUeISgBH0XpB2gO6lZ0Dsi7Jjvf6CR1%2BTi7ahTsXX7zhIw%2BILALz3DBpB%2BAytjgVlawqz1CWlUwwnktHXbjpgBtgnyzb9Pi%2Bigxq%2BhaMbFiXpuN6td8IbVgOpB%2F2XVXxhLBoaitplS7RzpLjCpOZL47Q9CLgm%2BpTDc6HXvnKpwRrGl%2FGfaYuljQoEUbUkBaYYmARLu9t%2FOZ5NgG8XzB0d0l%2BChM8kKtym6dHS3UlDt%2Ff4q8v7thBkjyNox9%2BCSRFbs%2FceNW2KttXkfF6SGgxtdPc5INqzmHjjGjrEW%2B4VT9ynIfHKgT405yYMAUXhZYWfEn7F6HU92IQbQ%2F26V9tCDEgq%2Fe3wRwT0i0SO0d0nO1wkhccivqOAS7fzIfFXAcVn4w4g4FGZL3kUXMABqZY8dI53zuTimbTJdcxDGnFhHKMJXszWHQcDdgenpApUD%2B6jbTwUVtNIhClxtsGioc6nDHB%2B1%2B2VKTC1B2SqwAYZZZ1s4cc1xVJYR1Dn7Ucfd8BxkfcPNIp9zGfkMpdtGJJ2oU8dy8whp%2FJugY6mwGBavBrH%2BKNGmsOAGL5ZKhAmvi54zbENuE2StU%2FkjiqdyXbJOmMCQEHIemqNoOZUOhiWSYZ5Aa%2FqDkcMZW4QKyzu%2FRx9%2F25b3GppdptAKHln1omXnaBD9aOOlyRXRh4NuAtAQPb%2BZXPBU8uCsLpC3X8SrhdlSTFYt3PKSyRL9jDp9Bxt6BI1js5F%2FKr3iqA2jQFnFzNrI9ONQly6A%3D%3D&Expires=1733451387",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11292270531400966,
+                            "top": 0.04919263987983477,
+                            "width": 0.027777777777777776,
+                            "height": 0.008261359369132557,
+                            "page": 1
+                        },
+                        "content": "272",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Monthly and yearly mean discharge, in cubic feet per second, of Tahquitz Creek near Palm Springs, Calif.\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1948</td><td>O</td><td>o</td><td>o</td><td>o</td><td>0.69</td><td>0.83</td><td>3.08</td><td>1.58</td><td>0.156</td><td>*0.178</td><td>o</td><td>o</td><td>*0.538</td></tr><tr><td>1949</td><td>o</td><td>.17</td><td>.51</td><td>.71</td><td>.80</td><td>1.56</td><td>7.61</td><td>8.31</td><td>2.23</td><td>.169</td><td>o</td><td>O</td><td>1.84</td></tr><tr><td>1950</td><td>o</td><td>.007</td><td>.33</td><td>.46</td><td>2.64</td><td>2.67</td><td>3.63</td><td>1.69</td><td>.20</td><td>.006</td><td>o</td><td>o</td><td>,96</td></tr></table>\n\nRevised.",
+                "embed": "Monthly and yearly mean discharge, in cubic feet per second, of Tahquitz Creek near Palm Springs, Calif.\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1948</td><td>O</td><td>o</td><td>o</td><td>o</td><td>0.69</td><td>0.83</td><td>3.08</td><td>1.58</td><td>0.156</td><td>*0.178</td><td>o</td><td>o</td><td>*0.538</td></tr><tr><td>1949</td><td>o</td><td>.17</td><td>.51</td><td>.71</td><td>.80</td><td>1.56</td><td>7.61</td><td>8.31</td><td>2.23</td><td>.169</td><td>o</td><td>O</td><td>1.84</td></tr><tr><td>1950</td><td>o</td><td>.007</td><td>.33</td><td>.46</td><td>2.64</td><td>2.67</td><td>3.63</td><td>1.69</td><td>.20</td><td>.006</td><td>o</td><td>o</td><td>,96</td></tr></table>\n\nRevised.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.4420289855072464,
+                            "top": 0.04769057453999249,
+                            "width": 0.14371980676328502,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "SALTON SEA BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12077294685990338,
+                            "top": 0.0758542996620353,
+                            "width": 0.7729468599033816,
+                            "height": 0.017273751408186256,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly mean discharge, in cubic feet per second, of Tahquitz Creek near Palm Springs, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10687935870626698,
+                            "top": 0.0937211498299175,
+                            "width": 0.8037577274340938,
+                            "height": 0.04801568472873345,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1948</td><td>O</td><td>o</td><td>o</td><td>o</td><td>0.69</td><td>0.83</td><td>3.08</td><td>1.58</td><td>0.156</td><td>*0.178</td><td>o</td><td>o</td><td>*0.538</td></tr><tr><td>1949</td><td>o</td><td>.17</td><td>.51</td><td>.71</td><td>.80</td><td>1.56</td><td>7.61</td><td>8.31</td><td>2.23</td><td>.169</td><td>o</td><td>O</td><td>1.84</td></tr><tr><td>1950</td><td>o</td><td>.007</td><td>.33</td><td>.46</td><td>2.64</td><td>2.67</td><td>3.63</td><td>1.69</td><td>.20</td><td>.006</td><td>o</td><td>o</td><td>,96</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14492753623188406,
+                            "top": 0.13931656027037176,
+                            "width": 0.06280193236714976,
+                            "height": 0.007510326699211416,
+                            "page": 1
+                        },
+                        "content": "Revised.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Monthly and yearly runoff, in acre-feet\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1948</td><td>o</td><td>o</td><td>o</td><td>o</td><td>39</td><td>51</td><td>183</td><td>97</td><td>9.3</td><td>*11</td><td>o</td><td>o</td><td>*390</td></tr><tr><td>1949</td><td>o</td><td>10</td><td>32</td><td>44</td><td>45</td><td>96</td><td>453</td><td>511</td><td>132</td><td>10</td><td>o</td><td>o</td><td>1,330</td></tr><tr><td>1950</td><td>o</td><td>.4</td><td>20</td><td>29</td><td>147</td><td>164</td><td>216</td><td>104</td><td>12</td><td>.4</td><td>o</td><td>o</td><td>693</td></tr></table>\n\nRevised.",
+                "embed": "Monthly and yearly runoff, in acre-feet\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1948</td><td>o</td><td>o</td><td>o</td><td>o</td><td>39</td><td>51</td><td>183</td><td>97</td><td>9.3</td><td>*11</td><td>o</td><td>o</td><td>*390</td></tr><tr><td>1949</td><td>o</td><td>10</td><td>32</td><td>44</td><td>45</td><td>96</td><td>453</td><td>511</td><td>132</td><td>10</td><td>o</td><td>o</td><td>1,330</td></tr><tr><td>1950</td><td>o</td><td>.4</td><td>20</td><td>29</td><td>147</td><td>164</td><td>216</td><td>104</td><td>12</td><td>.4</td><td>o</td><td>o</td><td>693</td></tr></table>\n\nRevised.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3556763285024155,
+                            "top": 0.15996995869320316,
+                            "width": 0.31219806763285024,
+                            "height": 0.00976342470897484,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly runoff, in acre-feet",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10827255249023438,
+                            "top": 0.169592209521246,
+                            "width": 0.8024038969030702,
+                            "height": 0.04651725789097705,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1948</td><td>o</td><td>o</td><td>o</td><td>o</td><td>39</td><td>51</td><td>183</td><td>97</td><td>9.3</td><td>*11</td><td>o</td><td>o</td><td>*390</td></tr><tr><td>1949</td><td>o</td><td>10</td><td>32</td><td>44</td><td>45</td><td>96</td><td>453</td><td>511</td><td>132</td><td>10</td><td>o</td><td>o</td><td>1,330</td></tr><tr><td>1950</td><td>o</td><td>.4</td><td>20</td><td>29</td><td>147</td><td>164</td><td>216</td><td>104</td><td>12</td><td>.4</td><td>o</td><td>o</td><td>693</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1431159420289855,
+                            "top": 0.21366879459256477,
+                            "width": 0.06280193236714976,
+                            "height": 0.007510326699211416,
+                            "page": 1
+                        },
+                        "content": "Revised.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Yearly discharge, in cubic feet per second\n\n<table><tr><th rowspan=\"3\">Year</th><th rowspan=\"3\">W.S.P.\nno.</th><th colspan=\"5\">Water year ending Sept. 30</th><th colspan=\"2\">Calendar year</th></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1948</td><td>1120,1244</td><td>*143</td><td>July 22, 1948</td><td>o</td><td>*0.538</td><td>*390</td><td>*0.596</td><td>*432</td></tr><tr><td>1949</td><td>1150</td><td>19</td><td>Apr. 24, 1949</td><td>o</td><td>1.84</td><td>1,330</td><td>1.81</td><td>1,310</td></tr><tr><td>1950</td><td>1180</td><td>15</td><td>Feb. 7, 1950</td><td>o</td><td>.96</td><td>693</td><td>.931</td><td>675</td></tr></table>\n\nRevised.",
+                "embed": "Yearly discharge, in cubic feet per second\n\n<table><tr><th rowspan=\"3\">Year</th><th rowspan=\"3\">W.S.P.\nno.</th><th colspan=\"5\">Water year ending Sept. 30</th><th colspan=\"2\">Calendar year</th></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1948</td><td>1120,1244</td><td>*143</td><td>July 22, 1948</td><td>o</td><td>*0.538</td><td>*390</td><td>*0.596</td><td>*432</td></tr><tr><td>1949</td><td>1150</td><td>19</td><td>Apr. 24, 1949</td><td>o</td><td>1.84</td><td>1,330</td><td>1.81</td><td>1,310</td></tr><tr><td>1950</td><td>1180</td><td>15</td><td>Feb. 7, 1950</td><td>o</td><td>.96</td><td>693</td><td>.931</td><td>675</td></tr></table>\n\nRevised.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3393719806763285,
+                            "top": 0.23582425835523846,
+                            "width": 0.3363526570048309,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "Yearly discharge, in cubic feet per second",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11056290041421346,
+                            "top": 0.2447843018036519,
+                            "width": 0.8005702806555707,
+                            "height": 0.06665948974517696,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"3\">Year</th><th rowspan=\"3\">W.S.P.\nno.</th><th colspan=\"5\">Water year ending Sept. 30</th><th colspan=\"2\">Calendar year</th></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1948</td><td>1120,1244</td><td>*143</td><td>July 22, 1948</td><td>o</td><td>*0.538</td><td>*390</td><td>*0.596</td><td>*432</td></tr><tr><td>1949</td><td>1150</td><td>19</td><td>Apr. 24, 1949</td><td>o</td><td>1.84</td><td>1,330</td><td>1.81</td><td>1,310</td></tr><tr><td>1950</td><td>1180</td><td>15</td><td>Feb. 7, 1950</td><td>o</td><td>.96</td><td>693</td><td>.931</td><td>675</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14371980676328502,
+                            "top": 0.3086744273375892,
+                            "width": 0.06159420289855073,
+                            "height": 0.007510326699211416,
+                            "page": 1
+                        },
+                        "content": "Revised.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "## 267. Palm Canyon Creek near Palm Springs, Calif.\n\nLocation (revised) -Lat 33\u00b044'45\", long 116\u00b032'05\" in SE1 sec. 11, T. 5 S., R. 4 E., three-quarters of a mile upstream from Murray Canyon Creek and 6 miles south of Palm Springs\n\nDrainage area.--94.0 sq mi.\n\nGage -Water-stage recorder. Altitude of gage is 700 ft (from topographic map). Prior to Jan. 14, 1942, at datum 0.2 ft higher.\n\nAverage discharge. years (1930-41, 1947-50), 6.21 cfs; median of yearly mean dis- charges, 1.6 cfs.\n\nExtremes -1930-41, 1947-50: Maximum discharge, 3,850 cfs Feb. 6, 1937 (gage height, 5.60 ft, datum then in use), from rating curve extended above 120 cfs on basis of velocity-area studies; no flow during several months of most years.\n\nRemarks No regulation or diversion.\n\nMonthly and yearly mean discharge, in cubic feet per second",
+                "embed": "## 267. Palm Canyon Creek near Palm Springs, Calif.\n\nLocation (revised) -Lat 33\u00b044'45\", long 116\u00b032'05\" in SE1 sec. 11, T. 5 S., R. 4 E., three-quarters of a mile upstream from Murray Canyon Creek and 6 miles south of Palm Springs\n\nDrainage area.--94.0 sq mi.\n\nGage -Water-stage recorder. Altitude of gage is 700 ft (from topographic map). Prior to Jan. 14, 1942, at datum 0.2 ft higher.\n\nAverage discharge. years (1930-41, 1947-50), 6.21 cfs; median of yearly mean dis- charges, 1.6 cfs.\n\nExtremes -1930-41, 1947-50: Maximum discharge, 3,850 cfs Feb. 6, 1937 (gage height, 5.60 ft, datum then in use), from rating curve extended above 120 cfs on basis of velocity-area studies; no flow during several months of most years.\n\nRemarks No regulation or diversion.\n\nMonthly and yearly mean discharge, in cubic feet per second",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.29589371980676327,
+                            "top": 0.3563650018775817,
+                            "width": 0.42632850241545894,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "267. Palm Canyon Creek near Palm Springs, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10990338164251208,
+                            "top": 0.37476530229064964,
+                            "width": 0.7741545893719807,
+                            "height": 0.030416823131806235,
+                            "page": 1
+                        },
+                        "content": "Location (revised) -Lat 33\u00b044'45\", long 116\u00b032'05\" in SE1 sec. 11, T. 5 S., R. 4 E., three-quarters of a mile upstream from Murray Canyon Creek and 6 miles south of Palm Springs",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10990338164251208,
+                            "top": 0.413819001126549,
+                            "width": 0.23852657004830918,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "Drainage area.--94.0 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10990338164251208,
+                            "top": 0.43221930153961696,
+                            "width": 0.7735507246376812,
+                            "height": 0.021028914757791964,
+                            "page": 1
+                        },
+                        "content": "Gage -Water-stage recorder. Altitude of gage is 700 ft (from topographic map). Prior to Jan. 14, 1942, at datum 0.2 ft higher.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1105072463768116,
+                            "top": 0.46038302666165976,
+                            "width": 0.7542270531400966,
+                            "height": 0.019902365752910253,
+                            "page": 1
+                        },
+                        "content": "Average discharge. years (1930-41, 1947-50), 6.21 cfs; median of yearly mean dis- charges, 1.6 cfs.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10929951690821256,
+                            "top": 0.4885467517837026,
+                            "width": 0.7536231884057971,
+                            "height": 0.030792339466766804,
+                            "page": 1
+                        },
+                        "content": "Extremes -1930-41, 1947-50: Maximum discharge, 3,850 cfs Feb. 6, 1937 (gage height, 5.60 ft, datum then in use), from rating curve extended above 120 cfs on basis of velocity-area studies; no flow during several months of most years.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10990338164251208,
+                            "top": 0.5268494179496808,
+                            "width": 0.32669082125603865,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "Remarks No regulation or diversion.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2717391304347826,
+                            "top": 0.5587683064213294,
+                            "width": 0.4722222222222222,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly mean discharge, in cubic feet per second",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "## 267. Palm Canyon Creek near Palm Springs, Calif. (cont.)\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1930</td><td></td><td>-</td><td></td><td>-</td><td>3.53</td><td>8.60</td><td>3.45</td><td>7.34</td><td>0.46</td><td>0.05</td><td>0.37</td><td>o</td><td>-</td></tr><tr><td>1931</td><td>o</td><td>0.08</td><td>.11</td><td>.05</td><td>3.37</td><td>.29</td><td>.08</td><td>.003</td><td>o</td><td>o</td><td>.17</td><td>o</td><td>0.33</td></tr><tr><td>1932</td><td>.522</td><td>.27</td><td>15.9</td><td>1.53</td><td>142</td><td>23.7</td><td>8.62</td><td>3.56</td><td>1.12</td><td>.06</td><td>o</td><td>o</td><td>15.9</td></tr><tr><td>1933</td><td>3.40</td><td>o</td><td>1.46</td><td>3.50</td><td>3.69</td><td>2.24</td><td>1.01</td><td>.45</td><td>o</td><td>o</td><td>o</td><td>o</td><td>1.30</td></tr><tr><td>1934</td><td>o</td><td>o</td><td>.04</td><td>.71</td><td>.63</td><td>.13</td><td></td><td>O</td><td>o</td><td>.32</td><td>.81</td><td>.17</td><td>.23</td></tr><tr><td>1935</td><td>o</td><td>o</td><td>.03</td><td>1.18</td><td>4.28</td><td>2.55</td><td>2.45</td><td>.42</td><td>.01</td><td>.18</td><td>.34</td><td>.07</td><td>.93</td></tr><tr><td>1936</td><td>o</td><td>.04</td><td>.17</td><td>.23</td><td>11.8</td><td>2.03</td><td>7.18</td><td>.70</td><td>.06</td><td>.94</td><td>.09</td><td>o</td><td>1.88</td></tr><tr><td>1937</td><td>o</td><td>o</td><td>29.1</td><td>18.3</td><td>129</td><td>82.8</td><td>43.1</td><td>13.9</td><td>4.03</td><td>1.19</td><td>.65</td><td>.57</td><td>26.2</td></tr><tr><td>1938</td><td>.50</td><td>.60</td><td>1.21</td><td>1.25</td><td>5.89</td><td>86.8</td><td>12.1</td><td>5.69</td><td>2.62</td><td>1.86</td><td>.71</td><td>1.04</td><td>10.1</td></tr><tr><td>1939</td><td>.55</td><td>.72</td><td>4.64</td><td>10.2</td><td>17.3</td><td>7.87</td><td>5.94</td><td>1.22</td><td>.02</td><td>o</td><td>.01</td><td>5.82</td><td>4.43</td></tr><tr><td>1940</td><td>.57</td><td>.55</td><td>.63</td><td>9.65</td><td>15.4</td><td>4.95</td><td>4.79</td><td>.70</td><td>o</td><td>o</td><td>o</td><td>.08</td><td>3.07</td></tr><tr><td>1941</td><td>o</td><td>o</td><td>36.0</td><td>11.8</td><td>36.7</td><td>96.3</td><td>48.9</td><td>15.4</td><td>4.03</td><td>.67</td><td>1.26</td><td>.33</td><td>20.9</td></tr><tr><td>1942</td><td>.92</td><td>3.65</td><td>6.90</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-</td></tr><tr><td>1948</td><td>o</td><td>o</td><td>.05</td><td>.05</td><td>1.12</td><td>1.00</td><td>.55</td><td>.002</td><td>o</td><td>.25</td><td>o</td><td>O</td><td>.248</td></tr><tr><td>1949</td><td>o</td><td>o</td><td>.060</td><td>2.10</td><td>3.88</td><td>3.98</td><td>3.46</td><td>.600</td><td>o</td><td>o</td><td>0</td><td>O</td><td>1,15</td></tr><tr><td>1950</td><td>o</td><td>o</td><td>o</td><td>.463</td><td>2.35</td><td>.162</td><td>.040</td><td>o</td><td>o</td><td>o</td><td>o</td><td>O</td><td>.236</td></tr></table>\n\nMonthly and yearly runoff, in acre-feet",
+                "embed": "## 267. Palm Canyon Creek near Palm Springs, Calif. (cont.)\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1930</td><td></td><td>-</td><td></td><td>-</td><td>3.53</td><td>8.60</td><td>3.45</td><td>7.34</td><td>0.46</td><td>0.05</td><td>0.37</td><td>o</td><td>-</td></tr><tr><td>1931</td><td>o</td><td>0.08</td><td>.11</td><td>.05</td><td>3.37</td><td>.29</td><td>.08</td><td>.003</td><td>o</td><td>o</td><td>.17</td><td>o</td><td>0.33</td></tr><tr><td>1932</td><td>.522</td><td>.27</td><td>15.9</td><td>1.53</td><td>142</td><td>23.7</td><td>8.62</td><td>3.56</td><td>1.12</td><td>.06</td><td>o</td><td>o</td><td>15.9</td></tr><tr><td>1933</td><td>3.40</td><td>o</td><td>1.46</td><td>3.50</td><td>3.69</td><td>2.24</td><td>1.01</td><td>.45</td><td>o</td><td>o</td><td>o</td><td>o</td><td>1.30</td></tr><tr><td>1934</td><td>o</td><td>o</td><td>.04</td><td>.71</td><td>.63</td><td>.13</td><td></td><td>O</td><td>o</td><td>.32</td><td>.81</td><td>.17</td><td>.23</td></tr><tr><td>1935</td><td>o</td><td>o</td><td>.03</td><td>1.18</td><td>4.28</td><td>2.55</td><td>2.45</td><td>.42</td><td>.01</td><td>.18</td><td>.34</td><td>.07</td><td>.93</td></tr><tr><td>1936</td><td>o</td><td>.04</td><td>.17</td><td>.23</td><td>11.8</td><td>2.03</td><td>7.18</td><td>.70</td><td>.06</td><td>.94</td><td>.09</td><td>o</td><td>1.88</td></tr><tr><td>1937</td><td>o</td><td>o</td><td>29.1</td><td>18.3</td><td>129</td><td>82.8</td><td>43.1</td><td>13.9</td><td>4.03</td><td>1.19</td><td>.65</td><td>.57</td><td>26.2</td></tr><tr><td>1938</td><td>.50</td><td>.60</td><td>1.21</td><td>1.25</td><td>5.89</td><td>86.8</td><td>12.1</td><td>5.69</td><td>2.62</td><td>1.86</td><td>.71</td><td>1.04</td><td>10.1</td></tr><tr><td>1939</td><td>.55</td><td>.72</td><td>4.64</td><td>10.2</td><td>17.3</td><td>7.87</td><td>5.94</td><td>1.22</td><td>.02</td><td>o</td><td>.01</td><td>5.82</td><td>4.43</td></tr><tr><td>1940</td><td>.57</td><td>.55</td><td>.63</td><td>9.65</td><td>15.4</td><td>4.95</td><td>4.79</td><td>.70</td><td>o</td><td>o</td><td>o</td><td>.08</td><td>3.07</td></tr><tr><td>1941</td><td>o</td><td>o</td><td>36.0</td><td>11.8</td><td>36.7</td><td>96.3</td><td>48.9</td><td>15.4</td><td>4.03</td><td>.67</td><td>1.26</td><td>.33</td><td>20.9</td></tr><tr><td>1942</td><td>.92</td><td>3.65</td><td>6.90</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-</td></tr><tr><td>1948</td><td>o</td><td>o</td><td>.05</td><td>.05</td><td>1.12</td><td>1.00</td><td>.55</td><td>.002</td><td>o</td><td>.25</td><td>o</td><td>O</td><td>.248</td></tr><tr><td>1949</td><td>o</td><td>o</td><td>.060</td><td>2.10</td><td>3.88</td><td>3.98</td><td>3.46</td><td>.600</td><td>o</td><td>o</td><td>0</td><td>O</td><td>1,15</td></tr><tr><td>1950</td><td>o</td><td>o</td><td>o</td><td>.463</td><td>2.35</td><td>.162</td><td>.040</td><td>o</td><td>o</td><td>o</td><td>o</td><td>O</td><td>.236</td></tr></table>\n\nMonthly and yearly runoff, in acre-feet",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10816927002247981,
+                            "top": 0.5650942806368522,
+                            "width": 0.7996013751928357,
+                            "height": 0.1904438060340781,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1930</td><td></td><td>-</td><td></td><td>-</td><td>3.53</td><td>8.60</td><td>3.45</td><td>7.34</td><td>0.46</td><td>0.05</td><td>0.37</td><td>o</td><td>-</td></tr><tr><td>1931</td><td>o</td><td>0.08</td><td>.11</td><td>.05</td><td>3.37</td><td>.29</td><td>.08</td><td>.003</td><td>o</td><td>o</td><td>.17</td><td>o</td><td>0.33</td></tr><tr><td>1932</td><td>.522</td><td>.27</td><td>15.9</td><td>1.53</td><td>142</td><td>23.7</td><td>8.62</td><td>3.56</td><td>1.12</td><td>.06</td><td>o</td><td>o</td><td>15.9</td></tr><tr><td>1933</td><td>3.40</td><td>o</td><td>1.46</td><td>3.50</td><td>3.69</td><td>2.24</td><td>1.01</td><td>.45</td><td>o</td><td>o</td><td>o</td><td>o</td><td>1.30</td></tr><tr><td>1934</td><td>o</td><td>o</td><td>.04</td><td>.71</td><td>.63</td><td>.13</td><td></td><td>O</td><td>o</td><td>.32</td><td>.81</td><td>.17</td><td>.23</td></tr><tr><td>1935</td><td>o</td><td>o</td><td>.03</td><td>1.18</td><td>4.28</td><td>2.55</td><td>2.45</td><td>.42</td><td>.01</td><td>.18</td><td>.34</td><td>.07</td><td>.93</td></tr><tr><td>1936</td><td>o</td><td>.04</td><td>.17</td><td>.23</td><td>11.8</td><td>2.03</td><td>7.18</td><td>.70</td><td>.06</td><td>.94</td><td>.09</td><td>o</td><td>1.88</td></tr><tr><td>1937</td><td>o</td><td>o</td><td>29.1</td><td>18.3</td><td>129</td><td>82.8</td><td>43.1</td><td>13.9</td><td>4.03</td><td>1.19</td><td>.65</td><td>.57</td><td>26.2</td></tr><tr><td>1938</td><td>.50</td><td>.60</td><td>1.21</td><td>1.25</td><td>5.89</td><td>86.8</td><td>12.1</td><td>5.69</td><td>2.62</td><td>1.86</td><td>.71</td><td>1.04</td><td>10.1</td></tr><tr><td>1939</td><td>.55</td><td>.72</td><td>4.64</td><td>10.2</td><td>17.3</td><td>7.87</td><td>5.94</td><td>1.22</td><td>.02</td><td>o</td><td>.01</td><td>5.82</td><td>4.43</td></tr><tr><td>1940</td><td>.57</td><td>.55</td><td>.63</td><td>9.65</td><td>15.4</td><td>4.95</td><td>4.79</td><td>.70</td><td>o</td><td>o</td><td>o</td><td>.08</td><td>3.07</td></tr><tr><td>1941</td><td>o</td><td>o</td><td>36.0</td><td>11.8</td><td>36.7</td><td>96.3</td><td>48.9</td><td>15.4</td><td>4.03</td><td>.67</td><td>1.26</td><td>.33</td><td>20.9</td></tr><tr><td>1942</td><td>.92</td><td>3.65</td><td>6.90</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-</td></tr><tr><td>1948</td><td>o</td><td>o</td><td>.05</td><td>.05</td><td>1.12</td><td>1.00</td><td>.55</td><td>.002</td><td>o</td><td>.25</td><td>o</td><td>O</td><td>.248</td></tr><tr><td>1949</td><td>o</td><td>o</td><td>.060</td><td>2.10</td><td>3.88</td><td>3.98</td><td>3.46</td><td>.600</td><td>o</td><td>o</td><td>0</td><td>O</td><td>1,15</td></tr><tr><td>1950</td><td>o</td><td>o</td><td>o</td><td>.463</td><td>2.35</td><td>.162</td><td>.040</td><td>o</td><td>o</td><td>o</td><td>o</td><td>O</td><td>.236</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3538647342995169,
+                            "top": 0.7701840030041307,
+                            "width": 0.31219806763285024,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly runoff, in acre-feet",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "## 267. Palm Canyon Creek near Palm Springs, Calif. (cont.)\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1930</td><td>-</td><td>-</td><td></td><td></td><td>196</td><td>529</td><td>205</td><td>451</td><td>27.4</td><td>3.0</td><td>22.8</td><td>o</td><td>-</td></tr><tr><td>1931</td><td>o</td><td>4.8</td><td>6.8</td><td>3.1</td><td>187</td><td>17.8</td><td>4.8</td><td>.2</td><td>o</td><td>o</td><td>10.5</td><td>o</td><td>236</td></tr><tr><td>1932</td><td>32.1</td><td>15.8</td><td>978</td><td>94.1</td><td>1,170</td><td>1,460</td><td>513</td><td>219</td><td>66.6</td><td>3.8</td><td>o</td><td>O</td><td>11,600</td></tr><tr><td>1933</td><td>209</td><td>o</td><td>89.8</td><td>215</td><td>205</td><td>138</td><td>60.1</td><td>27.5</td><td>o</td><td>0</td><td>O</td><td>o</td><td>944</td></tr><tr><td>1934</td><td>o</td><td>O</td><td>2.2</td><td>43.6</td><td>34,9</td><td>7.7</td><td>o</td><td>o</td><td>O</td><td>19.8</td><td>49.6</td><td>9.9</td><td>168</td></tr><tr><td>1935</td><td>o</td><td>o</td><td>1.6</td><td>72</td><td>238</td><td>157</td><td>146</td><td>26</td><td>.6</td><td>11</td><td>21</td><td>4.0</td><td>677</td></tr></table>",
+                "embed": "## 267. Palm Canyon Creek near Palm Springs, Calif. (cont.)\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1930</td><td>-</td><td>-</td><td></td><td></td><td>196</td><td>529</td><td>205</td><td>451</td><td>27.4</td><td>3.0</td><td>22.8</td><td>o</td><td>-</td></tr><tr><td>1931</td><td>o</td><td>4.8</td><td>6.8</td><td>3.1</td><td>187</td><td>17.8</td><td>4.8</td><td>.2</td><td>o</td><td>o</td><td>10.5</td><td>o</td><td>236</td></tr><tr><td>1932</td><td>32.1</td><td>15.8</td><td>978</td><td>94.1</td><td>1,170</td><td>1,460</td><td>513</td><td>219</td><td>66.6</td><td>3.8</td><td>o</td><td>O</td><td>11,600</td></tr><tr><td>1933</td><td>209</td><td>o</td><td>89.8</td><td>215</td><td>205</td><td>138</td><td>60.1</td><td>27.5</td><td>o</td><td>0</td><td>O</td><td>o</td><td>944</td></tr><tr><td>1934</td><td>o</td><td>O</td><td>2.2</td><td>43.6</td><td>34,9</td><td>7.7</td><td>o</td><td>o</td><td>O</td><td>19.8</td><td>49.6</td><td>9.9</td><td>168</td></tr><tr><td>1935</td><td>o</td><td>o</td><td>1.6</td><td>72</td><td>238</td><td>157</td><td>146</td><td>26</td><td>.6</td><td>11</td><td>21</td><td>4.0</td><td>677</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10565049176054876,
+                            "top": 0.778273006242959,
+                            "width": 0.8011236144724675,
+                            "height": 0.0796486098561303,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1930</td><td>-</td><td>-</td><td></td><td></td><td>196</td><td>529</td><td>205</td><td>451</td><td>27.4</td><td>3.0</td><td>22.8</td><td>o</td><td>-</td></tr><tr><td>1931</td><td>o</td><td>4.8</td><td>6.8</td><td>3.1</td><td>187</td><td>17.8</td><td>4.8</td><td>.2</td><td>o</td><td>o</td><td>10.5</td><td>o</td><td>236</td></tr><tr><td>1932</td><td>32.1</td><td>15.8</td><td>978</td><td>94.1</td><td>1,170</td><td>1,460</td><td>513</td><td>219</td><td>66.6</td><td>3.8</td><td>o</td><td>O</td><td>11,600</td></tr><tr><td>1933</td><td>209</td><td>o</td><td>89.8</td><td>215</td><td>205</td><td>138</td><td>60.1</td><td>27.5</td><td>o</td><td>0</td><td>O</td><td>o</td><td>944</td></tr><tr><td>1934</td><td>o</td><td>O</td><td>2.2</td><td>43.6</td><td>34,9</td><td>7.7</td><td>o</td><td>o</td><td>O</td><td>19.8</td><td>49.6</td><td>9.9</td><td>168</td></tr><tr><td>1935</td><td>o</td><td>o</td><td>1.6</td><td>72</td><td>238</td><td>157</td><td>146</td><td>26</td><td>.6</td><td>11</td><td>21</td><td>4.0</td><td>677</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

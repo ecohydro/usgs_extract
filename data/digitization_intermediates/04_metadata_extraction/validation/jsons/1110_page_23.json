@@ -1,0 +1,166 @@
+{
+    "job_id": "2094560d-fd91-4d8c-895f-7eec65fa4a59",
+    "duration": 5.792236566543579,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/2fbbdaab-244a-4062-aab9-0d07d6b41458?AWSAccessKeyId=ASIA2UOK6OVBMX57BUIM&Signature=kPt4ajE88wcbasTUIxPBfwAO%2FU0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJGMEQCIGwHX1m%2FGRWs9GWkr1o82BgFHU6jmSXiswfmw07fE%2B%2F6AiALPOrEIa3okymEEc9WyHbbOjOfbLIEs0V1Kc%2FN7P54%2FSqLBQgiEAAaDDczMTEwNjkzMjAzNCIMh1bnEeyHACWqwkEZKugEKNANeyOfk2RLSi6Gz%2FJJzDNcHpguNVFZ4lKF0zIBad2PoSOb0e6KEPScg0%2F91Iy5avuf%2BrTmdrAtHyckLtNC3qc0fsPadZTkwgRJC8NIvqi2XQSp19nb8DJGo5x4OWTY%2FL3KWNdyRcDKFD89q4UY9lX5UQlZg8LPiUPZMNvhexUY899U4NRRyt0uYqMt2qI%2Fuy4zjukyfzJvivo%2Bq0J5b9FXvCxGbhOxLQGmFfoIjZDZfpuk41s6czTgGl4uRCT35ElW5RKzbTo9oE3N8VK%2B8rKp4XZa0k%2BQatZUHkDRISpH1NS673ZF%2FQ26Gt2zDLbSjV5bLmH2eG9grgOTir8Xv9p%2BIYPZFxQw01xVpL2KpKJiJc95ee4yKTPEiZ1louRnLl%2B28jEnsTSXk1dpJWmJ4F0SZ3JYmGLJSFtKTdt1myQGMXgKftN%2BwtdxTAsSqbv8jxw02k4emEC%2Fz6T8OzR7M9OX3KaouiWzZqJJAABmnWcFyQsAzQo4fGeYdCGcaceyr9Z8Hmq1MyLmtjJFzqADc%2BDlaKVJxJ9b8YlOj%2BcNBZx8omB2H02pv%2FYCAuPekW1zxGGzkWuzMHOcycJgARLq0QOWw40RhjqZ3wpsjJZG%2F52h9%2FPiJCCSCyq%2Br0WBUhxSRuinqgmnV7HY4ure9fd5g2ZWyMM8r%2BonxiLmIWDo2d1y%2FJUE9KmNa%2FXMrgwchHblk9N1HaRSTHGu0IHhDIBYKgQSM0vzK0ztZ4aNmKvLZ5s4uDAOKDhMN6u%2BODoLIuLw9uWPWDtiBkH89dt8DQFair2mluSqfD5Plkim87DzEWXPLShHjimVSjDYiMm6BjqcAeqy5kvkMkGJ8qgCirLeJcnDHchSx9EBhLhQqQ%2B0JaOV4yKiDdkK89nXIHp9JbjshwVzvuxFB8Amt3ywlBc5zkLn1KlbSRBs0Alr%2FudR8jLEsKTbP8Ot7Ux2fbHDcqueeqFe6lcbQ%2FdvtzOCFH995sAOWd5FfQMUOFYqk8Aa7TS2IZ94Bp5mS6xfeLg75wXkaMILzrAeRTeI62q4Rg%3D%3D&Expires=1733450614",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GROUND WATER IN SANTA ROSA AND PETALUMA VALLEYS\n\nTABLE -Annual rainfall, in inches, at five stations in the Santa Rosa and Petaluma Valley areas, California-Continued",
+                "embed": "# GROUND WATER IN SANTA ROSA AND PETALUMA VALLEYS\n\nTABLE -Annual rainfall, in inches, at five stations in the Santa Rosa and Petaluma Valley areas, California-Continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.09178743961352658,
+                            "top": 0.046188509200150205,
+                            "width": 0.028381642512077296,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "16",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.1527777777777778,
+                            "top": 0.04956815621479534,
+                            "width": 0.6745169082125604,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "GROUND WATER IN SANTA ROSA AND PETALUMA VALLEYS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08876811594202899,
+                            "top": 0.07998497934660158,
+                            "width": 0.8007246376811594,
+                            "height": 0.026286143447239955,
+                            "page": 1
+                        },
+                        "content": "TABLE -Annual rainfall, in inches, at five stations in the Santa Rosa and Petaluma Valley areas, California-Continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# [Data from publications of the U. S. Weather Bureau, except for Lakeville]\n\n<table><tr><th>Water year 1</th><th>Healdsburg\n(altitude,\n110 feet)</th><th>Graton\n(altitude,\n190 feet)</th><th>Santa Rosa\n(altitude,\n167 feet)</th><th>Petaluma\n(altitude,\n10 feet)</th><th>Lakville,\nSleepy Hol-\nlow Dairy 2\n(altitude,\n75 feet)</th></tr><tr><td>1914 -15</td><td>56.78</td><td>54. 78</td><td>42. 49</td><td>36. 51</td><td></td></tr><tr><td>1915 -16</td><td>46. 20</td><td>44. 93</td><td>32. 83</td><td>30. 29</td><td></td></tr><tr><td>1916 -17</td><td>25. 82</td><td>31. 00</td><td>21. 52</td><td>17. 19</td><td></td></tr><tr><td>1917 -18</td><td>25. 19</td><td>28. 32</td><td>20. 40</td><td>15. 08</td><td></td></tr><tr><td>1918 -19</td><td>32. 11</td><td>35. 07</td><td>25. 24</td><td>21. 05</td><td></td></tr><tr><td>1919 -20</td><td>18. 82</td><td>23. 31</td><td>12. 83</td><td>11. 58</td><td></td></tr><tr><td>1920 -21</td><td>55. 54</td><td>51. 23</td><td>35. 69</td><td>28. 00</td><td></td></tr><tr><td>1921 -22</td><td>28. 92</td><td>28. 35</td><td>23. 84</td><td>18. 69</td><td></td></tr><tr><td>1922 -23</td><td>32. 04</td><td>38. 72</td><td>29. 91</td><td>24. 75</td><td></td></tr><tr><td>1923 -24</td><td>15. 37</td><td>18. 04</td><td>13. 94</td><td>10. 76</td><td></td></tr><tr><td>1925</td><td>50. 27</td><td>55. 21</td><td>42. 39</td><td>36.29</td><td></td></tr><tr><td>1925 -26</td><td>34. 87</td><td>34. 30</td><td>31. 27</td><td>26. 26</td><td></td></tr><tr><td>1926 -27</td><td>51. 30</td><td>53. 73</td><td>42. 68</td><td></td><td></td></tr><tr><td>1927 -28</td><td>36. 15</td><td>36. 12</td><td>28. 90</td><td>21. 52</td><td></td></tr><tr><td>1928 -29</td><td>24. 33</td><td>27. 01</td><td>19. 23</td><td>16.28</td><td></td></tr><tr><td>1929 -30</td><td>38. 81</td><td>36. 51</td><td>26. 94</td><td>18. 47</td><td>15.55</td></tr><tr><td>1930 -31</td><td>23. 67</td><td>22. 73</td><td>16. 28</td><td>14. 92</td><td>12. 75</td></tr><tr><td>1931 -32</td><td>30. 36</td><td>29. 15</td><td>24. 19</td><td>22. 60</td><td>20. 46</td></tr><tr><td>1932 -33</td><td>26. 67</td><td>25. 92</td><td>20. 92</td><td>17. 17</td><td>13. 06</td></tr><tr><td>1933 -34</td><td>31. 19</td><td>28. 62</td><td>20. 88</td><td>18. 02</td><td>15. 77</td></tr><tr><td>1934 -35</td><td>45. 56</td><td>43. 60</td><td>35. 31</td><td>27. 68</td><td>21. 74</td></tr><tr><td>1935 -36</td><td>37. 44</td><td>43. 33</td><td>30. 04</td><td>24. 95</td><td>19. 39</td></tr><tr><td>1936 -37</td><td>33. 93</td><td>38. 21</td><td>26. 35</td><td>24. 70</td><td>20. 17</td></tr><tr><td>1937 -38</td><td>56. 09</td><td>58. 18</td><td>39. 30</td><td>33. 98</td><td>32. 86</td></tr><tr><td>1938 -39</td><td>19. 27</td><td>21. 83</td><td>14. 26</td><td>13. 21</td><td>11.32</td></tr><tr><td>1939 -40</td><td>57. 05</td><td>52. 57</td><td>38. 55</td><td>30. 98</td><td>26. 68</td></tr><tr><td>1940 -41</td><td>72. 19</td><td>70. 56</td><td>51. 78</td><td>45. 69</td><td>38. 06</td></tr><tr><td>1941 -42</td><td>54. 87</td><td>51. 92</td><td>39. 98</td><td>32. 50</td><td>32. 62</td></tr><tr><td>1942 -43</td><td>38. 47</td><td>41. 12</td><td>32. 39</td><td>24. 93</td><td>22. 72</td></tr><tr><td>1943 -44</td><td>31. 83</td><td>34. 01</td><td>23. 23</td><td>21. 00</td><td>19.68</td></tr><tr><td>1944 -45</td><td>34. 59</td><td>38. 94</td><td>28. 16</td><td>22. 85</td><td>19.67</td></tr><tr><td>1945 -46</td><td>37. 54</td><td>37, 12</td><td>25, 84</td><td>25. 23</td><td>22. 76</td></tr><tr><td>1946 -47</td><td>25. 82</td><td>26. 00</td><td>20. 22</td><td>16. 61</td><td>16. 01</td></tr><tr><td>1947 -48</td><td>36. 11</td><td>35. 22</td><td>28. 39</td><td>19. 03</td><td>14. 16</td></tr><tr><td>1948 -49</td><td>28. 04</td><td>31. 19</td><td>19. 86</td><td>17. 62</td><td>17. 00</td></tr><tr><td>1950</td><td>30. 10</td><td>35. 20</td><td>25. 42</td><td>20. 60</td><td>16. 97</td></tr><tr><td>1950 -51</td><td>40. 08</td><td>46. 47</td><td>32. 06</td><td>26. 43</td><td>24. 10</td></tr><tr><td>1951 -52</td><td>52. 82</td><td>57. 65</td><td>37. 52</td><td>30. 31</td><td>27. 75</td></tr><tr><td>Average</td><td>3 40. 37</td><td>4 39. 55</td><td>5 29. 56</td><td>6 23. 78</td><td>7 20.92</td></tr><tr><td>23 -year average, 1930 -52</td><td>38. 37</td><td>39.39</td><td>28. 60</td><td>23. 89</td><td>20.92</td></tr></table>",
+                "embed": "# [Data from publications of the U. S. Weather Bureau, except for Lakeville]\n\n<table><tr><th>Water year 1</th><th>Healdsburg\n(altitude,\n110 feet)</th><th>Graton\n(altitude,\n190 feet)</th><th>Santa Rosa\n(altitude,\n167 feet)</th><th>Petaluma\n(altitude,\n10 feet)</th><th>Lakville,\nSleepy Hol-\nlow Dairy 2\n(altitude,\n75 feet)</th></tr><tr><td>1914 -15</td><td>56.78</td><td>54. 78</td><td>42. 49</td><td>36. 51</td><td></td></tr><tr><td>1915 -16</td><td>46. 20</td><td>44. 93</td><td>32. 83</td><td>30. 29</td><td></td></tr><tr><td>1916 -17</td><td>25. 82</td><td>31. 00</td><td>21. 52</td><td>17. 19</td><td></td></tr><tr><td>1917 -18</td><td>25. 19</td><td>28. 32</td><td>20. 40</td><td>15. 08</td><td></td></tr><tr><td>1918 -19</td><td>32. 11</td><td>35. 07</td><td>25. 24</td><td>21. 05</td><td></td></tr><tr><td>1919 -20</td><td>18. 82</td><td>23. 31</td><td>12. 83</td><td>11. 58</td><td></td></tr><tr><td>1920 -21</td><td>55. 54</td><td>51. 23</td><td>35. 69</td><td>28. 00</td><td></td></tr><tr><td>1921 -22</td><td>28. 92</td><td>28. 35</td><td>23. 84</td><td>18. 69</td><td></td></tr><tr><td>1922 -23</td><td>32. 04</td><td>38. 72</td><td>29. 91</td><td>24. 75</td><td></td></tr><tr><td>1923 -24</td><td>15. 37</td><td>18. 04</td><td>13. 94</td><td>10. 76</td><td></td></tr><tr><td>1925</td><td>50. 27</td><td>55. 21</td><td>42. 39</td><td>36.29</td><td></td></tr><tr><td>1925 -26</td><td>34. 87</td><td>34. 30</td><td>31. 27</td><td>26. 26</td><td></td></tr><tr><td>1926 -27</td><td>51. 30</td><td>53. 73</td><td>42. 68</td><td></td><td></td></tr><tr><td>1927 -28</td><td>36. 15</td><td>36. 12</td><td>28. 90</td><td>21. 52</td><td></td></tr><tr><td>1928 -29</td><td>24. 33</td><td>27. 01</td><td>19. 23</td><td>16.28</td><td></td></tr><tr><td>1929 -30</td><td>38. 81</td><td>36. 51</td><td>26. 94</td><td>18. 47</td><td>15.55</td></tr><tr><td>1930 -31</td><td>23. 67</td><td>22. 73</td><td>16. 28</td><td>14. 92</td><td>12. 75</td></tr><tr><td>1931 -32</td><td>30. 36</td><td>29. 15</td><td>24. 19</td><td>22. 60</td><td>20. 46</td></tr><tr><td>1932 -33</td><td>26. 67</td><td>25. 92</td><td>20. 92</td><td>17. 17</td><td>13. 06</td></tr><tr><td>1933 -34</td><td>31. 19</td><td>28. 62</td><td>20. 88</td><td>18. 02</td><td>15. 77</td></tr><tr><td>1934 -35</td><td>45. 56</td><td>43. 60</td><td>35. 31</td><td>27. 68</td><td>21. 74</td></tr><tr><td>1935 -36</td><td>37. 44</td><td>43. 33</td><td>30. 04</td><td>24. 95</td><td>19. 39</td></tr><tr><td>1936 -37</td><td>33. 93</td><td>38. 21</td><td>26. 35</td><td>24. 70</td><td>20. 17</td></tr><tr><td>1937 -38</td><td>56. 09</td><td>58. 18</td><td>39. 30</td><td>33. 98</td><td>32. 86</td></tr><tr><td>1938 -39</td><td>19. 27</td><td>21. 83</td><td>14. 26</td><td>13. 21</td><td>11.32</td></tr><tr><td>1939 -40</td><td>57. 05</td><td>52. 57</td><td>38. 55</td><td>30. 98</td><td>26. 68</td></tr><tr><td>1940 -41</td><td>72. 19</td><td>70. 56</td><td>51. 78</td><td>45. 69</td><td>38. 06</td></tr><tr><td>1941 -42</td><td>54. 87</td><td>51. 92</td><td>39. 98</td><td>32. 50</td><td>32. 62</td></tr><tr><td>1942 -43</td><td>38. 47</td><td>41. 12</td><td>32. 39</td><td>24. 93</td><td>22. 72</td></tr><tr><td>1943 -44</td><td>31. 83</td><td>34. 01</td><td>23. 23</td><td>21. 00</td><td>19.68</td></tr><tr><td>1944 -45</td><td>34. 59</td><td>38. 94</td><td>28. 16</td><td>22. 85</td><td>19.67</td></tr><tr><td>1945 -46</td><td>37. 54</td><td>37, 12</td><td>25, 84</td><td>25. 23</td><td>22. 76</td></tr><tr><td>1946 -47</td><td>25. 82</td><td>26. 00</td><td>20. 22</td><td>16. 61</td><td>16. 01</td></tr><tr><td>1947 -48</td><td>36. 11</td><td>35. 22</td><td>28. 39</td><td>19. 03</td><td>14. 16</td></tr><tr><td>1948 -49</td><td>28. 04</td><td>31. 19</td><td>19. 86</td><td>17. 62</td><td>17. 00</td></tr><tr><td>1950</td><td>30. 10</td><td>35. 20</td><td>25. 42</td><td>20. 60</td><td>16. 97</td></tr><tr><td>1950 -51</td><td>40. 08</td><td>46. 47</td><td>32. 06</td><td>26. 43</td><td>24. 10</td></tr><tr><td>1951 -52</td><td>52. 82</td><td>57. 65</td><td>37. 52</td><td>30. 31</td><td>27. 75</td></tr><tr><td>Average</td><td>3 40. 37</td><td>4 39. 55</td><td>5 29. 56</td><td>6 23. 78</td><td>7 20.92</td></tr><tr><td>23 -year average, 1930 -52</td><td>38. 37</td><td>39.39</td><td>28. 60</td><td>23. 89</td><td>20.92</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.2028985507246377,
+                            "top": 0.11378144949305295,
+                            "width": 0.5748792270531401,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "[Data from publications of the U. S. Weather Bureau, except for Lakeville]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.08696185678675555,
+                            "top": 0.13194627292703248,
+                            "width": 0.8080129300914525,
+                            "height": 0.47234742998673956,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water year 1</th><th>Healdsburg\n(altitude,\n110 feet)</th><th>Graton\n(altitude,\n190 feet)</th><th>Santa Rosa\n(altitude,\n167 feet)</th><th>Petaluma\n(altitude,\n10 feet)</th><th>Lakville,\nSleepy Hol-\nlow Dairy 2\n(altitude,\n75 feet)</th></tr><tr><td>1914 -15</td><td>56.78</td><td>54. 78</td><td>42. 49</td><td>36. 51</td><td></td></tr><tr><td>1915 -16</td><td>46. 20</td><td>44. 93</td><td>32. 83</td><td>30. 29</td><td></td></tr><tr><td>1916 -17</td><td>25. 82</td><td>31. 00</td><td>21. 52</td><td>17. 19</td><td></td></tr><tr><td>1917 -18</td><td>25. 19</td><td>28. 32</td><td>20. 40</td><td>15. 08</td><td></td></tr><tr><td>1918 -19</td><td>32. 11</td><td>35. 07</td><td>25. 24</td><td>21. 05</td><td></td></tr><tr><td>1919 -20</td><td>18. 82</td><td>23. 31</td><td>12. 83</td><td>11. 58</td><td></td></tr><tr><td>1920 -21</td><td>55. 54</td><td>51. 23</td><td>35. 69</td><td>28. 00</td><td></td></tr><tr><td>1921 -22</td><td>28. 92</td><td>28. 35</td><td>23. 84</td><td>18. 69</td><td></td></tr><tr><td>1922 -23</td><td>32. 04</td><td>38. 72</td><td>29. 91</td><td>24. 75</td><td></td></tr><tr><td>1923 -24</td><td>15. 37</td><td>18. 04</td><td>13. 94</td><td>10. 76</td><td></td></tr><tr><td>1925</td><td>50. 27</td><td>55. 21</td><td>42. 39</td><td>36.29</td><td></td></tr><tr><td>1925 -26</td><td>34. 87</td><td>34. 30</td><td>31. 27</td><td>26. 26</td><td></td></tr><tr><td>1926 -27</td><td>51. 30</td><td>53. 73</td><td>42. 68</td><td></td><td></td></tr><tr><td>1927 -28</td><td>36. 15</td><td>36. 12</td><td>28. 90</td><td>21. 52</td><td></td></tr><tr><td>1928 -29</td><td>24. 33</td><td>27. 01</td><td>19. 23</td><td>16.28</td><td></td></tr><tr><td>1929 -30</td><td>38. 81</td><td>36. 51</td><td>26. 94</td><td>18. 47</td><td>15.55</td></tr><tr><td>1930 -31</td><td>23. 67</td><td>22. 73</td><td>16. 28</td><td>14. 92</td><td>12. 75</td></tr><tr><td>1931 -32</td><td>30. 36</td><td>29. 15</td><td>24. 19</td><td>22. 60</td><td>20. 46</td></tr><tr><td>1932 -33</td><td>26. 67</td><td>25. 92</td><td>20. 92</td><td>17. 17</td><td>13. 06</td></tr><tr><td>1933 -34</td><td>31. 19</td><td>28. 62</td><td>20. 88</td><td>18. 02</td><td>15. 77</td></tr><tr><td>1934 -35</td><td>45. 56</td><td>43. 60</td><td>35. 31</td><td>27. 68</td><td>21. 74</td></tr><tr><td>1935 -36</td><td>37. 44</td><td>43. 33</td><td>30. 04</td><td>24. 95</td><td>19. 39</td></tr><tr><td>1936 -37</td><td>33. 93</td><td>38. 21</td><td>26. 35</td><td>24. 70</td><td>20. 17</td></tr><tr><td>1937 -38</td><td>56. 09</td><td>58. 18</td><td>39. 30</td><td>33. 98</td><td>32. 86</td></tr><tr><td>1938 -39</td><td>19. 27</td><td>21. 83</td><td>14. 26</td><td>13. 21</td><td>11.32</td></tr><tr><td>1939 -40</td><td>57. 05</td><td>52. 57</td><td>38. 55</td><td>30. 98</td><td>26. 68</td></tr><tr><td>1940 -41</td><td>72. 19</td><td>70. 56</td><td>51. 78</td><td>45. 69</td><td>38. 06</td></tr><tr><td>1941 -42</td><td>54. 87</td><td>51. 92</td><td>39. 98</td><td>32. 50</td><td>32. 62</td></tr><tr><td>1942 -43</td><td>38. 47</td><td>41. 12</td><td>32. 39</td><td>24. 93</td><td>22. 72</td></tr><tr><td>1943 -44</td><td>31. 83</td><td>34. 01</td><td>23. 23</td><td>21. 00</td><td>19.68</td></tr><tr><td>1944 -45</td><td>34. 59</td><td>38. 94</td><td>28. 16</td><td>22. 85</td><td>19.67</td></tr><tr><td>1945 -46</td><td>37. 54</td><td>37, 12</td><td>25, 84</td><td>25. 23</td><td>22. 76</td></tr><tr><td>1946 -47</td><td>25. 82</td><td>26. 00</td><td>20. 22</td><td>16. 61</td><td>16. 01</td></tr><tr><td>1947 -48</td><td>36. 11</td><td>35. 22</td><td>28. 39</td><td>19. 03</td><td>14. 16</td></tr><tr><td>1948 -49</td><td>28. 04</td><td>31. 19</td><td>19. 86</td><td>17. 62</td><td>17. 00</td></tr><tr><td>1950</td><td>30. 10</td><td>35. 20</td><td>25. 42</td><td>20. 60</td><td>16. 97</td></tr><tr><td>1950 -51</td><td>40. 08</td><td>46. 47</td><td>32. 06</td><td>26. 43</td><td>24. 10</td></tr><tr><td>1951 -52</td><td>52. 82</td><td>57. 65</td><td>37. 52</td><td>30. 31</td><td>27. 75</td></tr><tr><td>Average</td><td>3 40. 37</td><td>4 39. 55</td><td>5 29. 56</td><td>6 23. 78</td><td>7 20.92</td></tr><tr><td>23 -year average, 1930 -52</td><td>38. 37</td><td>39.39</td><td>28. 60</td><td>23. 89</td><td>20.92</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# [Data from publications of the U. S. Weather Bureau, except for Lakeville] (cont.)\n\n1 A water year begins on October 1 of any designated year and ends on September 30 of the succeeding year. 2 Private record supplied by M. S. Herzog of the S. K. Herzog Co.\n\n3 74-year average.\n4 56-year average.\n5 64-year average.\n6 60-year average.\n7 23-year average.",
+                "embed": "# [Data from publications of the U. S. Weather Bureau, except for Lakeville] (cont.)\n\n1 A water year begins on October 1 of any designated year and ends on September 30 of the succeeding year. 2 Private record supplied by M. S. Herzog of the S. K. Herzog Co.\n\n3 74-year average.\n4 56-year average.\n5 64-year average.\n6 60-year average.\n7 23-year average.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10265700483091787,
+                            "top": 0.6120916259857304,
+                            "width": 0.7856280193236715,
+                            "height": 0.020653398422831395,
+                            "page": 1
+                        },
+                        "content": "1 A water year begins on October 1 of any designated year and ends on September 30 of the succeeding year. 2 Private record supplied by M. S. Herzog of the S. K. Herzog Co.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10265700483091787,
+                            "top": 0.6319939917386407,
+                            "width": 0.12983091787439613,
+                            "height": 0.04693954187007135,
+                            "page": 1
+                        },
+                        "content": "3 74-year average.\n4 56-year average.\n5 64-year average.\n6 60-year average.\n7 23-year average.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# [Data from publications of the U. S. Weather Bureau, except for Lakeville] (cont.)\n\nTABLE 3.-Data for additional precipitation stations in and near the Santa Rosa and Petaluma Valley areas, California\n\n<table><tr><th>Station</th><th>Distance (miles) and\ndirection from Santa\nRosa</th><th>Altitude\n(feet)</th><th>1952\nannual 1\nrainfall\n(inches)</th><th>Length of\nrecord, as\nof 1952\n(years)</th></tr><tr><td>Cazadero</td><td>21 WNW</td><td>040</td><td>94.74</td><td>13</td></tr><tr><td>Guerneville</td><td>16 WN W</td><td>115</td><td>64.44</td><td>13</td></tr><tr><td>Hamilton Field</td><td>29 SSE</td><td>-2</td><td>32.98</td><td>19</td></tr><tr><td>Healdsburg, 2 miles east</td><td>13 NN W</td><td>76</td><td>47.15</td><td>7</td></tr><tr><td>Novato, 8 miles northwest</td><td>18 S</td><td>350</td><td></td><td>8</td></tr><tr><td>Occidental</td><td>13 WSW</td><td>1, 000</td><td>70. 56</td><td>13</td></tr><tr><td>Petaluma, 1 mile north</td><td>14 SSW</td><td>27</td><td></td><td>9</td></tr><tr><td>Sebastopol, Taber farm</td><td>7 WSW</td><td>175</td><td></td><td>16</td></tr></table>\n\n1 Weather Bureau averages for climatic year July 1-6 June 30.",
+                "embed": "# [Data from publications of the U. S. Weather Bureau, except for Lakeville] (cont.)\n\nTABLE 3.-Data for additional precipitation stations in and near the Santa Rosa and Petaluma Valley areas, California\n\n<table><tr><th>Station</th><th>Distance (miles) and\ndirection from Santa\nRosa</th><th>Altitude\n(feet)</th><th>1952\nannual 1\nrainfall\n(inches)</th><th>Length of\nrecord, as\nof 1952\n(years)</th></tr><tr><td>Cazadero</td><td>21 WNW</td><td>040</td><td>94.74</td><td>13</td></tr><tr><td>Guerneville</td><td>16 WN W</td><td>115</td><td>64.44</td><td>13</td></tr><tr><td>Hamilton Field</td><td>29 SSE</td><td>-2</td><td>32.98</td><td>19</td></tr><tr><td>Healdsburg, 2 miles east</td><td>13 NN W</td><td>76</td><td>47.15</td><td>7</td></tr><tr><td>Novato, 8 miles northwest</td><td>18 S</td><td>350</td><td></td><td>8</td></tr><tr><td>Occidental</td><td>13 WSW</td><td>1, 000</td><td>70. 56</td><td>13</td></tr><tr><td>Petaluma, 1 mile north</td><td>14 SSW</td><td>27</td><td></td><td>9</td></tr><tr><td>Sebastopol, Taber farm</td><td>7 WSW</td><td>175</td><td></td><td>16</td></tr></table>\n\n1 Weather Bureau averages for climatic year July 1-6 June 30.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08876811594202899,
+                            "top": 0.6928276380022531,
+                            "width": 0.8007246376811594,
+                            "height": 0.026661659782200527,
+                            "page": 1
+                        },
+                        "content": "TABLE 3.-Data for additional precipitation stations in and near the Santa Rosa and Petaluma Valley areas, California",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.08487785265641512,
+                            "top": 0.7292816471525301,
+                            "width": 0.8084883482559867,
+                            "height": 0.15253595458892696,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Station</th><th>Distance (miles) and\ndirection from Santa\nRosa</th><th>Altitude\n(feet)</th><th>1952\nannual 1\nrainfall\n(inches)</th><th>Length of\nrecord, as\nof 1952\n(years)</th></tr><tr><td>Cazadero</td><td>21 WNW</td><td>040</td><td>94.74</td><td>13</td></tr><tr><td>Guerneville</td><td>16 WN W</td><td>115</td><td>64.44</td><td>13</td></tr><tr><td>Hamilton Field</td><td>29 SSE</td><td>-2</td><td>32.98</td><td>19</td></tr><tr><td>Healdsburg, 2 miles east</td><td>13 NN W</td><td>76</td><td>47.15</td><td>7</td></tr><tr><td>Novato, 8 miles northwest</td><td>18 S</td><td>350</td><td></td><td>8</td></tr><tr><td>Occidental</td><td>13 WSW</td><td>1, 000</td><td>70. 56</td><td>13</td></tr><tr><td>Petaluma, 1 mile north</td><td>14 SSW</td><td>27</td><td></td><td>9</td></tr><tr><td>Sebastopol, Taber farm</td><td>7 WSW</td><td>175</td><td></td><td>16</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10386473429951691,
+                            "top": 0.888847164851671,
+                            "width": 0.46195652173913043,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "1 Weather Bureau averages for climatic year July 1-6 June 30.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

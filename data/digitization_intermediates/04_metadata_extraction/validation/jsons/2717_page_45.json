@@ -1,0 +1,174 @@
+{
+    "job_id": "53db0aba-b22f-476f-a526-4c0473d25161",
+    "duration": 7.767470598220825,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/f2dc8e2f-3e56-416e-871a-94de928022fb?AWSAccessKeyId=ASIA2UOK6OVBKDUX2N64&Signature=AlZrPIqbI%2B%2FoA579miue1kHe69U%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCugDVw1YRyXXZyblC9ekqae50XPVB%2BE3fZy3gLaXASBgIhAKsVNeil6sslS0QJwDdu7zqIJeUx4Vh6xuKwjXqAkMCyKpQFCLn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzMxMTA2OTMyMDM0Igya8TXxUQcyiXgye6Qq6ATzeYCdF8AwSrvLltNlER8rxOfIInfaxjgT7Zaq3rTJr%2B0%2FchSIOs6LSzDtarS6Om9CmQzGLangG7f%2FX4i%2FXdKXMMY7cbmYIcxiUEPH7VJm7BmXdA04GsWt5WYd%2FwZQrqc41n1rAa54w7HJBxZmh9k5sh4FHOxKAhe120DcbTJElwJxTo1wEmdpoWTvgSi%2FExf4xceYPKKv9vVElAw6RaVF6DZ4FX7Ykvt%2BtWmSZzYXZMiapSwBsYs3QkE3SXctsGBgu8jORS5wiAf9LMcgBBTkWIopjXv0Hf9YBxWqZ59xP%2BvsexyVHg2n5nKifSKIov8CQsPjjnk54%2FEVnoqU%2FGRErv97NNaXLpKe4BMvJdWNrsEXjfavBl0%2Fh4HEPCPjsIysiddTRczWDABteqay2TQho1vgBA46FoPKZUD3ddZ%2B0ioO1mMGcyCmmuVRT7CrPRRLiWnikS2v1CtsGqPgu18ZZRR%2F%2BqZ9%2F3FAORaPwfpSv3%2Bsk0VEmA5xDOLAWgY3Ly9xGdu3Jvn3pFH7ZcC2hwXF%2FNDtn4l1Wa0G3K%2F2Bv%2BHcHdiK7xf6op9gig919z71nxUXVWpBHfc69xMlOSc1NymjRLy3GHzS%2Fm9CVqHdHNlaJNocoE6wNYG9hAODT2bUG1uhogVqtuVVYDeUpaHlwl0rPqzdmg2qjUyzt9YzeO%2BVUOURs5X7HRCWogxQhvQhaQND6DJX7Y6iWDOkDMF3RXDFRuG2YOjUZxSGuft4FjQuhYRgSeNV%2FneUTHk%2FUmNa0rt%2FEJa%2FwBOK1EwgFZhZCsHIdQoe500OyQVP0KDv7BCjNjBciEJuvIAMPrLiLwGOpoBI%2BjhjS%2BxlbCEU26YRSSu4WyeUKzP9CkqLdOSN6Ed2rv10tsGf4m4YzopZmk%2Bv%2Bckf%2FRZZQSSu96fRCK75YzwMMhXNIQnV827JUic%2Fguc6OFcnMsufU7q2N6CUVhzyrBoDxpbcDFgWnbfvFNDHwzS8hd%2BEq1zfaW3CUp%2FSIwYyU%2FXyJFFapr%2B9yju66bLaovRSUC1IVavQaad2w%3D%3D&Expires=1736586269",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "G38\n\n# RIVER HYDRAULICS\n\nThis is the expected standard deviation in the measurement of indi- vidual subsection discharges.\n\n## ERRORS IN COMPUTATION OF INSTANTANEOUS TOTAL DISCHARGE\n\nError sources in the computed instantaneous total discharge include errors in the measurement of the subsection discharge, errors related to the number of subsections used, errors introduced by the interpola- tion routines employed, and errors in current-meter calibration. These error sources, expressed as error ratios, are summarized in table 5.\n\nTABLE 5.-Statistics of principle error sources in computed instantaneous total discharge\n\n<table><tr><th>Source of error</th><th>Partial error ratio</th><th>Standard\ndeviation of\nratio</th><th>Probable value\nof standard\ndeviation. in\npercentage of\ntrue</th></tr><tr><td>Subsection discharge</td><td>Re=0-09(100)</td><td>S</td><td>0.8</td></tr><tr><td>Number of subsections</td><td>Rx=0-QN(100) -</td><td>SRN=f(N)</td><td>.2</td></tr><tr><td>Interpolation procedure</td><td>RIP</td><td>SRIP</td><td>.1</td></tr><tr><td>Current-meter calibration</td><td></td><td>SRCM</td><td>1.0</td></tr></table>",
+                "embed": "G38\n\n# RIVER HYDRAULICS\n\nThis is the expected standard deviation in the measurement of indi- vidual subsection discharges.\n\n## ERRORS IN COMPUTATION OF INSTANTANEOUS TOTAL DISCHARGE\n\nError sources in the computed instantaneous total discharge include errors in the measurement of the subsection discharge, errors related to the number of subsections used, errors introduced by the interpola- tion routines employed, and errors in current-meter calibration. These error sources, expressed as error ratios, are summarized in table 5.\n\nTABLE 5.-Statistics of principle error sources in computed instantaneous total discharge\n\n<table><tr><th>Source of error</th><th>Partial error ratio</th><th>Standard\ndeviation of\nratio</th><th>Probable value\nof standard\ndeviation. in\npercentage of\ntrue</th></tr><tr><td>Subsection discharge</td><td>Re=0-09(100)</td><td>S</td><td>0.8</td></tr><tr><td>Number of subsections</td><td>Rx=0-QN(100) -</td><td>SRN=f(N)</td><td>.2</td></tr><tr><td>Interpolation procedure</td><td>RIP</td><td>SRIP</td><td>.1</td></tr><tr><td>Current-meter calibration</td><td></td><td>SRCM</td><td>1.0</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1270820481184454,
+                            "top": 0.04093128051070222,
+                            "width": 0.054904380012338064,
+                            "height": 0.015771686068343973,
+                            "page": 1
+                        },
+                        "content": "G38",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4213448488587292,
+                            "top": 0.045061960195268494,
+                            "width": 0.22763726095003084,
+                            "height": 0.010138941043935411,
+                            "page": 1
+                        },
+                        "content": "RIVER HYDRAULICS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12461443553362123,
+                            "top": 0.07698084866691701,
+                            "width": 0.8180135718692165,
+                            "height": 0.03642508449117537,
+                            "page": 1
+                        },
+                        "content": "This is the expected standard deviation in the measurement of indi- vidual subsection discharges.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.148673658235657,
+                            "top": 0.12542245587683065,
+                            "width": 0.7723627390499691,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "ERRORS IN COMPUTATION OF INSTANTANEOUS TOTAL DISCHARGE",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12523133867982728,
+                            "top": 0.1528351483289523,
+                            "width": 0.8173966687230105,
+                            "height": 0.09350356740518212,
+                            "page": 1
+                        },
+                        "content": "Error sources in the computed instantaneous total discharge include errors in the measurement of the subsection discharge, errors related to the number of subsections used, errors introduced by the interpola- tion routines employed, and errors in current-meter calibration. These error sources, expressed as error ratios, are summarized in table 5.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12461443553362123,
+                            "top": 0.27450244085617725,
+                            "width": 0.8198642813078346,
+                            "height": 0.026286143447239955,
+                            "page": 1
+                        },
+                        "content": "TABLE 5.-Statistics of principle error sources in computed instantaneous total discharge",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12046038317577402,
+                            "top": 0.3121707814553605,
+                            "width": 0.8281032084536214,
+                            "height": 0.22595453208611058,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Source of error</th><th>Partial error ratio</th><th>Standard\ndeviation of\nratio</th><th>Probable value\nof standard\ndeviation. in\npercentage of\ntrue</th></tr><tr><td>Subsection discharge</td><td>Re=0-09(100)</td><td>S</td><td>0.8</td></tr><tr><td>Number of subsections</td><td>Rx=0-QN(100) -</td><td>SRN=f(N)</td><td>.2</td></tr><tr><td>Interpolation procedure</td><td>RIP</td><td>SRIP</td><td>.1</td></tr><tr><td>Current-meter calibration</td><td></td><td>SRCM</td><td>1.0</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# RIVER HYDRAULICS (cont.)\n\n## EVALUATION OF SB\n\nInstantaneous total discharges are computed by summation of in- cremental discharges which are interpolated from the time and spatially referenced subsection discharges. The absolute value of the standard deviation of the error ratio Rq attributed to errors in meas- urement of the subsection discharges can be computed from the equation\n\n(12)\n\nThis equation is valid if the absolute values of S g' denoted as Staa) are used. The following manipulations can be made to evaluate SRQ the percentage value of Srea' from the percentage value computed for Sta\n\nIn the large Chipps Island channel the discharge per foot of width is fairly uniform; thus, for the purposes of this evaluation, it can be",
+                "embed": "# RIVER HYDRAULICS (cont.)\n\n## EVALUATION OF SB\n\nInstantaneous total discharges are computed by summation of in- cremental discharges which are interpolated from the time and spatially referenced subsection discharges. The absolute value of the standard deviation of the error ratio Rq attributed to errors in meas- urement of the subsection discharges can be computed from the equation\n\n(12)\n\nThis equation is valid if the absolute values of S g' denoted as Staa) are used. The following manipulations can be made to evaluate SRQ the percentage value of Srea' from the percentage value computed for Sta\n\nIn the large Chipps Island channel the discharge per foot of width is fairly uniform; thus, for the purposes of this evaluation, it can be",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.4096236890808143,
+                            "top": 0.578295155839279,
+                            "width": 0.2405922270203578,
+                            "height": 0.016147202403304545,
+                            "page": 1
+                        },
+                        "content": "EVALUATION OF SB",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12338062924120913,
+                            "top": 0.601952684941795,
+                            "width": 0.8204811844540407,
+                            "height": 0.11340593315809237,
+                            "page": 1
+                        },
+                        "content": "Instantaneous total discharges are computed by summation of in- cremental discharges which are interpolated from the time and spatially referenced subsection discharges. The absolute value of the standard deviation of the error ratio Rq attributed to errors in meas- urement of the subsection discharges can be computed from the equation",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8975940777297964,
+                            "top": 0.7397671798723244,
+                            "width": 0.04256631708821715,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "(12)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12091301665638494,
+                            "top": 0.7810739767179873,
+                            "width": 0.8217149907464528,
+                            "height": 0.08749530604581299,
+                            "page": 1
+                        },
+                        "content": "This equation is valid if the absolute values of S g' denoted as Staa) are used. The following manipulations can be made to evaluate SRQ the percentage value of Srea' from the percentage value computed for Sta",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12214682294879704,
+                            "top": 0.8700713481036425,
+                            "width": 0.8198642813078346,
+                            "height": 0.03792714983101765,
+                            "page": 1
+                        },
+                        "content": "In the large Chipps Island channel the discharge per foot of width is fairly uniform; thus, for the purposes of this evaluation, it can be",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "job_id": "d79d0ab7-ec31-43c7-91c4-414f95081cd8",
+    "duration": 5.4453184604644775,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/cc9464ff-b4af-4a52-a1c5-ade4d2389c64?AWSAccessKeyId=ASIA2UOK6OVBAITXHMY7&Signature=6T%2BQwDhFnqVwVr6eyQuRjJ2JAv0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJIMEYCIQCgfZgBHlp3usfMrCXkeVNehHJTeqh%2Bmf84x8BvG4dKtwIhAL5Ojq4XwyqTP%2FAiaR%2Bsl1bVvSPV0jAe%2BYDo3kgNqYlUKosFCCEQABoMNzMxMTA2OTMyMDM0IgzsB92e0PH%2FR5aMrG4q6AQtErlQ6A8pRwEZiVlCsE3M5ywZrs5v9fK8xexvoN8alnR3filfuos9AF26LAyR14C1rtDxhYmF1UEzb5zx0i2tFP1po934IzE5rMedNXby7zo0QeDGJA92qKCPOTL12LvTOV83MjRxSzkI9mOm3k0bFaM8UWOQSYB3pInzuE6JwfDPfJGHztilCqVUWZlcOkafuOoauIGu1lpNkSJQYYupcW8QKByU1x%2Bh8g8NslEoyfqoK3eMgo2N28M04ZYoThwjpG50I4v2yOza5l4jObiEo2DHx5Kpj0OAxHty89P28bgxWVYlXJ98HxPpdgY5WvlS0%2BDfgRcYFM5p9kNN4vScv36j9a1Msetxrsthioqb7CiQQUmQPGTWq8QNvmhr2GR1xcTnYMA%2B1ca91LlxcXJeLixg6FHjjKIpXLC49BSOULvTuQxJXGRA84jGM9gLfOz6QnC3MhLSyoOICBytKhX0yjsnuwhkruLWQ2dY%2BMs3hq5VsWduwujtDLCzFqUX2RVFiDflzIJP1dNqTirvJzY0LwadoWc898R1SyWpx7gTuv5xKlZcNApJiKQXmqRBNtn7qbvKPNBQOJItB35drmo5e7iGz4G5iU2%2FauMk%2FMoinJGpL29Orr4HG30DqiGqQKUBGXvJHDC0CweO91cuJAyUdrAmjOdDEcvq2dvMRnSd4nXhpY4OZp8Dvf4E8xygNmXrFZ6moy%2FyYExoIOFFNLecqwvHsaRZxRwc8Ufdtp0zrlt81akyHwn9gtkJPeeEVVMJiZ6OwDsiT453kgZv9gfopPQPKSSI6DwHovC5tj6Ocx5jdtwumdBCMJH0yLoGOpoBMemSY27p285EUjCXkWGzsbK8Fo4cCyTM0Ml9xD0zE%2BNc4p2pEgFizDpXOJh61Cmx48j4lKmsgK8aLhvoQ8mj2oNEugE7omSlnGhTKZYTghR7%2BLKxcSU7sgj0GpbBeIA6OtOwtLmGJxwDm4js3kQg3qZ%2FBIXN%2FuIywr%2FLzvtddyOqhwUXloXgfIjLE93pZgfebtiWAUC%2FJsfA2w%3D%3D&Expires=1733445916",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.14195583596214512,
+                            "top": 0.06022247794399693,
+                            "width": 0.0277602523659306,
+                            "height": 0.008438818565400843,
+                            "page": 1
+                        },
+                        "content": "120",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.45488958990536277,
+                            "top": 0.05983889528193326,
+                            "width": 0.21261829652996844,
+                            "height": 0.009205983889528193,
+                            "page": 1
+                        },
+                        "content": "LOS ANGELES RIVER BASIN",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Los Angeles River at Long Beach, Calif.\n\nLocation -- Lat 33\u00b047'25\", long. 118\u00b012'20\" on downstream side of State Street Bridge at Long Beach, Los Angeles County, 1.7 miles (revised) upstream from mouth.\n\nRecords available. December 1928 to September 1951.\n\nGage.--Water-stage recorder. Datum of gage is 0.90 ft above mean sea level (levels by Los Angeles County Flood Control District). Prior to Oct. 31, 1931, at site 1 mile up- stream at different datum.\n\nAverage discharge.- years (1929-51), 144 cfs; median of yearly mean discharges, 94 cfs.\n\nExtremes --Maximum discharge during year, 9,040 cfs Jan. 29 (gage height, 7.37 ft); mini- mum, 3.8 cfs Oct. 23 (gage height, 2.29 ft). 1928-51: Maximum discharge, 99,000 cfs Mar. 2, 1938; no flow at times in 1929, 1930, 1934.\n\nRemarks. -Flow regulated by Hansen and Sepulveda flood-control reservoirs (combined capac- ity, 49,400 acre-ft), and several small flood-control reservoirs. City of Los Angeles stores imported Owens River Water in San Fernando and Chatsworth Reservoirs and at times discharges imported water into Los Angeles River. Many diversions above station for domestic use and irrigation.\n\nCooperation. --Records furnished by Los Angeles County Flood Control District, through H. E. Hedger, chief engineer.\n\nDischarge, in cubic feet per second, water year October 1950 to September 1951",
+                "embed": "# Los Angeles River at Long Beach, Calif.\n\nLocation -- Lat 33\u00b047'25\", long. 118\u00b012'20\" on downstream side of State Street Bridge at Long Beach, Los Angeles County, 1.7 miles (revised) upstream from mouth.\n\nRecords available. December 1928 to September 1951.\n\nGage.--Water-stage recorder. Datum of gage is 0.90 ft above mean sea level (levels by Los Angeles County Flood Control District). Prior to Oct. 31, 1931, at site 1 mile up- stream at different datum.\n\nAverage discharge.- years (1929-51), 144 cfs; median of yearly mean discharges, 94 cfs.\n\nExtremes --Maximum discharge during year, 9,040 cfs Jan. 29 (gage height, 7.37 ft); mini- mum, 3.8 cfs Oct. 23 (gage height, 2.29 ft). 1928-51: Maximum discharge, 99,000 cfs Mar. 2, 1938; no flow at times in 1929, 1930, 1934.\n\nRemarks. -Flow regulated by Hansen and Sepulveda flood-control reservoirs (combined capac- ity, 49,400 acre-ft), and several small flood-control reservoirs. City of Los Angeles stores imported Owens River Water in San Fernando and Chatsworth Reservoirs and at times discharges imported water into Los Angeles River. Many diversions above station for domestic use and irrigation.\n\nCooperation. --Records furnished by Los Angeles County Flood Control District, through H. E. Hedger, chief engineer.\n\nDischarge, in cubic feet per second, water year October 1950 to September 1951",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3810725552050473,
+                            "top": 0.08860759493670886,
+                            "width": 0.3583596214511041,
+                            "height": 0.011507479861910242,
+                            "page": 1
+                        },
+                        "content": "Los Angeles River at Long Beach, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14132492113564668,
+                            "top": 0.11584196394322976,
+                            "width": 0.8119873817034701,
+                            "height": 0.02339854238588416,
+                            "page": 1
+                        },
+                        "content": "Location -- Lat 33\u00b047'25\", long. 118\u00b012'20\" on downstream side of State Street Bridge at Long Beach, Los Angeles County, 1.7 miles (revised) upstream from mouth.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14069400630914827,
+                            "top": 0.14614499424626007,
+                            "width": 0.4782334384858044,
+                            "height": 0.01227464518603759,
+                            "page": 1
+                        },
+                        "content": "Records available. December 1928 to September 1951.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14069400630914827,
+                            "top": 0.16417337936325277,
+                            "width": 0.8309148264984227,
+                            "height": 0.031070195627157654,
+                            "page": 1
+                        },
+                        "content": "Gage.--Water-stage recorder. Datum of gage is 0.90 ft above mean sea level (levels by Los Angeles County Flood Control District). Prior to Oct. 31, 1931, at site 1 mile up- stream at different datum.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14069400630914827,
+                            "top": 0.20253164556962025,
+                            "width": 0.828391167192429,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "Average discharge.- years (1929-51), 144 cfs; median of yearly mean discharges, 94 cfs.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14132492113564668,
+                            "top": 0.22171077867280398,
+                            "width": 0.8378548895899054,
+                            "height": 0.04027617951668585,
+                            "page": 1
+                        },
+                        "content": "Extremes --Maximum discharge during year, 9,040 cfs Jan. 29 (gage height, 7.37 ft); mini- mum, 3.8 cfs Oct. 23 (gage height, 2.29 ft). 1928-51: Maximum discharge, 99,000 cfs Mar. 2, 1938; no flow at times in 1929, 1930, 1934.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14132492113564668,
+                            "top": 0.270042194092827,
+                            "width": 0.8296529968454258,
+                            "height": 0.05140007671653241,
+                            "page": 1
+                        },
+                        "content": "Remarks. -Flow regulated by Hansen and Sepulveda flood-control reservoirs (combined capac- ity, 49,400 acre-ft), and several small flood-control reservoirs. City of Los Angeles stores imported Owens River Water in San Fernando and Chatsworth Reservoirs and at times discharges imported water into Los Angeles River. Many diversions above station for domestic use and irrigation.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14069400630914827,
+                            "top": 0.32796317606444186,
+                            "width": 0.8353312302839117,
+                            "height": 0.022247794399693134,
+                            "page": 1
+                        },
+                        "content": "Cooperation. --Records furnished by Los Angeles County Flood Control District, through H. E. Hedger, chief engineer.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.23406940063091483,
+                            "top": 0.3812811660912927,
+                            "width": 0.6473186119873817,
+                            "height": 0.01227464518603759,
+                            "page": 1
+                        },
+                        "content": "Discharge, in cubic feet per second, water year October 1950 to September 1951",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Los Angeles River at Long Beach, Calif. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>13</td><td>10</td><td>14</td><td>22</td><td>46</td><td>607</td><td>22</td><td>53</td><td>12</td><td>14</td><td>13</td><td>12</td></tr><tr><td>2</td><td>12</td><td>11</td><td>13</td><td>24</td><td>43</td><td>169</td><td>22</td><td>48</td><td>12</td><td>14</td><td>13</td><td>12</td></tr><tr><td>3</td><td>11</td><td>11</td><td>12</td><td>26</td><td>40</td><td>30</td><td>22</td><td>36</td><td>12</td><td>13</td><td>13</td><td>11</td></tr><tr><td>4</td><td>11</td><td>12</td><td>11</td><td>28</td><td>37</td><td>30</td><td>1,110</td><td>35</td><td>13</td><td>13</td><td>12</td><td>11</td></tr><tr><td>5</td><td>11</td><td>10</td><td>10</td><td>48</td><td>33</td><td>30</td><td>62</td><td>34</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>6</td><td>11</td><td>7.5</td><td>9.0</td><td>40</td><td>30</td><td>30</td><td>44</td><td>33</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>7</td><td>11</td><td>12</td><td>8.1</td><td>28</td><td>27</td><td>30</td><td>46</td><td>32</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>8</td><td>10</td><td>13</td><td>8.3</td><td>26</td><td>24</td><td>30</td><td>35</td><td>31</td><td>14</td><td>12</td><td>11</td><td>10</td></tr><tr><td>9</td><td>7.5</td><td>10</td><td>8.6</td><td>32</td><td>24</td><td>31</td><td>31</td><td>30</td><td>14</td><td>12</td><td>11</td><td>10</td></tr><tr><td>10</td><td>8,2</td><td>11</td><td>8.9</td><td>550</td><td>25</td><td>31</td><td>29</td><td>29</td><td>15</td><td>13</td><td>11</td><td>10</td></tr><tr><td>11</td><td>8,8</td><td>11</td><td>9,2</td><td>647</td><td>25</td><td>32</td><td>27</td><td>29</td><td>15</td><td>13</td><td>12</td><td>10</td></tr><tr><td>12</td><td>10</td><td>11</td><td>9,5</td><td>534</td><td>26</td><td>32</td><td>25</td><td>29</td><td>16</td><td>13</td><td>12</td><td>10</td></tr><tr><td>13</td><td>9.4</td><td>56</td><td>9.8</td><td>151</td><td>26</td><td>33</td><td>25</td><td>29</td><td>17</td><td>14</td><td>13</td><td>10</td></tr><tr><td>14</td><td>10</td><td>302</td><td>10</td><td>107</td><td>27</td><td>33</td><td>25</td><td>130</td><td>18</td><td>14</td><td>13</td><td>10</td></tr><tr><td>15</td><td>11</td><td>39</td><td>9,9</td><td>89</td><td>27</td><td>34</td><td>24</td><td>84</td><td>18</td><td>15</td><td>14</td><td>11</td></tr><tr><td>16</td><td>6.9</td><td>20</td><td>9.8</td><td>381</td><td>27</td><td>32</td><td>24</td><td>66</td><td>18</td><td>16</td><td>14</td><td>12</td></tr><tr><td>17</td><td>6.9</td><td>16</td><td>9,6</td><td>163</td><td>26</td><td>30</td><td>24</td><td>16</td><td>17</td><td>16</td><td>14</td><td>13</td></tr><tr><td>18</td><td>11</td><td>18</td><td>9.4</td><td>62</td><td>26</td><td>28</td><td>23</td><td>16</td><td>17</td><td>17</td><td>13</td><td>14</td></tr><tr><td>19</td><td>11</td><td>71</td><td>9.2</td><td>380</td><td>26</td><td>26</td><td>23</td><td>17</td><td>17</td><td>17</td><td>12</td><td>15</td></tr><tr><td>20</td><td>11</td><td>234</td><td>9.1</td><td>132</td><td>25</td><td>24</td><td>23</td><td>17</td><td>16</td><td>18</td><td>12</td><td>16</td></tr><tr><td>21</td><td>11</td><td>35</td><td>9.0</td><td>86</td><td>25</td><td>22</td><td>23</td><td>18</td><td>16</td><td>17</td><td>11</td><td>16</td></tr><tr><td>22</td><td>10</td><td>20</td><td>9.4</td><td>64</td><td>25</td><td>20</td><td>23</td><td>18</td><td>16</td><td>15</td><td>10</td><td>15</td></tr><tr><td>23</td><td>5.6</td><td>20</td><td>9.8</td><td>42</td><td>493</td><td>20</td><td>23</td><td>19</td><td>16</td><td>14</td><td>9.7</td><td>14</td></tr><tr><td>24</td><td>6.3</td><td>17</td><td>10</td><td>32</td><td>914</td><td>21</td><td>23</td><td>19</td><td>16</td><td>13</td><td>10</td><td>13</td></tr><tr><td>25</td><td>10</td><td>17</td><td>11</td><td>28</td><td>118</td><td>21</td><td>172</td><td>18</td><td>15</td><td>11</td><td>10</td><td>12</td></tr><tr><td>26</td><td>11</td><td>17</td><td>11</td><td>28</td><td>69</td><td>21</td><td>460</td><td>17</td><td>15</td><td>10</td><td>11</td><td>11</td></tr><tr><td>27</td><td>14</td><td>14</td><td>12</td><td>28</td><td>507</td><td>21</td><td>151</td><td>16</td><td>15</td><td>10</td><td>12</td><td>11</td></tr><tr><td>28</td><td>39</td><td>16</td><td>12</td><td>28</td><td>100</td><td>22</td><td>164</td><td>15</td><td>15</td><td>11</td><td>12</td><td>11</td></tr><tr><td>29</td><td>12</td><td>16</td><td>14</td><td>1,610</td><td>-</td><td>22</td><td>807</td><td>14</td><td>15</td><td>11</td><td>13</td><td>11</td></tr><tr><td>30</td><td>8.8</td><td>15</td><td>16</td><td>506</td><td>-</td><td>22</td><td>143</td><td>13</td><td>14</td><td>12</td><td>13</td><td>12</td></tr><tr><td>31</td><td>8.8</td><td>-</td><td>19</td><td>183</td><td>-</td><td>22</td><td>-</td><td>12</td><td>-</td><td>12</td><td>13</td><td></td></tr><tr><td>Total</td><td>338.2</td><td>1,072.5</td><td>331.6</td><td>6,105</td><td>2,841</td><td>1,556</td><td>3,655</td><td>973</td><td>453</td><td>416</td><td>373.7</td><td>353</td></tr><tr><td>Mean</td><td>10.9</td><td>35.8</td><td>10.7</td><td>197</td><td>101</td><td>50.2</td><td>122</td><td>31.4</td><td>15.1</td><td>13.4</td><td>12.1</td><td>11,8</td></tr><tr><td>Ac-ft</td><td>671</td><td>2,130</td><td>658</td><td>12,110</td><td>5,640</td><td>3,090</td><td>7,250</td><td>1,930</td><td>899</td><td>825</td><td>741</td><td>700</td></tr><tr><td>Calendar</td><td>year</td><td>1950:</td><td>Max 2,360</td><td></td><td>Min 5.6</td><td>Mean</td><td>43.4</td><td>Ac-ft</td><td>31,420</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year</td><td>1950 -51:</td><td>1,610</td><td></td><td>Min 5,6</td><td>Mean</td><td>50.6</td><td>Ac-ft</td><td>36,640</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# Los Angeles River at Long Beach, Calif. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>13</td><td>10</td><td>14</td><td>22</td><td>46</td><td>607</td><td>22</td><td>53</td><td>12</td><td>14</td><td>13</td><td>12</td></tr><tr><td>2</td><td>12</td><td>11</td><td>13</td><td>24</td><td>43</td><td>169</td><td>22</td><td>48</td><td>12</td><td>14</td><td>13</td><td>12</td></tr><tr><td>3</td><td>11</td><td>11</td><td>12</td><td>26</td><td>40</td><td>30</td><td>22</td><td>36</td><td>12</td><td>13</td><td>13</td><td>11</td></tr><tr><td>4</td><td>11</td><td>12</td><td>11</td><td>28</td><td>37</td><td>30</td><td>1,110</td><td>35</td><td>13</td><td>13</td><td>12</td><td>11</td></tr><tr><td>5</td><td>11</td><td>10</td><td>10</td><td>48</td><td>33</td><td>30</td><td>62</td><td>34</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>6</td><td>11</td><td>7.5</td><td>9.0</td><td>40</td><td>30</td><td>30</td><td>44</td><td>33</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>7</td><td>11</td><td>12</td><td>8.1</td><td>28</td><td>27</td><td>30</td><td>46</td><td>32</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>8</td><td>10</td><td>13</td><td>8.3</td><td>26</td><td>24</td><td>30</td><td>35</td><td>31</td><td>14</td><td>12</td><td>11</td><td>10</td></tr><tr><td>9</td><td>7.5</td><td>10</td><td>8.6</td><td>32</td><td>24</td><td>31</td><td>31</td><td>30</td><td>14</td><td>12</td><td>11</td><td>10</td></tr><tr><td>10</td><td>8,2</td><td>11</td><td>8.9</td><td>550</td><td>25</td><td>31</td><td>29</td><td>29</td><td>15</td><td>13</td><td>11</td><td>10</td></tr><tr><td>11</td><td>8,8</td><td>11</td><td>9,2</td><td>647</td><td>25</td><td>32</td><td>27</td><td>29</td><td>15</td><td>13</td><td>12</td><td>10</td></tr><tr><td>12</td><td>10</td><td>11</td><td>9,5</td><td>534</td><td>26</td><td>32</td><td>25</td><td>29</td><td>16</td><td>13</td><td>12</td><td>10</td></tr><tr><td>13</td><td>9.4</td><td>56</td><td>9.8</td><td>151</td><td>26</td><td>33</td><td>25</td><td>29</td><td>17</td><td>14</td><td>13</td><td>10</td></tr><tr><td>14</td><td>10</td><td>302</td><td>10</td><td>107</td><td>27</td><td>33</td><td>25</td><td>130</td><td>18</td><td>14</td><td>13</td><td>10</td></tr><tr><td>15</td><td>11</td><td>39</td><td>9,9</td><td>89</td><td>27</td><td>34</td><td>24</td><td>84</td><td>18</td><td>15</td><td>14</td><td>11</td></tr><tr><td>16</td><td>6.9</td><td>20</td><td>9.8</td><td>381</td><td>27</td><td>32</td><td>24</td><td>66</td><td>18</td><td>16</td><td>14</td><td>12</td></tr><tr><td>17</td><td>6.9</td><td>16</td><td>9,6</td><td>163</td><td>26</td><td>30</td><td>24</td><td>16</td><td>17</td><td>16</td><td>14</td><td>13</td></tr><tr><td>18</td><td>11</td><td>18</td><td>9.4</td><td>62</td><td>26</td><td>28</td><td>23</td><td>16</td><td>17</td><td>17</td><td>13</td><td>14</td></tr><tr><td>19</td><td>11</td><td>71</td><td>9.2</td><td>380</td><td>26</td><td>26</td><td>23</td><td>17</td><td>17</td><td>17</td><td>12</td><td>15</td></tr><tr><td>20</td><td>11</td><td>234</td><td>9.1</td><td>132</td><td>25</td><td>24</td><td>23</td><td>17</td><td>16</td><td>18</td><td>12</td><td>16</td></tr><tr><td>21</td><td>11</td><td>35</td><td>9.0</td><td>86</td><td>25</td><td>22</td><td>23</td><td>18</td><td>16</td><td>17</td><td>11</td><td>16</td></tr><tr><td>22</td><td>10</td><td>20</td><td>9.4</td><td>64</td><td>25</td><td>20</td><td>23</td><td>18</td><td>16</td><td>15</td><td>10</td><td>15</td></tr><tr><td>23</td><td>5.6</td><td>20</td><td>9.8</td><td>42</td><td>493</td><td>20</td><td>23</td><td>19</td><td>16</td><td>14</td><td>9.7</td><td>14</td></tr><tr><td>24</td><td>6.3</td><td>17</td><td>10</td><td>32</td><td>914</td><td>21</td><td>23</td><td>19</td><td>16</td><td>13</td><td>10</td><td>13</td></tr><tr><td>25</td><td>10</td><td>17</td><td>11</td><td>28</td><td>118</td><td>21</td><td>172</td><td>18</td><td>15</td><td>11</td><td>10</td><td>12</td></tr><tr><td>26</td><td>11</td><td>17</td><td>11</td><td>28</td><td>69</td><td>21</td><td>460</td><td>17</td><td>15</td><td>10</td><td>11</td><td>11</td></tr><tr><td>27</td><td>14</td><td>14</td><td>12</td><td>28</td><td>507</td><td>21</td><td>151</td><td>16</td><td>15</td><td>10</td><td>12</td><td>11</td></tr><tr><td>28</td><td>39</td><td>16</td><td>12</td><td>28</td><td>100</td><td>22</td><td>164</td><td>15</td><td>15</td><td>11</td><td>12</td><td>11</td></tr><tr><td>29</td><td>12</td><td>16</td><td>14</td><td>1,610</td><td>-</td><td>22</td><td>807</td><td>14</td><td>15</td><td>11</td><td>13</td><td>11</td></tr><tr><td>30</td><td>8.8</td><td>15</td><td>16</td><td>506</td><td>-</td><td>22</td><td>143</td><td>13</td><td>14</td><td>12</td><td>13</td><td>12</td></tr><tr><td>31</td><td>8.8</td><td>-</td><td>19</td><td>183</td><td>-</td><td>22</td><td>-</td><td>12</td><td>-</td><td>12</td><td>13</td><td></td></tr><tr><td>Total</td><td>338.2</td><td>1,072.5</td><td>331.6</td><td>6,105</td><td>2,841</td><td>1,556</td><td>3,655</td><td>973</td><td>453</td><td>416</td><td>373.7</td><td>353</td></tr><tr><td>Mean</td><td>10.9</td><td>35.8</td><td>10.7</td><td>197</td><td>101</td><td>50.2</td><td>122</td><td>31.4</td><td>15.1</td><td>13.4</td><td>12.1</td><td>11,8</td></tr><tr><td>Ac-ft</td><td>671</td><td>2,130</td><td>658</td><td>12,110</td><td>5,640</td><td>3,090</td><td>7,250</td><td>1,930</td><td>899</td><td>825</td><td>741</td><td>700</td></tr><tr><td>Calendar</td><td>year</td><td>1950:</td><td>Max 2,360</td><td></td><td>Min 5.6</td><td>Mean</td><td>43.4</td><td>Ac-ft</td><td>31,420</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year</td><td>1950 -51:</td><td>1,610</td><td></td><td>Min 5,6</td><td>Mean</td><td>50.6</td><td>Ac-ft</td><td>36,640</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.13689725376454062,
+                            "top": 0.3930161640385261,
+                            "width": 0.8418175345339609,
+                            "height": 0.3913757300806722,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>13</td><td>10</td><td>14</td><td>22</td><td>46</td><td>607</td><td>22</td><td>53</td><td>12</td><td>14</td><td>13</td><td>12</td></tr><tr><td>2</td><td>12</td><td>11</td><td>13</td><td>24</td><td>43</td><td>169</td><td>22</td><td>48</td><td>12</td><td>14</td><td>13</td><td>12</td></tr><tr><td>3</td><td>11</td><td>11</td><td>12</td><td>26</td><td>40</td><td>30</td><td>22</td><td>36</td><td>12</td><td>13</td><td>13</td><td>11</td></tr><tr><td>4</td><td>11</td><td>12</td><td>11</td><td>28</td><td>37</td><td>30</td><td>1,110</td><td>35</td><td>13</td><td>13</td><td>12</td><td>11</td></tr><tr><td>5</td><td>11</td><td>10</td><td>10</td><td>48</td><td>33</td><td>30</td><td>62</td><td>34</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>6</td><td>11</td><td>7.5</td><td>9.0</td><td>40</td><td>30</td><td>30</td><td>44</td><td>33</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>7</td><td>11</td><td>12</td><td>8.1</td><td>28</td><td>27</td><td>30</td><td>46</td><td>32</td><td>13</td><td>12</td><td>12</td><td>10</td></tr><tr><td>8</td><td>10</td><td>13</td><td>8.3</td><td>26</td><td>24</td><td>30</td><td>35</td><td>31</td><td>14</td><td>12</td><td>11</td><td>10</td></tr><tr><td>9</td><td>7.5</td><td>10</td><td>8.6</td><td>32</td><td>24</td><td>31</td><td>31</td><td>30</td><td>14</td><td>12</td><td>11</td><td>10</td></tr><tr><td>10</td><td>8,2</td><td>11</td><td>8.9</td><td>550</td><td>25</td><td>31</td><td>29</td><td>29</td><td>15</td><td>13</td><td>11</td><td>10</td></tr><tr><td>11</td><td>8,8</td><td>11</td><td>9,2</td><td>647</td><td>25</td><td>32</td><td>27</td><td>29</td><td>15</td><td>13</td><td>12</td><td>10</td></tr><tr><td>12</td><td>10</td><td>11</td><td>9,5</td><td>534</td><td>26</td><td>32</td><td>25</td><td>29</td><td>16</td><td>13</td><td>12</td><td>10</td></tr><tr><td>13</td><td>9.4</td><td>56</td><td>9.8</td><td>151</td><td>26</td><td>33</td><td>25</td><td>29</td><td>17</td><td>14</td><td>13</td><td>10</td></tr><tr><td>14</td><td>10</td><td>302</td><td>10</td><td>107</td><td>27</td><td>33</td><td>25</td><td>130</td><td>18</td><td>14</td><td>13</td><td>10</td></tr><tr><td>15</td><td>11</td><td>39</td><td>9,9</td><td>89</td><td>27</td><td>34</td><td>24</td><td>84</td><td>18</td><td>15</td><td>14</td><td>11</td></tr><tr><td>16</td><td>6.9</td><td>20</td><td>9.8</td><td>381</td><td>27</td><td>32</td><td>24</td><td>66</td><td>18</td><td>16</td><td>14</td><td>12</td></tr><tr><td>17</td><td>6.9</td><td>16</td><td>9,6</td><td>163</td><td>26</td><td>30</td><td>24</td><td>16</td><td>17</td><td>16</td><td>14</td><td>13</td></tr><tr><td>18</td><td>11</td><td>18</td><td>9.4</td><td>62</td><td>26</td><td>28</td><td>23</td><td>16</td><td>17</td><td>17</td><td>13</td><td>14</td></tr><tr><td>19</td><td>11</td><td>71</td><td>9.2</td><td>380</td><td>26</td><td>26</td><td>23</td><td>17</td><td>17</td><td>17</td><td>12</td><td>15</td></tr><tr><td>20</td><td>11</td><td>234</td><td>9.1</td><td>132</td><td>25</td><td>24</td><td>23</td><td>17</td><td>16</td><td>18</td><td>12</td><td>16</td></tr><tr><td>21</td><td>11</td><td>35</td><td>9.0</td><td>86</td><td>25</td><td>22</td><td>23</td><td>18</td><td>16</td><td>17</td><td>11</td><td>16</td></tr><tr><td>22</td><td>10</td><td>20</td><td>9.4</td><td>64</td><td>25</td><td>20</td><td>23</td><td>18</td><td>16</td><td>15</td><td>10</td><td>15</td></tr><tr><td>23</td><td>5.6</td><td>20</td><td>9.8</td><td>42</td><td>493</td><td>20</td><td>23</td><td>19</td><td>16</td><td>14</td><td>9.7</td><td>14</td></tr><tr><td>24</td><td>6.3</td><td>17</td><td>10</td><td>32</td><td>914</td><td>21</td><td>23</td><td>19</td><td>16</td><td>13</td><td>10</td><td>13</td></tr><tr><td>25</td><td>10</td><td>17</td><td>11</td><td>28</td><td>118</td><td>21</td><td>172</td><td>18</td><td>15</td><td>11</td><td>10</td><td>12</td></tr><tr><td>26</td><td>11</td><td>17</td><td>11</td><td>28</td><td>69</td><td>21</td><td>460</td><td>17</td><td>15</td><td>10</td><td>11</td><td>11</td></tr><tr><td>27</td><td>14</td><td>14</td><td>12</td><td>28</td><td>507</td><td>21</td><td>151</td><td>16</td><td>15</td><td>10</td><td>12</td><td>11</td></tr><tr><td>28</td><td>39</td><td>16</td><td>12</td><td>28</td><td>100</td><td>22</td><td>164</td><td>15</td><td>15</td><td>11</td><td>12</td><td>11</td></tr><tr><td>29</td><td>12</td><td>16</td><td>14</td><td>1,610</td><td>-</td><td>22</td><td>807</td><td>14</td><td>15</td><td>11</td><td>13</td><td>11</td></tr><tr><td>30</td><td>8.8</td><td>15</td><td>16</td><td>506</td><td>-</td><td>22</td><td>143</td><td>13</td><td>14</td><td>12</td><td>13</td><td>12</td></tr><tr><td>31</td><td>8.8</td><td>-</td><td>19</td><td>183</td><td>-</td><td>22</td><td>-</td><td>12</td><td>-</td><td>12</td><td>13</td><td></td></tr><tr><td>Total</td><td>338.2</td><td>1,072.5</td><td>331.6</td><td>6,105</td><td>2,841</td><td>1,556</td><td>3,655</td><td>973</td><td>453</td><td>416</td><td>373.7</td><td>353</td></tr><tr><td>Mean</td><td>10.9</td><td>35.8</td><td>10.7</td><td>197</td><td>101</td><td>50.2</td><td>122</td><td>31.4</td><td>15.1</td><td>13.4</td><td>12.1</td><td>11,8</td></tr><tr><td>Ac-ft</td><td>671</td><td>2,130</td><td>658</td><td>12,110</td><td>5,640</td><td>3,090</td><td>7,250</td><td>1,930</td><td>899</td><td>825</td><td>741</td><td>700</td></tr><tr><td>Calendar</td><td>year</td><td>1950:</td><td>Max 2,360</td><td></td><td>Min 5.6</td><td>Mean</td><td>43.4</td><td>Ac-ft</td><td>31,420</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year</td><td>1950 -51:</td><td>1,610</td><td></td><td>Min 5,6</td><td>Mean</td><td>50.6</td><td>Ac-ft</td><td>36,640</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

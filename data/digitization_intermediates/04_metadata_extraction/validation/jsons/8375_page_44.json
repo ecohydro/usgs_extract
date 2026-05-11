@@ -1,0 +1,218 @@
+{
+    "job_id": "5dbb9ed3-d25e-4406-b63b-f7f0592dcbf0",
+    "duration": 5.985458850860596,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/8ae66c5d-56da-42fc-84d8-e3eba55030d4?AWSAccessKeyId=ASIA2UOK6OVBF3DYABKT&Signature=87joW7Jv0qf%2BfC%2BcJT3F1zGin7o%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCICSzpNWGQhZ4ac3wbuafxmBwv8glRZQXEIK6DAouL8XlAiB7lIQAeC3BZQMx9qAu9opTOcdlZXEFKXymwV50Rmh29SqUBQi7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDczMTEwNjkzMjAzNCIMq63fZ%2BheqiXFxnsSKugEl6NHUkkbULEyv0Jv4Yp2we3NhFqxA%2BCSUFvx4wZlJPnu9orJkRL9nz0mjaVkantEVw4i760md0B9Px5p9TVqmBLeHlbpkzLWlhHMH1Qrfi%2FYNINvHJ2Fmg6MY%2FUXkQB26vzAtoG62S9ibCV5kGsmVtYrIwRZ%2FGCzJN8kaq7lgyj8nQunqERVNu6paI7UozgMeemsX0m8F7AmRO1lTG9T57Ha%2B2DylSgJ9oKbmj1qnPxy7XUX230OVmSOycMTXOH0qJ5%2F8Yh0nCy1y0ciCWa%2BKLx0EFlj0MMcygf1WY6tBy2nBP4Z%2Fi8fCnJfj1NjXtHMZx0bFy6Sz%2BW9DG9r%2FcyTBLV9Nedh%2FmmFazJ62TCwsJY7tFgE4YNst%2F93MT0a%2Btb4XKTO8Tp4mboizdfWbvqbURdCxKGWXiKVpooEPCwVMaRebvfEIoVnbd%2FZka3qo22cZGBlSXT%2B2O3YuddCVEacvuvKILcJ5JpVC8onhfXUYGQ%2FDWlEhZCQMaUSV4DHt6G2G5gdSpfG1LRxR48lFR%2FAE4l2qWeTDU439FvvDWu6wLNLjlvG2wIF13sxb3gFBmQ6%2BeRpPokVvxJELybyLdgyUCLso0%2FfYTGGQvUr2U7ViPw74Cywq7OX08HrwzXVTqD2bkKiGsLmHKDlw%2BLfEo%2FeOG9OAw6mhLxE100DkzWa7miO8Rn6PEQmHLfPcfWpm8aCVbTi2wE34rRy1Y6IoIwsXCF0B3r8RI%2FddbE9HWOUcWExFzpRGVVbkF%2BFxr5QkQNuCclAWUlCN2WN%2B4nF4wH4l42qVh5B0d1ND5GjKi4IWMPf%2BkxLwfkoUjDQgIm8BjqcAV0RR95HfwBt9cRrST1KDbVCHWEXMZRsR3HGMdjzyE7rfxgcNECIX86YPMqByT56%2BLgJ2qly0d3%2BX9uo3YyYHoH0xTGq8vVSsgKXNMgQEs1Ae2aAQcTB2XtNRu%2BAG8i3xk4xNNM2s12A5hoMWcATIOceDhvZC7FC6LgYgv4iutiZu61ZMqF6ArO5HymQJZYhehPvVXnSrKKzaVlrzQ%3D%3D&Expires=1736594506",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04\n\nPAGE 19\n\nDATE\n\n7 SEP 76\n\nJULIAN\n\nDATE\n\n76251.\n\nCRUISE #\n\n6\n\nLOCATION\n\nS F BAY\n\nVESSEL\n\n1",
+                "embed": "# SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04\n\nPAGE 19\n\nDATE\n\n7 SEP 76\n\nJULIAN\n\nDATE\n\n76251.\n\nCRUISE #\n\n6\n\nLOCATION\n\nS F BAY\n\nVESSEL\n\n1",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.045207956600361664,
+                            "top": 0.11943793911007025,
+                            "width": 0.4342977697408077,
+                            "height": 0.01249024199843872,
+                            "page": 1
+                        },
+                        "content": "SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8984327908378541,
+                            "top": 0.10616705698672912,
+                            "width": 0.04942736588306208,
+                            "height": 0.0117096018735363,
+                            "page": 1
+                        },
+                        "content": "PAGE 19",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07353827606992164,
+                            "top": 0.18384074941451992,
+                            "width": 0.02802893309222423,
+                            "height": 0.01092896174863388,
+                            "page": 1
+                        },
+                        "content": "DATE",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.059674502712477394,
+                            "top": 0.1990632318501171,
+                            "width": 0.056962025316455694,
+                            "height": 0.01131928181108509,
+                            "page": 1
+                        },
+                        "content": "7 SEP 76",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15913200723327306,
+                            "top": 0.16744730679156908,
+                            "width": 0.0433996383363472,
+                            "height": 0.01092896174863388,
+                            "page": 1
+                        },
+                        "content": "JULIAN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16636528028933092,
+                            "top": 0.18384074941451992,
+                            "width": 0.028330319469559977,
+                            "height": 0.01092896174863388,
+                            "page": 1
+                        },
+                        "content": "DATE",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14526823387582882,
+                            "top": 0.1994535519125683,
+                            "width": 0.04038577456298975,
+                            "height": 0.01131928181108509,
+                            "page": 1
+                        },
+                        "content": "76251.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.24442435201928872,
+                            "top": 0.18423106947697113,
+                            "width": 0.05726341169379144,
+                            "height": 0.01131928181108509,
+                            "page": 1
+                        },
+                        "content": "CRUISE #",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.27365883062085594,
+                            "top": 0.20023419203747073,
+                            "width": 0.006931886678722122,
+                            "height": 0.01092896174863388,
+                            "page": 1
+                        },
+                        "content": "6",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.33755274261603374,
+                            "top": 0.18384074941451992,
+                            "width": 0.05726341169379144,
+                            "height": 0.01131928181108509,
+                            "page": 1
+                        },
+                        "content": "LOCATION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.32338758288125374,
+                            "top": 0.19984387197501952,
+                            "width": 0.050030138637733576,
+                            "height": 0.01131928181108509,
+                            "page": 1
+                        },
+                        "content": "S F BAY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4370102471368294,
+                            "top": 0.18462138953942234,
+                            "width": 0.042495479204339964,
+                            "height": 0.01092896174863388,
+                            "page": 1
+                        },
+                        "content": "VESSEL",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.459915611814346,
+                            "top": 0.20101483216237315,
+                            "width": 0.004822182037371911,
+                            "height": 0.01014832162373146,
+                            "page": 1
+                        },
+                        "content": "1",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04 (cont.)\n\n<table><tr><th>TIME</th><th>STATION\nNUMBER</th><th>FLUORESCENCE CHLOROPHYLL</th><th>DISCRETE</th><th>TURBIDITY</th><th>PH</th><th>PC02</th><th>ALKALINITY</th><th>POC</th><th>SUSPENDED\nSEDIMENT</th></tr><tr><td>1159</td><td>36</td><td>5.2</td><td>-</td><td>0.25</td><td>7.88</td><td>1.102</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1207</td><td>36</td><td>5.2</td><td>2.60</td><td>0.27</td><td>7.90</td><td>1.068</td><td>2.79</td><td>-</td><td>23.7</td></tr><tr><td>1215</td><td>36</td><td>5.3</td><td>-</td><td>0.32</td><td>7.91</td><td>1.026</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1230</td><td>35</td><td>5.4</td><td>-</td><td>0.25</td><td>7.83</td><td>0.952</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1236</td><td>34</td><td>5.2</td><td>2.50</td><td>0.24</td><td>-</td><td>0.893</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1247</td><td>33</td><td>5.7</td><td>-</td><td>0.18</td><td>7.93</td><td>0.890</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1300</td><td>32</td><td>4.6</td><td>-</td><td>0.17</td><td>7.92</td><td>0.875</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1304</td><td>32</td><td>4.4</td><td>2.10</td><td>0.18</td><td>7.92</td><td>0.904</td><td>2.58</td><td>-</td><td>17.1</td></tr><tr><td>1309</td><td>32</td><td>4.3</td><td>-</td><td>0.25</td><td>7.91</td><td>0.907</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1315</td><td>32</td><td>4.4</td><td>-</td><td>0.40</td><td>7.91</td><td>0.917</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1330</td><td>31</td><td>4.6</td><td>-</td><td>0.16</td><td>-</td><td>0.902</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1350</td><td>30</td><td>4.7</td><td>-</td><td>0.13</td><td>7.90</td><td>0.951</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1354</td><td>30</td><td>4.7</td><td>2.40</td><td>0.13</td><td>7.92</td><td>0.948</td><td>2.59</td><td>-</td><td>15.4</td></tr><tr><td>1359</td><td>30</td><td>4.6</td><td>-</td><td>0.14</td><td>7.90</td><td>0.935</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1403</td><td>30</td><td>4.3</td><td>-</td><td>0.17</td><td>7.90</td><td>0.961</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1432</td><td>29</td><td>4.6</td><td>-</td><td>0.14</td><td>7.91</td><td>0.918</td><td>-</td><td>-</td><td>.\n-</td></tr><tr><td>1439</td><td>28</td><td>4.8</td><td>-</td><td>0.11</td><td>7.95</td><td>0.814</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1454</td><td>27</td><td>3.5</td><td>-</td><td>0.09</td><td>7.96</td><td>0.801</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1458</td><td>27</td><td>4.6</td><td>2.90</td><td>0.12</td><td>7.96</td><td>0.799</td><td>2.41</td><td>-</td><td>11.7</td></tr><tr><td>1503</td><td>27</td><td>4.3</td><td>-</td><td>0.12</td><td>7.96</td><td>0.794</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1507</td><td>27</td><td>3.9</td><td>-</td><td>0.15</td><td>7.95</td><td>0.798</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1522</td><td>26</td><td>4.9</td><td>-</td><td>0.13</td><td>7.94</td><td>0.769</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1532</td><td>25</td><td>5.6</td><td>-</td><td>0.16</td><td>7.97</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1547</td><td>24</td><td>3.9</td><td>-</td><td>0.21</td><td>7.96</td><td>0.788</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1551</td><td>24</td><td>4.2</td><td>3.30</td><td>0.21</td><td>7.96</td><td>0.787</td><td>2.37</td><td>-</td><td>16.8</td></tr><tr><td>1557</td><td>24</td><td>4.2</td><td>-</td><td>0.27</td><td>7.97</td><td>0.775</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1602</td><td>24</td><td>4.4</td><td>-</td><td>0.30</td><td>7.96</td><td>0.774</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1612</td><td>23</td><td>4.3</td><td>-</td><td>0.27</td><td>7.95</td><td>0.774</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1625</td><td>22</td><td>4.8</td><td>-</td><td>0.12</td><td>7.97</td><td>0.701</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1640</td><td>21</td><td>5.6</td><td>-</td><td>0.11</td><td>7.98</td><td>0.678</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1644</td><td>21</td><td>5.6</td><td>5.00</td><td>0.12</td><td>7.98</td><td>0.681</td><td>2.28</td><td>-</td><td>15.0</td></tr><tr><td>1650</td><td>21</td><td>5.3</td><td>-</td><td>0.14</td><td>7.98</td><td>0.686</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1656</td><td>21</td><td>5.4</td><td>-</td><td>0.15</td><td>7.98</td><td>0.679</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1724</td><td>-</td><td>7.7</td><td>-</td><td>0.14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1743</td><td>20</td><td>4.6</td><td>-</td><td>0.13</td><td>7.97</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>",
+                "embed": "# SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04 (cont.)\n\n<table><tr><th>TIME</th><th>STATION\nNUMBER</th><th>FLUORESCENCE CHLOROPHYLL</th><th>DISCRETE</th><th>TURBIDITY</th><th>PH</th><th>PC02</th><th>ALKALINITY</th><th>POC</th><th>SUSPENDED\nSEDIMENT</th></tr><tr><td>1159</td><td>36</td><td>5.2</td><td>-</td><td>0.25</td><td>7.88</td><td>1.102</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1207</td><td>36</td><td>5.2</td><td>2.60</td><td>0.27</td><td>7.90</td><td>1.068</td><td>2.79</td><td>-</td><td>23.7</td></tr><tr><td>1215</td><td>36</td><td>5.3</td><td>-</td><td>0.32</td><td>7.91</td><td>1.026</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1230</td><td>35</td><td>5.4</td><td>-</td><td>0.25</td><td>7.83</td><td>0.952</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1236</td><td>34</td><td>5.2</td><td>2.50</td><td>0.24</td><td>-</td><td>0.893</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1247</td><td>33</td><td>5.7</td><td>-</td><td>0.18</td><td>7.93</td><td>0.890</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1300</td><td>32</td><td>4.6</td><td>-</td><td>0.17</td><td>7.92</td><td>0.875</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1304</td><td>32</td><td>4.4</td><td>2.10</td><td>0.18</td><td>7.92</td><td>0.904</td><td>2.58</td><td>-</td><td>17.1</td></tr><tr><td>1309</td><td>32</td><td>4.3</td><td>-</td><td>0.25</td><td>7.91</td><td>0.907</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1315</td><td>32</td><td>4.4</td><td>-</td><td>0.40</td><td>7.91</td><td>0.917</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1330</td><td>31</td><td>4.6</td><td>-</td><td>0.16</td><td>-</td><td>0.902</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1350</td><td>30</td><td>4.7</td><td>-</td><td>0.13</td><td>7.90</td><td>0.951</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1354</td><td>30</td><td>4.7</td><td>2.40</td><td>0.13</td><td>7.92</td><td>0.948</td><td>2.59</td><td>-</td><td>15.4</td></tr><tr><td>1359</td><td>30</td><td>4.6</td><td>-</td><td>0.14</td><td>7.90</td><td>0.935</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1403</td><td>30</td><td>4.3</td><td>-</td><td>0.17</td><td>7.90</td><td>0.961</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1432</td><td>29</td><td>4.6</td><td>-</td><td>0.14</td><td>7.91</td><td>0.918</td><td>-</td><td>-</td><td>.\n-</td></tr><tr><td>1439</td><td>28</td><td>4.8</td><td>-</td><td>0.11</td><td>7.95</td><td>0.814</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1454</td><td>27</td><td>3.5</td><td>-</td><td>0.09</td><td>7.96</td><td>0.801</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1458</td><td>27</td><td>4.6</td><td>2.90</td><td>0.12</td><td>7.96</td><td>0.799</td><td>2.41</td><td>-</td><td>11.7</td></tr><tr><td>1503</td><td>27</td><td>4.3</td><td>-</td><td>0.12</td><td>7.96</td><td>0.794</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1507</td><td>27</td><td>3.9</td><td>-</td><td>0.15</td><td>7.95</td><td>0.798</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1522</td><td>26</td><td>4.9</td><td>-</td><td>0.13</td><td>7.94</td><td>0.769</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1532</td><td>25</td><td>5.6</td><td>-</td><td>0.16</td><td>7.97</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1547</td><td>24</td><td>3.9</td><td>-</td><td>0.21</td><td>7.96</td><td>0.788</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1551</td><td>24</td><td>4.2</td><td>3.30</td><td>0.21</td><td>7.96</td><td>0.787</td><td>2.37</td><td>-</td><td>16.8</td></tr><tr><td>1557</td><td>24</td><td>4.2</td><td>-</td><td>0.27</td><td>7.97</td><td>0.775</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1602</td><td>24</td><td>4.4</td><td>-</td><td>0.30</td><td>7.96</td><td>0.774</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1612</td><td>23</td><td>4.3</td><td>-</td><td>0.27</td><td>7.95</td><td>0.774</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1625</td><td>22</td><td>4.8</td><td>-</td><td>0.12</td><td>7.97</td><td>0.701</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1640</td><td>21</td><td>5.6</td><td>-</td><td>0.11</td><td>7.98</td><td>0.678</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1644</td><td>21</td><td>5.6</td><td>5.00</td><td>0.12</td><td>7.98</td><td>0.681</td><td>2.28</td><td>-</td><td>15.0</td></tr><tr><td>1650</td><td>21</td><td>5.3</td><td>-</td><td>0.14</td><td>7.98</td><td>0.686</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1656</td><td>21</td><td>5.4</td><td>-</td><td>0.15</td><td>7.98</td><td>0.679</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1724</td><td>-</td><td>7.7</td><td>-</td><td>0.14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1743</td><td>20</td><td>4.6</td><td>-</td><td>0.13</td><td>7.97</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.03790102010753372,
+                            "top": 0.23316773318574355,
+                            "width": 0.9163585936469871,
+                            "height": 0.6215088462382904,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>TIME</th><th>STATION\nNUMBER</th><th>FLUORESCENCE CHLOROPHYLL</th><th>DISCRETE</th><th>TURBIDITY</th><th>PH</th><th>PC02</th><th>ALKALINITY</th><th>POC</th><th>SUSPENDED\nSEDIMENT</th></tr><tr><td>1159</td><td>36</td><td>5.2</td><td>-</td><td>0.25</td><td>7.88</td><td>1.102</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1207</td><td>36</td><td>5.2</td><td>2.60</td><td>0.27</td><td>7.90</td><td>1.068</td><td>2.79</td><td>-</td><td>23.7</td></tr><tr><td>1215</td><td>36</td><td>5.3</td><td>-</td><td>0.32</td><td>7.91</td><td>1.026</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1230</td><td>35</td><td>5.4</td><td>-</td><td>0.25</td><td>7.83</td><td>0.952</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1236</td><td>34</td><td>5.2</td><td>2.50</td><td>0.24</td><td>-</td><td>0.893</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1247</td><td>33</td><td>5.7</td><td>-</td><td>0.18</td><td>7.93</td><td>0.890</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1300</td><td>32</td><td>4.6</td><td>-</td><td>0.17</td><td>7.92</td><td>0.875</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1304</td><td>32</td><td>4.4</td><td>2.10</td><td>0.18</td><td>7.92</td><td>0.904</td><td>2.58</td><td>-</td><td>17.1</td></tr><tr><td>1309</td><td>32</td><td>4.3</td><td>-</td><td>0.25</td><td>7.91</td><td>0.907</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1315</td><td>32</td><td>4.4</td><td>-</td><td>0.40</td><td>7.91</td><td>0.917</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1330</td><td>31</td><td>4.6</td><td>-</td><td>0.16</td><td>-</td><td>0.902</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1350</td><td>30</td><td>4.7</td><td>-</td><td>0.13</td><td>7.90</td><td>0.951</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1354</td><td>30</td><td>4.7</td><td>2.40</td><td>0.13</td><td>7.92</td><td>0.948</td><td>2.59</td><td>-</td><td>15.4</td></tr><tr><td>1359</td><td>30</td><td>4.6</td><td>-</td><td>0.14</td><td>7.90</td><td>0.935</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1403</td><td>30</td><td>4.3</td><td>-</td><td>0.17</td><td>7.90</td><td>0.961</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1432</td><td>29</td><td>4.6</td><td>-</td><td>0.14</td><td>7.91</td><td>0.918</td><td>-</td><td>-</td><td>.\n-</td></tr><tr><td>1439</td><td>28</td><td>4.8</td><td>-</td><td>0.11</td><td>7.95</td><td>0.814</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1454</td><td>27</td><td>3.5</td><td>-</td><td>0.09</td><td>7.96</td><td>0.801</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1458</td><td>27</td><td>4.6</td><td>2.90</td><td>0.12</td><td>7.96</td><td>0.799</td><td>2.41</td><td>-</td><td>11.7</td></tr><tr><td>1503</td><td>27</td><td>4.3</td><td>-</td><td>0.12</td><td>7.96</td><td>0.794</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1507</td><td>27</td><td>3.9</td><td>-</td><td>0.15</td><td>7.95</td><td>0.798</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1522</td><td>26</td><td>4.9</td><td>-</td><td>0.13</td><td>7.94</td><td>0.769</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1532</td><td>25</td><td>5.6</td><td>-</td><td>0.16</td><td>7.97</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1547</td><td>24</td><td>3.9</td><td>-</td><td>0.21</td><td>7.96</td><td>0.788</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1551</td><td>24</td><td>4.2</td><td>3.30</td><td>0.21</td><td>7.96</td><td>0.787</td><td>2.37</td><td>-</td><td>16.8</td></tr><tr><td>1557</td><td>24</td><td>4.2</td><td>-</td><td>0.27</td><td>7.97</td><td>0.775</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1602</td><td>24</td><td>4.4</td><td>-</td><td>0.30</td><td>7.96</td><td>0.774</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1612</td><td>23</td><td>4.3</td><td>-</td><td>0.27</td><td>7.95</td><td>0.774</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1625</td><td>22</td><td>4.8</td><td>-</td><td>0.12</td><td>7.97</td><td>0.701</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1640</td><td>21</td><td>5.6</td><td>-</td><td>0.11</td><td>7.98</td><td>0.678</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1644</td><td>21</td><td>5.6</td><td>5.00</td><td>0.12</td><td>7.98</td><td>0.681</td><td>2.28</td><td>-</td><td>15.0</td></tr><tr><td>1650</td><td>21</td><td>5.3</td><td>-</td><td>0.14</td><td>7.98</td><td>0.686</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1656</td><td>21</td><td>5.4</td><td>-</td><td>0.15</td><td>7.98</td><td>0.679</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1724</td><td>-</td><td>7.7</td><td>-</td><td>0.14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1743</td><td>20</td><td>4.6</td><td>-</td><td>0.13</td><td>7.97</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04 (cont.)",
+                "embed": "# SAN FRANCISCO BAY HYDRO DATA 1976 REPORT 26-OCT-78 17:16:04 (cont.)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.0650994575045208,
+                            "top": 0.8821233411397346,
+                            "width": 0.1431585292344786,
+                            "height": 0.01092896174863388,
+                            "page": 1
+                        },
+                        "content": "- DATA NOT AVAILABLE",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

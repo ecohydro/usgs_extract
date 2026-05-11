@@ -1,0 +1,134 @@
+{
+    "job_id": "76278a48-07b8-47e6-91fb-3bdc95b7e89f",
+    "duration": 3.8561127185821533,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/223a5ff2-824a-4dde-9d8e-7986bdae07bd?AWSAccessKeyId=ASIA2UOK6OVBGOO6RNID&Signature=eeDnk%2BnJO1aiDoIIwVobWQdLYe8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJIMEYCIQDwtvm5ypJNcqyHPMOB%2BIjTEX9W7%2BIDznv5xkpHItxMrwIhAKzarAK1btQQvMuzRKGxCgTGAP34rQr0AufVBjtLZ8uHKosFCCAQABoMNzMxMTA2OTMyMDM0IgzCRvzBqOWHqLkLZuIq6AQ017a3I%2Frif95jjTbKTBhBWcmTw1nWadlEQEJ9P%2FmkfKq2%2BxUOiJEe%2FGyJbcc%2BTbeEzbw1f%2BAjO4WXKw0TjJZOLcVU9QZkyqKI5en9nbHl5lR7ORuNDGKvo4KugjmsXqyg%2BXcXHc8DLqz0uryNefhN6l8wosfcYigmb%2FCng9Q9Te2Fo6FFDF70NdUAje3ELGkG6ftNZvh72RrLP2KStcutnjL9D4NoMc4qQW%2FoHadZxiTA16Scfc9mjleqBehNYc3cwM%2BjxkgKAlleG4uQQZKTb49a6a4zbGO7KJM%2FudIpgjlx8xyIktWhDTuihoHv6KsICE3Ve7RaF9vIwDLln54mUt5RO4nvgwGoGLnJCBZPPMK2TPMeU%2FmtCBP1QxZMdG%2FMU3FS4QiiYRGwOCT9cJznP8%2FrTMfKJSALNiVaOCqkMTyrWTCftGK%2BpqyeJCTZIhia0d2QGeMaRK%2FWnEv0daH2xNTYfk5vsAmn7hXvq935yuRJGYDU6K34mD4xOAZmoAnj2CR57jj1pGRr%2BZhERdlgYXyX167meWInJZcN3eZYcgIrw6qdUT1k%2BR6pDIqgUy2KAgC1jBdzX3pV2m8qOhxW0YnZCMD1YcAaVS0WcCfo8mLaWpEtIiDyfaevEN4ieY3XiBFNsd%2BFGaH9TXTIx6xBi9WCwnmL1NzzyvhKEWqeyyA2uURdaTjiMUF4PbkBL5FWEqHZTW32h0wUgM8XzNnRhtwB8TE3AoYQs3suUCIaChWPoSKmTfgn0Yp8k98ZV%2Fna%2BlLm%2FJnVJSMllryhpWDsIq8Mp7E8jNfmOIgDPkvIwIEBuUfI8M1iMLnkyLoGOpoBEjJT9yoxsS9efvu415kTWneKoK0bXemaJVefGeD%2F2TGRTvU81uX3ieKTTCZDeY4RcFTqM7BlmTwIgSZZs99HLKEpFAUl1m0TcZXAx526LIE91Gh1ES1NHrXrl%2FRAzn88UpCz%2Fuo4aq7j2GMKdx9Y8XBpvguw7SVpH5uVbHmwwZ71pYwiaEapRkdsFv6whfIfbdaQl2R9paK4kA%3D%3D&Expires=1733444044",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "124\n\n# COLORADO RIVER AND ITS UTILIZATION.\n\nvoir having a capacity of about 35,000 acre-feet. The utiliza- tion of this site is, however, remote, owing to the fact that lands suitable for irrigation lie south of the reservoir site and away from the river and could not be reached without expensive construction work. The average annual run-off available for storage in this reservoir site is about 40,000 acre-feet. A gaging station was main- tained on Escalante Creek near Escalante, Utah, from 1909 to 1912, inclusive. The drainage area above this station is 315 square miles, whereas the total area of the basin is 1,780 square miles. The average annual run-off from this basin is probably about 75,000 acre-feet.",
+                "embed": "124\n\n# COLORADO RIVER AND ITS UTILIZATION.\n\nvoir having a capacity of about 35,000 acre-feet. The utiliza- tion of this site is, however, remote, owing to the fact that lands suitable for irrigation lie south of the reservoir site and away from the river and could not be reached without expensive construction work. The average annual run-off available for storage in this reservoir site is about 40,000 acre-feet. A gaging station was main- tained on Escalante Creek near Escalante, Utah, from 1909 to 1912, inclusive. The drainage area above this station is 315 square miles, whereas the total area of the basin is 1,780 square miles. The average annual run-off from this basin is probably about 75,000 acre-feet.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.13212273011897308,
+                            "top": 0.053323319564401055,
+                            "width": 0.045710707576706325,
+                            "height": 0.013518588058580548,
+                            "page": 1
+                        },
+                        "content": "124",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3068252974326863,
+                            "top": 0.05595193390912505,
+                            "width": 0.47088290544771444,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "COLORADO RIVER AND ITS UTILIZATION.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12961803381340012,
+                            "top": 0.08561772437101015,
+                            "width": 0.8252974326862867,
+                            "height": 0.20127675553886595,
+                            "page": 1
+                        },
+                        "content": "voir having a capacity of about 35,000 acre-feet. The utiliza- tion of this site is, however, remote, owing to the fact that lands suitable for irrigation lie south of the reservoir site and away from the river and could not be reached without expensive construction work. The average annual run-off available for storage in this reservoir site is about 40,000 acre-feet. A gaging station was main- tained on Escalante Creek near Escalante, Utah, from 1909 to 1912, inclusive. The drainage area above this station is 315 square miles, whereas the total area of the basin is 1,780 square miles. The average annual run-off from this basin is probably about 75,000 acre-feet.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# COLORADO RIVER AND ITS UTILIZATION. (cont.)\n\n## FREMONT RIVER BASIN.\n\nRecords showing the discharge of Fremont River near Thurber for the years 1909 to 1912, inclusive, indicate an average annual run-off of approximately 75,000 acre-feet from the 720 square miles of drainage area above the gaging station. Similarly, records of the discharge of Muddy River near Emery, Utah, indicate an average annual run-off of 40,000 acre-feet from a drainage area of 87 square miles. No records are available showing the total discharge of Fre- mont River into the Colorado, but the incomplete records obtained at Thurber and Emery indicate that the average annual discharge from the Fremont basin into the Colorado is about 200,000 acre-feet. Except during the floods practically the entire flow passing the gaging stations on Fremont River and Muddy Creek is used for irrigation. There are no large bodies of land in this basin that can be reclaimed at a reasonable cost. It is probable, however, that numerous small areas will be reclaimed. Three small reservoirs, with an aggregate capacity of about 9,000 acre-feet, have been constructed in the Fre- mont basin to augment the low-water flow.\n\nReservoirs in Fremont River basin.",
+                "embed": "# COLORADO RIVER AND ITS UTILIZATION. (cont.)\n\n## FREMONT RIVER BASIN.\n\nRecords showing the discharge of Fremont River near Thurber for the years 1909 to 1912, inclusive, indicate an average annual run-off of approximately 75,000 acre-feet from the 720 square miles of drainage area above the gaging station. Similarly, records of the discharge of Muddy River near Emery, Utah, indicate an average annual run-off of 40,000 acre-feet from a drainage area of 87 square miles. No records are available showing the total discharge of Fre- mont River into the Colorado, but the incomplete records obtained at Thurber and Emery indicate that the average annual discharge from the Fremont basin into the Colorado is about 200,000 acre-feet. Except during the floods practically the entire flow passing the gaging stations on Fremont River and Muddy Creek is used for irrigation. There are no large bodies of land in this basin that can be reclaimed at a reasonable cost. It is probable, however, that numerous small areas will be reclaimed. Three small reservoirs, with an aggregate capacity of about 9,000 acre-feet, have been constructed in the Fre- mont basin to augment the low-water flow.\n\nReservoirs in Fremont River basin.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.41828428303068255,
+                            "top": 0.2895230942546001,
+                            "width": 0.2429555416405761,
+                            "height": 0.009012392039053699,
+                            "page": 1
+                        },
+                        "content": "FREMONT RIVER BASIN.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1258609893550407,
+                            "top": 0.31055200901239205,
+                            "width": 0.8290544771446462,
+                            "height": 0.3176868193766429,
+                            "page": 1
+                        },
+                        "content": "Records showing the discharge of Fremont River near Thurber for the years 1909 to 1912, inclusive, indicate an average annual run-off of approximately 75,000 acre-feet from the 720 square miles of drainage area above the gaging station. Similarly, records of the discharge of Muddy River near Emery, Utah, indicate an average annual run-off of 40,000 acre-feet from a drainage area of 87 square miles. No records are available showing the total discharge of Fre- mont River into the Colorado, but the incomplete records obtained at Thurber and Emery indicate that the average annual discharge from the Fremont basin into the Colorado is about 200,000 acre-feet. Except during the floods practically the entire flow passing the gaging stations on Fremont River and Muddy Creek is used for irrigation. There are no large bodies of land in this basin that can be reclaimed at a reasonable cost. It is probable, however, that numerous small areas will be reclaimed. Three small reservoirs, with an aggregate capacity of about 9,000 acre-feet, have been constructed in the Fre- mont basin to augment the low-water flow.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.37633061991233563,
+                            "top": 0.641381900112655,
+                            "width": 0.3256105197244834,
+                            "height": 0.012016522718738265,
+                            "page": 1
+                        },
+                        "content": "Reservoirs in Fremont River basin.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# COLORADO RIVER AND ITS UTILIZATION. (cont.)\n\n## FREMONT RIVER BASIN. (cont.)\n\n<table><tr><th>Name of reservoir.</th><th>Location.</th><th>Height of\ndam.</th><th>Capacity.</th></tr><tr><td>Johnson</td><td>Above Fish Lake</td><td>Feet.\n22</td><td>Acre-feet.\n4, 800</td></tr><tr><td>Fremont</td><td>Right Fork</td><td>70</td><td>3, 419</td></tr><tr><td>Grover</td><td>Fish Creek</td><td>8</td><td></td></tr></table>\n\nOnly one comparatively large reservoir site in this basin is not being utilized. At this site, which is known as the Thurber reservoir site and is situated on Fremont River near the town of Thurber in Wayne County, Utah, a dam 85 feet high would create a reservoir having storage capacity of 136,000 acre-feet. The elevation of the reservoir site is about 6,800 feet. The average annual run-off avail- able for storage in the Thurber reservoir site is approximately 75,000 acre-feet. In 1913 about 15,000 acres were irrigated, and the",
+                "embed": "# COLORADO RIVER AND ITS UTILIZATION. (cont.)\n\n## FREMONT RIVER BASIN. (cont.)\n\n<table><tr><th>Name of reservoir.</th><th>Location.</th><th>Height of\ndam.</th><th>Capacity.</th></tr><tr><td>Johnson</td><td>Above Fish Lake</td><td>Feet.\n22</td><td>Acre-feet.\n4, 800</td></tr><tr><td>Fremont</td><td>Right Fork</td><td>70</td><td>3, 419</td></tr><tr><td>Grover</td><td>Fish Creek</td><td>8</td><td></td></tr></table>\n\nOnly one comparatively large reservoir site in this basin is not being utilized. At this site, which is known as the Thurber reservoir site and is situated on Fremont River near the town of Thurber in Wayne County, Utah, a dam 85 feet high would create a reservoir having storage capacity of 136,000 acre-feet. The elevation of the reservoir site is about 6,800 feet. The average annual run-off avail- able for storage in the Thurber reservoir site is approximately 75,000 acre-feet. In 1913 about 15,000 acres were irrigated, and the",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.125069615239267,
+                            "top": 0.6694524795812993,
+                            "width": 0.8292095874650223,
+                            "height": 0.1002370996937195,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Name of reservoir.</th><th>Location.</th><th>Height of\ndam.</th><th>Capacity.</th></tr><tr><td>Johnson</td><td>Above Fish Lake</td><td>Feet.\n22</td><td>Acre-feet.\n4, 800</td></tr><tr><td>Fremont</td><td>Right Fork</td><td>70</td><td>3, 419</td></tr><tr><td>Grover</td><td>Fish Creek</td><td>8</td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12398246712586099,
+                            "top": 0.7833270747277506,
+                            "width": 0.828428303068253,
+                            "height": 0.1490799849793466,
+                            "page": 1
+                        },
+                        "content": "Only one comparatively large reservoir site in this basin is not being utilized. At this site, which is known as the Thurber reservoir site and is situated on Fremont River near the town of Thurber in Wayne County, Utah, a dam 85 feet high would create a reservoir having storage capacity of 136,000 acre-feet. The elevation of the reservoir site is about 6,800 feet. The average annual run-off avail- able for storage in the Thurber reservoir site is approximately 75,000 acre-feet. In 1913 about 15,000 acres were irrigated, and the",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

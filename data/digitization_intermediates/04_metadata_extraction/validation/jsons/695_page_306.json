@@ -1,0 +1,206 @@
+{
+    "job_id": "acd7c7cb-1d65-4000-959f-df01225669b7",
+    "duration": 5.559911727905273,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/c870eb9f-a7aa-4455-a1e3-b8dd2441f28e?AWSAccessKeyId=ASIA2UOK6OVBOVVRFBQF&Signature=qyk%2BpCrYkziPYaIMbe8A7IGCLt8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJHMEUCIQCPqyznDiSIVpB3vLazBrFhb6lui543qW6tWl3YMLSlmQIgZwsR37OimfpBlBKWdw6176Ab17DHMaXdcPU6uAorgdYqiwUIJRAAGgw3MzExMDY5MzIwMzQiDNj5yhZg8QJyrBhIySroBMvOPQeUkpqA4y7jgiHjkMBnNEufQgd2VnRnHFuxOL9oz6YpeIUZ%2FawM3JCWwufLsWZ23cj7kSpMrAh7jCwO4cFjgN8X8a1DGfDWoE6kO9LeXAmcWN2ueTAlWQcDDHnnaeLiipzJ2GiIzw9d6%2Fktv5ilLOa9s5HM%2FxE%2BsGANqlMKH6roqQa%2BM52DkphHnL%2Bd3cJEZSnL2c3VF4b8%2BU6r374V8LF5qe6Gas5pWxllPghsydG4vht9Wb%2FpVw%2F8zTKFYKKTUhFkJO1%2B1djySUyFhHtkP8vc3gf%2BVQIyRdqWg5l3QnCWPkrII%2BFUBcHw0o0Jvpy%2FekRYWKhIf4BZ50ww7W5H6Z3N2faXlx8QQKpSd041tWHW0sIVON2fy%2BgaR29g5KOtoeyaZr9MHzkFMVoLGcCkpwGOjuSvF6i6QoKS679PSx%2FNsE3sm5i%2BCKPOCPsaK05exTRaXnXhTZ%2F6%2FIEqq001C41t2wEy8XL4DviC81O%2Bj2JaeCVtygjILzi7IWwI3nnCoTj50YciYNQaWIcQuUxXXirxG6aSU%2BjhGcPYtiO3hQ3LYBhjrCOHc2yZVlcabsFh7WazMFGucWhWL3ZfprVYSKXHoiA50FBHCWmM1FWZ%2BdDKgA2w0zu%2FohZF0Dz2%2B4r0XHIYt%2Fvrh2DVqKcuQJj%2Fr8uitB47x%2Fpdu%2BoRNAntxmo4YXwGcohFDlHtK5tcda1%2Fs2IQOyGN0TxqWrKnrNzeSmQV9jhqn0qRYTwumMaEtxnGzwepsQYWtjD%2BJYU%2Bt3ipMsHaoXgovQDxZx%2B1jWLRLw2FelfUoxEWyuqvsSudOTAp1RCve2swr%2BbJugY6mwHjPQkknrJV9n8EiQi1BeyqvEZAoP7Por8MSPZ2KPjk6hw8uPbnvJUt4CddO33Np4ZIh%2B8atN7L7EcWpgqBJ6Fy1u2Yf0Ligl2q%2FsbpnztX9SxM2aYv8UR9vK7eaUqfr1XggrUzGfmTfsiDHRlkhOSjRQP6O9FeQIqgAMjJheRFt4xgYyy9i0QUBAzquSQRcY2mLg3Ga7QPRavbvg%3D%3D&Expires=1733462177",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "",
+                "embed": "",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.10128205128205128,
+                            "top": 0.05068078668683813,
+                            "width": 0.028205128205128206,
+                            "height": 0.00832072617246596,
+                            "page": 1
+                        },
+                        "content": "292",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN\n\n# Friant-Madera Canal at Friant, Calif.\n\nLocation. --Lat 37\u00b000'10\", long 119\u00b042'20\" in NW1SW1 sec. 5, T. 11 S. , R. 21 E., at Friant Dam, 0.9 mile northeast of Friant.\n\nRecords available. -- October 1943 to September 1957. Prior to October 1954, published as Madera Canal near Friant.\n\nGage -- Discharge computed on basis of valve openings in dam and head on valves. Prior to Oct. 1. 1948, water-stage recorder at several sites at various datums. Oct. 1, 1948, to Sept. 30, 1949, water-stage recorder at site 8.8 miles downstream.\n\nAverage discharge --14 years, 212 cf's (153,500 acre-ft per year)\n\nExtremes .--1943-57 Maximum daily discharge, 1,040 cfs July 2, 1956; no flow during several months in each year.\n\nRemarks. -Records good. Canal diverts from Millerton Lake at right end of Friant Dam for irrigation between San Joaquin and Fresno Rivers.\n\nCooperation. Records furnished by Bureau of Reclamation and reviewed by Geological Survey.\n\nRevisions (water years) --WSP 1151: 1944-48.\n\nDischarge, in cubic feet per second, water year October 1956 to September 1957",
+                "embed": "# SAN JOAQUIN RIVER BASIN\n\n# Friant-Madera Canal at Friant, Calif.\n\nLocation. --Lat 37\u00b000'10\", long 119\u00b042'20\" in NW1SW1 sec. 5, T. 11 S. , R. 21 E., at Friant Dam, 0.9 mile northeast of Friant.\n\nRecords available. -- October 1943 to September 1957. Prior to October 1954, published as Madera Canal near Friant.\n\nGage -- Discharge computed on basis of valve openings in dam and head on valves. Prior to Oct. 1. 1948, water-stage recorder at several sites at various datums. Oct. 1, 1948, to Sept. 30, 1949, water-stage recorder at site 8.8 miles downstream.\n\nAverage discharge --14 years, 212 cf's (153,500 acre-ft per year)\n\nExtremes .--1943-57 Maximum daily discharge, 1,040 cfs July 2, 1956; no flow during several months in each year.\n\nRemarks. -Records good. Canal diverts from Millerton Lake at right end of Friant Dam for irrigation between San Joaquin and Fresno Rivers.\n\nCooperation. Records furnished by Bureau of Reclamation and reviewed by Geological Survey.\n\nRevisions (water years) --WSP 1151: 1944-48.\n\nDischarge, in cubic feet per second, water year October 1956 to September 1957",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.41794871794871796,
+                            "top": 0.052571860816944024,
+                            "width": 0.2173076923076923,
+                            "height": 0.009077155824508321,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3506410256410256,
+                            "top": 0.08093797276853253,
+                            "width": 0.3487179487179487,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Friant-Madera Canal at Friant, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0967948717948718,
+                            "top": 0.10779122541603631,
+                            "width": 0.7826923076923077,
+                            "height": 0.02042360060514372,
+                            "page": 1
+                        },
+                        "content": "Location. --Lat 37\u00b000'10\", long 119\u00b042'20\" in NW1SW1 sec. 5, T. 11 S. , R. 21 E., at Friant Dam, 0.9 mile northeast of Friant.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0967948717948718,
+                            "top": 0.13729198184568836,
+                            "width": 0.8301282051282052,
+                            "height": 0.018532526475037822,
+                            "page": 1
+                        },
+                        "content": "Records available. -- October 1943 to September 1957. Prior to October 1954, published as Madera Canal near Friant.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09743589743589744,
+                            "top": 0.16565809379727686,
+                            "width": 0.8397435897435898,
+                            "height": 0.029500756429652043,
+                            "page": 1
+                        },
+                        "content": "Gage -- Discharge computed on basis of valve openings in dam and head on valves. Prior to Oct. 1. 1948, water-stage recorder at several sites at various datums. Oct. 1, 1948, to Sept. 30, 1949, water-stage recorder at site 8.8 miles downstream.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09743589743589744,
+                            "top": 0.2031013615733737,
+                            "width": 0.6051282051282051,
+                            "height": 0.01096822995461422,
+                            "page": 1
+                        },
+                        "content": "Average discharge --14 years, 212 cf's (153,500 acre-ft per year)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09807692307692308,
+                            "top": 0.22239031770045387,
+                            "width": 0.7923076923076923,
+                            "height": 0.020045385779122543,
+                            "page": 1
+                        },
+                        "content": "Extremes .--1943-57 Maximum daily discharge, 1,040 cfs July 2, 1956; no flow during several months in each year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09807692307692308,
+                            "top": 0.2503782148260212,
+                            "width": 0.8384615384615385,
+                            "height": 0.02042360060514372,
+                            "page": 1
+                        },
+                        "content": "Remarks. -Records good. Canal diverts from Millerton Lake at right end of Friant Dam for irrigation between San Joaquin and Fresno Rivers.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09743589743589744,
+                            "top": 0.27912254160363087,
+                            "width": 0.782051282051282,
+                            "height": 0.02042360060514372,
+                            "page": 1
+                        },
+                        "content": "Cooperation. Records furnished by Bureau of Reclamation and reviewed by Geological Survey.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09743589743589744,
+                            "top": 0.30748865355521937,
+                            "width": 0.42243589743589743,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "Revisions (water years) --WSP 1151: 1944-48.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.191025641025641,
+                            "top": 0.3483358547655068,
+                            "width": 0.6621794871794872,
+                            "height": 0.009455370650529501,
+                            "page": 1
+                        },
+                        "content": "Discharge, in cubic feet per second, water year October 1956 to September 1957",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Friant-Madera Canal at Friant, Calif. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>111</td><td></td><td></td><td>o</td><td></td><td>plo</td><td>597</td><td>old</td><td>572</td><td>1,013</td><td>1,022</td><td>752</td></tr><tr><td>2</td><td>O</td><td></td><td></td><td>o</td><td></td><td>O</td><td>595</td><td></td><td>574</td><td>961</td><td>1,023</td><td>754</td></tr><tr><td>3</td><td>o</td><td></td><td></td><td>o</td><td></td><td>0</td><td>593</td><td>11</td><td>632</td><td>913</td><td>1,024</td><td>760</td></tr><tr><td>4</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>590</td><td>35</td><td>666</td><td>923</td><td>1,026</td><td>784</td></tr><tr><td>5</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>588</td><td>35</td><td>687</td><td>937</td><td>*1,022</td><td>*799</td></tr><tr><td>6</td><td>0</td><td></td><td></td><td>O</td><td></td><td>o</td><td>596</td><td>35</td><td>*700</td><td>963</td><td>1,023</td><td>784</td></tr><tr><td>7</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>604</td><td>41</td><td>701</td><td>984</td><td>1,021</td><td>762</td></tr><tr><td>8</td><td>o</td><td></td><td></td><td>12</td><td></td><td>o</td><td>603</td><td>45</td><td>703</td><td>996</td><td>1,007</td><td>746</td></tr><tr><td>9</td><td>o</td><td></td><td></td><td>O</td><td></td><td>0</td><td>*601</td><td>46</td><td>703</td><td>1,018</td><td>960</td><td>737</td></tr><tr><td>10</td><td>o</td><td></td><td></td><td>o</td><td></td><td>0</td><td>600</td><td>46</td><td>675</td><td>1,025</td><td>934</td><td>687</td></tr><tr><td>11</td><td>o</td><td></td><td></td><td>O</td><td></td><td>o</td><td>569</td><td>20</td><td>623</td><td>1,021</td><td>928</td><td>643</td></tr><tr><td>12</td><td>o</td><td></td><td></td><td>O</td><td></td><td>66</td><td>526</td><td>o</td><td>604</td><td>1,022</td><td>914</td><td>636</td></tr><tr><td>13</td><td>0</td><td></td><td></td><td>o</td><td></td><td>100</td><td>486</td><td>o</td><td>603</td><td>1,022</td><td>921</td><td>611</td></tr><tr><td>14</td><td>o</td><td></td><td></td><td>O</td><td></td><td>100</td><td>470</td><td>o</td><td>603</td><td>1,018</td><td>942</td><td>569</td></tr><tr><td>15</td><td>0</td><td></td><td></td><td>O</td><td></td><td>100</td><td>470</td><td>o</td><td>603</td><td>1,022</td><td>959</td><td>548</td></tr><tr><td>16</td><td>0</td><td></td><td></td><td>0</td><td></td><td>100</td><td>445</td><td>o</td><td>603</td><td>1,024</td><td>943</td><td>533</td></tr><tr><td>17</td><td>o</td><td></td><td></td><td>o</td><td></td><td>100</td><td>387</td><td>0</td><td>606</td><td>1,020</td><td>911</td><td>522</td></tr><tr><td>18</td><td>0</td><td></td><td></td><td>o</td><td></td><td>100</td><td>129</td><td>o</td><td>601</td><td>1,016</td><td>896</td><td>510</td></tr><tr><td>19</td><td>o</td><td></td><td></td><td>0</td><td></td><td>141</td><td>o</td><td>98</td><td>733</td><td>1,019</td><td>870</td><td>500</td></tr><tr><td>20</td><td>o</td><td></td><td></td><td>O</td><td></td><td>212</td><td>67</td><td>152</td><td>891</td><td>1,021</td><td>882</td><td>474</td></tr><tr><td>21</td><td>o</td><td></td><td></td><td>o</td><td></td><td>311</td><td>101</td><td>217</td><td>938</td><td>1,033</td><td>940</td><td>458</td></tr><tr><td>22</td><td>o</td><td></td><td></td><td>o</td><td></td><td>385</td><td>101</td><td>271</td><td>961</td><td>1,018</td><td>978</td><td>452</td></tr><tr><td>23</td><td>0</td><td></td><td></td><td>o</td><td></td><td>403</td><td>102</td><td>359</td><td>982</td><td>999</td><td>1,000</td><td>477</td></tr><tr><td>24</td><td>0</td><td></td><td></td><td>o</td><td></td><td>401</td><td>*68</td><td>404</td><td>993</td><td>1,012</td><td>992</td><td>522</td></tr><tr><td>25</td><td>o</td><td></td><td></td><td>O</td><td></td><td>434</td><td>o</td><td>357</td><td>1,004</td><td>*1,022</td><td>942</td><td>536</td></tr><tr><td>26</td><td>0</td><td></td><td></td><td>o</td><td></td><td>484</td><td>o</td><td>321</td><td>1,016</td><td>1,017</td><td>931</td><td>552</td></tr><tr><td>27</td><td>o</td><td></td><td></td><td>o</td><td></td><td>*531</td><td>o</td><td>352</td><td>1,026</td><td>1,012</td><td>890</td><td>428</td></tr><tr><td>28</td><td>o</td><td></td><td></td><td>o</td><td></td><td>*549</td><td>o</td><td>404</td><td>1,026</td><td>1,006</td><td>846</td><td>263</td></tr><tr><td>29</td><td>0</td><td></td><td></td><td>0</td><td></td><td>581</td><td>o</td><td>466</td><td>1,026</td><td>993</td><td>852</td><td>259</td></tr><tr><td>30</td><td>0</td><td></td><td></td><td>o</td><td></td><td>601</td><td>o</td><td>*498</td><td>1,026</td><td>993</td><td>845</td><td>*257</td></tr><tr><td>31</td><td>o</td><td></td><td></td><td>o</td><td></td><td>599</td><td></td><td>*537</td><td></td><td>1,014</td><td>797</td><td></td></tr><tr><td>Total</td><td>111</td><td>o</td><td>o</td><td>12</td><td>o</td><td>6,298</td><td>9,888</td><td>4,750</td><td>23,081</td><td>31,057</td><td>29,241</td><td>17,315</td></tr><tr><td>Mean</td><td>3.58</td><td>0</td><td>0</td><td>0.39</td><td>Q</td><td>203</td><td>330</td><td>153</td><td>769</td><td>1,002</td><td>943</td><td>577</td></tr><tr><td>Ac-ft</td><td>220</td><td>o</td><td>o</td><td>24</td><td>o</td><td>12,490</td><td>19,610</td><td>9,420</td><td>45,780</td><td>61,600</td><td>58,000</td><td>34,340</td></tr><tr><td>Calendar</td><td>year</td><td>1956:</td><td>1,040</td><td></td><td>o</td><td>Mean</td><td>329</td><td>Ac-ft</td><td>239,000</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year 1956</td><td>-57:</td><td>1,033</td><td></td><td>o</td><td>Mean</td><td>334</td><td>Ac-ft</td><td>241,500</td><td></td><td></td><td></td></tr></table>\n\n* Discharge measurement made on this day.",
+                "embed": "# Friant-Madera Canal at Friant, Calif. (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>111</td><td></td><td></td><td>o</td><td></td><td>plo</td><td>597</td><td>old</td><td>572</td><td>1,013</td><td>1,022</td><td>752</td></tr><tr><td>2</td><td>O</td><td></td><td></td><td>o</td><td></td><td>O</td><td>595</td><td></td><td>574</td><td>961</td><td>1,023</td><td>754</td></tr><tr><td>3</td><td>o</td><td></td><td></td><td>o</td><td></td><td>0</td><td>593</td><td>11</td><td>632</td><td>913</td><td>1,024</td><td>760</td></tr><tr><td>4</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>590</td><td>35</td><td>666</td><td>923</td><td>1,026</td><td>784</td></tr><tr><td>5</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>588</td><td>35</td><td>687</td><td>937</td><td>*1,022</td><td>*799</td></tr><tr><td>6</td><td>0</td><td></td><td></td><td>O</td><td></td><td>o</td><td>596</td><td>35</td><td>*700</td><td>963</td><td>1,023</td><td>784</td></tr><tr><td>7</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>604</td><td>41</td><td>701</td><td>984</td><td>1,021</td><td>762</td></tr><tr><td>8</td><td>o</td><td></td><td></td><td>12</td><td></td><td>o</td><td>603</td><td>45</td><td>703</td><td>996</td><td>1,007</td><td>746</td></tr><tr><td>9</td><td>o</td><td></td><td></td><td>O</td><td></td><td>0</td><td>*601</td><td>46</td><td>703</td><td>1,018</td><td>960</td><td>737</td></tr><tr><td>10</td><td>o</td><td></td><td></td><td>o</td><td></td><td>0</td><td>600</td><td>46</td><td>675</td><td>1,025</td><td>934</td><td>687</td></tr><tr><td>11</td><td>o</td><td></td><td></td><td>O</td><td></td><td>o</td><td>569</td><td>20</td><td>623</td><td>1,021</td><td>928</td><td>643</td></tr><tr><td>12</td><td>o</td><td></td><td></td><td>O</td><td></td><td>66</td><td>526</td><td>o</td><td>604</td><td>1,022</td><td>914</td><td>636</td></tr><tr><td>13</td><td>0</td><td></td><td></td><td>o</td><td></td><td>100</td><td>486</td><td>o</td><td>603</td><td>1,022</td><td>921</td><td>611</td></tr><tr><td>14</td><td>o</td><td></td><td></td><td>O</td><td></td><td>100</td><td>470</td><td>o</td><td>603</td><td>1,018</td><td>942</td><td>569</td></tr><tr><td>15</td><td>0</td><td></td><td></td><td>O</td><td></td><td>100</td><td>470</td><td>o</td><td>603</td><td>1,022</td><td>959</td><td>548</td></tr><tr><td>16</td><td>0</td><td></td><td></td><td>0</td><td></td><td>100</td><td>445</td><td>o</td><td>603</td><td>1,024</td><td>943</td><td>533</td></tr><tr><td>17</td><td>o</td><td></td><td></td><td>o</td><td></td><td>100</td><td>387</td><td>0</td><td>606</td><td>1,020</td><td>911</td><td>522</td></tr><tr><td>18</td><td>0</td><td></td><td></td><td>o</td><td></td><td>100</td><td>129</td><td>o</td><td>601</td><td>1,016</td><td>896</td><td>510</td></tr><tr><td>19</td><td>o</td><td></td><td></td><td>0</td><td></td><td>141</td><td>o</td><td>98</td><td>733</td><td>1,019</td><td>870</td><td>500</td></tr><tr><td>20</td><td>o</td><td></td><td></td><td>O</td><td></td><td>212</td><td>67</td><td>152</td><td>891</td><td>1,021</td><td>882</td><td>474</td></tr><tr><td>21</td><td>o</td><td></td><td></td><td>o</td><td></td><td>311</td><td>101</td><td>217</td><td>938</td><td>1,033</td><td>940</td><td>458</td></tr><tr><td>22</td><td>o</td><td></td><td></td><td>o</td><td></td><td>385</td><td>101</td><td>271</td><td>961</td><td>1,018</td><td>978</td><td>452</td></tr><tr><td>23</td><td>0</td><td></td><td></td><td>o</td><td></td><td>403</td><td>102</td><td>359</td><td>982</td><td>999</td><td>1,000</td><td>477</td></tr><tr><td>24</td><td>0</td><td></td><td></td><td>o</td><td></td><td>401</td><td>*68</td><td>404</td><td>993</td><td>1,012</td><td>992</td><td>522</td></tr><tr><td>25</td><td>o</td><td></td><td></td><td>O</td><td></td><td>434</td><td>o</td><td>357</td><td>1,004</td><td>*1,022</td><td>942</td><td>536</td></tr><tr><td>26</td><td>0</td><td></td><td></td><td>o</td><td></td><td>484</td><td>o</td><td>321</td><td>1,016</td><td>1,017</td><td>931</td><td>552</td></tr><tr><td>27</td><td>o</td><td></td><td></td><td>o</td><td></td><td>*531</td><td>o</td><td>352</td><td>1,026</td><td>1,012</td><td>890</td><td>428</td></tr><tr><td>28</td><td>o</td><td></td><td></td><td>o</td><td></td><td>*549</td><td>o</td><td>404</td><td>1,026</td><td>1,006</td><td>846</td><td>263</td></tr><tr><td>29</td><td>0</td><td></td><td></td><td>0</td><td></td><td>581</td><td>o</td><td>466</td><td>1,026</td><td>993</td><td>852</td><td>259</td></tr><tr><td>30</td><td>0</td><td></td><td></td><td>o</td><td></td><td>601</td><td>o</td><td>*498</td><td>1,026</td><td>993</td><td>845</td><td>*257</td></tr><tr><td>31</td><td>o</td><td></td><td></td><td>o</td><td></td><td>599</td><td></td><td>*537</td><td></td><td>1,014</td><td>797</td><td></td></tr><tr><td>Total</td><td>111</td><td>o</td><td>o</td><td>12</td><td>o</td><td>6,298</td><td>9,888</td><td>4,750</td><td>23,081</td><td>31,057</td><td>29,241</td><td>17,315</td></tr><tr><td>Mean</td><td>3.58</td><td>0</td><td>0</td><td>0.39</td><td>Q</td><td>203</td><td>330</td><td>153</td><td>769</td><td>1,002</td><td>943</td><td>577</td></tr><tr><td>Ac-ft</td><td>220</td><td>o</td><td>o</td><td>24</td><td>o</td><td>12,490</td><td>19,610</td><td>9,420</td><td>45,780</td><td>61,600</td><td>58,000</td><td>34,340</td></tr><tr><td>Calendar</td><td>year</td><td>1956:</td><td>1,040</td><td></td><td>o</td><td>Mean</td><td>329</td><td>Ac-ft</td><td>239,000</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year 1956</td><td>-57:</td><td>1,033</td><td></td><td>o</td><td>Mean</td><td>334</td><td>Ac-ft</td><td>241,500</td><td></td><td></td><td></td></tr></table>\n\n* Discharge measurement made on this day.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.09203141041291066,
+                            "top": 0.3590148833443646,
+                            "width": 0.8582720438639323,
+                            "height": 0.3837662089430078,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>111</td><td></td><td></td><td>o</td><td></td><td>plo</td><td>597</td><td>old</td><td>572</td><td>1,013</td><td>1,022</td><td>752</td></tr><tr><td>2</td><td>O</td><td></td><td></td><td>o</td><td></td><td>O</td><td>595</td><td></td><td>574</td><td>961</td><td>1,023</td><td>754</td></tr><tr><td>3</td><td>o</td><td></td><td></td><td>o</td><td></td><td>0</td><td>593</td><td>11</td><td>632</td><td>913</td><td>1,024</td><td>760</td></tr><tr><td>4</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>590</td><td>35</td><td>666</td><td>923</td><td>1,026</td><td>784</td></tr><tr><td>5</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>588</td><td>35</td><td>687</td><td>937</td><td>*1,022</td><td>*799</td></tr><tr><td>6</td><td>0</td><td></td><td></td><td>O</td><td></td><td>o</td><td>596</td><td>35</td><td>*700</td><td>963</td><td>1,023</td><td>784</td></tr><tr><td>7</td><td>o</td><td></td><td></td><td>o</td><td></td><td>o</td><td>604</td><td>41</td><td>701</td><td>984</td><td>1,021</td><td>762</td></tr><tr><td>8</td><td>o</td><td></td><td></td><td>12</td><td></td><td>o</td><td>603</td><td>45</td><td>703</td><td>996</td><td>1,007</td><td>746</td></tr><tr><td>9</td><td>o</td><td></td><td></td><td>O</td><td></td><td>0</td><td>*601</td><td>46</td><td>703</td><td>1,018</td><td>960</td><td>737</td></tr><tr><td>10</td><td>o</td><td></td><td></td><td>o</td><td></td><td>0</td><td>600</td><td>46</td><td>675</td><td>1,025</td><td>934</td><td>687</td></tr><tr><td>11</td><td>o</td><td></td><td></td><td>O</td><td></td><td>o</td><td>569</td><td>20</td><td>623</td><td>1,021</td><td>928</td><td>643</td></tr><tr><td>12</td><td>o</td><td></td><td></td><td>O</td><td></td><td>66</td><td>526</td><td>o</td><td>604</td><td>1,022</td><td>914</td><td>636</td></tr><tr><td>13</td><td>0</td><td></td><td></td><td>o</td><td></td><td>100</td><td>486</td><td>o</td><td>603</td><td>1,022</td><td>921</td><td>611</td></tr><tr><td>14</td><td>o</td><td></td><td></td><td>O</td><td></td><td>100</td><td>470</td><td>o</td><td>603</td><td>1,018</td><td>942</td><td>569</td></tr><tr><td>15</td><td>0</td><td></td><td></td><td>O</td><td></td><td>100</td><td>470</td><td>o</td><td>603</td><td>1,022</td><td>959</td><td>548</td></tr><tr><td>16</td><td>0</td><td></td><td></td><td>0</td><td></td><td>100</td><td>445</td><td>o</td><td>603</td><td>1,024</td><td>943</td><td>533</td></tr><tr><td>17</td><td>o</td><td></td><td></td><td>o</td><td></td><td>100</td><td>387</td><td>0</td><td>606</td><td>1,020</td><td>911</td><td>522</td></tr><tr><td>18</td><td>0</td><td></td><td></td><td>o</td><td></td><td>100</td><td>129</td><td>o</td><td>601</td><td>1,016</td><td>896</td><td>510</td></tr><tr><td>19</td><td>o</td><td></td><td></td><td>0</td><td></td><td>141</td><td>o</td><td>98</td><td>733</td><td>1,019</td><td>870</td><td>500</td></tr><tr><td>20</td><td>o</td><td></td><td></td><td>O</td><td></td><td>212</td><td>67</td><td>152</td><td>891</td><td>1,021</td><td>882</td><td>474</td></tr><tr><td>21</td><td>o</td><td></td><td></td><td>o</td><td></td><td>311</td><td>101</td><td>217</td><td>938</td><td>1,033</td><td>940</td><td>458</td></tr><tr><td>22</td><td>o</td><td></td><td></td><td>o</td><td></td><td>385</td><td>101</td><td>271</td><td>961</td><td>1,018</td><td>978</td><td>452</td></tr><tr><td>23</td><td>0</td><td></td><td></td><td>o</td><td></td><td>403</td><td>102</td><td>359</td><td>982</td><td>999</td><td>1,000</td><td>477</td></tr><tr><td>24</td><td>0</td><td></td><td></td><td>o</td><td></td><td>401</td><td>*68</td><td>404</td><td>993</td><td>1,012</td><td>992</td><td>522</td></tr><tr><td>25</td><td>o</td><td></td><td></td><td>O</td><td></td><td>434</td><td>o</td><td>357</td><td>1,004</td><td>*1,022</td><td>942</td><td>536</td></tr><tr><td>26</td><td>0</td><td></td><td></td><td>o</td><td></td><td>484</td><td>o</td><td>321</td><td>1,016</td><td>1,017</td><td>931</td><td>552</td></tr><tr><td>27</td><td>o</td><td></td><td></td><td>o</td><td></td><td>*531</td><td>o</td><td>352</td><td>1,026</td><td>1,012</td><td>890</td><td>428</td></tr><tr><td>28</td><td>o</td><td></td><td></td><td>o</td><td></td><td>*549</td><td>o</td><td>404</td><td>1,026</td><td>1,006</td><td>846</td><td>263</td></tr><tr><td>29</td><td>0</td><td></td><td></td><td>0</td><td></td><td>581</td><td>o</td><td>466</td><td>1,026</td><td>993</td><td>852</td><td>259</td></tr><tr><td>30</td><td>0</td><td></td><td></td><td>o</td><td></td><td>601</td><td>o</td><td>*498</td><td>1,026</td><td>993</td><td>845</td><td>*257</td></tr><tr><td>31</td><td>o</td><td></td><td></td><td>o</td><td></td><td>599</td><td></td><td>*537</td><td></td><td>1,014</td><td>797</td><td></td></tr><tr><td>Total</td><td>111</td><td>o</td><td>o</td><td>12</td><td>o</td><td>6,298</td><td>9,888</td><td>4,750</td><td>23,081</td><td>31,057</td><td>29,241</td><td>17,315</td></tr><tr><td>Mean</td><td>3.58</td><td>0</td><td>0</td><td>0.39</td><td>Q</td><td>203</td><td>330</td><td>153</td><td>769</td><td>1,002</td><td>943</td><td>577</td></tr><tr><td>Ac-ft</td><td>220</td><td>o</td><td>o</td><td>24</td><td>o</td><td>12,490</td><td>19,610</td><td>9,420</td><td>45,780</td><td>61,600</td><td>58,000</td><td>34,340</td></tr><tr><td>Calendar</td><td>year</td><td>1956:</td><td>1,040</td><td></td><td>o</td><td>Mean</td><td>329</td><td>Ac-ft</td><td>239,000</td><td></td><td></td><td></td></tr><tr><td>Water</td><td>year 1956</td><td>-57:</td><td>1,033</td><td></td><td>o</td><td>Mean</td><td>334</td><td>Ac-ft</td><td>241,500</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11346153846153846,
+                            "top": 0.7443267776096822,
+                            "width": 0.3455128205128205,
+                            "height": 0.009077155824508321,
+                            "page": 1
+                        },
+                        "content": "* Discharge measurement made on this day.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

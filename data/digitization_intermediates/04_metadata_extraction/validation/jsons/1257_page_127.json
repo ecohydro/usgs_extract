@@ -1,0 +1,66 @@
+{
+    "job_id": "23e1f84f-a964-472c-a285-324a26c183e8",
+    "duration": 6.705323696136475,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/4d12d5e8-ef88-47a3-ba47-abae24c65bb9?AWSAccessKeyId=ASIA2UOK6OVBB3IOUILT&Signature=Z%2FQbb9hjO2IBvERzu39mC0CQzG8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEG0aCXVzLXdlc3QtMiJIMEYCIQDj8xgzLc88sPTw1TuxjsZOBC9azq0SE%2BEXq8Afq%2F3%2BgwIhAMqmcHyEqQyxMEbLHmyWr39Mxjw2VEFUYoA8uTjkNJWMKosFCCYQABoMNzMxMTA2OTMyMDM0IgwFByRZloHaiWR%2FxDEq6ARDpWrSPAQpgjFGA8Yx2J3q7%2F9bpmZ9RjSF%2BxMGi6RLZOLsJ8Xupx8idbZwnTpWYWOdOPqVELvyTqb428wfSUA6lG8QS5OhbYlRrAV%2B7zL%2Fmpc%2FhCsaKAZv9VruG7%2FX8an4knW%2BT2bGNDYB5Z2BkgK8xJgYO5L1PYKZ6EKAAOVCL%2BRDpchP100WyVkDqE5sw1f8pJ00KBkRdUDsR0ziO65lknw8SdrjgBSXxu3dNo2JH%2B%2B%2Bn6TQwRYzlJRyAa7BioLksyiycpUv5BOzd2DGi33co2aQ5FeqZpas%2FPu4rTX4sWyAnq3vWZyIEJlDxoHt0gio74Zi6BZ9wczUcASK8XC1VcVFWEFfQ146msjCgoZ3GHpkBVFyp6KXlJZpJMw5hLcSrV9YTxFXdV52ajeEW2rlMdOYjAWQZfvIuJXuP2mVNqdJKRVEj6aw3B77Wi%2BpGzBGvRIvXoE2v5LjQ7duaLI4zVYM0CSuZQsoZUmjRUVR36aXwfGzGiMouOSozWAPpC%2FL7%2FbhLDoE0Nlvm0nQ7iDMNUUH%2FfW7CtN5cwA0ARRVXJ09MqZOW0QN3IXVC3Pa8n3wNEmH2W2TBHQMMpBqVloTvYBeewpjuYrf4WSapnhmCabDWP%2FQe3Rc9ttug29nLyAYsnWT0SZXfhOMwRRsP0GYLF33ABP0iHxMdBzJqs8LONWFfVUYSE1lActDLVtG8TpueaxZeRUTRNR3XdwjUvEqw3W7N2ZmtZ5PXML%2Fwl79kpCHLnPpDvTdEdp%2BsMbGOIdFDEaVLLKHvuR4n1IiwYXj7DQxn8WQ4XwgTPgVbzVX6%2FO9zrIvY0WpML77yboGOpoB9sDWC99PoUxWl61ef%2BnDZLQOVRCnYWVH5lWsNMVLMWSNwBha1tEl5GUhw9ShI29VtsZT%2FvMYI6UIIUAfozjn%2BSQrl3Qx85NHZD4Q5o4D3Z%2BjqlRVyqURFmVEGoX%2BROEWzJvE7aEasxZU14O6VZkyoJec7vrOWyXrp0GcKFW4ScGGJkF%2FNBBUrjkyDA3mv9L5CytFbXAvoB7JEg%3D%3D&Expires=1733464931",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "TABLE - -Partial chemical analyses of water and descriptions of wells in the Mendota-Huron area, California-Continued\n\nDESCRIPTION OF WELLS-continued",
+                "embed": "TABLE - -Partial chemical analyses of water and descriptions of wells in the Mendota-Huron area, California-Continued\n\nDESCRIPTION OF WELLS-continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04441702652683529,
+                            "top": 0.13330829891100263,
+                            "width": 0.024059222702035782,
+                            "height": 0.7318813368381525,
+                            "page": 1
+                        },
+                        "content": "TABLE - -Partial chemical analyses of water and descriptions of wells in the Mendota-Huron area, California-Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08204811844540408,
+                            "top": 0.38828389034923017,
+                            "width": 0.016656384947563233,
+                            "height": 0.22193015396169732,
+                            "page": 1
+                        },
+                        "content": "DESCRIPTION OF WELLS-continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th></th><th rowspan=\"3\">Remarks</th><th></th></tr><tr><td rowspan=\"7\">sample\nof water\nDescription</td><td></td></tr><tr><td>Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do.\nClear.</td></tr><tr><td>col-\nDay lected (August 1951)</td><td>14 14 14 14 14 14 14 14 14 14 16 16 16 15</td></tr><tr><td>Col- lected by</td><td>DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM</td></tr><tr><td>Use</td><td>Irr Irr Irr Irr Irr Irr Irr Irr Dom Irr Irr Irr Irr Irr</td></tr><tr><td>Point of sam- pling</td><td>D D D D D D D D B D D D D D</td></tr><tr><td>Tem- pera- ture o F.</td><td>94 86 87 88 85 82 78 78 80 77</td></tr><tr><td rowspan=\"2\">level\nWater</td><td>to\nDepth water below land- surface datum (feet)</td><td>396.3 474 539 9 302. 323.3\np p p</td></tr><tr><td>Date meas- ured</td><td>4 -30 -51 7 -13 -50 8 4 -51 - 4 -25 -51 4 -26 -51</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Perforated interval (feet) Bot- Top tom</td><td>024 115 897 025 940\n2, 2, 1, 2,</td></tr><tr><td>456 575 595 450 643 400</td></tr><tr><td></td><td>of\nType well and casing diameter (inches)</td><td>16 16 16 16 16 16 16\nG, G, G, G, G, G, G,\n16 16 R, R, R, R, R, 11 R, 16 16 R, 14</td></tr><tr><td></td><td>Depth (feet)</td><td>015 000 814 024 115 897 940 025 940 436\n2, 2, 1, 2, 2, 1, 1, 2, 1,</td></tr><tr><td colspan=\"2\">owner's\nand No.\nuser\nor well\nOwner</td><td>1 3\n4 6\nMcAvoy,\n7 5 11 8 14 12 11 1 3 10 O'Neil,\n\nHarris, Sandell, W. E.\nP. J.</td></tr><tr><td></td><td>Trans- former No. or source of power</td><td>8250 1321 8771 8410 8981 8765 8774 4610 4681 4681 8782 8274 8558 1332</td></tr><tr><td></td><td>No.\nWell</td><td>18/16 -24E1 24H1 24P1 25Q1 26F2 30R1 33Q1 34Q1 34R1 35N1 18/17 -3N1 3Q1 4N1 5B1</td></tr></table>",
+                "embed": "<table><tr><th></th><th rowspan=\"3\">Remarks</th><th></th></tr><tr><td rowspan=\"7\">sample\nof water\nDescription</td><td></td></tr><tr><td>Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do.\nClear.</td></tr><tr><td>col-\nDay lected (August 1951)</td><td>14 14 14 14 14 14 14 14 14 14 16 16 16 15</td></tr><tr><td>Col- lected by</td><td>DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM</td></tr><tr><td>Use</td><td>Irr Irr Irr Irr Irr Irr Irr Irr Dom Irr Irr Irr Irr Irr</td></tr><tr><td>Point of sam- pling</td><td>D D D D D D D D B D D D D D</td></tr><tr><td>Tem- pera- ture o F.</td><td>94 86 87 88 85 82 78 78 80 77</td></tr><tr><td rowspan=\"2\">level\nWater</td><td>to\nDepth water below land- surface datum (feet)</td><td>396.3 474 539 9 302. 323.3\np p p</td></tr><tr><td>Date meas- ured</td><td>4 -30 -51 7 -13 -50 8 4 -51 - 4 -25 -51 4 -26 -51</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Perforated interval (feet) Bot- Top tom</td><td>024 115 897 025 940\n2, 2, 1, 2,</td></tr><tr><td>456 575 595 450 643 400</td></tr><tr><td></td><td>of\nType well and casing diameter (inches)</td><td>16 16 16 16 16 16 16\nG, G, G, G, G, G, G,\n16 16 R, R, R, R, R, 11 R, 16 16 R, 14</td></tr><tr><td></td><td>Depth (feet)</td><td>015 000 814 024 115 897 940 025 940 436\n2, 2, 1, 2, 2, 1, 1, 2, 1,</td></tr><tr><td colspan=\"2\">owner's\nand No.\nuser\nor well\nOwner</td><td>1 3\n4 6\nMcAvoy,\n7 5 11 8 14 12 11 1 3 10 O'Neil,\n\nHarris, Sandell, W. E.\nP. J.</td></tr><tr><td></td><td>Trans- former No. or source of power</td><td>8250 1321 8771 8410 8981 8765 8774 4610 4681 4681 8782 8274 8558 1332</td></tr><tr><td></td><td>No.\nWell</td><td>18/16 -24E1 24H1 24P1 25Q1 26F2 30R1 33Q1 34Q1 34R1 35N1 18/17 -3N1 3Q1 4N1 5B1</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10301775170431543,
+                            "top": 0.07922868660594841,
+                            "width": 0.6239515489299381,
+                            "height": 0.8437235392084527,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th rowspan=\"3\">Remarks</th><th></th></tr><tr><td rowspan=\"7\">sample\nof water\nDescription</td><td></td></tr><tr><td>Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do. Do.\nClear.</td></tr><tr><td>col-\nDay lected (August 1951)</td><td>14 14 14 14 14 14 14 14 14 14 16 16 16 15</td></tr><tr><td>Col- lected by</td><td>DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM DWM</td></tr><tr><td>Use</td><td>Irr Irr Irr Irr Irr Irr Irr Irr Dom Irr Irr Irr Irr Irr</td></tr><tr><td>Point of sam- pling</td><td>D D D D D D D D B D D D D D</td></tr><tr><td>Tem- pera- ture o F.</td><td>94 86 87 88 85 82 78 78 80 77</td></tr><tr><td rowspan=\"2\">level\nWater</td><td>to\nDepth water below land- surface datum (feet)</td><td>396.3 474 539 9 302. 323.3\np p p</td></tr><tr><td>Date meas- ured</td><td>4 -30 -51 7 -13 -50 8 4 -51 - 4 -25 -51 4 -26 -51</td></tr><tr><td rowspan=\"2\" colspan=\"2\">Perforated interval (feet) Bot- Top tom</td><td>024 115 897 025 940\n2, 2, 1, 2,</td></tr><tr><td>456 575 595 450 643 400</td></tr><tr><td></td><td>of\nType well and casing diameter (inches)</td><td>16 16 16 16 16 16 16\nG, G, G, G, G, G, G,\n16 16 R, R, R, R, R, 11 R, 16 16 R, 14</td></tr><tr><td></td><td>Depth (feet)</td><td>015 000 814 024 115 897 940 025 940 436\n2, 2, 1, 2, 2, 1, 1, 2, 1,</td></tr><tr><td colspan=\"2\">owner's\nand No.\nuser\nor well\nOwner</td><td>1 3\n4 6\nMcAvoy,\n7 5 11 8 14 12 11 1 3 10 O'Neil,\n\nHarris, Sandell, W. E.\nP. J.</td></tr><tr><td></td><td>Trans- former No. or source of power</td><td>8250 1321 8771 8410 8981 8765 8774 4610 4681 4681 8782 8274 8558 1332</td></tr><tr><td></td><td>No.\nWell</td><td>18/16 -24E1 24H1 24P1 25Q1 26F2 30R1 33Q1 34Q1 34R1 35N1 18/17 -3N1 3Q1 4N1 5B1</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}
