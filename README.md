@@ -4,7 +4,7 @@ Target structure for organizing this repo. Use this as a reference for where to 
 
 ```
 usgs_extract/
-├── docs/                              ← manuscript, methods, supplementary materials
+├── manuscript/                        ← dissertation, methods report, supplementary materials
 │
 ├── code/
 │   ├── 01_digitization/
@@ -41,3 +41,32 @@ usgs_extract/
     ├── hydroshare/                    ← upload-ready packages for HydroShare
     └── analysis/                      ← intermediate data from inventory and vignette notebooks
 ```
+
+---
+
+## Quickstart: Download & Preprocess (`code/01_digitization/01_download_and_preprocess/`)
+
+**Step 1 — Download PDFs from USGS Publications Warehouse**
+```bash
+python 01_download.py \
+  --input-csv data/digitization_intermediates/01_download_and_preprocess/edited_publication_list.csv \
+  --output-dir data/digitization_intermediates/01_download_and_preprocess/pdfs/
+```
+Input CSV must have `URL` and `Publication ID` columns (standard USGS Publications Warehouse export format). Already-downloaded files are skipped automatically.
+
+**Step 2 — Verify downloads**
+```bash
+python 02_verify.py \
+  --input-csv data/digitization_intermediates/01_download_and_preprocess/edited_publication_list.csv \
+  --download-dir data/digitization_intermediates/01_download_and_preprocess/pdfs/ \
+  --output-json missing_ids.json
+```
+Prints a download summary and writes any missing publication IDs to `missing_ids.json`.
+
+**Step 3 — Convert PDFs to grayscale PNGs**
+```bash
+python 03_preprocess.py \
+  --pdf-dir data/digitization_intermediates/01_download_and_preprocess/pdfs/ \
+  --output-dir data/digitization_intermediates/01_download_and_preprocess/pngs/
+```
+Outputs one `{pub_id}_page_{N}.png` per page at 300 DPI, grayscale.
