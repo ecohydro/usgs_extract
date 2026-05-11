@@ -215,6 +215,8 @@ These are candidate scientific contributions that use the restored data for orig
 - Folsom Dam (American River): 1956
 - Oroville Dam (Feather River): 1968
 
+Scott Dam in Lake County and Cape Horn Dam in Mendocino County, which together are known as the Potter Valley Project. ** next important  dams to look into
+
 **Why this dataset is promising:** 17,557 restored stream discharge rows start at or before 1920; 1,842 annual summary rows start before 1920 across 3,566 unique source sites. Annual tables (one row = one year's mean or peak) are the simplest format to parse and the most directly useful for this analysis.
 
 **Challenges and open questions:**
@@ -233,6 +235,70 @@ These are candidate scientific contributions that use the restored data for orig
 4. Build cross-validation using 1940–1980 overlap with NWIS to establish data quality
 
 ---
+
+Outline: Clean Unified Streamflow Dataset
+Step 1: Scope the problem
+Before writing any parsers, understand what we're dealing with:
+
+Filter main_metadata.csv to water_type = Stream Discharge
+Tally how many pages/tables exist and their distribution by temporal_resolution (daily, monthly, annual) and units_of_measurement
+This tells us which table structures are most common and where to focus effort
+From what we already know: ~84,000 stream discharge tables, ~76% in CFS-family units, ~50% daily records.
+
+Step 2: Classify table structures
+The tables do not all look the same. From what we've seen already, there are at least three distinct layouts:
+
+Type	Structure	Example
+Annual peaks	One row per year, date + discharge	doc 3034/page 199
+Monthly means	Water year rows, month columns	doc 15/page 29
+Daily (classic USGS)	Day rows (1–31) × month columns	doc 553/page 267
+We need to sample ~50–100 stream discharge CSVs across different documents to confirm these are the main types and identify any others. The LLM temporal_resolution field is our best guide, but it's noisy.
+
+Step 3: Write a parser for each table type
+Each structure needs its own parser to produce long-form rows. The hardest problem for each:
+
+Annual peaks — simplest; just read row by row, handle two-column printed layouts (already split correctly in the CSV)
+Monthly means — melt the month columns; need to know which water year each row belongs to
+Daily (USGS format) — hardest: day rows × month columns means the year is usually in the page header, not in the table itself. Reducto may or may not have captured it. Need to recover the year from the filename, metadata, or JSON context
+Each parser also needs to handle USGS data quality prefixes: e = estimated, # = estimated, a = affected by backwater, - = missing. These should become a quality_flag column rather than being stripped.
+
+Step 4: Clean units
+The good news: ~76% of stream discharge rows are already in the CFS family (second-feet, sec.-ft., cfs, cubic feet per second — all identical, just normalize the label). The remainder:
+
+acre-feet — volumetric, not rate; keep but flag separately
+thousands of acre-feet — same
+Mixed-unit pages (e.g., discharge in cfs + runoff in acre-feet on same page)
+Decision needed: keep all units with a measurement_unit column, or convert everything to CFS where possible and drop the rest. Recommend keeping all with the unit column — downstream researchers can filter.
+
+Step 5: Resolve site identity and coordinates
+The same physical station (e.g., "Sacramento River at Kennett") appears across many annual Water Supply Papers as separate rows in the metadata. We need to:
+
+Group by watersource_name + approximate coordinates → assign a canonical site_id
+Flag rows where coordinates look wrong (we already saw Kennett coords assigned to southern CA locations in some rows)
+Where possible, match to a NWIS station ID — this enables cross-validation and connects to the modern record
+Step 6: Handle OCR artifacts
+The daily tables in particular have minor digitization errors we saw firsthand:
+
+"4,02C" → 4,020 (letter/number OCR confusion)
+"3.860" → 3,860 (decimal instead of thousands comma)
+Merged rows (days 27–28 in one cell)
+These need a cleaning pass with a small set of regex rules before numeric conversion. Not everything will be recoverable — some cells will need to be marked null.
+
+Step 7: Produce the output table
+Final schema:
+
+
+site_id, doc_id, page_number, watersource_name, latitude, longitude,
+date, measurement, measurement_unit, temporal_resolution, quality_flag
+One row per measurement (one per day for daily records, one per month for monthly, etc.).
+
+Recommended sequence
+Given the scale, don't try to do everything at once. Suggested order:
+
+Annual peaks first — simplest structure, highest scientific value (pre-dam analysis), ~1,800 rows estimated. Proves the pipeline works end to end.
+Monthly means second — moderate complexity, large coverage.
+Daily last — hardest (year recovery problem), but the biggest dataset.
+Want to start with Step 1 — scoping how many tables we're actually dealing with and what the temporal resolution distribution looks like?
 
 ### Direction B: Streamflow Permanence / Intermittency Mapping
 

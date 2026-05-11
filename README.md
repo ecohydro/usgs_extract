@@ -33,7 +33,9 @@ usgs_extract/
     │           ├── {doc_id}_page_{N}.json
     │           ├── {doc_id}_page_{N}_table1.csv
     │           └── {doc_id}_page_{N}_metadata.csv
-    ├── metadata/                      ← main metadata CSV and crosswalk files
+    ├── metadata/
+    │   ├── main_metadata.csv          ← all pages: LLM-extracted fields + USGS publication fields joined
+    │   └── metadata_key.txt           ← column descriptions
     ├── digitization_intermediates/
     │   ├── 01_download_and_preprocess/ ← publication list CSV; PDF download manifest
     │   ├── 02_table_detection/
