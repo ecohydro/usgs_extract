@@ -1,0 +1,310 @@
+{
+    "job_id": "a2b917c8-0266-417c-aaa3-d32f2aa9e2e7",
+    "duration": 10.07500147819519,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5e3f8952-f61e-43d1-8a82-410270dd3932?AWSAccessKeyId=ASIA2UOK6OVBACPEWRC7&Signature=MyzBSSXrnOol5oiiGkBP8tZOXCo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJGMEQCIHPj7L4hciMrH8sX%2FTlBJTHFSgYwW0NTTKiVC%2FbTwMEwAiAgrflO%2BmxlbPN3LGclZvv0ZOytrGahJnQBeOThgn3e0CqLBQggEAAaDDczMTEwNjkzMjAzNCIMC5%2BJzu9fsFzHRZ53KugEWB5btH6ZrBXJ%2Fke3WLmqy701xQrdWMlFOuTaX8j0IdVyUjJxiZECpYsPT9vGthwKC1KXDEhYI3jKZgXC6nHN%2BQ6JD7aSgYz%2FJXeQ7MemvRHn7BqAnXtcF3d4DPAcCMIcrMwIaXhivc4G36MK0GINbO2z27AyI%2BgH%2FSTIwbjABQe97%2FZG6nGl8cqtIVBqRlGiWVBCCwo3%2FTtSx2nKu3R%2Bi0qs1OnG%2BGurHcq4esaBZnWnDmagLwA6akOLDWmO4NXgnncmBQZgVv%2FcjaHsbu%2BkrPh2NQvq3T2jSPK1TqywIM4DQvpCwmB51lYMdReFmid4Wq6h3PmM%2BdYVVifDC8CYPI2DHvP6HAvAblGrqZlGF6aQFwtS9R09069%2FeMJs1%2FFdw%2BaLHK0RMYVrT6Jy4%2FSwXC1llfEdHqL%2BNbzbHdV2BIm4ozWrnovfXolWOpFtOW6bhqZQ3RBPvveqK6OEPjS4Ndia9pXasTdSKakeVSkKgXCTq3Sh5WeYR80lIEc4Gj5SBNnKjjLzOSpgMsfVJ3m0oFrEmX2wy0l5XFhBCKdAEHoo%2Bg8mgmgQf51c4S%2B5Q3K5bErs7RGofoG3uYHkjRaphYJPCM%2BU6p%2FXBVMOd5VtpFvZJjxVvaT76ZADdyWCaJ74OgJWnXddiNz83tyFJkFh%2Bo8idOLPp3i8qEmIep8%2BFi0hYnn0T75Y7bDkh5sRYp5%2F6%2FOzrXM8n1BdeYIp%2B0cDbPMXsn8Yp%2FtBJ62RgcOSSpVM2cfwIRr1KJOgWHt2KDlDzdM6bH3QaspdYMnMpJeOKh89uqEunQkiJtp0QWy5AXm1SRCWimsqljCLz8i6BjqcAefEB5kyDoVcPu3MLQ2IZJGNkoGMo7l4U1AqW7Hh7EXHsRUlYPISfR5cY52T1ODB8fzZG63F4q1FparpP161NeQ1w%2FgS%2FgIZv4Ji%2Fz67FvBCubDN4G%2BO0nB3ymgoVh8QxfbRNWhyrU%2BnF7WpYKSkdAVbsa6C2LWz7RIN1K6AusccenOeild4Te5ijMqPMMADcoQ6ibwzbjtb0gKirw%3D%3D&Expires=1733440989",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "Monthly and yearly runoff, in acre-feet, of Bear Creek near Lockeford, Calif.--Continued",
+                "embed": "Monthly and yearly runoff, in acre-feet, of Bear Creek near Lockeford, Calif.--Continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.11042566317088218,
+                            "top": 0.040090771558245086,
+                            "width": 0.0283775447254781,
+                            "height": 0.00794251134644478,
+                            "page": 1
+                        },
+                        "content": "202",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.45033929673041334,
+                            "top": 0.03895612708018154,
+                            "width": 0.14929056138186306,
+                            "height": 0.00869894099848714,
+                            "page": 1
+                        },
+                        "content": "BEAR CREEK BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15854410857495374,
+                            "top": 0.06845688350983359,
+                            "width": 0.7334978408389883,
+                            "height": 0.01021180030257186,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly runoff, in acre-feet, of Bear Creek near Lockeford, Calif.--Continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1941</td><td>O</td><td>0</td><td>1,110</td><td>2,830</td><td>2,960</td><td>2,750</td><td>3,310</td><td>14,6</td><td>o</td><td>0</td><td>o</td><td>o</td><td>12,970</td></tr><tr><td>1942</td><td>o</td><td>0</td><td>742</td><td>5,870</td><td>2,260</td><td>1,460</td><td>402</td><td>48.2</td><td>.4</td><td>o</td><td>o</td><td>o</td><td>10,780</td></tr><tr><td>1943</td><td>O</td><td>5.4</td><td>379</td><td>5,220</td><td>1,390</td><td>6,290</td><td>317.1</td><td>15,5</td><td>o</td><td>o</td><td>o</td><td>o</td><td>13,620</td></tr><tr><td>1944</td><td>O</td><td>0</td><td>0</td><td>o</td><td>2,830</td><td>1,820</td><td>11</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>4,660</td></tr><tr><td>1945</td><td>O</td><td>542</td><td>246</td><td>47</td><td>5,760</td><td>1,360</td><td>155</td><td>2.4</td><td>o</td><td>o</td><td>o</td><td>o</td><td>8,110</td></tr><tr><td>1946</td><td>O</td><td>o</td><td>1,580</td><td>483</td><td>293</td><td>129</td><td>95</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>2,580</td></tr><tr><td>1947</td><td>o</td><td>6.0</td><td>0</td><td>o</td><td>180</td><td>189</td><td>2.0</td><td>o</td><td>6.0</td><td>6.9</td><td>o</td><td>0</td><td>390</td></tr><tr><td>1948</td><td>O</td><td>.4</td><td>0</td><td>o</td><td>o</td><td>119</td><td>357</td><td>17</td><td>1.2</td><td>4.2</td><td>.8</td><td>o</td><td>500</td></tr><tr><td>1949</td><td>8</td><td>o</td><td>0</td><td>o</td><td>97</td><td>3,530</td><td>25</td><td>1.0</td><td>.6</td><td>.8</td><td>.4</td><td>.4</td><td>3,660</td></tr><tr><td>1950</td><td>o</td><td>O</td><td>0</td><td>1,560</td><td>3,350</td><td>193</td><td>59</td><td>.4</td><td>1.6</td><td>.2</td><td>.2</td><td>0</td><td>5,160</td></tr></table>\n\nYearly diacharge, in cubic feet per second",
+                "embed": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1941</td><td>O</td><td>0</td><td>1,110</td><td>2,830</td><td>2,960</td><td>2,750</td><td>3,310</td><td>14,6</td><td>o</td><td>0</td><td>o</td><td>o</td><td>12,970</td></tr><tr><td>1942</td><td>o</td><td>0</td><td>742</td><td>5,870</td><td>2,260</td><td>1,460</td><td>402</td><td>48.2</td><td>.4</td><td>o</td><td>o</td><td>o</td><td>10,780</td></tr><tr><td>1943</td><td>O</td><td>5.4</td><td>379</td><td>5,220</td><td>1,390</td><td>6,290</td><td>317.1</td><td>15,5</td><td>o</td><td>o</td><td>o</td><td>o</td><td>13,620</td></tr><tr><td>1944</td><td>O</td><td>0</td><td>0</td><td>o</td><td>2,830</td><td>1,820</td><td>11</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>4,660</td></tr><tr><td>1945</td><td>O</td><td>542</td><td>246</td><td>47</td><td>5,760</td><td>1,360</td><td>155</td><td>2.4</td><td>o</td><td>o</td><td>o</td><td>o</td><td>8,110</td></tr><tr><td>1946</td><td>O</td><td>o</td><td>1,580</td><td>483</td><td>293</td><td>129</td><td>95</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>2,580</td></tr><tr><td>1947</td><td>o</td><td>6.0</td><td>0</td><td>o</td><td>180</td><td>189</td><td>2.0</td><td>o</td><td>6.0</td><td>6.9</td><td>o</td><td>0</td><td>390</td></tr><tr><td>1948</td><td>O</td><td>.4</td><td>0</td><td>o</td><td>o</td><td>119</td><td>357</td><td>17</td><td>1.2</td><td>4.2</td><td>.8</td><td>o</td><td>500</td></tr><tr><td>1949</td><td>8</td><td>o</td><td>0</td><td>o</td><td>97</td><td>3,530</td><td>25</td><td>1.0</td><td>.6</td><td>.8</td><td>.4</td><td>.4</td><td>3,660</td></tr><tr><td>1950</td><td>o</td><td>O</td><td>0</td><td>1,560</td><td>3,350</td><td>193</td><td>59</td><td>.4</td><td>1.6</td><td>.2</td><td>.2</td><td>0</td><td>5,160</td></tr></table>\n\nYearly diacharge, in cubic feet per second",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1112963366405527,
+                            "top": 0.0777881639627754,
+                            "width": 0.8339492167167499,
+                            "height": 0.1167704687536935,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1941</td><td>O</td><td>0</td><td>1,110</td><td>2,830</td><td>2,960</td><td>2,750</td><td>3,310</td><td>14,6</td><td>o</td><td>0</td><td>o</td><td>o</td><td>12,970</td></tr><tr><td>1942</td><td>o</td><td>0</td><td>742</td><td>5,870</td><td>2,260</td><td>1,460</td><td>402</td><td>48.2</td><td>.4</td><td>o</td><td>o</td><td>o</td><td>10,780</td></tr><tr><td>1943</td><td>O</td><td>5.4</td><td>379</td><td>5,220</td><td>1,390</td><td>6,290</td><td>317.1</td><td>15,5</td><td>o</td><td>o</td><td>o</td><td>o</td><td>13,620</td></tr><tr><td>1944</td><td>O</td><td>0</td><td>0</td><td>o</td><td>2,830</td><td>1,820</td><td>11</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>4,660</td></tr><tr><td>1945</td><td>O</td><td>542</td><td>246</td><td>47</td><td>5,760</td><td>1,360</td><td>155</td><td>2.4</td><td>o</td><td>o</td><td>o</td><td>o</td><td>8,110</td></tr><tr><td>1946</td><td>O</td><td>o</td><td>1,580</td><td>483</td><td>293</td><td>129</td><td>95</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>2,580</td></tr><tr><td>1947</td><td>o</td><td>6.0</td><td>0</td><td>o</td><td>180</td><td>189</td><td>2.0</td><td>o</td><td>6.0</td><td>6.9</td><td>o</td><td>0</td><td>390</td></tr><tr><td>1948</td><td>O</td><td>.4</td><td>0</td><td>o</td><td>o</td><td>119</td><td>357</td><td>17</td><td>1.2</td><td>4.2</td><td>.8</td><td>o</td><td>500</td></tr><tr><td>1949</td><td>8</td><td>o</td><td>0</td><td>o</td><td>97</td><td>3,530</td><td>25</td><td>1.0</td><td>.6</td><td>.8</td><td>.4</td><td>.4</td><td>3,660</td></tr><tr><td>1950</td><td>o</td><td>O</td><td>0</td><td>1,560</td><td>3,350</td><td>193</td><td>59</td><td>.4</td><td>1.6</td><td>.2</td><td>.2</td><td>0</td><td>5,160</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.35225169648365207,
+                            "top": 0.2083963691376702,
+                            "width": 0.3491671807526218,
+                            "height": 0.009455370650529501,
+                            "page": 1
+                        },
+                        "content": "Yearly diacharge, in cubic feet per second",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th rowspan=\"3\">Year</th><th rowspan=\"3\">W.S.P.\nno.</th><th colspan=\"5\">Water year ending Sept. 30</th><th colspan=\"2\">Calendar year</th></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1931</td><td>721</td><td>o</td><td></td><td>O</td><td>o</td><td>o</td><td>3.79</td><td>2,750</td></tr><tr><td>1932</td><td>736</td><td>952</td><td>Feb. 9, 1932</td><td>o</td><td>12.0</td><td>8,740</td><td>8.25</td><td>5,990</td></tr><tr><td>1933</td><td>751</td><td>213</td><td>Jan. 27, 1933</td><td>O</td><td>1.06</td><td>764</td><td>4.17</td><td>3,010</td></tr><tr><td>1934</td><td>(a)</td><td>802</td><td>Dec. 30, 1933</td><td>o</td><td>9,45</td><td>6,830</td><td>6.33</td><td>4,580</td></tr><tr><td>1935</td><td>(a)</td><td>838</td><td>Apr. 8, 1935</td><td>O</td><td>5.65</td><td>4,090</td><td>5.66</td><td>4,090</td></tr><tr><td>1936</td><td>(a)</td><td>1,700</td><td>Feb. 22, 1936</td><td>O</td><td>26.7</td><td>19,320</td><td>26.8</td><td>19,400</td></tr><tr><td>1937</td><td>(a)</td><td>2,140</td><td>Mar. 21, 1937</td><td>o</td><td>26.2</td><td>18,940</td><td>26.5</td><td>19,200</td></tr><tr><td>1938</td><td>(a)</td><td>1,620</td><td>Feb. 11, 1938</td><td>O</td><td>24.7</td><td>17,930</td><td>24.2</td><td>17,580</td></tr><tr><td>1939</td><td>(a)</td><td>328</td><td>Mar. 9, 1939</td><td>o</td><td>.47</td><td>340</td><td>.47</td><td>340</td></tr><tr><td>1940</td><td>(a)</td><td>1,230</td><td>Feb. 27, 1940</td><td>O</td><td>17.8</td><td>12,950</td><td>19.4</td><td>14,060</td></tr><tr><td>1941</td><td>(a)</td><td>1,250</td><td>Apr. 4, 1941</td><td>0</td><td>17.9</td><td>12,970</td><td>17.4</td><td>12,610</td></tr><tr><td>1942</td><td>(a)</td><td>1,200</td><td>Jan. 27, 1942</td><td>O</td><td>14.9</td><td>10,780</td><td>14.4</td><td>10,420</td></tr><tr><td>1943</td><td>(a)</td><td>1,470</td><td>Jan. 21, 1943</td><td>O</td><td>18.7</td><td>13,620</td><td>18.3</td><td>13,230</td></tr><tr><td>1944</td><td>1011</td><td>1,200</td><td>Feb. 29, 1944</td><td>O</td><td>6.43</td><td>4,660</td><td>7.51</td><td>5,450</td></tr><tr><td>1945</td><td>1041</td><td>2,260</td><td>Feb. 2, 1945</td><td>o</td><td>11.2</td><td>8,110</td><td>12.3</td><td>8,900</td></tr><tr><td>1946</td><td>1061</td><td>336</td><td>Dec. 23, 1945</td><td>O</td><td>3.56</td><td>2,580</td><td>1.39</td><td>1,010</td></tr><tr><td>1947</td><td>1091</td><td>144</td><td>Feb. 12, 1947</td><td>o</td><td>.54</td><td>390</td><td>.53</td><td>384</td></tr><tr><td>1948</td><td>1121</td><td>129</td><td>Apr. 6, 1948</td><td>O</td><td>.69</td><td>500</td><td>.69</td><td>500</td></tr><tr><td>1949</td><td>1151</td><td>1,150</td><td>Mar. 3, 1949</td><td>o</td><td>5.04</td><td>3,660</td><td>5.04</td><td>3,660</td></tr><tr><td>1950</td><td>1181</td><td>1,030</td><td>Feb. 4, 1950</td><td>O</td><td>7.14</td><td>5,160</td><td></td><td></td></tr></table>\n\na Files of East Bay Municipal Utility District.",
+                "embed": "<table><tr><th rowspan=\"3\">Year</th><th rowspan=\"3\">W.S.P.\nno.</th><th colspan=\"5\">Water year ending Sept. 30</th><th colspan=\"2\">Calendar year</th></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1931</td><td>721</td><td>o</td><td></td><td>O</td><td>o</td><td>o</td><td>3.79</td><td>2,750</td></tr><tr><td>1932</td><td>736</td><td>952</td><td>Feb. 9, 1932</td><td>o</td><td>12.0</td><td>8,740</td><td>8.25</td><td>5,990</td></tr><tr><td>1933</td><td>751</td><td>213</td><td>Jan. 27, 1933</td><td>O</td><td>1.06</td><td>764</td><td>4.17</td><td>3,010</td></tr><tr><td>1934</td><td>(a)</td><td>802</td><td>Dec. 30, 1933</td><td>o</td><td>9,45</td><td>6,830</td><td>6.33</td><td>4,580</td></tr><tr><td>1935</td><td>(a)</td><td>838</td><td>Apr. 8, 1935</td><td>O</td><td>5.65</td><td>4,090</td><td>5.66</td><td>4,090</td></tr><tr><td>1936</td><td>(a)</td><td>1,700</td><td>Feb. 22, 1936</td><td>O</td><td>26.7</td><td>19,320</td><td>26.8</td><td>19,400</td></tr><tr><td>1937</td><td>(a)</td><td>2,140</td><td>Mar. 21, 1937</td><td>o</td><td>26.2</td><td>18,940</td><td>26.5</td><td>19,200</td></tr><tr><td>1938</td><td>(a)</td><td>1,620</td><td>Feb. 11, 1938</td><td>O</td><td>24.7</td><td>17,930</td><td>24.2</td><td>17,580</td></tr><tr><td>1939</td><td>(a)</td><td>328</td><td>Mar. 9, 1939</td><td>o</td><td>.47</td><td>340</td><td>.47</td><td>340</td></tr><tr><td>1940</td><td>(a)</td><td>1,230</td><td>Feb. 27, 1940</td><td>O</td><td>17.8</td><td>12,950</td><td>19.4</td><td>14,060</td></tr><tr><td>1941</td><td>(a)</td><td>1,250</td><td>Apr. 4, 1941</td><td>0</td><td>17.9</td><td>12,970</td><td>17.4</td><td>12,610</td></tr><tr><td>1942</td><td>(a)</td><td>1,200</td><td>Jan. 27, 1942</td><td>O</td><td>14.9</td><td>10,780</td><td>14.4</td><td>10,420</td></tr><tr><td>1943</td><td>(a)</td><td>1,470</td><td>Jan. 21, 1943</td><td>O</td><td>18.7</td><td>13,620</td><td>18.3</td><td>13,230</td></tr><tr><td>1944</td><td>1011</td><td>1,200</td><td>Feb. 29, 1944</td><td>O</td><td>6.43</td><td>4,660</td><td>7.51</td><td>5,450</td></tr><tr><td>1945</td><td>1041</td><td>2,260</td><td>Feb. 2, 1945</td><td>o</td><td>11.2</td><td>8,110</td><td>12.3</td><td>8,900</td></tr><tr><td>1946</td><td>1061</td><td>336</td><td>Dec. 23, 1945</td><td>O</td><td>3.56</td><td>2,580</td><td>1.39</td><td>1,010</td></tr><tr><td>1947</td><td>1091</td><td>144</td><td>Feb. 12, 1947</td><td>o</td><td>.54</td><td>390</td><td>.53</td><td>384</td></tr><tr><td>1948</td><td>1121</td><td>129</td><td>Apr. 6, 1948</td><td>O</td><td>.69</td><td>500</td><td>.69</td><td>500</td></tr><tr><td>1949</td><td>1151</td><td>1,150</td><td>Mar. 3, 1949</td><td>o</td><td>5.04</td><td>3,660</td><td>5.04</td><td>3,660</td></tr><tr><td>1950</td><td>1181</td><td>1,030</td><td>Feb. 4, 1950</td><td>O</td><td>7.14</td><td>5,160</td><td></td><td></td></tr></table>\n\na Files of East Bay Municipal Utility District.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.115572882904674,
+                            "top": 0.2171396783548837,
+                            "width": 0.8345960726493822,
+                            "height": 0.23992472084495556,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"3\">Year</th><th rowspan=\"3\">W.S.P.\nno.</th><th colspan=\"5\">Water year ending Sept. 30</th><th colspan=\"2\">Calendar year</th></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1931</td><td>721</td><td>o</td><td></td><td>O</td><td>o</td><td>o</td><td>3.79</td><td>2,750</td></tr><tr><td>1932</td><td>736</td><td>952</td><td>Feb. 9, 1932</td><td>o</td><td>12.0</td><td>8,740</td><td>8.25</td><td>5,990</td></tr><tr><td>1933</td><td>751</td><td>213</td><td>Jan. 27, 1933</td><td>O</td><td>1.06</td><td>764</td><td>4.17</td><td>3,010</td></tr><tr><td>1934</td><td>(a)</td><td>802</td><td>Dec. 30, 1933</td><td>o</td><td>9,45</td><td>6,830</td><td>6.33</td><td>4,580</td></tr><tr><td>1935</td><td>(a)</td><td>838</td><td>Apr. 8, 1935</td><td>O</td><td>5.65</td><td>4,090</td><td>5.66</td><td>4,090</td></tr><tr><td>1936</td><td>(a)</td><td>1,700</td><td>Feb. 22, 1936</td><td>O</td><td>26.7</td><td>19,320</td><td>26.8</td><td>19,400</td></tr><tr><td>1937</td><td>(a)</td><td>2,140</td><td>Mar. 21, 1937</td><td>o</td><td>26.2</td><td>18,940</td><td>26.5</td><td>19,200</td></tr><tr><td>1938</td><td>(a)</td><td>1,620</td><td>Feb. 11, 1938</td><td>O</td><td>24.7</td><td>17,930</td><td>24.2</td><td>17,580</td></tr><tr><td>1939</td><td>(a)</td><td>328</td><td>Mar. 9, 1939</td><td>o</td><td>.47</td><td>340</td><td>.47</td><td>340</td></tr><tr><td>1940</td><td>(a)</td><td>1,230</td><td>Feb. 27, 1940</td><td>O</td><td>17.8</td><td>12,950</td><td>19.4</td><td>14,060</td></tr><tr><td>1941</td><td>(a)</td><td>1,250</td><td>Apr. 4, 1941</td><td>0</td><td>17.9</td><td>12,970</td><td>17.4</td><td>12,610</td></tr><tr><td>1942</td><td>(a)</td><td>1,200</td><td>Jan. 27, 1942</td><td>O</td><td>14.9</td><td>10,780</td><td>14.4</td><td>10,420</td></tr><tr><td>1943</td><td>(a)</td><td>1,470</td><td>Jan. 21, 1943</td><td>O</td><td>18.7</td><td>13,620</td><td>18.3</td><td>13,230</td></tr><tr><td>1944</td><td>1011</td><td>1,200</td><td>Feb. 29, 1944</td><td>O</td><td>6.43</td><td>4,660</td><td>7.51</td><td>5,450</td></tr><tr><td>1945</td><td>1041</td><td>2,260</td><td>Feb. 2, 1945</td><td>o</td><td>11.2</td><td>8,110</td><td>12.3</td><td>8,900</td></tr><tr><td>1946</td><td>1061</td><td>336</td><td>Dec. 23, 1945</td><td>O</td><td>3.56</td><td>2,580</td><td>1.39</td><td>1,010</td></tr><tr><td>1947</td><td>1091</td><td>144</td><td>Feb. 12, 1947</td><td>o</td><td>.54</td><td>390</td><td>.53</td><td>384</td></tr><tr><td>1948</td><td>1121</td><td>129</td><td>Apr. 6, 1948</td><td>O</td><td>.69</td><td>500</td><td>.69</td><td>500</td></tr><tr><td>1949</td><td>1151</td><td>1,150</td><td>Mar. 3, 1949</td><td>o</td><td>5.04</td><td>3,660</td><td>5.04</td><td>3,660</td></tr><tr><td>1950</td><td>1181</td><td>1,030</td><td>Feb. 4, 1950</td><td>O</td><td>7.14</td><td>5,160</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.135101789019124,
+                            "top": 0.45574886535552195,
+                            "width": 0.38864898210980875,
+                            "height": 0.009455370650529501,
+                            "page": 1
+                        },
+                        "content": "a Files of East Bay Municipal Utility District.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "185. Bear Creek at Harmony School, near Lockeford, Calif.1\n\nLocation.--Lat 38\u00b006'58\" long 121\u00b010'14\" in NE+ sec. 14, T. 3 N., R. 7 E., at highway bridge 3 miles south of Lockeford.\n\nDrainage area.--51.3 sq mi (revised).\n\nGage.--Water-stage recorder. Altitude of gage is 70 ft (from topographic map).\n\nExtremes.--1926-30: Maximum discharge, 916 cfs Feb. 4, 1927 (gage height, 10.22 ft); no flow for several months each year.\n\nRemarks regulation or diversion.",
+                "embed": "185. Bear Creek at Harmony School, near Lockeford, Calif.1\n\nLocation.--Lat 38\u00b006'58\" long 121\u00b010'14\" in NE+ sec. 14, T. 3 N., R. 7 E., at highway bridge 3 miles south of Lockeford.\n\nDrainage area.--51.3 sq mi (revised).\n\nGage.--Water-stage recorder. Altitude of gage is 70 ft (from topographic map).\n\nExtremes.--1926-30: Maximum discharge, 916 cfs Feb. 4, 1927 (gage height, 10.22 ft); no flow for several months each year.\n\nRemarks regulation or diversion.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2677359654534238,
+                            "top": 0.4969742813918306,
+                            "width": 0.5330043183220234,
+                            "height": 0.012102874432677761,
+                            "page": 1
+                        },
+                        "content": "185. Bear Creek at Harmony School, near Lockeford, Calif.1",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1202961135101789,
+                            "top": 0.5155068078668684,
+                            "width": 0.8019740900678594,
+                            "height": 0.02118003025718608,
+                            "page": 1
+                        },
+                        "content": "Location.--Lat 38\u00b006'58\" long 121\u00b010'14\" in NE+ sec. 14, T. 3 N., R. 7 E., at highway bridge 3 miles south of Lockeford.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11844540407156076,
+                            "top": 0.5457639939485628,
+                            "width": 0.33991363355953114,
+                            "height": 0.01096822995461422,
+                            "page": 1
+                        },
+                        "content": "Drainage area.--51.3 sq mi (revised).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1202961135101789,
+                            "top": 0.5646747352496218,
+                            "width": 0.7260950030845157,
+                            "height": 0.012102874432677761,
+                            "page": 1
+                        },
+                        "content": "Gage.--Water-stage recorder. Altitude of gage is 70 ft (from topographic map).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12091301665638494,
+                            "top": 0.5835854765506808,
+                            "width": 0.8106107341147439,
+                            "height": 0.02118003025718608,
+                            "page": 1
+                        },
+                        "content": "Extremes.--1926-30: Maximum discharge, 916 cfs Feb. 4, 1927 (gage height, 10.22 ft); no flow for several months each year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11906230721776681,
+                            "top": 0.6130862329803328,
+                            "width": 0.3405305367057372,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "Remarks regulation or diversion.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Monthly and yearly mean discharge, in cubic feet per second\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1927</td><td>0</td><td>18,1</td><td>1.24</td><td>22.4</td><td>98.2</td><td>6.25</td><td>13.0</td><td>0.01</td><td>o</td><td>0</td><td>0</td><td>0</td><td>12.6</td></tr><tr><td>1928</td><td>o</td><td>o</td><td>1.26</td><td>.25</td><td>29.2</td><td>42.6</td><td>18.5</td><td>.02</td><td>o</td><td>0</td><td>o</td><td>0</td><td>7.57</td></tr><tr><td>1929</td><td>O</td><td>.06</td><td>2.98</td><td>18,2</td><td>11.5</td><td>1.29</td><td>.007</td><td>o</td><td>O</td><td>0</td><td>0</td><td>o</td><td>2.80</td></tr><tr><td>1930</td><td>o</td><td>o</td><td>o</td><td>12.2</td><td>9.73</td><td>27.7</td><td>.21</td><td>o</td><td>O</td><td>0</td><td>0</td><td>o</td><td>4.14</td></tr></table>",
+                "embed": "Monthly and yearly mean discharge, in cubic feet per second\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1927</td><td>0</td><td>18,1</td><td>1.24</td><td>22.4</td><td>98.2</td><td>6.25</td><td>13.0</td><td>0.01</td><td>o</td><td>0</td><td>0</td><td>0</td><td>12.6</td></tr><tr><td>1928</td><td>o</td><td>o</td><td>1.26</td><td>.25</td><td>29.2</td><td>42.6</td><td>18.5</td><td>.02</td><td>o</td><td>0</td><td>o</td><td>0</td><td>7.57</td></tr><tr><td>1929</td><td>O</td><td>.06</td><td>2.98</td><td>18,2</td><td>11.5</td><td>1.29</td><td>.007</td><td>o</td><td>O</td><td>0</td><td>0</td><td>o</td><td>2.80</td></tr><tr><td>1930</td><td>o</td><td>o</td><td>o</td><td>12.2</td><td>9.73</td><td>27.7</td><td>.21</td><td>o</td><td>O</td><td>0</td><td>0</td><td>o</td><td>4.14</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.28685996298581123,
+                            "top": 0.6448562783661119,
+                            "width": 0.48982109808760027,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly mean discharge, in cubic feet per second",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11557638461320655,
+                            "top": 0.651092713972083,
+                            "width": 0.8310687225737151,
+                            "height": 0.058530821922867814,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1927</td><td>0</td><td>18,1</td><td>1.24</td><td>22.4</td><td>98.2</td><td>6.25</td><td>13.0</td><td>0.01</td><td>o</td><td>0</td><td>0</td><td>0</td><td>12.6</td></tr><tr><td>1928</td><td>o</td><td>o</td><td>1.26</td><td>.25</td><td>29.2</td><td>42.6</td><td>18.5</td><td>.02</td><td>o</td><td>0</td><td>o</td><td>0</td><td>7.57</td></tr><tr><td>1929</td><td>O</td><td>.06</td><td>2.98</td><td>18,2</td><td>11.5</td><td>1.29</td><td>.007</td><td>o</td><td>O</td><td>0</td><td>0</td><td>o</td><td>2.80</td></tr><tr><td>1930</td><td>o</td><td>o</td><td>o</td><td>12.2</td><td>9.73</td><td>27.7</td><td>.21</td><td>o</td><td>O</td><td>0</td><td>0</td><td>o</td><td>4.14</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Monthly and yearly runoff, in acre-feet\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1927</td><td>o</td><td>1,080</td><td>76.2</td><td>1,380</td><td>5,450</td><td>384</td><td>774</td><td>0.6</td><td>o</td><td>o</td><td>o</td><td>o</td><td>9,140</td></tr><tr><td>1928</td><td>O</td><td>o</td><td>77.5</td><td>15.4</td><td>1,680</td><td>2,620</td><td>1,100</td><td>1.2</td><td>o</td><td>O</td><td>o</td><td>o</td><td>5,490</td></tr><tr><td>1929</td><td>o</td><td>3.6</td><td>183</td><td>1,120</td><td>639</td><td>79.3</td><td>.4</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>2,030</td></tr><tr><td>1930</td><td>n</td><td>C</td><td>o</td><td>750</td><td>540</td><td>1,700</td><td>12,5</td><td>o</td><td>o</td><td>O</td><td>o</td><td>o</td><td>3,000</td></tr></table>",
+                "embed": "Monthly and yearly runoff, in acre-feet\n\n<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1927</td><td>o</td><td>1,080</td><td>76.2</td><td>1,380</td><td>5,450</td><td>384</td><td>774</td><td>0.6</td><td>o</td><td>o</td><td>o</td><td>o</td><td>9,140</td></tr><tr><td>1928</td><td>O</td><td>o</td><td>77.5</td><td>15.4</td><td>1,680</td><td>2,620</td><td>1,100</td><td>1.2</td><td>o</td><td>O</td><td>o</td><td>o</td><td>5,490</td></tr><tr><td>1929</td><td>o</td><td>3.6</td><td>183</td><td>1,120</td><td>639</td><td>79.3</td><td>.4</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>2,030</td></tr><tr><td>1930</td><td>n</td><td>C</td><td>o</td><td>750</td><td>540</td><td>1,700</td><td>12,5</td><td>o</td><td>o</td><td>O</td><td>o</td><td>o</td><td>3,000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3701418877236274,
+                            "top": 0.7239031770045385,
+                            "width": 0.32510795805058607,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Monthly and yearly runoff, in acre-feet",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1159777820735416,
+                            "top": 0.7334090563244611,
+                            "width": 0.831741558924492,
+                            "height": 0.054731822049924356,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water\nyear</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th><th>The year</th></tr><tr><td>1927</td><td>o</td><td>1,080</td><td>76.2</td><td>1,380</td><td>5,450</td><td>384</td><td>774</td><td>0.6</td><td>o</td><td>o</td><td>o</td><td>o</td><td>9,140</td></tr><tr><td>1928</td><td>O</td><td>o</td><td>77.5</td><td>15.4</td><td>1,680</td><td>2,620</td><td>1,100</td><td>1.2</td><td>o</td><td>O</td><td>o</td><td>o</td><td>5,490</td></tr><tr><td>1929</td><td>o</td><td>3.6</td><td>183</td><td>1,120</td><td>639</td><td>79.3</td><td>.4</td><td>o</td><td>o</td><td>o</td><td>o</td><td>o</td><td>2,030</td></tr><tr><td>1930</td><td>n</td><td>C</td><td>o</td><td>750</td><td>540</td><td>1,700</td><td>12,5</td><td>o</td><td>o</td><td>O</td><td>o</td><td>o</td><td>3,000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Yearly discharge, in cubic feet per second\n\n<table><tr><th colspan=\"9\">per</th></tr><tr><td rowspan=\"3\">Year</td><td rowspan=\"3\">W.S.P.\nno.</td><td colspan=\"5\">Water year ending Sept. 30</td><td colspan=\"2\">Calendar year</td></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1927</td><td>651</td><td>916</td><td>Feb. 4, 1927</td><td>o</td><td>12.6</td><td>9,140</td><td>11.1</td><td>8,070</td></tr><tr><td>1928</td><td>671</td><td>825</td><td>Feb. 4, 1928</td><td>O</td><td>7.57</td><td>5,490</td><td>7.72</td><td>5,600</td></tr><tr><td>1929</td><td>691</td><td>525</td><td>Jan. 20, 1929</td><td>o</td><td>2.80</td><td>2,030</td><td>2.54</td><td>1,840</td></tr><tr><td>1930</td><td>706</td><td>590</td><td>Mar. 6, 1930</td><td>o</td><td>4.14</td><td>3,000</td><td></td><td></td></tr></table>\n\n1 Published as \"near Lockeford.\"",
+                "embed": "Yearly discharge, in cubic feet per second\n\n<table><tr><th colspan=\"9\">per</th></tr><tr><td rowspan=\"3\">Year</td><td rowspan=\"3\">W.S.P.\nno.</td><td colspan=\"5\">Water year ending Sept. 30</td><td colspan=\"2\">Calendar year</td></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1927</td><td>651</td><td>916</td><td>Feb. 4, 1927</td><td>o</td><td>12.6</td><td>9,140</td><td>11.1</td><td>8,070</td></tr><tr><td>1928</td><td>671</td><td>825</td><td>Feb. 4, 1928</td><td>O</td><td>7.57</td><td>5,490</td><td>7.72</td><td>5,600</td></tr><tr><td>1929</td><td>691</td><td>525</td><td>Jan. 20, 1929</td><td>o</td><td>2.80</td><td>2,030</td><td>2.54</td><td>1,840</td></tr><tr><td>1930</td><td>706</td><td>590</td><td>Mar. 6, 1930</td><td>o</td><td>4.14</td><td>3,000</td><td></td><td></td></tr></table>\n\n1 Published as \"near Lockeford.\"",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.35471930906847626,
+                            "top": 0.802571860816944,
+                            "width": 0.3504009870450339,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Yearly discharge, in cubic feet per second",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11534997844754877,
+                            "top": 0.8065937174971634,
+                            "width": 0.8367946184688994,
+                            "height": 0.08120501311932678,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th colspan=\"9\">per</th></tr><tr><td rowspan=\"3\">Year</td><td rowspan=\"3\">W.S.P.\nno.</td><td colspan=\"5\">Water year ending Sept. 30</td><td colspan=\"2\">Calendar year</td></tr><tr><td colspan=\"2\">Momentary maximum</td><td rowspan=\"2\">Minimum\nday</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td><td rowspan=\"2\">Mean</td><td rowspan=\"2\">Runoff in\nacre-feet</td></tr><tr><td>Discharge</td><td>Date</td></tr><tr><td>1927</td><td>651</td><td>916</td><td>Feb. 4, 1927</td><td>o</td><td>12.6</td><td>9,140</td><td>11.1</td><td>8,070</td></tr><tr><td>1928</td><td>671</td><td>825</td><td>Feb. 4, 1928</td><td>O</td><td>7.57</td><td>5,490</td><td>7.72</td><td>5,600</td></tr><tr><td>1929</td><td>691</td><td>525</td><td>Jan. 20, 1929</td><td>o</td><td>2.80</td><td>2,030</td><td>2.54</td><td>1,840</td></tr><tr><td>1930</td><td>706</td><td>590</td><td>Mar. 6, 1930</td><td>o</td><td>4.14</td><td>3,000</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1338679827267119,
+                            "top": 0.892965204236006,
+                            "width": 0.2745219000616903,
+                            "height": 0.00869894099848714,
+                            "page": 1
+                        },
+                        "content": "1 Published as \"near Lockeford.\"",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

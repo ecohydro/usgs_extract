@@ -1,0 +1,134 @@
+{
+    "job_id": "29aa1fb6-e567-4d84-b029-25b2f5623769",
+    "duration": 5.807549238204956,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/d1878392-e5cb-4b8d-862e-a1c5e2260fd6?AWSAccessKeyId=ASIA2UOK6OVBCQFFG2EE&Signature=RYDreGwa7uuUT%2Bx5pt%2BGwWUKt9o%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIQCBy6FAuKSJ%2FYnxyTDZDCkWpGtxJiXo5slOFY2kh5VJFQIgZJMf%2BeCEOsXRZQPAc32W2IRTN04p4zNRgTFIq1gjtcsqiwUIJBAAGgw3MzExMDY5MzIwMzQiDKzcEIYWGcZ19nnJ7iroBCCmtY6V4LqbgIETMWetEOx38%2BESVB7kdFZa57Y3PF6MgKLj%2FcNkLrZ1ithDv749sM75SaqxJk4l7s6hY884YEyz63Tg3cAVOMlUsTqYjn1inMeKWjW%2Fl5GqTc2i4clJ0v0Slzu1DLnB2b%2Fobrb22l5BGoXeYZvFYMmSp6yD48lfBUlvUF0PXoDKpszyBqa1PhMC3JEHOK%2Fk%2Flyrct4KKnNkvTGiLqj%2B5knAQZmBJMarlVMh5u3GEZ1htGD8p52vJ2PB6YYaSI1FvlFwwQ58s4B6IJH7QpqsRb9zv65vCtwSdn%2FB5uLHoxM3CYSA1zoGvEKbFdV8vcOcei%2BcGS%2FP8LM8mve%2FwxG9wzfbq7mGvripVdF%2B3omTOoWoZhV9Xb1dwEnwuJa2KW4a%2Bjsk0XHoKKlPAhSSzKgud%2F%2FhyR84IPML4xaCxZ2eP7Da7n3%2FdNfqE7E5wUPyeRfx2g64%2B2SmGHKXdIloubDTexV2TqgROnyX1asdzMP1PNNvNlwWDRXjx2tyVHPXO0WaHxalE5JVBAgQjRlxW1%2B6L7%2FicVRRHMhE3wNVPFXGxf9VV2Sv6vKCRypdQV%2B6FV8TU4xUvYVyotzHef9AYyQF0B7VgCT7Q4SdgoUB6TN10r5p5UoRb9Biy5jeQwOW1m%2BrIuE81rItIR%2BVji%2BVFT5i6qCebEKnjcXPX54vs5Cv16BZ04u9Z1Mq14xMl9W0p6E%2FDS53yrj9BDVhWq2UIKvUXt1q7Xi2kmI0Hmq8AiyQAGRo%2FBjPYLwFH7zitWtkqtG7uZy4s5WSzsYztDD50bHZ5tWGSJRT%2B85v1rZVluMSNKMw5tDJugY6mwEC9IDGB798DovIkncr6IbPsKEhuHuD52%2BVCf3aC%2FDS2Tk%2FevNlJYFh7KIaW2EwC3HG%2FToqdXXSTDw8dor8xqUfMjRmZyuA3w2yncj0aQyFsmyffohZiCg%2BzX7KLVLN32fNEAubiocGGe34DKSMTi5TJFbinBHdWHyByjX2Yvam3CFz7L4zS%2FdYq5j6%2BfY8dPtwXVKFk9oWKNObjw%3D%3D&Expires=1733459401",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOGRAPHY",
+                "embed": "# GEOGRAPHY",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4028377544725478,
+                            "top": 0.05143721633888049,
+                            "width": 0.13571869216533003,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "GEOGRAPHY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8611967921036398,
+                            "top": 0.046898638426626324,
+                            "width": 0.016039481801357187,
+                            "height": 0.015128593040847202,
+                            "page": 1
+                        },
+                        "content": "7",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE Annual precipitation, in inches, at representative stations in Napa and Sonoma Valleys-Continued\n\n<table><tr><th>Water year 1</th><th>Mount\nSt. Hel-\nena (Alt\n2,300 ft)</th><th>Calistoga\n(Alt 363\nft)</th><th>St. Hel-\nena (Alt\nft)</th><th>Conn\nDam 2\n(Alt 210\nft)</th><th>Oakville\nand\nOakville\n1 mile\nwest 8\n(Alt 153\nand 170\nft)</th><th>Angwin\n(Alt 1,610\nft)</th><th>Napa\nState\nHospita\n(Alt 60\nft)</th><th>Sonoma\n(Alt 30 ft)</th></tr><tr><td>1914 -15</td><td></td><td>50. 42</td><td>49. 61</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1915 -16</td><td></td><td>40. 41</td><td>43. 63</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1916 -17</td><td></td><td>26. 25</td><td>29. 04</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1917 -18</td><td></td><td>Inc.</td><td>21. 50</td><td></td><td></td><td></td><td>15. 66</td><td></td></tr><tr><td>1918 -19</td><td></td><td></td><td>30. 73</td><td></td><td></td><td></td><td>24. 65</td><td></td></tr><tr><td>1919 -20</td><td></td><td></td><td>18. 36</td><td></td><td></td><td></td><td>12. 11</td><td></td></tr><tr><td>1920 -21</td><td></td><td></td><td>42. 42</td><td></td><td></td><td></td><td>23. 92</td><td></td></tr><tr><td>1921 -22</td><td></td><td></td><td>24. 85</td><td></td><td></td><td></td><td>19. 59</td><td></td></tr><tr><td>1922 -23</td><td></td><td></td><td>31. 55</td><td></td><td></td><td></td><td>26. 99</td><td></td></tr><tr><td>1923 -24</td><td></td><td></td><td>12. 02</td><td></td><td></td><td></td><td>9. 52</td><td></td></tr><tr><td>1924 -25</td><td></td><td></td><td>43. 18</td><td></td><td></td><td></td><td>32. 16</td><td></td></tr><tr><td>1925 -26</td><td></td><td></td><td>32. 91</td><td></td><td></td><td></td><td>23. 70</td><td></td></tr><tr><td>1926 -27</td><td></td><td></td><td>43. 90</td><td></td><td></td><td></td><td>34. 79</td><td></td></tr><tr><td>1927 -28</td><td></td><td></td><td>29. 98</td><td></td><td></td><td></td><td>24. 92</td><td></td></tr><tr><td>1928 -29</td><td></td><td></td><td>21. 43</td><td></td><td></td><td></td><td>13. 74</td><td></td></tr><tr><td>1929 -30</td><td></td><td></td><td>30. 53</td><td></td><td></td><td></td><td>19. 67</td><td></td></tr><tr><td>1930 -31</td><td></td><td></td><td>17. 96</td><td></td><td></td><td></td><td>15. 80</td><td></td></tr><tr><td>1931 -32</td><td></td><td></td><td>28. 60</td><td></td><td></td><td></td><td>23. 42</td><td></td></tr><tr><td>1932 -33</td><td></td><td></td><td>21. 51</td><td></td><td></td><td></td><td>16. 38</td><td></td></tr><tr><td>1933 -34</td><td></td><td></td><td>23. 38</td><td></td><td></td><td></td><td>14. 58</td><td></td></tr><tr><td>1934 -35</td><td></td><td></td><td>35. 66</td><td></td><td></td><td></td><td>25. 51</td><td></td></tr><tr><td>1935 -36</td><td></td><td></td><td>36. 19</td><td></td><td></td><td></td><td>24. 60</td><td></td></tr><tr><td>1936 -37</td><td></td><td></td><td>28. 14</td><td></td><td></td><td></td><td>21. 74</td><td></td></tr><tr><td>1937 -38</td><td></td><td></td><td>47. 64</td><td></td><td></td><td></td><td>34. 12</td><td></td></tr><tr><td>1938 -39</td><td></td><td></td><td>15. 80</td><td></td><td></td><td></td><td>12. 19</td><td></td></tr><tr><td>1939 -40</td><td></td><td>Inc.</td><td>42. 66</td><td></td><td></td><td>Inc.</td><td>30. 10</td><td></td></tr><tr><td>1940 -41</td><td></td><td>58. 57</td><td>57. 61</td><td></td><td></td><td>64. 19</td><td>41. 86</td><td></td></tr><tr><td>1941 -42</td><td></td><td>47. 93</td><td>47. 54</td><td></td><td></td><td>58. 79</td><td>36. 62</td><td></td></tr><tr><td>1942 -43</td><td></td><td>34. 40</td><td>32. 52</td><td></td><td></td><td>38. 72</td><td>25. 23</td><td></td></tr><tr><td>1943 -44</td><td></td><td>28. 12</td><td>25. 73</td><td></td><td>Inc.</td><td>31. 39</td><td>21. 97</td><td></td></tr><tr><td>1944 -45</td><td></td><td>31. 75</td><td>28. 07</td><td></td><td>27. 35</td><td>31. 03</td><td>20. 69</td><td></td></tr><tr><td>1945 -46</td><td></td><td>32. 67</td><td>30. 92</td><td>Inc.</td><td>31. 20</td><td>28. 94</td><td>22. 56</td><td></td></tr><tr><td>1946 -47</td><td></td><td>25. 64</td><td>21. 98</td><td>19. 16</td><td>21. 55</td><td>23. 04</td><td>17. 46</td><td></td></tr><tr><td>1947 -48</td><td></td><td>30. 16</td><td>25. 94</td><td>14. 49</td><td>25. 60</td><td>26. 21</td><td>19. 44</td><td></td></tr><tr><td>1948 -49</td><td></td><td>25. 95</td><td>22. 30</td><td>18. 41</td><td>29. 39</td><td>24. 72</td><td>17. 47</td><td></td></tr><tr><td>1949 -50</td><td></td><td>29. 70</td><td>26. 79</td><td>18. 09</td><td>27. 61</td><td>28. 71</td><td>19. 82</td><td></td></tr><tr><td>1950 -51</td><td></td><td>38. 21</td><td>36. 76</td><td>28. 65</td><td>Inc.</td><td>45. 55</td><td>30. 54</td><td></td></tr><tr><td>Number of\ncomplete years</td><td>11</td><td>55</td><td>44</td><td>5</td><td>12</td><td>11</td><td>71</td><td>16</td></tr><tr><td>verage</td><td>60. 48</td><td>36. 31</td><td>32. 02</td><td>19. 76</td><td>27.88</td><td>36. 48</td><td>23. 47</td><td>27. 93</td></tr></table>",
+                "embed": "# TABLE Annual precipitation, in inches, at representative stations in Napa and Sonoma Valleys-Continued\n\n<table><tr><th>Water year 1</th><th>Mount\nSt. Hel-\nena (Alt\n2,300 ft)</th><th>Calistoga\n(Alt 363\nft)</th><th>St. Hel-\nena (Alt\nft)</th><th>Conn\nDam 2\n(Alt 210\nft)</th><th>Oakville\nand\nOakville\n1 mile\nwest 8\n(Alt 153\nand 170\nft)</th><th>Angwin\n(Alt 1,610\nft)</th><th>Napa\nState\nHospita\n(Alt 60\nft)</th><th>Sonoma\n(Alt 30 ft)</th></tr><tr><td>1914 -15</td><td></td><td>50. 42</td><td>49. 61</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1915 -16</td><td></td><td>40. 41</td><td>43. 63</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1916 -17</td><td></td><td>26. 25</td><td>29. 04</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1917 -18</td><td></td><td>Inc.</td><td>21. 50</td><td></td><td></td><td></td><td>15. 66</td><td></td></tr><tr><td>1918 -19</td><td></td><td></td><td>30. 73</td><td></td><td></td><td></td><td>24. 65</td><td></td></tr><tr><td>1919 -20</td><td></td><td></td><td>18. 36</td><td></td><td></td><td></td><td>12. 11</td><td></td></tr><tr><td>1920 -21</td><td></td><td></td><td>42. 42</td><td></td><td></td><td></td><td>23. 92</td><td></td></tr><tr><td>1921 -22</td><td></td><td></td><td>24. 85</td><td></td><td></td><td></td><td>19. 59</td><td></td></tr><tr><td>1922 -23</td><td></td><td></td><td>31. 55</td><td></td><td></td><td></td><td>26. 99</td><td></td></tr><tr><td>1923 -24</td><td></td><td></td><td>12. 02</td><td></td><td></td><td></td><td>9. 52</td><td></td></tr><tr><td>1924 -25</td><td></td><td></td><td>43. 18</td><td></td><td></td><td></td><td>32. 16</td><td></td></tr><tr><td>1925 -26</td><td></td><td></td><td>32. 91</td><td></td><td></td><td></td><td>23. 70</td><td></td></tr><tr><td>1926 -27</td><td></td><td></td><td>43. 90</td><td></td><td></td><td></td><td>34. 79</td><td></td></tr><tr><td>1927 -28</td><td></td><td></td><td>29. 98</td><td></td><td></td><td></td><td>24. 92</td><td></td></tr><tr><td>1928 -29</td><td></td><td></td><td>21. 43</td><td></td><td></td><td></td><td>13. 74</td><td></td></tr><tr><td>1929 -30</td><td></td><td></td><td>30. 53</td><td></td><td></td><td></td><td>19. 67</td><td></td></tr><tr><td>1930 -31</td><td></td><td></td><td>17. 96</td><td></td><td></td><td></td><td>15. 80</td><td></td></tr><tr><td>1931 -32</td><td></td><td></td><td>28. 60</td><td></td><td></td><td></td><td>23. 42</td><td></td></tr><tr><td>1932 -33</td><td></td><td></td><td>21. 51</td><td></td><td></td><td></td><td>16. 38</td><td></td></tr><tr><td>1933 -34</td><td></td><td></td><td>23. 38</td><td></td><td></td><td></td><td>14. 58</td><td></td></tr><tr><td>1934 -35</td><td></td><td></td><td>35. 66</td><td></td><td></td><td></td><td>25. 51</td><td></td></tr><tr><td>1935 -36</td><td></td><td></td><td>36. 19</td><td></td><td></td><td></td><td>24. 60</td><td></td></tr><tr><td>1936 -37</td><td></td><td></td><td>28. 14</td><td></td><td></td><td></td><td>21. 74</td><td></td></tr><tr><td>1937 -38</td><td></td><td></td><td>47. 64</td><td></td><td></td><td></td><td>34. 12</td><td></td></tr><tr><td>1938 -39</td><td></td><td></td><td>15. 80</td><td></td><td></td><td></td><td>12. 19</td><td></td></tr><tr><td>1939 -40</td><td></td><td>Inc.</td><td>42. 66</td><td></td><td></td><td>Inc.</td><td>30. 10</td><td></td></tr><tr><td>1940 -41</td><td></td><td>58. 57</td><td>57. 61</td><td></td><td></td><td>64. 19</td><td>41. 86</td><td></td></tr><tr><td>1941 -42</td><td></td><td>47. 93</td><td>47. 54</td><td></td><td></td><td>58. 79</td><td>36. 62</td><td></td></tr><tr><td>1942 -43</td><td></td><td>34. 40</td><td>32. 52</td><td></td><td></td><td>38. 72</td><td>25. 23</td><td></td></tr><tr><td>1943 -44</td><td></td><td>28. 12</td><td>25. 73</td><td></td><td>Inc.</td><td>31. 39</td><td>21. 97</td><td></td></tr><tr><td>1944 -45</td><td></td><td>31. 75</td><td>28. 07</td><td></td><td>27. 35</td><td>31. 03</td><td>20. 69</td><td></td></tr><tr><td>1945 -46</td><td></td><td>32. 67</td><td>30. 92</td><td>Inc.</td><td>31. 20</td><td>28. 94</td><td>22. 56</td><td></td></tr><tr><td>1946 -47</td><td></td><td>25. 64</td><td>21. 98</td><td>19. 16</td><td>21. 55</td><td>23. 04</td><td>17. 46</td><td></td></tr><tr><td>1947 -48</td><td></td><td>30. 16</td><td>25. 94</td><td>14. 49</td><td>25. 60</td><td>26. 21</td><td>19. 44</td><td></td></tr><tr><td>1948 -49</td><td></td><td>25. 95</td><td>22. 30</td><td>18. 41</td><td>29. 39</td><td>24. 72</td><td>17. 47</td><td></td></tr><tr><td>1949 -50</td><td></td><td>29. 70</td><td>26. 79</td><td>18. 09</td><td>27. 61</td><td>28. 71</td><td>19. 82</td><td></td></tr><tr><td>1950 -51</td><td></td><td>38. 21</td><td>36. 76</td><td>28. 65</td><td>Inc.</td><td>45. 55</td><td>30. 54</td><td></td></tr><tr><td>Number of\ncomplete years</td><td>11</td><td>55</td><td>44</td><td>5</td><td>12</td><td>11</td><td>71</td><td>16</td></tr><tr><td>verage</td><td>60. 48</td><td>36. 31</td><td>32. 02</td><td>19. 76</td><td>27.88</td><td>36. 48</td><td>23. 47</td><td>27. 93</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.05922270203578038,
+                            "top": 0.08055975794251134,
+                            "width": 0.8217149907464528,
+                            "height": 0.02798789712556732,
+                            "page": 1
+                        },
+                        "content": "TABLE Annual precipitation, in inches, at representative stations in Napa and Sonoma Valleys-Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04926473722275505,
+                            "top": 0.11502120209894455,
+                            "width": 0.8301550213897912,
+                            "height": 0.5838486040955052,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Water year 1</th><th>Mount\nSt. Hel-\nena (Alt\n2,300 ft)</th><th>Calistoga\n(Alt 363\nft)</th><th>St. Hel-\nena (Alt\nft)</th><th>Conn\nDam 2\n(Alt 210\nft)</th><th>Oakville\nand\nOakville\n1 mile\nwest 8\n(Alt 153\nand 170\nft)</th><th>Angwin\n(Alt 1,610\nft)</th><th>Napa\nState\nHospita\n(Alt 60\nft)</th><th>Sonoma\n(Alt 30 ft)</th></tr><tr><td>1914 -15</td><td></td><td>50. 42</td><td>49. 61</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1915 -16</td><td></td><td>40. 41</td><td>43. 63</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1916 -17</td><td></td><td>26. 25</td><td>29. 04</td><td></td><td></td><td></td><td>Inc.</td><td></td></tr><tr><td>1917 -18</td><td></td><td>Inc.</td><td>21. 50</td><td></td><td></td><td></td><td>15. 66</td><td></td></tr><tr><td>1918 -19</td><td></td><td></td><td>30. 73</td><td></td><td></td><td></td><td>24. 65</td><td></td></tr><tr><td>1919 -20</td><td></td><td></td><td>18. 36</td><td></td><td></td><td></td><td>12. 11</td><td></td></tr><tr><td>1920 -21</td><td></td><td></td><td>42. 42</td><td></td><td></td><td></td><td>23. 92</td><td></td></tr><tr><td>1921 -22</td><td></td><td></td><td>24. 85</td><td></td><td></td><td></td><td>19. 59</td><td></td></tr><tr><td>1922 -23</td><td></td><td></td><td>31. 55</td><td></td><td></td><td></td><td>26. 99</td><td></td></tr><tr><td>1923 -24</td><td></td><td></td><td>12. 02</td><td></td><td></td><td></td><td>9. 52</td><td></td></tr><tr><td>1924 -25</td><td></td><td></td><td>43. 18</td><td></td><td></td><td></td><td>32. 16</td><td></td></tr><tr><td>1925 -26</td><td></td><td></td><td>32. 91</td><td></td><td></td><td></td><td>23. 70</td><td></td></tr><tr><td>1926 -27</td><td></td><td></td><td>43. 90</td><td></td><td></td><td></td><td>34. 79</td><td></td></tr><tr><td>1927 -28</td><td></td><td></td><td>29. 98</td><td></td><td></td><td></td><td>24. 92</td><td></td></tr><tr><td>1928 -29</td><td></td><td></td><td>21. 43</td><td></td><td></td><td></td><td>13. 74</td><td></td></tr><tr><td>1929 -30</td><td></td><td></td><td>30. 53</td><td></td><td></td><td></td><td>19. 67</td><td></td></tr><tr><td>1930 -31</td><td></td><td></td><td>17. 96</td><td></td><td></td><td></td><td>15. 80</td><td></td></tr><tr><td>1931 -32</td><td></td><td></td><td>28. 60</td><td></td><td></td><td></td><td>23. 42</td><td></td></tr><tr><td>1932 -33</td><td></td><td></td><td>21. 51</td><td></td><td></td><td></td><td>16. 38</td><td></td></tr><tr><td>1933 -34</td><td></td><td></td><td>23. 38</td><td></td><td></td><td></td><td>14. 58</td><td></td></tr><tr><td>1934 -35</td><td></td><td></td><td>35. 66</td><td></td><td></td><td></td><td>25. 51</td><td></td></tr><tr><td>1935 -36</td><td></td><td></td><td>36. 19</td><td></td><td></td><td></td><td>24. 60</td><td></td></tr><tr><td>1936 -37</td><td></td><td></td><td>28. 14</td><td></td><td></td><td></td><td>21. 74</td><td></td></tr><tr><td>1937 -38</td><td></td><td></td><td>47. 64</td><td></td><td></td><td></td><td>34. 12</td><td></td></tr><tr><td>1938 -39</td><td></td><td></td><td>15. 80</td><td></td><td></td><td></td><td>12. 19</td><td></td></tr><tr><td>1939 -40</td><td></td><td>Inc.</td><td>42. 66</td><td></td><td></td><td>Inc.</td><td>30. 10</td><td></td></tr><tr><td>1940 -41</td><td></td><td>58. 57</td><td>57. 61</td><td></td><td></td><td>64. 19</td><td>41. 86</td><td></td></tr><tr><td>1941 -42</td><td></td><td>47. 93</td><td>47. 54</td><td></td><td></td><td>58. 79</td><td>36. 62</td><td></td></tr><tr><td>1942 -43</td><td></td><td>34. 40</td><td>32. 52</td><td></td><td></td><td>38. 72</td><td>25. 23</td><td></td></tr><tr><td>1943 -44</td><td></td><td>28. 12</td><td>25. 73</td><td></td><td>Inc.</td><td>31. 39</td><td>21. 97</td><td></td></tr><tr><td>1944 -45</td><td></td><td>31. 75</td><td>28. 07</td><td></td><td>27. 35</td><td>31. 03</td><td>20. 69</td><td></td></tr><tr><td>1945 -46</td><td></td><td>32. 67</td><td>30. 92</td><td>Inc.</td><td>31. 20</td><td>28. 94</td><td>22. 56</td><td></td></tr><tr><td>1946 -47</td><td></td><td>25. 64</td><td>21. 98</td><td>19. 16</td><td>21. 55</td><td>23. 04</td><td>17. 46</td><td></td></tr><tr><td>1947 -48</td><td></td><td>30. 16</td><td>25. 94</td><td>14. 49</td><td>25. 60</td><td>26. 21</td><td>19. 44</td><td></td></tr><tr><td>1948 -49</td><td></td><td>25. 95</td><td>22. 30</td><td>18. 41</td><td>29. 39</td><td>24. 72</td><td>17. 47</td><td></td></tr><tr><td>1949 -50</td><td></td><td>29. 70</td><td>26. 79</td><td>18. 09</td><td>27. 61</td><td>28. 71</td><td>19. 82</td><td></td></tr><tr><td>1950 -51</td><td></td><td>38. 21</td><td>36. 76</td><td>28. 65</td><td>Inc.</td><td>45. 55</td><td>30. 54</td><td></td></tr><tr><td>Number of\ncomplete years</td><td>11</td><td>55</td><td>44</td><td>5</td><td>12</td><td>11</td><td>71</td><td>16</td></tr><tr><td>verage</td><td>60. 48</td><td>36. 31</td><td>32. 02</td><td>19. 76</td><td>27.88</td><td>36. 48</td><td>23. 47</td><td>27. 93</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE Annual precipitation, in inches, at representative stations in Napa and Sonoma Valleys-Continued (cont.)\n\n1 From Oct. 1 of one year to Sept. 30 of the next year.\n\n2 From records of the Napa city engineer.\n\n- 3 Station was at Oakville from January 1907 to June 1914; at 1 mile west of Oakville beginring in De- cember 1943.\n\nThe average annual precipitation differs considerably from one part of Napa Valley to another. As indicated in table 1, the yearly precipitation at the several stations is not directly comparable be- cause the periods of record do not coincide. Nevertheless, th aver- age annual precipitation based on these records ranges from about 23 inches at the Napa State Hospital to about 32 inches at St. Helena and about 60 inches at Mount St. Helena. The average pre- cipitation at Calistoga seems to be a little more than at St. Helena. Thus, in general, the southern part of Napa Valley receives less rain",
+                "embed": "# TABLE Annual precipitation, in inches, at representative stations in Napa and Sonoma Valleys-Continued (cont.)\n\n1 From Oct. 1 of one year to Sept. 30 of the next year.\n\n2 From records of the Napa city engineer.\n\n- 3 Station was at Oakville from January 1907 to June 1914; at 1 mile west of Oakville beginring in De- cember 1943.\n\nThe average annual precipitation differs considerably from one part of Napa Valley to another. As indicated in table 1, the yearly precipitation at the several stations is not directly comparable be- cause the periods of record do not coincide. Nevertheless, th aver- age annual precipitation based on these records ranges from about 23 inches at the Napa State Hospital to about 32 inches at St. Helena and about 60 inches at Mount St. Helena. The average pre- cipitation at Calistoga seems to be a little more than at St. Helena. Thus, in general, the southern part of Napa Valley receives less rain",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06539173349784085,
+                            "top": 0.7046142208774584,
+                            "width": 0.4108574953732264,
+                            "height": 0.01096822995461422,
+                            "page": 1
+                        },
+                        "content": "1 From Oct. 1 of one year to Sept. 30 of the next year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06415792720542875,
+                            "top": 0.7144478063540091,
+                            "width": 0.32017273288093767,
+                            "height": 0.01059001512859304,
+                            "page": 1
+                        },
+                        "content": "2 From records of the Napa city engineer.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.049352251696483655,
+                            "top": 0.7223903177004538,
+                            "width": 0.8210980876002467,
+                            "height": 0.019288956127080183,
+                            "page": 1
+                        },
+                        "content": "- 3 Station was at Oakville from January 1907 to June 1914; at 1 mile west of Oakville beginring in De- cember 1943.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.047501542257865514,
+                            "top": 0.7575642965204236,
+                            "width": 0.8217149907464528,
+                            "height": 0.17284417549167927,
+                            "page": 1
+                        },
+                        "content": "The average annual precipitation differs considerably from one part of Napa Valley to another. As indicated in table 1, the yearly precipitation at the several stations is not directly comparable be- cause the periods of record do not coincide. Nevertheless, th aver- age annual precipitation based on these records ranges from about 23 inches at the Napa State Hospital to about 32 inches at St. Helena and about 60 inches at Mount St. Helena. The average pre- cipitation at Calistoga seems to be a little more than at St. Helena. Thus, in general, the southern part of Napa Valley receives less rain",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

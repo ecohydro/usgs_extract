@@ -1,0 +1,290 @@
+{
+    "job_id": "907fb21f-8e88-4139-85ff-11345f7fd58f",
+    "duration": 4.955498933792114,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/91c12cbf-1aea-4983-84aa-4c02b5c28c59?AWSAccessKeyId=ASIA2UOK6OVBKAH62S5Q&Signature=etznF8bNbQ6Ra%2Fa0A5EdZDeUXNo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGYaCXVzLXdlc3QtMiJHMEUCIBlWOCi523TZKt8bM591E3kurWzMdHzcLI899EATX9SWAiEAnlw%2F3M0dVWkHntFSyrMWrSFeXKqJLYQflyaWYwGDjj0qiwUIHxAAGgw3MzExMDY5MzIwMzQiDH2csskSFGHU5zQ9DiroBP229y0MKKBIWXpOaOp5%2BzkFti998Eo2GEulGB1X%2Fh9hbw%2Bu3FG%2FaYF6CFVKvUPNKFHdWQ5I%2Fc8e%2FEkPzmy3jmHb5P2v2%2BZf2mpPiFaFTuOwoHvSqDIMaQz35M5WHXHLAXmwYxT6nQ5MBvF38HfEgBF5i4cTvo4zGJRZmD88Zuy%2BRFVXLUHH56sb8H5tdtagdTGPlCjZATqCgBwaPnNIjqZfyo2UCizH0Ea9PLEbJG1hNB84wiEB9VuaBHD1ZjTOqhVzsEREa3gcWkbkeueYlnasVF%2BlqRrptRwHcYTbzMsZEeUOclxkYIAapzl37df2YRSuiUkbaGmqJTExwKLriPU1ZLjvGw6jhbWx%2FqKKhhRB%2FcULlDr39YyiqejsjxHdJq2qxU08RbEmp1PiCpoLvokiirkrmw54MDFzJ17UdD9IxUo23Idu7E7dJ49X75yCYEJwV1avxPslyQkd0JVq5mYGMPKo0fdw0dzbTRyWwPucm4FN6uzZ3J2KgSRmgxSWVfoIbEDiiYQXf5B5bIeEPeWOUzBqhMeEjcMdupSPUlNq%2BhfKAuAiEbT1XXJ92FgccO8qLXi6HUBa4roesNuMaGYCl3cdJzzMWegUV1TQdwpGcIAA37wjnJkebxyCxCMGVzWxmfdPfXHNgxAkzMyrVP9qtktuVF9g4ysRZYt7cj9CzIV7CfCJkqKFLTDNxvTkViSjczA2uMSwtaE2GWJUBIjSW0CremQxUomQoNQw0M9%2F8tlQZ0%2FhCsRWPzD%2FnWXpYFcELAKVwDozBmQtHupS3md7NNksijU%2Fx2IcrsvOTE%2Bcf5x%2FEsql2EUwjsjIugY6mwEbCiZ8kARasfDET1oFtYfVf1K922Pm%2BC559CictyByknr0HxAckTBQ8YwmrHFiEPqxikdl4pZtm4NxYUpm3pkckHUx%2FEP9GneIfIMBEqn7PiufvaFakRGIamOMCnr1PEI%2BhCoaifYbAq3Gf7tzU5N3wGQkUHikc8ChXbY1twfL1XhV1Az0qpui4gEv97cQxg3Foqwb1oJoQquMpw%3D%3D&Expires=1733442264",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# LOS ANGELES RIVER BASIN\n\n# 11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF.\n\nLOCATION. -Lat 34\u00b011'30\", long 118\u00b000'59\" in SWINENE1 sec 10, T.1 N., R.11 W., Los Angeles County, on right bank at head of Hermits Falls, 0.9 mile upstream from Big Santa Anita Dam, and 3 miles northeast of Sierra Madre.\n\nDRAINAGE AREA.--9.71 sq mi.",
+                "embed": "# LOS ANGELES RIVER BASIN\n\n# 11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF.\n\nLOCATION. -Lat 34\u00b011'30\", long 118\u00b000'59\" in SWINENE1 sec 10, T.1 N., R.11 W., Los Angeles County, on right bank at head of Hermits Falls, 0.9 mile upstream from Big Santa Anita Dam, and 3 miles northeast of Sierra Madre.\n\nDRAINAGE AREA.--9.71 sq mi.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4012345679012346,
+                            "top": 0.06219787302610377,
+                            "width": 0.17724867724867724,
+                            "height": 0.007089912987431518,
+                            "page": 1
+                        },
+                        "content": "LOS ANGELES RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9193121693121693,
+                            "top": 0.06058652916532388,
+                            "width": 0.018518518518518517,
+                            "height": 0.00676764421527554,
+                            "page": 1
+                        },
+                        "content": "223",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.28703703703703703,
+                            "top": 0.08056719303899453,
+                            "width": 0.3968253968253968,
+                            "height": 0.009345794392523364,
+                            "page": 1
+                        },
+                        "content": "11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07142857142857142,
+                            "top": 0.09764743796326136,
+                            "width": 0.8373015873015873,
+                            "height": 0.029326458266194008,
+                            "page": 1
+                        },
+                        "content": "LOCATION. -Lat 34\u00b011'30\", long 118\u00b000'59\" in SWINENE1 sec 10, T.1 N., R.11 W., Los Angeles County, on right bank at head of Hermits Falls, 0.9 mile upstream from Big Santa Anita Dam, and 3 miles northeast of Sierra Madre.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07142857142857142,
+                            "top": 0.1369642281662907,
+                            "width": 0.20634920634920634,
+                            "height": 0.008701256848211408,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.--9.71 sq mi.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF. (cont.)\n\nPERIOD OF RECORD.--July 1916 to current year.\n\nGAGE, --Water-stage recorder. Datum of gage is 1,475.3 ft above mean sea level (levels by U.S. Forest Service). Prior to Mar. 2, 1938, at datum 0.4 ft lower (destroyed by flood) Mar. 18 to Sept. 27, 1938, at datum 0.7 ft higher.\n\nAVERAGE DISCHARGE. 53 years, 6.75 cfs (4,890 acre-ft per year) median of yearly mean discharges, 3.6 cfs (2,600 acre-ft per year).\n\nEXTREMES, Current year: Maximum discharge, 8,500 cfs Jan. 25 (gage height, 18.44 ft, from floodmark), from rating curve extended above 450 cfs on basis of slope-area measurement of maximum flow; minimum daily, 1,1 cfs Oct. 23-28. Period of record: Maximum discharge, 8,500 cfs Jan. 25, 1969 (gage height, 18.44 ft), from rating curve extended above 450 cfs on basis of slope-area measurement of maximum flow; practically no flow Aug. 18 to Sept. 14, 1929.\n\nREMARKS --Records good except those for Jan. 25 to Apr. 10, which are poor. No diversion above station. See schematic diagram of San Gabriel and Los Angeles River basins.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "embed": "# 11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF. (cont.)\n\nPERIOD OF RECORD.--July 1916 to current year.\n\nGAGE, --Water-stage recorder. Datum of gage is 1,475.3 ft above mean sea level (levels by U.S. Forest Service). Prior to Mar. 2, 1938, at datum 0.4 ft lower (destroyed by flood) Mar. 18 to Sept. 27, 1938, at datum 0.7 ft higher.\n\nAVERAGE DISCHARGE. 53 years, 6.75 cfs (4,890 acre-ft per year) median of yearly mean discharges, 3.6 cfs (2,600 acre-ft per year).\n\nEXTREMES, Current year: Maximum discharge, 8,500 cfs Jan. 25 (gage height, 18.44 ft, from floodmark), from rating curve extended above 450 cfs on basis of slope-area measurement of maximum flow; minimum daily, 1,1 cfs Oct. 23-28. Period of record: Maximum discharge, 8,500 cfs Jan. 25, 1969 (gage height, 18.44 ft), from rating curve extended above 450 cfs on basis of slope-area measurement of maximum flow; practically no flow Aug. 18 to Sept. 14, 1929.\n\nREMARKS --Records good except those for Jan. 25 to Apr. 10, which are poor. No diversion above station. See schematic diagram of San Gabriel and Los Angeles River basins.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07098765432098765,
+                            "top": 0.15565581695133743,
+                            "width": 0.34347442680776014,
+                            "height": 0.009023525620367387,
+                            "page": 1
+                        },
+                        "content": "PERIOD OF RECORD.--July 1916 to current year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07098765432098765,
+                            "top": 0.17273606187560425,
+                            "width": 0.849647266313933,
+                            "height": 0.029326458266194008,
+                            "page": 1
+                        },
+                        "content": "GAGE, --Water-stage recorder. Datum of gage is 1,475.3 ft above mean sea level (levels by U.S. Forest Service). Prior to Mar. 2, 1938, at datum 0.4 ft lower (destroyed by flood) Mar. 18 to Sept. 27, 1938, at datum 0.7 ft higher.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07142857142857142,
+                            "top": 0.21076377699000967,
+                            "width": 0.8130511463844797,
+                            "height": 0.019980663873670642,
+                            "page": 1
+                        },
+                        "content": "AVERAGE DISCHARGE. 53 years, 6.75 cfs (4,890 acre-ft per year) median of yearly mean discharges, 3.6 cfs (2,600 acre-ft per year).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07098765432098765,
+                            "top": 0.23880116016757977,
+                            "width": 0.8293650793650794,
+                            "height": 0.0573638414437641,
+                            "page": 1
+                        },
+                        "content": "EXTREMES, Current year: Maximum discharge, 8,500 cfs Jan. 25 (gage height, 18.44 ft, from floodmark), from rating curve extended above 450 cfs on basis of slope-area measurement of maximum flow; minimum daily, 1,1 cfs Oct. 23-28. Period of record: Maximum discharge, 8,500 cfs Jan. 25, 1969 (gage height, 18.44 ft), from rating curve extended above 450 cfs on basis of slope-area measurement of maximum flow; practically no flow Aug. 18 to Sept. 14, 1929.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07054673721340388,
+                            "top": 0.3048662584595553,
+                            "width": 0.7962962962962963,
+                            "height": 0.019013857557202706,
+                            "page": 1
+                        },
+                        "content": "REMARKS --Records good except those for Jan. 25 to Apr. 10, which are poor. No diversion above station. See schematic diagram of San Gabriel and Los Angeles River basins.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.20414462081128748,
+                            "top": 0.3335481791814373,
+                            "width": 0.5970017636684304,
+                            "height": 0.00837898807605543,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th></th><th>OCT</th><th></th><th>NOV</th><th></th><th>DEC</th><th>JAN</th><th></th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.9</td><td></td><td>90</td><td>210</td><td>33</td><td>20</td><td>12</td><td>7.7</td><td>6.4</td><td>4.3</td></tr><tr><td>2</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.8</td><td></td><td>83</td><td>190</td><td>32</td><td>19</td><td>12</td><td>7.5</td><td>6.7</td><td>4.3</td></tr><tr><td>3</td><td></td><td>1.8</td><td></td><td>1.5</td><td></td><td>1.5</td><td>1.8</td><td></td><td>75</td><td>170</td><td>31</td><td>19</td><td>12</td><td>7.5</td><td>6.5</td><td>4.3</td></tr><tr><td>4</td><td></td><td>1.8</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.8</td><td></td><td>70</td><td>150</td><td>30</td><td>20</td><td>12</td><td>7.6</td><td>6.4</td><td>4.2</td></tr><tr><td>5</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.4</td><td>1.8</td><td></td><td>65</td><td>140</td><td>29</td><td>19</td><td>12</td><td>7.9</td><td>6.3</td><td>4.2</td></tr><tr><td>6</td><td></td><td>1.4</td><td></td><td>1.6</td><td></td><td>1.4</td><td>1.6</td><td></td><td>160</td><td>130</td><td>28</td><td>19</td><td>11</td><td>8.2</td><td>6.0</td><td>4.2</td></tr><tr><td>7</td><td></td><td>1.5</td><td></td><td>1.5</td><td></td><td>1.4</td><td>1.6</td><td></td><td>130</td><td>115</td><td>27</td><td>18</td><td>11</td><td>8.2</td><td>5.6</td><td>4.1</td></tr><tr><td>8</td><td></td><td>1.4</td><td></td><td>1.4</td><td></td><td>1.3</td><td>1.7</td><td></td><td>110</td><td>108</td><td>27</td><td>18</td><td>12</td><td>7.9</td><td>5.6</td><td>4.1</td></tr><tr><td>9</td><td></td><td>1.4</td><td></td><td>1.3</td><td></td><td>1.4</td><td>1.8</td><td></td><td>100</td><td>100</td><td>26</td><td>17</td><td>11</td><td>7.6</td><td>5.6</td><td>3.9</td></tr><tr><td>10</td><td></td><td>1.4</td><td></td><td>1.5</td><td></td><td>1.4</td><td>1.8</td><td></td><td>92</td><td>92</td><td>26</td><td>17</td><td>11</td><td>7.4</td><td>5.6</td><td>3.8</td></tr><tr><td>11</td><td></td><td>1.4</td><td></td><td>1.5</td><td></td><td>1.8</td><td>1.7</td><td></td><td>86</td><td>87</td><td>25</td><td>17</td><td>12</td><td>7.6</td><td>5.6</td><td>3.7</td></tr><tr><td>12</td><td></td><td>1.4</td><td></td><td>1.8</td><td></td><td>1.6</td><td>1.8</td><td></td><td>82</td><td>81</td><td>25</td><td>16</td><td>11</td><td>7.8</td><td>5.6</td><td>3.7</td></tr><tr><td>13</td><td></td><td>1.4</td><td></td><td>3.3</td><td></td><td>1.6</td><td>2.0</td><td></td><td>80</td><td>77</td><td>24</td><td>16</td><td>11</td><td>7.4</td><td>5.3</td><td>3.7</td></tr><tr><td>14</td><td></td><td>1.7</td><td></td><td>2.2</td><td></td><td>1.5</td><td>13</td><td></td><td>77</td><td>73</td><td>24</td><td>16</td><td>11</td><td>7.6</td><td>5.1</td><td>3.8</td></tr><tr><td>15</td><td></td><td>1.5</td><td></td><td>1.9</td><td></td><td>1.6</td><td>4.4</td><td></td><td>74</td><td>67</td><td>24</td><td>16</td><td>11</td><td>7.4</td><td>5.1</td><td>4.0</td></tr><tr><td>16</td><td></td><td>1.4</td><td></td><td>1.8</td><td></td><td>2.2</td><td>2.9</td><td></td><td>72</td><td>63</td><td>22</td><td>15</td><td>11</td><td>7.3</td><td>5.1</td><td>4.1</td></tr><tr><td>17</td><td></td><td>1.3</td><td></td><td>1.7</td><td></td><td>1.9</td><td>2.4</td><td></td><td>70</td><td>60</td><td>22</td><td>15</td><td>11</td><td>7.3</td><td>5.1</td><td>4.1</td></tr><tr><td>18</td><td></td><td>1.2</td><td></td><td>1.6</td><td></td><td>1.8</td><td>2.9</td><td></td><td>70</td><td>57</td><td>22</td><td>15</td><td>10</td><td>7.1</td><td>5.1</td><td>4.0</td></tr><tr><td>19</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>19</td><td></td><td>70</td><td>53</td><td>22</td><td>15</td><td>9.9</td><td>7.0</td><td>5.1</td><td>3.9</td></tr><tr><td>20</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>133</td><td></td><td>70</td><td>50</td><td>21</td><td>15</td><td>9.8</td><td>7.0</td><td>5.1</td><td>3.9</td></tr><tr><td>21</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>500</td><td></td><td>70</td><td>60</td><td>21</td><td>15</td><td>9.8</td><td>7.1</td><td>4.9</td><td>4.0</td></tr><tr><td>22</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>449</td><td></td><td>70</td><td>53</td><td>21</td><td>14</td><td>9.5</td><td>7.0</td><td>4.8</td><td>4.0</td></tr><tr><td>23</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>1.7</td><td>100</td><td></td><td>90</td><td>50</td><td>21</td><td>14</td><td>9.2</td><td>6.9</td><td>4.4</td><td>3.9</td></tr><tr><td>24</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>1.6</td><td>188</td><td></td><td>600</td><td>47</td><td>20</td><td>14</td><td>9.4</td><td>7.1</td><td>4.4</td><td>3.7</td></tr><tr><td>25</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>3.0</td><td>2,500</td><td></td><td>1,200</td><td>45</td><td>20</td><td>14</td><td>9.3</td><td>7.1</td><td>4.4</td><td>3.6</td></tr><tr><td>26</td><td></td><td>1.1</td><td></td><td>1.4</td><td></td><td>4.4</td><td>1,800</td><td></td><td>700</td><td>43</td><td>20</td><td>13</td><td>9.1</td><td>7.1</td><td>4.4</td><td>3.5</td></tr><tr><td>27</td><td></td><td>1.1</td><td></td><td>1.4</td><td></td><td>2.7</td><td>600</td><td></td><td>350</td><td>41</td><td>19</td><td>13</td><td>8.8</td><td>7.2</td><td>4.4</td><td>3.5</td></tr><tr><td>28</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>2.2</td><td>200</td><td></td><td>250</td><td>38</td><td>19</td><td>13</td><td>8.6</td><td>7.1</td><td>4.5</td><td>3.4</td></tr><tr><td>29</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>2.1</td><td>150</td><td></td><td></td><td>37</td><td>19</td><td>13</td><td>8.3</td><td>7.0</td><td>4.5</td><td>3.2</td></tr><tr><td>30</td><td></td><td>1.7</td><td></td><td>1.5</td><td></td><td>2.0</td><td>120</td><td></td><td></td><td>35</td><td>19</td><td>12</td><td>7.9</td><td>6.9</td><td>4.5</td><td>3.2</td></tr><tr><td>31</td><td></td><td>1.6</td><td></td><td></td><td></td><td>1.9</td><td>100</td><td></td><td></td><td>34</td><td></td><td>12</td><td></td><td>6.6</td><td>4.4</td><td></td></tr><tr><td>TOTAL</td><td></td><td>42.4</td><td></td><td>48.8</td><td></td><td>57.1</td><td>6,907.7</td><td></td><td>5,056</td><td>2,556</td><td>719</td><td>489</td><td>313.6</td><td>228.1</td><td>162.5</td><td>116.3</td></tr><tr><td>MEAN</td><td></td><td>1.37</td><td></td><td>1.63</td><td></td><td>1.84</td><td>223</td><td></td><td>181</td><td>82.5</td><td>24.0</td><td>15.8</td><td>10.5</td><td>7.36</td><td>5.24</td><td>3.88</td></tr><tr><td>MAX</td><td></td><td>1.8</td><td></td><td>3.3</td><td></td><td>4.4</td><td>2,500</td><td></td><td>1,200</td><td>210</td><td>33</td><td>20</td><td>12</td><td>8.2</td><td>6.7</td><td>4.3</td></tr><tr><td>MIN</td><td></td><td>1.1</td><td></td><td>1.3</td><td></td><td>1.3</td><td>1.6</td><td></td><td>65</td><td>34</td><td>19</td><td>12</td><td>7.9</td><td>6.6</td><td>4.4</td><td>3.2</td></tr><tr><td>AC-FT</td><td></td><td>84</td><td></td><td>97</td><td></td><td>113</td><td>13,700</td><td></td><td>10,030</td><td>5,070</td><td>1,430</td><td>970</td><td>622</td><td>452</td><td>322</td><td>231</td></tr><tr><td>CAL YR</td><td>1968</td><td></td><td>TOTAL</td><td></td><td>1,038.46</td><td></td><td>MEAN 2.84</td><td></td><td>MAX</td><td>55</td><td>MIN .96</td><td>AC-FT</td><td>2,060</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969</td><td></td><td>TOTAL</td><td>16,696.5</td><td></td><td></td><td>MEAN 45.7</td><td></td><td>MAX</td><td>2,500</td><td>MIN 1.1</td><td>AC-FT</td><td>33,120</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>PEAK</td><td></td><td>DISCHARGE</td><td>(BASE,</td><td>40</td><td>CFS)</td><td></td><td></td><td></td><td>NOTE</td><td>gage-height</td><td>record</td><td></td></tr><tr><td>DATE</td><td>TIME</td><td></td><td>G.H.</td><td></td><td>DISCHARGE</td><td></td><td>DATE</td><td></td><td>TIME</td><td>G.H.</td><td>DISCHARGE</td><td>Jan.</td><td>25 to Feb.</td><td>12, Feb.</td><td>18 to</td><td></td></tr><tr><td>1 -21</td><td>0530</td><td></td><td>7.26</td><td></td><td>1,240</td><td></td><td>2 - - 6</td><td></td><td>unknown</td><td>unknown</td><td>unknown</td><td>Apr.</td><td>10.</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\n1-25\n\n0945\n\na18.44\n\n8,500\n\n2-25\n\nunknown\n\na15.1\n\n5,000",
+                "embed": "# 11-1000. SANTA ANITA CREEK NEAR SIERRA MADRE, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th></th><th>OCT</th><th></th><th>NOV</th><th></th><th>DEC</th><th>JAN</th><th></th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.9</td><td></td><td>90</td><td>210</td><td>33</td><td>20</td><td>12</td><td>7.7</td><td>6.4</td><td>4.3</td></tr><tr><td>2</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.8</td><td></td><td>83</td><td>190</td><td>32</td><td>19</td><td>12</td><td>7.5</td><td>6.7</td><td>4.3</td></tr><tr><td>3</td><td></td><td>1.8</td><td></td><td>1.5</td><td></td><td>1.5</td><td>1.8</td><td></td><td>75</td><td>170</td><td>31</td><td>19</td><td>12</td><td>7.5</td><td>6.5</td><td>4.3</td></tr><tr><td>4</td><td></td><td>1.8</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.8</td><td></td><td>70</td><td>150</td><td>30</td><td>20</td><td>12</td><td>7.6</td><td>6.4</td><td>4.2</td></tr><tr><td>5</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.4</td><td>1.8</td><td></td><td>65</td><td>140</td><td>29</td><td>19</td><td>12</td><td>7.9</td><td>6.3</td><td>4.2</td></tr><tr><td>6</td><td></td><td>1.4</td><td></td><td>1.6</td><td></td><td>1.4</td><td>1.6</td><td></td><td>160</td><td>130</td><td>28</td><td>19</td><td>11</td><td>8.2</td><td>6.0</td><td>4.2</td></tr><tr><td>7</td><td></td><td>1.5</td><td></td><td>1.5</td><td></td><td>1.4</td><td>1.6</td><td></td><td>130</td><td>115</td><td>27</td><td>18</td><td>11</td><td>8.2</td><td>5.6</td><td>4.1</td></tr><tr><td>8</td><td></td><td>1.4</td><td></td><td>1.4</td><td></td><td>1.3</td><td>1.7</td><td></td><td>110</td><td>108</td><td>27</td><td>18</td><td>12</td><td>7.9</td><td>5.6</td><td>4.1</td></tr><tr><td>9</td><td></td><td>1.4</td><td></td><td>1.3</td><td></td><td>1.4</td><td>1.8</td><td></td><td>100</td><td>100</td><td>26</td><td>17</td><td>11</td><td>7.6</td><td>5.6</td><td>3.9</td></tr><tr><td>10</td><td></td><td>1.4</td><td></td><td>1.5</td><td></td><td>1.4</td><td>1.8</td><td></td><td>92</td><td>92</td><td>26</td><td>17</td><td>11</td><td>7.4</td><td>5.6</td><td>3.8</td></tr><tr><td>11</td><td></td><td>1.4</td><td></td><td>1.5</td><td></td><td>1.8</td><td>1.7</td><td></td><td>86</td><td>87</td><td>25</td><td>17</td><td>12</td><td>7.6</td><td>5.6</td><td>3.7</td></tr><tr><td>12</td><td></td><td>1.4</td><td></td><td>1.8</td><td></td><td>1.6</td><td>1.8</td><td></td><td>82</td><td>81</td><td>25</td><td>16</td><td>11</td><td>7.8</td><td>5.6</td><td>3.7</td></tr><tr><td>13</td><td></td><td>1.4</td><td></td><td>3.3</td><td></td><td>1.6</td><td>2.0</td><td></td><td>80</td><td>77</td><td>24</td><td>16</td><td>11</td><td>7.4</td><td>5.3</td><td>3.7</td></tr><tr><td>14</td><td></td><td>1.7</td><td></td><td>2.2</td><td></td><td>1.5</td><td>13</td><td></td><td>77</td><td>73</td><td>24</td><td>16</td><td>11</td><td>7.6</td><td>5.1</td><td>3.8</td></tr><tr><td>15</td><td></td><td>1.5</td><td></td><td>1.9</td><td></td><td>1.6</td><td>4.4</td><td></td><td>74</td><td>67</td><td>24</td><td>16</td><td>11</td><td>7.4</td><td>5.1</td><td>4.0</td></tr><tr><td>16</td><td></td><td>1.4</td><td></td><td>1.8</td><td></td><td>2.2</td><td>2.9</td><td></td><td>72</td><td>63</td><td>22</td><td>15</td><td>11</td><td>7.3</td><td>5.1</td><td>4.1</td></tr><tr><td>17</td><td></td><td>1.3</td><td></td><td>1.7</td><td></td><td>1.9</td><td>2.4</td><td></td><td>70</td><td>60</td><td>22</td><td>15</td><td>11</td><td>7.3</td><td>5.1</td><td>4.1</td></tr><tr><td>18</td><td></td><td>1.2</td><td></td><td>1.6</td><td></td><td>1.8</td><td>2.9</td><td></td><td>70</td><td>57</td><td>22</td><td>15</td><td>10</td><td>7.1</td><td>5.1</td><td>4.0</td></tr><tr><td>19</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>19</td><td></td><td>70</td><td>53</td><td>22</td><td>15</td><td>9.9</td><td>7.0</td><td>5.1</td><td>3.9</td></tr><tr><td>20</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>133</td><td></td><td>70</td><td>50</td><td>21</td><td>15</td><td>9.8</td><td>7.0</td><td>5.1</td><td>3.9</td></tr><tr><td>21</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>500</td><td></td><td>70</td><td>60</td><td>21</td><td>15</td><td>9.8</td><td>7.1</td><td>4.9</td><td>4.0</td></tr><tr><td>22</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>449</td><td></td><td>70</td><td>53</td><td>21</td><td>14</td><td>9.5</td><td>7.0</td><td>4.8</td><td>4.0</td></tr><tr><td>23</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>1.7</td><td>100</td><td></td><td>90</td><td>50</td><td>21</td><td>14</td><td>9.2</td><td>6.9</td><td>4.4</td><td>3.9</td></tr><tr><td>24</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>1.6</td><td>188</td><td></td><td>600</td><td>47</td><td>20</td><td>14</td><td>9.4</td><td>7.1</td><td>4.4</td><td>3.7</td></tr><tr><td>25</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>3.0</td><td>2,500</td><td></td><td>1,200</td><td>45</td><td>20</td><td>14</td><td>9.3</td><td>7.1</td><td>4.4</td><td>3.6</td></tr><tr><td>26</td><td></td><td>1.1</td><td></td><td>1.4</td><td></td><td>4.4</td><td>1,800</td><td></td><td>700</td><td>43</td><td>20</td><td>13</td><td>9.1</td><td>7.1</td><td>4.4</td><td>3.5</td></tr><tr><td>27</td><td></td><td>1.1</td><td></td><td>1.4</td><td></td><td>2.7</td><td>600</td><td></td><td>350</td><td>41</td><td>19</td><td>13</td><td>8.8</td><td>7.2</td><td>4.4</td><td>3.5</td></tr><tr><td>28</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>2.2</td><td>200</td><td></td><td>250</td><td>38</td><td>19</td><td>13</td><td>8.6</td><td>7.1</td><td>4.5</td><td>3.4</td></tr><tr><td>29</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>2.1</td><td>150</td><td></td><td></td><td>37</td><td>19</td><td>13</td><td>8.3</td><td>7.0</td><td>4.5</td><td>3.2</td></tr><tr><td>30</td><td></td><td>1.7</td><td></td><td>1.5</td><td></td><td>2.0</td><td>120</td><td></td><td></td><td>35</td><td>19</td><td>12</td><td>7.9</td><td>6.9</td><td>4.5</td><td>3.2</td></tr><tr><td>31</td><td></td><td>1.6</td><td></td><td></td><td></td><td>1.9</td><td>100</td><td></td><td></td><td>34</td><td></td><td>12</td><td></td><td>6.6</td><td>4.4</td><td></td></tr><tr><td>TOTAL</td><td></td><td>42.4</td><td></td><td>48.8</td><td></td><td>57.1</td><td>6,907.7</td><td></td><td>5,056</td><td>2,556</td><td>719</td><td>489</td><td>313.6</td><td>228.1</td><td>162.5</td><td>116.3</td></tr><tr><td>MEAN</td><td></td><td>1.37</td><td></td><td>1.63</td><td></td><td>1.84</td><td>223</td><td></td><td>181</td><td>82.5</td><td>24.0</td><td>15.8</td><td>10.5</td><td>7.36</td><td>5.24</td><td>3.88</td></tr><tr><td>MAX</td><td></td><td>1.8</td><td></td><td>3.3</td><td></td><td>4.4</td><td>2,500</td><td></td><td>1,200</td><td>210</td><td>33</td><td>20</td><td>12</td><td>8.2</td><td>6.7</td><td>4.3</td></tr><tr><td>MIN</td><td></td><td>1.1</td><td></td><td>1.3</td><td></td><td>1.3</td><td>1.6</td><td></td><td>65</td><td>34</td><td>19</td><td>12</td><td>7.9</td><td>6.6</td><td>4.4</td><td>3.2</td></tr><tr><td>AC-FT</td><td></td><td>84</td><td></td><td>97</td><td></td><td>113</td><td>13,700</td><td></td><td>10,030</td><td>5,070</td><td>1,430</td><td>970</td><td>622</td><td>452</td><td>322</td><td>231</td></tr><tr><td>CAL YR</td><td>1968</td><td></td><td>TOTAL</td><td></td><td>1,038.46</td><td></td><td>MEAN 2.84</td><td></td><td>MAX</td><td>55</td><td>MIN .96</td><td>AC-FT</td><td>2,060</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969</td><td></td><td>TOTAL</td><td>16,696.5</td><td></td><td></td><td>MEAN 45.7</td><td></td><td>MAX</td><td>2,500</td><td>MIN 1.1</td><td>AC-FT</td><td>33,120</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>PEAK</td><td></td><td>DISCHARGE</td><td>(BASE,</td><td>40</td><td>CFS)</td><td></td><td></td><td></td><td>NOTE</td><td>gage-height</td><td>record</td><td></td></tr><tr><td>DATE</td><td>TIME</td><td></td><td>G.H.</td><td></td><td>DISCHARGE</td><td></td><td>DATE</td><td></td><td>TIME</td><td>G.H.</td><td>DISCHARGE</td><td>Jan.</td><td>25 to Feb.</td><td>12, Feb.</td><td>18 to</td><td></td></tr><tr><td>1 -21</td><td>0530</td><td></td><td>7.26</td><td></td><td>1,240</td><td></td><td>2 - - 6</td><td></td><td>unknown</td><td>unknown</td><td>unknown</td><td>Apr.</td><td>10.</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\n1-25\n\n0945\n\na18.44\n\n8,500\n\n2-25\n\nunknown\n\na15.1\n\n5,000",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0702019141464637,
+                            "top": 0.34821742725034244,
+                            "width": 0.8758387018974075,
+                            "height": 0.4934634750518651,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DAY</th><th></th><th>OCT</th><th></th><th>NOV</th><th></th><th>DEC</th><th>JAN</th><th></th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.9</td><td></td><td>90</td><td>210</td><td>33</td><td>20</td><td>12</td><td>7.7</td><td>6.4</td><td>4.3</td></tr><tr><td>2</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.8</td><td></td><td>83</td><td>190</td><td>32</td><td>19</td><td>12</td><td>7.5</td><td>6.7</td><td>4.3</td></tr><tr><td>3</td><td></td><td>1.8</td><td></td><td>1.5</td><td></td><td>1.5</td><td>1.8</td><td></td><td>75</td><td>170</td><td>31</td><td>19</td><td>12</td><td>7.5</td><td>6.5</td><td>4.3</td></tr><tr><td>4</td><td></td><td>1.8</td><td></td><td>1.6</td><td></td><td>1.5</td><td>1.8</td><td></td><td>70</td><td>150</td><td>30</td><td>20</td><td>12</td><td>7.6</td><td>6.4</td><td>4.2</td></tr><tr><td>5</td><td></td><td>1.5</td><td></td><td>1.6</td><td></td><td>1.4</td><td>1.8</td><td></td><td>65</td><td>140</td><td>29</td><td>19</td><td>12</td><td>7.9</td><td>6.3</td><td>4.2</td></tr><tr><td>6</td><td></td><td>1.4</td><td></td><td>1.6</td><td></td><td>1.4</td><td>1.6</td><td></td><td>160</td><td>130</td><td>28</td><td>19</td><td>11</td><td>8.2</td><td>6.0</td><td>4.2</td></tr><tr><td>7</td><td></td><td>1.5</td><td></td><td>1.5</td><td></td><td>1.4</td><td>1.6</td><td></td><td>130</td><td>115</td><td>27</td><td>18</td><td>11</td><td>8.2</td><td>5.6</td><td>4.1</td></tr><tr><td>8</td><td></td><td>1.4</td><td></td><td>1.4</td><td></td><td>1.3</td><td>1.7</td><td></td><td>110</td><td>108</td><td>27</td><td>18</td><td>12</td><td>7.9</td><td>5.6</td><td>4.1</td></tr><tr><td>9</td><td></td><td>1.4</td><td></td><td>1.3</td><td></td><td>1.4</td><td>1.8</td><td></td><td>100</td><td>100</td><td>26</td><td>17</td><td>11</td><td>7.6</td><td>5.6</td><td>3.9</td></tr><tr><td>10</td><td></td><td>1.4</td><td></td><td>1.5</td><td></td><td>1.4</td><td>1.8</td><td></td><td>92</td><td>92</td><td>26</td><td>17</td><td>11</td><td>7.4</td><td>5.6</td><td>3.8</td></tr><tr><td>11</td><td></td><td>1.4</td><td></td><td>1.5</td><td></td><td>1.8</td><td>1.7</td><td></td><td>86</td><td>87</td><td>25</td><td>17</td><td>12</td><td>7.6</td><td>5.6</td><td>3.7</td></tr><tr><td>12</td><td></td><td>1.4</td><td></td><td>1.8</td><td></td><td>1.6</td><td>1.8</td><td></td><td>82</td><td>81</td><td>25</td><td>16</td><td>11</td><td>7.8</td><td>5.6</td><td>3.7</td></tr><tr><td>13</td><td></td><td>1.4</td><td></td><td>3.3</td><td></td><td>1.6</td><td>2.0</td><td></td><td>80</td><td>77</td><td>24</td><td>16</td><td>11</td><td>7.4</td><td>5.3</td><td>3.7</td></tr><tr><td>14</td><td></td><td>1.7</td><td></td><td>2.2</td><td></td><td>1.5</td><td>13</td><td></td><td>77</td><td>73</td><td>24</td><td>16</td><td>11</td><td>7.6</td><td>5.1</td><td>3.8</td></tr><tr><td>15</td><td></td><td>1.5</td><td></td><td>1.9</td><td></td><td>1.6</td><td>4.4</td><td></td><td>74</td><td>67</td><td>24</td><td>16</td><td>11</td><td>7.4</td><td>5.1</td><td>4.0</td></tr><tr><td>16</td><td></td><td>1.4</td><td></td><td>1.8</td><td></td><td>2.2</td><td>2.9</td><td></td><td>72</td><td>63</td><td>22</td><td>15</td><td>11</td><td>7.3</td><td>5.1</td><td>4.1</td></tr><tr><td>17</td><td></td><td>1.3</td><td></td><td>1.7</td><td></td><td>1.9</td><td>2.4</td><td></td><td>70</td><td>60</td><td>22</td><td>15</td><td>11</td><td>7.3</td><td>5.1</td><td>4.1</td></tr><tr><td>18</td><td></td><td>1.2</td><td></td><td>1.6</td><td></td><td>1.8</td><td>2.9</td><td></td><td>70</td><td>57</td><td>22</td><td>15</td><td>10</td><td>7.1</td><td>5.1</td><td>4.0</td></tr><tr><td>19</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>19</td><td></td><td>70</td><td>53</td><td>22</td><td>15</td><td>9.9</td><td>7.0</td><td>5.1</td><td>3.9</td></tr><tr><td>20</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>133</td><td></td><td>70</td><td>50</td><td>21</td><td>15</td><td>9.8</td><td>7.0</td><td>5.1</td><td>3.9</td></tr><tr><td>21</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>500</td><td></td><td>70</td><td>60</td><td>21</td><td>15</td><td>9.8</td><td>7.1</td><td>4.9</td><td>4.0</td></tr><tr><td>22</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>1.8</td><td>449</td><td></td><td>70</td><td>53</td><td>21</td><td>14</td><td>9.5</td><td>7.0</td><td>4.8</td><td>4.0</td></tr><tr><td>23</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>1.7</td><td>100</td><td></td><td>90</td><td>50</td><td>21</td><td>14</td><td>9.2</td><td>6.9</td><td>4.4</td><td>3.9</td></tr><tr><td>24</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>1.6</td><td>188</td><td></td><td>600</td><td>47</td><td>20</td><td>14</td><td>9.4</td><td>7.1</td><td>4.4</td><td>3.7</td></tr><tr><td>25</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>3.0</td><td>2,500</td><td></td><td>1,200</td><td>45</td><td>20</td><td>14</td><td>9.3</td><td>7.1</td><td>4.4</td><td>3.6</td></tr><tr><td>26</td><td></td><td>1.1</td><td></td><td>1.4</td><td></td><td>4.4</td><td>1,800</td><td></td><td>700</td><td>43</td><td>20</td><td>13</td><td>9.1</td><td>7.1</td><td>4.4</td><td>3.5</td></tr><tr><td>27</td><td></td><td>1.1</td><td></td><td>1.4</td><td></td><td>2.7</td><td>600</td><td></td><td>350</td><td>41</td><td>19</td><td>13</td><td>8.8</td><td>7.2</td><td>4.4</td><td>3.5</td></tr><tr><td>28</td><td></td><td>1.1</td><td></td><td>1.5</td><td></td><td>2.2</td><td>200</td><td></td><td>250</td><td>38</td><td>19</td><td>13</td><td>8.6</td><td>7.1</td><td>4.5</td><td>3.4</td></tr><tr><td>29</td><td></td><td>1.2</td><td></td><td>1.5</td><td></td><td>2.1</td><td>150</td><td></td><td></td><td>37</td><td>19</td><td>13</td><td>8.3</td><td>7.0</td><td>4.5</td><td>3.2</td></tr><tr><td>30</td><td></td><td>1.7</td><td></td><td>1.5</td><td></td><td>2.0</td><td>120</td><td></td><td></td><td>35</td><td>19</td><td>12</td><td>7.9</td><td>6.9</td><td>4.5</td><td>3.2</td></tr><tr><td>31</td><td></td><td>1.6</td><td></td><td></td><td></td><td>1.9</td><td>100</td><td></td><td></td><td>34</td><td></td><td>12</td><td></td><td>6.6</td><td>4.4</td><td></td></tr><tr><td>TOTAL</td><td></td><td>42.4</td><td></td><td>48.8</td><td></td><td>57.1</td><td>6,907.7</td><td></td><td>5,056</td><td>2,556</td><td>719</td><td>489</td><td>313.6</td><td>228.1</td><td>162.5</td><td>116.3</td></tr><tr><td>MEAN</td><td></td><td>1.37</td><td></td><td>1.63</td><td></td><td>1.84</td><td>223</td><td></td><td>181</td><td>82.5</td><td>24.0</td><td>15.8</td><td>10.5</td><td>7.36</td><td>5.24</td><td>3.88</td></tr><tr><td>MAX</td><td></td><td>1.8</td><td></td><td>3.3</td><td></td><td>4.4</td><td>2,500</td><td></td><td>1,200</td><td>210</td><td>33</td><td>20</td><td>12</td><td>8.2</td><td>6.7</td><td>4.3</td></tr><tr><td>MIN</td><td></td><td>1.1</td><td></td><td>1.3</td><td></td><td>1.3</td><td>1.6</td><td></td><td>65</td><td>34</td><td>19</td><td>12</td><td>7.9</td><td>6.6</td><td>4.4</td><td>3.2</td></tr><tr><td>AC-FT</td><td></td><td>84</td><td></td><td>97</td><td></td><td>113</td><td>13,700</td><td></td><td>10,030</td><td>5,070</td><td>1,430</td><td>970</td><td>622</td><td>452</td><td>322</td><td>231</td></tr><tr><td>CAL YR</td><td>1968</td><td></td><td>TOTAL</td><td></td><td>1,038.46</td><td></td><td>MEAN 2.84</td><td></td><td>MAX</td><td>55</td><td>MIN .96</td><td>AC-FT</td><td>2,060</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969</td><td></td><td>TOTAL</td><td>16,696.5</td><td></td><td></td><td>MEAN 45.7</td><td></td><td>MAX</td><td>2,500</td><td>MIN 1.1</td><td>AC-FT</td><td>33,120</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>PEAK</td><td></td><td>DISCHARGE</td><td>(BASE,</td><td>40</td><td>CFS)</td><td></td><td></td><td></td><td>NOTE</td><td>gage-height</td><td>record</td><td></td></tr><tr><td>DATE</td><td>TIME</td><td></td><td>G.H.</td><td></td><td>DISCHARGE</td><td></td><td>DATE</td><td></td><td>TIME</td><td>G.H.</td><td>DISCHARGE</td><td>Jan.</td><td>25 to Feb.</td><td>12, Feb.</td><td>18 to</td><td></td></tr><tr><td>1 -21</td><td>0530</td><td></td><td>7.26</td><td></td><td>1,240</td><td></td><td>2 - - 6</td><td></td><td>unknown</td><td>unknown</td><td>unknown</td><td>Apr.</td><td>10.</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0736331569664903,
+                            "top": 0.838221076377699,
+                            "width": 0.030864197530864196,
+                            "height": 0.007412181759587496,
+                            "page": 1
+                        },
+                        "content": "1-25",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12742504409171077,
+                            "top": 0.838221076377699,
+                            "width": 0.030864197530864196,
+                            "height": 0.007412181759587496,
+                            "page": 1
+                        },
+                        "content": "0945",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.17372134038800705,
+                            "top": 0.838221076377699,
+                            "width": 0.04585537918871252,
+                            "height": 0.00837898807605543,
+                            "page": 1
+                        },
+                        "content": "a18.44",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2429453262786596,
+                            "top": 0.837898807605543,
+                            "width": 0.03835978835978836,
+                            "height": 0.009023525620367387,
+                            "page": 1
+                        },
+                        "content": "8,500",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3425925925925926,
+                            "top": 0.837898807605543,
+                            "width": 0.029982363315696647,
+                            "height": 0.007412181759587496,
+                            "page": 1
+                        },
+                        "content": "2-25",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3955026455026455,
+                            "top": 0.837898807605543,
+                            "width": 0.05202821869488536,
+                            "height": 0.007089912987431518,
+                            "page": 1
+                        },
+                        "content": "unknown",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.47178130511463845,
+                            "top": 0.837898807605543,
+                            "width": 0.03747795414462081,
+                            "height": 0.00837898807605543,
+                            "page": 1
+                        },
+                        "content": "a15.1",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.5564373897707231,
+                            "top": 0.837898807605543,
+                            "width": 0.03791887125220458,
+                            "height": 0.008701256848211408,
+                            "page": 1
+                        },
+                        "content": "5,000",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Footer",
+                        "bbox": {
+                            "left": 0.08862433862433862,
+                            "top": 0.8569126651627458,
+                            "width": 0.13668430335097,
+                            "height": 0.008701256848211408,
+                            "page": 1
+                        },
+                        "content": "a From floodmarks.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

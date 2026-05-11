@@ -1,0 +1,146 @@
+{
+    "job_id": "6edbe212-570e-444c-9798-b854933b0ac5",
+    "duration": 4.320888996124268,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/7c869dee-d4b4-4ff0-b219-ad8c9dcf4d79?AWSAccessKeyId=ASIA2UOK6OVBJNCKKSOY&Signature=iX4DQ1fpvEGbJjjVv07pYrgs2lg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIByDJSAZprVXluPaiCLlvU%2BkLvcp%2BczlFbj%2FTnDhYQsFAiEAyYUYn1mXPLs8NMW7h1EfIvgWBodxwaPE%2F0kVTnWLUiMqiwUIIxAAGgw3MzExMDY5MzIwMzQiDGkjITFgHibvSF7TDyroBHsvgYFQgl%2FEJY5CdmrU4RfyoMXnJsHWg08WpCSoa6LcnJS9oeUxnz%2BcC2NKDHQg7qy0G78ZDfHtU%2Fk5mahv6CsDuB1k8i99i0PSbkRSS8aK2D%2FADMqKmIp7stQWzHTeFm8Yy26aHi562B5tOGi1H8fXG8cuJgpiWGmBg8YyvRTbmbN%2BXFvIXQUlIlrwRSkVeZthXcrK9Z7cCUkGAvazIOmYpXilK%2FI9qkRIZjRi3WZMKzqgvH22ROF%2Bxbd6GzF5zfYu%2FHq%2BDB7ZCIDbZ1VmkqsjYrmC7JbxFTYghtHJ%2BM6y4O88Lq58Ma%2BBRbMnVBVSY%2BbjCJykkmqN48GcSJ2BRVFs3p6gBoKnsca1ETalnR56IANv0d5LVdLYgd%2B1q4ndFvWjFAE5CGBvFEPbZbFCgcr1ejHdZ6pDcWKAP1FSj%2BraJWiyKOI3Crzjazh7c7v%2BNt2NNmkD1%2BZn5K9OD3Pvo08HcOv4IGTWWKlYQgn7tFm0ZvAAFFJCKWmUQWk8MeD3LzbI7x0faqHcKOW%2B79PbL7dpgcNHZ1YgEb59t8OGBUnoOKFrIW5t4N3WA8o3EYMZsJ9vvXw%2F8zrDy9A%2FnTImQgdaVGQSm88suZ2JIeVSSelpQUrRDZXetZbdl3t58ulg92WhiZcLr%2Bjo%2FBioi9ZhPAcmmmTenFVjYN9VqZQ5ORray%2BIV9eUMqo5UdCE1iCoIop5ek5Vz1DM8O%2BXf6Muob%2BzWTAp49GPVMd65ytJ7bV5VKLPsFoapbUI6pqcdhkl0hCGrSmaT9PFrv4GdpKrcGpcajDfH%2FiZNOPdH3r05je8zjUIiqkhlMGAw46TJugY6mwGEfS4u60UpYrfYjgtASTsLOKCq239Qy5HcQ5ujkR6MWZyXgDJVp8abAH0W9ErP81T0ysyvsjhiseGXa9Xnhu4Ld0aFgMtj88OsyB8AzW4wgx9%2FNy41M%2FG2iAiHHz%2BuD4vxtQ2ZepXeNw1dtPdniB3rkwJJGKZMrUNXowhnXYViiev%2F8UOHZErWXo9Sa%2BfGZyn3xlvYecthKLuAFQ%3D%3D&Expires=1733453735",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# 158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.\n\n6/34-2A1. City of Santa Barbara, well 1-A. C. Madsen. About 2 miles east of Lompoc, on southwest side of walnut orchard, 150 feet northeast of Santa Ynez River, 0.5 mile southeast of Robinson Bridge, in corrugated-steel pump house. Measuring point, used by city of Santa Barbara, top of 12-inch casing, 1.40 feet above land-surface datum and 131.36 feet above sea-level datum of 1929; used by Geological Survey, top south side of pump base at hole for air line, 1.50 feet above land-surface datum.\n\nWater levels, in feet above sea-level datum of 1929, in 1930-31 and 1939-42\n\n[Except as indicated, furnished by city of Santa Barbara]",
+                "embed": "# 158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.\n\n6/34-2A1. City of Santa Barbara, well 1-A. C. Madsen. About 2 miles east of Lompoc, on southwest side of walnut orchard, 150 feet northeast of Santa Ynez River, 0.5 mile southeast of Robinson Bridge, in corrugated-steel pump house. Measuring point, used by city of Santa Barbara, top of 12-inch casing, 1.40 feet above land-surface datum and 131.36 feet above sea-level datum of 1929; used by Geological Survey, top south side of pump base at hole for air line, 1.50 feet above land-surface datum.\n\nWater levels, in feet above sea-level datum of 1929, in 1930-31 and 1939-42\n\n[Except as indicated, furnished by city of Santa Barbara]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.09768315591734503,
+                            "top": 0.045437476530229066,
+                            "width": 0.7620538509705698,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09830932999373826,
+                            "top": 0.07998497934660158,
+                            "width": 0.8315591734502191,
+                            "height": 0.10739767179872324,
+                            "page": 1
+                        },
+                        "content": "6/34-2A1. City of Santa Barbara, well 1-A. C. Madsen. About 2 miles east of Lompoc, on southwest side of walnut orchard, 150 feet northeast of Santa Ynez River, 0.5 mile southeast of Robinson Bridge, in corrugated-steel pump house. Measuring point, used by city of Santa Barbara, top of 12-inch casing, 1.40 feet above land-surface datum and 131.36 feet above sea-level datum of 1929; used by Geological Survey, top south side of pump base at hole for air line, 1.50 feet above land-surface datum.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1596743894802755,
+                            "top": 0.21066466391288022,
+                            "width": 0.7113337507827175,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "Water levels, in feet above sea-level datum of 1929, in 1930-31 and 1939-42",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.28991859737006886,
+                            "top": 0.2365752910251596,
+                            "width": 0.4483406386975579,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "[Except as indicated, furnished by city of Santa Barbara]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF. (cont.)\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1930</td><td></td><td>1940</td><td></td><td>9411</td><td></td></tr><tr><td>Aug. 26</td><td>91. 0</td><td>June 24</td><td>91. 8</td><td>June 13</td><td>1 93. 04</td></tr><tr><td>Sept. 23</td><td>91. 0</td><td>July 8</td><td>91. 9</td><td>June 20</td><td>1 92. 88</td></tr><tr><td>Oct. 16</td><td>91. 0</td><td>Aug. 26</td><td>91. 7</td><td>June 26</td><td>J 92. 85</td></tr><tr><td>Nov. 14</td><td>91. 2</td><td>Sept. 12</td><td>91. 6</td><td>June 30</td><td>92. 9</td></tr><tr><td>Dec. 8</td><td>91. 4</td><td>Sept. 18</td><td>91. 7</td><td>July 3</td><td>1 92. 81</td></tr><tr><td></td><td></td><td>Sept. 30</td><td>92. 1</td><td>July 18</td><td>1 92. 22</td></tr><tr><td>1931</td><td></td><td>Oct. 9</td><td>92. 3</td><td>July 25</td><td>2 92. 11</td></tr><tr><td>Mar. 3</td><td>93. 6</td><td>Oct. 21</td><td>91. 3</td><td>Aug. 1</td><td>86. 19</td></tr><tr><td></td><td></td><td>Oct. 29</td><td>91. 5</td><td>Aug. 15</td><td>92. 3</td></tr><tr><td>1939</td><td></td><td>Nov. 11</td><td>91. 4</td><td>Aug. 15</td><td>1 92. 39</td></tr><tr><td>Jan. 30</td><td>93. 2</td><td>Nov. 25</td><td>91. 1</td><td>Aug. 29</td><td>1 92. 32</td></tr><tr><td>Feb. 20</td><td>93. 3</td><td>Dec. 9</td><td>90. 9</td><td>Sept. 12</td><td>92. 2</td></tr><tr><td>Mar. 6</td><td>93. 0</td><td>Dec. 20</td><td>91. 7</td><td>Sept. 15</td><td>1 91. 86</td></tr><tr><td>Mar. 27</td><td>93. 2</td><td></td><td></td><td>Sept. 30</td><td>1 92. 29</td></tr><tr><td>Apr. 10\nMay 5</td><td>93. 1\n92. 1</td><td>1941\nJan. 21</td><td>92. 7</td><td>Oct, 10\nOct. 17</td><td>1 92. 23\n92. 3</td></tr><tr><td>May 22</td><td>92. 9</td><td>Feb. 4</td><td>93. 2</td><td>Oct. 27</td><td>1 91. 38</td></tr><tr><td>June 6</td><td>92. 4</td><td>Mar. 5</td><td>1 102. 64</td><td>Nov. 10</td><td>1 92. 28</td></tr><tr><td>June 23</td><td>92. 3</td><td>Mar. 6</td><td>99. 5</td><td>Nov. 14</td><td>92. 2</td></tr><tr><td>July 7</td><td>92. 0</td><td>Mar. 13</td><td>96. 5</td><td>Nov. 24</td><td>1 92. 27</td></tr><tr><td>Sept. 15\nOct. 2</td><td>92. 3\n92. 5</td><td>Mar. 27\nMar. 29</td><td>94. 5\n1 95. 60</td><td>Dec. 9\nDec. 22</td><td>1 92. 34\n92. 5</td></tr><tr><td>Oct. 20</td><td>92. 4</td><td>Apr. 10</td><td>95. 2</td><td>Dec. 22</td><td>1 92. 52</td></tr><tr><td>Nov. 3</td><td>92. 6</td><td>Apr. 18</td><td>1 94. 59</td><td></td><td></td></tr><tr><td>Dec. 1</td><td>92. 6</td><td>Apr. 22</td><td>94. 5</td><td>1942</td><td></td></tr><tr><td>Dec. 22</td><td>93. 0</td><td>Apr. 25</td><td>1 94. 51</td><td>Jan. 5</td><td>93. 2</td></tr><tr><td></td><td></td><td>Apr. 30</td><td>94. 3</td><td>Jan. 5</td><td>1 93. 17</td></tr><tr><td>1940</td><td></td><td>May 2</td><td>1 94. 38</td><td>Jan. 9</td><td>92. 9</td></tr><tr><td>Jan. 30</td><td>93. 4</td><td>May 14</td><td>93. 8</td><td>Jan. 19</td><td>92. 8</td></tr><tr><td>Mar. 4</td><td>93. 8</td><td>May 16</td><td>1 93. 69</td><td>Jan. 19</td><td>1 92. 76</td></tr><tr><td>Mar. 18</td><td>94. 0</td><td>May 23</td><td>93. 4</td><td>Jan. 26</td><td>93. 0</td></tr><tr><td>Apr. 2</td><td>93. 9</td><td>May 23</td><td>1 93. 48</td><td>Feb. 4</td><td>92. 8</td></tr><tr><td>May 6</td><td>92. 6</td><td>May 29</td><td>1 93. 25</td><td>Feb. 16</td><td>1 92. 81</td></tr><tr><td>May 27</td><td>92. 0</td><td>June 6</td><td>93. 1</td><td>Mar. 2</td><td>92. 7</td></tr><tr><td>June 10</td><td>92. 0</td><td>June 6</td><td>1 93. 21</td><td>Apr. 2</td><td>4 92. 9</td></tr></table>",
+                "embed": "# 158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF. (cont.)\n\n<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1930</td><td></td><td>1940</td><td></td><td>9411</td><td></td></tr><tr><td>Aug. 26</td><td>91. 0</td><td>June 24</td><td>91. 8</td><td>June 13</td><td>1 93. 04</td></tr><tr><td>Sept. 23</td><td>91. 0</td><td>July 8</td><td>91. 9</td><td>June 20</td><td>1 92. 88</td></tr><tr><td>Oct. 16</td><td>91. 0</td><td>Aug. 26</td><td>91. 7</td><td>June 26</td><td>J 92. 85</td></tr><tr><td>Nov. 14</td><td>91. 2</td><td>Sept. 12</td><td>91. 6</td><td>June 30</td><td>92. 9</td></tr><tr><td>Dec. 8</td><td>91. 4</td><td>Sept. 18</td><td>91. 7</td><td>July 3</td><td>1 92. 81</td></tr><tr><td></td><td></td><td>Sept. 30</td><td>92. 1</td><td>July 18</td><td>1 92. 22</td></tr><tr><td>1931</td><td></td><td>Oct. 9</td><td>92. 3</td><td>July 25</td><td>2 92. 11</td></tr><tr><td>Mar. 3</td><td>93. 6</td><td>Oct. 21</td><td>91. 3</td><td>Aug. 1</td><td>86. 19</td></tr><tr><td></td><td></td><td>Oct. 29</td><td>91. 5</td><td>Aug. 15</td><td>92. 3</td></tr><tr><td>1939</td><td></td><td>Nov. 11</td><td>91. 4</td><td>Aug. 15</td><td>1 92. 39</td></tr><tr><td>Jan. 30</td><td>93. 2</td><td>Nov. 25</td><td>91. 1</td><td>Aug. 29</td><td>1 92. 32</td></tr><tr><td>Feb. 20</td><td>93. 3</td><td>Dec. 9</td><td>90. 9</td><td>Sept. 12</td><td>92. 2</td></tr><tr><td>Mar. 6</td><td>93. 0</td><td>Dec. 20</td><td>91. 7</td><td>Sept. 15</td><td>1 91. 86</td></tr><tr><td>Mar. 27</td><td>93. 2</td><td></td><td></td><td>Sept. 30</td><td>1 92. 29</td></tr><tr><td>Apr. 10\nMay 5</td><td>93. 1\n92. 1</td><td>1941\nJan. 21</td><td>92. 7</td><td>Oct, 10\nOct. 17</td><td>1 92. 23\n92. 3</td></tr><tr><td>May 22</td><td>92. 9</td><td>Feb. 4</td><td>93. 2</td><td>Oct. 27</td><td>1 91. 38</td></tr><tr><td>June 6</td><td>92. 4</td><td>Mar. 5</td><td>1 102. 64</td><td>Nov. 10</td><td>1 92. 28</td></tr><tr><td>June 23</td><td>92. 3</td><td>Mar. 6</td><td>99. 5</td><td>Nov. 14</td><td>92. 2</td></tr><tr><td>July 7</td><td>92. 0</td><td>Mar. 13</td><td>96. 5</td><td>Nov. 24</td><td>1 92. 27</td></tr><tr><td>Sept. 15\nOct. 2</td><td>92. 3\n92. 5</td><td>Mar. 27\nMar. 29</td><td>94. 5\n1 95. 60</td><td>Dec. 9\nDec. 22</td><td>1 92. 34\n92. 5</td></tr><tr><td>Oct. 20</td><td>92. 4</td><td>Apr. 10</td><td>95. 2</td><td>Dec. 22</td><td>1 92. 52</td></tr><tr><td>Nov. 3</td><td>92. 6</td><td>Apr. 18</td><td>1 94. 59</td><td></td><td></td></tr><tr><td>Dec. 1</td><td>92. 6</td><td>Apr. 22</td><td>94. 5</td><td>1942</td><td></td></tr><tr><td>Dec. 22</td><td>93. 0</td><td>Apr. 25</td><td>1 94. 51</td><td>Jan. 5</td><td>93. 2</td></tr><tr><td></td><td></td><td>Apr. 30</td><td>94. 3</td><td>Jan. 5</td><td>1 93. 17</td></tr><tr><td>1940</td><td></td><td>May 2</td><td>1 94. 38</td><td>Jan. 9</td><td>92. 9</td></tr><tr><td>Jan. 30</td><td>93. 4</td><td>May 14</td><td>93. 8</td><td>Jan. 19</td><td>92. 8</td></tr><tr><td>Mar. 4</td><td>93. 8</td><td>May 16</td><td>1 93. 69</td><td>Jan. 19</td><td>1 92. 76</td></tr><tr><td>Mar. 18</td><td>94. 0</td><td>May 23</td><td>93. 4</td><td>Jan. 26</td><td>93. 0</td></tr><tr><td>Apr. 2</td><td>93. 9</td><td>May 23</td><td>1 93. 48</td><td>Feb. 4</td><td>92. 8</td></tr><tr><td>May 6</td><td>92. 6</td><td>May 29</td><td>1 93. 25</td><td>Feb. 16</td><td>1 92. 81</td></tr><tr><td>May 27</td><td>92. 0</td><td>June 6</td><td>93. 1</td><td>Mar. 2</td><td>92. 7</td></tr><tr><td>June 10</td><td>92. 0</td><td>June 6</td><td>1 93. 21</td><td>Apr. 2</td><td>4 92. 9</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.09454366723372926,
+                            "top": 0.25758628257897576,
+                            "width": 0.8434772527285046,
+                            "height": 0.38992489489943205,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th><th>Date</th><th>Water level</th></tr><tr><td>1930</td><td></td><td>1940</td><td></td><td>9411</td><td></td></tr><tr><td>Aug. 26</td><td>91. 0</td><td>June 24</td><td>91. 8</td><td>June 13</td><td>1 93. 04</td></tr><tr><td>Sept. 23</td><td>91. 0</td><td>July 8</td><td>91. 9</td><td>June 20</td><td>1 92. 88</td></tr><tr><td>Oct. 16</td><td>91. 0</td><td>Aug. 26</td><td>91. 7</td><td>June 26</td><td>J 92. 85</td></tr><tr><td>Nov. 14</td><td>91. 2</td><td>Sept. 12</td><td>91. 6</td><td>June 30</td><td>92. 9</td></tr><tr><td>Dec. 8</td><td>91. 4</td><td>Sept. 18</td><td>91. 7</td><td>July 3</td><td>1 92. 81</td></tr><tr><td></td><td></td><td>Sept. 30</td><td>92. 1</td><td>July 18</td><td>1 92. 22</td></tr><tr><td>1931</td><td></td><td>Oct. 9</td><td>92. 3</td><td>July 25</td><td>2 92. 11</td></tr><tr><td>Mar. 3</td><td>93. 6</td><td>Oct. 21</td><td>91. 3</td><td>Aug. 1</td><td>86. 19</td></tr><tr><td></td><td></td><td>Oct. 29</td><td>91. 5</td><td>Aug. 15</td><td>92. 3</td></tr><tr><td>1939</td><td></td><td>Nov. 11</td><td>91. 4</td><td>Aug. 15</td><td>1 92. 39</td></tr><tr><td>Jan. 30</td><td>93. 2</td><td>Nov. 25</td><td>91. 1</td><td>Aug. 29</td><td>1 92. 32</td></tr><tr><td>Feb. 20</td><td>93. 3</td><td>Dec. 9</td><td>90. 9</td><td>Sept. 12</td><td>92. 2</td></tr><tr><td>Mar. 6</td><td>93. 0</td><td>Dec. 20</td><td>91. 7</td><td>Sept. 15</td><td>1 91. 86</td></tr><tr><td>Mar. 27</td><td>93. 2</td><td></td><td></td><td>Sept. 30</td><td>1 92. 29</td></tr><tr><td>Apr. 10\nMay 5</td><td>93. 1\n92. 1</td><td>1941\nJan. 21</td><td>92. 7</td><td>Oct, 10\nOct. 17</td><td>1 92. 23\n92. 3</td></tr><tr><td>May 22</td><td>92. 9</td><td>Feb. 4</td><td>93. 2</td><td>Oct. 27</td><td>1 91. 38</td></tr><tr><td>June 6</td><td>92. 4</td><td>Mar. 5</td><td>1 102. 64</td><td>Nov. 10</td><td>1 92. 28</td></tr><tr><td>June 23</td><td>92. 3</td><td>Mar. 6</td><td>99. 5</td><td>Nov. 14</td><td>92. 2</td></tr><tr><td>July 7</td><td>92. 0</td><td>Mar. 13</td><td>96. 5</td><td>Nov. 24</td><td>1 92. 27</td></tr><tr><td>Sept. 15\nOct. 2</td><td>92. 3\n92. 5</td><td>Mar. 27\nMar. 29</td><td>94. 5\n1 95. 60</td><td>Dec. 9\nDec. 22</td><td>1 92. 34\n92. 5</td></tr><tr><td>Oct. 20</td><td>92. 4</td><td>Apr. 10</td><td>95. 2</td><td>Dec. 22</td><td>1 92. 52</td></tr><tr><td>Nov. 3</td><td>92. 6</td><td>Apr. 18</td><td>1 94. 59</td><td></td><td></td></tr><tr><td>Dec. 1</td><td>92. 6</td><td>Apr. 22</td><td>94. 5</td><td>1942</td><td></td></tr><tr><td>Dec. 22</td><td>93. 0</td><td>Apr. 25</td><td>1 94. 51</td><td>Jan. 5</td><td>93. 2</td></tr><tr><td></td><td></td><td>Apr. 30</td><td>94. 3</td><td>Jan. 5</td><td>1 93. 17</td></tr><tr><td>1940</td><td></td><td>May 2</td><td>1 94. 38</td><td>Jan. 9</td><td>92. 9</td></tr><tr><td>Jan. 30</td><td>93. 4</td><td>May 14</td><td>93. 8</td><td>Jan. 19</td><td>92. 8</td></tr><tr><td>Mar. 4</td><td>93. 8</td><td>May 16</td><td>1 93. 69</td><td>Jan. 19</td><td>1 92. 76</td></tr><tr><td>Mar. 18</td><td>94. 0</td><td>May 23</td><td>93. 4</td><td>Jan. 26</td><td>93. 0</td></tr><tr><td>Apr. 2</td><td>93. 9</td><td>May 23</td><td>1 93. 48</td><td>Feb. 4</td><td>92. 8</td></tr><tr><td>May 6</td><td>92. 6</td><td>May 29</td><td>1 93. 25</td><td>Feb. 16</td><td>1 92. 81</td></tr><tr><td>May 27</td><td>92. 0</td><td>June 6</td><td>93. 1</td><td>Mar. 2</td><td>92. 7</td></tr><tr><td>June 10</td><td>92. 0</td><td>June 6</td><td>1 93. 21</td><td>Apr. 2</td><td>4 92. 9</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF. (cont.)\n\n1 By Geological Survey. , Pump previously operated in well.\n\n- 8 Pump operating in well.\n\n- 4 Measurements discontinued by city of Santa Barbara.\n\n6/34-2A2. City of Santa Barbara, well 1. C. Madsen. About 2 miles east of Lompoc, on southwest side of walnut orchard, about 120 feet northeast of well 6/34-2A1. Well no longer in existence; casing collapsed December 1938. Meas- uring point, top of 6-inch casing, 1.5 feet above land-surface datum and 128.20 feet above sea-level datum of 1929.",
+                "embed": "# 158 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF. (cont.)\n\n1 By Geological Survey. , Pump previously operated in well.\n\n- 8 Pump operating in well.\n\n- 4 Measurements discontinued by city of Santa Barbara.\n\n6/34-2A2. City of Santa Barbara, well 1. C. Madsen. About 2 miles east of Lompoc, on southwest side of walnut orchard, about 120 feet northeast of well 6/34-2A1. Well no longer in existence; casing collapsed December 1938. Meas- uring point, top of 6-inch casing, 1.5 feet above land-surface datum and 128.20 feet above sea-level datum of 1929.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1208515967438948,
+                            "top": 0.6594066841907623,
+                            "width": 0.284909204758923,
+                            "height": 0.020277882087870822,
+                            "page": 1
+                        },
+                        "content": "1 By Geological Survey. , Pump previously operated in well.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.12147777082028804,
+                            "top": 0.6781825009387908,
+                            "width": 0.20225422667501566,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "- 8 Pump operating in well.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.12147777082028804,
+                            "top": 0.686819376642884,
+                            "width": 0.4370695053224796,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "- 4 Measurements discontinued by city of Santa Barbara.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10832811521603006,
+                            "top": 0.7161096507698085,
+                            "width": 0.8309329993738259,
+                            "height": 0.07698084866691701,
+                            "page": 1
+                        },
+                        "content": "6/34-2A2. City of Santa Barbara, well 1. C. Madsen. About 2 miles east of Lompoc, on southwest side of walnut orchard, about 120 feet northeast of well 6/34-2A1. Well no longer in existence; casing collapsed December 1938. Meas- uring point, top of 6-inch casing, 1.5 feet above land-surface datum and 128.20 feet above sea-level datum of 1929.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "job_id": "6b42966e-25fe-4dfa-aabe-b7a0bec9d6a5",
+    "duration": 5.4618730545043945,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/1c08850e-a775-4d5a-a976-d5cc4a814c72?AWSAccessKeyId=ASIA2UOK6OVBJ5K36OTN&Signature=DKKOFtZoAW8QVU5FwxIdmCVfkOo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJIMEYCIQCgFAa9bVFKPpFS%2BoazlQjq4DMMFP5wRpA6kNVRqkM2LwIhAMgj%2FIfW3en5QyzBj7tNKMCiIBjcO2%2FiSgxFf4WU%2F8jcKosFCCIQABoMNzMxMTA2OTMyMDM0IgwOyXQSoUqDOenGOEMq6ARa9JT2kl%2Byzh7wKWqg%2BGDcUXU5A1EaNGXThz5frOg%2BiAu4jW5PMqhzyoJFMSBqPDGHAejyMAo2eHHdT47lY6qRt1Wc6Un6a%2F64cey9aU90UxLHvVHjxni90cHT6oqnXW5HRvFi4pscCRTrZ8nZPyvizQeo%2FZ9xvJlNgkBM355F0hGNWW1gEEMivePy8k0s35xolJWGs0cJ%2B0difmFrwpcPTxbxvt4rTZc%2F9s844ZSs95jilesluNmDGpO7qBwDDDQZ8JceKBRJ0PCHdmbmxlJV5N5kv%2BU6ydNKyAsI7ucyCQHJ6p0DBB5x0e0V%2FkovfjVFswoeFsUAwVIyW28Jy35QlAQnqkZbyXukt6UzSZhs8iJXclNnpUB0rhgq1JSxwTut2f%2BS%2F3t6zuLuJ4Zb2F008lu1ESHmnXAahRc4PXPY%2FM%2F9h0vBwzhrwUUuVPBLGNBXXZ%2FMN3mGKL6%2BUspVYgEBJEBzhlF0DBpLlU5%2FmFPv8AqqQhUll%2F1WFjwUxboQtOqRXZ42LDfq1CO2tl93ABOt8aukE245ACb8Wl%2B1GiQuOg9dexS7Of5RlvQ3OC6yiXDiJVZHaejN2vFY4VuOjULgxO0eB5g9afpwQLlK1kDiEoY5nwdqn9a%2BUfLvu16v5n9neVaxZS9BCcZ7O1j3L6eNgs%2Fyk6U%2FRkNLCmvxhL8stVfws5TkGHJyGVCSF1t4PCuBOBdU7ysC6W8iUC3R%2Fem4l%2B%2Bcigd6thn7ixpsywRoSXT%2FN0Mvi6D0%2FrUQankBPMiKwFxg%2BZZDAmjeU2N%2FUri7%2Fz%2F6fhUKEyUOpwKwQb3jqlL%2Fik2QKhEQMLKNyboGOpoBh3CcWUYWvlaptcWlMSCq9X%2FJE%2FtF8p8Lho6e60UwXL%2BODQDnLBxZ%2FRBdKy6Fn99xHKMjllLDWFv1b3T1SPn1Ss57qiXdnFO%2BerRg6VxTZjbSVvpnC7wo3Kjz1GcYAqM03HKExbGGMIBv3zDU%2F6%2BWHiwWPTZcp1y3YfA1WA0FfS3FnfXSQ%2B4yiCRUnln4TAUGtTm1G5juFhAzIQ%3D%3D&Expires=1733450559",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WELL PROBLEMS.\n\nriver north of Germantown and east of the river north of Marysville Buttes will be referred to as the northern part of the valley. The remaining areas on the two sides of the river will be called the eastern and western parts of the valley. Eight analyses are available for the northern part and seventeen for each of the other parts. The following table gives averages of analyses for the three parts of the valley.\n\nAverage analyses of ground waters in Sacramento Valley.\n\n[Parts per million.)",
+                "embed": "# WELL PROBLEMS.\n\nriver north of Germantown and east of the river north of Marysville Buttes will be referred to as the northern part of the valley. The remaining areas on the two sides of the river will be called the eastern and western parts of the valley. Eight analyses are available for the northern part and seventeen for each of the other parts. The following table gives averages of analyses for the three parts of the valley.\n\nAverage analyses of ground waters in Sacramento Valley.\n\n[Parts per million.)",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3350157728706625,
+                            "top": 0.05140007671653241,
+                            "width": 0.21009463722397476,
+                            "height": 0.010740314537782892,
+                            "page": 1
+                        },
+                        "content": "WELL PROBLEMS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8246056782334384,
+                            "top": 0.04794783275795934,
+                            "width": 0.030914826498422712,
+                            "height": 0.01380897583429229,
+                            "page": 1
+                        },
+                        "content": "99",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.02334384858044164,
+                            "top": 0.0805523590333717,
+                            "width": 0.8334384858044164,
+                            "height": 0.1334867663981588,
+                            "page": 1
+                        },
+                        "content": "river north of Germantown and east of the river north of Marysville Buttes will be referred to as the northern part of the valley. The remaining areas on the two sides of the river will be called the eastern and western parts of the valley. Eight analyses are available for the northern part and seventeen for each of the other parts. The following table gives averages of analyses for the three parts of the valley.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.17350157728706625,
+                            "top": 0.21940928270042195,
+                            "width": 0.5312302839116719,
+                            "height": 0.014959723820483314,
+                            "page": 1
+                        },
+                        "content": "Average analyses of ground waters in Sacramento Valley.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.3634069400630915,
+                            "top": 0.24549290372075183,
+                            "width": 0.15205047318611986,
+                            "height": 0.011123897199846567,
+                            "page": 1
+                        },
+                        "content": "[Parts per million.)",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WELL PROBLEMS. (cont.)\n\n<table><tr><th></th><th>Northern\npart.</th><th>Eastern\npart.</th><th>Western\npart.</th><th>General\naverage.</th></tr><tr><td>Number of analyses</td><td>8</td><td>17</td><td>17</td><td>42</td></tr><tr><td>Silica (SiO2)</td><td>45</td><td>47</td><td>33</td><td>43</td></tr><tr><td>Iron (Fe)</td><td>10</td><td>11</td><td>25</td><td>17</td></tr><tr><td>Calcium (Ca)</td><td>25</td><td>34</td><td>46</td><td>37</td></tr><tr><td>Magnesium (Mg)</td><td>13</td><td>15</td><td>32</td><td>22</td></tr><tr><td>Sodium and potassium (Na+ K)</td><td>11</td><td>22</td><td>47</td><td>30</td></tr><tr><td>Bicarbonateradicle (HCO)a</td><td>126</td><td>162</td><td>324</td><td>221</td></tr><tr><td>Sulphate radicle (SO4)</td><td>18</td><td>12</td><td>34</td><td>22</td></tr><tr><td>Chloride radicle (CI)</td><td>9.2</td><td>30</td><td>31</td><td>27</td></tr><tr><td>Nitrate radicle (NO3)</td><td>3. 8</td><td>4. 7</td><td>8.9</td><td>6.2</td></tr><tr><td>Total dissolved solids</td><td>180</td><td>250</td><td>394</td><td>295</td></tr></table>\n\na In computing averages carbonate (CO3) reported in a few analyses was computed to equivalent bicar- bonate (HCO3) and added to the amount of bicarbonate found.\n\nThese results show a progressive increase in practically all constitu- ents from the northern part through the eastern part to the western part of the valley. The quality of the waters for all purposes falls off as the quantity of dissolved solids increases.",
+                "embed": "# WELL PROBLEMS. (cont.)\n\n<table><tr><th></th><th>Northern\npart.</th><th>Eastern\npart.</th><th>Western\npart.</th><th>General\naverage.</th></tr><tr><td>Number of analyses</td><td>8</td><td>17</td><td>17</td><td>42</td></tr><tr><td>Silica (SiO2)</td><td>45</td><td>47</td><td>33</td><td>43</td></tr><tr><td>Iron (Fe)</td><td>10</td><td>11</td><td>25</td><td>17</td></tr><tr><td>Calcium (Ca)</td><td>25</td><td>34</td><td>46</td><td>37</td></tr><tr><td>Magnesium (Mg)</td><td>13</td><td>15</td><td>32</td><td>22</td></tr><tr><td>Sodium and potassium (Na+ K)</td><td>11</td><td>22</td><td>47</td><td>30</td></tr><tr><td>Bicarbonateradicle (HCO)a</td><td>126</td><td>162</td><td>324</td><td>221</td></tr><tr><td>Sulphate radicle (SO4)</td><td>18</td><td>12</td><td>34</td><td>22</td></tr><tr><td>Chloride radicle (CI)</td><td>9.2</td><td>30</td><td>31</td><td>27</td></tr><tr><td>Nitrate radicle (NO3)</td><td>3. 8</td><td>4. 7</td><td>8.9</td><td>6.2</td></tr><tr><td>Total dissolved solids</td><td>180</td><td>250</td><td>394</td><td>295</td></tr></table>\n\na In computing averages carbonate (CO3) reported in a few analyses was computed to equivalent bicar- bonate (HCO3) and added to the amount of bicarbonate found.\n\nThese results show a progressive increase in practically all constitu- ents from the northern part through the eastern part to the western part of the valley. The quality of the waters for all purposes falls off as the quantity of dissolved solids increases.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.020490291366817823,
+                            "top": 0.26410179006490936,
+                            "width": 0.8419748203987579,
+                            "height": 0.17064387852266732,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>Northern\npart.</th><th>Eastern\npart.</th><th>Western\npart.</th><th>General\naverage.</th></tr><tr><td>Number of analyses</td><td>8</td><td>17</td><td>17</td><td>42</td></tr><tr><td>Silica (SiO2)</td><td>45</td><td>47</td><td>33</td><td>43</td></tr><tr><td>Iron (Fe)</td><td>10</td><td>11</td><td>25</td><td>17</td></tr><tr><td>Calcium (Ca)</td><td>25</td><td>34</td><td>46</td><td>37</td></tr><tr><td>Magnesium (Mg)</td><td>13</td><td>15</td><td>32</td><td>22</td></tr><tr><td>Sodium and potassium (Na+ K)</td><td>11</td><td>22</td><td>47</td><td>30</td></tr><tr><td>Bicarbonateradicle (HCO)a</td><td>126</td><td>162</td><td>324</td><td>221</td></tr><tr><td>Sulphate radicle (SO4)</td><td>18</td><td>12</td><td>34</td><td>22</td></tr><tr><td>Chloride radicle (CI)</td><td>9.2</td><td>30</td><td>31</td><td>27</td></tr><tr><td>Nitrate radicle (NO3)</td><td>3. 8</td><td>4. 7</td><td>8.9</td><td>6.2</td></tr><tr><td>Total dissolved solids</td><td>180</td><td>250</td><td>394</td><td>295</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.02334384858044164,
+                            "top": 0.44112006137322596,
+                            "width": 0.8359621451104101,
+                            "height": 0.02186421173762946,
+                            "page": 1
+                        },
+                        "content": "a In computing averages carbonate (CO3) reported in a few analyses was computed to equivalent bicar- bonate (HCO3) and added to the amount of bicarbonate found.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.023974763406940065,
+                            "top": 0.47602608362102034,
+                            "width": 0.8347003154574133,
+                            "height": 0.0774836977368623,
+                            "page": 1
+                        },
+                        "content": "These results show a progressive increase in practically all constitu- ents from the northern part through the eastern part to the western part of the valley. The quality of the waters for all purposes falls off as the quantity of dissolved solids increases.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WELL PROBLEMS. (cont.)\n\n## WELL PROBLEMS.\n\n## GENERAL CONSIDERATIONS.\n\nThe development of a pumping project has three main phases- prospecting to locate the best available water-bearing beds, sinking wells, and installing pumping machinery. Although it is possible from geologic evidence to determine for any part of the valley the general distribution and character of the water-bearing beds, the precise location of these beds and their value as sources of water can be determined only by sinking wells. Test wells should therefore be put down to determine the best place to locate permanent wells, although the advantage of having the plant at the highest point of the tract to be irrigated may cause the acceptance of poorer gravels at this point. The cost of this preliminary work is small in comparison to the cost of developing a supply in a poor location that is arbitrarily chosen, or in comparison to the losses that result from an inadequate supply.",
+                "embed": "# WELL PROBLEMS. (cont.)\n\n## WELL PROBLEMS.\n\n## GENERAL CONSIDERATIONS.\n\nThe development of a pumping project has three main phases- prospecting to locate the best available water-bearing beds, sinking wells, and installing pumping machinery. Although it is possible from geologic evidence to determine for any part of the valley the general distribution and character of the water-bearing beds, the precise location of these beds and their value as sources of water can be determined only by sinking wells. Test wells should therefore be put down to determine the best place to locate permanent wells, although the advantage of having the plant at the highest point of the tract to be irrigated may cause the acceptance of poorer gravels at this point. The cost of this preliminary work is small in comparison to the cost of developing a supply in a poor location that is arbitrarily chosen, or in comparison to the losses that result from an inadequate supply.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.30725552050473187,
+                            "top": 0.5700038358266206,
+                            "width": 0.26750788643533124,
+                            "height": 0.011891062523973917,
+                            "page": 1
+                        },
+                        "content": "WELL PROBLEMS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.2586750788643533,
+                            "top": 0.5987725354813962,
+                            "width": 0.3646687697160883,
+                            "height": 0.013425393172228616,
+                            "page": 1
+                        },
+                        "content": "GENERAL CONSIDERATIONS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.02334384858044164,
+                            "top": 0.6229382431914078,
+                            "width": 0.8359621451104101,
+                            "height": 0.26889144610663596,
+                            "page": 1
+                        },
+                        "content": "The development of a pumping project has three main phases- prospecting to locate the best available water-bearing beds, sinking wells, and installing pumping machinery. Although it is possible from geologic evidence to determine for any part of the valley the general distribution and character of the water-bearing beds, the precise location of these beds and their value as sources of water can be determined only by sinking wells. Test wells should therefore be put down to determine the best place to locate permanent wells, although the advantage of having the plant at the highest point of the tract to be irrigated may cause the acceptance of poorer gravels at this point. The cost of this preliminary work is small in comparison to the cost of developing a supply in a poor location that is arbitrarily chosen, or in comparison to the losses that result from an inadequate supply.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

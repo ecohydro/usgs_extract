@@ -1,0 +1,170 @@
+{
+    "job_id": "796852f3-1d13-4c92-ac39-7a1c91b0201e",
+    "duration": 4.637614965438843,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/64ff7b34-da31-4978-86c8-17a2e36a2f45?AWSAccessKeyId=ASIA2UOK6OVBBXNZNBWX&Signature=RAZEFaHQ%2Fm53rB9eKbCiw4YJ6JM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIQCnnLq3oATrrDI2IsEQgQS3cDsRzMcW7EBit%2FDgW0DN6AIgKpryPOG9rJ%2BxCEBOuDZx9Vx4J33ypThfSgRJKi8cP34qiwUIJBAAGgw3MzExMDY5MzIwMzQiDL2z1BhXZpLZ%2B6FR8iroBHbbqb%2BM21zT7fG1NCUkUun0bRKf1gLZLeW7KJk8sMHROC3FoYBuDaJk5SfpXVj6ndDd0MznGGnAmjImtj1gaUfHflTt2DfTlqcezNbvvkfQqJbCeUO1gVI8goigx7yX65gI8muglW7MXEDEgY4kBuvmtLzDCImlIzNvWJgjw1EWqMAUoAPzTbyMejwwgOxBMgt%2BPvayQFjVy%2FXmb3633C15WApp9aHh0KExin7gmYBbchyfAf7i1t0YAKS0TfjPsKFSfkOSPTE0WFHcaIv6fm%2F2PpI8y%2BK9jkXDPQ5pRQ1qvkw1aU8lJEvDJLOvfVixiRt6zeRsQ%2BA8sjCJ5uK52xRgd2gGtlLQ6X3JPI%2FUuCSkcj2zUoDZyycrlcDVIgJVzyIG7WFWmfI9PF6JkzDHzaQIyJUJQctBWtwYx3WhnawfKwyvXdd%2Fl%2BQan4E5t5JY%2FLxwyCuLTuA%2BMhnshRIk0rBhoe3ZNZn4CNAu4Bg3yb7182wnnGidTJ45j6z4NSizT%2Be9NaTvxlBhlsIRmsHDKwDt5YyTieHGKPLRPNHaN1PjjEl%2F3G5LMTcqZ5myz%2Fe0LrWZTxFvMWJ0kvcUvL2rd3LZ2DVQ5vuv08W7nJv5EfrVEnuszzw9hAAZWTJn5TUJaoRdoh5oKzx2L6p7mijaF8cwKFLzWJMrAJ%2FjfbtxtEdbmOemEpBpo2l0w2dMwRDtazBSa92LWRW9KYA%2FUkLDW2TFSJ9IFdvEFYD7YQCuBLDI8EaG9yqZeq3rYBzwfaKNjP5y0Ava3g9KmS%2BV3nDsjl1HYGh77AVP3OLWQO6oJZJqREWX9hNEkmIwvNHJugY6mwFeFCOqznZ%2BYdjIwT476smrQp49dYj4G2MnBg%2By%2BWGXCwDoYTGaO7EBeyi0fTpa6o5CrMeOxoEug%2FnYb9xWcJOeP6nOce23xggP4xQ8KxDm3wVHxNF%2BXIGtzPCV%2FEq4%2FvGut5K%2BircktX1NHeYHE2jtRAws2qBVKo7pGEK%2BqCC1KjRgoA5wUxQKvVzmJchDJL5aEc%2FpZNcwFwdppg%3D%3D&Expires=1733459716",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GEOCHEMISTRY OF WATER\n\nwater from granitic rocks in Idaho, reflect similarities in climate as well as similarities in the rock content of a small number of minerals that largely govern the chemical type of water. The observed differ- ences reflect partly climate and mineralogy. The two cannot always be segregated. The differences between water from granitic rocks in the Sierra Nevada on the one hand and from the rocks of the Mojave Desert and California coast on the other imply dominance of the climatic environment as the control over water quality in those areas.",
+                "embed": "# GEOCHEMISTRY OF WATER\n\nwater from granitic rocks in Idaho, reflect similarities in climate as well as similarities in the rock content of a small number of minerals that largely govern the chemical type of water. The observed differ- ences reflect partly climate and mineralogy. The two cannot always be segregated. The differences between water from granitic rocks in the Sierra Nevada on the one hand and from the rocks of the Mojave Desert and California coast on the other imply dominance of the climatic environment as the control over water quality in those areas.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.12614819350887937,
+                            "top": 0.04355989485542621,
+                            "width": 0.052663808940600125,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "I 60",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3710961420698102,
+                            "top": 0.04769057453999249,
+                            "width": 0.31720759338640536,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "GEOCHEMISTRY OF WATER",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12369871402327005,
+                            "top": 0.07998497934660158,
+                            "width": 0.8156766687078996,
+                            "height": 0.1490799849793466,
+                            "page": 1
+                        },
+                        "content": "water from granitic rocks in Idaho, reflect similarities in climate as well as similarities in the rock content of a small number of minerals that largely govern the chemical type of water. The observed differ- ences reflect partly climate and mineralogy. The two cannot always be segregated. The differences between water from granitic rocks in the Sierra Nevada on the one hand and from the rocks of the Mojave Desert and California coast on the other imply dominance of the climatic environment as the control over water quality in those areas.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOCHEMISTRY OF WATER (cont.)\n\n## STABILITY RELATIONS\n\nAnother approach to the understanding of water from granitic terrane is through the use of stability diagrams compiled from thermo- chemical data. The results of the following study indicate that the chemical characteristics of the water in the Sierra Nevada are such that kaolinite is a stable weathering product whereas potassium-mica and montmorillonite are unstable.\n\nOnly recently have thermochemical data for aluminosilicate min- erals been obtained at low temperature and pressure in the laboratory. This delay is due primarily to the low solubility of these minerals at such temperatures and pressures and to difficulties in determining heats of solution of the alkali oxides and alumina using the techniques of calorimetry.\n\nThe thermochemical data for the minerals of significance are not only limited, but the several authors have reported conflicting values for individual reactions. However, enough information is available for stability relations to be of value. The data used in constructing the stability diagrams, as well as the source from which the data were obtained, are listed in table 11.",
+                "embed": "# GEOCHEMISTRY OF WATER (cont.)\n\n## STABILITY RELATIONS\n\nAnother approach to the understanding of water from granitic terrane is through the use of stability diagrams compiled from thermo- chemical data. The results of the following study indicate that the chemical characteristics of the water in the Sierra Nevada are such that kaolinite is a stable weathering product whereas potassium-mica and montmorillonite are unstable.\n\nOnly recently have thermochemical data for aluminosilicate min- erals been obtained at low temperature and pressure in the laboratory. This delay is due primarily to the low solubility of these minerals at such temperatures and pressures and to difficulties in determining heats of solution of the alkali oxides and alumina using the techniques of calorimetry.\n\nThe thermochemical data for the minerals of significance are not only limited, but the several authors have reported conflicting values for individual reactions. However, enough information is available for stability relations to be of value. The data used in constructing the stability diagrams, as well as the source from which the data were obtained, are listed in table 11.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.3655848132271892,
+                            "top": 0.24896733007885843,
+                            "width": 0.3288426209430496,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "STABILITY RELATIONS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12063686466625842,
+                            "top": 0.27525347352609836,
+                            "width": 0.8156766687078996,
+                            "height": 0.10889973713856553,
+                            "page": 1
+                        },
+                        "content": "Another approach to the understanding of water from granitic terrane is through the use of stability diagrams compiled from thermo- chemical data. The results of the following study indicate that the chemical characteristics of the water in the Sierra Nevada are such that kaolinite is a stable weathering product whereas potassium-mica and montmorillonite are unstable.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11818738518064911,
+                            "top": 0.38865940668419074,
+                            "width": 0.8175137783221066,
+                            "height": 0.11115283514832895,
+                            "page": 1
+                        },
+                        "content": "Only recently have thermochemical data for aluminosilicate min- erals been obtained at low temperature and pressure in the laboratory. This delay is due primarily to the low solubility of these minerals at such temperatures and pressures and to difficulties in determining heats of solution of the alkali oxides and alumina using the techniques of calorimetry.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11696264543784446,
+                            "top": 0.5020653398422832,
+                            "width": 0.8175137783221066,
+                            "height": 0.11002628614344724,
+                            "page": 1
+                        },
+                        "content": "The thermochemical data for the minerals of significance are not only limited, but the several authors have reported conflicting values for individual reactions. However, enough information is available for stability relations to be of value. The data used in constructing the stability diagrams, as well as the source from which the data were obtained, are listed in table 11.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# GEOCHEMISTRY OF WATER (cont.)\n\n## STABILITY RELATIONS (cont.)\n\nTABLE 11.-Standard free energies of formation of compounds and ions at 25\u00b0C and 1 atmosphere total pressure\n\n[Modified from Garrels (1960)1\n\n<table><tr><th>Formula</th><th>Description</th><th>State</th><th>AF, (kcal)</th></tr><tr><td>Al2O 3H2O</td><td>Gibbsite</td><td>Crystalline</td><td>- 554. 6</td></tr><tr><td>H4A12Si2O9</td><td>Kaolinite</td><td>do</td><td>895. 1</td></tr><tr><td>H+1</td><td></td><td>Aqueous</td><td>0</td></tr><tr><td>KAISi3O8</td><td>Potassium feldspar</td><td>Crystalline</td><td>871. 6</td></tr><tr><td>KAl3Si3O10(OH)2</td><td>Mica</td><td>do</td><td>1316. 2</td></tr><tr><td>K+1</td><td></td><td>Aqueous</td><td>67. 46</td></tr><tr><td>NaAlSi3O8</td><td>Albite</td><td>Crystalline</td><td>868. 9</td></tr><tr><td>Na+1</td><td></td><td>Aqueous</td><td>-62. 59</td></tr><tr><td>H2O</td><td>Water</td><td>Liquid</td><td>56. 7</td></tr><tr><td>OH -1</td><td></td><td>Aqueous</td><td>37. 60</td></tr><tr><td>H4SiO4</td><td>Silicic acid</td><td>do</td><td>305. 6</td></tr></table>\n\n1 The standard free energies have been adjusted on basis of AF/ quartz=197.3 kcal for the compounds containing silica. 2 Calculated from heat of formation from the oxides as determined by Kracek (1953).",
+                "embed": "# GEOCHEMISTRY OF WATER (cont.)\n\n## STABILITY RELATIONS (cont.)\n\nTABLE 11.-Standard free energies of formation of compounds and ions at 25\u00b0C and 1 atmosphere total pressure\n\n[Modified from Garrels (1960)1\n\n<table><tr><th>Formula</th><th>Description</th><th>State</th><th>AF, (kcal)</th></tr><tr><td>Al2O 3H2O</td><td>Gibbsite</td><td>Crystalline</td><td>- 554. 6</td></tr><tr><td>H4A12Si2O9</td><td>Kaolinite</td><td>do</td><td>895. 1</td></tr><tr><td>H+1</td><td></td><td>Aqueous</td><td>0</td></tr><tr><td>KAISi3O8</td><td>Potassium feldspar</td><td>Crystalline</td><td>871. 6</td></tr><tr><td>KAl3Si3O10(OH)2</td><td>Mica</td><td>do</td><td>1316. 2</td></tr><tr><td>K+1</td><td></td><td>Aqueous</td><td>67. 46</td></tr><tr><td>NaAlSi3O8</td><td>Albite</td><td>Crystalline</td><td>868. 9</td></tr><tr><td>Na+1</td><td></td><td>Aqueous</td><td>-62. 59</td></tr><tr><td>H2O</td><td>Water</td><td>Liquid</td><td>56. 7</td></tr><tr><td>OH -1</td><td></td><td>Aqueous</td><td>37. 60</td></tr><tr><td>H4SiO4</td><td>Silicic acid</td><td>do</td><td>305. 6</td></tr></table>\n\n1 The standard free energies have been adjusted on basis of AF/ quartz=197.3 kcal for the compounds containing silica. 2 Calculated from heat of formation from the oxides as determined by Kracek (1953).",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.11635027556644213,
+                            "top": 0.6282388283890349,
+                            "width": 0.8181261481935089,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "TABLE 11.-Standard free energies of formation of compounds and ions at 25\u00b0C and 1 atmosphere total pressure",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.40661359461114516,
+                            "top": 0.663161847540368,
+                            "width": 0.23637477036129823,
+                            "height": 0.010889973713856553,
+                            "page": 1
+                        },
+                        "content": "[Modified from Garrels (1960)1",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.11096508168619393,
+                            "top": 0.6795756060334913,
+                            "width": 0.8246055645075446,
+                            "height": 0.19778136404841815,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Formula</th><th>Description</th><th>State</th><th>AF, (kcal)</th></tr><tr><td>Al2O 3H2O</td><td>Gibbsite</td><td>Crystalline</td><td>- 554. 6</td></tr><tr><td>H4A12Si2O9</td><td>Kaolinite</td><td>do</td><td>895. 1</td></tr><tr><td>H+1</td><td></td><td>Aqueous</td><td>0</td></tr><tr><td>KAISi3O8</td><td>Potassium feldspar</td><td>Crystalline</td><td>871. 6</td></tr><tr><td>KAl3Si3O10(OH)2</td><td>Mica</td><td>do</td><td>1316. 2</td></tr><tr><td>K+1</td><td></td><td>Aqueous</td><td>67. 46</td></tr><tr><td>NaAlSi3O8</td><td>Albite</td><td>Crystalline</td><td>868. 9</td></tr><tr><td>Na+1</td><td></td><td>Aqueous</td><td>-62. 59</td></tr><tr><td>H2O</td><td>Water</td><td>Liquid</td><td>56. 7</td></tr><tr><td>OH -1</td><td></td><td>Aqueous</td><td>37. 60</td></tr><tr><td>H4SiO4</td><td>Silicic acid</td><td>do</td><td>305. 6</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1132884262094305,
+                            "top": 0.8832144198272625,
+                            "width": 0.8169014084507042,
+                            "height": 0.029665790461885094,
+                            "page": 1
+                        },
+                        "content": "1 The standard free energies have been adjusted on basis of AF/ quartz=197.3 kcal for the compounds containing silica. 2 Calculated from heat of formation from the oxides as determined by Kracek (1953).",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

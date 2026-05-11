@@ -1,0 +1,110 @@
+{
+    "job_id": "992f2fa4-8384-443e-bce4-4e431428f478",
+    "duration": 7.610949277877808,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5a7a321d-2909-4c4d-932d-6b7fc388713c?AWSAccessKeyId=ASIA2UOK6OVBI4JWINKU&Signature=IlWZKz9ggOCpyMzS1n7LUmjnRHM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIFX2T1nxYvbUZC%2F9ipPe0nPfSUhioi2AwqiHCHriJsKKAiEA4TcTenK%2BnQjEv4YAbSEt59ZMHHCU8EKhf%2FLqhq6khK4qiwUIJBAAGgw3MzExMDY5MzIwMzQiDFFYIrCvURDdIDijYCroBKZPNbl0xIYFSE4YAd1%2F%2Fb0zeAV3se%2BbqF9xmhVcRSC7shJIM3Ht%2Berc5girFHcYu55hMYBXaYOwbCYQlAaXigSBdPbETVJkG%2Bhct4Ugg%2B0x3jNSEO7I%2FaNA64YODRHz7Z4NhugLAeO8RJoTH%2BI84rSWe3%2F8so4wgHaGmX59UixjMYLv8NC%2F09Zo3xUwChvceybkRNqSN1hHI%2Bz%2BwLbjKBGlBoG32fpjnyrqCE5oWcwAJqf1kAhpwwExp1idyjs4FlibhFXizkrOeHuTyTMg7ovQ6IVWLlNuNyVsOhklyqWIWte0a2i1ya86JqaX6mfYcpr1We3b01XqnoVHslz9P92MppcDhPnNYLZ0XU2x%2BbLxKh7odiiaShjXiXhzsUo3WDELSRhVWSLjvxps%2BZB0o7zM8otwVGWOSDid27TighjAtDn4DAeSAzEbAq%2BJDAHf3tQtoV1WFemG930aQ2DZDrrG1phi4AxA2ESL1pet%2FSsw%2F%2FvpplJof78g3dDVo63hg2dv4LB4sYG3D%2BA3UTu%2B1EvvwBucf3Tn9iE2IYp28KM6FESti1o14soJ9fcs8ZKdaHJwEuKXXAwSxruGhJC%2BTevpMhw%2Fj7bfZ%2BFtqFYKp7PP2tvJPnPHW5FIAIU5NR8Rr5XeRgwUcYsIWxIh7kQ%2BKg5TQKGWrOV5svuLHhwW8m1a3QqSa6aCGXceGmGeOhfbJXf063Kj2V%2FwgTzCOu%2F7C3Hu%2Fb63S2Cvjgk85TJbC7%2BwB1fvg%2BxNg1gvYgPvOUpCORVvZYBfBS0yE5ZIiGTd8ttmBneZUXLcsBOdFSE1Z0HUJLR5WbVKiSUw5dDJugY6mwHs5h0P7YZ5SoxFnoc%2BlZZXxgIyflLk9HLWsQNwXHfNsOOgOUEJaje6vaKj5Ou10PVp4QDZJWoCOapc9OmZX%2BZO2%2Bg8DIHNYrxA1HmBv%2B%2F6e0WRwRtdsEfGlAudJ4r2d7MjUsFFH7VJVg2y1nVF5h65fvZiPKXF5K5rt%2BDUxiD9QlDNIXCGIMiTHvcfIf96iuI4oXX8QxOPiwM0kw%3D%3D&Expires=1733457575",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# GILA RIVER BASIN",
+                "embed": "# GILA RIVER BASIN",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4026299311208516,
+                            "top": 0.04878971255673222,
+                            "width": 0.1509079524107702,
+                            "height": 0.00869894099848714,
+                            "page": 1
+                        },
+                        "content": "GILA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8440826549780839,
+                            "top": 0.049924357034795766,
+                            "width": 0.026299311208515967,
+                            "height": 0.0071860816944024205,
+                            "page": 1
+                        },
+                        "content": "199",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly summary of discharge of Gila River at Calva, Ariz., 929-38--Continued\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th colspan=\"2\">Runoff</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td><td>Second-\nfoot-days</td><td>Acre-feet</td></tr><tr><td>October 1936</td><td>141</td><td>15</td><td>37.7</td><td>1,170</td><td>2,320</td></tr><tr><td>November</td><td>296</td><td>60</td><td>153</td><td>4,581</td><td>9,090</td></tr><tr><td>December</td><td>285</td><td>38</td><td>126</td><td>3,901</td><td>7,740</td></tr><tr><td>Calendar year 1936</td><td>4,030</td><td>0</td><td>205</td><td>75,100</td><td>149,000</td></tr><tr><td>January 1937</td><td>414</td><td>49</td><td>287</td><td>8,911</td><td>17,670</td></tr><tr><td>February</td><td>8,670</td><td>279</td><td>2,244</td><td>62,844</td><td>124,600</td></tr><tr><td>March</td><td>6,230</td><td>773</td><td>1,694</td><td>52,501</td><td>104,100</td></tr><tr><td>April</td><td>743</td><td>304</td><td>493</td><td>14,778</td><td>29,310</td></tr><tr><td>May</td><td>304</td><td>38</td><td>136</td><td>4,225</td><td>8,380</td></tr><tr><td>June</td><td>38</td><td>4</td><td>19.4</td><td>582</td><td>1,150</td></tr><tr><td>July</td><td>127</td><td>0</td><td>15.8</td><td>491</td><td>974</td></tr><tr><td>August</td><td>178</td><td>0</td><td>24.9</td><td>773</td><td>1,530</td></tr><tr><td>September</td><td>946</td><td>4</td><td>186</td><td>5,578</td><td>11,060</td></tr><tr><td>Water year 1937</td><td>8,670</td><td>0</td><td>439</td><td>160,335</td><td>317,900</td></tr><tr><td>October 1937</td><td>266</td><td>24</td><td>111</td><td>3,436</td><td>6,820</td></tr><tr><td>November</td><td>142</td><td>60</td><td>103</td><td>3,077</td><td>6,100</td></tr><tr><td>December</td><td>200</td><td>86</td><td>150</td><td>4,654</td><td>9,230</td></tr><tr><td>Calendar year 1937</td><td>8,670</td><td>0</td><td>443</td><td>1161,850</td><td>320,900</td></tr><tr><td>January 1938</td><td>240</td><td>108</td><td>191</td><td>5,919</td><td>11,740</td></tr><tr><td>February</td><td>191</td><td>95</td><td>140</td><td>3,931</td><td>7,800</td></tr><tr><td>March</td><td>3,270</td><td>85</td><td>616</td><td>19,087</td><td>37,860</td></tr><tr><td>April</td><td>83</td><td>22</td><td>40.4</td><td>11,211</td><td>2,400</td></tr><tr><td>May</td><td>22</td><td>1</td><td>10.7</td><td>333</td><td>660</td></tr><tr><td>June</td><td>458</td><td>0</td><td>18.4</td><td>551</td><td>1,090</td></tr><tr><td>July</td><td>551</td><td>0</td><td>36.0</td><td>1,116</td><td>2,210</td></tr><tr><td>August</td><td>586</td><td>0</td><td>112</td><td>3,474</td><td>6,890</td></tr><tr><td>September</td><td>701</td><td>o</td><td>225</td><td>6,751</td><td>13,390</td></tr><tr><td>Water year 1938</td><td>3,270</td><td>0</td><td>147</td><td>53,540</td><td>106,200</td></tr></table>",
+                "embed": "# Monthly summary of discharge of Gila River at Calva, Ariz., 929-38--Continued\n\n<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th colspan=\"2\">Runoff</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td><td>Second-\nfoot-days</td><td>Acre-feet</td></tr><tr><td>October 1936</td><td>141</td><td>15</td><td>37.7</td><td>1,170</td><td>2,320</td></tr><tr><td>November</td><td>296</td><td>60</td><td>153</td><td>4,581</td><td>9,090</td></tr><tr><td>December</td><td>285</td><td>38</td><td>126</td><td>3,901</td><td>7,740</td></tr><tr><td>Calendar year 1936</td><td>4,030</td><td>0</td><td>205</td><td>75,100</td><td>149,000</td></tr><tr><td>January 1937</td><td>414</td><td>49</td><td>287</td><td>8,911</td><td>17,670</td></tr><tr><td>February</td><td>8,670</td><td>279</td><td>2,244</td><td>62,844</td><td>124,600</td></tr><tr><td>March</td><td>6,230</td><td>773</td><td>1,694</td><td>52,501</td><td>104,100</td></tr><tr><td>April</td><td>743</td><td>304</td><td>493</td><td>14,778</td><td>29,310</td></tr><tr><td>May</td><td>304</td><td>38</td><td>136</td><td>4,225</td><td>8,380</td></tr><tr><td>June</td><td>38</td><td>4</td><td>19.4</td><td>582</td><td>1,150</td></tr><tr><td>July</td><td>127</td><td>0</td><td>15.8</td><td>491</td><td>974</td></tr><tr><td>August</td><td>178</td><td>0</td><td>24.9</td><td>773</td><td>1,530</td></tr><tr><td>September</td><td>946</td><td>4</td><td>186</td><td>5,578</td><td>11,060</td></tr><tr><td>Water year 1937</td><td>8,670</td><td>0</td><td>439</td><td>160,335</td><td>317,900</td></tr><tr><td>October 1937</td><td>266</td><td>24</td><td>111</td><td>3,436</td><td>6,820</td></tr><tr><td>November</td><td>142</td><td>60</td><td>103</td><td>3,077</td><td>6,100</td></tr><tr><td>December</td><td>200</td><td>86</td><td>150</td><td>4,654</td><td>9,230</td></tr><tr><td>Calendar year 1937</td><td>8,670</td><td>0</td><td>443</td><td>1161,850</td><td>320,900</td></tr><tr><td>January 1938</td><td>240</td><td>108</td><td>191</td><td>5,919</td><td>11,740</td></tr><tr><td>February</td><td>191</td><td>95</td><td>140</td><td>3,931</td><td>7,800</td></tr><tr><td>March</td><td>3,270</td><td>85</td><td>616</td><td>19,087</td><td>37,860</td></tr><tr><td>April</td><td>83</td><td>22</td><td>40.4</td><td>11,211</td><td>2,400</td></tr><tr><td>May</td><td>22</td><td>1</td><td>10.7</td><td>333</td><td>660</td></tr><tr><td>June</td><td>458</td><td>0</td><td>18.4</td><td>551</td><td>1,090</td></tr><tr><td>July</td><td>551</td><td>0</td><td>36.0</td><td>1,116</td><td>2,210</td></tr><tr><td>August</td><td>586</td><td>0</td><td>112</td><td>3,474</td><td>6,890</td></tr><tr><td>September</td><td>701</td><td>o</td><td>225</td><td>6,751</td><td>13,390</td></tr><tr><td>Water year 1938</td><td>3,270</td><td>0</td><td>147</td><td>53,540</td><td>106,200</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.10457107075767064,
+                            "top": 0.07413010590015129,
+                            "width": 0.728240450845335,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "Monthly summary of discharge of Gila River at Calva, Ariz., 929-38--Continued",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06813656037198654,
+                            "top": 0.09192433552013403,
+                            "width": 0.8226254916444896,
+                            "height": 0.34560982939334933,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th colspan=\"2\">Runoff</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td><td>Second-\nfoot-days</td><td>Acre-feet</td></tr><tr><td>October 1936</td><td>141</td><td>15</td><td>37.7</td><td>1,170</td><td>2,320</td></tr><tr><td>November</td><td>296</td><td>60</td><td>153</td><td>4,581</td><td>9,090</td></tr><tr><td>December</td><td>285</td><td>38</td><td>126</td><td>3,901</td><td>7,740</td></tr><tr><td>Calendar year 1936</td><td>4,030</td><td>0</td><td>205</td><td>75,100</td><td>149,000</td></tr><tr><td>January 1937</td><td>414</td><td>49</td><td>287</td><td>8,911</td><td>17,670</td></tr><tr><td>February</td><td>8,670</td><td>279</td><td>2,244</td><td>62,844</td><td>124,600</td></tr><tr><td>March</td><td>6,230</td><td>773</td><td>1,694</td><td>52,501</td><td>104,100</td></tr><tr><td>April</td><td>743</td><td>304</td><td>493</td><td>14,778</td><td>29,310</td></tr><tr><td>May</td><td>304</td><td>38</td><td>136</td><td>4,225</td><td>8,380</td></tr><tr><td>June</td><td>38</td><td>4</td><td>19.4</td><td>582</td><td>1,150</td></tr><tr><td>July</td><td>127</td><td>0</td><td>15.8</td><td>491</td><td>974</td></tr><tr><td>August</td><td>178</td><td>0</td><td>24.9</td><td>773</td><td>1,530</td></tr><tr><td>September</td><td>946</td><td>4</td><td>186</td><td>5,578</td><td>11,060</td></tr><tr><td>Water year 1937</td><td>8,670</td><td>0</td><td>439</td><td>160,335</td><td>317,900</td></tr><tr><td>October 1937</td><td>266</td><td>24</td><td>111</td><td>3,436</td><td>6,820</td></tr><tr><td>November</td><td>142</td><td>60</td><td>103</td><td>3,077</td><td>6,100</td></tr><tr><td>December</td><td>200</td><td>86</td><td>150</td><td>4,654</td><td>9,230</td></tr><tr><td>Calendar year 1937</td><td>8,670</td><td>0</td><td>443</td><td>1161,850</td><td>320,900</td></tr><tr><td>January 1938</td><td>240</td><td>108</td><td>191</td><td>5,919</td><td>11,740</td></tr><tr><td>February</td><td>191</td><td>95</td><td>140</td><td>3,931</td><td>7,800</td></tr><tr><td>March</td><td>3,270</td><td>85</td><td>616</td><td>19,087</td><td>37,860</td></tr><tr><td>April</td><td>83</td><td>22</td><td>40.4</td><td>11,211</td><td>2,400</td></tr><tr><td>May</td><td>22</td><td>1</td><td>10.7</td><td>333</td><td>660</td></tr><tr><td>June</td><td>458</td><td>0</td><td>18.4</td><td>551</td><td>1,090</td></tr><tr><td>July</td><td>551</td><td>0</td><td>36.0</td><td>1,116</td><td>2,210</td></tr><tr><td>August</td><td>586</td><td>0</td><td>112</td><td>3,474</td><td>6,890</td></tr><tr><td>September</td><td>701</td><td>o</td><td>225</td><td>6,751</td><td>13,390</td></tr><tr><td>Water year 1938</td><td>3,270</td><td>0</td><td>147</td><td>53,540</td><td>106,200</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Monthly summary of discharge of Gila River at Calva, Ariz., 929-38--Continued (cont.)\n\nYearly discharge of Gila River at Calva, Ariz., 1930-38\n\n<table><tr><th rowspan=\"2\">Year</th><th colspan=\"2\">Water year</th><th colspan=\"2\">Calendar year</th></tr><tr><td>Mean discharge\nin second-feet</td><td>Runoff in\nacre-feet</td><td>Mean discharge\nin second-feet</td><td>Rvnoff in\necre-feet</td></tr><tr><td>1930</td><td>290</td><td>210,300</td><td>262</td><td>189,600</td></tr><tr><td>1931</td><td>400</td><td>289,600</td><td>486</td><td>351,900</td></tr><tr><td>1932</td><td>609</td><td>442,300</td><td>529</td><td>384,100</td></tr><tr><td>1933</td><td>206</td><td>149,100</td><td>229</td><td>165,800</td></tr><tr><td>1934</td><td>221</td><td>160,100</td><td>182</td><td>131,900</td></tr><tr><td>1935</td><td>206</td><td>149,500</td><td>219</td><td>158,300</td></tr><tr><td>1936</td><td>207</td><td>150,200</td><td>205</td><td>149,000</td></tr><tr><td>1937</td><td>439</td><td>317,900</td><td>443</td><td>320,900</td></tr><tr><td>1938</td><td>147</td><td>106,200</td><td>-</td><td>-</td></tr></table>",
+                "embed": "# Monthly summary of discharge of Gila River at Calva, Ariz., 929-38--Continued (cont.)\n\nYearly discharge of Gila River at Calva, Ariz., 1930-38\n\n<table><tr><th rowspan=\"2\">Year</th><th colspan=\"2\">Water year</th><th colspan=\"2\">Calendar year</th></tr><tr><td>Mean discharge\nin second-feet</td><td>Runoff in\nacre-feet</td><td>Mean discharge\nin second-feet</td><td>Rvnoff in\necre-feet</td></tr><tr><td>1930</td><td>290</td><td>210,300</td><td>262</td><td>189,600</td></tr><tr><td>1931</td><td>400</td><td>289,600</td><td>486</td><td>351,900</td></tr><tr><td>1932</td><td>609</td><td>442,300</td><td>529</td><td>384,100</td></tr><tr><td>1933</td><td>206</td><td>149,100</td><td>229</td><td>165,800</td></tr><tr><td>1934</td><td>221</td><td>160,100</td><td>182</td><td>131,900</td></tr><tr><td>1935</td><td>206</td><td>149,500</td><td>219</td><td>158,300</td></tr><tr><td>1936</td><td>207</td><td>150,200</td><td>205</td><td>149,000</td></tr><tr><td>1937</td><td>439</td><td>317,900</td><td>443</td><td>320,900</td></tr><tr><td>1938</td><td>147</td><td>106,200</td><td>-</td><td>-</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.21102066374452097,
+                            "top": 0.4913010590015129,
+                            "width": 0.5128365685660614,
+                            "height": 0.011724659606656581,
+                            "page": 1
+                        },
+                        "content": "Yearly discharge of Gila River at Calva, Ariz., 1930-38",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06612937511618465,
+                            "top": 0.5036613245053659,
+                            "width": 0.8217007727196012,
+                            "height": 0.17189489875366395,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Year</th><th colspan=\"2\">Water year</th><th colspan=\"2\">Calendar year</th></tr><tr><td>Mean discharge\nin second-feet</td><td>Runoff in\nacre-feet</td><td>Mean discharge\nin second-feet</td><td>Rvnoff in\necre-feet</td></tr><tr><td>1930</td><td>290</td><td>210,300</td><td>262</td><td>189,600</td></tr><tr><td>1931</td><td>400</td><td>289,600</td><td>486</td><td>351,900</td></tr><tr><td>1932</td><td>609</td><td>442,300</td><td>529</td><td>384,100</td></tr><tr><td>1933</td><td>206</td><td>149,100</td><td>229</td><td>165,800</td></tr><tr><td>1934</td><td>221</td><td>160,100</td><td>182</td><td>131,900</td></tr><tr><td>1935</td><td>206</td><td>149,500</td><td>219</td><td>158,300</td></tr><tr><td>1936</td><td>207</td><td>150,200</td><td>205</td><td>149,000</td></tr><tr><td>1937</td><td>439</td><td>317,900</td><td>443</td><td>320,900</td></tr><tr><td>1938</td><td>147</td><td>106,200</td><td>-</td><td>-</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

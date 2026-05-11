@@ -1,0 +1,206 @@
+{
+    "job_id": "62b976c9-ab6c-4de7-aaea-9049a9efbfc4",
+    "duration": 4.293126106262207,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/a4b30008-418f-4285-9c83-20f84f7c05da?AWSAccessKeyId=ASIA2UOK6OVBKPYQIAIK&Signature=kt6m3N8tGFtI6Igj%2FWAZzI6RnNQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJGMEQCIHWp5QeSRs8z36lyERsCZQev%2BWIKe0rsAA5eDyg%2B%2FHsHAiA%2B%2FmoSpb3P%2Bnu9Ay7KGWudVO0esepDDCvPsmTdo0VRHiqLBQggEAAaDDczMTEwNjkzMjAzNCIM80kUQU51nolpxrhKKugEB7tsGBZXvo%2FH6Y%2BGirJp9Jpe3W5UIuvoZBZQkIrnqkibCmcixvPltk60LB1t6sXakYTZ1hXo5Ebs40t%2Bq6xWRWevU3PRIiLdVRLJXeEQIftNAe%2F%2BPT%2B%2FeJVBG%2B1chD2l5z2SwM1HeOJEwnWGfH2oLenZ8BD55C1B4o68gagGLRaJZDWphfBtjDeZdAFd31ES1ylPzdDjq0JsKprnef9YgZFFAFv%2BRAlv7sd53K24M46045EXumL47CooDHynadAhQaxwMw%2Fd9ORePRlUWkgD1e4opOe51on1BIvbONhLJ8%2B052ypIzYkKlwnYkJ1WSiBZs%2BYIdxOH79NhI%2BpwvzF6ROVqHo5rQCCMlt9jimUxfJ7oJju2YAWz9fotgGcRbxYIYxoHA%2FNEgZO5Xt4Xb4iiyMvVZVSEzVaEX8wi4ze39XVesJh5N%2Bq%2Fuyth7qekbbVcz0FVJhmDiROxa%2Bx6jpy5vZmflFnCtWm50%2F%2FpEPLHM4aXzhEjpTUCAwUjcqXMxxjQX45Xy6AXzSLKKYWrL6gbilC4XzJO2SiYdNA7qbwYhFieKGnkImv8TkRBbC6wXoY5rmkxa9Rwn2iNqETentJg5grRCYU04KNW4cH7BrTs6%2Bt7QWl5sxw8AWTIHcyeNNyNh2hCqDpitL%2FjinbxUK193tmRGLArVWTZGmpolYR%2FiCA0eLX1a%2FmMQV9AconNQwD8nU2RAHRHHbLmHpQjTxpSrwy5O6h87asPtkQTTJTZ1G%2FwD6LS0oTtByRuTfkE9V0T5kxFAQZxFiQX5xtrQ50EFUjh2kWFUvr3Zf25pK%2FP%2Bw%2BbsoQOF8%2FoDDe1Mi6BjqcAVUvPpjUJ9hDckEnhOsZ%2BKGaNSysKshw4rosTi0RmGUEnyHkEV8efJY3UzK%2BzaUTCzVan82KFSjolZxQBUEndyD%2FMXqhPQePiVr2%2FKqpMAKDohUo4AT99AatcmSYZwzJv4UadlJVnIQWOBJb8JD%2Bgmvt0QLraeWuzioTKbBWLzxG38r6VZ4RVk2CyFbez1NBooR2gnOk4GAE%2BIEkmg%3D%3D&Expires=1733441901",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN JOAQUIN RIVER BASIN\n\n# 11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF.\n\nLOCATION. -Lat 37\u00b056'15\", long 119\u00b047'50\" in SW1SE1 sec. 17, T.1 N., R.20 E., Tuolumne County, Yosemite National Park, on left bank 1 mile downstream from O'Shaughnessy Dam at Hetch Hetchy, and 2.5 miles downstream from Falls Creek.",
+                "embed": "# SAN JOAQUIN RIVER BASIN\n\n# 11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF.\n\nLOCATION. -Lat 37\u00b056'15\", long 119\u00b047'50\" in SW1SE1 sec. 17, T.1 N., R.20 E., Tuolumne County, Yosemite National Park, on left bank 1 mile downstream from O'Shaughnessy Dam at Hetch Hetchy, and 2.5 miles downstream from Falls Creek.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.06631299734748011,
+                            "top": 0.034538411878631374,
+                            "width": 0.01989389920424403,
+                            "height": 0.007746933505487412,
+                            "page": 1
+                        },
+                        "content": "692",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.42793987621573826,
+                            "top": 0.0342156229825694,
+                            "width": 0.17639257294429708,
+                            "height": 0.008392511297611363,
+                            "page": 1
+                        },
+                        "content": "SAN JOAQUIN RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3297966401414677,
+                            "top": 0.05293737895416398,
+                            "width": 0.3731211317418214,
+                            "height": 0.00936087798579729,
+                            "page": 1
+                        },
+                        "content": "11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06675508399646331,
+                            "top": 0.07004519044544867,
+                            "width": 0.8589743589743589,
+                            "height": 0.028405422853453842,
+                            "page": 1
+                        },
+                        "content": "LOCATION. -Lat 37\u00b056'15\", long 119\u00b047'50\" in SW1SE1 sec. 17, T.1 N., R.20 E., Tuolumne County, Yosemite National Park, on left bank 1 mile downstream from O'Shaughnessy Dam at Hetch Hetchy, and 2.5 miles downstream from Falls Creek.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF. (cont.)\n\nDRAINAGE AREA.--457 sq mi.\n\nPERIOD OF RECORD.--October 1910 to current year. Monthly discharge only for some periods, published in WSP 1315-A. Published as \"at Hetch Hetchy damsite, near Sequoia\" 1910-14 and as \"below Hetch Hetchy damsite, near Sequoia\" 1915-18.\n\nGAGE. -Nonrecording gage read once daily (temporary installation at site 0,5 mile upstream at different datum). Altitude of gage is 3,480 ft (revised) (from topographic map). Prior to Jan. 1, 1915, water-stage recorder at site 1 mile upstream, at damsite, at different datum. Jan. 1, 1915, to Sept. 30, 1968, water-stage recorder,\n\nAVERAGE DISCHARGE (prior to diversion to Robert C. Kirkwood powerplant and Hetch Hetchy aqueduct) --57 years (1910-67), 999 cfs (723,80 acre-ft per year).\n\nEXTREMES Current year: Maximum daily discharge, 9,940 cfs June 4, 5; no flow Oct. 3, 4. Period of record: Maximum discharge, 12,900 cfs June 1, 1943 (gage height, 13.90 ft); no flow Oct. 3, 4, 1968.\n\nREMARKS.--Records good. Flow regulated by Hetch Hetchy Reservoir 1 mile upstream beginning in April 1923 (see sta 11-2755). Flow diverted above station through tunnel to Robert C. Kirkwood powerplant and Hetch Hetchy aqueduct beginning April 26, 1967. See schematic diagram of Tuolumne River basin.\n\nCOOPERATION.--Gage-height record and 16 discharge measurements furnished by city and county of San Francisco.\n\nREVISIONS.--WSP 1930: Drainage area.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "embed": "# 11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF. (cont.)\n\nDRAINAGE AREA.--457 sq mi.\n\nPERIOD OF RECORD.--October 1910 to current year. Monthly discharge only for some periods, published in WSP 1315-A. Published as \"at Hetch Hetchy damsite, near Sequoia\" 1910-14 and as \"below Hetch Hetchy damsite, near Sequoia\" 1915-18.\n\nGAGE. -Nonrecording gage read once daily (temporary installation at site 0,5 mile upstream at different datum). Altitude of gage is 3,480 ft (revised) (from topographic map). Prior to Jan. 1, 1915, water-stage recorder at site 1 mile upstream, at damsite, at different datum. Jan. 1, 1915, to Sept. 30, 1968, water-stage recorder,\n\nAVERAGE DISCHARGE (prior to diversion to Robert C. Kirkwood powerplant and Hetch Hetchy aqueduct) --57 years (1910-67), 999 cfs (723,80 acre-ft per year).\n\nEXTREMES Current year: Maximum daily discharge, 9,940 cfs June 4, 5; no flow Oct. 3, 4. Period of record: Maximum discharge, 12,900 cfs June 1, 1943 (gage height, 13.90 ft); no flow Oct. 3, 4, 1968.\n\nREMARKS.--Records good. Flow regulated by Hetch Hetchy Reservoir 1 mile upstream beginning in April 1923 (see sta 11-2755). Flow diverted above station through tunnel to Robert C. Kirkwood powerplant and Hetch Hetchy aqueduct beginning April 26, 1967. See schematic diagram of Tuolumne River basin.\n\nCOOPERATION.--Gage-height record and 16 discharge measurements furnished by city and county of San Francisco.\n\nREVISIONS.--WSP 1930: Drainage area.\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06631299734748011,
+                            "top": 0.1091026468689477,
+                            "width": 0.19849690539345713,
+                            "height": 0.009038089089735314,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.--457 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06631299734748011,
+                            "top": 0.1275016139444803,
+                            "width": 0.8806366047745358,
+                            "height": 0.02711426726920594,
+                            "page": 1
+                        },
+                        "content": "PERIOD OF RECORD.--October 1910 to current year. Monthly discharge only for some periods, published in WSP 1315-A. Published as \"at Hetch Hetchy damsite, near Sequoia\" 1910-14 and as \"below Hetch Hetchy damsite, near Sequoia\" 1915-18.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06631299734748011,
+                            "top": 0.16494512588766946,
+                            "width": 0.8806366047745358,
+                            "height": 0.028405422853453842,
+                            "page": 1
+                        },
+                        "content": "GAGE. -Nonrecording gage read once daily (temporary installation at site 0,5 mile upstream at different datum). Altitude of gage is 3,480 ft (revised) (from topographic map). Prior to Jan. 1, 1915, water-stage recorder at site 1 mile upstream, at damsite, at different datum. Jan. 1, 1915, to Sept. 30, 1968, water-stage recorder,",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06631299734748011,
+                            "top": 0.2027114267269206,
+                            "width": 0.8293545534924845,
+                            "height": 0.019044544867656554,
+                            "page": 1
+                        },
+                        "content": "AVERAGE DISCHARGE (prior to diversion to Robert C. Kirkwood powerplant and Hetch Hetchy aqueduct) --57 years (1910-67), 999 cfs (723,80 acre-ft per year).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06675508399646331,
+                            "top": 0.23111684958037443,
+                            "width": 0.8492484526967286,
+                            "height": 0.026791478373143964,
+                            "page": 1
+                        },
+                        "content": "EXTREMES Current year: Maximum daily discharge, 9,940 cfs June 4, 5; no flow Oct. 3, 4. Period of record: Maximum discharge, 12,900 cfs June 1, 1943 (gage height, 13.90 ft); no flow Oct. 3, 4, 1968.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06675508399646331,
+                            "top": 0.26823757262750164,
+                            "width": 0.881078691423519,
+                            "height": 0.028405422853453842,
+                            "page": 1
+                        },
+                        "content": "REMARKS.--Records good. Flow regulated by Hetch Hetchy Reservoir 1 mile upstream beginning in April 1923 (see sta 11-2755). Flow diverted above station through tunnel to Robert C. Kirkwood powerplant and Hetch Hetchy aqueduct beginning April 26, 1967. See schematic diagram of Tuolumne River basin.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06852343059239611,
+                            "top": 0.3063266623628147,
+                            "width": 0.8320070733863837,
+                            "height": 0.00936087798579729,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.--Gage-height record and 16 discharge measurements furnished by city and county of San Francisco.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06675508399646331,
+                            "top": 0.3250484183344093,
+                            "width": 0.28160919540229884,
+                            "height": 0.009038089089735314,
+                            "page": 1
+                        },
+                        "content": "REVISIONS.--WSP 1930: Drainage area.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.19938107869142352,
+                            "top": 0.34409296320206584,
+                            "width": 0.5985853227232537,
+                            "height": 0.008069722401549387,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1968 TO SEPTEMBER 1969",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th></th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>31</td><td>35</td><td>34</td><td></td><td>34</td><td>35</td><td>372</td><td>31</td><td>646</td><td>5,120</td><td>2,190</td><td>96</td><td>95</td></tr><tr><td>2</td><td>10</td><td>35</td><td>34</td><td></td><td>34</td><td>36</td><td>360</td><td>30</td><td>510</td><td>5,200</td><td>2,550</td><td>96</td><td>95</td></tr><tr><td>3</td><td>0</td><td>38</td><td>34</td><td></td><td>33</td><td>36</td><td>342</td><td>38</td><td>525</td><td>8,410</td><td>3,120</td><td>97</td><td>95</td></tr><tr><td>4</td><td>0</td><td>35</td><td>34</td><td></td><td>32</td><td>35</td><td>322</td><td>37</td><td>536</td><td>9,940</td><td>3,770</td><td>98</td><td>95</td></tr><tr><td>5</td><td>23</td><td>35</td><td>34</td><td></td><td>37</td><td>35</td><td>360</td><td>37</td><td>542</td><td>9,940</td><td>3,730</td><td>98</td><td>94</td></tr><tr><td>6</td><td>34</td><td>35</td><td>34</td><td></td><td>35</td><td>35</td><td>312</td><td>37</td><td>560</td><td>7,860</td><td>3,240</td><td>97</td><td>94</td></tr><tr><td>7</td><td>34</td><td>35</td><td>33</td><td></td><td>35</td><td>35</td><td>123</td><td>37</td><td>570</td><td>7,040</td><td>3,030</td><td>96</td><td>94</td></tr><tr><td>8</td><td>34</td><td>34</td><td>35</td><td></td><td>35</td><td>35</td><td>40</td><td>36</td><td>588</td><td>7,040</td><td>3,030</td><td>95</td><td>94</td></tr><tr><td>9</td><td>34</td><td>33</td><td>35</td><td></td><td>35</td><td>35</td><td>35</td><td>34</td><td>638</td><td>7,060</td><td>3,030</td><td>95</td><td>94</td></tr><tr><td>10</td><td>33</td><td>33</td><td>35</td><td></td><td>36</td><td>35</td><td>35</td><td>385</td><td>674</td><td>6,920</td><td>3,040</td><td>94</td><td>94</td></tr><tr><td>11</td><td>32</td><td>33</td><td>36</td><td></td><td>37</td><td>35</td><td>35</td><td>578</td><td>702</td><td>6,720</td><td>3,040</td><td>89</td><td>94</td></tr><tr><td>12</td><td>34</td><td>34</td><td>36</td><td></td><td>37</td><td>34</td><td>35</td><td>578</td><td>734</td><td>6,030</td><td>3,040</td><td>85</td><td>93</td></tr><tr><td>13</td><td>35</td><td>34</td><td>35</td><td></td><td>37</td><td>34</td><td>35</td><td>581</td><td>1,110</td><td>4,120</td><td>3,040</td><td>90</td><td>93</td></tr><tr><td>14</td><td>35</td><td>34</td><td>35</td><td></td><td>37</td><td>34</td><td>34</td><td>584</td><td>3,780</td><td>3,340</td><td>3,050</td><td>93</td><td>93</td></tr><tr><td>15</td><td>35</td><td>34</td><td>37</td><td></td><td>37</td><td>35</td><td>33</td><td>584</td><td>4,950</td><td>3,340</td><td>3,050</td><td>93</td><td>93</td></tr><tr><td>16</td><td>35</td><td>34</td><td>37</td><td></td><td>37</td><td>35</td><td>34</td><td>592</td><td>4,930</td><td>3,350</td><td>2,690</td><td>92</td><td>62</td></tr><tr><td>17</td><td>35</td><td>33</td><td>36</td><td></td><td>37</td><td>35</td><td>34</td><td>592</td><td>4,930</td><td>3,770</td><td>1,810</td><td>92</td><td>46</td></tr><tr><td>18</td><td>35</td><td>33</td><td>36</td><td></td><td>37</td><td>36</td><td>33</td><td>595</td><td>5,120</td><td>3,970</td><td>1,590</td><td>92</td><td>46</td></tr><tr><td>19</td><td>35</td><td>34</td><td>36</td><td></td><td>54</td><td>36</td><td>32</td><td>598</td><td>5,240</td><td>3,980</td><td>1,510</td><td>90</td><td>46</td></tr><tr><td>20</td><td>35</td><td>33</td><td>35</td><td></td><td>50</td><td>342</td><td>32</td><td>602</td><td>5,240</td><td>4,000</td><td>1,530</td><td>91</td><td>46</td></tr><tr><td>21</td><td>35</td><td>33</td><td>35</td><td></td><td>43</td><td>480</td><td>33</td><td>609</td><td>5,320</td><td>4,000</td><td>1,640</td><td>91</td><td>46</td></tr><tr><td>22</td><td>35</td><td>32</td><td>34</td><td></td><td>43</td><td>465</td><td>33</td><td>620</td><td>5,360</td><td>4,000</td><td>1,920</td><td>90</td><td>46</td></tr><tr><td>23</td><td>35</td><td>32</td><td>34</td><td></td><td>38</td><td>450</td><td>32</td><td>634</td><td>5,550</td><td>4,020</td><td>1,890</td><td>89</td><td>46</td></tr><tr><td>24</td><td>35</td><td>32</td><td>34</td><td></td><td>37</td><td>435</td><td>32</td><td>592</td><td>5,550</td><td>4,040</td><td>1,890</td><td>89</td><td>46</td></tr><tr><td>25</td><td>35</td><td>32</td><td>34</td><td></td><td>57</td><td>420</td><td>32</td><td>598</td><td>5,440</td><td>3,310</td><td>1,500</td><td>89</td><td>46</td></tr><tr><td>26</td><td>35</td><td>32</td><td>34</td><td></td><td>72</td><td>414</td><td>32</td><td>606</td><td>5,530</td><td>2,560</td><td>980</td><td>88</td><td>45</td></tr><tr><td>27</td><td>35</td><td>32</td><td>34</td><td></td><td>75</td><td>405</td><td>32</td><td>609</td><td>5,470</td><td>2,400</td><td>975</td><td>88</td><td>45</td></tr><tr><td>28</td><td>35</td><td>32</td><td>34</td><td></td><td>75</td><td>392</td><td>32</td><td>609</td><td>5,710</td><td>2,410</td><td>975</td><td>89</td><td>45</td></tr><tr><td>29</td><td>35</td><td>32</td><td>34</td><td></td><td>53</td><td></td><td>32</td><td>620</td><td>5,690</td><td>2,110</td><td>579</td><td>86</td><td>45</td></tr><tr><td>30</td><td>35</td><td>36</td><td>34</td><td></td><td>39</td><td></td><td>32</td><td>630</td><td>5,480</td><td>1,960</td><td>332</td><td>85</td><td>45</td></tr><tr><td>31</td><td>35</td><td></td><td>34</td><td></td><td>39</td><td></td><td>32</td><td></td><td>5,520</td><td></td><td>161</td><td>92</td><td></td></tr><tr><td>TOTAL</td><td>964</td><td>1,009</td><td>1,076</td><td></td><td>1,317</td><td>4,469</td><td>2,992</td><td>12,713</td><td>103,145</td><td>147,960</td><td>67,922</td><td>2,845</td><td>2,111</td></tr><tr><td>MEAN</td><td>31.1</td><td>33.6</td><td>34.7</td><td></td><td>42.5</td><td>160</td><td>96.5</td><td>424</td><td>3,327</td><td>4,932</td><td>2,191</td><td>91.8</td><td>70.4</td></tr><tr><td>MAX</td><td>35</td><td>38</td><td>37</td><td></td><td>75</td><td>480</td><td>372</td><td>634</td><td>5,710</td><td>9,940</td><td>3,770</td><td>98</td><td>95</td></tr><tr><td>MIN</td><td>0</td><td>32</td><td>33</td><td></td><td>32</td><td>34</td><td>32</td><td>30</td><td>510</td><td>1,960</td><td>161</td><td>85</td><td>45</td></tr><tr><td>AC-FT</td><td>1,910</td><td>2,000</td><td>2,130</td><td></td><td>2,610</td><td>8,860</td><td>5,930</td><td>25,220</td><td>204,600</td><td>293,500</td><td>134,700</td><td>5,640</td><td>4,190</td></tr><tr><td>CAL YR</td><td>1968 TOTAL</td><td>23,849.30</td><td></td><td>MEAN</td><td>65.2</td><td>MAX</td><td>498</td><td>MIN 0</td><td>AC-FT</td><td>47,300</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969 TOTAL</td><td>348,523.00</td><td></td><td>MEAN</td><td>955</td><td>MAX</td><td>9,940</td><td>MIN 0</td><td>AC-FT</td><td>691,300</td><td></td><td></td><td></td></tr></table>",
+                "embed": "# 11-2765. TUOLUMNE RIVER NEAR HETCH HETCHY, CALIF. (cont.)\n\n<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th></th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>31</td><td>35</td><td>34</td><td></td><td>34</td><td>35</td><td>372</td><td>31</td><td>646</td><td>5,120</td><td>2,190</td><td>96</td><td>95</td></tr><tr><td>2</td><td>10</td><td>35</td><td>34</td><td></td><td>34</td><td>36</td><td>360</td><td>30</td><td>510</td><td>5,200</td><td>2,550</td><td>96</td><td>95</td></tr><tr><td>3</td><td>0</td><td>38</td><td>34</td><td></td><td>33</td><td>36</td><td>342</td><td>38</td><td>525</td><td>8,410</td><td>3,120</td><td>97</td><td>95</td></tr><tr><td>4</td><td>0</td><td>35</td><td>34</td><td></td><td>32</td><td>35</td><td>322</td><td>37</td><td>536</td><td>9,940</td><td>3,770</td><td>98</td><td>95</td></tr><tr><td>5</td><td>23</td><td>35</td><td>34</td><td></td><td>37</td><td>35</td><td>360</td><td>37</td><td>542</td><td>9,940</td><td>3,730</td><td>98</td><td>94</td></tr><tr><td>6</td><td>34</td><td>35</td><td>34</td><td></td><td>35</td><td>35</td><td>312</td><td>37</td><td>560</td><td>7,860</td><td>3,240</td><td>97</td><td>94</td></tr><tr><td>7</td><td>34</td><td>35</td><td>33</td><td></td><td>35</td><td>35</td><td>123</td><td>37</td><td>570</td><td>7,040</td><td>3,030</td><td>96</td><td>94</td></tr><tr><td>8</td><td>34</td><td>34</td><td>35</td><td></td><td>35</td><td>35</td><td>40</td><td>36</td><td>588</td><td>7,040</td><td>3,030</td><td>95</td><td>94</td></tr><tr><td>9</td><td>34</td><td>33</td><td>35</td><td></td><td>35</td><td>35</td><td>35</td><td>34</td><td>638</td><td>7,060</td><td>3,030</td><td>95</td><td>94</td></tr><tr><td>10</td><td>33</td><td>33</td><td>35</td><td></td><td>36</td><td>35</td><td>35</td><td>385</td><td>674</td><td>6,920</td><td>3,040</td><td>94</td><td>94</td></tr><tr><td>11</td><td>32</td><td>33</td><td>36</td><td></td><td>37</td><td>35</td><td>35</td><td>578</td><td>702</td><td>6,720</td><td>3,040</td><td>89</td><td>94</td></tr><tr><td>12</td><td>34</td><td>34</td><td>36</td><td></td><td>37</td><td>34</td><td>35</td><td>578</td><td>734</td><td>6,030</td><td>3,040</td><td>85</td><td>93</td></tr><tr><td>13</td><td>35</td><td>34</td><td>35</td><td></td><td>37</td><td>34</td><td>35</td><td>581</td><td>1,110</td><td>4,120</td><td>3,040</td><td>90</td><td>93</td></tr><tr><td>14</td><td>35</td><td>34</td><td>35</td><td></td><td>37</td><td>34</td><td>34</td><td>584</td><td>3,780</td><td>3,340</td><td>3,050</td><td>93</td><td>93</td></tr><tr><td>15</td><td>35</td><td>34</td><td>37</td><td></td><td>37</td><td>35</td><td>33</td><td>584</td><td>4,950</td><td>3,340</td><td>3,050</td><td>93</td><td>93</td></tr><tr><td>16</td><td>35</td><td>34</td><td>37</td><td></td><td>37</td><td>35</td><td>34</td><td>592</td><td>4,930</td><td>3,350</td><td>2,690</td><td>92</td><td>62</td></tr><tr><td>17</td><td>35</td><td>33</td><td>36</td><td></td><td>37</td><td>35</td><td>34</td><td>592</td><td>4,930</td><td>3,770</td><td>1,810</td><td>92</td><td>46</td></tr><tr><td>18</td><td>35</td><td>33</td><td>36</td><td></td><td>37</td><td>36</td><td>33</td><td>595</td><td>5,120</td><td>3,970</td><td>1,590</td><td>92</td><td>46</td></tr><tr><td>19</td><td>35</td><td>34</td><td>36</td><td></td><td>54</td><td>36</td><td>32</td><td>598</td><td>5,240</td><td>3,980</td><td>1,510</td><td>90</td><td>46</td></tr><tr><td>20</td><td>35</td><td>33</td><td>35</td><td></td><td>50</td><td>342</td><td>32</td><td>602</td><td>5,240</td><td>4,000</td><td>1,530</td><td>91</td><td>46</td></tr><tr><td>21</td><td>35</td><td>33</td><td>35</td><td></td><td>43</td><td>480</td><td>33</td><td>609</td><td>5,320</td><td>4,000</td><td>1,640</td><td>91</td><td>46</td></tr><tr><td>22</td><td>35</td><td>32</td><td>34</td><td></td><td>43</td><td>465</td><td>33</td><td>620</td><td>5,360</td><td>4,000</td><td>1,920</td><td>90</td><td>46</td></tr><tr><td>23</td><td>35</td><td>32</td><td>34</td><td></td><td>38</td><td>450</td><td>32</td><td>634</td><td>5,550</td><td>4,020</td><td>1,890</td><td>89</td><td>46</td></tr><tr><td>24</td><td>35</td><td>32</td><td>34</td><td></td><td>37</td><td>435</td><td>32</td><td>592</td><td>5,550</td><td>4,040</td><td>1,890</td><td>89</td><td>46</td></tr><tr><td>25</td><td>35</td><td>32</td><td>34</td><td></td><td>57</td><td>420</td><td>32</td><td>598</td><td>5,440</td><td>3,310</td><td>1,500</td><td>89</td><td>46</td></tr><tr><td>26</td><td>35</td><td>32</td><td>34</td><td></td><td>72</td><td>414</td><td>32</td><td>606</td><td>5,530</td><td>2,560</td><td>980</td><td>88</td><td>45</td></tr><tr><td>27</td><td>35</td><td>32</td><td>34</td><td></td><td>75</td><td>405</td><td>32</td><td>609</td><td>5,470</td><td>2,400</td><td>975</td><td>88</td><td>45</td></tr><tr><td>28</td><td>35</td><td>32</td><td>34</td><td></td><td>75</td><td>392</td><td>32</td><td>609</td><td>5,710</td><td>2,410</td><td>975</td><td>89</td><td>45</td></tr><tr><td>29</td><td>35</td><td>32</td><td>34</td><td></td><td>53</td><td></td><td>32</td><td>620</td><td>5,690</td><td>2,110</td><td>579</td><td>86</td><td>45</td></tr><tr><td>30</td><td>35</td><td>36</td><td>34</td><td></td><td>39</td><td></td><td>32</td><td>630</td><td>5,480</td><td>1,960</td><td>332</td><td>85</td><td>45</td></tr><tr><td>31</td><td>35</td><td></td><td>34</td><td></td><td>39</td><td></td><td>32</td><td></td><td>5,520</td><td></td><td>161</td><td>92</td><td></td></tr><tr><td>TOTAL</td><td>964</td><td>1,009</td><td>1,076</td><td></td><td>1,317</td><td>4,469</td><td>2,992</td><td>12,713</td><td>103,145</td><td>147,960</td><td>67,922</td><td>2,845</td><td>2,111</td></tr><tr><td>MEAN</td><td>31.1</td><td>33.6</td><td>34.7</td><td></td><td>42.5</td><td>160</td><td>96.5</td><td>424</td><td>3,327</td><td>4,932</td><td>2,191</td><td>91.8</td><td>70.4</td></tr><tr><td>MAX</td><td>35</td><td>38</td><td>37</td><td></td><td>75</td><td>480</td><td>372</td><td>634</td><td>5,710</td><td>9,940</td><td>3,770</td><td>98</td><td>95</td></tr><tr><td>MIN</td><td>0</td><td>32</td><td>33</td><td></td><td>32</td><td>34</td><td>32</td><td>30</td><td>510</td><td>1,960</td><td>161</td><td>85</td><td>45</td></tr><tr><td>AC-FT</td><td>1,910</td><td>2,000</td><td>2,130</td><td></td><td>2,610</td><td>8,860</td><td>5,930</td><td>25,220</td><td>204,600</td><td>293,500</td><td>134,700</td><td>5,640</td><td>4,190</td></tr><tr><td>CAL YR</td><td>1968 TOTAL</td><td>23,849.30</td><td></td><td>MEAN</td><td>65.2</td><td>MAX</td><td>498</td><td>MIN 0</td><td>AC-FT</td><td>47,300</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969 TOTAL</td><td>348,523.00</td><td></td><td>MEAN</td><td>955</td><td>MAX</td><td>9,940</td><td>MIN 0</td><td>AC-FT</td><td>691,300</td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06452495328732868,
+                            "top": 0.35766156309262026,
+                            "width": 0.8766089860155559,
+                            "height": 0.44612747103726197,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DAY</th><th>OCT</th><th>NOV</th><th>DEC</th><th></th><th>JAN</th><th>FEB</th><th>MAR</th><th>APR</th><th>MAY</th><th>JUN</th><th>JUL</th><th>AUG</th><th>SEP</th></tr><tr><td>1</td><td>31</td><td>35</td><td>34</td><td></td><td>34</td><td>35</td><td>372</td><td>31</td><td>646</td><td>5,120</td><td>2,190</td><td>96</td><td>95</td></tr><tr><td>2</td><td>10</td><td>35</td><td>34</td><td></td><td>34</td><td>36</td><td>360</td><td>30</td><td>510</td><td>5,200</td><td>2,550</td><td>96</td><td>95</td></tr><tr><td>3</td><td>0</td><td>38</td><td>34</td><td></td><td>33</td><td>36</td><td>342</td><td>38</td><td>525</td><td>8,410</td><td>3,120</td><td>97</td><td>95</td></tr><tr><td>4</td><td>0</td><td>35</td><td>34</td><td></td><td>32</td><td>35</td><td>322</td><td>37</td><td>536</td><td>9,940</td><td>3,770</td><td>98</td><td>95</td></tr><tr><td>5</td><td>23</td><td>35</td><td>34</td><td></td><td>37</td><td>35</td><td>360</td><td>37</td><td>542</td><td>9,940</td><td>3,730</td><td>98</td><td>94</td></tr><tr><td>6</td><td>34</td><td>35</td><td>34</td><td></td><td>35</td><td>35</td><td>312</td><td>37</td><td>560</td><td>7,860</td><td>3,240</td><td>97</td><td>94</td></tr><tr><td>7</td><td>34</td><td>35</td><td>33</td><td></td><td>35</td><td>35</td><td>123</td><td>37</td><td>570</td><td>7,040</td><td>3,030</td><td>96</td><td>94</td></tr><tr><td>8</td><td>34</td><td>34</td><td>35</td><td></td><td>35</td><td>35</td><td>40</td><td>36</td><td>588</td><td>7,040</td><td>3,030</td><td>95</td><td>94</td></tr><tr><td>9</td><td>34</td><td>33</td><td>35</td><td></td><td>35</td><td>35</td><td>35</td><td>34</td><td>638</td><td>7,060</td><td>3,030</td><td>95</td><td>94</td></tr><tr><td>10</td><td>33</td><td>33</td><td>35</td><td></td><td>36</td><td>35</td><td>35</td><td>385</td><td>674</td><td>6,920</td><td>3,040</td><td>94</td><td>94</td></tr><tr><td>11</td><td>32</td><td>33</td><td>36</td><td></td><td>37</td><td>35</td><td>35</td><td>578</td><td>702</td><td>6,720</td><td>3,040</td><td>89</td><td>94</td></tr><tr><td>12</td><td>34</td><td>34</td><td>36</td><td></td><td>37</td><td>34</td><td>35</td><td>578</td><td>734</td><td>6,030</td><td>3,040</td><td>85</td><td>93</td></tr><tr><td>13</td><td>35</td><td>34</td><td>35</td><td></td><td>37</td><td>34</td><td>35</td><td>581</td><td>1,110</td><td>4,120</td><td>3,040</td><td>90</td><td>93</td></tr><tr><td>14</td><td>35</td><td>34</td><td>35</td><td></td><td>37</td><td>34</td><td>34</td><td>584</td><td>3,780</td><td>3,340</td><td>3,050</td><td>93</td><td>93</td></tr><tr><td>15</td><td>35</td><td>34</td><td>37</td><td></td><td>37</td><td>35</td><td>33</td><td>584</td><td>4,950</td><td>3,340</td><td>3,050</td><td>93</td><td>93</td></tr><tr><td>16</td><td>35</td><td>34</td><td>37</td><td></td><td>37</td><td>35</td><td>34</td><td>592</td><td>4,930</td><td>3,350</td><td>2,690</td><td>92</td><td>62</td></tr><tr><td>17</td><td>35</td><td>33</td><td>36</td><td></td><td>37</td><td>35</td><td>34</td><td>592</td><td>4,930</td><td>3,770</td><td>1,810</td><td>92</td><td>46</td></tr><tr><td>18</td><td>35</td><td>33</td><td>36</td><td></td><td>37</td><td>36</td><td>33</td><td>595</td><td>5,120</td><td>3,970</td><td>1,590</td><td>92</td><td>46</td></tr><tr><td>19</td><td>35</td><td>34</td><td>36</td><td></td><td>54</td><td>36</td><td>32</td><td>598</td><td>5,240</td><td>3,980</td><td>1,510</td><td>90</td><td>46</td></tr><tr><td>20</td><td>35</td><td>33</td><td>35</td><td></td><td>50</td><td>342</td><td>32</td><td>602</td><td>5,240</td><td>4,000</td><td>1,530</td><td>91</td><td>46</td></tr><tr><td>21</td><td>35</td><td>33</td><td>35</td><td></td><td>43</td><td>480</td><td>33</td><td>609</td><td>5,320</td><td>4,000</td><td>1,640</td><td>91</td><td>46</td></tr><tr><td>22</td><td>35</td><td>32</td><td>34</td><td></td><td>43</td><td>465</td><td>33</td><td>620</td><td>5,360</td><td>4,000</td><td>1,920</td><td>90</td><td>46</td></tr><tr><td>23</td><td>35</td><td>32</td><td>34</td><td></td><td>38</td><td>450</td><td>32</td><td>634</td><td>5,550</td><td>4,020</td><td>1,890</td><td>89</td><td>46</td></tr><tr><td>24</td><td>35</td><td>32</td><td>34</td><td></td><td>37</td><td>435</td><td>32</td><td>592</td><td>5,550</td><td>4,040</td><td>1,890</td><td>89</td><td>46</td></tr><tr><td>25</td><td>35</td><td>32</td><td>34</td><td></td><td>57</td><td>420</td><td>32</td><td>598</td><td>5,440</td><td>3,310</td><td>1,500</td><td>89</td><td>46</td></tr><tr><td>26</td><td>35</td><td>32</td><td>34</td><td></td><td>72</td><td>414</td><td>32</td><td>606</td><td>5,530</td><td>2,560</td><td>980</td><td>88</td><td>45</td></tr><tr><td>27</td><td>35</td><td>32</td><td>34</td><td></td><td>75</td><td>405</td><td>32</td><td>609</td><td>5,470</td><td>2,400</td><td>975</td><td>88</td><td>45</td></tr><tr><td>28</td><td>35</td><td>32</td><td>34</td><td></td><td>75</td><td>392</td><td>32</td><td>609</td><td>5,710</td><td>2,410</td><td>975</td><td>89</td><td>45</td></tr><tr><td>29</td><td>35</td><td>32</td><td>34</td><td></td><td>53</td><td></td><td>32</td><td>620</td><td>5,690</td><td>2,110</td><td>579</td><td>86</td><td>45</td></tr><tr><td>30</td><td>35</td><td>36</td><td>34</td><td></td><td>39</td><td></td><td>32</td><td>630</td><td>5,480</td><td>1,960</td><td>332</td><td>85</td><td>45</td></tr><tr><td>31</td><td>35</td><td></td><td>34</td><td></td><td>39</td><td></td><td>32</td><td></td><td>5,520</td><td></td><td>161</td><td>92</td><td></td></tr><tr><td>TOTAL</td><td>964</td><td>1,009</td><td>1,076</td><td></td><td>1,317</td><td>4,469</td><td>2,992</td><td>12,713</td><td>103,145</td><td>147,960</td><td>67,922</td><td>2,845</td><td>2,111</td></tr><tr><td>MEAN</td><td>31.1</td><td>33.6</td><td>34.7</td><td></td><td>42.5</td><td>160</td><td>96.5</td><td>424</td><td>3,327</td><td>4,932</td><td>2,191</td><td>91.8</td><td>70.4</td></tr><tr><td>MAX</td><td>35</td><td>38</td><td>37</td><td></td><td>75</td><td>480</td><td>372</td><td>634</td><td>5,710</td><td>9,940</td><td>3,770</td><td>98</td><td>95</td></tr><tr><td>MIN</td><td>0</td><td>32</td><td>33</td><td></td><td>32</td><td>34</td><td>32</td><td>30</td><td>510</td><td>1,960</td><td>161</td><td>85</td><td>45</td></tr><tr><td>AC-FT</td><td>1,910</td><td>2,000</td><td>2,130</td><td></td><td>2,610</td><td>8,860</td><td>5,930</td><td>25,220</td><td>204,600</td><td>293,500</td><td>134,700</td><td>5,640</td><td>4,190</td></tr><tr><td>CAL YR</td><td>1968 TOTAL</td><td>23,849.30</td><td></td><td>MEAN</td><td>65.2</td><td>MAX</td><td>498</td><td>MIN 0</td><td>AC-FT</td><td>47,300</td><td></td><td></td><td></td></tr><tr><td>WTR YR</td><td>1969 TOTAL</td><td>348,523.00</td><td></td><td>MEAN</td><td>955</td><td>MAX</td><td>9,940</td><td>MIN 0</td><td>AC-FT</td><td>691,300</td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

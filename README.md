@@ -41,8 +41,14 @@ usgs_extract/
     │   │       ├── groundwater_table_pages_expanded.csv ← ground truth expanded to one row per page (MISSING: script that did this expansion)
     │   │       └── MISSING: detection scores for ground truth pages (validation run output)
     │   │   (MISSING: production detection results for all CA docs — ran on HPC, not preserved)
-    │   ├── 03_ocr/                    ← raw Reducto JSON and CSV outputs per page
-    │   └── 04_metadata_extraction/    ← raw LLM metadata outputs before cleaning
+    │   ├── 03_ocr/
+    │   │   (MISSING: validation ground truth and accuracy scripts — to be recovered)
+    │   └── 04_metadata_extraction/
+    │       └── validation/
+    │           ├── validation_curated_135.xlsx    ← curated set graded by Henderson Vo (orig: HV Comments-Review/Test set 1 (curated)/metadata_HVedits.xlsx)
+    │           ├── validation_random_135.xlsx     ← random set graded by Luma Braconi Lazarini (orig: LBL Comments-Review/Random Test Set Grading/random_test_set.xlsx)
+    │           ├── validation_edge_cases_15.xlsx  ← edge case answer key (orig: Parameters & Runs/answer_key_shortlist.xlsx)
+    │           └── jsons/                         ← 260 per-page Reducto JSONs covering all three validation sets
     ├── hydroshare/                    ← upload-ready packages for HydroShare
     └── analysis/                      ← intermediate data from inventory and vignette notebooks
 ```

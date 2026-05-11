@@ -1,0 +1,110 @@
+{
+    "job_id": "53c8f462-b8f6-40b6-9b43-55772a1df3d9",
+    "duration": 6.945709466934204,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/988659c9-c207-4c6c-8521-184e88bea3ab?AWSAccessKeyId=ASIA2UOK6OVBBI6ZRIFV&Signature=qeL8sukD1V3sSeNPgs22e1ktp08%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCIBshDheZGd1BfcR%2F9UVl6cnFEtO6DP1sPAltobUx5T9YAiA22vjYmxcf%2B9A7lKPSa3KjrO1qF8Bbk42LFsz7eFttkyqLBQghEAAaDDczMTEwNjkzMjAzNCIMyKY3f3dJE4QdMd4ZKugERsSjjxb93uGGji%2FpGrt3Ekf%2F5hEQQdiFkemAQlM3M7tgdRuhUFu5tDWKB3T72%2BEWtq%2FtPll4JBxC7TKvjXdtrHa9fv8mKy23hcPOnxuH%2BuzCo40rLBBq9NB7U7AbOZjRYVLy7RCDdTQLH%2BEGHc8%2BtCbXeVhdT1R7FG4iqXv4ApeRsLhUtNzikuxPOpj16rfvErZviMBgvdFM9MLNWyMqq2eLfqURiOqZcCR0C8vWaaKhTzEDCxtrCPsZNfuR1dAkr8pcGPsQs%2BC7XOVXwvGAHKFBM9G%2BjIOD2pqARu7ii5K3SzDq%2FTT4iOK2NtF6QYBK2et35wclYoxlEGtnVvJe5PHTj2pR0G9fChK21NfHcYnpmDEAB0RGxZfbVNjCRhLfdGYIo4UqLsT2l5gels4a%2FWQ7yP93KU5tavVHQQAHH0xlvHq9ExkdvMPgwTw%2F%2BuUSVg8iDgVWtMXQC2fRfprRl8%2BSazotm7AA1oEmblToN3tyMkKVJyBRBhxpseFCVRYTLzYbGUrO3TSa2B4AAuv8U%2FfnqR9JLGZvk7AMu1L202BVf9n05go5H0jel3B%2FlmQmNaMwziW%2BTc5pDUzgcgMGrykBMyiERhkemzAn06m7GUsBT7Rpg2Fha9WVyg1qfR2It5QK6byfJR8YU0nedBMmXDJbznRNn%2BF5ZoKbNzE7Jn9hVmzwiCGMgJNPkiJzS181Eo6oEEVjdxRubXgBxaMjb8DH23s6mDp3F776jO%2B2k8r1XAucHlwmNijf9bh6%2B2xT8KEIOoHXTivsn%2Bf%2BIj3KKtKBMREo%2BdLUHwb5YdQc5n1K%2B2jLyUHw3jDg9Mi6BjqcAbjErYW%2BSy8Bz8v2J7Uo1df%2BcgY9O3JP9mDAqAhDvbepBjLy2VC7Y643xYqdkJ9kvSfB0bSHReMeJ1aynysyAk4nqfK%2BYb5nydApNY83vg1215gopg78tMM7E0zZKa5a4D0KZQSaM1bk5rtOWwbrDLdeC7oBLIz7R6irhFGgFdtflVSSGrT5qEtnWCdvtblODwmCKk7b%2FkUMHTyPdg%3D%3D&Expires=1733447106",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "FIGURE 1.-View of a tributary stream of North Fork Cache Creek, showing stands of pine on the steep slopes and the general density of vegetation, which includes much manzanita. The wide flat area on the valley floor is a point bar of coarse gravel; it is on the concave side of a stream meander in this upstream view.",
+                "embed": "FIGURE 1.-View of a tributary stream of North Fork Cache Creek, showing stands of pine on the steep slopes and the general density of vegetation, which includes much manzanita. The wide flat area on the valley floor is a point bar of coarse gravel; it is on the concave side of a stream meander in this upstream view.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.30264672036823936,
+                            "top": 0.06723933649289099,
+                            "width": 0.33294975067126964,
+                            "height": 0.010959715639810427,
+                            "page": 1
+                        },
+                        "content": "CACHE CREEK DRAINAGE BASIN, CALIFORNIA",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8592251630226314,
+                            "top": 0.06427725118483413,
+                            "width": 0.02186421173762946,
+                            "height": 0.011255924170616114,
+                            "page": 1
+                        },
+                        "content": "A3",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.0649172040663508,
+                            "top": 0.08878068788356691,
+                            "width": 0.8086730172728321,
+                            "height": 0.44330145849435815,
+                            "page": 1
+                        },
+                        "content": "",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06597621787495206,
+                            "top": 0.5429502369668247,
+                            "width": 0.8036056770233986,
+                            "height": 0.03672985781990521,
+                            "page": 1
+                        },
+                        "content": "FIGURE 1.-View of a tributary stream of North Fork Cache Creek, showing stands of pine on the steep slopes and the general density of vegetation, which includes much manzanita. The wide flat area on the valley floor is a point bar of coarse gravel; it is on the concave side of a stream meander in this upstream view.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "layers of silt-clay, sand, and gravel to heterogeneous mixtures of sediment of these size classes. The topog- raphy in this lower reach of North Fork Cache Creek includes many steep bluffs dissected by badland-type gullies. Areas of intense erosion, such as the area shown in figure 2, occur where the silt-clay content of the deposits is fairly high; the bluff shown in the view contains about 30 percent silt-clay. Cache Creek proper flows from the outlet of Clear Lake (pl. 1) to the junction with North Fork through terrain similar to that in the upper reaches of North Fork. Both the relief and the channel gradient of Cache Creek are somewhat less, however, than they are in North Fork. A view downstream from the dam located a short distance below the Clear Lake outlet is shown in figure 3. Coarse debris abounds in the stream channel and, as a consequence, flow tends to be turbulent. Because vegetation occurs along the banks of the stream",
+                "embed": "layers of silt-clay, sand, and gravel to heterogeneous mixtures of sediment of these size classes. The topog- raphy in this lower reach of North Fork Cache Creek includes many steep bluffs dissected by badland-type gullies. Areas of intense erosion, such as the area shown in figure 2, occur where the silt-clay content of the deposits is fairly high; the bluff shown in the view contains about 30 percent silt-clay. Cache Creek proper flows from the outlet of Clear Lake (pl. 1) to the junction with North Fork through terrain similar to that in the upper reaches of North Fork. Both the relief and the channel gradient of Cache Creek are somewhat less, however, than they are in North Fork. A view downstream from the dam located a short distance below the Clear Lake outlet is shown in figure 3. Coarse debris abounds in the stream channel and, as a consequence, flow tends to be turbulent. Because vegetation occurs along the banks of the stream",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05408515535097814,
+                            "top": 0.5980450236966824,
+                            "width": 0.40429612581511315,
+                            "height": 0.2707345971563981,
+                            "page": 1
+                        },
+                        "content": "layers of silt-clay, sand, and gravel to heterogeneous mixtures of sediment of these size classes. The topog- raphy in this lower reach of North Fork Cache Creek includes many steep bluffs dissected by badland-type gullies. Areas of intense erosion, such as the area shown in figure 2, occur where the silt-clay content of the deposits is fairly high; the bluff shown in the view contains about 30 percent silt-clay. Cache Creek proper flows from the outlet of Clear Lake (pl. 1) to the junction with North Fork through terrain similar to that in the upper reaches of North Fork. Both the relief and the channel gradient of Cache Creek are somewhat less, however, than they are in North Fork. A view downstream from the dam located a short distance below the Clear Lake outlet is shown in figure 3. Coarse debris abounds in the stream channel and, as a consequence, flow tends to be turbulent. Because vegetation occurs along the banks of the stream",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "channels in the upper reaches of both Cache Creek and North Fork, save near pronounced meander bends, high stages of flow will not necessarily transport proportion- ally great quantities of sediment. Above the junction of the two streams, however, Cache Creek flows through the Plio-Pleistocene deposits and their associated bad- land-type topography. The availability of sediment by erosion and entrainment during large runoff events in- creases markedly in this region. In its upper reach, Bear Creek (pl. 1) flows through an alluvial valley bounded by low hills on the east and by the rugged highlands on the west. The valley is approximately 10 miles long and 1 mile wide, and the gradient is gentle. Apparently, the sediment trans- port characteristics of Bear Creek are strongly influ- enced by this valley. The Bear Creek channel contains coarse bed material, but its width-depth ratio is large (fig. 4) because the gradient is gentle, much of the",
+                "embed": "channels in the upper reaches of both Cache Creek and North Fork, save near pronounced meander bends, high stages of flow will not necessarily transport proportion- ally great quantities of sediment. Above the junction of the two streams, however, Cache Creek flows through the Plio-Pleistocene deposits and their associated bad- land-type topography. The availability of sediment by erosion and entrainment during large runoff events in- creases markedly in this region. In its upper reach, Bear Creek (pl. 1) flows through an alluvial valley bounded by low hills on the east and by the rugged highlands on the west. The valley is approximately 10 miles long and 1 mile wide, and the gradient is gentle. Apparently, the sediment trans- port characteristics of Bear Creek are strongly influ- enced by this valley. The Bear Creek channel contains coarse bed material, but its width-depth ratio is large (fig. 4) because the gradient is gentle, much of the",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.475258918296893,
+                            "top": 0.597452606635071,
+                            "width": 0.4035289604909858,
+                            "height": 0.2713270142180095,
+                            "page": 1
+                        },
+                        "content": "channels in the upper reaches of both Cache Creek and North Fork, save near pronounced meander bends, high stages of flow will not necessarily transport proportion- ally great quantities of sediment. Above the junction of the two streams, however, Cache Creek flows through the Plio-Pleistocene deposits and their associated bad- land-type topography. The availability of sediment by erosion and entrainment during large runoff events in- creases markedly in this region. In its upper reach, Bear Creek (pl. 1) flows through an alluvial valley bounded by low hills on the east and by the rugged highlands on the west. The valley is approximately 10 miles long and 1 mile wide, and the gradient is gentle. Apparently, the sediment trans- port characteristics of Bear Creek are strongly influ- enced by this valley. The Bear Creek channel contains coarse bed material, but its width-depth ratio is large (fig. 4) because the gradient is gentle, much of the",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

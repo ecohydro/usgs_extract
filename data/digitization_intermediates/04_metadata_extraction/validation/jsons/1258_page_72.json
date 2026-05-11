@@ -1,0 +1,102 @@
+{
+    "job_id": "358dea9a-ccfb-4d7c-a55f-66b151d30893",
+    "duration": 3.257112979888916,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/2fd3b871-60ca-4be0-8a31-fb3d5875f3e5?AWSAccessKeyId=ASIA2UOK6OVBEOAGGPY4&Signature=NEShaI6Siy9DrOom8y1jAMsTuU8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJGMEQCIAlRs%2BrN%2FkKHO30uZ1VJXSGow6%2B4qYy5fWSlOd5GqxoYAiB49x7V2KbCe57dEHTBwxjo1p84S3bVvwaaHuxu7XVpKyqLBQghEAAaDDczMTEwNjkzMjAzNCIMc7j3%2F9uIhzo4Jci5KugEvVI4cr1JHfuVb69f4HISPf6MLDm9yVFQbKWSGeouZ%2BeMhgnEQYibrgI5Eapp204cgXKzifZkwFcikoubdzoVJoIGnOeDls9nwoQIqEeJ%2BfH0ZAFSRpdwxoNUDjBzAd3zBosDG8mDQDswhHUKDd9xcOI9tFtV1lrt6%2F2Yj%2FXG61fZ6R5P0zBFJ9oWUpq%2BG54yC6acIc6xdr%2Ft4lS9KpKeihF61WLIssUpXS1iSmQLZLnkXxEIoc2yLU6RiCnuvjFMClHY4PoI3XOW%2BC1PkT5YS9AhB7btlT1Tm0sOoUXSvibPwQdteJgAgZWEFsL%2BGEZqKZ5pju%2BHWx0GrOfPZn4270w7Hmb%2BMWoalDgIsoXmJBw7i4fcW7xGDMdA5hb041vKtf0d2VlE%2BXcUqlIkPpaWtT8wmNDmjEbw8icM6wEWVkiatjGAYQrWr%2BDTQ7fIumTUSKEum2Mj1xkbLFwatO%2F56UgkLlg0Gqar%2BRCgH4XPFivDWsLfUw5E1bKbEj7bxbkJPtpRhAtnHuGWL48KRfZSvS%2BVE5zg2s%2FJP4zx03YPpqrC2r6fIIVsejuMzF5IsbX6CP8pO7snrhnZA%2BCVfGfcHfVwigFckWUhCBtIhET0dvhtkDbxfgkEKoWM1xzrz%2Bqx8NpOntmKoPDDl%2Fbfnjbq50Bc4SXJYHH3wFjN%2B5%2Fv5q2hAqKnwDlNwB2EM1gJnHUsAfttGg1FtF%2BxvMvymuXbpSUltA3EoGpYXpL0CwvuYl%2FHLsKNTistnW3IekgqLAHpAa44srp8h%2BRNT2OI0IFIRmwHNyow2bHib%2BB6TehPG5t%2BuybXlDd91zDg9Mi6BjqcAdyBVtAJbfhecntyNqXUYcUxCMyVa9d%2FQvlVWQzxnCOGfIOpw7n%2B1iujtFbKbp%2F2eK%2FpkSJhYcsPzqYwxnHud7a6zajpIGHU8H02KqNDex8eiYaVZAYpbu8nRAC7RUqAifwOM6dl3QMXBdhT05T3rHS6UQLX9L3Hb40HPYy%2FOe8YdIDEYM9WmYsiK4MlQe%2FPfcVYMBZlt9Bn0%2Fm1uw%3D%3D&Expires=1733446231",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "64 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF.\n\n25\n\n:20\n\n15\n\n10\n\n5\n\no 20 40 60 80 100\nDISCHARGE, IN CUBIC FEET PER SECOND\nA\n\n5\n\n4\n\n3\n\n2\n\n1\n\n0 20 40 60 80 100\nDISCHARGE, IN CUBIC FEET PER SECOND\nB\n\nFIGURE 8.-A, Infiltration from the East Side Canal. B, Infiltration per unit of length from the East Side Canal.",
+                "embed": "64 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF.\n\n25\n\n:20\n\n15\n\n10\n\n5\n\no 20 40 60 80 100\nDISCHARGE, IN CUBIC FEET PER SECOND\nA\n\n5\n\n4\n\n3\n\n2\n\n1\n\n0 20 40 60 80 100\nDISCHARGE, IN CUBIC FEET PER SECOND\nB\n\nFIGURE 8.-A, Infiltration from the East Side Canal. B, Infiltration per unit of length from the East Side Canal.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07570977917981073,
+                            "top": 0.05257228689447991,
+                            "width": 0.8309148264984227,
+                            "height": 0.01764926774314683,
+                            "page": 1
+                        },
+                        "content": "64 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.07395848896977278,
+                            "top": 0.08401803830670003,
+                            "width": 0.833077073924549,
+                            "height": 0.572631131156781,
+                            "page": 1
+                        },
+                        "content": "25\n\n:20\n\n15\n\n10\n\n5\n\no 20 40 60 80 100\nDISCHARGE, IN CUBIC FEET PER SECOND\nA\n\n5\n\n4\n\n3\n\n2\n\n1\n\n0 20 40 60 80 100\nDISCHARGE, IN CUBIC FEET PER SECOND\nB",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07444794952681388,
+                            "top": 0.660533233195644,
+                            "width": 0.8340694006309148,
+                            "height": 0.01952684941794968,
+                            "page": 1
+                        },
+                        "content": "FIGURE 8.-A, Infiltration from the East Side Canal. B, Infiltration per unit of length from the East Side Canal.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "TABLE 9. - Infiltration from the East Side Canal\n\n<table><tr><th>Site</th><th>Date\n(1955)</th><th>Time (PDT)</th><th>Discharge\n(cfs)</th><th>Seepage\nloss (cfs)</th><th>Percent of\ninitial dis-\ncharge</th><th>Infiltration\nper unit\nlength of\ncanal (cfs\nper mile)</th><th>Infiltration\nper unit\narea (feet\nper day)</th></tr><tr><td>E -1</td><td>May 24</td><td>4:05 p.m</td><td>57.8</td><td></td><td rowspan=\"4\">23.3</td><td rowspan=\"4\">2.34</td><td rowspan=\"5\">1.0</td></tr><tr><td>E -2</td><td>do</td><td>5:52 p.m</td><td>44.3</td><td></td></tr><tr><td>Loss</td><td></td><td></td><td></td><td>13.5</td></tr><tr><td>E -1</td><td>June 6</td><td>9:27 a.m</td><td>67. 7</td><td></td></tr><tr><td>E -2</td><td>do</td><td>11:05 a.m</td><td>45. 4</td><td></td><td rowspan=\"3\">33.0</td><td rowspan=\"3\">3.86</td></tr><tr><td>Loss</td><td></td><td></td><td></td><td>22.3</td><td>1.6</td></tr><tr><td>E -1</td><td>June 18</td><td>9:25 a.m</td><td>65. 2</td><td></td><td></td></tr><tr><td>E -2\nLoss</td><td>do</td><td>9:25 a.m</td><td>1 45. 6</td><td>19.6</td><td>30.1</td><td>3.40</td><td>1.4</td></tr><tr><td colspan=\"6\">Average rates of infiltration: E -1 to E -2</td><td>3.20</td><td>1.3</td></tr></table>\n\n1 Adjusted for measured diversion of 0.4 cfs in reach gaged.",
+                "embed": "TABLE 9. - Infiltration from the East Side Canal\n\n<table><tr><th>Site</th><th>Date\n(1955)</th><th>Time (PDT)</th><th>Discharge\n(cfs)</th><th>Seepage\nloss (cfs)</th><th>Percent of\ninitial dis-\ncharge</th><th>Infiltration\nper unit\nlength of\ncanal (cfs\nper mile)</th><th>Infiltration\nper unit\narea (feet\nper day)</th></tr><tr><td>E -1</td><td>May 24</td><td>4:05 p.m</td><td>57.8</td><td></td><td rowspan=\"4\">23.3</td><td rowspan=\"4\">2.34</td><td rowspan=\"5\">1.0</td></tr><tr><td>E -2</td><td>do</td><td>5:52 p.m</td><td>44.3</td><td></td></tr><tr><td>Loss</td><td></td><td></td><td></td><td>13.5</td></tr><tr><td>E -1</td><td>June 6</td><td>9:27 a.m</td><td>67. 7</td><td></td></tr><tr><td>E -2</td><td>do</td><td>11:05 a.m</td><td>45. 4</td><td></td><td rowspan=\"3\">33.0</td><td rowspan=\"3\">3.86</td></tr><tr><td>Loss</td><td></td><td></td><td></td><td>22.3</td><td>1.6</td></tr><tr><td>E -1</td><td>June 18</td><td>9:25 a.m</td><td>65. 2</td><td></td><td></td></tr><tr><td>E -2\nLoss</td><td>do</td><td>9:25 a.m</td><td>1 45. 6</td><td>19.6</td><td>30.1</td><td>3.40</td><td>1.4</td></tr><tr><td colspan=\"6\">Average rates of infiltration: E -1 to E -2</td><td>3.20</td><td>1.3</td></tr></table>\n\n1 Adjusted for measured diversion of 0.4 cfs in reach gaged.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.22271293375394322,
+                            "top": 0.6860683439729628,
+                            "width": 0.4914826498422713,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "TABLE 9. - Infiltration from the East Side Canal",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06906388339936169,
+                            "top": 0.7023507725955219,
+                            "width": 0.8449986166006384,
+                            "height": 0.20013425442405183,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Site</th><th>Date\n(1955)</th><th>Time (PDT)</th><th>Discharge\n(cfs)</th><th>Seepage\nloss (cfs)</th><th>Percent of\ninitial dis-\ncharge</th><th>Infiltration\nper unit\nlength of\ncanal (cfs\nper mile)</th><th>Infiltration\nper unit\narea (feet\nper day)</th></tr><tr><td>E -1</td><td>May 24</td><td>4:05 p.m</td><td>57.8</td><td></td><td rowspan=\"4\">23.3</td><td rowspan=\"4\">2.34</td><td rowspan=\"5\">1.0</td></tr><tr><td>E -2</td><td>do</td><td>5:52 p.m</td><td>44.3</td><td></td></tr><tr><td>Loss</td><td></td><td></td><td></td><td>13.5</td></tr><tr><td>E -1</td><td>June 6</td><td>9:27 a.m</td><td>67. 7</td><td></td></tr><tr><td>E -2</td><td>do</td><td>11:05 a.m</td><td>45. 4</td><td></td><td rowspan=\"3\">33.0</td><td rowspan=\"3\">3.86</td></tr><tr><td>Loss</td><td></td><td></td><td></td><td>22.3</td><td>1.6</td></tr><tr><td>E -1</td><td>June 18</td><td>9:25 a.m</td><td>65. 2</td><td></td><td></td></tr><tr><td>E -2\nLoss</td><td>do</td><td>9:25 a.m</td><td>1 45. 6</td><td>19.6</td><td>30.1</td><td>3.40</td><td>1.4</td></tr><tr><td colspan=\"6\">Average rates of infiltration: E -1 to E -2</td><td>3.20</td><td>1.3</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08769716088328075,
+                            "top": 0.9038678182500939,
+                            "width": 0.45678233438485805,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "1 Adjusted for measured diversion of 0.4 cfs in reach gaged.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

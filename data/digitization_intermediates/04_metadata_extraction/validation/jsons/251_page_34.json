@@ -1,0 +1,90 @@
+{
+    "job_id": "513906fa-3933-457a-966d-bf2b2362d06a",
+    "duration": 3.7028849124908447,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/05eb59f0-1bfe-4ba5-86bb-4d3b43a2544d?AWSAccessKeyId=ASIA2UOK6OVBDEZTIWF7&Signature=ZHIdhAxZN0X6rudhXs%2FicKFvf64%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQDuCTctWoxWXJUt8fBMDH8Da1v0VjFUjw2ErpYarZPP7AIhAJOGZunYmVL6kuWeBWccPgwnpTL60r8uoGtKm0jRa1W1KosFCCQQABoMNzMxMTA2OTMyMDM0Igy%2F9kUU%2FQHUXKs6E%2Bkq6ATcm3Qym2p1mE1gCahvYIn5tz4a%2BQjdhZtkBA4SOwKwDURgI%2B5KJb0sFxC0YccRfdDP%2FsIbJAdGjWzoXilL9QYK2SsMQJzrMEVRp6LUsnOxVgiN%2FEA01a5bh4vSejMLl9iIZOWwRvNSBEhhx0s4f1I04dt0EO6s58Qs%2BTh505HK2tET%2F6UaD5ZdlniTV8S7tqDP%2FmHU4vn2K4s0hafO2HRoTIhpxhhR6jg4boq87LOV1VKzVopd9B77jsdJ3q91JnfEeNVAqx6MZ%2BmiYNMJiBEK%2F5wJ3fQ6SCFOgye4EPoolrOUHvTIavQXxH%2Fb2tTio57zsN4CtyI0jrRv37M6MdvoXYS%2BJzO8TbPMLq4XUscx874LQBHRJ0A%2BdzEyjyT3LLxcaXsxONebX%2FAZd6zgyW17toABfDlkg4Zryssu5ViyyeoGJ9D4oQz7lcp%2FMB8DRyGKj2ug4%2BTWc2eN6mzrwDyBvrCAyZdTBlS5V5s7w5D9qxYtjGtcdFEIIOru9rMpGTb%2BStVb5aaPnggS9PyzAVeSUiUQXLhitQ%2B8N9MLsfHbkWzzIgy12%2FAxxmcxW1MbU2bbOkW%2BaCitAJ4Uv6v5KsEpT9GBioUf78hn8CtGE14RJMAgZOmlpxAPspv6AP2fM%2FSbbKaGxyUbJCpCK6dXhG3G0gc635RAWTAu2LdqxGrgMVTDu7MA8c%2BPNCzXBHYymBYAVzOVaSE1IIf4uNitAOX7uEH4mGAJ9ZfOlMEFM1xqzMDk%2F4DWsSBKWB0tz0uVoE9n0cXnhwDD5k6ppGoeyEhqAmB6%2FQ%2BKaGD5df9kQFrmCJ%2F1kUnWVNPWMKLJyboGOpoBMEatqVXTIZ2OivLei4%2BXxVazzYpkbICcj0rBYp1ZoO%2BMrZpXFibcXHNuYq4gVvlZl2VvfF6Fk%2Fp8tv%2BJPQqBYgRq0igKXpGYz9cKtnlOx8rOJsOGnWlVwvZuLm1om86wWtr98Ovq8k%2FeSTYiN0QdOep%2FGvnOotDDiKShOgsmwot6HGH%2F16CoXZJtgBl%2FYrncrLZsY1u9w1JHQg%3D%3D&Expires=1733457514",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# BIBLIOGRAPHY\n\n31\n\nGaging stations for which no records of discharge are available and which are not included in this report",
+                "embed": "# BIBLIOGRAPHY\n\n31\n\nGaging stations for which no records of discharge are available and which are not included in this report",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4045084533500313,
+                            "top": 0.048411497730711045,
+                            "width": 0.11271133375078271,
+                            "height": 0.00794251134644478,
+                            "page": 1
+                        },
+                        "content": "BIBLIOGRAPHY",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8584846587351284,
+                            "top": 0.04652042360060514,
+                            "width": 0.01878522229179712,
+                            "height": 0.007564296520423601,
+                            "page": 1
+                        },
+                        "content": "31",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16217908578584847,
+                            "top": 0.07488653555219364,
+                            "width": 0.5860989355040701,
+                            "height": 0.02042360060514372,
+                            "page": 1
+                        },
+                        "content": "Gaging stations for which no records of discharge are available and which are not included in this report",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# BIBLIOGRAPHY (cont.)\n\n<table><tr><th>Gaging station</th><th>Record\nyear</th><th>Publication</th></tr><tr><td rowspan=\"16\">Gila River at Ashurst-Hayden Dam,\nnear Florence, Ariz.</td><td>1923</td><td>tW 569, p. 112.</td></tr><tr><td>1924</td><td>IW 589, p. 104.</td></tr><tr><td>1925</td><td>tw 609, p. 94.</td></tr><tr><td>1926</td><td>1W 629, p. 94.</td></tr><tr><td>1927</td><td>tW 649, p. 67.</td></tr><tr><td>1928</td><td>tw 669, p. 64.</td></tr><tr><td>1929</td><td>tW 689, p. 72.</td></tr><tr><td>1930</td><td>tw 704, p. 80.</td></tr><tr><td>1931</td><td>1W 719, P. 82.</td></tr><tr><td>1932</td><td>tw 734, p. 103.</td></tr><tr><td>1933</td><td>tW 749, p. 88.</td></tr><tr><td>1934</td><td>tw 764, p. 125.</td></tr><tr><td>1935</td><td>tW 789, p. 141.</td></tr><tr><td>1936</td><td>tw 809, p. 151.</td></tr><tr><td>1937</td><td>1W 829, p. 162.</td></tr><tr><td>1938</td><td>1W 859, P. 241.</td></tr><tr><td rowspan=\"10\">Gila River at York, Ariz.</td><td>1922</td><td>1W 549, p. 171.</td></tr><tr><td>1923</td><td>tw 589, p. 98.</td></tr><tr><td>1924</td><td>tw 589, P. 98.</td></tr><tr><td>1925</td><td>I'W 609, p. 87.</td></tr><tr><td>1926</td><td>IW 629, p. 86.</td></tr><tr><td>1927</td><td>1W 649, p. 63.</td></tr><tr><td>1928</td><td>1W 669, p. 58.</td></tr><tr><td>1929</td><td>tid 689, p. 66.</td></tr><tr><td>1930</td><td>IW 704, p. 71.</td></tr><tr><td>1931</td><td>1W 719, p. 73.</td></tr><tr><td rowspan=\"6\">Gila River below Duncan, Ariz.</td><td>1926</td><td>tw 649, p. 63.</td></tr><tr><td>1927</td><td>1W 649, p. 63.</td></tr><tr><td>1928</td><td>to 669, p. 58.</td></tr><tr><td>1929</td><td>IW 689, p. 66.</td></tr><tr><td>1930</td><td>1W 704, p. 71.</td></tr><tr><td>1931</td><td>tW 719, p. 73.</td></tr><tr><td rowspan=\"13\">Gila River near Ashurst, Ariz.</td><td>1921</td><td>1W 549, p. 119.</td></tr><tr><td>1922</td><td>IW 549, p. 119.</td></tr><tr><td>1923</td><td>tw 569, p. 108.</td></tr><tr><td>1924</td><td>tw 589, p. 100.</td></tr><tr><td>1925</td><td>1W 609, p. 90.</td></tr><tr><td>1926</td><td>IW 629, p. 88.</td></tr><tr><td>1927</td><td>1W 649, p. 64.</td></tr><tr><td>1928</td><td>1W 669, p. 61.</td></tr><tr><td>1929</td><td>IW 689, P. 69.</td></tr><tr><td>1930</td><td>1W 704, p. 74.</td></tr><tr><td>1931</td><td>1W 719, p. 76.</td></tr><tr><td>1932</td><td>tW 734, P. 97.</td></tr><tr><td>1933</td><td>1W 749, p. 83.</td></tr><tr><td>Gila River near Florence, Ariz.</td><td>1914</td><td>1W 389, p. 160.</td></tr><tr><td>Hassayampa River at Wickenburg,\nAriz.</td><td>1912</td><td>IW 329, p. 230.</td></tr><tr><td>Hassayampa River near Wickenburg,\nAriz.</td><td>1911</td><td>tW 309, p. 245.</td></tr><tr><td>Price and Powell ditch near</td><td>1914</td><td>1W 409, P. 202.</td></tr><tr><td>Florence, Ariz.</td><td>1915</td><td>tW 409, P. 202.</td></tr><tr><td>Silver Creek near Snowflake, Ariz.</td><td>1906</td><td>IV 211, P. 114.</td></tr><tr><td>(Published as Silver Creek at</td><td>1916</td><td>1W 439, P. 139.</td></tr><tr><td>canyon station near Snowflake,\nAriz., 1906.)</td><td></td><td></td></tr><tr><td>St. George and Santa Clara North\nCanal at Santa Clara, Utah</td><td>1915</td><td>tv 409, p. 142.</td></tr><tr><td>St. George and Santa Clara South\nCanal at Santa Clara, Utah</td><td>1915</td><td>IW 409, p. 142.</td></tr><tr><td>Town Canal at Santa Clara, Utah</td><td>1915</td><td>IW 409, p. 141.</td></tr><tr><td>Woodruff ditch near Woodruff, Ariz.</td><td>1906</td><td>tw 211, p. 119.</td></tr><tr><td>York Canal at York, Ariz.</td><td>1914</td><td>1W 409, p. 170.</td></tr><tr><td></td><td>1915</td><td>1W 409, p. 170.</td></tr><tr><td></td><td>1923</td><td>IW 589, p. 119.</td></tr><tr><td></td><td>1924</td><td>tW 589, p. 119.</td></tr><tr><td></td><td>1925</td><td>tw 609, p. 107.</td></tr><tr><td></td><td>1926</td><td>1W 629, p. 107.</td></tr><tr><td></td><td>1927</td><td>tw 649, p. 76.</td></tr><tr><td></td><td>1928</td><td>IW 669, P. 72.</td></tr><tr><td></td><td>1929</td><td>I'M 689, p. 80.</td></tr><tr><td></td><td>1930</td><td>I'll 704, p. 88.</td></tr><tr><td></td><td>1931</td><td>tW 719, p. 90.</td></tr></table>\n\no",
+                "embed": "# BIBLIOGRAPHY (cont.)\n\n<table><tr><th>Gaging station</th><th>Record\nyear</th><th>Publication</th></tr><tr><td rowspan=\"16\">Gila River at Ashurst-Hayden Dam,\nnear Florence, Ariz.</td><td>1923</td><td>tW 569, p. 112.</td></tr><tr><td>1924</td><td>IW 589, p. 104.</td></tr><tr><td>1925</td><td>tw 609, p. 94.</td></tr><tr><td>1926</td><td>1W 629, p. 94.</td></tr><tr><td>1927</td><td>tW 649, p. 67.</td></tr><tr><td>1928</td><td>tw 669, p. 64.</td></tr><tr><td>1929</td><td>tW 689, p. 72.</td></tr><tr><td>1930</td><td>tw 704, p. 80.</td></tr><tr><td>1931</td><td>1W 719, P. 82.</td></tr><tr><td>1932</td><td>tw 734, p. 103.</td></tr><tr><td>1933</td><td>tW 749, p. 88.</td></tr><tr><td>1934</td><td>tw 764, p. 125.</td></tr><tr><td>1935</td><td>tW 789, p. 141.</td></tr><tr><td>1936</td><td>tw 809, p. 151.</td></tr><tr><td>1937</td><td>1W 829, p. 162.</td></tr><tr><td>1938</td><td>1W 859, P. 241.</td></tr><tr><td rowspan=\"10\">Gila River at York, Ariz.</td><td>1922</td><td>1W 549, p. 171.</td></tr><tr><td>1923</td><td>tw 589, p. 98.</td></tr><tr><td>1924</td><td>tw 589, P. 98.</td></tr><tr><td>1925</td><td>I'W 609, p. 87.</td></tr><tr><td>1926</td><td>IW 629, p. 86.</td></tr><tr><td>1927</td><td>1W 649, p. 63.</td></tr><tr><td>1928</td><td>1W 669, p. 58.</td></tr><tr><td>1929</td><td>tid 689, p. 66.</td></tr><tr><td>1930</td><td>IW 704, p. 71.</td></tr><tr><td>1931</td><td>1W 719, p. 73.</td></tr><tr><td rowspan=\"6\">Gila River below Duncan, Ariz.</td><td>1926</td><td>tw 649, p. 63.</td></tr><tr><td>1927</td><td>1W 649, p. 63.</td></tr><tr><td>1928</td><td>to 669, p. 58.</td></tr><tr><td>1929</td><td>IW 689, p. 66.</td></tr><tr><td>1930</td><td>1W 704, p. 71.</td></tr><tr><td>1931</td><td>tW 719, p. 73.</td></tr><tr><td rowspan=\"13\">Gila River near Ashurst, Ariz.</td><td>1921</td><td>1W 549, p. 119.</td></tr><tr><td>1922</td><td>IW 549, p. 119.</td></tr><tr><td>1923</td><td>tw 569, p. 108.</td></tr><tr><td>1924</td><td>tw 589, p. 100.</td></tr><tr><td>1925</td><td>1W 609, p. 90.</td></tr><tr><td>1926</td><td>IW 629, p. 88.</td></tr><tr><td>1927</td><td>1W 649, p. 64.</td></tr><tr><td>1928</td><td>1W 669, p. 61.</td></tr><tr><td>1929</td><td>IW 689, P. 69.</td></tr><tr><td>1930</td><td>1W 704, p. 74.</td></tr><tr><td>1931</td><td>1W 719, p. 76.</td></tr><tr><td>1932</td><td>tW 734, P. 97.</td></tr><tr><td>1933</td><td>1W 749, p. 83.</td></tr><tr><td>Gila River near Florence, Ariz.</td><td>1914</td><td>1W 389, p. 160.</td></tr><tr><td>Hassayampa River at Wickenburg,\nAriz.</td><td>1912</td><td>IW 329, p. 230.</td></tr><tr><td>Hassayampa River near Wickenburg,\nAriz.</td><td>1911</td><td>tW 309, p. 245.</td></tr><tr><td>Price and Powell ditch near</td><td>1914</td><td>1W 409, P. 202.</td></tr><tr><td>Florence, Ariz.</td><td>1915</td><td>tW 409, P. 202.</td></tr><tr><td>Silver Creek near Snowflake, Ariz.</td><td>1906</td><td>IV 211, P. 114.</td></tr><tr><td>(Published as Silver Creek at</td><td>1916</td><td>1W 439, P. 139.</td></tr><tr><td>canyon station near Snowflake,\nAriz., 1906.)</td><td></td><td></td></tr><tr><td>St. George and Santa Clara North\nCanal at Santa Clara, Utah</td><td>1915</td><td>tv 409, p. 142.</td></tr><tr><td>St. George and Santa Clara South\nCanal at Santa Clara, Utah</td><td>1915</td><td>IW 409, p. 142.</td></tr><tr><td>Town Canal at Santa Clara, Utah</td><td>1915</td><td>IW 409, p. 141.</td></tr><tr><td>Woodruff ditch near Woodruff, Ariz.</td><td>1906</td><td>tw 211, p. 119.</td></tr><tr><td>York Canal at York, Ariz.</td><td>1914</td><td>1W 409, p. 170.</td></tr><tr><td></td><td>1915</td><td>1W 409, p. 170.</td></tr><tr><td></td><td>1923</td><td>IW 589, p. 119.</td></tr><tr><td></td><td>1924</td><td>tW 589, p. 119.</td></tr><tr><td></td><td>1925</td><td>tw 609, p. 107.</td></tr><tr><td></td><td>1926</td><td>1W 629, p. 107.</td></tr><tr><td></td><td>1927</td><td>tw 649, p. 76.</td></tr><tr><td></td><td>1928</td><td>IW 669, P. 72.</td></tr><tr><td></td><td>1929</td><td>I'M 689, p. 80.</td></tr><tr><td></td><td>1930</td><td>I'll 704, p. 88.</td></tr><tr><td></td><td>1931</td><td>tW 719, p. 90.</td></tr></table>\n\no",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.031907109670812214,
+                            "top": 0.09786501378046403,
+                            "width": 0.8493089216085397,
+                            "height": 0.8567747846133049,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Gaging station</th><th>Record\nyear</th><th>Publication</th></tr><tr><td rowspan=\"16\">Gila River at Ashurst-Hayden Dam,\nnear Florence, Ariz.</td><td>1923</td><td>tW 569, p. 112.</td></tr><tr><td>1924</td><td>IW 589, p. 104.</td></tr><tr><td>1925</td><td>tw 609, p. 94.</td></tr><tr><td>1926</td><td>1W 629, p. 94.</td></tr><tr><td>1927</td><td>tW 649, p. 67.</td></tr><tr><td>1928</td><td>tw 669, p. 64.</td></tr><tr><td>1929</td><td>tW 689, p. 72.</td></tr><tr><td>1930</td><td>tw 704, p. 80.</td></tr><tr><td>1931</td><td>1W 719, P. 82.</td></tr><tr><td>1932</td><td>tw 734, p. 103.</td></tr><tr><td>1933</td><td>tW 749, p. 88.</td></tr><tr><td>1934</td><td>tw 764, p. 125.</td></tr><tr><td>1935</td><td>tW 789, p. 141.</td></tr><tr><td>1936</td><td>tw 809, p. 151.</td></tr><tr><td>1937</td><td>1W 829, p. 162.</td></tr><tr><td>1938</td><td>1W 859, P. 241.</td></tr><tr><td rowspan=\"10\">Gila River at York, Ariz.</td><td>1922</td><td>1W 549, p. 171.</td></tr><tr><td>1923</td><td>tw 589, p. 98.</td></tr><tr><td>1924</td><td>tw 589, P. 98.</td></tr><tr><td>1925</td><td>I'W 609, p. 87.</td></tr><tr><td>1926</td><td>IW 629, p. 86.</td></tr><tr><td>1927</td><td>1W 649, p. 63.</td></tr><tr><td>1928</td><td>1W 669, p. 58.</td></tr><tr><td>1929</td><td>tid 689, p. 66.</td></tr><tr><td>1930</td><td>IW 704, p. 71.</td></tr><tr><td>1931</td><td>1W 719, p. 73.</td></tr><tr><td rowspan=\"6\">Gila River below Duncan, Ariz.</td><td>1926</td><td>tw 649, p. 63.</td></tr><tr><td>1927</td><td>1W 649, p. 63.</td></tr><tr><td>1928</td><td>to 669, p. 58.</td></tr><tr><td>1929</td><td>IW 689, p. 66.</td></tr><tr><td>1930</td><td>1W 704, p. 71.</td></tr><tr><td>1931</td><td>tW 719, p. 73.</td></tr><tr><td rowspan=\"13\">Gila River near Ashurst, Ariz.</td><td>1921</td><td>1W 549, p. 119.</td></tr><tr><td>1922</td><td>IW 549, p. 119.</td></tr><tr><td>1923</td><td>tw 569, p. 108.</td></tr><tr><td>1924</td><td>tw 589, p. 100.</td></tr><tr><td>1925</td><td>1W 609, p. 90.</td></tr><tr><td>1926</td><td>IW 629, p. 88.</td></tr><tr><td>1927</td><td>1W 649, p. 64.</td></tr><tr><td>1928</td><td>1W 669, p. 61.</td></tr><tr><td>1929</td><td>IW 689, P. 69.</td></tr><tr><td>1930</td><td>1W 704, p. 74.</td></tr><tr><td>1931</td><td>1W 719, p. 76.</td></tr><tr><td>1932</td><td>tW 734, P. 97.</td></tr><tr><td>1933</td><td>1W 749, p. 83.</td></tr><tr><td>Gila River near Florence, Ariz.</td><td>1914</td><td>1W 389, p. 160.</td></tr><tr><td>Hassayampa River at Wickenburg,\nAriz.</td><td>1912</td><td>IW 329, p. 230.</td></tr><tr><td>Hassayampa River near Wickenburg,\nAriz.</td><td>1911</td><td>tW 309, p. 245.</td></tr><tr><td>Price and Powell ditch near</td><td>1914</td><td>1W 409, P. 202.</td></tr><tr><td>Florence, Ariz.</td><td>1915</td><td>tW 409, P. 202.</td></tr><tr><td>Silver Creek near Snowflake, Ariz.</td><td>1906</td><td>IV 211, P. 114.</td></tr><tr><td>(Published as Silver Creek at</td><td>1916</td><td>1W 439, P. 139.</td></tr><tr><td>canyon station near Snowflake,\nAriz., 1906.)</td><td></td><td></td></tr><tr><td>St. George and Santa Clara North\nCanal at Santa Clara, Utah</td><td>1915</td><td>tv 409, p. 142.</td></tr><tr><td>St. George and Santa Clara South\nCanal at Santa Clara, Utah</td><td>1915</td><td>IW 409, p. 142.</td></tr><tr><td>Town Canal at Santa Clara, Utah</td><td>1915</td><td>IW 409, p. 141.</td></tr><tr><td>Woodruff ditch near Woodruff, Ariz.</td><td>1906</td><td>tw 211, p. 119.</td></tr><tr><td>York Canal at York, Ariz.</td><td>1914</td><td>1W 409, p. 170.</td></tr><tr><td></td><td>1915</td><td>1W 409, p. 170.</td></tr><tr><td></td><td>1923</td><td>IW 589, p. 119.</td></tr><tr><td></td><td>1924</td><td>tW 589, p. 119.</td></tr><tr><td></td><td>1925</td><td>tw 609, p. 107.</td></tr><tr><td></td><td>1926</td><td>1W 629, p. 107.</td></tr><tr><td></td><td>1927</td><td>tw 649, p. 76.</td></tr><tr><td></td><td>1928</td><td>IW 669, P. 72.</td></tr><tr><td></td><td>1929</td><td>I'M 689, p. 80.</td></tr><tr><td></td><td>1930</td><td>I'll 704, p. 88.</td></tr><tr><td></td><td>1931</td><td>tW 719, p. 90.</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.9561678146524734,
+                            "top": 0.987518910741301,
+                            "width": 0.007514088916718848,
+                            "height": 0.00529500756429652,
+                            "page": 1
+                        },
+                        "content": "o",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

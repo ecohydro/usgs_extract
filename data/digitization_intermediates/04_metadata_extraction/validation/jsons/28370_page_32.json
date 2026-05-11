@@ -1,0 +1,98 @@
+{
+    "job_id": "bd7a4420-54a1-40c5-a5e4-39b5b9d3277b",
+    "duration": 4.195194959640503,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/d4ebe865-e657-454d-b581-8cf2760159e0?AWSAccessKeyId=ASIA2UOK6OVBPRMC4ZS2&Signature=op4WiKlmhtXCVAT1trjYPTaBsQQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEetTFSwBTZ8s8ZY%2FdxzowdON%2Fb7qX4pXuqcarPUPJl0AiEArO524mzwKEZ3RO6bgZQEVxtRqIYVHHW%2BhMw9gYhX5acqlAUIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDKh9BCV73lKdnuk83yroBKrUnu%2FJpTocThEhZuC2pKaUzjM6vOVQq5X7sE%2BF3e1DBpKNMEkX3KB46ah2J%2FVu9vabChIsEKLTRsAfE2r4XB7UQU8IPmqJsoOusl6BEoqgnuOp6zPAP8vg10szRNNnH8KPCQGCOnG44IGZdA6p76spOiGohT%2FNzEmk30Pv%2FX%2BIsZPAhWge9kzAhePAf8x8vlAjm9xRqF9PiNHiASXXIUJopjQTpH777%2FBqQEroALNIFsFR%2B2TIzR3jw8mJnbdRWBqxbSawNSaf8Y%2BTJ7LZBiXFipM8M7Q86VufC6jB1DZKJNHhhWtOQjKwMuZwA81glA4wvRfrluWwE9w15LNn8gP0ib6HKR32G7lKD7x64U%2BJQKkGQbOguxBkXbZB07lgFm5OxbYx4MIJXdb7%2FmoYt5Az7EgF4i8L5A3r1awTski8HzoO3jFgBuDXcFXqZwgzZXXiV8YGsWiHbdGNMN%2FeOjPQA0x0sffBXbrM%2B%2FdrC63EnjnL01KUnfXJGgzOO7wvSFkOg07db2RuD3WhWwxxkzBufIUXEf9EAX03%2BwSdusN%2BmFKIfjrv9U2ThWCdDmGYo2ZKWPDfWpNTlYdqyzPp39fiZB31ZVopMqQB7%2FkdC5n4KpBT62qkaqjtVMWq8d8Sg86fDPQC%2By3vlola6UFTLPL0bv2JGlz0ayr6zkYM8wNspClcmy5PBxkb6bDEzMObLNnJla6svm89wRBW0KhjGOcw5Ffr8TpYX1GEg83OGgKCynTW911e8Y8Gk%2BbTNviXTNM62g4G0SHu%2FcQHAuqIOOEZrvW%2Bth%2F0ky55bwmKQzrYXLiMOC0bAVUwrseIvAY6mwFzjQ%2BOB7lhKQW0Jw8gQ38dFDJGw%2BN34YNJ7iDyOLHSDGg4MnNAvdo%2BVXMOlfmcocWihUpeL6h5nMP6x%2BpR7Zs9C6SE48IrHnmVLBlNMtgEhu3Ft5PGbH3CbeOjqVRHyu7Vy9luwubiSHwVuGWZPFef8FpzkrlxfKj5kbHAMJ7P6hPb78%2Bk9JkN08W%2FWSx%2BvB1ouWB5BQ%2BMwVKwIw%3D%3D&Expires=1736587822",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS\n\nTABLE 5. .--Gaging-station thermograph records used in the evaluation--Continued",
+                "embed": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS\n\nTABLE 5. .--Gaging-station thermograph records used in the evaluation--Continued",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.08180039138943249,
+                            "top": 0.0525356817491649,
+                            "width": 0.0187866927592955,
+                            "height": 0.009717582751290617,
+                            "page": 1
+                        },
+                        "content": "28",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.21956947162426615,
+                            "top": 0.047069541451563925,
+                            "width": 0.5189823874755382,
+                            "height": 0.013665350744002429,
+                            "page": 1
+                        },
+                        "content": "EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.08258317025440313,
+                            "top": 0.07318554509565746,
+                            "width": 0.7643835616438356,
+                            "height": 0.019131491041603402,
+                            "page": 1
+                        },
+                        "content": "TABLE 5. .--Gaging-station thermograph records used in the evaluation--Continued",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n<table><tr><th rowspan=\"2\">Sequence\nnumber</th><th rowspan=\"2\">U.S. Geological\nSurvey gaging\nstation number</th><th rowspan=\"2\">Hydrologic\nsubregion</th><th rowspan=\"2\">Station name</th><th colspan=\"2\">Thermograph record</th></tr><tr><td>Number of\nyears</td><td>Water\nyears</td></tr><tr><td>74</td><td>11516600</td><td>North\nCoastal</td><td>Cottonwood Creek near Hornbrook</td><td>5</td><td>1965\n1967-69\n1971</td></tr><tr><td>75</td><td>11517500</td><td>North\nCoastal</td><td>Shasta River near Yreka</td><td>6</td><td>1967\n1969-73</td></tr><tr><td>76</td><td>11520500</td><td>North\nCoastal</td><td>Klamath River near Seiad Valley</td><td>2g</td><td>1964\n1966-73</td></tr><tr><td>77</td><td>11522500</td><td>North\nCoastal</td><td>Salmon River at Somesbar</td><td>6</td><td>1966\n1969-73</td></tr><tr><td>78</td><td>11523000</td><td>North\nCoastal</td><td>Klamath River at Orleans</td><td>18</td><td>1966-73</td></tr><tr><td>79</td><td>11525500</td><td>North\nCoastal</td><td>Trinity River at Lewiston</td><td>14</td><td>1960-73</td></tr><tr><td>80</td><td>11527000</td><td>North\nCoastal</td><td>Trinity River near Burnt Ranch</td><td>7</td><td>1963-64\n1967\n1969-71\n1973</td></tr><tr><td>81</td><td>11530300</td><td>North\nCoastal</td><td>Blue Creek near Klamath</td><td>7</td><td>1967-73</td></tr><tr><td>.82</td><td>11532500</td><td>North\nCoastal</td><td>Smith River near Crescent City</td><td>5</td><td>1967-70\n1973</td></tr></table>",
+                "embed": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n<table><tr><th rowspan=\"2\">Sequence\nnumber</th><th rowspan=\"2\">U.S. Geological\nSurvey gaging\nstation number</th><th rowspan=\"2\">Hydrologic\nsubregion</th><th rowspan=\"2\">Station name</th><th colspan=\"2\">Thermograph record</th></tr><tr><td>Number of\nyears</td><td>Water\nyears</td></tr><tr><td>74</td><td>11516600</td><td>North\nCoastal</td><td>Cottonwood Creek near Hornbrook</td><td>5</td><td>1965\n1967-69\n1971</td></tr><tr><td>75</td><td>11517500</td><td>North\nCoastal</td><td>Shasta River near Yreka</td><td>6</td><td>1967\n1969-73</td></tr><tr><td>76</td><td>11520500</td><td>North\nCoastal</td><td>Klamath River near Seiad Valley</td><td>2g</td><td>1964\n1966-73</td></tr><tr><td>77</td><td>11522500</td><td>North\nCoastal</td><td>Salmon River at Somesbar</td><td>6</td><td>1966\n1969-73</td></tr><tr><td>78</td><td>11523000</td><td>North\nCoastal</td><td>Klamath River at Orleans</td><td>18</td><td>1966-73</td></tr><tr><td>79</td><td>11525500</td><td>North\nCoastal</td><td>Trinity River at Lewiston</td><td>14</td><td>1960-73</td></tr><tr><td>80</td><td>11527000</td><td>North\nCoastal</td><td>Trinity River near Burnt Ranch</td><td>7</td><td>1963-64\n1967\n1969-71\n1973</td></tr><tr><td>81</td><td>11530300</td><td>North\nCoastal</td><td>Blue Creek near Klamath</td><td>7</td><td>1967-73</td></tr><tr><td>.82</td><td>11532500</td><td>North\nCoastal</td><td>Smith River near Crescent City</td><td>5</td><td>1967-70\n1973</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.09573189871651785,
+                            "top": 0.1124971808541556,
+                            "width": 0.7460829404468873,
+                            "height": 0.4132967988589669,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Sequence\nnumber</th><th rowspan=\"2\">U.S. Geological\nSurvey gaging\nstation number</th><th rowspan=\"2\">Hydrologic\nsubregion</th><th rowspan=\"2\">Station name</th><th colspan=\"2\">Thermograph record</th></tr><tr><td>Number of\nyears</td><td>Water\nyears</td></tr><tr><td>74</td><td>11516600</td><td>North\nCoastal</td><td>Cottonwood Creek near Hornbrook</td><td>5</td><td>1965\n1967-69\n1971</td></tr><tr><td>75</td><td>11517500</td><td>North\nCoastal</td><td>Shasta River near Yreka</td><td>6</td><td>1967\n1969-73</td></tr><tr><td>76</td><td>11520500</td><td>North\nCoastal</td><td>Klamath River near Seiad Valley</td><td>2g</td><td>1964\n1966-73</td></tr><tr><td>77</td><td>11522500</td><td>North\nCoastal</td><td>Salmon River at Somesbar</td><td>6</td><td>1966\n1969-73</td></tr><tr><td>78</td><td>11523000</td><td>North\nCoastal</td><td>Klamath River at Orleans</td><td>18</td><td>1966-73</td></tr><tr><td>79</td><td>11525500</td><td>North\nCoastal</td><td>Trinity River at Lewiston</td><td>14</td><td>1960-73</td></tr><tr><td>80</td><td>11527000</td><td>North\nCoastal</td><td>Trinity River near Burnt Ranch</td><td>7</td><td>1963-64\n1967\n1969-71\n1973</td></tr><tr><td>81</td><td>11530300</td><td>North\nCoastal</td><td>Blue Creek near Klamath</td><td>7</td><td>1967-73</td></tr><tr><td>.82</td><td>11532500</td><td>North\nCoastal</td><td>Smith River near Crescent City</td><td>5</td><td>1967-70\n1973</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n1 Used for split-sample testing of harmonic coefficients (see table 3) . 2Used for comparison of daily versus periodic harmonic analysis results (see table 4) .",
+                "embed": "# EVALUATION OF THERMOGRAPH DATA FOR CALIFORNIA STREAMS (cont.)\n\n1 Used for split-sample testing of harmonic coefficients (see table 3) . 2Used for comparison of daily versus periodic harmonic analysis results (see table 4) .",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14129158512720155,
+                            "top": 0.5314303067112056,
+                            "width": 0.7119373776908023,
+                            "height": 0.028849073792894017,
+                            "page": 1
+                        },
+                        "content": "1 Used for split-sample testing of harmonic coefficients (see table 3) . 2Used for comparison of daily versus periodic harmonic analysis results (see table 4) .",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

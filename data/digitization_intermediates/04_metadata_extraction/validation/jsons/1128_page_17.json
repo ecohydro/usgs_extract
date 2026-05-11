@@ -1,0 +1,122 @@
+{
+    "job_id": "224d02e5-3573-427b-9ab7-105a6cd8b752",
+    "duration": 4.735721588134766,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/7116b2d4-61be-49a2-b3d5-f62bf72b58f4?AWSAccessKeyId=ASIA2UOK6OVBFZYDCH7C&Signature=wLKt4GP8ytUGVq87v6UF77xtDHM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIGYLo9VboxL7Os%2BEl5tI1ZN5dWbeV9TmsA1sT%2BY5LclWAiEAq4hI3eeG26oNREn3%2BAmShUX%2Fzqv6sAXZaU7RSyzGDc8qiwUIIhAAGgw3MzExMDY5MzIwMzQiDDuSI2zZIEUA6a38YCroBMDvW%2B%2FZo%2FxwmYecOswsYhZWjompMudYjr18f8NkOU621kF13qqynH7hAIsvffr5lSq0MlMPAakLKVDS%2BwSJ6MLqYcPr94co3WqqLxUDNsIfPKEhPlnMcLD9HOwyFy9zw14mwKF03my9xpx1j6AQcZGwZ9mvWVejN1sNqkO5RURSaQYLAQ0gu2BSS3Eeb15uGrMspExjipeCKJVWOUFuanY40oJTkjMIDGMXMUmoPZEUC1Z0W3ov92zca26nWL4mOFYw8F0gTA5sc5ImiuQXFiRvi80IItxZsF%2BQoGcBazuLYGbOxUx81pkezoYDKQilMnhXh6x2CBkE5SCQRE2rsLcfpTTmsQzsxo8%2BS2r%2BHWssvHwUstVD2I5ym1nHwXjJ%2F6ggZaEYYYVL3KArnA%2BJW2UVvyn32WSZ1If6N%2Bmt3tV4OSk7m3GQ6VLXoY8RWxEW7R8Bw%2FkxhzAovQLeCRXpgIQBd7yNxNRYpDSeaC0tmM0RvBGVxFNAUFyRQ35lBi7LRNVRYhIIF1k5xPSExq3G%2F7PMg9uQSeftXhCcYVV4F6NWIAGMulWjVk25eQi8lLoEm24x9KD2CyF95PuJWk5sr9JRbnZqDcq2pZpc0wYMZABySvo3koHChNcuu6Hqg0llvDoFrbYEye1EImFh7JSSJvNnmUfFp400O34SkdO4LlbZm8eLNti6ViHExXUcHyaHvmnu0QeC3xI9pbJYhHNX56lxymn8fOfxXr67ZE3vy9Mcwpq%2FieaD0ApuAvsUamFSVL18bSxsPzCq0ONbAK9DOau3SJwwJOXkCgUSAbDh4chxLupgwhqDYoEw4o3JugY6mwHKPaAZB1IsiGRdmg6eRZ0WHcLRTjtHRN0SRtzSmKZl2Jc3QCJ6Fnzx9pikJSRTNj0nI50oIDd7DugZ5vuQ293NkZ5v8SyhugflnQw1DxuN8EnFk7gppfQ8jJkrMr7ZTZpyx4Xrj1F6PAf3Qkg2JZ4kQTQkPYJvCtv3qVpgCeGdpIkFfU7p1BQ38%2FFrtIZosx3x9tvPJKALX%2FLoXw%3D%3D&Expires=1733451384",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# STREAM MEASUREMENTS.",
+                "embed": "# STREAM MEASUREMENTS.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.058666666666666666,
+                            "top": 0.05100463678516229,
+                            "width": 0.11466666666666667,
+                            "height": 0.010046367851622875,
+                            "page": 1
+                        },
+                        "content": "CHANDLER.]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.33266666666666667,
+                            "top": 0.05100463678516229,
+                            "width": 0.326,
+                            "height": 0.010046367851622875,
+                            "page": 1
+                        },
+                        "content": "STREAM MEASUREMENTS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9033333333333333,
+                            "top": 0.04714064914992272,
+                            "width": 0.030666666666666665,
+                            "height": 0.01313755795981453,
+                            "page": 1
+                        },
+                        "content": "19",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Discharge measurements of Cache Creek and its tributaries.\n\n<table><tr><th>Date.</th><th>Stream.</th><th>Point of measurement.</th><th>Hydrographer.</th><th>Area\nof\nsec\ntion.</th><th>Mean\nveloc-\nity.</th><th>Dis-\ncharge.</th></tr><tr><td>1900.</td><td></td><td></td><td></td><td>Sq. ft.</td><td>Ft. per\nsec.</td><td>Sec.-ft.</td></tr><tr><td>June 25</td><td>Cache Creek</td><td>At Rumsey</td><td>A. E. Chandler</td><td>78.3</td><td>2.413</td><td>189.0</td></tr><tr><td>June 27</td><td>do</td><td>At Bear Creek</td><td>do</td><td>116.8</td><td>1.336</td><td>156.0</td></tr><tr><td>June 29</td><td>do</td><td>At North Fork</td><td>do</td><td>68.4</td><td>2.360</td><td>161.4</td></tr><tr><td>July 17</td><td>do</td><td>At Clear Lake</td><td>do</td><td>68.0</td><td>1.572</td><td>106.9</td></tr><tr><td>July 20</td><td>do</td><td>At Rumsey</td><td>do</td><td>54.3</td><td>1.705</td><td>92.6</td></tr><tr><td>Do</td><td>do</td><td>At Tancred</td><td>do</td><td>43.0</td><td>2.079</td><td>89.4</td></tr><tr><td>July 21</td><td>do</td><td>At Capay</td><td>do</td><td>57.9</td><td>1.522</td><td>88.1</td></tr><tr><td>July 23</td><td>Adams ditch</td><td></td><td>do</td><td></td><td></td><td>6.8</td></tr><tr><td>Do</td><td>Cache Creek</td><td>At Madison</td><td>do</td><td>35.9</td><td>1.521</td><td>54.6</td></tr><tr><td>Do</td><td>do</td><td>At Moore's dam</td><td>do</td><td>44.0</td><td>1.568</td><td>69.0</td></tr><tr><td>July 24</td><td>Moore ditch</td><td></td><td>do</td><td>73.1</td><td>0.676</td><td>49.4</td></tr><tr><td>Do</td><td>Cache Creek</td><td>At Stevens's bridge</td><td>do</td><td>22.7</td><td>0.899</td><td>20.4</td></tr><tr><td>June 29</td><td>do</td><td>At Rumsey</td><td>J. M. Wilson</td><td></td><td></td><td>166. 8</td></tr><tr><td>Do</td><td>do</td><td>At Tancred</td><td>do</td><td></td><td></td><td>167.5</td></tr><tr><td>Do</td><td>do</td><td>Fivemiles above Capay</td><td>do</td><td></td><td></td><td>173.6</td></tr><tr><td>June 28</td><td>do</td><td>At Capay</td><td>do</td><td></td><td></td><td>161.6</td></tr><tr><td>June 30</td><td>do</td><td>At Esparto</td><td>do</td><td></td><td></td><td>152. 7</td></tr><tr><td>Do</td><td>do</td><td>At Madison bridge</td><td>do</td><td></td><td></td><td>140.9</td></tr><tr><td>Do</td><td>Moore ditch</td><td></td><td>do</td><td></td><td></td><td>60.5</td></tr><tr><td>July 3</td><td>Cache Creek</td><td>At Stevens's bridge</td><td>do</td><td></td><td></td><td>75. 8</td></tr><tr><td>Do</td><td>do</td><td>At Nelson's bridge</td><td>do</td><td></td><td></td><td>53.0</td></tr><tr><td>Do</td><td>do</td><td>At Cache Creek sink</td><td>do</td><td></td><td></td><td>51.3</td></tr><tr><td>Do</td><td>Tule canal</td><td>Opposite Woodland</td><td>do</td><td></td><td></td><td>29.7</td></tr><tr><td>Aug. 20</td><td>Cache Creek</td><td>At Clear Lake</td><td>do</td><td></td><td></td><td>39.6</td></tr><tr><td>Aug. 27</td><td>do</td><td>One-fourth mile above</td><td>do</td><td></td><td></td><td>27.6</td></tr><tr><td></td><td></td><td>Rumsey.</td><td></td><td></td><td></td><td></td></tr><tr><td>June 29</td><td>North Fork</td><td>At mouth</td><td>A. E. Chandler</td><td>4.7</td><td>1.085</td><td>5.1</td></tr><tr><td>June 30</td><td>do</td><td>Above Long Valley</td><td>do</td><td>4.8</td><td>1.333</td><td>6.4</td></tr><tr><td></td><td></td><td>Creek.</td><td></td><td></td><td></td><td></td></tr><tr><td>June 27</td><td>Bear Creek</td><td>At mouth</td><td>do</td><td>1.8</td><td>1.000</td><td>1.8</td></tr><tr><td>June 30</td><td>Long Valley Creek</td><td>do</td><td>do</td><td>3.8</td><td>0.763</td><td>2.9</td></tr><tr><td>Do</td><td>Wolf Creek</td><td>One mile above mouth</td><td>do</td><td>0.5</td><td>1.000</td><td>0.5</td></tr><tr><td>July 2</td><td>North Fork</td><td>Above Bartlett Creek</td><td>do</td><td>6.6</td><td>0.500</td><td>3.3</td></tr><tr><td>Do</td><td>Bartlett Creek</td><td>At mouth</td><td>do</td><td>1.9</td><td>0.737</td><td>1.4</td></tr><tr><td>Do</td><td>Stanton Creek</td><td>do</td><td>do</td><td>1.3</td><td>1.154</td><td>1.5</td></tr><tr><td>July 8</td><td>North Fork</td><td>At Little Indian Valley</td><td>do</td><td>4.4</td><td>0.636</td><td>2.8</td></tr><tr><td>July 12</td><td>Scotts Creek</td><td>Eight miles a bove\nClear Lake.</td><td>do</td><td>0.8</td><td>0.625</td><td>0.5</td></tr><tr><td>Do</td><td>Middle and Clover\ncreeks.</td><td>Near Upper Lake</td><td>do</td><td>2.1</td><td>0.714</td><td>1.5</td></tr><tr><td>July 16</td><td>Kelsey Creek</td><td>Two miles above Kel-\nseyville.</td><td>do</td><td>5.4</td><td>0.852</td><td>4.6</td></tr></table>",
+                "embed": "# Discharge measurements of Cache Creek and its tributaries.\n\n<table><tr><th>Date.</th><th>Stream.</th><th>Point of measurement.</th><th>Hydrographer.</th><th>Area\nof\nsec\ntion.</th><th>Mean\nveloc-\nity.</th><th>Dis-\ncharge.</th></tr><tr><td>1900.</td><td></td><td></td><td></td><td>Sq. ft.</td><td>Ft. per\nsec.</td><td>Sec.-ft.</td></tr><tr><td>June 25</td><td>Cache Creek</td><td>At Rumsey</td><td>A. E. Chandler</td><td>78.3</td><td>2.413</td><td>189.0</td></tr><tr><td>June 27</td><td>do</td><td>At Bear Creek</td><td>do</td><td>116.8</td><td>1.336</td><td>156.0</td></tr><tr><td>June 29</td><td>do</td><td>At North Fork</td><td>do</td><td>68.4</td><td>2.360</td><td>161.4</td></tr><tr><td>July 17</td><td>do</td><td>At Clear Lake</td><td>do</td><td>68.0</td><td>1.572</td><td>106.9</td></tr><tr><td>July 20</td><td>do</td><td>At Rumsey</td><td>do</td><td>54.3</td><td>1.705</td><td>92.6</td></tr><tr><td>Do</td><td>do</td><td>At Tancred</td><td>do</td><td>43.0</td><td>2.079</td><td>89.4</td></tr><tr><td>July 21</td><td>do</td><td>At Capay</td><td>do</td><td>57.9</td><td>1.522</td><td>88.1</td></tr><tr><td>July 23</td><td>Adams ditch</td><td></td><td>do</td><td></td><td></td><td>6.8</td></tr><tr><td>Do</td><td>Cache Creek</td><td>At Madison</td><td>do</td><td>35.9</td><td>1.521</td><td>54.6</td></tr><tr><td>Do</td><td>do</td><td>At Moore's dam</td><td>do</td><td>44.0</td><td>1.568</td><td>69.0</td></tr><tr><td>July 24</td><td>Moore ditch</td><td></td><td>do</td><td>73.1</td><td>0.676</td><td>49.4</td></tr><tr><td>Do</td><td>Cache Creek</td><td>At Stevens's bridge</td><td>do</td><td>22.7</td><td>0.899</td><td>20.4</td></tr><tr><td>June 29</td><td>do</td><td>At Rumsey</td><td>J. M. Wilson</td><td></td><td></td><td>166. 8</td></tr><tr><td>Do</td><td>do</td><td>At Tancred</td><td>do</td><td></td><td></td><td>167.5</td></tr><tr><td>Do</td><td>do</td><td>Fivemiles above Capay</td><td>do</td><td></td><td></td><td>173.6</td></tr><tr><td>June 28</td><td>do</td><td>At Capay</td><td>do</td><td></td><td></td><td>161.6</td></tr><tr><td>June 30</td><td>do</td><td>At Esparto</td><td>do</td><td></td><td></td><td>152. 7</td></tr><tr><td>Do</td><td>do</td><td>At Madison bridge</td><td>do</td><td></td><td></td><td>140.9</td></tr><tr><td>Do</td><td>Moore ditch</td><td></td><td>do</td><td></td><td></td><td>60.5</td></tr><tr><td>July 3</td><td>Cache Creek</td><td>At Stevens's bridge</td><td>do</td><td></td><td></td><td>75. 8</td></tr><tr><td>Do</td><td>do</td><td>At Nelson's bridge</td><td>do</td><td></td><td></td><td>53.0</td></tr><tr><td>Do</td><td>do</td><td>At Cache Creek sink</td><td>do</td><td></td><td></td><td>51.3</td></tr><tr><td>Do</td><td>Tule canal</td><td>Opposite Woodland</td><td>do</td><td></td><td></td><td>29.7</td></tr><tr><td>Aug. 20</td><td>Cache Creek</td><td>At Clear Lake</td><td>do</td><td></td><td></td><td>39.6</td></tr><tr><td>Aug. 27</td><td>do</td><td>One-fourth mile above</td><td>do</td><td></td><td></td><td>27.6</td></tr><tr><td></td><td></td><td>Rumsey.</td><td></td><td></td><td></td><td></td></tr><tr><td>June 29</td><td>North Fork</td><td>At mouth</td><td>A. E. Chandler</td><td>4.7</td><td>1.085</td><td>5.1</td></tr><tr><td>June 30</td><td>do</td><td>Above Long Valley</td><td>do</td><td>4.8</td><td>1.333</td><td>6.4</td></tr><tr><td></td><td></td><td>Creek.</td><td></td><td></td><td></td><td></td></tr><tr><td>June 27</td><td>Bear Creek</td><td>At mouth</td><td>do</td><td>1.8</td><td>1.000</td><td>1.8</td></tr><tr><td>June 30</td><td>Long Valley Creek</td><td>do</td><td>do</td><td>3.8</td><td>0.763</td><td>2.9</td></tr><tr><td>Do</td><td>Wolf Creek</td><td>One mile above mouth</td><td>do</td><td>0.5</td><td>1.000</td><td>0.5</td></tr><tr><td>July 2</td><td>North Fork</td><td>Above Bartlett Creek</td><td>do</td><td>6.6</td><td>0.500</td><td>3.3</td></tr><tr><td>Do</td><td>Bartlett Creek</td><td>At mouth</td><td>do</td><td>1.9</td><td>0.737</td><td>1.4</td></tr><tr><td>Do</td><td>Stanton Creek</td><td>do</td><td>do</td><td>1.3</td><td>1.154</td><td>1.5</td></tr><tr><td>July 8</td><td>North Fork</td><td>At Little Indian Valley</td><td>do</td><td>4.4</td><td>0.636</td><td>2.8</td></tr><tr><td>July 12</td><td>Scotts Creek</td><td>Eight miles a bove\nClear Lake.</td><td>do</td><td>0.8</td><td>0.625</td><td>0.5</td></tr><tr><td>Do</td><td>Middle and Clover\ncreeks.</td><td>Near Upper Lake</td><td>do</td><td>2.1</td><td>0.714</td><td>1.5</td></tr><tr><td>July 16</td><td>Kelsey Creek</td><td>Two miles above Kel-\nseyville.</td><td>do</td><td>5.4</td><td>0.852</td><td>4.6</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.178,
+                            "top": 0.08075734157650695,
+                            "width": 0.6346666666666667,
+                            "height": 0.01313755795981453,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of Cache Creek and its tributaries.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.05096505228678386,
+                            "top": 0.10529425265800087,
+                            "width": 0.8928244984944661,
+                            "height": 0.7008588457770841,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date.</th><th>Stream.</th><th>Point of measurement.</th><th>Hydrographer.</th><th>Area\nof\nsec\ntion.</th><th>Mean\nveloc-\nity.</th><th>Dis-\ncharge.</th></tr><tr><td>1900.</td><td></td><td></td><td></td><td>Sq. ft.</td><td>Ft. per\nsec.</td><td>Sec.-ft.</td></tr><tr><td>June 25</td><td>Cache Creek</td><td>At Rumsey</td><td>A. E. Chandler</td><td>78.3</td><td>2.413</td><td>189.0</td></tr><tr><td>June 27</td><td>do</td><td>At Bear Creek</td><td>do</td><td>116.8</td><td>1.336</td><td>156.0</td></tr><tr><td>June 29</td><td>do</td><td>At North Fork</td><td>do</td><td>68.4</td><td>2.360</td><td>161.4</td></tr><tr><td>July 17</td><td>do</td><td>At Clear Lake</td><td>do</td><td>68.0</td><td>1.572</td><td>106.9</td></tr><tr><td>July 20</td><td>do</td><td>At Rumsey</td><td>do</td><td>54.3</td><td>1.705</td><td>92.6</td></tr><tr><td>Do</td><td>do</td><td>At Tancred</td><td>do</td><td>43.0</td><td>2.079</td><td>89.4</td></tr><tr><td>July 21</td><td>do</td><td>At Capay</td><td>do</td><td>57.9</td><td>1.522</td><td>88.1</td></tr><tr><td>July 23</td><td>Adams ditch</td><td></td><td>do</td><td></td><td></td><td>6.8</td></tr><tr><td>Do</td><td>Cache Creek</td><td>At Madison</td><td>do</td><td>35.9</td><td>1.521</td><td>54.6</td></tr><tr><td>Do</td><td>do</td><td>At Moore's dam</td><td>do</td><td>44.0</td><td>1.568</td><td>69.0</td></tr><tr><td>July 24</td><td>Moore ditch</td><td></td><td>do</td><td>73.1</td><td>0.676</td><td>49.4</td></tr><tr><td>Do</td><td>Cache Creek</td><td>At Stevens's bridge</td><td>do</td><td>22.7</td><td>0.899</td><td>20.4</td></tr><tr><td>June 29</td><td>do</td><td>At Rumsey</td><td>J. M. Wilson</td><td></td><td></td><td>166. 8</td></tr><tr><td>Do</td><td>do</td><td>At Tancred</td><td>do</td><td></td><td></td><td>167.5</td></tr><tr><td>Do</td><td>do</td><td>Fivemiles above Capay</td><td>do</td><td></td><td></td><td>173.6</td></tr><tr><td>June 28</td><td>do</td><td>At Capay</td><td>do</td><td></td><td></td><td>161.6</td></tr><tr><td>June 30</td><td>do</td><td>At Esparto</td><td>do</td><td></td><td></td><td>152. 7</td></tr><tr><td>Do</td><td>do</td><td>At Madison bridge</td><td>do</td><td></td><td></td><td>140.9</td></tr><tr><td>Do</td><td>Moore ditch</td><td></td><td>do</td><td></td><td></td><td>60.5</td></tr><tr><td>July 3</td><td>Cache Creek</td><td>At Stevens's bridge</td><td>do</td><td></td><td></td><td>75. 8</td></tr><tr><td>Do</td><td>do</td><td>At Nelson's bridge</td><td>do</td><td></td><td></td><td>53.0</td></tr><tr><td>Do</td><td>do</td><td>At Cache Creek sink</td><td>do</td><td></td><td></td><td>51.3</td></tr><tr><td>Do</td><td>Tule canal</td><td>Opposite Woodland</td><td>do</td><td></td><td></td><td>29.7</td></tr><tr><td>Aug. 20</td><td>Cache Creek</td><td>At Clear Lake</td><td>do</td><td></td><td></td><td>39.6</td></tr><tr><td>Aug. 27</td><td>do</td><td>One-fourth mile above</td><td>do</td><td></td><td></td><td>27.6</td></tr><tr><td></td><td></td><td>Rumsey.</td><td></td><td></td><td></td><td></td></tr><tr><td>June 29</td><td>North Fork</td><td>At mouth</td><td>A. E. Chandler</td><td>4.7</td><td>1.085</td><td>5.1</td></tr><tr><td>June 30</td><td>do</td><td>Above Long Valley</td><td>do</td><td>4.8</td><td>1.333</td><td>6.4</td></tr><tr><td></td><td></td><td>Creek.</td><td></td><td></td><td></td><td></td></tr><tr><td>June 27</td><td>Bear Creek</td><td>At mouth</td><td>do</td><td>1.8</td><td>1.000</td><td>1.8</td></tr><tr><td>June 30</td><td>Long Valley Creek</td><td>do</td><td>do</td><td>3.8</td><td>0.763</td><td>2.9</td></tr><tr><td>Do</td><td>Wolf Creek</td><td>One mile above mouth</td><td>do</td><td>0.5</td><td>1.000</td><td>0.5</td></tr><tr><td>July 2</td><td>North Fork</td><td>Above Bartlett Creek</td><td>do</td><td>6.6</td><td>0.500</td><td>3.3</td></tr><tr><td>Do</td><td>Bartlett Creek</td><td>At mouth</td><td>do</td><td>1.9</td><td>0.737</td><td>1.4</td></tr><tr><td>Do</td><td>Stanton Creek</td><td>do</td><td>do</td><td>1.3</td><td>1.154</td><td>1.5</td></tr><tr><td>July 8</td><td>North Fork</td><td>At Little Indian Valley</td><td>do</td><td>4.4</td><td>0.636</td><td>2.8</td></tr><tr><td>July 12</td><td>Scotts Creek</td><td>Eight miles a bove\nClear Lake.</td><td>do</td><td>0.8</td><td>0.625</td><td>0.5</td></tr><tr><td>Do</td><td>Middle and Clover\ncreeks.</td><td>Near Upper Lake</td><td>do</td><td>2.1</td><td>0.714</td><td>1.5</td></tr><tr><td>July 16</td><td>Kelsey Creek</td><td>Two miles above Kel-\nseyville.</td><td>do</td><td>5.4</td><td>0.852</td><td>4.6</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# Discharge measurements of Cache Creek and its tributaries. (cont.)\n\n## IRRIGATION WORKS.\n\nThat water can successfully be diverted from Cache Creek is proved by the number of irrigating ditches that have been constructed in Yolo County. Only one, however, the Moore ditch, is of present importance. Two others, the Capay Valley ditch and the Adams",
+                "embed": "# Discharge measurements of Cache Creek and its tributaries. (cont.)\n\n## IRRIGATION WORKS.\n\nThat water can successfully be diverted from Cache Creek is proved by the number of irrigating ditches that have been constructed in Yolo County. Only one, however, the Moore ditch, is of present importance. Two others, the Capay Valley ditch and the Adams",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.336,
+                            "top": 0.8465996908809892,
+                            "width": 0.31666666666666665,
+                            "height": 0.011205564142194745,
+                            "page": 1
+                        },
+                        "content": "IRRIGATION WORKS.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05533333333333333,
+                            "top": 0.875193199381762,
+                            "width": 0.8793333333333333,
+                            "height": 0.0722565687789799,
+                            "page": 1
+                        },
+                        "content": "That water can successfully be diverted from Cache Creek is proved by the number of irrigating ditches that have been constructed in Yolo County. Only one, however, the Moore ditch, is of present importance. Two others, the Capay Valley ditch and the Adams",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

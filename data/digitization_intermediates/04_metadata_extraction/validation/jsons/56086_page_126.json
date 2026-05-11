@@ -1,0 +1,114 @@
+{
+    "job_id": "681076a0-97a3-46bb-b103-149e3153d28a",
+    "duration": 6.146610736846924,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/3a2d9bdb-4d02-4988-96a0-ca83afbe31c3?AWSAccessKeyId=ASIA2UOK6OVBETILIS3H&Signature=YGyF1JlSLefNUGI6EPiuKT4aPGo%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQCjAYZXBuCSUL%2FjzmhK287J9ABwtkxhY%2BZez%2FmWpWXx2gIhAMYwlmdLvGArHr%2FvTu5oo6GZEyQ8shspKfAJ15%2B3GxNPKosFCCQQABoMNzMxMTA2OTMyMDM0IgyITTjmrD6UAT53XmYq6AQz8YlZ9JC73Jda5kFAo%2F488%2B4S8bNB%2BgW0L51fmvv1JmaK6YmPFi6%2FCjRenKmoGQ7pyumb08Qvg6HuH1qoL0XvQuXSzfQjo6jSLcC4WlLti7EoBEB5DtwcjMxuzrThgGQW4dsc6DyQIcmYMM%2B9tYbWNDStYqp3xEUirHOXM9JTVvTbkkji6zv2DOxMhCuABmwXrGiJX%2FqAn7%2FFzE%2Bh7Z20mdfW6qgFOCWKK4HRvLXCQfnYisDGV6cqXn7AMIPyVwTD3QEp1MqBjFDS3x%2F1rjsy527u7HhAJvqUPxz5SOi1i%2BcWieMnRQbat915Ru7TuIvF8tNRKcmfJ%2FDHAMSv0NC3qCj7fOlIEcqMnMC31bFFW3iik8hjL8YP5fdAfydn33bGSftkdwTuRghhx6qGra%2FsvDsWwYx0ZgtVjkjOFbwHWeFL9k6Pr8fBQCRFkLGeB806yyy%2Bb0Ok2pJpoGy8auWgcXLxYeVdWLdSiqlnD39v%2B0tMYIMBqg%2Bmq0nyWBoIPxc2T8DtrZDBgCwhtFObvDvtQsnf8eYbUTIpxLFIV7YUIVX6pDXqfN6WIxg2vU1eur1nWFNm6Mwli7LBIX2eKICUHOEl%2BJJU8pVyVjrX1W7biScRf%2FvmLw6vhdggZzGxTR1cB5rJNP0YatMI0pNBMgr8HTV3tsgubR1FAlfVYYOl4riVToNDbIZdOUvGJF%2F6wKYHHrPAmaTa5bwzGPNKQoifszPjy8C6b%2B82NY9LMwz5GfM6%2FU0AQxwQhMQ1%2BxeEbLeSn6C8g7NsEImWl3%2Bjw485r8MEXFa6c5BnL3Gt1SG0%2BkMebh%2F2x2%2FEMPzQyboGOpoBTm%2BA2SsXz9sSJuWz9KKWVVA%2FlUgU%2F3hL870DDQDr1aWeq%2BWVgit%2FrzBhaH5v3cGXPNTuUHkKsEl%2FcCLhZ74C5MAnyAkb4mW18ycDw7CKMZeeF3y3V7j6lkP8VNMic9RJdGjYGUTI%2FkINti3AICmFNHILutNUHLEMwcQphwbC7BS%2FIGrHN6q3ooHHbfiSx%2F%2FuZFvTK%2BM8qtyMXA%3D%3D&Expires=1733459256",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WON'S CREEK AT G. WALSKA FISH POND\n\nLocation. - Lat. 34\u00b0 32'20\", long. 120\u00b000'30\", at G. Walska Fish Pond about 0.8 mile northeast of El Capitan Lodge.\n\nAltitude About 2,200 feet, from topographic map.\n\nDescription. --The measuring site is at overflow pipe from fish pond in natural stream channel reached by about 2 miles of private mountain road from El Capitan Lodge.\n\nDiversion. No known diversions above.",
+                "embed": "# WON'S CREEK AT G. WALSKA FISH POND\n\nLocation. - Lat. 34\u00b0 32'20\", long. 120\u00b000'30\", at G. Walska Fish Pond about 0.8 mile northeast of El Capitan Lodge.\n\nAltitude About 2,200 feet, from topographic map.\n\nDescription. --The measuring site is at overflow pipe from fish pond in natural stream channel reached by about 2 miles of private mountain road from El Capitan Lodge.\n\nDiversion. No known diversions above.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.7934330839567747,
+                            "top": 0.031114084978253596,
+                            "width": 0.1371571072319202,
+                            "height": 0.01840080294412847,
+                            "page": 1
+                        },
+                        "content": "STATION 143.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.29343308395677475,
+                            "top": 0.0705921712947474,
+                            "width": 0.3969243557772236,
+                            "height": 0.015055202408832385,
+                            "page": 1
+                        },
+                        "content": "WON'S CREEK AT G. WALSKA FISH POND",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.060681629260182876,
+                            "top": 0.12345265975242556,
+                            "width": 0.8491271820448878,
+                            "height": 0.039143526262964204,
+                            "page": 1
+                        },
+                        "content": "Location. - Lat. 34\u00b0 32'20\", long. 120\u00b000'30\", at G. Walska Fish Pond about 0.8 mile northeast of El Capitan Lodge.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06109725685785536,
+                            "top": 0.18200066912010707,
+                            "width": 0.5785536159600998,
+                            "height": 0.018066242890598862,
+                            "page": 1
+                        },
+                        "content": "Altitude About 2,200 feet, from topographic map.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06151288445552785,
+                            "top": 0.22014051522248243,
+                            "width": 0.8719866999168745,
+                            "height": 0.0548678487788558,
+                            "page": 1
+                        },
+                        "content": "Description. --The measuring site is at overflow pipe from fish pond in natural stream channel reached by about 2 miles of private mountain road from El Capitan Lodge.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06109725685785536,
+                            "top": 0.29575108732017397,
+                            "width": 0.4393183707398171,
+                            "height": 0.01371696219471395,
+                            "page": 1
+                        },
+                        "content": "Diversion. No known diversions above.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WON'S CREEK AT G. WALSKA FISH POND (cont.)\n\n<table><tr><th rowspan=\"2\">Date</th><th rowspan=\"2\">Time</th><th colspan=\"2\">Discharge</th><th rowspan=\"2\">Temper-\nature\nF</th><th rowspan=\"2\">Remarks</th></tr><tr><td>Cubic feet\nper second</td><td>Gallons\nper minute</td></tr><tr><td>1954</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>July 7</td><td>8:25 a.m.</td><td>0.083</td><td>37</td><td>56</td><td></td></tr><tr><td>Aug. 10</td><td>7:40 a.m.</td><td>.074</td><td>34</td><td>55</td><td></td></tr><tr><td>Sept. 14</td><td>8:40 a.m.</td><td>.074</td><td>33</td><td>54</td><td></td></tr><tr><td>Oct. 12</td><td>9:15 a.m.</td><td>.066</td><td>30</td><td>53</td><td></td></tr><tr><td>Nov. 9</td><td>10:20 a.m.</td><td>.066</td><td>30</td><td>50</td><td></td></tr><tr><td>Dec. 7</td><td>9:30 a.m.</td><td>.087</td><td>39</td><td>48</td><td></td></tr><tr><td>1955\nJan. 6</td><td>9:50 a.m.</td><td>.078</td><td>35</td><td>42</td><td></td></tr><tr><td>Feb. 7</td><td>9:20 a.m.</td><td>.088</td><td>39</td><td>43</td><td></td></tr><tr><td>Mar. 8</td><td>9:30 a.m.</td><td>.10</td><td>47</td><td>47</td><td></td></tr><tr><td>Apr. 5</td><td>9:35 a.m.</td><td>.080</td><td>36</td><td>45</td><td></td></tr><tr><td>May 3</td><td>9:30 a.m.</td><td>.17</td><td>76</td><td>48</td><td></td></tr><tr><td>June 21</td><td>10:00 a.m.</td><td>.074</td><td>33</td><td>55</td><td></td></tr><tr><td>July 11</td><td>8:15 a.m.</td><td>.073</td><td>33</td><td>54</td><td></td></tr><tr><td>Aug. 17</td><td>8:30 a.m.</td><td>.050</td><td>23</td><td>57</td><td></td></tr><tr><td>Sept. 12</td><td>9:00 a.m.</td><td>.037</td><td>17</td><td>57</td><td></td></tr><tr><td>Oct. 13</td><td>9:40 a.m.</td><td>.034</td><td>15</td><td>55</td><td></td></tr><tr><td>Nov. 9</td><td>9:40 a.m.</td><td>.037</td><td>17</td><td>50</td><td></td></tr><tr><td>Dec. 8</td><td>9:30 a.m.</td><td>.056</td><td>25</td><td>47</td><td></td></tr><tr><td>1956</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Jan. 16</td><td>9:35 a.m.</td><td>.17</td><td>74</td><td>50</td><td></td></tr><tr><td>Feb. 13</td><td>9:45 a.m.</td><td>.32</td><td>146</td><td>50</td><td></td></tr><tr><td>Mar. 16</td><td>12:55 p.m.</td><td>.25</td><td>111</td><td>51</td><td></td></tr><tr><td>Apr. 24</td><td>8:55 a.m.</td><td>.23</td><td>102</td><td>51</td><td></td></tr><tr><td>May 16</td><td>8:25 a.m.</td><td>.091</td><td>41</td><td>53</td><td></td></tr><tr><td>June 11</td><td>8:00 a.m.</td><td>.26</td><td>117</td><td>55</td><td></td></tr></table>",
+                "embed": "# WON'S CREEK AT G. WALSKA FISH POND (cont.)\n\n<table><tr><th rowspan=\"2\">Date</th><th rowspan=\"2\">Time</th><th colspan=\"2\">Discharge</th><th rowspan=\"2\">Temper-\nature\nF</th><th rowspan=\"2\">Remarks</th></tr><tr><td>Cubic feet\nper second</td><td>Gallons\nper minute</td></tr><tr><td>1954</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>July 7</td><td>8:25 a.m.</td><td>0.083</td><td>37</td><td>56</td><td></td></tr><tr><td>Aug. 10</td><td>7:40 a.m.</td><td>.074</td><td>34</td><td>55</td><td></td></tr><tr><td>Sept. 14</td><td>8:40 a.m.</td><td>.074</td><td>33</td><td>54</td><td></td></tr><tr><td>Oct. 12</td><td>9:15 a.m.</td><td>.066</td><td>30</td><td>53</td><td></td></tr><tr><td>Nov. 9</td><td>10:20 a.m.</td><td>.066</td><td>30</td><td>50</td><td></td></tr><tr><td>Dec. 7</td><td>9:30 a.m.</td><td>.087</td><td>39</td><td>48</td><td></td></tr><tr><td>1955\nJan. 6</td><td>9:50 a.m.</td><td>.078</td><td>35</td><td>42</td><td></td></tr><tr><td>Feb. 7</td><td>9:20 a.m.</td><td>.088</td><td>39</td><td>43</td><td></td></tr><tr><td>Mar. 8</td><td>9:30 a.m.</td><td>.10</td><td>47</td><td>47</td><td></td></tr><tr><td>Apr. 5</td><td>9:35 a.m.</td><td>.080</td><td>36</td><td>45</td><td></td></tr><tr><td>May 3</td><td>9:30 a.m.</td><td>.17</td><td>76</td><td>48</td><td></td></tr><tr><td>June 21</td><td>10:00 a.m.</td><td>.074</td><td>33</td><td>55</td><td></td></tr><tr><td>July 11</td><td>8:15 a.m.</td><td>.073</td><td>33</td><td>54</td><td></td></tr><tr><td>Aug. 17</td><td>8:30 a.m.</td><td>.050</td><td>23</td><td>57</td><td></td></tr><tr><td>Sept. 12</td><td>9:00 a.m.</td><td>.037</td><td>17</td><td>57</td><td></td></tr><tr><td>Oct. 13</td><td>9:40 a.m.</td><td>.034</td><td>15</td><td>55</td><td></td></tr><tr><td>Nov. 9</td><td>9:40 a.m.</td><td>.037</td><td>17</td><td>50</td><td></td></tr><tr><td>Dec. 8</td><td>9:30 a.m.</td><td>.056</td><td>25</td><td>47</td><td></td></tr><tr><td>1956</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Jan. 16</td><td>9:35 a.m.</td><td>.17</td><td>74</td><td>50</td><td></td></tr><tr><td>Feb. 13</td><td>9:45 a.m.</td><td>.32</td><td>146</td><td>50</td><td></td></tr><tr><td>Mar. 16</td><td>12:55 p.m.</td><td>.25</td><td>111</td><td>51</td><td></td></tr><tr><td>Apr. 24</td><td>8:55 a.m.</td><td>.23</td><td>102</td><td>51</td><td></td></tr><tr><td>May 16</td><td>8:25 a.m.</td><td>.091</td><td>41</td><td>53</td><td></td></tr><tr><td>June 11</td><td>8:00 a.m.</td><td>.26</td><td>117</td><td>55</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.056868301860907626,
+                            "top": 0.3667540666689319,
+                            "width": 0.8976837944607882,
+                            "height": 0.6056599213391811,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Date</th><th rowspan=\"2\">Time</th><th colspan=\"2\">Discharge</th><th rowspan=\"2\">Temper-\nature\nF</th><th rowspan=\"2\">Remarks</th></tr><tr><td>Cubic feet\nper second</td><td>Gallons\nper minute</td></tr><tr><td>1954</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>July 7</td><td>8:25 a.m.</td><td>0.083</td><td>37</td><td>56</td><td></td></tr><tr><td>Aug. 10</td><td>7:40 a.m.</td><td>.074</td><td>34</td><td>55</td><td></td></tr><tr><td>Sept. 14</td><td>8:40 a.m.</td><td>.074</td><td>33</td><td>54</td><td></td></tr><tr><td>Oct. 12</td><td>9:15 a.m.</td><td>.066</td><td>30</td><td>53</td><td></td></tr><tr><td>Nov. 9</td><td>10:20 a.m.</td><td>.066</td><td>30</td><td>50</td><td></td></tr><tr><td>Dec. 7</td><td>9:30 a.m.</td><td>.087</td><td>39</td><td>48</td><td></td></tr><tr><td>1955\nJan. 6</td><td>9:50 a.m.</td><td>.078</td><td>35</td><td>42</td><td></td></tr><tr><td>Feb. 7</td><td>9:20 a.m.</td><td>.088</td><td>39</td><td>43</td><td></td></tr><tr><td>Mar. 8</td><td>9:30 a.m.</td><td>.10</td><td>47</td><td>47</td><td></td></tr><tr><td>Apr. 5</td><td>9:35 a.m.</td><td>.080</td><td>36</td><td>45</td><td></td></tr><tr><td>May 3</td><td>9:30 a.m.</td><td>.17</td><td>76</td><td>48</td><td></td></tr><tr><td>June 21</td><td>10:00 a.m.</td><td>.074</td><td>33</td><td>55</td><td></td></tr><tr><td>July 11</td><td>8:15 a.m.</td><td>.073</td><td>33</td><td>54</td><td></td></tr><tr><td>Aug. 17</td><td>8:30 a.m.</td><td>.050</td><td>23</td><td>57</td><td></td></tr><tr><td>Sept. 12</td><td>9:00 a.m.</td><td>.037</td><td>17</td><td>57</td><td></td></tr><tr><td>Oct. 13</td><td>9:40 a.m.</td><td>.034</td><td>15</td><td>55</td><td></td></tr><tr><td>Nov. 9</td><td>9:40 a.m.</td><td>.037</td><td>17</td><td>50</td><td></td></tr><tr><td>Dec. 8</td><td>9:30 a.m.</td><td>.056</td><td>25</td><td>47</td><td></td></tr><tr><td>1956</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Jan. 16</td><td>9:35 a.m.</td><td>.17</td><td>74</td><td>50</td><td></td></tr><tr><td>Feb. 13</td><td>9:45 a.m.</td><td>.32</td><td>146</td><td>50</td><td></td></tr><tr><td>Mar. 16</td><td>12:55 p.m.</td><td>.25</td><td>111</td><td>51</td><td></td></tr><tr><td>Apr. 24</td><td>8:55 a.m.</td><td>.23</td><td>102</td><td>51</td><td></td></tr><tr><td>May 16</td><td>8:25 a.m.</td><td>.091</td><td>41</td><td>53</td><td></td></tr><tr><td>June 11</td><td>8:00 a.m.</td><td>.26</td><td>117</td><td>55</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

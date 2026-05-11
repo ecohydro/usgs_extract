@@ -1,0 +1,110 @@
+{
+    "job_id": "739a29b8-bd2f-4029-a209-b824b4389235",
+    "duration": 5.0128397941589355,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/433ead8f-6f7e-46b2-8724-c3f9a42daaf6?AWSAccessKeyId=ASIA2UOK6OVBNHE3FQ7H&Signature=oxyk0yj7xcU1sWNI9sLUlwSHN5c%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEoFxHq04mFeJ8M9KKop010WDtIItsWoZU%2FLZZ2zg5WlAiAg5cjlfZCPiL5G8VPB5MU3qsrFDNKpED2q40nvD82b6SqUBQi5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDczMTEwNjkzMjAzNCIM6YtWqEBOap5cMNtMKugE%2B%2BGy1etSDD7%2Fyw5ihOeWhDGLB7pzguYWvYgsGzwDYBQNlLIEvOs7L8OMIpXzSgHbMdedzIfjDYOFBgKJPZMPnPyYQWbxVNshEeH8wHlM7XJMcmTqBCl6x98WCWtOolIrLahi0pJLBVdrkQh7kB61Z3FNn821y%2B8eJ9q2fZt706oDyB29akbvEfgayWCQMtz0Dnu2bf3hoFnpurDzWGEC2lGZeh2Kx2Vx%2Fkyw1M62m44M4UGRRU5Czs%2FltcWr5RZqdkK4SJwa88T14VKToScn0ZS7yNG90T2dix805pz%2BQY7ZumWL0g6m9ItA9cXPQXlIdcgB0X2zoDdvYgHjRaOvBAepWKhjubewE9E7Og57JfEWIkRkO2ilWhl8aTal%2BFxBj%2FLwG5qWPsCG37O01%2BeFmt%2B9SS7Uv1nKyu%2Fp6kutIZ0h9MdZWXitLYDKoI882FRXDEN2KJHmKV9j0QTWWlJqkQfYw3s5K79EHfROvlGCOQrow1Y8azD9gyzWQ1LwZ28YeZV72%2FGVDREEVHZBtqcWAU76PdyGuA1mn75vYWUv3ThQH%2BmxhDzs0q7nMBvkQ2bzJjWBrDgB0IuS%2F7kUkFs10KytI3kDsks5ICbKro2g0HZpp2WH0Fgek8%2F5FghLj7QMMH8NGPbQ2bW0EcP2Irw5bZYO5zllBFzB09zAVAYSG9CThLztoo3Rs6j%2BGxB1nUUcCG8dXKcyh3S%2B9IJuItis40Khi%2FPg%2BrUTQbtA5AbAZm6T%2FamBCcgY%2BbpP%2FoizkhbKZt9HY4kdnIdMv7rcJIK5VqwjS7gfjh47aJgNANd6CRVDV8dksEn%2FmTCazoi8BjqcAZVMXnhXkkE743dcKPGC%2B%2F4ZMb8amiGLdbu5IJ2uJ7EnO%2FC9PCyx%2F9hllTt9RGevA0RhEuQsQsAwcC9TzQCo2R%2F8NzczmCwYml%2FXu52ivL02m4iF8QBEEeTOZAYc4U74kgwO3cPE3U9GVoVcSpsyPAtHnNjZmcq40NB8SUkC0lp%2BwGgl5Hve9qD%2BDh%2FyxEWbDXwSZ3f7rtu9q0WwOA%3D%3D&Expires=1736586959",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# 09427520. COLORADO RIVER BELOW PARKER DAM, ARTZ.-CALIF. - CONTINUED",
+                "embed": "# 09427520. COLORADO RIVER BELOW PARKER DAM, ARTZ.-CALIF. - CONTINUED",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.07930449533502969,
+                            "top": 0.06090879793747986,
+                            "width": 0.011874469889737066,
+                            "height": 0.008056719303899453,
+                            "page": 1
+                        },
+                        "content": "74",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.3846480067854114,
+                            "top": 0.05994199162101192,
+                            "width": 0.1645462256149279,
+                            "height": 0.007734450531743474,
+                            "page": 1
+                        },
+                        "content": "COLORADO RIVER MAIN STEM",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.23918575063613232,
+                            "top": 0.0763776990009668,
+                            "width": 0.46140797285835455,
+                            "height": 0.0103126007089913,
+                            "page": 1
+                        },
+                        "content": "09427520. COLORADO RIVER BELOW PARKER DAM, ARTZ.-CALIF. - CONTINUED",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CHEMICAL ANALYSES, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976\n\n<table><tr><th>DATE</th><th>TOTAL\nCOPPER\n(CU)\n(UG/L)</th><th>DIS-\nSOLVED\nCOPPER\n(CU)\n(UG/L)</th><th>TOTAL\nIRON\n(FE)\n(UG/L)</th><th>DIS-\nSOLVED\nIRON\n(FE)\n(UG/L)</th><th>TOTAL\nLEAD\n(PB)\n(UG/L)</th><th>DIS-\nSOLVED\nLEAD\n(PB)\n(UG/L)</th><th>TOTAL\nMAN-\nGANESE\n(MN)\n(UG/L)</th><th>DIS-\nSOLVED\nMAN-\nGANESE\n(MN)\n(UG/L)</th><th>TOTAL\nMERCURY\n(HG)\n(UG/L)</th></tr><tr><td>JAN\n15</td><td>--</td><td>0</td><td>--</td><td>30</td><td>--</td><td>0</td><td>--</td><td>0</td><td>--</td></tr><tr><td>FEB\n12</td><td>&lt;10</td><td>--</td><td>100</td><td>0</td><td>&lt;100</td><td>--</td><td>20</td><td>0</td><td>.0</td></tr><tr><td>MAR\n11</td><td>20</td><td>--</td><td>210</td><td>10</td><td>&lt;100</td><td>--</td><td>40</td><td>10</td><td>.0</td></tr><tr><td>APR\n15</td><td>10</td><td>--</td><td>120</td><td>10</td><td>&lt;100</td><td>--</td><td>10</td><td>10</td><td>.0</td></tr><tr><td>MAY\n13</td><td>10</td><td>--</td><td>40</td><td>0</td><td>&lt;100</td><td>--</td><td>10</td><td>0</td><td>.0</td></tr><tr><td>JUN\n10</td><td>1</td><td>--</td><td>50</td><td>10</td><td>7</td><td>--</td><td>20</td><td>0</td><td>.2</td></tr><tr><td>JUL\n15</td><td>10</td><td>--</td><td>100</td><td>10</td><td>100</td><td>--</td><td>30</td><td>20</td><td>.0</td></tr><tr><td>AUG\n12</td><td>10</td><td>--</td><td>160</td><td>10</td><td>&lt;100</td><td>--</td><td>20</td><td>10</td><td>.0</td></tr><tr><td>SEP\n16</td><td>10</td><td>--</td><td>30</td><td>10</td><td>&lt;100</td><td>--</td><td>20</td><td>10</td><td>.0</td></tr></table>",
+                "embed": "# CHEMICAL ANALYSES, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976\n\n<table><tr><th>DATE</th><th>TOTAL\nCOPPER\n(CU)\n(UG/L)</th><th>DIS-\nSOLVED\nCOPPER\n(CU)\n(UG/L)</th><th>TOTAL\nIRON\n(FE)\n(UG/L)</th><th>DIS-\nSOLVED\nIRON\n(FE)\n(UG/L)</th><th>TOTAL\nLEAD\n(PB)\n(UG/L)</th><th>DIS-\nSOLVED\nLEAD\n(PB)\n(UG/L)</th><th>TOTAL\nMAN-\nGANESE\n(MN)\n(UG/L)</th><th>DIS-\nSOLVED\nMAN-\nGANESE\n(MN)\n(UG/L)</th><th>TOTAL\nMERCURY\n(HG)\n(UG/L)</th></tr><tr><td>JAN\n15</td><td>--</td><td>0</td><td>--</td><td>30</td><td>--</td><td>0</td><td>--</td><td>0</td><td>--</td></tr><tr><td>FEB\n12</td><td>&lt;10</td><td>--</td><td>100</td><td>0</td><td>&lt;100</td><td>--</td><td>20</td><td>0</td><td>.0</td></tr><tr><td>MAR\n11</td><td>20</td><td>--</td><td>210</td><td>10</td><td>&lt;100</td><td>--</td><td>40</td><td>10</td><td>.0</td></tr><tr><td>APR\n15</td><td>10</td><td>--</td><td>120</td><td>10</td><td>&lt;100</td><td>--</td><td>10</td><td>10</td><td>.0</td></tr><tr><td>MAY\n13</td><td>10</td><td>--</td><td>40</td><td>0</td><td>&lt;100</td><td>--</td><td>10</td><td>0</td><td>.0</td></tr><tr><td>JUN\n10</td><td>1</td><td>--</td><td>50</td><td>10</td><td>7</td><td>--</td><td>20</td><td>0</td><td>.2</td></tr><tr><td>JUL\n15</td><td>10</td><td>--</td><td>100</td><td>10</td><td>100</td><td>--</td><td>30</td><td>20</td><td>.0</td></tr><tr><td>AUG\n12</td><td>10</td><td>--</td><td>160</td><td>10</td><td>&lt;100</td><td>--</td><td>20</td><td>10</td><td>.0</td></tr><tr><td>SEP\n16</td><td>10</td><td>--</td><td>30</td><td>10</td><td>&lt;100</td><td>--</td><td>20</td><td>10</td><td>.0</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.24342663273960985,
+                            "top": 0.10151466322913309,
+                            "width": 0.412637828668363,
+                            "height": 0.009345794392523364,
+                            "page": 1
+                        },
+                        "content": "CHEMICAL ANALYSES, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1474671109032085,
+                            "top": 0.12600374605976072,
+                            "width": 0.6047163842794145,
+                            "height": 0.22433124509043667,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>TOTAL\nCOPPER\n(CU)\n(UG/L)</th><th>DIS-\nSOLVED\nCOPPER\n(CU)\n(UG/L)</th><th>TOTAL\nIRON\n(FE)\n(UG/L)</th><th>DIS-\nSOLVED\nIRON\n(FE)\n(UG/L)</th><th>TOTAL\nLEAD\n(PB)\n(UG/L)</th><th>DIS-\nSOLVED\nLEAD\n(PB)\n(UG/L)</th><th>TOTAL\nMAN-\nGANESE\n(MN)\n(UG/L)</th><th>DIS-\nSOLVED\nMAN-\nGANESE\n(MN)\n(UG/L)</th><th>TOTAL\nMERCURY\n(HG)\n(UG/L)</th></tr><tr><td>JAN\n15</td><td>--</td><td>0</td><td>--</td><td>30</td><td>--</td><td>0</td><td>--</td><td>0</td><td>--</td></tr><tr><td>FEB\n12</td><td>&lt;10</td><td>--</td><td>100</td><td>0</td><td>&lt;100</td><td>--</td><td>20</td><td>0</td><td>.0</td></tr><tr><td>MAR\n11</td><td>20</td><td>--</td><td>210</td><td>10</td><td>&lt;100</td><td>--</td><td>40</td><td>10</td><td>.0</td></tr><tr><td>APR\n15</td><td>10</td><td>--</td><td>120</td><td>10</td><td>&lt;100</td><td>--</td><td>10</td><td>10</td><td>.0</td></tr><tr><td>MAY\n13</td><td>10</td><td>--</td><td>40</td><td>0</td><td>&lt;100</td><td>--</td><td>10</td><td>0</td><td>.0</td></tr><tr><td>JUN\n10</td><td>1</td><td>--</td><td>50</td><td>10</td><td>7</td><td>--</td><td>20</td><td>0</td><td>.2</td></tr><tr><td>JUL\n15</td><td>10</td><td>--</td><td>100</td><td>10</td><td>100</td><td>--</td><td>30</td><td>20</td><td>.0</td></tr><tr><td>AUG\n12</td><td>10</td><td>--</td><td>160</td><td>10</td><td>&lt;100</td><td>--</td><td>20</td><td>10</td><td>.0</td></tr><tr><td>SEP\n16</td><td>10</td><td>--</td><td>30</td><td>10</td><td>&lt;100</td><td>--</td><td>20</td><td>10</td><td>.0</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# CHEMICAL ANALYSES, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 (cont.)\n\n<table><tr><th>DATE</th><th>DIS-\nSOLVED\nMERCURY\n(HG)\n(UG/L)</th><th>TOTAL\nSELE-\nNIUM\n(SE)\n(UG/L)</th><th>DIS-\nSOLVED\nSELE-\nNIUM\n(SE)\n(UG/L)</th><th>TOTAL\nSILVER\n(AG)\n(UG/L)</th><th>TOTAL\nZINC\n(ZN)\n(UG/L)</th><th>DIS-\nSOLVED\nZINC\n(ZN)\n(UG/L)</th><th>TOTAL\nORGANIC\nCARBON\n(C)\n(MG/L)</th><th>CYANIDE\n(CN)\n(MG/L)</th><th>PHENOLS\n\n(UG/L)</th></tr><tr><td>JAN\n15</td><td>.0</td><td>--</td><td>3</td><td>--</td><td>--</td><td>0</td><td>4.0</td><td>.00</td><td>1</td></tr><tr><td>FEB\n12</td><td>--</td><td>2</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>4.0</td><td>.00</td><td>2</td></tr><tr><td>MAR\n11</td><td>--</td><td>4</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>3.3</td><td>.00</td><td>2</td></tr><tr><td>APR\n15</td><td>--</td><td>5</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>3.8</td><td>.00</td><td>0</td></tr><tr><td>MAY\n13</td><td>--</td><td>3</td><td>--</td><td>&lt;10</td><td>0</td><td>--</td><td>3.0</td><td>.01</td><td>2</td></tr><tr><td>JUN\n10</td><td>--</td><td>2</td><td>--</td><td>0</td><td>20</td><td>--</td><td>6.3</td><td>.00</td><td>7</td></tr><tr><td>JUL\n15</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>20</td><td>--</td><td>6.9</td><td>.02</td><td>2</td></tr><tr><td>AUG\n12</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>1.9</td><td>.00</td><td>2</td></tr><tr><td>SEP\n16</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>2.8</td><td>.01</td><td>3</td></tr></table>",
+                "embed": "# CHEMICAL ANALYSES, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 (cont.)\n\n<table><tr><th>DATE</th><th>DIS-\nSOLVED\nMERCURY\n(HG)\n(UG/L)</th><th>TOTAL\nSELE-\nNIUM\n(SE)\n(UG/L)</th><th>DIS-\nSOLVED\nSELE-\nNIUM\n(SE)\n(UG/L)</th><th>TOTAL\nSILVER\n(AG)\n(UG/L)</th><th>TOTAL\nZINC\n(ZN)\n(UG/L)</th><th>DIS-\nSOLVED\nZINC\n(ZN)\n(UG/L)</th><th>TOTAL\nORGANIC\nCARBON\n(C)\n(MG/L)</th><th>CYANIDE\n(CN)\n(MG/L)</th><th>PHENOLS\n\n(UG/L)</th></tr><tr><td>JAN\n15</td><td>.0</td><td>--</td><td>3</td><td>--</td><td>--</td><td>0</td><td>4.0</td><td>.00</td><td>1</td></tr><tr><td>FEB\n12</td><td>--</td><td>2</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>4.0</td><td>.00</td><td>2</td></tr><tr><td>MAR\n11</td><td>--</td><td>4</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>3.3</td><td>.00</td><td>2</td></tr><tr><td>APR\n15</td><td>--</td><td>5</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>3.8</td><td>.00</td><td>0</td></tr><tr><td>MAY\n13</td><td>--</td><td>3</td><td>--</td><td>&lt;10</td><td>0</td><td>--</td><td>3.0</td><td>.01</td><td>2</td></tr><tr><td>JUN\n10</td><td>--</td><td>2</td><td>--</td><td>0</td><td>20</td><td>--</td><td>6.3</td><td>.00</td><td>7</td></tr><tr><td>JUL\n15</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>20</td><td>--</td><td>6.9</td><td>.02</td><td>2</td></tr><tr><td>AUG\n12</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>1.9</td><td>.00</td><td>2</td></tr><tr><td>SEP\n16</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>2.8</td><td>.01</td><td>3</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.15201341468869276,
+                            "top": 0.4178720536325733,
+                            "width": 0.6076200451256362,
+                            "height": 0.22103377307494762,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DATE</th><th>DIS-\nSOLVED\nMERCURY\n(HG)\n(UG/L)</th><th>TOTAL\nSELE-\nNIUM\n(SE)\n(UG/L)</th><th>DIS-\nSOLVED\nSELE-\nNIUM\n(SE)\n(UG/L)</th><th>TOTAL\nSILVER\n(AG)\n(UG/L)</th><th>TOTAL\nZINC\n(ZN)\n(UG/L)</th><th>DIS-\nSOLVED\nZINC\n(ZN)\n(UG/L)</th><th>TOTAL\nORGANIC\nCARBON\n(C)\n(MG/L)</th><th>CYANIDE\n(CN)\n(MG/L)</th><th>PHENOLS\n\n(UG/L)</th></tr><tr><td>JAN\n15</td><td>.0</td><td>--</td><td>3</td><td>--</td><td>--</td><td>0</td><td>4.0</td><td>.00</td><td>1</td></tr><tr><td>FEB\n12</td><td>--</td><td>2</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>4.0</td><td>.00</td><td>2</td></tr><tr><td>MAR\n11</td><td>--</td><td>4</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>3.3</td><td>.00</td><td>2</td></tr><tr><td>APR\n15</td><td>--</td><td>5</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>3.8</td><td>.00</td><td>0</td></tr><tr><td>MAY\n13</td><td>--</td><td>3</td><td>--</td><td>&lt;10</td><td>0</td><td>--</td><td>3.0</td><td>.01</td><td>2</td></tr><tr><td>JUN\n10</td><td>--</td><td>2</td><td>--</td><td>0</td><td>20</td><td>--</td><td>6.3</td><td>.00</td><td>7</td></tr><tr><td>JUL\n15</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>20</td><td>--</td><td>6.9</td><td>.02</td><td>2</td></tr><tr><td>AUG\n12</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>1.9</td><td>.00</td><td>2</td></tr><tr><td>SEP\n16</td><td></td><td>3</td><td>--</td><td>&lt;10</td><td>10</td><td>--</td><td>2.8</td><td>.01</td><td>3</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "job_id": "dbe801d4-59ee-448b-97a1-192e3dc79e75",
+    "duration": 4.276668548583984,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/803259c1-04cb-4806-bec9-ddf8684d942d?AWSAccessKeyId=ASIA2UOK6OVBJFT646VI&Signature=a4CBVZNMtXqoQmUk4w3lOoLsGIk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJHMEUCIE%2Bf4EA54WwVEZE%2BAkbWBlhNnMYifWn34F%2Fko0uMWjqBAiEAk1cHJXfAid6xK0fDa0buON4NwNkbLmc1pCWr4t44y8IqiwUIIxAAGgw3MzExMDY5MzIwMzQiDEsW%2B3c0gpgUZmUrwiroBEsQta1wFw2a0lW7yY0t7beUWk7hqaJuxUQj1WG9A7bitIJ1CnCSL48JonpuiiWCSMEdBb8O1mfoTUtEUtwTLDFDgZrrZwnhGXZQMXLxSP%2FiF4iDSiS8FadMLkdADxWslnPgOW%2FMGb3aUEQiJpfHh2KXN%2BYXgJuQ1uHuhfBRf3rjvLU3qrTdBwr0MDf9zJ2YuOsC63zuwpDUNgpiaVqTNs%2BFoRjpuhcgoaRFLoi5bKn2tyruO2C8Pr4573Ang%2FFqzgtZAsgjokG1ohktAZOTsDBP5QNH%2BjDVhbUYMtXPbMdTBdC3CmSNG9A5%2Budflyek2PAH9UZCGSBBU%2Byp4l7lBrfilrjhYr7W0CZprIF0ghe94zCanHgkAF%2Bih0N1PRiysE2YyVIKCTWYuyKBQuKbjnSHrDUTnS2krKEDNBvVJd%2BAXbdXyBkg3sbr2%2FvxPJFZgNzoIKTOUJMbK9bRxWbfr2zR0Q75R9egXLfdEJbc8wkybxuu8wKmGiAOqMWuWOPKs2xNY016hlI74xCrsz7l%2Bke3DTts5JOhBY%2FMrODRm%2FhqqSSA7hJqVEfPLpx13M4p0G%2FsFugy%2FkOA5xzSb97NhVqGvSF%2FfXapc7Auf4AHYB6Q%2FROGOFhMFEa0JBqat4z7HU0bwLB9HpiypixnkKhe0bAH3FAXqH4Y6CUuFjR1%2FyS%2FpdODxzCO%2BUMNXsHmVNKbEKDVFDSw6YAaH8zSn0sdRZrbl1MXsfSMJR5EwauJqxZK6jDCOfFjZKlBbeuAv%2FBnwGXW96i%2FiM%2F0N2%2Bdhp%2BCfn5f04S4A4ptaF5%2BrRV7IcvPC5hb9xYXnKww77PJugY6mwHb7qYuD%2Fx%2BkgDCOZwh7XIzWeyU%2BIhjbGNwOnEysJAuU6JJHkjuth5H6UoPv1neutZ3endVRwGY%2FKi6xXy6CTOqw6t3apWoGshdTY7USKieGi6oGZbeabxwejvByozDQxzdoCTSZxYPrGrGYSbEQZ4NR5A%2BShgIL901kquX2a99nSJxUkRptUt0%2FOaQW11cJcCUx4Eb46GAbCRPXQ%3D%3D&Expires=1733454732",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SURFACE WATER SUPPLY, 1926, PART XI\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 4.45 feet at 10 p. m. April 5 (discharge, 5,330 second-feet) ; minimum stage. from water-stage recorder, 0.72 foot at 9 p. m. August 27, water being stored at Melones Dam (discharge, 1 second-foot)\n\n- 1903-1914: Maximum stage recorded, 26.0 feet at 4 a. m. January 31, 1911 (discharge, 60,000 second-feet) minimum stage recorded, no flow December 3-5, 1912.",
+                "embed": "# SURFACE WATER SUPPLY, 1926, PART XI\n\nEXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 4.45 feet at 10 p. m. April 5 (discharge, 5,330 second-feet) ; minimum stage. from water-stage recorder, 0.72 foot at 9 p. m. August 27, water being stored at Melones Dam (discharge, 1 second-foot)\n\n- 1903-1914: Maximum stage recorded, 26.0 feet at 4 a. m. January 31, 1911 (discharge, 60,000 second-feet) minimum stage recorded, no flow December 3-5, 1912.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.12280701754385964,
+                            "top": 0.047216890595009595,
+                            "width": 0.04887218045112782,
+                            "height": 0.014203454894433781,
+                            "page": 1
+                        },
+                        "content": "224",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.28634085213032584,
+                            "top": 0.050287907869481764,
+                            "width": 0.5043859649122807,
+                            "height": 0.013051823416506719,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1926, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12280701754385964,
+                            "top": 0.08291746641074856,
+                            "width": 0.8276942355889725,
+                            "height": 0.06218809980806142,
+                            "page": 1
+                        },
+                        "content": "EXTREMES OF DISCHARGE.-Maximum stage during year, from water-stage recorder, 4.45 feet at 10 p. m. April 5 (discharge, 5,330 second-feet) ; minimum stage. from water-stage recorder, 0.72 foot at 9 p. m. August 27, water being stored at Melones Dam (discharge, 1 second-foot)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.16979949874686717,
+                            "top": 0.14625719769673703,
+                            "width": 0.7807017543859649,
+                            "height": 0.04644913627639156,
+                            "page": 1
+                        },
+                        "content": "- 1903-1914: Maximum stage recorded, 26.0 feet at 4 a. m. January 31, 1911 (discharge, 60,000 second-feet) minimum stage recorded, no flow December 3-5, 1912.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1926, PART XI (cont.)\n\n1915-1926: Maximum stage recorded, 12.63 feet at 10.30 a. m. February 6, 1925 (discharge, determined from extension of rating curve, 25,200 second- feet) minimum stage recorded, 0.72 foot at 9 p. m. August 27, 1926 (dis- charge, 1 second-foot).\n\n- DIVERSIONS.-Numerous ditches divert water for mining above station. Water is also diverted from South Fork into Tuolumne Basin and from North Fork through Utica Gold Mining Co.'s canal for use in the vicinity of Murphy and Angels. The water diverted for power development on Middle Fork at Sand Bar Flat near Avery is returned to river above this station.\n\n- REGULATION. - -Flow is partly regulated by storage in the drainage basins of the Middle Fork, North Fork, and South Fork and at Melones Dam after August 21, 1926.",
+                "embed": "# SURFACE WATER SUPPLY, 1926, PART XI (cont.)\n\n1915-1926: Maximum stage recorded, 12.63 feet at 10.30 a. m. February 6, 1925 (discharge, determined from extension of rating curve, 25,200 second- feet) minimum stage recorded, 0.72 foot at 9 p. m. August 27, 1926 (dis- charge, 1 second-foot).\n\n- DIVERSIONS.-Numerous ditches divert water for mining above station. Water is also diverted from South Fork into Tuolumne Basin and from North Fork through Utica Gold Mining Co.'s canal for use in the vicinity of Murphy and Angels. The water diverted for power development on Middle Fork at Sand Bar Flat near Avery is returned to river above this station.\n\n- REGULATION. - -Flow is partly regulated by storage in the drainage basins of the Middle Fork, North Fork, and South Fork and at Melones Dam after August 21, 1926.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.16917293233082706,
+                            "top": 0.19424184261036467,
+                            "width": 0.7807017543859649,
+                            "height": 0.06257197696737044,
+                            "page": 1
+                        },
+                        "content": "1915-1926: Maximum stage recorded, 12.63 feet at 10.30 a. m. February 6, 1925 (discharge, determined from extension of rating curve, 25,200 second- feet) minimum stage recorded, 0.72 foot at 9 p. m. August 27, 1926 (dis- charge, 1 second-foot).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.12343358395989974,
+                            "top": 0.2579654510556622,
+                            "width": 0.8270676691729323,
+                            "height": 0.07907869481765835,
+                            "page": 1
+                        },
+                        "content": "- DIVERSIONS.-Numerous ditches divert water for mining above station. Water is also diverted from South Fork into Tuolumne Basin and from North Fork through Utica Gold Mining Co.'s canal for use in the vicinity of Murphy and Angels. The water diverted for power development on Middle Fork at Sand Bar Flat near Avery is returned to river above this station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.12406015037593984,
+                            "top": 0.3381957773512476,
+                            "width": 0.8258145363408521,
+                            "height": 0.04644913627639156,
+                            "page": 1
+                        },
+                        "content": "- REGULATION. - -Flow is partly regulated by storage in the drainage basins of the Middle Fork, North Fork, and South Fork and at Melones Dam after August 21, 1926.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1926, PART XI (cont.)\n\nACCURACY.-Stage-discharge relation did not change during year. Rating curve well defined below 1,500 second-feet, fairly well defined between 1,500 and 5,000 second-feet, and extended above. Water-stage recorder record excel- lent except December 5-29 and January 29 to March 16 when recorder was out of order. Daily discharge ascertained by applying mean daily gage height to rating table. Discharge for periods December 5-29 and February 1 to March 16 estimated from records of flow of Middle Fork of Stanislaus River at Sand Bar Flat or Mokelumne River near Clements. Records good except those for estimated periods, which are fair.\n\nDischarge measurements of Stanislaus River near Knights Ferry, Calif., during the year ending September 30, 1926\n\n<table><tr><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th></tr><tr><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td></tr><tr><td>Mar. 21</td><td>30</td><td>1, 150</td><td>Apr. 14</td><td>3.59</td><td>3, 440</td></tr><tr><td>Mar. 22</td><td>2.22</td><td>984</td><td>Sept. 18</td><td>1.38</td><td>240</td></tr></table>\n\nDaily discharge, in second-feet, of Stanislaus River near Knights Ferry, Calif., for the year ending September 30, 1926",
+                "embed": "# SURFACE WATER SUPPLY, 1926, PART XI (cont.)\n\nACCURACY.-Stage-discharge relation did not change during year. Rating curve well defined below 1,500 second-feet, fairly well defined between 1,500 and 5,000 second-feet, and extended above. Water-stage recorder record excel- lent except December 5-29 and January 29 to March 16 when recorder was out of order. Daily discharge ascertained by applying mean daily gage height to rating table. Discharge for periods December 5-29 and February 1 to March 16 estimated from records of flow of Middle Fork of Stanislaus River at Sand Bar Flat or Mokelumne River near Clements. Records good except those for estimated periods, which are fair.\n\nDischarge measurements of Stanislaus River near Knights Ferry, Calif., during the year ending September 30, 1926\n\n<table><tr><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th></tr><tr><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td></tr><tr><td>Mar. 21</td><td>30</td><td>1, 150</td><td>Apr. 14</td><td>3.59</td><td>3, 440</td></tr><tr><td>Mar. 22</td><td>2.22</td><td>984</td><td>Sept. 18</td><td>1.38</td><td>240</td></tr></table>\n\nDaily discharge, in second-feet, of Stanislaus River near Knights Ferry, Calif., for the year ending September 30, 1926",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12343358395989974,
+                            "top": 0.38618042226487526,
+                            "width": 0.8283208020050126,
+                            "height": 0.1420345489443378,
+                            "page": 1
+                        },
+                        "content": "ACCURACY.-Stage-discharge relation did not change during year. Rating curve well defined below 1,500 second-feet, fairly well defined between 1,500 and 5,000 second-feet, and extended above. Water-stage recorder record excel- lent except December 5-29 and January 29 to March 16 when recorder was out of order. Daily discharge ascertained by applying mean daily gage height to rating table. Discharge for periods December 5-29 and February 1 to March 16 estimated from records of flow of Middle Fork of Stanislaus River at Sand Bar Flat or Mokelumne River near Clements. Records good except those for estimated periods, which are fair.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12531328320802004,
+                            "top": 0.5397312859884836,
+                            "width": 0.8283208020050126,
+                            "height": 0.02763915547024952,
+                            "page": 1
+                        },
+                        "content": "Discharge measurements of Stanislaus River near Knights Ferry, Calif., during the year ending September 30, 1926",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12267886666128211,
+                            "top": 0.5761606285988484,
+                            "width": 0.8323424298661694,
+                            "height": 0.09391602499700095,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th><th>Date</th><th>Gage\nheight</th><th>Dis-\ncharge</th></tr><tr><td></td><td>Feet</td><td>Sec.-ft.</td><td></td><td>Feet</td><td>Sec.-ft.</td></tr><tr><td>Mar. 21</td><td>30</td><td>1, 150</td><td>Apr. 14</td><td>3.59</td><td>3, 440</td></tr><tr><td>Mar. 22</td><td>2.22</td><td>984</td><td>Sept. 18</td><td>1.38</td><td>240</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12531328320802004,
+                            "top": 0.6821497120921305,
+                            "width": 0.8283208020050126,
+                            "height": 0.0272552783109405,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Stanislaus River near Knights Ferry, Calif., for the year ending September 30, 1926",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SURFACE WATER SUPPLY, 1926, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>304</td><td>239</td><td>227</td><td>233</td><td></td><td>1, 460</td><td>3, 320</td><td>1, 420</td><td>323</td><td>271</td><td>227</td></tr><tr><td>2</td><td>304</td><td>227</td><td>438</td><td>168</td><td></td><td>1, 360</td><td>3, 020</td><td>1, 370</td><td>271</td><td>202</td><td>221</td></tr><tr><td>3</td><td>304</td><td>304</td><td>543</td><td>185</td><td></td><td>300</td><td>3, 120</td><td>1, 260</td><td>264</td><td>252</td><td>227</td></tr><tr><td>4</td><td>264</td><td>310</td><td>400</td><td>145</td><td></td><td>1, 320</td><td>3, 320</td><td>1, 220</td><td>245</td><td>264</td><td>258</td></tr><tr><td>5</td><td>264</td><td>297</td><td></td><td>208</td><td></td><td>3, 430</td><td>3, 540</td><td>1, 030</td><td>191</td><td>258</td><td>264</td></tr><tr><td>6</td><td>304</td><td>258</td><td></td><td>196</td><td></td><td>4, 070</td><td>3, 430</td><td>1, 000</td><td>185</td><td>271</td><td>233</td></tr><tr><td>7</td><td>297</td><td>264</td><td></td><td>174</td><td></td><td>3, 320</td><td>2, 520</td><td>892</td><td>233</td><td>271</td><td>214</td></tr><tr><td>8</td><td>284</td><td>245</td><td></td><td>174</td><td></td><td>750</td><td>1, 910</td><td>869</td><td>233</td><td>290</td><td>239</td></tr><tr><td>9</td><td>277</td><td>208</td><td></td><td>185</td><td></td><td>320</td><td>1, 710</td><td>1, 330</td><td>239</td><td>258</td><td>239</td></tr><tr><td>10</td><td>239</td><td>290</td><td></td><td>214</td><td></td><td>2, 720</td><td>1, 540</td><td>1, 080</td><td>252</td><td>277</td><td>221</td></tr><tr><td>11</td><td>258</td><td>277</td><td></td><td>185</td><td></td><td>2, 620</td><td>1, 480</td><td>803</td><td>252</td><td>252</td><td>214</td></tr><tr><td>12</td><td>245</td><td>264</td><td></td><td>162</td><td></td><td>420</td><td>1, 540</td><td>759</td><td>174</td><td>252</td><td>214</td></tr><tr><td>13</td><td>264</td><td>297</td><td></td><td>162</td><td></td><td>2, 920</td><td>1, 680</td><td>620</td><td>227</td><td>258</td><td>214</td></tr><tr><td>14</td><td>284</td><td>310</td><td></td><td>174</td><td></td><td>3, 120</td><td>1, 980</td><td>509</td><td>227</td><td>214</td><td>214</td></tr><tr><td>15</td><td>290</td><td>264</td><td></td><td>151</td><td></td><td>3, 430</td><td>2, 230</td><td>543</td><td>264</td><td>245</td><td>221</td></tr></table>",
+                "embed": "# SURFACE WATER SUPPLY, 1926, PART XI (cont.)\n\n<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>304</td><td>239</td><td>227</td><td>233</td><td></td><td>1, 460</td><td>3, 320</td><td>1, 420</td><td>323</td><td>271</td><td>227</td></tr><tr><td>2</td><td>304</td><td>227</td><td>438</td><td>168</td><td></td><td>1, 360</td><td>3, 020</td><td>1, 370</td><td>271</td><td>202</td><td>221</td></tr><tr><td>3</td><td>304</td><td>304</td><td>543</td><td>185</td><td></td><td>300</td><td>3, 120</td><td>1, 260</td><td>264</td><td>252</td><td>227</td></tr><tr><td>4</td><td>264</td><td>310</td><td>400</td><td>145</td><td></td><td>1, 320</td><td>3, 320</td><td>1, 220</td><td>245</td><td>264</td><td>258</td></tr><tr><td>5</td><td>264</td><td>297</td><td></td><td>208</td><td></td><td>3, 430</td><td>3, 540</td><td>1, 030</td><td>191</td><td>258</td><td>264</td></tr><tr><td>6</td><td>304</td><td>258</td><td></td><td>196</td><td></td><td>4, 070</td><td>3, 430</td><td>1, 000</td><td>185</td><td>271</td><td>233</td></tr><tr><td>7</td><td>297</td><td>264</td><td></td><td>174</td><td></td><td>3, 320</td><td>2, 520</td><td>892</td><td>233</td><td>271</td><td>214</td></tr><tr><td>8</td><td>284</td><td>245</td><td></td><td>174</td><td></td><td>750</td><td>1, 910</td><td>869</td><td>233</td><td>290</td><td>239</td></tr><tr><td>9</td><td>277</td><td>208</td><td></td><td>185</td><td></td><td>320</td><td>1, 710</td><td>1, 330</td><td>239</td><td>258</td><td>239</td></tr><tr><td>10</td><td>239</td><td>290</td><td></td><td>214</td><td></td><td>2, 720</td><td>1, 540</td><td>1, 080</td><td>252</td><td>277</td><td>221</td></tr><tr><td>11</td><td>258</td><td>277</td><td></td><td>185</td><td></td><td>2, 620</td><td>1, 480</td><td>803</td><td>252</td><td>252</td><td>214</td></tr><tr><td>12</td><td>245</td><td>264</td><td></td><td>162</td><td></td><td>420</td><td>1, 540</td><td>759</td><td>174</td><td>252</td><td>214</td></tr><tr><td>13</td><td>264</td><td>297</td><td></td><td>162</td><td></td><td>2, 920</td><td>1, 680</td><td>620</td><td>227</td><td>258</td><td>214</td></tr><tr><td>14</td><td>284</td><td>310</td><td></td><td>174</td><td></td><td>3, 120</td><td>1, 980</td><td>509</td><td>227</td><td>214</td><td>214</td></tr><tr><td>15</td><td>290</td><td>264</td><td></td><td>151</td><td></td><td>3, 430</td><td>2, 230</td><td>543</td><td>264</td><td>245</td><td>221</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.12484844465901081,
+                            "top": 0.7174204879438579,
+                            "width": 0.8315866035327577,
+                            "height": 0.20836282389635316,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>304</td><td>239</td><td>227</td><td>233</td><td></td><td>1, 460</td><td>3, 320</td><td>1, 420</td><td>323</td><td>271</td><td>227</td></tr><tr><td>2</td><td>304</td><td>227</td><td>438</td><td>168</td><td></td><td>1, 360</td><td>3, 020</td><td>1, 370</td><td>271</td><td>202</td><td>221</td></tr><tr><td>3</td><td>304</td><td>304</td><td>543</td><td>185</td><td></td><td>300</td><td>3, 120</td><td>1, 260</td><td>264</td><td>252</td><td>227</td></tr><tr><td>4</td><td>264</td><td>310</td><td>400</td><td>145</td><td></td><td>1, 320</td><td>3, 320</td><td>1, 220</td><td>245</td><td>264</td><td>258</td></tr><tr><td>5</td><td>264</td><td>297</td><td></td><td>208</td><td></td><td>3, 430</td><td>3, 540</td><td>1, 030</td><td>191</td><td>258</td><td>264</td></tr><tr><td>6</td><td>304</td><td>258</td><td></td><td>196</td><td></td><td>4, 070</td><td>3, 430</td><td>1, 000</td><td>185</td><td>271</td><td>233</td></tr><tr><td>7</td><td>297</td><td>264</td><td></td><td>174</td><td></td><td>3, 320</td><td>2, 520</td><td>892</td><td>233</td><td>271</td><td>214</td></tr><tr><td>8</td><td>284</td><td>245</td><td></td><td>174</td><td></td><td>750</td><td>1, 910</td><td>869</td><td>233</td><td>290</td><td>239</td></tr><tr><td>9</td><td>277</td><td>208</td><td></td><td>185</td><td></td><td>320</td><td>1, 710</td><td>1, 330</td><td>239</td><td>258</td><td>239</td></tr><tr><td>10</td><td>239</td><td>290</td><td></td><td>214</td><td></td><td>2, 720</td><td>1, 540</td><td>1, 080</td><td>252</td><td>277</td><td>221</td></tr><tr><td>11</td><td>258</td><td>277</td><td></td><td>185</td><td></td><td>2, 620</td><td>1, 480</td><td>803</td><td>252</td><td>252</td><td>214</td></tr><tr><td>12</td><td>245</td><td>264</td><td></td><td>162</td><td></td><td>420</td><td>1, 540</td><td>759</td><td>174</td><td>252</td><td>214</td></tr><tr><td>13</td><td>264</td><td>297</td><td></td><td>162</td><td></td><td>2, 920</td><td>1, 680</td><td>620</td><td>227</td><td>258</td><td>214</td></tr><tr><td>14</td><td>284</td><td>310</td><td></td><td>174</td><td></td><td>3, 120</td><td>1, 980</td><td>509</td><td>227</td><td>214</td><td>214</td></tr><tr><td>15</td><td>290</td><td>264</td><td></td><td>151</td><td></td><td>3, 430</td><td>2, 230</td><td>543</td><td>264</td><td>245</td><td>221</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

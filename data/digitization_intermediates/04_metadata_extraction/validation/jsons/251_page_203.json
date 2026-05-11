@@ -1,0 +1,290 @@
+{
+    "job_id": "1219f008-6ea6-4c79-b482-f8b961cf5efa",
+    "duration": 5.141065359115601,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/ff6f6def-e5f9-410e-8d42-7b7c064ff62b?AWSAccessKeyId=ASIA2UOK6OVBJJKBNHG3&Signature=awoctNBU6be4hey7N1JXTqclR2E%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJHMEUCIEySDL66cojH4tynw%2B%2FMI3B4q4auVGYn4oYvyVATOHFyAiEAlZ%2BE3KMGy55V2OWAp%2FVxc%2BYGOq8Fg60m4Xbf6XeU2x8qiwUIJBAAGgw3MzExMDY5MzIwMzQiDJWVWu7xYJ5hnMDQliroBOtc7qMBXT3O6fhtNA6AxMBkStdxV%2B1RjwQ6wSoI1xwHaq1pjllaQFM%2Fe5aqxfIAinPE4U2FLPniFFaa8PErlX7Pw3tBeXUalgqsgg7%2Fl%2B5xqoXOkLbPBNvLnvR64MZKZ1FFBNSqahNsaKB07d3gdTy%2BeCkurGWanae5j2%2BtwXkwsrZw68jcYxIPOU9rVw9uXfk4QGjEkhVqIvpypGSV6MD4myxKYhdDmim8KRwdVqhSnOrp54nE9lVxzpVqK9wd5z5%2B9QFYdlMkOfJ0iwQtLChySZk1BXME2gYqvq80Hli8sAGtblTVoNLNcCDvOm4zwHC2n%2FnQD1UBbdRm4VKFLVf8VxxyywvANdDDb1dGMfv31izJQw9QZuuI3G8TekU6F%2B92GX1OmmDfVJ8J74zKwTLXOJxHMS4D%2FGtU6cmU3qD8hPIO9cPhcy6bJHLGSmcl%2Fa2cd2dV6nCLSJWfXDd%2FXpGcZPl5bQGptlpH4v507NuuIvRqsT%2B074l1fWc855%2F%2FqGZtN84XaRQwei1egVt7V2Zn4SlAxS2M5bCqPFauH23u4UFjqWIDZrLeke41YDzKZC1oTT3WrESoC3ga%2BfFGbNjiOIM%2Bqq5%2F4Jd533NGzzOw2id8K1QONxI57xHS6Wb%2FhGaLWoXCS2kyYNVcoWtB1gdmSFUB8VNpuJFYMUOR5%2BTcdjwGBE3M1pY5mZnuuJgaWTY5z4HKUhAcswIkxQWvNy6mVCIm3H0oTgZeJUo5m%2BNGW68Y0YOxxO6nSezxIuCc3h5uv7lN%2BIfE8ymmKl2M6CwUY%2F26179k5OJSo5Yh1Mu2isM81DjTXgcw78nJugY6mwEIQeFTIfLWa2INsE6ktMTjdH%2F9n%2B1k%2FVHlw3YeMfXhqGDBf4JfZiKOFKXDCaBQ2QjocBX79QTNaZxcGgXdpMb%2FZaPJ3QKD3SlwkbbWqbpCxzgQLG0ldnV3Hw7ABTWlWUKS8lEPxjJQJlzF2yOXcn1ol8zjb4kyKEdNkT%2FMKmzM6wR23cvmdyxgvJN41Hl3l7hJn9yceNL114Qq0A%3D%3D&Expires=1733457554",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# San Carlos Reservoir at Coolidge Dam, Ariz.\n\nLocation.- Lat. 30\u00b010'30\", long. 110\u00b031'45\", in NW2 sec. 17, T. 3 S., F. 18 E., unsurveyed, at Coolidge Dam on Gila River.\n\nDrainage area. 12,890 square miles.",
+                "embed": "# San Carlos Reservoir at Coolidge Dam, Ariz.\n\nLocation.- Lat. 30\u00b010'30\", long. 110\u00b031'45\", in NW2 sec. 17, T. 3 S., F. 18 E., unsurveyed, at Coolidge Dam on Gila River.\n\nDrainage area. 12,890 square miles.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.13337507827175954,
+                            "top": 0.049924357034795766,
+                            "width": 0.028804007514088917,
+                            "height": 0.0071860816944024205,
+                            "page": 1
+                        },
+                        "content": "200",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.45835942391984974,
+                            "top": 0.047655068078668684,
+                            "width": 0.14965560425798372,
+                            "height": 0.00832072617246596,
+                            "page": 1
+                        },
+                        "content": "GILA RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.32748904195366313,
+                            "top": 0.07564296520423601,
+                            "width": 0.39887288666249215,
+                            "height": 0.009455370650529501,
+                            "page": 1
+                        },
+                        "content": "San Carlos Reservoir at Coolidge Dam, Ariz.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12273011897307451,
+                            "top": 0.1021180030257186,
+                            "width": 0.7338760175328741,
+                            "height": 0.02193645990922844,
+                            "page": 1
+                        },
+                        "content": "Location.- Lat. 30\u00b010'30\", long. 110\u00b031'45\", in NW2 sec. 17, T. 3 S., F. 18 E., unsurveyed, at Coolidge Dam on Gila River.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12335629304946776,
+                            "top": 0.13275340393343418,
+                            "width": 0.3343769567939887,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "Drainage area. 12,890 square miles.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\nRecords available.- - November 1928 to September 1938.\n\nAverage usable contents.- 9 years (mean of contents at end of each month for water years 1930-38), 143,100 acre-feet.\n\nExtremes.- 1928-38: Maximum usable contents observed, 444,200 acre-feet Apr. 5, 1932 (elevation, 2,471.56 feet) ; minimum observed (since appreciable storage was attained in 1929), 1,050 acre-feet (revised) Aug. 11, 1934 (elevation, 2,383.96 feet).\n\nGage. Water-stage recorder at right intake tower at upstream side of Coolidge Dam, since Jan. 15, 1937. Datum of gage is at mean sea level (from Indian Irrigation Service bench mark). Dec. 7, 1928, to Jan. 14, 1937, series of stakes with tops at known elevations, on right bank about 1,000 feet upstream from Coolidge Dam; water-surface elevation deter- mined to hundredths by measuring down from top of stake partly in weter once daily except Sundays. Datum was at mean sea level, same as for later gage.\n\nCooperation. - Record of daily gage heights and contents prior to Jan. 15, 1937, furnished by Office of Indian Affairs. Capacity tables for water years 1929-36 furnished by Office of Indian Affairs and for water years 1937-38 by Soil Conservation Service.",
+                "embed": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\nRecords available.- - November 1928 to September 1938.\n\nAverage usable contents.- 9 years (mean of contents at end of each month for water years 1930-38), 143,100 acre-feet.\n\nExtremes.- 1928-38: Maximum usable contents observed, 444,200 acre-feet Apr. 5, 1932 (elevation, 2,471.56 feet) ; minimum observed (since appreciable storage was attained in 1929), 1,050 acre-feet (revised) Aug. 11, 1934 (elevation, 2,383.96 feet).\n\nGage. Water-stage recorder at right intake tower at upstream side of Coolidge Dam, since Jan. 15, 1937. Datum of gage is at mean sea level (from Indian Irrigation Service bench mark). Dec. 7, 1928, to Jan. 14, 1937, series of stakes with tops at known elevations, on right bank about 1,000 feet upstream from Coolidge Dam; water-surface elevation deter- mined to hundredths by measuring down from top of stake partly in weter once daily except Sundays. Datum was at mean sea level, same as for later gage.\n\nCooperation. - Record of daily gage heights and contents prior to Jan. 15, 1937, furnished by Office of Indian Affairs. Capacity tables for water years 1929-36 furnished by Office of Indian Affairs and for water years 1937-38 by Soil Conservation Service.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12335629304946776,
+                            "top": 0.15128593040847202,
+                            "width": 0.482780212899186,
+                            "height": 0.009455370650529501,
+                            "page": 1
+                        },
+                        "content": "Records available.- - November 1928 to September 1938.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12335629304946776,
+                            "top": 0.1686838124054463,
+                            "width": 0.8196618659987477,
+                            "height": 0.0208018154311649,
+                            "page": 1
+                        },
+                        "content": "Average usable contents.- 9 years (mean of contents at end of each month for water years 1930-38), 143,100 acre-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12523481527864747,
+                            "top": 0.19667170953101362,
+                            "width": 0.8096430807764559,
+                            "height": 0.030257186081694403,
+                            "page": 1
+                        },
+                        "content": "Extremes.- 1928-38: Maximum usable contents observed, 444,200 acre-feet Apr. 5, 1932 (elevation, 2,471.56 feet) ; minimum observed (since appreciable storage was attained in 1929), 1,050 acre-feet (revised) Aug. 11, 1934 (elevation, 2,383.96 feet).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12398246712586099,
+                            "top": 0.2348714069591528,
+                            "width": 0.8296806512210394,
+                            "height": 0.0680786686838124,
+                            "page": 1
+                        },
+                        "content": "Gage. Water-stage recorder at right intake tower at upstream side of Coolidge Dam, since Jan. 15, 1937. Datum of gage is at mean sea level (from Indian Irrigation Service bench mark). Dec. 7, 1928, to Jan. 14, 1937, series of stakes with tops at known elevations, on right bank about 1,000 feet upstream from Coolidge Dam; water-surface elevation deter- mined to hundredths by measuring down from top of stake partly in weter once daily except Sundays. Datum was at mean sea level, same as for later gage.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12460864120225423,
+                            "top": 0.3097579425113464,
+                            "width": 0.8296806512210394,
+                            "height": 0.030257186081694403,
+                            "page": 1
+                        },
+                        "content": "Cooperation. - Record of daily gage heights and contents prior to Jan. 15, 1937, furnished by Office of Indian Affairs. Capacity tables for water years 1929-36 furnished by Office of Indian Affairs and for water years 1937-38 by Soil Conservation Service.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\nRemarks. - Reservoir is formed by concrete multiple-dome dam, completed Oct. 25, 1928; storage began Nov. 15, 1928. Total usable capacity, about 1,200,000 acre-feet between elevations 2,383.4 feet (sill of lowest outlet gates) and 2,523.0 feet (top df auto- matic spillway gates in raised position) above mean sea level. Capacity tables for computation of contents used as follows: For water years 1929-31, table based on surveys in 1915 by Office of Indian Affairs; for water years 1932-36, table based on same surveys but slightly modified and recomputed; for water years 1937-38, table based on surveys in 1937 by Soil Conservation Service. Figures given in table herewith represent usable contents. Dead storage below elevation 2,383.4 feet was 26,250 acre- feet by capacity tables used for water years 1929-36 and 10,830 acro-feet by table used for water years 1937-38. No allowance has been made for reduction of storage due to accumulation of silt in reservoir except by the change on Oct. 1. 1936, from capac- ity table based on surveys in 1915 to table based on surveys in 1937. Water from reservoir is used for irrigation of San Carlos project and for power development, dependent on irrigation demands.",
+                "embed": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\nRemarks. - Reservoir is formed by concrete multiple-dome dam, completed Oct. 25, 1928; storage began Nov. 15, 1928. Total usable capacity, about 1,200,000 acre-feet between elevations 2,383.4 feet (sill of lowest outlet gates) and 2,523.0 feet (top df auto- matic spillway gates in raised position) above mean sea level. Capacity tables for computation of contents used as follows: For water years 1929-31, table based on surveys in 1915 by Office of Indian Affairs; for water years 1932-36, table based on same surveys but slightly modified and recomputed; for water years 1937-38, table based on surveys in 1937 by Soil Conservation Service. Figures given in table herewith represent usable contents. Dead storage below elevation 2,383.4 feet was 26,250 acre- feet by capacity tables used for water years 1929-36 and 10,830 acro-feet by table used for water years 1937-38. No allowance has been made for reduction of storage due to accumulation of silt in reservoir except by the change on Oct. 1. 1936, from capac- ity table based on surveys in 1915 to table based on surveys in 1937. Water from reservoir is used for irrigation of San Carlos project and for power development, dependent on irrigation demands.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12523481527864747,
+                            "top": 0.34757942511346446,
+                            "width": 0.8403256105197244,
+                            "height": 0.1422087745839637,
+                            "page": 1
+                        },
+                        "content": "Remarks. - Reservoir is formed by concrete multiple-dome dam, completed Oct. 25, 1928; storage began Nov. 15, 1928. Total usable capacity, about 1,200,000 acre-feet between elevations 2,383.4 feet (sill of lowest outlet gates) and 2,523.0 feet (top df auto- matic spillway gates in raised position) above mean sea level. Capacity tables for computation of contents used as follows: For water years 1929-31, table based on surveys in 1915 by Office of Indian Affairs; for water years 1932-36, table based on same surveys but slightly modified and recomputed; for water years 1937-38, table based on surveys in 1937 by Soil Conservation Service. Figures given in table herewith represent usable contents. Dead storage below elevation 2,383.4 feet was 26,250 acre- feet by capacity tables used for water years 1929-36 and 10,830 acro-feet by table used for water years 1937-38. No allowance has been made for reduction of storage due to accumulation of silt in reservoir except by the change on Oct. 1. 1936, from capac- ity table based on surveys in 1915 to table based on surveys in 1937. Water from reservoir is used for irrigation of San Carlos project and for power development, dependent on irrigation demands.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\nRevisions.- Prior to 1946 elevation of sill of lowest outlet gate was published as 2,383.0 feet; levels in 1946 showed that elevation to be 2,383.4 feet. As a result of this finding, figures of usable contents published herewith have been revised for those days on which water-surface elevation was below 2,401.0 feet; no revision was made for days on which elevation was higher because change would be negligible.\n\nElevation of water surface and usable contents on last day of each month and monthly change in contents, of San Carlos Reservoir at Coolidge Dam, Ariz., 1928-38",
+                "embed": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\nRevisions.- Prior to 1946 elevation of sill of lowest outlet gate was published as 2,383.0 feet; levels in 1946 showed that elevation to be 2,383.4 feet. As a result of this finding, figures of usable contents published herewith have been revised for those days on which water-surface elevation was below 2,401.0 feet; no revision was made for days on which elevation was higher because change would be negligible.\n\nElevation of water surface and usable contents on last day of each month and monthly change in contents, of San Carlos Reservoir at Coolidge Dam, Ariz., 1928-38",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12711333750782716,
+                            "top": 0.4973524962178517,
+                            "width": 0.8102692548528491,
+                            "height": 0.04878971255673222,
+                            "page": 1
+                        },
+                        "content": "Revisions.- Prior to 1946 elevation of sill of lowest outlet gate was published as 2,383.0 feet; levels in 1946 showed that elevation to be 2,383.4 feet. As a result of this finding, figures of usable contents published herewith have been revised for those days on which water-surface elevation was below 2,401.0 feet; no revision was made for days on which elevation was higher because change would be negligible.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1559173450219161,
+                            "top": 0.5635400907715582,
+                            "width": 0.7827175954915466,
+                            "height": 0.020045385779122543,
+                            "page": 1
+                        },
+                        "content": "Elevation of water surface and usable contents on last day of each month and monthly change in contents, of San Carlos Reservoir at Coolidge Dam, Ariz., 1928-38",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\n## (I Corrected)\n\n<table><tr><th>Date</th><th>Elevation\n(feet)</th><th>Contents\n(acre-feet)</th><th>Change in contents\nduring month\n(acre-feet)</th></tr><tr><td>Oct. 31, 1928</td><td></td><td>-</td><td>-</td></tr><tr><td>Nov. 30</td><td>(a)</td><td>o</td><td>-</td></tr><tr><td>Dec. 31</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Calendar year 1928</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Jan. 31, 1929</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Feb. 28</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Mar. 31</td><td>b2,383.90</td><td>550</td><td>+550</td></tr><tr><td>Apr. 30</td><td>(c)</td><td>-</td><td>-</td></tr><tr><td>May 31</td><td>(a)</td><td>0</td><td>d -550</td></tr><tr><td>June 30</td><td>(a)</td><td>0</td><td>0</td></tr><tr><td>July 31</td><td>(c)</td><td>-</td><td>-</td></tr><tr><td>Aug. 31</td><td>2,419.65</td><td>97,500</td><td>d+97,500</td></tr><tr><td>Sept. 30</td><td>2,425.97</td><td>123,500</td><td>+26,000</td></tr><tr><td>Water year 1929</td><td>-</td><td>-</td><td>+123,500</td></tr></table>",
+                "embed": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\n## (I Corrected)\n\n<table><tr><th>Date</th><th>Elevation\n(feet)</th><th>Contents\n(acre-feet)</th><th>Change in contents\nduring month\n(acre-feet)</th></tr><tr><td>Oct. 31, 1928</td><td></td><td>-</td><td>-</td></tr><tr><td>Nov. 30</td><td>(a)</td><td>o</td><td>-</td></tr><tr><td>Dec. 31</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Calendar year 1928</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Jan. 31, 1929</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Feb. 28</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Mar. 31</td><td>b2,383.90</td><td>550</td><td>+550</td></tr><tr><td>Apr. 30</td><td>(c)</td><td>-</td><td>-</td></tr><tr><td>May 31</td><td>(a)</td><td>0</td><td>d -550</td></tr><tr><td>June 30</td><td>(a)</td><td>0</td><td>0</td></tr><tr><td>July 31</td><td>(c)</td><td>-</td><td>-</td></tr><tr><td>Aug. 31</td><td>2,419.65</td><td>97,500</td><td>d+97,500</td></tr><tr><td>Sept. 30</td><td>2,425.97</td><td>123,500</td><td>+26,000</td></tr><tr><td>Water year 1929</td><td>-</td><td>-</td><td>+123,500</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.47401377582968063,
+                            "top": 0.5915279878971256,
+                            "width": 0.11709455228553538,
+                            "height": 0.01021180030257186,
+                            "page": 1
+                        },
+                        "content": "(I Corrected)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.14993871833356978,
+                            "top": 0.6054657028590678,
+                            "width": 0.7913070898468075,
+                            "height": 0.18680248173931543,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Elevation\n(feet)</th><th>Contents\n(acre-feet)</th><th>Change in contents\nduring month\n(acre-feet)</th></tr><tr><td>Oct. 31, 1928</td><td></td><td>-</td><td>-</td></tr><tr><td>Nov. 30</td><td>(a)</td><td>o</td><td>-</td></tr><tr><td>Dec. 31</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Calendar year 1928</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Jan. 31, 1929</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Feb. 28</td><td>(a)</td><td>0</td><td>-</td></tr><tr><td>Mar. 31</td><td>b2,383.90</td><td>550</td><td>+550</td></tr><tr><td>Apr. 30</td><td>(c)</td><td>-</td><td>-</td></tr><tr><td>May 31</td><td>(a)</td><td>0</td><td>d -550</td></tr><tr><td>June 30</td><td>(a)</td><td>0</td><td>0</td></tr><tr><td>July 31</td><td>(c)</td><td>-</td><td>-</td></tr><tr><td>Aug. 31</td><td>2,419.65</td><td>97,500</td><td>d+97,500</td></tr><tr><td>Sept. 30</td><td>2,425.97</td><td>123,500</td><td>+26,000</td></tr><tr><td>Water year 1929</td><td>-</td><td>-</td><td>+123,500</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\n## (I Corrected) (cont.)\n\n- a Water surface below sill of lowest outlet gate.\n\n- b Interpolated.\n\nc. Water surface above sill of lowest outlet gate but no reading made. a Change in contents for 2 months.\n\nNote.- Prior to Jan. 15, 1937, elevation of water surface was usually read at 7 a.m. after Jan. 15, 1937, elevation is that at 12 p.m. from water-stage recorder. Elevation of water surface and usable contents not previously published for last day of month for water years 1929-31, nor for last day of sone months for water years 1932-34.",
+                "embed": "# San Carlos Reservoir at Coolidge Dam, Ariz. (cont.)\n\n## (I Corrected) (cont.)\n\n- a Water surface below sill of lowest outlet gate.\n\n- b Interpolated.\n\nc. Water surface above sill of lowest outlet gate but no reading made. a Change in contents for 2 months.\n\nNote.- Prior to Jan. 15, 1937, elevation of water surface was usually read at 7 a.m. after Jan. 15, 1937, elevation is that at 12 p.m. from water-stage recorder. Elevation of water surface and usable contents not previously published for last day of month for water years 1929-31, nor for last day of sone months for water years 1932-34.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.19348778960551033,
+                            "top": 0.8074886535552194,
+                            "width": 0.46399499060738886,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "- a Water surface below sill of lowest outlet gate.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.19348778960551033,
+                            "top": 0.8169440242057489,
+                            "width": 0.1458985597996243,
+                            "height": 0.009077155824508321,
+                            "page": 1
+                        },
+                        "content": "- b Interpolated.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.19348778960551033,
+                            "top": 0.8263993948562783,
+                            "width": 0.6493425172197871,
+                            "height": 0.018910741301059002,
+                            "page": 1
+                        },
+                        "content": "c. Water surface above sill of lowest outlet gate but no reading made. a Change in contents for 2 months.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12648716343143393,
+                            "top": 0.8543872919818457,
+                            "width": 0.8115216030056356,
+                            "height": 0.038577912254160365,
+                            "page": 1
+                        },
+                        "content": "Note.- Prior to Jan. 15, 1937, elevation of water surface was usually read at 7 a.m. after Jan. 15, 1937, elevation is that at 12 p.m. from water-stage recorder. Elevation of water surface and usable contents not previously published for last day of month for water years 1929-31, nor for last day of sone months for water years 1932-34.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "job_id": "d3c19dba-765b-482f-8fbc-5eb4289bc15c",
+    "duration": 4.023733615875244,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/97e78445-7748-4223-9e6c-26932ff806d2?AWSAccessKeyId=ASIA2UOK6OVBLDHRDKQ7&Signature=dyIB19ZPfsF5JR443MlpyNnDgrk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHuAfO44Qzlv2zld1Ug8uGpCjBp7%2Ftk7J%2FsjK9lYE8D9AiEA1fexw5TYGBWxXILMf54vTcwECa%2BDrqQ6hts%2BZ1MM8iQqlAUIvP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3MzExMDY5MzIwMzQiDMJ1kCbufezbyYBouiroBCk5IHxgEb7d%2B7QzIH8fTPSgM9g507gXtHU4ciNQQxHbHPXP9lFYArjg9xosoGitIERFsXv4f9j7jFoNUflE2eurqy%2B9DUsEY4VXHXKHRJlGaGMbTKLObfjy7VdwNf5qIwu9bII0Wh3fzLzgQrxJHkElXZ7vdyk45oc9kIZiK9DJqmR9Uwu9LiU7vG7iGmH9yMfqtgMuLO0y1Axok%2B2gtnN7%2BB5oY%2B8i5p8AtY5HZAWorqbOHGpMdX%2BSIgbEbWY5cBwloZUe4Q8WbM0TPeHWknguP9YfGILDRxz%2FzphzEf5%2BZPxffM3f5jDG3FQNgUY3HL61QQYH5S%2BfEiNL6dSOp9Q5qaLgzEQBhz3hHbapVTQuRJuAacHbfpax1PUEwbtRN291baJBSbSuEJWjuczwMkFxaDIvmernMh%2FtINjv3yHikY6oukgqs6eqlqj8HSrRL9i7LpyzdolUOOOLHeVd85kq0UDsCcQmTf9bWA0j%2BMpOtAE0U8eTguvBleNINSJ6y3Ux8sPIfYfV5QvUexin8zDd3%2FGfLljCx6S%2F8N2hl8%2BRMpbYOTko1jydsAb3guUlUzymqC8fuz5IOLKQgISOSAyCQoAsFhflex7B2udUuMiH1lKi%2B6xwmQbLQTbu0tcGXZKFzudkcXieyPFeHBCP7X9Z69%2FJMmAd%2BL1sy0dw4JptUOM1vkley2tXCVQpUKi5cANbhSAChyCWuRJc9TrXYg6Zhxhcqx3YYs3nsCNaf5Db%2BsU9HfWEmEQqTqdV%2BHx3T3bJv1XhMWFDIiuL36a7ZtxAm71eKIoeHE4qP%2BTHnGX%2F0iwUKmdyrJww%2BaCJvAY6mwFrJeYGLhitvH0W3noZJAWFh2vcr2x8oAbc016YBeJyl7HcVOXUijMWqqF2hxU5jdulMIyyiWFBXUjbqajzYCwFcwVyhy1%2FAXAhRIv1NV7rqhPGIM%2FRpNpeyTFvXpEAKmAF8L%2BVuHkDEYJ5kfVu5QjI8mLUHnaWM1anKTU53Ed%2BDv%2FiOjvhxUvgJZSb%2FIqcv5YaKpgywdm3TUUNBA%3D%3D&Expires=1736598103",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "SURFACE-WATER AND WATER-QUALITY STATIONS, IN DOWNSTREAM ORDER, FOR WHICH RECORDS ARE PUBLISHED\n\nXIII\n\nPage",
+                "embed": "SURFACE-WATER AND WATER-QUALITY STATIONS, IN DOWNSTREAM ORDER, FOR WHICH RECORDS ARE PUBLISHED\n\nXIII\n\nPage",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.2673684210526316,
+                            "top": 0.05099422706863374,
+                            "width": 0.5229473684210526,
+                            "height": 0.025016035920461834,
+                            "page": 1
+                        },
+                        "content": "SURFACE-WATER AND WATER-QUALITY STATIONS, IN DOWNSTREAM ORDER, FOR WHICH RECORDS ARE PUBLISHED",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.911578947368421,
+                            "top": 0.05099422706863374,
+                            "width": 0.03831578947368421,
+                            "height": 0.009621552277100705,
+                            "page": 1
+                        },
+                        "content": "XIII",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.9107368421052632,
+                            "top": 0.09012187299550994,
+                            "width": 0.03831578947368421,
+                            "height": 0.011545862732520847,
+                            "page": 1
+                        },
+                        "content": "Page",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th>PACIFIC SLOPE BASINS IN CALIFORNIA--Continued</th><th>Page</th></tr><tr><td>SACRAMENTO RIVER BASIN - Continued</td><td></td></tr><tr><td>North Fork American River --Continued</td><td></td></tr><tr><td>South Fork American River Continued</td><td></td></tr><tr><td>Alder Creek near White Hall (d)</td><td>305</td></tr><tr><td>Silver Creek:</td><td></td></tr><tr><td>Union Valley Reservoir near Riverton (1)</td><td>306</td></tr><tr><td>South Fork Silver Creek:</td><td></td></tr><tr><td>Ice House Reservoir near Kyburz (1)</td><td>307</td></tr><tr><td>South Fork Silver Creek near Ice House (d)</td><td>308</td></tr><tr><td>Silver Creek below Camino diversion dam (d)</td><td>309</td></tr><tr><td>South Fork American River below Silver Creek, near Pollock\nPines (d)</td><td>310</td></tr><tr><td>South Fork American River near Camino (d)</td><td>311</td></tr><tr><td>South Fork American River near Placerville (d)</td><td>312</td></tr><tr><td>South Fork American River near Lotus (dt)</td><td>313</td></tr><tr><td>American River:</td><td></td></tr><tr><td>Folsom Lake near Folsom (1)</td><td>315</td></tr><tr><td>American River at Fair Oaks (dt)</td><td>316</td></tr><tr><td>Strong Ranch Slough at Sacramento (dc)</td><td>319</td></tr><tr><td>Natomas East Main Drainage Canal:</td><td></td></tr><tr><td>Arcade Creek near Del Paso Heights (d)</td><td>322</td></tr><tr><td>Sacramento River at Sacramento (dts)</td><td>323</td></tr><tr><td>Sacramento River at Freeport (cbts)</td><td>330</td></tr><tr><td>Sacramento River at Green's Landing, near Courtland (c)</td><td>342</td></tr><tr><td></td><td></td></tr><tr><td colspan=\"2\">Yolo Bypass:\nClear Lake (head of Cache Creek)</td></tr><tr><td>Adobe Creek near Kelseyville (d)</td><td>347</td></tr><tr><td>Highland Creek above Highland Creek Dam (d)</td><td>348</td></tr><tr><td>Highland Creek below Highland Creek Dam, near Kelseyville (dcts)</td><td>349</td></tr><tr><td>Middle Creek:</td><td></td></tr><tr><td>Scotts Creek near Lakeport (d)</td><td>354</td></tr><tr><td>Kelsey Creek near Kelseyville (d)</td><td>355</td></tr><tr><td>Clear Lake at Lakeport (1)</td><td>356</td></tr><tr><td>Cache Creek near Lower Lake (dc)</td><td>357</td></tr><tr><td>North Fork Cache Creek at Hough Springs, near Clearlake Oaks (d)</td><td>359</td></tr><tr><td>North Fork Cache Creek near Lower Lake (d)</td><td>360</td></tr><tr><td>Bear Creek near Rumsey (d)</td><td>361</td></tr><tr><td>Cache Creek near Capay (dc)</td><td>362</td></tr><tr><td>Cache Creek at Yolo (d)</td><td>364</td></tr><tr><td>Yolo Bypass near Woodland (d)</td><td>365</td></tr><tr><td>Putah Creek near Guenoc (d)</td><td>366</td></tr><tr><td>Hunting Creek near Knoxville (d)</td><td>367</td></tr><tr><td>Eticuera Creek:</td><td></td></tr><tr><td>Adams Creek near Knoxville (d)</td><td>368</td></tr><tr><td>Nevada Creek near Knoxville (d)</td><td>369</td></tr><tr><td>Pope Creek near Pope Valley (d)</td><td>371</td></tr><tr><td>Lake Berryessa near Winters (1)</td><td>372</td></tr><tr><td>Putah Creek near Winters (dct)</td><td>373</td></tr></table>",
+                "embed": "<table><tr><th>PACIFIC SLOPE BASINS IN CALIFORNIA--Continued</th><th>Page</th></tr><tr><td>SACRAMENTO RIVER BASIN - Continued</td><td></td></tr><tr><td>North Fork American River --Continued</td><td></td></tr><tr><td>South Fork American River Continued</td><td></td></tr><tr><td>Alder Creek near White Hall (d)</td><td>305</td></tr><tr><td>Silver Creek:</td><td></td></tr><tr><td>Union Valley Reservoir near Riverton (1)</td><td>306</td></tr><tr><td>South Fork Silver Creek:</td><td></td></tr><tr><td>Ice House Reservoir near Kyburz (1)</td><td>307</td></tr><tr><td>South Fork Silver Creek near Ice House (d)</td><td>308</td></tr><tr><td>Silver Creek below Camino diversion dam (d)</td><td>309</td></tr><tr><td>South Fork American River below Silver Creek, near Pollock\nPines (d)</td><td>310</td></tr><tr><td>South Fork American River near Camino (d)</td><td>311</td></tr><tr><td>South Fork American River near Placerville (d)</td><td>312</td></tr><tr><td>South Fork American River near Lotus (dt)</td><td>313</td></tr><tr><td>American River:</td><td></td></tr><tr><td>Folsom Lake near Folsom (1)</td><td>315</td></tr><tr><td>American River at Fair Oaks (dt)</td><td>316</td></tr><tr><td>Strong Ranch Slough at Sacramento (dc)</td><td>319</td></tr><tr><td>Natomas East Main Drainage Canal:</td><td></td></tr><tr><td>Arcade Creek near Del Paso Heights (d)</td><td>322</td></tr><tr><td>Sacramento River at Sacramento (dts)</td><td>323</td></tr><tr><td>Sacramento River at Freeport (cbts)</td><td>330</td></tr><tr><td>Sacramento River at Green's Landing, near Courtland (c)</td><td>342</td></tr><tr><td></td><td></td></tr><tr><td colspan=\"2\">Yolo Bypass:\nClear Lake (head of Cache Creek)</td></tr><tr><td>Adobe Creek near Kelseyville (d)</td><td>347</td></tr><tr><td>Highland Creek above Highland Creek Dam (d)</td><td>348</td></tr><tr><td>Highland Creek below Highland Creek Dam, near Kelseyville (dcts)</td><td>349</td></tr><tr><td>Middle Creek:</td><td></td></tr><tr><td>Scotts Creek near Lakeport (d)</td><td>354</td></tr><tr><td>Kelsey Creek near Kelseyville (d)</td><td>355</td></tr><tr><td>Clear Lake at Lakeport (1)</td><td>356</td></tr><tr><td>Cache Creek near Lower Lake (dc)</td><td>357</td></tr><tr><td>North Fork Cache Creek at Hough Springs, near Clearlake Oaks (d)</td><td>359</td></tr><tr><td>North Fork Cache Creek near Lower Lake (d)</td><td>360</td></tr><tr><td>Bear Creek near Rumsey (d)</td><td>361</td></tr><tr><td>Cache Creek near Capay (dc)</td><td>362</td></tr><tr><td>Cache Creek at Yolo (d)</td><td>364</td></tr><tr><td>Yolo Bypass near Woodland (d)</td><td>365</td></tr><tr><td>Putah Creek near Guenoc (d)</td><td>366</td></tr><tr><td>Hunting Creek near Knoxville (d)</td><td>367</td></tr><tr><td>Eticuera Creek:</td><td></td></tr><tr><td>Adams Creek near Knoxville (d)</td><td>368</td></tr><tr><td>Nevada Creek near Knoxville (d)</td><td>369</td></tr><tr><td>Pope Creek near Pope Valley (d)</td><td>371</td></tr><tr><td>Lake Berryessa near Winters (1)</td><td>372</td></tr><tr><td>Putah Creek near Winters (dct)</td><td>373</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1219214509662829,
+                            "top": 0.09508971972217768,
+                            "width": 0.8338544536389803,
+                            "height": 0.6427283834539368,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>PACIFIC SLOPE BASINS IN CALIFORNIA--Continued</th><th>Page</th></tr><tr><td>SACRAMENTO RIVER BASIN - Continued</td><td></td></tr><tr><td>North Fork American River --Continued</td><td></td></tr><tr><td>South Fork American River Continued</td><td></td></tr><tr><td>Alder Creek near White Hall (d)</td><td>305</td></tr><tr><td>Silver Creek:</td><td></td></tr><tr><td>Union Valley Reservoir near Riverton (1)</td><td>306</td></tr><tr><td>South Fork Silver Creek:</td><td></td></tr><tr><td>Ice House Reservoir near Kyburz (1)</td><td>307</td></tr><tr><td>South Fork Silver Creek near Ice House (d)</td><td>308</td></tr><tr><td>Silver Creek below Camino diversion dam (d)</td><td>309</td></tr><tr><td>South Fork American River below Silver Creek, near Pollock\nPines (d)</td><td>310</td></tr><tr><td>South Fork American River near Camino (d)</td><td>311</td></tr><tr><td>South Fork American River near Placerville (d)</td><td>312</td></tr><tr><td>South Fork American River near Lotus (dt)</td><td>313</td></tr><tr><td>American River:</td><td></td></tr><tr><td>Folsom Lake near Folsom (1)</td><td>315</td></tr><tr><td>American River at Fair Oaks (dt)</td><td>316</td></tr><tr><td>Strong Ranch Slough at Sacramento (dc)</td><td>319</td></tr><tr><td>Natomas East Main Drainage Canal:</td><td></td></tr><tr><td>Arcade Creek near Del Paso Heights (d)</td><td>322</td></tr><tr><td>Sacramento River at Sacramento (dts)</td><td>323</td></tr><tr><td>Sacramento River at Freeport (cbts)</td><td>330</td></tr><tr><td>Sacramento River at Green's Landing, near Courtland (c)</td><td>342</td></tr><tr><td></td><td></td></tr><tr><td colspan=\"2\">Yolo Bypass:\nClear Lake (head of Cache Creek)</td></tr><tr><td>Adobe Creek near Kelseyville (d)</td><td>347</td></tr><tr><td>Highland Creek above Highland Creek Dam (d)</td><td>348</td></tr><tr><td>Highland Creek below Highland Creek Dam, near Kelseyville (dcts)</td><td>349</td></tr><tr><td>Middle Creek:</td><td></td></tr><tr><td>Scotts Creek near Lakeport (d)</td><td>354</td></tr><tr><td>Kelsey Creek near Kelseyville (d)</td><td>355</td></tr><tr><td>Clear Lake at Lakeport (1)</td><td>356</td></tr><tr><td>Cache Creek near Lower Lake (dc)</td><td>357</td></tr><tr><td>North Fork Cache Creek at Hough Springs, near Clearlake Oaks (d)</td><td>359</td></tr><tr><td>North Fork Cache Creek near Lower Lake (d)</td><td>360</td></tr><tr><td>Bear Creek near Rumsey (d)</td><td>361</td></tr><tr><td>Cache Creek near Capay (dc)</td><td>362</td></tr><tr><td>Cache Creek at Yolo (d)</td><td>364</td></tr><tr><td>Yolo Bypass near Woodland (d)</td><td>365</td></tr><tr><td>Putah Creek near Guenoc (d)</td><td>366</td></tr><tr><td>Hunting Creek near Knoxville (d)</td><td>367</td></tr><tr><td>Eticuera Creek:</td><td></td></tr><tr><td>Adams Creek near Knoxville (d)</td><td>368</td></tr><tr><td>Nevada Creek near Knoxville (d)</td><td>369</td></tr><tr><td>Pope Creek near Pope Valley (d)</td><td>371</td></tr><tr><td>Lake Berryessa near Winters (1)</td><td>372</td></tr><tr><td>Putah Creek near Winters (dct)</td><td>373</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

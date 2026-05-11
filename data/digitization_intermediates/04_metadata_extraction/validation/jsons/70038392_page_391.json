@@ -1,0 +1,226 @@
+{
+    "job_id": "33251fa4-f86e-47e3-be69-0b4ea2388359",
+    "duration": 7.04939341545105,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/08431b2c-582b-40cd-9da7-25f7fc7486ed?AWSAccessKeyId=ASIA2UOK6OVBJBHYFFXO&Signature=LeYp6%2BprUsIgEQQXKvfLK9AGRaI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJHMEUCIQD1YyxL6pApTYFrQfYJHK%2B4pKpNI0bhbCleEGtMqPtosAIgXVBJD7HvOd8c%2Fu%2FfdHENrosX5znVJeMqv%2B9SFzMQKWYqiwUIIRAAGgw3MzExMDY5MzIwMzQiDJlEhgghYWl4g697HSroBNoLXWM0RzkhE35NEBmHKD5rkKeDedc1cNn1ASedfaCp2cuYiHW%2BwG4ddGI33rUuwZdi9T7jL8YEpiqCDMxEr1YqT8AgVnmIBHUGg5sjttpgi2r1d8zxquGG7bhD5JkZTGoMzmsdZ3sF07kD3dPAxpzg0oNplOIAbDfmImdDKqKrHk4inIWUcARf7i84q1XZ5ribKBi4MUIooouiXFoD0VqfSp1Ew5tISVMMNyz4aryflmqvkfXUUteVuvbXt2xkyM5DBdKreGoAidpfUTii8LQ8bE8oqXq5dDa49ZLMjAlX2jjYcfF32k%2BIZUgaVIB4MoiUcv3gvdAhP2FHtSRSnYIjMmVCsUeLO0m8BZT3C8M5I8oK2kwduejONyprtsJFJcScWkRQ7I1FPWHM%2Bi4pWpuxt%2BR2t8ig%2FmNr49fPqkdTAxC%2B%2BHRT%2BdOSNiM%2BqADc%2BWYRBVKGmFmnyloKpESZrkGMlxpNMXDQFi7JlJ9VYJELYb0SnestyfCEoxGLBybgyckYqTSUeYxW1o0GVSIEeyv8nsKqyACP6w6J34oXVUwKM7bF8KCgjM2PX11KY%2BWh2mIeqZlRIZHcjG%2FLfgttwck4FDaltIf7WGcI%2BxvlHpYiUbNq2sGAjEylrSNXkIaKyXrqKFChfiFCXhl8s0uT5pMtNoMCGPt5XOczW9kyW9FMgt1GwR0M8WlqJRzRUrF6MQuQGQpVSnpV%2FDkAiAjpCSzBxE%2BDqcfvD4k1MoznKRdl0%2BEoLCQ%2BW88vF%2BE4L%2FyzycfZoaIiCwbL7HjR0JhQaxvD7aGLXlpYvOjsuSwG8c6%2Bg8JuUqm%2Fa7EwwfrIugY6mwEeZEZ7k%2Fq6kCRMSm9rvn913vRKtNUh2i1Ed1eAAHc5dxyIo%2BEBZMdil%2BLRz17Pnu1SvuxlVnPnMB4BuH%2BIgjhfzqNZJtuI2fuQZCAAjhN64LLifyu0TQWnSSfr1NMF7muzyCYb2SGy3yHTgHhCLfgoFTvuzePhx2iax27i2JH0VDWOcgxU7SZTJeo5LV7mCOlU8GscMr5QzEsZtw%3D%3D&Expires=1733449070",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# EEL RIVER BASIN\n\n11-4755. South Fork Eel River near Branscomb, Calif.\n\nLocation. Lat 39\u00b043'09\", long 123\u00b039'06\" in NW1/2 sec. 32, T.22 N., R.16 W., on right bank 0.4 mile upstream from Jack of Hearts Creek and 4.7 miles north of Branscomb.",
+                "embed": "# EEL RIVER BASIN\n\n11-4755. South Fork Eel River near Branscomb, Calif.\n\nLocation. Lat 39\u00b043'09\", long 123\u00b039'06\" in NW1/2 sec. 32, T.22 N., R.16 W., on right bank 0.4 mile upstream from Jack of Hearts Creek and 4.7 miles north of Branscomb.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.4758650149508757,
+                            "top": 0.09183027232425586,
+                            "width": 0.09269542930371637,
+                            "height": 0.006649778340721976,
+                            "page": 1
+                        },
+                        "content": "EEL RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.9064502349423323,
+                            "top": 0.09246358454718176,
+                            "width": 0.01751388295600171,
+                            "height": 0.006649778340721976,
+                            "page": 1
+                        },
+                        "content": "373",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.35924818453652285,
+                            "top": 0.10861304623179227,
+                            "width": 0.31909440410081163,
+                            "height": 0.009816339455351488,
+                            "page": 1
+                        },
+                        "content": "11-4755. South Fork Eel River near Branscomb, Calif.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10422896198205894,
+                            "top": 0.12571247625079163,
+                            "width": 0.822298163178129,
+                            "height": 0.01741608613046232,
+                            "page": 1
+                        },
+                        "content": "Location. Lat 39\u00b043'09\", long 123\u00b039'06\" in NW1/2 sec. 32, T.22 N., R.16 W., on right bank 0.4 mile upstream from Jack of Hearts Creek and 4.7 miles north of Branscomb.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EEL RIVER BASIN (cont.)\n\nDrainage area 43.9 sq mi.\n\nRecords available October 1946 to September 1961,\n\nGage Water-stage recorder with thermograph attachment. Altitude of gage is 1,380 ft (from topographic map)\n\nAverage discharge. --15 years, 174 cfs (126,000 acre-ft per year)\n\nExtremes - -Maximum discharge during year, 3,690 cfs Jan. 31 (gage height, 7.67 ft) minimum, 1,7 cfs Oct. 1. basis of slope-area measurement of peak flow; minimum, 1.3 cfs Sept. 10, 1959, 1946-61; Maximum discharge, 20,100 cfs Dec. 22, 1955 (gage height, 16.20 ft), from rating curve extended above 4,600 cfs on\n\nRemarks Records good. No regulation or diversion.\n\nRating table (gage-height, in feet, and discharge, in cubic feet per second) (Shifting-control method used Aug. 27 to Sept. 30)\n\n<table><tr><th>0.8</th><th>1.3</th><th>1.4</th><th>42</th><th>4.0</th><th>880</th></tr><tr><td>0.9\n1.0</td><td>3.2\n6.4</td><td>1.7\n2,0</td><td>94\n164</td><td>5.0\n6.0</td><td>1,430\n2,170</td></tr><tr><td>1.1</td><td>12</td><td>3.0</td><td>470</td><td>7.0</td><td>3,000</td></tr><tr><td>1.2</td><td>19</td><td></td><td></td><td></td><td></td></tr></table>\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1960 TO SEPTEMBER 1961",
+                "embed": "# EEL RIVER BASIN (cont.)\n\nDrainage area 43.9 sq mi.\n\nRecords available October 1946 to September 1961,\n\nGage Water-stage recorder with thermograph attachment. Altitude of gage is 1,380 ft (from topographic map)\n\nAverage discharge. --15 years, 174 cfs (126,000 acre-ft per year)\n\nExtremes - -Maximum discharge during year, 3,690 cfs Jan. 31 (gage height, 7.67 ft) minimum, 1,7 cfs Oct. 1. basis of slope-area measurement of peak flow; minimum, 1.3 cfs Sept. 10, 1959, 1946-61; Maximum discharge, 20,100 cfs Dec. 22, 1955 (gage height, 16.20 ft), from rating curve extended above 4,600 cfs on\n\nRemarks Records good. No regulation or diversion.\n\nRating table (gage-height, in feet, and discharge, in cubic feet per second) (Shifting-control method used Aug. 27 to Sept. 30)\n\n<table><tr><th>0.8</th><th>1.3</th><th>1.4</th><th>42</th><th>4.0</th><th>880</th></tr><tr><td>0.9\n1.0</td><td>3.2\n6.4</td><td>1.7\n2,0</td><td>94\n164</td><td>5.0\n6.0</td><td>1,430\n2,170</td></tr><tr><td>1.1</td><td>12</td><td>3.0</td><td>470</td><td>7.0</td><td>3,000</td></tr><tr><td>1.2</td><td>19</td><td></td><td></td><td></td><td></td></tr></table>\n\nDISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1960 TO SEPTEMBER 1961",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1046561298590346,
+                            "top": 0.15357821405953134,
+                            "width": 0.1661683041435284,
+                            "height": 0.008866371120962635,
+                            "page": 1
+                        },
+                        "content": "Drainage area 43.9 sq mi.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.1046561298590346,
+                            "top": 0.17162761241291957,
+                            "width": 0.3139683895771038,
+                            "height": 0.009499683343888538,
+                            "page": 1
+                        },
+                        "content": "Records available October 1946 to September 1961,",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10508329773601026,
+                            "top": 0.1896770107663078,
+                            "width": 0.6706535668517728,
+                            "height": 0.01266624445851805,
+                            "page": 1
+                        },
+                        "content": "Gage Water-stage recorder with thermograph attachment. Altitude of gage is 1,380 ft (from topographic map)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10422896198205894,
+                            "top": 0.207726409119696,
+                            "width": 0.39598462195642886,
+                            "height": 0.01044965167827739,
+                            "page": 1
+                        },
+                        "content": "Average discharge. --15 years, 174 cfs (126,000 acre-ft per year)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10422896198205894,
+                            "top": 0.22577580747308423,
+                            "width": 0.8026484408372491,
+                            "height": 0.029765674477517417,
+                            "page": 1
+                        },
+                        "content": "Extremes - -Maximum discharge during year, 3,690 cfs Jan. 31 (gage height, 7.67 ft) minimum, 1,7 cfs Oct. 1. basis of slope-area measurement of peak flow; minimum, 1.3 cfs Sept. 10, 1959, 1946-61; Maximum discharge, 20,100 cfs Dec. 22, 1955 (gage height, 16.20 ft), from rating curve extended above 4,600 cfs on",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10422896198205894,
+                            "top": 0.2628245725142495,
+                            "width": 0.31909440410081163,
+                            "height": 0.009183027232425586,
+                            "page": 1
+                        },
+                        "content": "Remarks Records good. No regulation or diversion.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.28919265271251604,
+                            "top": 0.2818239392020266,
+                            "width": 0.46646732165741134,
+                            "height": 0.019949335022165927,
+                            "page": 1
+                        },
+                        "content": "Rating table (gage-height, in feet, and discharge, in cubic feet per second) (Shifting-control method used Aug. 27 to Sept. 30)",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.31219826575682136,
+                            "top": 0.30686035542793105,
+                            "width": 0.40855616944715134,
+                            "height": 0.04959079387295163,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>0.8</th><th>1.3</th><th>1.4</th><th>42</th><th>4.0</th><th>880</th></tr><tr><td>0.9\n1.0</td><td>3.2\n6.4</td><td>1.7\n2,0</td><td>94\n164</td><td>5.0\n6.0</td><td>1,430\n2,170</td></tr><tr><td>1.1</td><td>12</td><td>3.0</td><td>470</td><td>7.0</td><td>3,000</td></tr><tr><td>1.2</td><td>19</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.24476719350704826,
+                            "top": 0.36858771374287524,
+                            "width": 0.5736864587782998,
+                            "height": 0.011399620012666244,
+                            "page": 1
+                        },
+                        "content": "DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR OCTOBER 1960 TO SEPTEMBER 1961",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EEL RIVER BASIN (cont.)\n\n<table><tr><th>DAY</th><th>OCT.</th><th>NOV.</th><th>DEC.</th><th>JAN.</th><th>FEB.</th><th>MAR.</th><th>APR.</th><th>MAY</th><th>JUNE</th><th>JULY</th><th>AUG.</th><th>SEPT.</th></tr><tr><td>1</td><td>2.1</td><td>4.0</td><td>1,080</td><td>78</td><td>869</td><td>*94</td><td>212</td><td>138</td><td>52</td><td>17</td><td>7.8</td><td>5.3</td></tr><tr><td>2</td><td>2.5</td><td>3.7</td><td>749</td><td>72</td><td>915</td><td>90</td><td>181</td><td>133</td><td>50</td><td>17</td><td>7.3</td><td>5.0</td></tr><tr><td>3</td><td>2.3</td><td>3.5</td><td>441</td><td>67</td><td>634</td><td>85</td><td>156</td><td>121</td><td>47</td><td>16</td><td>7.3</td><td>4.6</td></tr><tr><td>4</td><td>2.3</td><td>3.5</td><td>301</td><td>62</td><td>477</td><td>80</td><td>136</td><td>110</td><td>45</td><td>17</td><td>6.8</td><td>4.0</td></tr><tr><td>5</td><td>3.0</td><td>3.7</td><td>220</td><td>58</td><td>364</td><td>128</td><td>121</td><td>106</td><td>44</td><td>17</td><td>6.8</td><td>*4.0</td></tr><tr><td>6</td><td>5.7</td><td>3.7</td><td>170</td><td>55</td><td>304</td><td>262</td><td>110</td><td>133</td><td>44</td><td>17</td><td>6.8</td><td>3.7</td></tr><tr><td>7</td><td>*7.8</td><td>4.0</td><td>136</td><td>55</td><td>250</td><td>200</td><td>100</td><td>143</td><td>44</td><td>16</td><td>6.4</td><td>3.7</td></tr><tr><td>8</td><td>7.8</td><td>4.3</td><td>112</td><td>53</td><td>232</td><td>265</td><td>90</td><td>126</td><td>41</td><td>15</td><td>6.0</td><td>3.7</td></tr><tr><td>9</td><td>5.7</td><td>4.3</td><td>96</td><td>53</td><td>916</td><td>393</td><td>83</td><td>151</td><td>39</td><td>14</td><td>5.7</td><td>3.5</td></tr><tr><td>10</td><td>4.6</td><td>4.3</td><td>96</td><td>50</td><td>791</td><td>488</td><td>80</td><td>277</td><td>37</td><td>14</td><td>*5.3</td><td>3.5</td></tr><tr><td>11</td><td>4.0</td><td>8.3</td><td>85</td><td>47</td><td>2,130</td><td>586</td><td>72</td><td>425</td><td>37</td><td>14</td><td>5.3</td><td>3.2</td></tr><tr><td>12</td><td>3.7</td><td>15</td><td>*74</td><td>44</td><td>1,130</td><td>467</td><td>76</td><td>364</td><td>36</td><td>13</td><td>5.7</td><td>3.2</td></tr><tr><td>13</td><td>3.7</td><td>44</td><td>67</td><td>42</td><td>1,140</td><td>390</td><td>69</td><td>301</td><td>34</td><td>12</td><td>5.3</td><td>3.2</td></tr><tr><td>14</td><td>3.7</td><td>33</td><td>62</td><td>41</td><td>1,160</td><td>507</td><td>62</td><td>247</td><td>32</td><td>12</td><td>6.0</td><td>3.2</td></tr><tr><td>15</td><td>3.7</td><td>23</td><td>95</td><td>38</td><td>1,110</td><td>1,060</td><td>56</td><td>206</td><td>30</td><td>12</td><td>6.4</td><td>3.7</td></tr><tr><td>16</td><td>3.5</td><td>15</td><td>468</td><td>37</td><td>805</td><td>855</td><td>53</td><td>172</td><td>29</td><td>12</td><td>6.0</td><td>6.0</td></tr><tr><td>17</td><td>3.2</td><td>*14</td><td>2,710</td><td>36</td><td>586</td><td>900</td><td>52</td><td>151</td><td>28</td><td>11</td><td>5.3</td><td>6.8</td></tr><tr><td>18</td><td>3.2</td><td>84</td><td>1,450</td><td>34</td><td>448</td><td>654</td><td>52</td><td>131</td><td>28</td><td>11</td><td>5.0</td><td>6.0</td></tr><tr><td>19</td><td>3.2</td><td>32</td><td>785</td><td>34</td><td>352</td><td>618</td><td>47</td><td>116</td><td>27</td><td>9.4</td><td>4.3</td><td>5.3</td></tr><tr><td>20</td><td>3.2</td><td>21</td><td>526</td><td>33</td><td>283</td><td>547</td><td>48</td><td>108</td><td>26</td><td>9.4</td><td>5.0</td><td>4.6</td></tr><tr><td>21</td><td>3.2</td><td>26</td><td>396</td><td>32</td><td>238</td><td>451</td><td>95</td><td>98</td><td>23</td><td>9.4</td><td>5.0</td><td>4.3</td></tr><tr><td>22</td><td>3.2</td><td>20</td><td>304</td><td>30</td><td>203</td><td>474</td><td>178</td><td>92</td><td>23</td><td>9.4</td><td>5.0</td><td>4.3</td></tr><tr><td>23</td><td>3.5</td><td>100</td><td>241</td><td>45</td><td>175</td><td>512</td><td>277</td><td>85</td><td>23</td><td>9.4</td><td>5.3</td><td>4.3</td></tr><tr><td>24</td><td>5.0</td><td>498</td><td>198</td><td>39</td><td>151</td><td>582</td><td>189</td><td>80</td><td>22</td><td>9.4</td><td>5.3</td><td>4.0</td></tr><tr><td>25</td><td>5.0</td><td>960</td><td>170</td><td>38</td><td>136</td><td>618</td><td>151</td><td>74</td><td>21</td><td>8.8</td><td>5.3</td><td>4.0</td></tr><tr><td>26</td><td>5.7</td><td>393</td><td>143</td><td>52</td><td>121</td><td>614</td><td>126</td><td>76</td><td>20</td><td>8.8</td><td>5.7</td><td>3,5</td></tr><tr><td>27</td><td>5.7</td><td>214</td><td>126</td><td>56</td><td>110</td><td>540</td><td>110</td><td>69</td><td>19</td><td>8.3</td><td>7.8</td><td>3.2</td></tr><tr><td>28</td><td>5.0</td><td>141</td><td>112</td><td>50</td><td>102</td><td>451</td><td>100</td><td>63</td><td>*19</td><td>7.8</td><td>7.8</td><td>3.2</td></tr><tr><td>29</td><td>4.6</td><td>106</td><td>100</td><td>323</td><td></td><td>374</td><td>106</td><td>60</td><td>19</td><td>7.8</td><td>6.8</td><td>3.2</td></tr><tr><td>30</td><td>4.3</td><td>613</td><td>92</td><td>423</td><td></td><td>304</td><td>98</td><td>60</td><td>18</td><td>7.8</td><td>5.7</td><td>3.0</td></tr><tr><td>31</td><td>4.0</td><td></td><td>85</td><td>2,120</td><td></td><td>253</td><td></td><td>56</td><td></td><td>8.3</td><td>5.3</td><td></td></tr><tr><td>TOTAL</td><td>128.1</td><td>3,399.3</td><td>11,690</td><td>4,197</td><td>16,132</td><td>13,842</td><td>3,286</td><td>4,472</td><td>957</td><td>371.0</td><td>185.5</td><td>123.2</td></tr><tr><td>MEAN</td><td>4.13</td><td>113</td><td>377</td><td>135</td><td>576</td><td>447</td><td>110</td><td>144</td><td>31.9</td><td>12.0</td><td>5.98</td><td>4.11</td></tr><tr><td>MAX</td><td>7.8</td><td>960</td><td>2,710</td><td>2,120</td><td>2,130</td><td>1,060</td><td>277</td><td>425</td><td>52</td><td>17</td><td>7.8</td><td>6.8</td></tr><tr><td>MIN</td><td>2.1</td><td>3.5</td><td>62</td><td>30</td><td>102</td><td>80</td><td>47</td><td>56</td><td>18</td><td>7.8</td><td>4.3</td><td>3.0</td></tr><tr><td>AC-FT</td><td>254</td><td>6,740</td><td>23,190</td><td>8,320</td><td>32,000</td><td>27,460</td><td>6,520</td><td>8,870</td><td>1,900</td><td>736</td><td>368</td><td>244</td></tr><tr><td>CALENDAR</td><td>YEAR</td><td>1960: MAX</td><td>8,760</td><td>MIN 1.7</td><td></td><td>MEAN 192</td><td>AC-FT</td><td>139,400</td><td></td><td></td><td></td><td></td></tr><tr><td>WATER</td><td>YEAR 1960</td><td>-61: MAX</td><td>2,710</td><td>MIN 2.1</td><td></td><td>MEAN 161</td><td>AC-FT</td><td>116,600</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Peak discharge</td><td>(base,</td><td>2,000 cfs)</td><td></td><td></td><td>*</td><td></td><td>measurement made</td><td>on this</td><td></td><td></td></tr></table>",
+                "embed": "# EEL RIVER BASIN (cont.)\n\n<table><tr><th>DAY</th><th>OCT.</th><th>NOV.</th><th>DEC.</th><th>JAN.</th><th>FEB.</th><th>MAR.</th><th>APR.</th><th>MAY</th><th>JUNE</th><th>JULY</th><th>AUG.</th><th>SEPT.</th></tr><tr><td>1</td><td>2.1</td><td>4.0</td><td>1,080</td><td>78</td><td>869</td><td>*94</td><td>212</td><td>138</td><td>52</td><td>17</td><td>7.8</td><td>5.3</td></tr><tr><td>2</td><td>2.5</td><td>3.7</td><td>749</td><td>72</td><td>915</td><td>90</td><td>181</td><td>133</td><td>50</td><td>17</td><td>7.3</td><td>5.0</td></tr><tr><td>3</td><td>2.3</td><td>3.5</td><td>441</td><td>67</td><td>634</td><td>85</td><td>156</td><td>121</td><td>47</td><td>16</td><td>7.3</td><td>4.6</td></tr><tr><td>4</td><td>2.3</td><td>3.5</td><td>301</td><td>62</td><td>477</td><td>80</td><td>136</td><td>110</td><td>45</td><td>17</td><td>6.8</td><td>4.0</td></tr><tr><td>5</td><td>3.0</td><td>3.7</td><td>220</td><td>58</td><td>364</td><td>128</td><td>121</td><td>106</td><td>44</td><td>17</td><td>6.8</td><td>*4.0</td></tr><tr><td>6</td><td>5.7</td><td>3.7</td><td>170</td><td>55</td><td>304</td><td>262</td><td>110</td><td>133</td><td>44</td><td>17</td><td>6.8</td><td>3.7</td></tr><tr><td>7</td><td>*7.8</td><td>4.0</td><td>136</td><td>55</td><td>250</td><td>200</td><td>100</td><td>143</td><td>44</td><td>16</td><td>6.4</td><td>3.7</td></tr><tr><td>8</td><td>7.8</td><td>4.3</td><td>112</td><td>53</td><td>232</td><td>265</td><td>90</td><td>126</td><td>41</td><td>15</td><td>6.0</td><td>3.7</td></tr><tr><td>9</td><td>5.7</td><td>4.3</td><td>96</td><td>53</td><td>916</td><td>393</td><td>83</td><td>151</td><td>39</td><td>14</td><td>5.7</td><td>3.5</td></tr><tr><td>10</td><td>4.6</td><td>4.3</td><td>96</td><td>50</td><td>791</td><td>488</td><td>80</td><td>277</td><td>37</td><td>14</td><td>*5.3</td><td>3.5</td></tr><tr><td>11</td><td>4.0</td><td>8.3</td><td>85</td><td>47</td><td>2,130</td><td>586</td><td>72</td><td>425</td><td>37</td><td>14</td><td>5.3</td><td>3.2</td></tr><tr><td>12</td><td>3.7</td><td>15</td><td>*74</td><td>44</td><td>1,130</td><td>467</td><td>76</td><td>364</td><td>36</td><td>13</td><td>5.7</td><td>3.2</td></tr><tr><td>13</td><td>3.7</td><td>44</td><td>67</td><td>42</td><td>1,140</td><td>390</td><td>69</td><td>301</td><td>34</td><td>12</td><td>5.3</td><td>3.2</td></tr><tr><td>14</td><td>3.7</td><td>33</td><td>62</td><td>41</td><td>1,160</td><td>507</td><td>62</td><td>247</td><td>32</td><td>12</td><td>6.0</td><td>3.2</td></tr><tr><td>15</td><td>3.7</td><td>23</td><td>95</td><td>38</td><td>1,110</td><td>1,060</td><td>56</td><td>206</td><td>30</td><td>12</td><td>6.4</td><td>3.7</td></tr><tr><td>16</td><td>3.5</td><td>15</td><td>468</td><td>37</td><td>805</td><td>855</td><td>53</td><td>172</td><td>29</td><td>12</td><td>6.0</td><td>6.0</td></tr><tr><td>17</td><td>3.2</td><td>*14</td><td>2,710</td><td>36</td><td>586</td><td>900</td><td>52</td><td>151</td><td>28</td><td>11</td><td>5.3</td><td>6.8</td></tr><tr><td>18</td><td>3.2</td><td>84</td><td>1,450</td><td>34</td><td>448</td><td>654</td><td>52</td><td>131</td><td>28</td><td>11</td><td>5.0</td><td>6.0</td></tr><tr><td>19</td><td>3.2</td><td>32</td><td>785</td><td>34</td><td>352</td><td>618</td><td>47</td><td>116</td><td>27</td><td>9.4</td><td>4.3</td><td>5.3</td></tr><tr><td>20</td><td>3.2</td><td>21</td><td>526</td><td>33</td><td>283</td><td>547</td><td>48</td><td>108</td><td>26</td><td>9.4</td><td>5.0</td><td>4.6</td></tr><tr><td>21</td><td>3.2</td><td>26</td><td>396</td><td>32</td><td>238</td><td>451</td><td>95</td><td>98</td><td>23</td><td>9.4</td><td>5.0</td><td>4.3</td></tr><tr><td>22</td><td>3.2</td><td>20</td><td>304</td><td>30</td><td>203</td><td>474</td><td>178</td><td>92</td><td>23</td><td>9.4</td><td>5.0</td><td>4.3</td></tr><tr><td>23</td><td>3.5</td><td>100</td><td>241</td><td>45</td><td>175</td><td>512</td><td>277</td><td>85</td><td>23</td><td>9.4</td><td>5.3</td><td>4.3</td></tr><tr><td>24</td><td>5.0</td><td>498</td><td>198</td><td>39</td><td>151</td><td>582</td><td>189</td><td>80</td><td>22</td><td>9.4</td><td>5.3</td><td>4.0</td></tr><tr><td>25</td><td>5.0</td><td>960</td><td>170</td><td>38</td><td>136</td><td>618</td><td>151</td><td>74</td><td>21</td><td>8.8</td><td>5.3</td><td>4.0</td></tr><tr><td>26</td><td>5.7</td><td>393</td><td>143</td><td>52</td><td>121</td><td>614</td><td>126</td><td>76</td><td>20</td><td>8.8</td><td>5.7</td><td>3,5</td></tr><tr><td>27</td><td>5.7</td><td>214</td><td>126</td><td>56</td><td>110</td><td>540</td><td>110</td><td>69</td><td>19</td><td>8.3</td><td>7.8</td><td>3.2</td></tr><tr><td>28</td><td>5.0</td><td>141</td><td>112</td><td>50</td><td>102</td><td>451</td><td>100</td><td>63</td><td>*19</td><td>7.8</td><td>7.8</td><td>3.2</td></tr><tr><td>29</td><td>4.6</td><td>106</td><td>100</td><td>323</td><td></td><td>374</td><td>106</td><td>60</td><td>19</td><td>7.8</td><td>6.8</td><td>3.2</td></tr><tr><td>30</td><td>4.3</td><td>613</td><td>92</td><td>423</td><td></td><td>304</td><td>98</td><td>60</td><td>18</td><td>7.8</td><td>5.7</td><td>3.0</td></tr><tr><td>31</td><td>4.0</td><td></td><td>85</td><td>2,120</td><td></td><td>253</td><td></td><td>56</td><td></td><td>8.3</td><td>5.3</td><td></td></tr><tr><td>TOTAL</td><td>128.1</td><td>3,399.3</td><td>11,690</td><td>4,197</td><td>16,132</td><td>13,842</td><td>3,286</td><td>4,472</td><td>957</td><td>371.0</td><td>185.5</td><td>123.2</td></tr><tr><td>MEAN</td><td>4.13</td><td>113</td><td>377</td><td>135</td><td>576</td><td>447</td><td>110</td><td>144</td><td>31.9</td><td>12.0</td><td>5.98</td><td>4.11</td></tr><tr><td>MAX</td><td>7.8</td><td>960</td><td>2,710</td><td>2,120</td><td>2,130</td><td>1,060</td><td>277</td><td>425</td><td>52</td><td>17</td><td>7.8</td><td>6.8</td></tr><tr><td>MIN</td><td>2.1</td><td>3.5</td><td>62</td><td>30</td><td>102</td><td>80</td><td>47</td><td>56</td><td>18</td><td>7.8</td><td>4.3</td><td>3.0</td></tr><tr><td>AC-FT</td><td>254</td><td>6,740</td><td>23,190</td><td>8,320</td><td>32,000</td><td>27,460</td><td>6,520</td><td>8,870</td><td>1,900</td><td>736</td><td>368</td><td>244</td></tr><tr><td>CALENDAR</td><td>YEAR</td><td>1960: MAX</td><td>8,760</td><td>MIN 1.7</td><td></td><td>MEAN 192</td><td>AC-FT</td><td>139,400</td><td></td><td></td><td></td><td></td></tr><tr><td>WATER</td><td>YEAR 1960</td><td>-61: MAX</td><td>2,710</td><td>MIN 2.1</td><td></td><td>MEAN 161</td><td>AC-FT</td><td>116,600</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Peak discharge</td><td>(base,</td><td>2,000 cfs)</td><td></td><td></td><td>*</td><td></td><td>measurement made</td><td>on this</td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.10026502711097687,
+                            "top": 0.3799463215321208,
+                            "width": 0.8442312026319214,
+                            "height": 0.4466049841795638,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>DAY</th><th>OCT.</th><th>NOV.</th><th>DEC.</th><th>JAN.</th><th>FEB.</th><th>MAR.</th><th>APR.</th><th>MAY</th><th>JUNE</th><th>JULY</th><th>AUG.</th><th>SEPT.</th></tr><tr><td>1</td><td>2.1</td><td>4.0</td><td>1,080</td><td>78</td><td>869</td><td>*94</td><td>212</td><td>138</td><td>52</td><td>17</td><td>7.8</td><td>5.3</td></tr><tr><td>2</td><td>2.5</td><td>3.7</td><td>749</td><td>72</td><td>915</td><td>90</td><td>181</td><td>133</td><td>50</td><td>17</td><td>7.3</td><td>5.0</td></tr><tr><td>3</td><td>2.3</td><td>3.5</td><td>441</td><td>67</td><td>634</td><td>85</td><td>156</td><td>121</td><td>47</td><td>16</td><td>7.3</td><td>4.6</td></tr><tr><td>4</td><td>2.3</td><td>3.5</td><td>301</td><td>62</td><td>477</td><td>80</td><td>136</td><td>110</td><td>45</td><td>17</td><td>6.8</td><td>4.0</td></tr><tr><td>5</td><td>3.0</td><td>3.7</td><td>220</td><td>58</td><td>364</td><td>128</td><td>121</td><td>106</td><td>44</td><td>17</td><td>6.8</td><td>*4.0</td></tr><tr><td>6</td><td>5.7</td><td>3.7</td><td>170</td><td>55</td><td>304</td><td>262</td><td>110</td><td>133</td><td>44</td><td>17</td><td>6.8</td><td>3.7</td></tr><tr><td>7</td><td>*7.8</td><td>4.0</td><td>136</td><td>55</td><td>250</td><td>200</td><td>100</td><td>143</td><td>44</td><td>16</td><td>6.4</td><td>3.7</td></tr><tr><td>8</td><td>7.8</td><td>4.3</td><td>112</td><td>53</td><td>232</td><td>265</td><td>90</td><td>126</td><td>41</td><td>15</td><td>6.0</td><td>3.7</td></tr><tr><td>9</td><td>5.7</td><td>4.3</td><td>96</td><td>53</td><td>916</td><td>393</td><td>83</td><td>151</td><td>39</td><td>14</td><td>5.7</td><td>3.5</td></tr><tr><td>10</td><td>4.6</td><td>4.3</td><td>96</td><td>50</td><td>791</td><td>488</td><td>80</td><td>277</td><td>37</td><td>14</td><td>*5.3</td><td>3.5</td></tr><tr><td>11</td><td>4.0</td><td>8.3</td><td>85</td><td>47</td><td>2,130</td><td>586</td><td>72</td><td>425</td><td>37</td><td>14</td><td>5.3</td><td>3.2</td></tr><tr><td>12</td><td>3.7</td><td>15</td><td>*74</td><td>44</td><td>1,130</td><td>467</td><td>76</td><td>364</td><td>36</td><td>13</td><td>5.7</td><td>3.2</td></tr><tr><td>13</td><td>3.7</td><td>44</td><td>67</td><td>42</td><td>1,140</td><td>390</td><td>69</td><td>301</td><td>34</td><td>12</td><td>5.3</td><td>3.2</td></tr><tr><td>14</td><td>3.7</td><td>33</td><td>62</td><td>41</td><td>1,160</td><td>507</td><td>62</td><td>247</td><td>32</td><td>12</td><td>6.0</td><td>3.2</td></tr><tr><td>15</td><td>3.7</td><td>23</td><td>95</td><td>38</td><td>1,110</td><td>1,060</td><td>56</td><td>206</td><td>30</td><td>12</td><td>6.4</td><td>3.7</td></tr><tr><td>16</td><td>3.5</td><td>15</td><td>468</td><td>37</td><td>805</td><td>855</td><td>53</td><td>172</td><td>29</td><td>12</td><td>6.0</td><td>6.0</td></tr><tr><td>17</td><td>3.2</td><td>*14</td><td>2,710</td><td>36</td><td>586</td><td>900</td><td>52</td><td>151</td><td>28</td><td>11</td><td>5.3</td><td>6.8</td></tr><tr><td>18</td><td>3.2</td><td>84</td><td>1,450</td><td>34</td><td>448</td><td>654</td><td>52</td><td>131</td><td>28</td><td>11</td><td>5.0</td><td>6.0</td></tr><tr><td>19</td><td>3.2</td><td>32</td><td>785</td><td>34</td><td>352</td><td>618</td><td>47</td><td>116</td><td>27</td><td>9.4</td><td>4.3</td><td>5.3</td></tr><tr><td>20</td><td>3.2</td><td>21</td><td>526</td><td>33</td><td>283</td><td>547</td><td>48</td><td>108</td><td>26</td><td>9.4</td><td>5.0</td><td>4.6</td></tr><tr><td>21</td><td>3.2</td><td>26</td><td>396</td><td>32</td><td>238</td><td>451</td><td>95</td><td>98</td><td>23</td><td>9.4</td><td>5.0</td><td>4.3</td></tr><tr><td>22</td><td>3.2</td><td>20</td><td>304</td><td>30</td><td>203</td><td>474</td><td>178</td><td>92</td><td>23</td><td>9.4</td><td>5.0</td><td>4.3</td></tr><tr><td>23</td><td>3.5</td><td>100</td><td>241</td><td>45</td><td>175</td><td>512</td><td>277</td><td>85</td><td>23</td><td>9.4</td><td>5.3</td><td>4.3</td></tr><tr><td>24</td><td>5.0</td><td>498</td><td>198</td><td>39</td><td>151</td><td>582</td><td>189</td><td>80</td><td>22</td><td>9.4</td><td>5.3</td><td>4.0</td></tr><tr><td>25</td><td>5.0</td><td>960</td><td>170</td><td>38</td><td>136</td><td>618</td><td>151</td><td>74</td><td>21</td><td>8.8</td><td>5.3</td><td>4.0</td></tr><tr><td>26</td><td>5.7</td><td>393</td><td>143</td><td>52</td><td>121</td><td>614</td><td>126</td><td>76</td><td>20</td><td>8.8</td><td>5.7</td><td>3,5</td></tr><tr><td>27</td><td>5.7</td><td>214</td><td>126</td><td>56</td><td>110</td><td>540</td><td>110</td><td>69</td><td>19</td><td>8.3</td><td>7.8</td><td>3.2</td></tr><tr><td>28</td><td>5.0</td><td>141</td><td>112</td><td>50</td><td>102</td><td>451</td><td>100</td><td>63</td><td>*19</td><td>7.8</td><td>7.8</td><td>3.2</td></tr><tr><td>29</td><td>4.6</td><td>106</td><td>100</td><td>323</td><td></td><td>374</td><td>106</td><td>60</td><td>19</td><td>7.8</td><td>6.8</td><td>3.2</td></tr><tr><td>30</td><td>4.3</td><td>613</td><td>92</td><td>423</td><td></td><td>304</td><td>98</td><td>60</td><td>18</td><td>7.8</td><td>5.7</td><td>3.0</td></tr><tr><td>31</td><td>4.0</td><td></td><td>85</td><td>2,120</td><td></td><td>253</td><td></td><td>56</td><td></td><td>8.3</td><td>5.3</td><td></td></tr><tr><td>TOTAL</td><td>128.1</td><td>3,399.3</td><td>11,690</td><td>4,197</td><td>16,132</td><td>13,842</td><td>3,286</td><td>4,472</td><td>957</td><td>371.0</td><td>185.5</td><td>123.2</td></tr><tr><td>MEAN</td><td>4.13</td><td>113</td><td>377</td><td>135</td><td>576</td><td>447</td><td>110</td><td>144</td><td>31.9</td><td>12.0</td><td>5.98</td><td>4.11</td></tr><tr><td>MAX</td><td>7.8</td><td>960</td><td>2,710</td><td>2,120</td><td>2,130</td><td>1,060</td><td>277</td><td>425</td><td>52</td><td>17</td><td>7.8</td><td>6.8</td></tr><tr><td>MIN</td><td>2.1</td><td>3.5</td><td>62</td><td>30</td><td>102</td><td>80</td><td>47</td><td>56</td><td>18</td><td>7.8</td><td>4.3</td><td>3.0</td></tr><tr><td>AC-FT</td><td>254</td><td>6,740</td><td>23,190</td><td>8,320</td><td>32,000</td><td>27,460</td><td>6,520</td><td>8,870</td><td>1,900</td><td>736</td><td>368</td><td>244</td></tr><tr><td>CALENDAR</td><td>YEAR</td><td>1960: MAX</td><td>8,760</td><td>MIN 1.7</td><td></td><td>MEAN 192</td><td>AC-FT</td><td>139,400</td><td></td><td></td><td></td><td></td></tr><tr><td>WATER</td><td>YEAR 1960</td><td>-61: MAX</td><td>2,710</td><td>MIN 2.1</td><td></td><td>MEAN 161</td><td>AC-FT</td><td>116,600</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Peak discharge</td><td>(base,</td><td>2,000 cfs)</td><td></td><td></td><td>*</td><td></td><td>measurement made</td><td>on this</td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# EEL RIVER BASIN (cont.)\n\n<table><tr><th>Date</th><th>Time</th><th>Gage\nheight</th><th>Discharge</th><th>Date</th><th>Time</th><th>Gage\nheight</th><th>Discharge</th></tr><tr><td>12 -17\n1 -31</td><td>3p.m.\n8a.m.</td><td>7.48\n7.67</td><td>3,480\n3,690</td><td>2 -11</td><td>6a.m.</td><td>6.58</td><td>2,630</td></tr></table>",
+                "embed": "# EEL RIVER BASIN (cont.)\n\n<table><tr><th>Date</th><th>Time</th><th>Gage\nheight</th><th>Discharge</th><th>Date</th><th>Time</th><th>Gage\nheight</th><th>Discharge</th></tr><tr><td>12 -17\n1 -31</td><td>3p.m.\n8a.m.</td><td>7.48\n7.67</td><td>3,480\n3,690</td><td>2 -11</td><td>6a.m.</td><td>6.58</td><td>2,630</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.09893274123930412,
+                            "top": 0.828689816784753,
+                            "width": 0.4437095840890812,
+                            "height": 0.051530834388853704,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Date</th><th>Time</th><th>Gage\nheight</th><th>Discharge</th><th>Date</th><th>Time</th><th>Gage\nheight</th><th>Discharge</th></tr><tr><td>12 -17\n1 -31</td><td>3p.m.\n8a.m.</td><td>7.48\n7.67</td><td>3,480\n3,690</td><td>2 -11</td><td>6a.m.</td><td>6.58</td><td>2,630</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

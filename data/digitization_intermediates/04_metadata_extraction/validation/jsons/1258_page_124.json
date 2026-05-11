@@ -1,0 +1,134 @@
+{
+    "job_id": "f72e427d-c32f-464a-b928-ff5939f9a457",
+    "duration": 4.3066253662109375,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/75c15779-dac0-4818-91fc-737855b5147d?AWSAccessKeyId=ASIA2UOK6OVBCU4FC44E&Signature=IIHkNdtQu%2BO1bOcDAqwSS%2Bb8uKg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJHMEUCIGWdeUoC%2FUX%2BQpKQot39ATKyPdrFF4ylT5tFyFzC00TAAiEArNrQRtxDvLXxaecNqg1IvSYDM4zxl6GsA%2BwzvKbQ8nYqiwUIIRAAGgw3MzExMDY5MzIwMzQiDGwsoav7ANNSZCHnSyroBKzGA2YqtM2%2FOTkRgrA9rYUSG368EtCNqONFGvXEBSetMBDO%2BNdXVYeyG3aNFZwkHfuxXXeQ6faPIKxs%2B6sqlQvttgu%2B9zRjHYqXmtNZc6bOuqnXD%2F%2F%2B%2Frg1gDDzyAw5Hen4mvEYrSqc48EU2%2Fg%2B5dXdzG%2BbD7MeaIXycZ0RLVQ2qz2u1b%2BlAg9XccB4V9B4gYdpnsj5JJG9P924z%2BYWV8RImwDujIdQc39B%2F5OcnSLvDawFilxrpuX2N3j%2BCWcc5BCkojO%2BvDhydLO8%2FrxrAwoIqog0x2ZPF3YC%2B2COZzzRw%2FovqxJ9ffDaRA8UIsGiTCjpYXchtzdWoIgqW5T%2BFlESEbxsFeVzxhMh1IvGw7IFaLxJakAdQJgMpoVPjJZx8ORqXLC9ApnVxCr1k%2BmvQPSAAVGBDcst%2BvqpH92nD7qzy9MoO5FTGwvDi%2Btme32Pyk7wIestv9Dxe%2BrOmn91G2evAs7S3ICPj0xROYw54fBbR1wTfDO9BJ4EMS8f9negC%2BD8sR60MGLEbfirRGfcjWEDxCRePidxnucUaczc56FEHFZ%2BgxaGP3n8IXSbRG96DNPdXnVWTlAeTv6E8I3S08CqpjOicdC%2F4fgGTUzhaJlRTEncL9zmjiqZQRy%2FGgPmhI%2BE9DQUcOVAbHRuUVX5apuvZyHAyYj1lOuKFsu3UkcrPH6OPvm5V3jqjBthIM1w39c6%2BxAX6pfQUFYigwOFt2K%2BiB4pja%2B%2FuZ8fSxv7A%2BnJlmj%2FKTps2ZQHUFP8bjKRZP9Dx54c9qFBk6yJjpCotAc%2BXDT%2FFn5mbJYvsLCArQ4HQPYtPHPnXG4wlPPIugY6mwFnPwxmB2YHpij%2BlaiZXKRGIqqOiTUVS5eJMOanCAMvRjPh55%2FOPuzkPlQVQDdCBGQS3R5HfJZEqotGxFYCOm5TF4kCu%2B5b31Hei5sKhnt%2Fw8xdxY0isSa4zZRcR8HXGZA3%2BpanJbr4bUhQQKPz3yMNRPpx3slMbqMrLNRAKXE6eLXz%2BPR%2BATs%2B8cfPLbXTdA%2BRbc%2BOo53mzLmIzA%3D%3D&Expires=1733446232",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# 116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF.\n\nThe results of computations are given in acre-feet as follows:\n\n<table><tr><th></th><th>1938</th><th>1942</th><th>1952</th></tr><tr><td>Outflow from the area</td><td>86, 471</td><td>77, 906</td><td>91, 572</td></tr><tr><td>Inflow to the area</td><td>9, 167</td><td>None</td><td>49, 689</td></tr><tr><td>Net ground-water out-\nflow (rounded)</td><td>77, 000</td><td>78,000</td><td>42, 000</td></tr></table>",
+                "embed": "# 116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF.\n\nThe results of computations are given in acre-feet as follows:\n\n<table><tr><th></th><th>1938</th><th>1942</th><th>1952</th></tr><tr><td>Outflow from the area</td><td>86, 471</td><td>77, 906</td><td>91, 572</td></tr><tr><td>Inflow to the area</td><td>9, 167</td><td>None</td><td>49, 689</td></tr><tr><td>Net ground-water out-\nflow (rounded)</td><td>77, 000</td><td>78,000</td><td>42, 000</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.08138801261829653,
+                            "top": 0.053323319564401055,
+                            "width": 0.8309148264984227,
+                            "height": 0.016147202403304545,
+                            "page": 1
+                        },
+                        "content": "116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10725552050473186,
+                            "top": 0.08599324070597071,
+                            "width": 0.7526813880126183,
+                            "height": 0.01764926774314683,
+                            "page": 1
+                        },
+                        "content": "The results of computations are given in acre-feet as follows:",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.14367426442047024,
+                            "top": 0.11257593066809636,
+                            "width": 0.7039319251990093,
+                            "height": 0.0915242566500129,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>1938</th><th>1942</th><th>1952</th></tr><tr><td>Outflow from the area</td><td>86, 471</td><td>77, 906</td><td>91, 572</td></tr><tr><td>Inflow to the area</td><td>9, 167</td><td>None</td><td>49, 689</td></tr><tr><td>Net ground-water out-\nflow (rounded)</td><td>77, 000</td><td>78,000</td><td>42, 000</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF. (cont.)\n\nIrrigation pumpage.-Estimates of pumpage were modified slight- ly from unpublished data of the Pacific Gas & Electric Co. to agree with the boundaries of units in the inventory. The general method used by the company in these pumpage computations was as follows: (1) For each township within a unit, an average figure for kilowatt- hours per acre-foot is determined from pump-efficiency tests, (2) this figure is multipled by the number of pumps in the township, (3) the products thus obtained are totaled and divided by the numbers of pumps in the unit, giving a weighted average kilowatthour per acre- foot figure for the unit, (4) the total kilowatthours consumed in the unit is divided by the weighted average kilowatthour per acre-foot figure to obtain the total pumpage in acre-feet.\n\n## RATES OF INFIL/TRATION\n\nTable 36 shows infiltration rates in the Kern River area for the 1938, 1942, and 1952 irrigation seasons. Recharge as system losses\n\nTABLE 36.-Estimated recharge by infiltration in the Kern River area, 1938, 1942, and 1952",
+                "embed": "# 116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF. (cont.)\n\nIrrigation pumpage.-Estimates of pumpage were modified slight- ly from unpublished data of the Pacific Gas & Electric Co. to agree with the boundaries of units in the inventory. The general method used by the company in these pumpage computations was as follows: (1) For each township within a unit, an average figure for kilowatt- hours per acre-foot is determined from pump-efficiency tests, (2) this figure is multipled by the number of pumps in the township, (3) the products thus obtained are totaled and divided by the numbers of pumps in the unit, giving a weighted average kilowatthour per acre- foot figure for the unit, (4) the total kilowatthours consumed in the unit is divided by the weighted average kilowatthour per acre-foot figure to obtain the total pumpage in acre-feet.\n\n## RATES OF INFIL/TRATION\n\nTable 36 shows infiltration rates in the Kern River area for the 1938, 1942, and 1952 irrigation seasons. Recharge as system losses\n\nTABLE 36.-Estimated recharge by infiltration in the Kern River area, 1938, 1942, and 1952",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07823343848580441,
+                            "top": 0.20766053323319564,
+                            "width": 0.8340694006309148,
+                            "height": 0.22681186631618475,
+                            "page": 1
+                        },
+                        "content": "Irrigation pumpage.-Estimates of pumpage were modified slight- ly from unpublished data of the Pacific Gas & Electric Co. to agree with the boundaries of units in the inventory. The general method used by the company in these pumpage computations was as follows: (1) For each township within a unit, an average figure for kilowatt- hours per acre-foot is determined from pump-efficiency tests, (2) this figure is multipled by the number of pumps in the township, (3) the products thus obtained are totaled and divided by the numbers of pumps in the unit, giving a weighted average kilowatthour per acre- foot figure for the unit, (4) the total kilowatthours consumed in the unit is divided by the weighted average kilowatthour per acre-foot figure to obtain the total pumpage in acre-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.3463722397476341,
+                            "top": 0.44536237326323697,
+                            "width": 0.29274447949526816,
+                            "height": 0.00938790837401427,
+                            "page": 1
+                        },
+                        "content": "RATES OF INFIL/TRATION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07823343848580441,
+                            "top": 0.46301164100638376,
+                            "width": 0.8334384858044164,
+                            "height": 0.037176117161096506,
+                            "page": 1
+                        },
+                        "content": "Table 36 shows infiltration rates in the Kern River area for the 1938, 1942, and 1952 irrigation seasons. Recharge as system losses",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0750788643533123,
+                            "top": 0.5107022155463763,
+                            "width": 0.8353312302839117,
+                            "height": 0.024408561772437103,
+                            "page": 1
+                        },
+                        "content": "TABLE 36.-Estimated recharge by infiltration in the Kern River area, 1938, 1942, and 1952",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# 116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF. (cont.)\n\n## RATES OF INFIL/TRATION (cont.)\n\n<table><tr><th>Unit and year</th><th>System\nlosses\nAcre-feet</th><th>Infiltra-\ntion\n(system\nlosses less\n5 percent\nwaste)</th><th>Area\nirrigated\n(acres)</th><th>Infiltra-\ntion in\narea ir-\nrigated\n(acre-feet\nper acre)</th><th>Gross\narea\n(acres)</th><th>Average\ninfiltra-\ntion in\ngross area\n(acre-feet\nper acre)</th></tr><tr><td>1938</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>116, 700</td><td>110, 900</td><td>21, 600</td><td>5.1</td><td>61,850</td><td>1.8</td></tr><tr><td>South Side unit</td><td>76, 000</td><td>72,200</td><td>68, 260</td><td>1,1</td><td>100,150</td><td>.7</td></tr><tr><td>East Side unit</td><td>7, 900</td><td>7, 300</td><td>12, 100</td><td>.7</td><td>18,000</td><td>.4</td></tr><tr><td>West Side unit</td><td>177, 100</td><td>168,200</td><td>65, 000</td><td>2.6</td><td>358,000</td><td>.5</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>13, 600</td><td>12,900</td><td>30, 380</td><td>.4</td><td>42,000</td><td>.3</td></tr><tr><td>Total or weighted average</td><td>391, 300</td><td>371,500</td><td>197, 340</td><td>1.9</td><td>580, 000</td><td>.6</td></tr><tr><td>1942</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>24, 500</td><td>23, 300</td><td>27, 000</td><td>.9</td><td>61,850</td><td>.4</td></tr><tr><td>South Side unit</td><td>30. 300</td><td>28, 800</td><td>68, 900</td><td>.4</td><td>100,150</td><td>.3</td></tr><tr><td>East Side unit</td><td>3, 400</td><td>3, 200</td><td>14, 700</td><td>.2</td><td>18,000</td><td>.2</td></tr><tr><td>West Side unit</td><td>73, 200</td><td>69, 500</td><td>68, 730</td><td>1.0</td><td>358,000</td><td>.2</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>15, 400</td><td>14, 600</td><td>29, 000</td><td>.5</td><td>42,000</td><td>.3</td></tr><tr><td>Total or weighted average</td><td>146, 800</td><td>139, 400</td><td>208, 330</td><td>.7</td><td>580.000</td><td>.2</td></tr><tr><td>1952</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>102, 500</td><td>97, 400</td><td>50, 250</td><td>1.9</td><td>61,850</td><td>1.6</td></tr><tr><td>South Side unit</td><td>486, 900</td><td>462,600</td><td>67, 260</td><td>6.9</td><td>100,150</td><td>4.</td></tr><tr><td>East Side unit</td><td>12, 900</td><td>12, 300</td><td>18, 360</td><td>.7</td><td>18,000</td><td>.7</td></tr><tr><td>West Side unit</td><td>464, 600</td><td>441, 400</td><td>71, 220</td><td>6.2</td><td>358,000</td><td>1.2</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>25,800</td><td>24,500</td><td>33, 400</td><td>.7</td><td>42,000</td><td>.6</td></tr><tr><td>Total or weighted average</td><td>1, 090, 800</td><td>1, 038, 200</td><td>240,490</td><td>4.3</td><td>580,000</td><td>1.8</td></tr></table>",
+                "embed": "# 116 USE OF GROUND-WATER RESERVOIRS, SAN JOAQUIN VALLEY, CALIF. (cont.)\n\n## RATES OF INFIL/TRATION (cont.)\n\n<table><tr><th>Unit and year</th><th>System\nlosses\nAcre-feet</th><th>Infiltra-\ntion\n(system\nlosses less\n5 percent\nwaste)</th><th>Area\nirrigated\n(acres)</th><th>Infiltra-\ntion in\narea ir-\nrigated\n(acre-feet\nper acre)</th><th>Gross\narea\n(acres)</th><th>Average\ninfiltra-\ntion in\ngross area\n(acre-feet\nper acre)</th></tr><tr><td>1938</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>116, 700</td><td>110, 900</td><td>21, 600</td><td>5.1</td><td>61,850</td><td>1.8</td></tr><tr><td>South Side unit</td><td>76, 000</td><td>72,200</td><td>68, 260</td><td>1,1</td><td>100,150</td><td>.7</td></tr><tr><td>East Side unit</td><td>7, 900</td><td>7, 300</td><td>12, 100</td><td>.7</td><td>18,000</td><td>.4</td></tr><tr><td>West Side unit</td><td>177, 100</td><td>168,200</td><td>65, 000</td><td>2.6</td><td>358,000</td><td>.5</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>13, 600</td><td>12,900</td><td>30, 380</td><td>.4</td><td>42,000</td><td>.3</td></tr><tr><td>Total or weighted average</td><td>391, 300</td><td>371,500</td><td>197, 340</td><td>1.9</td><td>580, 000</td><td>.6</td></tr><tr><td>1942</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>24, 500</td><td>23, 300</td><td>27, 000</td><td>.9</td><td>61,850</td><td>.4</td></tr><tr><td>South Side unit</td><td>30. 300</td><td>28, 800</td><td>68, 900</td><td>.4</td><td>100,150</td><td>.3</td></tr><tr><td>East Side unit</td><td>3, 400</td><td>3, 200</td><td>14, 700</td><td>.2</td><td>18,000</td><td>.2</td></tr><tr><td>West Side unit</td><td>73, 200</td><td>69, 500</td><td>68, 730</td><td>1.0</td><td>358,000</td><td>.2</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>15, 400</td><td>14, 600</td><td>29, 000</td><td>.5</td><td>42,000</td><td>.3</td></tr><tr><td>Total or weighted average</td><td>146, 800</td><td>139, 400</td><td>208, 330</td><td>.7</td><td>580.000</td><td>.2</td></tr><tr><td>1952</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>102, 500</td><td>97, 400</td><td>50, 250</td><td>1.9</td><td>61,850</td><td>1.6</td></tr><tr><td>South Side unit</td><td>486, 900</td><td>462,600</td><td>67, 260</td><td>6.9</td><td>100,150</td><td>4.</td></tr><tr><td>East Side unit</td><td>12, 900</td><td>12, 300</td><td>18, 360</td><td>.7</td><td>18,000</td><td>.7</td></tr><tr><td>West Side unit</td><td>464, 600</td><td>441, 400</td><td>71, 220</td><td>6.2</td><td>358,000</td><td>1.2</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>25,800</td><td>24,500</td><td>33, 400</td><td>.7</td><td>42,000</td><td>.6</td></tr><tr><td>Total or weighted average</td><td>1, 090, 800</td><td>1, 038, 200</td><td>240,490</td><td>4.3</td><td>580,000</td><td>1.8</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.07030205470906448,
+                            "top": 0.5375718945092471,
+                            "width": 0.8455084767627415,
+                            "height": 0.36932031543372135,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Unit and year</th><th>System\nlosses\nAcre-feet</th><th>Infiltra-\ntion\n(system\nlosses less\n5 percent\nwaste)</th><th>Area\nirrigated\n(acres)</th><th>Infiltra-\ntion in\narea ir-\nrigated\n(acre-feet\nper acre)</th><th>Gross\narea\n(acres)</th><th>Average\ninfiltra-\ntion in\ngross area\n(acre-feet\nper acre)</th></tr><tr><td>1938</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>116, 700</td><td>110, 900</td><td>21, 600</td><td>5.1</td><td>61,850</td><td>1.8</td></tr><tr><td>South Side unit</td><td>76, 000</td><td>72,200</td><td>68, 260</td><td>1,1</td><td>100,150</td><td>.7</td></tr><tr><td>East Side unit</td><td>7, 900</td><td>7, 300</td><td>12, 100</td><td>.7</td><td>18,000</td><td>.4</td></tr><tr><td>West Side unit</td><td>177, 100</td><td>168,200</td><td>65, 000</td><td>2.6</td><td>358,000</td><td>.5</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>13, 600</td><td>12,900</td><td>30, 380</td><td>.4</td><td>42,000</td><td>.3</td></tr><tr><td>Total or weighted average</td><td>391, 300</td><td>371,500</td><td>197, 340</td><td>1.9</td><td>580, 000</td><td>.6</td></tr><tr><td>1942</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>24, 500</td><td>23, 300</td><td>27, 000</td><td>.9</td><td>61,850</td><td>.4</td></tr><tr><td>South Side unit</td><td>30. 300</td><td>28, 800</td><td>68, 900</td><td>.4</td><td>100,150</td><td>.3</td></tr><tr><td>East Side unit</td><td>3, 400</td><td>3, 200</td><td>14, 700</td><td>.2</td><td>18,000</td><td>.2</td></tr><tr><td>West Side unit</td><td>73, 200</td><td>69, 500</td><td>68, 730</td><td>1.0</td><td>358,000</td><td>.2</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>15, 400</td><td>14, 600</td><td>29, 000</td><td>.5</td><td>42,000</td><td>.3</td></tr><tr><td>Total or weighted average</td><td>146, 800</td><td>139, 400</td><td>208, 330</td><td>.7</td><td>580.000</td><td>.2</td></tr><tr><td>1952</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>North Kern Water Storage District</td><td>102, 500</td><td>97, 400</td><td>50, 250</td><td>1.9</td><td>61,850</td><td>1.6</td></tr><tr><td>South Side unit</td><td>486, 900</td><td>462,600</td><td>67, 260</td><td>6.9</td><td>100,150</td><td>4.</td></tr><tr><td>East Side unit</td><td>12, 900</td><td>12, 300</td><td>18, 360</td><td>.7</td><td>18,000</td><td>.7</td></tr><tr><td>West Side unit</td><td>464, 600</td><td>441, 400</td><td>71, 220</td><td>6.2</td><td>358,000</td><td>1.2</td></tr><tr><td>Shafter-Wasco Irrigation District</td><td>25,800</td><td>24,500</td><td>33, 400</td><td>.7</td><td>42,000</td><td>.6</td></tr><tr><td>Total or weighted average</td><td>1, 090, 800</td><td>1, 038, 200</td><td>240,490</td><td>4.3</td><td>580,000</td><td>1.8</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

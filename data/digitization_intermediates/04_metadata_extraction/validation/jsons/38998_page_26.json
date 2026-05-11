@@ -1,0 +1,158 @@
+{
+    "job_id": "ea0b6b18-c335-4059-a838-529a4495e924",
+    "duration": 10.130213975906372,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/009cbe89-6691-49f0-a7fb-b51b65a9fd06?AWSAccessKeyId=ASIA2UOK6OVBD6YZGWGI&Signature=bLqXZP70VKal80NlnO47eM98z%2Bg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2BNQztRD%2BC%2BO7JBWViV5vusMjjNbXA57TGnprkfJePlwIhAKVuSfLwsjXBM%2B7iYtKf0tYAsTAqbauMGxxjjUBIpIoMKpQFCLr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzMxMTA2OTMyMDM0IgzzoGUBHjhST4RXZ1oq6ATsxJ%2FzYG2DuUk52D%2BgzW%2BYf4xqVaRaOQtYb%2BMX7CbCxffOgzHGUXyYLTpQcUoQZzWGrkc5Z3bF1g%2Fa7OOE4rJxcP8dyx5%2Fxj%2BsRraGI%2FI3DpreuRvIpe70ABk8mLMtXXk3ep3Qp3za92dNiFEw8D3x6pl4M0lTzSKgTK49fwoPLSQ7xocCuBpCirdyyD%2F%2B9LM4VjQB9UGYcYHs%2BQ%2BBnswIqiDlkQfOPsK1oz%2FaQEGjjBHxetpccAs0JnMxz0KkbFTYlhWC2uQD8OoVoPVW62Lq90k7HJHyauDkQnvjbt8YLW6dtJBYTx8ZHV8HSwn83jHDnOCKKsOmGEannCUzF1UVqhoACbQXBqRvNz7iAnxxpnPFdECbzY8PVdIpUyjw%2BGwYrtfa%2BKvHTzyOXgXovDepABe2FIgLCI9LwA6KRlvIP8me3k8gUlVPaQflHMhvcxdLf3HpQzK%2B8IKXxDcHzEDzn6MC33JzRLIavoQYXbSlQvstDGV5DejdOMQODt%2BPme7IfCmYycYHGHjG2VOAkVv6QNtNhYlN3jXQr3h0XVGXrK6Ke01ieEy4WslKD1KvA8WMfbcXCPWlJldbHYGshg4TxFMqSUyu0QTwWQXO7uJfcIIxEZeEpQadep%2BnjdNXK0RoslX0Xz9WydirEXaVtQWlTi6oq1pfJb8k%2BKR%2BS2k95GENjt5S2BS7KBtTTmX3u6tguGbPj2iZPtZsbdUCyoAA8M6A4jY6s%2BjKEw1C%2FXT6TVoTBSR3GAQ44ihrlb5zrg1wLkMG1DjsZM5l%2Fi6UMdI%2F30ets1BkKTCRxa8JPgvic3H5BhET44LtMJTniLwGOpoBGGstpwqc3yjQ9mQMMxh7zqyR9KjQmrCxGNV4BiyPNXsnfjpFgW3L%2BmRJFG4n5Syz%2BFJVRI2YH1cTJSyD6xMMOEhiooX2RB1r5EMaLD8JnpUXxYh9hq1KZq49wrFb2ffdfnMNfneuQ4HzO411cmkX9HF45vxJVe6%2Bc0xbffitZZEE9udEnV7ooHWrujG%2FrIPj29g4en8FJuc4gg%3D%3D&Expires=1736590532",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state]\n\n397",
+                "embed": "# TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state]\n\n397",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.18784313725490195,
+                            "top": 0.0695026962252846,
+                            "width": 0.6423529411764706,
+                            "height": 0.014379868184541641,
+                            "page": 1
+                        },
+                        "content": "WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.1984313725490196,
+                            "top": 0.09167165967645297,
+                            "width": 0.548235294117647,
+                            "height": 0.029059316956261235,
+                            "page": 1
+                        },
+                        "content": "TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state]",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8658823529411764,
+                            "top": 0.06920311563810665,
+                            "width": 0.02823529411764706,
+                            "height": 0.01078490113840623,
+                            "page": 1
+                        },
+                        "content": "397",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state] (cont.)\n\n<table><tr><th></th><th></th><th></th><th></th><th>Electron microprobe (percent)</th><th></th><th></th><th></th><th></th><th></th><th>U\nStage</th><th colspan=\"3\">Oil immersion</th></tr><tr><td></td><td></td><td></td><td rowspan=\"2\">Or</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan=\"3\">Indices of refraction</td></tr><tr><td></td><td>An</td><td>Ab</td><td>Annite\n(Fe biotite) Phlogopite K</td><td>Ca</td><td>Mg</td><td>Fe</td><td>Al</td><td>Ti</td><td>An</td><td>Nx'</td><td>Ny</td><td>Nz'</td></tr><tr><td>Plagioclase:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Maximum\nMinimum</td><td>30.5\n10.5</td><td>88.2\n66.9</td><td>2.1\n.4</td><td></td><td></td><td></td><td>.3\n.1</td><td></td><td></td><td>29\n15</td><td></td><td></td><td></td></tr><tr><td>Mean\nMicrocline:</td><td>20.9</td><td>77.2</td><td>1.1</td><td>(Ba=0.0)</td><td></td><td></td><td>.3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Maximum</td><td>.2</td><td>12.7</td><td>95.8</td><td></td><td></td><td></td><td>.3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td>.0</td><td>2.4</td><td>85.4</td><td></td><td></td><td></td><td>.1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nBiotite:</td><td>.0</td><td>7.1</td><td>93.7</td><td>(Ba=0.0)</td><td></td><td></td><td>.2</td><td></td><td></td><td></td><td></td><td></td><td>1.522 1.525</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td>48.8 44.4 7.7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td>40.6 31.5 7.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nChlorite:</td><td></td><td></td><td></td><td>43.4 38.1 7.5</td><td>(Ba=0.79)</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.633</td><td></td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>Trace</td><td>10.0</td><td>19.8</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>.0</td><td>8.9</td><td>18.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>.0</td><td>9.5</td><td>18.6</td><td></td><td></td><td></td><td></td><td>1.624</td><td></td></tr><tr><td>Hornblende:\nMaximum</td><td></td><td></td><td></td><td></td><td>7.6</td><td>8.5</td><td>10.4</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>7.0</td><td>7.3</td><td>9.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>7.3</td><td>7.7</td><td>9.9</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Epidote:\nMaximum</td><td></td><td></td><td></td><td></td><td>17.2</td><td>.0</td><td>9.9</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>16.0</td><td>.0</td><td>8.5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nAllanite:</td><td></td><td></td><td></td><td></td><td>16.5</td><td>.0</td><td>9.2</td><td></td><td></td><td></td><td></td><td></td><td>1.756 1.773</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>9.4</td><td></td><td>12.7</td><td>9.3</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>7.1</td><td></td><td>10.9</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nSphene:</td><td></td><td></td><td></td><td></td><td>8.0</td><td></td><td>11.5</td><td>8.2</td><td></td><td></td><td>&lt; 1.775 1.772 &gt;1.775</td><td></td><td></td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>24.5</td><td>.0</td><td>1.5</td><td>0.8</td><td>19.8</td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>21.7</td><td>.0</td><td>1.1</td><td>0.6</td><td>18.7</td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>23.3</td><td>.0</td><td>1.2</td><td>0.7</td><td>19.1</td><td></td><td>1.898</td><td>1.941 &gt;2.00</td><td></td></tr><tr><td>Magnetite:\nMaximum</td><td></td><td></td><td></td><td></td><td></td><td>.08</td><td>71.7</td><td></td><td>.19</td><td></td><td></td><td>No</td><td>Ne'</td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td></td><td>.00</td><td>70.4</td><td></td><td>.10</td><td></td><td>Apatite</td><td>1,630</td><td></td></tr><tr><td>Mean\nIlmenite:</td><td></td><td></td><td></td><td></td><td></td><td>.01</td><td>70.8</td><td></td><td>.13</td><td></td><td>Tremolite</td><td>1.624</td><td>1.610</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td></td><td>.15</td><td>33.0</td><td></td><td>27.9</td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td></td><td>.01</td><td>31.0</td><td></td><td>24.9</td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td></td><td>.05</td><td>32.2</td><td></td><td>27.2</td><td></td><td></td><td></td><td></td></tr></table>",
+                "embed": "# TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state] (cont.)\n\n<table><tr><th></th><th></th><th></th><th></th><th>Electron microprobe (percent)</th><th></th><th></th><th></th><th></th><th></th><th>U\nStage</th><th colspan=\"3\">Oil immersion</th></tr><tr><td></td><td></td><td></td><td rowspan=\"2\">Or</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan=\"3\">Indices of refraction</td></tr><tr><td></td><td>An</td><td>Ab</td><td>Annite\n(Fe biotite) Phlogopite K</td><td>Ca</td><td>Mg</td><td>Fe</td><td>Al</td><td>Ti</td><td>An</td><td>Nx'</td><td>Ny</td><td>Nz'</td></tr><tr><td>Plagioclase:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Maximum\nMinimum</td><td>30.5\n10.5</td><td>88.2\n66.9</td><td>2.1\n.4</td><td></td><td></td><td></td><td>.3\n.1</td><td></td><td></td><td>29\n15</td><td></td><td></td><td></td></tr><tr><td>Mean\nMicrocline:</td><td>20.9</td><td>77.2</td><td>1.1</td><td>(Ba=0.0)</td><td></td><td></td><td>.3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Maximum</td><td>.2</td><td>12.7</td><td>95.8</td><td></td><td></td><td></td><td>.3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td>.0</td><td>2.4</td><td>85.4</td><td></td><td></td><td></td><td>.1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nBiotite:</td><td>.0</td><td>7.1</td><td>93.7</td><td>(Ba=0.0)</td><td></td><td></td><td>.2</td><td></td><td></td><td></td><td></td><td></td><td>1.522 1.525</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td>48.8 44.4 7.7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td>40.6 31.5 7.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nChlorite:</td><td></td><td></td><td></td><td>43.4 38.1 7.5</td><td>(Ba=0.79)</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.633</td><td></td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>Trace</td><td>10.0</td><td>19.8</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>.0</td><td>8.9</td><td>18.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>.0</td><td>9.5</td><td>18.6</td><td></td><td></td><td></td><td></td><td>1.624</td><td></td></tr><tr><td>Hornblende:\nMaximum</td><td></td><td></td><td></td><td></td><td>7.6</td><td>8.5</td><td>10.4</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>7.0</td><td>7.3</td><td>9.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>7.3</td><td>7.7</td><td>9.9</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Epidote:\nMaximum</td><td></td><td></td><td></td><td></td><td>17.2</td><td>.0</td><td>9.9</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>16.0</td><td>.0</td><td>8.5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nAllanite:</td><td></td><td></td><td></td><td></td><td>16.5</td><td>.0</td><td>9.2</td><td></td><td></td><td></td><td></td><td></td><td>1.756 1.773</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>9.4</td><td></td><td>12.7</td><td>9.3</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>7.1</td><td></td><td>10.9</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nSphene:</td><td></td><td></td><td></td><td></td><td>8.0</td><td></td><td>11.5</td><td>8.2</td><td></td><td></td><td>&lt; 1.775 1.772 &gt;1.775</td><td></td><td></td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>24.5</td><td>.0</td><td>1.5</td><td>0.8</td><td>19.8</td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>21.7</td><td>.0</td><td>1.1</td><td>0.6</td><td>18.7</td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>23.3</td><td>.0</td><td>1.2</td><td>0.7</td><td>19.1</td><td></td><td>1.898</td><td>1.941 &gt;2.00</td><td></td></tr><tr><td>Magnetite:\nMaximum</td><td></td><td></td><td></td><td></td><td></td><td>.08</td><td>71.7</td><td></td><td>.19</td><td></td><td></td><td>No</td><td>Ne'</td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td></td><td>.00</td><td>70.4</td><td></td><td>.10</td><td></td><td>Apatite</td><td>1,630</td><td></td></tr><tr><td>Mean\nIlmenite:</td><td></td><td></td><td></td><td></td><td></td><td>.01</td><td>70.8</td><td></td><td>.13</td><td></td><td>Tremolite</td><td>1.624</td><td>1.610</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td></td><td>.15</td><td>33.0</td><td></td><td>27.9</td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td></td><td>.01</td><td>31.0</td><td></td><td>24.9</td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td></td><td>.05</td><td>32.2</td><td></td><td>27.2</td><td></td><td></td><td></td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.049653876809512866,
+                            "top": 0.1324367077497753,
+                            "width": 0.8486709355373009,
+                            "height": 0.37203809442171587,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th></th><th></th><th></th><th>Electron microprobe (percent)</th><th></th><th></th><th></th><th></th><th></th><th>U\nStage</th><th colspan=\"3\">Oil immersion</th></tr><tr><td></td><td></td><td></td><td rowspan=\"2\">Or</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan=\"3\">Indices of refraction</td></tr><tr><td></td><td>An</td><td>Ab</td><td>Annite\n(Fe biotite) Phlogopite K</td><td>Ca</td><td>Mg</td><td>Fe</td><td>Al</td><td>Ti</td><td>An</td><td>Nx'</td><td>Ny</td><td>Nz'</td></tr><tr><td>Plagioclase:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Maximum\nMinimum</td><td>30.5\n10.5</td><td>88.2\n66.9</td><td>2.1\n.4</td><td></td><td></td><td></td><td>.3\n.1</td><td></td><td></td><td>29\n15</td><td></td><td></td><td></td></tr><tr><td>Mean\nMicrocline:</td><td>20.9</td><td>77.2</td><td>1.1</td><td>(Ba=0.0)</td><td></td><td></td><td>.3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Maximum</td><td>.2</td><td>12.7</td><td>95.8</td><td></td><td></td><td></td><td>.3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td>.0</td><td>2.4</td><td>85.4</td><td></td><td></td><td></td><td>.1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nBiotite:</td><td>.0</td><td>7.1</td><td>93.7</td><td>(Ba=0.0)</td><td></td><td></td><td>.2</td><td></td><td></td><td></td><td></td><td></td><td>1.522 1.525</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td>48.8 44.4 7.7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td>40.6 31.5 7.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nChlorite:</td><td></td><td></td><td></td><td>43.4 38.1 7.5</td><td>(Ba=0.79)</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.633</td><td></td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>Trace</td><td>10.0</td><td>19.8</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>.0</td><td>8.9</td><td>18.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>.0</td><td>9.5</td><td>18.6</td><td></td><td></td><td></td><td></td><td>1.624</td><td></td></tr><tr><td>Hornblende:\nMaximum</td><td></td><td></td><td></td><td></td><td>7.6</td><td>8.5</td><td>10.4</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>7.0</td><td>7.3</td><td>9.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>7.3</td><td>7.7</td><td>9.9</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Epidote:\nMaximum</td><td></td><td></td><td></td><td></td><td>17.2</td><td>.0</td><td>9.9</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>16.0</td><td>.0</td><td>8.5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nAllanite:</td><td></td><td></td><td></td><td></td><td>16.5</td><td>.0</td><td>9.2</td><td></td><td></td><td></td><td></td><td></td><td>1.756 1.773</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>9.4</td><td></td><td>12.7</td><td>9.3</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>7.1</td><td></td><td>10.9</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mean\nSphene:</td><td></td><td></td><td></td><td></td><td>8.0</td><td></td><td>11.5</td><td>8.2</td><td></td><td></td><td>&lt; 1.775 1.772 &gt;1.775</td><td></td><td></td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td>24.5</td><td>.0</td><td>1.5</td><td>0.8</td><td>19.8</td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td>21.7</td><td>.0</td><td>1.1</td><td>0.6</td><td>18.7</td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td>23.3</td><td>.0</td><td>1.2</td><td>0.7</td><td>19.1</td><td></td><td>1.898</td><td>1.941 &gt;2.00</td><td></td></tr><tr><td>Magnetite:\nMaximum</td><td></td><td></td><td></td><td></td><td></td><td>.08</td><td>71.7</td><td></td><td>.19</td><td></td><td></td><td>No</td><td>Ne'</td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td></td><td>.00</td><td>70.4</td><td></td><td>.10</td><td></td><td>Apatite</td><td>1,630</td><td></td></tr><tr><td>Mean\nIlmenite:</td><td></td><td></td><td></td><td></td><td></td><td>.01</td><td>70.8</td><td></td><td>.13</td><td></td><td>Tremolite</td><td>1.624</td><td>1.610</td></tr><tr><td>Maximum</td><td></td><td></td><td></td><td></td><td></td><td>.15</td><td>33.0</td><td></td><td>27.9</td><td></td><td></td><td></td><td></td></tr><tr><td>Minimum</td><td></td><td></td><td></td><td></td><td></td><td>.01</td><td>31.0</td><td></td><td>24.9</td><td></td><td></td><td></td><td></td></tr><tr><td>Mean</td><td></td><td></td><td></td><td></td><td></td><td>.05</td><td>32.2</td><td></td><td>27.2</td><td></td><td></td><td></td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state] (cont.)\n\n\n\n0 0.1mm\n\nFIGURE 295.-Weathered grains in adamellite soil thin section. Core of plagioclase (lower nicols. center to right center) is considerably altered. Microcline (upper center and upper right) has parted along cleavages and shows slight alteration. Quartz (left) is fresh. Crossed\n\noften displaying considerable etching. Many grains show no such effects, however, suggesting that the more severely etched fragments, and perhaps the dolomite soil talc grains as well, may owe their modifications to an earlier and more intense period of weathering. Along edges and cleavages biotite (fig. 296) is altering to sec- ondary products, which are discussed in the section\n\n0 0.1mm\n\nFIGURE 296.- Soil biotite grains (#86 soil, fine sand), showing both altered (upper left and upper center) and relatively unaltered margins (lower center). Plane light.",
+                "embed": "# TABLE 6.-Chemical compositions of 10 major minerals in the adamellite of Sage Hen Flat [Methods of determination as indicated. All Fe assumed to be in ferric state] (cont.)\n\n\n\n0 0.1mm\n\nFIGURE 295.-Weathered grains in adamellite soil thin section. Core of plagioclase (lower nicols. center to right center) is considerably altered. Microcline (upper center and upper right) has parted along cleavages and shows slight alteration. Quartz (left) is fresh. Crossed\n\noften displaying considerable etching. Many grains show no such effects, however, suggesting that the more severely etched fragments, and perhaps the dolomite soil talc grains as well, may owe their modifications to an earlier and more intense period of weathering. Along edges and cleavages biotite (fig. 296) is altering to sec- ondary products, which are discussed in the section\n\n0 0.1mm\n\nFIGURE 296.- Soil biotite grains (#86 soil, fine sand), showing both altered (upper left and upper center) and relatively unaltered margins (lower center). Plane light.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.04548791324391085,
+                            "top": 0.5205456257723562,
+                            "width": 0.41775661992091756,
+                            "height": 0.15908548344817255,
+                            "page": 1
+                        },
+                        "content": "",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.21843137254901962,
+                            "top": 0.6833433193529059,
+                            "width": 0.06980392156862746,
+                            "height": 0.008388256440982624,
+                            "page": 1
+                        },
+                        "content": "0 0.1mm",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04862745098039216,
+                            "top": 0.7510485320551228,
+                            "width": 0.41294117647058826,
+                            "height": 0.03984421809466747,
+                            "page": 1
+                        },
+                        "content": "FIGURE 295.-Weathered grains in adamellite soil thin section. Core of plagioclase (lower nicols. center to right center) is considerably altered. Microcline (upper center and upper right) has parted along cleavages and shows slight alteration. Quartz (left) is fresh. Crossed",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04823529411764706,
+                            "top": 0.799281006590773,
+                            "width": 0.41294117647058826,
+                            "height": 0.10814859197124026,
+                            "page": 1
+                        },
+                        "content": "often displaying considerable etching. Many grains show no such effects, however, suggesting that the more severely etched fragments, and perhaps the dolomite soil talc grains as well, may owe their modifications to an earlier and more intense period of weathering. Along edges and cleavages biotite (fig. 296) is altering to sec- ondary products, which are discussed in the section",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Figure",
+                        "bbox": {
+                            "left": 0.47755323223039214,
+                            "top": 0.5210153660851371,
+                            "width": 0.4169262216605392,
+                            "height": 0.3180603429612605,
+                            "page": 1
+                        },
+                        "content": "0 0.1mm",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4811764705882353,
+                            "top": 0.8807669263031755,
+                            "width": 0.4125490196078431,
+                            "height": 0.025464349910125823,
+                            "page": 1
+                        },
+                        "content": "FIGURE 296.- Soil biotite grains (#86 soil, fine sand), showing both altered (upper left and upper center) and relatively unaltered margins (lower center). Plane light.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

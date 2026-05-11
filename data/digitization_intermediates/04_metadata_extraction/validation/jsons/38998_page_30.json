@@ -1,0 +1,230 @@
+{
+    "job_id": "ae61a140-93cb-491c-bdba-2993d0e37a94",
+    "duration": 16.16996455192566,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/530695ea-c30d-4812-a1ac-1c5bc0bdca4e?AWSAccessKeyId=ASIA2UOK6OVBC2VPVCHG&Signature=QOThyrrG7Wj3uC2rlwYedw12HeE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjENH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCVLb94O8cW3Cjt%2F0rETmHaFWV9gfyF2M0Qfps1pGhYUgIhAMa7YKwAfhcW6%2B4bXuBTT8b0jqpKigTGZRPwfxqO5q%2BmKpQFCLr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzMxMTA2OTMyMDM0IgyhaRCCvqHrWMH%2BiP4q6ATtzew8zEy5G35BziGi%2FH%2F11JQEgGslRwqKU8CzzWqSzpM%2Bt%2FF5PJWOlt2YQVcADXUdWQptjkgw%2BXbRzHhiJ1zheC12rghyx1pmvruwAdNneiJ%2BAXQ%2B4wGv7T3ZlABVmbVes7HnX3BToxjKciLP93LP447SwUzcgMSzITqHpJlirsMQnKwJau7JTgJf%2BjJfvUa3Heu7BlROYJeVi8ZhbhJpU0XLUJHJ1fYaDYcBXi%2BdVlefxvbG5wSBKSDA6B595PcLHA4urXLjdU1uTo0Vs8xhaH4wIcoWyW%2BiVVxOLxGN6fMqOKtkO4wHz%2BHNmGNOuyplsxVpZ5%2Bd59BSOsOcmpr85TEBofnnvab0CVvkFcqCtY4pF2oTToIP%2FodsJW2gIG0Ouw0%2FzENxUicv9rrk5AYCfNhwwHFZy38stJkfT9Do1FARojYS394ic5rymNFNhwAcewQy0SKQAOZORPfEFwkPC%2FCpj4FqDoKtVIju6lZqkitZ%2FT87ZsIHum2DLIhZ8PIGllmxhlbpKODSc1La%2BcoXxEO43BfMnWw727NA5fysV6msa1j4YrcsZHGyD1zzWNlsCi%2BCzU7XFun4VHvkMhYtG0NRre9K%2Bn92wbGpfjc8wPNI%2Fy2KKXmBAgJAhjFA%2F%2FWM4PHuPklEo9SVztQrf7GD09CjnIamrTXoUQdK2dS1YjGsORV46JiR7%2FqHGf0lEWKsTWe6LfjT2XLjrdenkzWbId3oRCiZYWBw5Otz6WrGTWps7YokWBS%2Bmdd8TsiMzh3tHvGv2O8EGr68kQRYlemsrWMLKQnNi5HFIfWl2lkF7VDhmnVCM2N1MJfniLwGOpoB%2Fjh0yszrmnntr0Ul4r3jpLzEisx1nBcUSZ3urWywthDbJrv2h5bvI9zVaLeve5UzesSmZy5mUepByDpAlqazZH0%2FIgzIEfdOAA82QFCm0z1eC52Jf3gaGOu94Dve6eGuYe2%2BDHPDQwgx3K2ppxFlwkk2tTWbLZFo1cLoMKEPVHq8y5Pjg46ACvnzbtXYwc9GGwtvOH1niDRMYg%3D%3D&Expires=1736590539",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA\n\nbedrock and soil samples analyzed by Ken-ichiro Aoki, Tohoku University, Japan, were used as standards for the dolomite group.\n\n## REED DOLOMITE",
+                "embed": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA\n\nbedrock and soil samples analyzed by Ken-ichiro Aoki, Tohoku University, Japan, were used as standards for the dolomite group.\n\n## REED DOLOMITE",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.18745098039215685,
+                            "top": 0.07070101857399641,
+                            "width": 0.6427450980392156,
+                            "height": 0.012582384661473937,
+                            "page": 1
+                        },
+                        "content": "WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8666666666666667,
+                            "top": 0.07459556620730977,
+                            "width": 0.02862745098039216,
+                            "height": 0.01018573996405033,
+                            "page": 1
+                        },
+                        "content": "401",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04980392156862745,
+                            "top": 0.09376872378669862,
+                            "width": 0.41333333333333333,
+                            "height": 0.044337926902336726,
+                            "page": 1
+                        },
+                        "content": "bedrock and soil samples analyzed by Ken-ichiro Aoki, Tohoku University, Japan, were used as standards for the dolomite group.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.20980392156862746,
+                            "top": 0.14799281006590773,
+                            "width": 0.09568627450980392,
+                            "height": 0.009286998202516477,
+                            "page": 1
+                        },
+                        "content": "REED DOLOMITE",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\nArithmetic means and standard deviations for analyses of dolomite bedrock, soil greater than 2 mm, soil less than 2 mm, and soil less than 62 um are given in table 12. Standard deviations refer to differences be- tween samples collected at different locations rather than to analytical precision (replicate analysis). The principal reason for collection of numerous and widely distributed bedrock and soil samples was to ob- tain an indication of chemical and mineralogical varia- bility within each parent material and soil, such that changes due to weathering could be clearly differen- tiated from apparent changes caused by sampling deficiencies. Unfortunately, careful study of soil mineralogy shows most of the Reed soil samples to be contaminated by both rhyolitic ash and local materials to the extent that corrections for contamination would be meaningless. The effects of external aeolian addition are also indicated by the large increases in Na and K in the finer size fractions of the soils. Only one sample for which the mineralogy was determined, #65 soil less than 2 mm, appears to be little affected by contamina- tion. Corrections for the minor chemical effects of the tuff and local contaminants in this sample were made using weighted averages of glass and contaminative mineral percentages\u00b3 in the sand and silt fractions (per- centage clay was less than 1 percent and was therefore neglected in the calculations). Chemical composition of minerals and glass used to correct the original soil analysis are given, together with sources of informa- tion, in table 13. Local contaminants in this sample are assumed to be derived from the, nearby Sage Hen Flat",
+                "embed": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\nArithmetic means and standard deviations for analyses of dolomite bedrock, soil greater than 2 mm, soil less than 2 mm, and soil less than 62 um are given in table 12. Standard deviations refer to differences be- tween samples collected at different locations rather than to analytical precision (replicate analysis). The principal reason for collection of numerous and widely distributed bedrock and soil samples was to ob- tain an indication of chemical and mineralogical varia- bility within each parent material and soil, such that changes due to weathering could be clearly differen- tiated from apparent changes caused by sampling deficiencies. Unfortunately, careful study of soil mineralogy shows most of the Reed soil samples to be contaminated by both rhyolitic ash and local materials to the extent that corrections for contamination would be meaningless. The effects of external aeolian addition are also indicated by the large increases in Na and K in the finer size fractions of the soils. Only one sample for which the mineralogy was determined, #65 soil less than 2 mm, appears to be little affected by contamina- tion. Corrections for the minor chemical effects of the tuff and local contaminants in this sample were made using weighted averages of glass and contaminative mineral percentages\u00b3 in the sand and silt fractions (per- centage clay was less than 1 percent and was therefore neglected in the calculations). Chemical composition of minerals and glass used to correct the original soil analysis are given, together with sources of informa- tion, in table 13. Local contaminants in this sample are assumed to be derived from the, nearby Sage Hen Flat",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04823529411764706,
+                            "top": 0.16806470940683044,
+                            "width": 0.4152941176470588,
+                            "height": 0.46494907130017976,
+                            "page": 1
+                        },
+                        "content": "Arithmetic means and standard deviations for analyses of dolomite bedrock, soil greater than 2 mm, soil less than 2 mm, and soil less than 62 um are given in table 12. Standard deviations refer to differences be- tween samples collected at different locations rather than to analytical precision (replicate analysis). The principal reason for collection of numerous and widely distributed bedrock and soil samples was to ob- tain an indication of chemical and mineralogical varia- bility within each parent material and soil, such that changes due to weathering could be clearly differen- tiated from apparent changes caused by sampling deficiencies. Unfortunately, careful study of soil mineralogy shows most of the Reed soil samples to be contaminated by both rhyolitic ash and local materials to the extent that corrections for contamination would be meaningless. The effects of external aeolian addition are also indicated by the large increases in Na and K in the finer size fractions of the soils. Only one sample for which the mineralogy was determined, #65 soil less than 2 mm, appears to be little affected by contamina- tion. Corrections for the minor chemical effects of the tuff and local contaminants in this sample were made using weighted averages of glass and contaminative mineral percentages\u00b3 in the sand and silt fractions (per- centage clay was less than 1 percent and was therefore neglected in the calculations). Chemical composition of minerals and glass used to correct the original soil analysis are given, together with sources of informa- tion, in table 13. Local contaminants in this sample are assumed to be derived from the, nearby Sage Hen Flat",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\nThe methods by which percentages of ash and aeolian contaminants were determined has been discussed elsewhere (Marchand, 1970) in some detail.\n\npluton. Soil analytical values from which corrections had been subtracted were recalculated to the previous oxide percentage total and converted back to elemental percentages. Total estimated contamination in #65 soil less than 2 mm is only 3.9 percent, and thus any errors due to inaccurate amounts of correction are relatively small.\n\nAbsolute losses (weight percent in bedrock minus weight percent in soil) are shown for the five carbonate-component elements in mean soil greater than 2 mm (hereafter termed \"soil gravel\") and #65 soil less than 2 mm (corrected for both ash and local contam- inants) on the left side of table 14. To eliminate differ- ential effects of heavy and light elements, the absolute losses are divided by atomic weight in the adjacent columns. Percentage losses with respect to bedrock, de- termined as\n\nweight percent in bedrock-weight\npercent in soil\n\npercentage loss =\nweight percent in bedrock",
+                "embed": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\nThe methods by which percentages of ash and aeolian contaminants were determined has been discussed elsewhere (Marchand, 1970) in some detail.\n\npluton. Soil analytical values from which corrections had been subtracted were recalculated to the previous oxide percentage total and converted back to elemental percentages. Total estimated contamination in #65 soil less than 2 mm is only 3.9 percent, and thus any errors due to inaccurate amounts of correction are relatively small.\n\nAbsolute losses (weight percent in bedrock minus weight percent in soil) are shown for the five carbonate-component elements in mean soil greater than 2 mm (hereafter termed \"soil gravel\") and #65 soil less than 2 mm (corrected for both ash and local contam- inants) on the left side of table 14. To eliminate differ- ential effects of heavy and light elements, the absolute losses are divided by atomic weight in the adjacent columns. Percentage losses with respect to bedrock, de- termined as\n\nweight percent in bedrock-weight\npercent in soil\n\npercentage loss =\nweight percent in bedrock",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.04862745098039216,
+                            "top": 0.640203714799281,
+                            "width": 0.41333333333333333,
+                            "height": 0.019772318753744758,
+                            "page": 1
+                        },
+                        "content": "The methods by which percentages of ash and aeolian contaminants were determined has been discussed elsewhere (Marchand, 1970) in some detail.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4823529411764706,
+                            "top": 0.09466746554823248,
+                            "width": 0.41294117647058826,
+                            "height": 0.1006590772917915,
+                            "page": 1
+                        },
+                        "content": "pluton. Soil analytical values from which corrections had been subtracted were recalculated to the previous oxide percentage total and converted back to elemental percentages. Total estimated contamination in #65 soil less than 2 mm is only 3.9 percent, and thus any errors due to inaccurate amounts of correction are relatively small.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4831372549019608,
+                            "top": 0.19982025164769324,
+                            "width": 0.4125490196078431,
+                            "height": 0.14529658478130617,
+                            "page": 1
+                        },
+                        "content": "Absolute losses (weight percent in bedrock minus weight percent in soil) are shown for the five carbonate-component elements in mean soil greater than 2 mm (hereafter termed \"soil gravel\") and #65 soil less than 2 mm (corrected for both ash and local contam- inants) on the left side of table 14. To eliminate differ- ential effects of heavy and light elements, the absolute losses are divided by atomic weight in the adjacent columns. Percentage losses with respect to bedrock, de- termined as",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.6337254901960784,
+                            "top": 0.3499101258238466,
+                            "width": 0.2568627450980392,
+                            "height": 0.02786099460754943,
+                            "page": 1
+                        },
+                        "content": "weight percent in bedrock-weight\npercent in soil",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.48196078431372547,
+                            "top": 0.37267825044937086,
+                            "width": 0.3792156862745098,
+                            "height": 0.02816057519472738,
+                            "page": 1
+                        },
+                        "content": "percentage loss =\nweight percent in bedrock",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\nare shown in bar graph form in the left side of figure 301. Both calculations were made holding constant the per- centage of Zr, the most stable element during the weathering process for the samples studied here. Un- doubtedly Zr percentage does change between bedrock and soil, but this assumption permits relative compari- son of all elements investigated, the principal concern of this study. The soil gravel fraction is assumed to be little affected by contamination, and #65 soil less than 2 mm has been corrected for all external additions; so, these two soil analyses should be chemically represen- tative of Reed terrane. Elemental absolute losses from dolomite bedrock to soil follow the sequence Ca > Mg Fe Mn >> Sr, a trend strongly controlled by bedrock composition. When atomic weight is taken into account, the position of Ca and Mg in the sequence converge or trade places, but other relations remain\n\nTABLE 12.-Chemical analyses, in weight percent except as noted, of Reed Dolomite bedrock and soils [Data are from X-ray fluorescence techniques except as noted. leter mined; S.D. standard deviation. Soil analyses are not corrected for contamination",
+                "embed": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\nare shown in bar graph form in the left side of figure 301. Both calculations were made holding constant the per- centage of Zr, the most stable element during the weathering process for the samples studied here. Un- doubtedly Zr percentage does change between bedrock and soil, but this assumption permits relative compari- son of all elements investigated, the principal concern of this study. The soil gravel fraction is assumed to be little affected by contamination, and #65 soil less than 2 mm has been corrected for all external additions; so, these two soil analyses should be chemically represen- tative of Reed terrane. Elemental absolute losses from dolomite bedrock to soil follow the sequence Ca > Mg Fe Mn >> Sr, a trend strongly controlled by bedrock composition. When atomic weight is taken into account, the position of Ca and Mg in the sequence converge or trade places, but other relations remain\n\nTABLE 12.-Chemical analyses, in weight percent except as noted, of Reed Dolomite bedrock and soils [Data are from X-ray fluorescence techniques except as noted. leter mined; S.D. standard deviation. Soil analyses are not corrected for contamination",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.4811764705882353,
+                            "top": 0.40952666267225885,
+                            "width": 0.41490196078431374,
+                            "height": 0.25284601557819053,
+                            "page": 1
+                        },
+                        "content": "are shown in bar graph form in the left side of figure 301. Both calculations were made holding constant the per- centage of Zr, the most stable element during the weathering process for the samples studied here. Un- doubtedly Zr percentage does change between bedrock and soil, but this assumption permits relative compari- son of all elements investigated, the principal concern of this study. The soil gravel fraction is assumed to be little affected by contamination, and #65 soil less than 2 mm has been corrected for all external additions; so, these two soil analyses should be chemically represen- tative of Reed terrane. Elemental absolute losses from dolomite bedrock to soil follow the sequence Ca > Mg Fe Mn >> Sr, a trend strongly controlled by bedrock composition. When atomic weight is taken into account, the position of Ca and Mg in the sequence converge or trade places, but other relations remain",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10588235294117647,
+                            "top": 0.6659676452965848,
+                            "width": 0.7384313725490196,
+                            "height": 0.02816057519472738,
+                            "page": 1
+                        },
+                        "content": "TABLE 12.-Chemical analyses, in weight percent except as noted, of Reed Dolomite bedrock and soils [Data are from X-ray fluorescence techniques except as noted. leter mined; S.D. standard deviation. Soil analyses are not corrected for contamination",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\n<table><tr><th></th><th></th><th colspan=\"3\">Bedrock</th><th colspan=\"3\">Soil mm</th><th colspan=\"3\">Soil &lt;&lt;2mm</th><th colspan=\"3\">Soil 62 um</th></tr><tr><td></td><td></td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td></tr><tr><td>Si</td><td></td><td>0.11</td><td>0.07</td><td>7</td><td>0.80</td><td>0.10</td><td>2</td><td>13.24</td><td>5.84</td><td>6</td><td>22.01</td><td>1.00</td><td>5</td></tr><tr><td>Ti</td><td></td><td>.0069</td><td>.0050</td><td>6</td><td>.022</td><td>.002</td><td>2</td><td>.20</td><td>.11</td><td>6</td><td>.40</td><td>.02</td><td>5</td></tr><tr><td>Zr</td><td>ppm</td><td>6.5</td><td>5.3</td><td>4</td><td>13</td><td>3</td><td>2</td><td>104</td><td>51</td><td>5</td><td>246</td><td>31</td><td>5</td></tr><tr><td>Al</td><td></td><td>.092</td><td>.059</td><td>6</td><td>.38</td><td>.06</td><td>2</td><td>4.15</td><td>1.70</td><td>6</td><td>7.16</td><td>.28</td><td>5</td></tr><tr><td>Fe</td><td></td><td>.26</td><td>.09</td><td>12</td><td>.36</td><td>.005</td><td>2</td><td>1.83</td><td>.62</td><td>11</td><td>3.13</td><td>.06</td><td>5</td></tr><tr><td>Mn</td><td></td><td>.055</td><td>.020</td><td>12</td><td>.08</td><td>.01</td><td>2</td><td>.11</td><td>.031</td><td>11</td><td>.12</td><td>.02</td><td>5</td></tr><tr><td>Mg</td><td></td><td>12.46</td><td>.43</td><td>7</td><td>11.01</td><td>.16</td><td>2</td><td>5.67</td><td>1.57</td><td>6</td><td>2.21</td><td>.38</td><td>5</td></tr><tr><td>Ca</td><td></td><td>21.52</td><td>.93</td><td>12</td><td>22.54</td><td>.43</td><td>2</td><td>12.93</td><td>4.16</td><td>11</td><td>8.38</td><td>.88</td><td>5</td></tr><tr><td>Ba</td><td></td><td>.00</td><td>.00</td><td>6</td><td>.00</td><td>.00</td><td>2</td><td>.028</td><td>.012</td><td>5</td><td>.06</td><td>.004</td><td>5</td></tr><tr><td>Sr</td><td>ppm</td><td>56</td><td>7</td><td>6</td><td>62</td><td>3</td><td>2</td><td>124</td><td>27</td><td>5</td><td>222</td><td>17</td><td>5</td></tr><tr><td>Na1</td><td></td><td>.027</td><td>.003</td><td>2</td><td>.0550</td><td>.003</td><td>2</td><td>.755</td><td>.395</td><td>2</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td>K1</td><td></td><td>.011</td><td>.006</td><td>2</td><td>.0545</td><td>.0055</td><td>2</td><td>1.281</td><td>.335</td><td>3</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td>Rb</td><td>ppm</td><td>.81</td><td>2.00</td><td>8</td><td>1.10</td><td>.50</td><td>2</td><td>25.8</td><td>11.7</td><td>11</td><td>51.0</td><td>4.0</td><td>5</td></tr><tr><td>p2</td><td></td><td>.0175</td><td>.0085</td><td>2</td><td>n.d.</td><td>n.d.</td><td></td><td>.0545</td><td></td><td>2</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td></td><td>Oxide total\u00b3</td><td></td><td></td><td>98.63</td><td></td><td></td><td>497.69</td><td></td><td></td><td>$101.39</td><td></td><td></td><td>94.63</td></tr></table>",
+                "embed": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\n<table><tr><th></th><th></th><th colspan=\"3\">Bedrock</th><th colspan=\"3\">Soil mm</th><th colspan=\"3\">Soil &lt;&lt;2mm</th><th colspan=\"3\">Soil 62 um</th></tr><tr><td></td><td></td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td></tr><tr><td>Si</td><td></td><td>0.11</td><td>0.07</td><td>7</td><td>0.80</td><td>0.10</td><td>2</td><td>13.24</td><td>5.84</td><td>6</td><td>22.01</td><td>1.00</td><td>5</td></tr><tr><td>Ti</td><td></td><td>.0069</td><td>.0050</td><td>6</td><td>.022</td><td>.002</td><td>2</td><td>.20</td><td>.11</td><td>6</td><td>.40</td><td>.02</td><td>5</td></tr><tr><td>Zr</td><td>ppm</td><td>6.5</td><td>5.3</td><td>4</td><td>13</td><td>3</td><td>2</td><td>104</td><td>51</td><td>5</td><td>246</td><td>31</td><td>5</td></tr><tr><td>Al</td><td></td><td>.092</td><td>.059</td><td>6</td><td>.38</td><td>.06</td><td>2</td><td>4.15</td><td>1.70</td><td>6</td><td>7.16</td><td>.28</td><td>5</td></tr><tr><td>Fe</td><td></td><td>.26</td><td>.09</td><td>12</td><td>.36</td><td>.005</td><td>2</td><td>1.83</td><td>.62</td><td>11</td><td>3.13</td><td>.06</td><td>5</td></tr><tr><td>Mn</td><td></td><td>.055</td><td>.020</td><td>12</td><td>.08</td><td>.01</td><td>2</td><td>.11</td><td>.031</td><td>11</td><td>.12</td><td>.02</td><td>5</td></tr><tr><td>Mg</td><td></td><td>12.46</td><td>.43</td><td>7</td><td>11.01</td><td>.16</td><td>2</td><td>5.67</td><td>1.57</td><td>6</td><td>2.21</td><td>.38</td><td>5</td></tr><tr><td>Ca</td><td></td><td>21.52</td><td>.93</td><td>12</td><td>22.54</td><td>.43</td><td>2</td><td>12.93</td><td>4.16</td><td>11</td><td>8.38</td><td>.88</td><td>5</td></tr><tr><td>Ba</td><td></td><td>.00</td><td>.00</td><td>6</td><td>.00</td><td>.00</td><td>2</td><td>.028</td><td>.012</td><td>5</td><td>.06</td><td>.004</td><td>5</td></tr><tr><td>Sr</td><td>ppm</td><td>56</td><td>7</td><td>6</td><td>62</td><td>3</td><td>2</td><td>124</td><td>27</td><td>5</td><td>222</td><td>17</td><td>5</td></tr><tr><td>Na1</td><td></td><td>.027</td><td>.003</td><td>2</td><td>.0550</td><td>.003</td><td>2</td><td>.755</td><td>.395</td><td>2</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td>K1</td><td></td><td>.011</td><td>.006</td><td>2</td><td>.0545</td><td>.0055</td><td>2</td><td>1.281</td><td>.335</td><td>3</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td>Rb</td><td>ppm</td><td>.81</td><td>2.00</td><td>8</td><td>1.10</td><td>.50</td><td>2</td><td>25.8</td><td>11.7</td><td>11</td><td>51.0</td><td>4.0</td><td>5</td></tr><tr><td>p2</td><td></td><td>.0175</td><td>.0085</td><td>2</td><td>n.d.</td><td>n.d.</td><td></td><td>.0545</td><td></td><td>2</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td></td><td>Oxide total\u00b3</td><td></td><td></td><td>98.63</td><td></td><td></td><td>497.69</td><td></td><td></td><td>$101.39</td><td></td><td></td><td>94.63</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.04922156240425858,
+                            "top": 0.6971231486855902,
+                            "width": 0.8479189285577512,
+                            "height": 0.18016093387226634,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th></th><th colspan=\"3\">Bedrock</th><th colspan=\"3\">Soil mm</th><th colspan=\"3\">Soil &lt;&lt;2mm</th><th colspan=\"3\">Soil 62 um</th></tr><tr><td></td><td></td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td><td>Mean</td><td>S.D.</td><td>Number of\nsamples</td></tr><tr><td>Si</td><td></td><td>0.11</td><td>0.07</td><td>7</td><td>0.80</td><td>0.10</td><td>2</td><td>13.24</td><td>5.84</td><td>6</td><td>22.01</td><td>1.00</td><td>5</td></tr><tr><td>Ti</td><td></td><td>.0069</td><td>.0050</td><td>6</td><td>.022</td><td>.002</td><td>2</td><td>.20</td><td>.11</td><td>6</td><td>.40</td><td>.02</td><td>5</td></tr><tr><td>Zr</td><td>ppm</td><td>6.5</td><td>5.3</td><td>4</td><td>13</td><td>3</td><td>2</td><td>104</td><td>51</td><td>5</td><td>246</td><td>31</td><td>5</td></tr><tr><td>Al</td><td></td><td>.092</td><td>.059</td><td>6</td><td>.38</td><td>.06</td><td>2</td><td>4.15</td><td>1.70</td><td>6</td><td>7.16</td><td>.28</td><td>5</td></tr><tr><td>Fe</td><td></td><td>.26</td><td>.09</td><td>12</td><td>.36</td><td>.005</td><td>2</td><td>1.83</td><td>.62</td><td>11</td><td>3.13</td><td>.06</td><td>5</td></tr><tr><td>Mn</td><td></td><td>.055</td><td>.020</td><td>12</td><td>.08</td><td>.01</td><td>2</td><td>.11</td><td>.031</td><td>11</td><td>.12</td><td>.02</td><td>5</td></tr><tr><td>Mg</td><td></td><td>12.46</td><td>.43</td><td>7</td><td>11.01</td><td>.16</td><td>2</td><td>5.67</td><td>1.57</td><td>6</td><td>2.21</td><td>.38</td><td>5</td></tr><tr><td>Ca</td><td></td><td>21.52</td><td>.93</td><td>12</td><td>22.54</td><td>.43</td><td>2</td><td>12.93</td><td>4.16</td><td>11</td><td>8.38</td><td>.88</td><td>5</td></tr><tr><td>Ba</td><td></td><td>.00</td><td>.00</td><td>6</td><td>.00</td><td>.00</td><td>2</td><td>.028</td><td>.012</td><td>5</td><td>.06</td><td>.004</td><td>5</td></tr><tr><td>Sr</td><td>ppm</td><td>56</td><td>7</td><td>6</td><td>62</td><td>3</td><td>2</td><td>124</td><td>27</td><td>5</td><td>222</td><td>17</td><td>5</td></tr><tr><td>Na1</td><td></td><td>.027</td><td>.003</td><td>2</td><td>.0550</td><td>.003</td><td>2</td><td>.755</td><td>.395</td><td>2</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td>K1</td><td></td><td>.011</td><td>.006</td><td>2</td><td>.0545</td><td>.0055</td><td>2</td><td>1.281</td><td>.335</td><td>3</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td>Rb</td><td>ppm</td><td>.81</td><td>2.00</td><td>8</td><td>1.10</td><td>.50</td><td>2</td><td>25.8</td><td>11.7</td><td>11</td><td>51.0</td><td>4.0</td><td>5</td></tr><tr><td>p2</td><td></td><td>.0175</td><td>.0085</td><td>2</td><td>n.d.</td><td>n.d.</td><td></td><td>.0545</td><td></td><td>2</td><td>n.d.</td><td>n.d.</td><td>0</td></tr><tr><td></td><td>Oxide total\u00b3</td><td></td><td></td><td>98.63</td><td></td><td></td><td>497.69</td><td></td><td></td><td>$101.39</td><td></td><td></td><td>94.63</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\n1Flame photometer analyses by Joaquin Hampel.\n2Wet chemical analyses by Ken-ichiro Aoki.\n3CO2 taken as stoichiometric. Iron computed as Fe2O3.\n4Includes H2O+ and H2O- analyzed by Ken-ichiro Aoki for three samples.\n5Includes H2O+ and H2O- analyzed by Ken-ichiro Aoki for two samples.\n6Does not include H2O+ and H2O-.",
+                "embed": "# WEATHERING, SOILS, GEOCHEMICAL FRACTIONATION, WHITE MOUNTAINS, CALIFORNIA (cont.)\n\n## REED DOLOMITE (cont.)\n\n1Flame photometer analyses by Joaquin Hampel.\n2Wet chemical analyses by Ken-ichiro Aoki.\n3CO2 taken as stoichiometric. Iron computed as Fe2O3.\n4Includes H2O+ and H2O- analyzed by Ken-ichiro Aoki for three samples.\n5Includes H2O+ and H2O- analyzed by Ken-ichiro Aoki for two samples.\n6Does not include H2O+ and H2O-.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Key Value",
+                        "bbox": {
+                            "left": 0.06514119466145833,
+                            "top": 0.8772764028797184,
+                            "width": 0.7959244073606004,
+                            "height": 0.028459570663571,
+                            "page": 1
+                        },
+                        "content": "1Flame photometer analyses by Joaquin Hampel.\n2Wet chemical analyses by Ken-ichiro Aoki.\n3CO2 taken as stoichiometric. Iron computed as Fe2O3.\n4Includes H2O+ and H2O- analyzed by Ken-ichiro Aoki for three samples.\n5Includes H2O+ and H2O- analyzed by Ken-ichiro Aoki for two samples.\n6Does not include H2O+ and H2O-.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

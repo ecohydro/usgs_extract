@@ -1,0 +1,166 @@
+{
+    "job_id": "e23326d0-7996-4e3f-a3d8-bbce66e18f31",
+    "duration": 4.438899040222168,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/d691daab-02cf-45fc-b945-4a5a54b481e1?AWSAccessKeyId=ASIA2UOK6OVBIUWC3KPN&Signature=dlit4XUkVXBz7Zziq5BVDK7zCfk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQCZNKt23eDAuvfayOVuNh9Uu84XGFh94%2BAaYu35TYXT9wIhAOyaZW%2Fz%2BrUqrUC%2BIKe7FfBtXkZKsYHbtgDP7VO112h%2BKosFCCQQABoMNzMxMTA2OTMyMDM0Igxf3DVGYFkutLOCLwEq6ATqy6peC9Co3wJJKcwbJCyQ4G2jXDMjzLt%2FD7hUk1zx4cP5JjmMWZ745pD6lt6L9NwcUHxYzAJNkGoUbg9yPxC4%2Fo7Xn9xJRmdmh4cshFQ%2FeCOpyUA4kUX8fZ17JlOnDyTVxVWfHP5cGsNNaG7L8EJfGlYyUnmHv8uCqIqZ7l0nM2DE9zGaRQFg3o3W1ogxtEv5nXz7ayEO2p0pJ94DEZ7ckFQPyLmFkSX0Pxuj4BwH4O1x0e%2BGAk20X70dSVAdj1RFWm%2BqPl2X20YfJgq1SI6HJ4d4f66En9v355edo3DA0QerImi27g6D12uQqySEXBa3Kv0XlY9lbaAKjAYajDxvRN5UjREaJvvM3A7yphcB4xhFyICsJbYm56nmvhfAspv79sBuNJecwt0eVmF%2FF4CsAySSPsGBOlQ0oyuq26NxmfLUAIjEdCg4pR01wMdBQCK8SLOZu0OgNysrjJDz45gW%2Fw1%2FAQ5JsW8seoq7Xg79Ol87FhWOq2YMHHeLZT5X94a7x2iid36UtMVp%2B5A%2BsYD1E0zP6pfNpaf0NL2pW5R1MIDFseUTH0oiRAEmdVLuCNG5Q9Sdv9JQF4mCiGkUFWh6TXqqfqDJOaNEinztV%2B5wgnxcRTGshMiA7pKRZ%2Fjzue0Bx7P1%2B4QZwLphuK4cbLmGNMqXHPv7FmWDsmfmBizZdj2xKSAJBAu9QyVlLP6T1KTG%2B%2BomQsZbjdD6vj7EWD2pu967qLfTXJro%2F9jHyiTVYOT0eA25aLK7hWsm70CFTPQO4Z17b6vs2dRt83ajfYtRYHOP5GLXmzXPtlvsUl0gziwtJ3eEdbffMMrPyboGOpoB225hC5ZnEBXYRzKyuu%2BW%2BD5%2BHeyjidddjJT6zwcfUxcnpOFkTmZ8rU02rQRAXD92V2RKqKNp13j%2FWiLhVJsztwVm07s%2BadxX2YWrZ9DkxFwAxMuIKeicyYxVO9cd8PuaNvIfG4ZvVzW6V1yvBkLotyoyd%2BicNFMeX0mW0O3iSuL6gSGxhHbe93FL4bFmMK8AIYNVquERG%2FU0%2FQ%3D%3D&Expires=1733457412",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SPRINGS OF CALIFORNIA.\n\n# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10).\n\nSt. Helena White Sulphur Springs are situated in the canyon of Sulphur Creek, 2 miles southwest of the town of St. Helena. They form the nucleus of an old and formerly a well-known resort, but about 1904 the hotel was destroyed by fire, and in 1909 the improve- ments had not been extensively rebuilt. There were, however, cottages and an open screened dining room, furnishing accommoda- tions for about 25 people, and a small bathhouse near one of the springs.\n\nAnalyses of water from St. Helena White Sulphur Springs, Napa County, Cal.\n\n[Constituents are in parts per million.]",
+                "embed": "# SPRINGS OF CALIFORNIA.\n\n# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10).\n\nSt. Helena White Sulphur Springs are situated in the canyon of Sulphur Creek, 2 miles southwest of the town of St. Helena. They form the nucleus of an old and formerly a well-known resort, but about 1904 the hotel was destroyed by fire, and in 1909 the improve- ments had not been extensively rebuilt. There were, however, cottages and an open screened dining room, furnishing accommoda- tions for about 25 people, and a small bathhouse near one of the springs.\n\nAnalyses of water from St. Helena White Sulphur Springs, Napa County, Cal.\n\n[Constituents are in parts per million.]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.1308703819661866,
+                            "top": 0.0510590015128593,
+                            "width": 0.045710707576706325,
+                            "height": 0.0132375189107413,
+                            "page": 1
+                        },
+                        "content": "254",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.39511584220413276,
+                            "top": 0.05521936459909228,
+                            "width": 0.29304946775203505,
+                            "height": 0.009833585476550681,
+                            "page": 1
+                        },
+                        "content": "SPRINGS OF CALIFORNIA.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.23919849718221667,
+                            "top": 0.0850983358547655,
+                            "width": 0.6048841577958672,
+                            "height": 0.0132375189107413,
+                            "page": 1
+                        },
+                        "content": "ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12836568566061365,
+                            "top": 0.11195158850226929,
+                            "width": 0.828428303068253,
+                            "height": 0.1493948562783661,
+                            "page": 1
+                        },
+                        "content": "St. Helena White Sulphur Springs are situated in the canyon of Sulphur Creek, 2 miles southwest of the town of St. Helena. They form the nucleus of an old and formerly a well-known resort, but about 1904 the hotel was destroyed by fire, and in 1909 the improve- ments had not been extensively rebuilt. There were, however, cottages and an open screened dining room, furnishing accommoda- tions for about 25 people, and a small bathhouse near one of the springs.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.17470256731371323,
+                            "top": 0.2760968229954614,
+                            "width": 0.7338760175328741,
+                            "height": 0.01399394856278366,
+                            "page": 1
+                        },
+                        "content": "Analyses of water from St. Helena White Sulphur Springs, Napa County, Cal.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.39323731997495304,
+                            "top": 0.3006807866868381,
+                            "width": 0.29805886036318097,
+                            "height": 0.01096822995461422,
+                            "page": 1
+                        },
+                        "content": "[Constituents are in parts per million.]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10). (cont.)\n\n<table><tr><th></th><th>1</th><th></th><th>2</th><th></th><th colspan=\"2\">8</th><th colspan=\"2\">4</th><th colspan=\"2\">5</th></tr><tr><td>Temperature\nProperties of reaction:</td><td>25\u00b0 C.</td><td>(77\u00b0 F.)</td><td>21\u00b0 C.</td><td>(69\u00b0 F.)</td><td colspan=\"2\">32\u00b0 C. (90\u00b0 F.)</td><td colspan=\"2\">30\u00b0 C. (86\u00b0 F.)</td><td colspan=\"2\">21\u00b0 C. (70\u00b0 F.)</td></tr><tr><td>Primary salinity</td><td></td><td>83</td><td></td><td>59</td><td></td><td>82</td><td rowspan=\"2\" colspan=\"2\">80</td><td></td><td>63</td></tr><tr><td>Secondary salin-</td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"2\" colspan=\"2\">1</td></tr><tr><td>ity</td><td></td><td>4</td><td></td><td>0</td><td colspan=\"2\">1</td><td colspan=\"2\">5</td></tr><tr><td>Tertiarysalinity</td><td></td><td>0</td><td></td><td>0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td></tr><tr><td>Primary alkalin-\nity\nalka-</td><td></td><td>0</td><td></td><td>5</td><td></td><td>0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td></tr><tr><td>Secondary\nlinity</td><td></td><td>13</td><td></td><td>36</td><td colspan=\"2\">17</td><td colspan=\"2\">15</td><td rowspan=\"2\" colspan=\"2\">36\n(?)</td></tr><tr><td>Tertiary alkalinity</td><td></td><td>21</td><td></td><td>9</td><td></td><td>22</td><td colspan=\"2\">13</td></tr><tr><td>Constituents.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td></tr><tr><td>Sodium (Na)</td><td>218</td><td>9.48</td><td>136</td><td>5.91</td><td>207</td><td>8.99</td><td>232</td><td>10.05</td><td>177</td><td>7.70</td></tr><tr><td>Calcium (Ca)</td><td>23</td><td>1.15</td><td>42</td><td>2.10</td><td>28</td><td>1.40</td><td>29</td><td>1.45</td><td>49</td><td>2.45</td></tr><tr><td>Magnesium (Mg)</td><td>10</td><td>.82</td><td>15</td><td>1.23</td><td>6.8</td><td>.56</td><td>13</td><td>1.03</td><td>24</td><td>2.00</td></tr><tr><td>Aluminum (Al)</td><td>2. 0</td><td>.22</td><td>5.6</td><td>.62</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sulphate (SO4)</td><td>123</td><td>2.56</td><td>83</td><td>1.73</td><td>96</td><td>2.00</td><td>131</td><td>2.73</td><td>149</td><td>3.10</td></tr><tr><td>Chloride (CI)</td><td>260</td><td>7.33</td><td>133</td><td>3.75</td><td>251</td><td>7.08</td><td>280</td><td>7.90</td><td>164</td><td>4.63</td></tr><tr><td>Sulphide (S)</td><td>9. 4</td><td>.59</td><td>Trace.</td><td>Trace.</td><td>a 19</td><td>1.20</td><td>a 13</td><td>.84</td><td>a 12</td><td>.75</td></tr><tr><td>Carbonate (CO)</td><td>29</td><td>.97</td><td>113</td><td>3.76</td><td>20</td><td>67</td><td>32</td><td>1.06</td><td>110</td><td>3.67</td></tr><tr><td>Silica (SiO2)</td><td>11</td><td>.36</td><td>25</td><td>.83</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>685. 4</td><td></td><td>552.6</td><td></td><td>627. 8</td><td></td><td>730</td><td></td><td>685</td><td></td></tr><tr><td>Hydrogen sulphide\n(H2S)</td><td>34</td><td>2.01</td><td>Trace.</td><td>Trace.</td><td>41</td><td>2.38</td><td>28</td><td>1.64</td><td>Trace.</td><td>Trace.</td></tr></table>",
+                "embed": "# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10). (cont.)\n\n<table><tr><th></th><th>1</th><th></th><th>2</th><th></th><th colspan=\"2\">8</th><th colspan=\"2\">4</th><th colspan=\"2\">5</th></tr><tr><td>Temperature\nProperties of reaction:</td><td>25\u00b0 C.</td><td>(77\u00b0 F.)</td><td>21\u00b0 C.</td><td>(69\u00b0 F.)</td><td colspan=\"2\">32\u00b0 C. (90\u00b0 F.)</td><td colspan=\"2\">30\u00b0 C. (86\u00b0 F.)</td><td colspan=\"2\">21\u00b0 C. (70\u00b0 F.)</td></tr><tr><td>Primary salinity</td><td></td><td>83</td><td></td><td>59</td><td></td><td>82</td><td rowspan=\"2\" colspan=\"2\">80</td><td></td><td>63</td></tr><tr><td>Secondary salin-</td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"2\" colspan=\"2\">1</td></tr><tr><td>ity</td><td></td><td>4</td><td></td><td>0</td><td colspan=\"2\">1</td><td colspan=\"2\">5</td></tr><tr><td>Tertiarysalinity</td><td></td><td>0</td><td></td><td>0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td></tr><tr><td>Primary alkalin-\nity\nalka-</td><td></td><td>0</td><td></td><td>5</td><td></td><td>0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td></tr><tr><td>Secondary\nlinity</td><td></td><td>13</td><td></td><td>36</td><td colspan=\"2\">17</td><td colspan=\"2\">15</td><td rowspan=\"2\" colspan=\"2\">36\n(?)</td></tr><tr><td>Tertiary alkalinity</td><td></td><td>21</td><td></td><td>9</td><td></td><td>22</td><td colspan=\"2\">13</td></tr><tr><td>Constituents.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td></tr><tr><td>Sodium (Na)</td><td>218</td><td>9.48</td><td>136</td><td>5.91</td><td>207</td><td>8.99</td><td>232</td><td>10.05</td><td>177</td><td>7.70</td></tr><tr><td>Calcium (Ca)</td><td>23</td><td>1.15</td><td>42</td><td>2.10</td><td>28</td><td>1.40</td><td>29</td><td>1.45</td><td>49</td><td>2.45</td></tr><tr><td>Magnesium (Mg)</td><td>10</td><td>.82</td><td>15</td><td>1.23</td><td>6.8</td><td>.56</td><td>13</td><td>1.03</td><td>24</td><td>2.00</td></tr><tr><td>Aluminum (Al)</td><td>2. 0</td><td>.22</td><td>5.6</td><td>.62</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sulphate (SO4)</td><td>123</td><td>2.56</td><td>83</td><td>1.73</td><td>96</td><td>2.00</td><td>131</td><td>2.73</td><td>149</td><td>3.10</td></tr><tr><td>Chloride (CI)</td><td>260</td><td>7.33</td><td>133</td><td>3.75</td><td>251</td><td>7.08</td><td>280</td><td>7.90</td><td>164</td><td>4.63</td></tr><tr><td>Sulphide (S)</td><td>9. 4</td><td>.59</td><td>Trace.</td><td>Trace.</td><td>a 19</td><td>1.20</td><td>a 13</td><td>.84</td><td>a 12</td><td>.75</td></tr><tr><td>Carbonate (CO)</td><td>29</td><td>.97</td><td>113</td><td>3.76</td><td>20</td><td>67</td><td>32</td><td>1.06</td><td>110</td><td>3.67</td></tr><tr><td>Silica (SiO2)</td><td>11</td><td>.36</td><td>25</td><td>.83</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>685. 4</td><td></td><td>552.6</td><td></td><td>627. 8</td><td></td><td>730</td><td></td><td>685</td><td></td></tr><tr><td>Hydrogen sulphide\n(H2S)</td><td>34</td><td>2.01</td><td>Trace.</td><td>Trace.</td><td>41</td><td>2.38</td><td>28</td><td>1.64</td><td>Trace.</td><td>Trace.</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1259382196568517,
+                            "top": 0.32068443586894857,
+                            "width": 0.8323385755793333,
+                            "height": 0.3600116677796426,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th></th><th>1</th><th></th><th>2</th><th></th><th colspan=\"2\">8</th><th colspan=\"2\">4</th><th colspan=\"2\">5</th></tr><tr><td>Temperature\nProperties of reaction:</td><td>25\u00b0 C.</td><td>(77\u00b0 F.)</td><td>21\u00b0 C.</td><td>(69\u00b0 F.)</td><td colspan=\"2\">32\u00b0 C. (90\u00b0 F.)</td><td colspan=\"2\">30\u00b0 C. (86\u00b0 F.)</td><td colspan=\"2\">21\u00b0 C. (70\u00b0 F.)</td></tr><tr><td>Primary salinity</td><td></td><td>83</td><td></td><td>59</td><td></td><td>82</td><td rowspan=\"2\" colspan=\"2\">80</td><td></td><td>63</td></tr><tr><td>Secondary salin-</td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"2\" colspan=\"2\">1</td></tr><tr><td>ity</td><td></td><td>4</td><td></td><td>0</td><td colspan=\"2\">1</td><td colspan=\"2\">5</td></tr><tr><td>Tertiarysalinity</td><td></td><td>0</td><td></td><td>0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td></tr><tr><td>Primary alkalin-\nity\nalka-</td><td></td><td>0</td><td></td><td>5</td><td></td><td>0</td><td colspan=\"2\">0</td><td colspan=\"2\">0</td></tr><tr><td>Secondary\nlinity</td><td></td><td>13</td><td></td><td>36</td><td colspan=\"2\">17</td><td colspan=\"2\">15</td><td rowspan=\"2\" colspan=\"2\">36\n(?)</td></tr><tr><td>Tertiary alkalinity</td><td></td><td>21</td><td></td><td>9</td><td></td><td>22</td><td colspan=\"2\">13</td></tr><tr><td>Constituents.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td><td>By\nweight.</td><td>React-\ning\nvalues.</td></tr><tr><td>Sodium (Na)</td><td>218</td><td>9.48</td><td>136</td><td>5.91</td><td>207</td><td>8.99</td><td>232</td><td>10.05</td><td>177</td><td>7.70</td></tr><tr><td>Calcium (Ca)</td><td>23</td><td>1.15</td><td>42</td><td>2.10</td><td>28</td><td>1.40</td><td>29</td><td>1.45</td><td>49</td><td>2.45</td></tr><tr><td>Magnesium (Mg)</td><td>10</td><td>.82</td><td>15</td><td>1.23</td><td>6.8</td><td>.56</td><td>13</td><td>1.03</td><td>24</td><td>2.00</td></tr><tr><td>Aluminum (Al)</td><td>2. 0</td><td>.22</td><td>5.6</td><td>.62</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sulphate (SO4)</td><td>123</td><td>2.56</td><td>83</td><td>1.73</td><td>96</td><td>2.00</td><td>131</td><td>2.73</td><td>149</td><td>3.10</td></tr><tr><td>Chloride (CI)</td><td>260</td><td>7.33</td><td>133</td><td>3.75</td><td>251</td><td>7.08</td><td>280</td><td>7.90</td><td>164</td><td>4.63</td></tr><tr><td>Sulphide (S)</td><td>9. 4</td><td>.59</td><td>Trace.</td><td>Trace.</td><td>a 19</td><td>1.20</td><td>a 13</td><td>.84</td><td>a 12</td><td>.75</td></tr><tr><td>Carbonate (CO)</td><td>29</td><td>.97</td><td>113</td><td>3.76</td><td>20</td><td>67</td><td>32</td><td>1.06</td><td>110</td><td>3.67</td></tr><tr><td>Silica (SiO2)</td><td>11</td><td>.36</td><td>25</td><td>.83</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>685. 4</td><td></td><td>552.6</td><td></td><td>627. 8</td><td></td><td>730</td><td></td><td>685</td><td></td></tr><tr><td>Hydrogen sulphide\n(H2S)</td><td>34</td><td>2.01</td><td>Trace.</td><td>Trace.</td><td>41</td><td>2.38</td><td>28</td><td>1.64</td><td>Trace.</td><td>Trace.</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10). (cont.)\n\n- a Reported as sodium and calcium sulphides. Recalculated on assumption that 41 per cent is CaS and 59 per cent Na2S by comparison with analysis of spring No. 5.",
+                "embed": "# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10). (cont.)\n\n- a Reported as sodium and calcium sulphides. Recalculated on assumption that 41 per cent is CaS and 59 per cent Na2S by comparison with analysis of spring No. 5.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.1289918597370069,
+                            "top": 0.6864599092284418,
+                            "width": 0.8259236067626801,
+                            "height": 0.0208018154311649,
+                            "page": 1
+                        },
+                        "content": "- a Reported as sodium and calcium sulphides. Recalculated on assumption that 41 per cent is CaS and 59 per cent Na2S by comparison with analysis of spring No. 5.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10). (cont.)\n\n1. Spring No. 5. Analyst and authority, Winslow Anderson (1888). 2. Spring No. 9. Analyst and authority, Winslow Anderson (1888). 3. Spring No. 2. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32. 4. Spring No. 6. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32. 5. Spring No. 7. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32.\n\nThe group includes five noteworthy springs which issue within a space of 150 yards near the foot of the slope on the northeast side of Sulphur Creek. All these springs were formerly improved with brick basins, but when visited the northern two were the ones chiefly used. One of these formed a drinking pool that yielded about one- half gallon a minute of mildly sulphureted water. The northern- most spring, which is about 25 yards beyond the drinking spring, was surrounded by a cement reservoir and yielded warm, mildly",
+                "embed": "# ST. HELENA WHITE SULPHUR SPRINGS (NAPA 10). (cont.)\n\n1. Spring No. 5. Analyst and authority, Winslow Anderson (1888). 2. Spring No. 9. Analyst and authority, Winslow Anderson (1888). 3. Spring No. 2. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32. 4. Spring No. 6. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32. 5. Spring No. 7. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32.\n\nThe group includes five noteworthy springs which issue within a space of 150 yards near the foot of the slope on the northeast side of Sulphur Creek. All these springs were formerly improved with brick basins, but when visited the northern two were the ones chiefly used. One of these formed a drinking pool that yielded about one- half gallon a minute of mildly sulphureted water. The northern- most spring, which is about 25 yards beyond the drinking spring, was surrounded by a cement reservoir and yielded warm, mildly",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.14402003757044457,
+                            "top": 0.7155824508320726,
+                            "width": 0.6856606136505948,
+                            "height": 0.04878971255673222,
+                            "page": 1
+                        },
+                        "content": "1. Spring No. 5. Analyst and authority, Winslow Anderson (1888). 2. Spring No. 9. Analyst and authority, Winslow Anderson (1888). 3. Spring No. 2. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32. 4. Spring No. 6. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32. 5. Spring No. 7. Analyst, J. Le Conte (1871). Authority, U. S. Geol. Survey Bull. 32.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.12648716343143393,
+                            "top": 0.7779878971255674,
+                            "width": 0.8290544771446462,
+                            "height": 0.14863842662632376,
+                            "page": 1
+                        },
+                        "content": "The group includes five noteworthy springs which issue within a space of 150 yards near the foot of the slope on the northeast side of Sulphur Creek. All these springs were formerly improved with brick basins, but when visited the northern two were the ones chiefly used. One of these formed a drinking pool that yielded about one- half gallon a minute of mildly sulphureted water. The northern- most spring, which is about 25 yards beyond the drinking spring, was surrounded by a cement reservoir and yielded warm, mildly",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

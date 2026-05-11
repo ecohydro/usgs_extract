@@ -1,0 +1,154 @@
+{
+    "job_id": "5be65ec0-d6f2-4b9f-b749-f104171e1638",
+    "duration": 5.62375545501709,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/9265a1ed-a502-4d6a-b613-a6637a8a251b?AWSAccessKeyId=ASIA2UOK6OVBCXLSGPZZ&Signature=2c%2BQt4fk2rJb1xDXd%2FPPLbatdrQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJHMEUCIHrEZusEZ8eszGaYbrza1hhIu5ALy2cOWMDcJ8SeoCI6AiEAw8TOCWLUwbQFcKWjnUJdc5LSv8QUmU9xYQOnmpoJnx4qiwUIJRAAGgw3MzExMDY5MzIwMzQiDL3wdmdVU6jxlD8HwyroBIrEixwG8lDlwZ%2BSDjtM%2FyUJRImdxGSOBAZbk%2FN4c9B92feV9%2BDL0viswBb2NiOO8jfBF3CgCnkLhx5xmwXuA0zd7a9Xh4wjakvW7vIDz72jLbS6dBq3dwp2cRQnmOVMmHkELtYagdBbxrT%2FuS4ijILEgAELR3y%2BeECz%2BVXO%2Bvjqoqf08ZOkmSiPcS0sLjUM%2BcuzLw%2FS70%2BhnwaJ48awRCwZGa779rDXwjUhKqqfk9UW16nAXy0E95RI4Ku1XAL4f4Z3zxBcpYOZhnNF5tcVoyk18RImPSAsF2jwKi4S9HAr%2F28HgbNZU0f9tOXqdL48U%2BGi3zYE2jBje14C%2BsFt4xZMrZ8KSlY8PRQJlUa6KN3EsKOc85UtcDUiut57VWmUmpCuZ1OPO5Wwb0lCz5KVVgiVGKf9Z6bYK3GqBZMWvi2N%2FcgPJNP62xjB1f6RaLRt%2F5OFhHX47%2FbjgiJP%2BD8gLF1WydTyI9SWuQC8tcg0oz8SvrG%2Bs4Gop6KQXNmVF12Cdac1R0rpAndg305pIVOs9YkmvXb91SFKC2y01GiB3pNM1HO1IKTsRVgbCCUbMx7bshPElBdzfiWO2wWdheanpvA1QUtD4GHAY5ifibf4IWFvAyEM6hH5DCJ%2FT40ngiDBwgnBprbxjILushVm2jEXW2WW0AIM6uHIocV9sAUVQtXnTkcQq4PxjK00T1dS9XNcuuJ2Sc9SdCg%2Fs%2FeK9VZ6dWS%2FjCW%2FDPUZNmeflQ96MnirQoEdEb%2FQeX%2FKeEwKgNNWlbjWCBg6d%2BsMdXiHoE8r%2BqpguVmhNzSRz1ZMnTyZQlwwZ19WsQgTpnYwwPPJugY6mwGu%2F34sK8rO7vQq4bVeZJ8G87%2FEjAwWRvIne1Zd6Nm54DU3HC78HpbtI6lNrpffGchNTFXWApqvKrySQFkZIPcTWzc0B0rbuCzciif1AHPj6I2XSQJNkEl%2FNxjo2QnsDeaY8nM1LgXElLpNtKCOMGIgiOAWOHEzihulOhSq2GPhk47fwyEC400pNEYcj6MUM%2BT8Q9IsJ3NIsWQJHw%3D%3D&Expires=1733463473",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# INTRODUCTION\n\n5\n\n# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52\n\n[For the seasonal year of the U.S. Weather Bureau, July 1 to June 30, and based on a seasonal mean of 16.79 inches for the 82-year period]",
+                "embed": "# INTRODUCTION\n\n5\n\n# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52\n\n[For the seasonal year of the U.S. Weather Bureau, July 1 to June 30, and based on a seasonal mean of 16.79 inches for the 82-year period]",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.3619402985074627,
+                            "top": 0.047619047619047616,
+                            "width": 0.1722636815920398,
+                            "height": 0.009904761904761904,
+                            "page": 1
+                        },
+                        "content": "INTRODUCTION",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.8445273631840796,
+                            "top": 0.04533333333333334,
+                            "width": 0.014925373134328358,
+                            "height": 0.013714285714285714,
+                            "page": 1
+                        },
+                        "content": "5",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.03793532338308458,
+                            "top": 0.07885714285714286,
+                            "width": 0.8215174129353234,
+                            "height": 0.02666666666666667,
+                            "page": 1
+                        },
+                        "content": "TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.036069651741293535,
+                            "top": 0.11657142857142858,
+                            "width": 0.8227611940298507,
+                            "height": 0.02019047619047619,
+                            "page": 1
+                        },
+                        "content": "[For the seasonal year of the U.S. Weather Bureau, July 1 to June 30, and based on a seasonal mean of 16.79 inches for the 82-year period]",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52 (cont.)\n\n<table><tr><th>Year</th><th>Rainfall</th><th>Departure 1</th><th>Cumulative\ndeparture</th><th>Year</th><th>Rainfall</th><th>Departure 1</th><th>Cumula-\ntive de-\nparture</th></tr><tr><td>1870 -71</td><td>13.94</td><td>-2.85</td><td>-2.85</td><td>1911 -12</td><td>13.84</td><td>-2.95</td><td>-37.39</td></tr><tr><td>1871 -72</td><td>8.98</td><td>-7.81</td><td>-10.66</td><td>1912 -13</td><td>11.08</td><td>-5.71</td><td>-43.10</td></tr><tr><td>1872 -73</td><td>15.10</td><td>-1.69</td><td>-12.35</td><td>1913 -14</td><td>21.45</td><td>+4.66</td><td>-38.44</td></tr><tr><td>1873 -74</td><td>23.81</td><td>+7.02</td><td>-5.33</td><td>1914 -15</td><td>19.64</td><td>+2.85</td><td>-35.59</td></tr><tr><td>1874 -75</td><td>13.65</td><td>-3.14</td><td>-8.47</td><td>1915 -16</td><td>24.72</td><td>+7.93</td><td>-27.66</td></tr><tr><td>1875 -76</td><td>19.90</td><td>+3.11</td><td>-5.36</td><td>1916 -17</td><td>13.79</td><td>-3.00</td><td>-30.66</td></tr><tr><td>1876 -77</td><td>9.52</td><td>-7.27</td><td>-12.63</td><td>1917 -18</td><td>13.33</td><td>-3.46</td><td>-34.12</td></tr><tr><td>1877 -78</td><td>20.33</td><td>+3.54</td><td>-9.09</td><td>1918 -19</td><td>13.62</td><td>-3.17</td><td>-37.29</td></tr><tr><td>1878 -79</td><td>11.54</td><td>-5.25</td><td>-14.34</td><td>1919 -20</td><td>19.28</td><td>+2.49</td><td>-34.80</td></tr><tr><td>1879 -80</td><td>20.36</td><td>+3.57</td><td>-10.77</td><td>1920 -21</td><td>16.46</td><td>-.33</td><td>-35.13</td></tr><tr><td>1880 -81</td><td>13.50</td><td>-3.29</td><td>-14.06</td><td>1921 -22</td><td>27.75</td><td>+10.96</td><td>-24.17</td></tr><tr><td>1881 -82</td><td>11.54</td><td>-5.25</td><td>-19.31</td><td>1922 -23</td><td>11.04</td><td>-5.75</td><td>-29.92</td></tr><tr><td>1882 -83</td><td>9.17</td><td>-7.62</td><td>-26.93</td><td>1923 -24</td><td>11.34</td><td>-5.45</td><td>-35.37</td></tr><tr><td>1883 -84</td><td>37.51</td><td>+20.72</td><td>-6.21</td><td>1924 -25</td><td>10.89</td><td>-5.90</td><td>-41.27</td></tr><tr><td>1884 -85</td><td>10.81</td><td>-5.98</td><td>-12.19</td><td>1925 -26</td><td>20.40</td><td>+3.61</td><td>-37.66</td></tr><tr><td>1885 -86</td><td>21.93</td><td>+5.14</td><td>-7.05</td><td>1926 -27</td><td>20.55</td><td>+3.76</td><td>-33.90</td></tr><tr><td>1886 -87</td><td>14.50</td><td>-2.29</td><td>-9.34</td><td>1927 -28</td><td>14.05</td><td>-2.74</td><td>-36.64</td></tr><tr><td>1887 -88</td><td>17.76</td><td>+.97</td><td>-8.37</td><td>1928 -29</td><td>12.21</td><td>-4.58</td><td>-41.22</td></tr><tr><td>1888 -89</td><td>20.97</td><td>+4.18</td><td>-4.19</td><td>1929 -30</td><td>14.06</td><td>-2.73</td><td>-43.95</td></tr><tr><td>1889 -90</td><td>25.08</td><td>+8.29</td><td>+4.10</td><td>1930 -31</td><td>15.31</td><td>-1.48</td><td>-45.43</td></tr><tr><td>1890 -91</td><td>18.08</td><td>+1.29</td><td>+5.39</td><td>1931 -32</td><td>21.98</td><td>+5.19</td><td>-40.24</td></tr><tr><td>1891 -92</td><td>14.35</td><td>-2.44</td><td>+2.95</td><td>1932 -33</td><td>13.16</td><td>-3.63</td><td>-43.87</td></tr><tr><td>1892 -93</td><td>19.82</td><td>+3.03</td><td>+5.98</td><td>1933 -34</td><td>12.98</td><td>-3.81</td><td>-47.68</td></tr><tr><td>1893 -94</td><td>8.13</td><td>-8.66</td><td>-2.68</td><td>1934 -35</td><td>20.68</td><td>+3.89</td><td>-43.79</td></tr><tr><td>1894 -95</td><td>20.98</td><td>+4.19</td><td>+1.51</td><td>1935 -36</td><td>17.10</td><td>+.31</td><td>-43.48</td></tr><tr><td>1895 -96</td><td>8.11</td><td>-8.68</td><td>-7.17</td><td>1936 -37</td><td>31.93</td><td>+15.14</td><td>-28.34</td></tr><tr><td>1896 -97</td><td>16.74</td><td>-.05</td><td>-7.22</td><td>1937 -38</td><td>25.36</td><td>+8.57</td><td>-19.77</td></tr><tr><td>1897 -98</td><td>8.24</td><td>-8.55</td><td>-15.77</td><td>1938 -39</td><td>16.17</td><td>-.62</td><td>-20.39</td></tr><tr><td>1898 -99</td><td>7.49</td><td>-9.30</td><td>-25.07</td><td>1939 -40</td><td>18.33</td><td>+1.54</td><td>-18.85</td></tr><tr><td>1899 -1900</td><td>8.64</td><td>-8.15</td><td>-33.22</td><td>1940 -41</td><td>35.90</td><td>+19.11</td><td>+.26</td></tr><tr><td>1900 -01</td><td>17.36</td><td>+.57</td><td>-32.65</td><td>1941 -42</td><td>16.70</td><td>-.09</td><td>+.17</td></tr><tr><td>1901 -02</td><td>11.15</td><td>-5.64</td><td>-38.29</td><td>1942 -43</td><td>27.53</td><td>+10.74</td><td>+10.91</td></tr><tr><td>1902 -03</td><td>17.42</td><td>+.63</td><td>-37.66</td><td>1943 -44</td><td>21.91</td><td>+5.12</td><td>+16.03</td></tr><tr><td>1903 -04</td><td>9.37</td><td>-7.42</td><td>-45.08</td><td>1944 -45</td><td>18.32</td><td>+1.53</td><td>+17.56</td></tr><tr><td>1904 -05</td><td>20.78</td><td>+3.99</td><td>-41.09</td><td>1945 -46</td><td>12.61</td><td>-4.18</td><td>+13.38</td></tr><tr><td>1905 -06</td><td>19.88</td><td>+3.09</td><td>-38.00</td><td>1946 -47</td><td>17.02</td><td>+.23</td><td>+13.61</td></tr><tr><td>1906 -07</td><td>23.17</td><td>+6.38</td><td>-31.62</td><td>1947 -48</td><td>10.95</td><td>-5.84</td><td>+7.77</td></tr><tr><td>1907 -08</td><td>15.62</td><td>-1.17</td><td>-32.79</td><td>1948 -49</td><td>14.41</td><td>-2.38</td><td>+5.39</td></tr><tr><td>1908 -09</td><td>17.36</td><td>+.57</td><td>-32.22</td><td>1949 -50</td><td>11. 84</td><td>-4.95</td><td>+.44</td></tr><tr><td>1909 -10</td><td>15.02</td><td>-1.77</td><td>-33.99</td><td>1950 -51</td><td>9.35</td><td>-7.44</td><td>-7.00</td></tr><tr><td>1910 -11</td><td>16. 34</td><td>-.45</td><td>-34.44</td><td>1951 -52</td><td>23.92</td><td>+7.13</td><td>+.13</td></tr></table>",
+                "embed": "# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52 (cont.)\n\n<table><tr><th>Year</th><th>Rainfall</th><th>Departure 1</th><th>Cumulative\ndeparture</th><th>Year</th><th>Rainfall</th><th>Departure 1</th><th>Cumula-\ntive de-\nparture</th></tr><tr><td>1870 -71</td><td>13.94</td><td>-2.85</td><td>-2.85</td><td>1911 -12</td><td>13.84</td><td>-2.95</td><td>-37.39</td></tr><tr><td>1871 -72</td><td>8.98</td><td>-7.81</td><td>-10.66</td><td>1912 -13</td><td>11.08</td><td>-5.71</td><td>-43.10</td></tr><tr><td>1872 -73</td><td>15.10</td><td>-1.69</td><td>-12.35</td><td>1913 -14</td><td>21.45</td><td>+4.66</td><td>-38.44</td></tr><tr><td>1873 -74</td><td>23.81</td><td>+7.02</td><td>-5.33</td><td>1914 -15</td><td>19.64</td><td>+2.85</td><td>-35.59</td></tr><tr><td>1874 -75</td><td>13.65</td><td>-3.14</td><td>-8.47</td><td>1915 -16</td><td>24.72</td><td>+7.93</td><td>-27.66</td></tr><tr><td>1875 -76</td><td>19.90</td><td>+3.11</td><td>-5.36</td><td>1916 -17</td><td>13.79</td><td>-3.00</td><td>-30.66</td></tr><tr><td>1876 -77</td><td>9.52</td><td>-7.27</td><td>-12.63</td><td>1917 -18</td><td>13.33</td><td>-3.46</td><td>-34.12</td></tr><tr><td>1877 -78</td><td>20.33</td><td>+3.54</td><td>-9.09</td><td>1918 -19</td><td>13.62</td><td>-3.17</td><td>-37.29</td></tr><tr><td>1878 -79</td><td>11.54</td><td>-5.25</td><td>-14.34</td><td>1919 -20</td><td>19.28</td><td>+2.49</td><td>-34.80</td></tr><tr><td>1879 -80</td><td>20.36</td><td>+3.57</td><td>-10.77</td><td>1920 -21</td><td>16.46</td><td>-.33</td><td>-35.13</td></tr><tr><td>1880 -81</td><td>13.50</td><td>-3.29</td><td>-14.06</td><td>1921 -22</td><td>27.75</td><td>+10.96</td><td>-24.17</td></tr><tr><td>1881 -82</td><td>11.54</td><td>-5.25</td><td>-19.31</td><td>1922 -23</td><td>11.04</td><td>-5.75</td><td>-29.92</td></tr><tr><td>1882 -83</td><td>9.17</td><td>-7.62</td><td>-26.93</td><td>1923 -24</td><td>11.34</td><td>-5.45</td><td>-35.37</td></tr><tr><td>1883 -84</td><td>37.51</td><td>+20.72</td><td>-6.21</td><td>1924 -25</td><td>10.89</td><td>-5.90</td><td>-41.27</td></tr><tr><td>1884 -85</td><td>10.81</td><td>-5.98</td><td>-12.19</td><td>1925 -26</td><td>20.40</td><td>+3.61</td><td>-37.66</td></tr><tr><td>1885 -86</td><td>21.93</td><td>+5.14</td><td>-7.05</td><td>1926 -27</td><td>20.55</td><td>+3.76</td><td>-33.90</td></tr><tr><td>1886 -87</td><td>14.50</td><td>-2.29</td><td>-9.34</td><td>1927 -28</td><td>14.05</td><td>-2.74</td><td>-36.64</td></tr><tr><td>1887 -88</td><td>17.76</td><td>+.97</td><td>-8.37</td><td>1928 -29</td><td>12.21</td><td>-4.58</td><td>-41.22</td></tr><tr><td>1888 -89</td><td>20.97</td><td>+4.18</td><td>-4.19</td><td>1929 -30</td><td>14.06</td><td>-2.73</td><td>-43.95</td></tr><tr><td>1889 -90</td><td>25.08</td><td>+8.29</td><td>+4.10</td><td>1930 -31</td><td>15.31</td><td>-1.48</td><td>-45.43</td></tr><tr><td>1890 -91</td><td>18.08</td><td>+1.29</td><td>+5.39</td><td>1931 -32</td><td>21.98</td><td>+5.19</td><td>-40.24</td></tr><tr><td>1891 -92</td><td>14.35</td><td>-2.44</td><td>+2.95</td><td>1932 -33</td><td>13.16</td><td>-3.63</td><td>-43.87</td></tr><tr><td>1892 -93</td><td>19.82</td><td>+3.03</td><td>+5.98</td><td>1933 -34</td><td>12.98</td><td>-3.81</td><td>-47.68</td></tr><tr><td>1893 -94</td><td>8.13</td><td>-8.66</td><td>-2.68</td><td>1934 -35</td><td>20.68</td><td>+3.89</td><td>-43.79</td></tr><tr><td>1894 -95</td><td>20.98</td><td>+4.19</td><td>+1.51</td><td>1935 -36</td><td>17.10</td><td>+.31</td><td>-43.48</td></tr><tr><td>1895 -96</td><td>8.11</td><td>-8.68</td><td>-7.17</td><td>1936 -37</td><td>31.93</td><td>+15.14</td><td>-28.34</td></tr><tr><td>1896 -97</td><td>16.74</td><td>-.05</td><td>-7.22</td><td>1937 -38</td><td>25.36</td><td>+8.57</td><td>-19.77</td></tr><tr><td>1897 -98</td><td>8.24</td><td>-8.55</td><td>-15.77</td><td>1938 -39</td><td>16.17</td><td>-.62</td><td>-20.39</td></tr><tr><td>1898 -99</td><td>7.49</td><td>-9.30</td><td>-25.07</td><td>1939 -40</td><td>18.33</td><td>+1.54</td><td>-18.85</td></tr><tr><td>1899 -1900</td><td>8.64</td><td>-8.15</td><td>-33.22</td><td>1940 -41</td><td>35.90</td><td>+19.11</td><td>+.26</td></tr><tr><td>1900 -01</td><td>17.36</td><td>+.57</td><td>-32.65</td><td>1941 -42</td><td>16.70</td><td>-.09</td><td>+.17</td></tr><tr><td>1901 -02</td><td>11.15</td><td>-5.64</td><td>-38.29</td><td>1942 -43</td><td>27.53</td><td>+10.74</td><td>+10.91</td></tr><tr><td>1902 -03</td><td>17.42</td><td>+.63</td><td>-37.66</td><td>1943 -44</td><td>21.91</td><td>+5.12</td><td>+16.03</td></tr><tr><td>1903 -04</td><td>9.37</td><td>-7.42</td><td>-45.08</td><td>1944 -45</td><td>18.32</td><td>+1.53</td><td>+17.56</td></tr><tr><td>1904 -05</td><td>20.78</td><td>+3.99</td><td>-41.09</td><td>1945 -46</td><td>12.61</td><td>-4.18</td><td>+13.38</td></tr><tr><td>1905 -06</td><td>19.88</td><td>+3.09</td><td>-38.00</td><td>1946 -47</td><td>17.02</td><td>+.23</td><td>+13.61</td></tr><tr><td>1906 -07</td><td>23.17</td><td>+6.38</td><td>-31.62</td><td>1947 -48</td><td>10.95</td><td>-5.84</td><td>+7.77</td></tr><tr><td>1907 -08</td><td>15.62</td><td>-1.17</td><td>-32.79</td><td>1948 -49</td><td>14.41</td><td>-2.38</td><td>+5.39</td></tr><tr><td>1908 -09</td><td>17.36</td><td>+.57</td><td>-32.22</td><td>1949 -50</td><td>11. 84</td><td>-4.95</td><td>+.44</td></tr><tr><td>1909 -10</td><td>15.02</td><td>-1.77</td><td>-33.99</td><td>1950 -51</td><td>9.35</td><td>-7.44</td><td>-7.00</td></tr><tr><td>1910 -11</td><td>16. 34</td><td>-.45</td><td>-34.44</td><td>1951 -52</td><td>23.92</td><td>+7.13</td><td>+.13</td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.0337311474244986,
+                            "top": 0.14337501162574404,
+                            "width": 0.8325497831278179,
+                            "height": 0.4669172595796131,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Year</th><th>Rainfall</th><th>Departure 1</th><th>Cumulative\ndeparture</th><th>Year</th><th>Rainfall</th><th>Departure 1</th><th>Cumula-\ntive de-\nparture</th></tr><tr><td>1870 -71</td><td>13.94</td><td>-2.85</td><td>-2.85</td><td>1911 -12</td><td>13.84</td><td>-2.95</td><td>-37.39</td></tr><tr><td>1871 -72</td><td>8.98</td><td>-7.81</td><td>-10.66</td><td>1912 -13</td><td>11.08</td><td>-5.71</td><td>-43.10</td></tr><tr><td>1872 -73</td><td>15.10</td><td>-1.69</td><td>-12.35</td><td>1913 -14</td><td>21.45</td><td>+4.66</td><td>-38.44</td></tr><tr><td>1873 -74</td><td>23.81</td><td>+7.02</td><td>-5.33</td><td>1914 -15</td><td>19.64</td><td>+2.85</td><td>-35.59</td></tr><tr><td>1874 -75</td><td>13.65</td><td>-3.14</td><td>-8.47</td><td>1915 -16</td><td>24.72</td><td>+7.93</td><td>-27.66</td></tr><tr><td>1875 -76</td><td>19.90</td><td>+3.11</td><td>-5.36</td><td>1916 -17</td><td>13.79</td><td>-3.00</td><td>-30.66</td></tr><tr><td>1876 -77</td><td>9.52</td><td>-7.27</td><td>-12.63</td><td>1917 -18</td><td>13.33</td><td>-3.46</td><td>-34.12</td></tr><tr><td>1877 -78</td><td>20.33</td><td>+3.54</td><td>-9.09</td><td>1918 -19</td><td>13.62</td><td>-3.17</td><td>-37.29</td></tr><tr><td>1878 -79</td><td>11.54</td><td>-5.25</td><td>-14.34</td><td>1919 -20</td><td>19.28</td><td>+2.49</td><td>-34.80</td></tr><tr><td>1879 -80</td><td>20.36</td><td>+3.57</td><td>-10.77</td><td>1920 -21</td><td>16.46</td><td>-.33</td><td>-35.13</td></tr><tr><td>1880 -81</td><td>13.50</td><td>-3.29</td><td>-14.06</td><td>1921 -22</td><td>27.75</td><td>+10.96</td><td>-24.17</td></tr><tr><td>1881 -82</td><td>11.54</td><td>-5.25</td><td>-19.31</td><td>1922 -23</td><td>11.04</td><td>-5.75</td><td>-29.92</td></tr><tr><td>1882 -83</td><td>9.17</td><td>-7.62</td><td>-26.93</td><td>1923 -24</td><td>11.34</td><td>-5.45</td><td>-35.37</td></tr><tr><td>1883 -84</td><td>37.51</td><td>+20.72</td><td>-6.21</td><td>1924 -25</td><td>10.89</td><td>-5.90</td><td>-41.27</td></tr><tr><td>1884 -85</td><td>10.81</td><td>-5.98</td><td>-12.19</td><td>1925 -26</td><td>20.40</td><td>+3.61</td><td>-37.66</td></tr><tr><td>1885 -86</td><td>21.93</td><td>+5.14</td><td>-7.05</td><td>1926 -27</td><td>20.55</td><td>+3.76</td><td>-33.90</td></tr><tr><td>1886 -87</td><td>14.50</td><td>-2.29</td><td>-9.34</td><td>1927 -28</td><td>14.05</td><td>-2.74</td><td>-36.64</td></tr><tr><td>1887 -88</td><td>17.76</td><td>+.97</td><td>-8.37</td><td>1928 -29</td><td>12.21</td><td>-4.58</td><td>-41.22</td></tr><tr><td>1888 -89</td><td>20.97</td><td>+4.18</td><td>-4.19</td><td>1929 -30</td><td>14.06</td><td>-2.73</td><td>-43.95</td></tr><tr><td>1889 -90</td><td>25.08</td><td>+8.29</td><td>+4.10</td><td>1930 -31</td><td>15.31</td><td>-1.48</td><td>-45.43</td></tr><tr><td>1890 -91</td><td>18.08</td><td>+1.29</td><td>+5.39</td><td>1931 -32</td><td>21.98</td><td>+5.19</td><td>-40.24</td></tr><tr><td>1891 -92</td><td>14.35</td><td>-2.44</td><td>+2.95</td><td>1932 -33</td><td>13.16</td><td>-3.63</td><td>-43.87</td></tr><tr><td>1892 -93</td><td>19.82</td><td>+3.03</td><td>+5.98</td><td>1933 -34</td><td>12.98</td><td>-3.81</td><td>-47.68</td></tr><tr><td>1893 -94</td><td>8.13</td><td>-8.66</td><td>-2.68</td><td>1934 -35</td><td>20.68</td><td>+3.89</td><td>-43.79</td></tr><tr><td>1894 -95</td><td>20.98</td><td>+4.19</td><td>+1.51</td><td>1935 -36</td><td>17.10</td><td>+.31</td><td>-43.48</td></tr><tr><td>1895 -96</td><td>8.11</td><td>-8.68</td><td>-7.17</td><td>1936 -37</td><td>31.93</td><td>+15.14</td><td>-28.34</td></tr><tr><td>1896 -97</td><td>16.74</td><td>-.05</td><td>-7.22</td><td>1937 -38</td><td>25.36</td><td>+8.57</td><td>-19.77</td></tr><tr><td>1897 -98</td><td>8.24</td><td>-8.55</td><td>-15.77</td><td>1938 -39</td><td>16.17</td><td>-.62</td><td>-20.39</td></tr><tr><td>1898 -99</td><td>7.49</td><td>-9.30</td><td>-25.07</td><td>1939 -40</td><td>18.33</td><td>+1.54</td><td>-18.85</td></tr><tr><td>1899 -1900</td><td>8.64</td><td>-8.15</td><td>-33.22</td><td>1940 -41</td><td>35.90</td><td>+19.11</td><td>+.26</td></tr><tr><td>1900 -01</td><td>17.36</td><td>+.57</td><td>-32.65</td><td>1941 -42</td><td>16.70</td><td>-.09</td><td>+.17</td></tr><tr><td>1901 -02</td><td>11.15</td><td>-5.64</td><td>-38.29</td><td>1942 -43</td><td>27.53</td><td>+10.74</td><td>+10.91</td></tr><tr><td>1902 -03</td><td>17.42</td><td>+.63</td><td>-37.66</td><td>1943 -44</td><td>21.91</td><td>+5.12</td><td>+16.03</td></tr><tr><td>1903 -04</td><td>9.37</td><td>-7.42</td><td>-45.08</td><td>1944 -45</td><td>18.32</td><td>+1.53</td><td>+17.56</td></tr><tr><td>1904 -05</td><td>20.78</td><td>+3.99</td><td>-41.09</td><td>1945 -46</td><td>12.61</td><td>-4.18</td><td>+13.38</td></tr><tr><td>1905 -06</td><td>19.88</td><td>+3.09</td><td>-38.00</td><td>1946 -47</td><td>17.02</td><td>+.23</td><td>+13.61</td></tr><tr><td>1906 -07</td><td>23.17</td><td>+6.38</td><td>-31.62</td><td>1947 -48</td><td>10.95</td><td>-5.84</td><td>+7.77</td></tr><tr><td>1907 -08</td><td>15.62</td><td>-1.17</td><td>-32.79</td><td>1948 -49</td><td>14.41</td><td>-2.38</td><td>+5.39</td></tr><tr><td>1908 -09</td><td>17.36</td><td>+.57</td><td>-32.22</td><td>1949 -50</td><td>11. 84</td><td>-4.95</td><td>+.44</td></tr><tr><td>1909 -10</td><td>15.02</td><td>-1.77</td><td>-33.99</td><td>1950 -51</td><td>9.35</td><td>-7.44</td><td>-7.00</td></tr><tr><td>1910 -11</td><td>16. 34</td><td>-.45</td><td>-34.44</td><td>1951 -52</td><td>23.92</td><td>+7.13</td><td>+.13</td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52 (cont.)\n\n1 Based on a seasonal mean of 16.79 in. for the 82-yr. period.",
+                "embed": "# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52 (cont.)\n\n1 Based on a seasonal mean of 16.79 in. for the 82-yr. period.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.05845771144278607,
+                            "top": 0.6167619047619047,
+                            "width": 0.582089552238806,
+                            "height": 0.011047619047619047,
+                            "page": 1
+                        },
+                        "content": "1 Based on a seasonal mean of 16.79 in. for the 82-yr. period.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52 (cont.)\n\nThe rainfall data in table 1 have been computed for the \"rainfall year,\" from July 1 to June 30, a period that affords a more logical basis for analysis of rainfall than the calendar year, which ends in the rainy season. For example, about 80 percent of the rainfall at San Bernar- dino occurs during the 5-month period from December through April; only about 20 percent occurs during the rest of the year.\n\nIn the 82 years listed in the table, rainfall was below the mean in 45 years and above it in 37. To show the trends, the cumulative de- parture from the mean annual rainfall at San Bernardino is shown graphically on plate 3. The graph shows a somewhat cyclic variation in rainfall. Rainfall was below average during the period 1871-83: above average in 1884-93, below average in 1894-1904, and consider- ably above average in 1937-45.\n\nThe use of the cumulative-departure curve in analyzing agricultural water needs on a year-to-year basis is helpful. A positive slope indi-",
+                "embed": "# TABLE 1.-Yearly rainfall, in inches, at San Bernardino for the 82-year period 1870-71 to 1951-52 (cont.)\n\nThe rainfall data in table 1 have been computed for the \"rainfall year,\" from July 1 to June 30, a period that affords a more logical basis for analysis of rainfall than the calendar year, which ends in the rainy season. For example, about 80 percent of the rainfall at San Bernar- dino occurs during the 5-month period from December through April; only about 20 percent occurs during the rest of the year.\n\nIn the 82 years listed in the table, rainfall was below the mean in 45 years and above it in 37. To show the trends, the cumulative de- parture from the mean annual rainfall at San Bernardino is shown graphically on plate 3. The graph shows a somewhat cyclic variation in rainfall. Rainfall was below average during the period 1871-83: above average in 1884-93, below average in 1894-1904, and consider- ably above average in 1937-45.\n\nThe use of the cumulative-departure curve in analyzing agricultural water needs on a year-to-year basis is helpful. A positive slope indi-",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03855721393034826,
+                            "top": 0.6358095238095238,
+                            "width": 0.8215174129353234,
+                            "height": 0.11504761904761905,
+                            "page": 1
+                        },
+                        "content": "The rainfall data in table 1 have been computed for the \"rainfall year,\" from July 1 to June 30, a period that affords a more logical basis for analysis of rainfall than the calendar year, which ends in the rainy season. For example, about 80 percent of the rainfall at San Bernar- dino occurs during the 5-month period from December through April; only about 20 percent occurs during the rest of the year.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.03980099502487562,
+                            "top": 0.7523809523809524,
+                            "width": 0.8196517412935324,
+                            "height": 0.13447619047619047,
+                            "page": 1
+                        },
+                        "content": "In the 82 years listed in the table, rainfall was below the mean in 45 years and above it in 37. To show the trends, the cumulative de- parture from the mean annual rainfall at San Bernardino is shown graphically on plate 3. The graph shows a somewhat cyclic variation in rainfall. Rainfall was below average during the period 1871-83: above average in 1884-93, below average in 1894-1904, and consider- ably above average in 1937-45.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.041666666666666664,
+                            "top": 0.8887619047619048,
+                            "width": 0.8177860696517413,
+                            "height": 0.03695238095238095,
+                            "page": 1
+                        },
+                        "content": "The use of the cumulative-departure curve in analyzing agricultural water needs on a year-to-year basis is helpful. A positive slope indi-",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

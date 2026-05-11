@@ -1,0 +1,130 @@
+{
+    "job_id": "9853e585-b804-490b-b9ff-9c8b9d4b57ff",
+    "duration": 6.594994068145752,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/1ef51aa2-b78c-4c57-81fa-f7e3c95c7244?AWSAccessKeyId=ASIA2UOK6OVBGWN54GI4&Signature=E%2FFgQ0V4zvw6gIB5ZAPJwo%2Bnoao%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAK0WrtTDc9jfvWP5OPXkAxTMv7DZL9uxnsvoXdkdzRfAiBT9HNi1sVX5S9z6eDWPAxbSRv86lCP6j0euzNepAVYGiqLBQhvEAAaDDczMTEwNjkzMjAzNCIMuKyHmbWS0G3VlljaKugEmT4JgqWfUzJLeGCnm8wA4KKjnhIwmsR0tadsDf7KDN3UH67voCg%2FucqUzkm9fTUqFSppZZjkeHwT736%2BXlGK4HzSOya%2FAVCWJCkYTSwISrD5PeL4RvIgMLhl1X2zvA%2BP6D8vs58azAKVNwJyc66Vy7vomvOEXB0RnqQBlnBkkZa2Q3iHZc4DtBpMX%2Bzy34u89eztXXK9Pcn6YjneLXnGrmSARRIQ9tltC%2BvR74WQqYMn8dIvDJ1UqiX5ZK19y1%2FcpYMw7e87yBedsOroWM4nz1EvyGaobjN9LMXyfoUDMKtpnRud6K9K9Gvx%2B2DgHHc6ytAeWHBKrgrnEQKizfyy0yL%2FWcS2k0ONbAlvTlxu5yLevDvbdfOJxjgMrfnOGfjSGt40%2BuYOMVr3IuVwfHG%2FwQJhkSAcZ2x%2BSFaZKsiu%2BwfdaZ%2F4mQgpOjQ3dqNDDSEpjG%2B0H04%2Bj7sQ2DzO%2FquvEfHK1ofOFd3687xDF39l9MbEDboViRSW%2BB0jqVZFA37WiU9m11dGFhBCXY6cZ305IXZ9sKstP0CnawRRNJR334oAwY7%2F%2FQrVXCMwebZGX6gkM%2Fl71Fi4Q%2Bp6hAch13Vbd%2B3TJAIfPHZkFglJNB9GhfonKGVS2LEFND8NwJBG5g34fS8K6r%2FBBEeRJGAdmi9L05l2MKTvkn70ViSu6VqplTahq%2FdZZraQ1rNaJepOmR6dPQRAi5f60Hqc%2BmVbieJT2Ko%2FR8wNG5trsgrXkQsKsMukNM0jTNYAvhSgfygihWuNZ0RdC9P7ZglnyHWZcuaXD9%2B2CEVL6zju0zL2FexWJ%2Fm8idEAZDwTUzDas6W6BjqcAVc1alHpkv2GCoqjemU8vkfzGYDXi%2B%2FqbssI6AAwUrvbeJiLDLfHFPsE7jIgETOhWZXEPizGC3Knx41bZ2YYwFEjJ2Ejs18DEONqj%2BumK%2BGwLqGgOe%2FsZ2X7%2Bn1%2BS0UAO3ciGlbrp8BzgnwUa93FXnmjI2pKDk%2FVxDlxfyh6xN3gdUOk0sYb1PmHI2PYUzc6s1ORV2zCpMi4mM1lvw%3D%3D&Expires=1732865148",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "Daily discharge, in second-feet, of Sespe Creek near Sespe, Calif., for the year end- ing September 30, 1922.",
+                "embed": "Daily discharge, in second-feet, of Sespe Creek near Sespe, Calif., for the year end- ing September 30, 1922.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.15216030056355667,
+                            "top": 0.05294780322944048,
+                            "width": 0.045084533500313086,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "114",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.3337507827175955,
+                            "top": 0.05632745024408562,
+                            "width": 0.4715090795241077,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "SURFACE WATER SUPPLY, 1922, PART XI",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15153412648716344,
+                            "top": 0.08599324070597071,
+                            "width": 0.8278021289918598,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Daily discharge, in second-feet, of Sespe Creek near Sespe, Calif., for the year end- ing September 30, 1922.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>5.5</td><td>4.3</td><td>4.8</td><td>1,000</td><td>126</td><td>360</td><td>272</td><td>135</td><td>80</td><td>22</td><td>14</td><td>6.5</td></tr><tr><td>2</td><td>5</td><td>4.1</td><td>4.8</td><td>3,000</td><td>126</td><td>360</td><td>272</td><td>135</td><td>77</td><td>22</td><td>14</td><td>6</td></tr><tr><td>3</td><td>5</td><td>4.1</td><td>4.8</td><td>460</td><td>126</td><td>360</td><td>259</td><td>135</td><td>71</td><td>20</td><td>14</td><td>6</td></tr><tr><td>4</td><td>5</td><td>4.1</td><td>4.8</td><td>795</td><td>174</td><td>345</td><td>259</td><td>135</td><td>71</td><td>19</td><td>13</td><td>6</td></tr><tr><td>5</td><td>4. 8</td><td>4.1</td><td>5</td><td>465</td><td>330</td><td>315</td><td>235</td><td>135</td><td>71</td><td>19</td><td>11</td><td>6</td></tr><tr><td>6</td><td>4.8</td><td>4.1</td><td>5</td><td>430</td><td>214</td><td>286</td><td>224</td><td>135</td><td>71</td><td>19</td><td>11</td><td>6.5</td></tr><tr><td>7</td><td>4.8</td><td>4.1</td><td>5</td><td>430</td><td>259</td><td>272</td><td>224</td><td>135</td><td>68</td><td>18</td><td>9.5</td><td>7.5</td></tr><tr><td>8</td><td>4.8</td><td>4.1</td><td>5</td><td>360</td><td>1,740</td><td>246</td><td>224</td><td>135</td><td>62</td><td>18</td><td>9</td><td>7.5</td></tr><tr><td>9</td><td>4.'</td><td>4.1</td><td>5</td><td>300</td><td>8,900</td><td>235</td><td>224</td><td>135</td><td>62</td><td>18</td><td>8.5</td><td>7.5</td></tr><tr><td>10</td><td>4.7</td><td>4.1</td><td>5.5</td><td>246</td><td>2, 860</td><td>235</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8.5</td><td>7.5</td></tr><tr><td>11</td><td>4.7</td><td>4.3</td><td>5.5</td><td>214</td><td>600</td><td>395</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8.5</td><td>7.5</td></tr><tr><td>12</td><td>4.7</td><td>4.3</td><td>6</td><td>194</td><td>1,460</td><td>820</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8</td><td>7.5</td></tr><tr><td>13</td><td>4.7</td><td>4.3</td><td>6.5</td><td>194</td><td>1,000</td><td>670</td><td>204</td><td>135</td><td>46</td><td>17</td><td>8</td><td>7.5</td></tr><tr><td>14</td><td>4.7</td><td>4.3</td><td>6.5</td><td>194</td><td>745</td><td>360</td><td>204</td><td>116</td><td>46</td><td>16</td><td>7.5</td><td>7.5</td></tr><tr><td>15</td><td>4.7</td><td>4.5</td><td>6.5</td><td>194</td><td>620</td><td>246</td><td>194</td><td>116</td><td>46</td><td>15</td><td>7.5</td><td>7.5</td></tr><tr><td>16</td><td>4.7</td><td>4.5</td><td>6.5</td><td>194</td><td>580</td><td>795</td><td>194</td><td>110</td><td>39</td><td>15</td><td>7.5</td><td>7.5</td></tr><tr><td>17</td><td>4.</td><td>4.5</td><td>7</td><td>184</td><td>540</td><td>1,740</td><td>194</td><td>110</td><td>39</td><td>14</td><td>7.5</td><td>7.5</td></tr><tr><td>18</td><td>4.7</td><td>4.5</td><td>48</td><td>184</td><td>500</td><td>1,070</td><td>184</td><td>110</td><td>39</td><td>14</td><td>8.5</td><td>7.5</td></tr><tr><td>19</td><td>4.7</td><td>4.5</td><td>1,220</td><td>174</td><td>465</td><td>880</td><td>184</td><td>110</td><td>39</td><td>14</td><td>8. 5</td><td>7.5</td></tr><tr><td>20</td><td>4.</td><td>4.5</td><td>5,100</td><td>164</td><td>940</td><td>720</td><td>164</td><td>104</td><td>33</td><td>14</td><td>9</td><td>7.5</td></tr><tr><td>21</td><td>4.</td><td>4.5</td><td>3,900</td><td>144</td><td>770</td><td>670</td><td>164</td><td>104</td><td>33</td><td>14</td><td>9</td><td>7.5</td></tr><tr><td>22</td><td>4.7</td><td>4.5</td><td>1,840</td><td>118</td><td>600</td><td>580</td><td>164</td><td>100</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>23</td><td>4.8</td><td>4.7</td><td>1,070</td><td>103</td><td>560</td><td>580</td><td>144</td><td>100</td><td>27</td><td>14</td><td>10</td><td>7.5</td></tr><tr><td>24</td><td>4.</td><td>4.7</td><td>940</td><td>89</td><td>500</td><td>500</td><td>144</td><td>100</td><td>27</td><td>14</td><td>10</td><td>7.5</td></tr><tr><td>25</td><td>4.</td><td>4.7</td><td>2,480</td><td>82</td><td>500</td><td>500</td><td>144</td><td>96</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>26</td><td>4.7</td><td>4.7</td><td>10,800</td><td>82</td><td>448</td><td>465</td><td>135</td><td>96</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>27</td><td>4.</td><td>4.7</td><td>4,300</td><td>82</td><td>430</td><td>430</td><td>135</td><td>90</td><td>27</td><td>14</td><td>8.5</td><td>7,5</td></tr><tr><td>28</td><td>4. 5</td><td>4.8</td><td>1,300</td><td>82</td><td>395</td><td>395</td><td>135</td><td>90</td><td>22</td><td>14</td><td>8.5</td><td>7.5</td></tr><tr><td>29</td><td>4. 5</td><td>4.8</td><td>695</td><td>126</td><td></td><td>360</td><td>135</td><td>90</td><td>22</td><td>14</td><td>7.5</td><td>7,5</td></tr><tr><td>30</td><td>4.</td><td>4.8</td><td>412</td><td>144</td><td></td><td>315</td><td>135</td><td>80</td><td>22</td><td>14</td><td>7.</td><td>7.5</td></tr><tr><td>31</td><td>4.3</td><td></td><td>286</td><td>126</td><td></td><td>286</td><td></td><td>80</td><td></td><td>14</td><td>7</td><td></td></tr></table>",
+                "embed": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>5.5</td><td>4.3</td><td>4.8</td><td>1,000</td><td>126</td><td>360</td><td>272</td><td>135</td><td>80</td><td>22</td><td>14</td><td>6.5</td></tr><tr><td>2</td><td>5</td><td>4.1</td><td>4.8</td><td>3,000</td><td>126</td><td>360</td><td>272</td><td>135</td><td>77</td><td>22</td><td>14</td><td>6</td></tr><tr><td>3</td><td>5</td><td>4.1</td><td>4.8</td><td>460</td><td>126</td><td>360</td><td>259</td><td>135</td><td>71</td><td>20</td><td>14</td><td>6</td></tr><tr><td>4</td><td>5</td><td>4.1</td><td>4.8</td><td>795</td><td>174</td><td>345</td><td>259</td><td>135</td><td>71</td><td>19</td><td>13</td><td>6</td></tr><tr><td>5</td><td>4. 8</td><td>4.1</td><td>5</td><td>465</td><td>330</td><td>315</td><td>235</td><td>135</td><td>71</td><td>19</td><td>11</td><td>6</td></tr><tr><td>6</td><td>4.8</td><td>4.1</td><td>5</td><td>430</td><td>214</td><td>286</td><td>224</td><td>135</td><td>71</td><td>19</td><td>11</td><td>6.5</td></tr><tr><td>7</td><td>4.8</td><td>4.1</td><td>5</td><td>430</td><td>259</td><td>272</td><td>224</td><td>135</td><td>68</td><td>18</td><td>9.5</td><td>7.5</td></tr><tr><td>8</td><td>4.8</td><td>4.1</td><td>5</td><td>360</td><td>1,740</td><td>246</td><td>224</td><td>135</td><td>62</td><td>18</td><td>9</td><td>7.5</td></tr><tr><td>9</td><td>4.'</td><td>4.1</td><td>5</td><td>300</td><td>8,900</td><td>235</td><td>224</td><td>135</td><td>62</td><td>18</td><td>8.5</td><td>7.5</td></tr><tr><td>10</td><td>4.7</td><td>4.1</td><td>5.5</td><td>246</td><td>2, 860</td><td>235</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8.5</td><td>7.5</td></tr><tr><td>11</td><td>4.7</td><td>4.3</td><td>5.5</td><td>214</td><td>600</td><td>395</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8.5</td><td>7.5</td></tr><tr><td>12</td><td>4.7</td><td>4.3</td><td>6</td><td>194</td><td>1,460</td><td>820</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8</td><td>7.5</td></tr><tr><td>13</td><td>4.7</td><td>4.3</td><td>6.5</td><td>194</td><td>1,000</td><td>670</td><td>204</td><td>135</td><td>46</td><td>17</td><td>8</td><td>7.5</td></tr><tr><td>14</td><td>4.7</td><td>4.3</td><td>6.5</td><td>194</td><td>745</td><td>360</td><td>204</td><td>116</td><td>46</td><td>16</td><td>7.5</td><td>7.5</td></tr><tr><td>15</td><td>4.7</td><td>4.5</td><td>6.5</td><td>194</td><td>620</td><td>246</td><td>194</td><td>116</td><td>46</td><td>15</td><td>7.5</td><td>7.5</td></tr><tr><td>16</td><td>4.7</td><td>4.5</td><td>6.5</td><td>194</td><td>580</td><td>795</td><td>194</td><td>110</td><td>39</td><td>15</td><td>7.5</td><td>7.5</td></tr><tr><td>17</td><td>4.</td><td>4.5</td><td>7</td><td>184</td><td>540</td><td>1,740</td><td>194</td><td>110</td><td>39</td><td>14</td><td>7.5</td><td>7.5</td></tr><tr><td>18</td><td>4.7</td><td>4.5</td><td>48</td><td>184</td><td>500</td><td>1,070</td><td>184</td><td>110</td><td>39</td><td>14</td><td>8.5</td><td>7.5</td></tr><tr><td>19</td><td>4.7</td><td>4.5</td><td>1,220</td><td>174</td><td>465</td><td>880</td><td>184</td><td>110</td><td>39</td><td>14</td><td>8. 5</td><td>7.5</td></tr><tr><td>20</td><td>4.</td><td>4.5</td><td>5,100</td><td>164</td><td>940</td><td>720</td><td>164</td><td>104</td><td>33</td><td>14</td><td>9</td><td>7.5</td></tr><tr><td>21</td><td>4.</td><td>4.5</td><td>3,900</td><td>144</td><td>770</td><td>670</td><td>164</td><td>104</td><td>33</td><td>14</td><td>9</td><td>7.5</td></tr><tr><td>22</td><td>4.7</td><td>4.5</td><td>1,840</td><td>118</td><td>600</td><td>580</td><td>164</td><td>100</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>23</td><td>4.8</td><td>4.7</td><td>1,070</td><td>103</td><td>560</td><td>580</td><td>144</td><td>100</td><td>27</td><td>14</td><td>10</td><td>7.5</td></tr><tr><td>24</td><td>4.</td><td>4.7</td><td>940</td><td>89</td><td>500</td><td>500</td><td>144</td><td>100</td><td>27</td><td>14</td><td>10</td><td>7.5</td></tr><tr><td>25</td><td>4.</td><td>4.7</td><td>2,480</td><td>82</td><td>500</td><td>500</td><td>144</td><td>96</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>26</td><td>4.7</td><td>4.7</td><td>10,800</td><td>82</td><td>448</td><td>465</td><td>135</td><td>96</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>27</td><td>4.</td><td>4.7</td><td>4,300</td><td>82</td><td>430</td><td>430</td><td>135</td><td>90</td><td>27</td><td>14</td><td>8.5</td><td>7,5</td></tr><tr><td>28</td><td>4. 5</td><td>4.8</td><td>1,300</td><td>82</td><td>395</td><td>395</td><td>135</td><td>90</td><td>22</td><td>14</td><td>8.5</td><td>7.5</td></tr><tr><td>29</td><td>4. 5</td><td>4.8</td><td>695</td><td>126</td><td></td><td>360</td><td>135</td><td>90</td><td>22</td><td>14</td><td>7.5</td><td>7,5</td></tr><tr><td>30</td><td>4.</td><td>4.8</td><td>412</td><td>144</td><td></td><td>315</td><td>135</td><td>80</td><td>22</td><td>14</td><td>7.</td><td>7.5</td></tr><tr><td>31</td><td>4.3</td><td></td><td>286</td><td>126</td><td></td><td>286</td><td></td><td>80</td><td></td><td>14</td><td>7</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1393948568727497,
+                            "top": 0.12324376666720452,
+                            "width": 0.853379681323869,
+                            "height": 0.3942262690361845,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Day</th><th>Oct.</th><th>Nov.</th><th>Dec.</th><th>Jan.</th><th>Feb.</th><th>Mar.</th><th>Apr.</th><th>May</th><th>June</th><th>July</th><th>Aug.</th><th>Sept.</th></tr><tr><td>1</td><td>5.5</td><td>4.3</td><td>4.8</td><td>1,000</td><td>126</td><td>360</td><td>272</td><td>135</td><td>80</td><td>22</td><td>14</td><td>6.5</td></tr><tr><td>2</td><td>5</td><td>4.1</td><td>4.8</td><td>3,000</td><td>126</td><td>360</td><td>272</td><td>135</td><td>77</td><td>22</td><td>14</td><td>6</td></tr><tr><td>3</td><td>5</td><td>4.1</td><td>4.8</td><td>460</td><td>126</td><td>360</td><td>259</td><td>135</td><td>71</td><td>20</td><td>14</td><td>6</td></tr><tr><td>4</td><td>5</td><td>4.1</td><td>4.8</td><td>795</td><td>174</td><td>345</td><td>259</td><td>135</td><td>71</td><td>19</td><td>13</td><td>6</td></tr><tr><td>5</td><td>4. 8</td><td>4.1</td><td>5</td><td>465</td><td>330</td><td>315</td><td>235</td><td>135</td><td>71</td><td>19</td><td>11</td><td>6</td></tr><tr><td>6</td><td>4.8</td><td>4.1</td><td>5</td><td>430</td><td>214</td><td>286</td><td>224</td><td>135</td><td>71</td><td>19</td><td>11</td><td>6.5</td></tr><tr><td>7</td><td>4.8</td><td>4.1</td><td>5</td><td>430</td><td>259</td><td>272</td><td>224</td><td>135</td><td>68</td><td>18</td><td>9.5</td><td>7.5</td></tr><tr><td>8</td><td>4.8</td><td>4.1</td><td>5</td><td>360</td><td>1,740</td><td>246</td><td>224</td><td>135</td><td>62</td><td>18</td><td>9</td><td>7.5</td></tr><tr><td>9</td><td>4.'</td><td>4.1</td><td>5</td><td>300</td><td>8,900</td><td>235</td><td>224</td><td>135</td><td>62</td><td>18</td><td>8.5</td><td>7.5</td></tr><tr><td>10</td><td>4.7</td><td>4.1</td><td>5.5</td><td>246</td><td>2, 860</td><td>235</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8.5</td><td>7.5</td></tr><tr><td>11</td><td>4.7</td><td>4.3</td><td>5.5</td><td>214</td><td>600</td><td>395</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8.5</td><td>7.5</td></tr><tr><td>12</td><td>4.7</td><td>4.3</td><td>6</td><td>194</td><td>1,460</td><td>820</td><td>214</td><td>135</td><td>54</td><td>17</td><td>8</td><td>7.5</td></tr><tr><td>13</td><td>4.7</td><td>4.3</td><td>6.5</td><td>194</td><td>1,000</td><td>670</td><td>204</td><td>135</td><td>46</td><td>17</td><td>8</td><td>7.5</td></tr><tr><td>14</td><td>4.7</td><td>4.3</td><td>6.5</td><td>194</td><td>745</td><td>360</td><td>204</td><td>116</td><td>46</td><td>16</td><td>7.5</td><td>7.5</td></tr><tr><td>15</td><td>4.7</td><td>4.5</td><td>6.5</td><td>194</td><td>620</td><td>246</td><td>194</td><td>116</td><td>46</td><td>15</td><td>7.5</td><td>7.5</td></tr><tr><td>16</td><td>4.7</td><td>4.5</td><td>6.5</td><td>194</td><td>580</td><td>795</td><td>194</td><td>110</td><td>39</td><td>15</td><td>7.5</td><td>7.5</td></tr><tr><td>17</td><td>4.</td><td>4.5</td><td>7</td><td>184</td><td>540</td><td>1,740</td><td>194</td><td>110</td><td>39</td><td>14</td><td>7.5</td><td>7.5</td></tr><tr><td>18</td><td>4.7</td><td>4.5</td><td>48</td><td>184</td><td>500</td><td>1,070</td><td>184</td><td>110</td><td>39</td><td>14</td><td>8.5</td><td>7.5</td></tr><tr><td>19</td><td>4.7</td><td>4.5</td><td>1,220</td><td>174</td><td>465</td><td>880</td><td>184</td><td>110</td><td>39</td><td>14</td><td>8. 5</td><td>7.5</td></tr><tr><td>20</td><td>4.</td><td>4.5</td><td>5,100</td><td>164</td><td>940</td><td>720</td><td>164</td><td>104</td><td>33</td><td>14</td><td>9</td><td>7.5</td></tr><tr><td>21</td><td>4.</td><td>4.5</td><td>3,900</td><td>144</td><td>770</td><td>670</td><td>164</td><td>104</td><td>33</td><td>14</td><td>9</td><td>7.5</td></tr><tr><td>22</td><td>4.7</td><td>4.5</td><td>1,840</td><td>118</td><td>600</td><td>580</td><td>164</td><td>100</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>23</td><td>4.8</td><td>4.7</td><td>1,070</td><td>103</td><td>560</td><td>580</td><td>144</td><td>100</td><td>27</td><td>14</td><td>10</td><td>7.5</td></tr><tr><td>24</td><td>4.</td><td>4.7</td><td>940</td><td>89</td><td>500</td><td>500</td><td>144</td><td>100</td><td>27</td><td>14</td><td>10</td><td>7.5</td></tr><tr><td>25</td><td>4.</td><td>4.7</td><td>2,480</td><td>82</td><td>500</td><td>500</td><td>144</td><td>96</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>26</td><td>4.7</td><td>4.7</td><td>10,800</td><td>82</td><td>448</td><td>465</td><td>135</td><td>96</td><td>27</td><td>14</td><td>9.5</td><td>7.5</td></tr><tr><td>27</td><td>4.</td><td>4.7</td><td>4,300</td><td>82</td><td>430</td><td>430</td><td>135</td><td>90</td><td>27</td><td>14</td><td>8.5</td><td>7,5</td></tr><tr><td>28</td><td>4. 5</td><td>4.8</td><td>1,300</td><td>82</td><td>395</td><td>395</td><td>135</td><td>90</td><td>22</td><td>14</td><td>8.5</td><td>7.5</td></tr><tr><td>29</td><td>4. 5</td><td>4.8</td><td>695</td><td>126</td><td></td><td>360</td><td>135</td><td>90</td><td>22</td><td>14</td><td>7.5</td><td>7,5</td></tr><tr><td>30</td><td>4.</td><td>4.8</td><td>412</td><td>144</td><td></td><td>315</td><td>135</td><td>80</td><td>22</td><td>14</td><td>7.</td><td>7.5</td></tr><tr><td>31</td><td>4.3</td><td></td><td>286</td><td>126</td><td></td><td>286</td><td></td><td>80</td><td></td><td>14</td><td>7</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "Monthly discharge of Sespe Creek near Sespe, Calif., for the year ending September 30, 1922",
+                "embed": "Monthly discharge of Sespe Creek near Sespe, Calif., for the year ending September 30, 1922",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.15403882279273637,
+                            "top": 0.5313556139692076,
+                            "width": 0.8303068252974327,
+                            "height": 0.026661659782200527,
+                            "page": 1
+                        },
+                        "content": "Monthly discharge of Sespe Creek near Sespe, Calif., for the year ending September 30, 1922",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>5. 5</td><td>4.3</td><td>4.73</td><td>2n</td></tr><tr><td>November</td><td>4.8</td><td>4.1</td><td>4.41</td><td>232</td></tr><tr><td>December</td><td>10,800</td><td>4.8</td><td>1,110</td><td>68,2M</td></tr><tr><td>January</td><td>3,000</td><td>82</td><td>373</td><td>22,900</td></tr><tr><td>February</td><td>8,900</td><td>126</td><td>1,020</td><td>56,600</td></tr><tr><td>March</td><td>1,740</td><td>235</td><td>509</td><td>31.300</td></tr><tr><td>April</td><td>272</td><td>135</td><td>193</td><td>11,500</td></tr><tr><td>May</td><td>135</td><td>80</td><td>115</td><td>7,079</td></tr><tr><td>June</td><td>80</td><td>22</td><td>46.1</td><td>2,740</td></tr><tr><td>July</td><td>22</td><td>14</td><td>16.1</td><td>900</td></tr><tr><td>August</td><td>14</td><td>7</td><td>9.34</td><td>574</td></tr><tr><td>September</td><td>7.5</td><td>6</td><td>7.23</td><td>430</td></tr><tr><td>The year</td><td>10,800</td><td>4.1</td><td>280</td><td>203,000</td></tr></table>\n\n/",
+                "embed": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>5. 5</td><td>4.3</td><td>4.73</td><td>2n</td></tr><tr><td>November</td><td>4.8</td><td>4.1</td><td>4.41</td><td>232</td></tr><tr><td>December</td><td>10,800</td><td>4.8</td><td>1,110</td><td>68,2M</td></tr><tr><td>January</td><td>3,000</td><td>82</td><td>373</td><td>22,900</td></tr><tr><td>February</td><td>8,900</td><td>126</td><td>1,020</td><td>56,600</td></tr><tr><td>March</td><td>1,740</td><td>235</td><td>509</td><td>31.300</td></tr><tr><td>April</td><td>272</td><td>135</td><td>193</td><td>11,500</td></tr><tr><td>May</td><td>135</td><td>80</td><td>115</td><td>7,079</td></tr><tr><td>June</td><td>80</td><td>22</td><td>46.1</td><td>2,740</td></tr><tr><td>July</td><td>22</td><td>14</td><td>16.1</td><td>900</td></tr><tr><td>August</td><td>14</td><td>7</td><td>9.34</td><td>574</td></tr><tr><td>September</td><td>7.5</td><td>6</td><td>7.23</td><td>430</td></tr><tr><td>The year</td><td>10,800</td><td>4.1</td><td>280</td><td>203,000</td></tr></table>\n\n/",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.1491376175758013,
+                            "top": 0.5686302858324728,
+                            "width": 0.8397829537102037,
+                            "height": 0.2164670147038115,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\">Month</th><th colspan=\"3\">Discharge in second-feet</th><th rowspan=\"2\">Run-off in\nacre-feet</th></tr><tr><td>Maximum</td><td>Minimum</td><td>Mean</td></tr><tr><td>October</td><td>5. 5</td><td>4.3</td><td>4.73</td><td>2n</td></tr><tr><td>November</td><td>4.8</td><td>4.1</td><td>4.41</td><td>232</td></tr><tr><td>December</td><td>10,800</td><td>4.8</td><td>1,110</td><td>68,2M</td></tr><tr><td>January</td><td>3,000</td><td>82</td><td>373</td><td>22,900</td></tr><tr><td>February</td><td>8,900</td><td>126</td><td>1,020</td><td>56,600</td></tr><tr><td>March</td><td>1,740</td><td>235</td><td>509</td><td>31.300</td></tr><tr><td>April</td><td>272</td><td>135</td><td>193</td><td>11,500</td></tr><tr><td>May</td><td>135</td><td>80</td><td>115</td><td>7,079</td></tr><tr><td>June</td><td>80</td><td>22</td><td>46.1</td><td>2,740</td></tr><tr><td>July</td><td>22</td><td>14</td><td>16.1</td><td>900</td></tr><tr><td>August</td><td>14</td><td>7</td><td>9.34</td><td>574</td></tr><tr><td>September</td><td>7.5</td><td>6</td><td>7.23</td><td>430</td></tr><tr><td>The year</td><td>10,800</td><td>4.1</td><td>280</td><td>203,000</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10832811521603006,
+                            "top": 0.7393916635373639,
+                            "width": 0.007514088916718848,
+                            "height": 0.008636875704093128,
+                            "page": 1
+                        },
+                        "content": "/",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}

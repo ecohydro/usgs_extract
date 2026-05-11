@@ -1,0 +1,334 @@
+{
+    "job_id": "11799df9-6816-437c-af5f-80ee571bf118",
+    "duration": 6.916529178619385,
+    "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/c32e02be-5c0c-4116-9121-ecebd21bee74?AWSAccessKeyId=ASIA2UOK6OVBNY5CZA23&Signature=tA0gYbezPHFqaQHlsIqQ5pdAInM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGoaCXVzLXdlc3QtMiJGMEQCIHa9kO4NHq%2BP9mhGTvQpA49uSG%2BhGEgIw1Mx%2FaT5FoAQAiBc%2F1apYZhtULZqcmYHdQMA5Zm3QOyYzAAM7fIca7LcJiqLBQgjEAAaDDczMTEwNjkzMjAzNCIMEiExb5B8b8601yDAKugEGE4Bl4133GpKqGZkUpm4i%2B7xmUX5qvStt%2FLq%2Bg0uOC7076aInLHTSfvvv7z%2FC4i7WZP%2BGzfnhaRg3PwiRTWUfCHU7C10tGpRSsbOoS7q9YqrFoKdtotVUfCqWtXSAZ%2FKY7B%2FS30zgZeNoOiJPyiQ7gjDl4ktnZdY2%2BJLRSFIhjGKWW858knif2ve%2BjZw6dkX7pG6m8MM2lxiNlxTsMJ7Je9sTK8wssTbr0IoHtilDldsMDDIWrtY9fjdiQ0xxSWCOSe1uld0n8fTJ%2BeSGih3EwAlXKKAUL3wACccsMhDqeTb4JblhkfvHA2uCufv3zSWVkHeFSOfyPPjEY8VlKKzXiFHCwTcoWaSdManmzPmD%2Fo5TiG4OD%2BKvY7tFW2cBCcoRl3CMbDKuhu6LzMfJ%2BcLkTUDwLDTjZz%2Fjy2Ruqgwctf2Upt6n2dpImggTpUvza%2BP1J8CRK6F%2Bt4MvCTzjAGkAi%2Fumvy%2FcaRduRXYlv3G0jCOTgIwfbc1PlFtmM0jq6BrQ9lLh6QNQ1jJVRCrsuRN%2FyKMuopTbWFMmPx0NeFqwFyHvxV6B3Mv6Mdss8AQTpJTs%2Fa4ojGxgyXgUgClg%2B7UT2nERJKvGPlsaUZCXIJ0rqZrCsnvGduPMejWQ%2BcXpcC7qMwLC8Bv1oHnUXNoFsZ%2B2RQkhZFJ0WdO0UVcXVPOih79IVTsbPJlVDU9O207dGHJhJKtrLbEGfRHQ8asN21fD8m9R6lYJHPp8BXX8yE5k9rb2pf3qFRKqf8Um0kUnytGaKL4eX6sNpXxDuWCyXq%2F4muTG9fvPzGT4MU20fjnC5ilQcpIJJ9lSTDRs8m6BjqcAeK%2FLCQkpaTc3QxuAKNhnX4BOoqgKVokdq51gTSWeU23%2Bhrb56j74WDgrmxFoC4aHbWNCZ8A8tyf%2B%2F%2FZTAAZCK4q58IXV1W19mY0yNBFPrT%2FywoTk%2FCzp8NKyJ5rjMgGEzCYDTdLYEoIJEwH5xYVai%2FUdeZ%2F7yJ621YfpJYg53SFvjzRjeKu66olTAxAxbTToj9SYg9BxyECHR9XSg%3D%3D&Expires=1733454809",
+    "usage": {
+        "num_pages": 1
+    },
+    "result": {
+        "type": "full",
+        "chunks": [
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN\n\n1912-1924: Maximum stage- recorded, 11.0 feet January 27, 1916 (discharge, 21,100 second-feet); stream dry October 1-2, 1913; August 12-29, September 6-13, 1914; July 6-14 and July 23 to September 30, 1921; and July 1 to September 30, 1924.\n\n- DIVERSIONS: +No large diversions above station.\n\n- REGULATION.-None\n\nCOOPERATION.-Monthly - run-off in acr\u00e9-feet. furnished by San Diego County Water Co.",
+                "embed": "# SAN DIEGUITO RIVER BASIN\n\n1912-1924: Maximum stage- recorded, 11.0 feet January 27, 1916 (discharge, 21,100 second-feet); stream dry October 1-2, 1913; August 12-29, September 6-13, 1914; July 6-14 and July 23 to September 30, 1921; and July 1 to September 30, 1924.\n\n- DIVERSIONS: +No large diversions above station.\n\n- REGULATION.-None\n\nCOOPERATION.-Monthly - run-off in acr\u00e9-feet. furnished by San Diego County Water Co.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Title",
+                        "bbox": {
+                            "left": 0.31400370141887723,
+                            "top": 0.05182125422455877,
+                            "width": 0.32387415175817397,
+                            "height": 0.010514457378895982,
+                            "page": 1
+                        },
+                        "content": "SAN DIEGUITO RIVER BASIN",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Header",
+                        "bbox": {
+                            "left": 0.8544108574953733,
+                            "top": 0.04769057453999249,
+                            "width": 0.02961135101789019,
+                            "height": 0.015396169733383402,
+                            "page": 1
+                        },
+                        "content": "17",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.10980876002467613,
+                            "top": 0.082238077356365,
+                            "width": 0.7748303516347933,
+                            "height": 0.06158467893353361,
+                            "page": 1
+                        },
+                        "content": "1912-1924: Maximum stage- recorded, 11.0 feet January 27, 1916 (discharge, 21,100 second-feet); stream dry October 1-2, 1913; August 12-29, September 6-13, 1914; July 6-14 and July 23 to September 30, 1921; and July 1 to September 30, 1924.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06600863664404688,
+                            "top": 0.14570033796470147,
+                            "width": 0.49907464528069095,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "- DIVERSIONS: +No large diversions above station.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06785934608266501,
+                            "top": 0.16109650769808487,
+                            "width": 0.20789636027143737,
+                            "height": 0.012016522718738265,
+                            "page": 1
+                        },
+                        "content": "- REGULATION.-None",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06539173349784085,
+                            "top": 0.17649267743146826,
+                            "width": 0.8192473781616286,
+                            "height": 0.027788208787082238,
+                            "page": 1
+                        },
+                        "content": "COOPERATION.-Monthly - run-off in acr\u00e9-feet. furnished by San Diego County Water Co.",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN (cont.)\n\n- The following discharge measurements were made:\n\n\t- November 20, 1924: Gage height, 0.97 foot; discharge, 1.2 second-feet.\n\n- February 11, 1925: Gage height, 1.21 feet; discharge, 2.9 second-feet.\n\n- May 11,1925: Gage height, 1.42 feet; discharge, 7.4 second-feet.\n\nMonthly run-off of Santa Ysabel Creek near Mesa Grande, Calif., for the year ending September 30, 1925\n\n<table><tr><th>Month</th><th>Run-off\nin\nacre-feet</th><th>Month</th><th>Run-off\nin\nacre-feet</th><th>Month</th><th>Run-off\nin\nacre-feet</th></tr><tr><td>October</td><td>5.9</td><td>March</td><td>386</td><td>August</td><td>0</td></tr><tr><td>November</td><td>71.4</td><td>April</td><td>1,100</td><td>September</td><td>0</td></tr><tr><td>December</td><td>615</td><td>May</td><td>363</td><td></td><td rowspan=\"3\">3,470</td></tr><tr><td>January</td><td>316</td><td>June</td><td>336</td><td>The year</td></tr><tr><td>February</td><td>265</td><td>July</td><td>11.0</td><td></td></tr></table>",
+                "embed": "# SAN DIEGUITO RIVER BASIN (cont.)\n\n- The following discharge measurements were made:\n\n\t- November 20, 1924: Gage height, 0.97 foot; discharge, 1.2 second-feet.\n\n- February 11, 1925: Gage height, 1.21 feet; discharge, 2.9 second-feet.\n\n- May 11,1925: Gage height, 1.42 feet; discharge, 7.4 second-feet.\n\nMonthly run-off of Santa Ysabel Creek near Mesa Grande, Calif., for the year ending September 30, 1925\n\n<table><tr><th>Month</th><th>Run-off\nin\nacre-feet</th><th>Month</th><th>Run-off\nin\nacre-feet</th><th>Month</th><th>Run-off\nin\nacre-feet</th></tr><tr><td>October</td><td>5.9</td><td>March</td><td>386</td><td>August</td><td>0</td></tr><tr><td>November</td><td>71.4</td><td>April</td><td>1,100</td><td>September</td><td>0</td></tr><tr><td>December</td><td>615</td><td>May</td><td>363</td><td></td><td rowspan=\"3\">3,470</td></tr><tr><td>January</td><td>316</td><td>June</td><td>336</td><td>The year</td></tr><tr><td>February</td><td>265</td><td>July</td><td>11.0</td><td></td></tr></table>",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.08945095619987661,
+                            "top": 0.21179121291776193,
+                            "width": 0.5175817396668723,
+                            "height": 0.013894104393541119,
+                            "page": 1
+                        },
+                        "content": "- The following discharge measurements were made:",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.09006785934608266,
+                            "top": 0.22681186631618475,
+                            "width": 0.7254780999383097,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "\t- November 20, 1924: Gage height, 0.97 foot; discharge, 1.2 second-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.08945095619987661,
+                            "top": 0.2429590687194893,
+                            "width": 0.7125231338679827,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "- February 11, 1925: Gage height, 1.21 feet; discharge, 2.9 second-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.08760024676125848,
+                            "top": 0.25873075478783325,
+                            "width": 0.6644046884639112,
+                            "height": 0.01464513706346226,
+                            "page": 1
+                        },
+                        "content": "- May 11,1925: Gage height, 1.42 feet; discharge, 7.4 second-feet.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06415792720542875,
+                            "top": 0.28051070221554636,
+                            "width": 0.8204811844540407,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Monthly run-off of Santa Ysabel Creek near Mesa Grande, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06053926443185871,
+                            "top": 0.31034025392091863,
+                            "width": 0.8265735595627819,
+                            "height": 0.09870989144497512,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th>Month</th><th>Run-off\nin\nacre-feet</th><th>Month</th><th>Run-off\nin\nacre-feet</th><th>Month</th><th>Run-off\nin\nacre-feet</th></tr><tr><td>October</td><td>5.9</td><td>March</td><td>386</td><td>August</td><td>0</td></tr><tr><td>November</td><td>71.4</td><td>April</td><td>1,100</td><td>September</td><td>0</td></tr><tr><td>December</td><td>615</td><td>May</td><td>363</td><td></td><td rowspan=\"3\">3,470</td></tr><tr><td>January</td><td>316</td><td>June</td><td>336</td><td>The year</td></tr><tr><td>February</td><td>265</td><td>July</td><td>11.0</td><td></td></tr></table>",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN (cont.)\n\n## SAN DIEGUITO RIVER NEAR ESCONDIDO, CALIF.\n\nLOCATION.- - In SE. 1/4 NW. 1/4 sec. 18, T. 13 S., R. 2 W., at Lake Hodges Dam, 51/2 miles below Bernardo Bridge, 101/2 miles above mouth of river, and 51/2 miles southwest of Escondido, San Diego County.\n\nDRAINAGE AREA.-209 square miles at the dam (measured on topographic maps).\n\n- RECORDS AVAILABLE.-January 17, 1916, to September 30, 1925.\n\n- DIVERSIONS,-East and West San Pasqual ditches divert water for irrigation\n\n\t- from Santa Ysabel Creek at the upper end of San Pasqual Valley. Water for irrigation is also pumped from wells along the river.\n\n- COOPERATION.-Record of monthly storage and run-off furnished by San Dieguito Mutual Water Co.\n\nLake Hodges Reservoir was completed in 1919, and the gaging station formerly maintained at the dam site was abandoned. The following table gives monthly storage in the reservoir, and other data from which the inflow is computed.\n\nInflow of San Dieguito River to Lake Hodges, near Escendido, Calif., for the year ending September 30, 1925",
+                "embed": "# SAN DIEGUITO RIVER BASIN (cont.)\n\n## SAN DIEGUITO RIVER NEAR ESCONDIDO, CALIF.\n\nLOCATION.- - In SE. 1/4 NW. 1/4 sec. 18, T. 13 S., R. 2 W., at Lake Hodges Dam, 51/2 miles below Bernardo Bridge, 101/2 miles above mouth of river, and 51/2 miles southwest of Escondido, San Diego County.\n\nDRAINAGE AREA.-209 square miles at the dam (measured on topographic maps).\n\n- RECORDS AVAILABLE.-January 17, 1916, to September 30, 1925.\n\n- DIVERSIONS,-East and West San Pasqual ditches divert water for irrigation\n\n\t- from Santa Ysabel Creek at the upper end of San Pasqual Valley. Water for irrigation is also pumped from wells along the river.\n\n- COOPERATION.-Record of monthly storage and run-off furnished by San Dieguito Mutual Water Co.\n\nLake Hodges Reservoir was completed in 1919, and the gaging station formerly maintained at the dam site was abandoned. The following table gives monthly storage in the reservoir, and other data from which the inflow is computed.\n\nInflow of San Dieguito River to Lake Hodges, near Escendido, Calif., for the year ending September 30, 1925",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Section Header",
+                        "bbox": {
+                            "left": 0.25848241826033314,
+                            "top": 0.4202027788208787,
+                            "width": 0.42751388032078963,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "SAN DIEGUITO RIVER NEAR ESCONDIDO, CALIF.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06539173349784085,
+                            "top": 0.4359744648892227,
+                            "width": 0.8198642813078346,
+                            "height": 0.04656402553511078,
+                            "page": 1
+                        },
+                        "content": "LOCATION.- - In SE. 1/4 NW. 1/4 sec. 18, T. 13 S., R. 2 W., at Lake Hodges Dam, 51/2 miles below Bernardo Bridge, 101/2 miles above mouth of river, and 51/2 miles southwest of Escondido, San Diego County.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06292412091301666,
+                            "top": 0.482914006759294,
+                            "width": 0.8217149907464528,
+                            "height": 0.030416823131806235,
+                            "page": 1
+                        },
+                        "content": "DRAINAGE AREA.-209 square miles at the dam (measured on topographic maps).",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06909315237507711,
+                            "top": 0.5152084115659031,
+                            "width": 0.6637877853177051,
+                            "height": 0.01426962072850169,
+                            "page": 1
+                        },
+                        "content": "- RECORDS AVAILABLE.-January 17, 1916, to September 30, 1925.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06724244293645898,
+                            "top": 0.530229064964326,
+                            "width": 0.8167797655768044,
+                            "height": 0.015020653398422831,
+                            "page": 1
+                        },
+                        "content": "- DIVERSIONS,-East and West San Pasqual ditches divert water for irrigation",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.107958050586058,
+                            "top": 0.546751783702591,
+                            "width": 0.7735965453423812,
+                            "height": 0.030041306796845663,
+                            "page": 1
+                        },
+                        "content": "\t- from Santa Ysabel Creek at the upper end of San Pasqual Valley. Water for irrigation is also pumped from wells along the river.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "List Item",
+                        "bbox": {
+                            "left": 0.06600863664404688,
+                            "top": 0.5779196395043185,
+                            "width": 0.8180135718692165,
+                            "height": 0.02816372512204281,
+                            "page": 1
+                        },
+                        "content": "- COOPERATION.-Record of monthly storage and run-off furnished by San Dieguito Mutual Water Co.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.06292412091301666,
+                            "top": 0.612467142320691,
+                            "width": 0.8198642813078346,
+                            "height": 0.046188509200150205,
+                            "page": 1
+                        },
+                        "content": "Lake Hodges Reservoir was completed in 1919, and the gaging station formerly maintained at the dam site was abandoned. The following table gives monthly storage in the reservoir, and other data from which the inflow is computed.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.0635410240592227,
+                            "top": 0.665790461885092,
+                            "width": 0.8136952498457742,
+                            "height": 0.027037176117161096,
+                            "page": 1
+                        },
+                        "content": "Inflow of San Dieguito River to Lake Hodges, near Escendido, Calif., for the year ending September 30, 1925",
+                        "image_url": null
+                    }
+                ]
+            },
+            {
+                "content": "# SAN DIEGUITO RIVER BASIN (cont.)\n\n## SAN DIEGUITO RIVER NEAR ESCONDIDO, CALIF. (cont.)\n\n<table><tr><th rowspan=\"2\"></th><th colspan=\"2\">Storage (acre-feet)</th><th colspan=\"3\">Decrease during month\n(acre-feet)</th><th rowspan=\"2\">Inflow\n(acre-feet)</th></tr><tr><td>End of\nmonth</td><td>Increase\nor\ndecrease</td><td>Draft</td><td>Net\nevapora-\ntion</td><td>Leakage</td></tr><tr><td>September</td><td>28,421</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>27,716</td><td>-705</td><td>307</td><td>+434</td><td>3</td><td>89</td></tr><tr><td>November</td><td>27,212</td><td>-504</td><td>291</td><td>+210</td><td>3</td><td>0</td></tr><tr><td>December</td><td>27,394</td><td>+182</td><td>228</td><td>-218</td><td>3</td><td>200</td></tr><tr><td>January</td><td>27,117</td><td>-277</td><td>195</td><td>+151</td><td>8</td><td>72</td></tr><tr><td>February</td><td>26,894</td><td>-223</td><td>183</td><td>+124</td><td>3</td><td>BY</td></tr><tr><td>March</td><td>26,527</td><td>-367</td><td>279</td><td>+173</td><td>3</td><td>88</td></tr><tr><td>April</td><td>27,330</td><td>+808</td><td>202</td><td>+114</td><td>8</td><td>1,122</td></tr><tr><td>May</td><td>26,684</td><td>-646</td><td>307</td><td>+441</td><td>3</td><td>105</td></tr><tr><td>June</td><td>25,619</td><td>-1,065</td><td>595</td><td>+484</td><td>4</td><td>18</td></tr><tr><td>July</td><td>24,484</td><td>-1,135</td><td>429</td><td>+702</td><td>4</td><td>0</td></tr><tr><td>August</td><td>23,309</td><td>-1,175</td><td>514</td><td>+657</td><td>4</td><td>0</td></tr><tr><td>September</td><td>22,285</td><td>-1,024</td><td>508</td><td>+512</td><td>4</td><td>0</td></tr><tr><td>Year</td><td></td><td>-6,136</td><td>4,038</td><td>+8,789</td><td>40</td><td>1,731</td></tr></table>\n\nNet evaporation equals gross evaporation minus rainfall.\n\nNOTE.-Inflow equals increase or decrease in storage, plus draft, net evaporation, and leakage.",
+                "embed": "# SAN DIEGUITO RIVER BASIN (cont.)\n\n## SAN DIEGUITO RIVER NEAR ESCONDIDO, CALIF. (cont.)\n\n<table><tr><th rowspan=\"2\"></th><th colspan=\"2\">Storage (acre-feet)</th><th colspan=\"3\">Decrease during month\n(acre-feet)</th><th rowspan=\"2\">Inflow\n(acre-feet)</th></tr><tr><td>End of\nmonth</td><td>Increase\nor\ndecrease</td><td>Draft</td><td>Net\nevapora-\ntion</td><td>Leakage</td></tr><tr><td>September</td><td>28,421</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>27,716</td><td>-705</td><td>307</td><td>+434</td><td>3</td><td>89</td></tr><tr><td>November</td><td>27,212</td><td>-504</td><td>291</td><td>+210</td><td>3</td><td>0</td></tr><tr><td>December</td><td>27,394</td><td>+182</td><td>228</td><td>-218</td><td>3</td><td>200</td></tr><tr><td>January</td><td>27,117</td><td>-277</td><td>195</td><td>+151</td><td>8</td><td>72</td></tr><tr><td>February</td><td>26,894</td><td>-223</td><td>183</td><td>+124</td><td>3</td><td>BY</td></tr><tr><td>March</td><td>26,527</td><td>-367</td><td>279</td><td>+173</td><td>3</td><td>88</td></tr><tr><td>April</td><td>27,330</td><td>+808</td><td>202</td><td>+114</td><td>8</td><td>1,122</td></tr><tr><td>May</td><td>26,684</td><td>-646</td><td>307</td><td>+441</td><td>3</td><td>105</td></tr><tr><td>June</td><td>25,619</td><td>-1,065</td><td>595</td><td>+484</td><td>4</td><td>18</td></tr><tr><td>July</td><td>24,484</td><td>-1,135</td><td>429</td><td>+702</td><td>4</td><td>0</td></tr><tr><td>August</td><td>23,309</td><td>-1,175</td><td>514</td><td>+657</td><td>4</td><td>0</td></tr><tr><td>September</td><td>22,285</td><td>-1,024</td><td>508</td><td>+512</td><td>4</td><td>0</td></tr><tr><td>Year</td><td></td><td>-6,136</td><td>4,038</td><td>+8,789</td><td>40</td><td>1,731</td></tr></table>\n\nNet evaporation equals gross evaporation minus rainfall.\n\nNOTE.-Inflow equals increase or decrease in storage, plus draft, net evaporation, and leakage.",
+                "enriched": null,
+                "enrichment_success": false,
+                "blocks": [
+                    {
+                        "type": "Table",
+                        "bbox": {
+                            "left": 0.06084986692001465,
+                            "top": 0.6953788754459257,
+                            "width": 0.826308516938329,
+                            "height": 0.22411403448296094,
+                            "page": 1
+                        },
+                        "content": "<table><tr><th rowspan=\"2\"></th><th colspan=\"2\">Storage (acre-feet)</th><th colspan=\"3\">Decrease during month\n(acre-feet)</th><th rowspan=\"2\">Inflow\n(acre-feet)</th></tr><tr><td>End of\nmonth</td><td>Increase\nor\ndecrease</td><td>Draft</td><td>Net\nevapora-\ntion</td><td>Leakage</td></tr><tr><td>September</td><td>28,421</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>October</td><td>27,716</td><td>-705</td><td>307</td><td>+434</td><td>3</td><td>89</td></tr><tr><td>November</td><td>27,212</td><td>-504</td><td>291</td><td>+210</td><td>3</td><td>0</td></tr><tr><td>December</td><td>27,394</td><td>+182</td><td>228</td><td>-218</td><td>3</td><td>200</td></tr><tr><td>January</td><td>27,117</td><td>-277</td><td>195</td><td>+151</td><td>8</td><td>72</td></tr><tr><td>February</td><td>26,894</td><td>-223</td><td>183</td><td>+124</td><td>3</td><td>BY</td></tr><tr><td>March</td><td>26,527</td><td>-367</td><td>279</td><td>+173</td><td>3</td><td>88</td></tr><tr><td>April</td><td>27,330</td><td>+808</td><td>202</td><td>+114</td><td>8</td><td>1,122</td></tr><tr><td>May</td><td>26,684</td><td>-646</td><td>307</td><td>+441</td><td>3</td><td>105</td></tr><tr><td>June</td><td>25,619</td><td>-1,065</td><td>595</td><td>+484</td><td>4</td><td>18</td></tr><tr><td>July</td><td>24,484</td><td>-1,135</td><td>429</td><td>+702</td><td>4</td><td>0</td></tr><tr><td>August</td><td>23,309</td><td>-1,175</td><td>514</td><td>+657</td><td>4</td><td>0</td></tr><tr><td>September</td><td>22,285</td><td>-1,024</td><td>508</td><td>+512</td><td>4</td><td>0</td></tr><tr><td>Year</td><td></td><td>-6,136</td><td>4,038</td><td>+8,789</td><td>40</td><td>1,731</td></tr></table>",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.09006785934608266,
+                            "top": 0.9226436349981224,
+                            "width": 0.44417026526835285,
+                            "height": 0.011265490048817123,
+                            "page": 1
+                        },
+                        "content": "Net evaporation equals gross evaporation minus rainfall.",
+                        "image_url": null
+                    },
+                    {
+                        "type": "Text",
+                        "bbox": {
+                            "left": 0.07772979642196175,
+                            "top": 0.9380398047315058,
+                            "width": 0.7371992597162246,
+                            "height": 0.011641006383777694,
+                            "page": 1
+                        },
+                        "content": "NOTE.-Inflow equals increase or decrease in storage, plus draft, net evaporation, and leakage.",
+                        "image_url": null
+                    }
+                ]
+            }
+        ],
+        "custom": null
+    }
+}
