@@ -35,9 +35,9 @@ usgs_extract/
     │           └── {doc_id}_page_{N}_metadata.csv
     ├── metadata/                      ← master metadata CSV and crosswalk files
     ├── digitization_intermediates/
-    │   ├── 01_downloaded_pdfs/        ← raw PDFs from USGS
-    │   ├── 02_pngs/                   ← converted grayscale page images
-    │   ├── 03_table_detection/        ← table detection outputs (bounding boxes, confidence scores)
+    │   ├── 01_download/               ← Metadata on orginal download
+    │   ├── 02_pre_process/            ← Potentially empty
+    │   ├── 03_table_detection/        ← table listing which pages have tables, maybe table detection outputs (bounding boxes, confidence scores)
     │   ├── 04_ocr/                    ← raw Reducto JSON and CSV outputs per page
     │   └── 05_metadata_extraction/    ← raw LLM metadata outputs before cleaning
     ├── hydroshare/                    ← upload-ready packages for HydroShare
