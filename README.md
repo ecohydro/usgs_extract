@@ -10,8 +10,8 @@ usgs_extract/
 │   ├── 01_digitization/
 │   │   ├── 01_download_and_preprocess/ ← scripts to pull PDFs from USGS and convert to grayscale PNGs
 │   │   ├── 02_table_detection/
-│   │   │   ├── workflow/              ← Table Transformer detection scripts
-│   │   │   └── validation/            ← accuracy evaluation against known tables
+│   │   │   ├── 01_detect.py           ← Table Transformer detection script
+│   │   │   └── validation/            ← MISSING: script to evaluate recall/precision against ground truth
 │   │   ├── 03_ocr/
 │   │   │   ├── paddle/                ← PaddleOCR (tested, not used in final pipeline)
 │   │   │   ├── reducto/               ← Reducto.ai digitization scripts (final pipeline)
@@ -34,13 +34,33 @@ usgs_extract/
     │           └── {doc_id}_page_{N}_metadata.csv
     ├── metadata/                      ← master metadata CSV and crosswalk files
     ├── digitization_intermediates/
-    │   ├── 01_download_and_preprocess/ ← Metadata on original download
-    │   ├── 02_table_detection/        ← table listing which pages have tables, maybe table detection outputs (bounding boxes, confidence scores)
+    │   ├── 01_download_and_preprocess/ ← publication list CSV; PDF download manifest
+    │   ├── 02_table_detection/
+    │   │   └── validation/
+    │   │       ├── groundwater_table_pages.xlsx       ← human-curated ground truth (page ranges)
+    │   │       ├── groundwater_table_pages_expanded.csv ← ground truth expanded to one row per page (MISSING: script that did this expansion)
+    │   │       └── MISSING: detection scores for ground truth pages (validation run output)
+    │   │   (MISSING: production detection results for all CA docs — ran on HPC, not preserved)
     │   ├── 03_ocr/                    ← raw Reducto JSON and CSV outputs per page
     │   └── 04_metadata_extraction/    ← raw LLM metadata outputs before cleaning
     ├── hydroshare/                    ← upload-ready packages for HydroShare
     └── analysis/                      ← intermediate data from inventory and vignette notebooks
 ```
+
+---
+
+## Quickstart: Table Detection (`code/01_digitization/02_table_detection/`)
+
+**Detect tables in PNGs using Microsoft Table Transformer**
+```bash
+python 01_detect.py \
+  --png-dir data/digitization_intermediates/01_download_and_preprocess/pngs/ \
+  --output-csv data/digitization_intermediates/02_table_detection/detections.csv \
+  --threshold 0.8
+```
+Output CSV has one row per detected table: `filename`, `doc_id`, `page_num`, `label` (table/table rotated), `score`, `bbox`. Already-processed files are skipped automatically on re-run.
+
+Ground truth validation data is in `data/digitization_intermediates/02_table_detection/validation/`. A script to compute recall/precision against that ground truth is **missing** — the 79% recall figure in the paper was computed manually.
 
 ---
 
