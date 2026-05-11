@@ -1,5 +1,7 @@
 # USGS Historical Water Data Digitization — Repo Structure
 
+> **Before making this repo public:** API keys were accidentally committed in `yibo_code/usgs_extract/api_run.py` (UCSB HPC key) and `yibo_code/usgs_extract/testset.py` (UCSB HPC key). The `.env` file containing the Reducto.ai API key is also in git history. All three keys must be scrubbed from commit history (e.g. with `git filter-repo`) and rotated before the repo is made public.
+
 Target structure for organizing this repo. Use this as a reference for where to put things.
 
 ```
@@ -99,9 +101,49 @@ Ground truth validation data is in `data/digitization_intermediates/02_table_det
 
 ---
 
-## Step 3: OCR (`code/01_digitization/03_ocr/`)
+## Quickstart: OCR / Digitization (`code/01_digitization/03_ocr/`)
 
-Tables were digitized using [Reducto.ai](https://reducto.ai) (paid API). Reducto outputs per-page JSON files with structured HTML tables extracted from the scanned PNGs. Scripts to call the Reducto API and convert its JSON output to CSV are **missing** — the raw JSON and CSV outputs are preserved in the data directories. PaddleOCR was tested but discarded due to poor structure preservation.
+Two digitization approaches are implemented. Reducto was used in the final pipeline; PaddleOCR was tested and discarded due to poor structure preservation.
+
+### Reducto (final pipeline — requires paid API access)
+
+**Step 1 — Send page PNGs to Reducto and save JSON output**
+```bash
+export REDUCTO_API_KEY=your_key_here
+python reducto/01_digitize.py \
+  --png-dir data/digitization_intermediates/01_download_and_preprocess/pngs/ \
+  --output-dir data/digitization_intermediates/03_ocr/jsons/
+```
+Uploads each PNG to the Reducto.ai API and saves the full structured JSON response. Already-processed files are skipped. Runs 50 concurrent requests per batch. Errors are appended to `error_log.txt`.
+
+**Step 2 — Convert Reducto JSON to CSV**
+```bash
+python reducto/02_json_to_csv.py \
+  --json-dir data/digitization_intermediates/03_ocr/jsons/ \
+  --output-dir data/digitization_intermediates/03_ocr/csvs/
+```
+Extracts HTML table blocks from each JSON and writes one CSV per table (`{doc_id}_page_{N}_table{M}.csv`).
+
+### PaddleOCR (tested, not used in final pipeline)
+
+PaddleOCR requires table regions to be cropped from pages before processing. Use the Table Transformer detection output from Step 2 as input.
+
+**Step 1 — Crop detected table regions from page PNGs**
+```bash
+python paddle/01_crop_tables.py \
+  --png-dir data/digitization_intermediates/01_download_and_preprocess/pngs/ \
+  --detections-csv data/digitization_intermediates/02_table_detection/detections.csv \
+  --output-dir data/digitization_intermediates/03_ocr/paddle_crops/
+```
+
+**Step 2 — Run PaddleOCR on cropped table images**
+```bash
+python paddle/02_paddleocr.py \
+  --input-dir data/digitization_intermediates/03_ocr/paddle_crops/ \
+  --output-dir data/digitization_intermediates/03_ocr/paddle_output/
+```
+
+Validation scripts for both approaches are **missing** — accuracy figures in the paper were computed manually.
 
 ---
 
