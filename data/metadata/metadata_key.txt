@@ -1,0 +1,265 @@
+main_metadata.csv — Column Descriptions
+========================================
+
+73 columns total: 16 LLM-extracted page-level fields (cols 1–16) +
+57 USGS Publications Warehouse document-level fields (cols 17–73).
+
+Rows: one row per page per document. Multiple rows per page are possible
+when the LLM identified more than one location or water body on that page.
+
+Source of LLM fields: Microsoft Phi-4 run on UCSB HPC cluster.
+Source of USGS fields: USGS Publications Warehouse export (USGS_ID.xlsx).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1 — LLM-extracted page-level fields (cols 1–16)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+id
+    USGS Publications Warehouse Publication ID (numeric string). Serves as
+    the document identifier and matches the folder name in data/digitized/.
+    For Santa Barbara County documents that lack a Publications Warehouse
+    entry, this is the USGS Index ID (e.g., ofr60102).
+
+page_number
+    Page number within the document (integer, 1-indexed).
+
+inferred_latitude
+    Latitude (decimal degrees, WGS84) inferred by LLM Phi-4 from contextual
+    clues on the page (location names, basin descriptions, nearby landmarks).
+    May differ from actual_latitude if no explicit coordinates were reported.
+
+inferred_longitude
+    Longitude (decimal degrees, WGS84) inferred by LLM Phi-4 from contextual
+    clues. Negative values indicate west longitude.
+
+actual_latitude
+    Latitude as explicitly reported on the page (decimal degrees, WGS84).
+    Empty if no coordinates were printed on the page.
+
+actual_longitude
+    Longitude as explicitly reported on the page (decimal degrees, WGS84).
+    Empty if no coordinates were printed on the page.
+
+location
+    Place name or description of the measurement location as extracted from
+    the page (e.g., "Santa Ynez River at Solvang", "Goleta Valley").
+
+townships_ranges_sections
+    Township, range, and section information in Public Land Survey System
+    (PLSS) format, if reported on the page (e.g., "T4N R26W S14").
+
+watersource_name
+    Name of the water body or feature as reported on the page — stream name,
+    well identifier, reservoir name, spring name, etc.
+
+actual_county
+    County name as explicitly stated on the page.
+
+inferred_county
+    County name inferred by LLM Phi-4 from context (location descriptions,
+    basin names, etc.) when not explicitly stated.
+
+dates_of_recording
+    Date range during which the data on the page was recorded, as extracted
+    from the page (e.g., "1956", "January–December 1959", "1920–1950").
+
+temporal_resolution
+    Frequency of measurements reported on the page (e.g., "daily", "monthly",
+    "annual", "instantaneous"). Empty if not determinable.
+
+units_of_measurement
+    Units in which the data values are expressed, as reported on the page
+    (e.g., "feet below land surface", "acre-feet", "cubic feet per second").
+
+water_type
+    Water category assigned by LLM Phi-4. One or more of: Stream Discharge,
+    Groundwater, Reservoir, Irrigation, Springs, Precipitation, Water Quality,
+    Not Water Related, Other.
+
+keyterms
+    Key terms and phrases identified by LLM Phi-4 as most relevant to the
+    page content. Stored as a Python list string (e.g., "['well', 'depth']").
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2 — USGS Publications Warehouse document-level fields (cols 17–73)
+Source: USGS_ID.xlsx export from pubs.usgs.gov
+These fields are the same for every page within the same document (same id).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+URL
+    Direct URL to the document on the USGS Publications Warehouse
+    (pubs.usgs.gov).
+
+Publication ID
+    Numeric USGS Publications Warehouse ID. Duplicates the id field for most
+    documents; included here as exported from the warehouse.
+
+Index ID
+    USGS alphanumeric series identifier assigned at publication time
+    (e.g., ofr5983, wsp1560a). Encodes the publication series and year.
+
+Publication type
+    Broad publication category as defined by USGS (e.g., "Report").
+
+Publication Subtype
+    More specific publication type (e.g., "Open-File Report",
+    "Water Supply Paper", "Professional Paper").
+
+Display title
+    Formatted title as displayed on the USGS Publications Warehouse page.
+
+Title
+    Full document title as cataloged (may differ slightly from Display title).
+
+Series title
+    Name of the USGS publication series (e.g., "Open-File Report",
+    "Water Supply Paper").
+
+Series number
+    Number within the series (e.g., "59-83", "1560-A").
+
+Subseries
+    Subseries designation, if applicable.
+
+Chapter
+    Chapter identifier within a multi-chapter publication, if applicable.
+
+Sub-chapter
+    Sub-chapter identifier, if applicable.
+
+ISSN (online)
+    International Standard Serial Number for the online version.
+
+ISSN (print)
+    International Standard Serial Number for the print version.
+
+ISBN
+    International Standard Book Number, if assigned.
+
+DOI
+    Digital Object Identifier (e.g., 10.3133/ofr5983).
+
+Edition
+    Edition number or descriptor, if applicable.
+
+Volume
+    Volume number for serial publications, if applicable.
+
+Issue
+    Issue number, if applicable.
+
+Year Published
+    Four-digit year the document was published.
+
+No Year Published
+    Flag indicating whether a publication year is unknown (TRUE/FALSE).
+
+Language
+    Language of the document (typically "English").
+
+Publisher
+    Publishing organization (typically "U.S. Geological Survey").
+
+Publisher location
+    City and state of the publisher.
+
+Contributing office(s)
+    USGS office(s) that produced the report.
+
+Description
+    Abstract or brief description of the document content.
+
+Larger Work Type
+    Type of the larger work this document is part of, if applicable.
+
+Larger Work Subtype
+    Subtype of the larger work, if applicable.
+
+Larger Work Title
+    Title of the larger work (e.g., journal or book title), if applicable.
+
+First page
+    First page number of this document within a larger work, if applicable.
+
+Last page
+    Last page number within a larger work, if applicable.
+
+Number of Pages
+    Total page count of the document.
+
+Public Comments
+    Any public-facing notes or comments added to the warehouse record.
+
+Time Range Start
+    Earliest date of the data covered in the document (YYYY or YYYY-MM-DD).
+
+Time Range End
+    Latest date of the data covered in the document (YYYY or YYYY-MM-DD).
+
+Conference Title
+    Title of conference, if this is a conference paper.
+
+Conference Location
+    Location of conference, if applicable.
+
+Conference Date
+    Date of conference, if applicable.
+
+Country
+    Country where the study was conducted (typically "United States").
+
+State
+    U.S. state(s) where the study was conducted (typically "California").
+
+County
+    County or counties covered by the document, as cataloged in the warehouse.
+
+City
+    City or cities referenced in the document.
+
+Other Geospatial
+    Additional geographic descriptors not captured by other fields.
+
+Datum
+    Geodetic datum used for any spatial data in the document, if specified.
+
+Author(s)
+    Full name(s) of author(s), semicolon-separated.
+
+Editor(s)
+    Full name(s) of editor(s), if applicable.
+
+Compiler(s)
+    Full name(s) of compiler(s), if applicable.
+
+Number of Links
+    Count of hyperlinks associated with the warehouse record.
+
+ScienceBase URI
+    URI for the document's record in USGS ScienceBase.
+
+CHORUS DOI
+    DOI registered with CHORUS (Clearinghouse for the Open Research of the
+    United States), if applicable.
+
+CHORUS URL
+    URL registered with CHORUS, if applicable.
+
+CHORUS Publisher
+    Publisher name as recorded in CHORUS.
+
+CHORUS Authors
+    Author list as recorded in CHORUS.
+
+CHORUS Journal Name
+    Journal name as recorded in CHORUS, if applicable.
+
+CHORUS Publication Date
+    Publication date as recorded in CHORUS.
+
+CHORUS Audited On
+    Date the CHORUS record was last audited.
+
+CHORUS Publicly Accessible Date
+    Date the document became publicly accessible per CHORUS.

@@ -70,16 +70,19 @@ usgs_extract/
 │   └── digitization_intermediates/
 │       ├── 01_download_and_preprocess/
 │       │   └── publication_list.csv     ← canonical 1,042-doc input (from USGS_ID.xlsx crosswalk)
-│       └── 02_table_detection/
-│           └── validation/
-│               ├── groundwater_table_pages.xlsx        ← human-curated ground truth (page ranges)
-│               ├── groundwater_table_pages_expanded.csv ← same, expanded to one row per page
-│               (MISSING: script that did range expansion)
-│               (MISSING: detection scores from validation run — the 79% recall figure)
-│               (MISSING: production detection results for all CA docs — ran on HPC, not preserved)
+│       ├── 02_table_detection/
+│       │   └── validation/
+│       │       ├── groundwater_table_pages.xlsx        ← human-curated ground truth (page ranges)
+│       │       ├── groundwater_table_pages_expanded.csv ← same, expanded to one row per page
+│       │       (MISSING: script that did range expansion)
+│       │       (MISSING: detection scores from validation run — the 79% recall figure)
+│       │       (MISSING: production detection results for all CA docs — ran on HPC, not preserved)
+│       └── 04_metadata_extraction/
+│           ├── lm_extracted_metadata.csv       ← LLM Phi-4 output, 16 fields, all docs including SB (111,752 rows)
+│           └── USGS_publication_metadata.xlsx  ← USGS Publications Warehouse export; doc-level fields joined into main_metadata.csv
 │
 ├── Data_Files/                        ← ALL digitized data lives here (Annette's side)
-│   ├── cleaned_metadata_final - Copy.csv  ← MASTER metadata table (key reference file)
+│   ├── cleaned_metadata_final - Copy.csv  ← raw main metadata table (source file, pre-join)
 │   ├── csv_row_counts.csv             ← estimated measurement counts per file
 │   ├── 2252_728 example/              ← TARGET OUTPUT FORMAT (see below)
 │   ├── ReductCSVs/                    ← 623 document ID subfolders → .csv files
@@ -148,7 +151,7 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 ### Step 1: Organize Final Data Output
 - Write a script to reorganize all files into the unified `{doc_id}/page_{N}/` structure
 - Extract metadata rows per page from `cleaned_metadata_final - Copy.csv` and save as individual CSVs
-- Join USGS document-level metadata from `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` into each per-page metadata CSV — the `id` column in the master metadata maps directly to the `Publication ID` column in `USGS_ID.xlsx`, which provides the USGS URL, Index ID (series), title, year, author, and ~55 additional document-level fields
+- Join USGS document-level metadata from `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` into each per-page metadata CSV — the `id` column in the main metadata maps directly to the `Publication ID` column in `USGS_ID.xlsx`, which provides the USGS URL, Index ID (series), title, year, author, and ~55 additional document-level fields
 - Handle the SB County data exception
 - Identify and document any doc IDs present in metadata but missing from data folders (or vice versa)
 
@@ -174,7 +177,8 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 
 | File | Purpose |
 |------|---------|
-| `Data_Files/cleaned_metadata_final - Copy.csv` | Master metadata; links every page to its doc ID, coordinates, water type, dates |
+| `Data_Files/cleaned_metadata_final - Copy.csv` | Raw main metadata (source, pre-join); links every page to its doc ID, coordinates, water type, dates |
+| `data/metadata/main_metadata.csv` | Comprehensive main metadata; all pages with LLM-extracted fields + USGS publication fields joined in |
 | `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` | ID crosswalk: maps project number ID (`Publication ID`) → USGS URL, Index ID, title, year, author, and ~55 document-level fields. 1,550 rows covering all documents. |
 | `data/digitization_intermediates/01_download_and_preprocess/publication_list.csv` | Canonical 1,042-doc input CSV for the download script; generated from USGS_ID.xlsx |
 | `data/digitization_intermediates/02_table_detection/validation/` | Ground truth for table detection validation (see note below) |

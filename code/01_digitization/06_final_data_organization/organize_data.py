@@ -17,12 +17,12 @@ Sources (relative to repo root):
     Metadata:  Data_Files/cleaned_metadata_final - Copy.csv
     Crosswalk: Chapter_2_USGS_Digitization/.../usgs_to_id/USGS_ID.xlsx
 
-Per-page metadata CSV contains all rows from the master metadata for that
+Per-page metadata CSV contains all rows from the main metadata for that
 (doc_id, page_number) pair, with USGS document-level fields (title, year,
 author, URL, etc.) joined from USGS_ID.xlsx via doc_id = Publication ID.
 
 Santa Barbara County data (updatedSB/Scanned_SB/ and Data_Files/Scanned_SB/)
-uses a different naming convention and is not included in the master metadata.
+uses a different naming convention and is not included in the main metadata.
 It is excluded here and flagged in the log for separate handling.
 
 Usage:
@@ -72,7 +72,7 @@ SB_PREFIXES = ("sb",)
 
 
 def load_metadata(path: Path) -> dict:
-    """Return dict: (doc_id, page_num) -> list of row dicts from master metadata CSV."""
+    """Return dict: (doc_id, page_num) -> list of row dicts from main metadata CSV."""
     meta = defaultdict(list)
     with open(path, encoding="utf-8") as f:
         for row in csv.DictReader(f):
@@ -135,7 +135,7 @@ def main() -> None:
     if dry:
         print("DRY RUN — no files will be copied.\n")
 
-    print("Loading master metadata...", flush=True)
+    print("Loading main metadata...", flush=True)
     meta_lookup = load_metadata(METADATA_CSV)
 
     print("Loading USGS crosswalk...", flush=True)
@@ -220,7 +220,7 @@ def main() -> None:
                 log_lines.append(f"WARN  {doc_id}: ReductCSVs folder not found")
                 stats["docs_no_csv_folder"] += 1
 
-            # Per-page metadata CSV: master metadata rows + USGS doc-level fields
+            # Per-page metadata CSV: main metadata rows + USGS doc-level fields
             meta_rows = meta_lookup.get((doc_id, page_num), [])
             if meta_rows:
                 page_fields = list(meta_rows[0].keys())
@@ -237,7 +237,7 @@ def main() -> None:
                             writer.writerow({**r, **usgs_row})
             else:
                 log_lines.append(
-                    f"INFO  {doc_id}/page_{page_num}: no rows in master metadata CSV"
+                    f"INFO  {doc_id}/page_{page_num}: no rows in main metadata CSV"
                 )
                 stats["pages_missing_metadata"] += 1
 
