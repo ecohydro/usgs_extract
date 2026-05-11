@@ -19,8 +19,7 @@ usgs_extract/
 │   │   │   ├── reducto/               ← Reducto.ai digitization scripts (final pipeline)
 │   │   │   └── validation/            ← accuracy evaluation of OCR outputs
 │   │   ├── 04_metadata_extraction/
-│   │   │   ├── 01_extract_metadata.py ← LLM (Phi-4) metadata extraction via UCSB HPC API
-│   │   │   └── validation/            ← MISSING: accuracy evaluation of extracted metadata
+│   │   │   └── 01_extract_metadata.py ← LLM (Phi-4) metadata extraction via UCSB HPC API
 │   │   └── 05_final_data_organization/ ← scripts to reorganize outputs into final per-page structure
 │   ├── 02_hydroshare/                 ← scripts to package data for HydroShare upload
 │   ├── 03_inventory/                  ← data inventory notebooks and summary figures
@@ -160,4 +159,4 @@ Requires per-page Reducto JSON files (one file per page, named `{doc_id}_page_{N
 
 Output CSV matches the column schema of `cleaned_metadata_final - Copy.csv`: `ID, PAGE_NUMBER, Inferred_Latitude, Inferred_Longitude, Actual_Latitude, Actual_Longitude, Location, Townships_Ranges_Sections, Watersource_Name, County, Dates_of_Recording, Temporal_Resolution, Units_Of_Measurement, Water_Type, KeyTerms`.
 
-Validation data is in `Chapter_2_USGS_Digitization/Literature-Data Review/LLM-Metadata Testing/Accuracy evaluation/`. A script to compute accuracy against that ground truth is **missing**.
+The validation against 3 different test sets was done manually in excel. These excel files can be found in `data/digitization_intermediates/04_metadata_extraction. 
