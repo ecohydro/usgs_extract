@@ -53,70 +53,87 @@ usgs_extract/
 ├── README.md                          ← target repo structure + quickstart for each pipeline step
 ├── Hilton_Dissertation_USGSDig.docx   ← Chapter 2 draft (primary reference)
 │
-├── manuscript/                        ← placeholder for dissertation, methods report, supplementary materials
+├── manuscript/
+│   └── figures/                       ← all publication figures output here by notebooks
 │
 ├── code/
-│   └── 01_digitization/
-│       ├── 01_download_and_preprocess/  ← COMPLETE
-│       │   ├── 01_download.py           ← scrapes USGS pub pages and downloads PDFs
-│       │   ├── 02_verify.py             ← checks downloads against publication list
-│       │   ├── 03_preprocess.py         ← converts PDFs → grayscale PNGs at 300 DPI
-│       │   ├── usgs_publications_search.md         ← how to reproduce the USGS search
-│       │   └── usgs_publications_warehouse_job_aid.docx  ← interface walkthrough
-│       └── 02_table_detection/          ← COMPLETE (workflow); validation script MISSING
-│           └── 01_detect.py             ← runs Table Transformer, writes detections CSV
+│   ├── 01_digitization/
+│   │   ├── 01_download_and_preprocess/  ← COMPLETE
+│   │   │   ├── 01_download.py
+│   │   │   ├── 02_verify.py
+│   │   │   └── 03_preprocess.py
+│   │   ├── 02_table_detection/          ← COMPLETE (workflow); validation script MISSING
+│   │   │   └── 01_detect.py
+│   │   ├── 03_ocr/                      ← Reducto (final) + PaddleOCR (tested, not used)
+│   │   └── 04_metadata_extraction/
+│   │       ├── 01_extract_metadata.py   ← LLM (Phi-4) extraction via UCSB HPC API
+│   │       └── 02_validate_accuracy.ipynb ← produces manuscript/figures/metadata_accuracy.png
+│   ├── 03_inventory/                    ← data inventory notebooks (all manuscript figures)
+│   │   ├── water_palette.py             ← shared colorblind-safe color mapping
+│   │   ├── 00_data_prep.ipynb           ← clean main_metadata.csv → data/analysis/processed_metadata.parquet
+│   │   ├── 01_measurements_by_type.ipynb ← Fig 7: measurements by water type × decade
+│   │   ├── 02_spatial_overview.ipynb    ← Fig 8: USA map; Fig 9: CA map; Fig 10: CA by decade
+│   │   ├── 03_santa_barbara.ipynb       ← Figs 11–18: SB county coverage + NWIS comparison
+│   │   └── 04_santa_ynez.ipynb          ← Fig 19, Tables 7–9: Santa Ynez stream order analysis
+│   └── 04_vignettes/                    ← future hydrological analyses (empty for now)
 │
 ├── data/
+│   ├── digitized/                       ← final organized output, one folder per doc/page
+│   ├── metadata/
+│   │   ├── main_metadata.csv            ← comprehensive metadata: LLM fields + USGS pub fields joined
+│   │   └── metadata_key.txt             ← column descriptions
+│   ├── analysis/
+│   │   ├── csv_row_counts.csv           ← estimated measurement counts per page/table
+│   │   ├── processed_metadata.parquet   ← output of 00_data_prep.ipynb (parsed dates, clean types)
+│   │   └── spatial/
+│   │       ├── ca_shapefile/ca_poly.shp
+│   │       ├── sb_county_shapefile/sb_county_shp.shp
+│   │       ├── usa_shapefile/CUSA_States.shp
+│   │       ├── santaynezhuc8/santaynez.shp  ← Santa Ynez HUC8 watershed boundary
+│   │       ├── rivers/StreamsandRivers_Clip.shp
+│   │       ├── lakes/chap2map.gdb            ← National Wetlands Inventory (GDB format)
+│   │       └── streamprox/streamprox_santaynez.txt ← pre-computed stream order proximity
+│   │   └── nwis_sites/sb_county_usgs/       ← NWIS site ID reference files for SB county
 │   └── digitization_intermediates/
 │       ├── 01_download_and_preprocess/
-│       │   └── publication_list.csv     ← canonical 1,042-doc input (from USGS_ID.xlsx crosswalk)
+│       │   └── publication_list.csv
 │       ├── 02_table_detection/
 │       │   └── validation/
-│       │       ├── groundwater_table_pages.xlsx        ← human-curated ground truth (page ranges)
-│       │       ├── groundwater_table_pages_expanded.csv ← same, expanded to one row per page
-│       │       (MISSING: script that did range expansion)
-│       │       (MISSING: detection scores from validation run — the 79% recall figure)
-│       │       (MISSING: production detection results for all CA docs — ran on HPC, not preserved)
+│       │       ├── groundwater_table_pages.xlsx
+│       │       ├── groundwater_table_pages_expanded.csv
+│       │       (MISSING: validation run output — 79% recall figure not preserved)
 │       └── 04_metadata_extraction/
-│           ├── lm_extracted_metadata.csv       ← LLM Phi-4 output, 16 fields, all docs including SB (111,752 rows)
-│           └── USGS_publication_metadata.xlsx  ← USGS Publications Warehouse export; doc-level fields joined into main_metadata.csv
+│           ├── lm_extracted_metadata.csv
+│           ├── USGS_publication_metadata.xlsx
+│           └── validation/
+│               ├── validation_curated_135.xlsx
+│               ├── validation_random_135.xlsx
+│               ├── validation_edge_cases_15.xlsx
+│               ├── test_set_cat_grades.xlsx   ← per-category accuracy (input to 02_validate_accuracy.ipynb)
+│               ├── test_set_indiv_grades.xlsx ← per-entry accuracy (input to 02_validate_accuracy.ipynb)
+│               └── jsons/                     ← 260 per-page Reducto JSONs for validation sets
 │
-├── Data_Files/                        ← ALL digitized data lives here (Annette's side)
-│   ├── cleaned_metadata_final - Copy.csv  ← raw main metadata table (source file, pre-join)
-│   ├── csv_row_counts.csv             ← estimated measurement counts per file
-│   ├── 2252_728 example/              ← TARGET OUTPUT FORMAT (see below)
+├── Data_Files/                        ← ALL digitized data lives here (Annette's side; pre-organization)
+│   ├── cleaned_metadata_final - Copy.csv  ← raw main metadata (pre-join source)
+│   ├── csv_row_counts.csv
+│   ├── 2252_728 example/              ← reference example of target output format
 │   ├── ReductCSVs/                    ← 623 document ID subfolders → .csv files
 │   ├── ReductJson/                    ← 623 document ID subfolders → .json files
 │   ├── UpdatedDataDec/                ← 353 document ID subfolders → .png files
 │   └── UpdatedDataJan/                ← 287 document ID subfolders → .png files
 │
-├── Chapter_2_USGS_Digitization/       ← Project documents, legacy code, manuscript
+├── Chapter_2_USGS_Digitization/       ← project documents, legacy code, manuscript drafts
 │   ├── Manuscript/
-│   │   ├── Methods Report.docx, Supplementary Information.docx, Extra Text.docx
-│   ├── Yibo Results/                  ← LLM metadata extraction code (iterative runs)
-│   │   ├── Sample Table Column Detection/   ← PaddleOCR / column detection (abandoned)
-│   │   ├── May 27 2025 R4-6/api_run.py     ← UCSB HPC LLM API calls (llama3, deepseek-r1)
-│   │   ├── June 2025/                 ← latest LLM metadata runs
-│   │   ├── hasTable.csv               ← ground truth pages expanded from xlsx (see note below)
-│   │   └── filtered USGS Groundwater Data Tables & Pages.xlsx  ← human-curated ground truth
-│   ├── Literature-Data Review/
-│   │   ├── LLM-Metadata Testing/Accuracy evaluation/  ← final accuracy methods and results
-│   │   ├── Edited USGS Data Pulls/    ← cleaned document lists
-│   │   └── Raw USGS Data Pulls/       ← raw USGS Publications Warehouse exports
-│   └── Validation Data Sets (Hilton and Jasechko, 2023)/
+│   ├── Yibo Results/                  ← LLM metadata extraction iterative runs
+│   └── Literature-Data Review/
 │
-├── jupyter_notebooks/                 ← analysis, inventory, and vignette notebooks
-│   ├── working_datacrunch.ipynb       ← core data processing / merging
-│   ├── measurements_bytype.ipynb, summary_figs.ipynb, ca_maps.ipynb, usa_maps.ipynb
-│   ├── santabarbara.ipynb, sb_usgs_gw.ipynb, sb_usgs_streamflow.ipynb
-│   ├── santaynez_final.ipynb          ← finalized Santa Ynez vignette (paper figure)
-│   ├── water_palette.py, artifacts_io.py  ← shared utilities
-│   └── archived_notebooks/            ← superseded versions
+├── jupyter_notebooks/                 ← exploratory/working notebooks (not publication notebooks)
+│   ├── working_datacrunch.ipynb       ← original data processing (superseded by 00_data_prep.ipynb)
+│   ├── archived_notebooks/
+│   └── [other exploratory notebooks]
 │
 └── legacy_ocr/                        ← original nbdev package (superseded by code/)
-    ├── usgs_extract/model.py          ← Table Transformer logic (source for 01_detect.py)
-    ├── usgs_extract/tableBbox.py      ← bbox visualization (may be useful for validation)
-    └── 04_model.ipynb                 ← development notebook showing full detection pipeline
+    └── usgs_extract/model.py
 ```
 
 ---
@@ -156,15 +173,90 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 - Create upload-ready copies of grouped data
 - May need to compress or chunk large groups
 
-### Step 3: Data Inventory (Notebooks)
-- Notebooks already exist (`measurements_bytype.ipynb`, `summary_figs.ipynb`, `ca_maps.ipynb`, `usa_maps.ipynb`)
-- Need to: identify which are final/publication-ready vs. exploratory, consolidate duplicates, ensure reproducibility from the cleaned metadata CSV
+### Step 3: Data Inventory (Notebooks) — COMPLETE
+All publication figures are implemented in `code/03_inventory/`. Run notebooks in order (00 → 04); all figures save to `manuscript/figures/`.
 
-### Step 4: Hydrological Research Vignettes
-- Santa Barbara County analysis exists (`santabarbara.ipynb`, `sb_usgs_gw.ipynb`, `sb_usgs_streamflow.ipynb`)
-- Santa Ynez River analysis exists (`santaynez_final.ipynb`)
-- Potential larger-scale analyses (e.g., streamflow change across California over decades) require data cleaning/normalization across tables — challenging due to inconsistent formats
-- Approach: start with a single water category (e.g., stream discharge) and a limited set of well-structured sites before scaling
+- `00_data_prep.ipynb` — parses `data/metadata/main_metadata.csv`, cleans water types, parses dates, joins row counts; outputs `data/analysis/processed_metadata.parquet`
+- `01_measurements_by_type.ipynb` — Fig 7: measurements by water type × decade
+- `02_spatial_overview.ipynb` — Figs 8–10: USA and California maps
+- `03_santa_barbara.ipynb` — Figs 11–18: SB county coverage + NWIS groundwater/stream discharge comparison
+- `04_santa_ynez.ipynb` — Fig 19, Tables 7–9: Santa Ynez stream order analysis
+
+Metadata accuracy figure (Fig 5) is in `code/01_digitization/04_metadata_extraction/02_validate_accuracy.ipynb`.
+
+### Step 4: Hydrological Research Vignettes — FUTURE
+`code/04_vignettes/` is reserved for future analyses that do hydrological research with the restored data. Two directions have been identified as high-priority; see the **Potential Hydrological Research Directions** section below for details.
+
+---
+
+## Potential Hydrological Research Directions
+
+These are candidate scientific contributions that use the restored data for original hydrological analysis, not just data description. Both focus on stream discharge because it is by far the largest category (84,634 tables, ~2.2M measurements). Key metadata facts relevant to both directions:
+
+- ~76% of stream discharge rows have CFS-family units (second-feet, sec.-ft., cfs, cubic feet per second — all the same unit and trivially normalized)
+- The LLM extracted per-column unit mappings as dict strings (e.g., `{'Discharge': 'cfs', 'Gage_Height': 'feet'}`), which identify the relevant column before the CSV is opened
+- ~50% of stream discharge rows (~38,000) are daily CFS records across 8,270 unique sites and 219 documents
+- 17,557 rows have data starting at or before 1920 (83% in CFS units), spanning 5,098 unique sites
+
+**Prerequisite for both:** The actual table CSVs (`Data_Files/ReductCSVs/`) must be accessible. First step once files are reachable: sample ~50 stream discharge CSVs to understand how Reducto rendered the classic USGS day-row × month-column table structure.
+
+---
+
+### Direction A: Pre-dam Hydrology
+
+**Scientific motivation:** California's major dams fundamentally altered river hydrology, but pre-dam streamflow records are almost entirely absent from digital databases. NWIS stream records in Santa Barbara County don't begin until 1940; most other CA rivers are similar. Even a handful of pre-dam annual peak or mean flow values at a site would be novel and scientifically useful for flood frequency analysis, environmental flow standards, and dam impact studies.
+
+**Key dam dates for California:**
+- Gibraltar Dam (Santa Ynez River): 1920
+- Jameson Reservoir (Santa Ynez): 1930
+- Friant Dam (San Joaquin River): 1942
+- Shasta Dam (Sacramento River): 1945
+- Cachuma Reservoir (Santa Ynez): 1953
+- Folsom Dam (American River): 1956
+- Oroville Dam (Feather River): 1968
+
+**Why this dataset is promising:** 17,557 restored stream discharge rows start at or before 1920; 1,842 annual summary rows start before 1920 across 3,566 unique source sites. Annual tables (one row = one year's mean or peak) are the simplest format to parse and the most directly useful for this analysis.
+
+**Challenges and open questions:**
+- CSV files not currently locally accessible — need `Data_Files/` mounted or transferred
+- USGS daily tables use a day-row × month-column grid; Reducto's CSV output for this structure is unknown until files are sampled
+- Annual summary tables are simpler but still need column identification (headers vary: "Mean", "Annual discharge", "Second-feet", etc.)
+- Some "pre-dam" records may be from diversions, canals, or regulated reaches — not natural flow; need to flag these
+- Location precision: coordinates may be coarse (township/range inferred), making watershed assignment uncertain for some sites
+- Need to check whether any restored site names match NWIS station IDs, enabling cross-validation during the 1940–1980 overlap period
+- Verify which specific rivers are best represented in pre-1920 data before committing to a study area
+
+**Suggested first steps:**
+1. Filter metadata to stream discharge + CFS + annual temporal resolution + start year ≤ 1945
+2. Sample 20–30 of those CSVs to understand column structure
+3. Identify a focal river or small set of rivers with the most pre-dam site coverage
+4. Build cross-validation using 1940–1980 overlap with NWIS to establish data quality
+
+---
+
+### Direction B: Streamflow Permanence / Intermittency Mapping
+
+**Scientific motivation:** Whether a stream reach is perennial, intermittent, or ephemeral matters for ecology, water rights, and land management — but historical permanence is poorly characterized. Even a single flow measurement at a site in a given year establishes that the stream was flowing. With 2,516 restored stream discharge sites in Santa Barbara County alone (vs. 21 NWIS sites), the spatial resolution of this dataset is extraordinary for historical mapping.
+
+**Why this is robust to data quality issues:** The analysis asks a binary question — was there flow? — rather than requiring precise discharge values. Unit normalization is largely irrelevant. Digitization errors (misread digits) rarely convert actual flow to zero. Location imprecision at stream-reach scale is acceptable. This makes the analysis far more tolerant of the messiness inherent in historical data.
+
+**Potential scientific questions:**
+- How have perennial reach lengths changed across California between the 1900s and 1980?
+- Do wet decades (e.g., 1905, 1938, 1969 flood years) show markedly more flowing reaches than dry decades (1924, 1934, 1977)?
+- Has groundwater pumping or land use change caused historically perennial reaches to become intermittent?
+
+**Challenges and open questions:**
+- Need to distinguish zero-flow records (actual dry conditions) from missing/null values (measurement not taken) — these look the same in a sparse CSV
+- Many sites may have only 1–3 years of data; not enough to establish reliable permanence status without careful uncertainty handling
+- Seasonal coverage matters: a site measured only in February tells you less about permanence than one measured in August; need to check seasonal distribution of measurements
+- Sites will need to be matched to NHD stream segments for spatial analysis; coordinate precision determines how well this works
+- Temporal distribution of the dataset skews toward later decades (1940–1980); pre-1940 coverage may be too sparse for decade-by-decade comparison in most regions
+- Need to review existing intermittency datasets (e.g., EPA StreamStats, state stream classifications) to frame the comparison
+
+**Suggested first steps:**
+1. Using metadata only (no CSV parsing needed): map all stream discharge sites by decade and season of measurement to assess temporal/spatial coverage
+2. Identify regions and time periods with enough site density for a meaningful permanence analysis
+3. For the "flow or no flow" question, a simple check of whether any CSV cell is nonzero is sufficient — write a lightweight script that doesn't need to parse the full table structure
 
 ---
 
@@ -180,8 +272,14 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 | `Data_Files/2252_728 example/` | Reference example of target output folder structure |
 | `Hilton_Dissertation_USGSDig.docx` | Full paper draft — authoritative description of all methods and results |
 | `Chapter_2_USGS_Digitization/Yibo Results/May 27 2025 R4-6/api_run.py` | Core LLM metadata extraction script (calls UCSB HPC API: llama3 + deepseek-r1) |
-| `jupyter_notebooks/working_datacrunch.ipynb` | Core data processing / merging notebook |
-| `jupyter_notebooks/santaynez_final.ipynb` | Finalized Santa Ynez vignette |
+| `code/03_inventory/00_data_prep.ipynb` | Loads and cleans main_metadata.csv → processed_metadata.parquet |
+| `code/03_inventory/01_measurements_by_type.ipynb` | Fig 7: measurements by type and decade |
+| `code/03_inventory/02_spatial_overview.ipynb` | Figs 8–10: USA and California maps |
+| `code/03_inventory/03_santa_barbara.ipynb` | Figs 11–18: Santa Barbara County coverage and NWIS comparison |
+| `code/03_inventory/04_santa_ynez.ipynb` | Fig 19, Tables 7–9: Santa Ynez stream order analysis |
+| `code/01_digitization/04_metadata_extraction/02_validate_accuracy.ipynb` | Fig 5: metadata accuracy by category and test set |
+| `data/analysis/processed_metadata.parquet` | Cleaned, parsed metadata output of 00_data_prep — input to all other inventory notebooks |
+| `data/analysis/spatial/` | Shapefiles for CA, SB county, USA states, Santa Ynez HUC8, rivers, lakes |
 | `legacy_ocr/usgs_extract/tableBbox.py` | Bbox visualization — may be useful when writing the validation script |
 | `Chapter_2_USGS_Digitization/Literature-Data Review/LLM-Metadata Testing/Accuracy evaluation/` | Human accuracy evaluation docs and methods |
 
