@@ -50,92 +50,72 @@ Stream Discharge, Groundwater, Reservoir, Irrigation, Springs, Precipitation, Wa
 ```
 usgs_extract/
 ├── CLAUDE.md                          ← this file
+├── README.md                          ← target repo structure + quickstart for each pipeline step
 ├── Hilton_Dissertation_USGSDig.docx   ← Chapter 2 draft (primary reference)
 │
-├── Data_Files/                        ← ALL digitized data lives here
+├── manuscript/                        ← placeholder for dissertation, methods report, supplementary materials
+│
+├── code/
+│   └── 01_digitization/
+│       ├── 01_download_and_preprocess/  ← COMPLETE
+│       │   ├── 01_download.py           ← scrapes USGS pub pages and downloads PDFs
+│       │   ├── 02_verify.py             ← checks downloads against publication list
+│       │   ├── 03_preprocess.py         ← converts PDFs → grayscale PNGs at 300 DPI
+│       │   ├── usgs_publications_search.md         ← how to reproduce the USGS search
+│       │   └── usgs_publications_warehouse_job_aid.docx  ← interface walkthrough
+│       └── 02_table_detection/          ← COMPLETE (workflow); validation script MISSING
+│           └── 01_detect.py             ← runs Table Transformer, writes detections CSV
+│
+├── data/
+│   └── digitization_intermediates/
+│       ├── 01_download_and_preprocess/
+│       │   └── publication_list.csv     ← canonical 1,042-doc input (from USGS_ID.xlsx crosswalk)
+│       └── 02_table_detection/
+│           └── validation/
+│               ├── groundwater_table_pages.xlsx        ← human-curated ground truth (page ranges)
+│               ├── groundwater_table_pages_expanded.csv ← same, expanded to one row per page
+│               (MISSING: script that did range expansion)
+│               (MISSING: detection scores from validation run — the 79% recall figure)
+│               (MISSING: production detection results for all CA docs — ran on HPC, not preserved)
+│
+├── Data_Files/                        ← ALL digitized data lives here (Annette's side)
 │   ├── cleaned_metadata_final - Copy.csv  ← MASTER metadata table (key reference file)
 │   ├── csv_row_counts.csv             ← estimated measurement counts per file
 │   ├── 2252_728 example/              ← TARGET OUTPUT FORMAT (see below)
-│   │   ├── 2252_page_728.json
-│   │   ├── 2252_page_728.png
-│   │   ├── 2252_page_728_table1.csv
-│   │   └── 2252_page_728_table2.csv
-│   │   (missing: metadata CSV for this page — still to be added)
 │   ├── ReductCSVs/                    ← 623 document ID subfolders → .csv files
-│   │   └── {doc_id}/
-│   │       └── {doc_id}_page_{N}_table{M}.csv
 │   ├── ReductJson/                    ← 623 document ID subfolders → .json files
-│   │   └── {doc_id}/
-│   │       └── {doc_id}_page_{N}.json
 │   ├── UpdatedDataDec/                ← 353 document ID subfolders → .png files
 │   ├── UpdatedDataJan/                ← 287 document ID subfolders → .png files
-│   ├── updatedSB/
-│   │   └── Scanned_SB/               ← Santa Barbara County .csv + .json files
-│   │       └── {70300001_pageN.csv, ...}  (different naming convention)
+│   ├── updatedSB/Scanned_SB/          ← Santa Barbara County .csv + .json (different naming)
 │   └── Scanned_SB/                   ← (duplicate/legacy SB folder at top level)
 │
-├── Chapter_2_USGS_Digitization/       ← Project documents, code, manuscript
+├── Chapter_2_USGS_Digitization/       ← Project documents, legacy code, manuscript
 │   ├── Manuscript/
-│   │   ├── Methods Report.docx        ← detailed methods
-│   │   ├── Supplementary Information.docx
-│   │   └── Extra Text.docx
-│   ├── Figures/
-│   │   └── example_tables/            ← example table images for figures
-│   ├── Yibo Results/                  ← LLM metadata extraction code (iterative)
-│   │   ├── Sample Table Column Detection/   ← PaddleOCR / column detection scripts
-│   │   │   ├── extractTable.py, image.py, table.py, utilities.py
-│   │   │   └── ColumnDetection.ipynb, paddle.ipynb
-│   │   ├── Working Example for Annette JSON_CSV_HTML/
-│   │   │   └── Scripts/json_csv.py, reconstruct_bbox.py
-│   │   ├── JSON Context Extraction PoC/    ← proof-of-concept LLM extraction
-│   │   ├── May 27 2025 R4-6/          ← iteration of LLM metadata runs
-│   │   │   └── api_run.py             ← calls UCSB LLM API (llama3, deepseek-r1)
+│   │   ├── Methods Report.docx, Supplementary Information.docx, Extra Text.docx
+│   ├── Yibo Results/                  ← LLM metadata extraction code (iterative runs)
+│   │   ├── Sample Table Column Detection/   ← PaddleOCR / column detection (abandoned)
+│   │   ├── May 27 2025 R4-6/api_run.py     ← UCSB HPC LLM API calls (llama3, deepseek-r1)
 │   │   ├── June 2025/                 ← latest LLM metadata runs
-│   │   │   ├── shortlist/, longlist/, henderson list/, run4v1_062524/, run4v1_062525_2/
-│   │   ├── Final Test Sets/
-│   │   ├── hasTable.csv               ← table detection results
-│   │   └── filtered USGS Groundwater Data Tables & Pages.xlsx
+│   │   ├── hasTable.csv               ← ground truth pages expanded from xlsx (see note below)
+│   │   └── filtered USGS Groundwater Data Tables & Pages.xlsx  ← human-curated ground truth
 │   ├── Literature-Data Review/
-│   │   ├── LLM-Metadata Testing/      ← accuracy evaluation, test sets, reviewer comments
-│   │   │   ├── Accuracy evaluation/   ← final accuracy methods and results docs
-│   │   │   ├── LLM Runs/              ← archived run zip files
-│   │   │   ├── Parameters & Runs/     ← run notes, water category terms
-│   │   │   └── {AH, HV, LBL} Comments-Review/  ← human reviewer feedback
+│   │   ├── LLM-Metadata Testing/Accuracy evaluation/  ← final accuracy methods and results
 │   │   ├── Edited USGS Data Pulls/    ← cleaned document lists
-│   │   ├── Raw USGS Data Pulls/       ← raw USGS Publications Warehouse exports
-│   │   └── Specific Notes from Luma/ ← workflow documentation from collaborator
-│   ├── Logistical Documents/          ← team docs, collaboration compact, passwords
-│   ├── Old Meeting Agendas/
+│   │   └── Raw USGS Data Pulls/       ← raw USGS Publications Warehouse exports
 │   └── Validation Data Sets (Hilton and Jasechko, 2023)/
 │
 ├── jupyter_notebooks/                 ← analysis, inventory, and vignette notebooks
 │   ├── working_datacrunch.ipynb       ← core data processing / merging
-│   ├── working_datacrunch_sbaddition.ipynb  ← adds SB county data
-│   ├── measurements_bytype.ipynb      ← data inventory by water type
-│   ├── summary_figs.ipynb             ← summary figures
-│   ├── ca_maps.ipynb                  ← California spatial maps
-│   ├── usa_maps.ipynb                 ← national spatial maps
-│   ├── accuracy_grades.ipynb          ← LLM accuracy evaluation
-│   ├── csv_estimates.ipynb            ← measurement count estimates
-│   ├── santabarbara.ipynb             ← Santa Barbara County analysis
-│   ├── santabarbara_v2maps.ipynb      ← SB maps v2
-│   ├── sb_usgs_gw.ipynb               ← SB groundwater vs NWIS
-│   ├── sb_usgs_streamflow.ipynb       ← SB stream discharge vs NWIS
-│   ├── santaynez_final.ipynb          ← Santa Ynez River analysis (paper figure)
-│   ├── santaynez_analysis*.ipynb      ← iterations of Santa Ynez analysis
-│   ├── water_palette.py               ← shared color palette for water categories
-│   ├── artifacts_io.py                ← shared artifact I/O utilities
-│   ├── archived_notebooks/            ← superseded notebook versions
-│   ├── data/                          ← spatial data (GDB files for lakes/rivers, SB USGS data)
-│   ├── code/                          ← helper scripts (GeoLocateTemp/)
-│   ├── output/, plots/, exports/      ← notebook output directories
-│   └── artifacts/                     ← saved analysis artifacts
+│   ├── measurements_bytype.ipynb, summary_figs.ipynb, ca_maps.ipynb, usa_maps.ipynb
+│   ├── santabarbara.ipynb, sb_usgs_gw.ipynb, sb_usgs_streamflow.ipynb
+│   ├── santaynez_final.ipynb          ← finalized Santa Ynez vignette (paper figure)
+│   ├── water_palette.py, artifacts_io.py  ← shared utilities
+│   └── archived_notebooks/            ← superseded versions
 │
-└── legacy_ocr/                        ← original Python package (nbdev) for table detection
-    ├── usgs_extract/                  ← package source (model.py loads Table Transformer)
-    ├── nbs/                           ← development notebooks
-    ├── 01_utilities.ipynb through 04_model.ipynb  ← nbdev source notebooks
-    └── scrapper/getpdf.py             ← PDF download script
+└── legacy_ocr/                        ← original nbdev package (superseded by code/)
+    ├── usgs_extract/model.py          ← Table Transformer logic (source for 01_detect.py)
+    ├── usgs_extract/tableBbox.py      ← bbox visualization (may be useful for validation)
+    └── 04_model.ipynb                 ← development notebook showing full detection pipeline
 ```
 
 ---
@@ -196,13 +176,24 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 |------|---------|
 | `Data_Files/cleaned_metadata_final - Copy.csv` | Master metadata; links every page to its doc ID, coordinates, water type, dates |
 | `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` | ID crosswalk: maps project number ID (`Publication ID`) → USGS URL, Index ID, title, year, author, and ~55 document-level fields. 1,550 rows covering all documents. |
+| `data/digitization_intermediates/01_download_and_preprocess/publication_list.csv` | Canonical 1,042-doc input CSV for the download script; generated from USGS_ID.xlsx |
+| `data/digitization_intermediates/02_table_detection/validation/` | Ground truth for table detection validation (see note below) |
 | `Data_Files/2252_728 example/` | Reference example of target output folder structure |
 | `Hilton_Dissertation_USGSDig.docx` | Full paper draft — authoritative description of all methods and results |
 | `Chapter_2_USGS_Digitization/Yibo Results/May 27 2025 R4-6/api_run.py` | Core LLM metadata extraction script (calls UCSB HPC API: llama3 + deepseek-r1) |
 | `jupyter_notebooks/working_datacrunch.ipynb` | Core data processing / merging notebook |
 | `jupyter_notebooks/santaynez_final.ipynb` | Finalized Santa Ynez vignette |
-| `legacy_ocr/usgs_extract/model.py` | Loads Microsoft Table Transformer for table detection |
+| `legacy_ocr/usgs_extract/tableBbox.py` | Bbox visualization — may be useful when writing the validation script |
 | `Chapter_2_USGS_Digitization/Literature-Data Review/LLM-Metadata Testing/Accuracy evaluation/` | Human accuracy evaluation docs and methods |
+
+### Note on table detection ground truth files
+
+`Chapter_2_USGS_Digitization/Yibo Results/hasTable.csv` and `filtered USGS Groundwater Data Tables & Pages.xlsx` are **not** detection output — they are the **validation ground truth**:
+
+- `filtered USGS Groundwater Data Tables & Pages.xlsx` — human-curated list of documents known to have groundwater tables, with page ranges hand-entered (`"88–99"`, `"throughout"`, etc.). 3,053 unique pub IDs, mostly non-California.
+- `hasTable.csv` — the xlsx ranges expanded to one row per individual page number (confirmed by cross-checking: every ID in hasTable is in the xlsx, and pages match exactly). Script that did this expansion is missing.
+
+These were copied to `data/digitization_intermediates/02_table_detection/validation/` with cleaner names. The actual detection scores from running the model against this ground truth were not preserved. The 79% recall figure was computed at the time of the run but the results CSV is gone.
 
 ---
 
