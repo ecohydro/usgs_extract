@@ -23,7 +23,7 @@ usgs_extract/
 │   │   └── 05_final_data_organization/ ← scripts to reorganize outputs into final per-page structure
 │   ├── 02_hydroshare/                 ← scripts to package data for HydroShare upload
 │   ├── 03_inventory/                  ← data inventory notebooks and summary figures
-│   └── 04_vignettes/                  ← hydrological research analyses (Santa Barbara, Santa Ynez, etc.)
+│   └── 04_vignettes/                  ← hydrological research analyses 
 │
 └── data/
     ├── digitized/                     ← final organized output, one folder per doc/page
@@ -51,7 +51,7 @@ usgs_extract/
     │           ├── validation_edge_cases_15.xlsx  ← edge case answer key (orig: Parameters & Runs/answer_key_shortlist.xlsx)
     │           └── jsons/                         ← 260 per-page Reducto JSONs covering all three validation sets
     ├── hydroshare/                    ← upload-ready packages for HydroShare
-    └── analysis/                      ← intermediate data from inventory and vignette notebooks
+    └── analysis/                      ← intermediate data from inventory notebooks
 ```
 
 ---
