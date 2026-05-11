@@ -153,10 +153,21 @@ Validation scripts for both approaches are **missing** — accuracy figures in t
 export UCSB_LLM_API_KEY=your_key_here
 python 01_extract_metadata.py \
   --json-dir data/digitization_intermediates/03_ocr/jsons/ \
-  --output-csv data/digitization_intermediates/04_metadata_extraction/metadata.csv
+  --output-csv data/digitization_intermediates/04_metadata_extraction/llm_extracted_metadata.csv
 ```
 Requires per-page Reducto JSON files (one file per page, named `{doc_id}_page_{N}.json`). Skips pages with no Table blocks. Already-processed `(ID, PAGE_NUMBER)` pairs are skipped on re-run. Parse failures are written to `{doc_id}_{page_num}_error.txt` in the JSON directory.
 
 Output CSV matches the column schema of `cleaned_metadata_final - Copy.csv`: `ID, PAGE_NUMBER, Inferred_Latitude, Inferred_Longitude, Actual_Latitude, Actual_Longitude, Location, Townships_Ranges_Sections, Watersource_Name, County, Dates_of_Recording, Temporal_Resolution, Units_Of_Measurement, Water_Type, KeyTerms`.
 
-The validation against 3 different test sets was done manually in excel. These excel files can be found in `data/digitization_intermediates/04_metadata_extraction. 
+Validation against 3 test sets was done manually in Excel. The graded files are in `data/digitization_intermediates/04_metadata_extraction/validation/`:
+
+| File | Contents |
+|------|----------|
+| `validation_curated_135.xlsx` | Curated set: 135 tables selected to represent all water categories, graded by Henderson Vo |
+| `validation_random_135.xlsx` | Random set: 135 tables drawn at random from the full dataset, graded by Luma Braconi Lazarini |
+| `validation_edge_cases_15.xlsx` | Edge cases: 15 tables targeting false positives and ambiguous table types |
+| `test_set_cat_grades.xlsx` | Per-category accuracy summary (curated + random sets) — input to the accuracy figure |
+| `test_set_indiv_grades.xlsx` | Per-entry accuracy scores (curated + random sets) — input to the accuracy figure |
+| `jsons/` | 260 per-page Reducto JSONs covering all three validation sets |
+
+**`02_validate_accuracy.ipynb`** reads `test_set_cat_grades.xlsx` and `test_set_indiv_grades.xlsx` and produces the metadata accuracy figure (saved to `manuscript/figures/metadata_accuracy.png`): histograms of per-entry accuracy for the curated and random test sets, and a lollipop chart of per-category accuracy across both sets.
