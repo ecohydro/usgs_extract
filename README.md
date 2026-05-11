@@ -8,19 +8,18 @@ usgs_extract/
 │
 ├── code/
 │   ├── 01_digitization/
-│   │   ├── 01_download/               ← scripts to pull PDFs from USGS Publications Warehouse
-│   │   ├── 02_pre_process/            ← PDF → grayscale PNG conversion
-│   │   ├── 03_table_detection/
+│   │   ├── 01_download_and_preprocess/ ← scripts to pull PDFs from USGS and convert to grayscale PNGs
+│   │   ├── 02_table_detection/
 │   │   │   ├── workflow/              ← Table Transformer detection scripts
 │   │   │   └── validation/            ← accuracy evaluation against known tables
-│   │   ├── 04_ocr/
+│   │   ├── 03_ocr/
 │   │   │   ├── paddle/                ← PaddleOCR (tested, not used in final pipeline)
 │   │   │   ├── reducto/               ← Reducto.ai digitization scripts (final pipeline)
 │   │   │   └── validation/            ← accuracy evaluation of OCR outputs
-│   │   ├── 05_metadata_extraction/
+│   │   ├── 04_metadata_extraction/
 │   │   │   ├── workflow/              ← LLM (Phi-4) metadata extraction via UCSB HPC API
 │   │   │   └── validation/            ← accuracy evaluation of extracted metadata
-│   │   └── 06_final_data_organization/ ← scripts to reorganize outputs into final per-page structure
+│   │   └── 05_final_data_organization/ ← scripts to reorganize outputs into final per-page structure
 │   ├── 02_hydroshare/                 ← scripts to package data for HydroShare upload
 │   ├── 03_inventory/                  ← data inventory notebooks and summary figures
 │   └── 04_vignettes/                  ← hydrological research analyses (Santa Barbara, Santa Ynez, etc.)
@@ -35,11 +34,10 @@ usgs_extract/
     │           └── {doc_id}_page_{N}_metadata.csv
     ├── metadata/                      ← master metadata CSV and crosswalk files
     ├── digitization_intermediates/
-    │   ├── 01_download/               ← Metadata on orginal download
-    │   ├── 02_pre_process/            ← Potentially empty
-    │   ├── 03_table_detection/        ← table listing which pages have tables, maybe table detection outputs (bounding boxes, confidence scores)
-    │   ├── 04_ocr/                    ← raw Reducto JSON and CSV outputs per page
-    │   └── 05_metadata_extraction/    ← raw LLM metadata outputs before cleaning
+    │   ├── 01_download_and_preprocess/ ← Metadata on original download
+    │   ├── 02_table_detection/        ← table listing which pages have tables, maybe table detection outputs (bounding boxes, confidence scores)
+    │   ├── 03_ocr/                    ← raw Reducto JSON and CSV outputs per page
+    │   └── 04_metadata_extraction/    ← raw LLM metadata outputs before cleaning
     ├── hydroshare/                    ← upload-ready packages for HydroShare
     └── analysis/                      ← intermediate data from inventory and vignette notebooks
 ```
