@@ -32,18 +32,20 @@ This produces three final files in `data/analysis/streamflow/annual/`:
 
 ## Starting an extraction session
 
-Open a new Claude Code session (terminal or VSCode). Paste this prompt, replacing `NNN` with the batch number (001–046):
+Open a new Claude Code session (terminal or VSCode). Paste this prompt, replacing `NNN` with the batch number (001–046) in the **first line only**:
 
 ```
+Batch number: NNN
+
 Read code/04_vignettes/streamflow/annual_processing/annual_streamflow_extraction_instructions.md
 fully before doing anything else. Then process all (doc_id, page_number) pairs in
-data/analysis/streamflow/annual/batch_NNN.csv. Write batch-numbered output files to
-data/analysis/streamflow/annual/ — specifically:
-  annual_streamflow_batch_NNN.csv
-  monthly_streamflow_batch_NNN.csv
-  extraction_log_batch_NNN.csv
+data/analysis/streamflow/annual/batch_{batch number}.csv. Write the three batch-numbered output
+files to data/analysis/streamflow/annual/:
+  annual_streamflow_batch_{batch number}.csv
+  monthly_streamflow_batch_{batch number}.csv
+  extraction_log_batch_{batch number}.csv
 Append to these files if they already exist (in case you are resuming a partial session).
 At the end, print the session summary in the format specified in the instructions.
 ```
 
-Sessions can run in parallel — each writes to its own batch-numbered files so there are no write conflicts. Check `extraction_log_batch_NNN.csv` to see where a partial session left off before resuming.
+Sessions can run in parallel — each writes to its own batch-numbered files so there are no write conflicts. Check `extraction_log_batch_{batch number}.csv` to see where a partial session left off before resuming.
