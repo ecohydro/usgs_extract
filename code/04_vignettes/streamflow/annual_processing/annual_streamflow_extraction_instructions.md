@@ -34,14 +34,25 @@ This yields approximately 6,900 rows across ~300 unique documents. Because the L
 
 The batch list is pre-built by `code/04_vignettes/streamflow/annual_processing/generate_batches.py`. Batch files live at `data/analysis/streamflow/annual/batch_NNN.csv` — 46 batches of 150 files each.
 
+### Finding the digitized data root
+
+Before processing any files, determine which machine you are on by checking which of these paths exists:
+
+1. `data/digitized/` (relative to the repo root — Annette's Dropbox setup)
+2. `/Volumes/AHILTON_2/usgs_extract_data/digitized/` (Anna's Mac with external drive)
+
+Use whichever exists as `DIGITIZED_ROOT`. If neither exists, stop and report that the digitized data cannot be found — the external drive may need to be plugged in.
+
 ### Processing each pair
 
 Each batch session is given a list of `(doc_id, page_number)` pairs to process. For each pair:
 
 1. Metadata row is at `data/metadata/main_metadata.csv` — match on `id` == doc_id AND `page_number` == page_number. Key fields: `watersource_name`, `inferred_latitude`, `inferred_longitude`, `actual_latitude`, `actual_longitude`, `dates_of_recording`, `temporal_resolution`, `units_of_measurement`.
-2. CSV files are at `data/digitized/{doc_id}/page_{page_number}/{doc_id}_page_{page_number}_table*.csv`. A page may have multiple table CSVs — review each one separately and write a log row for each.
+2. CSV files are at `{DIGITIZED_ROOT}/{doc_id}/page_{page_number}/{doc_id}_page_{page_number}_table*.csv`. A page may have multiple table CSVs — review each one separately and write a log row for each.
 
 **Coordinates:** use `actual_latitude` / `actual_longitude` if non-empty; otherwise use `inferred_latitude` / `inferred_longitude`. If both are empty, leave latitude/longitude blank.
+
+**Write after every file.** After finishing all CSVs for a `(doc_id, page_number)` pair, immediately append the results to the output files before moving to the next pair. Do not accumulate rows in memory and write them all at the end — if the session is interrupted, only the current file's work should be lost.
 
 ---
 
