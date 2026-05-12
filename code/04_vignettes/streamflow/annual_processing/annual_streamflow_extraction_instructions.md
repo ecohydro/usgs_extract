@@ -8,31 +8,34 @@ Extract historical streamflow measurements from USGS digitized table CSVs into t
 
 ---
 
-## Output Files
+## Batching
 
-All three files live at `data/analysis/streamflow/`:
+The ~6,900 files to process are split into 46 batches of 150 files each. Each Claude Code session handles one batch. The batch number for this session is given in the prompt that invoked you.
+
+**Input file:** `data/analysis/streamflow/annual/batch_{batch number}.csv`
+Each row is one `(doc_id, page_number)` pair to process, with pre-filled metadata fields.
+
+**Output files** (all in `data/analysis/streamflow/annual/`):
 
 | File | Contents |
 |------|----------|
-| `annual_streamflow.csv` | One row per station-year |
-| `monthly_streamflow.csv` | One row per station-month |
-| `extraction_log.csv` | One row per CSV file reviewed — every file, whether extracted or skipped |
+| `annual_streamflow_batch_{batch number}.csv` | One row per station-year extracted this session |
+| `monthly_streamflow_batch_{batch number}.csv` | One row per station-month extracted this session |
+| `extraction_log_batch_{batch number}.csv` | One row per CSV file reviewed this session — every file, whether extracted or skipped |
 
-**Append to these files** across sessions. Do not overwrite. If starting a fresh session, check the last `doc_id` + `page_number` in the log to know where to resume.
+**Append, don't overwrite.** If this session is resuming a partial run, append to the existing batch files rather than overwriting them. To find where a previous partial run left off, check the last `doc_id` + `page_number` in `extraction_log_batch_{batch number}.csv` and skip any pairs already logged.
+
+A separate concatenation script merges all batches into final files once all sessions are done — you do not need to worry about that.
 
 ---
 
-## Input
+## Source data background
 
-### Where the batch list comes from
-
-All files processed by this workflow come from rows in `data/metadata/main_metadata.csv` where:
+All files in this workflow come from rows in `data/metadata/main_metadata.csv` where:
 - `water_type` == `stream discharge` (case-insensitive)
-- `temporal_resolution` contains any of: `annual`, `yearly`, `year` (but NOT monthly-only rows — those are a separate later pass)
+- `temporal_resolution` contains any of: `annual`, `yearly`, `year`
 
-This yields approximately 6,900 rows across ~300 unique documents. Because the LLM metadata extraction is noisy, many of these files are **not** actually annual streamflow — they may be monthly tables, daily tables, water quality tables, or unrelated content. When a file turns out to contain monthly data, extract it to `monthly_streamflow.csv` as normal — the annual pass still populates both output files. The `extraction_log.csv` records what was actually found in every file regardless.
-
-The batch list is pre-built by `code/04_vignettes/streamflow/annual_processing/generate_batches.py`. Batch files live at `data/analysis/streamflow/annual/batch_NNN.csv` — 46 batches of 150 files each.
+Because the LLM metadata extraction is noisy, many files are **not** actually annual streamflow — they may be monthly tables, daily tables, water quality tables, or unrelated content. When a file turns out to contain monthly data, extract it to `monthly_streamflow_batch_{batch number}.csv` as normal. The extraction log records what was actually found in every file regardless.
 
 ### Finding the digitized data root
 
@@ -52,7 +55,7 @@ Each batch session is given a list of `(doc_id, page_number)` pairs to process. 
 
 **Coordinates:** use `actual_latitude` / `actual_longitude` if non-empty; otherwise use `inferred_latitude` / `inferred_longitude`. If both are empty, leave latitude/longitude blank.
 
-**Write after every file.** After finishing all CSVs for a `(doc_id, page_number)` pair, immediately append the results to the output files before moving to the next pair. Do not accumulate rows in memory and write them all at the end — if the session is interrupted, only the current file's work should be lost.
+**Write after every file.** After finishing all CSVs for a `(doc_id, page_number)` pair, immediately append the results to the batch output files before moving to the next pair. Do not accumulate rows in memory and write them all at the end — if the session is interrupted, only the current file's work should be lost.
 
 ---
 
@@ -212,7 +215,9 @@ If a cell has no prefix, leave `quality_flag` blank.
 
 ## Output Schemas
 
-### `annual_streamflow.csv`
+All output files go in `data/analysis/streamflow/annual/` with the batch number in the filename.
+
+### `annual_streamflow_batch_{batch number}.csv`
 
 ```
 doc_id, page_number, table_file, watersource_name, latitude, longitude,
@@ -220,7 +225,7 @@ year, year_type, peak_date, peak_discharge_cfs, peak_gage_height_ft,
 mean_discharge_cfs, total_runoff_acre_ft, discharge_unit, quality_flag, notes
 ```
 
-### `monthly_streamflow.csv`
+### `monthly_streamflow_batch_{batch number}.csv`
 
 ```
 doc_id, page_number, table_file, watersource_name, latitude, longitude,
@@ -228,7 +233,7 @@ water_year, month, month_num, max_discharge_cfs, min_discharge_cfs,
 mean_discharge_cfs, total_runoff_acre_ft, discharge_unit, quality_flag, notes
 ```
 
-### `extraction_log.csv`
+### `extraction_log_batch_{batch number}.csv`
 
 ```
 doc_id, page_number, table_file, metadata_label, actual_content,
@@ -255,12 +260,12 @@ action, skip_reason, notes
 
 ---
 
-## Session Handoff Format
+## Session Summary Format
 
 At the end of each session, report:
 
 ```
-Session summary:
+Session summary (batch NNN):
   Processed: N files
   Extracted to annual: N rows
   Extracted to monthly: N rows
@@ -271,4 +276,4 @@ Session summary:
   Last doc_id processed: XXXXX  page: NNN
 ```
 
-The next session picks up immediately after the last `doc_id` + `page_number` in the log.
+Each batch is self-contained — there is no handoff between sessions. To resume a partial session, re-run the same batch prompt; the session will append to the existing batch output files and skip pairs already in the log.
