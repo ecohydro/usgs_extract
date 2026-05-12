@@ -1,7 +1,8 @@
 import csv, os, sys, glob
 sys.stdout.reconfigure(encoding='utf-8')
 
-ANNUAL_DIR = r'c:\Users\aeliz\Dropbox\usgs_extract\data\analysis\streamflow\annual'
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+ANNUAL_DIR = os.path.join(REPO_ROOT, 'data', 'analysis', 'streamflow', 'annual')
 
 OUTPUTS = {
     'annual_streamflow': {

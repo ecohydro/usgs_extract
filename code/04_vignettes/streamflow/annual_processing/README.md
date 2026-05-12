@@ -1,12 +1,13 @@
 # Annual Streamflow Extraction
 
-We are extracting historical streamflow measurements from ~6,900 digitized USGS table CSVs
-into a unified dataset. These CSVs come from pages that the LLM metadata extraction labeled
-as annual-resolution stream discharge. In practice they contain a mix of actual annual data,
+We are extracting historical streamflow measurements from ~6,900 digitized USGS page JSONs
+into a unified dataset. These pages were filtered by the LLM metadata extraction as likely
+annual-resolution stream discharge. In practice they contain a mix of actual annual data,
 mislabeled monthly and daily tables, water quality tables, and unrelated content.
 
-Each Claude Code session reads a batch of 150 files, identifies what's actually in each one,
-extracts any annual or monthly streamflow data it finds, and logs every file it reviewed.
+Each Claude Code session reads a batch of ~150 metadata entries (one or more per page),
+processes each unique page's JSON exactly once, extracts any annual or monthly streamflow
+data it finds, and logs every table it reviewed.
 
 ## Files here
 - `annual_streamflow_extraction_instructions.md` — complete instructions for each extraction session
