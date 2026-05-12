@@ -1,0 +1,151 @@
+doc_id,page_number,watersource_name,temporal_resolution,dates_of_recording,units_of_measurement,latitude,longitude,csv_files
+24284,223,Hot Springs Creek,"Varies by year and month, typically monthly or less frequently",07/27/1950-09/29/1959,"{'Discharge': 'gpm (gallons per minute)', 'Temperature': 'Fahrenheit (°F)'}",34.5416666667,-119.880555556,24284_page_223_table1.csv
+2447,394,Santa Clara River,Various dates within water years,01/17/1951-07/30/1956,"{'Gage height': 'feet', 'Discharge': 'cfs'}",37.0167,-113.6667,"2447_page_394_table1.csv,2447_page_394_table2.csv"
+4316,20,"Backbone Draw near Richfield, Utah",Annual peaks,1970-,,41.7689,-111.4644,4316_page_20_table1.csv
+4316,20,"Peterson Creek near Sigurd, Utah",Annual peaks,1959-68.,,38.9669,-111.6986,4316_page_20_table1.csv
+4316,20,"Cottonwood Creek near Salina, Utah",Annual peaks,1959-68.,,38.9531,-111.8978,4316_page_20_table1.csv
+4316,20,"Salina Creek above diversions, near Salina, Utah",Annual peaks,1959-,,38.9531,-111.8978,4316_page_20_table1.csv
+4317,42,Morses Creek at Bolinas,Daily or monthly figures (calendar years),01/01/1967-12/31/1969,sq mi,37.925,-122.653,4317_page_42_table1.csv
+4317,42,Audubon Creek near Bolinas,Annual peaks (water years),01/01/1967-12/31/1969,sq mi,37.924,-122.664,4317_page_42_table1.csv
+4317,42,Pine Creek at Bolinas,Daily or monthly figures (calendar years),01/01/1967-12/31/1970,sq mi,37.925,-122.664,4317_page_42_table1.csv
+4317,42,Nicasio Creek near Nicasio,Annual peaks (water years),01/01/1962-12/31/Current,sq mi,38.066,-122.801,4317_page_42_table1.csv
+4317,42,Walker Creek near Tomales,Daily or monthly figures (calendar years),01/01/1959-12/31/Current,sq mi,38.112,-122.933,4317_page_42_table1.csv
+4317,42,Salmon Creek at Bodega,Annual peaks (water years),01/01/1962-12/31/Current,sq mi,38.378,-123.043,4317_page_42_table1.csv
+4317,42,Russian River near Redwood Valley,Daily or monthly figures (calendar years),01/01/1963-12/31/1968,sq mi,39.307,-123.349,4317_page_42_table1.csv
+4317,42,East Fork Russian River near Calpella,Daily or monthly figures (calendar years),01/01/1965-12/31/Current,sq mi,39.218,-123.203,4317_page_42_table1.csv
+4317,42,Robinson Creek near Ukiah,Annual peaks (water years),01/01/1956-12/31/1962,sq mi,39.14,-123.2,4317_page_42_table1.csv
+4317,42,Russian River near Hopland,Daily or monthly figures (calendar years),01/01/1939-12/31/Current,sq mi,38.993,-123.009,4317_page_42_table1.csv
+4317,42,Dry Creek near Healdsburg,Daily or monthly figures (calendar years),01/01/1939-12/31/Current,sq mi,38.624,-122.841,4317_page_42_table1.csv
+4317,42,Santa Rosa Creek near Santa Rosa,Daily or monthly figures (calendar years),01/01/1959-12/31/1970,sq mi,38.44,-122.711,4317_page_42_table1.csv
+1630,33,TIJUANA RIVER NEAR NESTOR,Monthly measurements from October to September (water years),10/01/1914-09/30/1970,"{'Discharge': 'cubic feet per second', 'Gage Height': 'feet', 'Runoff': 'acre-feet'}",32.5516667,-117.0833333,"1630_page_33_table1.csv,1630_page_33_table2.csv,1630_page_33_table3.csv"
+2447,117,"Brush Creek near Eagle, Colo.",Varies by year and date,1951-05-29 to 1962-06-30,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",39.65,-106.92,"2447_page_117_table1.csv,2447_page_117_table2.csv"
+2447,117,"Eagle River at Gypsum, Colo.",Annual peaks recorded at various dates,1905-06-04 to 1909-06-20,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",39.65,-106.95,"2447_page_117_table1.csv,2447_page_117_table2.csv"
+2447,117,"Gypsum Creek near Gypsum, Colo.",Annual peaks recorded at various dates,1906-06-13 to 1909-06-20,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",39.55,-106.93,"2447_page_117_table1.csv,2447_page_117_table2.csv"
+2913,261,Beaver River at Adamsville,Monthly and yearly,1914-1950,"{'Runoff': 'acre-feet', 'Discharge': 'cubic feet per second'}",38.431944,-112.588889,"2913_page_261_table1.csv,2913_page_261_table2.csv"
+3089,180,Butano Creek near Pescadero,"Varies (occasional low-flow measurements, annual maximums)","1957-05/02, 1959-06/22, 1962-09/28","{'Discharge': 'cubic feet per second (cfs)', 'Gage Height': 'feet'}",37.233611,-122.365556,"3089_page_180_table1.csv,3089_page_180_table2.csv,3089_page_180_table3.csv"
+29192,29,Suisun Bay,21 years (1867-1888),1867-01-01-1888-12-31,millions of cubic yards,38.1833,-122.0333,29192_page_29_table1.csv
+29192,29,Carquinez Strait,29 years (1861-1890),1861-01-01-1890-12-31,millions of cubic yards,38.1357,-122.2222,29192_page_29_table1.csv
+29192,29,San Pablo Bay,40 years (1856-1896),1856-01-01-1896-12-31,millions of cubic yards,37.9367,-122.3848,29192_page_29_table1.csv
+29192,29,San Francisco Bay,46 years (1855-1901),1855-01-01-1901-12-31,millions of cubic yards,37.8044,-122.2711,29192_page_29_table1.csv
+56362,385,"EEL RIVER AT SCOTIA, CALIF",Monthly and daily temperature measurements within the water year October 1974 to September 1975; chemical analyses are less frequent.,10/09/1974-02/10/1975,"{'Arsenic': 'ug/L', 'Cadmium': 'ug/L', 'Chromium': 'ug/L', 'Cobalt': 'ug/L', 'Copper': 'ug/L', 'Lead': 'ug/L', 'Mercury': 'ug/L', 'Zinc': 'ug/L', 'Temperature': 'deg C'}",41.0622,-123.7983,"56362_page_385_table1.csv,56362_page_385_table2.csv,56362_page_385_table3.csv"
+3033,56,Creek Matadero,years between sequential measurements,1958-04-02 to 1955-12-22,"{'Discharge': 'Cfs sq mi', 'Gage height': 'feet'}",37.4333,-122.1667,3033_page_56_table1.csv
+3033,56,Creek Stevens,years between sequential measurements,1955-12-23,"{'Discharge': 'Cfs sq mi', 'Gage height': 'feet'}",37.322,-122.0322,3033_page_56_table1.csv
+3033,56,River Guadalupe,years between sequential measurements,1958-04-02 to 1945-02-01,"{'Discharge': 'Cfs sq mi', 'Gage height': 'feet'}",37.2345,-121.9743,3033_page_56_table1.csv
+3033,56,Creek Coyote,years between sequential measurements,1917-02-10 to 1917-02-10,{'Discharge': 'Cfs sq mi'},37.2082,-121.9355,3033_page_56_table1.csv
+3033,56,Creek Alameda,years between sequential measurements,1922-02-10 to 1922-02-10,{'Discharge': 'Cfs sq mi'},37.2718,-122.0201,3033_page_56_table1.csv
+3033,56,Creek Pacheco,years between sequential measurements,1958-04-03,{'Discharge': 'Cfs sq mi'},37.6724,-121.7702,3033_page_56_table1.csv
+3033,56,San Joaquin River,years between sequential measurements,1938-03-12 to 1952-01-12,{'Discharge': 'Cfs sq mi'},36.6526,-119.7283,3033_page_56_table1.csv
+3033,56,Creek Fine,years between sequential measurements,1958-04-02 to 1963-02-01,{'Discharge': 'Cfs sq mi'},36.7375,-119.5214,3033_page_56_table1.csv
+3033,56,Creek Panoche,years between sequential measurements,1959-02-16,{'Discharge': 'Cfs sq mi'},36.6792,-120.7581,3033_page_56_table1.csv
+28370,32,Cottonwood Creek near Hornbrook,"Varies across years (1965, 1967-69, 1971)",05/01/1965-12/31/1971,,41.1833,-123.8167,28370_page_32_table1.csv
+28370,32,Shasta River near Yreka,"Varies across years (1967, 1969-73)",01/01/1967-12/31/1973,,41.7383,-122.6381,28370_page_32_table1.csv
+28370,32,Klamath River near Seiad Valley,"Varies across years (1964, 1966-73)",01/01/1964-12/31/1973,,41.9333,-123.1667,28370_page_32_table1.csv
+28370,32,Salmon River at Somesbar,"Varies across years (1966, 1969-73)",01/01/1966-12/31/1973,,41.8667,-123.6833,28370_page_32_table1.csv
+28370,32,Klamath River at Orleans,Varies across years (1966-73),01/01/1966-12/31/1973,,41.9333,-122.8,28370_page_32_table1.csv
+28370,32,Trinity River at Lewiston,Varies across years (1960-73),01/01/1960-12/31/1973,,40.8167,-123.1833,28370_page_32_table1.csv
+28370,32,Trinity River near Burnt Ranch,"Varies across years (1963-64, 1967, 1969-71, 1973)",01/01/1963-12/31/1973,,40.6667,-123.25,28370_page_32_table1.csv
+28370,32,Blue Creek near Klamath,Varies across years (1967-73),01/01/1967-12/31/1973,,41.9333,-122.5,28370_page_32_table1.csv
+28370,32,Smith River near Crescent City,"Varies across years (1967-70, 1973)",01/01/1967-12/31/1973,,41.7778,-124.1736,28370_page_32_table1.csv
+56808,54,"SACRAMENTO RIVER AT DELTA, CA",Daily measurements during specified months from 1951 to current year; detailed data for water year October 1977 to September 1978.,11/15/1977-09/05/1978,"{'Stream-Flow': 'CFS (cubic feet per second)', 'Specific Conductance': 'Micro-mhos', 'pH': 'units', 'Temperature': 'deg C', 'Turbidity': 'NTU', 'Oxygen, Dissolved': 'mg/L', 'Hardness (as CaCO3)': 'mg/L', 'Calcium, Dissolved (as Ca)': 'mg/L', 'Magnesium, Dissolved (as Mg)': 'mg/L', 'Sodium, Dissolved (as Na)': 'mg/L'}",38.0,-121.7,56808_page_54_table1.csv
+70038681,527,"East Fork Kaweah River below Eagle Creek, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"East Fork Kaweah River above Monarch Creek, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"East Fork Kaweah River below Monarch Creek, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"East Fork Kaweah River at Sequoia National Park boundary, near Hammond",4 years (1968-1971b) and 2 years (1972-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"Atwell Creek above Mineral King Highway, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"Redwood Creek above Mineral King Highway, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"Squirrel Creek below Mineral King Highway, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038681,527,"Crunigen Creek below Mineral King Highway, near Hammond",5 years (1968-1973),09/14/1973,cfs,,,70038681_page_527_table1.csv
+70038401,94,"Boom Creek Near Barstow, California",Annual and daily measurements,1959-09/1967,"{'Discharge': 'cubic feet per second (cfs)', 'Precipitation': 'inches', 'Gage Height': 'feet', 'Area': 'square miles, acre-feet'}",34.9055555556,-116.949166667,70038401_page_94_table1.csv
+2040,10,Stonyford Cooley Ranch,Yearly (for 3-year period 1960-62),May 1959 onwards,inches per year for precipitation,39.7194,-122.0275,2040_page_10_table1.csv
+2040,10,"Stony Creek at Black Butte Dam, near Orland",Yearly (Water Year),1948-1962 (Water Year),acre-ft for water discharge,39.7417,-122.0161,2040_page_10_table1.csv
+70039753,338,NORTH FORK TRINITY RIVER,Periodic determinations within water year October 1962 to September 1963,10/19/1962-09/30/1963,"{'Temperature': '°F', 'Discharge': 'cfs', 'Sediment Concentration': 'ppm', 'Sediment Discharge': 'tons per day'}",41.7681,-122.7532,"70039753_page_338_table1.csv,70039753_page_338_table2.csv"
+2447,90,Fraser River at Granby,Annual,06/05/1905-06/21/1953,"{'Gage Height': 'feet', 'Discharge': 'cfs'}",40.083333,-105.947222,2447_page_90_table1.csv
+667,296,San Joaquin River below Kerckhoff powerhouse,Daily measurements with annual summaries,"{'Start_Date': '04/01/1910', 'End_Date': '09/30/1954'}","{'Latitude_Longitude': 'degrees minutes (convertible to decimal)', 'Discharge': 'cubic feet per second (cfs)', 'Drainage Area': 'square miles (sq mi)', 'Annual Discharge': 'acre-feet per year'}",37.0791666667,-119.5597222222,"667_page_296_table1.csv,667_page_296_table2.csv"
+695,27,Eighth Street east conduit,Yearly,04/01/1942-12/31/1957,,34.1475,-117.6875,695_page_27_table1.csv
+695,27,Eighth Street west spreading grounds,Yearly,04/01/1942-12/31/1957,,34.1475,-117.6875,695_page_27_table1.csv
+695,27,Evey Canyon Creek,Yearly,01/01/1956-12/31/1957,,34.1475,-117.5023,695_page_27_table1.csv
+695,27,Fifteenth Street storm drain,Yearly,04/01/1942-12/31/1957,,34.1463,-117.6767,695_page_27_table1.csv
+695,27,Fullerton relief channel,Yearly,01/01/1941-12/31/1957,,33.8842,-117.9394,695_page_27_table1.csv
+695,27,Harrison Creek,Yearly,01/01/1947-12/31/1957,,34.1142,-117.2644,695_page_27_table1.csv
+695,27,La Tuna Creek,Yearly,01/01/1945-12/31/1957,,34.1536,-118.4458,695_page_27_table1.csv
+695,27,Los Angeles River,Yearly,"['01/01/1938-12/31/1957', '01/01/1950-12/31/1957']",,34.1794,-118.3,695_page_27_table1.csv
+695,27,Los Angeles River,Yearly,"['01/01/1938-12/31/1957', '01/01/1950-12/31/1957']",,34.1794,-118.3,695_page_27_table1.csv
+695,27,Los Angeles River,Yearly,"['01/01/1938-12/31/1957', '01/01/1950-12/31/1957']",,34.1897,-118.3892,695_page_27_table1.csv
+695,27,Los Angeles River,Yearly,"['01/01/1938-12/31/1957', '01/01/1950-12/31/1957']",,34.1897,-118.3892,695_page_27_table1.csv
+15,129,San Joaquin River,Monthly and yearly,10/1940-09/1949,"{'Discharge': 'cubic feet per second', 'Runoff': 'acre-feet'}",37.1125,-120.5889,"15_page_129_table1.csv,15_page_129_table2.csv,15_page_129_table3.csv,15_page_129_table4.csv"
+15,129,Chamberlain Slough,Monthly and yearly,10/1939-09/1948,{'Diversions': 'acre-feet'},37.1125,-120.5889,"15_page_129_table1.csv,15_page_129_table2.csv,15_page_129_table3.csv,15_page_129_table4.csv"
+2247,24,Sacramento River near Red Bluff,Annual,01/01/1896-09/30/1927,second-feet and days,40.133,-122.236,"2247_page_24_table1.csv,2247_page_24_table2.csv"
+2247,24,Pit River at Big Bend,Annual,01/01/1912-09/30/1927,second-feet and days,41.833,-120.333,"2247_page_24_table1.csv,2247_page_24_table2.csv"
+1606,132,Rio Hondo Slough,Daily measurements from October to September each year,10/01/1936-09/30/1938,"{'Discharge': 'Second-feet', 'Run-off': 'Acre-feet'}",33.9752,-118.0996,"1606_page_132_table1.csv,1606_page_132_table2.csv"
+3058,456,Middle Fork Cosumnes River near Somerset,Monthly and yearly from October 1957 to September 1960,10/01/1957-09/30/1960,"{'Discharge': 'cubic feet per second (cfs) and acre-feet', 'Gage_Height': 'feet'}",38.62472,-120.70056,"3058_page_456_table1.csv,3058_page_456_table2.csv,3058_page_456_table3.csv,3058_page_456_table4.csv,3058_page_456_table5.csv,3058_page_456_table6.csv"
+3058,456,South Fork Cosumnes River near River Pines,Monthly and yearly from October 1957 to September 1960,10/01/1957-09/30/1960,{'Discharge': 'cubic feet per second (cfs) and acre-feet'},38.55694,-120.79222,"3058_page_456_table1.csv,3058_page_456_table2.csv,3058_page_456_table3.csv,3058_page_456_table4.csv,3058_page_456_table5.csv,3058_page_456_table6.csv"
+51055,23,East Fork San Gabriel River near Camp Bonita,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,San Gabriel River near Azusa,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years'}",,,51055_page_23_table1.csv
+51055,23,San Gabriel River at Pico,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,"San Gabriel River at Spring Street, near Los Alamitos",Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years'}",,,51055_page_23_table1.csv
+51055,23,West Fork San Gabriel River at Camp Rincon,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Rogers Creek near Azusa,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Fish Creek near Duarte,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,San Dimas Creek near San Dimas,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Dalton Creek near Glendora,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Little Dalton Creek near Glendora,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,San Jose Creek near Whittier,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Coyote Creek near Artesia,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,"Brea Creek below Brea Dam, near Fullerton",Annual (1949-50),1949-12-31 to 1950-12-31,{'Peak_discharge_index': 'Second-feet'},,,51055_page_23_table1.csv
+51055,23,Brea Creek at Fullerton,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Fullerton Creek below Fullerton Dam,Annual (1949-50),1949-12-31 to 1950-12-31,{'Peak_discharge_index': 'Second-feet'},,,51055_page_23_table1.csv
+51055,23,Fullerton Creek at Fullerton,Annual (1949-50),1949-12-31 to 1950-12-31,"{'Runoff': 'acre-feet', 'Length_of_record': 'years', 'Peak_discharge_index': 'Second-feet'}",,,51055_page_23_table1.csv
+51055,23,Carbon Creek near Yorba Linda,Annual (1949-50),1949-12-31 to 1950-12-31,{'Peak_discharge_index': 'Second-feet'},,,51055_page_23_table1.csv
+3033,133,Ballona Creek,Annual,1928-05-08 to 1965-04-09,"{'Gage_height': 'feet', 'Discharge': 'cfs'}",33.9966667,-118.4019444,3033_page_133_table1.csv
+3033,133,Topanga Creek,Annual,,"{'Gage_height': 'feet', 'Discharge': 'cfs'}",34.0638889,-118.5861111,3033_page_133_table1.csv
+56412,538,Pine Creek near Westwood,Annual,"1950-61a, 1966-72","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,Golden Trout Creek near Cartago,Annual,"1956-67a, 1969a, 1970, 1972","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,Little Kern River near Quaking Aspen Camp,Annual,"1957-68a, 1969a, 1970, 1972","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,Bitterwater Creek near Lost Hills,Annual,1961-72,{'Discharge': 'cfs'},,,56412_page_538_table1.csv
+56412,538,Rock Creek at Dinkey Creek,Annual,"1960-70a, 1971-72","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,Panoche Creek below Silver Creek near Panoche,Annual,"1949-53a, 1958-70a, 1972","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,South Fork Merced River at Wawona,Annual,"1958-68a, 1970-72","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,Corral Hollow Creek near Tracy,Annual,"1959-65a, 1967, 1972","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+56412,538,San Antonio Creek near San Andreas,Annual,"1950-59a, 1961-72","{'Gage_height': 'feet', 'Discharge': 'cfs'}",,,56412_page_538_table1.csv
+1276,90,Colorado River at Grand Junction,Yearly,01/01/1897-12/31/1899,"{'Discharge': 'second-feet', 'Runoff': 'acre-feet'}",39.0839,-108.5501,1276_page_90_table1.csv
+3090,73,Squaw Creek above Shasta Lake,Daily measurements from October to September of consecutive years,10/01/1961-09/30/1962,Cubic feet per second (cfs),40.6963,-122.2767,"3090_page_73_table1.csv,3090_page_73_table2.csv"
+1083,27,Black Butte River near Covelo,1 year,1966-01/01 to 1967-12/31,"{'Water_Discharge': 'cfs (cubic feet per second)', 'Sediment_Yield': 'tons per sq mi'}",41.0537,-123.1585,"1083_page_27_table1.csv,1083_page_27_table2.csv"
+1083,27,Middle Fork Eel River below Black Butte River near Covelo,5 years,1963-01/01 to 1967-12/31,"{'Water_Discharge': 'cfs (cubic feet per second)', 'Sediment_Yield': 'tons per sq mi'}",41.0574,-123.1576,"1083_page_27_table1.csv,1083_page_27_table2.csv"
+1083,27,Middle Fork Eel River near Dos Rios,10 years,1958-01/01 to 1967-12/31,"{'Water_Discharge': 'cfs (cubic feet per second)', 'Sediment_Yield': 'tons per sq mi'}",39.6952,-123.0264,"1083_page_27_table1.csv,1083_page_27_table2.csv"
+1083,27,Eel River at Fort Seward,1 year,1966-01/01 to 1967-12/31,"{'Water_Discharge': 'cfs (cubic feet per second)', 'Sediment_Yield': 'tons per sq mi'}",40.8043,-123.1767,"1083_page_27_table1.csv,1083_page_27_table2.csv"
+1083,27,Eel River at Scotia,10 years,1958-01/01 to 1967-12/31,"{'Water_Discharge': 'cfs (cubic feet per second)', 'Sediment_Yield': 'tons per sq mi'}",40.5067,-123.8159,"1083_page_27_table1.csv,1083_page_27_table2.csv"
+1083,27,South Fork Eel River near Branscomb,5 years,1963-01/01 to 1967-12/31,"{'Water_Discharge': 'cfs (cubic feet per second)', 'Sediment_Yield': None}",40.8032,-123.1581,"1083_page_27_table1.csv,1083_page_27_table2.csv"
+47988,25,"Post Creek near Forest Glen, Calif.",Annual,10/22/1966-01/17/1971,"{'Gage_Height_ft': 'ft', 'Discharge_cfs': 'cfs'}",40.4116667,-123.2305556,47988_page_25_table1.csv
+47988,25,"Boulder Creek near Lamoine, Calif.",Annual,10/19/1960-12/21/1970,"{'Gage_Height_ft': 'ft', 'Discharge_cfs': 'cfs'}",41.0166667,-122.3875,47988_page_25_table1.csv
+47988,25,"Willow Creek near Round Mountain, Calif.",Annual,11/09/1960-02/12/1971,"{'Gage_Height_ft': 'ft', 'Discharge_cfs': 'cfs'}",40.8,-121.9375,47988_page_25_table1.csv
+47988,25,"Huling Creek tributary at Ono, Calif.",Annual,09/27/1960-11/09/1970,"{'Gage_Height_ft': 'ft', 'Discharge_cfs': 'cfs'}",40.4777778,-122.6022222,47988_page_25_table1.csv
+3217,30,Cottonwood Creek above Tecate Creek,Annual and Monthly,1937-01-07/1950-03-25,"{'Discharge': 'cubic feet per second (cfs)', 'Runoff': 'acre-feet'}",,,"3217_page_30_table1.csv,3217_page_30_table2.csv,3217_page_30_table3.csv"
+3217,30,"Campo Creek near Campo, Calif.",Monthly and Annual,1937-10/1950-09,"{'Discharge': 'cubic feet per second (cfs)', 'Runoff': 'acre-feet'}",32.590278,-116.525,"3217_page_30_table1.csv,3217_page_30_table2.csv,3217_page_30_table3.csv"
+3067,119,Haines Creek,Monthly observations with monthly to yearly data points,"02/1917-09/1934, 10/1935-09/1956","{'Discharge': 'cubic feet per second (cfs)', 'Gage Height': 'feet', 'Flow Volume': 'acre-feet'}",34.2638889,-118.2708333,3067_page_119_table1.csv
+3034,188,Sacramento River at Antler,Annual peaks recorded with specific dates for certain years,"Mar. 6, 1911- Mar. 1, 1941","{'Gage_Height': 'feet', 'Discharge': 'cfs'}",40.8806,-122.3778,3034_page_188_table1.csv
+3034,188,North Fork Pit River near Alturas,Annual peaks recorded with specific dates for certain years,"Historical data with specific reference to Mar. 19, 1932","{'Gage_Height': 'feet', 'Discharge': 'cfs'}",41.5,-120.4833,3034_page_188_table1.csv
+70038673,511,Jacoby Creek near Freshwater,Annual,1954-1964+ 1966-1968,"{'Gage Height': 'feet', 'Discharge': 'cfs'}",40.791667,-124.002778,70038673_page_511_table1.csv
+70038673,511,South Fork Salmon River near Forks of Salmon,Annual,1958-1966+ 1967-1968,"{'Gage Height': 'feet', 'Discharge': 'cfs'}",41.222222,-123.25,70038673_page_511_table1.csv
+70038673,511,Hayfork Creek near Hayfork,Annual,1956-1966+ 1967-1968,"{'Gage Height': 'feet', 'Discharge': 'cfs'}",40.519444,-123.084583,70038673_page_511_table1.csv
+70038673,511,South Fork Smith River near Crescent City,Annual,1911-1913+ 1954-1961+ 1962-1968,"{'Gage Height': 'feet', 'Discharge': 'cfs'}",41.791667,-124.025,70038673_page_511_table1.csv
+25119,19,"Pack Creek near Moab, Utah",Annual,1954-06/01/1959-05/31,,38.7833,-109.5278,25119_page_19_table1.csv
+25119,19,"Indian Creek near Monticello, Utah",Annual,1949-01/01/1957-12/31,,38.9892,-111.8511,25119_page_19_table1.csv
+25119,19,"Cottonwood Creek near Monticello, Utah",Annual,1949-01/01/1957-12/31,,38.9822,-111.8394,25119_page_19_table1.csv
+3033,96,Lone Pine Creek near Keenbrook,Annual (varies),1920-1965,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",34.2663889,-117.4630556,"3033_page_96_table1.csv,3033_page_96_table2.csv"
+3217,183,Los Angeles River near Downey,Annual,1928-05/31/1940,Cubic feet per second,,,"3217_page_183_table1.csv,3217_page_183_table2.csv"
+3217,183,Sawpit Creek near Monrovia,Monthly and Yearly,1917-10/01/1945,Cubic feet per second,34.172639,-117.988333,"3217_page_183_table1.csv,3217_page_183_table2.csv"
+1641,217,KINGS RIVER BELOW PINE FLAT DAM,Monthly and yearly,10/1953-09/1970,"cubic feet per second (cfs), acre-feet, gage height in feet",36.830556,-119.335278,"1641_page_217_table1.csv,1641_page_217_table2.csv"
+641,301,Tuolumne River at Modesto,Daily measurements for water year October 1950 to September 1951,10/01/1950-09/30/1951,cubic feet per second (cfs),37.62888889,-120.98888889,641_page_301_table1.csv
+3995,38,Middle Fork American River near (East) Auburn,Daily or monthly figures (calendar years),01/01/1911-,Cubic Feet per Second,38.8774,-120.8042,3995_page_38_table1.csv
+3995,38,North Fork American River at Rattlesnake Bridge,Daily or monthly figures (calendar years),01/01/1930-07,Cubic Feet per Second,38.7589,-120.7258,3995_page_38_table1.csv
+3995,38,"South Fork American River at Kyburz, Calif.",Daily or monthly figures (calendar years),01/01/1906-07;1923-24,Cubic Feet per Second,38.7783,-120.7556,3995_page_38_table1.csv
+3995,38,"Silver Lake Outlet near Kirkwood, Calif.",Daily or monthly figures (calendar years),01/01/1922-,Cubic Feet per Second,38.8056,-120.6933,3995_page_38_table1.csv
+3995,38,"South Fork American River below Silver Fork, at Kyburz, Calif.",Daily or monthly figures (calendar years),01/01/1906,Cubic Feet per Second,38.7783,-120.7556,3995_page_38_table1.csv
+70038682,125,LOS PENASQUITOS CREEK,Daily measurements for each day of the year (October to September),10/01/1964-09/30/2023,"{'Flow': 'ft3/s or m3/s', 'Cumulative_Annual_Flow': 'acre-ft/yr or km3/yr'}",32.9431,-117.1208,70038682_page_125_table1.csv
+70038393,472,Bitterwater Creek near Maricopa,Annual,1961-10-62,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",35.2994,-118.7795,70038393_page_472_table1.csv
+70038393,472,Santiago Creek near Maricopa,Annual,1961-10-62,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",35.2933,-118.7631,70038393_page_472_table1.csv
+70038393,472,Bitterwater Creek near Lost Hills,Annual,1961-12-62,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",35.5303,-119.4734,70038393_page_472_table1.csv
+70038393,472,South Fork Kings River near Cedar Grove,Annual,1962-06-05,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",36.3338,-118.7553,70038393_page_472_table1.csv
+70038393,472,"Los Gatos Creek below Jacalitos Creek, near Coalinga",Annual,1962-09-02,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",36.1257,-120.3061,70038393_page_472_table1.csv
+70038393,472,Zapato Chino Creek near Avenal,Annual,1962-09-02,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",36.1378,-120.0484,70038393_page_472_table1.csv
+70038393,472,Cantua Creek near Cantua Creek,Annual,1962-09-02,"{'Gage_Height': 'feet', 'Discharge': 'cfs'}",36.4903,-120.2058,70038393_page_472_table1.csv
