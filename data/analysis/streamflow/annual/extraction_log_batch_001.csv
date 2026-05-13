@@ -1,0 +1,100 @@
+doc_id,page_number,table_index,site_name,actual_content,action,skip_reason,notes
+3217,210,0,"Sespe Creek near Fillmore, Calif.",annual,extracted_to_annual,,Water year + calendar year annual means + peaks; both year types extracted; OCR artifacts in some peak date/discharge cells
+3217,210,1,"Santa Paula Creek below Sisar Creek, near Santa Paula, Calif.",annual_and_monthly,extracted_to_both,,"Monthly mean discharge (cfs); ""The year"" row extracted to annual; WY 1912 partial (Apr-Sep only)"
+3217,210,2,"Santa Paula Creek below Sisar Creek, near Santa Paula, Calif.",annual_and_monthly,extracted_to_both,,"Monthly runoff (acre-feet); ""The year"" row extracted to annual; WY 1912 partial (Apr-Sep only)"
+2913,70,0,"Bear River at Pescadero, Idaho",annual,extracted_to_annual,,"Bear River at Pescadero; WY+CY means+peaks; not in batch metadata (station on same page as Georgetown Creek); first data row OCR year ""1923"" corrected to 1922"
+2913,70,1,"Georgetown Creek near Georgetown, Idaho",annual_and_monthly,extracted_to_both,,"Georgetown Creek monthly means (cfs); ""The year"" extracted to annual; WY 1913 Apr-Jul blank"
+1607,414,0,"Turlook Canal near La Grange, Calif.",annual,extracted_to_annual,,"Turlook Canal WY+CY means; ""Maximum day"" column used as peak proxy (not momentary max); second-feet=cfs"
+1607,414,1,Middle Fork of Stanislaus River,annual,extracted_to_annual,,No header row in table; column structure inferred from context (same page); 1909 absent; second-feet=cfs
+1607,414,2,Reservoir near Middle Fork Stanislaus (Relief Reservoir),non_streamflow,skipped_not_streamflow,,Reservoir storage contents in acre-feet (Contents on Sept.30 / Dec.31); not stream discharge
+2447,320,0,"East Fork Boulder Creek near Boulder, Utah",annual,extracted_to_annual,,Two-column crest-stage peaks; some years have multiple peaks per year; max peak taken; 1956-1957 absent
+2447,320,1,"East Fork Deer Creek near Boulder, Utah",annual,extracted_to_annual,,Two-column crest-stage peaks; station description on prior page; gage datum changed 1959; 1956-1958 absent
+2447,244,0,"Oak Creek near Oak Creek, Colo.",annual,extracted_to_annual,,Crest-stage annual peaks 1953-1957; two-column layout
+2447,244,1,"Yampa River at Steamboat Springs, Colo.",annual,extracted_to_annual,,Annual peaks 1904-1927 (1907-1909 absent); multiple peaks some years; max taken
+12711,16,0,Butte Creek near Durham,annual,extracted_to_annual,,Annual peak discharge + gage elevation; instantaneous peak used; max mean daily noted in notes field
+70038405,295,0,"East Fork Russian River near Calpella, Calif.",daily,skipped_daily,,Daily mean discharge + suspended sediment concentration for WY 1968 (Apr-Sep); not annual
+25119,26,0,Multiple stations - Green River Basin index,non_streamflow,skipped_not_streamflow,,"Station directory table: station names, drainage areas, periods of record only; no discharge values"
+2913,179,0,"South Fork Provo River at Vivian Park, Utah",annual_and_monthly,extracted_to_both,,Monthly discharge (cfs) WY 1936-1950 continuation; The year annual rows extracted
+2913,179,1,"South Fork Provo River at Vivian Park, Utah",annual_and_monthly,extracted_to_both,,Monthly runoff (acre-feet) WY 1912-1950; The year extracted to annual
+2913,179,2,"South Fork Provo River at Vivian Park, Utah",annual,extracted_to_annual,,Annual peaks (Maximum observed) + WY/CY means + runoff 1912-1925
+677,95,1,"San Antonio Creek near Claremont, Calif.",daily,skipped_daily,partial daily table fragment (4-column subset),
+677,95,2,"San Antonio Creek near Claremont, Calif.",daily,skipped_daily,Day x Month daily discharge table WY 1954-55,
+2987,96,0,,non_streamflow,skipped_not_streamflow,Midwest/Illinois river flood summary table; not California streamflow data; table structure also severely garbled,"Stations include Mackinaw R, Spoon R, Sangamon R in Illinois"
+25076,1,2,,non_streamflow,skipped_not_streamflow,Reference table listing Water Supply Papers by year; title/intro page,Document: Surface Water Supply of San Joaquin River Basin CA 1895-1927
+3033,260,1,"Eel River at Van Arsdale Dam, near Potter Valley, Calif.",annual,extracted_to_annual,,"30 annual peak records WY 1936-1965; continuation page, no coords in text"
+3033,260,3,"Outlet Creek near Longvale, Calif.",annual,extracted_to_annual,,9 annual peak records WY 1957-1965; crest-stage multi-peak; took max per WY
+1627,229,1,"San Joaquin River at Miller Crossing, Calif.",annual,extracted_to_annual,,Partial-duration peak series; 5 WY 1961-1965; took max per WY
+1627,229,2,"San Joaquin River at Miller Crossing, Calif.",annual,extracted_to_annual,,Annual minimum discharge WY 1961-1965; no min_discharge column so values in notes only
+1627,229,3,"San Joaquin River at Miller Crossing, Calif.",daily,skipped_daily,Day x Month daily table,
+56403,123,1,"Colorado River above Imperial Dam, Ariz.-Calif.",non_streamflow,skipped_not_streamflow,Biological data - phytoplankton identification table,
+1548,9,2,,non_streamflow,skipped_not_streamflow,Budget/appropriations table (dollar amounts by year); introduction page,Document: Surface Water Supply of Pacific Slope Basins in California 1919-1920
+1558,67,2,Cajon Creek (Santa Ana River Basin),non_streamflow,skipped_not_streamflow,"Current meter measurement log (individual field measurements with date, observer, gage height, discharge); not annual summary",
+1558,67,3,Cajon Creek (Santa Ana River Basin),daily,skipped_daily,Day x Month daily discharge table,
+1607,380,1,"San Gabriel River near Camp Bonita / near Azusa, Calif.",annual,extracted_to_annual,,Multi-station table: Camp Bonita (WY/CY 1933-1939) + near Azusa (WY/CY 1897-1939); all data WY+CY mean+runoff; no coords on page
+1607,380,3,"San Gabriel River and canal near Azusa, Calif.",annual,extracted_to_annual,,WY+CY mean+runoff 1896-1924; no header row (continuation from prev page)
+70038669,202,3,"Los Angeles River near Downey, Calif.",daily,skipped_daily,Day x Month daily discharge table,WY 1963 partial year
+70038681,531,1,Multiple crest-stage partial-record stations (CA),annual,extracted_to_annual,,9 CA stations; WY 1973 annual max; Cosgrove Creek also has 1970+1971; Elder/Burns Valley have coords in text
+3217,409,1,"Smith River near Crescent City, Calif.",annual_and_monthly,extracted_to_both,,"Monthly mean discharge (cfs) WY 1941-1950; ""The year"" → annual WY mean"
+3217,409,3,"Smith River near Crescent City, Calif.",annual_and_monthly,extracted_to_both,,"Monthly runoff (thousands of acre-ft) WY 1932-1950; ""The year"" → annual WY total runoff; $ = not previously published"
+3217,409,5,"Smith River near Crescent City, Calif.",annual,extracted_to_annual,,Annual peak + WY+CY mean+runoff (acre-ft) WY 1932-1950; $ = not previously published
+1607,369,1,"Temecula Creek at Nigger Canyon, near Temecula, Calif.",annual,extracted_to_annual,,WY+CY mean+runoff 1924-1939 (1939 CY missing)
+1607,369,3,"Temecula Creek at Railroad Canyon, near Temecula, Calif.",annual,extracted_to_annual,,WY+CY mean+runoff 1925-1939 (1925 WY missing; 1939 CY missing); chunk 2 text garbled
+1607,369,5,"Santa Margarita River at Ysidora, Calif.",annual,extracted_to_annual,,WY+CY mean+runoff 1924-1939 (1930 missing; 1929 CY missing; 1939 CY missing); OCR: 1933 S.65→8.65
+677,462,2,"Sacramento weir near Sacramento, Calif.",non_streamflow,skipped_not_streamflow,Stage-discharge rating table (3 rows); not annual measurement data,
+677,462,3,"Sacramento weir near Sacramento, Calif.",daily,skipped_daily,Day x Month daily discharge table,
+658,70,1,Santa Ana River at E Street Bridge (Santa Ana River Basin),non_streamflow,skipped_not_streamflow,Stage-discharge rating table; not annual measurement data,
+658,70,2,Santa Ana River at E Street Bridge (Santa Ana River Basin),daily,skipped_daily,Day x Month daily discharge table,Incomplete (June-Sept columns appear truncated)
+2447,86,1,"North Fork Ranch Creek near Fraser, Colo.",annual,extracted_to_annual,,Colorado stations; partial-duration peaks WY 1937-1942; took max per WY
+2447,86,2,"Middle Fork Ranch Creek near Fraser, Colo.",annual,extracted_to_annual,,Colorado stations; partial-duration peaks WY 1937-1942; took max per WY
+3117,72,1,"Pit River below Pit No. 4 Dam, Calif.",daily,skipped_daily,Day x Month daily discharge table WY 1967,Annual summary extracted from accompanying text (table_index -1)
+3117,72,3,"Pit River below Pit No. 4 Dam, Calif.",daily,skipped_daily,Day x Month daily discharge table WY 1968,Annual summary extracted from accompanying text (table_index -1)
+48069,29,1,Russian River near Cloverdale / Guerneville (multiple stations),non_streamflow,skipped_not_streamflow,Suspended-sediment discharge table (tons); not water discharge data,Annual sediment yield 1965-1968
+3144,474,1,"Sycamore Creek near Sunflower, Ariz.",annual,extracted_to_annual,,Arizona station; partial-duration peaks WY 1962-1965; took max per WY; * = estimated
+3144,474,2,"Sycamore Creek near Sunflower, Ariz.",daily,skipped_daily,Day x Month daily discharge table,
+2913,190,2,"Jordan River at narrows, near Lehi, Utah",annual_and_monthly,extracted_to_both,,"Utah station; monthly cfs WY 1904-1950 (incomplete early); ""The year"" → WY mean; some negative values (reverse flow)"
+2913,190,4,"Jordan River at narrows, near Lehi, Utah",annual_and_monthly,extracted_to_both,,"Utah station; monthly runoff (acre-ft) WY 1904-1925; ""The year"" → WY total runoff"
+29192,74,1,Cosumnes River at Michigan Bar,non_streamflow,skipped_not_streamflow,Streamflow/sediment percentage table; not discharge measurement data,Percentage of flow and sediment during time intervals 1957-66 and 1909-66
+2913,358,1,"East Fork Carson River near Gardnerville, Nev.",annual_and_monthly,extracted_to_both,,"Nevada station; monthly runoff (acre-ft) WY 1901-1950 with many gaps; ""The year"" → WY total"
+2913,358,3,"East Fork Carson River near Gardnerville, Nev.",annual,extracted_to_annual,,Nevada station; yearly discharge WY/CY 1890-1950 (gaps); b=from prior publication; $=not previously published
+70038398,429,1,"Eel River below Scott Dam, near Potter Valley, Calif.",daily,skipped_daily,Day x Month daily discharge table,"Lat 39°24'30"" long 122°58'15"""
+56418,442,1,"Strong Ranch Slough at Sacramento, Calif.",non_streamflow,skipped_not_streamflow,"Water quality table (nitrogen, phosphorus, dissolved solids)",
+56418,442,2,"Strong Ranch Slough at Sacramento, Calif.",non_streamflow,skipped_not_streamflow,"Water quality table (hardness, conductance, pH, BOD, coliform)",
+56404,256,2,"Dry Creek near Geyserville, Calif.",non_streamflow,skipped_not_streamflow,"Water quality chemical analysis (specific conductance, pH, temperature, dissolved oxygen, hardness, ions)",
+3034,115,1,"North Fork Willow Creek near Bass Lake, Calif.",annual,extracted_to_annual,,Annual peaks WY 1940-1965 (two-column layout)
+3034,115,3,"Willow Creek at mouth, near Auberry, Calif.",annual,extracted_to_annual,,"Annual peaks WY 1951-1965 (two-column layout); OCR: ""is"" → ""15"" in 1951 date"
+3067,184,2,"Cuyama River near Santa Maria, Calif.",daily,skipped_daily,Day x Month daily discharge table,Peak noted in text: Jan 25 770 cfs (5.25 ft)
+3217,155,1,"Little Dalton Creek near Glendora, Calif.",annual_and_monthly,extracted_to_both,,Monthly mean discharge cfs; The year column = WY mean
+3217,155,2,"Little Dalton Creek near Glendora, Calif.",annual_and_monthly,extracted_to_both,,Monthly runoff acre-feet; The year column = WY runoff
+3217,155,3,"Little Dalton Creek near Glendora, Calif.",annual,extracted_to_annual,,"Yearly summary: momentary peak discharge, WY mean/runoff, CY mean/runoff WY 1929-1950"
+2246,377,1,Santa Ana River Basin (various water company flumes and pumping plants),non_streamflow,skipped_not_streamflow,Spot discharge measurements at irrigation/pumping facilities 1898-1907; not annual stream discharge,"Columns: Date, Location, Developed, Natural, Total (cfs)"
+431,262,1,"Monthly discharge of Sacramento River at Antler, Calif., for the year ending September 30, 1926",annual_and_monthly,extracted_to_both,,Monthly discharge (max/min/mean cfs + runoff acre-ft) for Sacramento River at Antler WY 1926; batch metadata is for Kennett station on same page
+431,262,3,"Sacramento River at Kennett, Calif.",non_streamflow,skipped_not_streamflow,Individual discharge measurement gaugings (date/gage height/discharge); not annual data,Sacramento River at Kennett 1925-1926; spot gaugings for rating curve
+10430,30,1,"San Diego River at diverting dam, near Lakeside, Calif.",annual,extracted_to_annual,,Annual discharge in acre-feet WY 1913-1916; three-column layout; USGS station 11019000
+2447,427,1,"Agricultural Research Service Tombstone watershed W-V, Arizona",annual,extracted_to_annual,,Annual peak discharge CY 1954-1962; Arizona watershed; gage heights not recorded
+2447,427,2,"Agricultural Research Service Tombstone watershed W-III, Arizona",annual,extracted_to_annual,,Annual peak discharge CY 1954-1962; Arizona watershed; gage heights not recorded
+2447,427,3,"Agricultural Research Service Tombstone watershed W-IV, Arizona",annual,extracted_to_annual,,Annual peak discharge CY 1954-1962; Arizona watershed; gage heights not recorded
+3033,114,1,"Rogers Creek near Azusa, Calif.",annual,extracted_to_annual,,Annual peak discharge WY 1960-1962 partial-duration series; site name from batch metadata (no JSON text on this page)
+3033,114,3,"Fish Creek near Duarte, Calif.",annual,extracted_to_annual,,Annual peak discharge WY 1918-1961 partial-duration series; max peak taken per WY
+1558,150,1,"Kings River near Hume, Calif.",non_streamflow,skipped_not_streamflow,Individual discharge measurement gaugings (not annual/monthly discharge),Spot gaugings with gage height and discharge for rating curve
+1558,150,2,"Kings River near Hume, Calif.",daily,skipped_daily,Daily discharge data (day × month grid),Partial WY 1923; some months missing
+1558,150,4,"Kings River near Hume, Calif.",monthly,extracted_to_monthly,,Monthly summary WY 1923; partial year (Dec and Jan missing; Nov/Feb partial months)
+70038669,41,3,"Colorado River at Yuma, Ariz.",daily,skipped_daily,Daily discharge table (day × month grid),"USGS 9-5210; Arizona/Mexico border; lat 32°43'45"" N, long 114°37'15"" W"
+2247,48,1,"North Fork of North Fork of Yuba River at Downieville, Calif.",annual_and_monthly,extracted_to_both,,Monthly discharge cfs + WY means; WY 1911-1926; batch metadata for different station
+2247,48,3,"Rock Creek at Goodyear Bar, Calif.",annual_and_monthly,extracted_to_both,,"Monthly discharge cfs + WY means; WY 1911-1927; batch metadata for different station; April 1924 value ""-12.2"" treated as 12.2 (OCR artifact)"
+2247,48,5,"Goodyear Creek at Goodyear Bar, Calif.",annual_and_monthly,extracted_to_both,,Monthly discharge cfs + WY means; WY 1911-1927; batch metadata for different station
+2247,48,6,"Unknown station (continuation text only, no table structure)",unreadable,skipped_unreadable,,Chunk 6 contains fragmentary text for 1925-26 and 1926-27 that could not be parsed into table structure
+15,145,1,"Merced River at Exchequer, Calif.",annual_and_monthly,extracted_to_both,,Monthly + annual runoff in thousands of acre-feet WY 1921-1950; converted to acre-feet (×1000)
+15,145,2,"Merced River at Exchequer, Calif.",annual,extracted_to_annual,,Annual peaks + WY/CY mean discharge + runoff WY 1901-1940; multiple quality prefixes; see chunk 3 footnotes
+70038676,266,1,"Dry Creek above Sutter Creek, near Ione, Calif.",daily,skipped_daily,Daily discharge table (day × month grid),"USGS 11326300; San Joaquin Basin; lat 38°24'54"", long 120°54'18"""
+1553,93,2,"Fish Creek (San Gabriel River Basin, Calif.)",non_streamflow,skipped_not_streamflow,Individual discharge measurement gaugings (spot measurements),Rating curve gaugings; not annual/monthly discharge
+1553,93,3,"Fish Creek (San Gabriel River Basin, Calif.)",daily,skipped_daily,Daily discharge table (day × month grid),WY partial year (Oct missing); San Gabriel River Basin
+2447,130,1,"Canyon Creek near New Castle, Colo.",annual,extracted_to_annual,,Annual peak discharge WY 1955-1960; Colorado; partial-duration; batch metadata is for Elk Creek
+2447,130,3,Elk Creek (Colorado),annual,extracted_to_annual,,"Annual peak discharge WY 1922,1923,1955-1960; Colorado Elk Creek Basin; partial-duration"
+1627,23,1,"Kern River near Quaking Aspen Camp, Calif.",non_streamflow,skipped_not_streamflow,High-water measurement gaugings (date/time/discharge/gage ht); not annual data,"Rating curve measurements for Kern River, WY 1961-1965"
+1627,23,2,"Kern River near Quaking Aspen Camp, Calif.",annual,skipped_too_complex,Annual minimum discharge data (WY 1961-1965); no output column for annual minimum,"Values: WY1961=85(a), 1962=61, 1963=83(a), 1964=97(a), 1965=93(a) cfs; dates of minimum; no schema column for minimum"
+1627,23,3,"Kern River near Quaking Aspen Camp, Calif.",daily,skipped_daily,Daily discharge table (day × month grid); heavy OCR corruption,"Kern River daily discharge; OCR artifacts render many cells unreadable (e.g., sc, is, c/, 1:1)"
+47988,89,1,4 California crest-stage gauge stations (see notes),annual,extracted_to_annual,,"Multi-station table; 4 CA stations: Sapaque Creek tributary at Bryson, Sulphur Springs Canyon near Jolon, Sand Creek near Paraiso Springs, Moro Cojo Slough tributary near Castroville; WY 1961-1971"
+2913,246,1,"Sevier River below San Pitch River, near Gunnison, Utah",annual,extracted_to_annual,,Utah; yearly discharge WY 1926-1950 (continuation); batch metadata is for Clark's bridge
+2913,246,3,"Sevier River at Clark's bridge, near Fayette, Utah",annual_and_monthly,extracted_to_both,,Utah; monthly mean discharge cfs + WY means; WY 1914-1917
+2913,246,4,"Sevier River at Clark's bridge, near Fayette, Utah",annual_and_monthly,extracted_to_both,,Utah; monthly runoff acre-ft + WY runoffs; WY 1914-1917
+2913,246,5,"Sevier River at Clark's bridge, near Fayette, Utah",annual,extracted_to_annual,,Utah; yearly discharge WY 1914-1916
