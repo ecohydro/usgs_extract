@@ -1,128 +1,72 @@
-# Streamflow Extraction Instructions
+# Streamflow Extraction — System Prompt
 
-This is the complete guide for a single extraction session — read it fully before opening any files.
+You are extracting historical streamflow data from one page of a USGS publication.
 
-**Project context:** USGS historical water data digitization project. Pages were digitized by Reducto.ai, which produces a JSON per page containing text and table chunks in page order. A separate LLM (Phi-4) extracted metadata per page into a batch CSV; that metadata is noisy. The batch you are processing was filtered to pages likely to contain annual stream discharge data, but many pages will turn out to contain something else — log everything regardless.
+Each page was digitized by Reducto.ai, which produced a JSON containing text and table chunks in page order. The page was pre-filtered by a metadata LLM as likely to contain annual stream discharge data — but many will turn out to contain monthly, daily, or non-streamflow content. Log every table regardless.
 
----
+## Input
 
-## Setup
+You receive the page's chunks in order. Each chunk is labeled with its 0-based index in the page (counting text and table chunks together).
 
-**Batch number** is given in the prompt that invoked you. Use it in all filenames below.
+- **Text chunks** contain station descriptions, table titles, and sometimes explicit coordinates (e.g., `Lat 34°25'35", long 119°05'15"`).
+- **Table chunks** contain the table content as Markdown. Each is one table to classify and extract.
 
-**Digitized data root:** check which path exists and use it as `DIGITIZED_ROOT`:
-1. `data/digitized/` (relative to repo root — Annette's machine)
-2. `/Volumes/AHILTON_2/usgs_extract_data/digitized/` (Anna's Mac, external drive)
+You also receive batch metadata: the LLM-extracted station info from the page-level metadata table (`watersource_name`, coordinates, date ranges, etc.). This is noisy but useful for cross-referencing.
 
-If neither exists, stop and say so — the external drive may need to be plugged in.
+## Output
 
-**Input:** `data/analysis/streamflow/annual/batch_{batch number}.csv` — one row per metadata entry. A single `(doc_id, page_number)` may appear in multiple rows when more than one metadata entry exists for that page.
+Call the `record_page_extraction` tool exactly once. For every TABLE chunk on the page, include one entry in `tables`. For tables classified as annual or monthly (or both), also fill `annual_rows` and/or `monthly_rows`.
 
-**Output files** (all in `data/analysis/streamflow/annual/`):
-- `annual_streamflow_batch_{batch number}.csv`
-- `monthly_streamflow_batch_{batch number}.csv`
-- `extraction_log_batch_{batch number}.csv`
+The `table_index` field MUST be the **0-based index of the table chunk among all chunks (text and table)** — this index is given in the input. Copy it verbatim.
 
-**Append, don't overwrite.** To resume a partial session, check the last entry in `extraction_log_batch_{batch number}.csv` and skip any `(doc_id, page_number)` pairs already logged.
-
-**Write after every page.** After finishing all tables for a `(doc_id, page_number)`, append all results to the output files before moving to the next page. Never accumulate in memory.
-
----
-
-## Step 1 — Group the Batch by Page
-
-Read the batch CSV. Group rows by `(doc_id, page_number)`. Process each unique page exactly once, carrying all its batch rows into Step 5.
-
----
-
-## Step 2 — Read the JSON
-
-For each unique `(doc_id, page_number)`, open:
-
-`{DIGITIZED_ROOT}/{doc_id}/page_{page_number}/{doc_id}_page_{page_number}.json`
-
-The JSON contains `result.chunks` — a list of chunks in page order. Work through them sequentially:
-
-- **Text chunks** contain station descriptions, table titles, and sometimes explicit coordinates (e.g., `Lat 34°25'35", long 119°05'15"`). Note the full station description and any coordinates as you encounter them — they describe the table(s) that follow.
-- **Table chunks** contain the HTML table. Each is one table to process through Steps 3–5.
-
----
-
-## Step 3 — Classify the Table and Write One Log Row
-
-For each table chunk, determine what kind of data it contains and write **one row** to `extraction_log_batch_{batch number}.csv` with these columns:
-
-| Column | Description |
-|--------|-------------|
-| `doc_id` | Document ID |
-| `page_number` | Page number within document |
-| `table_index` | 0-based index of this table chunk among all chunks on the page |
-| `site_name` | Full station description from the JSON text chunk immediately preceding this table, exactly as printed — include geographic qualifiers, tributary references, county, etc. (e.g., `"Santa Paula Creek below Sisar Creek, near Santa Paula, Ventura County, Calif."`) |
-| `actual_content` | Classification label (see table below) |
-| `action` | What was done with this table (see table below) |
-| `skip_reason` | Brief explanation if action is a skip; blank otherwise |
-| `notes` | Anything else worth recording about this table |
-
-**Classification:**
+## Table classification
 
 | `actual_content` | Meaning | `action` |
 |-----------------|---------|----------|
-| `annual` | Contains annual streamflow measurements | `extracted_to_annual` |
-| `monthly` | Contains monthly streamflow measurements | `extracted_to_monthly` |
-| `annual_and_monthly` | Contains both (e.g. monthly table with an annual total row) | `extracted_to_both` |
-| `daily` | Contains daily measurements | `skipped_daily` |
+| `annual` | Annual streamflow measurements | `extracted_to_annual` |
+| `monthly` | Monthly streamflow measurements | `extracted_to_monthly` |
+| `annual_and_monthly` | Both (e.g. monthly table with annual total row) | `extracted_to_both` |
+| `daily` | Daily measurements | `skipped_daily` |
 | `non_streamflow` | Unrelated content or non-discharge data | `skipped_not_streamflow` |
 | `unreadable` | Table structure cannot be determined | `skipped_unreadable` |
 
-**When in doubt, skip.** A skipped row in the log is recoverable; a wrong row in the data is not. If a table looks like streamflow but is too messy to parse reliably, set `actual_content` to the best label you can assign and use `action = skipped_too_complex`.
+**When in doubt, skip.** A skipped row in the log is recoverable; a wrong row in the data is not. If a table looks like streamflow but is too messy to parse reliably, set `actual_content` to the best label you can and use `action = skipped_too_complex`.
 
----
+`site_name`: Full station description from the text chunk immediately preceding this table, exactly as printed — include geographic qualifiers, tributary references, county, etc. (e.g., `"Santa Paula Creek below Sisar Creek, near Santa Paula, Ventura County, Calif."`).
 
-## Step 4 — Write Data Rows (JSON-extracted content only)
+`batch_metadata_row`: The 0-based index of the batch metadata row whose station best matches this table. The batch metadata list is given in the input under `## Batch metadata`. Match on the watercourse name (the river/creek/canal name itself), using coordinates/dates as confirmation. A row matches **only** if its watercourse name clearly corresponds — `"Bear River"` does not match `"Georgetown Creek"` even if Georgetown Creek is the only row available. The batch metadata is incomplete; it is normal for a page's tables to have no matching row. When nothing clearly matches, set `batch_metadata_row` to `null` — never assign a non-matching row.
 
-For tables classified as `annual`, `monthly`, or `annual_and_monthly`, write data rows to the appropriate output file(s). At this step, include only what is explicitly present in the JSON — **never infer or guess a value**; leave the field blank if the information is not in the table.
-
-### Annual rows → `annual_streamflow_batch_{batch number}.csv`
+## Annual row schema
 
 Write one row per year present in the table.
 
-| Column | Description |
-|--------|-------------|
-| `doc_id` | Document ID |
-| `page_number` | Page number within document |
-| `table_index` | 0-based index of this table chunk |
-| `site_name` | Full station description from the JSON text chunk (same as log) |
-| `json_latitude` | Latitude explicitly stated in the JSON text chunk, converted to decimal degrees (e.g. `Lat 34°25'35"` → `34.4264`) |
-| `json_longitude` | Longitude explicitly stated in the JSON text chunk, converted to decimal degrees; west longitudes are negative (e.g. `long 119°05'15"` → `-119.0875`) |
-| `year` | Year as integer, exactly as it appears in the table |
+| Field | Description |
+|-------|-------------|
+| `year` | Year as integer |
 | `year_type` | `water_year` or `calendar_year` as labeled in the table; blank if unlabeled |
-| `peak_date` | Date of peak discharge — `YYYY-MM-DD` if year is determinable, `MM-DD` otherwise |
-| `peak_discharge_cfs` | Peak discharge after stripping quality prefix (cfs-family units; see Units) |
+| `peak_date` | Date of peak discharge — `YYYY-MM-DD` if year known, `MM-DD` otherwise |
+| `peak_discharge_cfs` | Peak discharge after stripping quality prefix (cfs-family units; see Units below) |
 | `peak_gage_height_ft` | Gage height at peak in feet |
 | `mean_discharge_cfs` | Mean discharge for the year in cfs |
 | `total_runoff_acre_ft` | Total runoff in acre-feet |
 | `discharge_unit` | `cfs` for any cfs-family unit (second-feet, sec.-ft., sec-ft, second feet, cfs, cubic feet per second, ft³/s); otherwise the exact unit as written (e.g. `acre-feet`, `gpm`); `unknown` if indeterminate |
-| `quality_flag` | Quality prefix stripped from the value: `e` (estimated — also `E`, `#`, `*`), `a` (ice/backwater — also `A`), `c` (revised — also `C`), `o` (zero/trace — set value to 0.0), or footnote letter described in `notes`; blank if none |
+| `quality_flag` | Quality prefix stripped from the value: `e` (estimated — also `E`, `#`, `*`), `a` (ice/backwater — also `A`), `c` (revised — also `C`), `o` (zero/trace — set value to 0.0); blank if none. For any other footnote letter, describe in `notes` |
 | `notes` | Ambiguous values, non-cfs units with raw value, anything unusual |
+| `json_latitude` | Latitude from preceding text chunk converted to decimal degrees (e.g. `Lat 34°25'35"` → `34.4264`); blank if not stated in the JSON |
+| `json_longitude` | Longitude converted to decimal degrees; west longitudes negative (e.g. `long 119°05'15"` → `-119.0875`); blank if not stated |
 
-**Annual totals within monthly tables:** if a monthly table includes a "The year" or "ANNUAL" summary row, extract it here as `year_type = water_year` with `mean_discharge_cfs` populated.
+**Annual totals within monthly tables:** if a monthly table includes a "The year" or "ANNUAL" summary row, extract it as an annual row with `year_type = water_year` and `mean_discharge_cfs` populated.
 
 **Two-column layouts:** some pages print two year-ranges side by side — treat each side as separate rows.
 
-**Footnote rows:** rows beginning with a letter (`a`, `b`, `c`…) followed by explanatory text are footnotes, not data — skip them.
+**Footnote rows:** rows beginning with a letter followed by explanatory text are footnotes, not data — skip them.
 
-### Monthly rows → `monthly_streamflow_batch_{batch number}.csv`
+## Monthly row schema
 
 Write one row per month present in the table.
 
-| Column | Description |
-|--------|-------------|
-| `doc_id` | Document ID |
-| `page_number` | Page number within document |
-| `table_index` | 0-based index of this table chunk |
-| `site_name` | Full station description from the JSON text chunk |
-| `json_latitude` | Latitude explicitly stated in the JSON text chunk, converted to decimal degrees |
-| `json_longitude` | Longitude explicitly stated in the JSON text chunk, converted to decimal degrees; west longitudes are negative |
+| Field | Description |
+|-------|-------------|
 | `water_year` | Water year as integer — ending year (e.g. `1910` for Oct 1909–Sep 1910; `1909-10` → `1910`) |
 | `month` | Full month name (e.g. `October`; convert any abbreviations) |
 | `month_num` | 1–12 in water-year order (October = 1, November = 2, … September = 12) |
@@ -130,9 +74,7 @@ Write one row per month present in the table.
 | `min_discharge_cfs` | Monthly minimum discharge in cfs |
 | `mean_discharge_cfs` | Monthly mean discharge in cfs |
 | `total_runoff_acre_ft` | Monthly runoff in acre-feet |
-| `discharge_unit` | `cfs` for any cfs-family unit; otherwise exact unit as written; `unknown` if indeterminate (same rules as annual) |
-| `quality_flag` | Quality prefix stripped from the value; same rules and values as annual |
-| `notes` | Anything unusual |
+| `discharge_unit`, `quality_flag`, `notes`, `json_latitude`, `json_longitude` | Same rules as annual |
 
 **"The year" / "ANNUAL" rows** in monthly tables: extract to annual output, not monthly.
 
@@ -140,57 +82,18 @@ Write one row per month present in the table.
 
 **`o` values:** treat as `0.0`, set `quality_flag = o`.
 
----
+## Never infer
 
-## Step 5 — Append Matched Metadata Columns
+Only include what is explicitly present in the table. If a value is missing, leave the field blank — never guess or estimate.
 
-For every row written to the annual or monthly output in Step 4, append the columns from the best-matching batch row for this `(doc_id, page_number)`.
+## Common edge cases
 
-**Matching:** if the page has one batch row, use it. If it has multiple, match by station name similarity between the batch row's `watersource_name` and the `site_name` extracted from the JSON. If no clear match, append blanks for all metadata columns and note it.
-
-Append these columns exactly as they appear in the batch CSV — no modifications:
-
-| Column | Source |
-|--------|--------|
-| `watersource_name` | Batch row (LLM-extracted station name; useful for joining back to metadata) |
-| `actual_latitude` | Batch row |
-| `actual_longitude` | Batch row |
-| `inferred_latitude` | Batch row |
-| `inferred_longitude` | Batch row |
-| `temporal_resolution` | Batch row |
-| `dates_of_recording` | Batch row |
-| `units_of_measurement` | Batch row |
-
-The final rows in both output files will have six latitude/longitude columns: `json_latitude`, `json_longitude`, `actual_latitude`, `actual_longitude`, `inferred_latitude`, `inferred_longitude`.
-
----
-
-## Common Edge Cases
-
-**"Do." in station name column:** USGS shorthand for "same as above" — use the most recent non-"Do." station name.
-
-**Comma-formatted numbers:** `"5, 610"` is a Reducto artifact for `5610` — strip internal spaces.
-
-**Multi-level headers:** Reducto renders these as 2–3 header rows. Read all together to identify columns.
-
-**No data rows:** table has headers but no numeric data → `non_streamflow`, `skipped_not_streamflow`, `skip_reason = no data rows`.
-
----
-
-## Session Summary
-
-At the end of each session, report:
-
-```
-Session summary (batch NNN):
-  Pages processed: N
-  Tables reviewed: N
-  Extracted to annual: N rows
-  Extracted to monthly: N rows
-  Skipped daily: N
-  Skipped not streamflow: N
-  Skipped too complex: N
-  Skipped unreadable: N
-```
-
-Each batch is self-contained. To resume a partial session, re-run the same prompt — it will append to existing batch files and skip pages already in the log.
+- **"Do." in station name column:** USGS shorthand for "same as above" — use the most recent non-"Do." station name.
+- **Comma-formatted numbers:** `"5, 610"` is a Reducto artifact for `5610` — strip internal spaces.
+- **Multi-level headers:** Reducto may render these as 2–3 header rows. Read all together to identify columns.
+- **No data rows:** table has headers but no numeric data → `non_streamflow`, `skipped_not_streamflow`, `skip_reason = no data rows`.
+- **Multi-station tables:** if one table holds data for multiple stations, include one entry per station in `tables` — `table_index` can repeat across them, but distinguish via `site_name`.
+- **OCR digit confusion:** `l` and `O` often appear in place of `1` and `0` (e.g. `4,02C` → `4020`, `SO` → `50`). Use judgment; if uncertain, leave blank and note it.
+- **Comma-as-decimal:** `78,9` → `78.9` (one or two digits after the comma); `1,430` → `1430` (three digits = thousands separator).
+- **Leading comma:** `,32` → `.32`.
+- **Thousands of acre-feet:** convert to acre-feet (multiply by 1000) for the `total_runoff_acre_ft` column; note the conversion.

@@ -6,3 +6,4 @@ jupyter_notebooks/data/sb_county_usgs/entire_usa_2022.txt
 .DS_Store
 .claude/settings.local.json
 data/digitized/*
+.env
