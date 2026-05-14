@@ -1,52 +1,77 @@
 # Annual Streamflow Extraction
 
-We are extracting historical streamflow measurements from ~6,900 digitized USGS page JSONs
-into a unified dataset. These pages were filtered by the LLM metadata extraction as likely
-annual-resolution stream discharge. In practice they contain a mix of actual annual data,
-mislabeled monthly and daily tables, water quality tables, and unrelated content.
+We extract historical streamflow measurements from digitized USGS page JSONs into a unified
+dataset. Pages are filtered from `main_metadata.csv` to those the LLM metadata extraction labeled
+as stream discharge at annual/yearly resolution. In practice they contain a mix of real annual
+data, mislabeled monthly and daily tables, water-budget and sediment tables, and unrelated
+content — every table is classified and logged regardless.
 
-Each Claude Code session reads a batch of ~150 metadata entries (one or more per page),
-processes each unique page's JSON exactly once, extracts any annual or monthly streamflow
-data it finds, and logs every table it reviewed.
+Extraction runs through the **Claude Message Batches API**: each candidate page becomes one batch
+request; Claude classifies every table on the page and returns structured rows via a tool call.
+The Batch API is ~50% cheaper than per-request calls and is not subject to the per-minute output
+token rate limit.
 
 ## Files here
-- `annual_streamflow_extraction_instructions.md` — complete instructions for each extraction session
-- `generate_batches.py` — generates input batch CSVs (run once)
-- `concatenate_batches.py` — merges all per-batch outputs into final files (run once when all sessions are done)
+- `annual_streamflow_extraction_instructions.md` — the system prompt sent with every request
+- `extract_streamflow_api.py` — the extraction script (submit / status / retrieve / run)
+- `.env` — holds `ANTHROPIC_API_KEY` (gitignored; copy `.env.example` and fill in)
 
 ## Outputs (`data/analysis/streamflow/annual/`)
-- `batch_NNN.csv` — input for each session (pre-built by generate_batches.py)
-- `annual_streamflow_batch_NNN.csv` — annual data extracted by session NNN
-- `monthly_streamflow_batch_NNN.csv` — monthly data found in annual-labeled files
-- `extraction_log_batch_NNN.csv` — every file reviewed in session NNN, with actual content and action
+- `annual_streamflow.csv` — one row per year per annual table
+- `monthly_streamflow.csv` — one row per month per monthly table
+- `extraction_log.csv` — one row per table reviewed, with classification and action
+- `batch_state.json` — transient; tracks the active batch between submit and retrieve
 
-Once all sessions are done, run the concatenation script to merge everything:
+## Setup
+
+1. Plug in the external drive (`/Volumes/AHILTON_2/`) — the digitized JSONs live there.
+2. Put your Anthropic API key in `.env`:
+   ```
+   ANTHROPIC_API_KEY=sk-ant-...
+   ```
+   Get one at console.anthropic.com (separate from a Claude.ai subscription; billed per token).
+3. Dependencies: `anthropic`, `python-dotenv`, `beautifulsoup4`.
+
+## Running
+
+The simplest path — submit, poll, and retrieve in one command:
 
 ```
-python code/04_vignettes/streamflow/annual_processing/concatenate_batches.py
+python extract_streamflow_api.py run
 ```
 
-This produces three final files in `data/analysis/streamflow/annual/`:
-- `annual_streamflow.csv`
-- `monthly_streamflow.csv`
-- `extraction_log.csv`
-
-## Starting an extraction session
-
-Open a new Claude Code session (terminal or VSCode). Paste this prompt, replacing `NNN` with the batch number (001–046) in the **first line only**:
+Or step through manually:
 
 ```
-Batch number: NNN
-
-Read code/04_vignettes/streamflow/annual_processing/annual_streamflow_extraction_instructions.md
-fully before doing anything else. Then process all (doc_id, page_number) pairs in
-data/analysis/streamflow/annual/batch_{batch number}.csv. Write the three batch-numbered output
-files to data/analysis/streamflow/annual/:
-  annual_streamflow_batch_{batch number}.csv
-  monthly_streamflow_batch_{batch number}.csv
-  extraction_log_batch_{batch number}.csv
-Append to these files if they already exist (in case you are resuming a partial session).
-At the end, print the session summary in the format specified in the instructions.
+python extract_streamflow_api.py submit      # build requests for unprocessed pages, create batch
+python extract_streamflow_api.py status      # poll the active batch
+python extract_streamflow_api.py retrieve     # download results once ended, write CSVs
 ```
 
-Sessions can run in parallel — each writes to its own batch-numbered files so there are no write conflicts. Check `extraction_log_batch_{batch number}.csv` to see where a partial session left off before resuming.
+Useful flags:
+- `--limit N` — only the first N unprocessed pages (test batches)
+- `--model NAME` — model id (default `claude-sonnet-4-6`)
+- `--poll-seconds S` — poll interval for `run` (default 30)
+- `--dry-run` — (with `submit`) build requests without calling the API
+
+## Resuming
+
+The pipeline is resumable at two levels:
+
+- **Within a batch:** `submit` saves `batch_state.json`. `status`/`retrieve`/`run` operate on that
+  active batch. `retrieve` clears the state file when done.
+- **Across batches:** `submit` skips any `(doc_id, page_number)` already present in
+  `extraction_log.csv`. Pages whose requests failed or were truncated are *not* logged, so a
+  later `submit` picks them up again. Run `submit` repeatedly until no pages remain.
+
+To start completely fresh, delete the three output CSVs and `batch_state.json`.
+
+## How a page is processed
+
+1. The page JSON's chunks are flattened — text chunks kept as-is, HTML table chunks rendered as
+   Markdown — and combined with the page's (noisy) batch metadata into one user message.
+2. Claude classifies every table chunk and returns structured rows through the
+   `record_page_extraction` tool (forced tool use, so output is always well-formed).
+3. Each table produces one `extraction_log.csv` row; annual/monthly tables also produce data
+   rows. Batch metadata columns are joined on by the model's `batch_metadata_row` pick, with a
+   token-overlap sanity check that blanks the metadata rather than attaching a wrong station.
