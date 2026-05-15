@@ -6,10 +6,10 @@ Each page was digitized by Reducto.ai, which produced a JSON containing text and
 
 ## Input
 
-You receive the page's chunks in order. Each chunk is labeled with its 0-based index in the page (counting text and table chunks together).
+You receive the page's chunks in order. Each chunk is labeled `### Chunk {i} [TEXT]` or `### Chunk {i} [TABLE {N}]`.
 
 - **Text chunks** contain station descriptions, table titles, and sometimes explicit coordinates (e.g., `Lat 34°25'35", long 119°05'15"`).
-- **Table chunks** contain the table content as Markdown. Each is one table to classify and extract.
+- **Table chunks** contain the table content as Markdown. `N` in `[TABLE N]` is the 1-based table number on the page (first table = 1, second = 2, …). Each table chunk is one table to classify and extract.
 
 You also receive batch metadata: the LLM-extracted station info from the page-level metadata table (`watersource_name`, coordinates, date ranges, etc.). This is noisy but useful for cross-referencing.
 
@@ -17,7 +17,7 @@ You also receive batch metadata: the LLM-extracted station info from the page-le
 
 Call the `record_page_extraction` tool exactly once. For every TABLE chunk on the page, include one entry in `tables`. For tables classified as annual or monthly (or both), also fill `annual_rows` and/or `monthly_rows`.
 
-The `table_index` field MUST be the **0-based index of the table chunk among all chunks (text and table)** — this index is given in the input. Copy it verbatim.
+The `table_index` field MUST be the **1-based table number** — copy the `N` from the `[TABLE N]` label of the chunk this entry describes.
 
 ## Table classification
 
@@ -45,17 +45,18 @@ Write one row per year present in the table.
 | `year` | Year as integer |
 | `year_type` | `water_year` or `calendar_year` as labeled in the table; blank if unlabeled |
 | `peak_date` | Date of peak discharge — `YYYY-MM-DD` if year known, `MM-DD` otherwise |
-| `peak_discharge_cfs` | Peak discharge after stripping quality prefix (cfs-family units; see Units below) |
-| `peak_gage_height_ft` | Gage height at peak in feet |
-| `mean_discharge_cfs` | Mean discharge for the year in cfs |
-| `total_runoff_acre_ft` | Total runoff in acre-feet |
-| `discharge_unit` | `cfs` for any cfs-family unit (second-feet, sec.-ft., sec-ft, second feet, cfs, cubic feet per second, ft³/s); otherwise the exact unit as written (e.g. `acre-feet`, `gpm`); `unknown` if indeterminate |
+| `peak_discharge` | Peak discharge value, exactly as printed (after stripping any quality prefix). Do not convert units. |
+| `peak_gage_height` | Gage height at peak, exactly as printed (gage height is always in feet) |
+| `mean_discharge` | Mean discharge for the year, exactly as printed. Do not convert units. |
+| `total_runoff` | Total runoff value, exactly as printed. Do not convert units. |
+| `discharge_unit` | Unit of the discharge columns, recorded **exactly as printed** in the table (e.g. `second-feet`, `sec.-ft.`, `cfs`, `cubic feet per second`, `gpm`); `unknown` if indeterminate. Do not normalize or convert — that happens downstream. |
+| `runoff_unit` | Unit of `total_runoff`, recorded **exactly as printed** (e.g. `acre-feet`, `thousands of acre-feet`); `unknown` if indeterminate. Do not normalize or convert. |
 | `quality_flag` | Quality prefix stripped from the value: `e` (estimated — also `E`, `#`, `*`), `a` (ice/backwater — also `A`), `c` (revised — also `C`), `o` (zero/trace — set value to 0.0); blank if none. For any other footnote letter, describe in `notes` |
-| `notes` | Ambiguous values, non-cfs units with raw value, anything unusual |
+| `notes` | Ambiguous values, anything unusual |
 | `json_latitude` | Latitude from preceding text chunk converted to decimal degrees (e.g. `Lat 34°25'35"` → `34.4264`); blank if not stated in the JSON |
 | `json_longitude` | Longitude converted to decimal degrees; west longitudes negative (e.g. `long 119°05'15"` → `-119.0875`); blank if not stated |
 
-**Annual totals within monthly tables:** if a monthly table includes a "The year" or "ANNUAL" summary row, extract it as an annual row with `year_type = water_year` and `mean_discharge_cfs` populated.
+**Annual totals within monthly tables:** if a monthly table includes a "The year" or "ANNUAL" summary row, extract it as an annual row with `year_type = water_year` and `mean_discharge` populated.
 
 **Two-column layouts:** some pages print two year-ranges side by side — treat each side as separate rows.
 
@@ -70,11 +71,11 @@ Write one row per month present in the table.
 | `water_year` | Water year as integer — ending year (e.g. `1910` for Oct 1909–Sep 1910; `1909-10` → `1910`) |
 | `month` | Full month name (e.g. `October`; convert any abbreviations) |
 | `month_num` | 1–12 in water-year order (October = 1, November = 2, … September = 12) |
-| `max_discharge_cfs` | Monthly maximum discharge in cfs |
-| `min_discharge_cfs` | Monthly minimum discharge in cfs |
-| `mean_discharge_cfs` | Monthly mean discharge in cfs |
-| `total_runoff_acre_ft` | Monthly runoff in acre-feet |
-| `discharge_unit`, `quality_flag`, `notes`, `json_latitude`, `json_longitude` | Same rules as annual |
+| `max_discharge` | Monthly maximum discharge, exactly as printed. Do not convert units. |
+| `min_discharge` | Monthly minimum discharge, exactly as printed. Do not convert units. |
+| `mean_discharge` | Monthly mean discharge, exactly as printed. Do not convert units. |
+| `total_runoff` | Monthly runoff value, exactly as printed. Do not convert units. |
+| `discharge_unit`, `runoff_unit`, `quality_flag`, `notes`, `json_latitude`, `json_longitude` | Same rules as annual |
 
 **"The year" / "ANNUAL" rows** in monthly tables: extract to annual output, not monthly.
 
@@ -96,4 +97,4 @@ Only include what is explicitly present in the table. If a value is missing, lea
 - **OCR digit confusion:** `l` and `O` often appear in place of `1` and `0` (e.g. `4,02C` → `4020`, `SO` → `50`). Use judgment; if uncertain, leave blank and note it.
 - **Comma-as-decimal:** `78,9` → `78.9` (one or two digits after the comma); `1,430` → `1430` (three digits = thousands separator).
 - **Leading comma:** `,32` → `.32`.
-- **Thousands of acre-feet:** convert to acre-feet (multiply by 1000) for the `total_runoff_acre_ft` column; note the conversion.
+- **Thousands of acre-feet:** record the value exactly as printed and set `runoff_unit` to `thousands of acre-feet`. Do not multiply or convert — unit conversion happens downstream.

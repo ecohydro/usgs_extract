@@ -55,9 +55,9 @@ ANNUAL_COLUMNS = [
     'doc_id', 'page_number', 'table_index', 'site_name',
     'json_latitude', 'json_longitude',
     'year', 'year_type', 'peak_date',
-    'peak_discharge_cfs', 'peak_gage_height_ft',
-    'mean_discharge_cfs', 'total_runoff_acre_ft',
-    'discharge_unit', 'quality_flag', 'notes',
+    'peak_discharge', 'peak_gage_height',
+    'mean_discharge', 'total_runoff',
+    'discharge_unit', 'runoff_unit', 'quality_flag', 'notes',
     'watersource_name', 'actual_latitude', 'actual_longitude',
     'inferred_latitude', 'inferred_longitude',
     'temporal_resolution', 'dates_of_recording', 'units_of_measurement',
@@ -67,8 +67,8 @@ MONTHLY_COLUMNS = [
     'doc_id', 'page_number', 'table_index', 'site_name',
     'json_latitude', 'json_longitude',
     'water_year', 'month', 'month_num',
-    'max_discharge_cfs', 'min_discharge_cfs', 'mean_discharge_cfs',
-    'total_runoff_acre_ft', 'discharge_unit', 'quality_flag', 'notes',
+    'max_discharge', 'min_discharge', 'mean_discharge',
+    'total_runoff', 'discharge_unit', 'runoff_unit', 'quality_flag', 'notes',
     'watersource_name', 'actual_latitude', 'actual_longitude',
     'inferred_latitude', 'inferred_longitude',
     'temporal_resolution', 'dates_of_recording', 'units_of_measurement',
@@ -97,7 +97,10 @@ TOOL_SCHEMA = {
                     "properties": {
                         "table_index": {
                             "type": "integer",
-                            "description": "0-based index of the table chunk among all chunks on the page",
+                            "description": (
+                                "1-based table number on the page — copy the N from the "
+                                "[TABLE N] label of the chunk this entry describes"
+                            ),
                         },
                         "site_name": {"type": "string"},
                         "batch_metadata_row": {
@@ -133,11 +136,12 @@ TOOL_SCHEMA = {
                                     "year": {"type": ["integer", "null"]},
                                     "year_type": {"type": "string"},
                                     "peak_date": {"type": "string"},
-                                    "peak_discharge_cfs": {"type": ["number", "null"]},
-                                    "peak_gage_height_ft": {"type": ["number", "null"]},
-                                    "mean_discharge_cfs": {"type": ["number", "null"]},
-                                    "total_runoff_acre_ft": {"type": ["number", "null"]},
+                                    "peak_discharge": {"type": ["number", "null"]},
+                                    "peak_gage_height": {"type": ["number", "null"]},
+                                    "mean_discharge": {"type": ["number", "null"]},
+                                    "total_runoff": {"type": ["number", "null"]},
                                     "discharge_unit": {"type": "string"},
+                                    "runoff_unit": {"type": "string"},
                                     "quality_flag": {"type": "string"},
                                     "notes": {"type": "string"},
                                     "json_latitude": {"type": ["number", "null"]},
@@ -153,11 +157,12 @@ TOOL_SCHEMA = {
                                     "water_year": {"type": ["integer", "null"]},
                                     "month": {"type": "string"},
                                     "month_num": {"type": ["integer", "null"]},
-                                    "max_discharge_cfs": {"type": ["number", "null"]},
-                                    "min_discharge_cfs": {"type": ["number", "null"]},
-                                    "mean_discharge_cfs": {"type": ["number", "null"]},
-                                    "total_runoff_acre_ft": {"type": ["number", "null"]},
+                                    "max_discharge": {"type": ["number", "null"]},
+                                    "min_discharge": {"type": ["number", "null"]},
+                                    "mean_discharge": {"type": ["number", "null"]},
+                                    "total_runoff": {"type": ["number", "null"]},
                                     "discharge_unit": {"type": "string"},
+                                    "runoff_unit": {"type": "string"},
                                     "quality_flag": {"type": "string"},
                                     "notes": {"type": "string"},
                                     "json_latitude": {"type": ["number", "null"]},
@@ -195,10 +200,11 @@ def html_table_to_markdown(html):
     return '\n'.join(out)
 
 
-def chunk_to_block(chunk, idx):
+def chunk_to_block(chunk, idx, table_ord):
+    """Format one chunk. table_ord is the 1-based table number, or None for text chunks."""
     content = chunk.get('content', '') or ''
-    if '<table' in content.lower():
-        return f"### Chunk {idx} [TABLE]\n{html_table_to_markdown(content)}\n"
+    if table_ord is not None:
+        return f"### Chunk {idx} [TABLE {table_ord}]\n{html_table_to_markdown(content)}\n"
     return f"### Chunk {idx} [TEXT]\n{content.strip()}\n"
 
 
@@ -224,8 +230,14 @@ def build_user_message(doc_id, page, chunks, batch_rows):
             f"units={r.get('units_of_measurement','')!r}"
         )
     parts.append("\n## Page chunks\n")
+    table_ord = 0
     for idx, ch in enumerate(chunks):
-        parts.append(chunk_to_block(ch, idx))
+        content = ch.get('content', '') or ''
+        if '<table' in content.lower():
+            table_ord += 1
+            parts.append(chunk_to_block(ch, idx, table_ord))
+        else:
+            parts.append(chunk_to_block(ch, idx, None))
     return '\n'.join(parts)
 
 
@@ -380,13 +392,13 @@ def tool_input_to_rows(doc_id, page, tool_input, batch_rows):
     )
     annual_keys = (
         'json_latitude', 'json_longitude', 'year', 'year_type', 'peak_date',
-        'peak_discharge_cfs', 'peak_gage_height_ft', 'mean_discharge_cfs',
-        'total_runoff_acre_ft', 'discharge_unit', 'quality_flag', 'notes',
+        'peak_discharge', 'peak_gage_height', 'mean_discharge',
+        'total_runoff', 'discharge_unit', 'runoff_unit', 'quality_flag', 'notes',
     )
     monthly_keys = (
         'json_latitude', 'json_longitude', 'water_year', 'month', 'month_num',
-        'max_discharge_cfs', 'min_discharge_cfs', 'mean_discharge_cfs',
-        'total_runoff_acre_ft', 'discharge_unit', 'quality_flag', 'notes',
+        'max_discharge', 'min_discharge', 'mean_discharge',
+        'total_runoff', 'discharge_unit', 'runoff_unit', 'quality_flag', 'notes',
     )
 
     log_rows, annual_out, monthly_out = [], [], []

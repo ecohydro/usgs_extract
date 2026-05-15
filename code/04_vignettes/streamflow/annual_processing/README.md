@@ -69,9 +69,27 @@ To start completely fresh, delete the three output CSVs and `batch_state.json`.
 ## How a page is processed
 
 1. The page JSON's chunks are flattened — text chunks kept as-is, HTML table chunks rendered as
-   Markdown — and combined with the page's (noisy) batch metadata into one user message.
+   Markdown and labeled `[TABLE 1]`, `[TABLE 2]`, … — and combined with the page's (noisy) batch
+   metadata into one user message.
 2. Claude classifies every table chunk and returns structured rows through the
    `record_page_extraction` tool (forced tool use, so output is always well-formed).
 3. Each table produces one `extraction_log.csv` row; annual/monthly tables also produce data
    rows. Batch metadata columns are joined on by the model's `batch_metadata_row` pick, with a
    token-overlap sanity check that blanks the metadata rather than attaching a wrong station.
+
+## Output schema conventions
+
+- **`table_index`** is the 1-based table number on the page (first table = 1, second = 2, …);
+  text chunks are not counted.
+- **Faithful transcription, not normalization.** Measurement values (`peak_discharge`,
+  `mean_discharge`, `total_runoff`, …) are recorded *exactly as printed* — no unit conversion at
+  extraction time. `discharge_unit` and `runoff_unit` capture the unit *as printed in the table*
+  (`second-feet`, `sec.-ft.`, `cfs`, `thousands of acre-feet`, …). Normalizing units and
+  converting values is the job of downstream analysis code, not the extraction step.
+- **`quality_flag`** holds a USGS quality prefix stripped off the value: `e` estimated, `a`
+  ice/backwater, `c` revised, `o` zero/trace (value set to 0.0). Other footnote letters are
+  described in `notes`.
+- **Coordinates** appear in up to six columns: `json_latitude`/`json_longitude` are parsed from
+  the page JSON's own text; `actual_*` and `inferred_*` come from the joined batch metadata.
+- **Multi-station tables** produce one entry per station; entries share a `table_index` but are
+  distinguished by `site_name`.
