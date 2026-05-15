@@ -56,8 +56,8 @@ CANDIDATE_ROOTS = [
 
 # temporal_resolution substrings that mark a page's resolution. 'year' also catches 'yearly';
 # 'month' also catches 'monthly'.
-ANNUAL_RES_KEYWORDS = ['annual', 'year']
-MONTHLY_RES_KEYWORDS = ['month']
+ANNUAL_RES_KEYWORDS = ['annual', 'year', 'yearly']
+MONTHLY_RES_KEYWORDS = ['month', 'monthly']
 ALL_RES_KEYWORDS = ANNUAL_RES_KEYWORDS + MONTHLY_RES_KEYWORDS
 
 # California bounding box (generous) — matches scope_filters.py
