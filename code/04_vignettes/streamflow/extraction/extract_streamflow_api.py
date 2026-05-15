@@ -65,6 +65,20 @@ CA_BBOX = dict(lat_lo=32.3, lat_hi=42.1, lon_lo=-124.6, lon_hi=-114.0)
 
 MAX_TOKENS = 32000
 
+# Batch API pricing for claude-sonnet-4-6, USD per million tokens (50% off standard rates).
+# Update if the model changes.
+BATCH_PRICING = {
+    'input': 1.50,
+    'output': 7.50,
+    'cache_write': 1.875,
+    'cache_read': 0.15,
+}
+
+
+def compute_cost(usage):
+    """usage: dict with keys input/output/cache_write/cache_read (token counts) -> USD."""
+    return sum(usage.get(k, 0) / 1_000_000 * rate for k, rate in BATCH_PRICING.items())
+
 ANNUAL_COLUMNS = [
     'doc_id', 'page_number', 'table_index', 'site_name',
     'json_latitude', 'json_longitude',
@@ -561,6 +575,7 @@ def cmd_submit(client, args, system_text, digitized_root):
     n_unprocessed = len(todo)
 
     todo = apply_filters(todo, args.resolution, args.ca_only, args.require_coords)
+    n_matched = len(todo)
     active = [f"resolution={args.resolution}"]
     if args.ca_only:
         active.append("ca_only")
@@ -568,10 +583,11 @@ def cmd_submit(client, args, system_text, digitized_root):
         active.append(f"require_coords={args.require_coords}")
     if args.limit is not None:
         todo = todo[:args.limit]
-        active.append(f"limit={args.limit}")
     print(f"Candidate pages: {len(candidates)} | already processed: {len(processed)} | "
           f"unprocessed: {n_unprocessed}")
-    print(f"Filters [{', '.join(active)}] -> to submit: {len(todo)}")
+    print(f"Filters [{', '.join(active)}] -> {n_matched} unprocessed pages match this slice")
+    if args.limit is not None:
+        print(f"  --limit {args.limit}: submitting first {len(todo)} of those {n_matched}")
 
     requests, skipped = build_requests(system_text, digitized_root, todo, args.model)
     if skipped:
@@ -622,6 +638,7 @@ def _process_results(client, state, batch):
     n_ok = n_fail = 0
     n_log = n_annual = n_monthly = 0
     failures = []
+    usage = defaultdict(int)
 
     for entry in client.messages.batches.results(batch.id):
         cid = entry.custom_id
@@ -632,6 +649,12 @@ def _process_results(client, state, batch):
             detail = getattr(res, 'error', res.type)
             failures.append((cid, res.type, str(detail)))
             continue
+        # Succeeded API response — billed regardless of whether we can parse it.
+        u = res.message.usage
+        usage['input'] += getattr(u, 'input_tokens', 0) or 0
+        usage['output'] += getattr(u, 'output_tokens', 0) or 0
+        usage['cache_write'] += getattr(u, 'cache_creation_input_tokens', 0) or 0
+        usage['cache_read'] += getattr(u, 'cache_read_input_tokens', 0) or 0
         try:
             tool_input = extract_tool_input(res.message)
         except Exception as e:
@@ -650,6 +673,7 @@ def _process_results(client, state, batch):
         'n_ok': n_ok, 'n_fail': n_fail,
         'n_log': n_log, 'n_annual': n_annual, 'n_monthly': n_monthly,
         'failures': failures,
+        'usage': dict(usage),
     }
 
 
@@ -672,6 +696,19 @@ def cmd_retrieve(client, args):
             print(f"    {cid}: {kind} — {detail[:120]}")
         if len(summary['failures']) > 20:
             print(f"    ... and {len(summary['failures']) - 20} more")
+
+    # cost + timing — useful for extrapolating a full-slice run
+    usage = summary['usage']
+    cost = compute_cost(usage)
+    n_billed = summary['n_ok'] + sum(1 for f in summary['failures'] if f[1] == 'parse_error')
+    print(f"\nTokens — input: {usage.get('input', 0):,} | output: {usage.get('output', 0):,} | "
+          f"cache_write: {usage.get('cache_write', 0):,} | cache_read: {usage.get('cache_read', 0):,}")
+    print(f"Cost — ${cost:.4f} total, ${cost / n_billed:.4f}/page "
+          f"(batch pricing, {state.get('model', '?')})" if n_billed else f"Cost — ${cost:.4f} total")
+    if getattr(batch, 'created_at', None) and getattr(batch, 'ended_at', None):
+        proc = batch.ended_at - batch.created_at
+        print(f"Batch processing time (created -> ended): {proc}")
+
     clear_state()
     print(f"Cleared {STATE_PATH}. Re-run `submit` to process any failed/remaining pages.")
 
