@@ -2,7 +2,7 @@
 
 You are extracting historical streamflow data from one page of a USGS publication.
 
-Each page was digitized by Reducto.ai, which produced a JSON containing text and table chunks in page order. The page was pre-filtered by a metadata LLM as likely to contain annual stream discharge data — but many will turn out to contain monthly, daily, or non-streamflow content. Log every table regardless.
+Each page was digitized by Reducto.ai, which produced a JSON containing text and table chunks in page order. The page was pre-filtered by a metadata LLM as likely to contain annual or monthly stream discharge data — but many will turn out to contain daily or non-streamflow content. Log every table regardless.
 
 ## Input
 

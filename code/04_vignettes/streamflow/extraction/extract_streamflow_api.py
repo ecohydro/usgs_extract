@@ -1,10 +1,10 @@
 """
-extract_streamflow_api.py — extract annual/monthly streamflow data from pre-digitized USGS pages
-using the Claude Message Batches API.
+extract_streamflow_api.py — extract annual and monthly streamflow data from pre-digitized USGS
+pages using the Claude Message Batches API.
 
-Filters main_metadata.csv for stream-discharge + annual/yearly/year temporal_resolution pages where
-the JSON exists, sends each page's content to Claude as one batch request, and appends the
-classified/extracted results to three output CSVs.
+Filters main_metadata.csv for stream-discharge pages whose temporal_resolution is annual or
+monthly and whose JSON exists, sends each page's content to Claude as one batch request, and
+appends the classified/extracted results to three output CSVs.
 
 Workflow (subcommands):
     submit     Build requests for all unprocessed pages, create a batch, save batch_state.json.
@@ -13,13 +13,19 @@ Workflow (subcommands):
     run        submit (or reuse active batch) -> poll until ended -> retrieve. One command.
 
 Options:
-    --limit N        Only include the first N unprocessed pages (for test batches).
-    --model NAME     Model id (default claude-sonnet-4-6).
-    --poll-seconds S Poll interval for `run`/`status` waiting (default 30).
-    --dry-run        (submit/run) Build requests but do not call the API.
+    --limit N            Only include the first N unprocessed pages (for test batches).
+    --model NAME         Model id (default claude-sonnet-4-6).
+    --poll-seconds S     Poll interval for `run`/`status` waiting (default 30).
+    --dry-run            (submit/run) Build requests but do not call the API.
+
+Subset filters (apply to `submit` and `run`, for test slices of the dataset):
+    --resolution         annual | monthly | both (default both)
+    --ca-only            only pages with coordinates inside the California bounding box
+    --require-coords     actual | inferred | any — only pages that have such lat-lon metadata
 
 Resumes by skipping pages already logged in extraction_log.csv. A failed or truncated page is
-not logged, so a later `submit` picks it up again.
+not logged, so a later `submit` picks it up again. The output CSVs are shared across all slices;
+the resume log keeps slices from reprocessing each other's pages.
 """
 
 import argparse
@@ -38,9 +44,9 @@ from anthropic import Anthropic
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parents[3]
-PROMPT_PATH = SCRIPT_DIR / 'annual_streamflow_extraction_instructions.md'
+PROMPT_PATH = SCRIPT_DIR / 'streamflow_extraction_instructions.md'
 META_PATH = REPO_ROOT / 'data' / 'metadata' / 'main_metadata.csv'
-OUTPUT_DIR = REPO_ROOT / 'data' / 'analysis' / 'streamflow' / 'annual'
+OUTPUT_DIR = REPO_ROOT / 'data' / 'analysis' / 'streamflow'
 STATE_PATH = OUTPUT_DIR / 'batch_state.json'
 
 CANDIDATE_ROOTS = [
@@ -48,7 +54,15 @@ CANDIDATE_ROOTS = [
     REPO_ROOT / 'data' / 'digitized',
 ]
 
-ANNUAL_KEYWORDS = ['annual', 'yearly', 'year']
+# temporal_resolution substrings that mark a page's resolution. 'year' also catches 'yearly';
+# 'month' also catches 'monthly'.
+ANNUAL_RES_KEYWORDS = ['annual', 'year']
+MONTHLY_RES_KEYWORDS = ['month']
+ALL_RES_KEYWORDS = ANNUAL_RES_KEYWORDS + MONTHLY_RES_KEYWORDS
+
+# California bounding box (generous) — matches scope_filters.py
+CA_BBOX = dict(lat_lo=32.3, lat_hi=42.1, lon_lo=-124.6, lon_hi=-114.0)
+
 MAX_TOKENS = 32000
 
 ANNUAL_COLUMNS = [
@@ -288,7 +302,7 @@ def load_candidates(meta_path, digitized_root):
             if row.get('water_type', '').strip().lower() != 'stream discharge':
                 continue
             res = row.get('temporal_resolution', '').strip().lower()
-            if not any(k in res for k in ANNUAL_KEYWORDS):
+            if not any(k in res for k in ALL_RES_KEYWORDS):
                 continue
             doc_id = row['id']
             page = row['page_number']
@@ -307,6 +321,73 @@ def load_candidates(meta_path, digitized_root):
                 'units_of_measurement': row.get('units_of_measurement', '').strip(),
             })
     return pages
+
+
+# ----------------------------------------------------------------------------- subset filters
+
+def _to_float(s):
+    try:
+        return float(s)
+    except (TypeError, ValueError):
+        return None
+
+
+def _row_coords(row, which):
+    """which in {'actual', 'inferred'} -> (lat, lon) or None."""
+    lat = _to_float(row.get(f'{which}_latitude'))
+    lon = _to_float(row.get(f'{which}_longitude'))
+    if lat is None or lon is None:
+        return None
+    return lat, lon
+
+
+def page_resolution_kinds(batch_rows):
+    """Set of {'annual','monthly'} the page's metadata rows indicate."""
+    kinds = set()
+    for r in batch_rows:
+        res = (r.get('temporal_resolution') or '').lower()
+        if any(k in res for k in ANNUAL_RES_KEYWORDS):
+            kinds.add('annual')
+        if any(k in res for k in MONTHLY_RES_KEYWORDS):
+            kinds.add('monthly')
+    return kinds
+
+
+def page_has_coords(batch_rows, which):
+    """which in {'actual', 'inferred', 'any'} — True if any metadata row has such coords."""
+    for r in batch_rows:
+        if which in ('actual', 'any') and _row_coords(r, 'actual'):
+            return True
+        if which in ('inferred', 'any') and _row_coords(r, 'inferred'):
+            return True
+    return False
+
+
+def page_in_ca(batch_rows):
+    """True if any metadata row's coords (actual preferred, else inferred) fall in the CA bbox."""
+    for r in batch_rows:
+        c = _row_coords(r, 'actual') or _row_coords(r, 'inferred')
+        if c is None:
+            continue
+        lat, lon = c
+        if (CA_BBOX['lat_lo'] <= lat <= CA_BBOX['lat_hi']
+                and CA_BBOX['lon_lo'] <= lon <= CA_BBOX['lon_hi']):
+            return True
+    return False
+
+
+def apply_filters(todo, resolution, ca_only, require_coords):
+    """Narrow a [(key, batch_rows), ...] list by the submit-time slice options."""
+    out = []
+    for key, batch_rows in todo:
+        if resolution != 'both' and resolution not in page_resolution_kinds(batch_rows):
+            continue
+        if ca_only and not page_in_ca(batch_rows):
+            continue
+        if require_coords and not page_has_coords(batch_rows, require_coords):
+            continue
+        out.append((key, batch_rows))
+    return out
 
 
 def ensure_header(path, columns):
@@ -477,10 +558,20 @@ def cmd_submit(client, args, system_text, digitized_root):
     processed = load_processed_pages(output_paths()['log'])
     candidates = load_candidates(META_PATH, digitized_root)
     todo = sorted((k, v) for k, v in candidates.items() if k not in processed)
+    n_unprocessed = len(todo)
+
+    todo = apply_filters(todo, args.resolution, args.ca_only, args.require_coords)
+    active = [f"resolution={args.resolution}"]
+    if args.ca_only:
+        active.append("ca_only")
+    if args.require_coords:
+        active.append(f"require_coords={args.require_coords}")
     if args.limit is not None:
         todo = todo[:args.limit]
+        active.append(f"limit={args.limit}")
     print(f"Candidate pages: {len(candidates)} | already processed: {len(processed)} | "
-          f"to submit: {len(todo)}")
+          f"unprocessed: {n_unprocessed}")
+    print(f"Filters [{', '.join(active)}] -> to submit: {len(todo)}")
 
     requests, skipped = build_requests(system_text, digitized_root, todo, args.model)
     if skipped:
@@ -498,6 +589,12 @@ def cmd_submit(client, args, system_text, digitized_root):
         'submitted_at': datetime.now(timezone.utc).isoformat(),
         'n_requests': len(requests),
         'model': args.model,
+        'filters': {
+            'resolution': args.resolution,
+            'ca_only': args.ca_only,
+            'require_coords': args.require_coords,
+            'limit': args.limit,
+        },
     }
     save_state(state)
     print(f"Submitted batch {batch.id} with {len(requests)} requests.")
@@ -605,6 +702,13 @@ def main():
     ap.add_argument('--model', default='claude-sonnet-4-6')
     ap.add_argument('--poll-seconds', type=int, default=30)
     ap.add_argument('--dry-run', action='store_true')
+    # submit-time subset filters (for test slices); apply to `submit` and `run`
+    ap.add_argument('--resolution', choices=['annual', 'monthly', 'both'], default='both',
+                    help='only pages whose metadata marks this temporal resolution')
+    ap.add_argument('--ca-only', action='store_true',
+                    help='only pages with coordinates inside the California bounding box')
+    ap.add_argument('--require-coords', choices=['actual', 'inferred', 'any'], default=None,
+                    help='only pages with actual / inferred / either lat-lon in the metadata')
     args = ap.parse_args()
 
     load_dotenv(SCRIPT_DIR / '.env')

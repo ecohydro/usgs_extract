@@ -1,9 +1,9 @@
-# Annual Streamflow Extraction
+# Streamflow Extraction
 
 We extract historical streamflow measurements from digitized USGS page JSONs into a unified
 dataset. Pages are filtered from `main_metadata.csv` to those the LLM metadata extraction labeled
-as stream discharge at annual/yearly resolution. In practice they contain a mix of real annual
-data, mislabeled monthly and daily tables, water-budget and sediment tables, and unrelated
+as stream discharge at **annual or monthly** resolution. In practice they contain a mix of real
+annual and monthly data, mislabeled daily tables, water-budget and sediment tables, and unrelated
 content — every table is classified and logged regardless.
 
 Extraction runs through the **Claude Message Batches API**: each candidate page becomes one batch
@@ -12,11 +12,12 @@ The Batch API is ~50% cheaper than per-request calls and is not subject to the p
 token rate limit.
 
 ## Files here
-- `annual_streamflow_extraction_instructions.md` — the system prompt sent with every request
+- `streamflow_extraction_instructions.md` — the system prompt sent with every request
 - `extract_streamflow_api.py` — the extraction script (submit / status / retrieve / run)
+- `scope_filters.py` — read-only scoping: how many pages/tables match various filter strategies
 - `.env` — holds `ANTHROPIC_API_KEY` (gitignored; copy `.env.example` and fill in)
 
-## Outputs (`data/analysis/streamflow/annual/`)
+## Outputs (`data/analysis/streamflow/`)
 - `annual_streamflow.csv` — one row per year per annual table
 - `monthly_streamflow.csv` — one row per month per monthly table
 - `extraction_log.csv` — one row per table reviewed, with classification and action
@@ -53,6 +54,28 @@ Useful flags:
 - `--model NAME` — model id (default `claude-sonnet-4-6`)
 - `--poll-seconds S` — poll interval for `run` (default 30)
 - `--dry-run` — (with `submit`) build requests without calling the API
+
+## Test slices (subset filters)
+
+`submit` and `run` accept filters that narrow which pages go into a batch — useful for testing on
+a focused slice before committing to the full run. They stack (all conditions must hold):
+
+- `--resolution annual|monthly|both` — only pages whose metadata marks that temporal resolution
+  (default `both`)
+- `--ca-only` — only pages whose metadata coordinates fall inside the California bounding box
+- `--require-coords actual|inferred|any` — only pages that have actual / inferred / either
+  lat-lon in the metadata
+
+Examples:
+```
+python extract_streamflow_api.py run --resolution annual --ca-only --limit 50
+python extract_streamflow_api.py run --resolution monthly --require-coords any
+```
+
+The output CSVs are shared across all slices; the resume log (`extraction_log.csv`) keeps slices
+from reprocessing each other's pages, so you can run several slices in sequence and they
+accumulate into one dataset. Use `scope_filters.py` to see how many pages/tables each
+combination covers before submitting.
 
 ## Resuming
 
