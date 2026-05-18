@@ -75,7 +75,8 @@ usgs_extract/
 │   │   ├── 02_spatial_overview.ipynb    ← Fig 8: USA map; Fig 9: CA map; Fig 10: CA by decade
 │   │   ├── 03_santa_barbara.ipynb       ← Figs 11–18: SB county coverage + NWIS comparison
 │   │   └── 04_santa_ynez.ipynb          ← Fig 19, Tables 7–9: Santa Ynez stream order analysis
-│   └── 04_vignettes/                    ← future hydrological analyses (empty for now)
+│   └── 04_vignettes/                    ← hydrological research vignettes
+│       └── dam_exploring/               ← pre-dam baseline work (notebooks 05, 06)
 │
 ├── data/
 │   ├── digitized/                       ← COMPLETE; final organized output, one folder per doc/page
@@ -185,7 +186,7 @@ All publication figures are implemented in `code/03_inventory/`. Run notebooks i
 Metadata accuracy figure (Fig 5) is in `code/01_digitization/04_metadata_extraction/02_validate_accuracy.ipynb`.
 
 ### Step 4: Hydrological Research Vignettes — FUTURE
-`code/04_vignettes/` is reserved for future analyses that do hydrological research with the restored data. Two directions have been identified as high-priority; see the **Potential Hydrological Research Directions** section below for details.
+`code/04_vignettes/` contains hydrological research vignettes. The `dam_exploring/` subfolder holds the pre-dam baseline work started May 2026 (see Vignette Work Log below). Two directions have been identified as high-priority; see the **Potential Hydrological Research Directions** section below for details.
 
 ---
 
@@ -415,7 +416,7 @@ Searched `main_metadata.csv` for dam and reservoir name mentions. Key findings:
 - **San Clemente Dam** (Carmel River, removed 2015): ~74 rows on the Carmel River.
 - **Potter Valley Project** (Scott Dam + Van Arsdale Dam, Eel River): 370 rows, earliest record October 1909 (one year after dam completion). Covers both above-dam and powerhouse tailrace into Russian River. Scott Dam removal is actively proposed — these records are policy-relevant.
 
-### 2. Interactive pre-dam gauge map (`code/03_inventory/05_predam_gauge_map.ipynb`)
+### 2. Interactive pre-dam gauge map (`code/04_vignettes/dam_exploring/05_predam_gauge_map.ipynb`)
 Two-layer Plotly map (3.5 MB HTML, renders in any browser):
 - **Gauge sites**: 34,692 unique CA stream discharge sites from restored metadata, color-coded by first-record era (Pre-1900 / 1900–1919 / 1920–1939 / 1940–1959 / 1960+). Pre-1940 layers on by default.
 - **NID dams**: 1,534 CA dams from the National Inventory of Dams (downloaded May 2026, saved to `data/analysis/dams.csv` and `dams.geojson`).
@@ -423,7 +424,7 @@ Two-layer Plotly map (3.5 MB HTML, renders in any browser):
 
 Era breakdown of restored sites: Pre-1900 (1,025), 1900–1919 (9,078), 1920–1939 (5,941), 1940–1959 (4,310), 1960+ (14,338).
 
-### 3. NWIS cross-reference (`code/03_inventory/06_nwis_crossref.ipynb`)
+### 3. NWIS cross-reference (`code/04_vignettes/dam_exploring/06_nwis_crossref.ipynb`)
 Downloaded all CA NWIS stream discharge sites with date ranges (2,418 unique sites, 1891–present) and cross-referenced against restored metadata using coordinate proximity (≤0.1°) and name token overlap.
 - **1,646 strong matches** (close coords + shared name tokens) — high-confidence pairs for cross-validation.
 - **255 of 256 pre-1920 NWIS sites** have a coordinate match in the restored data.
@@ -440,5 +441,5 @@ Downloaded all CA NWIS stream discharge sites with date ranges (2,418 unique sit
 | `data/analysis/dam_exploring/nwis_crossref_best_match.csv` | Best NWIS–restored match per NWIS site (2,407 rows) |
 | `data/analysis/dam_exploring/nwis_crossref_matches.csv` | All coord-proximity pairs (11,822 rows) |
 | `manuscript/figures/predam_gauge_map.html` | Interactive Plotly map — gauge sites vs. NID dams |
-| `code/03_inventory/05_predam_gauge_map.ipynb` | Notebook: builds the gauge/dam map |
-| `code/03_inventory/06_nwis_crossref.ipynb` | Notebook: NWIS parquet save + cross-reference |
+| `code/04_vignettes/dam_exploring/05_predam_gauge_map.ipynb` | Notebook: builds the gauge/dam map |
+| `code/04_vignettes/dam_exploring/06_nwis_crossref.ipynb` | Notebook: NWIS parquet save + cross-reference |
