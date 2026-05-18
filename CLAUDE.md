@@ -78,10 +78,10 @@ usgs_extract/
 │   └── 04_vignettes/                    ← future hydrological analyses (empty for now)
 │
 ├── data/
-│   ├── digitized/                       ← final organized output, one folder per doc/page
+│   ├── digitized/                       ← COMPLETE; final organized output, one folder per doc/page
 │   ├── metadata/
-│   │   ├── main_metadata.csv            ← comprehensive metadata: LLM fields + USGS pub fields joined
-│   │   └── metadata_key.txt             ← column descriptions
+│   │   ├── main_metadata.csv            ← COMPLETE; comprehensive metadata: LLM fields + USGS pub fields joined
+│   │   └── metadata_key.txt             ← COMPLETE; column descriptions
 │   ├── analysis/
 │   │   ├── csv_row_counts.csv           ← estimated measurement counts per page/table
 │   │   ├── processed_metadata.parquet   ← output of 00_data_prep.ipynb (parsed dates, clean types)
@@ -103,7 +103,7 @@ usgs_extract/
 │       │       ├── groundwater_table_pages_expanded.csv
 │       │       (MISSING: validation run output — 79% recall figure not preserved)
 │       └── 04_metadata_extraction/
-│           ├── lm_extracted_metadata.csv
+│           ├── llm_extracted_metadata.csv
 │           ├── USGS_publication_metadata.xlsx
 │           └── validation/
 │               ├── validation_curated_135.xlsx
@@ -113,7 +113,7 @@ usgs_extract/
 │               ├── test_set_indiv_grades.xlsx ← per-entry accuracy (input to 02_validate_accuracy.ipynb)
 │               └── jsons/                     ← 260 per-page Reducto JSONs for validation sets
 │
-├── Data_Files/                        ← ALL digitized data lives here (Annette's side; pre-organization)
+├── Data_Files/                        ← ARCHIVED; ALL digitized data lives here (Annette's side; pre-organization)
 │   ├── cleaned_metadata_final - Copy.csv  ← raw main metadata (pre-join source)
 │   ├── csv_row_counts.csv
 │   ├── 2252_728 example/              ← reference example of target output format
@@ -161,7 +161,7 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 
 ## Planned Work (Four Steps)
 
-### Step 1: Organize Final Data Output
+### Step 1: Organize Final Data Output - COMPLETE 
 - Write a script to reorganize all files into the unified `{doc_id}/page_{N}/` structure
 - Extract metadata rows per page from `cleaned_metadata_final - Copy.csv` and save as individual CSVs
 - Join USGS document-level metadata from `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` into each per-page metadata CSV — the `id` column in the main metadata maps directly to the `Publication ID` column in `USGS_ID.xlsx`, which provides the USGS URL, Index ID (series), title, year, author, and ~55 additional document-level fields
@@ -402,3 +402,43 @@ A full per-page log is at `data/digitized/_organization_log.txt`.
 - Reducto.ai used for final digitization (not open source — requires paid API access)
 - PaddleOCR was tested but discarded for structure preservation failures
 - Multiple iterations of LLM prompt engineering are preserved in `Chapter_2_USGS_Digitization/Yibo Results/` — the final production prompt is in Supplementary Information S1 of the dissertation
+
+---
+
+## Vignette Work Log — May 18, 2026
+
+Work toward a **pre-dam streamflow baseline** vignette using metadata only (no CSV parsing). Three things were built:
+
+### 1. Dam inventory scan (metadata only)
+Searched `main_metadata.csv` for dam and reservoir name mentions. Key findings:
+- **Matilija Dam** (Ventura County, proposed removal ~2030): ~278 rows, records back to 1906 — pre-impoundment baseline exists in the dataset.
+- **San Clemente Dam** (Carmel River, removed 2015): ~74 rows on the Carmel River.
+- **Potter Valley Project** (Scott Dam + Van Arsdale Dam, Eel River): 370 rows, earliest record October 1909 (one year after dam completion). Covers both above-dam and powerhouse tailrace into Russian River. Scott Dam removal is actively proposed — these records are policy-relevant.
+
+### 2. Interactive pre-dam gauge map (`code/03_inventory/05_predam_gauge_map.ipynb`)
+Two-layer Plotly map (3.5 MB HTML, renders in any browser):
+- **Gauge sites**: 34,692 unique CA stream discharge sites from restored metadata, color-coded by first-record era (Pre-1900 / 1900–1919 / 1920–1939 / 1940–1959 / 1960+). Pre-1940 layers on by default.
+- **NID dams**: 1,534 CA dams from the National Inventory of Dams (downloaded May 2026, saved to `data/analysis/dams.csv` and `dams.geojson`).
+- Output: `manuscript/figures/predam_gauge_map.html`
+
+Era breakdown of restored sites: Pre-1900 (1,025), 1900–1919 (9,078), 1920–1939 (5,941), 1940–1959 (4,310), 1960+ (14,338).
+
+### 3. NWIS cross-reference (`code/03_inventory/06_nwis_crossref.ipynb`)
+Downloaded all CA NWIS stream discharge sites with date ranges (2,418 unique sites, 1891–present) and cross-referenced against restored metadata using coordinate proximity (≤0.1°) and name token overlap.
+- **1,646 strong matches** (close coords + shared name tokens) — high-confidence pairs for cross-validation.
+- **255 of 256 pre-1920 NWIS sites** have a coordinate match in the restored data.
+- Top matched sites have 70–84 years of overlap (e.g., Alameda Creek near Niles 1891–1975, Sacramento R. above Bend Bridge 1879–1975).
+- Outputs: `data/analysis/nwis_ca_streams.parquet`, `data/analysis/dam_exploring/nwis_crossref_best_match.csv`
+
+### New files added
+| File | Purpose |
+|------|---------|
+| `data/analysis/dams.csv` | NID California dam inventory (1,534 dams, coordinates + year completed) |
+| `data/analysis/dams.geojson` | Same, as GeoJSON |
+| `data/analysis/nwis_ca_streams.parquet` | Parsed NWIS CA stream site file (9,821 rows, 2,981 unique sites) |
+| `data/analysis/dam_exploring/nwis_streams_ca.txt` | Raw NWIS download (tab-delimited, retrieved 2026-05-18) |
+| `data/analysis/dam_exploring/nwis_crossref_best_match.csv` | Best NWIS–restored match per NWIS site (2,407 rows) |
+| `data/analysis/dam_exploring/nwis_crossref_matches.csv` | All coord-proximity pairs (11,822 rows) |
+| `manuscript/figures/predam_gauge_map.html` | Interactive Plotly map — gauge sites vs. NID dams |
+| `code/03_inventory/05_predam_gauge_map.ipynb` | Notebook: builds the gauge/dam map |
+| `code/03_inventory/06_nwis_crossref.ipynb` | Notebook: NWIS parquet save + cross-reference |
