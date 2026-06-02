@@ -443,3 +443,76 @@ Downloaded all CA NWIS stream discharge sites with date ranges (2,418 unique sit
 | `manuscript/figures/predam_gauge_map.html` | Interactive Plotly map — gauge sites vs. NID dams |
 | `code/04_vignettes/dam_exploring/05_predam_gauge_map.ipynb` | Notebook: builds the gauge/dam map |
 | `code/04_vignettes/dam_exploring/06_nwis_crossref.ipynb` | Notebook: NWIS parquet save + cross-reference |
+
+---
+
+## Table-Level Metadata Work Log — June 2026
+
+### Problem identified
+`main_metadata.csv` is not one row per table. The LLM (Phi-4) was run per page and sometimes returned multiple rows for the same page when it detected distinct water sources. This means `n_measurements` in `processed_metadata.parquet` double-counts measurements for pages with multiple metadata rows — the page-level join in `00_data_prep.ipynb` attaches the sum of all table row counts to every metadata row for that page. This inflates Fig 7's total from the correct ~2,666,019 to ~3,175,399.
+
+The old `jupyter_notebooks/measurements_bytype.ipynb` tried to fix this by deduplicating to one row per page — but that was also wrong, because it discarded legitimate rows (pages with multiple tables of different water types).
+
+### What was built
+`code/03_inventory/build_table_level_metadata.py` — produces `data/analysis/table_level_metadata.csv`, a true table-level file with one row per CSV table file. This is the correct input for Fig 7 and any measurement-count analysis.
+
+**Assignment methodology (three stages):**
+1. **LLM unambiguous (97,358 tables, 91.7%)** — pages where the LLM returned exactly one distinct water type. Trusted directly. The LLM read full page context and is more reliable than column headers for determining the primary purpose of a table.
+2. **Header classifier resolves LLM ambiguity (1,756 tables, 1.7%)** — pages where the LLM returned >1 distinct water type (e.g. Stream Discharge + Reservoir on same page). Column headers are read from each table CSV and keyword-matched to assign a type per table. If headers are also ambiguous, first LLM type is used (flagged as `llm_ambiguous`, 1,715 tables).
+3. **Header classifier only, no LLM (2,097 tables, 2.0%)** — pages the LLM never processed. High-confidence header match used; otherwise `uncertain`.
+
+**Why the header classifier is NOT used to override unambiguous LLM classifications:** Many USGS stream discharge tables include water quality parameters (temperature, specific conductance, pH) as secondary columns. The header classifier, seeing "specific conductance", would classify these as Water Quality — but the LLM correctly identifies them as Stream Discharge based on document context. Using the header as an override inflated Water Quality from 248 → 7,793 tables; the corrected approach brings it to 786.
+
+### Corrected numbers vs. Dissertation Table 6
+| Category | Dissertation | Corrected | Δ |
+|---|---|---|---|
+| Stream Discharge | 2,206,942 | 2,212,272 | +0.2% |
+| Groundwater | 137,875 | 140,281 | +1.7% |
+| Reservoir | 91,816 | 94,024 | +2.4% |
+| Springs | 17,277 | 16,306 | -5.6% |
+| Irrigation | 25,157 | 35,561 | +41% |
+| Precipitation | 8,159 | 9,325 | +14% |
+| Water Quality | 6,940 | 19,145 | +176% |
+| Not Water Related | 6,292 | 25,881 | +311% |
+| Other | 128 | 11,682 | large |
+| uncertain | — | 101,542 | new |
+| **Total** | **2,500,586** | **2,666,019** | **+6.6%** |
+
+The +6.6% total increase is explained by the old method's inner join dropping ~42,000 tables that existed in the CSV data but had no matching deduplicated metadata row. The stream discharge, groundwater, reservoir, and springs numbers are all within 6% — strong validation that the LLM classifications are stable.
+
+The larger increases in Irrigation, NWR, WQ, and Other reflect categories that had a higher proportion of their tables in the previously-uncounted 42,000.
+
+### Files produced
+| File | Purpose |
+|---|---|
+| `data/analysis/table_headers.csv` | Intermediate: 106,191 rows, one per table CSV — raw header text + Stage 2 keyword classification. Cached; delete to re-scan. |
+| `data/analysis/table_level_metadata.csv` | Final: one row per table CSV — `water_type_final`, `assignment_source`, `number_rows`, dates, coordinates. Input for corrected Fig 7. |
+
+### Residual categories needing investigation — RETURN TO THIS
+
+#### `uncertain` (3,233 tables, 101,542 measurements, 3.8% of total)
+These tables have no LLM classification AND headers were not identifiable. Two sub-types:
+
+- **"low" confidence (1,571 tables)** — real data tables (classic `Water year Oct. Nov. ... Sept.` monthly format) but their pages were never processed by the LLM. The data exists but the type is unknown. Planned investigation:
+  1. Check document concentration — are these clustered in a few docs?
+  2. Sample actual data values in the CSVs — value magnitude can hint at type (large values → reservoir storage or big-river discharge; very small → precipitation or small stream)
+  3. Check `watersource_name` and `keyterms` fields for those pages in main_metadata.csv — even pages with no water_type sometimes have a source name (e.g. "Sacramento River") that would confirm stream discharge
+
+- **"uncertain" confidence (1,662 tables)** — no signal at all. Mostly OCR garbage (doc 194 contributes many rows of `"mmm mm 000 mm"` type garbled text), financial/damage cost tables (doc 43), and garbled temperature/average tables. Planned investigation:
+  1. Check document concentration — if a handful of docs account for most, document as known OCR failures
+  2. Sample to confirm what fraction are truly non-water vs. parseable-but-garbled
+
+#### `Other` (469 tables, 11,682 measurements, 0.4% of total)
+These come from pages where the LLM ran but classified the page as "Other" — it detected a data table but couldn't determine the water type from context. Most have daily format headers (`Day. Oct. Nov. Dec...`). Planned investigation:
+  1. Check document concentration — if dominated by a few documents, those can be assessed individually
+  2. Check `watersource_name` field — a source name like "Cachuma Reservoir" or "Sacramento River" would allow confident reclassification without changing the original LLM output
+  3. Check if the daily (`Day.` × month) format combined with a known source name is enough to reclassify most as Stream Discharge
+
+Both categories together represent ~4.2% of total measurements. Acceptable as a documented limitation, but worth investigating to see if most can be resolved before publication.
+
+---
+
+## Mention in Publication / Before Publication
+
+- **Measurement estimate caveat:** The ~2.5M measurement figure (and the `n_measurements` column in `processed_metadata.parquet`) is derived from a raw line count of the Reducto CSV files (`jupyter_notebooks/csv_estimates.ipynb`), meaning it may underestimate true measurements for wide daily tables (where one row spans multiple months) and overestimate for tables where rows represent summary statistics rather than individual observations.
+- **Corrected measurement total:** The true total from `table_level_metadata.csv` is 2,666,019 across 105,920 tables. The dissertation's 2,500,586 figure was undercounted due to a page-level join that dropped ~42,000 tables. Stream discharge, groundwater, and reservoir counts are validated within ~6% of the dissertation numbers.
