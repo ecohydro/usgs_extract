@@ -27,7 +27,7 @@ albumentations==1.4.10
 opencv-contrib-python
 shapely
 
-# ── Analysis notebooks (code/03_inventory/ ) ───────
+# ── Analysis notebooks (code/02_inventory/ ) ───────
 pandas
 geopandas
 fiona              # required for GDB file reading in 04_santa_ynez.ipynb
@@ -36,5 +36,9 @@ matplotlib
 seaborn            # color palette in water_palette.py
 openpyxl           # reading .xlsx files in 02_validate_accuracy.ipynb
 dataretrieval      # NWIS API fallback in 03_santa_barbara and 04_santa_ynez
+
+# ── NWIS California stream site inventory (code/03_nwis_usgs/) ───────────────
+requests           # direct NWIS HTTP calls in fetch_nwis_ca_stream_sites.py
+# pandas, pyarrow already listed above
 jupyter
 ipykernel
