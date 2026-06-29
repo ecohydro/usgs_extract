@@ -1,0 +1,35 @@
+County consistency check — spatial join vs. LLM-extracted county fields
+======================================================================
+Total published tables: 100,829
+
+Status breakdown:
+  match           68,198  (67.6%)
+  mismatch        19,208  (19.1%)
+  llm_no_ca        1,429  (1.4%)
+  no_llm              27  (0.0%)
+  no_spatial      11,967  (11.9%)
+
+Mismatch detail (spatial county vs. LLM county):
+  Total mismatches: 19,208
+
+  Top 20 spatial->LLM mismatch pairs:
+    spatial='Tuolumne'                 llm='calaveras'  n=762
+    spatial='Fresno'                   llm='tulare'  n=680
+    spatial='Kern'                     llm='tulare'  n=418
+    spatial='El Dorado'                llm='placer'  n=389
+    spatial='Nevada'                   llm='placer'  n=380
+    spatial='Butte'                    llm='plumas'  n=313
+    spatial='San Bernardino'           llm='los angeles'  n=306
+    spatial='Mariposa'                 llm='madera'  n=270
+    spatial='Fresno'                   llm='madera'  n=250
+    spatial='San Bernardino'           llm='riverside'  n=244
+    spatial='Amador'                   llm='calaveras'  n=236
+    spatial='El Dorado'                llm='calaveras'  n=229
+    spatial='Tulare'                   llm='fresno'  n=225
+    spatial='Sierra'                   llm='plumas'  n=221
+    spatial='San Bernardino'           llm='orange'  n=217
+    spatial='Fresno'                   llm='calaveras'  n=214
+    spatial='Stanislaus'               llm='san joaquin'  n=212
+    spatial='Mariposa'                 llm='tuolumne'  n=207
+    spatial='Nevada'                   llm='plumas'  n=204
+    spatial='Tuolumne'                 llm='mariposa'  n=203

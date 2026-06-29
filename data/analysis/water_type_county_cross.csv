@@ -1,0 +1,3596 @@
+water_type_final,county,n_tables,n_measurements
+Groundwater,Alameda,10,207.0
+Groundwater,Alameda County,38,679.0
+Groundwater,Alameda County (inferred from well location),2,32.0
+Groundwater,"Alameda County, California",3,50.0
+Groundwater,"Alameda County, San Mateo County, Santa Clara County",1,18.0
+Groundwater,Alpine County,18,222.0
+Groundwater,"Alpine County, California",1,17.0
+Groundwater,"Alpine County, Nevada; Mono County, California",1,3.0
+Groundwater,Alvord County,1,12.0
+Groundwater,Amador County,30,524.0
+Groundwater,Amador County (Mokelumne area),1,75.0
+Groundwater,Amador County (inference based on the typical well numbering system in California),1,26.0
+Groundwater,Amador County (inferred),3,42.0
+Groundwater,"Amador County, California",3,33.0
+Groundwater,"Amador County, El Dorado County",1,22.0
+Groundwater,Antelope Valley,3,113.0
+Groundwater,"Antelope Valley region, California",1,35.0
+Groundwater,Apache County,2,8.0
+Groundwater,Arizona,1,16.0
+Groundwater,BISHOP RANCH CO.,1,14.0
+Groundwater,"Baja California, Mexico (near Salton Trough)",1,23.0
+Groundwater,Bakersfield,1,17.0
+Groundwater,"Barstow, California",1,56.0
+Groundwater,Based on context clues from the State of California documents.,1,23.0
+Groundwater,"Based on context, likely California county where similar depths are found.",2,7.0
+Groundwater,"Based on document context and common geographical knowledge, potentially in Northern California.",2,33.0
+Groundwater,"Based on general well distribution in California, potentially multiple counties.",1,41.0
+Groundwater,"Based on industrial context, likely in a developed or urban area.",3,11.0
+Groundwater,"Based on location inference, likely in California's Sierra Nevada region or Central Valley due to common well drilling activities.",4,10.0
+Groundwater,"Based on surrounding geological data, likely in a county with similar geology such as Kern County",1,20.0
+Groundwater,"Based on the townships, likely in California counties such as Los Angeles or San Bernardino.",1,14.0
+Groundwater,"Based on typical groundwater extraction locations in California, a county such as Kern or Tulare could be inferred.",1,18.0
+Groundwater,"Based on typical locations for chemical analyses in California, potential counties include Fresno or Kern.",1,33.0
+Groundwater,"Based on typical wells in California, likely inferred from regional geological surveys",1,9.0
+Groundwater,"Based on well number, likely in California",1,23.0
+Groundwater,Beach County,1,17.0
+Groundwater,"Bernalillo County, New Mexico",2,7.0
+Groundwater,Bishop Ranch Co.,1,13.0
+Groundwater,Bolsa,1,10.0
+Groundwater,"Boron, California",1,12.0
+Groundwater,Brooklyn,2,31.0
+Groundwater,Bunker Hill Basin,1,29.0
+Groundwater,Butte,1,6.0
+Groundwater,Butte County,21,324.0
+Groundwater,"Butte County, California",2,32.0
+Groundwater,"Butte County, Glenn County",1,21.0
+Groundwater,Butte Valley,3,38.0
+Groundwater,"Butte Valley, Calif.",1,20.0
+Groundwater,CLARA SANTA,1,0.0
+Groundwater,"Cache County, Utah, within Great Basin Region",1,18.0
+Groundwater,Calaveras,21,537.0
+Groundwater,Calaveras County,157,3178.0
+Groundwater,"Calaveras County, California",12,432.0
+Groundwater,California,64,1589.0
+Groundwater,California (Based on USGS well number),1,22.0
+Groundwater,California (Based on document origin),1,26.0
+Groundwater,California (General Inference),1,40.0
+Groundwater,California (General),4,74.0
+Groundwater,California (Southwestern States),1,3.0
+Groundwater,California (assumed),1,35.0
+Groundwater,California (based on context and location data),1,12.0
+Groundwater,California (based on context),2,43.0
+Groundwater,California (based on document context),1,18.0
+Groundwater,California (based on general context),1,36.0
+Groundwater,California (based on general document context),1,40.0
+Groundwater,California (exact county needs inference),4,12.0
+Groundwater,California (general),3,41.0
+Groundwater,California (generalized due to lack of specific location data),1,19.0
+Groundwater,California (inference based on context),1,16.0
+Groundwater,California (inference based on document context),4,98.0
+Groundwater,California (inference required),3,34.0
+Groundwater,California (inferred based on state context),1,40.0
+Groundwater,California (inferred from State),3,70.0
+Groundwater,California (inferred from context),2,61.0
+Groundwater,California (inferred from document context),1,35.0
+Groundwater,California (inferred from document origin),1,40.0
+Groundwater,California (inferred from the document metadata),1,32.0
+Groundwater,California (inferred),4,68.0
+Groundwater,California (multiple counties possible based on dates and context),1,24.0
+Groundwater,California (multiple counties possible based on well distribution),1,74.0
+Groundwater,California (multiple counties possible),1,38.0
+Groundwater,California (specific county inferred based on nearby known locations),1,13.0
+Groundwater,California (specific county inferred from township ranges),1,72.0
+Groundwater,California (specific county not provided),6,104.0
+Groundwater,California - General Inference Required,1,12.0
+Groundwater,California - Inferred from data context,1,31.0
+Groundwater,California - Ralston Valley,3,16.0
+Groundwater,California - based on statewide water data context,1,37.0
+Groundwater,California Central Valley Region,1,40.0
+Groundwater,California Counties (based on typical altitude and well type distribution),1,15.0
+Groundwater,California County,7,96.0
+Groundwater,California County (Based on TRS),1,26.0
+Groundwater,California County (Based on context),2,77.0
+Groundwater,California County (General Inference),1,21.0
+Groundwater,California County (Inferred),1,10.0
+Groundwater,California County (assumed based on data source),1,36.0
+Groundwater,California County (assumed based on state),1,40.0
+Groundwater,California County (based on State),1,24.0
+Groundwater,California County (based on TRS and context),1,20.0
+Groundwater,California County (based on altitude and general location context),2,40.0
+Groundwater,California County (based on context),2,73.0
+Groundwater,California County (based on data context),1,12.0
+Groundwater,California County (based on data source location),1,37.0
+Groundwater,California County (based on test-well activity),1,19.0
+Groundwater,"California County (based on wells, likely in Central Valley or nearby)",1,15.0
+Groundwater,California County (general inference based on document origin),1,12.0
+Groundwater,California County (inference needed),1,13.0
+Groundwater,California County (inferred based on location and data sources),1,53.0
+Groundwater,California County (inferred from Mokelumne area),1,73.0
+Groundwater,California County (requires additional data for precise inference),1,27.0
+Groundwater,California County (requires more context for precise inference),1,16.0
+Groundwater,California County Based on Drilling Location,2,24.0
+Groundwater,California County Inference Needed,1,23.0
+Groundwater,California County Inference Required,8,119.0
+Groundwater,California County Inferred,1,1.0
+Groundwater,California County Inferred Based on Context,5,42.0
+Groundwater,California County based on altitude and historical context,4,26.0
+Groundwater,California County based on company location,3,26.0
+Groundwater,"California County based on context (e.g., Los Angeles, San Francisco)",1,44.0
+Groundwater,California County based on context or additional data sources,1,37.0
+Groundwater,California County based on drilling activity context,1,7.0
+Groundwater,California County based on proximity to a river (assumed),2,10.0
+Groundwater,California County with wells,1,40.0
+Groundwater,California General,2,65.0
+Groundwater,California General Inference,1,7.0
+Groundwater,California General Location,1,40.0
+Groundwater,California Outlying Areas,1,34.0
+Groundwater,California counties near coastal plains and agricultural areas,1,13.0
+Groundwater,California county with alkali soil issues,1,12.0
+Groundwater,"California, Inferred based on geological formations typical in California",1,10.0
+Groundwater,"California, inferred from context of data",1,18.0
+Groundwater,"California, likely within a geothermal energy zone",1,44.0
+Groundwater,"California, specific county inferred from Westbury location",1,28.0
+Groundwater,Carpenteria County Water District,1,0.0
+Groundwater,Carpinteria,2,30.0
+Groundwater,Carpinteria County,6,14.0
+Groundwater,Carpinteria County Water District,2,0.0
+Groundwater,Central California,1,85.0
+Groundwater,Central California (based on water year data collection period and typical agricultural areas),2,13.0
+Groundwater,"Central Valley, California",1,18.0
+Groundwater,"Central Valley, California (inferred based on typical aquifer locations)",1,37.0
+Groundwater,"Central Valley, California (inferred based on typical dissolved solids concentration)",1,68.0
+Groundwater,"Central Valley, likely Kern County based on groundwater context and typical study areas in California",1,28.0
+Groundwater,Chaves County,10,85.0
+Groundwater,"Chaves County, New Mexico",6,138.0
+Groundwater,Chico area,1,3.0
+Groundwater,Churchill County,3,12.0
+Groundwater,"Cibola County, New Mexico",1,13.0
+Groundwater,Clara,1,23.0
+Groundwater,Clark County,9,175.0
+Groundwater,"Clark County, Nevada",3,47.0
+Groundwater,"Clark County, Nevada (near Ivanpah Valley)",1,26.0
+Groundwater,Co,3,7.0
+Groundwater,Coachella Valley,1,12.0
+Groundwater,Coastal County of the United States (likely in California given context),1,7.0
+Groundwater,Cochise,3,44.0
+Groundwater,Cochise County,2,42.0
+Groundwater,Coconino County,2,24.0
+Groundwater,Columbia,1,16.0
+Groundwater,Colusa,1,17.0
+Groundwater,Colusa County,9,199.0
+Groundwater,Contra Costa County,12,236.0
+Groundwater,Contra Costa County (based on Oro Loma location),1,18.0
+Groundwater,"Contra Costa County, Alameda County",1,8.0
+Groundwater,"Contra Costa County, California",2,45.0
+Groundwater,County inferred based on common Geological Survey locations,1,40.0
+Groundwater,Cronise Valleys,1,18.0
+Groundwater,Cumberland County,1,27.0
+Groundwater,"Cumberland County, New Jersey; Kent County, Delaware",1,5.0
+Groundwater,Deadman Basin (likely part of Imperial County or a similar region in California),2,15.0
+Groundwater,Del Norte,3,39.0
+Groundwater,Del Norte County,11,36.0
+Groundwater,"Del Norte County, California",2,8.0
+Groundwater,Douglas County,6,70.0
+Groundwater,"Douglas County, California",1,5.0
+Groundwater,Downey,1,14.0
+Groundwater,E -12,1,31.0
+Groundwater,"EDDY COUNTY, New Mexico",2,33.0
+Groundwater,"Edison County or Maricopa County, California",1,15.0
+Groundwater,"Edison-Maricopa Area, California",1,32.0
+Groundwater,El Dorado,1,12.0
+Groundwater,El Dorado County,6,101.0
+Groundwater,"El Dorado County, California",1,51.0
+Groundwater,"El Dorado County, Placer County, Douglas County, Washoe County",1,15.0
+Groundwater,Elko County,3,23.0
+Groundwater,"Elko County, Nevada",3,24.0
+Groundwater,Esmeralda County,2,16.0
+Groundwater,"Esmeralda County, California",1,5.0
+Groundwater,"Esmeralda County, California (partially)",1,4.0
+Groundwater,"Esmeralda County, NV; Mono County, CA",1,5.0
+Groundwater,"Esmeralda County, Nev.",1,48.0
+Groundwater,"Esmeralda County, Nevada",1,4.0
+Groundwater,"Esmeralda County, Nevada (near California border)",1,62.0
+Groundwater,"Esmeralda, Nevada",1,1.0
+Groundwater,Fresno,21,322.0
+Groundwater,Fresno County,95,1530.0
+Groundwater,"Fresno County, CA",1,65.0
+Groundwater,"Fresno County, California",4,168.0
+Groundwater,Fresno and Kings Counties,2,6.0
+Groundwater,"Fresno, Tulare, Kings",1,71.0
+Groundwater,Glenn County,15,230.0
+Groundwater,"Glenn County, California",1,5.0
+Groundwater,"Graham County, Arizona",2,14.0
+Groundwater,"Great Basin Region counties including portions of Nevada, Utah, and California",1,10.0
+Groundwater,"Great Basin Region, California",1,11.0
+Groundwater,Greenlee County,2,4.0
+Groundwater,"Greenlee County, Arizona (Error in document)",1,5.0
+Groundwater,HUMBOLDT,5,19.0
+Groundwater,HUMBOLDT COUNTY,1,3.0
+Groundwater,Hamilton County,1,15.0
+Groundwater,Hanford-Visalia area,1,4.0
+Groundwater,"Harper Valley County, CA (inferred)",1,20.0
+Groundwater,Hawaii County,18,261.0
+Groundwater,"Hawaii County, Oahu District (Hypothetical for JSON context)",6,29.0
+Groundwater,Hawai‘i County,3,24.0
+Groundwater,Hidalgo County,8,24.0
+Groundwater,"Hidalgo County, New Mexico",2,46.0
+Groundwater,High Valley County (Inferred),2,10.0
+Groundwater,Hill B. Co.,1,16.0
+Groundwater,Hill Co.,1,13.0
+Groundwater,Honolulu,7,90.0
+Groundwater,Honolulu County,40,795.0
+Groundwater,"Honolulu County, Hawaii",19,471.0
+Groundwater,"Hudspeth County, Presidio County",1,7.0
+Groundwater,Humboldt,4,72.0
+Groundwater,Humboldt County,62,685.0
+Groundwater,"Humboldt County, Nevada",1,5.0
+Groundwater,"Huntington Beach, CA",1,12.0
+Groundwater,Imperial,12,253.0
+Groundwater,Imperial County,417,7805.0
+Groundwater,Imperial County (inferred based on township range section),1,13.0
+Groundwater,Imperial County (inferred from context of Southwestern States),4,9.0
+Groundwater,"Imperial County, CA",7,216.0
+Groundwater,"Imperial County, California",37,524.0
+Groundwater,"Imperial County, California (based on coordinates)",1,0.0
+Groundwater,"Imperial, CA (Inferred from location)",3,5.0
+Groundwater,"In Surprise Spring Basin, likely a county in California such as Inyo or Mono",1,21.0
+Groundwater,"Infer from Great Basin region, possibly in multiple counties",1,59.0
+Groundwater,Inferred,5,70.0
+Groundwater,Inferred County,1,3.0
+Groundwater,Inferred County Based on Location Data,1,23.0
+Groundwater,Inferred County Based on Map Number,1,36.0
+Groundwater,Inferred County based on Altitude,2,33.0
+Groundwater,Inferred County based on Map Number,1,16.0
+Groundwater,Inferred County based on chemical analysis context within California,1,38.0
+Groundwater,Inferred County based on context and chemical concentrations,1,38.0
+Groundwater,Inferred County based on coordinates,1,18.0
+Groundwater,Inferred County based on depth and altitude in California,1,9.0
+Groundwater,Inferred County based on location context in California,1,4.0
+Groundwater,"Inferred County based on proximity to altitude 2,866.5 feet and depth",1,33.0
+Groundwater,Inferred County based on proximity to known U.S. Borax operations in California,2,32.0
+Groundwater,Inferred County from Northern California based on context,1,12.0
+Groundwater,Inferred County from Table Data,1,23.0
+Groundwater,Inferred County in California,1,40.0
+Groundwater,Inferred San Joaquin County,1,40.0
+Groundwater,"Inferred as Kings County, California based on the township information provided.",1,42.0
+Groundwater,Inferred as Mono County (based on context and known locations),1,17.0
+Groundwater,Inferred based on 7N/35W township range section and depth information from California well data.,4,19.0
+Groundwater,Inferred based on California well number system,1,15.0
+Groundwater,Inferred based on California well survey data,1,22.0
+Groundwater,"Inferred based on Township Range Section 11S/6E-4D1, likely in California.",1,58.0
+Groundwater,Inferred based on common California aquifers and wells,1,34.0
+Groundwater,Inferred based on depth and altitude,1,4.0
+Groundwater,Inferred based on geographical context within California,3,35.0
+Groundwater,Inferred based on location data in California,3,47.0
+Groundwater,Inferred based on location data or context,1,21.0
+Groundwater,Inferred based on proximity to known water sources in California,2,34.0
+Groundwater,Inferred based on proximity to known water sources in the region.,1,45.0
+Groundwater,Inferred based on township range section,1,10.0
+Groundwater,Inferred based on well coordinates and altitude,3,16.0
+Groundwater,"Inferred based on well number, likely in a southern California county with such survey grid coordinates.",1,31.0
+Groundwater,Inferred from Altitude,3,32.0
+Groundwater,"Inferred from Borax, California context",1,30.0
+Groundwater,Inferred from California,2,64.0
+Groundwater,Inferred from California context,2,37.0
+Groundwater,Inferred from California geography based on water-bearing descriptions,1,22.0
+Groundwater,Inferred from California location data,2,43.0
+Groundwater,"Inferred from Earth Laboratory, U.S. Bureau of Reclamation, Denver, Colo.",2,55.0
+Groundwater,"Inferred from GPS coordinates, likely in a county with similar geological features",1,11.0
+Groundwater,"Inferred from Haystack Butte Area, California",1,11.0
+Groundwater,"Inferred from Hoover wilderness area, likely Alpine or Inyo County",1,33.0
+Groundwater,"Inferred from Lucerne Valley in California, likely Kern County",1,25.0
+Groundwater,Inferred from State Well Number,1,11.0
+Groundwater,Inferred from State Well Number and California location data,1,27.0
+Groundwater,Inferred from State Well Number: Inyo County,1,60.0
+Groundwater,Inferred from State of California context,1,14.0
+Groundwater,Inferred from State of California data,1,15.0
+Groundwater,Inferred from State well No. and Aquifer penetration,1,28.0
+Groundwater,Inferred from Township Range Section (11S/6E-3C1),2,33.0
+Groundwater,Inferred from Township Ranges Sections,7,54.0
+Groundwater,Inferred from USGS well number,2,24.0
+Groundwater,Inferred from USGS well number and location data,1,14.0
+Groundwater,Inferred from X2380,1,64.0
+Groundwater,Inferred from altitude and USGS well number,1,12.0
+Groundwater,Inferred from context (likely California),1,24.0
+Groundwater,Inferred from context based on USGS data and common sources in California,1,15.0
+Groundwater,"Inferred from context, likely part of California based on State data",1,2.0
+Groundwater,"Inferred from context, not specified in document",5,139.0
+Groundwater,"Inferred from context, possibly a county in California with wells",1,28.0
+Groundwater,Inferred from context: Los Angeles County,1,56.0
+Groundwater,Inferred from coordinates,1,10.0
+Groundwater,"Inferred from coordinates 8N, 35W",5,13.0
+Groundwater,Inferred from coordinates in California,2,3.0
+Groundwater,Inferred from data,1,12.0
+Groundwater,Inferred from data (assumed based on common locations for seeps in California),1,16.0
+Groundwater,"Inferred from data context (e.g., based on altitude and latitude)",1,13.0
+Groundwater,Inferred from document context,1,10.0
+Groundwater,Inferred from document context: Possibly within California's general region due to reference,1,41.0
+Groundwater,"Inferred from geographical context, possibly within California",3,16.0
+Groundwater,"Inferred from geological context, likely in Imperial County",1,46.0
+Groundwater,Inferred from latitude and longitude data,1,68.0
+Groundwater,Inferred from location context,1,33.0
+Groundwater,Inferred from location data,9,62.0
+Groundwater,Inferred from location data and context,1,32.0
+Groundwater,Inferred from location data within California,1,21.0
+Groundwater,"Inferred from location details, if any",1,19.0
+Groundwater,Inferred from location within California,1,68.0
+Groundwater,Inferred from map number: 11S/13E-33L01 S,1,43.0
+Groundwater,Inferred from spatial data or other contextual clues,2,21.0
+Groundwater,Inferred from township range section data,2,46.0
+Groundwater,Inferred from township range section: Inyo County,1,22.0
+Groundwater,Inferred from water temperature data context,2,55.0
+Groundwater,Inferred to be in California based on document context,1,12.0
+Groundwater,Inferred to be in California based on the document context,2,34.0
+Groundwater,Inferred: Inyo County,1,17.0
+Groundwater,Inferred: Kern County,1,19.0
+Groundwater,Inferred: San Bernardino County,2,19.0
+Groundwater,InferredCounty1,1,60.0
+Groundwater,Inferred_County,7,79.0
+Groundwater,Inferred_Los_Angeles,1,4.0
+Groundwater,Inferred_Mono,1,23.0
+Groundwater,Inferred_San Luis Obispo County,10,113.0
+Groundwater,Inferred_Unknown,2,24.0
+Groundwater,Interior Alaska (Region),1,13.0
+Groundwater,Inyo,3,103.0
+Groundwater,Inyo County,73,737.0
+Groundwater,"Inyo County, California",1,7.0
+Groundwater,Joaquin,1,13.0
+Groundwater,Joaquin County,1,11.0
+Groundwater,Just west of Tulare-Wasco area,1,11.0
+Groundwater,KERN,4,5.0
+Groundwater,KERN COUNTY,32,293.0
+Groundwater,Kalin Co.,2,31.0
+Groundwater,Kalin County,2,45.0
+Groundwater,Kauai County,3,13.0
+Groundwater,Kern,37,482.0
+Groundwater,Kern County,256,3363.0
+Groundwater,"Kern County, California",24,378.0
+Groundwater,"Kern County, California (based on Pinto Basin location)",1,21.0
+Groundwater,Kern and Tulare Counties,2,29.0
+Groundwater,Kings,1,20.0
+Groundwater,Kings County,29,434.0
+Groundwater,Kings County (Pixley area),1,6.0
+Groundwater,"Kings County, California",4,87.0
+Groundwater,"Kings County, Fresno County",1,3.0
+Groundwater,Kings and Kern Counties,11,146.0
+Groundwater,"Kings and Kern Counties, Calif.",2,70.0
+Groundwater,Klamath County,3,152.0
+Groundwater,"LEA COUNTY, NEW MEXICO",1,20.0
+Groundwater,LOS ANGELES,4,13.0
+Groundwater,LOS ANGELES COUNTY,16,36.0
+Groundwater,"LUNA COUNTY, NEW MEXICO",1,31.0
+Groundwater,Laguna County District,1,17.0
+Groundwater,Lake,2,62.0
+Groundwater,Lake County,41,356.0
+Groundwater,"Lake County, Calif.",1,15.0
+Groundwater,"Lake, Shasta",1,37.0
+Groundwater,Lancaster,2,47.0
+Groundwater,Lane County,2,39.0
+Groundwater,Lassen County,3,50.0
+Groundwater,"Lassen County, California (inferred from the Great Basin region)",1,46.0
+Groundwater,Lea County,6,52.0
+Groundwater,Liberty,1,24.0
+Groundwater,Likely a county in California based on altitude and location context,4,24.0
+Groundwater,Likely a high-altitude county in California such as Sierra or Inyo County,3,34.0
+Groundwater,Likely in a Californian county with significant water quality studies,1,31.0
+Groundwater,"Likely in a county with similar geological features to those described, such as Los Angeles or Ventura County due to the presence of blue clay and gravel layers.",2,37.0
+Groundwater,"Likely located in a county with similar environmental conditions as described in the document, possibly within Northern California due to climate and lake characteristics.",1,12.0
+Groundwater,Likely one of California's counties based on typical water source locations,1,11.0
+Groundwater,"Likely within California, specific county unknown",1,23.0
+Groundwater,"Lincoln County, New Mexico",7,22.0
+Groundwater,Lompoc,2,12.0
+Groundwater,Los Angeles,113,2211.0
+Groundwater,Los Angeles County,704,14657.0
+Groundwater,Los Angeles County (Antelope Valley region),1,35.0
+Groundwater,Los Angeles County (Long Beach-Santa Ana Area),1,24.0
+Groundwater,Los Angeles County (based on LADWP No. and well location),1,54.0
+Groundwater,Los Angeles County (inferred based on typical drilling activities),1,22.0
+Groundwater,Los Angeles County and Orange County,1,14.0
+Groundwater,"Los Angeles County, California",7,205.0
+Groundwater,"Los Angeles County, Orange County",1,16.0
+Groundwater,"Los Angeles County, Orange County, and Riverside County",1,25.0
+Groundwater,Los Angeles and Orange Counties,1,9.0
+Groundwater,"Los Angeles, California",3,23.0
+Groundwater,"Luccrne Valley, California",1,25.0
+Groundwater,Luna County,7,27.0
+Groundwater,"Luna County, New Mexico",2,61.0
+Groundwater,Madera,2,26.0
+Groundwater,Madera County,34,379.0
+Groundwater,Maricopa,4,38.0
+Groundwater,Marin,3,47.0
+Groundwater,Marin County,1,47.0
+Groundwater,Marion County,1,11.0
+Groundwater,Matanuska-Susitna,1,11.0
+Groundwater,Maui,2,9.0
+Groundwater,Maui County,4,20.0
+Groundwater,McKinley,1,7.0
+Groundwater,Mendocino,7,47.0
+Groundwater,Mendocino County,50,366.0
+Groundwater,"Mendocino County, California",1,7.0
+Groundwater,"Mendota-Huron Area, California",1,19.0
+Groundwater,"Mendota-Huron area, California",8,137.0
+Groundwater,Merced,10,275.0
+Groundwater,Merced County,39,605.0
+Groundwater,"Merced County, California",8,119.0
+Groundwater,"Merced County, Fresno County",1,21.0
+Groundwater,"Merced, Fresno",2,26.0
+Groundwater,Mineral County,1,31.0
+Groundwater,Mississippi County,2,17.0
+Groundwater,Modoc,2,69.0
+Groundwater,Modoc County,10,34.0
+Groundwater,"Modoc County, CA",2,9.0
+Groundwater,"Modoc County, California",5,44.0
+Groundwater,Mohave County,4,23.0
+Groundwater,Mokelumne,8,239.0
+Groundwater,Mokelumne Area,1,74.0
+Groundwater,"Mokelumne Area, California",12,209.0
+Groundwater,Mokelumne County,7,194.0
+Groundwater,"Mokelumne County, California",6,109.0
+Groundwater,Mokelumne area,1,40.0
+Groundwater,"Mokelumne area, California",1,10.0
+Groundwater,"Mokelumne, California",5,129.0
+Groundwater,Mono County,15,240.0
+Groundwater,"Mono County, California",4,81.0
+Groundwater,Montana,1,0.0
+Groundwater,Montana County,1,18.0
+Groundwater,"Montana County, California",1,11.0
+Groundwater,Monterey,1,12.0
+Groundwater,Monterey County,10,126.0
+Groundwater,Monterey County and Salinas Valley Area,1,30.0
+Groundwater,"Monterey County, California",3,67.0
+Groundwater,Most of the study area in California,1,10.0
+Groundwater,Multiple Counties (Feather River Basin),1,10.0
+Groundwater,Multiple Counties in California,1,40.0
+Groundwater,"Multiple Counties in San Joaquin Valley, California",1,34.0
+Groundwater,Multiple Inferences Required,1,12.0
+Groundwater,Multiple counties in California based on water well data,1,40.0
+Groundwater,"Multiple counties, requires specific location data for precise inference",1,23.0
+Groundwater,Napa,61,651.0
+Groundwater,Napa County,64,660.0
+Groundwater,"Napa County, California",2,26.0
+Groundwater,Napa and Sonoma,1,55.0
+Groundwater,Napa and Sonoma Valleys,3,27.0
+Groundwater,"Napa and Sonoma Valleys, CA",1,52.0
+Groundwater,"Near Trench A site, County inferred from regional context",2,47.0
+Groundwater,"Neighborhood of Monterey and Salinas, California",2,35.0
+Groundwater,Nevada,1,0.0
+Groundwater,Nevada County,4,85.0
+Groundwater,"Nevada County, CA",1,18.0
+Groundwater,"Nevada County, California",3,16.0
+Groundwater,"Nevada, California",1,3.0
+Groundwater,"Nevada, Washoe County",3,7.0
+Groundwater,Nevada/California border area (specific county not given),1,47.0
+Groundwater,None Available,1,10.0
+Groundwater,None Specified,1,15.0
+Groundwater,"Northwestern States, California (assumed)",1,7.0
+Groundwater,Not Available,13,318.0
+Groundwater,Not Determined,1,68.0
+Groundwater,Not Inferred from Document,1,23.0
+Groundwater,Not Provided,26,497.0
+Groundwater,Not Specified,20,488.0
+Groundwater,Not provided,4,58.0
+Groundwater,"Not provided in document, inference required based on location data.",1,40.0
+Groundwater,Not specified,22,340.0
+Groundwater,Not specified in document,2,7.0
+Groundwater,Not specified in document; inferred based on context or external data sources may be required.,1,37.0
+Groundwater,Not specified in the document,2,82.0
+Groundwater,Not specified; requires additional data for inference,1,10.0
+Groundwater,Nye County,6,76.0
+Groundwater,"Nye County, Nevada",1,4.0
+Groundwater,"Nye County, Nevada (but referenced to California)",1,5.0
+Groundwater,"Nye County, Nevada / Inyo County, California",1,9.0
+Groundwater,"Nye County, Nevada and Churchill County, California",1,3.0
+Groundwater,"Nye County, Nevada; Inyo County, California",1,0.0
+Groundwater,"Nye County, Nevada; and Alpine County, California",1,0.0
+Groundwater,ORANGE COUNTY,7,57.0
+Groundwater,"Oahu, Hawaii",2,71.0
+Groundwater,Orange,12,152.0
+Groundwater,Orange County,126,2466.0
+Groundwater,"Orange County (Anaheim, CA)",1,0.0
+Groundwater,Orange County (inferred from location names like Anaheim and Vernon),1,10.0
+Groundwater,"Orange County, California",12,303.0
+Groundwater,Ormsby County,1,11.0
+Groundwater,Otero County,8,30.0
+Groundwater,Outlying Areas,1,34.0
+Groundwater,PINAL COUNTY,2,17.0
+Groundwater,Palmale,1,59.0
+Groundwater,"Pershing County, Nevada / Inyo County, California",1,6.0
+Groundwater,"Pershing County, Nevada and Alpine County, California",1,4.0
+Groundwater,Pima County,2,37.0
+Groundwater,"Pima County, Arizona",1,7.0
+Groundwater,Pinal County,4,21.0
+Groundwater,Placer,9,71.0
+Groundwater,Placer County,38,657.0
+Groundwater,Placer County or Sutter County,1,4.0
+Groundwater,"Placer County, California",8,143.0
+Groundwater,Plains County,1,10.0
+Groundwater,Plumas,4,43.0
+Groundwater,Plumas County,5,122.0
+Groundwater,Portland,2,19.0
+Groundwater,Possible California County based on water analysis data,1,24.0
+Groundwater,"Possible Counties based on context: Likely in a county with known well drilling activities such as Los Angeles, San Bernardino, or Riverside.",1,34.0
+Groundwater,Possible County based on inferred coordinates within California,1,18.0
+Groundwater,Possible Fresno County or similar region based on historical data,1,40.0
+Groundwater,"Possible Inference Needed: County likely near the San Joaquin Valley or Central Valley, California",1,12.0
+Groundwater,"Possible in areas where continental deposits crop out, specific county inferred based on regional geology",2,8.0
+Groundwater,Potential California Central Valley counties based on common groundwater analysis regions,1,24.0
+Groundwater,"Potential Counties: Kern, Los Angeles, or San Bernardino (based on common locations of groundwater studies in California)",1,31.0
+Groundwater,Potential areas with similar geology in California counties known for ground-water studies,1,45.0
+Groundwater,"Presidio County (Texas), Sierra County (New Mexico)",1,12.0
+Groundwater,Presumed in the Southwestern States of California based on document context,2,42.0
+Groundwater,Quaternary County (inferred),1,10.0
+Groundwater,Quay County,5,43.0
+Groundwater,RIVERSIDE COUNTY,5,10.0
+Groundwater,Ranchos Valley Apple Co. County (based on user data),1,15.0
+Groundwater,"Red Rock Valley, Calif.",2,36.0
+Groundwater,Redlands (Implied),1,8.0
+Groundwater,"Redondo, California",1,18.0
+Groundwater,Riverside,55,870.0
+Groundwater,Riverside County,176,2250.0
+Groundwater,"Riverside County, California",13,218.0
+Groundwater,"Riverside, California",4,26.0
+Groundwater,"Roosevelt County, New Mexico",2,27.0
+Groundwater,Roswell Basin,1,15.0
+Groundwater,S. VENTURA COUNTY,5,22.0
+Groundwater,SAN BERNARDINO,5,47.0
+Groundwater,SAN BERNARDINO COUNTY,30,50.0
+Groundwater,SAN DIEGO COUNTY,9,37.0
+Groundwater,SAN JOAQUIN COUNTY,3,21.0
+Groundwater,SANTA BARBARA COUNTY,10,62.0
+Groundwater,SOLANO COUNTY,4,14.0
+Groundwater,SONOMA COUNTY,4,23.0
+Groundwater,Sacramento,14,524.0
+Groundwater,Sacramento County,87,2125.0
+Groundwater,Sacramento County (inferred from historical data),1,25.0
+Groundwater,"Sacramento County, California",12,152.0
+Groundwater,Sacramento Valley,1,6.0
+Groundwater,"Sacramento, Calif.",1,24.0
+Groundwater,Salinas,1,2.0
+Groundwater,"Salt Lake County, Utah",1,19.0
+Groundwater,San Antonio Creek Valley Area,1,4.0
+Groundwater,"San Antonio Creek Valley, T. 8 N., R. 32 W.",1,0.0
+Groundwater,San Benito,1,73.0
+Groundwater,San Benito County,16,305.0
+Groundwater,San Bernardino,61,1045.0
+Groundwater,San Bernardino County,301,4262.0
+Groundwater,"San Bernardino County, CA",1,22.0
+Groundwater,"San Bernardino County, California",5,122.0
+Groundwater,"San Bernardino, Redlands",1,45.0
+Groundwater,San Diego,29,428.0
+Groundwater,San Diego County,173,2106.0
+Groundwater,San Francisco County,1,26.0
+Groundwater,San Joaquin,48,881.0
+Groundwater,San Joaquin County,149,1977.0
+Groundwater,"San Joaquin County, CA",4,6.0
+Groundwater,"San Joaquin County, California",20,387.0
+Groundwater,San Joaquin Valley,1,63.0
+Groundwater,"San Joaquin Valley Counties (e.g., Merced, Stanislaus)",1,69.0
+Groundwater,"San Joaquin Valley, Calif.",1,19.0
+Groundwater,"San Joaquin Valley, California",3,147.0
+Groundwater,San Luis Obispo,28,199.0
+Groundwater,San Luis Obispo (near Ballard),2,34.0
+Groundwater,San Luis Obispo County,101,802.0
+Groundwater,"San Luis Obispo County, California",1,9.0
+Groundwater,San Mateo,1,18.0
+Groundwater,San Mateo County,18,288.0
+Groundwater,"San Mateo County, California",1,43.0
+Groundwater,San Pedro,1,25.0
+Groundwater,Santa Ana (Based on similar data entries in the same range),1,30.0
+Groundwater,"Santa Ana, California",1,20.0
+Groundwater,"Santa Ana, Los Angeles, Orange",1,59.0
+Groundwater,Santa Barbara,220,2327.0
+Groundwater,Santa Barbara (based on proximity to Santa Ynez Valley),5,14.0
+Groundwater,Santa Barbara County,1376,18179.0
+Groundwater,"Santa Barbara County, California",11,119.0
+Groundwater,"Santa Barbara County, Montecito",1,4.0
+Groundwater,"Santa Barbara, Montecito",1,20.0
+Groundwater,Santa Clara,20,536.0
+Groundwater,Santa Clara County,135,4296.0
+Groundwater,"Santa Clara County, California",3,81.0
+Groundwater,Santa Cruz,1,33.0
+Groundwater,Santa Cruz County,7,62.0
+Groundwater,"Santa Cruz County, California",3,67.0
+Groundwater,Santa Fe County,3,48.0
+Groundwater,Santa Rosa County,3,51.0
+Groundwater,Santa Rosa Valley,1,17.0
+Groundwater,"Santa Rosa Valley area, California",3,52.0
+Groundwater,"Santa Rosa Valley, California",1,52.0
+Groundwater,Shasta,3,35.0
+Groundwater,Shasta County,23,206.0
+Groundwater,"Shasta County, California",1,34.0
+Groundwater,"Shasta Valley, California",1,12.0
+Groundwater,Sierra County,1,19.0
+Groundwater,"Sierra Nevada (general region, specific county not provided)",1,9.0
+Groundwater,"Sierra Nevada region, California",1,11.0
+Groundwater,"Sierra Nevada, California",1,11.0
+Groundwater,"Sierra Nevada, California (likely Placer County)",1,14.0
+Groundwater,Siskiyou,47,328.0
+Groundwater,Siskiyou County,117,916.0
+Groundwater,"Siskiyou County, California",9,72.0
+Groundwater,"Socorro County, New Mexico",1,14.0
+Groundwater,Soda and Silver Lake valleys,4,19.0
+Groundwater,Solano,18,239.0
+Groundwater,Solano County,167,3264.0
+Groundwater,"Solano County (T. 5 N., R. 1 W.) and Fairfield-Suisun County (T. 5 N., R. 1 E.)",1,23.0
+Groundwater,"Solano County, California",3,109.0
+Groundwater,"Solano County, Contra Costa County",1,10.0
+Groundwater,Solano and Contra Costa,1,3.0
+Groundwater,"Solano, Contra Costa (Suisun-Fairfield area)",1,5.0
+Groundwater,Sonoma,32,278.0
+Groundwater,Sonoma County,166,1641.0
+Groundwater,Southeastern California counties such as Inyo or Mono County,1,8.0
+Groundwater,Southern California,1,18.0
+Groundwater,Southern California Counties,3,24.0
+Groundwater,Southern California Valley,1,71.0
+Groundwater,Southern Part of Study Area,1,4.0
+Groundwater,Southern part of the study area and Johnson Valley,1,5.0
+Groundwater,Southwestern States of California,4,8.0
+Groundwater,"Southwestern States, CA",2,26.0
+Groundwater,"Southwestern United States, includes California",1,26.0
+Groundwater,"Southwestern United States, including California and Hawaii",1,13.0
+Groundwater,Stanislaus,6,176.0
+Groundwater,Stanislaus County,17,382.0
+Groundwater,"Stanislaus County, Calaveras County, Tuolumne County (approximation based on Mokelumne area and Sierra Nevada sources)",2,8.0
+Groundwater,"Stanislaus, Merced, Fresno, Madera, Mariposa, Tulare, Kings, Kern, and several others in the San Joaquin Valley region",1,18.0
+Groundwater,Steptoe Valley,6,20.0
+Groundwater,Stevens County,1,15.0
+Groundwater,"Stockton, California (inference based on nearby water bodies)",5,75.0
+Groundwater,"Stockton, San Joaquin County",4,85.0
+Groundwater,Subarea information needed for inference,1,19.0
+Groundwater,Suffolk County,1,50.0
+Groundwater,Suisun or Fairfield,1,56.0
+Groundwater,Suisun-Fairfield Area,3,183.0
+Groundwater,"Suisun-Fairfield Area, Solano County",1,57.0
+Groundwater,Surprise Spring Basin,2,15.0
+Groundwater,Sutter County,8,122.0
+Groundwater,"Sutter County, California",3,14.0
+Groundwater,"T. 28 S., R. 25 E.",1,5.0
+Groundwater,TAOS COUNTY,4,42.0
+Groundwater,"Tahoe National Forest area, likely Placer County or El Dorado County",1,18.0
+Groundwater,Tehama,6,66.0
+Groundwater,Tehama County,26,226.0
+Groundwater,"Torrance County, New Mexico",1,31.0
+Groundwater,Trinity County,11,150.0
+Groundwater,Trinity County (based on general altitude and location),2,24.0
+Groundwater,Tulare,12,205.0
+Groundwater,Tulare County,88,1398.0
+Groundwater,Tulare County (inferred based on typical groundwater storage studies in the San Joaquin Valley),2,30.0
+Groundwater,"Tulare County, California",13,167.0
+Groundwater,"Tulare County, Kern County",1,8.0
+Groundwater,Tulare and Kings,2,141.0
+Groundwater,Tulare or Kings,1,73.0
+Groundwater,"Tulare, Fresno, Kings, Madera, Stanislaus (among others within San Joaquin Valley)",1,19.0
+Groundwater,"Tulare, Kings",3,210.0
+Groundwater,Tulare-Wasco Area,1,5.0
+Groundwater,Tulare-Wasco area,2,33.0
+Groundwater,Tuolumne,1,12.0
+Groundwater,Tuolumne County,6,145.0
+Groundwater,"Tuolumne County, CA",2,35.0
+Groundwater,"Tuolumne County, California",1,12.0
+Groundwater,Union County,2,36.0
+Groundwater,"Union County, NM",7,26.0
+Groundwater,Unknown,189,3836.0
+Groundwater,Unknown (California),1,23.0
+Groundwater,Unknown (based on coordinates in California),1,14.0
+Groundwater,Unknown - Requires Additional Data,1,22.0
+Groundwater,Unknown California County,5,126.0
+Groundwater,Unknown County,13,238.0
+Groundwater,Unknown County in California,8,178.0
+Groundwater,Unknown County in Central Study Area,1,9.0
+Groundwater,Unknown based on data,1,37.0
+Groundwater,Unknown based on provided data,1,18.0
+Groundwater,Unspecified,1,20.0
+Groundwater,"Upper end of the valley, likely Kings County or Tulare County",1,11.0
+Groundwater,Valencia County,1,21.0
+Groundwater,Various Counties in California,10,303.0
+Groundwater,Various Counties in California (inference based on multiple well numbers and depths),1,23.0
+Groundwater,Various Counties in California (inferred from historical data),1,2.0
+Groundwater,Various Counties in California based on agency codes and geological survey data,1,36.0
+Groundwater,"Various Counties in Coast Ranges, California",2,12.0
+Groundwater,Various Counties in the San Joaquin Valley,1,28.0
+Groundwater,"Various Counties within San Joaquin Valley, California",1,40.0
+Groundwater,Various counties along California's coastal belt,1,7.0
+Groundwater,"Various counties along the Colorado River in California, Arizona, Nevada, and Utah",1,13.0
+Groundwater,Various counties in California,3,102.0
+Groundwater,"Various counties in California, inferred based on map numbers and sample dates",1,40.0
+Groundwater,"Various counties in the Sacramento Valley, CA",1,18.0
+Groundwater,Various counties within California based on the study area description,1,12.0
+Groundwater,"Various counties within California, specific inference not possible from document",1,33.0
+Groundwater,Various counties within the Mojave Desert region of California,1,36.0
+Groundwater,Various counties within the San Joaquin Valley and surrounding oil fields in California,1,49.0
+Groundwater,Ventura,6,91.0
+Groundwater,Ventura County,21,170.0
+Groundwater,"Ventura County, California",1,1.0
+Groundwater,"Washington County, California",1,32.0
+Groundwater,Yolo,13,226.0
+Groundwater,Yolo County,82,1714.0
+Groundwater,"Yolo County, California",2,83.0
+Groundwater,"Yolo County, Sacramento County",1,9.0
+Groundwater,Yuba,1,22.0
+Groundwater,Yuba County,15,109.0
+Groundwater,"Yuba County, California",3,22.0
+Groundwater,Yuma County,2,5.0
+Groundwater,"['Alameda', 'Contra Costa']",1,17.0
+Groundwater,"['Arizona', 'Nevada', 'Utah', 'California']",1,15.0
+Groundwater,"['BERNARDINO', 'BENITO', 'DIEGO', 'SAN']",1,22.0
+Groundwater,"['Butte', 'Colusa', 'Glenn', 'Sutter', 'Tehama', 'Yolo']",2,21.0
+Groundwater,['Carmel'],1,12.0
+Groundwater,"['Kings', 'Kern']",6,190.0
+Groundwater,"['Los Angeles', 'Kern']",1,17.0
+Groundwater,['Los Angeles'],1,11.0
+Groundwater,['Madera County'],1,11.0
+Groundwater,['Merced'],1,13.0
+Groundwater,['Not Available'],2,26.0
+Groundwater,"['Orange County', 'Orange County', 'Los Angeles County', 'Orange County', 'Riverside County', 'Irvine County', 'Unknown', 'Unknown', 'Unknown', 'Unknown']",1,18.0
+Groundwater,"['San Joaquin', 'Stanislaus', 'Merced', 'Madera', 'Fresno', 'Tulare']",1,13.0
+Groundwater,['Santa Clara'],1,73.0
+Groundwater,"['Santa Rosa Valley, California']",2,34.0
+Groundwater,['Solano County'],1,17.0
+Groundwater,"['Tehama', 'Colusa']",1,7.0
+Groundwater,"['Tulare', 'Kings']",5,327.0
+Groundwater,"['Yolo', 'Colusa', 'Glenn', 'Tehama']",1,6.0
+Groundwater,[None],1,18.0
+Groundwater,[],1,18.0
+Groundwater,not provided,1,19.0
+Groundwater,not specified in document,1,19.0
+Irrigation,"Adams County, Idaho",1,8.0
+Irrigation,Adel,1,8.0
+Irrigation,Alameda,2,97.0
+Irrigation,Alameda County,8,285.0
+Irrigation,Alameda and Contra Costa,1,17.0
+Irrigation,Albany County,3,225.0
+Irrigation,Alluvium County,1,16.0
+Irrigation,Alpine County,1,39.0
+Irrigation,Amador County,7,475.0
+Irrigation,"Baker County, Oreg.",1,52.0
+Irrigation,"Baker County, Oregon",1,21.0
+Irrigation,"Bear Lake County, Idaho",3,23.0
+Irrigation,Box Elder County,2,165.0
+Irrigation,"Box Elder County, Utah (near California border)",1,80.0
+Irrigation,Butte,2,72.0
+Irrigation,Butte County,62,1869.0
+Irrigation,"Butte County, California",2,25.0
+Irrigation,Cache County,3,104.0
+Irrigation,"Cache County, Utah",1,15.0
+Irrigation,Calaveras,9,335.0
+Irrigation,Calaveras County,35,1297.0
+Irrigation,Calaveras County (inferred from typical locations in California),1,88.0
+Irrigation,"Calaveras County, California",3,97.0
+Irrigation,"Calaveras, Tuolumne, Mariposa, Madera (based on the general region of the Tuolumne River)",1,19.0
+Irrigation,California,9,183.0
+Irrigation,California (General Inference),1,19.0
+Irrigation,California (General),2,17.0
+Irrigation,California (Generalized),1,5.0
+Irrigation,California (Inferred based on document context),1,45.0
+Irrigation,California (Inferred),1,12.0
+Irrigation,California (specific county inferred based on proximity to hydrological features),1,2.0
+Irrigation,California (specific county inferred based on typical irrigation projects in the state),1,3.0
+Irrigation,California Central Valley Region (Inferred based on common irrigation practices),1,18.0
+Irrigation,California County (inferred),1,18.0
+Irrigation,California County near Williams,1,4.0
+Irrigation,California General Inference Based on Table Data,1,13.0
+Irrigation,"Clark County, Nevada; Nye County, Nevada; Inyo County, California",1,4.0
+Irrigation,"Coconino County, Arizona",1,9.0
+Irrigation,"Coconino, AZ and Clark, NV",1,37.0
+Irrigation,Colorado or Utah,1,16.0
+Irrigation,Colusa County,1,89.0
+Irrigation,Colusa-Grimes area,1,3.0
+Irrigation,Contra Costa County,9,320.0
+Irrigation,Daggett County,1,22.0
+Irrigation,"Daggett County, Utah",1,22.0
+Irrigation,"Davis County, Utah",2,71.0
+Irrigation,Del Norte County,1,82.0
+Irrigation,"Del Norte County, California",1,18.0
+Irrigation,"Delta County, Colorado",1,78.0
+Irrigation,"Douglas County, Oregon",2,15.0
+Irrigation,Duchesne County,1,85.0
+Irrigation,"Duchesne County, Utah",2,17.0
+Irrigation,El Dorado,1,86.0
+Irrigation,El Dorado County,11,417.0
+Irrigation,"El Dorado County, California",1,53.0
+Irrigation,"El Dorado County, California and Douglas County, Nevada",1,46.0
+Irrigation,Elko County,1,22.0
+Irrigation,Fresno,3,40.0
+Irrigation,Fresno County,30,886.0
+Irrigation,Fresno County (inferred based on location of the alluvial fan within Fresno County),1,61.0
+Irrigation,"Gila County, Arizona",1,34.0
+Irrigation,Graham County,1,23.0
+Irrigation,"Graham County, Arizona",3,26.0
+Irrigation,"Grand County, Colorado",2,28.0
+Irrigation,"Greenlee County, Arizona (Error in document)",5,21.0
+Irrigation,"Hillsborough, New Hampshire",1,8.0
+Irrigation,"Hollister Estate, Near Lomboc",5,15.0
+Irrigation,Humboldt County,5,131.0
+Irrigation,"Humboldt County, California",1,9.0
+Irrigation,INYO,1,8.0
+Irrigation,Imperial,5,140.0
+Irrigation,Imperial County,50,1134.0
+Irrigation,"Imperial County, CA",2,46.0
+Irrigation,"Imperial County, California",7,287.0
+Irrigation,Inyo County,11,272.0
+Irrigation,Jackson County,9,184.0
+Irrigation,"Jackson County, Oregon",27,665.0
+Irrigation,Juan County,1,22.0
+Irrigation,Kern County,28,760.0
+Irrigation,"Kern County, California",2,103.0
+Irrigation,Kings County,1,7.0
+Irrigation,Klamath,2,14.0
+Irrigation,Klamath County,33,455.0
+Irrigation,"Klamath County, Oregon",15,362.0
+Irrigation,LOS ANGELES COUNTY,3,4.0
+Irrigation,"La Paz County, Arizona",3,49.0
+Irrigation,Lake County,3,120.0
+Irrigation,"Lake County, California",6,101.0
+Irrigation,"Lake County, Oregon",4,59.0
+Irrigation,Los Angeles,8,207.0
+Irrigation,Los Angeles County,48,1188.0
+Irrigation,"Los Angeles County, California",1,12.0
+Irrigation,Lyon County,4,69.0
+Irrigation,"Lyon County, Nevada",1,22.0
+Irrigation,Madera County,6,207.0
+Irrigation,Maricopa County,5,113.0
+Irrigation,Marin County,1,6.0
+Irrigation,Mariposa County,3,37.0
+Irrigation,Mendocino County,2,36.0
+Irrigation,"Mendota-Huron area, California",1,19.0
+Irrigation,Merced County,5,80.0
+Irrigation,Merced and Fresno Counties,1,16.0
+Irrigation,Millard County,1,22.0
+Irrigation,Mohave County,1,15.0
+Irrigation,"Mohave County, Ariz. and Clark County, Nev.",2,45.0
+Irrigation,"Mohave County, Ariz., and Clark County, Nev.",1,31.0
+Irrigation,"Mohave County, Arizona (nearby)",1,13.0
+Irrigation,"Mohave County, Clark County",2,23.0
+Irrigation,"Mojave Desert, Southern California",1,13.0
+Irrigation,"Mokelumne Area, California",2,147.0
+Irrigation,Mokelumne County,1,73.0
+Irrigation,Monterey County,1,38.0
+Irrigation,N -3,1,28.0
+Irrigation,"N/A (Based on context, likely a military or naval location, possibly near San Diego County, California)",1,16.0
+Irrigation,Napa,4,26.0
+Irrigation,Napa County,9,65.0
+Irrigation,Nevada County,9,228.0
+Irrigation,Not Available,3,54.0
+Irrigation,Not Provided,6,102.0
+Irrigation,Not Specified,1,16.0
+Irrigation,"Not specified for California, but location is in Oregon.",1,36.0
+Irrigation,Not specified in the document,2,45.0
+Irrigation,Orange County,21,505.0
+Irrigation,"Orange County, California",2,42.0
+Irrigation,"Orange County, Riverside County",1,67.0
+Irrigation,Oregon,1,81.0
+Irrigation,Perishing County,1,22.0
+Irrigation,Pershing County,1,22.0
+Irrigation,Pico,1,13.0
+Irrigation,Pima County,1,41.0
+Irrigation,"Pima County, Arizona",2,54.0
+Irrigation,Pinal County,2,38.0
+Irrigation,"Pinal County, Arizona",3,53.0
+Irrigation,"Pitkin County, Utah",1,22.0
+Irrigation,"Piute County, Utah",1,22.0
+Irrigation,Placer,1,72.0
+Irrigation,Placer County,19,503.0
+Irrigation,Plumas,3,82.0
+Irrigation,Plumas County,32,833.0
+Irrigation,Riverside,2,16.0
+Irrigation,Riverside County,24,642.0
+Irrigation,"Riverside County, California",1,15.0
+Irrigation,"Roosevelt County, New Mexico",1,7.0
+Irrigation,Sacramento,2,150.0
+Irrigation,Sacramento County,12,503.0
+Irrigation,Sacramento County (inference based on coordinates),1,13.0
+Irrigation,San Benito County,1,89.0
+Irrigation,San Bernardino,8,279.0
+Irrigation,San Bernardino County,39,967.0
+Irrigation,"San Bernardino County, California (inferred based on proximity to Colorado River basin)",1,7.0
+Irrigation,"San Bernardino County, Co.",1,15.0
+Irrigation,San Diego County,12,194.0
+Irrigation,San Joaquin,3,85.0
+Irrigation,San Joaquin County,22,556.0
+Irrigation,San Jose,1,15.0
+Irrigation,"San Juan County, New Mexico",1,22.0
+Irrigation,San Luis Obispo,1,2.0
+Irrigation,San Luis Obispo County,2,7.0
+Irrigation,San Mateo,1,19.0
+Irrigation,San Mateo County,1,16.0
+Irrigation,Santa Barbara,15,97.0
+Irrigation,Santa Barbara County,38,223.0
+Irrigation,Santa Barbara County (Cuyama Valley),1,5.0
+Irrigation,Santa Barbara County (Lompoc subarea),2,14.0
+Irrigation,"Santa Barbara County, California",1,12.0
+Irrigation,Santa Clara,2,84.0
+Irrigation,Santa Clara County,20,700.0
+Irrigation,"Santa Cruz, Arizona",1,34.0
+Irrigation,Shasta County,4,102.0
+Irrigation,Sierra County,2,113.0
+Irrigation,Siskiyou,2,35.0
+Irrigation,Siskiyou County,2,38.0
+Irrigation,"Siskiyou County, Oregon",2,45.0
+Irrigation,Solano,3,62.0
+Irrigation,Solano County,14,285.0
+Irrigation,Sonoma County,4,21.0
+Irrigation,"Southern California Counties (Los Angeles, Orange, Ventura, Santa Barbara, San Diego, San Bernardino, Riverside, Imperial)",2,11.0
+Irrigation,Stanislaus,2,81.0
+Irrigation,Stanislaus County,98,2364.0
+Irrigation,Sutter County,1,36.0
+Irrigation,"T. 2 N., R. 1 E.",1,16.0
+Irrigation,Tehama County,6,100.0
+Irrigation,Tehama and Colusa,1,14.0
+Irrigation,Tulare,1,38.0
+Irrigation,Tulare County,21,410.0
+Irrigation,"Tulare County, California",1,18.0
+Irrigation,Tuolumne,12,252.0
+Irrigation,Tuolumne County,16,369.0
+Irrigation,Unknown,20,360.0
+Irrigation,Unknown (Oreg.),2,76.0
+Irrigation,Unknown County in California,2,95.0
+Irrigation,Unknown in Document,2,45.0
+Irrigation,"Valdez-Cordova Census Area, Alaska",1,25.0
+Irrigation,Various Counties in California,1,8.0
+Irrigation,Various Counties in Southern California,1,6.0
+Irrigation,Various counties in California,1,13.0
+Irrigation,Ventura,8,181.0
+Irrigation,Ventura County,16,380.0
+Irrigation,"Washington County, Utah",4,7.0
+Irrigation,Yolo,9,81.0
+Irrigation,Yolo County,13,132.0
+Irrigation,Yuma County,8,129.0
+Irrigation,"Yuma County, AZ",2,49.0
+Irrigation,"Yuma County, Arizona",5,95.0
+Irrigation,"Yuma County, Arizona (Not in California)",2,28.0
+Irrigation,"['Marin County', 'San Mateo County', 'Solano County', 'Yolo County', 'Sacramento County', 'San Joaquin County']",1,4.0
+Irrigation,"['Mohave County', 'Clark County']",1,24.0
+Irrigation,"['Mohave County, Ariz.', 'Clark County, Nev.']",1,15.0
+Irrigation,"['Tehama', 'Butte', 'Glenn', 'Yuba', 'Colusa', 'Sutter', 'Yolo', 'Sacramento', 'Solano']",1,7.0
+Irrigation,unknown,2,22.0
+Not Water Related,ALAMEDA,1,16.0
+Not Water Related,Alameda,1,10.0
+Not Water Related,Alameda County,3,63.0
+Not Water Related,"Albany County, Wyoming",1,23.0
+Not Water Related,Amador County,2,5.0
+Not Water Related,Apache County,1,58.0
+Not Water Related,"Apache County, Arizona",3,184.0
+Not Water Related,Baja California,1,32.0
+Not Water Related,"Bear Lake County, Idaho",2,91.0
+Not Water Related,"Bear Lake County, Idaho (near California border)",1,46.0
+Not Water Related,"Bear Lake, Idaho",1,54.0
+Not Water Related,"Benton County, Wash.",2,28.0
+Not Water Related,Bernalillo,1,4.0
+Not Water Related,Box Elder,1,41.0
+Not Water Related,Box Elder County,1,62.0
+Not Water Related,"Box Elder County, Utah",3,116.0
+Not Water Related,"Box Elder, Utah",1,69.0
+Not Water Related,Butte,2,33.0
+Not Water Related,Butte County,8,201.0
+Not Water Related,COLUSA,1,24.0
+Not Water Related,Cache County,2,7.0
+Not Water Related,"Cache County, Utah",1,40.0
+Not Water Related,Calaveras County,10,336.0
+Not Water Related,California,10,351.0
+Not Water Related,California (Based on context),1,85.0
+Not Water Related,California (General Inference),1,22.0
+Not Water Related,California (State Level Inference),2,28.0
+Not Water Related,California (based on the context of the State mentioned),1,22.0
+Not Water Related,California (general inference),2,18.0
+Not Water Related,California (inferred based on data source),1,34.0
+Not Water Related,California (inferred based on the data source),1,33.0
+Not Water Related,California County,2,53.0
+Not Water Related,California County (inference based on State),1,12.0
+Not Water Related,"California, unspecified county in Great Basin and Pacific Coast river basins",1,1.0
+Not Water Related,"Carbon County, Wyoming or Stillwater County, Montana",1,69.0
+Not Water Related,"Catron County, New Mexico",1,85.0
+Not Water Related,Central California,3,222.0
+Not Water Related,Churchill County,2,15.0
+Not Water Related,"Cibola County, New Mexico",1,49.0
+Not Water Related,"Cibola County, New Mexico (Note: Not in California)",2,60.0
+Not Water Related,Clark County,1,53.0
+Not Water Related,"Clark County, Idaho",1,65.0
+Not Water Related,"Clark County, Nevada",3,102.0
+Not Water Related,Closed-Basin County (California),1,21.0
+Not Water Related,"Cochise County, Arizona",1,59.0
+Not Water Related,Coconino County,1,72.0
+Not Water Related,"Coconino County, Arizona",2,111.0
+Not Water Related,Colorado,1,54.0
+Not Water Related,"Colyear Springs, Paskenta",1,4.0
+Not Water Related,Contra Costa County,3,80.0
+Not Water Related,Curry County,2,22.0
+Not Water Related,Davis County,1,8.0
+Not Water Related,"Davis County, UT",1,47.0
+Not Water Related,Del Norte,1,33.0
+Not Water Related,Del Norte County,2,7.0
+Not Water Related,"Del Norte County, California",1,40.0
+Not Water Related,Dorado County,2,21.0
+Not Water Related,Douglas County,1,16.0
+Not Water Related,"Douglas County, NV",2,102.0
+Not Water Related,"Douglas County, Nevada",1,3.0
+Not Water Related,"Douglas County, Nevada and Washoe County, Nevada",1,3.0
+Not Water Related,"Duchesne County, Utah",2,68.0
+Not Water Related,"Eagle County, CO",1,61.0
+Not Water Related,El Dorado,2,101.0
+Not Water Related,El Dorado County,4,160.0
+Not Water Related,"El Dorado County, CA",1,68.0
+Not Water Related,Elko County,1,10.0
+Not Water Related,"Emery County, Utah",2,87.0
+Not Water Related,"Esmeralda County, Nevada and Alpine County, California",1,7.0
+Not Water Related,"Esmeralda, Nevada and Alpine, California",1,4.0
+Not Water Related,Evanston,1,81.0
+Not Water Related,FRESNO,1,13.0
+Not Water Related,Fresno,1,68.0
+Not Water Related,Fresno County,11,254.0
+Not Water Related,Fresno County (based on typical thermographic studies in California),1,21.0
+Not Water Related,"Fresno, Tulare",1,9.0
+Not Water Related,Gila County,1,68.0
+Not Water Related,"Gila County, Arizona",1,57.0
+Not Water Related,"Gila County, New Mexico",1,41.0
+Not Water Related,Humboldt County,5,134.0
+Not Water Related,"Humboldt County, California",1,17.0
+Not Water Related,Idaho,1,15.0
+Not Water Related,Imperial County,16,513.0
+Not Water Related,"Imperial County, California",2,54.0
+Not Water Related,Inferred,1,42.0
+Not Water Related,Inferred County in California,1,39.0
+Not Water Related,Inferred based on TRS data and California region,1,25.0
+Not Water Related,Inferred based on location data within California,1,26.0
+Not Water Related,"Inferred based on location within California, potentially related to a river basin or watershed in the region.",1,12.0
+Not Water Related,Inferred based on statewide average climate data for California,1,33.0
+Not Water Related,Inferred based on township data,1,25.0
+Not Water Related,Inferred from context within California,1,21.0
+Not Water Related,Inyo,2,31.0
+Not Water Related,Inyo County,5,205.0
+Not Water Related,"Inyo County, California",1,52.0
+Not Water Related,"Iron County, Utah",1,68.0
+Not Water Related,JOAQUIN,1,23.0
+Not Water Related,"Jackson County, Oregon",2,117.0
+Not Water Related,Kern,1,8.0
+Not Water Related,Kern County,10,236.0
+Not Water Related,"Kern County, Calif",1,69.0
+Not Water Related,Klamath County,2,64.0
+Not Water Related,"Klamath County, California",1,23.0
+Not Water Related,"Klamath County, Oregon",2,69.0
+Not Water Related,Lake County,1,87.0
+Not Water Related,"Lake County, California",1,15.0
+Not Water Related,"Lander County, California",1,81.0
+Not Water Related,"Lander County, Nevada and Alpine County, California",1,5.0
+Not Water Related,Lassen,1,66.0
+Not Water Related,Lassen County,1,11.0
+Not Water Related,"Lincoln County, Nevada / Inyo County, California",1,1.0
+Not Water Related,Los Angeles,4,79.0
+Not Water Related,Los Angeles County,13,269.0
+Not Water Related,"Los Angeles County, California",1,17.0
+Not Water Related,Madera,1,21.0
+Not Water Related,Madera County,2,21.0
+Not Water Related,"Maricopa County, Arizona",2,101.0
+Not Water Related,Marin County,1,53.0
+Not Water Related,Mariposa,1,60.0
+Not Water Related,Mariposa County,2,85.0
+Not Water Related,"Mariposa County, CA",1,18.0
+Not Water Related,Mendocino,1,20.0
+Not Water Related,Merced County,1,11.0
+Not Water Related,Millard County,1,11.0
+Not Water Related,Mono,2,38.0
+Not Water Related,Mono County,1,36.0
+Not Water Related,"Monterey County, California",1,12.0
+Not Water Related,Monterey and San Luis Obispo Counties,1,8.0
+Not Water Related,Multiple Counties,1,52.0
+Not Water Related,Multiple Counties in Northern California,1,19.0
+Not Water Related,Multiple counties across the Pacific Slope in California,1,32.0
+Not Water Related,NAPA,1,26.0
+Not Water Related,Napa,1,30.0
+Not Water Related,Navajo County,1,71.0
+Not Water Related,Nevada,1,9.0
+Not Water Related,Nevada (near California border),1,30.0
+Not Water Related,Nevada County,1,39.0
+Not Water Related,"Nevada County, California",1,22.0
+Not Water Related,Nevada/California Border Area,2,8.0
+Not Water Related,"Northern Central Valley Basins, The Great Basin, from Honey Lake Basin to Oregon State Line, California",1,3.0
+Not Water Related,Not Applicable,1,62.0
+Not Water Related,Not Available,1,51.0
+Not Water Related,Not Determinable from Data,1,29.0
+Not Water Related,Not Specified,1,16.0
+Not Water Related,Not specified,2,70.0
+Not Water Related,"Nye County, Nevada",1,0.0
+Not Water Related,"Nye, Nevada and Alpine, California",1,11.0
+Not Water Related,Orange,1,65.0
+Not Water Related,"Orange County, California",1,29.0
+Not Water Related,"Pima County, Arizona",1,40.0
+Not Water Related,"Piute County, Utah",1,87.0
+Not Water Related,Placer County,2,80.0
+Not Water Related,Placer or El Dorado,1,23.0
+Not Water Related,Plumas County,2,115.0
+Not Water Related,"Plumas County, California",1,26.0
+Not Water Related,"Rich County, Utah",1,35.0
+Not Water Related,Riverside County,2,64.0
+Not Water Related,Riverside and Orange Counties,1,18.0
+Not Water Related,"Routt County, Colorado",1,30.0
+Not Water Related,Sacramento County,3,68.0
+Not Water Related,San Bernardino,2,17.0
+Not Water Related,San Bernardino County,4,58.0
+Not Water Related,San Diego,1,7.0
+Not Water Related,San Diego County,7,184.0
+Not Water Related,San Francisco County,1,19.0
+Not Water Related,San Mateo County,1,10.0
+Not Water Related,Santa Barbara County,5,168.0
+Not Water Related,Santa Clara County,3,42.0
+Not Water Related,Shasta County,2,103.0
+Not Water Related,Siskiyou County,4,102.0
+Not Water Related,"Snohomish County, Washington",1,4.0
+Not Water Related,Solano,1,13.0
+Not Water Related,Solano County,6,107.0
+Not Water Related,"Sweetwater County, Wyoming",1,48.0
+Not Water Related,Tehama,2,40.0
+Not Water Related,Tehama County,2,57.0
+Not Water Related,Tooele County,1,41.0
+Not Water Related,Trinity County,1,50.0
+Not Water Related,Tulare County,4,66.0
+Not Water Related,"Tuolumne County, California",1,14.0
+Not Water Related,Unknown,20,550.0
+Not Water Related,Unknown California County,1,22.0
+Not Water Related,Unknown County in California,2,54.0
+Not Water Related,"Unknown County, California",1,6.0
+Not Water Related,Utah County,1,18.0
+Not Water Related,Various Counties in California,2,6.0
+Not Water Related,Ventura County,1,7.0
+Not Water Related,"Washington County, Utah",1,46.0
+Not Water Related,YOLO,1,18.0
+Not Water Related,Yolo County,1,50.0
+Not Water Related,"['FRESNO', 'IMPERIAL', 'KERN', 'KINGS', 'LOS ANGELES']",1,23.0
+Not Water Related,unknown,2,15.0
+Other,Alameda,3,38.0
+Other,Alameda County,3,40.0
+Other,Arizona,2,32.0
+Other,"Boulder County, Colorado",1,7.0
+Other,Butte County,6,160.0
+Other,Butte County and Plumas County,1,49.0
+Other,Calaveras County,5,79.0
+Other,California,2,94.0
+Other,California County,1,30.0
+Other,California County based on 15N/10W -4L coordinate range,1,5.0
+Other,California General,2,25.0
+Other,Colusa,1,18.0
+Other,Contra Costa County,1,18.0
+Other,Dorado County,3,103.0
+Other,El Dorado County,10,180.0
+Other,Fresno County,3,86.0
+Other,Imperial County,6,236.0
+Other,Inyo County,13,110.0
+Other,"Jackson County, Oregon",2,45.0
+Other,Kern County,1,36.0
+Other,Kings County,3,86.0
+Other,Klamath,2,45.0
+Other,Klamath County,13,333.0
+Other,"Klamath County, Oregon",6,138.0
+Other,"Lackawanna County, Pennsylvania",3,52.0
+Other,Lake,2,61.0
+Other,Lake County,13,388.0
+Other,"Lake County, California",2,66.0
+Other,"Lake County, Oregon (inferred as California context)",1,17.0
+Other,Located in the State of California based on the document context.,1,16.0
+Other,Los Angeles,1,12.0
+Other,Los Angeles County,6,192.0
+Other,"Los Angeles County, California",1,1.0
+Other,Madera County,3,78.0
+Other,Marin County,8,109.0
+Other,"Marin County, California",2,18.0
+Other,Mendocino,2,43.0
+Other,Mendocino County,1,71.0
+Other,Merced County,1,18.0
+Other,"Mono County, California",1,33.0
+Other,Multiple counties within the San Francisco Bay area,1,11.0
+Other,Nevada County,1,32.0
+Other,"Nevada County, California",1,24.0
+Other,Not Provided,1,53.0
+Other,Not Specified,1,34.0
+Other,Not specified,2,28.0
+Other,"Nye County, Nevada",1,5.0
+Other,Orange County,3,75.0
+Other,"Oregan County, California (inferred based on document content)",1,23.0
+Other,Placer,2,42.0
+Other,Placer County,11,337.0
+Other,Plumas County,6,155.0
+Other,"Possible San Diego County, based on general location near the California coastline.",1,17.0
+Other,Riverside County,4,123.0
+Other,"Sacramento County, California",1,60.0
+Other,San Bernardino County,4,127.0
+Other,San Diego County,2,86.0
+Other,"San Diego County, Los Angeles County, Ventura County, San Bernardino County, Imperial County",1,63.0
+Other,San Francisco Bay Area (assumed based on UTM coordinates),1,15.0
+Other,San Francisco Bay region counties,1,7.0
+Other,"San Francisco County, Alameda County, Marin County, Contra Costa County",1,37.0
+Other,San Joaquin,2,81.0
+Other,San Joaquin County,6,226.0
+Other,San Mateo,1,49.0
+Other,San Mateo County,6,76.0
+Other,Santa Barbara County,1,23.0
+Other,Santa Clara County,1,30.0
+Other,Santa Cruz,1,15.0
+Other,Shasta County,2,81.0
+Other,"Sierra County, California",2,26.0
+Other,Siskiyou County,4,114.0
+Other,Solano County,1,19.0
+Other,Sonoma County,6,160.0
+Other,St. Louis,1,9.0
+Other,Stanislaus County,9,257.0
+Other,Tehama,1,3.0
+Other,Tulare County,4,147.0
+Other,Tuolumne County,1,36.0
+Other,Unknown,3,98.0
+Other,Unknown County in California,1,7.0
+Other,Unknown in California,1,27.0
+Other,Various counties in California,2,33.0
+Other,"Various counties within the San Francisco Bay area, including Alameda and Contra Costa counties",1,9.0
+Other,"['Alameda', 'Contra Costa']",2,19.0
+Other,"['Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Placer County, California', 'Nevada County, California', 'Amador County, California', 'Nevada County, California', 'Kern County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Placer County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Placer County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Placer County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Nevada County, California', 'Amador County, California', 'Nevada County, California']",1,3.0
+Other,['None'],1,10.0
+Precipitation,"Adams County, Jefferson County",1,6.0
+Precipitation,Alameda County,7,165.0
+Precipitation,"Alameda County, Contra Costa County, Marin County, Napa County, San Francisco County, Santa Clara County, Solano County, Sonoma County",1,56.0
+Precipitation,Alpine County,4,63.0
+Precipitation,"Alpine County, CA",1,26.0
+Precipitation,"Alpine County, California",1,28.0
+Precipitation,Amador County,2,73.0
+Precipitation,"Bakersfield, California",1,65.0
+Precipitation,Butte County,2,48.0
+Precipitation,Cache County,3,27.0
+Precipitation,Calaveras,2,26.0
+Precipitation,Calaveras County,1,31.0
+Precipitation,"Calaveras County, Amador County",1,13.0
+Precipitation,California,2,74.0
+Precipitation,California (Calif.),1,29.0
+Precipitation,California (General Inference),1,14.0
+Precipitation,California (general inference based on document origin),2,31.0
+Precipitation,California (inferred from State of California),1,28.0
+Precipitation,California Coastal Region,1,43.0
+Precipitation,California General (state-wide),1,1.0
+Precipitation,California General Area,1,31.0
+Precipitation,California Statewide,1,28.0
+Precipitation,Carson City,2,18.0
+Precipitation,Central Coast,2,17.0
+Precipitation,"Chugach Census Area, Alaska",1,9.0
+Precipitation,Clark County,2,15.0
+Precipitation,Clark County (Nevada),1,2.0
+Precipitation,Coconino County,5,42.0
+Precipitation,Colusa County,5,27.0
+Precipitation,Contra Costa County,1,4.0
+Precipitation,Del Norte,1,29.0
+Precipitation,Del Norte County,9,192.0
+Precipitation,"Denver County, Colorado",1,11.0
+Precipitation,"Denver, Colorado",1,5.0
+Precipitation,El Dorado County,1,15.0
+Precipitation,Eldorado County,2,42.0
+Precipitation,Eureka County,1,13.0
+Precipitation,Finland,1,4.0
+Precipitation,Fresno,1,16.0
+Precipitation,Fresno County,16,445.0
+Precipitation,"Fresno, Tulare",1,21.0
+Precipitation,Glenn County,2,27.0
+Precipitation,"Great Basin Region, California",2,10.0
+Precipitation,"Honolulu County, Oahu Island",1,5.0
+Precipitation,Humboldt County,9,203.0
+Precipitation,Imperial County,8,168.0
+Precipitation,"Imperial County, California",2,32.0
+Precipitation,"Imperial County, Riverside County (near Salton Sea)",1,9.0
+Precipitation,"Inferred based on context, likely in California given the task instructions.",1,17.0
+Precipitation,Inferred from proximity to known sites in California,1,4.0
+Precipitation,Inyo County,18,371.0
+Precipitation,Kern County,7,103.0
+Precipitation,Kings County,1,13.0
+Precipitation,Klamath County,1,30.0
+Precipitation,Lake County,9,133.0
+Precipitation,Likely Multiple Counties in California (due to no specific location data),1,70.0
+Precipitation,"Location in southwestern Michigan region, as per similar geohydrologic conditions described",1,15.0
+Precipitation,Los Angeles,2,45.0
+Precipitation,Los Angeles County,26,716.0
+Precipitation,"Los Angeles County, California",1,15.0
+Precipitation,Madera County,3,54.0
+Precipitation,"Mendocino County, California",1,9.0
+Precipitation,Merced County,3,66.0
+Precipitation,Modoc County,4,30.0
+Precipitation,Mono County,1,11.0
+Precipitation,"Mono County, California",2,21.0
+Precipitation,"Montrose County, Colorado",1,4.0
+Precipitation,Multiple Counties in California,1,67.0
+Precipitation,Napa County,5,109.0
+Precipitation,Nevada,3,25.0
+Precipitation,Nevada County (Sierra Nevada Range),1,8.0
+Precipitation,"Nevada County, California",1,16.0
+Precipitation,"Nevada and California (mostly in Placer County, California)",1,36.0
+Precipitation,Northern European network region,1,19.0
+Precipitation,Not Available,1,28.0
+Precipitation,Not Specified,2,71.0
+Precipitation,Not specified,1,63.0
+Precipitation,Orange County,1,26.0
+Precipitation,"Palm Springs, Riverside County",1,7.0
+Precipitation,Placer County,4,41.0
+Precipitation,"Placer County, California",1,64.0
+Precipitation,Riverside,6,196.0
+Precipitation,Riverside County,15,367.0
+Precipitation,Sacramento County,5,74.0
+Precipitation,Salinas County,1,19.0
+Precipitation,"Salinas Valley and adjacent coast region, California",1,18.0
+Precipitation,San Benito County,2,71.0
+Precipitation,San Bernardino County,15,300.0
+Precipitation,"San Bernardino County, California",1,16.0
+Precipitation,San Diego,5,117.0
+Precipitation,San Diego County,50,709.0
+Precipitation,San Joaquin County,3,92.0
+Precipitation,San Luis Obispo County,1,16.0
+Precipitation,San Mateo,1,34.0
+Precipitation,San Mateo County,2,33.0
+Precipitation,Santa Barbara,6,122.0
+Precipitation,Santa Barbara County,28,384.0
+Precipitation,"Santa Barbara County, Calif.",1,13.0
+Precipitation,"Santa Barbara County, California",1,12.0
+Precipitation,Santa Clara,1,44.0
+Precipitation,Santa Clara County,5,142.0
+Precipitation,Shasta County,1,54.0
+Precipitation,"Sierra Nevada Region, California",1,19.0
+Precipitation,Sierra Nevada region,1,27.0
+Precipitation,Siskiyou,2,14.0
+Precipitation,Siskiyou County,7,115.0
+Precipitation,Solano County,7,150.0
+Precipitation,"Solano County, Yolo County (Davis Station)",1,59.0
+Precipitation,Sonoma,1,18.0
+Precipitation,Sonoma County,7,152.0
+Precipitation,"South Coastal Basin, California",1,4.0
+Precipitation,Southern California,1,3.0
+Precipitation,Stanza County,1,53.0
+Precipitation,"Tehama, Glenn",1,19.0
+Precipitation,"Trinity County, California",1,24.0
+Precipitation,Tuolumne County,5,67.0
+Precipitation,Unknown,7,206.0
+Precipitation,Valdez-Cordova Census Area,1,6.0
+Precipitation,"Valdez-Cordova Census Area, Alaska",1,23.0
+Precipitation,"Various counties in California including parts of Placer, El Dorado, Nevada, Yolo, Sacramento, Sutter, Yuba, and others within the basin.",1,8.0
+Precipitation,Various counties within the San Francisco Bay Area,1,17.0
+Precipitation,Ventura County,2,78.0
+Precipitation,Yolo County,4,90.0
+Precipitation,Yuba County,1,14.0
+Precipitation,"['Alameda', 'Contra Costa', 'Marin', 'Napa']",1,54.0
+Precipitation,['Santa Barbara County'],1,15.0
+Reservoir,"Ada County, Idaho",1,8.0
+Reservoir,Alameda,13,338.0
+Reservoir,Alameda County,32,935.0
+Reservoir,"Alameda County, California",2,95.0
+Reservoir,"Alameda County, Stanislaus County, Tuolumne County",1,49.0
+Reservoir,"Alameda, Contra Costa",1,17.0
+Reservoir,"Alameda, Santa Clara",1,19.0
+Reservoir,Alpine,4,84.0
+Reservoir,Alpine County,33,764.0
+Reservoir,"Alpine County, California",3,35.0
+Reservoir,Amador County,22,678.0
+Reservoir,Apache County,5,73.0
+Reservoir,"Apache County, Arizona",3,185.0
+Reservoir,Baja California,3,23.0
+Reservoir,"Blaine County, Idaho",2,22.0
+Reservoir,Box Elder County,1,56.0
+Reservoir,"Box Elder County, Gunnison County",1,18.0
+Reservoir,"Box Elder County, Utah",1,19.0
+Reservoir,"Box Elder, Weber, Tooele (Utah)",3,53.0
+Reservoir,"Burmester, Antelope County",2,25.0
+Reservoir,Butte County,79,2132.0
+Reservoir,"Butte County, Calif.",1,19.0
+Reservoir,"Butte, California",2,27.0
+Reservoir,CALAVERAS,3,109.0
+Reservoir,CALAVERAS COUNTY,1,43.0
+Reservoir,CALIFORNIA,2,76.0
+Reservoir,Calaveras,23,521.0
+Reservoir,Calaveras County,214,5045.0
+Reservoir,California (exact county inferred from location),1,6.0
+Reservoir,California (specific county not provided),2,20.0
+Reservoir,"California, various counties",2,117.0
+Reservoir,California/Oregon Border Region,1,8.0
+Reservoir,"Cibola County, New Mexico",1,35.0
+Reservoir,Clark County,5,148.0
+Reservoir,"Clark County, NV",2,61.0
+Reservoir,"Clark County, NV; Mohave County, AZ",1,49.0
+Reservoir,"Clark County, Nevada",8,262.0
+Reservoir,"Clark County, Nevada (Nearby to California)",1,49.0
+Reservoir,"Clark County, Nevada and Mohave County, Arizona",3,148.0
+Reservoir,"Clark County, Nevada; Mohave County, Arizona",1,22.0
+Reservoir,"Clark, NV (nearby) / Mohave, AZ (nearby)",1,58.0
+Reservoir,"Clark, Nevada and Mohave, Arizona",1,20.0
+Reservoir,"Clark, Nevada; Mohave, Arizona",1,22.0
+Reservoir,Coconino County,1,36.0
+Reservoir,"Coconino County, Arizona",8,113.0
+Reservoir,Colusa County,13,247.0
+Reservoir,Contra Costa County,3,24.0
+Reservoir,"Contra Costa, Alameda, Santa Clara, and San Francisco Counties",1,17.0
+Reservoir,"Custer County, Idaho",1,14.0
+Reservoir,DORADO COUNTY,4,80.0
+Reservoir,Del Norte County,3,122.0
+Reservoir,"Del Norte County, California",4,118.0
+Reservoir,Dorado County,41,850.0
+Reservoir,Douglas County,16,351.0
+Reservoir,"Douglas County, Nevada",6,120.0
+Reservoir,"Duchesne County, Utah",3,27.0
+Reservoir,"Duchesne County, Utah and Sweetwater County, Wyoming",1,8.0
+Reservoir,El Dorado,1,58.0
+Reservoir,El Dorado County,86,2094.0
+Reservoir,"El Dorado County, Placer County",3,52.0
+Reservoir,"El Dorado County, Placer County, Washoe County",1,1.0
+Reservoir,"El Dorado County, Placer County, and Douglas County (primarily El Dorado)",1,59.0
+Reservoir,Eldorado,2,41.0
+Reservoir,Eldorado County,10,221.0
+Reservoir,"Elko County, NV (Nearby to Truckee-Carson region in Nevada)",1,4.0
+Reservoir,"Elko County, Nevada",2,15.0
+Reservoir,"Elko County, Nevada (dam located near Elko County boundary with California)",2,35.0
+Reservoir,Fresno,20,589.0
+Reservoir,Fresno County,168,4321.0
+Reservoir,"Gila County, Arizona",7,129.0
+Reservoir,Glenn County,2,46.0
+Reservoir,"Glenn County, California",1,8.0
+Reservoir,"Grand County, Colorado",1,7.0
+Reservoir,Hamilton,1,9.0
+Reservoir,Humboldt,3,86.0
+Reservoir,Humboldt County,16,433.0
+Reservoir,Idaho,2,93.0
+Reservoir,"Idaho County, Central Idaho (Note: Document mentions Idaho but inferred to be relevant to the State of California context)",2,30.0
+Reservoir,"Idaho County, Idaho",1,8.0
+Reservoir,Imperial,1,4.0
+Reservoir,Imperial County,42,613.0
+Reservoir,"Imperial County, CA",1,9.0
+Reservoir,"Imperial County, California",2,34.0
+Reservoir,Imperial Valley Area,1,20.0
+Reservoir,"Inferred as Mohave County, AZ and Inyo County, CA",1,34.0
+Reservoir,Inferred from Data,1,49.0
+Reservoir,Inyo,3,42.0
+Reservoir,Inyo County,17,443.0
+Reservoir,"Inyo County, California",1,12.0
+Reservoir,"Inyo, California and Mohave County, Arizona",1,24.0
+Reservoir,Jackson,2,110.0
+Reservoir,Jackson County,7,45.0
+Reservoir,"Jackson County, Oregon",32,417.0
+Reservoir,Kern County,44,1125.0
+Reservoir,Kings,2,62.0
+Reservoir,Kings County,20,566.0
+Reservoir,Klamath,11,267.0
+Reservoir,Klamath County,40,974.0
+Reservoir,"Klamath County, Oregon",35,709.0
+Reservoir,"La Paz County, Arizona",1,31.0
+Reservoir,"La Paz County, Arizona and Clark County, Nevada",1,17.0
+Reservoir,"La Paz County, California (partially)",1,31.0
+Reservoir,Lake,1,14.0
+Reservoir,Lake County,57,1395.0
+Reservoir,"Lake County, California",5,40.0
+Reservoir,"Lake County, California (based on proximity and common confusion)",1,4.0
+Reservoir,"Lake County, California (inferred from nearest county in California context)",1,5.0
+Reservoir,"Lake County, Oregon",9,112.0
+Reservoir,"Lakeview, Creg.",2,14.0
+Reservoir,"Lakeview, Oreg.",1,7.0
+Reservoir,Lander County,1,5.0
+Reservoir,Lassen County,3,74.0
+Reservoir,"Likely California, specific county inferred based on location data",1,19.0
+Reservoir,"Lincoln County, NV / Clark County, NV",1,4.0
+Reservoir,Los Angeles,1,15.0
+Reservoir,Los Angeles County,21,654.0
+Reservoir,"Los Angeles County, California",2,42.0
+Reservoir,Lyon County,1,33.0
+Reservoir,"Lyon County, Nevada",3,25.0
+Reservoir,Madera,7,174.0
+Reservoir,Madera County,149,3457.0
+Reservoir,Maricopa County,10,303.0
+Reservoir,"Maricopa County, Arizona",14,340.0
+Reservoir,"Maricopa County, Arizona (inferred)",1,33.0
+Reservoir,"Maricopa County, Arizona and Clark County, Nevada",1,41.0
+Reservoir,"Maricopa, Arizona",2,71.0
+Reservoir,Marin County,1,16.0
+Reservoir,Mariposa,17,368.0
+Reservoir,Mariposa County,54,1320.0
+Reservoir,Mendocino,19,489.0
+Reservoir,Mendocino County,73,2219.0
+Reservoir,"Mendocino County, California",2,45.0
+Reservoir,Merced,2,46.0
+Reservoir,Merced County,60,1453.0
+Reservoir,"Millard County, Utah",3,47.0
+Reservoir,Modoc,2,72.0
+Reservoir,Modoc County,24,385.0
+Reservoir,Mohave County,2,71.0
+Reservoir,"Mohave County, AZ / Clark County, NV",1,46.0
+Reservoir,"Mohave County, Arizona",2,81.0
+Reservoir,"Mohave County, Arizona (Note: Inference needed as document does not specify California county)",1,35.0
+Reservoir,"Mohave County, Arizona (near California border)",1,36.0
+Reservoir,Mono County,63,1124.0
+Reservoir,Montecito County,4,50.0
+Reservoir,Monterey,18,438.0
+Reservoir,Monterey County,28,575.0
+Reservoir,Napa,1,18.0
+Reservoir,Napa County,22,577.0
+Reservoir,Navajo County,2,39.0
+Reservoir,Nevada County,92,2032.0
+Reservoir,"Nevada County (part), Mohave County (part)",1,60.0
+Reservoir,"Nevada County, California",8,74.0
+Reservoir,Not Applicable (Oregon),1,32.0
+Reservoir,Not Provided,2,75.0
+Reservoir,"Nye County, Nevada",1,56.0
+Reservoir,"Nye County, Nevada; Alpine County, California",1,2.0
+Reservoir,Orange County,26,596.0
+Reservoir,"Ouray County, Utah",2,16.0
+Reservoir,"Parker Dam area, Mohave County, Arizona/California border",2,66.0
+Reservoir,Pershing County,2,43.0
+Reservoir,Pima County,2,72.0
+Reservoir,"Pima County, Arizona",3,86.0
+Reservoir,Pinal County,2,71.0
+Reservoir,"Pinal County, Arizona",1,55.0
+Reservoir,"Pinal County, Arizona / Yavapai County, Arizona",1,35.0
+Reservoir,Placer,14,411.0
+Reservoir,Placer County,120,2991.0
+Reservoir,"Placer County, California",3,24.0
+Reservoir,Placer and El Dorado (California) - Lake Tahoe spans these counties,1,12.0
+Reservoir,Placer and El Dorado Counties,1,1.0
+Reservoir,Plumas,13,254.0
+Reservoir,Plumas County,263,6275.0
+Reservoir,"Plumas County, California",1,6.0
+Reservoir,"Presumably in a county with similar topography to those in Northern California, such as Trinity or Shasta County.",2,18.0
+Reservoir,Riverside,3,49.0
+Reservoir,Riverside County,71,1274.0
+Reservoir,Sacramento,3,90.0
+Reservoir,Sacramento County,22,493.0
+Reservoir,"Sacramento County, California",1,4.0
+Reservoir,"Salinas County, California",1,14.0
+Reservoir,"Salinas Valley, California",1,4.0
+Reservoir,Salt Lake County,2,60.0
+Reservoir,San Benito County,1,7.0
+Reservoir,San Bernardino,2,43.0
+Reservoir,San Bernardino County,66,1231.0
+Reservoir,"San Bernardino County, California",4,104.0
+Reservoir,San Diego,7,109.0
+Reservoir,San Diego County,124,2422.0
+Reservoir,"San Diego County, California",4,21.0
+Reservoir,San Francisco County,1,8.0
+Reservoir,"San Francisco County, Alameda County, Contra Costa County, Marin County, Napa County, Santa Clara County, Solano County, Sonoma County",1,5.0
+Reservoir,San Joaquin,2,43.0
+Reservoir,San Joaquin County,22,551.0
+Reservoir,"San Juan County, Utah",2,42.0
+Reservoir,San Luis Obispo,17,306.0
+Reservoir,San Luis Obispo County,24,642.0
+Reservoir,Santa Barbara,5,50.0
+Reservoir,Santa Barbara County,83,1417.0
+Reservoir,Santa Clara,1,5.0
+Reservoir,Santa Clara County,116,1548.0
+Reservoir,Santa Cruz County,1,0.0
+Reservoir,Sevier County,1,9.0
+Reservoir,Shasta,2,44.0
+Reservoir,Shasta County,92,2151.0
+Reservoir,"Shasta County, California",1,9.0
+Reservoir,Sierra County,34,746.0
+Reservoir,"Sierra County, New Mexico",1,2.0
+Reservoir,Siskiyou,4,87.0
+Reservoir,Siskiyou County,21,472.0
+Reservoir,"Siskiyou County, Oregon",1,8.0
+Reservoir,Solano County,5,147.0
+Reservoir,"Solano County, California",1,55.0
+Reservoir,Sonoma County,7,158.0
+Reservoir,"South Coastal Basin County (likely Los Angeles County, California)",1,3.0
+Reservoir,"South Coastal Basin, California",2,11.0
+Reservoir,"Southern California Counties (e.g., Los Angeles, Riverside, San Bernardino)",1,10.0
+Reservoir,"Southern Central Valley Basins and The Great Basin, California",1,8.0
+Reservoir,Stanislaus County,10,203.0
+Reservoir,Storey,1,34.0
+Reservoir,"Susquehanna County, PA",1,8.0
+Reservoir,"Tecate Municipality, Baja California, Mexico",1,15.0
+Reservoir,Tehama,6,193.0
+Reservoir,Tehama County,30,846.0
+Reservoir,Tijuana Municipality,2,30.0
+Reservoir,"Tijuana Municipality, Baja California",5,83.0
+Reservoir,"Tijuana Municipality, Baja California, Mexico",2,24.0
+Reservoir,"Tijuana, Baja California, Mexico",3,45.0
+Reservoir,Tooele County (Utah),1,18.0
+Reservoir,"Tooele County, Utah",1,19.0
+Reservoir,Trinity County,38,902.0
+Reservoir,Tulare,23,644.0
+Reservoir,Tulare County,183,4265.0
+Reservoir,Tuolumne,16,414.0
+Reservoir,Tuolumne County,291,7140.0
+Reservoir,Unknown,6,225.0
+Reservoir,Unknown County,1,3.0
+Reservoir,Utah,4,53.0
+Reservoir,"Utah County, UT",1,19.0
+Reservoir,Valencia County,1,31.0
+Reservoir,Ventura,7,100.0
+Reservoir,Ventura County,54,882.0
+Reservoir,Washoe County,6,159.0
+Reservoir,"Washoe County, NV",3,71.0
+Reservoir,"Weber County, California",2,32.0
+Reservoir,"Weber County, Utah",5,122.0
+Reservoir,Yavapai County,1,69.0
+Reservoir,"Yavapai County, Arizona",3,100.0
+Reservoir,"Yavapai County, Arizona (Based on location description)",2,28.0
+Reservoir,Yolo,1,35.0
+Reservoir,Yolo County,19,433.0
+Reservoir,Yosemite National Park,2,46.0
+Reservoir,Yuba County,32,732.0
+Reservoir,Yuba-Placer County line,4,88.0
+Reservoir,"['Chowchilla', 'Delano']",1,7.0
+Reservoir,['Nevada'],1,4.0
+Reservoir,"['Placer', 'Yuba']",2,43.0
+Reservoir,unknown,1,17.0
+Springs,ALAMEDA,1,23.0
+Springs,ANGELES,1,6.0
+Springs,Ada County,1,67.0
+Springs,Adams County,1,65.0
+Springs,Alameda,4,39.0
+Springs,Alameda County,1,22.0
+Springs,Alamosa County,1,7.0
+Springs,"Albion County, Idaho (inferred from proximity to other springs)",1,7.0
+Springs,Alpine County,7,119.0
+Springs,Amador County,1,10.0
+Springs,"Amador County, California",1,19.0
+Springs,"Amargosa Valley area, likely Nye County",3,37.0
+Springs,Antelope,1,7.0
+Springs,Apache,1,7.0
+Springs,"Apache County, Arizona",1,9.0
+Springs,"Ash Meadow, White River, East",1,7.0
+Springs,BANTA BARBARA,1,24.0
+Springs,BARBARA,2,8.0
+Springs,Baker County,1,7.0
+Springs,"Barbara, Santa",1,7.0
+Springs,Bath County,1,7.0
+Springs,Beaver County,1,7.0
+Springs,Beaverhead,1,7.0
+Springs,Benito,1,8.0
+Springs,Berkeley,1,7.0
+Springs,Bernardino,1,7.0
+Springs,Bexar,1,66.0
+Springs,Big Horn County,1,7.0
+Springs,Bishop,1,7.0
+Springs,Blaine,1,7.0
+Springs,Boise County,2,14.0
+Springs,"Boise County, Idaho",1,7.0
+Springs,Botetourt,1,7.0
+Springs,Boulder County,1,7.0
+Springs,Broadwater County,1,7.0
+Springs,Burns County,1,7.0
+Springs,Butte,2,23.0
+Springs,Butte County,2,35.0
+Springs,COLUSA,3,41.0
+Springs,"COSTA, CONTRA",1,8.0
+Springs,Calaveras County,1,14.0
+Springs,"Calaveras County, Calif.",1,13.0
+Springs,"Calaveras County, California",2,42.0
+Springs,California,7,125.0
+Springs,California (based on document context),1,20.0
+Springs,California County,3,17.0
+Springs,California County based on altitude ranges provided,1,0.0
+Springs,California County inferred from geographic data,1,0.0
+Springs,"California, based on context 'Calif.'",1,67.0
+Springs,Cassia County,1,7.0
+Springs,"Chelan County, Washington",1,4.0
+Springs,Clallam,1,7.0
+Springs,Clark,1,7.0
+Springs,Clark County,2,12.0
+Springs,"Clark County (Nevada, but near California border)",2,26.0
+Springs,"Clark County, Nevada (near California border)",1,17.0
+Springs,Cloverdale,1,8.0
+Springs,Cochise,1,7.0
+Springs,Colusa,1,18.0
+Springs,Colusa County,6,90.0
+Springs,Contra Costa,2,7.0
+Springs,Contra Costa County,3,63.0
+Springs,Cruz,1,4.0
+Springs,DIEGO,1,5.0
+Springs,Dakota,1,12.0
+Springs,Del Norte,1,6.0
+Springs,Delta,1,7.0
+Springs,Douglas,1,7.0
+Springs,"Douglas County, Nev.",1,15.0
+Springs,El Dorado County,2,22.0
+Springs,Eldorado County,2,20.0
+Springs,Esmeralda County,1,7.0
+Springs,FRESNO,1,1.0
+Springs,Falls County,1,7.0
+Springs,"Flathead County, Montana",1,55.0
+Springs,Fremont,1,7.0
+Springs,Fresno County,5,149.0
+Springs,Garland County,1,7.0
+Springs,Goshen,1,7.0
+Springs,HUMBOLDT,1,8.0
+Springs,Harney,1,7.0
+Springs,"Hidalgo County, NM (inferred from proximity to Silver City)",1,11.0
+Springs,"Hudspeth County, Presidio County",1,7.0
+Springs,Humboldt,1,7.0
+Springs,"Humboldt Co., Nevada (inferred as closest county within California context)",2,12.0
+Springs,Idaho County,2,14.0
+Springs,Idaho Panhandle,1,7.0
+Springs,"Idaho, not California (data is related but outside scope)",1,6.0
+Springs,Imperial,2,21.0
+Springs,Imperial County,71,1419.0
+Springs,"Imperial County, CA",1,55.0
+Springs,"Imperial County, California",13,179.0
+Springs,"Imperial County, California (based on latitude and longitude)",1,0.0
+Springs,Infer from 3S/29E range,1,23.0
+Springs,Inferred County Name based on regional analysis,1,30.0
+Springs,Inferred based on location data or known water sources in California,1,39.0
+Springs,Inferred based on location data: Riverside County,1,27.0
+Springs,Inferred based on location details,1,14.0
+Springs,Inferred from Latitude and Longitude: Kern County,1,36.0
+Springs,Inferred from State of California,2,26.0
+Springs,"Inferred from Table 3, No explicit county given",2,69.0
+Springs,"Inferred from document context, possibly based on location details",1,20.0
+Springs,Inferred from location (San Luis Obispo County),1,29.0
+Springs,Inferred from location context,1,34.0
+Springs,Inferred from location data,2,30.0
+Springs,"Inferred from location near Painted Cave, Kern County",1,36.0
+Springs,Inferred from location: San Bernardino County,1,34.0
+Springs,Inferred_Mono County,1,30.0
+Springs,Inyo,2,15.0
+Springs,Inyo County,31,776.0
+Springs,"Inyo County, California",4,32.0
+Springs,KERN,1,8.0
+Springs,Kern,2,18.0
+Springs,Kern County,130,2913.0
+Springs,"Kern County, California",40,922.0
+Springs,Kings County,1,35.0
+Springs,"Kings County, California",2,35.0
+Springs,Kittitas,1,7.0
+Springs,Klamath,1,7.0
+Springs,LASSEN,1,18.0
+Springs,LOS ANGELES,1,7.0
+Springs,Lake,2,15.0
+Springs,Lake County,27,466.0
+Springs,"Lake County, California",1,3.0
+Springs,Lassen,2,25.0
+Springs,"Lemhi County, Idaho (inferred from the nearest context of Idaho)",1,7.0
+Springs,Likely in Northern California based on typical spring locations and climate data.,1,27.0
+Springs,"Likely in a county with spring activity, potentially near known springs.",1,23.0
+Springs,Likely inferred based on the general area of California where Tom Kinevan's research was focused,1,33.0
+Springs,Livingston County,2,14.0
+Springs,Los Angeles County,12,344.0
+Springs,MERCED,1,6.0
+Springs,MONTEREY,1,7.0
+Springs,Madera,1,8.0
+Springs,Madera County,4,117.0
+Springs,Malheur County,1,7.0
+Springs,Marin,1,7.0
+Springs,Mariposa County,3,48.0
+Springs,"Mariposa County, California",1,17.0
+Springs,Mendocino,1,8.0
+Springs,Mendocino County,4,73.0
+Springs,Meriwether County,1,6.0
+Springs,"Mineral County, Rico",1,7.0
+Springs,Modoc,2,31.0
+Springs,Modoc County,1,22.0
+Springs,"Modoc County, California",1,24.0
+Springs,Mojave County (Based on Mojave River Fork proximity),1,18.0
+Springs,Mono,1,8.0
+Springs,Mono County,13,135.0
+Springs,"Mono County, California",3,14.0
+Springs,Monterey County,5,86.0
+Springs,NAPA,1,8.0
+Springs,Napa,1,8.0
+Springs,Napa County,7,164.0
+Springs,Near Niangua-Osage Fork-Grandglaize area,1,13.0
+Springs,Nevada County,1,25.0
+Springs,Not Available,2,27.0
+Springs,Not Inferred from Document,1,34.0
+Springs,Not Provided,3,71.0
+Springs,Not Specified,1,14.0
+Springs,Not specified,4,90.0
+Springs,Nye,1,7.0
+Springs,ORANGE,1,5.0
+Springs,ORANGE COUNTY,1,67.0
+Springs,Orange County,2,35.0
+Springs,Owyhee,1,7.0
+Springs,"Pinal County, Arizona (document mentions Gila Land Company which is historically associated with this area, but document context suggests California)",1,21.0
+Springs,"Pitkin County, Colorado",1,4.0
+Springs,Placer,2,15.0
+Springs,Placer County,3,70.0
+Springs,Plumas County,4,45.0
+Springs,Presumed County in California based on location data or document context if available,1,25.0
+Springs,RIVERSIDE,1,7.0
+Springs,Riverside,8,65.0
+Springs,Riverside County,18,354.0
+Springs,"Riverside County, California",2,42.0
+Springs,SANTA BARBARA COUNTY,1,47.0
+Springs,SHASTA,2,14.0
+Springs,SISKIYOU,2,15.0
+Springs,SONOMA,2,8.0
+Springs,Sacramento County,5,168.0
+Springs,"Salinas Valley (San Luis Obispo County, inferred)",1,16.0
+Springs,Salt Lake,1,7.0
+Springs,San Benito County,1,8.0
+Springs,San Bernardino,1,20.0
+Springs,San Bernardino County,5,128.0
+Springs,San Diego,6,116.0
+Springs,San Diego County,17,265.0
+Springs,"San Diego County, Calif.",1,9.0
+Springs,"San Diego County, California",1,7.0
+Springs,San Luis Obispo,8,140.0
+Springs,San Luis Obispo County,40,715.0
+Springs,"San Luis Obispo County, CA",1,23.0
+Springs,"San Luis Obispo County, California",2,57.0
+Springs,San Mateo County,1,37.0
+Springs,San Miguel County,1,7.0
+Springs,Sanpete,1,7.0
+Springs,Santa Barbara,5,130.0
+Springs,Santa Barbara County,34,544.0
+Springs,"Santa Barbara County, California",2,64.0
+Springs,Santa Clara County,4,99.0
+Springs,Santa Cruz County,2,34.0
+Springs,"Santa Cruz County, California",1,38.0
+Springs,Shasta County,4,50.0
+Springs,Sierra County,2,17.0
+Springs,Sierra Nevada,1,17.0
+Springs,Sierra Nevada County,1,15.0
+Springs,"Sierra Nevada County, California",1,18.0
+Springs,Sierra Nevada region in California,1,14.0
+Springs,"Sierra Nevada, California",1,14.0
+Springs,Siskiyou County,5,108.0
+Springs,Solano County,2,21.0
+Springs,Sonoma,2,26.0
+Springs,Sonoma County,11,237.0
+Springs,Stanislaus County,1,22.0
+Springs,TRINITY,1,6.0
+Springs,Tehama,1,8.0
+Springs,Tehama County,4,60.0
+Springs,Tulare,1,15.0
+Springs,Tulare County,14,318.0
+Springs,"Tulare County, California",3,65.0
+Springs,Tuolumne County,3,82.0
+Springs,Unknown,15,331.0
+Springs,Unspecified,1,14.0
+Springs,Various Counties in California,3,41.0
+Springs,Various Counties in California based on elevation data,1,15.0
+Springs,Ventura,2,46.0
+Springs,Ventura County,8,129.0
+Springs,"Ventura County, California",1,17.0
+Springs,Washoe,1,7.0
+Springs,"White Mountains, California",1,13.0
+Springs,YOLO,1,17.0
+Springs,Yolo County,1,34.0
+Springs,['Madera County'],1,15.0
+Stream Discharge,ALAMEDA,4,140.0
+Stream Discharge,Adams,1,8.0
+Stream Discharge,Alabama,1,49.0
+Stream Discharge,"Alabama, USA",1,8.0
+Stream Discharge,Alameda,252,7499.0
+Stream Discharge,Alameda County,990,27861.0
+Stream Discharge,Alameda County (inference based on nearby known watersources in San Francisco Bay),1,33.0
+Stream Discharge,"Alameda County, CA",1,99.0
+Stream Discharge,"Alameda County, California",9,340.0
+Stream Discharge,"Alameda County, Contra Costa County",1,18.0
+Stream Discharge,"Alameda County, Contra Costa County, Marin County, Napa County, San Mateo County, Santa Clara County, Solano County, Sonoma County",1,42.0
+Stream Discharge,"Alameda County, Contra Costa County, San Mateo County",2,47.0
+Stream Discharge,"Alameda County, San Francisco County",1,13.0
+Stream Discharge,"Alameda County, San Joaquin County",1,85.0
+Stream Discharge,"Alameda County, San Mateo County, Marin County, Contra Costa County",2,44.0
+Stream Discharge,"Alameda County, San Mateo County, Santa Clara County, Contra Costa County, Marin County, Solano County, Napa County",1,5.0
+Stream Discharge,"Alameda County, San Mateo County, Santa Clara County, Marin County, Contra Costa County",1,7.0
+Stream Discharge,Alameda and Contra Costa,1,19.0
+Stream Discharge,Alameda and Contra Costa Counties,1,3.0
+Stream Discharge,"Alameda, Amador",1,53.0
+Stream Discharge,"Alameda, Contra Costa, Marin, Napa, San Mateo, Santa Clara, Solano, Sonoma",1,34.0
+Stream Discharge,"Alameda, Contra Costa, San Joaquin, among others in the San Francisco Bay Area",1,32.0
+Stream Discharge,"Alameda, Contra Costa, San Mateo",2,11.0
+Stream Discharge,"Alameda, Contra Costa, San Mateo, Santa Clara, San Francisco",1,37.0
+Stream Discharge,"Alameda, San Mateo",1,31.0
+Stream Discharge,"Alameda, San Mateo, Santa Clara",1,37.0
+Stream Discharge,Alameda-Contra Costa County line,3,56.0
+Stream Discharge,"Alameda-Contra Costa County line, San Joaquin County",1,22.0
+Stream Discharge,Alameda-Contra Costa and San Joaquin County line,1,22.0
+Stream Discharge,"Alaska (not California, document context suggests this might be a misplacement)",1,4.0
+Stream Discharge,Alaska Range,1,5.0
+Stream Discharge,Albany County,4,123.0
+Stream Discharge,"Albany County, Colorado",2,35.0
+Stream Discharge,"Albany County, New York",1,15.0
+Stream Discharge,"Albany County, Wyoming",9,151.0
+Stream Discharge,"Alexander, Idaho",1,9.0
+Stream Discharge,"Allegan County, MI",1,9.0
+Stream Discharge,Allegany County,1,9.0
+Stream Discharge,Allen County,1,6.0
+Stream Discharge,"Alma County (approximation based on document context, though Alma is in New Mexico)",1,36.0
+Stream Discharge,Alpine,7,136.0
+Stream Discharge,Alpine County,145,3642.0
+Stream Discharge,"Alpine County, Cal.",1,2.0
+Stream Discharge,"Alpine County, California",5,194.0
+Stream Discharge,"Alpine County, Stanislaus National Forest",1,43.0
+Stream Discharge,Alpine and Amador Counties,1,20.0
+Stream Discharge,"Alpine, Mono",1,10.0
+Stream Discharge,Amador,46,1305.0
+Stream Discharge,Amador County,398,10436.0
+Stream Discharge,"Amador County (Valley Springs), Calaveras County (Wallace), Sacramento County (Clements)",1,20.0
+Stream Discharge,Amador County (inferred based on proximity to Mokelumne River and known locations of Dry Creek),1,15.0
+Stream Discharge,Amador County / Calaveras County,1,34.0
+Stream Discharge,"Amador County, CA",1,86.0
+Stream Discharge,"Amador County, California",9,237.0
+Stream Discharge,Amador and Calaveras,1,15.0
+Stream Discharge,Amador and El Dorado Counties,1,17.0
+Stream Discharge,"Amador, Calaveras",3,65.0
+Stream Discharge,"Anchorage, Alaska",2,71.0
+Stream Discharge,Anoka,1,8.0
+Stream Discharge,Apache,4,152.0
+Stream Discharge,Apache County,15,470.0
+Stream Discharge,"Apache County, Arizona",65,1752.0
+Stream Discharge,"Apache County, New Mexico",3,46.0
+Stream Discharge,Archuleta County,12,209.0
+Stream Discharge,"Archuleta County, Colo.",1,18.0
+Stream Discharge,"Archuleta County, Colorado",14,250.0
+Stream Discharge,"Archuleta County, New Mexico",2,137.0
+Stream Discharge,Ariz.,1,9.0
+Stream Discharge,Arizona,5,120.0
+Stream Discharge,Arizona (Filling Ditch at Greer),2,76.0
+Stream Discharge,"Arizona (Note: Document states location as Arizona; however, task specifies data from California. Thus, no actual county in California is provided.)",1,69.0
+Stream Discharge,"Arizona, near Yuma at mouth of Gila River",1,7.0
+Stream Discharge,Arizona/California Border Region,1,67.0
+Stream Discharge,"Aroostook County, Maine",1,9.0
+Stream Discharge,"Ash, near Oreg.",1,8.0
+Stream Discharge,"Ashland County, Ohio",1,5.0
+Stream Discharge,Ashtabula County,1,7.0
+Stream Discharge,"Ashtabula County, Ohio",2,14.0
+Stream Discharge,"Asotin County, Washington",1,5.0
+Stream Discharge,Atascosa,1,9.0
+Stream Discharge,Augusta County,1,8.0
+Stream Discharge,"Autauga County, Alabama",1,8.0
+Stream Discharge,Avery (Inferred),2,46.0
+Stream Discharge,"Azusa, Calif.1",1,8.0
+Stream Discharge,B Kern County,2,45.0
+Stream Discharge,BISHOP RANCH CO.,1,3.0
+Stream Discharge,Baja California,1,4.0
+Stream Discharge,Baja California Sur,1,81.0
+Stream Discharge,Baker County,2,164.0
+Stream Discharge,"Baker County, Oregon",3,76.0
+Stream Discharge,"Baker County, Oregon (adjacent to California)",1,27.0
+Stream Discharge,Bakersfield,1,17.0
+Stream Discharge,"Baldwin County, Alabama",1,5.0
+Stream Discharge,Barbara County,5,134.0
+Stream Discharge,"Barnes County, North Dakota",1,10.0
+Stream Discharge,Barry County,1,7.0
+Stream Discharge,"Based on UTM Coordinates, likely in a coastal county of California.",1,19.0
+Stream Discharge,"Based on common Californian rivers and sediment analysis, potentially within counties known for such studies like Fresno or Kings.",2,22.0
+Stream Discharge,"Based on context and typical locations for such studies, likely within California",1,10.0
+Stream Discharge,Based on data patterns and California regions known for such analyses.,2,21.0
+Stream Discharge,"Based on project area and context, likely within a region in California known for streamflow studies.",1,42.0
+Stream Discharge,"Based on the context and typical California water studies, this may correspond to a specific county in California, but without explicit data or inference methods described, it is left as null.",2,69.0
+Stream Discharge,"Based on the document context, possibly a county in California",1,34.0
+Stream Discharge,"Based on the document, data collection occurred over a span of time suggesting locations with active water measurement facilities. In California, this could be inferred as areas like Shasta County or Tuolumne County known for hydrological studies.",1,45.0
+Stream Discharge,"Bay Area Counties, California",1,9.0
+Stream Discharge,Bear Lake County,7,176.0
+Stream Discharge,"Bear Lake County, Idaho",7,136.0
+Stream Discharge,"Bear Lake County, Idaho (near California border)",6,29.0
+Stream Discharge,"Bear River County, Idaho",3,33.0
+Stream Discharge,"Beaver County, Utah",1,22.0
+Stream Discharge,"Beaverhead County, Montana",1,8.0
+Stream Discharge,"Bee County (not in California, but assuming a hypothetical location within California)",1,12.0
+Stream Discharge,Below Colorado-Utah State Line,1,22.0
+Stream Discharge,Bend,1,8.0
+Stream Discharge,"Bend, Idaho",1,8.0
+Stream Discharge,"Bend, Oregon",1,9.0
+Stream Discharge,"Benton County, Arkansas",1,8.0
+Stream Discharge,"Benton County, Oregon",1,43.0
+Stream Discharge,"Benton County, Oregon (near location mentioned)",2,47.0
+Stream Discharge,"Benton County, Washington",1,9.0
+Stream Discharge,"Bergen County, New Jersey",1,8.0
+Stream Discharge,"Berkeley County, WV",1,8.0
+Stream Discharge,"Berkeley, Alameda County (inference based on mention of Berkeley observations)",1,5.0
+Stream Discharge,Berks County,1,6.0
+Stream Discharge,"Berkshire County, MA",1,9.0
+Stream Discharge,"Berkshire County, Massachusetts",1,5.0
+Stream Discharge,"Bernalillo County, New Mexico",3,24.0
+Stream Discharge,Bernardino County,1,22.0
+Stream Discharge,Bexar County,1,8.0
+Stream Discharge,Big Horn County,1,26.0
+Stream Discharge,"Big Horn County, MT",1,9.0
+Stream Discharge,"Bingham County, Idaho",1,6.0
+Stream Discharge,"Bonneville County, Idaho",3,61.0
+Stream Discharge,Boone County,1,8.0
+Stream Discharge,"Boulder County, Colorado",2,21.0
+Stream Discharge,Box Elder County,29,779.0
+Stream Discharge,"Box Elder County, Idaho",1,52.0
+Stream Discharge,"Box Elder County, Idaho (Harer, ID)",2,80.0
+Stream Discharge,"Box Elder County, Utah",58,1481.0
+Stream Discharge,"Box Elder County, Utah (Note: Documented in Utah, but query is for California)",3,47.0
+Stream Discharge,"Box Elder County, Utah (near California border)",5,26.0
+Stream Discharge,"Box Elder County, Utah (near Myton, UT)",1,71.0
+Stream Discharge,"Box Elder County, Utah (nearest county to Jensen, Utah)",1,71.0
+Stream Discharge,"Box Elder County, Utah (not California; no county in CA)",5,13.0
+Stream Discharge,"Box Elder, Utah",3,72.0
+Stream Discharge,"Bristol County, VT",1,9.0
+Stream Discharge,"Bristol, Massachusetts",1,12.0
+Stream Discharge,"Brown County, Indiana",1,9.0
+Stream Discharge,Bureau of Land Management County Data,1,45.0
+Stream Discharge,Bureau of Reclamation Kern River Basin,1,33.0
+Stream Discharge,Butte,48,1384.0
+Stream Discharge,Butte County,2185,58871.0
+Stream Discharge,Butte County (near Chico),1,66.0
+Stream Discharge,Butte County (near Gridley),1,14.0
+Stream Discharge,Butte County to Sutter County,1,11.0
+Stream Discharge,Butte County to Yolo County,1,13.0
+Stream Discharge,"Butte County, California",27,660.0
+Stream Discharge,"Butte County, Glenn County",2,24.0
+Stream Discharge,"Butte County, Oregon",2,40.0
+Stream Discharge,"Butte County, Plumas National Forest",2,29.0
+Stream Discharge,"Butte County, Yuba County",1,5.0
+Stream Discharge,"Butte, Colusa",1,10.0
+Stream Discharge,"Butte, Sutter, Yolo (between Chico Landing and Colusa)",1,8.0
+Stream Discharge,CALAVERAS,14,363.0
+Stream Discharge,CALAVERAS COUNTY,11,378.0
+Stream Discharge,CALIFORNIA,4,174.0
+Stream Discharge,CALIFORNIA (County not explicitly stated in the document),1,37.0
+Stream Discharge,CALIFORNIA (Specific county not directly mentioned),1,38.0
+Stream Discharge,CALIFORNIA (inferred from State Highway reference and Canyon location),1,38.0
+Stream Discharge,CONTRA COSTA,1,79.0
+Stream Discharge,"COVELO, CALIF.",1,18.0
+Stream Discharge,Cache County,9,425.0
+Stream Discharge,"Cache County, Utah",21,733.0
+Stream Discharge,"Cache County, Utah (close to California state border)",1,22.0
+Stream Discharge,"Caddo Parish, Louisiana and Gregg County, Texas",1,9.0
+Stream Discharge,Calaveras,427,9834.0
+Stream Discharge,Calaveras County,3132,75095.0
+Stream Discharge,Calaveras County (primary location),1,60.0
+Stream Discharge,"Calaveras County, Amador County",4,34.0
+Stream Discharge,"Calaveras County, Amador County, Mariposa County, Tuolumne County",1,15.0
+Stream Discharge,"Calaveras County, California",99,2632.0
+Stream Discharge,"Calaveras County, California (based on location description)",2,46.0
+Stream Discharge,"Calaveras County, California and Lander County, Nevada",1,0.0
+Stream Discharge,"Calaveras County, Mariposa County, Tuolumne County",1,71.0
+Stream Discharge,"Calaveras County, Tuolumne County",3,139.0
+Stream Discharge,Calaveras and Amador Counties,3,19.0
+Stream Discharge,"Calaveras, Amador",1,36.0
+Stream Discharge,"Calaveras, Mariposa",2,35.0
+Stream Discharge,"Calaveras, Tuolumne",2,66.0
+Stream Discharge,"Calaveras, Tuolumne, Stanislaus",1,7.0
+Stream Discharge,Calaveras- Tuolumne County line,1,33.0
+Stream Discharge,Calaveras-Tuolumne County Line,1,33.0
+Stream Discharge,Calaveras-Tuolumne County line,1,67.0
+Stream Discharge,Calculated based on typical sources for the California Department of Water Resources data,1,15.0
+Stream Discharge,Calculated from context or assumed based on typical locations of stream studies in California.,1,8.0
+Stream Discharge,Calhoun County,1,5.0
+Stream Discharge,Calif,2,17.0
+Stream Discharge,Calif.,3,36.0
+Stream Discharge,Calif. Joaquin,1,13.0
+Stream Discharge,California,72,1973.0
+Stream Discharge,California (Based on document context),2,46.0
+Stream Discharge,California (General Inference),2,87.0
+Stream Discharge,California (General),10,337.0
+Stream Discharge,"California (General, inferred from document context)",1,86.0
+Stream Discharge,California (SACRAMENTO RIVER BASIN region),1,12.0
+Stream Discharge,California (SACRAMENTO RIVER BASIN),2,28.0
+Stream Discharge,California (Specific county not provided),2,33.0
+Stream Discharge,California (assumed based on context),1,69.0
+Stream Discharge,California (assumed based on data origin),2,67.0
+Stream Discharge,California (assumed based on document context),2,54.0
+Stream Discharge,California (based on State context),1,26.0
+Stream Discharge,California (based on context of document),1,44.0
+Stream Discharge,California (based on context),4,223.0
+Stream Discharge,California (based on data context),1,69.0
+Stream Discharge,California (based on document context),2,55.0
+Stream Discharge,California (based on document origin),1,17.0
+Stream Discharge,California (based on document source),2,66.0
+Stream Discharge,California (based on the document context),1,67.0
+Stream Discharge,California (based on the document's note),1,52.0
+Stream Discharge,California (general location due to lack of specific data),1,36.0
+Stream Discharge,California (general),5,77.0
+Stream Discharge,California (inference based on the State of California mention),2,66.0
+Stream Discharge,California (inferred based on data source),1,33.0
+Stream Discharge,California (inferred based on discharge measurements in the context of Colorado River management),1,57.0
+Stream Discharge,California (inferred based on document context),1,79.0
+Stream Discharge,California (inferred based on the document context),2,66.0
+Stream Discharge,California (inferred from State),2,8.0
+Stream Discharge,California (inferred from context),3,99.0
+Stream Discharge,California (inferred from document context),1,12.0
+Stream Discharge,California (multiple counties possible),1,64.0
+Stream Discharge,"California (part of the Great Basin, except Truckee and Carson River Basins)",1,22.0
+Stream Discharge,California (specific county inferred based on Bureau of Reclamation operations within California),2,58.0
+Stream Discharge,California (specific county inferred based on geographical data),1,7.0
+Stream Discharge,California (specific county inferred from context or additional data),1,35.0
+Stream Discharge,California (specific county inferred from latitude and longitude),2,16.0
+Stream Discharge,California (specific county not given in the data),2,23.0
+Stream Discharge,California (specific county not mentioned),2,67.0
+Stream Discharge,California (specific county not provided),4,140.0
+Stream Discharge,California (various counties depending on specific site),1,23.0
+Stream Discharge,California (various counties depending on specific sites),1,60.0
+Stream Discharge,California (various counties possible),1,9.0
+Stream Discharge,California - Central Valley (inferred based on common water management regions),1,22.0
+Stream Discharge,California - Likely based on data collection period and location,2,67.0
+Stream Discharge,California - Multiple counties possible,2,66.0
+Stream Discharge,"California Basin Counties (e.g., Sacramento, San Joaquin)",2,66.0
+Stream Discharge,"California Basin, Pacific Slope",1,18.0
+Stream Discharge,California Central Valley,1,69.0
+Stream Discharge,California Coastal Counties,3,94.0
+Stream Discharge,California Coastal County,1,33.0
+Stream Discharge,California Counties,3,35.0
+Stream Discharge,California Counties along Pacific Coast,1,12.0
+Stream Discharge,California County,3,106.0
+Stream Discharge,California County (General Inference),1,45.0
+Stream Discharge,California County (based on document origin),1,82.0
+Stream Discharge,California County (inferred),1,30.0
+Stream Discharge,California County (specific county data not provided),2,75.0
+Stream Discharge,"California County Associated with the San Joaquin River Basin (e.g., Fresno, Kings, etc.)",1,18.0
+Stream Discharge,"California County Based on Context (e.g., likely a study area with significant sediment discharge)",1,55.0
+Stream Discharge,California County Inference,2,50.0
+Stream Discharge,California County Inference Needed,2,96.0
+Stream Discharge,California County Inferred,1,46.0
+Stream Discharge,California County Inferred Based on Context,1,22.0
+Stream Discharge,California County Inferred from Context,1,70.0
+Stream Discharge,California County with Active Discharge Records,1,23.0
+Stream Discharge,"California County with Weirs (e.g., Sacramento or San Joaquin)",1,36.0
+Stream Discharge,California County with major stream systems,1,45.0
+Stream Discharge,California General,2,48.0
+Stream Discharge,California General (State-wide),2,23.0
+Stream Discharge,California General Inference (Specific County Not Provided),1,16.0
+Stream Discharge,California General Region,2,76.0
+Stream Discharge,California Inferred from Data Analysis,1,18.0
+Stream Discharge,California Inland Counties,1,29.0
+Stream Discharge,"California Inland Counties (e.g., Fresno, Kern)",1,13.0
+Stream Discharge,California State Average,2,66.0
+Stream Discharge,California Statewide,2,75.0
+Stream Discharge,California counties excluding Truckee and Carson River areas,1,15.0
+Stream Discharge,"California, Arizona",1,57.0
+Stream Discharge,"California, Northern Central Valley Basins and The Great Basin",1,7.0
+Stream Discharge,"California, Specific County Inference Needed",1,35.0
+Stream Discharge,"California, Specific County Inferred from Location Data",1,15.0
+Stream Discharge,"California, based on water year data reference",1,67.0
+Stream Discharge,"California, counties around the minor San Francisco Bay, northern Pacific, and Great basins",2,42.0
+Stream Discharge,"California, potentially within the boundaries of a county 18 miles north of Highway 101 (e.g., Santa Barbara County)",1,0.0
+Stream Discharge,"California, unspecified county in Great Basin and Pacific Coast river basins",1,40.0
+Stream Discharge,"Camas County, Idaho",1,8.0
+Stream Discharge,"Canton, Georgia",1,9.0
+Stream Discharge,Carbon,1,22.0
+Stream Discharge,Carbon County,4,92.0
+Stream Discharge,"Carbon County, Utah",1,7.0
+Stream Discharge,"Carbon County, WY",1,22.0
+Stream Discharge,"Carbon County, WYO.",1,22.0
+Stream Discharge,"Carbon County, Wyoming",17,349.0
+Stream Discharge,"Caribou County, Idaho",7,94.0
+Stream Discharge,"Carroll County, Maine",1,7.0
+Stream Discharge,Carson City (Nevada),1,9.0
+Stream Discharge,"Carson City County, NV (Nearest state is California's neighboring county)",1,4.0
+Stream Discharge,Catron County,1,21.0
+Stream Discharge,"Catron County, NM",1,21.0
+Stream Discharge,"Catron County, New Mexico",9,251.0
+Stream Discharge,"Catron, N.MEX.",1,22.0
+Stream Discharge,Central California (based on discharge and precipitation patterns),1,21.0
+Stream Discharge,Central California (based on general data context),1,33.0
+Stream Discharge,"Central California Counties (e.g., Fresno, Stanislaus)",1,45.0
+Stream Discharge,Central Valley (inferred based on typical data collection sites in California),1,33.0
+Stream Discharge,"Central Valley Counties, California",2,66.0
+Stream Discharge,"Chaffee County, Colorado",1,8.0
+Stream Discharge,"Chaves County, New Mexico",3,78.0
+Stream Discharge,Chelan County,1,10.0
+Stream Discharge,"Cheyenne, Wyo",1,9.0
+Stream Discharge,"Chippewa County, Wisconsin",1,8.0
+Stream Discharge,Churchill County,1,38.0
+Stream Discharge,"Churchill County, NV (adjacent to California)",1,9.0
+Stream Discharge,"Churchill County, Nevada",2,93.0
+Stream Discharge,"Cibola County, New Mexico",3,143.0
+Stream Discharge,Clackamas,1,10.0
+Stream Discharge,"Clackamas County, Oregon",5,96.0
+Stream Discharge,"Clallam County, Washington",1,10.0
+Stream Discharge,Clara County,1,22.0
+Stream Discharge,Clark,2,63.0
+Stream Discharge,Clark County,29,570.0
+Stream Discharge,Clark County (Nevada),2,49.0
+Stream Discharge,"Clark County, Arizona (near Littlefield) and Nye County, Nevada (near Moapa)",2,25.0
+Stream Discharge,"Clark County, NV",4,185.0
+Stream Discharge,"Clark County, NV (Part), Mohave County, AZ (Part)",1,86.0
+Stream Discharge,"Clark County, NV / Mohave County, AZ",2,75.0
+Stream Discharge,"Clark County, NV/ Mohave County, AZ",1,18.0
+Stream Discharge,"Clark County, Nevada",36,692.0
+Stream Discharge,"Clark County, Nevada (adjacent to California's border)",2,16.0
+Stream Discharge,"Clark County, Nevada (near Fort Mojave)",2,31.0
+Stream Discharge,"Clark County, Nevada (near the California border)",1,22.0
+Stream Discharge,"Clark County, Nevada (not California)",1,43.0
+Stream Discharge,"Clark County, Nevada (primarily) and Mohave County, Arizona",1,69.0
+Stream Discharge,"Clark County, Nevada / Mohave County, Arizona",1,18.0
+Stream Discharge,"Clark County, Nevada and Mohave County, Arizona",2,144.0
+Stream Discharge,"Clark County, Nevada; Mohave County, Arizona",1,33.0
+Stream Discharge,"Clark County, Nevada; Nye County, Nevada; Lincoln County, California",1,58.0
+Stream Discharge,"Clark County, Ohio",1,10.0
+Stream Discharge,"Clark County, Washington (adjacent to Oregon) - likely inference due to Little White Salmon location near the Columbia River and its proximity to Oregon, though not in California.",2,20.0
+Stream Discharge,"Clark, NV",2,75.0
+Stream Discharge,Clatsop County,1,9.0
+Stream Discharge,"Clatsop County, Oregon",5,92.0
+Stream Discharge,Clear Creek County,2,12.0
+Stream Discharge,"Clear Creek County, Colorado",1,18.0
+Stream Discharge,"Clear Creek, Colorado",2,29.0
+Stream Discharge,Clearfield,1,6.0
+Stream Discharge,Clinton County,1,10.0
+Stream Discharge,"Coahuila, Mexico",1,9.0
+Stream Discharge,Cochise,1,35.0
+Stream Discharge,Cochise County,12,195.0
+Stream Discharge,"Cochise County, Arizona",30,826.0
+Stream Discharge,"Cochise County, Arizona (Note: Not California)",3,31.0
+Stream Discharge,"Cochise County, Arizona (document context suggests non-California location)",2,20.0
+Stream Discharge,"Cochise, Arizona",1,72.0
+Stream Discharge,Coconino County,118,3673.0
+Stream Discharge,Coconino County (Arizona),4,119.0
+Stream Discharge,"Coconino County, AZ",2,39.0
+Stream Discharge,"Coconino County, AZ and Clark County, NV",1,57.0
+Stream Discharge,"Coconino County, Arizona",157,5666.0
+Stream Discharge,"Coconino County, Arizona (nearby to California boundary)",2,44.0
+Stream Discharge,"Coconino County, Arizona; Kane County, Utah",1,8.0
+Stream Discharge,"Coconino, AZ",1,69.0
+Stream Discharge,"Coconino, Arizona",9,245.0
+Stream Discharge,"Coconino, Arizona (inferred based on the location 'near Show Low, Ariz')",2,77.0
+Stream Discharge,"Coleman County, Texas",1,9.0
+Stream Discharge,Colfax County,1,9.0
+Stream Discharge,"Colfax County, New Mexico",2,44.0
+Stream Discharge,Colo. 12,1,8.0
+Stream Discharge,Colorado,4,73.0
+Stream Discharge,"Colorado (as inferred from the presence of Vallecito Creek near Bayfield, CO)",1,36.0
+Stream Discharge,Colorado (out of scope for California),2,44.0
+Stream Discharge,"Colorado, SE1 sec. 8, T.11 N., R.90 W.",2,34.0
+Stream Discharge,"Colorado, USA",1,22.0
+Stream Discharge,Colusa,15,462.0
+Stream Discharge,Colusa County,339,9344.0
+Stream Discharge,"Colusa County, California",1,17.0
+Stream Discharge,Colusa and Yolo Basins,2,45.0
+Stream Discharge,Contra Costa,35,788.0
+Stream Discharge,Contra Costa County,588,16443.0
+Stream Discharge,"Contra Costa County, Alameda County, San Mateo County, Santa Clara County",1,35.0
+Stream Discharge,"Contra Costa County, California",2,65.0
+Stream Discharge,"Contra Costa County, Marin County",1,7.0
+Stream Discharge,Contra-Costa County,2,41.0
+Stream Discharge,Contracosta County,3,15.0
+Stream Discharge,Costa County,1,22.0
+Stream Discharge,"Costilla County, Colorado",2,13.0
+Stream Discharge,"Cottonwood, CA",1,33.0
+Stream Discharge,County of Sacramento,1,3.0
+Stream Discharge,"Crescent Mills, Georgia",1,33.0
+Stream Discharge,"Cullman County, Alabama",1,20.0
+Stream Discharge,"Curry County, Oregon",3,26.0
+Stream Discharge,"Custer County, Colorado",2,36.0
+Stream Discharge,DORADO,10,438.0
+Stream Discharge,DORADO COUNTY,16,559.0
+Stream Discharge,Daggett County,4,169.0
+Stream Discharge,"Daggett County, Utah",1,22.0
+Stream Discharge,"Dakota County, North Dakota",1,8.0
+Stream Discharge,Davis County,3,97.0
+Stream Discharge,"Davis County, Utah",8,146.0
+Stream Discharge,"Death Valley National Park (Inyo County, California)",1,6.0
+Stream Discharge,Del Norte,66,1438.0
+Stream Discharge,Del Norte County,792,21088.0
+Stream Discharge,"Del Norte County, CA",3,85.0
+Stream Discharge,"Del Norte County, California",41,1121.0
+Stream Discharge,"Del Norte County, California (inferred)",2,46.0
+Stream Discharge,Delaware County,1,9.0
+Stream Discharge,"Delaware County, New York",2,47.0
+Stream Discharge,"Delaware County, Oregon",2,32.0
+Stream Discharge,Delta,3,49.0
+Stream Discharge,Delta County,12,239.0
+Stream Discharge,"Delta County, California",1,18.0
+Stream Discharge,"Delta County, Colorado",12,265.0
+Stream Discharge,"Delta County, Colorado (inferred from Col. near Taylor Creek Plateau)",1,9.0
+Stream Discharge,"Delta, Colo.",2,41.0
+Stream Discharge,"Denver County, Colorado",3,18.0
+Stream Discharge,Diego County,2,42.0
+Stream Discharge,Dolores County,1,6.0
+Stream Discharge,"Dolores County, Colorado",3,55.0
+Stream Discharge,"Dolores, Colorado",2,13.0
+Stream Discharge,Donna County,1,8.0
+Stream Discharge,Dorada County,1,38.0
+Stream Discharge,Dorado,2,89.0
+Stream Discharge,Dorado County,176,5875.0
+Stream Discharge,Douglas,2,88.0
+Stream Discharge,Douglas County,48,1371.0
+Stream Discharge,"Douglas County, California",2,66.0
+Stream Discharge,"Douglas County, NEV.",1,43.0
+Stream Discharge,"Douglas County, NV",11,343.0
+Stream Discharge,"Douglas County, NV (near California border)",1,38.0
+Stream Discharge,"Douglas County, Nevada",24,712.0
+Stream Discharge,"Douglas County, Nevada (near California border)",1,25.0
+Stream Discharge,"Douglas County, Nevada; Placer County, California",1,3.0
+Stream Discharge,"Douglas County, Oregon",15,290.0
+Stream Discharge,Duchesne,1,6.0
+Stream Discharge,Duchesne County,15,322.0
+Stream Discharge,Duchesne County (Utah),1,32.0
+Stream Discharge,"Duchesne County, Utah",25,642.0
+Stream Discharge,"Dutch John, Colorado",1,7.0
+Stream Discharge,E1 Dorado County,1,38.0
+Stream Discharge,EL DORADO,1,66.0
+Stream Discharge,EL DORADO COUNTY,5,141.0
+Stream Discharge,ELDORADO,1,14.0
+Stream Discharge,Eagle County,14,264.0
+Stream Discharge,"Eagle County, Colorado",7,155.0
+Stream Discharge,El Dorado,81,2319.0
+Stream Discharge,El Dorado County,1372,33733.0
+Stream Discharge,"El Dorado County, California",14,264.0
+Stream Discharge,"El Dorado County, Placer County",1,56.0
+Stream Discharge,El Dorado and Placer,2,67.0
+Stream Discharge,"El Dorado, California",1,9.0
+Stream Discharge,"El Paso County, Colorado",2,36.0
+Stream Discharge,Eldorado,10,430.0
+Stream Discharge,Eldorado County,100,2015.0
+Stream Discharge,"Eldorado County, California",2,66.0
+Stream Discharge,"Eldorado County, Placer County",2,115.0
+Stream Discharge,Elk Grove,3,115.0
+Stream Discharge,Elko,2,64.0
+Stream Discharge,Elko County,16,498.0
+Stream Discharge,Elko County (California/Nevada border area),2,40.0
+Stream Discharge,Elko County (Nevada) / Alpine County (California),2,23.0
+Stream Discharge,"Elko County, Nevada",23,409.0
+Stream Discharge,"Elko County, Nevada (Discharge measured in California)",2,48.0
+Stream Discharge,"Elko County, Nevada (Note: Document specifies COLO but likely a typo for Nv or another nearby state)",1,18.0
+Stream Discharge,"Elko County, Nevada (adjacent county in California context)",1,61.0
+Stream Discharge,"Elko County, Nevada (adjacent to California)",3,45.0
+Stream Discharge,"Elko County, Nevada (extends into Washoe and Placer Counties, California)",1,3.0
+Stream Discharge,"Elko County, Nevada (near Gardnerville)",2,62.0
+Stream Discharge,"Elko County, Nevada (near Paynesville)",1,13.0
+Stream Discharge,"Elko County, Nevada (nearest known location as it's near the state border with California)",1,68.0
+Stream Discharge,"Elko County, Nevada and Washoe County, California",1,9.0
+Stream Discharge,Elmore County,1,9.0
+Stream Discharge,Emery County,19,372.0
+Stream Discharge,"Emery County, Utah",13,251.0
+Stream Discharge,"Emery County, Utah (based on the proximity of Gunnison)",3,57.0
+Stream Discharge,"Enterprise, Cal.",1,65.0
+Stream Discharge,Esmeralda,8,171.0
+Stream Discharge,Esmeralda County,3,120.0
+Stream Discharge,"Esmeralda County, Nevada",7,185.0
+Stream Discharge,"Esmeralda County, Nevada; Alpine County, California",1,1.0
+Stream Discharge,"Esmeralda, Nevada (adjacent to California)",1,0.0
+Stream Discharge,Eureka,3,41.0
+Stream Discharge,Eureka County,6,112.0
+Stream Discharge,"Eureka County, Nevada",1,22.0
+Stream Discharge,Falls,1,8.0
+Stream Discharge,Fayette,1,32.0
+Stream Discharge,Ferry County (inferred based on context),1,22.0
+Stream Discharge,"Ferry County, California",1,10.0
+Stream Discharge,Franklin County,6,85.0
+Stream Discharge,"Franklin County, Idaho",1,22.0
+Stream Discharge,"Franklin County, Massachusetts",1,6.0
+Stream Discharge,Fremont County,7,286.0
+Stream Discharge,"Fremont County, Wyoming",7,268.0
+Stream Discharge,Fresno,191,4772.0
+Stream Discharge,Fresno County,1584,41406.0
+Stream Discharge,Fresno County (approximation based on Sierra Nevada location),2,47.0
+Stream Discharge,"Fresno County, CA",1,33.0
+Stream Discharge,"Fresno County, California",48,1288.0
+Stream Discharge,"Fresno County, California and Kings County, California",2,27.0
+Stream Discharge,"Fresno County, Merced County, Stanislaus County",1,22.0
+Stream Discharge,"Fresno County, Tulare County",2,40.0
+Stream Discharge,"Fresno, Madera, Merced, and Stanislaus Counties (inferred)",1,30.0
+Stream Discharge,GLEN ELLEN (within Lake County and Sonoma County boundaries),2,66.0
+Stream Discharge,GLOUCESTER,1,40.0
+Stream Discharge,Gallupville (likely an error for Yolo County),2,44.0
+Stream Discharge,Galt,2,50.0
+Stream Discharge,Garfield County,15,541.0
+Stream Discharge,"Garfield County, CO",3,67.0
+Stream Discharge,"Garfield County, Colorado",11,343.0
+Stream Discharge,"Garfield County, Utah",2,19.0
+Stream Discharge,General California Watershed,2,54.0
+Stream Discharge,Georgia (Ga),1,9.0
+Stream Discharge,Georgia (Inferred from Eastern Gulf of Mexico context),1,9.0
+Stream Discharge,Gila County,36,829.0
+Stream Discharge,"Gila County, Arizona",93,2903.0
+Stream Discharge,"Gila County, Arizona (Note: document is from California, so this inference pertains to location not in California.)",1,73.0
+Stream Discharge,"Glacier County, Montana",1,9.0
+Stream Discharge,Gleason,2,44.0
+Stream Discharge,Glen County,9,196.0
+Stream Discharge,Glenn,8,173.0
+Stream Discharge,Glenn County,297,7942.0
+Stream Discharge,"Glenn County, California",3,48.0
+Stream Discharge,Glenwood County,1,12.0
+Stream Discharge,Glenwood County (inference based on location name),1,69.0
+Stream Discharge,"Glenwood County, CO (inferred from Glenwood Springs location)",1,70.0
+Stream Discharge,"Glenwood County, CO (inferred)",1,34.0
+Stream Discharge,"Glenwood County, Colo.",1,69.0
+Stream Discharge,"Glenwood County, Colorado",5,188.0
+Stream Discharge,"Glenwood County, Colorado (inferred based on location)",2,69.0
+Stream Discharge,"Glenwood County, Colorado (inferred from document title and location)",1,70.0
+Stream Discharge,"Glenwood Springs is located in Garfield County, Colorado.",1,70.0
+Stream Discharge,"Glenwood Springs, Colo.",1,68.0
+Stream Discharge,"Glenwood Springs, Garfield County",1,34.0
+Stream Discharge,"Glenwood Springs, Garfield County, Colorado",1,22.0
+Stream Discharge,Gonzales County,1,41.0
+Stream Discharge,Graham,1,22.0
+Stream Discharge,Graham County,11,252.0
+Stream Discharge,"Graham County, Arizona",25,797.0
+Stream Discharge,"Graham County, Arizona (Closest known area)",1,30.0
+Stream Discharge,Grand County,43,934.0
+Stream Discharge,"Grand County, Colorado",38,848.0
+Stream Discharge,"Grand County, Utah",21,302.0
+Stream Discharge,Grand Junction,1,58.0
+Stream Discharge,Grant County,8,197.0
+Stream Discharge,"Grant County, New Mexico",12,353.0
+Stream Discharge,Grayson County,1,6.0
+Stream Discharge,"Great Basin Region, Utah",1,22.0
+Stream Discharge,Green River Basin,1,15.0
+Stream Discharge,"Green River basin, Wyoming region",1,10.0
+Stream Discharge,Greenlee County,7,139.0
+Stream Discharge,"Greenlee County, Arizona",19,643.0
+Stream Discharge,"Greenlee County, Arizona; Hidalgo County, New Mexico",2,29.0
+Stream Discharge,"Greenlee County, New Mexico",2,30.0
+Stream Discharge,Gunnison County,7,68.0
+Stream Discharge,"Gunnison County, Colorado",17,259.0
+Stream Discharge,"Gunnison County, UTAH",1,22.0
+Stream Discharge,"Gunnison, Utah",1,17.0
+Stream Discharge,HUMBOLDT,2,66.0
+Stream Discharge,HUMBOLDT COUNTY,5,197.0
+Stream Discharge,"HUMBOLDT COUNTY, CALIFORNIA",1,79.0
+Stream Discharge,Harney County,6,117.0
+Stream Discharge,"Harney County, Oreg.",1,31.0
+Stream Discharge,"Harney County, Oregon",25,415.0
+Stream Discharge,"Harney County, Oregon (Note: Inference from location; not California)",3,49.0
+Stream Discharge,"Hidalgo County, New Mexico",4,52.0
+Stream Discharge,"Hoopa Valley Tribe, California",1,9.0
+Stream Discharge,Humboldt,154,4188.0
+Stream Discharge,Humboldt County,2236,56799.0
+Stream Discharge,"Humboldt County, Calif.",1,56.0
+Stream Discharge,"Humboldt County, California",73,2259.0
+Stream Discharge,"Humboldt County, California (near Arcata)",1,90.0
+Stream Discharge,Humboldt and Del Norte Counties,1,8.0
+Stream Discharge,"Humboldt, Trinity",1,18.0
+Stream Discharge,"Hunterdon County, NJ",1,5.0
+Stream Discharge,Idaho,4,34.0
+Stream Discharge,Idaho County,1,89.0
+Stream Discharge,"Idaho County, Idaho",7,118.0
+Stream Discharge,"Idaho County, Idaho (near Montpelier)",2,57.0
+Stream Discharge,Imperial,47,1277.0
+Stream Discharge,Imperial County,835,24641.0
+Stream Discharge,Imperial County and San Diego County,1,10.0
+Stream Discharge,"Imperial County, AZ and CA",1,33.0
+Stream Discharge,"Imperial County, AZ-CA border region",1,87.0
+Stream Discharge,"Imperial County, Arizona",1,40.0
+Stream Discharge,"Imperial County, CA",46,1485.0
+Stream Discharge,"Imperial County, CA (based on proximity to Blythe, California)",1,38.0
+Stream Discharge,"Imperial County, CA (inferred based on location within the Colorado River basin in California)",1,66.0
+Stream Discharge,"Imperial County, CA (near Parker Dam on the Colorado River)",1,53.0
+Stream Discharge,"Imperial County, CA (near the California border with Arizona and Nevada)",2,25.0
+Stream Discharge,"Imperial County, CA (near the location of Colorado River downstream from Imperial Dam)",2,74.0
+Stream Discharge,"Imperial County, CA and Yuma County, AZ (approximate)",1,22.0
+Stream Discharge,"Imperial County, CA or Yuma County, AZ (near the border)",1,31.0
+Stream Discharge,"Imperial County, California",178,5153.0
+Stream Discharge,"Imperial County, California (based on known path of Colorado River in California)",1,42.0
+Stream Discharge,"Imperial County, California (inferred based on location of Parker Dam and typical flow paths)",1,37.0
+Stream Discharge,"Imperial County, California (inferred based on location of the Colorado River in California)",1,22.0
+Stream Discharge,"Imperial County, California (inferred based on location)",1,54.0
+Stream Discharge,"Imperial County, California (proximity to the border with Arizona)",2,27.0
+Stream Discharge,"Imperial County, Riverside County",1,30.0
+Stream Discharge,"Imperial County, Riverside County, San Diego County (part of Colorado River basin in California)",1,11.0
+Stream Discharge,"Imperial County, Riverside County, or San Diego County (California)",1,14.0
+Stream Discharge,"Imperial, California",2,128.0
+Stream Discharge,"Imperial, Riverside",1,9.0
+Stream Discharge,"Imperial, Riverside, San Bernardino (inferred)",2,14.0
+Stream Discharge,Implied from context of San Diego County and proximity to Pala,1,17.0
+Stream Discharge,"Independence County, California (inferred)",1,13.0
+Stream Discharge,Indiana,1,9.0
+Stream Discharge,Inferred,9,179.0
+Stream Discharge,Inferred County Based on Location Data,1,39.0
+Stream Discharge,Inferred County based on nearest townships and ranges,1,33.0
+Stream Discharge,"Inferred County: Mohave County, Arizona or Washington County, Utah (proximity to Santa Clara, Utah)",1,7.0
+Stream Discharge,Inferred as Butte County,2,19.0
+Stream Discharge,Inferred as part of California (originally Oregon),2,46.0
+Stream Discharge,Inferred as part of California-wide study,2,66.0
+Stream Discharge,Inferred based on context (likely Monterey County),1,36.0
+Stream Discharge,Inferred based on location,2,155.0
+Stream Discharge,Inferred based on location data,2,16.0
+Stream Discharge,Inferred based on location data and context within California,2,35.0
+Stream Discharge,Inferred based on upstream drainage area and location characteristics,1,18.0
+Stream Discharge,"Inferred from 'Cal.' for California, specific county not mentioned",1,66.0
+Stream Discharge,"Inferred from Data Context (e.g., likely Central Valley based on historical discharge data)",1,22.0
+Stream Discharge,Inferred from East Highlands location in California,3,47.0
+Stream Discharge,Inferred from Great Basin regions within California,1,31.0
+Stream Discharge,Inferred from Location,1,38.0
+Stream Discharge,Inferred from Location: Tulare County,2,41.0
+Stream Discharge,Inferred from Parker Dam location,1,27.0
+Stream Discharge,Inferred from Rural data,1,20.0
+Stream Discharge,Inferred from State of California location context,1,7.0
+Stream Discharge,"Inferred from State of California, specific county not provided",1,66.0
+Stream Discharge,"Inferred from T. 1 N., R. 4 W.",2,43.0
+Stream Discharge,Inferred from TECOLOTE TUNNEL AREA,1,29.0
+Stream Discharge,Inferred from UTM Coordinates,1,14.0
+Stream Discharge,"Inferred from context (e.g., California counties)",1,22.0
+Stream Discharge,"Inferred from context in California, specific county not provided",2,22.0
+Stream Discharge,"Inferred from context or external data sources, as county is not specified in the document.",2,65.0
+Stream Discharge,Inferred from context: Likely a Californian county near the source of the water data,2,76.0
+Stream Discharge,"Inferred from context: Mendocino County, CA",1,42.0
+Stream Discharge,"Inferred from context: San Joaquin County, CA",2,54.0
+Stream Discharge,Inferred from data context,1,11.0
+Stream Discharge,"Inferred from document context, possibly San Joaquin County",2,39.0
+Stream Discharge,"Inferred from document location: Utah (Note: The source is in California, so the actual county may differ)",2,74.0
+Stream Discharge,Inferred from location,1,11.0
+Stream Discharge,"Inferred from location 'NEAR OLINDA, CA'",2,46.0
+Stream Discharge,Inferred from location as El Dorado County,1,36.0
+Stream Discharge,Inferred from location data,2,43.0
+Stream Discharge,Inferred from location data (likely Kern County),2,43.0
+Stream Discharge,Inferred from location in Kings County,1,36.0
+Stream Discharge,Inferred from location name (likely Siskiyou County),2,65.0
+Stream Discharge,"Inferred from location near Fullers Meadow, likely Inyo County",2,29.0
+Stream Discharge,"Inferred from location near Highway 150, likely San Luis Obispo County",1,23.0
+Stream Discharge,"Inferred from location near Keenbrook, Calif.",2,41.0
+Stream Discharge,Inferred from location: Kern County,1,33.0
+Stream Discharge,Inferred from location: Placer County,1,68.0
+Stream Discharge,Inferred from location: Tulare County,3,81.0
+Stream Discharge,Inferred from location: near Highway 101 in Southern California,1,29.0
+Stream Discharge,Inferred from other data sources,1,9.0
+Stream Discharge,Inferred from township and range,2,44.0
+Stream Discharge,Inferred: Fresno County,5,101.0
+Stream Discharge,Inferred: Fresno County (based on location description),1,29.0
+Stream Discharge,"Inferred: San Juan County, Utah",1,72.0
+Stream Discharge,Inferred: Shasta County,1,13.0
+Stream Discharge,Inferred: Yuba County,2,50.0
+Stream Discharge,Inferred_Fresno,1,61.0
+Stream Discharge,Inferred_Fresno County,5,22.0
+Stream Discharge,Inferred_Mono County,1,15.0
+Stream Discharge,Inferred_San Joaquin County,1,63.0
+Stream Discharge,Inyo,23,657.0
+Stream Discharge,Inyo County,1006,26204.0
+Stream Discharge,"Inyo County, CA",2,86.0
+Stream Discharge,"Inyo County, California",12,441.0
+Stream Discharge,Iron County,1,51.0
+Stream Discharge,"Iron County, Utah",17,255.0
+Stream Discharge,Isabella County,1,7.0
+Stream Discharge,Jackson,12,141.0
+Stream Discharge,Jackson County,34,524.0
+Stream Discharge,"Jackson County, Colorado",1,19.0
+Stream Discharge,"Jackson County, OR",2,44.0
+Stream Discharge,"Jackson County, Oreg.",2,25.0
+Stream Discharge,"Jackson County, Oregon",115,2139.0
+Stream Discharge,"Jackson County, Oregon (Inferred California location based on instruction)",2,44.0
+Stream Discharge,"Jackson County, Oregon (nearby state reference only, no county in California)",2,45.0
+Stream Discharge,"Jackson County, Oregon (proximity reference)",2,37.0
+Stream Discharge,"Jefferson County, Colorado",2,14.0
+Stream Discharge,"Jefferson County, Oreg.",1,15.0
+Stream Discharge,"Jefferson County, Oregon",4,93.0
+Stream Discharge,"Jefferson County, Washington",1,6.0
+Stream Discharge,Joaquin County,1,22.0
+Stream Discharge,Josephine County,5,42.0
+Stream Discharge,"Josephine County, Oregon",10,209.0
+Stream Discharge,Juab,3,71.0
+Stream Discharge,Juab County,4,45.0
+Stream Discharge,"Juab County, Utah",7,146.0
+Stream Discharge,KERN,2,44.0
+Stream Discharge,"KERN RIVER AT KERNVILLE, CALIF.",1,26.0
+Stream Discharge,Kane County,1,18.0
+Stream Discharge,"Kane County, Utah",1,54.0
+Stream Discharge,"Kenai Peninsula Borough, Alaska",1,14.0
+Stream Discharge,Kentucky,1,10.0
+Stream Discharge,Kern,21,558.0
+Stream Discharge,Kern County,822,21825.0
+Stream Discharge,Kern County and Tulare County,2,46.0
+Stream Discharge,"Kern County, CA",1,67.0
+Stream Discharge,"Kern County, California",15,367.0
+Stream Discharge,King,1,9.0
+Stream Discharge,King County,1,8.0
+Stream Discharge,"King County, Washington",1,10.0
+Stream Discharge,Kings,12,261.0
+Stream Discharge,Kings County,125,3234.0
+Stream Discharge,Kings County and Tulare County,1,19.0
+Stream Discharge,"Kings County and Tulare County, California",1,6.0
+Stream Discharge,"Kings County, CA",2,27.0
+Stream Discharge,"Kings County, California",13,275.0
+Stream Discharge,"Kings County, Tulare County",1,12.0
+Stream Discharge,"Kings County, Tulare County, Fresno County",1,47.0
+Stream Discharge,Klamath,110,2673.0
+Stream Discharge,Klamath County,485,9022.0
+Stream Discharge,Klamath County (Cal.),1,15.0
+Stream Discharge,"Klamath County, California",23,533.0
+Stream Discharge,"Klamath County, California (implied from Rogue River)",1,17.0
+Stream Discharge,"Klamath County, OR",11,337.0
+Stream Discharge,"Klamath County, Oreg.",4,59.0
+Stream Discharge,"Klamath County, Oregon",489,10002.0
+Stream Discharge,"Klamath County, Oregon (Note: document mentions Oreg. which is likely a typo for Oregon)",2,12.0
+Stream Discharge,"Klamath County, Oregon (inferred due to proximity and context)",2,47.0
+Stream Discharge,"Klamath County, Oregon (near Lake County, California)",2,26.0
+Stream Discharge,"Klamath County, Oregon and Del Norte County, California",2,25.0
+Stream Discharge,"Klamath Mountains, Northern California Coast Ranges, Entire region of Northern California Coast Ranges and Klamath Mountains",1,6.0
+Stream Discharge,"Klamath, Oregon",3,30.0
+Stream Discharge,"Klamath, Oregon (adjacent to California)",3,48.0
+Stream Discharge,Knox County,2,50.0
+Stream Discharge,"Kodiak Island Borough, Alaska",1,9.0
+Stream Discharge,L.A. County (Los Angeles),1,67.0
+Stream Discharge,LOS ANGELES,9,234.0
+Stream Discharge,LOS ANGELES COUNTY,23,671.0
+Stream Discharge,LOS ANGELES-VENTURA COUNTY LINE,21,532.0
+Stream Discharge,"LOS ANGELES-VENTURA COUNTY LINE, CA",4,131.0
+Stream Discharge,La Paz County,24,774.0
+Stream Discharge,"La Paz County (near Dome, Arizona)",1,71.0
+Stream Discharge,"La Paz County, AZ",1,68.0
+Stream Discharge,"La Paz County, Arizona",53,1867.0
+Stream Discharge,"La Paz County, Arizona (Topock)",2,62.0
+Stream Discharge,"La Paz County, Arizona (near California border)",1,34.0
+Stream Discharge,"La Paz County, Arizona (near Parker)",1,16.0
+Stream Discharge,"La Paz County, Arizona (near Parker, Ariz.)",1,14.0
+Stream Discharge,"La Paz County, Arizona and San Bernardino County, California",1,14.0
+Stream Discharge,"La Paz County, Arizona/Nevada border area",1,36.0
+Stream Discharge,"La Paz County, California",2,8.0
+Stream Discharge,"La Paz, AZ (near the border with California)",1,29.0
+Stream Discharge,"La Paz, Arizona (closest to Topock)",2,57.0
+Stream Discharge,La Plata County,7,194.0
+Stream Discharge,"La Plata County, Colorado",12,191.0
+Stream Discharge,"La Plata County, New Mexico",1,54.0
+Stream Discharge,Lake,50,1211.0
+Stream Discharge,"Lake (at Lower Lake, Cal.)",1,67.0
+Stream Discharge,Lake County,908,23487.0
+Stream Discharge,Lake County (inferred from location description),4,21.0
+Stream Discharge,"Lake County, CA",4,84.0
+Stream Discharge,"Lake County, Calif.",1,46.0
+Stream Discharge,"Lake County, California",101,2465.0
+Stream Discharge,"Lake County, California (based on proximity and common confusion)",1,14.0
+Stream Discharge,"Lake County, California (historically) / Malheur County, Oregon (present)",3,65.0
+Stream Discharge,"Lake County, California (inference based on document context related to Silver Lake Basin)",6,20.0
+Stream Discharge,"Lake County, California (inferred based on location description)",2,48.0
+Stream Discharge,"Lake County, California (inferred based on location mention)",2,16.0
+Stream Discharge,"Lake County, California (inferred based on proximity and typical stream patterns)",2,52.0
+Stream Discharge,"Lake County, California (inferred based on proximity to Lakeview, Oregon and the context of water usage)",1,45.0
+Stream Discharge,"Lake County, California (inferred from location near Fish Lake, Oreg.)",3,26.0
+Stream Discharge,"Lake County, California (inferred from nearest county in California context)",1,8.0
+Stream Discharge,"Lake County, Mendocino",1,67.0
+Stream Discharge,"Lake County, Mendocino National Forest",3,112.0
+Stream Discharge,"Lake County, Montana",1,57.0
+Stream Discharge,"Lake County, Napa County, Yolo County, Solano County",1,15.0
+Stream Discharge,"Lake County, Oreg.",6,57.0
+Stream Discharge,"Lake County, Oregon",141,2490.0
+Stream Discharge,"Lake County, Oregon (not California but inferred based on the location)",2,41.0
+Stream Discharge,"Lake of County, Kelseyville",1,38.0
+Stream Discharge,"Lakeview, Oreg.",4,59.0
+Stream Discharge,"Lakeview, Oregon",2,45.0
+Stream Discharge,Lancaster,1,38.0
+Stream Discharge,Lander County,9,157.0
+Stream Discharge,"Lander County, Nevada",13,164.0
+Stream Discharge,"Lander, NV & Alpine, CA",1,4.0
+Stream Discharge,Lane County,17,348.0
+Stream Discharge,"Lane County, Oregon",11,277.0
+Stream Discharge,"Laramie County, Wyoming",2,45.0
+Stream Discharge,"Larimer, Colorado",1,70.0
+Stream Discharge,Lassen,16,442.0
+Stream Discharge,Lassen County,448,11287.0
+Stream Discharge,"Lassen County, California",7,101.0
+Stream Discharge,"Lea County, New Mexico",1,9.0
+Stream Discharge,"Lemhi County, Idaho",3,71.0
+Stream Discharge,Likely a coastal county in California,1,14.0
+Stream Discharge,"Likely based on water discharge locations in California during 1967-1968, possibly within major river basins such as Sacramento or San Joaquin.",2,68.0
+Stream Discharge,"Likely in California due to document context, further analysis needed for exact county",1,35.0
+Stream Discharge,"Likely in California given the context, but exact county is not specified in the document.",1,37.0
+Stream Discharge,"Likely in a coastal county of California, near estuarine regions",1,15.0
+Stream Discharge,"Likely in a county with significant water resources or discharge measurement facilities in California, possibly Fresno or Kings County due to the presence of major rivers and agricultural activities.",1,29.0
+Stream Discharge,Likely in a region susceptible to seasonal water flow changes and wildfires.,1,35.0
+Stream Discharge,Likely located in Northern California due to high sediment discharge during rainy months.,2,66.0
+Stream Discharge,Likely located in a county where water quality data is recorded by the California Department of Water Resources.,1,21.0
+Stream Discharge,"Likely located in a county with documented burns and historical infrastructure projects (e.g., Fresno, Kern).",1,36.0
+Stream Discharge,"Likely located in a watershed known for sediment discharge, potentially the Sacramento or San Joaquin River basins.",2,66.0
+Stream Discharge,Likely multiple counties due to statewide data collection,1,28.0
+Stream Discharge,Likely within California due to data context,1,35.0
+Stream Discharge,"Likely within California due to the context, but specific county not determined from data.",1,66.0
+Stream Discharge,"Likely within California, exact county inferred from location data",2,75.0
+Stream Discharge,"Likely within a major Californian watershed such as the Sacramento or San Joaquin River basin, based on typical discharge measurement locations.",5,40.0
+Stream Discharge,Likely within a major watershed in California,1,35.0
+Stream Discharge,Lincoln County,11,129.0
+Stream Discharge,"Lincoln County, Montana",2,16.0
+Stream Discharge,"Lincoln County, Nevada",7,91.0
+Stream Discharge,"Lincoln County, New Mexico (actual location outside California)",3,14.0
+Stream Discharge,"Lincoln County, Utah",1,47.0
+Stream Discharge,"Lincoln County, Wyoming",6,80.0
+Stream Discharge,Lincoln and Sublette,1,23.0
+Stream Discharge,Lincoln-Sublette County line (location reference),1,23.0
+Stream Discharge,Linn County,2,45.0
+Stream Discharge,"Linn County, Oregon",8,314.0
+Stream Discharge,"Linn County, Oregon (part of Columbia River watershed extends into California)",2,24.0
+Stream Discharge,"Litchfield County, Connecticut",1,9.0
+Stream Discharge,Llano County,1,23.0
+Stream Discharge,Located in California based on the context of document origin.,2,76.0
+Stream Discharge,Lorella County (inferred based on location),2,43.0
+Stream Discharge,"Lorella is a fictional or mislabeled location, likely referring to an area in Oregon; no direct county can be inferred for California.",1,49.0
+Stream Discharge,"Lorella, Oreg.",2,56.0
+Stream Discharge,"Lorella, Oregon",2,39.0
+Stream Discharge,"Los Alamos County, New Mexico",1,68.0
+Stream Discharge,Los Angeles,284,7112.0
+Stream Discharge,Los Angeles County,4407,114939.0
+Stream Discharge,"Los Angeles County, CA (inferred based on Southern California)",1,33.0
+Stream Discharge,"Los Angeles County, California",18,417.0
+Stream Discharge,"Los Angeles County, Ventura County",1,32.0
+Stream Discharge,Los Angeles and San Bernardino,2,44.0
+Stream Discharge,Los Angeles and San Bernardino County line,1,38.0
+Stream Discharge,Los Angeles and Ventura,8,320.0
+Stream Discharge,Los Angeles and Ventura Counties,13,363.0
+Stream Discharge,Los Angeles and Ventura County Line,7,232.0
+Stream Discharge,"Los Angeles, Orange, Riverside, San Bernardino",2,57.0
+Stream Discharge,"Los Angeles, Ventura",12,362.0
+Stream Discharge,Los Angeles- Ventura County Line,12,403.0
+Stream Discharge,Los Angeles-San Bernardino County line,4,152.0
+Stream Discharge,Los Angeles-VENTURA COUNTY LINE,4,132.0
+Stream Discharge,"Los Angeles-VENTURA COUNTY LINE, CALIF.",2,37.0
+Stream Discharge,Los Angeles-Ventura County,1,26.0
+Stream Discharge,Los Angeles-Ventura County line,6,225.0
+Stream Discharge,Louisiana,1,102.0
+Stream Discharge,"Lower, North",1,12.0
+Stream Discharge,Luis Obispo,1,38.0
+Stream Discharge,Lyon County,11,265.0
+Stream Discharge,"Lyon County, NV",10,315.0
+Stream Discharge,"Lyon County, Nevada",22,378.0
+Stream Discharge,"Lyon County, Nevada (but contextually mentioned as part of California studies)",1,28.0
+Stream Discharge,"Lyon County, Nevada (nearest to the location)",3,47.0
+Stream Discharge,MADERA COUNTY,7,347.0
+Stream Discharge,MENDOCINO COUNTY,1,67.0
+Stream Discharge,MERCED COUNTY,4,107.0
+Stream Discharge,"MIDLAND, California",1,69.0
+Stream Discharge,Madera,33,994.0
+Stream Discharge,Madera County,1143,29928.0
+Stream Discharge,Madera County (Yosemite Valley),1,14.0
+Stream Discharge,Madera County and parts of Fresno County,4,65.0
+Stream Discharge,"Madera County, California",20,434.0
+Stream Discharge,Maine,1,10.0
+Stream Discharge,Malheur County,20,360.0
+Stream Discharge,Malheur County (Oreg.),5,22.0
+Stream Discharge,"Malheur County, Oregon",51,885.0
+Stream Discharge,"Malheur County, Oregon (Based on location details)",4,39.0
+Stream Discharge,"Malheur County, Oregon (Note: Not in California)",1,3.0
+Stream Discharge,"Mammoth County (inferred from context, likely Kings or Mariposa)",2,18.0
+Stream Discharge,Mancos,2,13.0
+Stream Discharge,"Mancos County, Colorado",2,31.0
+Stream Discharge,Maricopa,7,136.0
+Stream Discharge,Maricopa (AZ) and Mohave (CA),1,36.0
+Stream Discharge,Maricopa County,45,1411.0
+Stream Discharge,"Maricopa County, AZ (near Parker Dam)",1,34.0
+Stream Discharge,"Maricopa County, AZ / Yuma County, CA",1,37.0
+Stream Discharge,"Maricopa County, AZ and Mohave County, NV (inferred based on proximity to Hoover Dam)",1,29.0
+Stream Discharge,"Maricopa County, Arizona",114,3666.0
+Stream Discharge,"Maricopa County, Arizona (Note: Although the State of California is mentioned, this location is in Arizona. The document pertains to a site that requires inference based on known geography.)",2,18.0
+Stream Discharge,"Maricopa County, Arizona (near McDowell) - No direct California county inferred due to location being outside of California.",1,42.0
+Stream Discharge,"Maricopa County, Arizona; Clark County, Nevada",2,14.0
+Stream Discharge,"Maricopa County, Arizona; Imperial County, California",1,37.0
+Stream Discharge,"Maricopa County, Arizona; Imperial and Riverside Counties, California",2,21.0
+Stream Discharge,"Maricopa County, Arizona; Mohave County, Arizona; La Paz County, Arizona; and Yavapai County, Arizona (near Parker Dam)",1,34.0
+Stream Discharge,"Maricopa, AZ",2,76.0
+Stream Discharge,"Maricopa, Arizona",4,120.0
+Stream Discharge,Marin,9,206.0
+Stream Discharge,Marin County,344,9118.0
+Stream Discharge,"Marin County, California",1,10.0
+Stream Discharge,"Marin, Contra Costa, Alameda",1,29.0
+Stream Discharge,"Marin, San Mateo, Santa Clara, Alameda, Contra Costa, Solano, Sonoma (surrounding areas)",2,48.0
+Stream Discharge,"Marin, San Mateo, and other surrounding counties",1,23.0
+Stream Discharge,Marion County,1,8.0
+Stream Discharge,"Marion County, Oreg.",1,10.0
+Stream Discharge,Mariposa,96,2204.0
+Stream Discharge,Mariposa County,906,19996.0
+Stream Discharge,"Mariposa County, CA",3,16.0
+Stream Discharge,"Mariposa County, California",5,139.0
+Stream Discharge,"Mariposa County, Merced County",1,16.0
+Stream Discharge,"Marsupial, Arizona",1,31.0
+Stream Discharge,"McKinley County, N. Mex.",2,23.0
+Stream Discharge,"McKinley County, New Mexico",11,299.0
+Stream Discharge,"McKinley, New Mexico",3,96.0
+Stream Discharge,Mendocino,202,5984.0
+Stream Discharge,Mendocino County,2051,59620.0
+Stream Discharge,"Mendocino County, CA",2,63.0
+Stream Discharge,"Mendocino County, California",19,496.0
+Stream Discharge,Merced,19,528.0
+Stream Discharge,Merced County,743,19937.0
+Stream Discharge,Merced County and Fresno County,2,14.0
+Stream Discharge,"Merced County, California",10,223.0
+Stream Discharge,Mesa,1,18.0
+Stream Discharge,Mesa County,38,1458.0
+Stream Discharge,"Mesa County, CO",1,22.0
+Stream Discharge,"Mesa County, Colorado",27,1001.0
+Stream Discharge,"Mesa County, Utah",2,113.0
+Stream Discharge,"Mesa County, Utah (closest California county by geography is Mono County)",1,18.0
+Stream Discharge,Millard County,9,220.0
+Stream Discharge,"Millard County, Utah",13,283.0
+Stream Discharge,Mississippi,1,6.0
+Stream Discharge,Missouri,1,9.0
+Stream Discharge,"Mobile County, Alabama",2,72.0
+Stream Discharge,Modoc,31,679.0
+Stream Discharge,Modoc County,287,7096.0
+Stream Discharge,Modoc County (Oregon),2,45.0
+Stream Discharge,"Modoc County, CA",2,76.0
+Stream Discharge,"Modoc County, California",16,542.0
+Stream Discharge,"Modoc County, Oregon",4,116.0
+Stream Discharge,"Modoc, Lassen, Shasta Counties",3,61.0
+Stream Discharge,Modoc-Lassen County Line,1,32.0
+Stream Discharge,Moffat County,13,282.0
+Stream Discharge,"Moffat County, Colorado",10,193.0
+Stream Discharge,Mohave County,27,917.0
+Stream Discharge,"Mohave County, AZ",1,34.0
+Stream Discharge,"Mohave County, AZ / Clark County, NV",3,133.0
+Stream Discharge,"Mohave County, Ariz.",1,32.0
+Stream Discharge,"Mohave County, Ariz. / Clark County, Nev.",1,69.0
+Stream Discharge,"Mohave County, Ariz., and Clark County, Nev.",1,22.0
+Stream Discharge,"Mohave County, Arizona",40,1300.0
+Stream Discharge,"Mohave County, Arizona (approximate)",1,7.0
+Stream Discharge,"Mohave County, Arizona / Clark County, Nevada",4,79.0
+Stream Discharge,"Mohave County, Arizona and Clark County, Nevada",10,359.0
+Stream Discharge,"Mohave County, Arizona/Nevada Border (inferred as it is near Hoover Dam)",1,48.0
+Stream Discharge,"Mohave County, Arizona/Nevada border",1,36.0
+Stream Discharge,"Mohave County, Arizona/Nye County, Nevada",2,45.0
+Stream Discharge,"Mohave County, Arizona; Clark County, Nevada",4,127.0
+Stream Discharge,"Mohave County, Arizona; Yuma County, California",1,33.0
+Stream Discharge,Mohave and Clark Counties,1,38.0
+Stream Discharge,"Mohave, Arizona",1,33.0
+Stream Discharge,"Mojave County, Arizona / Clark County, Nevada",2,40.0
+Stream Discharge,"Mojave Desert, CA region",1,22.0
+Stream Discharge,Mokelumne,2,47.0
+Stream Discharge,Mono County,345,9683.0
+Stream Discharge,"Mono County, CA",1,6.0
+Stream Discharge,"Mono County, California",6,150.0
+Stream Discharge,"Mono County, Inyo County",1,55.0
+Stream Discharge,Montana,1,7.0
+Stream Discharge,"Montana, South Dakota",1,10.0
+Stream Discharge,"Montana, Wyoming",1,10.0
+Stream Discharge,Montecito,2,24.0
+Stream Discharge,Montecito County,6,135.0
+Stream Discharge,Montecito County Water District (City of Santa Barbara),1,13.0
+Stream Discharge,Monterey,161,3800.0
+Stream Discharge,Monterey County,1090,27898.0
+Stream Discharge,"Monterey County, California",13,453.0
+Stream Discharge,"Monterey County, Santa Cruz County, San Benito County, and Salinas Valley in California",1,4.0
+Stream Discharge,"Monterey, Calif",1,16.0
+Stream Discharge,Montezuma County,10,133.0
+Stream Discharge,"Montezuma County, CO",2,32.0
+Stream Discharge,"Montezuma County, Colorado",11,252.0
+Stream Discharge,"Montezuma County, Colorado (inferred due to location near Mancos, Colo.)",2,44.0
+Stream Discharge,Montrose County,11,180.0
+Stream Discharge,"Montrose County, Colorado",23,285.0
+Stream Discharge,"Mora County, New Mexico",3,162.0
+Stream Discharge,Morgan County,6,60.0
+Stream Discharge,"Morgan County, Utah",6,140.0
+Stream Discharge,"Morrow County, Oregon",1,64.0
+Stream Discharge,Multiple Counties across California (Surface Water),1,20.0
+Stream Discharge,Multiple Counties across Utah and Colorado (with further inferences possible for California sections),2,39.0
+Stream Discharge,Multiple Counties across the Midwest,1,16.0
+Stream Discharge,Multiple Counties along Arkansas River in California (inference based),1,19.0
+Stream Discharge,Multiple Counties in Arizona,1,14.0
+Stream Discharge,Multiple Counties in California,2,18.0
+Stream Discharge,Multiple Counties in Central California,2,7.0
+Stream Discharge,Multiple Counties in Illinois,1,8.0
+Stream Discharge,Multiple Counties in Missouri,1,7.0
+Stream Discharge,Multiple Counties in Northern California,2,58.0
+Stream Discharge,Multiple Counties in Oregon,1,15.0
+Stream Discharge,Multiple Counties in the Sacramento River Basin,1,78.0
+Stream Discharge,Multiple counties across Arizona and California,1,8.0
+Stream Discharge,"Multiple counties across Nevada, Utah, and surrounding states",1,9.0
+Stream Discharge,Multiple counties across the Great Basin and Pacific Coast Basins in California,2,18.0
+Stream Discharge,"Multiple counties along its course (e.g., Sacramento County)",1,72.0
+Stream Discharge,Multiple counties in California,1,16.0
+Stream Discharge,Multiple counties within California,2,55.0
+Stream Discharge,Multiple counties within the Sacramento River basin region in California,1,5.0
+Stream Discharge,Multnomah County,2,108.0
+Stream Discharge,"Municipality of Anchorage, Alaska (contextually inferred from Turnagain Arm location)",1,11.0
+Stream Discharge,"Murray, Utah",1,14.0
+Stream Discharge,"NA (Document indicates Arizona, not California)",2,43.0
+Stream Discharge,Napa,52,1171.0
+Stream Discharge,Napa County,471,12205.0
+Stream Discharge,"Napa County, California",1,70.0
+Stream Discharge,"Nassau County, New York (Based on location context)",1,41.0
+Stream Discharge,Natrona County,1,70.0
+Stream Discharge,"Natrona County, WY",6,247.0
+Stream Discharge,"Natrona County, Wyoming",1,71.0
+Stream Discharge,Navajo County,17,422.0
+Stream Discharge,"Navajo County, Arizona",69,1902.0
+Stream Discharge,Navajo Indian Reservation,2,45.0
+Stream Discharge,Near Cottonwood River,1,8.0
+Stream Discharge,Near Gasconade River in Missouri.,1,9.0
+Stream Discharge,"Near San Francisco Bay Estuary, California",1,15.0
+Stream Discharge,Nebraska,1,15.0
+Stream Discharge,Nederland,1,8.0
+Stream Discharge,Nevada,21,462.0
+Stream Discharge,Nevada County,776,21361.0
+Stream Discharge,"Nevada County, CA",3,131.0
+Stream Discharge,"Nevada County, CA (Inferred)",1,69.0
+Stream Discharge,"Nevada County, California",155,4233.0
+Stream Discharge,"Nevada County, California (based on proximity to Little Truckee area)",2,16.0
+Stream Discharge,"Nevada County, California (implied from Truckee River location)",2,55.0
+Stream Discharge,"Nevada County, California (near Gardnerville)",2,39.0
+Stream Discharge,"Nevada County, California (near boundary with Nevada)",2,46.0
+Stream Discharge,"Nevada County, Nevada",8,233.0
+Stream Discharge,"Nevada County, Placer County, El Dorado County",1,70.0
+Stream Discharge,Nevada and California,1,4.0
+Stream Discharge,"Nevada and California (Primarily Elko County, NV, Washoe County, NV, Placer County, CA)",1,3.0
+Stream Discharge,Nevada and California State line,1,70.0
+Stream Discharge,"Nevada, Arizona",1,47.0
+Stream Discharge,"Nevada, California",2,16.0
+Stream Discharge,"Nevada, Elko County (commonly associated with Carson River near Lake Tahoe)",1,15.0
+Stream Discharge,Nevada/Arizona Border,2,77.0
+Stream Discharge,Nevada/California Border,1,3.0
+Stream Discharge,Nevada/California Border Region,1,1.0
+Stream Discharge,Nevares County (hypothetical based on location context),2,11.0
+Stream Discharge,New Jersey,1,10.0
+Stream Discharge,New London,1,9.0
+Stream Discharge,New Mexico,4,103.0
+Stream Discharge,New Mexico County (based on the context),1,49.0
+Stream Discharge,New York,2,19.0
+Stream Discharge,"Nez Perce County, Idaho",4,43.0
+Stream Discharge,None (Arizona),1,48.0
+Stream Discharge,None Provided,4,75.0
+Stream Discharge,None provided,3,143.0
+Stream Discharge,None specified for exact county within Arizona or Nevada,1,74.0
+Stream Discharge,None specified in the document,2,45.0
+Stream Discharge,Northern California (inferred based on typical regions of stream discharge data),1,38.0
+Stream Discharge,Northern California Coastal Counties,1,18.0
+Stream Discharge,Northern California Subregions 1 and 2,1,7.0
+Stream Discharge,Northern California region,2,13.0
+Stream Discharge,Northern Central Valley (California),2,20.0
+Stream Discharge,Northern Central Valley Basins and The Great Basin from Honey Lake Basin to Oregon State Line,1,8.0
+Stream Discharge,Not Applicable,2,80.0
+Stream Discharge,Not Available,42,993.0
+Stream Discharge,Not Available in Document,1,62.0
+Stream Discharge,Not Inferred,2,108.0
+Stream Discharge,Not Provided,86,2337.0
+Stream Discharge,Not Specified,45,1207.0
+Stream Discharge,Not Specified (Oregon),2,42.0
+Stream Discharge,Not explicitly mentioned,1,30.0
+Stream Discharge,"Not explicitly mentioned, inferred based on study locations within California.",1,25.0
+Stream Discharge,Not explicitly provided in document,2,44.0
+Stream Discharge,"Not explicitly provided in the document, inferred based on typical water discharge data collection locations.",2,55.0
+Stream Discharge,"Not explicitly stated in document, inferred as Shasta County due to proximity information provided",2,18.0
+Stream Discharge,Not provided,5,221.0
+Stream Discharge,Not provided in document,2,108.0
+Stream Discharge,"Not provided in document, inference required based on location context.",2,44.0
+Stream Discharge,Not specified,39,971.0
+Stream Discharge,Not specified in document,15,241.0
+Stream Discharge,Not specified in document for California context,4,40.0
+Stream Discharge,Not specified in the document,10,222.0
+Stream Discharge,Nye County,8,195.0
+Stream Discharge,"Nye County, NV",4,86.0
+Stream Discharge,"Nye County, NV (near California border)",1,24.0
+Stream Discharge,"Nye County, NV / Douglas County, CA",1,64.0
+Stream Discharge,"Nye County, Nevada",22,566.0
+Stream Discharge,"Nye County, Nevada (Nearby)",2,55.0
+Stream Discharge,"Nye County, Nevada (Note: Document states California but West Fork of the Carson River is in Nevada)",1,64.0
+Stream Discharge,"Nye County, Nevada (closest to Halleck, Nev.)",3,51.0
+Stream Discharge,"Nye County, Nevada (partially in California)",1,3.0
+Stream Discharge,"Nye County, Nevada / Alpine County, California",2,64.0
+Stream Discharge,"Nye County, Nevada and Alpine County, California",1,2.0
+Stream Discharge,"Nye County, Nevada and California",1,0.0
+Stream Discharge,"Nye County, Nevada and Mono County, California",1,3.0
+Stream Discharge,"Nye County, Nevada; Esmeralda County, California",1,3.0
+Stream Discharge,"Nye County, Nevada; Mono County, California",1,1.0
+Stream Discharge,"Nye, Nevada; Inyo, California",1,0.0
+Stream Discharge,ORANGE,2,66.0
+Stream Discharge,ORANGE COUNTY,1,38.0
+Stream Discharge,Oklahoma / Arkansas border region,1,9.0
+Stream Discharge,Orange,51,1107.0
+Stream Discharge,Orange County,2294,62234.0
+Stream Discharge,"Orange County, California",83,2314.0
+Stream Discharge,"Orange County, California (inferred based on Santa Ana River location)",1,17.0
+Stream Discharge,"Orange County, Riverside County",2,46.0
+Stream Discharge,Orange County/Riverside County Line,1,17.0
+Stream Discharge,"Orange, Riverside",1,16.0
+Stream Discharge,Oreg,2,20.0
+Stream Discharge,Oreg.,6,61.0
+Stream Discharge,Oregon,6,40.0
+Stream Discharge,Oregon County,1,78.0
+Stream Discharge,Oregon County (Oregon),2,60.0
+Stream Discharge,"Otero County, New Mexico",1,74.0
+Stream Discharge,"Ouray County, Utah",5,183.0
+Stream Discharge,"Owyhee County, Idaho",3,63.0
+Stream Discharge,"Ozarks, Missouri",1,53.0
+Stream Discharge,PLACER COUNTY,2,67.0
+Stream Discharge,Pacific slope basins in California from Arroyo Grande to Oregon State line except Central Valley,1,6.0
+Stream Discharge,Palo,1,25.0
+Stream Discharge,"Palo Verde County, California",2,36.0
+Stream Discharge,"Park County, Colorado",1,38.0
+Stream Discharge,"Park County, Wyoming",3,21.0
+Stream Discharge,Pennsylvania,1,9.0
+Stream Discharge,Pershing County,1,22.0
+Stream Discharge,"Pershing County, NV",1,22.0
+Stream Discharge,"Pershing County, Nevada",1,47.0
+Stream Discharge,Phelps County,1,48.0
+Stream Discharge,Pima,1,29.0
+Stream Discharge,Pima County,73,2736.0
+Stream Discharge,Pima County (AZ) and Santa Cruz County (Mexico),2,76.0
+Stream Discharge,"Pima County, Arizona",147,5443.0
+Stream Discharge,"Pima County, Arizona (Closest to California border)",2,74.0
+Stream Discharge,"Pima County, Arizona (Inferred)",1,77.0
+Stream Discharge,"Pima County, Arizona (State of California context required)",2,75.0
+Stream Discharge,"Pima County, Arizona (inferred as the nearest county in California context)",2,76.0
+Stream Discharge,"Pima County, Arizona (inferred based on proximity to Solomon)",1,69.0
+Stream Discharge,"Pima County, Arizona (inferred from location)",2,46.0
+Stream Discharge,"Pima County, Cochise County (Arizona)",2,51.0
+Stream Discharge,"Pima, AZ",2,75.0
+Stream Discharge,"Pima, Arizona",8,275.0
+Stream Discharge,Pinal County,64,2287.0
+Stream Discharge,Pinal County (Arizona portion),1,72.0
+Stream Discharge,Pinal County (Arizona),4,66.0
+Stream Discharge,"Pinal County, Arizona",175,6097.0
+Stream Discharge,"Pinal County, Arizona (closest to Clifton, AZ)",2,76.0
+Stream Discharge,"Pinal County, Arizona (inference based on location)",2,44.0
+Stream Discharge,"Pinal County, Arizona (inferred as the closest county since it's near Winkelman, AZ)",2,45.0
+Stream Discharge,"Pinal County, Arizona (inferred based on location)",2,76.0
+Stream Discharge,"Pinal County, Arizona (near Duncan) and Luna County, New Mexico (below Blue Creek)",1,71.0
+Stream Discharge,"Pinal County, Arizona (nearby)",2,43.0
+Stream Discharge,"Pinal, Arizona and Imperial, California",1,7.0
+Stream Discharge,"Piscataquis County, Maine",1,9.0
+Stream Discharge,Pitkin County,4,51.0
+Stream Discharge,"Pitkin County, Colorado",1,8.0
+Stream Discharge,Piute County,1,23.0
+Stream Discharge,"Piute County, Utah",3,62.0
+Stream Discharge,Placer,163,4263.0
+Stream Discharge,Placer County,1893,51496.0
+Stream Discharge,"Placer County (Tahoe, Cal.)",2,49.0
+Stream Discharge,Placer County (near Boca) and Washoe County (near Truckee),1,13.0
+Stream Discharge,Placer County and El Dorado County (boundary area),1,2.0
+Stream Discharge,"Placer County, California",30,1013.0
+Stream Discharge,"Placer County, El Dorado County, Sacramento County, Yolo County, Solano County",1,11.0
+Stream Discharge,"Placer County, Lake County, Sacramento County, Yuba County, Nevada County (Oroville)",1,2.0
+Stream Discharge,"Placer County, Nevada",2,63.0
+Stream Discharge,"Placer County, Yuba County",1,27.0
+Stream Discharge,Platte County,2,84.0
+Stream Discharge,"Platte County, Nebraska",1,13.0
+Stream Discharge,Plumas,68,1689.0
+Stream Discharge,Plumas Co,2,33.0
+Stream Discharge,Plumas County,2648,65341.0
+Stream Discharge,"Plumas County, California",41,1127.0
+Stream Discharge,Possible County Inference Based on Data Context,1,45.0
+Stream Discharge,Possible County based on sediment concentration data and regional analysis,2,51.0
+Stream Discharge,"Potential Counties: Those where sediment discharge and water temperature records are kept, likely associated with California water bodies.",1,32.0
+Stream Discharge,Potential County based on typical California stream discharge patterns,1,28.0
+Stream Discharge,Potential counties based on UTM coordinates could include parts of San Francisco or Monterey counties.,1,18.0
+Stream Discharge,Power County,3,41.0
+Stream Discharge,"Presumed Estuarine County, California",1,18.0
+Stream Discharge,RIVERSIDE,3,106.0
+Stream Discharge,RIVERSIDE COUNTY,2,76.0
+Stream Discharge,"Red Bluff area in Tehama County, California",1,15.0
+Stream Discharge,"Reynolds County, Missouri",1,23.0
+Stream Discharge,Rio Arriba County,5,91.0
+Stream Discharge,"Rio Arriba County, New Mexico",1,54.0
+Stream Discharge,"Rio Arriba, New Mexico",2,27.0
+Stream Discharge,Rio Blanco County,5,159.0
+Stream Discharge,"Rio Blanco County, Colorado",4,119.0
+Stream Discharge,"Rio Grande County, Colorado",3,77.0
+Stream Discharge,Riverside,169,4578.0
+Stream Discharge,Riverside County,1867,48444.0
+Stream Discharge,"Riverside County, CA",1,30.0
+Stream Discharge,"Riverside County, California",19,417.0
+Stream Discharge,"Riverside County, Orange County",3,49.0
+Stream Discharge,"Riverside County, Orange County, San Bernardino County",2,25.0
+Stream Discharge,"Riverside County, San Bernardino County",1,37.0
+Stream Discharge,"Riverside County, San Diego County",1,15.0
+Stream Discharge,Riverside and Orange,2,71.0
+Stream Discharge,Riverside and Orange County Line,3,35.0
+Stream Discharge,Routt County,3,96.0
+Stream Discharge,"Routt County, Colorado",5,249.0
+Stream Discharge,SACRAMENTO,2,77.0
+Stream Discharge,SACRAMENTO COUNTY,1,78.0
+Stream Discharge,SAN DIEGO,3,114.0
+Stream Discharge,SAN LUIS OBISPO,2,66.0
+Stream Discharge,SAN LUIS OBISPO COUNTY,2,81.0
+Stream Discharge,SANTA BARBARA COUNTY,5,148.0
+Stream Discharge,SANTA CLARA,2,64.0
+Stream Discharge,SANTA CLARA COUNTY,7,189.0
+Stream Discharge,SONOMA,2,66.0
+Stream Discharge,SONOMA COUNTY,4,171.0
+Stream Discharge,STANISLAUS,2,66.0
+Stream Discharge,STANISLAUS COUNTY,3,95.0
+Stream Discharge,Sacramento,84,2814.0
+Stream Discharge,Sacramento County,1115,31943.0
+Stream Discharge,Sacramento County (Inferred),2,22.0
+Stream Discharge,Sacramento County (based on typical locations of temperature recording stations in California),1,66.0
+Stream Discharge,Sacramento County (inferred from the context of discharge data and common water study areas in California),2,54.0
+Stream Discharge,Sacramento County (inferred from typical locations of water quality studies in California),2,67.0
+Stream Discharge,Sacramento County and others along the river basin,2,78.0
+Stream Discharge,"Sacramento County and surrounding counties in the Sacramento Valley, California",1,19.0
+Stream Discharge,"Sacramento County, CA (Based on typical location)",2,20.0
+Stream Discharge,"Sacramento County, CA (based on typical suspended sediment discharge locations)",2,66.0
+Stream Discharge,"Sacramento County, California",37,1081.0
+Stream Discharge,"Sacramento County, California (inferred based on typical large watershed discharge data)",2,66.0
+Stream Discharge,"Sacramento, Solano",1,19.0
+Stream Discharge,Sacramento-San Joaquin County line,10,134.0
+Stream Discharge,"Safford County, Arizona",1,70.0
+Stream Discharge,"Saguache County, Colorado",8,74.0
+Stream Discharge,"Saint Louis County, Minnesota",1,9.0
+Stream Discharge,"Salinas Valley, Monterey County",2,55.0
+Stream Discharge,Salt Lake County,45,1127.0
+Stream Discharge,"Salt Lake County, California (inferred)",1,41.0
+Stream Discharge,"Salt Lake County, Utah",28,745.0
+Stream Discharge,San Benito,40,1017.0
+Stream Discharge,San Benito County,294,7428.0
+Stream Discharge,San Bernardino,196,4843.0
+Stream Discharge,San Bernardino County,2078,53559.0
+Stream Discharge,San Bernardino County and Riverside County,2,45.0
+Stream Discharge,"San Bernardino County, Calif.",1,29.0
+Stream Discharge,"San Bernardino County, California",25,630.0
+Stream Discharge,San Diego,301,6951.0
+Stream Discharge,San Diego County,2715,67674.0
+Stream Discharge,"San Diego County, CA",1,3.0
+Stream Discharge,"San Diego County, California",17,409.0
+Stream Discharge,San Francisco,3,38.0
+Stream Discharge,San Francisco County,8,169.0
+Stream Discharge,"San Francisco County, California",1,18.0
+Stream Discharge,"San Francisco, California",1,20.0
+Stream Discharge,"San Francisco, California or Los Angeles, California",1,13.0
+Stream Discharge,San Joaquin,109,2727.0
+Stream Discharge,San Joaquin County,715,17542.0
+Stream Discharge,"San Joaquin County, California",10,299.0
+Stream Discharge,"San Joaquin Valley, California",2,54.0
+Stream Discharge,San Juan,1,22.0
+Stream Discharge,San Juan County,27,771.0
+Stream Discharge,San Juan County (New Mexico) - Note: not in California but inferred from context.,2,84.0
+Stream Discharge,"San Juan County, Arizona (nearby)",1,68.0
+Stream Discharge,"San Juan County, Colo.",1,22.0
+Stream Discharge,"San Juan County, Colorado",7,184.0
+Stream Discharge,"San Juan County, Colorado (Note: Original task specifies California sources, but this is inferred based on document context)",2,14.0
+Stream Discharge,"San Juan County, Colorado (nearest county in the state of Colorado as no direct match in California)",3,23.0
+Stream Discharge,"San Juan County, N. MEX",1,22.0
+Stream Discharge,"San Juan County, N. Mex.",3,76.0
+Stream Discharge,"San Juan County, NM",1,18.0
+Stream Discharge,"San Juan County, New Mexico",46,1669.0
+Stream Discharge,"San Juan County, New Mexico (near Colorado-New Mexico State line)",2,46.0
+Stream Discharge,"San Juan County, Utah",48,1685.0
+Stream Discharge,"San Leandro, Contra Costa County",2,46.0
+Stream Discharge,"San Leandro, San Francisco County",2,30.0
+Stream Discharge,San Lorenzo County,1,14.0
+Stream Discharge,San Luis,3,50.0
+Stream Discharge,San Luis County,5,61.0
+Stream Discharge,San Luis Obispo,100,2746.0
+Stream Discharge,San Luis Obispo County,950,25347.0
+Stream Discharge,"San Luis Obispo County (inferred from the location near Santa Clara, Utah; however, this document pertains to a different state context)",2,76.0
+Stream Discharge,"San Luis Obispo County, California",3,30.0
+Stream Discharge,"San Luis Obispo County, Santa Barbara County",2,44.0
+Stream Discharge,"San Luis Obispo, Santa Barbara",1,43.0
+Stream Discharge,San Luis Obispo-Santa Barbara County,1,38.0
+Stream Discharge,San Luis Obispo-Santa Barbara County line,6,192.0
+Stream Discharge,"San Marcos Grant, Santa Barbara County",1,38.0
+Stream Discharge,San Mateo,54,1614.0
+Stream Discharge,San Mateo County,358,9622.0
+Stream Discharge,"San Mateo County, Alameda County",2,41.0
+Stream Discharge,"San Mateo County, Alameda County, Contra Costa County",1,10.0
+Stream Discharge,"San Mateo County, Alameda County, Contra Costa County, Marin County, San Francisco County",1,23.0
+Stream Discharge,"San Mateo County, California",4,69.0
+Stream Discharge,San Mateo or Alameda County,1,19.0
+Stream Discharge,"San Mateo, Alameda, Contra Costa, Santa Clara",1,12.0
+Stream Discharge,"San Mateo, Alameda, Contra Costa, Santa Clara, and San Francisco Counties",1,22.0
+Stream Discharge,San Miguel County,2,54.0
+Stream Discharge,"San Miguel County, Colorado",2,27.0
+Stream Discharge,"San Miguel County, New Mexico",2,144.0
+Stream Discharge,San Pablo,2,76.0
+Stream Discharge,"Sandoval County, New Mexico",5,211.0
+Stream Discharge,"Sandoval County, New Mexico (inferred based on location near Rodeo, N. Mex.)",2,37.0
+Stream Discharge,Sanpete County,7,190.0
+Stream Discharge,"Sanpete County, Utah",6,137.0
+Stream Discharge,Santa Ana County,1,32.0
+Stream Discharge,Santa Barbara,105,2480.0
+Stream Discharge,Santa Barbara County,2499,62153.0
+Stream Discharge,"Santa Barbara County, CA",2,67.0
+Stream Discharge,"Santa Barbara County, California",15,460.0
+Stream Discharge,Santa Clara,109,2887.0
+Stream Discharge,Santa Clara County,1637,40335.0
+Stream Discharge,Santa Clara County (inferred based on proximity to San Francisco Bay),1,14.0
+Stream Discharge,Santa Clara County (inferred based on typical river locations in California),2,76.0
+Stream Discharge,"Santa Clara County, California",11,296.0
+Stream Discharge,Santa Cruz,27,735.0
+Stream Discharge,Santa Cruz County,743,17679.0
+Stream Discharge,"Santa Cruz County, Arizona",16,413.0
+Stream Discharge,"Santa Cruz County, CA",2,130.0
+Stream Discharge,"Santa Cruz County, California",11,298.0
+Stream Discharge,"Santa Cruz County, New Mexico",4,224.0
+Stream Discharge,"Santa Cruz County, New Mexico and Pinal County, Arizona",2,47.0
+Stream Discharge,"Santa Cruz, Arizona",3,95.0
+Stream Discharge,"Santa Cruz, California (inferred due to proximity and similar basin characteristics)",1,69.0
+Stream Discharge,"Santa Fe, New Mexico",1,71.0
+Stream Discharge,Saratoga County (Inferred),2,44.0
+Stream Discharge,"Saratoga County, California",1,19.0
+Stream Discharge,Sequoia National Forest (Approximate),1,15.0
+Stream Discharge,Sevier County,18,294.0
+Stream Discharge,"Sevier County, Utah",46,807.0
+Stream Discharge,"Sevier County, Utah (Not California; inferred based on location)",1,22.0
+Stream Discharge,Shasta,26,623.0
+Stream Discharge,Shasta County,1761,43342.0
+Stream Discharge,"Shasta County, California",28,753.0
+Stream Discharge,"Sheridan County, Wyoming",2,25.0
+Stream Discharge,Sierra County,275,7034.0
+Stream Discharge,"Sierra County, California",8,186.0
+Stream Discharge,"Sierra County, Nevada County, Placer County",2,44.0
+Stream Discharge,"Sierra County, New Mexico",2,72.0
+Stream Discharge,Sierra Nevada County,1,11.0
+Stream Discharge,"Sierra Nevada, CA (inferred from document context)",1,19.0
+Stream Discharge,Siski You County,2,77.0
+Stream Discharge,Siskiyou,214,5416.0
+Stream Discharge,Siskiyou County,1752,43503.0
+Stream Discharge,"Siskiyou County, CA",3,27.0
+Stream Discharge,"Siskiyou County, Calif.",3,50.0
+Stream Discharge,"Siskiyou County, California",113,3229.0
+Stream Discharge,"Siskiyou County, California (inferred based on proximity to the mentioned location in Oregon)",2,49.0
+Stream Discharge,"Siskiyou County, Oreg.",1,31.0
+Stream Discharge,"Siskiyou County, Oregon",18,485.0
+Stream Discharge,"Siskiyou, California",3,129.0
+Stream Discharge,"Siskiyou, Shasta, or Tehama",1,18.0
+Stream Discharge,"Siskiyou, Trinity",1,67.0
+Stream Discharge,Skagit County,1,25.0
+Stream Discharge,Smith,1,22.0
+Stream Discharge,Socorro County,1,68.0
+Stream Discharge,"Socorro County, New Mexico",7,150.0
+Stream Discharge,Solano,6,96.0
+Stream Discharge,Solano County,93,2219.0
+Stream Discharge,"Solano County, California",2,82.0
+Stream Discharge,Somesbar,2,76.0
+Stream Discharge,Sonoma,76,2160.0
+Stream Discharge,Sonoma County,1407,41528.0
+Stream Discharge,"Sonoma County, CA",3,32.0
+Stream Discharge,"Sonoma County, California",4,218.0
+Stream Discharge,"Sonoma, Mendocino, Lake (partial), and other counties",3,65.0
+Stream Discharge,Southern Central Valley,2,15.0
+Stream Discharge,"Southern Central Valley Basins and The Great Basin, Walker River to Truckee River",2,8.0
+Stream Discharge,"Southern Coast Ranges Counties (e.g., Monterey, San Luis Obispo)",1,5.0
+Stream Discharge,St. Francois County,1,20.0
+Stream Discharge,Stanislaus,23,577.0
+Stream Discharge,Stanislaus County,816,21830.0
+Stream Discharge,"Stanislaus County, California",10,234.0
+Stream Discharge,"Stanislaus County, Fresno County, Madera County, Merced County, Tuolumne County, Calaveras County, Amador County, El Dorado County",1,35.0
+Stream Discharge,"Stanislaus National Forest, Alpine County",1,38.0
+Stream Discharge,Statewide (California),1,11.0
+Stream Discharge,"Steuben County, New York",1,6.0
+Stream Discharge,Storey,4,72.0
+Stream Discharge,Storey County,15,100.0
+Stream Discharge,"Storey County, NV (near Gardnerville, NV)",1,14.0
+Stream Discharge,"Storey County, Nevada",4,115.0
+Stream Discharge,Sublette County,13,247.0
+Stream Discharge,"Sublette County, WY",2,55.0
+Stream Discharge,"Sublette County, Wyoming",16,177.0
+Stream Discharge,"Suisun Bay, CA vicinity (based on proximity to known estuarine locations in California)",1,13.0
+Stream Discharge,Summit County,6,163.0
+Stream Discharge,"Summit County, Colorado",8,89.0
+Stream Discharge,"Summit County, Utah",1,70.0
+Stream Discharge,Susquehanna River basin,1,19.0
+Stream Discharge,Sutter,2,45.0
+Stream Discharge,Sutter County,273,8326.0
+Stream Discharge,"Sutter County, California",2,11.0
+Stream Discharge,Sweetwater County,20,348.0
+Stream Discharge,"Sweetwater County, WY",4,180.0
+Stream Discharge,"Sweetwater County, WYO.",1,23.0
+Stream Discharge,"Sweetwater County, Wyo.",3,67.0
+Stream Discharge,"Sweetwater County, Wyoming",8,170.0
+Stream Discharge,"T. 2 N., R. 1 E.",1,16.0
+Stream Discharge,TBD,1,69.0
+Stream Discharge,TBD based on UTM coordinates conversion to county map,1,16.0
+Stream Discharge,TULARE,26,1112.0
+Stream Discharge,TULARE COUNTY,16,500.0
+Stream Discharge,"TULARE COUNTY, CALIFORNIA",2,66.0
+Stream Discharge,Tahoe,3,61.0
+Stream Discharge,Tahoe County,9,230.0
+Stream Discharge,"Tahoe County, California",2,72.0
+Stream Discharge,Tahoe National Forest (inferred from Tuolumne County location),2,44.0
+Stream Discharge,Talladega,1,9.0
+Stream Discharge,Tehama,89,2320.0
+Stream Discharge,Tehama County,1041,26418.0
+Stream Discharge,"Tehama County, California",13,337.0
+Stream Discharge,"Tehama County, California (Inferred from location context)",1,46.0
+Stream Discharge,Teton County,3,84.0
+Stream Discharge,"Teton County, Idaho",2,51.0
+Stream Discharge,"Teton County, WY",2,55.0
+Stream Discharge,"Teton County, Wyoming",4,120.0
+Stream Discharge,Thermopolis,1,8.0
+Stream Discharge,"Tillamook, Oregon",3,49.0
+Stream Discharge,"Tolovana County, Oregon",2,44.0
+Stream Discharge,Tooele County,6,189.0
+Stream Discharge,"Tooele County, Utah",9,264.0
+Stream Discharge,"Tooele County, Utah (near Collinston)",2,73.0
+Stream Discharge,Trinity,31,747.0
+Stream Discharge,Trinity County,975,26713.0
+Stream Discharge,"Trinity County, CA",1,51.0
+Stream Discharge,"Trinity County, California",64,1905.0
+Stream Discharge,Truckee,1,38.0
+Stream Discharge,Tulare,243,6230.0
+Stream Discharge,Tulare County,3490,88306.0
+Stream Discharge,"Tulare County, CA",1,33.0
+Stream Discharge,"Tulare County, Calif.",1,36.0
+Stream Discharge,"Tulare County, California",48,1391.0
+Stream Discharge,"Tulare County, California (based on the township and range information)",2,37.0
+Stream Discharge,Tuolumne,106,2678.0
+Stream Discharge,Tuolumne County,1311,35663.0
+Stream Discharge,"Tuolumne County, California",38,845.0
+Stream Discharge,"Tuolumne County, Stanislaus",1,36.0
+Stream Discharge,Uinta County,1,23.0
+Stream Discharge,"Uinta County, Utah",2,26.0
+Stream Discharge,"Uinta County, WY",4,184.0
+Stream Discharge,"Uinta County, Wyoming",12,195.0
+Stream Discharge,Uintah County,19,470.0
+Stream Discharge,"Uintah County, UT",1,22.0
+Stream Discharge,"Uintah County, Utah",27,601.0
+Stream Discharge,"Uintah County, Wyoming (approximate based on location)",4,44.0
+Stream Discharge,Umatilla County,8,216.0
+Stream Discharge,"Umatilla County, Oregon",2,44.0
+Stream Discharge,"Unita County, WY",1,22.0
+Stream Discharge,Unknown,346,9083.0
+Stream Discharge,Unknown (Ariz.),2,45.0
+Stream Discharge,Unknown (California),2,27.0
+Stream Discharge,Unknown (Data not provided),2,66.0
+Stream Discharge,"Unknown (Jensen, Utah)",2,52.0
+Stream Discharge,Unknown (Not in California),1,70.0
+Stream Discharge,Unknown (Oreg.),5,94.0
+Stream Discharge,Unknown (Oregon),3,48.0
+Stream Discharge,Unknown (likely within Northern California based on Redwood Creek's location),1,0.0
+Stream Discharge,Unknown - Estuary in California,2,12.0
+Stream Discharge,Unknown California County,2,91.0
+Stream Discharge,Unknown Counties in California based on location details,2,13.0
+Stream Discharge,Unknown County,1,12.0
+Stream Discharge,Unknown County (based on California location inference),1,22.0
+Stream Discharge,Unknown County in California,5,220.0
+Stream Discharge,"Unknown County, California",3,62.0
+Stream Discharge,Unknown in California,2,66.0
+Stream Discharge,Unknown in document (but inferred as Oregon based on location),2,52.0
+Stream Discharge,"Unknown, no location information available",1,70.0
+Stream Discharge,Unspecified,8,151.0
+Stream Discharge,Uta... or Colo.,1,68.0
+Stream Discharge,Utah,13,353.0
+Stream Discharge,Utah (near the Colorado River Basin in California),1,70.0
+Stream Discharge,Utah County,38,1110.0
+Stream Discharge,"Utah County, UT",1,69.0
+Stream Discharge,"Utah County, Utah",50,882.0
+Stream Discharge,VENTURA,1,31.0
+Stream Discharge,VENTURA COUNTY,7,229.0
+Stream Discharge,Valdez-Cordova Census Area,1,13.0
+Stream Discharge,"Valencia County, New Mexico",2,96.0
+Stream Discharge,Varies across California depending on specific location within arid zone,1,4.0
+Stream Discharge,Various,2,63.0
+Stream Discharge,"Various (Red Bluff, Ord Ferry, Colusa)",1,5.0
+Stream Discharge,Various Counties across California,3,55.0
+Stream Discharge,Various Counties across California (based on common river systems in California),1,66.0
+Stream Discharge,Various Counties across the United States (including California),1,25.0
+Stream Discharge,Various Counties along Pacific Slope in California,1,7.0
+Stream Discharge,Various Counties along the Lower Mississippi River Basin,1,8.0
+Stream Discharge,Various Counties along the Pacific Coast,2,22.0
+Stream Discharge,Various Counties along the Pacific Slope in California,1,8.0
+Stream Discharge,"Various Counties between San Francisco Bay and Eel River, CA",1,57.0
+Stream Discharge,"Various Counties in Arkansas, Missouri, Kentucky, and others along the Lower Mississippi River Basin",1,9.0
+Stream Discharge,Various Counties in California,22,410.0
+Stream Discharge,Various Counties in California (inference required),2,66.0
+Stream Discharge,Various Counties in California's Pacific Slope Basins,1,8.0
+Stream Discharge,Various Counties in Illinois,1,43.0
+Stream Discharge,Various Counties in Mississippi and Louisiana,1,9.0
+Stream Discharge,Various Counties in Southern California,1,10.0
+Stream Discharge,Various Counties within California,1,29.0
+Stream Discharge,"Various Counties within Great Basin and Pacific Coast, California",2,47.0
+Stream Discharge,"Various Counties within the United States, with focus on California where applicable",1,26.0
+Stream Discharge,"Various Counties, California",2,8.0
+Stream Discharge,Various counties across California,1,12.0
+Stream Discharge,"Various counties across Pacific Slope, California",1,7.0
+Stream Discharge,"Various counties along the Arkansas River basin, primarily in Colorado and Kansas",2,28.0
+Stream Discharge,"Various counties along the Pacific coast, primarily within central and southern California",1,12.0
+Stream Discharge,"Various counties along the Pacific slope, California",2,14.0
+Stream Discharge,Various counties in California,3,48.0
+Stream Discharge,Various counties in California along the Pacific slope,1,9.0
+Stream Discharge,"Various counties in California, inferred from common watershed areas.",1,80.0
+Stream Discharge,Various counties in Ohio and surrounding states,1,10.0
+Stream Discharge,Various counties in Tennessee and North Carolina,1,9.0
+Stream Discharge,Various counties surrounding San Francisco Bay,1,47.0
+Stream Discharge,Various counties within California,2,13.0
+Stream Discharge,Various counties within California based on stream flow data locations.,1,13.0
+Stream Discharge,"Various counties within Pacific slope basins, California",3,28.0
+Stream Discharge,Various counties within the Great Basin and Pacific Coast regions,2,45.0
+Stream Discharge,"Various counties within the Great Basin and Pacific Coast, California",1,45.0
+Stream Discharge,Various counties within the Great Basin region of California excluding those associated with Truckee and Carson rivers,1,16.0
+Stream Discharge,"Various counties within the Great Basin region, California",3,34.0
+Stream Discharge,"Various counties within the Lower Colorado River basin, California",1,5.0
+Stream Discharge,"Various counties within the San Joaquin Valley region, California",1,32.0
+Stream Discharge,Ventura,273,7465.0
+Stream Discharge,Ventura County,1504,39361.0
+Stream Discharge,"Ventura County, California",7,235.0
+Stream Discharge,"Wasco County, OR",1,39.0
+Stream Discharge,Washington County,24,947.0
+Stream Discharge,"Washington County, Nevada (adjacent to California)",2,75.0
+Stream Discharge,"Washington County, Utah",70,2481.0
+Stream Discharge,"Washington County, Utah (Note: The document pertains to a location near St. George, Utah.)",2,26.0
+Stream Discharge,"Washington County, Utah (Note: This location is in Utah, but the task requests data from California. The inference for a Californian county would be hypothetical.)",1,62.0
+Stream Discharge,"Washington County, Utah (near Central, Utah)",1,71.0
+Stream Discharge,"Washington County, Utah (nearby to the document's focus area)",1,18.0
+Stream Discharge,"Washington County, Utah (note: document mentions Utah)",1,69.0
+Stream Discharge,"Washington, Oregon, Idaho (Tri-State Area)",2,12.0
+Stream Discharge,Washoe County,22,603.0
+Stream Discharge,"Washoe County, NV",3,116.0
+Stream Discharge,"Washoe County, Nevada",7,191.0
+Stream Discharge,"Wayne County, Utah",2,142.0
+Stream Discharge,Weber County,14,220.0
+Stream Discharge,"Weber County, Utah",8,192.0
+Stream Discharge,West Virginia,1,6.0
+Stream Discharge,White Pine County,3,85.0
+Stream Discharge,YENTURA,2,65.0
+Stream Discharge,YOLO COUNTY,2,76.0
+Stream Discharge,Yakima County,1,9.0
+Stream Discharge,Yamhill County,3,18.0
+Stream Discharge,Yavapai,3,115.0
+Stream Discharge,Yavapai County,37,1245.0
+Stream Discharge,"Yavapai County, Ariz.",1,21.0
+Stream Discharge,"Yavapai County, Arizona",69,2160.0
+Stream Discharge,"Yavapai County, Arizona (Based on location near Show Low, Ariz.)",2,75.0
+Stream Discharge,"Yavapai County, Arizona (Note: The document is outside California)",2,38.0
+Stream Discharge,"Yavapai County, Arizona (Note: This is outside the State of California)",2,76.0
+Stream Discharge,"Yavapai County, Arizona (inferred from location context)",1,38.0
+Stream Discharge,"Yavapai County, Arizona (near Parker) and Maricopa County, Arizona (near Yuma)",1,12.0
+Stream Discharge,"Yavapai County, Arizona (proximity to Hoover Dam)",1,31.0
+Stream Discharge,"Yavapai, Arizona (closest known area in California context)",1,46.0
+Stream Discharge,Yellowstone County,1,8.0
+Stream Discharge,"Yellowstone County, Wyo.",1,9.0
+Stream Discharge,Yokayo County,1,35.0
+Stream Discharge,Yolo,87,1995.0
+Stream Discharge,Yolo County,967,24687.0
+Stream Discharge,"Yolo County, California",1,6.0
+Stream Discharge,"Yolo County, Solano County",4,79.0
+Stream Discharge,Yolo and Solano,2,44.0
+Stream Discharge,Yolo and Solano Counties,1,34.0
+Stream Discharge,"Yolo, Solano",1,3.0
+Stream Discharge,Yolo-Solano,1,15.0
+Stream Discharge,"York County, Maine",1,82.0
+Stream Discharge,Yosemite National Park,2,45.0
+Stream Discharge,Yuba,6,218.0
+Stream Discharge,Yuba County,557,16051.0
+Stream Discharge,"Yuba County, California",5,134.0
+Stream Discharge,"Yuba County, Plumas",1,38.0
+Stream Discharge,Yukon County,2,64.0
+Stream Discharge,Yuma,4,129.0
+Stream Discharge,Yuma County,38,1476.0
+Stream Discharge,"Yuma County, AZ",2,96.0
+Stream Discharge,"Yuma County, AZ (closest relevant county for the given document)",2,46.0
+Stream Discharge,"Yuma County, AZ (nearest county in California context)",1,67.0
+Stream Discharge,"Yuma County, Ariz.",11,272.0
+Stream Discharge,"Yuma County, Arizona",85,3377.0
+Stream Discharge,"Yuma County, Arizona (Note: Document mentions Dome, Ariz. which is in Yuma County)",1,58.0
+Stream Discharge,"Yuma County, Arizona (close to California border)",1,64.0
+Stream Discharge,"Yuma County, Arizona (inferred from proximity to Yuma)",1,69.0
+Stream Discharge,"Yuma County, Arizona (near Andrade, California)",1,36.0
+Stream Discharge,"Yuma County, Arizona (near California border)",1,64.0
+Stream Discharge,"Yuma County, Arizona (not California)",1,26.0
+Stream Discharge,"Yuma County, Arizona (not in California)",2,72.0
+Stream Discharge,"Yuma County, Arizona and Riverside County, California",1,58.0
+Stream Discharge,"Yuma County, California",3,85.0
+Stream Discharge,"Yuma County, California (near Parker Dam)",1,43.0
+Stream Discharge,"Yuma, Arizona",1,38.0
+Stream Discharge,"Yuma, Arizona; Riverside, California",1,27.0
+Stream Discharge,['Alameda County'],1,19.0
+Stream Discharge,"['Alpine County', 'Amador County']",2,46.0
+Stream Discharge,['Calaveras County'],3,48.0
+Stream Discharge,"['Calaveras', 'Tuolumne']",2,132.0
+Stream Discharge,"['Chelan County', 'Grant County', 'Kittitas County', 'King County', 'King County', 'Chelan County', 'Chelan County', 'Chelan County', 'King County', 'Douglas County', 'Grant County', 'Walla Walla County', 'Yakima County', 'Yakima County', 'Kittitas County', 'Yakima County', 'Yakima County', 'Yakima County', 'Yakima County', 'Yakima County', 'Benton County', 'Chelan County', 'Kittitas County', 'Kittitas County', 'Kittitas County', 'King County', 'Jefferson County', 'Yakima County', 'Yakima County', 'Yakima County', 'Yakima County', 'Kittitas County']",1,6.0
+Stream Discharge,"['Colo', 'Kans']",1,9.0
+Stream Discharge,['Contra Costa'],1,6.0
+Stream Discharge,"['Fresno', 'Kings', 'Tulare']",1,13.0
+Stream Discharge,"['Grant', 'Santa Barbara']",1,39.0
+Stream Discharge,"['Humboldt', 'Trinity']",2,10.0
+Stream Discharge,"['LOS ANGELES', 'VENTURA']",2,35.0
+Stream Discharge,"['Lassen', 'Madera', 'Los Angeles', 'Monterey', 'Nevada', 'Sacramento', 'San Diego', 'San Francisco']",1,7.0
+Stream Discharge,"['Los Angeles County', 'Ventura County']",4,101.0
+Stream Discharge,"['Los Angeles', 'San Bernardino']",2,76.0
+Stream Discharge,"['Los Angeles', 'Ventura']",19,412.0
+Stream Discharge,"['Madera', 'Fresno']",1,31.0
+Stream Discharge,"['Manhattan County', 'Douglas County', 'Chase County', 'Cheyenne County']",1,8.0
+Stream Discharge,"['Marin County', 'San Mateo County', 'Solano County', 'Yolo County', 'Sacramento County', 'San Joaquin County']",1,6.0
+Stream Discharge,"['Mohave County', 'Clark County']",3,75.0
+Stream Discharge,"['Mohave County, Ariz.', 'Clark County, Nev.']",2,53.0
+Stream Discharge,"['Mohave County, Arizona', 'Clark County, Nevada']",3,61.0
+Stream Discharge,"['Mohave', 'Clark']",2,76.0
+Stream Discharge,"['Orange County', 'Los Angeles County', 'Los Angeles County']",1,11.0
+Stream Discharge,"['Orange County', None]",1,15.0
+Stream Discharge,"['Orange', 'Riverside', 'San Bernardino']",6,116.0
+Stream Discharge,"['Park County', 'Gallatin County', 'Fergus County', 'Sweet Grass County', 'Custer County', 'Carbon County', 'Stillwater County', 'Rosebud County', 'Washakie County', 'Hot Springs County']",1,9.0
+Stream Discharge,"['Rosebud County', None, 'Roosevelt County', 'Teton County', 'Wibaux County', 'Stillwater County', 'Golden Valley County', 'Richland County', 'Daniels County']",1,8.0
+Stream Discharge,['San Bernardino County'],2,45.0
+Stream Discharge,"['San Luis Obispo', 'Santa Barbara']",2,45.0
+Stream Discharge,"['Santa Barbara', 'Santa Barbara', 'Santa Barbara', 'Santa Barbara', 'San Luis Obispo', 'Santa Cruz', 'Monterey', 'San Luis Obispo', 'Salinas', 'San Luis Obispo', 'San Luis Obispo', 'San Benito', 'Fresno', 'San Benito', 'San Benito', 'Solano', 'Merced', 'Monterey', 'Santa Clara', 'San Benito', 'San Benito']",1,15.0
+Stream Discharge,"['Unknown', 'Unknown']",3,46.0
+Stream Discharge,"['Ventura', 'Los Angeles']",1,8.0
+Stream Discharge,"['Yuma County', 'Imperial County']",1,15.0
+Stream Discharge,[],2,17.0
+Stream Discharge,north-eastern Utah,1,10.0
+Stream Discharge,not explicitly stated in the document,2,35.0
+Stream Discharge,not provided,2,108.0
+Stream Discharge,not specified,22,448.0
+Stream Discharge,not specified in document,3,112.0
+Stream Discharge,not specified in the document,1,9.0
+Stream Discharge,"not specified, but location is Utah",2,35.0
+Stream Discharge,unknown,94,2201.0
+Stream Discharge,various counties along the Pacific Coast of California,1,9.0
+Stream Discharge,various counties in California,1,9.0
+Stream Discharge,various counties within California's Pacific slope region,1,10.0
+Water Quality,Alameda,1,11.0
+Water Quality,Alameda County,23,384.0
+Water Quality,"Alameda County, California",3,10.0
+Water Quality,Alpine County,2,22.0
+Water Quality,BENITO,1,16.0
+Water Quality,Barbara,2,0.0
+Water Quality,"Based on context and typical monitoring locations, likely in a county with active water quality testing.",2,37.0
+Water Quality,Butte County,6,222.0
+Water Quality,"Butte Valley region, California",1,7.0
+Water Quality,Calaveras County,1,29.0
+Water Quality,"Calaveras County, California",1,9.0
+Water Quality,California,20,598.0
+Water Quality,California (General Inference),1,35.0
+Water Quality,California (General),2,28.0
+Water Quality,California (State Level Inference),1,14.0
+Water Quality,California (State Level),1,7.0
+Water Quality,California (based on context),2,42.0
+Water Quality,California (based on document context),4,95.0
+Water Quality,California (based on document origin),1,36.0
+Water Quality,California (inference based on context),1,70.0
+Water Quality,California (inferred based on document origin),1,33.0
+Water Quality,California (inferred from State of California),1,18.0
+Water Quality,California (inferred from data context),1,12.0
+Water Quality,California Coastal Counties,1,7.0
+Water Quality,California County (inferred),3,140.0
+Water Quality,California County Inferred from Biological Data Analysis,1,73.0
+Water Quality,California County Inferred from Lake Center Location,1,49.0
+Water Quality,"California County with water quality monitoring facilities, likely near central or northern California based on typical data collection regions.",1,55.0
+Water Quality,California Estuarine Region,1,20.0
+Water Quality,California General,1,1.0
+Water Quality,California General Area,2,6.0
+Water Quality,California county inferred from typical specific conductance values,1,16.0
+Water Quality,"California, Specific county not provided in the document",2,15.0
+Water Quality,"California, based on water year data from 1963 to 1964",2,55.0
+Water Quality,Californian Counties (inference based on location),1,17.0
+Water Quality,"Carbon County, Wyoming",1,22.0
+Water Quality,"Central Valley, California",1,27.0
+Water Quality,"Clark County, NV and Mohave County, AZ",1,22.0
+Water Quality,Colusa County,3,37.0
+Water Quality,Contra Costa County,11,193.0
+Water Quality,DIEGO,1,0.0
+Water Quality,Davis County,1,22.0
+Water Quality,Del Norte County,4,59.0
+Water Quality,El Dorado County,2,27.0
+Water Quality,"El Dorado County, California",1,21.0
+Water Quality,Fresno County,10,298.0
+Water Quality,"General California Water Analysis, no specific county inferred",1,51.0
+Water Quality,HUMBOLDT,1,10.0
+Water Quality,Hawaii County,1,8.0
+Water Quality,Humboldt,1,22.0
+Water Quality,Humboldt County,9,157.0
+Water Quality,"Humboldt County, California",1,9.0
+Water Quality,"Humboldt County, Mendocino County, Trinity County",1,9.0
+Water Quality,"Humboldt County, Trinity County",1,13.0
+Water Quality,"Humboldt County, Trinity County, Mendocino County",1,20.0
+Water Quality,"Humboldt, Trinity",2,39.0
+Water Quality,"Humboldt, Trinity, Mendocino",1,17.0
+Water Quality,Imperial County,13,388.0
+Water Quality,"Imperial County, California",1,12.0
+Water Quality,Inferred from Buena Vista Lake's known location in Kern County,1,15.0
+Water Quality,Inferred from California,1,67.0
+Water Quality,Inyo County,2,89.0
+Water Quality,Kern County,4,199.0
+Water Quality,La Plata County,1,22.0
+Water Quality,Lake County,3,46.0
+Water Quality,Lassen County,1,14.0
+Water Quality,"Likely Central Valley based on water quality data characteristics, but specific county is not specified",1,30.0
+Water Quality,Los Angeles County,11,194.0
+Water Quality,Madera County,4,81.0
+Water Quality,Mariposa County,4,46.0
+Water Quality,Mendocino County,14,399.0
+Water Quality,Merced County,3,49.0
+Water Quality,Modoc County,3,33.0
+Water Quality,Mono County,1,2.0
+Water Quality,"Mono County, California",2,28.0
+Water Quality,Monterey County,5,83.0
+Water Quality,Napa County,7,218.0
+Water Quality,Nevada,1,57.0
+Water Quality,"Nevada, near Yellowstone National Park",1,11.0
+Water Quality,Nevada/California Border Area,1,4.0
+Water Quality,"Northern Central Valley, California",1,5.0
+Water Quality,Not Provided,4,90.0
+Water Quality,Not Specified,7,179.0
+Water Quality,Not specified,2,11.0
+Water Quality,"Nye County, Nevada / Esmeralda County, California",1,4.0
+Water Quality,Plumas County,5,65.0
+Water Quality,Riverside,5,149.0
+Water Quality,Riverside County,27,957.0
+Water Quality,"Riverside County, California",2,134.0
+Water Quality,SISKIYOU,2,23.0
+Water Quality,Sacramento,2,40.0
+Water Quality,Sacramento County,8,214.0
+Water Quality,"Sacramento County, California",2,44.0
+Water Quality,Salt Lake County,1,24.0
+Water Quality,San Bernardino,1,67.0
+Water Quality,San Bernardino County,19,678.0
+Water Quality,San Diego County,5,117.0
+Water Quality,San Joaquin County,7,122.0
+Water Quality,San Luis Obispo,1,3.0
+Water Quality,San Luis Obispo County,2,35.0
+Water Quality,San Mateo County,2,43.0
+Water Quality,Santa Barbara,3,14.0
+Water Quality,Santa Barbara County,7,99.0
+Water Quality,Santa Clara County,1,40.0
+Water Quality,Santa Cruz,1,15.0
+Water Quality,Santa Cruz County,3,57.0
+Water Quality,Shasta County,15,336.0
+Water Quality,Siskiyou,1,41.0
+Water Quality,Siskiyou County,3,85.0
+Water Quality,Solano County,3,100.0
+Water Quality,Sonoma County,4,41.0
+Water Quality,Stanislaus County,1,22.0
+Water Quality,"Statewide, California (inferred from context)",1,33.0
+Water Quality,"Sutter County, California",2,35.0
+Water Quality,Tehama County,3,82.0
+Water Quality,"Trinity County, Humboldt County, and Del Norte County",1,21.0
+Water Quality,Tulare County,3,30.0
+Water Quality,Tuolumne County,2,64.0
+Water Quality,UTAH,2,44.0
+Water Quality,Unknown,12,273.0
+Water Quality,Unknown California County,1,32.0
+Water Quality,Unknown County,1,11.0
+Water Quality,"Unknown County, California",1,24.0
+Water Quality,Various Counties in California,5,137.0
+Water Quality,Various counties in California,2,96.0
+Water Quality,Various counties in California based on sample dates and codes,1,40.0
+Water Quality,Various counties near San Joaquin River in California,1,31.0
+Water Quality,Ventura,1,33.0
+Water Quality,Ventura County,3,72.0
+Water Quality,Yolo County,7,146.0
+Water Quality,"Yolo, Solano",1,5.0
+Water Quality,unknown,1,3.0
+Water Quality,unspecified,1,4.0

@@ -168,11 +168,32 @@ The `2252_728 example/` folder in `Data_Files/` shows the file naming convention
 - Join USGS document-level metadata from `Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx` into each per-page metadata CSV â€” the `id` column in the main metadata maps directly to the `Publication ID` column in `USGS_ID.xlsx`, which provides the USGS URL, Index ID (series), title, year, author, and ~55 additional document-level fields
 - Identify and document any doc IDs present in metadata but missing from data folders (or vice versa)
 
-### Step 2: HydroShare Upload Organization
-- Explore groupings of data for upload (e.g., by water_type + decade)
-- Understand HydroShare size/file limits
-- Create upload-ready copies of grouped data
-- May need to compress or chunk large groups
+### Step 2: HydroShare Upload Organization — IN PROGRESS (June 2026)
+
+**Grouping decision:** One HydroShare resource per water type category; within each resource, data is split by county (Census TIGER county boundaries). Folder structure:
+
+```
+data/hydroshare/{water_type}/{county_name}/
+    {doc_id}/
+        page_{N}/
+            {doc_id}_page_{N}.png
+            {doc_id}_page_{N}.json
+            {doc_id}_page_{N}_table*.csv
+            {doc_id}_page_{N}_metadata.csv
+```
+
+**County assignment:** Uses `data/analysis/table_level_metadata_county.csv` — county determined by spatial join of `lat_combined`/`lon_combined` against Census TIGER 2023 CA county shapefile (downloaded to `data/analysis/spatial/ca_counties/tl_2023_us_county.shp`). Consistency check against LLM `actual_county`/`inferred_county` showed 67.6% match, 19.1% mismatch (all adjacent-county border cases, expected).
+
+**Multi-type pages:** Pages containing tables of two or more water types are copied into each matching water_type/county group.
+
+**SKIPPED — to revisit:** ~12% of tables (11,967) have no county assigned because their coordinates fall outside the CA state boundary or coordinates are missing. These are valid data (interstate records, pages without coordinates). They are excluded from the current `data/hydroshare` copy. **TODO:** decide on a separate grouping or upload strategy for these unassigned records before finalizing the HydroShare submission.
+
+**Scripts:**
+- `code/02_inventory/county_spatial_join.py` — builds `data/analysis/table_level_metadata_county.csv` (spatial join + consistency check)
+- `code/02_inventory/hydroshare_copy.py` — copies page folders from `data/digitized` into `data/hydroshare` structure; resumable (skips existing destinations)
+- Log of all copy operations: `data/hydroshare/_copy_log.csv`
+
+**Size estimates:** Stream Discharge ~15–23 GB (53,178 pages); all other types combined ~5–7 GB estimated. Total HydroShare copy ~20–30 GB.
 
 ### Step 3: Data Inventory (Notebooks) â€” COMPLETE
 All publication figures are implemented in `code/02_inventory/`. Run notebooks in order (00 â†’ 04); all figures save to `manuscript/figures/`.

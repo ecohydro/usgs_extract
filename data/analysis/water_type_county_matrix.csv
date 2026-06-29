@@ -1,0 +1,460 @@
+water_type_final,county_spatial,n_tables,n_measurements
+Groundwater,Santa Barbara,1490,18773.0
+Groundwater,Los Angeles,823,16588.0
+Groundwater,Imperial,440,8284.0
+Groundwater,San Bernardino,413,5893.0
+Groundwater,Kern,340,4220.0
+Groundwater,Riverside,280,3884.0
+Groundwater,Fresno,257,6147.0
+Groundwater,Sonoma,208,2153.0
+Groundwater,San Joaquin,181,2853.0
+Groundwater,Siskiyou,178,1422.0
+Groundwater,San Diego,170,2179.0
+Groundwater,Calaveras,169,3753.0
+Groundwater,Santa Clara,160,4763.0
+Groundwater,Orange,159,2992.0
+Groundwater,Napa,146,1817.0
+Groundwater,Solano,140,2613.0
+Groundwater,Sacramento,125,2750.0
+Groundwater,San Luis Obispo,123,1159.0
+Groundwater,Stanislaus,122,2536.0
+Groundwater,Tulare,122,2164.0
+Groundwater,Yolo,121,2241.0
+Groundwater,Inyo,68,1122.0
+Groundwater,Merced,63,1045.0
+Groundwater,Amador,62,1200.0
+Groundwater,Kings,58,1224.0
+Groundwater,Humboldt,57,635.0
+Groundwater,Madera,57,1086.0
+Groundwater,Placer,57,761.0
+Groundwater,Mendocino,48,287.0
+Groundwater,Lake,44,417.0
+Groundwater,Alameda,41,804.0
+Groundwater,Ventura,35,306.0
+Groundwater,Monterey,33,644.0
+Groundwater,Mono,31,416.0
+Groundwater,Butte,27,358.0
+Groundwater,Tehama,27,274.0
+Groundwater,Shasta,26,348.0
+Groundwater,Contra Costa,22,566.0
+Groundwater,Del Norte,20,138.0
+Groundwater,Glenn,20,315.0
+Groundwater,El Dorado,18,405.0
+Groundwater,Modoc,18,98.0
+Groundwater,Nevada,16,297.0
+Groundwater,Santa Cruz,15,348.0
+Groundwater,Sutter,15,159.0
+Groundwater,Tuolumne,15,271.0
+Groundwater,San Benito,14,336.0
+Groundwater,Yuba,14,112.0
+Groundwater,Alpine,13,113.0
+Groundwater,San Mateo,13,213.0
+Groundwater,Trinity,11,119.0
+Groundwater,Colusa,10,106.0
+Groundwater,Mariposa,10,216.0
+Groundwater,Plumas,7,192.0
+Groundwater,Lassen,5,85.0
+Groundwater,Marin,2,127.0
+Groundwater,San Francisco,2,46.0
+Groundwater,Sierra,2,23.0
+Irrigation,Stanislaus,119,2833.0
+Irrigation,Butte,65,1810.0
+Irrigation,San Bernardino,63,1685.0
+Irrigation,Santa Barbara,63,498.0
+Irrigation,Imperial,58,1521.0
+Irrigation,Los Angeles,53,1154.0
+Irrigation,Fresno,41,865.0
+Irrigation,Tuolumne,39,940.0
+Irrigation,San Joaquin,36,920.0
+Irrigation,Riverside,32,832.0
+Irrigation,Kern,29,696.0
+Irrigation,Nevada,28,901.0
+Irrigation,Yolo,28,312.0
+Irrigation,Ventura,26,736.0
+Irrigation,El Dorado,25,765.0
+Irrigation,Santa Clara,23,869.0
+Irrigation,Orange,21,647.0
+Irrigation,Calaveras,19,1030.0
+Irrigation,Madera,19,493.0
+Irrigation,Tulare,17,565.0
+Irrigation,Napa,14,121.0
+Irrigation,San Diego,12,270.0
+Irrigation,Placer,11,350.0
+Irrigation,Plumas,11,379.0
+Irrigation,Sacramento,10,525.0
+Irrigation,Siskiyou,10,289.0
+Irrigation,Solano,10,218.0
+Irrigation,Inyo,9,185.0
+Irrigation,Sonoma,9,162.0
+Irrigation,Tehama,8,241.0
+Irrigation,Contra Costa,6,173.0
+Irrigation,San Luis Obispo,5,195.0
+Irrigation,Alameda,4,56.0
+Irrigation,Humboldt,4,59.0
+Irrigation,Lassen,4,49.0
+Irrigation,Mariposa,4,253.0
+Irrigation,Shasta,4,82.0
+Irrigation,Sierra,3,173.0
+Irrigation,Amador,2,147.0
+Irrigation,Kings,2,87.0
+Irrigation,Mendocino,2,36.0
+Irrigation,Modoc,2,22.0
+Irrigation,San Francisco,2,31.0
+Irrigation,San Mateo,2,34.0
+Irrigation,Colusa,1,3.0
+Irrigation,Del Norte,1,82.0
+Irrigation,Glenn,1,14.0
+Irrigation,Marin,1,13.0
+Irrigation,Merced,1,46.0
+Irrigation,Mono,1,39.0
+Irrigation,Monterey,1,38.0
+Irrigation,Santa Cruz,1,18.0
+Irrigation,Yuba,1,84.0
+Not Water Related,Fresno,25,728.0
+Not Water Related,Imperial,17,523.0
+Not Water Related,Los Angeles,12,271.0
+Not Water Related,Placer,12,205.0
+Not Water Related,Kern,11,293.0
+Not Water Related,San Diego,11,293.0
+Not Water Related,Riverside,9,153.0
+Not Water Related,Siskiyou,8,139.0
+Not Water Related,Tulare,8,193.0
+Not Water Related,Solano,7,95.0
+Not Water Related,Inyo,6,249.0
+Not Water Related,Mariposa,6,251.0
+Not Water Related,Shasta,6,205.0
+Not Water Related,Butte,5,100.0
+Not Water Related,El Dorado,5,214.0
+Not Water Related,Kings,5,65.0
+Not Water Related,Santa Barbara,5,95.0
+Not Water Related,Calaveras,4,163.0
+Not Water Related,Madera,4,46.0
+Not Water Related,San Bernardino,4,42.0
+Not Water Related,Stanislaus,4,48.0
+Not Water Related,Ventura,4,167.0
+Not Water Related,Humboldt,3,112.0
+Not Water Related,Sacramento,3,43.0
+Not Water Related,San Joaquin,3,171.0
+Not Water Related,Glenn,2,75.0
+Not Water Related,Lassen,2,103.0
+Not Water Related,Marin,2,69.0
+Not Water Related,Mendocino,2,34.0
+Not Water Related,Merced,2,15.0
+Not Water Related,Monterey,2,14.0
+Not Water Related,Napa,2,51.0
+Not Water Related,Orange,2,36.0
+Not Water Related,Santa Clara,2,34.0
+Not Water Related,Tehama,2,40.0
+Not Water Related,Trinity,2,94.0
+Not Water Related,Tuolumne,2,67.0
+Not Water Related,Mono,1,38.0
+Not Water Related,Nevada,1,39.0
+Not Water Related,Plumas,1,47.0
+Not Water Related,San Luis Obispo,1,21.0
+Not Water Related,San Mateo,1,10.0
+Not Water Related,Santa Cruz,1,8.0
+Not Water Related,Sierra,1,60.0
+Not Water Related,Sonoma,1,30.0
+Not Water Related,Yolo,1,26.0
+Other,Lake,17,441.0
+Other,Marin,16,203.0
+Other,Placer,16,395.0
+Other,Inyo,13,147.0
+Other,Amador,9,143.0
+Other,Los Angeles,9,206.0
+Other,Stanislaus,9,207.0
+Other,El Dorado,8,223.0
+Other,Fresno,8,199.0
+Other,San Joaquin,7,264.0
+Other,Sonoma,7,176.0
+Other,Nevada,6,152.0
+Other,Siskiyou,6,195.0
+Other,Butte,5,150.0
+Other,San Francisco,5,59.0
+Other,Alameda,4,50.0
+Other,Imperial,4,185.0
+Other,Riverside,4,90.0
+Other,San Bernardino,4,127.0
+Other,Tulare,4,116.0
+Other,Kings,3,86.0
+Other,Orange,3,83.0
+Other,Sacramento,3,119.0
+Other,San Diego,3,103.0
+Other,Tuolumne,3,118.0
+Other,Del Norte,2,28.0
+Other,Kern,2,53.0
+Other,Mariposa,2,42.0
+Other,Mendocino,2,106.0
+Other,Mono,2,39.0
+Other,San Mateo,2,56.0
+Other,Santa Barbara,2,39.0
+Other,Sierra,2,44.0
+Other,Solano,2,26.0
+Other,Madera,1,36.0
+Other,Santa Clara,1,30.0
+Other,Santa Cruz,1,15.0
+Other,Tehama,1,3.0
+Other,Yuba,1,83.0
+Precipitation,San Diego,51,760.0
+Precipitation,Santa Barbara,36,551.0
+Precipitation,San Bernardino,26,581.0
+Precipitation,Los Angeles,24,655.0
+Precipitation,Fresno,22,586.0
+Precipitation,Riverside,22,506.0
+Precipitation,Siskiyou,14,236.0
+Precipitation,Inyo,13,257.0
+Precipitation,Humboldt,11,233.0
+Precipitation,Imperial,10,179.0
+Precipitation,Kern,10,246.0
+Precipitation,Sonoma,10,219.0
+Precipitation,Lake,9,128.0
+Precipitation,Mariposa,9,144.0
+Precipitation,Del Norte,7,162.0
+Precipitation,Napa,7,147.0
+Precipitation,Sacramento,7,85.0
+Precipitation,San Mateo,6,123.0
+Precipitation,Solano,6,120.0
+Precipitation,Tuolumne,6,172.0
+Precipitation,Yolo,6,179.0
+Precipitation,Alpine,5,83.0
+Precipitation,Mono,5,62.0
+Precipitation,Nevada,5,110.0
+Precipitation,Placer,5,97.0
+Precipitation,San Francisco,5,151.0
+Precipitation,Santa Clara,5,162.0
+Precipitation,Alameda,4,109.0
+Precipitation,Modoc,4,30.0
+Precipitation,San Joaquin,4,108.0
+Precipitation,Glenn,3,15.0
+Precipitation,Madera,3,73.0
+Precipitation,Mendocino,3,26.0
+Precipitation,Merced,3,61.0
+Precipitation,Tehama,3,50.0
+Precipitation,Trinity,3,51.0
+Precipitation,Ventura,3,103.0
+Precipitation,Butte,2,48.0
+Precipitation,Calaveras,2,47.0
+Precipitation,Marin,2,50.0
+Precipitation,Monterey,2,37.0
+Precipitation,San Luis Obispo,2,29.0
+Precipitation,Stanislaus,2,110.0
+Precipitation,Amador,1,6.0
+Precipitation,Contra Costa,1,4.0
+Precipitation,Kings,1,28.0
+Precipitation,Orange,1,26.0
+Precipitation,Sutter,1,14.0
+Reservoir,Tuolumne,445,10496.0
+Reservoir,Fresno,390,9386.0
+Reservoir,Plumas,211,5008.0
+Reservoir,Nevada,153,3415.0
+Reservoir,Placer,137,3390.0
+Reservoir,San Diego,129,2554.0
+Reservoir,El Dorado,128,2721.0
+Reservoir,Tulare,127,3453.0
+Reservoir,Santa Clara,118,1592.0
+Reservoir,Lake,113,2853.0
+Reservoir,Mariposa,110,2815.0
+Reservoir,Shasta,108,2657.0
+Reservoir,Santa Barbara,96,1850.0
+Reservoir,Madera,88,1963.0
+Reservoir,Amador,76,1967.0
+Reservoir,Riverside,76,1358.0
+Reservoir,San Luis Obispo,75,1695.0
+Reservoir,San Bernardino,74,1466.0
+Reservoir,Butte,71,1662.0
+Reservoir,Mono,70,1162.0
+Reservoir,Calaveras,64,1658.0
+Reservoir,Ventura,62,1198.0
+Reservoir,Trinity,54,1300.0
+Reservoir,Kern,52,1302.0
+Reservoir,Mendocino,46,1605.0
+Reservoir,Sacramento,45,1097.0
+Reservoir,Imperial,41,553.0
+Reservoir,Sierra,38,841.0
+Reservoir,Tehama,31,909.0
+Reservoir,Modoc,30,552.0
+Reservoir,Siskiyou,29,697.0
+Reservoir,San Joaquin,28,618.0
+Reservoir,Kings,23,689.0
+Reservoir,Orange,23,550.0
+Reservoir,Merced,21,692.0
+Reservoir,Napa,18,477.0
+Reservoir,Solano,17,366.0
+Reservoir,Stanislaus,17,573.0
+Reservoir,Yuba,16,333.0
+Reservoir,Lassen,15,465.0
+Reservoir,Los Angeles,15,183.0
+Reservoir,Yolo,15,427.0
+Reservoir,Colusa,12,227.0
+Reservoir,Inyo,11,307.0
+Reservoir,Monterey,10,378.0
+Reservoir,Sonoma,9,176.0
+Reservoir,Humboldt,6,122.0
+Reservoir,Del Norte,5,132.0
+Reservoir,Glenn,5,275.0
+Reservoir,Alpine,4,70.0
+Reservoir,Contra Costa,3,18.0
+Reservoir,Alameda,2,13.0
+Reservoir,San Mateo,2,28.0
+Reservoir,Santa Cruz,2,49.0
+Reservoir,Marin,1,16.0
+Reservoir,San Benito,1,14.0
+Reservoir,San Francisco,1,8.0
+Springs,Santa Barbara,360,7394.0
+Springs,Imperial,26,596.0
+Springs,Inyo,25,605.0
+Springs,Riverside,23,434.0
+Springs,Lake,17,301.0
+Springs,Mono,17,244.0
+Springs,Sonoma,16,263.0
+Springs,Fresno,15,203.0
+Springs,San Bernardino,15,290.0
+Springs,Tulare,15,485.0
+Springs,Los Angeles,14,370.0
+Springs,San Luis Obispo,13,269.0
+Springs,Kern,12,171.0
+Springs,Napa,10,209.0
+Springs,San Diego,10,88.0
+Springs,Ventura,9,168.0
+Springs,Placer,8,138.0
+Springs,Monterey,6,68.0
+Springs,Santa Clara,6,129.0
+Springs,Siskiyou,6,115.0
+Springs,Alameda,5,53.0
+Springs,Colusa,5,58.0
+Springs,Mendocino,5,54.0
+Springs,Sacramento,5,168.0
+Springs,Shasta,5,57.0
+Springs,Lassen,4,51.0
+Springs,Madera,4,110.0
+Springs,Yolo,4,81.0
+Springs,Butte,3,24.0
+Springs,Calaveras,3,56.0
+Springs,Solano,3,52.0
+Springs,Tuolumne,3,106.0
+Springs,Alpine,2,45.0
+Springs,Contra Costa,2,56.0
+Springs,El Dorado,2,20.0
+Springs,Humboldt,2,26.0
+Springs,Modoc,2,48.0
+Springs,Nevada,2,42.0
+Springs,Orange,2,15.0
+Springs,Sierra,2,50.0
+Springs,Trinity,2,53.0
+Springs,Amador,1,10.0
+Springs,Del Norte,1,6.0
+Springs,Marin,1,31.0
+Springs,Mariposa,1,25.0
+Springs,Merced,1,8.0
+Springs,Plumas,1,6.0
+Springs,San Benito,1,13.0
+Springs,San Mateo,1,37.0
+Springs,Santa Cruz,1,38.0
+Springs,Stanislaus,1,22.0
+Stream Discharge,Los Angeles,4183,110515.0
+Stream Discharge,San Diego,3216,80601.0
+Stream Discharge,San Bernardino,2938,74783.0
+Stream Discharge,Tulare,2905,76715.0
+Stream Discharge,Santa Barbara,2614,64716.0
+Stream Discharge,Fresno,2594,65181.0
+Stream Discharge,Mendocino,2421,68498.0
+Stream Discharge,Humboldt,2377,63108.0
+Stream Discharge,El Dorado,2252,56589.0
+Stream Discharge,Siskiyou,2175,55629.0
+Stream Discharge,Tuolumne,2163,54536.0
+Stream Discharge,Butte,2089,55428.0
+Stream Discharge,Orange,2065,56630.0
+Stream Discharge,Shasta,2024,49023.0
+Stream Discharge,Calaveras,1997,51489.0
+Stream Discharge,Riverside,1973,52045.0
+Stream Discharge,Ventura,1958,52001.0
+Stream Discharge,Plumas,1750,46991.0
+Stream Discharge,Santa Clara,1732,43677.0
+Stream Discharge,Placer,1596,46238.0
+Stream Discharge,Nevada,1468,39221.0
+Stream Discharge,Mariposa,1396,34637.0
+Stream Discharge,Sonoma,1316,39183.0
+Stream Discharge,Tehama,1297,32160.0
+Stream Discharge,San Luis Obispo,1271,33695.0
+Stream Discharge,Kern,1183,32086.0
+Stream Discharge,Sacramento,1174,33708.0
+Stream Discharge,Stanislaus,1151,30604.0
+Stream Discharge,Madera,1116,28448.0
+Stream Discharge,Alameda,1091,30675.0
+Stream Discharge,Monterey,1055,27786.0
+Stream Discharge,Lake,1038,28834.0
+Stream Discharge,Trinity,1013,27436.0
+Stream Discharge,Imperial,922,28071.0
+Stream Discharge,Yolo,889,22477.0
+Stream Discharge,San Joaquin,796,19179.0
+Stream Discharge,Inyo,785,21482.0
+Stream Discharge,Merced,780,21873.0
+Stream Discharge,Yuba,773,20384.0
+Stream Discharge,Santa Cruz,739,18157.0
+Stream Discharge,Del Norte,693,18496.0
+Stream Discharge,Napa,604,15628.0
+Stream Discharge,Contra Costa,575,15956.0
+Stream Discharge,Lassen,478,12626.0
+Stream Discharge,Modoc,470,11335.0
+Stream Discharge,Sierra,469,10894.0
+Stream Discharge,San Benito,460,11410.0
+Stream Discharge,Amador,456,11872.0
+Stream Discharge,San Mateo,443,11976.0
+Stream Discharge,Sutter,418,12342.0
+Stream Discharge,Mono,398,11552.0
+Stream Discharge,Glenn,362,9766.0
+Stream Discharge,Marin,332,8517.0
+Stream Discharge,Colusa,313,8747.0
+Stream Discharge,Alpine,233,5751.0
+Stream Discharge,Kings,145,4168.0
+Stream Discharge,Solano,128,3125.0
+Stream Discharge,San Francisco,49,1254.0
+Water Quality,Fresno,38,962.0
+Water Quality,Riverside,36,1284.0
+Water Quality,San Bernardino,22,758.0
+Water Quality,Alameda,18,279.0
+Water Quality,Mendocino,13,387.0
+Water Quality,Siskiyou,13,312.0
+Water Quality,Humboldt,11,170.0
+Water Quality,Santa Barbara,11,113.0
+Water Quality,Los Angeles,10,191.0
+Water Quality,Shasta,10,271.0
+Water Quality,Imperial,9,266.0
+Water Quality,Mariposa,8,200.0
+Water Quality,San Joaquin,8,114.0
+Water Quality,Napa,7,193.0
+Water Quality,Sacramento,7,206.0
+Water Quality,Santa Clara,7,101.0
+Water Quality,Solano,7,154.0
+Water Quality,Trinity,7,125.0
+Water Quality,Tulare,7,228.0
+Water Quality,Yolo,7,135.0
+Water Quality,Contra Costa,6,139.0
+Water Quality,Mono,6,73.0
+Water Quality,San Diego,6,136.0
+Water Quality,San Luis Obispo,6,81.0
+Water Quality,Tehama,6,98.0
+Water Quality,Del Norte,5,96.0
+Water Quality,Madera,5,78.0
+Water Quality,Merced,5,105.0
+Water Quality,Plumas,5,63.0
+Water Quality,Modoc,4,87.0
+Water Quality,Placer,4,60.0
+Water Quality,Stanislaus,4,87.0
+Water Quality,Tuolumne,4,179.0
+Water Quality,Colusa,3,37.0
+Water Quality,El Dorado,3,52.0
+Water Quality,Monterey,3,40.0
+Water Quality,Santa Cruz,3,40.0
+Water Quality,Sonoma,3,33.0
+Water Quality,Ventura,3,72.0
+Water Quality,Butte,2,31.0
+Water Quality,Inyo,2,89.0
+Water Quality,Orange,2,23.0
+Water Quality,San Francisco,2,51.0
+Water Quality,San Mateo,2,41.0
+Water Quality,Amador,1,55.0
+Water Quality,Glenn,1,3.0
+Water Quality,Kern,1,15.0
+Water Quality,Kings,1,67.0
+Water Quality,Lake,1,3.0
