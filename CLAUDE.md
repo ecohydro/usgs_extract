@@ -614,3 +614,44 @@ code/03_nwis_usgs/fetch_nwis_ca_stream_sites.py downloads all USGS NWIS stream d
 | `data/analysis/nwis_sites/ca_stream_sites_raw.csv` | All series rows pre-dedup (127,395 rows) |
 | `data/analysis/nwis_sites/ca_stream_sites.csv` | One row per site (2,531 sites) with begin/end dates |
 | `data/analysis/nwis_sites/ca_stream_sites.parquet` | Same, parquet format |
+---
+
+## Combined 6-Panel Figure Draft — July 14, 2026 (IN PROGRESS)
+
+### Goal
+A candidate publication figure: 2 columns (Stream Discharge | Groundwater) × 3 rows,
+comparing restored sites vs. sites already available from USGS NWIS, statewide CA.
+
+- **Row 1 (Panels A/B) — DONE:** new sites per decade time series (statewide version
+  of dissertation Figs 13/17 Panel A). Restored = unique lat/lon locations clipped to
+  CA boundary, counted by decade the record begins. NWIS = sites by `begin_year`
+  decade, capped at 1979.
+- **Row 2 (Panels C/D) — DONE:** CA maps of restored vs. NWIS site locations (reuses
+  logic from notebooks 05/06). Stream: restored (38,741) under NWIS (2,107).
+  Groundwater: NWIS (32,618) under restored (5,981) — layering flipped per density.
+- **Row 3 (Panels E/F) — TBD:** placeholders. Next work session: decide content.
+
+### Script and output
+| File | Purpose |
+|------|---------|
+| `code/02_inventory/07_ca_combined_6panel.py` | Builds the figure (script for fast iteration; convert to notebook once design settles) |
+| `manuscript/figures/ca_nwis_combined_6panel.png` | Draft output |
+
+### Design decisions (flip if needed)
+- `USE_EXPANDED_STREAM = True` — NWIS stream sites from `ca_stream_sites_expanded.csv`
+  (daily + peak-flow + field measurements, 2,107 sites ≤1979). Set False for daily-value
+  gauges only (1,763 sites, `ca_stream_sites.csv`).
+- 1980 decade bin dropped from time series — only catches records starting exactly in
+  1980 (n=2), plotted as a misleading drop to zero.
+- Restored sites clipped to CA boundary (interstate sites excluded — consistent with
+  the CA map framing, but note when quoting n's).
+- "New sites per decade" semantics mirror the dissertation figures: a restored location
+  can appear in multiple decades (one per record start), an NWIS site appears once.
+  Statewide this mismatch is more visible — cumulative or "active sites per decade"
+  (NWIS begin–end spans) variants would be more apples-to-apples; not yet built.
+
+### Key result from Row 1
+Stream discharge: restored sites outnumber NWIS in every decade (e.g., 1910s: 5,429
+restored vs. 196 NWIS). Groundwater: crossover story — restored dominates pre-1930,
+NWIS explodes after 1940 (13,647 new sites in 1960s). The asymmetry between columns
+is the most interesting feature of the figure.
