@@ -1,0 +1,3 @@
+water_type,nwis_source,restored_earliest_yr,nwis_earliest_yr,temporal_extension_yrs,restored_locs_predating_nwis,temporal_pct_vs_1980era,temporal_pct_vs_present,restored_sites_ca,nwis_sites,restored_basins_huc12,nwis_basins_huc12,previously_ungauged_basins,spatial_pct_basin_increase,restored_pct_of_ca_basins,nwis_pct_of_ca_basins
+Stream Discharge,ca_stream_sites_expanded.csv,1849,1891,42,272,47.2,31.3,38741,2930,3008,1460,1611,110.3,67.2,32.6
+Groundwater,ca_groundwater_sites.csv,1856,1890,34,157,37.8,25.2,5981,44091,1407,1889,471,24.9,31.5,42.2

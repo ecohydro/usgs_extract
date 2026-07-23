@@ -655,3 +655,48 @@ Stream discharge: restored sites outnumber NWIS in every decade (e.g., 1910s: 5,
 restored vs. 196 NWIS). Groundwater: crossover story — restored dominates pre-1930,
 NWIS explodes after 1940 (13,647 new sites in 1960s). The asymmetry between columns
 is the most interesting feature of the figure.
+
+---
+
+## Scope Extension Stats (abstract / manuscript) — July 23, 2026
+
+### Purpose
+Quantify how much the restored data extends the **temporal** and **spatial** scope
+of CA streamflow and groundwater beyond what USGS NWIS makes digitally available.
+Computed for an abstract sentence ("...extend the temporal and spatial scope of
+streamflow and groundwater xx% and xx%, including previously ungauged basins").
+Will be reused in the manuscript and Row 3 of the 6-panel figure.
+
+### Headline numbers (USE THESE)
+| | Streamflow | Groundwater |
+|---|---|---|
+| **Temporal extension** | **+42 yrs** (1849 vs NWIS 1891) | **+34 yrs** (1856 vs NWIS 1890) |
+| — as % of pre-1980 era record | +47% | +38% |
+| — as % of record to present (2025) | +31% | +25% |
+| CA sites predating NWIS | 272 | 157 |
+| **Spatial — previously ungauged basins** | **+1,611 basins (+110%)** | **+471 basins (+25%)** |
+| restored HUC12 basins / NWIS basins | 3,008 / 1,460 | 1,407 / 1,889 |
+| restored / NWIS % of CA's 4,473 HUC12 | 67% / 33% | 31% / 42% |
+
+### Critical method notes (state in manuscript)
+- **CA-clip is mandatory for the temporal figure.** The restored metadata includes
+  out-of-state documents (Cape Fear NC, Ohio R. WV, Mississippi, Arkansas R.). The
+  *unclipped* earliest streamflow record is 1820 (Cape Fear) — wrong for a CA claim.
+  CA-clipped earliest is 1849 (Feather/Yuba/Bear/American Rivers, 5+ sites). Both
+  temporal extensions rest on 150–270 CA sites, not single records — robust.
+- **"Basin" = HUC12 subwatershed** (4,473 statewide). At HUC8 the ungauged signal
+  nearly vanishes (+6% / +5%) because NWIS already touches almost every HUC8. HUC12
+  is what makes "previously ungauged basins" true. Both restored + NWIS points are
+  assigned to HUC12 by spatial join against the same WBD polygon layer.
+- **NWIS streamflow = expanded set** (daily + peak-flow + field, 2,930 sites). Daily-
+  value-only would lower NWIS basin coverage and *raise* the restored spatial gain.
+- **% record-length is endpoint-sensitive** — report raw years (42, 34) as primary;
+  % framings depend on choosing 1980 (era end) vs 2025 (present).
+
+### Files produced
+| File | Purpose |
+|---|---|
+| `code/02_inventory/08_scope_extension_stats.py` | Reproducible script; toggles `USE_EXPANDED_STREAM`, `RECORD_END_ERA` |
+| `data/analysis/scope_extension_stats.csv` | One row per water type — all temporal + spatial stats |
+| `data/analysis/spatial/ca_wbd/ca_huc8.geojson` | CA HUC8 subbasins (140), from USGS WBD MapServer 2026-07-23 |
+| `data/analysis/spatial/ca_wbd/ca_huc12.geojson` | CA HUC12 subwatersheds (4,473), from USGS WBD MapServer 2026-07-23 |
