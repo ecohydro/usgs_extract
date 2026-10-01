@@ -5,13 +5,15 @@ stream discharge (left column) and groundwater (right column).
 Row 1: new sites per decade (time series, like dissertation Figs 13/17 Panel A,
        but statewide instead of Santa Barbara County)
 Row 2: CA map of restored vs. NWIS site locations (like notebooks 05/06)
-Row 3: placeholder (TBD)
+Row 3: HUC12 subwatersheds classified as restored-only (previously ungauged),
+       restored + NWIS, NWIS-only, or no sites (see BASIN_NWIS_ALL_YEARS)
 
 Inputs:
 - data/analysis/processed_metadata.parquet
 - data/analysis/nwis_sites/ca_stream_sites_expanded.csv  (or ca_stream_sites.csv)
 - data/analysis/nwis_sites/ca_groundwater_sites.csv
 - data/analysis/spatial/ca_shapefile/ca_poly.shp
+- data/analysis/spatial/ca_wbd/ca_huc12.geojson
 
 Output: manuscript/figures/ca_nwis_combined_6panel.png
 """
@@ -34,6 +36,12 @@ RESTORED_COLOR = '#EE6677'
 # True: NWIS stream sites include peak-flow-only and discrete measurement sites
 # False: daily-value gauges only (ca_stream_sites.csv)
 USE_EXPANDED_STREAM = True
+
+# Row 3 basin classification. True: a basin counts as NWIS-gauged if it has ANY
+# NWIS site, regardless of start year. This matches 08_scope_extension_stats.py
+# and the abstract "previously ungauged basins" numbers (conservative claim).
+# False: only NWIS sites beginning <= NWIS_YEAR_CUTOFF, matching the Row 2 maps.
+BASIN_NWIS_ALL_YEARS = True
 
 NWIS_YEAR_CUTOFF = 1979   # match restored data period (records end 1980)
 # last full decade is the 1970s; the 1980 bin only catches records starting
@@ -117,11 +125,56 @@ ts_gw = decade_counts(gw_dec, nwis_gw)
 print('\nStream discharge per decade:\n', ts_sd)
 print('\nGroundwater per decade:\n', ts_gw)
 
+# ---------------------------------------------------------------- HUC12 basins
+huc = gpd.read_file(spatial_path / 'ca_wbd/ca_huc12.geojson').to_crs('EPSG:4326')
+
+BASIN_CLASSES = [   # (key, legend label, color) -- drawn and listed in this order
+    ('restored', 'Restored only', RESTORED_COLOR),
+    ('both',     'Both',          '#AA3377'),
+    ('nwis',     'NWIS only',     NWIS_COLOR),
+    ('none',     'No sites',      '#EEEEEE'),
+]
+
+
+def huc12_set(points):
+    """Set of HUC12 codes containing at least one of the given points."""
+    j = gpd.sjoin(points, huc[['huc12', 'geometry']], how='inner', predicate='within')
+    return set(j['huc12'])
+
+
+def all_nwis(csv_name):
+    """All NWIS sites with coordinates, any start year (one row per site)."""
+    n = pd.read_csv(nwis_path / csv_name, low_memory=False).drop_duplicates('site_no')
+    n = n[n['dec_lat_va'].notna() & n['dec_long_va'].notna()]
+    return gpd.GeoDataFrame(
+        n, geometry=gpd.points_from_xy(n['dec_long_va'], n['dec_lat_va']),
+        crs='EPSG:4326')
+
+
+def classify_basins(restored_gdf, nwis_gdf):
+    """HUC12 polygons labeled restored-only / both / NWIS-only / none."""
+    r = huc12_set(restored_gdf[['geometry']])
+    n = huc12_set(nwis_gdf[['geometry']])
+    b = huc.copy()
+    b['cls'] = 'none'
+    b.loc[b['huc12'].isin(n), 'cls'] = 'nwis'
+    b.loc[b['huc12'].isin(r), 'cls'] = 'restored'
+    b.loc[b['huc12'].isin(r & n), 'cls'] = 'both'
+    return b
+
+
+basin_nwis_sd = all_nwis(stream_csv) if BASIN_NWIS_ALL_YEARS else nwis_sd
+basin_nwis_gw = all_nwis('ca_groundwater_sites.csv') if BASIN_NWIS_ALL_YEARS else nwis_gw
+basins_sd = classify_basins(sd_all, basin_nwis_sd)
+basins_gw = classify_basins(gw_all, basin_nwis_gw)
+for lab, b in [('Stream discharge', basins_sd), ('Groundwater', basins_gw)]:
+    print(f'\n{lab} HUC12 basins:\n', b['cls'].value_counts())
+
 # ---------------------------------------------------------------- figure
 map_aspect = (CA_YMAX - CA_YMIN) / (CA_XMAX - CA_XMIN)   # ~1.06
 
-fig = plt.figure(figsize=(11, 14), dpi=300)
-gs = fig.add_gridspec(3, 2, height_ratios=[0.62, 1.0, 0.62], hspace=0.22, wspace=0.25)
+fig = plt.figure(figsize=(11, 14.5), dpi=300)
+gs = fig.add_gridspec(3, 2, height_ratios=[0.62, 1.0, 1.0], hspace=0.15, wspace=0.25)
 
 ax_ts_sd  = fig.add_subplot(gs[0, 0])
 ax_ts_gw  = fig.add_subplot(gs[0, 1])
@@ -175,20 +228,45 @@ def draw_map(ax, restored_gdf, nwis_gdf, restored_on_top):
 draw_map(ax_map_sd, sd_all, nwis_sd, restored_on_top=False)
 draw_map(ax_map_gw, gw_all, nwis_gw, restored_on_top=True)
 
-# ---- Row 3: placeholders
-for ax, lab in [(ax_e, 'E'), (ax_f, 'F')]:
-    ax.text(0.5, 0.5, f'Panel {lab} — TBD', ha='center', va='center',
-            fontsize=14, color='#999999', transform=ax.transAxes)
+# ---- Row 3: HUC12 basin coverage maps
+from matplotlib.patches import Patch
+
+
+def draw_basins(ax, basins):
+    counts = basins['cls'].value_counts()
+    # clip for display only: some WBD HUC12s straddle the state line
+    # (make_valid: the simplified WBD download has a few self-intersections)
+    basins = gpd.clip(basins.set_geometry(basins.geometry.make_valid()),
+                      ca.set_geometry(ca.geometry.make_valid()))
+    handles = []
+    for key, label, color in BASIN_CLASSES:
+        sub = basins[basins['cls'] == key]
+        if len(sub):
+            sub.plot(ax=ax, color=color, edgecolor='white', linewidth=0.1, zorder=2)
+        handles.append(Patch(facecolor=color, edgecolor='#999999', linewidth=0.5,
+                             label=f'{label} ({counts.get(key, 0):,})'))
+    ca.boundary.plot(ax=ax, color='black', linewidth=0.6, zorder=3)
+    ax.set_xlim(CA_XMIN, CA_XMAX)
+    ax.set_ylim(CA_YMIN, CA_YMAX)
+    ax.set_aspect('equal')
     ax.set_xticks([])
     ax.set_yticks([])
     for spine in ax.spines.values():
-        spine.set_color('#dddddd')
+        spine.set_color('#cccccc')
+        spine.set_linewidth(1.0)
+    ax.legend(handles=handles, loc='lower left', title='HUC12 basins',
+              title_fontsize=8, frameon=True, fancybox=True, framealpha=0.9,
+              fontsize=8)
 
-# panel letters
+
+draw_basins(ax_e, basins_sd)
+draw_basins(ax_f, basins_gw)
+
+# panel letters: outside the top-left corner so they don't sit on the CA outline
 for ax, lab in [(ax_ts_sd, 'A'), (ax_ts_gw, 'B'), (ax_map_sd, 'C'),
                 (ax_map_gw, 'D'), (ax_e, 'E'), (ax_f, 'F')]:
-    ax.text(0.02, 0.98, lab, transform=ax.transAxes, fontsize=14,
-            fontweight='bold', va='top', ha='left')
+    ax.text(-0.02, 1.01, lab, transform=ax.transAxes, fontsize=14,
+            fontweight='bold', va='bottom', ha='right')
 
 out_path = figures_path / 'ca_nwis_combined_6panel.png'
 plt.savefig(out_path, dpi=300, bbox_inches='tight')

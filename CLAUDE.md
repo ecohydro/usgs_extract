@@ -616,7 +616,7 @@ code/03_nwis_usgs/fetch_nwis_ca_stream_sites.py downloads all USGS NWIS stream d
 | `data/analysis/nwis_sites/ca_stream_sites.parquet` | Same, parquet format |
 ---
 
-## Combined 6-Panel Figure Draft — July 14, 2026 (IN PROGRESS)
+## Combined 6-Panel Figure Draft — July 14, 2026; Row 3 + caption Oct 1, 2026 (DRAFT COMPLETE)
 
 ### Goal
 A candidate publication figure: 2 columns (Stream Discharge | Groundwater) × 3 rows,
@@ -629,7 +629,40 @@ comparing restored sites vs. sites already available from USGS NWIS, statewide C
 - **Row 2 (Panels C/D) — DONE:** CA maps of restored vs. NWIS site locations (reuses
   logic from notebooks 05/06). Stream: restored (38,741) under NWIS (2,107).
   Groundwater: NWIS (32,618) under restored (5,981) — layering flipped per density.
-- **Row 3 (Panels E/F) — TBD:** placeholders. Next work session: decide content.
+- **Row 3 (Panels E/F) — DONE (2026-10-01):** HUC12 basin coverage maps. Each of
+  CA's 4,473 HUC12s is classed Restored only / Both / NWIS only / No sites.
+  Stream: 1,611 / 1,397 / 63 / 1,402. Groundwater: 471 / 936 / 953 / 2,113.
+  "Restored only" counts equal the abstract's previously-ungauged-basin numbers
+  (08_scope_extension_stats.py). `BASIN_NWIS_ALL_YEARS = True` counts NWIS sites of
+  any start year (matches abstract); False uses the ≤1979 sites shown in Row 2.
+  HUC12s are clipped to the CA outline for display only (some straddle the state line).
+
+### Draft caption (2026-10-01)
+> **Figure X.** Restored historical (1849–1980) monitoring sites compared with sites
+> available from the USGS National Water Information System (NWIS) in California, for
+> stream discharge (left) and groundwater (right). **(A, B)** Number of new monitoring
+> sites per decade, by the decade each record begins. A restored location is counted once
+> for each decade in which one of its records begins; each NWIS site is counted once, in
+> the decade of its first record (records beginning ≤1979). **(C, D)** Locations of
+> restored sites and NWIS sites with records beginning ≤1979. **(E, F)** California HUC12
+> subwatersheds (n = 4,473; USGS Watershed Boundary Dataset), classified by whether they
+> contain restored sites only, both restored and NWIS sites, NWIS sites only, or neither.
+> Here, NWIS sites of any start year are included, so "restored only" marks basins with no
+> NWIS monitoring at any time. The restored records add 1,611 stream discharge basins
+> (+110%) and 471 groundwater basins (+25%) with no NWIS sites. Restored sites are limited
+> to locations within California. NWIS stream sites include daily-value, peak-flow, and
+> field-measurement sites.
+
+Caption TODOs: groundwater starts 1856, not 1849 (consider per-type ranges); describe
+which site types `ca_groundwater_sites.csv` includes (not yet verified).
+
+### Open items for this figure
+- Optional: annotate E/F with headline gain ("+1,611 basins, +110%").
+- Row 1 counting asymmetry (restored location counted once per start decade vs. NWIS
+  once) — cumulative or "active sites per decade" variant not built.
+- Convert script to a notebook once design settles.
+- `data/analysis/nwis_sites/ca_groundwater_sites_raw.csv` (193 MB) is untracked: too big
+  for GitHub. Add to .gitignore or regenerate on demand.
 
 ### Script and output
 | File | Purpose |
