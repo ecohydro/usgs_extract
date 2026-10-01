@@ -733,3 +733,71 @@ Will be reused in the manuscript and Row 3 of the 6-panel figure.
 | `data/analysis/scope_extension_stats.csv` | One row per water type — all temporal + spatial stats |
 | `data/analysis/spatial/ca_wbd/ca_huc8.geojson` | CA HUC8 subbasins (140), from USGS WBD MapServer 2026-07-23 |
 | `data/analysis/spatial/ca_wbd/ca_huc12.geojson` | CA HUC12 subwatersheds (4,473), from USGS WBD MapServer 2026-07-23 |
+
+---
+
+## Session Log — October 1, 2026 (resume here)
+
+### Done
+- **6-panel figure complete** (Row 3 = HUC12 basin coverage, caption drafted) — see 6-panel section above. Commit 7d51e5b.
+- **SGMA groundwater basins** (`code/02_inventory/09_sgma_groundwater_basins.py` →
+  `data/analysis/sgma_basin_groundwater_coverage.csv`; DWR 2019 prioritization layer in
+  `data/analysis/spatial/sgma/`). Only 1 High/Medium basin has restored GW data and zero NWIS
+  wells (SCRV–Fillmore) and it is **mislocated** (Sonoma wells, doc 1110 p199). Credible
+  "restored is the only pre-1980 record" basins: **Elsinore Valley** (Medium; artesian well
+  1904–1915, doc 2886; NWIS starts 2001) and **Coachella–Mission Creek** (Medium; 1936–1973,
+  docs 2846/30040, analog-model reports). Stronger story: in 53 of 94 High/Medium basins the
+  restored record predates the first NWIS well (e.g., Tulare Lake 1865 vs 1950; Santa Clara
+  subbasin 2,169 meas., NWIS has 5 pre-1980 wells).
+- **Location accuracy problem documented** — see section below.
+- **Dam streamflow inventory** (`code/04_vignettes/dam_exploring/07_dam_streamflow_inventory.py`
+  → `data/analysis/dam_exploring/dam_streamflow_inventory.csv` + `_sites.csv`). 64 major CA
+  dams (NID, ≥100k af or removal candidate, completed ≤1979, associated structures excluded);
+  58 have restored streamflow on the same river within 30 km (name + distance match).
+  Most restored-only pre-dam data (years before any NWIS gauge on that river): Prado/Santa Ana
+  (21 yrs), New Melones/Stanislaus (13), L.L. Anderson/MF American (12), El Capitan/San Diego
+  R. (8), Bradbury/Santa Ynez (8). Removal candidates (Matilija, Scott, Cape Horn, Los Padres,
+  Searsville) add little beyond NWIS. Imperial Diversion Dam is a false positive (NWIS file is
+  CA-only; Colorado R. gauges are in AZ).
+- **Dam vignette timeline figure — DRAFT** (`code/04_vignettes/dam_exploring/08_dam_vignette_timeline.py`
+  → `manuscript/figures/dam_vignette_timeline.png`; NHD flowlines/waterbodies via
+  `fetch_nhd_focal_rivers.py` → `data/analysis/spatial/nhd/`). Santa Ana + Santa Ynez rows:
+  watershed map with numbered stations + station timeline (NWIS bar ≤1980; restored annual
+  tables as solid ticks, multi-year tables as thin line; dam years as vertical lines).
+  Stations matched by NAME (not coords) and paired to NWIS by location words.
+  **Key result:** Santa Ynez station "below Gibraltar Dam nr Santa Barbara" has restored annual
+  tables 1904–1916 — before Gibraltar Dam (1920) and before NWIS (1933). Santa Ana restored data
+  mostly duplicates NWIS (pre-NWIS only Mentone 1894–95, San Bernardino 1916, unnamed 1887–88).
+
+### Next steps (user to choose)
+1. Santa Ynez focus: open the 1903–1920 tables, confirm the early "near Santa Barbara" gauge
+   is the same site as NWIS 11123000, and if values parse, plot actual pre/post-dam flows
+   (first figure using digitized values, not metadata).
+2. Swap Santa Ana for New Melones/Stanislaus or El Capitan/San Diego R.
+3. Small fixes: Prado triangle hides markers 3/8; labels drop "near/below".
+- Queued figure idea: record length / overlap at the 1,646 restored sites strongly matched to
+  NWIS (`data/analysis/dam_exploring/nwis_crossref_best_match.csv`).
+- `ca_groundwater_sites_raw.csv` (193 MB) still untracked — too big for GitHub; gitignore it.
+
+## Location Accuracy — Known Problem (Oct 1, 2026; awaiting collaborator decision)
+
+**How coordinates were made:** Phi-4 read ONE page's Reducto text (no title, other pages,
+geocoder, or TRS conversion) and returned `Actual_*` and `Inferred_*` lat/lon. Prompt:
+"All data is from the State of California. If there is no latitude and longitude data...
+use inference". `00_data_prep.ipynb` uses `actual.combine_first(inferred)` → 57,849 actual /
+43,594 inferred / 7,997 none. A 52-row OpenStreetMap geocoding test (June 2025) never reached
+production; its code is lost.
+
+**Problem:** in a random 400-page sample of "actual" coordinates, **32% had no lat/long printed
+on the page** (upper bound; regex-based). Example: doc 1110 p199 (Sonoma "Santa Rosa Valley"
+wells, T.7N R.9W) placed at Fillmore, Ventura as "actual". Mislocated points land where NWIS
+has no sites → likely **inflate the ungauged-basin numbers** (1,611 stream / 471 GW HUC12) and
+affect HydroShare county folders. Document titles are NOT a usable check (reports span many
+counties/states — user's point).
+
+**Proposed plan (not approved yet):** (1) parse printed DMS coordinates from page text to
+verify/correct; (2) relabel unprinted "actual" as inferred; (3) check inferred points against
+the document's own verified-coordinate footprint, page-stated county, duplicate place names;
+(4) publish confidence tiers; (5) report spatial claims under all vs verified+consistent.
+Also check whether human validation graded "actual" coords against the page (87% figure).
+Collaborator write-up: https://claude.ai/code/artifact/080b679c-fa0d-4306-862a-5478e5d6a00c
