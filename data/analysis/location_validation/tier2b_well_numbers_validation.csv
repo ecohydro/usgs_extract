@@ -1,0 +1,31 @@
+check,dir_rule,n,median_km,le_2km,gt_10km
+section centroid vs NWIS well,T/R on page,20,0.729232010701082,1.0,0.0
+section centroid vs NWIS well,T/R on page + meridian letter,1,0.7996577268415178,1.0,0.0
+section centroid vs NWIS well,as printed,148,0.753112887086667,0.9864864864864865,0.0
+section centroid vs NWIS well,as printed + county on page,57,0.7017110688284904,1.0,0.0
+section centroid vs NWIS well,as printed + document: county in title,141,0.6904139871831854,1.0,0.0
+section centroid vs NWIS well,as printed + document: meridian,74,0.7816252500720491,0.9864864864864865,0.0
+section centroid vs NWIS well,as printed + meridian letter,939,0.7319355346073696,0.9925452609158679,0.0010649627263045794
+section centroid vs NWIS well,as printed + town in well heading,11,0.8593826333883233,1.0,0.0
+section centroid vs NWIS well,county on page,119,0.7973552939696696,1.0,0.0
+section centroid vs NWIS well,document: county in title,526,0.8304526728420082,0.9695817490494296,0.028517110266159697
+section centroid vs NWIS well,document: meridian,19,0.6145832528134897,1.0,0.0
+section centroid vs NWIS well,document: same T/R,13,0.8840774008164863,1.0,0.0
+section centroid vs NWIS well,document: same T/R + document: county in title,9,0.3702925753929019,1.0,0.0
+section centroid vs NWIS well,document: same T/R + document: meridian,5,0.9153417951044066,1.0,0.0
+section centroid vs NWIS well,only candidate,167,0.7738144737036611,0.9640718562874252,0.011976047904191617
+section centroid vs NWIS well,town in well heading,120,0.9207509561773646,1.0,0.0
+well-number location vs printed coords,nwis_well,67,0.10897305330014787,0.8208955223880597,0.08955223880597014
+well-number location vs printed coords,plss_wellno,21,0.7658479467755832,1.0,0.0
+well-number location vs printed coords,wellno_group,1,102.80362245497871,0.0,1.0
+chosen direction/meridian = NWIS option,T/R on page,38,,0.9210526315789473,
+chosen direction/meridian = NWIS option,T/R on page + meridian letter,1,,1.0,
+chosen direction/meridian = NWIS option,county on page,248,,0.8669354838709677,
+chosen direction/meridian = NWIS option,document: county in title,686,,0.9839650145772595,
+chosen direction/meridian = NWIS option,document: meridian,44,,1.0,
+chosen direction/meridian = NWIS option,document: same T/R,71,,0.971830985915493,
+chosen direction/meridian = NWIS option,document: same T/R + document: county in title,11,,0.8181818181818182,
+chosen direction/meridian = NWIS option,document: same T/R + document: meridian,5,,1.0,
+chosen direction/meridian = NWIS option,meridian letter,1,,0.0,
+chosen direction/meridian = NWIS option,only candidate,172,,0.9709302325581395,
+chosen direction/meridian = NWIS option,town in well heading,321,,0.9096573208722741,

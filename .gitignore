@@ -11,3 +11,15 @@ data/analysis/nwis_sites/ca_stream_sites_expanded_by_county*
 data/analysis/spatial/ca_counties*
 data/hydroshare*
 .env
+# --- added 2026-10-28 ---
+# frozen snapshots (original also preserved by git tag original-pipeline-2026-10-01)
+archive/
+**/__pycache__/
+# raw NWIS download, 185 MB (> GitHub 100 MB limit); re-fetch with code/03_nwis_usgs
+data/analysis/nwis_sites/ca_groundwater_sites_raw.csv
+# page-image copies of data/digitized/ (already ignored) for manual review
+data/analysis/date_parsing/pngs/
+data/analysis/location_validation/gw_scoping/*.png
+# current GNIS download (unused; pipeline uses CA_Features_20210825.txt)
+data/analysis/spatial/gnis/DomesticNames_CA_Text.*
+data/analysis/spatial/gnis/Text/

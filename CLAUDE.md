@@ -629,7 +629,11 @@ comparing restored sites vs. sites already available from USGS NWIS, statewide C
 - **Row 2 (Panels C/D) — DONE:** CA maps of restored vs. NWIS site locations (reuses
   logic from notebooks 05/06). Stream: restored (38,741) under NWIS (2,107).
   Groundwater: NWIS (32,618) under restored (5,981) — layering flipped per density.
-- **Row 3 (Panels E/F) — DONE (2026-10-01):** HUC12 basin coverage maps. Each of
+- **Row 3 (Panels E/F) — REVISED 2026-10-28:** now two classes only: NWIS (any NWIS
+  site, incl. basins that also have restored data; stream 1,460 / GW 1,889) vs.
+  Restored, no NWIS sites (1,611 / 471 all sites → 1,522 / 372 dated sites only, 2026-10-28). No-site basins not drawn at all (white background inside CA outline), no legend entry.
+  Goal: show only where restored data fills basins with zero NWIS data.
+  Original version (DONE 2026-10-01): HUC12 basin coverage maps. Each of
   CA's 4,473 HUC12s is classed Restored only / Both / NWIS only / No sites.
   Stream: 1,611 / 1,397 / 63 / 1,402. Groundwater: 471 / 936 / 953 / 2,113.
   "Restored only" counts equal the abstract's previously-ungauged-basin numbers
@@ -637,27 +641,35 @@ comparing restored sites vs. sites already available from USGS NWIS, statewide C
   any start year (matches abstract); False uses the ≤1979 sites shown in Row 2.
   HUC12s are clipped to the CA outline for display only (some straddle the state line).
 
-### Draft caption (2026-10-01)
+### Layout (REVISED 2026-10-28)
+Transposed to 2 rows × 3 cols to fit the journal's 2-column size (7.25 in wide,
+max 7.8 in deep incl. caption; captions set in 7.5 pt Myriad). Figure is built at
+7.25 × 4.9 in, saved without bbox tight so the width is exact. Rows = stream (A–C)
+/ groundwater (D–F); columns = new sites per decade, site locations, subwatershed
+coverage. Arial (Myriad not installed); 6–8 pt text, 9 pt panel letters. The
+"Row 1/2/3" names below refer to the old layout (now columns 1/2/3).
+
+### Draft caption (2026-10-01; panel letters updated 2026-10-28)
 > **Figure X.** Restored historical (1849–1980) monitoring sites compared with sites
 > available from the USGS National Water Information System (NWIS) in California, for
-> stream discharge (left) and groundwater (right). **(A, B)** Number of new monitoring
+> stream discharge (top row) and groundwater (bottom row). **(A, D)** Number of new monitoring
 > sites per decade, by the decade each record begins. A restored location is counted once
 > for each decade in which one of its records begins; each NWIS site is counted once, in
-> the decade of its first record (records beginning ≤1979). **(C, D)** Locations of
-> restored sites and NWIS sites with records beginning ≤1979. **(E, F)** California HUC12
-> subwatersheds (n = 4,473; USGS Watershed Boundary Dataset), classified by whether they
-> contain restored sites only, both restored and NWIS sites, NWIS sites only, or neither.
-> Here, NWIS sites of any start year are included, so "restored only" marks basins with no
-> NWIS monitoring at any time. The restored records add 1,611 stream discharge basins
-> (+110%) and 471 groundwater basins (+25%) with no NWIS sites. Restored sites are limited
-> to locations within California. NWIS stream sites include daily-value, peak-flow, and
+> the decade of its first record (records beginning ≤1979). **(B, E)** Locations of
+> restored sites and NWIS sites with records beginning ≤1979. **(C, F)** California HUC12
+> subwatersheds (n = 4,473; USGS Watershed Boundary Dataset) containing at least one NWIS
+> site (blue; includes subwatersheds that also contain restored sites) or restored sites
+> but no NWIS site (red). Here, NWIS sites of any
+> start year are included, so red marks basins with no NWIS monitoring at any time. The restored records add 1,522 stream discharge basins
+> (+104%) and 372 groundwater basins (+20%) with no NWIS sites. Restored sites are limited
+> to dated records within California (undated records excluded; see Date Parsing Protocol). NWIS stream sites include daily-value, peak-flow, and
 > field-measurement sites.
 
 Caption TODOs: groundwater starts 1856, not 1849 (consider per-type ranges); describe
 which site types `ca_groundwater_sites.csv` includes (not yet verified).
 
 ### Open items for this figure
-- Optional: annotate E/F with headline gain ("+1,611 basins, +110%").
+- Optional: annotate C/F with headline gain ("+1,522 basins, +104%").
 - Row 1 counting asymmetry (restored location counted once per start decade vs. NWIS
   once) — cumulative or "active sites per decade" variant not built.
 - Convert script to a notebook once design settles.
@@ -706,10 +718,13 @@ Will be reused in the manuscript and Row 3 of the 6-panel figure.
 | **Temporal extension** | **+42 yrs** (1849 vs NWIS 1891) | **+34 yrs** (1856 vs NWIS 1890) |
 | — as % of pre-1980 era record | +47% | +38% |
 | — as % of record to present (2025) | +31% | +25% |
-| CA sites predating NWIS | 272 | 157 |
-| **Spatial — previously ungauged basins** | **+1,611 basins (+110%)** | **+471 basins (+25%)** |
-| restored HUC12 basins / NWIS basins | 3,008 / 1,460 | 1,407 / 1,889 |
-| restored / NWIS % of CA's 4,473 HUC12 | 67% / 33% | 31% / 42% |
+| CA sites predating NWIS | 280 | 157 |
+| **Spatial — previously ungauged basins** | **+1,522 basins (+104%)** | **+372 basins (+20%)** |
+| restored HUC12 basins / NWIS basins | 2,909 / 1,460 | 1,177 / 1,889 |
+| restored / NWIS % of CA's 4,473 HUC12 | 65% / 33% | 26% / 42% |
+
+*Updated 2026-10-28 to dated restored sites only (Date Parsing Protocol). Previous
+(all-sites) values: +1,611 (+110%) stream / +471 (+25%) GW; 272 stream sites predating NWIS.*
 
 ### Critical method notes (state in manuscript)
 - **CA-clip is mandatory for the temporal figure.** The restored metadata includes
@@ -736,7 +751,60 @@ Will be reused in the manuscript and Row 3 of the 6-panel figure.
 
 ---
 
-## Session Log — October 1, 2026 (resume here)
+## Date Parsing Protocol — October 28, 2026 (APPLIES TO ALL NUMBERS AND FIGURES)
+
+### Why
+The raw `dates_of_recording` field is blank for 11.4% of metadata rows, but the old
+parser left 19.5% undated: it discarded open-ended records ("10/01/1964-Current Year"),
+ignored 2-digit years, and silently dropped post-1980 years. The parser was also
+duplicated in 00_data_prep.ipynb and build_table_level_metadata.py.
+
+### Protocol (agreed with Annette)
+- **One parser:** `code/02_inventory/date_parsing.py` (`add_date_columns`, `is_dated`,
+  `DATED_STATUSES`). Never copy the logic; import it.
+- **Valid years:** 1800 ≤ year ≤ document publication year (`Year Published`, ≤1980).
+  A record can't postdate its publication; later years are LLM errors.
+- **Publication year is never used to impute a start year** — only to cap open-ended
+  records and reject impossible years.
+- `date_status` per row: `parsed` / `trimmed` (some out-of-range years dropped) /
+  `open_ended` (end = pub year) / `two_digit` (only clean MM/YY or MM/DD/YY dates or
+  ranges → 19xx) count as **dated**; `implausible` / `unparseable` / `placeholder` /
+  `missing` do not. `year_start.notna()` ⇔ dated, so existing `year_start` filters
+  already follow the protocol.
+- **Counting:** anything time-based (time series, decade maps, date ranges) uses dated
+  rows only and reports n excluded. Sites are dated if ≥1 record is dated. Totals that
+  don't depend on date (measurements, tables, type shares) keep all rows. **Spatial
+  claims use dated sites only**, so all panels/numbers describe the same sites.
+
+### Result
+Dated rows: 80.5% → **83.8%** (91,746 of 109,440). Status counts: parsed 87,203;
+open_ended 3,377; trimmed 801; two_digit 365; missing 12,527; placeholder 3,096;
+unparseable 1,150; implausible 921. 75 previously-dated rows are now excluded (years
+after publication). Groundwater is the weak category (~64% parsed; 21% blank).
+No year_start value changed for rows dated by both parsers. Non-date columns of
+processed_metadata.parquet and both table-level CSVs are unchanged (published total
+still 2,512,776 measurements / 100,829 tables).
+
+### Re-run status
+- Re-run: 00_data_prep, build_table_level_metadata, filter_published_tables, 01, 02, 03
+  notebooks, 07 (6-panel), 08 (scope stats). Figures in manuscript/figures updated.
+- **04_santa_ynez.ipynb FAILS (not date-related):** `chap2map.gdb` can't be read in this
+  Python env (fiona/GDB driver), so `rivers` is None. Needs an env fix, then re-run.
+- Not yet re-run (they read the parquet, so will pick up new dates when run):
+  09_sgma_groundwater_basins.py, dam_exploring 05–08, county_spatial_join.py.
+
+### Validation (TODO — needs human grading)
+`data/analysis/date_parsing/date_validation_sample.csv`: 100 rows stratified by
+date_status (40 parsed, 15 open_ended, 15 two_digit, 10 trimmed, 10 implausible,
+5 unparseable, 5 placeholder) with blank grader columns. Page images copied to
+`data/analysis/date_parsing/pngs/` (file prefix = sample_no); 6 rows have no page image
+anywhere (docs 2057 p1, 23894, 23996) and are skipped, so 94 rows get graded. Report
+parser accuracy next to the 87% metadata accuracy. Coverage table:
+`data/analysis/date_parsing/date_status_coverage.csv` (status × water type).
+
+---
+
+## Session Log — October 1, 2026
 
 ### Done
 - **6-panel figure complete** (Row 3 = HUC12 basin coverage, caption drafted) — see 6-panel section above. Commit 7d51e5b.
@@ -801,3 +869,253 @@ the document's own verified-coordinate footprint, page-stated county, duplicate 
 (4) publish confidence tiers; (5) report spatial claims under all vs verified+consistent.
 Also check whether human validation graded "actual" coords against the page (87% figure).
 Collaborator write-up: https://claude.ai/code/artifact/080b679c-fa0d-4306-862a-5478e5d6a00c
+
+### Location validation progress — Oct 28, 2026
+**Why the dissertation's ~86% lat/long accuracy differs from the 32% problem:** the test
+sets graded only the `Actual_*` fields, and an empty Actual field scored as correct. Rows
+where Actual was left empty scored 98–100%; rows where the LLM *gave* an actual coordinate
+were correct only 39% (curated, n=89) / 60% (random, n=84). **Inferred coordinates were
+never graded** (0 grades in either set). Also: the LLM was re-run after grading — actual
+coords match production exactly, inferred coords differ between runs (e.g. 1520 p267),
+so validation must score the PRODUCTION coordinates.
+
+**Step 1 — Township/Range/Section reference (done):**
+`code/01_digitization/04_metadata_extraction/location_validation/01_trs_reference.py`
+looks up each T/R(/section) quoted on a test page in the BLM PLSS CadNSDI service and
+uses the section (or township) centroid as an independent reference. Meridian is chosen
+only from page evidence (named meridian, state abbreviation, county named on page,
+or single candidate) — never from the LLM coordinate. Outputs in
+`data/digitization_intermediates/04_metadata_extraction/validation/location_reference/`
+(`trs_reference.csv`, `trs_reference_summary.csv`, `plss_cache.json`).
+
+| Production coords vs PLSS reference | pages | page-median error | ≤5 km | ≤25 km |
+|---|---|---|---|---|
+| actual | 31 | 0.8 km | 97% | 100% |
+| inferred | 11 | 17 km | 18% | 73% |
+
+Worst inferred: doc 70038399 p529 (Bogard Guard Station, Lassen Co., placed 240 km
+away). Unresolved: ~20 rows with >1 meridian candidate and no page evidence, ~10
+out-of-state (Oregon) T/Rs not found. Small n — TRS pages only.
+
+**Scale-up opportunity:** 30,901 production rows quote a T/R (7,616 of them have only
+inferred coords; 23,285 labeled actual). The PLSS lookup can both VALIDATE these and
+REPLACE inferred coords with ~1 km section centroids.
+Next planned steps: (2) NWIS station-name reference for stream rows; (3) GNIS place-name
+reference + human check; (4) run TRS lookup on all production rows.
+
+**Step 2 — full-dataset PLSS lookup (done, Oct 28):**
+`location_validation/02_trs_lookup_all.py` → `data/analysis/location_validation/trs_lookup_all.csv`
+(one row per main_metadata row with an LLM T/R; `meta_row` = row position in main_metadata.csv)
++ `trs_lookup_summary.csv`; PLSS downloads cached in the same folder.
+- Because the LLM's T/R parsing was unreliable (why the original prompt told it not to
+  convert T/R), the LLM T/R is only a pointer: accepted only if the same T and R appear
+  in the page's Reducto text (also matches "R,11 E" OCR and state well nos. "4N/1W-4A1");
+  section used only if it also appears next to that T/R on the page, else township centroid.
+- Meridian rules (page evidence only): named meridian > single candidate > county named on
+  page > document meridian (all ≥3 resolved rows in the doc share one meridian). Each
+  rule's references agree with "actual" coords 84–91% within 5 km → references are reliable.
+- 36,000 rows have an LLM T/R: 32,400 verified on page; **24,752 resolved**; 7,493
+  ambiguous meridian; 3,600 not verified; 155 no PLSS match.
+
+| Production coord vs PLSS | rows | median | ≤5 km | ≤25 km | >100 km |
+|---|---|---|---|---|---|
+| actual, section ref | 15,121 | 0.7 km | 92% | 96% | 1.2% |
+| actual, township ref | 2,111 | 4.2 km | 68% | 93% | 3.2% |
+| **inferred, section ref** | 4,146 | **33 km** | **7%** | 40% | 18% |
+| **inferred, township ref** | 1,771 | **25 km** | **8%** | 51% | 15% |
+
+**Decision pending (Annette):** whether to REPLACE the 5,917 inferred coords that have a
+PLSS reference, and flag the 1,381 "actual" coords that disagree with it (>5 km from a
+section reference or >10 km from a township reference).
+Nothing in main_metadata / processed_metadata has been changed.
+
+## Location Hierarchy — DECISION Oct 28, 2026 (Annette)
+LLM-inferred coordinates are presumed inaccurate and are NOT used. Unverified "actual"
+coordinates are treated the same. Each row gets a `coord_method` + precision:
+1. **printed** lat/long confirmed in page text  2. **PLSS** T/R/section (T/R must appear in
+page text)  3. **named site** (NWIS station name, then GNIS town/spring/dam; river name only
+with a place qualifier)  4. **coarse** (county; not used for HUC12 claims)  5. **unlocated**.
+Raw LLM values stay in main_metadata.csv. Validate each tier's method against tier-1 rows.
+Hold figure/stat re-runs until all tiers are built.
+
+**Tier 1 done** — `location_validation/03_printed_coords.py` →
+`data/analysis/location_validation/tier1_printed.csv`, `printed_coords_by_page.csv`.
+An LLM "actual" coordinate counts only if BOTH lat and lon match a printed value on the page
+(±0.005° with seconds, ±0.02° deg-min only). Of 57,845 LLM "actual" rows:
+printed_match 29,351 + match without lat/long keyword (OCR-garbled "La", "L") 4,039 =
+**33,390 tier 1 (57.7%)**; **not printed 22,520 (38.9%)** (spot-check: no coordinate of
+any kind on those pages); page prints other coords 1,620 (2.8%); no page text 303.
+Tier 1 = 30.5% of all rows; by type: stream 39%, reservoir 49%, springs 19%,
+**groundwater 1.4%** (GW will depend on PLSS / state well numbers).
+Leftover: 1,810 non-tier-1 rows sit on pages that print coords (1,257 on pages printing
+exactly one coordinate) — possible tier 1b (not approved yet).
+**REJECTED (Annette, Oct 28):** no adjacent-page inference (e.g. carrying a station's
+printed LOCATION from the previous page). Every location must come from the row's own page.
+
+**Tier 2 note:** the PLSS document-meridian rule (borrows meridian evidence from other pages
+of the same report) is now behind `USE_DOCUMENT_MERIDIAN = False` in 02_trs_lookup_all.py,
+per the same-page rule; it resolved ~1,225 extra rows when on. Awaiting Annette's call.
+
+**Tier 3a done — NWIS station number on page** (`05_nwis_station_numbers.py` →
+`tier3a_nwis_station.csv`): an 8-digit NWIS CA station number printed on the row's page,
+AND a distinctive word from the row's water-source name shared with the NWIS station name
+(town names in the location text alone don't count — fixed a "Chesbro Reservoir" →
+"Pajaro R at Watsonville" false match). Validation on tier-1 rows (n=9,024): median
+0.09 km, 93% ≤1 km, 98% ≤5 km. Adds 6,797 locations to unlocated rows.
+
+**Combined table** (`04_build_locations.py` → `data/analysis/location_validation/locations.csv`):
+printed 33,390 · nwis_station 6,797 · plss_section 6,143 · plss_township 2,261 ·
+**located 48,591 (44%)** · unlocated 60,849. Located share: stream 55%, reservoir 54%,
+irrigation 27%, springs 26%, groundwater 14%. Next: tier 3b GNIS named places.
+
+**Tier 3b done — GNIS named places** (`06_gnis_named_places.py` → `tier3b_gnis.csv`,
+`tier3b_gnis_validation.csv`). Uses the 2021 archived full GNIS CA file
+(`data/analysis/spatial/gnis/CA_Features_20210825.txt`; the current GNIS dropped locales,
+dams, post offices). Place candidates from the LLM water-source/location text (pointer),
+must also appear in the page text; point-like classes only (no streams/valleys);
+duplicates resolved only by a county named on the page. Validation vs printed coords
+(n=17,453): "at Place" median 1.0 km (90% ≤5 km), dam 0.7 km (89%), reservoir 1.7 km (94%);
+"near Place" 6.0 km (40%), place-only 6.2 km (39%), lake 2.8 km, spring 4.2 km,
+below 3.7 km (22% >25 km), above 8.2 km (32% >25 km). Adds 19,383 locations.
+
+**locations.csv now has `precision_class`:** precise = printed, plss_section, nwis_station,
+gnis at/dam/reservoir (→ HUC12 claims); approximate = plss_township, gnis near/place/lake/
+spring/below/above (→ county/HUC8 scale). Totals: **precise 49,317 · approximate 18,657 ·
+unlocated 41,466** (of 109,440). Precise share: stream 57%, reservoir 62%, springs 24%,
+irrigation 26%, **groundwater 7%** (GW 80% unlocated).
+
+**Groundwater review + scoping (Oct 28):** `data/analysis/location_validation/groundwater_location_review.csv`
+(+ README) = all 20,624 GW rows with LLM fields + every location step. Annette reopened the
+adjacent-page question for GW (locations often on the first page of a long table).
+40-page scoping sample of unlocated GW pages (`gw_scoping/gw_scoping_classification.csv` + page
+PNGs; Claude first pass, Annette to review): **25/40 have the location on the SAME page**, mostly as
+well numbers my parser missed — short form "5/2W-26Q1"/"7/35-36E1" (11), full state well no.
+incl. OCR variants "165/17E-17801 S", "225/39E-8C8 M" (8), section IDs under a T/R header (2),
+report-specific compact numbers "4523Q1" (2), Nevada "11/24-22dc1" (1), "N miles NE of Town"
+text (2). Only 2–4/40 truly need a previous page; 2 need document-level ID links (map no.);
+5 are not site data (narrative, TOC, area summaries); 3 garbled OCR; 1 surface-water page
+misclassified as GW. Parser gap found: the LLM often puts the well number in
+watersource_name, which 02_trs_lookup_all.py never read.
+
+**Tier 2b done — same-page well numbers** (`07_well_numbers.py` → `tier2b_well_numbers.csv`,
+`_validation.csv`; shared BLM helpers in `plss_utils.py`). Parses full ("10S/6E-23B1", OCR repair
+"165/17E-17801 S"), short ("5/2W-26Q1") and section-under-T/R-heading ("4R1") well numbers from
+the page text; missing N/S, E/W, meridian settled from the same page only (T/R on page,
+meridian letter, single candidate, town in the well heading ≤40 km, county on page). Rows
+matched to a well by well no. in LLM text / owner name in heading / only well on page; rows
+covering several wells get a centroid only if all within 5 km (approximate). Not applied to
+stream/reservoir/precip rows (first run put "Clear Lake at Lakeport" at a well 180 km away).
+Location = NWIS GW site coords when the full well no. matches an NWIS name, else section centroid.
+Validation: section centroid vs NWIS well ~0.75 km for every direction rule; unbiased direction
+check (inferred letters vs NWIS-confirmed option): only candidate 97%, town in heading 91%,
+county on page 87%; "T/R on page + county" 0/15 → disabled. plss_wellno vs printed coords:
+median 0.8 km (n=21). Adds 2,569 locations.
+**Combined now: precise 51,921 · approximate 18,622 · unlocated 38,897.** Groundwater: precise
+18% (was 7%), unlocated 68% (was 80%). Remaining unlocated GW (13,905): no well no. on page
+8,533; well no. but directions/meridian ambiguous 2,830; row not matched to one well 1,154;
+several wells >5 km apart 1,068; section not found 313.
+
+**Document-level + continuation evidence — APPROVED by Annette (Oct 28), labeled `evidence_scope`**
+(page | document | continuation) in locations.csv so any figure can include/exclude them.
+- *Document level* (07_well_numbers.py pass 2; 02_trs_lookup_all.py USE_DOCUMENT_MERIDIAN=True):
+  other pages of the report settle only meridian/N-S/E-W letters; location still from the row's
+  page. Unbiased NWIS check: document meridian 100% (n=192), same T/R elsewhere in report 97%
+  (n=71). Dropped: report quadrant (82%, n=17); "T/R on page" + any tie-breaker (0/15, 0/14).
+  Adds ~709 well rows + TRS doc-meridian rows; 1,191 rows have scope=document.
+- *Continuation* (08_continuation.py → tier4_continuation.csv, _validation, _holdout): explicit
+  "Continued" marker + same table no./title/header with the previous page; inherit from a located
+  row on the chain. Loose rules failed hold-out (precise→precise: owner 62% ≤2 km / 16% >10 km;
+  single-site 45% / 16%; section-only well IDs 52% / 42%). STRICT=True kept: full well numbers
+  (20/20 exact) and ≥2 shared owner words (73% ≤2 km, 5% >10 km → capped at approximate).
+  Adds only 159 rows. Why so few: of 5,398 unlocated non-stream pages, 1,622 lack a continuation
+  marker, 960 have the previous page missing (not digitized), 1,213 previous page not similar,
+  739 chain has no located page; only 731 reach a located page.
+**Combined now: precise 52,711 · approximate 18,985 · unlocated 37,744** (scope: page 70,346;
+document 1,191; continuation 159). Groundwater: precise 22%, approximate 15%, unlocated 63%.
+
+## Archived snapshots (Oct 28, 2026)
+Before the location rebuild entered the main pipeline, two frozen copies were made in
+`archive/` (see `archive/README.md`): `2026-10-01_original_pipeline/` (exact original approach,
+from git commit eb05a7b, also tagged `original-pipeline-2026-10-01`) and
+`2026-10-28_after_date_protocol/` (date protocol applied, LLM locations). Do not edit them.
+~870 MB together and untracked; consider adding `archive/` to .gitignore (the tag already
+preserves the original in git). The location rebuild must write a NEW HydroShare folder.
+**HydroShare: DEFERRED (Annette, Oct 28).** Do not touch `data/hydroshare/` or the HydroShare
+scripts until all date/location edits are finished; the files will be rewritten/corrected at the end.
+
+## Location rebuild IN THE PIPELINE (Oct 28, 2026) — CURRENT NUMBERS
+`00_data_prep.ipynb` now joins `locations.csv`: `lat_combined/lon_combined` = rebuilt locations
+(`coord_method`, `precision_km`, `precision_class`, `evidence_scope`); old LLM values kept as
+`lat_llm/lon_llm/coord_source_llm`. Statistics/figures: HUC12 basins AND temporal stats use
+PRECISE, DATED, CA-clipped sites only (`08_scope_extension_stats.py`, `07_ca_combined_6panel.py`).
+GNIS step now skips out-of-state pages (Arkansas R. at Poncha Creek, Colo., had been placed in
+CA with an LLM-typo date of 1833). Fixed: shell-heredoc edits had turned `\b` into backspace
+chars in 06_gnis and 01_trs_reference regexes; 08_continuation targets now independent of its
+own earlier output.
+
+| | Original (Oct 1) | + date protocol | **+ location rebuild (current)** |
+|---|---|---|---|
+| Stream: previously ungauged HUC12 | +1,611 (+110%) | +1,522 (+104%) | **+370 (+25%)** |
+| GW: previously ungauged HUC12 | +471 (+25%) | +372 (+20%) | **+65 (+3%)** |
+| Stream: earliest CA record / extension | 1849 / +42 yr | 1849 / +42 yr | **1861 / +30 yr** |
+| GW: earliest CA record / extension | 1856 / +34 yr | 1856 / +34 yr | **1871 / +19 yr** |
+| CA sites predating NWIS (stream / GW) | 272 / 157 | 280 / 157 | **61 / 19** |
+| Restored CA sites mapped (stream / GW) | 38,741 / 5,981 | 34,664 / 4,463 | **12,527 / 2,300** (precise only) |
+
+6-panel figure: panel F now shows HUC8 (dark) and HUC12 (grey) boundary lines
+(`SHOW_HUC_LINES = {'gw'}`); figure 7.25 × 5.2 in. Not yet re-run with new locations:
+notebooks 01–04 (02/03 maps use lat_combined), dam_exploring scripts, 09_sgma. HydroShare deferred.
+
+**DECISION (Annette, Oct 28): analyses and maps use PRECISE + APPROXIMATE locations.**
+`PRECISION_CLASSES = {'precise', 'approximate'}` in 07_ca_combined_6panel.py and
+08_scope_extension_stats.py (set {'precise'} for the conservative version).
+Current numbers (dated, located, CA): stream +543 previously-ungauged HUC12 (+37%), GW +89 (+5%);
+mapped restored sites 13,373 stream / 2,772 GW. Raw earliest records are NOT credible yet:
+stream "1850" = an INDEX page (doc 2252 p944, LLM-invented date) → first credible stream data
+are the Dec 1861–Jan 1862 flood peaks (printed coords; +30 yr vs NWIS 1891); GW "1868" = estimated
+recharge average 1868–1964 (doc 2345), GW 1870–75 dates in 1905 well tables look like year-drilled,
+not measurement dates → GW start year needs manual review (ties into the date plan: separate
+table-data dates from other dates; drop index/contents pages).
+
+**GW recovery round 1 (Oct 28):**
+- *County in report title* ("… Fresno and Kings Counties"; only "X County/Counties" phrases count)
+  settles well-number directions/meridian (scope document): 98% NWIS-confirmed (n=686), section
+  vs NWIS well 0.8 km → kept in 07_well_numbers.py (+1,211 located well rows). Same rule in the
+  TRS lookup: 0/6 agreed with printed coords (median 447 km) → `USE_TITLE_COUNTY = False` there.
+- *Page types* (`code/02_inventory/10_page_types.py` → `data/analysis/page_types.csv`; joined in
+  00_data_prep as `page_type` / `is_data_page`): index_contents 410 pages (2,995 rows), narrative
+  (no table at all) 38 pages (71 rows), no_page_text 346 pages (kept), data. Non-data pages are
+  excluded from maps/stats (07, 08 filter `is_data_page`). This removed the false "1850" stream
+  record (index page doc 2252 p944): stream earliest now 1861 (credible flood peaks).
+- Result: GW precise 4,428→5,238, approximate 3,095→3,248, unlocated 13,067→12,104 (41% located);
+  CA dated GW sites 2,772→3,025. Stats: stream +542 basins (+37%), GW +94 (+5%); stream 1861 / +30 yr;
+  GW "1868" is still the recharge-estimate artifact (needs date-plan fix). Breakdown table:
+  `data/analysis/location_validation/location_breakdown_by_water_type.csv`.
+
+**GW recovery round 2 — B118 basin tier (Oct 28):** `location_validation/09_b118_basins.py` →
+`tier5_b118_basins.csv`, `tier5_b118_validation.csv`. Groundwater rows (data pages, otherwise
+unlocated) whose LLM text names a DWR Bulletin 118 basin/subbasin that also appears on the page
+(one-word names need "Valley/Basin/Area") get a point inside the B118 polygon; new
+`precision_class = 'basin'` (precision = basin equivalent radius, median ~16 km). NOT used for
+HUC12 stats or point maps (PRECISION_CLASSES excludes it); for basin-level summaries only.
+Result: +793 GW rows (593 basin, 200 subbasin); validation: precise GW points inside the matched
+polygon (+2 km) 82% (basin, n=459), 89% (subbasin, n=18). Small because most area-only pages name
+non-B118 areas ("Mendota-Huron area"). NOTE: lat_combined now also holds basin points — any
+notebook mapping lat_combined must filter precision_class (07/08 already do).
+Totals now: precise 53,513 · approximate 18,738 · basin 793 · unlocated 36,396.
+
+## Session Log — October 28, 2026 (resume here)
+Done today: date protocol (date_parsing.py); 6-panel figure redesigned to 2×3 journal layout
+(7.25×5.2 in) with C/F = NWIS vs restored-only basins and HUC8/HUC12 lines on F; full location
+rebuild (printed → well numbers → PLSS → NWIS station → GNIS → continuation → B118 basin), joined
+into processed_metadata; page types; original pipeline archived (archive/, tag
+original-pipeline-2026-10-01). Current headline: stream +542 HUC12 (+37%), +30 yr (1861);
+GW +94 HUC12 (+5%), GW start year not yet credible.
+**Open / next:**
+1. Annette is grading `data/analysis/date_parsing/date_validation_sample.csv` (94 rows) and will
+   return to the date plan (table-level dates, grounded LLM fallback; fixes GW "1868" artifact).
+2. Re-run notebooks 01–04, dam_exploring, 09_sgma with new locations (filter precision_class).
+3. Remaining GW options: report-specific decoders (Mokelumne "4523Q1", Mendota-Huron), distance-
+   direction text, map-number links. 4. Update abstract/caption numbers.
+5. HydroShare: deferred until everything else is final (rebuild into a NEW folder).
+6. Nothing committed to git yet today (large set of modified + new files).

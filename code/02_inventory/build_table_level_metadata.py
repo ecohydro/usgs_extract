@@ -64,6 +64,7 @@ COLUMNS IN table_level_metadata.csv
     year_start          earliest year parsed from dates_of_recording
     year_end            latest year parsed from dates_of_recording
     decade_start        floor(year_start / 10) * 10
+    date_status         parse outcome; see date_parsing.py (DATED_STATUSES = dated)
     lat_combined        actual_latitude if present, else inferred_latitude
     lon_combined        actual_longitude if present, else inferred_longitude
     watersource_name    LLM-extracted water source name (page level)
@@ -83,6 +84,9 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from date_parsing import add_date_columns
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -268,19 +272,7 @@ def collect_headers() -> pd.DataFrame:
 # Step 2 — prepare LLM metadata for fallback join
 # ---------------------------------------------------------------------------
 
-OPEN_ENDED = ('present', 'current', 'ongoing', 'to date', 'today')
-
-def parse_year_range(date_str):
-    if pd.isna(date_str):
-        return None, None
-    s = str(date_str).lower()
-    if any(t in s for t in OPEN_ENDED):
-        return None, None
-    years = [int(y) for y in re.findall(r'\b(1[89]\d{2}|20[0-7]\d)\b', s)
-             if 1800 <= int(y) <= 1980]
-    if not years:
-        return None, None
-    return min(years), max(years)
+# dates: shared parser (code/02_inventory/date_parsing.py) -- do not copy it here
 
 
 WATER_TYPE_MAP = {
@@ -325,10 +317,7 @@ def build_page_meta() -> pd.DataFrame:
     meta = pd.read_csv(META_PATH, low_memory=False)
     meta['wt_clean'] = meta['water_type'].map(clean_water_type)
 
-    year_pairs = meta['dates_of_recording'].map(parse_year_range)
-    meta['year_start']   = year_pairs.map(lambda x: x[0]).astype('Int64')
-    meta['year_end']     = year_pairs.map(lambda x: x[1]).astype('Int64')
-    meta['decade_start'] = (meta['year_start'] // 10 * 10).astype('Int64')
+    add_date_columns(meta)   # year_start, year_end, decade_start, date_status
 
     meta['lat_combined'] = meta['actual_latitude'].combine_first(meta['inferred_latitude'])
     meta['lon_combined'] = meta['actual_longitude'].combine_first(meta['inferred_longitude'])
@@ -341,7 +330,7 @@ def build_page_meta() -> pd.DataFrame:
     meta['llm_page_ambiguous'] = meta['n_llm_types'] > 1
 
     keep = ['id', 'page_number', 'wt_clean', 'llm_page_ambiguous',
-            'year_start', 'year_end', 'decade_start',
+            'year_start', 'year_end', 'decade_start', 'date_status',
             'lat_combined', 'lon_combined', 'watersource_name']
 
     # One row per page — keep first occurrence (consistent ordering)
@@ -465,7 +454,7 @@ def main():
         'header_text', 'water_type_header', 'confidence',
         'water_type_llm', 'llm_page_ambiguous',
         'water_type_final', 'assignment_source',
-        'year_start', 'year_end', 'decade_start',
+        'year_start', 'year_end', 'decade_start', 'date_status',
         'lat_combined', 'lon_combined', 'watersource_name',
     ]
     final = merged[[c for c in col_order if c in merged.columns]]

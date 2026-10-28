@@ -23,6 +23,12 @@ Method notes (state these in the manuscript methods):
   - NWIS streamflow uses the EXPANDED site set (daily-value + peak-flow + field
     measurements). Restricting to daily-value gauges only would lower NWIS basin
     coverage and raise the restored spatial gain. Toggle USE_EXPANDED_STREAM.
+  - Only DATED restored records are used (date_parsing.DATED_STATUSES; protocol
+    agreed 2026-10-28), so spatial and temporal numbers describe the same sites.
+  - LOCATIONS (rebuilt 2026-10-28): lat_combined/lon_combined come from the validated
+    location hierarchy, not the LLM. All statistics use PRECISE + APPROXIMATE locations
+    (Annette, 2026-10-28). Approximate locations (median 3-8 km) can fall in a neighbouring
+    HUC12; set PRECISION_CLASSES = {'precise'} for the conservative version.
   - Temporal extension is earliest-restored vs earliest-NWIS. Both extensions are
     backed by 150-270 CA sites predating NWIS, not single records.
 
@@ -47,6 +53,10 @@ import numpy as np
 import geopandas as gpd
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from date_parsing import is_dated
+
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
 nwis_path    = root / 'data/analysis/nwis_sites'
@@ -55,7 +65,8 @@ out_path     = root / 'data/analysis/scope_extension_stats.csv'
 
 USE_EXPANDED_STREAM = True   # True: daily+peak+field NWIS stream sites; False: daily-value only
 RECORD_END_ERA      = 1980   # historical era end (restored data ends 1980); used for % record-length
-RECORD_END_PRESENT  = 2025   # present-day record end; alternative % framing
+RECORD_END_PRESENT  = 2025
+PRECISION_CLASSES   = {'precise', 'approximate'}   # {'precise'} = conservative version   # present-day record end; alternative % framing
 
 # ------------------------------------------------------------------ load
 df   = pd.read_parquet(parquet_path)
@@ -66,8 +77,8 @@ print(f'Loaded {len(df):,} metadata rows | {n_huc_total:,} CA HUC12 subwatershed
 
 
 def restored_ca(water_type):
-    """Restored sites of a water type, clipped to the CA boundary."""
-    s = df[(df['water_type_clean'] == water_type) &
+    """Dated restored sites of a water type, clipped to the CA boundary."""
+    s = df[(df['water_type_clean'] == water_type) & is_dated(df) & df['is_data_page'] &
            df['lat_combined'].notna() & df['lon_combined'].notna()].copy()
     g = gpd.GeoDataFrame(
         s, geometry=gpd.points_from_xy(s['lon_combined'], s['lat_combined']),
@@ -96,6 +107,8 @@ rows = []
 for wt, csv_name in [('Stream Discharge', stream_csv),
                      ('Groundwater', 'ca_groundwater_sites.csv')]:
     r = restored_ca(wt)
+    r_any = r
+    r = r[r['precision_class'].isin(PRECISION_CLASSES)]
     n = nwis_gdf(csv_name)
     r_sites = r.drop_duplicates(['lat_combined', 'lon_combined'])
 
@@ -127,6 +140,7 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
         'temporal_pct_vs_present': round(pct_present, 1),
         # spatial
         'restored_sites_ca': len(r_sites),
+        'restored_sites_ca_any_precision': r_any.drop_duplicates(['lat_combined', 'lon_combined']).shape[0],
         'nwis_sites': len(n),
         'restored_basins_huc12': len(r_b),
         'nwis_basins_huc12': len(n_b),

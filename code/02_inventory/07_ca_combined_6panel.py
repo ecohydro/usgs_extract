@@ -1,12 +1,14 @@
 """
 Draft 6-panel figure: CA statewide restored vs. NWIS sites,
-stream discharge (left column) and groundwater (right column).
+stream discharge (top row, A-C) and groundwater (bottom row, D-F).
+Sized for a 2-column journal figure (7.25 in wide).
 
-Row 1: new sites per decade (time series, like dissertation Figs 13/17 Panel A,
+Col 1: new sites per decade (time series, like dissertation Figs 13/17 Panel A,
        but statewide instead of Santa Barbara County)
-Row 2: CA map of restored vs. NWIS site locations (like notebooks 05/06)
-Row 3: HUC12 subwatersheds classified as restored-only (previously ungauged),
-       restored + NWIS, NWIS-only, or no sites (see BASIN_NWIS_ALL_YEARS)
+Col 2: CA map of restored vs. NWIS site locations (like notebooks 05/06)
+Col 3: HUC12 subwatersheds with NWIS sites vs. restored-only (previously
+       ungauged) subwatersheds; basins with both count as NWIS, basins with
+       no sites are not drawn (see BASIN_NWIS_ALL_YEARS)
 
 Inputs:
 - data/analysis/processed_metadata.parquet
@@ -22,6 +24,10 @@ import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
 from pathlib import Path
+
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from date_parsing import is_dated
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
@@ -43,6 +49,10 @@ USE_EXPANDED_STREAM = True
 # False: only NWIS sites beginning <= NWIS_YEAR_CUTOFF, matching the Row 2 maps.
 BASIN_NWIS_ALL_YEARS = True
 
+# Restored-site locations used (rebuilt hierarchy, 2026-10-28). Annette: precise + approximate.
+# {'precise'} = conservative version (~1 km; approximate is 3-8 km median error).
+PRECISION_CLASSES = {'precise', 'approximate'}
+
 NWIS_YEAR_CUTOFF = 1979   # match restored data period (records end 1980)
 # last full decade is the 1970s; the 1980 bin only catches records starting
 # exactly in 1980 (n=2) and plots as a misleading drop to zero
@@ -60,10 +70,13 @@ CA_YMIN, CA_YMAX = ymin - buf, ymax + buf
 
 
 def restored_sites(water_type):
-    """Unique restored locations for a water type, clipped to CA.
+    """Unique DATED, LOCATED restored sites for a water type, clipped to CA.
+    Undated records are excluded from every panel (date protocol, 2026-10-28); locations
+    come from the rebuilt hierarchy, precise + approximate (PRECISION_CLASSES).
     Returns (all unique sites gdf, unique site x decade gdf)."""
     base = df[
-        (df['water_type_clean'] == water_type) &
+        (df['water_type_clean'] == water_type) & is_dated(df) &
+        df['precision_class'].isin(PRECISION_CLASSES) & df['is_data_page'] &
         df['lat_combined'].notna() &
         df['lon_combined'].notna()
     ]
@@ -128,11 +141,12 @@ print('\nGroundwater per decade:\n', ts_gw)
 # ---------------------------------------------------------------- HUC12 basins
 huc = gpd.read_file(spatial_path / 'ca_wbd/ca_huc12.geojson').to_crs('EPSG:4326')
 
+# Basins with both restored and NWIS sites are labeled NWIS, so the restored
+# class shows only where restored data fills a basin with zero NWIS sites.
+# Basins with no sites are not drawn (no legend entry).
 BASIN_CLASSES = [   # (key, legend label, color) -- drawn and listed in this order
-    ('restored', 'Restored only', RESTORED_COLOR),
-    ('both',     'Both',          '#AA3377'),
-    ('nwis',     'NWIS only',     NWIS_COLOR),
-    ('none',     'No sites',      '#EEEEEE'),
+    ('nwis',     'NWIS',                    NWIS_COLOR),
+    ('restored', 'Restored, no NWIS sites', RESTORED_COLOR),
 ]
 
 
@@ -152,14 +166,14 @@ def all_nwis(csv_name):
 
 
 def classify_basins(restored_gdf, nwis_gdf):
-    """HUC12 polygons labeled restored-only / both / NWIS-only / none."""
+    """HUC12 polygons labeled restored-only / NWIS (incl. both) / none."""
     r = huc12_set(restored_gdf[['geometry']])
     n = huc12_set(nwis_gdf[['geometry']])
     b = huc.copy()
     b['cls'] = 'none'
     b.loc[b['huc12'].isin(n), 'cls'] = 'nwis'
     b.loc[b['huc12'].isin(r), 'cls'] = 'restored'
-    b.loc[b['huc12'].isin(r & n), 'cls'] = 'both'
+    b.loc[b['huc12'].isin(n), 'cls'] = 'nwis'   # NWIS takes precedence over restored
     return b
 
 
@@ -171,37 +185,79 @@ for lab, b in [('Stream discharge', basins_sd), ('Groundwater', basins_gw)]:
     print(f'\n{lab} HUC12 basins:\n', b['cls'].value_counts())
 
 # ---------------------------------------------------------------- figure
-map_aspect = (CA_YMAX - CA_YMIN) / (CA_XMAX - CA_XMIN)   # ~1.06
+# Built at final print size: journal 2-column width = 7.25 in, max depth 7.8 in.
+# Layout: rows = water type (stream, groundwater); columns = time series,
+# site map, HUC12 basin coverage map. Myriad (journal caption font) is not
+# installed, so Arial is used as the closest available sans-serif.
+map_aspect = (CA_YMAX - CA_YMIN) / (CA_XMAX - CA_XMIN)
+FIG_W, FIG_H = 7.25, 5.2
+FS_BASE   = 7     # axis labels
+FS_SMALL  = 6     # tick labels, legends
+FS_TITLE  = 8     # column titles, row labels
+FS_LETTER = 9     # panel letters
 
-fig = plt.figure(figsize=(11, 14.5), dpi=300)
-gs = fig.add_gridspec(3, 2, height_ratios=[0.62, 1.0, 1.0], hspace=0.15, wspace=0.25)
+plt.rcParams.update({
+    'font.family': 'Arial',
+    'font.size': FS_BASE,
+    'axes.labelsize': FS_BASE,
+    'xtick.labelsize': FS_SMALL,
+    'ytick.labelsize': FS_SMALL,
+    'legend.fontsize': FS_SMALL,
+    'axes.linewidth': 0.6,
+    'xtick.major.width': 0.6,
+    'ytick.major.width': 0.6,
+    'xtick.major.size': 2.5,
+    'ytick.major.size': 2.5,
+})
+
+fig = plt.figure(figsize=(FIG_W, FIG_H), dpi=300)
+gs = fig.add_gridspec(2, 3, width_ratios=[1.0, 1.0, 1.0],
+                      left=0.10, right=0.995, top=0.947, bottom=0.105,
+                      wspace=0.12, hspace=0.26)
 
 ax_ts_sd  = fig.add_subplot(gs[0, 0])
-ax_ts_gw  = fig.add_subplot(gs[0, 1])
-ax_map_sd = fig.add_subplot(gs[1, 0])
+ax_map_sd = fig.add_subplot(gs[0, 1])
+ax_bas_sd = fig.add_subplot(gs[0, 2])
+ax_ts_gw  = fig.add_subplot(gs[1, 0])
 ax_map_gw = fig.add_subplot(gs[1, 1])
-ax_e      = fig.add_subplot(gs[2, 0])
-ax_f      = fig.add_subplot(gs[2, 1])
+ax_bas_gw = fig.add_subplot(gs[1, 2])
 
-# ---- Row 1: time series (new sites per decade)
-for ax, ts, label in [(ax_ts_sd, ts_sd, 'stream discharge'),
-                      (ax_ts_gw, ts_gw, 'groundwater')]:
-    ax.plot(ts.index, ts['nwis'], '-o', color=NWIS_COLOR, markersize=4,
-            label='NWIS')
-    ax.plot(ts.index, ts['restored'], '-o', color=RESTORED_COLOR, markersize=4,
-            label='Restored')
-    ax.set_xlabel('Decade')
-    ax.set_ylabel('New sites per decade')
+# map legends sit below the map box, where an x-axis would be
+BELOW_KW = dict(loc='upper center', bbox_to_anchor=(0.5, -0.01), frameon=False,
+                borderpad=0.2, handlelength=1.2, handletextpad=0.5, labelspacing=0.3)
+
+LEGEND_KW = dict(frameon=True, fancybox=False, framealpha=0.9, edgecolor='#cccccc',
+                 borderpad=0.4, handlelength=1.2, handletextpad=0.5, labelspacing=0.3)
+
+# ---- Column 1: time series (new sites per decade)
+for ax, ts in [(ax_ts_sd, ts_sd), (ax_ts_gw, ts_gw)]:
+    ax.plot(ts.index, ts['nwis'], '-o', color=NWIS_COLOR, markersize=2.5,
+            linewidth=1.0, label='NWIS')
+    ax.plot(ts.index, ts['restored'], '-o', color=RESTORED_COLOR, markersize=2.5,
+            linewidth=1.0, label='Restored')
+    ax.set_ylabel('New sites per decade', labelpad=2)
     ax.set_xlim(DECADE_MIN - 5, DECADE_MAX + 5)
-    ax.legend(frameon=True, fancybox=True, framealpha=0.9, fontsize=9)
-    ax.grid(True, alpha=0.3)
+    # each point is a decade bin plotted at its start year; the last bin (1970)
+    # covers 1970-1979, so the axis ends at 1970 rather than 1980
+    ax.set_xticks(range(DECADE_MIN, DECADE_MAX + 1, 20))
+    ax.legend(loc='upper left', **LEGEND_KW)
+    ax.grid(True, alpha=0.3, linewidth=0.4)
+    ax.set_box_aspect(map_aspect)   # same height as the maps so rows align
 
-ax_ts_sd.set_title('Stream Discharge', fontsize=13, pad=10)
-ax_ts_gw.set_title('Groundwater', fontsize=13, pad=10)
+# ---- Column 2: CA site maps
+def style_map(ax):
+    ax.set_xlim(CA_XMIN, CA_XMAX)
+    ax.set_ylim(CA_YMIN, CA_YMAX)
+    ax.set_aspect('equal')
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_color('#cccccc')
+        spine.set_linewidth(0.6)
 
-# ---- Row 2: CA maps
+
 def draw_map(ax, restored_gdf, nwis_gdf, restored_on_top):
-    ca.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=0.6, zorder=1)
+    ca.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=0.4, zorder=1)
     layers = [
         (nwis_gdf, NWIS_COLOR, f'NWIS (n={len(nwis_gdf):,})'),
         (restored_gdf, RESTORED_COLOR, f'Restored (n={len(restored_gdf):,})'),
@@ -209,65 +265,77 @@ def draw_map(ax, restored_gdf, nwis_gdf, restored_on_top):
     if not restored_on_top:
         layers.reverse()
     # bottom layer smaller/fainter so the top layer stays readable
-    layers[0][0].plot(ax=ax, color=layers[0][1], markersize=3, alpha=0.4,
+    layers[0][0].plot(ax=ax, color=layers[0][1], markersize=0.6, alpha=0.4,
                       edgecolor='none', zorder=2, label=layers[0][2])
-    layers[1][0].plot(ax=ax, color=layers[1][1], markersize=4, alpha=0.6,
+    layers[1][0].plot(ax=ax, color=layers[1][1], markersize=0.9, alpha=0.6,
                       edgecolor='none', zorder=3, label=layers[1][2])
-    ax.set_xlim(CA_XMIN, CA_XMAX)
-    ax.set_ylim(CA_YMIN, CA_YMAX)
-    ax.set_aspect('equal')
-    ax.set_xticks([])
-    ax.set_yticks([])
-    for spine in ax.spines.values():
-        spine.set_color('#cccccc')
-        spine.set_linewidth(1.0)
-    ax.legend(loc='lower left', markerscale=3.0, frameon=True, fancybox=True,
-              framealpha=0.9, fontsize=9)
+    style_map(ax)
+    ax.legend(markerscale=4.0, **BELOW_KW)
 
 # stream: NWIS sparse -> plot on top; groundwater: NWIS dense -> restored on top
 draw_map(ax_map_sd, sd_all, nwis_sd, restored_on_top=False)
 draw_map(ax_map_gw, gw_all, nwis_gw, restored_on_top=True)
 
-# ---- Row 3: HUC12 basin coverage maps
+# ---- Column 3: HUC12 basin coverage maps
 from matplotlib.patches import Patch
 
 
-def draw_basins(ax, basins):
+from matplotlib.lines import Line2D
+
+# HUC8 / HUC12 boundary lines (requested 2026-10-28 for the groundwater map, panel F)
+SHOW_HUC_LINES = {'gw'}          # add 'sd' to draw them on the stream panel (C) as well
+HUC12_LINE = dict(color='#9a9a9a', linewidth=0.08)
+HUC8_LINE  = dict(color='#333333', linewidth=0.35)
+huc8 = gpd.read_file(spatial_path / 'ca_wbd/ca_huc8.geojson').to_crs('EPSG:4326')
+_ca_valid = ca.set_geometry(ca.geometry.make_valid())
+huc8_ca = gpd.clip(huc8.set_geometry(huc8.geometry.make_valid()), _ca_valid)
+huc12_ca = gpd.clip(huc.set_geometry(huc.geometry.make_valid()), _ca_valid)
+
+
+def draw_basins(ax, basins, huc_lines=False):
     counts = basins['cls'].value_counts()
     # clip for display only: some WBD HUC12s straddle the state line
     # (make_valid: the simplified WBD download has a few self-intersections)
-    basins = gpd.clip(basins.set_geometry(basins.geometry.make_valid()),
-                      ca.set_geometry(ca.geometry.make_valid()))
+    basins = gpd.clip(basins.set_geometry(basins.geometry.make_valid()), _ca_valid)
     handles = []
     for key, label, color in BASIN_CLASSES:
         sub = basins[basins['cls'] == key]
         if len(sub):
-            sub.plot(ax=ax, color=color, edgecolor='white', linewidth=0.1, zorder=2)
-        handles.append(Patch(facecolor=color, edgecolor='#999999', linewidth=0.5,
+            sub.plot(ax=ax, color=color, edgecolor='white', linewidth=0.05, zorder=2)
+        handles.append(Patch(facecolor=color, edgecolor='none',
                              label=f'{label} ({counts.get(key, 0):,})'))
-    ca.boundary.plot(ax=ax, color='black', linewidth=0.6, zorder=3)
-    ax.set_xlim(CA_XMIN, CA_XMAX)
-    ax.set_ylim(CA_YMIN, CA_YMAX)
-    ax.set_aspect('equal')
-    ax.set_xticks([])
-    ax.set_yticks([])
-    for spine in ax.spines.values():
-        spine.set_color('#cccccc')
-        spine.set_linewidth(1.0)
-    ax.legend(handles=handles, loc='lower left', title='HUC12 basins',
-              title_fontsize=8, frameon=True, fancybox=True, framealpha=0.9,
-              fontsize=8)
+    if huc_lines:
+        huc12_ca.boundary.plot(ax=ax, zorder=3, **HUC12_LINE)
+        huc8_ca.boundary.plot(ax=ax, zorder=4, **HUC8_LINE)
+        handles += [Line2D([], [], label='HUC8 boundary', **{**HUC8_LINE, 'linewidth': 0.8}),
+                    Line2D([], [], label='HUC12 boundary', **{**HUC12_LINE, 'linewidth': 0.6})]
+    ca.boundary.plot(ax=ax, color='black', linewidth=0.4, zorder=5)
+    style_map(ax)
+    ax.legend(handles=handles, **BELOW_KW)
 
 
-draw_basins(ax_e, basins_sd)
-draw_basins(ax_f, basins_gw)
+draw_basins(ax_bas_sd, basins_sd, huc_lines='sd' in SHOW_HUC_LINES)
+draw_basins(ax_bas_gw, basins_gw, huc_lines='gw' in SHOW_HUC_LINES)
+
+# ---- column titles and row labels
+for ax, title in [(ax_ts_sd, 'Sites Per Decade'),
+                  (ax_map_sd, 'Site locations (1850–1980)'),
+                  (ax_bas_sd, 'Subwatershed coverage')]:
+    ax.set_title(title, fontsize=FS_TITLE, fontweight='bold', pad=6)
+
+for ax, label in [(ax_ts_sd, 'Stream discharge'), (ax_ts_gw, 'Groundwater')]:
+    pos = ax.get_position()
+    fig.text(0.012, (pos.y0 + pos.y1) / 2, label, rotation=90, ha='left',
+             va='center', fontsize=FS_TITLE, fontweight='bold')
 
 # panel letters: outside the top-left corner so they don't sit on the CA outline
-for ax, lab in [(ax_ts_sd, 'A'), (ax_ts_gw, 'B'), (ax_map_sd, 'C'),
-                (ax_map_gw, 'D'), (ax_e, 'E'), (ax_f, 'F')]:
-    ax.text(-0.02, 1.01, lab, transform=ax.transAxes, fontsize=14,
-            fontweight='bold', va='bottom', ha='right')
+for ax, lab in [(ax_ts_sd, 'A'), (ax_map_sd, 'B'), (ax_bas_sd, 'C'),
+                (ax_ts_gw, 'D'), (ax_map_gw, 'E'), (ax_bas_gw, 'F')]:
+    pos = ax.get_position()
+    fig.text(pos.x0 - 0.008, pos.y1 + 0.006, lab, fontsize=FS_LETTER,
+             fontweight='bold', va='bottom', ha='right')
 
 out_path = figures_path / 'ca_nwis_combined_6panel.png'
-plt.savefig(out_path, dpi=300, bbox_inches='tight')
-print(f'\nSaved: {out_path}')
+# no bbox_inches='tight': keep the exact journal width
+plt.savefig(out_path, dpi=300)
+print(f'\nSaved: {out_path}  ({FIG_W} x {FIG_H} in)')

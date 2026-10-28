@@ -1,0 +1,101 @@
+sample_no,id,page_number,water_type_clean,Year Published,dates_of_recording,date_status,year_start,year_end,png_path,local_png,grader_true_start,grader_true_end,grader_correct (Y/N),grader_notes
+1,70039753,335,Water Quality,1963,10/01/1962-09/30/1963,parsed,1962,1963,data/digitized/70039753/page_335/70039753_page_335.png,pngs/001_70039753_page_335.png,1962,1963,Y,
+2,3150,574,Stream Discharge,1972,02/01/1964-09/30/1967,parsed,1964,1967,data/digitized/3150/page_574/3150_page_574.png,pngs/002_3150_page_574.png,1964,1967,Y,
+3,2292,100,Groundwater,1905,1884-1897,parsed,1884,1897,data/digitized/2292/page_100/2292_page_100.png,pngs/003_2292_page_100.png,1884,1901,N,multiple years for multiple groundwater wells 
+4,1744,125,Stream Discharge,1917,11/01/1913-09/30/1914,parsed,1913,1914,data/digitized/1744/page_125/1744_page_125.png,pngs/004_1744_page_125.png,1913,1914,Y,
+5,56416,502,Stream Discharge,1974,10/01/1972-09/30/1973,parsed,1972,1973,data/digitized/56416/page_502/56416_page_502.png,pngs/005_56416_page_502.png,1972,1973,Y,
+6,1554,390,Stream Discharge,1927,09/19/1921-12/15/1921 and 03/26/1922-06/19/1922,parsed,1921,1922,data/digitized/1554/page_390/1554_page_390.png,pngs/006_1554_page_390.png,1921,1922,Y,
+7,22945,73,Groundwater,1959,11/8/1945-11/8/1945,parsed,1945,1945,data/digitized/22945/page_73/22945_page_73.png,pngs/007_22945_page_73.png,1948,1948,N,"text says ""drilled by owner in 1948"" "
+8,667,318,Stream Discharge,1956,10/01/1940-09/30/1954,parsed,1940,1954,data/digitized/667/page_318/667_page_318.png,pngs/008_667_page_318.png,1940,1954,Y,
+9,70038404,297,Stream Discharge,1969,10/19/1928-09/30/1968,parsed,1928,1968,data/digitized/70038404/page_297/70038404_page_297.png,pngs/009_70038404_page_297.png,1967,1968,N,"dates are on the page, but dates for table are actually 1967-1968"
+10,70038402,220,Stream Discharge,1968,04/01/1956-09/30/1967,parsed,1956,1967,data/digitized/70038402/page_220/70038402_page_220.png,pngs/010_70038402_page_220.png,1966,1967,N,"""records available 1956-1967"" on page, but technical dates from table are 1966-1967"
+11,2292,81,Groundwater,1905,?1870-?1899,parsed,1870,1899,data/digitized/2292/page_81/2292_page_81.png,pngs/011_2292_page_81.png,1870,1903,N,"some of these dates are correct, actual text includes ""?1899"" from page, indicating the recorder did not know the precise date. There are multiple wells for one table, many years"
+12,194,433,Stream Discharge,1969,04/01/1963-09/30/1964,parsed,1963,1964,data/digitized/194/page_433/194_page_433.png,pngs/012_194_page_433.png,1963,1964,Y,
+13,70232242,35,Stream Discharge,1976,31/07/1973-31/07/1973,parsed,1973,1973,data/digitized/70232242/page_35/70232242_page_35.png,pngs/013_70232242_page_35.png,1973,1973,Y,
+14,623,381,Stream Discharge,1951,01/1927-09/1949,parsed,1927,1949,data/digitized/623/page_381/623_page_381.png,pngs/014_623_page_381.png,1948,1949,N,"""records available 1927-1949"" on page, but technical dates from table are 1948-1949"
+15,52516,2,Groundwater,1965,1963-01-01 to 1964-12-31,parsed,1963,1964,data/digitized/52516/page_2/52516_page_2.png,pngs/015_52516_page_2.png,1963,1964,Y,"table of contents, not data table"
+16,2057,1,Precipitation,1960,1914-10-01 to 1950-09-30,parsed,1914,1950,data/digitized/2057/page_1/2057_page_1.png,,,,,no .png available
+17,52651,33,Springs,1968,1963-09 to Unknown,parsed,1963,1963,data/digitized/52651/page_33/52651_page_33.png,pngs/017_52651_page_33.png,1963,1963,Y,
+18,3089,671,Stream Discharge,1970,11/08/1960-06/29/1961,parsed,1960,1961,data/digitized/3089/page_671/3089_page_671.png,pngs/018_3089_page_671.png,1960,1962,N,"partially correct, goes to 1962"
+19,2257,54,Groundwater,1968,04/09/1945-10/27/1965,parsed,1945,1965,data/digitized/2257/page_54/2257_page_54.png,pngs/019_2257_page_54.png,1945,1965,Y,
+20,1568,151,Stream Discharge,1929,10/01/1924-09/30/1925,parsed,1924,1925,data/digitized/1568/page_151/1568_page_151.png,pngs/020_1568_page_151.png,1924,1925,Y,
+21,28992,26,Groundwater,1977,05/01/1952-05/01/1962,parsed,1952,1962,data/digitized/28992/page_26/28992_page_26.png,pngs/021_28992_page_26.png,1952,1962,Y,
+22,1573,261,Stream Discharge,1931,09/01/1922-09/30/1928,parsed,1922,1928,data/digitized/1573/page_261/1573_page_261.png,pngs/022_1573_page_261.png,1927,1928,N,"""records available 1922-1928"" but actual table is 1927-1928"
+23,56404,454,Stream Discharge,1977,10/01/1975-09/30/1976,parsed,1975,1976,data/digitized/56404/page_454/56404_page_454.png,pngs/023_56404_page_454.png,1975,1976,Y,
+24,51659,99,Irrigation,1954,1929,parsed,1929,1929,data/digitized/51659/page_99/51659_page_99.png,pngs/024_51659_page_99.png,1929,1952,N,"Multiple years on the page, including date completed (well drilled) and date of water level measurement, so this one is very hard. But this is misclassified as ""irrigation"" and it should be ""groundwater"" "
+25,2251,388,Stream Discharge,1912,10/11/1908-03/31/1910,parsed,1908,1910,data/digitized/2251/page_388/2251_page_388.png,pngs/025_2251_page_388.png,1908,1910,Y,
+26,51055,19,Stream Discharge,1951,1949-10/01/1950-09-30,parsed,1949,1950,data/digitized/51055/page_19/51055_page_19.png,pngs/026_51055_page_19.png,1949,1950,Y,
+27,56403,484,Stream Discharge,1977,10/01/1975-09/30/1976,parsed,1975,1976,data/digitized/56403/page_484/56403_page_484.png,pngs/027_56403_page_484.png,1975,1976,Y,
+28,70038399,180,Stream Discharge,1967,10/01/1965-09/30/1966,parsed,1965,1966,data/digitized/70038399/page_180/70038399_page_180.png,pngs/028_70038399_page_180.png,1965,1966,Y,
+29,70210573,36,Stream Discharge,1971,04/23/1968-04/23/1968,parsed,1968,1968,data/digitized/70210573/page_36/70210573_page_36.png,pngs/029_70210573_page_36.png,1968,1968,Y,
+30,70038402,72,Stream Discharge,1968,10/01/1966-09/30/1967,parsed,1966,1967,data/digitized/70038402/page_72/70038402_page_72.png,pngs/030_70038402_page_72.png,1966,1967,Y,
+31,70038406,204,Groundwater,1970,02/24/1966-10/10/1968,parsed,1966,1968,data/digitized/70038406/page_204/70038406_page_204.png,pngs/031_70038406_page_204.png,1966,1968,Y,
+32,3174,143,Stream Discharge,1974,10/14/1969-09/21/1970,parsed,1969,1970,data/digitized/3174/page_143/3174_page_143.png,pngs/032_3174_page_143.png,1969,1970,Y,
+33,1147,177,Groundwater,1924,09/29/1914-03/30/1915,parsed,1914,1915,data/digitized/1147/page_177/1147_page_177.png,pngs/033_1147_page_177.png,1914,1920,N,"This is tricky because there are multiple tables on the page, it got the dates right for the first table but is not inclusive of all tables"
+34,4536,65,Stream Discharge,1928,10/03/1924-09/17/1924,parsed,1924,1924,data/digitized/4536/page_65/4536_page_65.png,pngs/034_4536_page_65.png,1924,1924,Y,
+35,2888,398,Springs,1915,1908-1910,parsed,1908,1910,data/digitized/2888/page_398/2888_page_398.png,pngs/035_2888_page_398.png,1908,1910,Y,
+36,3013,120,Groundwater,1959,8/3/1954,parsed,1954,1954,data/digitized/3013/page_120/3013_page_120.png,pngs/036_3013_page_120.png,1930,1955,N,
+37,9535,63,Stream Discharge,1979,06/01/1976-09/30/1976,parsed,1976,1976,data/digitized/9535/page_63/9535_page_63.png,pngs/037_9535_page_63.png,1976,1976,Y,
+38,1257,159,Groundwater,1957,08/14/1951-08/15/1951,parsed,1951,1951,data/digitized/1257/page_159/1257_page_159.png,pngs/038_1257_page_159.png,1950,1951,N,"Partially correct, multiple wells with multiple dates"
+39,695,62,Stream Discharge,1959,"10/01/1955-09/30/1956, 10/01/1956-09/30/1957",parsed,1955,1957,data/digitized/695/page_62/695_page_62.png,pngs/039_695_page_62.png,1955,1957,Y,
+40,3058,582,Stream Discharge,1964,09/1922-09/1960,parsed,1922,1960,data/digitized/3058/page_582/3058_page_582.png,pngs/040_3058_page_582.png,1950,1960,N,"dates in table from 1950-1960, ""records available seaptermber 1922 to september 1960"""
+41,56394,83,Stream Discharge,1977,"07/1895-02/1896, 03/1900-current year",open_ended,1895,1977,data/digitized/56394/page_83/56394_page_83.png,pngs/041_56394_page_83.png,1975,1976,N,"dates in table from 1975-1976, ""period of record 1895…"""
+42,56403,548,Stream Discharge,1977,"10/01/1955-09/30/1968, 10/01/1973-Current Year",open_ended,1955,1977,data/digitized/56403/page_548/56403_page_548.png,pngs/042_56403_page_548.png,1975,1976,N,same as above
+43,56411,393,Stream Discharge,1973,07/1966-Current Year,open_ended,1966,1973,data/digitized/56411/page_393/56411_page_393.png,pngs/043_56411_page_393.png,1971,1972,N,same as above
+44,56362,415,Stream Discharge,1977,"09/01/1911-09/30/1913, 10/01/1953-Current Year",open_ended,1911,1977,data/digitized/56362/page_415/56362_page_415.png,pngs/044_56362_page_415.png,,,,
+45,56808,366,Stream Discharge,1979,10/01/1964-Current Year,open_ended,1964,1979,data/digitized/56808/page_366/56808_page_366.png,pngs/045_56808_page_366.png,,,,
+46,70038682,331,Stream Discharge,1975,10/01/1961-09/30/current year,open_ended,1961,1975,data/digitized/70038682/page_331/70038682_page_331.png,pngs/046_70038682_page_331.png,,,,
+47,56850,386,Stream Discharge,1979,10/1951-Current Year,open_ended,1951,1979,data/digitized/56850/page_386/56850_page_386.png,pngs/047_56850_page_386.png,,,,
+48,56361,244,Stream Discharge,1977,December 1935 to current,open_ended,1935,1977,data/digitized/56361/page_244/56361_page_244.png,pngs/048_56361_page_244.png,,,,
+49,56404,252,Stream Discharge,1977,10/01/1941-Current Year,open_ended,1941,1977,data/digitized/56404/page_252/56404_page_252.png,pngs/049_56404_page_252.png,,,,
+50,56417,377,Reservoir,1975,10/01/1967-Current Year,open_ended,1967,1975,data/digitized/56417/page_377/56417_page_377.png,pngs/050_56417_page_377.png,,,,
+51,56808,64,Stream Discharge,1979,"{'Start_Date': '03/01/1904', 'End_Date': 'Current Year'}",open_ended,1904,1979,data/digitized/56808/page_64/56808_page_64.png,pngs/051_56808_page_64.png,,,,
+52,2447,391,Stream Discharge,1966,"Prior to Feb. 29, 1940 - Present",open_ended,1940,1966,data/digitized/2447/page_391/2447_page_391.png,pngs/052_2447_page_391.png,,,,
+53,29735,16,Stream Discharge,1978,1969-12-01 to present,open_ended,1969,1978,data/digitized/29735/page_16/29735_page_16.png,pngs/053_29735_page_16.png,,,,
+54,56419,144,Stream Discharge,1972,"10/01/1905-09/30/1927, 10/01/1956-current",open_ended,1905,1972,data/digitized/56419/page_144/56419_page_144.png,pngs/054_56419_page_144.png,,,,
+55,70038413,403,Stream Discharge,1970,10/01/1964-Current Year,open_ended,1964,1970,data/digitized/70038413/page_403/70038413_page_403.png,pngs/055_70038413_page_403.png,,,,
+56,23894,68,Groundwater,1959,01/42-10/57,two_digit,1942,1957,data/digitized/23894/page_68/23894_page_68.png,,,,,
+57,1257,52,Groundwater,1957,7/51-2/51,two_digit,1951,1951,data/digitized/1257/page_52/1257_page_52.png,pngs/057_1257_page_52.png,,,,
+58,23396,83,Stream Discharge,1971,04/51-09/65,two_digit,1951,1965,data/digitized/23396/page_83/23396_page_83.png,pngs/058_23396_page_83.png,,,,
+59,23996,49,Groundwater,1962,03/43-5/51,two_digit,1943,1951,data/digitized/23996/page_49/23996_page_49.png,pngs/059_23996_page_49.png,,,,
+60,53419,23,Springs,1968,08/64-08/64,two_digit,1964,1964,data/digitized/53419/page_23/53419_page_23.png,pngs/060_53419_page_23.png,,,,
+61,23894,52,Irrigation,1959,04/41-07/49,two_digit,1941,1949,data/digitized/23894/page_52/23894_page_52.png,,,,,
+62,48308,45,Not Water Related,1976,Sep-74,two_digit,1974,1974,data/digitized/48308/page_45/48308_page_45.png,pngs/062_48308_page_45.png,,,,
+63,53419,2,Springs,1968,Jun-65,two_digit,1965,1965,data/digitized/53419/page_2/53419_page_2.png,pngs/063_53419_page_2.png,,,,
+64,23894,32,Groundwater,1959,6/37-9/54,two_digit,1937,1954,data/digitized/23894/page_32/23894_page_32.png,pngs/064_23894_page_32.png,1958,1958,N,
+65,52119,33,Groundwater,1960,01/48-09/51,two_digit,1948,1951,data/digitized/52119/page_33/52119_page_33.png,pngs/065_52119_page_33.png,,,,
+66,23997,34,Groundwater,1963,10/62-12/62,two_digit,1962,1962,data/digitized/23997/page_34/23997_page_34.png,pngs/066_23997_page_34.png,,,,
+67,22374,121,Groundwater,1958,07/56-11/57,two_digit,1956,1957,data/digitized/22374/page_121/22374_page_121.png,pngs/067_22374_page_121.png,,,,
+68,23996,49,Groundwater,1962,11/38-6/59,two_digit,1938,1959,data/digitized/23996/page_49/23996_page_49.png,pngs/068_23996_page_49.png,,,,
+69,210,166,Irrigation,1974,09/53-09/69,two_digit,1953,1969,data/digitized/210/page_166/210_page_166.png,pngs/069_210_page_166.png,,,,
+70,52119,33,Groundwater,1960,05/46-11/54,two_digit,1946,1954,data/digitized/52119/page_33/52119_page_33.png,pngs/070_52119_page_33.png,1959,1959,N,
+71,2809,512,Groundwater,1960,01/01/1900-12/31/2023,trimmed,1900,1900,data/digitized/2809/page_512/2809_page_512.png,pngs/071_2809_page_512.png,1934,1949,N,multiple 'year completed' years
+72,70038681,380,Stream Discharge,1974,05/1957-12/2022,trimmed,1957,1957,data/digitized/70038681/page_380/70038681_page_380.png,pngs/072_70038681_page_380.png,1972,1973,N,"data from table is 1972-1973, ""period of record may 1957 to current year"" "
+73,2987,130,Stream Discharge,1940,Mar 1908-Mar 1944,trimmed,1908,1908,data/digitized/2987/page_130/2987_page_130.png,pngs/073_2987_page_130.png,1900,1946,N,"many dates on table, extremely hard to parse, some actually crossed out and rewritten by hand"
+74,51659,31,Groundwater,1954,01/01/1900-12/31/2099,trimmed,1900,1900,data/digitized/51659/page_31/51659_page_31.png,pngs/074_51659_page_31.png,1923,1951,N,"multiple date columns, 'year completed' and 'date' (water level) "
+75,70038676,38,Reservoir,1971,03/1926-12/2022,trimmed,1926,1926,data/digitized/70038676/page_38/70038676_page_38.png,pngs/075_70038676_page_38.png,1969,1970,N,"data from table is 1969-1970, ""period of record march 1926 to current year"" "
+76,2246,380,Stream Discharge,1921,06/1898-07/27/1960,trimmed,1898,1898,data/digitized/2246/page_380/2246_page_380.png,pngs/076_2246_page_380.png,1889,1907,N,"partially right, many years in table"
+77,56502,120,Stream Discharge,1978,10/01/1970-12/31/2023,trimmed,1970,1970,data/digitized/56502/page_120/56502_page_120.png,pngs/077_56502_page_120.png,1976,1977,N,"date from table is 1976-1977, ""period of record 1949 to current year"" "
+78,56420,307,Stream Discharge,1972,04/01/1963-12/31/2022,trimmed,1963,1963,data/digitized/56420/page_307/56420_page_307.png,pngs/078_56420_page_307.png,1970,1971,N,"date from table is 1970-1971, ""period of record April 1963 to current year"" "
+79,56394,238,Stream Discharge,1977,10/01/1957-12/31/2023,trimmed,1957,1957,data/digitized/56394/page_238/56394_page_238.png,pngs/079_56394_page_238.png,1975,1976,N,"date from table is 1975-1976, ""period of record"" is ""october 1957 to current year"" "
+80,2846,22,Stream Discharge,1974,1961-1980,trimmed,1961,1961,data/digitized/2846/page_22/2846_page_22.png,pngs/080_2846_page_22.png,,,N,no dates at all
+81,23628,53,Groundwater,1957,10/12-27/2012,implausible,,,data/digitized/23628/page_53/23628_page_53.png,pngs/081_23628_page_53.png,,,N,"no date on page, look like well numbers"
+82,52119,33,Groundwater,1960,12/59-10/57,implausible,,,data/digitized/52119/page_33/52119_page_33.png,pngs/082_52119_page_33.png,1959,1959,N,
+83,23894,62,Groundwater,1959,01/2023-12/2023,implausible,,,data/digitized/23894/page_62/23894_page_62.png,,,,,.png missing
+84,22945,120,Stream Discharge,1959,11/9/2019,implausible,,,data/digitized/22945/page_120/22945_page_120.png,pngs/084_22945_page_120.png,1951,1956,N,dates but no columns indicated (headers) 
+85,23894,62,Groundwater,1959,01/2023-12/2023,implausible,,,data/digitized/23894/page_62/23894_page_62.png,,,,,.png missing
+86,2057,162,Groundwater,1960,05/07/2011-05/07/2011,implausible,,,data/digitized/2057/page_162/2057_page_162.png,pngs/086_2057_page_162.png,1929,1952,,"there are dates, in multiple format"
+87,23894,34,Groundwater,1959,01/2023-12/2023,implausible,,,data/digitized/23894/page_34/23894_page_34.png,pngs/087_23894_page_34.png,1958,1958,N,
+88,23879,47,Groundwater,1961,04/53-12/51,implausible,,,data/digitized/23879/page_47/23879_page_47.png,pngs/088_23879_page_47.png,1960,1960,N,
+89,23996,71,Groundwater,1962,01/2023-12/2023,implausible,,,data/digitized/23996/page_71/23996_page_71.png,,,,,.png missing
+90,53790,33,Stream Discharge,1970,01/01/2022-12/31/2022,implausible,,,data/digitized/53790/page_33/53790_page_33.png,pngs/090_53790_page_33.png,1955,1965,N,
+91,22374,111,Groundwater,1958,02/27/YYYY,unparseable,,,data/digitized/22374/page_111/22374_page_111.png,pngs/091_22374_page_111.png,1918,1957,N,"there are dates, 'date of observation', also 'year completed' "
+92,22610,16,Groundwater,1954,-53.98779134,unparseable,,,data/digitized/22610/page_16/22610_page_16.png,pngs/092_22610_page_16.png,1916,1953,N,"there are dates, 'year drilled', and 'date' of water level "
+93,53419,37,Other,1968,09/23/-65,unparseable,,,data/digitized/53419/page_37/53419_page_37.png,pngs/093_53419_page_37.png,1964,1966,N,"there are dates, 'date of observation' in the format M-DD-YYYY. Also this is spring data"
+94,48005,13,Groundwater,1971,Jan-71,unparseable,,,data/digitized/48005/page_13/48005_page_13.png,pngs/094_48005_page_13.png,1970,1976,N,"there are dates, 'year drilled', and 'date measured', I record here 'date measured'"
+95,2516,254,Groundwater,1959,18K4,unparseable,,,data/digitized/2516/page_254/2516_page_254.png,pngs/095_2516_page_254.png,,,Y,no dates
+96,3153,156,Springs,1937,Not specified,placeholder,,,data/digitized/3153/page_156/3153_page_156.png,pngs/096_3153_page_156.png,,,Y,"not a table, index page"
+97,30821,17,Stream Discharge,1980,Not Available,placeholder,,,data/digitized/30821/page_17/30821_page_17.png,pngs/097_30821_page_17.png,,,Y,no dates
+98,2250,423,Stream Discharge,1912,unknown,placeholder,,,data/digitized/2250/page_423/2250_page_423.png,pngs/098_2250_page_423.png,,,Y,"not a table, index page"
+99,2250,411,Stream Discharge,1912,Unknown,placeholder,,,data/digitized/2250/page_411/2250_page_411.png,pngs/099_2250_page_411.png,,,Y,"not a table, index page"
+100,52651,28,Springs,1968,MM/DD/YYYY-MM/DD/YYYY,placeholder,,,data/digitized/52651/page_28/52651_page_28.png,pngs/100_52651_page_28.png,1951,1965,N,"there are dates, 'date of observation' in the format M-DD-YYYY. "
