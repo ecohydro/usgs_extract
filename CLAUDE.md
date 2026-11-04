@@ -1119,3 +1119,49 @@ GW +94 HUC12 (+5%), GW start year not yet credible.
    direction text, map-number links. 4. Update abstract/caption numbers.
 5. HydroShare: deferred until everything else is final (rebuild into a NEW folder).
 6. Nothing committed to git yet today (large set of modified + new files).
+
+## Session Log — October 29, 2026 (resume here)
+
+### Decisions (Annette)
+- Stop grading the date sample; use the 69 graded rows. LLM re-run not possible (no UCSB/Phi-4 access).
+- Scope: improve locations + dates and findability metadata; NOT cleaning table values.
+- Do all suggestions EXCEPT the optional ones (no water-type disagreement flag, no unit-label normalization):
+  (1) table-level dates, (2) one searchable table-level catalog (+ GeoPackage), (3) search keys:
+  HUC8/HUC12, county, likely NWIS station no. (+ match distance), B118 basin, (4) per-table
+  digitization-quality flag, (5) user guide + metadata_key updates, then rebuild figures/stats/HydroShare.
+- Out-of-CA data: publish it (labeled), just not featured in the paper.
+- Tribal data sovereignty: withhold data on FEDERALLY recognized tribal lands (state-recognized optional,
+  toggle off); offer them to tribes directly, do not publish.
+
+### Done
+- `code/02_inventory/11_page_blocks_cache.py` → `data/analysis/page_blocks.parquet` (all Reducto blocks,
+  852,870; Table blocks numbered table_idx = CSV table number; counts match CSVs on 99.8% of pages).
+- **Tribal screen** `12_tribal_lands_screen.py` (Census TIGER 2023 AIANNH in
+  `data/analysis/spatial/tribal_lands/aiannh_2023/`) → `data/analysis/tribal_lands/tribal_screen_*.csv`.
+  Unit = PAGE. Withheld if a rebuilt location is inside an area, a precise point within its precision
+  (min 0.5 km), or the page names a reservation/rancheria. Result: **1,752 pages withheld** (215 docs,
+  4,128 metadata rows); 2,129 more pages "possible" (approximate/basin radius touches an area) are a
+  REVIEW list, not withheld (`WITHHOLD_POSSIBLE=False`). No hits on state-recognized lands.
+  `13_copy_withheld_tribal.py` COPIED (not moved) pages to `data/withheld_tribal/{area}/` (117 folders,
+  1.1 GB, git-ignored, manifest `_withheld_manifest.csv`). data/digitized unchanged.
+- **Table-level dates** `html_table.py` (HTML parser), `table_dates.py` (tiered protocol: A date column →
+  B table text → C caption → D page text; period-of-record and construction years kept separately;
+  USGS section headings like "PERIOD OF RECORD.--"/"EXTREMES.--" classify whole sections),
+  `14_table_dates.py` → `data/analysis/table_dates.csv` (106,301 tables, 92.6% dated; has caption = table
+  title) + `table_row_dates.parquet` (row years + site label for row matching).
+  Validation `validation/score_dates_vs_grades.py` → `data/analysis/date_parsing/date_method_validation*.csv`:
+  exact 44/64 dated graded rows (old LLM string 26/64); exact or ±1 yr 49 vs 27. By tier: caption 24/27,
+  table text 10/17, date column 5/8. Grader "truth" for samples 3/7/11 = year drilled (now construction_*).
+- `15_entry_dates.py` → `data/analysis/entry_dates.csv` (per meta_row; match row → table caption/single
+  table → page union). Entries dated 82.1% (LLM string 83.8%); same start year as LLM only 51.4% —
+  **NEEDS REVIEW before use** (page-union entries may be too broad; check row/caption matching).
+
+### Not done / next
+1. Review entry_dates (low agreement), then add an `apply_table_dates()` in date_parsing.py and wire into
+   00_data_prep + build_table_level_metadata (use table_dates per table directly; that script also still
+   uses raw LLM coords — catalog should use rebuilt locations). Keep LLM dates as *_llm columns.
+2. Catalog + search keys + quality flags + GeoPackage (exclude withheld tribal pages; label out-of-CA).
+3. Decide: exclude tribal pages from paper figures/stats too (recommended; maps show site points).
+4. Re-run figures/stats (07, 08, notebooks 01–04, dam scripts, 09_sgma); user guide; HydroShare into NEW folder.
+5. Note: repo is on GitHub (ecohydro/usgs_extract); location/metadata files there include points on tribal lands.
+6. Nothing committed today.

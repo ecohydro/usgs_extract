@@ -23,3 +23,14 @@ data/analysis/location_validation/gw_scoping/*.png
 # current GNIS download (unused; pipeline uses CA_Features_20210825.txt)
 data/analysis/spatial/gnis/DomesticNames_CA_Text.*
 data/analysis/spatial/gnis/Text/
+# tribal-lands pages withheld from publication (data sovereignty), 2026-10-29
+data/withheld_tribal/
+# large/derived data from Oct 29 2026 work (regenerate with code/02_inventory scripts 11, 14, 15)
+data/analysis/page_blocks.parquet
+data/analysis/table_dates.csv
+data/analysis/entry_dates.csv
+data/analysis/table_row_dates.parquet
+# Census TIGER AIANNH download (re-fetch; see 12_tribal_lands_screen.py)
+data/analysis/spatial/tribal_lands/
+# tribal-lands screen outputs: list pages/locations on tribal lands, never publish
+data/analysis/tribal_lands/
