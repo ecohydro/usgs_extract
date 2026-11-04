@@ -61,10 +61,18 @@ COLUMNS IN table_level_metadata.csv
     llm_page_ambiguous  True if the page had >1 distinct LLM water type
     water_type_final    Final assigned water type (used in all figures)
     assignment_source   Which stage/sub-case assigned water_type_final
-    year_start          earliest year parsed from dates_of_recording
-    year_end            latest year parsed from dates_of_recording
+    year_start          TABLE-LEVEL start year (table_dates.csv, 14_table_dates.py; 2026-11-04)
+    year_end            TABLE-LEVEL end year
     decade_start        floor(year_start / 10) * 10
-    date_status         parse outcome; see date_parsing.py (DATED_STATUSES = dated)
+    date_status         evidence tier of the date (date_parsing.TIER_STATUS): table_date_column,
+                        table_text, table_caption, page_text; fallbacks period_of_record,
+                        construction_year; undated. DATED_STATUSES = dated
+    date_tier           same, as the raw tier code (A_date_column ... F_construction_year)
+    (table title: see table_dates.csv `caption`; left out here to keep the file small)
+    por_start/por_end   station period of record printed on the page (not the data dates)
+    construction_start/construction_end   years wells were drilled / completed
+    year_start_llm, year_end_llm, decade_start_llm, date_status_llm
+                        earlier page-level dates from the LLM string (first entry of the page)
     lat_combined        REBUILT location of the table (see build_table_locations);
     lon_combined          NaN when no entry on the page has a rebuilt location
     coord_method        how the location was found (printed, plss_section, nwis_station, ...)
@@ -98,7 +106,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from date_parsing import add_date_columns
+from date_parsing import add_date_columns, apply_table_dates
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -107,6 +115,7 @@ REPO        = Path(__file__).resolve().parents[2]
 DIGITIZED   = REPO / 'data' / 'digitized'
 COUNTS_PATH = REPO / 'data' / 'analysis' / 'csv_row_counts.csv'
 LOC_PATH    = REPO / 'data' / 'analysis' / 'location_validation' / 'locations.csv'
+TABLE_DATES_PATH = REPO / 'data' / 'analysis' / 'table_dates.csv'  # 14_table_dates.py
 ENTRY_PATH  = REPO / 'data' / 'analysis' / 'entry_dates.csv'   # matched_tables per entry (15_entry_dates.py)
 META_PATH   = REPO / 'data' / 'metadata' / 'main_metadata.csv'
 OUT_HEADERS = REPO / 'data' / 'analysis' / 'table_headers.csv'
@@ -536,6 +545,12 @@ def main():
     print(merged['water_type_final'].value_counts().to_string())
     print()
 
+    # table-level dates replace the page-level LLM dates (kept as *_llm)
+    merged = apply_table_dates(merged, TABLE_DATES_PATH)
+    print('Table date status:')
+    print(merged['date_status'].value_counts().to_string())
+    print()
+
     # ------------------------------------------------------------------
     # Step 5: save
     # ------------------------------------------------------------------
@@ -545,7 +560,9 @@ def main():
         'header_text', 'water_type_header', 'confidence',
         'water_type_llm', 'llm_page_ambiguous',
         'water_type_final', 'assignment_source',
-        'year_start', 'year_end', 'decade_start', 'date_status',
+        'year_start', 'year_end', 'decade_start', 'date_status', 'date_tier',
+        'por_start', 'por_end', 'construction_start', 'construction_end',
+        'year_start_llm', 'year_end_llm', 'decade_start_llm', 'date_status_llm',
         'lat_combined', 'lon_combined', 'coord_method', 'precision_km',
         'precision_class', 'evidence_scope', 'location_match', 'n_site_locations',
         'site_spread_km', 'location_ambiguous', 'meta_row_location', 'lat_llm', 'lon_llm', 'watersource_name',

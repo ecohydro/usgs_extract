@@ -1,0 +1,21 @@
+review_no,doc_id,page_number,table_number,water_type_final,watersource_name,local_png,table_csv,grader_true_values,grader_notes
+1,36184,52,1,Stream Discharge,McGuffy Creek,pngs/01_36184_page_52.png,data/digitized/36184/page_52/36184_page_52_table1.csv,20,this is actually water quality 
+2,3671,23,1,Stream Discharge,San Francisquito Creek,pngs/02_3671_page_23.png,data/digitized/3671/page_23/3671_page_23_table1.csv,10,
+3,3884,7,1,Stream Discharge,Bear Creek near Camp Rincon,pngs/03_3884_page_7.png,data/digitized/3884/page_7/3884_page_7_table1.csv,40,"some measurements have a dash, meaning no measurement; I only recorded real number measurements"
+4,70038392,34,1,Stream Discharge,Colorado River Aqueduct near Parker Dam,pngs/04_70038392_page_34.png,data/digitized/70038392/page_34/70038392_page_34_table1.csv,,
+5,70038414,13,1,Stream Discharge,James B. Black powerplant,pngs/05_70038414_page_13.png,data/digitized/70038414/page_13/70038414_page_13_table1.csv,0,"this is actually a list of stream gauge stations and their page number, not real measurements"
+6,70184370,24,1,Stream Discharge,"WHITEWATER RIVER AT WHITE WATER, CALIF.",pngs/06_70184370_page_24.png,data/digitized/70184370/page_24/70184370_page_24_table1.csv,20,"for the first table, I counted the 'mean' measurements, because the rest are ratios/standard deviation, etc. "
+7,4777,38,1,Groundwater,Ground-Water Resources of Niles Cone,pngs/07_4777_page_38.png,data/digitized/4777/page_38/4777_page_38_table1.csv,12,12 actual water level measurements
+8,15319,17,1,Groundwater,Beale Air Force Base Well 15N/5E-19L1,pngs/08_15319_page_17.png,data/digitized/15319/page_17/15319_page_17_table1.csv,60,
+9,1312,66,1,Groundwater,Balboa oil well (K 37),pngs/09_1312_page_66.png,data/digitized/1312/page_66/1312_page_66_table1.csv,96,
+10,29406,33,1,Groundwater,Injection Well at Two-Well Tracer-Dilution Test Site,pngs/10_29406_page_33.png,data/digitized/29406/page_33/29406_page_33_table1.csv,12,
+11,52296,37,2,Groundwater,Edwards Air Force Base Well 8/10-2P1,pngs/11_52296_page_37.png,data/digitized/52296/page_37/52296_page_37_table2.csv,14,only counted from table number 2
+12,56418,678,1,Reservoir,GOOSE LAKE NEAR EVERLY RANCH,pngs/12_56418_page_678.png,data/digitized/56418/page_678/56418_page_678_table1.csv,13,"only counted from table 1, hard to separate tables"
+13,70038401,64,2,Reservoir,Salton Sea,pngs/13_70038401_page_64.png,data/digitized/70038401/page_64/70038401_page_64_table2.csv,24,only counted from table 2
+14,56808,94,1,Reservoir,SHASTA LAKE NEAR REDDING,pngs/14_56808_page_94.png,data/digitized/56808/page_94/56808_page_94_table1.csv,50,
+15,1325,13,1,Springs,Springs,pngs/15_1325_page_13.png,data/digitized/1325/page_13/1325_page_13_table1.csv,NA,not springs; stratigraphic units (rocks) 
+16,45707,20,1,Springs,Langstroth Spring Pool,pngs/16_45707_page_20.png,data/digitized/45707/page_20/45707_page_20_table1.csv,40,not springs; irrigation data 
+17,15,32,2,Irrigation,Kern River at Isabella,pngs/17_15_page_32.png,data/digitized/15/page_32/15_page_32_table2.csv,54,
+18,633,25,1,Irrigation,Dry Creek Reservoir (Little Dry Outlet),pngs/18_633_page_25.png,data/digitized/633/page_25/633_page_25_table1.csv,NA,"technically not measurements, record of measurements/streams from other agencies"
+19,56808,87,1,Water Quality,"SACRAMENTO RIVER BASIN - SHASTA LAKE NEAR REDDING, CA",pngs/19_56808_page_87.png,data/digitized/56808/page_87/56808_page_87_table1.csv,60,
+20,9786,25,2,Precipitation,Petrolia,pngs/20_9786_page_25.png,data/digitized/9786/page_25/9786_page_25_table2.csv,21,technically water quality of precipitation

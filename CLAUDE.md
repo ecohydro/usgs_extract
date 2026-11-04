@@ -1244,3 +1244,68 @@ GW +94 HUC12 (+5%), GW start year not yet credible.
 4. Uncommitted: 16/17/18 scripts, entry_date_review_sample.py, build_table_level_metadata.py,
    catalog_key.txt, .gitignore, CLAUDE.md, and the two tracked table-level CSVs (now ~51–52 MB:
    GitHub warns over 50 MB, limit 100 MB).
+
+## Session Log — November 4, 2026 (resume here)
+- **Quality flag fixed** (`17_table_quality.py`). Spot-check of 1,500 "poor" tables: 96% were poor only
+  because of lone "o"/"O" cells, which are zeros in old USGS type (zero-flow days in daily tables;
+  e.g. 658 p126). These now go in a separate `frac_letter_zero` column, not used in the flag.
+  All tables: good 103,268 · fair 2,571 · **poor 352** (was 6,358). catalog_key.txt updated.
+- **Catalog built** (`18_build_catalog.py` → `data/catalog/`): 98,157 tables · 2,448,390 measurements
+  (= 2,512,776 − 64,386 tribal) · 584 docs · 61,982 pages. Located 80,816 (precise 65,880 ·
+  approximate 14,602 · basin 334) · unlocated 17,341 · location_ambiguous 4,999. In CA 77,016,
+  outside CA 3,333. County 80,308 · HUC8 78,224 · HUC12 62,565 · B118 35,833. Dated (provisional)
+  92,139. NWIS: nearest_named 36,062 · station no. on page 18,887 · nearest_well 2,760
+  (nearest_named = printed station 17,784 of 18,791). Quality: good 95,447 · fair 2,405 · poor 305.
+- **Tribal sheet**: 2,672 tables, 2,891 table-area rows. It lists 113 named areas + an
+  "unmatched" bucket. The 110 in tribal_withheld_stats counts areas from located points only;
+  3 more (Cahuilla, Jicarilla Apache, Kaibab) are named in page text only (6 tables). The approved
+  manuscript sentence says "110"; Annette to decide whether to say 113.
+- Entry-date review sample still ungraded → date fix (range rule + water-year regex) still waiting.
+
+### Next
+1. Annette grades entry_date_review_sample.csv → fix dates → wire into pipeline → rebuild catalog.
+2. Fix 04_santa_ynez GDB env; user guide; re-run figures/stats excluding tribal pages (07, 08,
+   notebooks 01–04, dam scripts, 09_sgma, county_spatial_join); HydroShare into a NEW folder.
+- **Value counts — a better measurement estimate** (`19_value_counts.py` → `data/analysis/table_value_counts.csv`,
+  `_summary.csv`, `_calendar.csv`). number_rows counts printed lines; a daily table row holds up to 12 values.
+  Value = numeric token in a data cell (label column, summary rows, date/year/ID/site-description columns
+  excluded; merged cells count each number; lone "o" = zero counts; daily grids count only day-labeled rows).
+  **Published: 18,775,838 values in 2,512,776 rows (7.5 per row)**; catalog 18,338,405; tribal withheld 437,433.
+  Stream 16.9M, reservoir 0.73M, groundwater 0.65M. 62% of values are in daily grids (34,739 tables).
+  *Calendar check* (daily grids: one value per day per month with record): found 99.2% of expected values;
+  75% of month columns exact; 66% of tables within 2% (28% under, partly real partial-record months; 6% over).
+  *Hand check* for non-daily tables: `validation/value_count_review_sample.py` →
+  `data/analysis/value_counts/review/` (20 short tables, 20–120 values each, blind; row 4 has no PNG; README has
+  counting rules). Annette to grade when time allows.
+  **Plan for paper:** keep 2,512,776 as "table rows" (conservative); add "~18.8 million recorded values".
+  Abstract / Table 6 / Fig 7 / tribal sentence NOT changed yet (tribal: 437,433 values).
+- **Value counts revised after Annette's hand check** (16 scorable tables; 4 marked not-measurement content).
+  Fixes: date cells ("Nov. 17", "9, 1961", "1929-36") count 0 and mostly-date columns are dropped; more excluded
+  headers (period/record, difference, distance, ratio, regression, bare "Total"). Sample: script/true total 1.47 →
+  **1.22**, median per-table ratio 1.74 → **1.04**. Remaining excess is mostly Reducto merging two printed tables
+  into one CSV (rows 13, 19). Scorer: `validation/score_value_counts_vs_review.py`.
+  **Published values now 18,522,112** (catalog 18,091,550; tribal withheld 430,562). Daily grids (62% of values)
+  pass the calendar check (99.2% of expected found); non-daily may still run ~20% high → say "about 18 million".
+
+## Date Fix — November 4, 2026 (after Annette graded entry_date_review_sample.csv)
+**Grades (30 rows):** new right/both 20, LLM right 3, neither 7. Failure causes, all fixed in `table_dates.py`:
+period-of-record text in captions ("storage began", "to current year"); nearest caption block now wins (not a
+union of 4 blocks); "land-surface datum" no longer excludes a "water year ..." title; OCR'd extremes remarks
+("Fighest", "below lsd"); word breaks ("com- pleted", "Sep- tember", "Sep tember"); OCR'd month abbreviations
+("Har. 1") no longer split clauses; well numbers no longer parsed as dates (mixed separators "4/28-1802",
+"6/11-13J1", digit-dash bare years); rotated tables (row labeled "Date"; "Period of record"/"known floods" rows
+excluded); unlabeled bare-year columns; isolated stray years (>30 yr from all others, not month-named) dropped;
+empty tables get no date. **New labeled fallbacks** (only if no tier A–D date): E_period_of_record (grader's
+choice for row 3), F_construction_year (rows 16/21), and in 15_entry_dates G_llm_grounded (LLM date whose start
+and end years are printed on the page; only on pages with a non-empty table). Grounded LLM start = table start
+57% (ungrounded 17%) where both exist → keep as labeled fallback only.
+**Scores:** review sample 17/30 → **25/30** ok (LLM 6/30); earlier 64-row sample exact 44 → **46**,
+exact-or-±1 49 → **52** (LLM 26/27). Fallbacks hurt 2 earlier-sample rows (5, 7), helped 4.
+Scorer: `validation/score_entry_dates_vs_review.py` (row 3 truth = 1941–53 per grader note).
+**Wired in:** `date_parsing.py` has `apply_entry_dates()` / `apply_table_dates()`, `TIER_STATUS`,
+`FALLBACK_STATUSES`, `is_dated(df, include_fallbacks=True)`. 00_data_prep → processed_metadata.parquet uses
+entry dates (dated 85.5%; strict 81.5%; LLM string 83.8%); build_table_level_metadata uses table dates
+(new cols date_tier, por_*, construction_*, *_llm). Measurement/table totals unchanged. Catalog rebuilt:
+93,392 of 98,157 tables dated (undated 4,765). `year_start.notna()` ⇔ is_dated still holds.
+**Not yet re-run with new dates:** 07, 08, notebooks 01–04, dam scripts, 09_sgma (also need tribal exclusion).
+Earliest-record claims (stream 1861, GW start) must be re-checked after that re-run.

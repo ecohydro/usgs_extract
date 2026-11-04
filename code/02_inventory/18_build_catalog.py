@@ -15,14 +15,15 @@ Columns (see CATALOG_COLUMNS below for order):
                      temporal_resolution, units, keyterms (LLM fields from the entry the
                      location came from, else the page's first entry)
   dates              year_start, year_end, date_tier, period_of_record_start/end,
-                     construction_start/end (table_dates.csv; PROVISIONAL until the
-                     date fix is final), year_start_llm, year_end_llm (old LLM string)
+                     construction_start/end, date_status (evidence tier; table_dates.csv via
+                     date_parsing.apply_table_dates, validated 2026-11-04),
+                     year_start_llm, year_end_llm (old page-level LLM string)
   location           latitude, longitude, coord_method, precision_km, precision_class,
                      evidence_scope, location_match, location_ambiguous, n_site_locations
   search keys        state, in_california, county, huc8, huc8_name, huc12, b118_basin_id,
                      b118_basin_name, nwis_site_no, nwis_station_name, nwis_match_km,
                      nwis_match
-  quality            digitization_quality, table_content, frac_ocr_suspect, frac_empty,
+  quality            digitization_quality, table_content, frac_ocr_suspect, frac_letter_zero, frac_empty,
                      n_data_rows, n_cols
 
 Search-key rules (a key is left blank when the location is too coarse for it):
@@ -107,13 +108,12 @@ def add_entry_fields(t):
 
 
 def add_dates(t):
-    td = pd.read_csv(A / 'table_dates.csv').rename(columns={
-        'id': 'doc_id', 'caption': 'table_caption', 'por_start': 'period_of_record_start',
-        'por_end': 'period_of_record_end'})
-    keep = ['table_caption', 'year_start', 'year_end', 'date_tier', 'period_of_record_start',
-            'period_of_record_end', 'construction_start', 'construction_end']
-    t = t.rename(columns={'year_start': 'year_start_llm', 'year_end': 'year_end_llm'})
-    return t.merge(td[KEY + ['table_number'] + keep], on=KEY + ['table_number'], how='left')
+    """Table dates already come from table_level_metadata (date_parsing.apply_table_dates);
+    only the table title is taken from table_dates.csv."""
+    td = pd.read_csv(A / 'table_dates.csv', usecols=['id', 'page_number', 'table_number', 'caption'])
+    td = td.rename(columns={'id': 'doc_id', 'caption': 'table_caption'})
+    t = t.rename(columns={'por_start': 'period_of_record_start', 'por_end': 'period_of_record_end'})
+    return t.merge(td, on=KEY + ['table_number'], how='left')
 
 
 def add_files(t):
@@ -222,7 +222,7 @@ def add_nwis(t):
 
 def add_quality(t):
     q = pd.read_csv(A / 'table_quality.csv')
-    cols = ['digitization_quality', 'table_content', 'frac_ocr_suspect', 'frac_empty', 'n_data_rows', 'n_cols']
+    cols = ['digitization_quality', 'table_content', 'frac_ocr_suspect', 'frac_letter_zero', 'frac_empty', 'n_data_rows', 'n_cols']
     return t.merge(q[KEY + ['table_number'] + cols], on=KEY + ['table_number'], how='left')
 
 
@@ -232,13 +232,13 @@ CATALOG_COLUMNS = [
     'doc_title', 'series_title', 'series_number', 'index_id', 'year_published', 'authors', 'usgs_url', 'doi',
     'water_type', 'water_type_source', 'table_caption', 'page_type', 'n_measurements', 'watersource_name',
     'location_text', 'temporal_resolution', 'units', 'keyterms',
-    'year_start', 'year_end', 'date_tier', 'period_of_record_start', 'period_of_record_end',
+    'year_start', 'year_end', 'date_status', 'date_tier', 'period_of_record_start', 'period_of_record_end',
     'construction_start', 'construction_end', 'year_start_llm', 'year_end_llm',
     'latitude', 'longitude', 'coord_method', 'precision_km', 'precision_class', 'evidence_scope',
     'location_match', 'location_ambiguous', 'n_site_locations',
     'state', 'in_california', 'county', 'huc8', 'huc8_name', 'huc12', 'b118_basin_id', 'b118_basin_name',
     'nwis_site_no', 'nwis_station_name', 'nwis_match_km', 'nwis_match',
-    'digitization_quality', 'table_content', 'frac_ocr_suspect', 'frac_empty', 'n_data_rows', 'n_cols',
+    'digitization_quality', 'table_content', 'frac_ocr_suspect', 'frac_letter_zero', 'frac_empty', 'n_data_rows', 'n_cols',
 ]
 
 
@@ -287,7 +287,7 @@ def write_tribal_sheet(w):
                measurements=('n_measurements', 'sum'),
                water_types=('water_type', lambda x: '; '.join(x.value_counts().index)),
                counties=('county', lambda x: '; '.join(sorted(x.dropna().unique()))),
-               year_start_provisional=('year_start', 'min'), year_end_provisional=('year_end', 'max'))
+               year_start=('year_start', 'min'), year_end=('year_end', 'max'))
           .sort_values('measurements', ascending=False).reset_index())
     for c in CONTACT_COLUMNS:
         A_[c] = ''
@@ -322,7 +322,7 @@ def main():
          'outside California': int(cat.in_california.eq(False).sum()),
          'with county': int(cat.county.notna().sum()), 'with huc8': int(cat.huc8.notna().sum()),
          'with huc12': int(cat.huc12.notna().sum()), 'with b118 basin': int(cat.b118_basin_name.notna().sum()),
-         'dated (table-level, provisional)': int(cat.year_start.notna().sum())}
+         'dated (table-level)': int(cat.year_start.notna().sum())}
     for k, v in cat.nwis_match.value_counts().items():
         s[f'nwis {k}'] = int(v)
     for k, v in cat.digitization_quality.value_counts().items():

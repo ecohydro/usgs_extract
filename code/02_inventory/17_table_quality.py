@@ -10,8 +10,11 @@ Metrics (data rows = CSV rows after the first/header row):
   frac_numeric      numeric-looking cells / non-empty cells ("1,234", "-0.5", "12e", "45*")
   frac_ocr_suspect  non-empty cells that look like numbers with a letter-for-digit OCR swap
                     ("4,02C", "1O5", "3l2", "2S0"). Letters used: O o l I S Z (never valid
-                    in USGS numbers or PLSS tract letters); C only inside a comma number;
-                    a lone "o"/"O" cell (OCR zero).
+                    in USGS numbers or PLSS tract letters); C only inside a comma number.
+  frac_letter_zero  non-empty cells that are a lone "o"/"O". In old USGS typefaces this is a
+                    zero (e.g. zero-flow days in daily tables), so the value is easy to recover.
+                    Reported separately and NOT used in the flag (spot-check 2026-11-04: lone
+                    "o" alone made 96% of tables "poor" under the earlier rule).
                     Empty cells are NOT penalized much: daily tables legitimately leave months
                     without record blank.
   one_column        table collapsed into a single column (structure lost)
@@ -39,7 +42,8 @@ DIGITIZED = ROOT / 'data/digitized'
 OUT = ROOT / 'data/analysis/table_quality.csv'
 FILE_RE = re.compile(r'^(\d+)_page_(\d+)_table(\d+)\.csv$')
 NUMERIC = re.compile(r'^[-+(]?\$?\d[\d,]*\.?\d*\)?[a-zA-Z*#†‡]?$|^[-+]?\.\d+$')
-OCR_SWAP = re.compile(r'^(?:(?=.*\d)(?:\d[\d,.]*[OolISZ][\d,.]*|[OolISZ][\d,.]*\d[\d,.]*|\d{1,3},\d{0,2}C\d*)|[Oo])$')
+OCR_SWAP = re.compile(r'^(?:(?=.*\d)(?:\d[\d,.]*[OolISZ][\d,.]*|[OolISZ][\d,.]*\d[\d,.]*|\d{1,3},\d{0,2}C\d*))$')
+LETTER_ZERO = re.compile(r'^[Oo]$')
 
 
 def metrics(path: Path) -> dict:
@@ -59,6 +63,7 @@ def metrics(path: Path) -> dict:
         'frac_empty': round(1 - nf / n, 3) if n else 1.0,
         'frac_numeric': round(sum(bool(NUMERIC.match(c.replace(' ', ''))) for c in filled) / nf, 3) if nf else 0.0,
         'frac_ocr_suspect': round(sum(bool(OCR_SWAP.match(c.replace(' ', ''))) for c in filled) / nf, 4) if nf else 0.0,
+        'frac_letter_zero': round(sum(bool(LETTER_ZERO.match(c.replace(' ', ''))) for c in filled) / nf, 4) if nf else 0.0,
         'one_column': n_cols <= 1,
     }
 

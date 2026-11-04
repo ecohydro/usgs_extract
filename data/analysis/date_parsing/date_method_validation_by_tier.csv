@@ -1,9 +1,11 @@
 tier,n,exact,exact_or_within_1yr
 A_date_column,8,5,5
-B_table_text,17,10,13
-C_caption,27,24,25
+B_table_text,17,11,14
+C_caption,27,24,26
 D_page_text,1,1,1
-mixed,5,4,5
-none,6,0,0
-ALL (new),64,44,49
+E_period_of_record,1,0,0
+F_construction_year,2,1,1
+mixed,6,4,5
+none,2,0,0
+ALL (new),64,46,52
 ALL (old LLM string),64,26,27

@@ -9,7 +9,12 @@ takes its dates from the most specific evidence available, on its own page only:
   table       the entry's distinctive name words all appear in one table's caption
               (multi-table pages), or the page has only one table
   page        union of all tables on the page (entry could not be tied to one table)
+  llm_grounded  no table date: the LLM's date is kept only if both its start and end
+              years are printed on the same page (date_tier G_llm_grounded)
   none        no table on the page has a date
+Period-of-record (E) and construction-year (F) fallback tiers of a table are used only
+when none of the entry's tables has a data date (tiers A-D). Added 2026-11-04 after
+Annette's grading of entry_date_review_sample.csv.
 The old LLM date string is kept as year_start_llm / year_end_llm / date_status_llm.
 
 Output: data/analysis/entry_dates.csv (key: meta_row = row position in main_metadata.csv)
@@ -23,6 +28,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import parse_dates  # noqa: E402
+from table_dates import years_in, YEAR_MAX  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -54,6 +60,39 @@ def words(s):
     return {w for w in re.findall(r'[a-z]{3,}', str(s or '').lower()) if w not in STOP}
 
 
+FALLBACK_TIERS = {'E_period_of_record', 'F_construction_year'}
+
+# Years written anywhere on each page (all Reducto blocks, incl. tables), for the grounded
+# LLM fallback: an entry with no table date keeps the LLM's date only if BOTH its start and
+# end year are printed on the same page (tier G_llm_grounded).
+PB = pd.read_parquet(ROOT / 'data/analysis/page_blocks.parquet', columns=['id', 'page_number', 'content'])
+PB['id'] = PB['id'].astype(str)
+page_years = {k: set(years_in(' '.join(g.content.fillna('').astype(str)), YEAR_MAX, allow_bare=True))
+              for k, g in PB.groupby(['id', 'page_number'])}
+del PB
+
+
+pages_with_data_table = set(td.loc[td.n_body_rows.fillna(0) > 0, ['id', 'page_number']]
+                            .itertuples(index=False, name=None))
+
+
+def is_grounded(rec, key):
+    y0, y1 = rec['year_start_llm'], rec['year_end_llm']
+    ys = page_years.get(key, set())
+    return y0 is not None and y0 in ys and (y1 is None or y1 == y0 or y1 in ys)
+
+
+def grounded_llm(rec, key):
+    """Only on pages with a non-empty table (reference / index pages print citation years)."""
+    y0, y1 = rec['year_start_llm'], rec['year_end_llm']
+    rec['llm_grounded'] = key is not None and is_grounded(rec, key)
+    if rec['year_start'] is None and rec['llm_grounded'] and key in pages_with_data_table:
+        ys = page_years.get(key, set())
+        if y0 in ys and (y1 is None or y1 == y0 or y1 in ys):
+            rec.update(year_start=y0, year_end=y1 if y1 is not None else y0,
+                       date_tier='G_llm_grounded', date_source='llm_grounded',
+                       date_quote='LLM date; start and end years printed on the page')
+    return rec
 tables_by_page = {k: g for k, g in td.groupby(['id', 'page_number'])}
 rows_by_page = {k: g for k, g in rd.groupby(['id', 'page_number'])}
 
@@ -67,7 +106,7 @@ for e in md.itertuples():
     y0, y1, st = parse_dates(e.dates_of_recording, e.pub_year)
     rec.update(year_start_llm=y0, year_end_llm=y1, date_status_llm=st)
     if T is None:
-        out.append(rec)
+        out.append(grounded_llm(rec, key))
         continue
     text = f'{e.watersource_name} {e.location}'
     chosen, source, row_range = None, None, None
@@ -100,6 +139,9 @@ for e in md.itertuples():
         chosen, source = T, 'page'
 
     dated = chosen[chosen.year_start.notna()]
+    data_dated = dated[~dated.date_tier.isin(FALLBACK_TIERS)]
+    if len(data_dated):  # period-of-record / construction fallbacks only if no table has data dates
+        dated = data_dated
     if row_range:
         rec.update(year_start=row_range[0], year_end=row_range[1], date_tier='A_date_column')
     elif len(dated):
@@ -115,7 +157,7 @@ for e in md.itertuples():
     for c in ['por_end', 'construction_end']:
         v = chosen[c].max()
         rec[c] = v if pd.notna(v) else None
-    out.append(rec)
+    out.append(grounded_llm(rec, key))
 
 df = pd.DataFrame(out)
 for c in ['year_start', 'year_end', 'year_start_llm', 'year_end_llm', 'por_start', 'por_end',

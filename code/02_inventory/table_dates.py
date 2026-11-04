@@ -40,19 +40,35 @@ MONTHS = (r'(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|
 Y4 = r'(1[89]\d{2})'
 
 # ---- clauses that describe something other than the table's data dates ----
-POR = re.compile(r'records?\s+(?:are\s+)?available|period\s+of\s+record|periods?\s+of\s+records|'
-                 r'records?\s+(?:began|begin|start)|record\s+since|\bsince\b', re.I)
+POR = re.compile(r'records?\s+(?:are\s+)?avail|period\s+of\s+record|periods?\s+of\s+records|'
+                 r'records?\s+(?:began|begin|start)|record\s+since|\bsince\b|\bbegan\b|'
+                 r'to\s+(?:the\s+)?current\s+year|to\s+date\b', re.I)
+# a clause naming the table's own water / calendar year is data, even if it also mentions
+# e.g. "land-surface datum" ("WATER LEVEL, IN FEET BELOW LAND-SURFACE DATUM, WATER YEAR ...")
+DATA_YEAR = re.compile(r'water\s+year|year\s+ending|calendar\s+year', re.I)
 EXCL = re.compile(
     r'drill|complet|construct|\bdug\b|\bbored\b|deepen|install|\bbuilt\b|finished|prior\s+to|'
     r'maximum|minimum|time\s+basis|no\s+flow|'
-    r'highest|lowest|\bextremes?\b|known|recurrence|interval|\bdatum\b|adjustment|'
+    r'highest|lowest|\b\w?[ir][gc]hest\b|below\s+(?:lsd|land[- ]?surface)|above\s+lsd|'  # OCR "Fighest"
+    r'\bextremes?\b|known|recurrence|interval|\bdatum\b|adjustment|'
     r'revis|water[- ]supply\s+paper|\bpaper\b|bulletin|\breport|publish|\bprinted\b|'
     r'established|discontinued|abandoned|destroyed|average|\bmean\s+for\b|'
     r'copyright|census|reprint|\bsurvey\s+of\b|\bact\s+of\b|decree|adjudicat|\bpage\b',
     re.I)
 DATE_HEAD = re.compile(r'\bdate|\byear|\bwtr\.?\s*yr|calend|calen?d[ae]r|\bmonth\b|\btime\s+of\b|\bperiod\b', re.I)
 HEAD_EXCL = re.compile(r'drill|complet|construct|\bdug\b|deepen|recurrence|interval|\byears?\s*\)|'
-                       r'number\s+of\s+years|\bage\b|install|abandon|reported|\bperiod\s+of\s+record', re.I)
+                       r'number\s+of\s+years|\bage\b|install|abandon|reported|\bperiod\s+of\s+record|'
+                       r'record\s+of\s+period|\bknown\b|avail', re.I)
+HYPHEN_BREAK = re.compile(r'([a-z])-\s+[:;|]?\s*([a-z])')  # "com- pleted", "Sep- tember", "min- imum"
+
+
+MONTH_SPLIT = re.compile(r'\b(jan|feb|sep|sept|oct|nov|dec|novem|decem|septem)\s+'
+                         r'(uary|ruary|tember|ember|ber|ober)\b', re.I)  # OCR "Sep tember"
+
+
+def dehyphen(text):
+    return MONTH_SPLIT.sub(r'\1\2', HYPHEN_BREAK.sub(r'\1\2', text or ''))
+
 WELL_DESC_HEAD = re.compile(r'depth|diameter|altitude|\buse\b|casing|owner', re.I)
 
 _ABBR_END = re.compile(r'(?:\b' + MONTHS + r'|\bcalif|\bco|\bno|\bsec|\bft|\bmi|\bt|\br|\bvol|\bp|\bpl|\b[a-z])$', re.I)
@@ -67,6 +83,9 @@ def split_clauses(text):
             before = part[start:m.start()]
             if _ABBR_END.search(before.rstrip()):
                 continue
+            nxt = part[m.end():m.end() + 1]
+            if nxt.isdigit() and re.search(r'\b[A-Za-z]{1,4}$', before):
+                continue  # OCR'd month abbreviation ("Har. 1, 1944", "AUR. 2, 1949")
             out.append(part[start:m.end()])
             start = m.end()
         out.append(part[start:])
@@ -77,10 +96,14 @@ def split_clauses(text):
 P_WY_END = re.compile(r'year\s+ending\s+' + MONTHS + r'\.?\s*\d{0,2},?\s*' + Y4, re.I)
 P_RANGE = re.compile(r'(?<![\d,.])' + Y4 + r'\s*(?:-|–|to|and)\s*(\d{2}|1[89]\d{2})(?![\d,])', re.I)
 P_MONTH_YEAR = re.compile(r'\b' + MONTHS + r'\.?\s*(?:\d{1,2}\s*(?:-\s*\d{1,2})?,?\s*)?' + Y4 + r'(?!\d)', re.I)
-P_NUM_DATE4 = re.compile(r'(?<!\d)(?:0?[1-9]|1[0-2])\s*[-/]\s*(?:0?[1-9]|[12]\d|3[01])\s*[-/]\s*' + Y4 + r'(?!\d)')
-P_ISO = re.compile(r'(?<!\d)' + Y4 + r'-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])(?!\d)')
-P_NUM_DATE2 = re.compile(r'(?<![\d.,])(?:0?[1-9]|1[0-2])\s*[-/]\s*(?:0?[1-9]|[12]\d|3[01])\s*[-/]\s*(\d{2})(?![\d.,])')
-P_BARE = re.compile(r'(?<![\d,.$])' + Y4 + r'(?![\d,]|\.\d)')
+# numeric dates must not run into a letter: "6/11-13J1" is a state well number, not 6/11/13
+# Both separators must be the same: "4/28-1802" and "6/11-13J1" are well numbers (T/R-section).
+P_NUM_DATE4 = re.compile(r'(?<![\d/])(?:0?[1-9]|1[0-2])\s*(?P<s>[-/])\s*(?:0?[1-9]|[12]\d|3[01])\s*(?P=s)\s*'
+                         + Y4 + r'(?![\dA-Za-z])')
+P_ISO = re.compile(r'(?<!\d)' + Y4 + r'-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])(?![\dA-Za-z])')
+P_NUM_DATE2 = re.compile(r'(?<![\d.,/])(?:0?[1-9]|1[0-2])\s*(?P<s>[-/])\s*(?:0?[1-9]|[12]\d|3[01])\s*(?P=s)\s*'
+                         r'(\d{2})(?![\d.,A-Za-z])')
+P_BARE = re.compile(r'(?<![\d,.$])(?<!\d-)(?<!\d/)' + Y4 + r'(?![\d,]|\.\d)')  # not "4/28-1802" (well ID)
 
 
 def _ok(y, cap):
@@ -104,11 +127,11 @@ def years_in(text, cap, allow_bare=False, allow_two_digit=False):
     s = P_RANGE.sub(' ', s)
     for pat in (P_MONTH_YEAR, P_NUM_DATE4, P_ISO):
         for m in pat.finditer(s):
-            ys.append(int(m.group(1)))
+            ys.append(int(m.groups()[-1]))
         s = pat.sub(' ', s)
     if allow_two_digit:
         for m in P_NUM_DATE2.finditer(s):
-            ys.append(1900 + int(m.group(1)))
+            ys.append(1900 + int(m.groups()[-1]))
         s = P_NUM_DATE2.sub(' ', s)
     if allow_bare:
         ys += [int(m.group(1)) for m in P_BARE.finditer(s)]
@@ -142,7 +165,7 @@ def clean_text(text):
     """Split into clauses; return (kept_clauses, por_clauses, excluded_clauses)."""
     keep, por, excl = [], [], []
     # sections never run past a block boundary (blocks are joined with newlines)
-    secs = [s for line in (text or '').split('\n') for s in _sections(line)]
+    secs = [s for line in dehyphen(text).split('\n') for s in _sections(line)]
     for head, body in secs:
         clauses = split_clauses(body)
         if head and SECT_POR.search(head):
@@ -154,7 +177,7 @@ def clean_text(text):
         for c in clauses:
             if POR.search(c):
                 por.append(c)
-            elif EXCL.search(c):
+            elif EXCL.search(c) and not DATA_YEAR.search(c):
                 excl.append(c)
             else:
                 keep.append(c)
@@ -203,25 +226,97 @@ def construction_columns(cols):
     return out
 
 
+def _label_cells(row):
+    """Short label cells at the start of a row (rotated tables put 'Date' in cell 0-2)."""
+    return [(i, c) for i, c in enumerate(row[:3]) if c and len(c) < 40]
+
+
+def date_rows(body):
+    """Rows of a ROTATED table whose label says Date / Year (values run across the row).
+    Returns {row_index: label_cell_index}; also the set of rows labeled period of record /
+    recurrence / known floods (excluded from tier B)."""
+    drows, xrows = {}, set()
+    for ri, row in enumerate(body):
+        for i, c in _label_cells(row):
+            c2 = dehyphen(c)
+            if HEAD_EXCL.search(c2) or POR.search(c2):
+                if DATE_HEAD.search(c2) or POR.search(c2) or re.search(r'recurrence|interval', c2, re.I):
+                    xrows.add(ri)
+                break
+            if re.fullmatch(r'\W*(?:dates?|years?|water\s+years?|date\s+of\s+\w+)\W*', c2, re.I):
+                vals = [v for v in row[i + 1:] if v and v.strip() and v.strip().lower() != c2.strip().lower()]
+                with_year = [v for v in vals if re.search(r'(?<!\d)1[89]\d{2}(?!\d)', v)]
+                if len(vals) >= 2 and len(with_year) >= 0.5 * len(vals):  # not a summary row of flows
+                    drows[ri] = i
+                break
+    return drows, xrows
+
+
+BARE_YEAR_CELL = re.compile(r'\W*\??\s*(1[89]\d{2})\W*')
+QUANTITY_HEAD = re.compile(r'feet|cfs|second|acre|discharge|gage|depth|level|ft\b|inches|elev|altitude', re.I)
+
+
+def year_columns(cols, body, cap):
+    """Unlabeled columns whose cells are nearly all bare years (continuation pages without
+    headers). Returns {col: True if the row also describes well construction}."""
+    out = {}
+    width = max([len(r) for r in body], default=0)
+    for ci in range(width):
+        h = cols[ci] if ci < len(cols) else ''
+        if QUANTITY_HEAD.search(h or ''):
+            continue
+        vals = [r[ci] for r in body if ci < len(r) and r[ci] and r[ci].strip()]
+        ys = [BARE_YEAR_CELL.fullmatch(v) for v in vals]
+        good = [int(m.group(1)) for m in ys if m and _ok(int(m.group(1)), cap)]
+        if len(good) >= 3 and len(good) >= 0.8 * len(vals):
+            row_text = ' '.join(' '.join(r) for r in body[:10] + [cols])
+            out[ci] = bool(CONSTRUCTION.search(row_text))
+    return out
+
+
+def drop_isolated(ys, quotes):
+    """Drop a stray year > 30 years from every other year (OCR / ID fragments such as
+    '4/28-1802'), when >= 2 other distinct years exist. Years written with a month name
+    ('Dec. 1861' flood peaks) are never dropped."""
+    distinct = sorted(set(ys))
+    if len(distinct) < 3:
+        return ys
+    named = {int(m.group(1)) for q in quotes for m in P_MONTH_YEAR.finditer(q)}
+    bad = {y for y in distinct if y not in named and min(abs(y - o) for o in distinct if o != y) > 30}
+    return [y for y in ys if y not in bad]
+
+
 def table_dates(html, caption, page_text, cap):
     """Dates for one table. Returns dict with year_start/end, tier, quotes, period of record."""
     cap = min(cap or YEAR_MAX, YEAR_MAX)
     head, body = parse_table(html)
-    cols = column_headers(head)
+    cols = [dehyphen(c) for c in column_headers(head)]
     width = max([len(cols)] + [len(r) for r in body]) if (cols or body) else 0
     dcols = date_columns(cols, body)
     cons_cols = construction_columns(cols)
+    drows, xrows = date_rows(body)
+    ycols = year_columns(cols, body, cap) if not dcols and not drows else {}
+    cons_cols |= {c for c, is_cons in ycols.items() if is_cons}
     por_clauses, excl_clauses = [], []
     res = {'year_start': None, 'year_end': None, 'date_tier': None, 'date_quote': None,
            'n_date_values': 0, 'date_columns': '; '.join(cols[i] for i in dcols if i < len(cols))[:200]}
 
-    # wide merged rows (one cell repeated across the table) are description rows
     def is_merged(row):
         vals = [c for c in row if c]
         return len(vals) > 1 and len(set(vals)) == 1
 
+    def finish(ys, quotes, tier):
+        ys = drop_isolated(ys, quotes)
+        if ys:
+            res.update(year_start=min(ys), year_end=max(ys), date_tier=tier,
+                       date_quote=' | '.join(dict.fromkeys(quotes))[:300], n_date_values=len(ys))
+        return ys
+
+    empty = not body or width == 0
     # ---- tier A: date columns (running year down each column) ----
     ys, quotes, row_years = [], [], {}
+    for ci in [c for c, is_cons in ycols.items() if not is_cons]:
+        dcols[ci] = 0  # unlabeled column of bare years, not a well-construction table
     for ci, start in dcols.items():
         last_year = None  # running year from divider rows ("1919.", "1918 -Continued.")
         for ri, row in enumerate(body):
@@ -238,21 +333,30 @@ def table_dates(html, caption, page_text, cap):
                 last_year = max(y)
             elif last_year and re.search(MONTHS + r'\.?\s*\d{1,2}|\d{1,2}\s*[-/]\s*\d{1,2}', row[ci], re.I):
                 row_years.setdefault(ri, []).append(last_year)  # "Jan. 25" under a 1919 divider
-    # header text of the date column itself ("Date (1951)", "Water year 1934-35")
     for ci in dcols:
         if ci < len(cols):
             keep, por, excl = clean_text(cols[ci])
             y, q = _years_from_clauses(keep, cap, allow_bare=True)
             ys += y
             quotes += q
+    # rotated tables: a row labeled "Date" holds the dates across the row
+    for ri, li in drows.items():
+        for c in body[ri][li + 1:]:
+            keep, por, excl = clean_text(c)
+            y, q = _years_from_clauses(keep, cap, allow_bare=True, allow_two_digit=True)
+            ys += y
+            quotes += q
     if ys:
-        res.update(year_start=min(ys), year_end=max(ys), date_tier='A_date_column',
-                   date_quote=' | '.join(dict.fromkeys(quotes))[:300], n_date_values=len(ys))
+        ys = finish(ys, quotes, 'A_date_column')
+        if not ys:
+            row_years = {}
 
     # ---- tier B: other table text ----
-    if not ys:
+    if not ys and not empty:
         q_all = []
-        for h in cols:
+        for hi, h in enumerate(cols):
+            if hi in cons_cols:
+                continue  # construction-year column (on continuation pages the 'header' is a data row)
             keep, por, excl = clean_text(h)
             por_clauses += por
             short = len(h.split()) <= 8 or re.search(r'year|' + MONTHS, h, re.I)
@@ -261,7 +365,10 @@ def table_dates(html, caption, page_text, cap):
             q_all += q
         seen_merged = set()
         y2, q2 = [], []
-        for row in body:
+        for ri, row in enumerate(body):
+            if ri in xrows:  # rotated-table row labeled period of record / known floods
+                (por_clauses if POR.search(' '.join(row)) else excl_clauses).extend(c for c in row if c)
+                continue
             if is_merged(row):
                 cells = [row[0]] if row[0] not in seen_merged else []
                 seen_merged.add(row[0])
@@ -275,7 +382,7 @@ def table_dates(html, caption, page_text, cap):
                 ys += y
                 q_all += q
                 for c in keep:  # numeric dates with 2-digit years ("4-19-66")
-                    yy = [int(m.group(1)) + 1900 for m in P_NUM_DATE2.finditer(c)]
+                    yy = [int(m.groups()[-1]) + 1900 for m in P_NUM_DATE2.finditer(c)]
                     yy = [v for v in yy if _ok(v, cap)]
                     if yy:
                         y2 += yy
@@ -284,30 +391,32 @@ def table_dates(html, caption, page_text, cap):
             ys += y2
             q_all += q2
         if ys:
-            res.update(year_start=min(ys), year_end=max(ys), date_tier='B_table_text',
-                       date_quote=' | '.join(dict.fromkeys(q_all))[:300], n_date_values=len(ys))
+            ys = finish(ys, q_all, 'B_table_text')
 
-    # ---- tier C: caption ----
-    keep, por, excl = clean_text(caption or '')
-    por_clauses += por
-    excl_clauses += excl
-    if not ys:
-        ys, q = _years_from_clauses(keep, cap, allow_bare=True)
-        if ys:
-            res.update(year_start=min(ys), year_end=max(ys), date_tier='C_caption',
-                       date_quote=' | '.join(q)[:300], n_date_values=len(ys))
+    # ---- tier C: caption -- the NEAREST text block above the table that has a date wins
+    # (the table title), so notes further up ("storage began 1955", flood remarks) don't widen it
+    cap_lines = [ln for ln in (caption or '').split('\n') if ln.strip()]
+    for ln in cap_lines:
+        keep, por, excl = clean_text(ln)
+        por_clauses += por
+        excl_clauses += excl
+    if not ys and not empty:
+        for ln in reversed(cap_lines):
+            keep, por, excl = clean_text(ln)
+            y, q = _years_from_clauses(keep, cap, allow_bare=True)
+            if y:
+                ys = finish(y, q, 'C_caption')
+                if ys:
+                    break
 
     # ---- tier D: rest of the page ----
     keep, por, excl = clean_text(page_text or '')
     por_clauses += por
-    if not ys:
+    if not ys and not empty:
         ctx = [c for c in keep if re.search(MONTHS + r'|\byear|\bdate', c, re.I)]
         y1, q1 = _years_from_clauses(keep, cap)                      # explicit forms anywhere
         y2, q2 = _years_from_clauses(ctx, cap, allow_bare=True)      # bare years near date words
-        ys = y1 + y2
-        if ys:
-            res.update(year_start=min(ys), year_end=max(ys), date_tier='D_page_text',
-                       date_quote=' | '.join(dict.fromkeys(q1 + q2))[:300], n_date_values=len(ys))
+        ys = finish(y1 + y2, q1 + q2, 'D_page_text') if (y1 or y2) else []
 
     # ---- period of record (kept separately) ----
     py = []
@@ -320,6 +429,8 @@ def table_dates(html, caption, page_text, cap):
     # ---- construction years (well drilled / completed), kept separately ----
     cy = []
     for ci in cons_cols:
+        if ci in ycols and ci < len(cols):  # headerless continuation page: header row is data
+            cy += years_in(cols[ci], cap, allow_bare=True)
         for row in body:
             if ci < len(row) and not is_merged(row):
                 cy += years_in(row[ci], cap, allow_bare=True)
@@ -328,6 +439,17 @@ def table_dates(html, caption, page_text, cap):
             cy += years_in(c, cap, allow_bare=True)
     res['construction_start'] = min(cy) if cy else None
     res['construction_end'] = max(cy) if cy else None
+
+    # ---- last-resort fallbacks (labeled; see protocol): the table has no data date at all.
+    # E: the station's period of record ("Records available: 1941-53")
+    # F: years the wells were drilled / completed (well tables that print nothing else)
+    if not ys and not empty:
+        if res['por_start'] is not None:
+            res.update(year_start=res['por_start'], year_end=res['por_end'],
+                       date_tier='E_period_of_record', date_quote=res['por_quote'])
+        elif res['construction_start'] is not None:
+            res.update(year_start=res['construction_start'], year_end=res['construction_end'],
+                       date_tier='F_construction_year', date_quote='construction years')
     res['row_years'] = row_years
     res['n_body_rows'] = len(body)
     res['n_cols'] = width
