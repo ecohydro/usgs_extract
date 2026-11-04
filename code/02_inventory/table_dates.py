@@ -103,7 +103,7 @@ P_NUM_DATE4 = re.compile(r'(?<![\d/])(?:0?[1-9]|1[0-2])\s*(?P<s>[-/])\s*(?:0?[1-
 P_ISO = re.compile(r'(?<!\d)' + Y4 + r'-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])(?![\dA-Za-z])')
 P_NUM_DATE2 = re.compile(r'(?<![\d.,/])(?:0?[1-9]|1[0-2])\s*(?P<s>[-/])\s*(?:0?[1-9]|[12]\d|3[01])\s*(?P=s)\s*'
                          r'(\d{2})(?![\d.,A-Za-z])')
-P_BARE = re.compile(r'(?<![\d,.$])(?<!\d-)(?<!\d/)' + Y4 + r'(?![\d,]|\.\d)')  # not "4/28-1802" (well ID)
+P_BARE = re.compile(r'(?<![\d,.$])(?<!\d-)(?<!\d/)(?<![A-Za-z]-)' + Y4 + r'(?![\d,]|\.\d)')  # not "4/28-1802" (well ID)
 
 
 def _ok(y, cap):
@@ -201,6 +201,8 @@ def date_columns(cols, body):
     for i, h in enumerate(cols):
         h = h or ''
         if DATE_HEAD.search(h) and not HEAD_EXCL.search(h):
+            if len(h.split()) > 8 and not re.match(r'\W*(date|year|water\s+year|calendar)', h, re.I):
+                continue  # a table title spread over the columns ("DISCHARGE ..., WATER YEAR ...")
             bare_year = re.fullmatch(r'\W*years?\W*', h, re.I) is not None
             if bare_year and well_desc:
                 continue  # "Year" in a well-description table = year completed
@@ -261,6 +263,10 @@ def year_columns(cols, body, cap):
     headers). Returns {col: True if the row also describes well construction}."""
     out = {}
     width = max([len(r) for r in body], default=0)
+    # data grids (day-by-month, max/min/mean) hold values that can look like years (1850 cfs)
+    top = ' '.join(cols + [c for r in body[:2] for c in r])
+    if re.search(r'\b(?:day|max|min|mean|' + MONTHS + r')\b', top, re.I):
+        return out
     for ci in range(width):
         h = cols[ci] if ci < len(cols) else ''
         if QUANTITY_HEAD.search(h or ''):
@@ -268,6 +274,8 @@ def year_columns(cols, body, cap):
         vals = [r[ci] for r in body if ci < len(r) and r[ci] and r[ci].strip()]
         ys = [BARE_YEAR_CELL.fullmatch(v) for v in vals]
         good = [int(m.group(1)) for m in ys if m and _ok(int(m.group(1)), cap)]
+        if len(set(good)) < 0.4 * len(good):
+            continue  # many repeats: measured values, not a list of years
         if len(good) >= 3 and len(good) >= 0.8 * len(vals):
             row_text = ' '.join(' '.join(r) for r in body[:10] + [cols])
             out[ci] = bool(CONSTRUCTION.search(row_text))
@@ -283,6 +291,58 @@ def drop_isolated(ys, quotes):
         return ys
     named = {int(m.group(1)) for q in quotes for m in P_MONTH_YEAR.finditer(q)}
     bad = {y for y in distinct if y not in named and min(abs(y - o) for o in distinct if o != y) > 30}
+    return [y for y in ys if y not in bad]
+
+
+EARLY_YEAR = 1850  # before this, a year needs corroboration (see plausible_years)
+
+
+def _runs(years):
+    """Years that sit in a run of >= 3 consecutive distinct years."""
+    s, out = set(years), set()
+    for y in s:
+        if {y - 1, y + 1} <= s or {y + 1, y + 2} <= s or {y - 2, y - 1} <= s:
+            out.add(y)
+    return out
+
+
+def plausible_years(ys, quotes):
+    """Drop OCR century errors and uncorroborated very early years (added 2026-11-04 after
+    pre-1850 dates appeared in Fig 7: '1834' printed for 1934, well IDs '35W-1823', a bare
+    '1800' value in a data column).
+    1. Century mirror: if the table has an 18xx block and a 19xx block >= 30 years apart, and
+       at least half of the 18xx years have their +100 year in the 19xx block, the 18xx
+       block is a misread of the 19xx block and is dropped.
+    2. A year before EARLY_YEAR is kept only if written with a month name, as a water-year
+       range ("1849-50"), or in a run of >= 3 consecutive years."""
+    distinct = sorted(set(ys))
+    early = [y for y in distinct if y < 1900]
+    late = [y for y in distinct if y >= 1900]
+    bad = set()
+    if early and late and min(late) - max(early) >= 30 and \
+            sum((y + 100) in late for y in early) >= 0.5 * len(early):
+        bad |= set(early)
+    named = {int(m.group(1)) for q in quotes for m in P_MONTH_YEAR.finditer(q)}
+    ranged = {int(m.group(1)) for q in quotes for m in P_RANGE.finditer(q)}
+    runs = _runs(distinct)
+    bad |= {y for y in distinct if y < EARLY_YEAR and y not in named | ranged | runs}
+    # 3. century mirror for very early years only (e.g. 1803/1804/1808 in a 1879-1913 table)
+    vearly = [y for y in distinct if y < EARLY_YEAR]
+    if vearly and sum((y + 100) in distinct for y in vearly) >= 0.5 * len(vearly):
+        bad |= set(vearly)
+    # 4. a very early year > 30 years from every other year is an OCR error even with a month
+    #    name ('Aug. 9, 1808' among 1898-1916 dates)
+    for y in vearly:
+        others = [o for o in distinct if o != y]
+        if others and min(abs(y - o) for o in others) > 30:
+            bad.add(y)
+    # 5. round values: a column of numbers like 1800, 1810, 1850, 1870 (elevations, rating
+    #    values) is not a list of years. If >= 4 bare (not month-named, not range) years are
+    #    mostly multiples of 10, drop the bare multiples of 10 before 1900.
+    bare = [y for y in distinct if y not in named | ranged]
+    tens = [y for y in bare if y % 10 == 0]
+    if len(bare) >= 4 and len(tens) >= 0.6 * len(bare):
+        bad |= {y for y in tens if y < 1900}
     return [y for y in ys if y not in bad]
 
 
@@ -306,7 +366,7 @@ def table_dates(html, caption, page_text, cap):
         return len(vals) > 1 and len(set(vals)) == 1
 
     def finish(ys, quotes, tier):
-        ys = drop_isolated(ys, quotes)
+        ys = plausible_years(drop_isolated(ys, quotes), quotes)
         if ys:
             res.update(year_start=min(ys), year_end=max(ys), date_tier=tier,
                        date_quote=' | '.join(dict.fromkeys(quotes))[:300], n_date_values=len(ys))

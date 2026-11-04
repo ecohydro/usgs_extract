@@ -1309,3 +1309,29 @@ entry dates (dated 85.5%; strict 81.5%; LLM string 83.8%); build_table_level_met
 93,392 of 98,157 tables dated (undated 4,765). `year_start.notna()` ⇔ is_dated still holds.
 **Not yet re-run with new dates:** 07, 08, notebooks 01–04, dam scripts, 09_sgma (also need tribal exclusion).
 Earliest-record claims (stream 1861, GW start) must be re-checked after that re-run.
+
+## Paper Figures Re-run — November 4, 2026 (priorities: USA map, Fig 7, CA maps, Santa Ynez, 6-panel)
+SB notebook (03) skipped for now; dam scripts / 09_sgma not re-run (exploratory).
+- **Shared filters** `code/02_inventory/paper_filters.py`: `drop_tribal()` (withheld tribal pages out of all
+  paper figures/stats), `located()` (precise + approximate rebuilt points only). Used by 01, 02, 04, 07, 08.
+- **Time-based outputs use measurement dates only** (`is_dated(df, include_fallbacks=False)` /
+  `~date_status.isin(FALLBACK_STATUSES)`): 07, 08, Fig 7 decades, CA decade map, Santa Ynez decades.
+- **More date rules** (`table_dates.py`, found from figure artifacts): century misreads (1834 for 1934),
+  pre-1850 years need a month name / water-year range / run of ≥3 years, round-number value columns
+  (1800, 1810 ... = elevations/flows), long table titles are not date-column headers, unlabeled year
+  columns skipped in day/max/min/mean grids. Review scores unchanged (25/30; 52/64).
+- **Earliest record = corroborated**: `08_scope_extension_stats.py` now reports the earliest year confirmed
+  by ≥2 documents within ±1 yr (raw min kept as `restored_earliest_yr_raw`); raw minimum was always an
+  artifact (1830 = time value in a 1977 WQ table; 1854 = Tennessee page mislocated in CA; 1870 = depth
+  "1870-1930 FEET"). Review list: `data/analysis/scope_earliest_records_review.csv` (207 records predating NWIS).
+- **Fig 7** (`01`): decades 1850s–1970s (641 rows in 3 pre-1850 decades left out); tiny early decades
+  labeled with totals. **USA map** (`02`): legend precise vs approximate (old actual/inferred gone); titles
+  no longer state year ranges. **CA decade map**: 1850s–1970s. Eastern US points (Cape Fear, Ohio R.) no
+  longer appear: those pages have no rebuilt location (location tiers are CA-focused).
+- **Santa Ynez** (`04`): GDB fixed (fiona → pyogrio.list_layers). Stream order recomputed from rebuilt
+  locations (sjoin_nearest to StreamOrderEdit), replacing stream_proximity_results.csv (LLM coords).
+  Watershed polygon filter only (old text match pulled in points up to 318 km away).
+- **Current headline numbers (dated = measurement dates, precise+approximate, CA, tribal excluded):**
+  stream +533 previously-ungauged HUC12 (+37%), earliest 1862 vs NWIS 1891 (+29 yr); groundwater +82 (+4%),
+  earliest 1876 vs NWIS 1890 (+14 yr). 6-panel: restored sites 12,895 stream / 2,705 GW. Caption and
+  abstract text not yet updated.

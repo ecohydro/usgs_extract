@@ -56,12 +56,14 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import is_dated
+from paper_filters import drop_tribal
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
 nwis_path    = root / 'data/analysis/nwis_sites'
 spatial_path = root / 'data/analysis/spatial'
 out_path     = root / 'data/analysis/scope_extension_stats.csv'
+early_path   = root / 'data/analysis/scope_earliest_records_review.csv'  # records predating NWIS, for manual review
 
 USE_EXPANDED_STREAM = True   # True: daily+peak+field NWIS stream sites; False: daily-value only
 RECORD_END_ERA      = 1980   # historical era end (restored data ends 1980); used for % record-length
@@ -70,6 +72,7 @@ PRECISION_CLASSES   = {'precise', 'approximate'}   # {'precise'} = conservative 
 
 # ------------------------------------------------------------------ load
 df   = pd.read_parquet(parquet_path)
+df   = drop_tribal(df)   # tribal pages withheld from paper statistics (paper_filters.py)
 ca   = gpd.read_file(spatial_path / 'ca_shapefile/ca_poly.shp').to_crs('EPSG:4326')
 huc  = gpd.read_file(spatial_path / 'ca_wbd/ca_huc12.geojson').to_crs('EPSG:4326')
 n_huc_total = huc['huc12'].nunique()
@@ -78,7 +81,7 @@ print(f'Loaded {len(df):,} metadata rows | {n_huc_total:,} CA HUC12 subwatershed
 
 def restored_ca(water_type):
     """Dated restored sites of a water type, clipped to the CA boundary."""
-    s = df[(df['water_type_clean'] == water_type) & is_dated(df) & df['is_data_page'] &
+    s = df[(df['water_type_clean'] == water_type) & is_dated(df, include_fallbacks=False) & df['is_data_page'] &
            df['lat_combined'].notna() & df['lon_combined'].notna()].copy()
     g = gpd.GeoDataFrame(
         s, geometry=gpd.points_from_xy(s['lon_combined'], s['lat_combined']),
@@ -104,6 +107,23 @@ def huc12_set(points):
 stream_csv = 'ca_stream_sites_expanded.csv' if USE_EXPANDED_STREAM else 'ca_stream_sites.csv'
 rows = []
 
+MIN_DOCS = 2  # earliest year must be confirmed by >= MIN_DOCS documents (within +-1 year)
+
+
+def corroborated_earliest(r):
+    """Earliest restored start year confirmed by >= MIN_DOCS different documents starting
+    within one year of it. A raw minimum over ~100k automatically parsed dates always picks
+    up a stray artifact (2026-11-04 review: 1830 = a time-of-day value in a 1977 water-quality
+    table, 1854 = a Tennessee page mislocated in CA, 1870 = a depth interval '1870-1930 FEET').
+    The raw minimum is kept as restored_earliest_yr_raw."""
+    yd = r[['year_start', 'id']].dropna().astype({'year_start': int}).drop_duplicates()
+    for y in sorted(yd.year_start.unique()):
+        if yd[(yd.year_start - y).abs() <= 1].id.nunique() >= MIN_DOCS:
+            return int(y)
+    return int(yd.year_start.min())
+
+
+early_review = []
 for wt, csv_name in [('Stream Discharge', stream_csv),
                      ('Groundwater', 'ca_groundwater_sites.csv')]:
     r = restored_ca(wt)
@@ -114,8 +134,10 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
 
     # --- temporal ---
     ry = r['year_start'].dropna().astype(int)
-    r_early = int(ry.min())
+    r_early_raw = int(ry.min())
+    r_early = corroborated_earliest(r)
     n_early = int(n['begin_year'].dropna().min())
+    early_review.append(r[r['year_start'] < n_early].assign(water_type=wt))
     extension_yrs = n_early - r_early
     n_predate_locs = r[r['year_start'] < n_early].drop_duplicates(
         ['lat_combined', 'lon_combined']).shape[0]
@@ -133,6 +155,7 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
         'nwis_source': csv_name,
         # temporal
         'restored_earliest_yr': r_early,
+        'restored_earliest_yr_raw': r_early_raw,
         'nwis_earliest_yr': n_early,
         'temporal_extension_yrs': extension_yrs,
         'restored_locs_predating_nwis': n_predate_locs,
@@ -156,6 +179,12 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
           f'{n_predate_locs} CA sites predate NWIS')
     print(f'  SPATIAL:  restored {len(r_b)} basins vs NWIS {len(n_b)}; '
           f'+{len(ungauged)} previously-ungauged basins (+{pct_basin_increase:.0f}%)')
+
+rev = pd.concat(early_review).sort_values(['water_type', 'year_start'])
+rev_cols = ['water_type', 'id', 'page_number', 'meta_row', 'year_start', 'year_end', 'date_status',
+            'year_start_llm', 'watersource_name', 'coord_method', 'precision_class']
+rev[[c for c in rev_cols if c in rev.columns]].to_csv(early_path, index=False)
+print(f'Records predating NWIS (for manual review): {len(rev):,} -> {early_path.name}')
 
 out = pd.DataFrame(rows)
 out.to_csv(out_path, index=False)

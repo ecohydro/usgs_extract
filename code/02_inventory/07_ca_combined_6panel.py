@@ -28,6 +28,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import is_dated
+from paper_filters import drop_tribal
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
@@ -61,6 +62,7 @@ DECADE_MIN, DECADE_MAX = 1850, 1970
 # ---------------------------------------------------------------- load data
 df = pd.read_parquet(parquet_path)
 print(f'Loaded {len(df):,} metadata rows')
+df = drop_tribal(df)   # tribal pages withheld from paper figures (paper_filters.py)
 
 ca = gpd.read_file(spatial_path / 'ca_shapefile/ca_poly.shp').to_crs('EPSG:4326')
 xmin, ymin, xmax, ymax = ca.total_bounds
@@ -75,7 +77,7 @@ def restored_sites(water_type):
     come from the rebuilt hierarchy, precise + approximate (PRECISION_CLASSES).
     Returns (all unique sites gdf, unique site x decade gdf)."""
     base = df[
-        (df['water_type_clean'] == water_type) & is_dated(df) &
+        (df['water_type_clean'] == water_type) & is_dated(df, include_fallbacks=False) &
         df['precision_class'].isin(PRECISION_CLASSES) & df['is_data_page'] &
         df['lat_combined'].notna() &
         df['lon_combined'].notna()
