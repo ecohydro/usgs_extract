@@ -1165,3 +1165,82 @@ GW +94 HUC12 (+5%), GW start year not yet credible.
 4. Re-run figures/stats (07, 08, notebooks 01–04, dam scripts, 09_sgma); user guide; HydroShare into NEW folder.
 5. Note: repo is on GitHub (ecohydro/usgs_extract); location/metadata files there include points on tribal lands.
 6. Nothing committed today.
+
+## Session Log — November 3, 2026 (resume here)
+- Committed + pushed Oct 29 work (6be1204). New data files (page_blocks, table/entry/row dates,
+  tribal shapefile + screen outputs) are git-ignored; existing tracked data left as is (Annette).
+- **entry_dates review — diagnostics.** Of 86,280 entries dated by both methods, 51.4% same start year.
+  Disagreements by explanation (share of all 86,280):
+  LLM start = table period-of-record start 18.3% (known LLM error → new is right) ·
+  water-year off-by-one 8.8% (new = LLM−1 for 6,527, LLM+1 for 2,566; Oct–Sep convention) ·
+  new range wider than LLM 12.2% (median 8 extra years) · LLM range wider 5.9% ·
+  partial overlap 1.1% · no overlap 2.1% (median 15 yr apart) · year drilled 0.2%.
+  By source: page-union entries agree 43% but 28% of them are period-of-record cases, so
+  "page union too broad" is not the main problem.
+- **Bugs found (not fixed yet):** (1) start = min / end = max over ALL date mentions, so stray years
+  widen ranges: flood notes in captions ("Flood of Dec. 21, 1955"), PERIOD remarks, well IDs/sample
+  dates in table text, an "1822" in a Delta table. Mostly tier B_table_text and page union.
+  (2) "year ending Sept. 30, YYYY" inconsistent: OCR hyphen "Sep- tember" → start YYYY instead of YYYY−1.
+- **Targeted grading sample (Annette to grade):**
+  `data/analysis/date_parsing/entry_date_review/entry_date_review_sample.csv` (30 rows + pngs/,
+  pngs git-ignored), built by `code/02_inventory/validation/entry_date_review_sample.py`.
+  10 new-wider, 5 LLM-wider, 8 no-overlap, 3 partial overlap, 2 period-of-record, 2 off-by-one;
+  half from page-union entries. Next: grade → fix range rule (e.g. primary caption water year /
+  modal year over min–max) + water-year regex → re-score → wire into pipeline.
+- **DECISION (Annette, Nov 3): tribal pages are withheld from paper statistics and figures too**
+  (not only from publication). Paper reports only the aggregate amount (below). Figure/stat re-runs
+  must filter withheld pages (tribal_screen_pages.csv, withhold=True). The catalog already excludes them.
+- **Tribal withheld statistics** — `code/02_inventory/16_tribal_withheld_stats.py` →
+  `data/analysis/tribal_lands/tribal_withheld_stats.csv`, `_by_water_type.csv`, `_by_area.csv` (git-ignored).
+  Counted on the same basis as the published inventory (LLM-processed tables):
+  1,752 pages · 215 documents · 110 federally recognized areas (89 touch CA) · 2,672 tables (2.7%) ·
+  **64,386 measurements (2.6% of 2,512,776)**; all digitized tables incl. non-LLM: 2,702 / 65,699.
+  California areas 53,956 meas. (1,403 pages); other states 7,278 (199 pages); named in page text
+  only (no located point) 3,152 (150 pages). Stream discharge 92% (59,020), reservoir 1,445,
+  groundwater 1,309, irrigation 1,213. Top areas: Hoopa Valley, Fort Yuma, Yurok, Karuk, Pala.
+  Year range NOT reportable yet (earliest "1800" = parser floor; wait for the date fix).
+- **Table-level metadata now uses REBUILT locations** (`build_table_level_metadata.py`, step 3b
+  `build_table_locations`): each table takes the location of a metadata entry tied to it (via
+  entry_dates.csv `matched_tables`), else the best located entry on its page; best precision class
+  wins. New columns: coord_method, precision_km, precision_class, evidence_scope, location_match
+  (entry/page/none), n_site_locations, site_spread_km, location_ambiguous (>5 km), meta_row_location;
+  old LLM coords kept as lat_llm/lon_llm. Water types / counts unchanged (2,512,776 / 100,829 published).
+  Published tables: precise 68,122 · approximate 14,953 · basin 335 · unlocated 17,419;
+  location_ambiguous ~5,300. Re-ran filter_published_tables.py. Both CSVs now ~51–52 MB (over GitHub's
+  50 MB warning, under the 100 MB limit). Downstream scripts reading lat_combined (county_spatial_join,
+  09_sgma, dam scripts, hydroshare_*) not yet re-run.
+- **Per-table digitization quality** — `code/02_inventory/17_table_quality.py` → `data/analysis/table_quality.csv`
+  (git-ignored): frac_empty, frac_numeric, frac_ocr_suspect (letter-for-digit swaps incl. lone "o"),
+  one_column → digitization_quality good/fair/poor + table_content numeric/mixed/text. Heuristic,
+  not validated. Empty cells barely penalized (daily tables leave months blank).
+- **Catalog** — `code/02_inventory/18_build_catalog.py` → `data/catalog/restored_tables_catalog.csv` +
+  `.gpkg` + `catalog_summary.csv` (git-ignored); column key `data/metadata/catalog_key.txt`.
+  Published tables minus tribal pages (98,157). Search keys: state/in_california, county (precise+approx),
+  HUC8 (precise+approx), HUC12 (precise only), B118 basin, NWIS site (station number on page /
+  nearest named stream site ≤5 km / nearest well ≤0.5 km). Validation: nearest_named picks the printed
+  station for 17,784 of 18,791 tables (95%). Dates in the catalog are PROVISIONAL (table_dates.csv).
+- **APPROVED manuscript sentence (Annette, Nov 3):** "We restored approximately 64,000 measurements
+  in 2,672 tables from 110 federally recognized tribal areas, most in California. To respect tribal
+  data sovereignty, these data are not published or featured here and are being provided directly
+  to the tribes." (Update wording to past tense once the data are actually delivered; numbers from
+  tribal_withheld_stats.csv — re-check if the screen or published table set changes.)
+- **table_quality.csv done** (106,191 tables): good 93,778 · fair 6,055 · poor 6,358; content numeric
+  83,131 · mixed 19,782 · text 3,278. Nearly all poor/fair come from frac_ocr_suspect (poor: 6,197 of
+  6,358 are >5% OCR-suspect cells; only 88 no rows, 162 >90% empty, 114 one-column). 95th pct
+  frac_ocr_suspect 6.7%, 99th 32%. TODO: spot-check poor tables — the lone "o" = zero rule may
+  over-flag daily tables whose values are easily recoverable; consider counting it separately.
+- **Tribal sheet** added to 18_build_catalog.py (`write_tribal_sheet`): data/withheld_tribal/
+  tribal_tables_catalog.csv + .xlsx ('areas' + 'tables' sheets), one row per table per tribal area,
+  with withheld_copy_folder, area_in_california and blank contact columns (tribe_contact,
+  date_contacted, date_data_shared, contact_notes). Annette wants this to sort/share with tribes.
+
+### Next session (resume here, Nov 4)
+1. Spot-check poor quality flags, then RUN `18_build_catalog.py` (catalog + GeoPackage + tribal sheet);
+   check outputs; update catalog_summary numbers here.
+2. Annette's grading of entry_date_review_sample.csv → fix range rule + water-year regex → re-score →
+   wire table dates into 00_data_prep / build_table_level_metadata → rebuild catalog dates.
+3. Remaining list: fix 04_santa_ynez GDB env; user guide; re-run figures/stats with tribal pages
+   excluded (07, 08, notebooks 01–04, dam scripts, 09_sgma, county_spatial_join); HydroShare (new folder).
+4. Uncommitted: 16/17/18 scripts, entry_date_review_sample.py, build_table_level_metadata.py,
+   catalog_key.txt, .gitignore, CLAUDE.md, and the two tracked table-level CSVs (now ~51–52 MB:
+   GitHub warns over 50 MB, limit 100 MB).

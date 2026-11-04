@@ -1,0 +1,96 @@
+restored_tables_catalog.csv / .gpkg — Column Descriptions
+==========================================================
+
+One row per digitized table (Reducto table CSV) in the published dataset.
+Built by code/02_inventory/18_build_catalog.py.
+
+Included: LLM-processed tables (table_level_metadata_published.csv).
+Excluded: pages on federally recognized tribal lands, withheld for tribal data
+sovereignty (code/02_inventory/12_tribal_lands_screen.py). Out-of-California
+tables are included and labeled (state, in_california).
+The GeoPackage (layer "tables", EPSG:4326) holds the located rows only.
+
+File paths are relative to the root of the digitized data (one folder per
+document, one subfolder per page).
+
+IDENTITY AND FILES
+  doc_id               USGS Publications Warehouse publication ID
+  page_number          page number in the scanned document
+  table_number         table number on the page (matches the _tableN.csv suffix)
+  page_folder          {doc_id}/page_{N}
+  table_csv            path of this table's CSV
+  page_png             path of the page image
+  page_json            path of the full Reducto output for the page
+  has_png, has_json    whether the page image / JSON exists
+
+DOCUMENT (from the USGS Publications Warehouse)
+  doc_title, series_title, series_number, index_id, year_published, authors,
+  usgs_url, doi
+
+CONTENT
+  water_type           Stream Discharge, Groundwater, Reservoir, Irrigation, Springs,
+                       Precipitation, Water Quality, Not Water Related, Other
+  water_type_source    llm_unambiguous: the LLM gave one water type for the page
+                       header_high: page had several LLM types; column headers decided
+                       llm_ambiguous: several LLM types, headers undecided; first LLM type
+  table_caption        table title found above the table by Reducto (may be blank)
+  page_type            data | index_contents | narrative | no_page_text
+  n_measurements       rows in the table CSV (estimate of the number of measurements)
+  watersource_name, location_text, temporal_resolution, units, keyterms
+                       LLM (Phi-4) fields for the site, from the metadata entry the
+                       table's location came from (else the page's first entry)
+
+DATES (PROVISIONAL — table-level date method; will be updated)
+  year_start, year_end         years of the data in the table
+  date_tier                    evidence used: A_date_column > B_table_text > C_caption >
+                               D_page_text
+  period_of_record_start/end   station period of record stated on the page (not the
+                               years of this table's data)
+  construction_start/end       years wells were drilled/constructed (not measurement dates)
+  year_start_llm, year_end_llm original LLM date string, parsed (kept for comparison)
+
+LOCATION (rebuilt; LLM-guessed coordinates are not used)
+  latitude, longitude  WGS84 point (blank when unlocated)
+  coord_method         printed (lat/long printed on the page), plss_section /
+                       plss_township / plss_wellno / wellno_group (Public Land Survey
+                       or state well number on the page), nwis_station / nwis_well (NWIS
+                       number on the page), gnis_* (named place on the page),
+                       b118_basin / b118_subbasin (groundwater basin named on the page)
+  precision_km         approximate uncertainty of the point
+  precision_class      precise | approximate | basin | unlocated
+                       precise: suitable for subwatershed (HUC12) analysis
+                       approximate: county / HUC8 scale
+                       basin: a point inside the named groundwater basin; basin-scale only
+  evidence_scope       page (all evidence on the table's own page) | document (direction
+                       letters / meridian settled from elsewhere in the report) |
+                       continuation (location carried from the start of a continued table)
+  location_match       entry: location from a metadata entry tied to this table
+                       page: entry could not be tied to one table; best location on the page
+  location_ambiguous   True when the candidate sites for the table are > 5 km apart (the
+                       table covers several sites, or could not be tied to one)
+  n_site_locations     number of distinct candidate sites
+
+SEARCH KEYS (blank when the location is too coarse)
+  state, in_california  precise or approximate points (Census state boundaries)
+  county                precise or approximate points (Census TIGER 2023 counties)
+  huc8, huc8_name       California HUC8 subbasin; precise or approximate points
+  huc12                 California HUC12 subwatershed; precise points only
+  b118_basin_id, b118_basin_name
+                        DWR Bulletin 118 groundwater basin/subbasin containing the point,
+                        or (basin-class rows) the basin named on the page
+  nwis_site_no, nwis_station_name, nwis_match_km, nwis_match
+                        likely USGS NWIS site:
+                        station_number_on_page: NWIS number printed on the page
+                        nearest_named: nearest NWIS stream site within 5 km sharing a
+                          name word (picks the printed station for ~95% of tables where
+                          one is printed)
+                        nearest_well: nearest NWIS groundwater site within 0.5 km
+                          (candidate only)
+
+DIGITIZATION QUALITY (heuristic; describes the digitized cells, not value accuracy)
+  digitization_quality  poor: no data rows, > 90% empty cells, or > 5% cells with an OCR
+                          letter-for-digit swap ("4,02C", "1O5", a lone "o" for zero)
+                        fair: > 1% such cells, or the table collapsed to one column
+                        good: otherwise
+  table_content         numeric | mixed | text (share of numeric-looking cells)
+  frac_ocr_suspect, frac_empty, n_data_rows, n_cols

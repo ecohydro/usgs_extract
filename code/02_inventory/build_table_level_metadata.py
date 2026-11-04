@@ -65,8 +65,20 @@ COLUMNS IN table_level_metadata.csv
     year_end            latest year parsed from dates_of_recording
     decade_start        floor(year_start / 10) * 10
     date_status         parse outcome; see date_parsing.py (DATED_STATUSES = dated)
-    lat_combined        actual_latitude if present, else inferred_latitude
-    lon_combined        actual_longitude if present, else inferred_longitude
+    lat_combined        REBUILT location of the table (see build_table_locations);
+    lon_combined          NaN when no entry on the page has a rebuilt location
+    coord_method        how the location was found (printed, plss_section, nwis_station, ...)
+    precision_km        approximate location uncertainty
+    precision_class     precise | approximate | basin | unlocated
+    evidence_scope      page | document | continuation (where the location evidence came from)
+    location_match      entry  -- location from an entry matched to THIS table
+                        page   -- no entry matched to this table; best location on the page
+                        none   -- no located entry on the page
+    n_site_locations    distinct located sites among the candidate entries (>1 = multi-site table)
+    site_spread_km      max distance from the chosen point to the other candidates of the same class
+    location_ambiguous  site_spread_km > 5: table covers several sites or could not be tied to one
+    meta_row_location   main_metadata.csv row position the location came from
+    lat_llm / lon_llm   OLD LLM coordinates (actual, else inferred; first entry on the page) -- not used
     watersource_name    LLM-extracted water source name (page level)
 
 USAGE
@@ -94,6 +106,8 @@ from date_parsing import add_date_columns
 REPO        = Path(__file__).resolve().parents[2]
 DIGITIZED   = REPO / 'data' / 'digitized'
 COUNTS_PATH = REPO / 'data' / 'analysis' / 'csv_row_counts.csv'
+LOC_PATH    = REPO / 'data' / 'analysis' / 'location_validation' / 'locations.csv'
+ENTRY_PATH  = REPO / 'data' / 'analysis' / 'entry_dates.csv'   # matched_tables per entry (15_entry_dates.py)
 META_PATH   = REPO / 'data' / 'metadata' / 'main_metadata.csv'
 OUT_HEADERS = REPO / 'data' / 'analysis' / 'table_headers.csv'
 OUT_TABLE   = REPO / 'data' / 'analysis' / 'table_level_metadata.csv'
@@ -319,8 +333,9 @@ def build_page_meta() -> pd.DataFrame:
 
     add_date_columns(meta)   # year_start, year_end, decade_start, date_status
 
-    meta['lat_combined'] = meta['actual_latitude'].combine_first(meta['inferred_latitude'])
-    meta['lon_combined'] = meta['actual_longitude'].combine_first(meta['inferred_longitude'])
+    # OLD LLM coordinates, kept for reference only (rebuilt locations: build_table_locations)
+    meta['lat_llm'] = meta['actual_latitude'].combine_first(meta['inferred_latitude'])
+    meta['lon_llm'] = meta['actual_longitude'].combine_first(meta['inferred_longitude'])
 
     # Identify ambiguous pages (>1 distinct LLM water type)
     type_counts = (meta.groupby(['id', 'page_number'])['wt_clean']
@@ -331,13 +346,78 @@ def build_page_meta() -> pd.DataFrame:
 
     keep = ['id', 'page_number', 'wt_clean', 'llm_page_ambiguous',
             'year_start', 'year_end', 'decade_start', 'date_status',
-            'lat_combined', 'lon_combined', 'watersource_name']
+            'lat_llm', 'lon_llm', 'watersource_name']
 
     # One row per page — keep first occurrence (consistent ordering)
     page_meta = (meta[keep]
                  .drop_duplicates(subset=['id', 'page_number'], keep='first')
                  .rename(columns={'id': 'doc_id', 'wt_clean': 'water_type_llm'}))
     return page_meta
+
+
+# ---------------------------------------------------------------------------
+# Step 2b — rebuilt table locations
+# ---------------------------------------------------------------------------
+CLASS_RANK = {'precise': 0, 'approximate': 1, 'basin': 2}
+AMBIGUOUS_KM = 5
+
+
+def _km(lat1, lon1, lat2, lon2):
+    lat1, lon1, lat2, lon2 = map(np.radians, (lat1, lon1, lat2, lon2))
+    a = (np.sin((lat2 - lat1) / 2) ** 2
+         + np.cos(lat1) * np.cos(lat2) * np.sin((lon2 - lon1) / 2) ** 2)
+    return 6371 * 2 * np.arcsin(np.sqrt(a))
+
+
+def build_table_locations(tables: pd.DataFrame) -> pd.DataFrame:
+    """
+    One rebuilt location per table, from the LLM entries (main_metadata rows) on its page.
+
+    Entry -> table links come from 15_entry_dates.py (`matched_tables`): an entry is tied to
+    specific tables when its site ID / owner name matches table rows, its name appears in
+    one table's caption, or the page has a single table. An entry tied to every table on a
+    multi-table page is a page-level candidate only.
+
+    For each table: candidates = located entries tied specifically to it; if none, all
+    located entries on the page (location_match = 'page'). Keep the best precision class
+    (precise > approximate > basin), then the smallest precision_km (ties: first row).
+    Same-page rule: candidates are only entries of the table's own page.
+    """
+    loc = pd.read_csv(LOC_PATH)
+    ent = pd.read_csv(ENTRY_PATH, usecols=['meta_row', 'matched_tables'])
+    loc = loc.merge(ent, on='meta_row', how='left')
+    loc = loc[loc.precision_class.isin(CLASS_RANK)].copy()
+    loc['doc_id'] = loc['id'].astype('int64')
+    loc['page_number'] = loc['page_number'].astype('int64')
+    loc['rank'] = loc.precision_class.map(CLASS_RANK)
+    loc = loc.sort_values(['rank', 'precision_km', 'meta_row'])
+
+    tables = tables.astype('int64')
+    tn_by_page = tables.groupby(['doc_id', 'page_number']).table_number.unique()
+    out = []
+    for (doc, page), g in loc.groupby(['doc_id', 'page_number'], sort=False):
+        if (doc, page) not in tn_by_page.index:
+            continue
+        tns = tn_by_page[(doc, page)]
+        n_t = len(tns)
+        sets = [set(int(x) for x in str(m).split(',')) if pd.notna(m) and str(m) else set()
+                for m in g.matched_tables]
+        for tn in tns:
+            spec = [i for i, st in enumerate(sets) if tn in st and (len(st) < n_t or n_t == 1)]
+            idx, how = (spec, 'entry') if spec else (list(range(len(g))), 'page')
+            c = g.iloc[idx]
+            c = c[c['rank'] == c['rank'].min()]
+            best = c.iloc[0]
+            pts = c[['lat', 'lon']].round(4).drop_duplicates()
+            spread = float(_km(best.lat, best.lon, pts.lat.values, pts.lon.values).max())
+            out.append({'doc_id': doc, 'page_number': page, 'table_number': tn,
+                        'lat_combined': best.lat, 'lon_combined': best.lon,
+                        'coord_method': best.coord_method, 'precision_km': best.precision_km,
+                        'precision_class': best.precision_class,
+                        'evidence_scope': best.evidence_scope, 'location_match': how,
+                        'n_site_locations': len(pts), 'site_spread_km': round(spread, 2),
+                        'meta_row_location': best.meta_row})
+    return pd.DataFrame(out)
 
 
 # ---------------------------------------------------------------------------
@@ -430,6 +510,17 @@ def main():
     print(f'Tables on LLM-ambiguous pages:        {int(ambig_pages):,}')
     print()
 
+    print('=== Step 3b: Joining rebuilt table locations ===')
+    tl = build_table_locations(merged[['doc_id', 'page_number', 'table_number']].dropna())
+    merged = merged.merge(tl, on=['doc_id', 'page_number', 'table_number'], how='left')
+    merged['precision_class'] = merged['precision_class'].fillna('unlocated')
+    merged['location_match'] = merged['location_match'].fillna('none')
+    # several candidate sites >5 km apart: the single point is a guess among them
+    merged['location_ambiguous'] = merged['site_spread_km'].fillna(0) > AMBIGUOUS_KM
+    print(merged['precision_class'].value_counts().to_string())
+    print(merged['location_match'].value_counts().to_string())
+    print()
+
     # ------------------------------------------------------------------
     # Step 4: assign final water type
     # ------------------------------------------------------------------
@@ -455,7 +546,9 @@ def main():
         'water_type_llm', 'llm_page_ambiguous',
         'water_type_final', 'assignment_source',
         'year_start', 'year_end', 'decade_start', 'date_status',
-        'lat_combined', 'lon_combined', 'watersource_name',
+        'lat_combined', 'lon_combined', 'coord_method', 'precision_km',
+        'precision_class', 'evidence_scope', 'location_match', 'n_site_locations',
+        'site_spread_km', 'location_ambiguous', 'meta_row_location', 'lat_llm', 'lon_llm', 'watersource_name',
     ]
     final = merged[[c for c in col_order if c in merged.columns]]
     final.to_csv(OUT_TABLE, index=False)
