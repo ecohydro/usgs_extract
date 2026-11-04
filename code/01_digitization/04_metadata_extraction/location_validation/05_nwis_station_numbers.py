@@ -35,26 +35,7 @@ import pandas as pd
 root = Path(__file__).resolve().parents[4]
 lv   = root / 'data/analysis/location_validation'
 
-ABBREV = {'R': 'RIVER', 'C': 'CREEK', 'CR': 'CREEK', 'CK': 'CREEK', 'NR': 'NEAR', 'AB': 'ABOVE',
-          'BL': 'BELOW', 'BLW': 'BELOW', 'CN': 'CANAL', 'CNL': 'CANAL', 'RES': 'RESERVOIR',
-          'NF': 'NORTH FORK', 'SF': 'SOUTH FORK', 'MF': 'MIDDLE FORK', 'EF': 'EAST FORK',
-          'WF': 'WEST FORK', 'FK': 'FORK', 'TR': 'TRIBUTARY', 'TRIB': 'TRIBUTARY', 'L': 'LAKE',
-          'SPGS': 'SPRINGS', 'SPG': 'SPRING', 'PP': 'POWERPLANT', 'DIV': 'DIVERSION', 'MTN': 'MOUNTAIN'}
-GENERIC = {'RIVER', 'CREEK', 'NEAR', 'ABOVE', 'BELOW', 'CANAL', 'RESERVOIR', 'NORTH', 'SOUTH',
-           'MIDDLE', 'EAST', 'WEST', 'FORK', 'TRIBUTARY', 'LAKE', 'SPRING', 'SPRINGS', 'CALIF',
-           'CALIFORNIA', 'MOUTH', 'STATION', 'GAGE', 'DIVERSION', 'POWERPLANT', 'DITCH', 'MILE',
-           'MILES', 'BRIDGE', 'COUNTY', 'BASIN', 'WATER', 'DISCHARGE', 'INFLOW', 'OUTFLOW',
-           'MAIN', 'UPPER', 'LOWER', 'LITTLE', 'GRAND', 'CITY', 'VALLEY', 'FORKS', 'NEAR'}
-
-
-def tokens(text):
-    words = re.findall(r'[A-Z]+', str(text).upper())
-    out = set()
-    for w in words:
-        for x in ABBREV.get(w, w).split():
-            if len(x) >= 4 and x not in GENERIC:
-                out.add(x)
-    return out
+from nwis_utils import ABBREV, GENERIC, tokens  # noqa: E402  (shared with 10_out_of_state.py)
 
 
 nwis = pd.read_csv(root / 'data/analysis/nwis_sites/ca_stream_sites_expanded.csv',

@@ -1335,3 +1335,28 @@ SB notebook (03) skipped for now; dam scripts / 09_sgma not re-run (exploratory)
   stream +533 previously-ungauged HUC12 (+37%), earliest 1862 vs NWIS 1891 (+29 yr); groundwater +82 (+4%),
   earliest 1876 vs NWIS 1890 (+14 yr). 6-panel: restored sites 12,895 stream / 2,705 GW. Caption and
   abstract text not yet updated.
+
+## Out-of-State Locations — November 4, 2026
+`location_validation/10_out_of_state.py` (+ shared `state_cues.py`, `gnis_utils.py`, `nwis_utils.py`; 05/06
+refactored to import them, 06 output verified identical). California tiers used CA-only references, so pages
+about other states were unlocated or matched to CA namesakes (e.g. Murray, Utah; Lakeview, Oreg. placed in CA).
+- **State cue** = state abbreviation/name/postal code right after a comma or hyphen ("..., Nev.", "Ariz.-Calif.",
+  "AT MESQUITE, NV"). Pages: 67,790 CA/no cue · 5,563 other state only · 914 mixed.
+- **Row class** (page-level rule was wrong: it moved 490 CA rows on index/station-list pages):
+  `oos` = row's own LLM place text names a non-CA state cued on the page (5,151 rows) → CA-only references
+  skipped; `ca` (98,943); `either` = page cues another state, row text none (3,887) → GNIS name must resolve
+  uniquely across CA + page states. Output `row_states.csv`, `page_states.csv`.
+- **National references:** NWIS site lists per cued state (`data/analysis/nwis_sites/by_state/`), GNIS 2021
+  archive per state (`data/analysis/spatial/gnis/{ST}_Features_20210825.txt`, from prd-tnm S3 Archive/MainDomestic).
+- **Validation vs printed coords on out-of-state pages** (`tier_oos_validation.csv`): NWIS station 0.10 km median,
+  97% ≤5 km (precise); GNIS "at" 1.05 km, 94% (precise, `gnis_oos_qualifier_at`); dam 1.9 km/71%, reservoir
+  3.6 km/55%, spring 8.7 km, near 9.5 km/26% → approximate (`gnis_oos_*`); "below" (90% >25 km) and lakes
+  (18 km median) NOT used. Out-of-state GNIS is less reliable than in CA.
+- **Result vs before:** +2,014 rows located (587 precise, 1,427 approximate); 59 removed (CA-only matches on
+  out-of-state rows); 64 moved >50 km, all from a wrong CA point to the named state. Catalog: outside-CA tables
+  3,333 → 4,608; unlocated 17,341 → 15,940.
+- **Tribal screen re-run** (new out-of-state points): withheld pages 1,752 → **1,875** (+124, −1), documents
+  221, federally recognized areas **118**, tables **2,846**, measurements **70,566 (2.8%)**; other-state share
+  rose (11,930 meas., 284 pages). The approved manuscript sentence ("~64,000 measurements in 2,672 tables from
+  110 areas") must be updated. 1 page no longer withheld still has a copy in data/withheld_tribal (stale).
+- **Paper stats after this:** stream +530 ungauged HUC12 (+36%), GW +81 (+4%); earliest 1862 / 1876 unchanged.

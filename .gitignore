@@ -39,3 +39,8 @@ data/analysis/tribal_lands/
 data/catalog/
 data/analysis/table_quality.csv
 data/analysis/value_counts/review/pngs/
+
+# out-of-state reference downloads (re-fetched by 10_out_of_state.py)
+data/analysis/spatial/gnis/*_Features_20210825.txt
+!data/analysis/spatial/gnis/CA_Features_20210825.txt
+data/analysis/nwis_sites/by_state/
