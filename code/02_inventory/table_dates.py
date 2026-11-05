@@ -56,7 +56,7 @@ EXCL = re.compile(
     r'copyright|census|reprint|\bsurvey\s+of\b|\bact\s+of\b|decree|adjudicat|\bpage\b',
     re.I)
 DATE_HEAD = re.compile(r'\bdate|\byear|\bwtr\.?\s*yr|calend|calen?d[ae]r|\bmonth\b|\btime\s+of\b|\bperiod\b', re.I)
-HEAD_EXCL = re.compile(r'drill|complet|construct|\bdug\b|deepen|recurrence|interval|\byears?\s*\)|'
+HEAD_EXCL = re.compile(r'drill|complet|\bcom-\W*$|construct|\bdug\b|deepen|recurrence|interval|\byears?\s*\)|'
                        r'number\s+of\s+years|\bage\b|install|abandon|reported|\bperiod\s+of\s+record|'
                        r'record\s+of\s+period|\bknown\b|avail', re.I)
 HYPHEN_BREAK = re.compile(r'([a-z])-\s+[:;|]?\s*([a-z])')  # "com- pleted", "Sep- tember", "min- imum"
@@ -70,6 +70,11 @@ def dehyphen(text):
     return MONTH_SPLIT.sub(r'\1\2', HYPHEN_BREAK.sub(r'\1\2', text or ''))
 
 WELL_DESC_HEAD = re.compile(r'depth|diameter|altitude|\buse\b|casing|owner', re.I)
+# Well-inventory tables (one row per well). An UNLABELED column of bare years in such a table
+# is the year completed: Reducto often drops that header ("Year com- pleted."), e.g. WSP 60
+# doc 3133, doc 2294, doc 2749 pumping plants (2026-11-05 review of pre-1890 GW dates).
+WELL_INVENTORY = re.compile(r'owner|cost\s+of|method\s+of\s+lift|class\s+of\s+well|depth\s+of\s+well|'
+                            r'type\s+of\s+well|diameter|casing', re.I)
 
 _ABBR_END = re.compile(r'(?:\b' + MONTHS + r'|\bcalif|\bco|\bno|\bsec|\bft|\bmi|\bt|\br|\bvol|\bp|\bpl|\b[a-z])$', re.I)
 
@@ -147,7 +152,7 @@ SECT_POR = re.compile(r'records?\s+available|period\s+of\s+record', re.I)
 SECT_EXCL = re.compile(r'extremes?|remarks|revisions?|\bgage\b|average|drainage|location|cooperation|'
                        r'accuracy|diversions?|regulation|maximum|minimum|established|history|datum|'
                        r'water[- ]quality|explanation|footnote', re.I)
-CONSTRUCTION = re.compile(r'drill|complet|construct|\bdug\b|\bbored\b|deepen|install|\bbuilt\b|finished', re.I)
+CONSTRUCTION = re.compile(r'drill|complet|\bcom-\W*$|construct|\bdug\b|\bbored\b|deepen|install|\bbuilt\b|finished', re.I)
 
 
 def _sections(text):
@@ -239,6 +244,8 @@ def date_rows(body):
     recurrence / known floods (excluded from tier B)."""
     drows, xrows = {}, set()
     for ri, row in enumerate(body):
+        if CONSTRUCTION.search(dehyphen(' '.join(c for _, c in _label_cells(row)))):
+            continue  # rotated "Year | com- pleted" row = year completed, not dates
         for i, c in _label_cells(row):
             c2 = dehyphen(c)
             if HEAD_EXCL.search(c2) or POR.search(c2):
@@ -278,7 +285,8 @@ def year_columns(cols, body, cap):
             continue  # many repeats: measured values, not a list of years
         if len(good) >= 3 and len(good) >= 0.8 * len(vals):
             row_text = ' '.join(' '.join(r) for r in body[:10] + [cols])
-            out[ci] = bool(CONSTRUCTION.search(row_text))
+            inventory = WELL_INVENTORY.search(dehyphen(' '.join(cols + [c for r in body[:2] for c in r])))
+            out[ci] = bool(CONSTRUCTION.search(row_text) or inventory)
     return out
 
 

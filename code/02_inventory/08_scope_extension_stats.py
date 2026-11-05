@@ -56,7 +56,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import is_dated
-from paper_filters import drop_tribal
+from paper_filters import drop_tribal, apply_review, reviewed_keep
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
@@ -73,6 +73,7 @@ PRECISION_CLASSES   = {'precise', 'approximate'}   # {'precise'} = conservative 
 # ------------------------------------------------------------------ load
 df   = pd.read_parquet(parquet_path)
 df   = drop_tribal(df)   # tribal pages withheld from paper statistics (paper_filters.py)
+df   = apply_review(df)  # reviewer decisions: drop / retype / undate / fix year (manual_review/)
 ca   = gpd.read_file(spatial_path / 'ca_shapefile/ca_poly.shp').to_crs('EPSG:4326')
 huc  = gpd.read_file(spatial_path / 'ca_wbd/ca_huc12.geojson').to_crs('EPSG:4326')
 n_huc_total = huc['huc12'].nunique()
@@ -110,15 +111,20 @@ rows = []
 MIN_DOCS = 2  # earliest year must be confirmed by >= MIN_DOCS documents (within +-1 year)
 
 
-def corroborated_earliest(r):
+def corroborated_earliest(r, water_type):
     """Earliest restored start year confirmed by >= MIN_DOCS different documents starting
-    within one year of it. A raw minimum over ~100k automatically parsed dates always picks
-    up a stray artifact (2026-11-04 review: 1830 = a time-of-day value in a 1977 water-quality
-    table, 1854 = a Tennessee page mislocated in CA, 1870 = a depth interval '1870-1930 FEET').
-    The raw minimum is kept as restored_earliest_yr_raw."""
-    yd = r[['year_start', 'id']].dropna().astype({'year_start': int}).drop_duplicates()
+    within one year of it, OR by a page a reviewer checked and kept (manual_review/,
+    2026-11-05: GW 1883 Hungry Hollow borings, doc 1128 p27). A raw minimum over ~100k
+    automatically parsed dates always picks up a stray artifact (2026-11-04 review: 1830 = a
+    time-of-day value in a 1977 water-quality table, 1854 = a Tennessee page mislocated in
+    CA, 1870 = a depth interval '1870-1930 FEET'). The raw minimum is kept as
+    restored_earliest_yr_raw."""
+    kept = reviewed_keep(water_type)
+    yd = r[['year_start', 'id', 'page_number']].dropna().astype({'year_start': int}).drop_duplicates()
+    yd['reviewed'] = [(str(i).removesuffix('.0'), int(p)) in kept for i, p in zip(yd.id, yd.page_number)]
     for y in sorted(yd.year_start.unique()):
-        if yd[(yd.year_start - y).abs() <= 1].id.nunique() >= MIN_DOCS:
+        if yd[(yd.year_start - y).abs() <= 1].id.nunique() >= MIN_DOCS or \
+                yd[(yd.year_start == y) & yd.reviewed].shape[0] > 0:
             return int(y)
     return int(yd.year_start.min())
 
@@ -135,7 +141,7 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
     # --- temporal ---
     ry = r['year_start'].dropna().astype(int)
     r_early_raw = int(ry.min())
-    r_early = corroborated_earliest(r)
+    r_early = corroborated_earliest(r, wt)
     n_early = int(n['begin_year'].dropna().min())
     early_review.append(r[r['year_start'] < n_early].assign(water_type=wt))
     extension_yrs = n_early - r_early
@@ -183,7 +189,11 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
 rev = pd.concat(early_review).sort_values(['water_type', 'year_start'])
 rev_cols = ['water_type', 'id', 'page_number', 'meta_row', 'year_start', 'year_end', 'date_status',
             'year_start_llm', 'watersource_name', 'coord_method', 'precision_class']
-rev[[c for c in rev_cols if c in rev.columns]].to_csv(early_path, index=False)
+try:
+    rev[[c for c in rev_cols if c in rev.columns]].to_csv(early_path, index=False)
+except PermissionError:  # file open in Excel: write a copy instead of failing
+    early_path = early_path.with_name(early_path.stem + '_new.csv')
+    rev[[c for c in rev_cols if c in rev.columns]].to_csv(early_path, index=False)
 print(f'Records predating NWIS (for manual review): {len(rev):,} -> {early_path.name}')
 
 out = pd.DataFrame(rows)

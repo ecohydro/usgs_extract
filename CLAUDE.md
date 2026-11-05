@@ -1360,3 +1360,85 @@ about other states were unlocated or matched to CA namesakes (e.g. Murray, Utah;
   rose (11,930 meas., 284 pages). The approved manuscript sentence ("~64,000 measurements in 2,672 tables from
   110 areas") must be updated. 1 page no longer withheld still has a copy in data/withheld_tribal (stale).
 - **Paper stats after this:** stream +530 ungauged HUC12 (+36%), GW +81 (+4%); earliest 1862 / 1876 unchanged.
+- **Earliest-record review (Annette, Nov 4):** stream 1862 confirmed. Groundwater 1876–78 rejected: doc 2854
+  p121 = WSP 237 (1910) "Quality of the surface waters of California", Owens Lake analysis (lake); 2094 p26 =
+  lake data; 2293 p21 = precipitation. Stream oddballs confirmed artifacts (1830 = time of day in a 1970s WQ
+  table). Verdicts in `data/analysis/manual_review/earliest_records_review.csv`, applied by
+  `paper_filters.drop_reviewed()` in 07 and 08 (temporal + spatial). Now: stream 1862 (+29 yr, 124 sites
+  predate NWIS), +528 basins; **GW 1883 (+7 yr) — PROVISIONAL**, rests on 1128 p27 (1883-84 borings) + 32842
+  p76 (an 1884 citation). Next GW candidates to grade: `manual_review/gw_earliest_candidates/` (8 pages,
+  pngs + Claude suggestion). Add verdicts to earliest_records_review.csv and re-run 08 + 07.
+
+## Session Log — November 4, 2026 — END OF DAY (RESUME HERE, Nov 5)
+Supersedes the "Next session (resume here, Nov 4)" list above. Details of each item are in the
+Nov 4 sections above (quality flag, catalog, value counts, date fix, paper figures, out-of-state locations).
+
+### Done today
+- Quality flag fixed (lone "o" = zero); catalog + GeoPackage built (`data/catalog/`).
+- Value counts: ~18.5M recorded values in published tables (`19_value_counts.py`); daily grids pass a
+  calendar check; non-daily hand check by Annette (median ratio 1.04, total 1.22×).
+- Dates: graded samples → table-level dates wired into the whole pipeline (25/30 vs LLM 6/30); extra rules
+  for century misreads, round-number columns, pre-1850 years; time-based outputs use measurement dates only.
+- Paper figures re-run (Fig 7, USA map, CA maps, Santa Ynez, 6-panel) with tribal exclusion, rebuilt locations,
+  table dates. Santa Ynez GDB fixed; stream order recomputed from rebuilt locations.
+- Out-of-state locations (`10_out_of_state.py`): +2,014 rows located; tribal screen re-run.
+- Earliest-record review started (manual_review/). Commits pushed: b4bc15f, 754aa90, 371ad63.
+
+### Current numbers (paper; CA, dated by measurement dates, precise+approximate, tribal excluded, reviewed pages excluded)
+| | Stream | Groundwater |
+|---|---|---|
+| Previously ungauged HUC12 | +528 (+36%) | +81 (+4%) |
+| Earliest record vs NWIS | 1862 vs 1891 (+29 yr), confirmed | 1883 vs 1890 (+7 yr), PROVISIONAL |
+| Restored CA sites mapped (6-panel) | ~12.9k | ~2.7k |
+Published: 2,512,776 table rows / ~18.5M values / 100,829 tables. Tribal withheld: 1,875 pages, 221 docs,
+118 federally recognized areas, 2,846 tables, 70,566 measurements (2.8%).
+
+### Next (in order)
+1. **Annette:** grade `data/analysis/manual_review/gw_earliest_candidates/gw_earliest_candidates.csv`
+   (8 pages, pngs + Claude suggestions). Claude: copy verdicts into
+   `manual_review/earliest_records_review.csv`, re-run `08_scope_extension_stats.py` and `07_ca_combined_6panel.py`.
+   GW start likely 1883 (if Hungry Hollow borings kept) or 1889.
+2. Update manuscript text: abstract (+29 yr / GW TBD; +528 / +81 basins), 6-panel caption (panel numbers,
+   GW start year, NWIS site types), tribal sentence (70,566 meas., 2,846 tables, 118 areas — was 64k/2,672/110;
+   also decide 118 vs counting text-only areas), measurements "2.5M table rows, ~18 million values",
+   date method + accuracy (25/30), location tiers incl. out-of-state validation.
+3. Delete the stale copy in `data/withheld_tribal/` for the 1 page no longer withheld (compare manifest).
+4. Not yet re-run with today's changes: 03_santa_barbara (skipped by choice), dam scripts, 09_sgma
+   (exploratory), county_spatial_join (needed for HydroShare).
+5. Small known issue: state cue needs a period ("Wyo." works, "Wyo" without period does not) — minor.
+6. Remaining from the high-level list: user guide; main metadata key update (new date/location columns);
+   QGIS spot-check of catalog GeoPackage; HydroShare package into a NEW folder (county grouping from rebuilt
+   locations, out-of-state labeled, tribal pages excluded); .gitignore `archive/` and the 193 MB NWIS GW raw
+   file; Git LFS decision for the ~57 MB table-level CSVs; optional: table-detection recall script.
+
+## Session Log — November 5, 2026 (resume here)
+- **User guide drafted:** `docs/user_guide.md` (for outside data users; [TODO] markers for citation,
+  license, contact, HydroShare layout, final counts). Note: per-page `_metadata.csv` files and
+  main_metadata.csv still carry raw LLM coords/dates; guide points users to the catalog. Decide whether
+  the HydroShare page metadata files should carry the rebuilt values.
+- **GW earliest-record grading applied.** `manual_review/earliest_records_review.csv` now has an `action`
+  column (drop / retype + new_water_type / undate / construction_year / set_year + corrected_year_* / keep).
+  `paper_filters.apply_review(df)` applies it right after load in 07 and 08 (replaces drop_reviewed calls).
+  Annette's verdicts: 1128 p27 keep (1883-84 Hungry Hollow borings); 1312 p74 keep, true year 1901;
+  48308 p41/p43 undate (depth intervals); 2809 p438 construction_year (year drilled); 2292 p27 → Precipitation;
+  32842 p76 and 2888 p197 → Water Quality.
+- `corroborated_earliest()` in 08 now also accepts a single reviewer-kept page (otherwise needs ≥2 docs).
+- **Numbers:** stream 1862 vs NWIS 1891 (+29 yr, 124 sites predate NWIS), +528 HUC12 (+36%);
+  **GW 1883 vs 1890 (+7 yr) — confirmed by review but rests on ONE site (1128 p27)**; +80 HUC12 (+4%).
+  6-panel re-run (restored 12,888 stream / 2,694 GW sites).
+- **Not yet applied:** the retypes (Precipitation / Water Quality) and the 1901 date fix live only in the paper
+  filter, not in processed_metadata / table-level CSVs / catalog. Many unlocated pre-1890 GW tables remain
+  (e.g. docs 3133, 2294, 51659 with 1856–1889 table dates) — not in the stats because unlocated.
+- **Pre-1890 unlocated GW recovery attempt (Nov 5): no earlier data found; 1883 stands.** The 26 unlocated
+  GW pages dated <1890 were mostly "Year completed" columns read as measurement dates (Reducto drops the
+  header: docs 3133, 2294, 2749) or a split header "Year com- / pleted" (51659). Others: 2291 p35 = LA rainfall
+  (precipitation, mislabeled GW; not yet in review file), 9800 p21 = irrigation well counts, 4768/4821 =
+  bibliographies, 3983 = index, 2131 p82 = real 1889 artesian well-group discharge (Riverside).
+- **Parser fix (`table_dates.py`):** `\bcom-\W*$` counts as "completed" in headers; rotated "Year | com- pleted"
+  rows are construction rows; an unlabeled bare-year column in a well-inventory table (`WELL_INVENTORY`:
+  owner / cost of / method of lift / class of well / depth of well / diameter / casing) = construction year.
+  74 of 106,301 tables changed (40 → F_construction_year, 11 → undated). Review scores unchanged (25/30;
+  46/52 of 64). Re-ran 14, 15, 00_data_prep, build_table_level_metadata, filter_published, 18 catalog, 08, 07.
+  Now: stream unchanged; GW 1883 (+7 yr), +79 HUC12 (+4%). Catalog dated 93,158.
+- Opportunity not taken: 3133 / 2294 well tables print T/R/S per row but are unlocated (bare-number T.R.S.
+  columns, rotated tables). Locating them helps maps/catalog only (their only dates are construction years).

@@ -49,3 +49,80 @@ def drop_tribal(df, id_col='id', page_col='page_number', verbose=True):
 def located(df, classes=MAP_PRECISION):
     """Rows with a plottable rebuilt point of the given precision classes."""
     return df['precision_class'].isin(classes) & df['lat_combined'].notna() & df['lon_combined'].notna()
+
+
+MANUAL_REVIEW = ROOT / 'data/analysis/manual_review/earliest_records_review.csv'
+
+
+def _review():
+    r = pd.read_csv(MANUAL_REVIEW)
+    if 'action' not in r.columns:
+        r['action'] = r['verdict'].map({'exclude': 'drop'}).fillna('keep')
+    r['key'] = list(zip(r.id.astype(str), r.page_number.astype(int), r.water_type))
+    return r
+
+
+def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_clean',
+                 verbose=True):
+    """Apply reviewer decisions (manual_review/earliest_records_review.csv, column `action`)
+    to metadata rows of the reviewed page AND water type:
+      drop              not usable for this water type (lake, out of state, artifact): removed
+      retype            belongs to another water type: type_col set to new_water_type
+      undate            no measurement date on the page (e.g. depth "1870-1930 FEET"): undated
+      construction_year the year is the year drilled: labeled fallback (not a measurement date)
+      set_year          reviewer read the true year: year_start/year_end corrected
+      keep              confirmed as is (also lets a single document set the earliest year,
+                        see reviewed_keep())
+    Run once right after loading, before any is_dated() / water-type filter."""
+    if not MANUAL_REVIEW.exists():
+        return df
+    r = _review().set_index('key')
+    df = df.copy()
+    ids = df[id_col].astype(str).str.replace(r'\.0$', '', regex=True)
+    pages = pd.to_numeric(df[page_col], errors='coerce').fillna(-1).astype(int)
+    keys = pd.Series(list(zip(ids, pages, df[type_col])), index=df.index)
+    act = keys.map(lambda k: r.action.get(k))
+    drop = act == 'drop'
+    for k in r.index[r.action == 'retype']:
+        df.loc[keys == k, type_col] = r.at[k, 'new_water_type']
+    for k in r.index[r.action == 'set_year']:
+        m = keys == k
+        df.loc[m, 'year_start'] = r.at[k, 'corrected_year_start']
+        df.loc[m, 'year_end'] = r.at[k, 'corrected_year_end']
+        if 'decade_start' in df.columns:
+            df.loc[m, 'decade_start'] = (r.at[k, 'corrected_year_start'] // 10) * 10
+    for a, status in [('undate', 'undated'), ('construction_year', 'construction_year')]:
+        m = act == a
+        df.loc[m, 'date_status'] = status
+        if a == 'undate':
+            df.loc[m, ['year_start', 'year_end'] + (['decade_start'] if 'decade_start' in df else [])] = float('nan')
+    if verbose:
+        print('  manual review applied: ' + ', '.join(f'{a} {int((act == a).sum())}'
+              for a in ['drop', 'retype', 'undate', 'construction_year', 'set_year', 'keep']) + ' rows')
+    return df[~drop]
+
+
+def reviewed_keep(water_type):
+    """Set of (id, page) a reviewer confirmed (action keep / set_year) for this water type."""
+    if not MANUAL_REVIEW.exists():
+        return set()
+    r = _review()
+    r = r[r.action.isin(['keep', 'set_year']) & (r.water_type == water_type)]
+    return set(zip(r.id.astype(str), r.page_number.astype(int)))
+
+
+def drop_reviewed(df, water_type, id_col='id', page_col='page_number', verbose=True):
+    """Drop pages a reviewer marked 'exclude' for this water type (e.g. a lake analysis the
+    LLM typed as groundwater, a time-of-day value read as a year). The review file records
+    who decided and why (data/analysis/manual_review/earliest_records_review.csv)."""
+    if not MANUAL_REVIEW.exists():
+        return df
+    r = _review()
+    r = r[(r.action == 'drop') & (r.water_type == water_type)]
+    bad = set(zip(r.id.astype(str), r.page_number.astype(int)))
+    ids = df[id_col].astype(str).str.replace(r'\.0$', '', regex=True)
+    pages = pd.to_numeric(df[page_col], errors='coerce')
+    m = pd.Series([(i, int(p)) in bad if pd.notna(p) else False for i, p in zip(ids, pages)], index=df.index)
+    if verbose and m.any():
+        print(f'  manual review: {int(m.sum())} {water_type} rows excluded ({len(bad)} pages)')
+    return df[~m]

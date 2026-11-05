@@ -28,7 +28,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import is_dated
-from paper_filters import drop_tribal
+from paper_filters import drop_tribal, apply_review, reviewed_keep
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
@@ -63,6 +63,7 @@ DECADE_MIN, DECADE_MAX = 1850, 1970
 df = pd.read_parquet(parquet_path)
 print(f'Loaded {len(df):,} metadata rows')
 df = drop_tribal(df)   # tribal pages withheld from paper figures (paper_filters.py)
+df = apply_review(df)  # reviewer decisions: drop / retype / undate / fix year (manual_review/)
 
 ca = gpd.read_file(spatial_path / 'ca_shapefile/ca_poly.shp').to_crs('EPSG:4326')
 xmin, ymin, xmax, ymax = ca.total_bounds

@@ -1,0 +1,18 @@
+id,page_number,water_type,verdict,actual_content,note,reviewer,date,action,new_water_type,corrected_year_start,corrected_year_end
+2854,121,Groundwater,exclude,lake water quality,"WSP 237 (1910) Quality of the surface waters of California; Owens Lake analysis (Loew, 1876)",Annette Hilton,2026-11-04,drop,,,
+2094,26,Groundwater,exclude,lake data,Owens Lake water analyses,Annette Hilton,2026-11-04,drop,,,
+2293,21,Groundwater,exclude,precipitation,seasonal precipitation table (LLM typed as groundwater),Annette Hilton,2026-11-04,drop,,,
+56808,127,Stream Discharge,exclude,date error,"1830 is a time of day in a 1970s water-quality table (time column, not date)",Annette Hilton,2026-11-04,drop,,,
+3931,4,Stream Discharge,exclude,out of state,"Twin Creek at Sage, Wyo. (1850 date artifact; Wyoming site)",Annette Hilton,2026-11-04,drop,,,
+2987,69,Stream Discharge,exclude,out of state,"Harpeth River, Tenn. (mislocated in California; 1854 artifact)",Annette Hilton,2026-11-04,drop,,,
+70038401,34,Stream Discharge,exclude,not a measurement,historical flood estimate (discharge probably occurred 1857-68),Annette Hilton,2026-11-04,drop,,,
+56850,468,Stream Discharge,exclude,date error,1860 artifact in a 1970s water-quality table,Annette Hilton,2026-11-04,drop,,,
+48308,41,Groundwater,exclude,groundwater and oil well drilling depths; no date available,exclude from our claim but still file under groundwater,Annette Hilton,2026-11-05,undate,,,
+2292,27,Groundwater,exclude,precipitation data from 1878-1903,should recategorize into precipitation data instead,Annette Hilton,2026-11-05,retype,Precipitation,,
+1128,27,Groundwater,keep,borings,"tangentally groundwater, I think it counts, but technically borings to determine water table",Annette Hilton,2026-11-05,keep,,,
+32842,76,Groundwater,exclude,"water quality analysis, but also includes water depth in footnotes",sampled in 1914; change this category to water quality analysis,Annette Hilton,2026-11-05,retype,Water Quality,,
+2809,438,Groundwater,exclude,year drilled,"still include in groundwater, but it is year drilled",Annette Hilton,2026-11-05,construction_year,,,
+1312,74,Groundwater,keep,real date is 1901; table contains drill log information,"still include this in groundwater, but fix the date to be 1901",Annette Hilton,2026-11-05,set_year,,1901.0,1901.0
+48308,43,Groundwater,exclude,"depth inforrmation, no dates","still include this in groundwater, but there are no dates here",Annette Hilton,2026-11-05,undate,,,
+2888,197,Groundwater,exclude,"water quality analysis, should primarily be in water quality, although it is an artesian well which does indicate water level ",change to water quality category,Annette Hilton,2026-11-05,retype,Water Quality,,
+2291,35,Groundwater,exclude,precipitation,"""Rainfall, in inches, at Los Angeles, Cal."" 1877-78 to 1903-4 (LLM typed as groundwater)",Annette Hilton,2026-11-05,retype,Precipitation,,

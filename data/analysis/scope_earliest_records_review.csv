@@ -1,38 +1,5 @@
 water_type,id,page_number,meta_row,year_start,year_end,date_status,year_start_llm,watersource_name,coord_method,precision_class
-Groundwater,48308.0,41.0,85025,1870,1930,table_text,,River Ranch 1,plss_section,precise
-Groundwater,48308.0,41.0,85027,1870,1930,table_text,,Salton Sea Chemical Products Well 1,plss_section,precise
-Groundwater,48308.0,41.0,85028,1870,1930,table_text,,MAGMAMAX 3,plss_section,precise
-Groundwater,48308.0,41.0,85030,1870,1930,table_text,,MAGMAMAX 2,plss_section,precise
-Groundwater,48308.0,41.0,85031,1870,1930,table_text,,MAGMAMAX 1,plss_section,precise
-Groundwater,2094.0,26.0,25882,1876,1905,table_date_column,1886,Owens Lake,gnis_feature_lake,approximate
-Groundwater,2854.0,121.0,47841,1876,1876,page_text,1876,Owens Lake,gnis_feature_lake,approximate
-Groundwater,2293.0,21.0,104476,1877,1904,table_date_column,1877,Los Angeles Groundwater,gnis_place,approximate
-Groundwater,2292.0,27.0,13528,1878,1903,table_date_column,1878,Groundwater,gnis_place,approximate
 Groundwater,1128.0,27.0,29932,1883,1884,table_caption,1883,Cache Creek,gnis_place,approximate
-Groundwater,32842.0,76.0,17703,1884,1914,page_text,1914,August Water Co. well 3,plss_section,precise
-Groundwater,32842.0,76.0,17704,1884,1914,page_text,1914,Standard Oil Co. well Monarch F,plss_section,precise
-Groundwater,32842.0,76.0,17705,1884,1914,page_text,1914,Standard Oil Co. well M. J. 6,plss_section,precise
-Groundwater,32842.0,76.0,17706,1884,1914,page_text,,Kern Trading & Oil Co. well in NE. 1/4,plss_section,precise
-Groundwater,32842.0,76.0,17707,1884,1914,page_text,,Kern Trading & Oil Co. well in NE. 1/2,plss_section,precise
-Groundwater,2809.0,438.0,65352,1886,1948,table_date_column,1947,R. H. Buckley Well,plss_township,approximate
-Groundwater,2809.0,438.0,65353,1886,1948,table_date_column,,John Bilotan Well,plss_township,approximate
-Groundwater,2809.0,438.0,65354,1886,1948,table_date_column,1934,A. A. Rehmke Well,plss_township,approximate
-Groundwater,2809.0,438.0,65355,1886,1948,table_date_column,1944,H. Pearson Well,plss_township,approximate
-Groundwater,1312.0,74.0,95872,1886,1890,page_text,1886,Artesian Well on Coronado Island,gnis_qualifier_near,approximate
-Groundwater,1312.0,74.0,95873,1886,1890,page_text,1901,"Test Well No. 1, Chula Vista Oil Co.",gnis_place,approximate
-Groundwater,48308.0,43.0,6069,1887,1957,table_text,,Niland Quad Geothermal,plss_section,precise
-Groundwater,48308.0,43.0,6070,1887,1957,table_text,,Calipatria SW Quad Geothermal,plss_section,precise
-Groundwater,48308.0,43.0,6071,1887,1957,table_text,,Westmorland Quad Oil Test,plss_section,precise
-Groundwater,48308.0,43.0,6072,1887,1957,table_text,,Westmorland Quad Oil Test,plss_section,precise
-Groundwater,48308.0,43.0,6073,1887,1957,table_text,,Calipatria Quad Geothermal,plss_section,precise
-Groundwater,48308.0,43.0,6074,1887,1957,table_text,,Westmorland Quad Oil Test,plss_section,precise
-Groundwater,48308.0,43.0,6075,1887,1957,table_text,,Westmorland Quad Oil Test,plss_section,precise
-Groundwater,2888.0,197.0,53066,1889,1889,table_caption,,Carbonated Wells at Kelseyville (Lake 35),gnis_qualifier_at,precise
-Stream Discharge,56808.0,127.0,57250,1830,1830,table_text,1977,Creek near Olinda,nwis_station,precise
-Stream Discharge,3931.0,4.0,97978,1850,1955,table_text,1943,"Twin Creek at Sage, Wyo",gnis_qualifier_at,precise
-Stream Discharge,2987.0,69.0,102994,1854,1940,table_date_column,1936,"Tenn Kingston, near Adams at Harpeth River",gnis_qualifier_near,approximate
-Stream Discharge,70038401.0,34.0,22875,1857,1884,table_caption,1917,Colorado River near Topock,printed,precise
-Stream Discharge,56850.0,468.0,10143,1860,1860,table_text,1977,Los Angeles River at Willow Street Bridge,nwis_station,precise
 Stream Discharge,3034.0,147.0,45444,1862,1958,table_date_column,1862,Tuolumne River above La Grange Dam,printed,precise
 Stream Discharge,70038401.0,190.0,46602,1862,1967,table_caption,1966,Santa Ana River at Riverside Narrows,printed,precise
 Stream Discharge,3034.0,155.0,57975,1862,1965,table_date_column,1938,South Fork Stanislaus River near Long Barn,printed,precise
