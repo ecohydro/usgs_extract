@@ -45,3 +45,6 @@ data/analysis/spatial/gnis/*_Features_20210825.txt
 !data/analysis/spatial/gnis/CA_Features_20210825.txt
 data/analysis/nwis_sites/by_state/
 data/analysis/manual_review/gw_earliest_candidates/pngs/
+
+# temporal-resolution grading page images (copies of data/digitized pages)
+data/analysis/temporal_resolution/review/pngs/

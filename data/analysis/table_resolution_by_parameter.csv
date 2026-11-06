@@ -1,0 +1,111 @@
+water_type_final,resolution,primary_parameter,tables,values_primary
+Groundwater,annual,contents,5,349
+Groundwater,annual,discharge,12,488
+Groundwater,annual,evaporation,3,42
+Groundwater,annual,precipitation,6,129
+Groundwater,annual,sediment,1,141
+Groundwater,annual,unknown,89,3942
+Groundwater,annual,water_chemistry,2,194
+Groundwater,annual,water_level,19,1037
+Groundwater,daily,contents,1,179
+Groundwater,daily,discharge,14,1890
+Groundwater,daily,evaporation,1,71
+Groundwater,daily,gage_height,5,1827
+Groundwater,daily,temperature,6,1146
+Groundwater,daily,unknown,16,3003
+Groundwater,daily,water_chemistry,4,1562
+Groundwater,daily,water_level,101,22548
+Groundwater,discrete,contents,17,635
+Groundwater,discrete,discharge,34,2129
+Groundwater,discrete,gage_height,3,422
+Groundwater,discrete,precipitation,1,39
+Groundwater,discrete,temperature,60,4480
+Groundwater,discrete,unknown,850,52220
+Groundwater,discrete,water_chemistry,480,78258
+Groundwater,discrete,water_level,3454,165445
+Groundwater,monthly,contents,1,607
+Groundwater,monthly,discharge,16,941
+Groundwater,monthly,evaporation,6,617
+Groundwater,monthly,precipitation,2,560
+Groundwater,monthly,temperature,7,1683
+Groundwater,monthly,unknown,18,1809
+Groundwater,monthly,water_chemistry,6,1203
+Groundwater,monthly,water_level,23,2460
+Groundwater,no_time_series,contents,87,13104
+Groundwater,no_time_series,discharge,46,10523
+Groundwater,no_time_series,evaporation,3,128
+Groundwater,no_time_series,gage_height,7,150
+Groundwater,no_time_series,precipitation,1,0
+Groundwater,no_time_series,sediment,20,722
+Groundwater,no_time_series,temperature,34,2593
+Groundwater,no_time_series,unknown,821,45151
+Groundwater,no_time_series,water_chemistry,140,14685
+Groundwater,no_time_series,water_level,161,11498
+Groundwater,unclassified,contents,123,6703
+Groundwater,unclassified,discharge,53,4163
+Groundwater,unclassified,gage_height,4,103
+Groundwater,unclassified,precipitation,16,754
+Groundwater,unclassified,sediment,13,550
+Groundwater,unclassified,temperature,56,4442
+Groundwater,unclassified,unknown,1323,95947
+Groundwater,unclassified,water_chemistry,167,18067
+Groundwater,unclassified,water_level,118,4672
+Stream Discharge,annual,contents,171,9437
+Stream Discharge,annual,discharge,3481,90175
+Stream Discharge,annual,evaporation,5,75
+Stream Discharge,annual,gage_height,194,6269
+Stream Discharge,annual,precipitation,13,477
+Stream Discharge,annual,sediment,45,2484
+Stream Discharge,annual,temperature,8,570
+Stream Discharge,annual,unknown,165,18604
+Stream Discharge,annual,water_chemistry,1,330
+Stream Discharge,annual,water_level,1,0
+Stream Discharge,daily,contents,899,283513
+Stream Discharge,daily,discharge,28603,9166759
+Stream Discharge,daily,evaporation,4,748
+Stream Discharge,daily,gage_height,3914,1174473
+Stream Discharge,daily,precipitation,62,17819
+Stream Discharge,daily,sediment,2368,742425
+Stream Discharge,daily,temperature,2372,948607
+Stream Discharge,daily,unknown,1061,290710
+Stream Discharge,daily,water_chemistry,765,220326
+Stream Discharge,daily,water_level,2,326
+Stream Discharge,discrete,contents,51,2128
+Stream Discharge,discrete,discharge,6053,251307
+Stream Discharge,discrete,evaporation,1,5
+Stream Discharge,discrete,gage_height,623,27117
+Stream Discharge,discrete,precipitation,9,682
+Stream Discharge,discrete,sediment,906,119456
+Stream Discharge,discrete,temperature,857,92773
+Stream Discharge,discrete,unknown,657,36414
+Stream Discharge,discrete,water_chemistry,4099,457441
+Stream Discharge,discrete,water_level,15,687
+Stream Discharge,monthly,contents,177,17861
+Stream Discharge,monthly,discharge,11341,555634
+Stream Discharge,monthly,evaporation,10,543
+Stream Discharge,monthly,gage_height,234,19395
+Stream Discharge,monthly,precipitation,28,2123
+Stream Discharge,monthly,sediment,293,12174
+Stream Discharge,monthly,temperature,610,68712
+Stream Discharge,monthly,unknown,1977,115047
+Stream Discharge,monthly,water_chemistry,353,52033
+Stream Discharge,monthly,water_level,1,45
+Stream Discharge,no_time_series,contents,346,10448
+Stream Discharge,no_time_series,discharge,1385,58853
+Stream Discharge,no_time_series,gage_height,3726,120003
+Stream Discharge,no_time_series,precipitation,3,221
+Stream Discharge,no_time_series,sediment,31,986
+Stream Discharge,no_time_series,temperature,29,1585
+Stream Discharge,no_time_series,unknown,104,8356
+Stream Discharge,no_time_series,water_chemistry,221,8343
+Stream Discharge,no_time_series,water_level,1,74
+Stream Discharge,unclassified,contents,116,5332
+Stream Discharge,unclassified,discharge,999,124278
+Stream Discharge,unclassified,evaporation,3,152
+Stream Discharge,unclassified,gage_height,84,9045
+Stream Discharge,unclassified,precipitation,25,1139
+Stream Discharge,unclassified,sediment,265,32304
+Stream Discharge,unclassified,temperature,419,165726
+Stream Discharge,unclassified,unknown,1122,145476
+Stream Discharge,unclassified,water_chemistry,472,69328
+Stream Discharge,unclassified,water_level,8,215

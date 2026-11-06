@@ -63,7 +63,7 @@ def _review():
 
 
 def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_clean',
-                 verbose=True):
+                 verbose=True, drop=True):
     """Apply reviewer decisions (manual_review/earliest_records_review.csv, column `action`)
     to metadata rows of the reviewed page AND water type:
       drop              not usable for this water type (lake, out of state, artifact): removed
@@ -71,9 +71,15 @@ def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_c
       undate            no measurement date on the page (e.g. depth "1870-1930 FEET"): undated
       construction_year the year is the year drilled: labeled fallback (not a measurement date)
       set_year          reviewer read the true year: year_start/year_end corrected
+      unlocate          the rebuilt location is wrong (e.g. an out-of-state page placed in
+                        California): location cleared, row becomes unlocated
       keep              confirmed as is (also lets a single document set the earliest year,
                         see reviewed_keep())
-    Run once right after loading, before any is_dated() / water-type filter."""
+    Several actions can be combined with ';' (e.g. "retype;set_year", "unlocate;undate").
+    Run once right after loading, before any is_dated() / water-type filter.
+    drop=False (published data: build_table_level_metadata.py, 00_data_prep): water-type and
+    date corrections are applied but 'drop' rows are kept -- 'drop' means "not usable for a
+    paper claim", not "remove the table". Adds column review_action."""
     if not MANUAL_REVIEW.exists():
         return df
     r = _review().set_index('key')
@@ -82,24 +88,42 @@ def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_c
     pages = pd.to_numeric(df[page_col], errors='coerce').fillna(-1).astype(int)
     keys = pd.Series(list(zip(ids, pages, df[type_col])), index=df.index)
     act = keys.map(lambda k: r.action.get(k))
-    drop = act == 'drop'
-    for k in r.index[r.action == 'retype']:
-        df.loc[keys == k, type_col] = r.at[k, 'new_water_type']
-    for k in r.index[r.action == 'set_year']:
-        m = keys == k
-        df.loc[m, 'year_start'] = r.at[k, 'corrected_year_start']
-        df.loc[m, 'year_end'] = r.at[k, 'corrected_year_end']
-        if 'decade_start' in df.columns:
-            df.loc[m, 'decade_start'] = (r.at[k, 'corrected_year_start'] // 10) * 10
+    df['review_action'] = act.where(act.notna(), df.get('review_action'))
+    acts = act.fillna('').str.split(';')
+
+    def has(a):
+        return acts.map(lambda s: a in s)
+
+    dropped = has('drop') if drop else pd.Series(False, index=df.index)
+    year_cols = ['year_start', 'year_end'] + (['decade_start'] if 'decade_start' in df else [])
     for a, status in [('undate', 'undated'), ('construction_year', 'construction_year')]:
-        m = act == a
+        m = has(a)
         df.loc[m, 'date_status'] = status
         if a == 'undate':
-            df.loc[m, ['year_start', 'year_end'] + (['decade_start'] if 'decade_start' in df else [])] = float('nan')
+            df.loc[m, year_cols] = float('nan')
+    m = has('set_year')
+    if m.any():
+        ys = keys[m].map(lambda k: r.at[k, 'corrected_year_start'])
+        ye = keys[m].map(lambda k: r.at[k, 'corrected_year_end'])
+        df.loc[m, 'year_start'] = ys
+        df.loc[m, 'year_end'] = ye
+        if 'decade_start' in df.columns:
+            df.loc[m, 'decade_start'] = (ys // 10) * 10
+    m = has('unlocate')
+    for c in ['lat_combined', 'lon_combined', 'precision_km', 'evidence_scope']:
+        if c in df.columns:
+            df.loc[m, c] = float('nan')
+    for c in ['coord_method', 'coord_source', 'precision_class']:
+        if c in df.columns:
+            df.loc[m, c] = 'unlocated'
+    m = has('retype')  # last: the review key uses the original water type
+    if m.any():
+        df.loc[m, type_col] = keys[m].map(lambda k: r.at[k, 'new_water_type'])
     if verbose:
-        print('  manual review applied: ' + ', '.join(f'{a} {int((act == a).sum())}'
-              for a in ['drop', 'retype', 'undate', 'construction_year', 'set_year', 'keep']) + ' rows')
-    return df[~drop]
+        print('  manual review applied: ' + ', '.join(
+            f'{a} {int(has(a).sum())}' for a in ['drop', 'retype', 'undate', 'construction_year',
+                                                  'set_year', 'unlocate', 'keep']) + ' rows')
+    return df[~dropped]
 
 
 def reviewed_keep(water_type):

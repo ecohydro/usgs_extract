@@ -10,6 +10,14 @@ when the LLM identified more than one location or water body on that page.
 Source of LLM fields: Microsoft Phi-4 run on UCSB HPC cluster.
 Source of USGS fields: USGS Publications Warehouse.
 
+IMPORTANT (2026-11-05): the LLM coordinate and date fields in this file (inferred_* /
+actual_* latitude and longitude, dates_of_recording) are the RAW model output and are
+superseded. Checks against coordinates printed on the pages showed many LLM coordinates
+were guessed, and table-level dates proved far more accurate than dates_of_recording.
+Use the rebuilt fields described in SECTION 3 (processed_metadata.parquet, one row per
+row of this file) or the table catalog (data/catalog/restored_tables_catalog.csv, column
+key data/metadata/catalog_key.txt). The raw values are kept here for transparency.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SECTION 1 — LLM-extracted page-level fields (cols 1–16)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -261,3 +269,92 @@ CHORUS Audited On
 
 CHORUS Publicly Accessible Date
     Date the document became publicly accessible per CHORUS.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3 — Rebuilt and derived fields (data/analysis/processed_metadata.parquet)
+One row per row of main_metadata.csv (meta_row = row position in main_metadata.csv).
+Built by code/02_inventory/00_data_prep.ipynb (Oct 28 - Nov 5, 2026).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+meta_row
+    Row position (0-based) in main_metadata.csv; joins this file to the per-step outputs
+    in data/analysis/location_validation/ and data/analysis/entry_dates.csv.
+
+water_type_clean
+    water_type normalized to one of the nine categories, with reviewer corrections applied
+    (see review_action).
+
+--- DATES (table-level; code/02_inventory/date_parsing.py, table_dates.py) ---
+year_start, year_end, decade_start
+    Years of the data in the table(s) this entry describes, read from the table and its
+    page. Valid years: 1800 to the document's publication year.
+date_status / date_tier
+    Evidence the years came from, best first:
+      table_date_column  a Date / Year column (or row) in the table
+      table_text         explicit dates elsewhere in the table
+      table_caption      the table title
+      page_text          other text on the same page
+    Labeled fallbacks (NOT measurement dates; exclude for time-based analysis):
+      period_of_record   the station's stated "records available" years
+      construction_year  years the wells were drilled / completed
+      llm_grounded       the LLM date, used only when its start and end years are printed
+                         on the page
+      undated            no date found
+date_source
+    How the entry was matched to dates: row (a table row naming the site), table (the
+    entry's table), page (all tables on the page), llm_grounded, none.
+matched_tables
+    Table numbers on the page whose dates were used.
+por_start, por_end
+    Station period of record stated on the page (not the years of this entry's data).
+construction_start, construction_end
+    Years wells were drilled / completed, kept separately from measurement dates.
+year_start_llm, year_end_llm, decade_start_llm, date_status_llm
+    dates_of_recording parsed, for comparison only.
+
+--- LOCATION (rebuilt; LLM-guessed coordinates are not used) ---
+lat_combined, lon_combined
+    WGS84 point from evidence printed on the entry's own page (blank when unlocated).
+coord_method (= coord_source)
+    printed                 latitude/longitude printed on the page
+    nwis_station, nwis_well NWIS station / well number printed on the page
+    plss_section            township, range and section printed on the page
+    plss_township           township and range only
+    plss_wellno             California state well number (e.g. 10S/6E-23B1)
+    wellno_group            several wells on the row, all within 5 km (centroid)
+    gnis_*                  a named place on the page matched to USGS GNIS (2021 archive):
+                            _qualifier_at / _feature_dam / _feature_reservoir (precise),
+                            _qualifier_near / _above / _below / _place / _feature_lake /
+                            _feature_spring (approximate); gnis_oos_* = outside California
+    b118_basin, b118_subbasin
+                            DWR Bulletin 118 groundwater basin named on the page (point
+                            inside the basin polygon)
+    unlocated               no usable location evidence on the page
+precision_km
+    Approximate uncertainty of the point (validated median error of the method).
+precision_class
+    precise      suitable for subwatershed (HUC12) work
+    approximate  county / HUC8 scale
+    basin        basin-level summaries only (point is a placeholder inside the basin)
+    unlocated
+evidence_scope
+    page (all evidence on the entry's own page) | document (meridian or direction letters
+    settled from elsewhere in the same report) | continuation (carried from the start of a
+    table continued across pages; capped at approximate)
+lat_llm, lon_llm, coord_source_llm
+    The LLM coordinates (actual, else inferred) and which one was used, for comparison only.
+
+--- PAGE AND REVIEW FLAGS ---
+page_type, is_data_page
+    data | index_contents (indexes, tables of contents) | narrative (no table) |
+    no_page_text. is_data_page is False for index_contents and narrative pages.
+n_measurements
+    Table rows on the page (estimate of measurements; superseded for counting by the
+    table-level files).
+review_action
+    Correction from a manual review of the page (data/analysis/manual_review/
+    earliest_records_review.csv): retype (water type changed), set_year (year corrected),
+    undate (no measurement date on the page), construction_year (year is year drilled),
+    keep (confirmed), drop (excluded from paper statistics only; data kept). Blank if
+    the page was not reviewed.

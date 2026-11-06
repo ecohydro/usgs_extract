@@ -1,31 +1,31 @@
 scope,water_type,tables,rows (number_rows),values,values_per_row,daily_grid_tables
-published,ALL,100829,2512776,18522112,7.37,34739
-published,Groundwater,8594,136833,594898,4.35,71
-published,Irrigation,1247,30142,182451,6.05,306
-published,Not Water Related,443,12847,43012,3.35,1
-published,Other,470,11682,71760,6.14,103
-published,Precipitation,440,8747,60215,6.88,26
-published,Reservoir,3998,91103,714430,7.84,1374
-published,Springs,881,16306,62886,3.86,3
-published,Stream Discharge,84285,2193948,16727331,7.62,32849
-published,Water Quality,471,11168,65129,5.83,6
-catalog (published minus tribal),ALL,98157,2448390,18091550,7.39,34020
-catalog (published minus tribal),Groundwater,8457,135524,590077,4.35,71
-catalog (published minus tribal),Irrigation,1195,28929,174434,6.03,300
-catalog (published minus tribal),Not Water Related,424,12143,42370,3.49,1
-catalog (published minus tribal),Other,467,11628,71693,6.17,103
-catalog (published minus tribal),Precipitation,435,8672,60049,6.92,26
-catalog (published minus tribal),Reservoir,3924,89658,706922,7.88,1364
-catalog (published minus tribal),Springs,861,16026,61741,3.85,2
-catalog (published minus tribal),Stream Discharge,81934,2134928,16320797,7.64,32147
-catalog (published minus tribal),Water Quality,460,10882,63467,5.83,6
-tribal withheld,ALL,2672,64386,430562,6.69,719
-tribal withheld,Groundwater,137,1309,4821,3.68,0
-tribal withheld,Irrigation,52,1213,8017,6.61,6
-tribal withheld,Not Water Related,19,704,642,0.91,0
+published,ALL,100829,2512776,18302277,7.28,34739
+published,Groundwater,8594,136833,592428,4.33,71
+published,Irrigation,1247,30142,179591,5.96,306
+published,Not Water Related,443,12847,40657,3.16,1
+published,Other,470,11682,70887,6.07,103
+published,Precipitation,440,8747,59856,6.84,26
+published,Reservoir,3998,91103,708975,7.78,1374
+published,Springs,881,16306,62843,3.85,3
+published,Stream Discharge,84285,2193948,16522743,7.53,32849
+published,Water Quality,471,11168,64297,5.76,6
+catalog (published minus tribal),ALL,97983,2442210,17842934,7.31,33969
+catalog (published minus tribal),Groundwater,8456,135476,587603,4.34,71
+catalog (published minus tribal),Irrigation,1191,28696,172142,6.0,300
+catalog (published minus tribal),Not Water Related,410,11595,39510,3.41,1
+catalog (published minus tribal),Other,467,11628,70820,6.09,103
+catalog (published minus tribal),Precipitation,435,8672,59690,6.88,26
+catalog (published minus tribal),Reservoir,3915,89322,699253,7.83,1360
+catalog (published minus tribal),Springs,861,16026,61698,3.85,2
+catalog (published minus tribal),Stream Discharge,81788,2129913,16089583,7.55,32100
+catalog (published minus tribal),Water Quality,460,10882,62635,5.76,6
+tribal withheld,ALL,2846,70566,459343,6.51,770
+tribal withheld,Groundwater,138,1357,4825,3.56,0
+tribal withheld,Irrigation,56,1446,7449,5.15,6
+tribal withheld,Not Water Related,33,1252,1147,0.92,0
 tribal withheld,Other,3,54,67,1.24,0
 tribal withheld,Precipitation,5,75,166,2.21,0
-tribal withheld,Reservoir,74,1445,7508,5.2,10
+tribal withheld,Reservoir,83,1781,9722,5.46,14
 tribal withheld,Springs,20,280,1145,4.09,1
-tribal withheld,Stream Discharge,2351,59020,406534,6.89,702
+tribal withheld,Stream Discharge,2497,64035,433160,6.76,749
 tribal withheld,Water Quality,11,286,1662,5.81,0

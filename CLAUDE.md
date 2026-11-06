@@ -1442,3 +1442,46 @@ Published: 2,512,776 table rows / ~18.5M values / 100,829 tables. Tribal withhel
   Now: stream unchanged; GW 1883 (+7 yr), +79 HUC12 (+4%). Catalog dated 93,158.
 - Opportunity not taken: 3133 / 2294 well tables print T/R/S per row but are unlocated (bare-number T.R.S.
   columns, rotated tables). Locating them helps maps/catalog only (their only dates are construction years).
+
+## Temporal Resolution per Table — November 5, 2026
+Goal (Annette): show researchers what kind of record exists (daily / monthly / annual / discrete) by water type
+and point them to it, without double counting. Replaces the page-level LLM `temporal_resolution` field.
+- `code/02_inventory/temporal_resolution.py` `classify(rows, caption)`: daily (day-number column 1-31 counting up
+  + month context: classic grid, split grids "Day | Feb | Day.1", "1.0"/"1.." labels, two-level headers) ·
+  monthly (month rows, year rows x month columns, "Month" label column) · annual (year rows, no month columns,
+  not a well inventory) · discrete (Date column / cells with a day) · no_time_series (logs, inventories,
+  rating/capacity tables) · caption keywords · unclassified.
+- `19_value_counts.py` now records resolution per table, counts summary-row values separately
+  (`n_summary_values`), no longer counts repeated "Day.1" columns, counts only day-labeled rows in all daily
+  layouts. Published values 18,522,112 -> **18,270,613**; calendar check unchanged (99.2%).
+- `20_temporal_resolution.py` -> `data/analysis/table_resolution.csv`, `table_resolution_summary.csv`,
+  `table_resolution_by_parameter.csv`. Adds `primary_parameter` / `parameters` (title first, then headers:
+  discharge, gage_height, contents, water_level, temperature, sediment, water_chemistry, precipitation,
+  evaporation). `derived_summary` = monthly/annual table on the same or adjacent page as a daily table with the
+  same water type AND primary parameter -> its values are secondary. LLM fallback OFF (spot check ~2/6 right).
+- Catalog numbers (primary values): stream daily 82.5% (12.8M; discharge 9.17M, gage height 1.17M,
+  temperature 0.95M, sediment 0.74M, contents 0.28M), monthly 5.4%, annual 0.8%, discrete 6.3%,
+  unclassified 3.6%. Groundwater: discrete 51.8% (water levels 165k, chemistry 78k), no time series 16.8%,
+  unclassified 23.1%, daily 5.5% (much of GW "daily" is stream/reservoir data mis-typed as GW by the LLM).
+- **Grading sample (Annette):** `data/analysis/temporal_resolution/review/resolution_review_sample.csv`
+  (65 tables, blind; key in `resolution_review_key.csv`; pngs git-ignored; README has rules).
+  Built by `validation/resolution_review_sample.py`. Next: grade -> score -> fix -> add `data_resolution`,
+  `derived_summary`, `primary_parameter`, `parameters` to the catalog (18) + user guide + catalog_key.
+
+## Data cleanup — November 5, 2026 (items 4-6)
+- **Reviewer corrections in the published data:** `paper_filters.apply_review(..., drop=False)` now runs in
+  `build_table_level_metadata.py` (water_type_final) and `00_data_prep.ipynb` (water_type_clean), adding a
+  `review_action` column. Retypes + date fixes reach the table-level CSVs and catalog (2291 p35 / 2292 p27 →
+  Precipitation; 32842 p76 / 2888 p197 → Water Quality; 1312 p74 = 1901; 48308 p41/p43 undated; 2809 p438
+  construction_year). 'drop' verdicts stay paper-only (tables kept). assignment_source is NOT changed
+  (filter_published_tables keeps only LLM sources; changing it dropped the retyped tables once).
+  Totals unchanged: 100,829 tables / 2,512,776 rows; paper stats unchanged.
+- **'drop' pages fixed in the published data (Annette, Nov 5):** review actions can be combined (';') and a new
+  `unlocate` action clears a wrong location. 56808 p127 / 56850 p468 undated; 2293 p21 -> Precipitation; 2094 p26
+  -> Water Quality; 2854 p121 (printed p. 122, Owens Lake analyses) -> Water Quality, 1876-1906; 3931 p4 (Wyo.) /
+  2987 p69 (Tenn.) unlocated + undated. Only 70038401 p34 (historical flood estimate) remains a pure 'drop'.
+  Note: `page_number` = position in the scanned PDF, not the printed page number (why 2854 p121 was hard to find).
+- **Stale tribal copies deleted:** 9 page folders (57549 p11 in 6 area folders — no longer withheld; 25119 p38,
+  70038392 p42, 251 p20 left in old area folders). data/withheld_tribal now = manifest (2,076 page folders).
+- **metadata_key.txt:** header note (LLM coords/dates are raw, superseded) + SECTION 3 documenting
+  processed_metadata.parquet rebuilt date / location / page / review columns.

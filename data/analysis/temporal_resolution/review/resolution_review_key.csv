@@ -1,0 +1,66 @@
+sample_no,doc_id,page_number,table_number,water_type_final,resolution,resolution_source,resolution_evidence,derived_summary,primary_parameter,parameters,llm_resolution,n_values_primary
+1,1585,27,2,Stream Discharge,monthly,table,month column,False,unknown,,daily,52
+2,2513,36,1,Groundwater,no_time_series,table,log / inventory / rating / analyses headers,False,unknown,,,6
+3,26334,51,1,Stream Discharge,unclassified,none,,False,unknown,,,56
+4,70038406,104,4,Groundwater,discrete,table,date column,False,water_level,water_level,monthly,6
+5,56403,638,4,Groundwater,unclassified,none,,False,water_chemistry,water_chemistry,,12
+6,10595,31,1,Groundwater,unclassified,none,,False,unknown,,,0
+7,2257,42,3,Groundwater,discrete,table,dated cells,False,water_chemistry,water_chemistry;water_level,monthly,10
+8,633,376,1,Irrigation,daily,table,day column (labeled),False,gage_height,gage_height;discharge,daily,349
+9,48308,118,1,Groundwater,unclassified,none,,False,unknown,,,70
+10,1641,47,1,Stream Discharge,daily,table,day column (labeled),False,discharge,discharge,daily,723
+11,6376,15,1,Stream Discharge,discrete,table,date column,False,discharge,discharge;gage_height,,42
+12,2252,318,3,Stream Discharge,no_time_series,table,rating table caption,False,gage_height,gage_height,daily,14
+13,3048,560,1,Stream Discharge,daily,table,day column (labeled),False,discharge,discharge,daily,365
+14,623,322,2,Reservoir,discrete,table,date column,False,contents,contents,daily,38
+15,27040,39,1,Groundwater,annual,caption,caption,False,unknown,,annual,29
+16,70038395,222,2,Groundwater,monthly,table,month column,False,discharge,discharge,,3
+17,431,230,2,Stream Discharge,monthly,table,month rows,True,discharge,discharge,daily,0
+18,810,154,1,Groundwater,daily,table,day column,False,water_level,water_level,,140
+19,2257,120,2,Groundwater,daily,caption,caption,False,water_level,water_level,daily,282
+20,623,235,2,Reservoir,discrete,table,date column,False,gage_height,gage_height;contents,daily,37
+21,695,625,1,Stream Discharge,annual,table,year rows,False,discharge,discharge;gage_height,daily,6
+22,70038415,108,1,Stream Discharge,discrete,caption,caption,False,water_chemistry,water_chemistry,monthly,69
+23,2847,141,3,Groundwater,no_time_series,table,log / inventory / rating / analyses headers,False,unknown,,,12
+24,2257,66,2,Groundwater,discrete,table,date column,False,water_level,water_level,monthly,52
+25,3217,269,2,Stream Discharge,monthly,table,year rows x month columns,False,discharge,discharge,monthly,132
+26,70038414,403,1,Irrigation,daily,table,day column (labeled),False,discharge,discharge,daily,365
+27,1573,151,1,Reservoir,daily,table,day column (labeled),False,contents,contents;gage_height,daily,366
+28,2749,414,2,Groundwater,discrete,table,dated cells,False,unknown,,monthly,80
+29,4561,128,1,Stream Discharge,no_time_series,table,rating table caption,False,discharge,discharge;gage_height,,12
+30,2513,322,1,Groundwater,no_time_series,table,log / inventory / rating / analyses headers,False,unknown,,,219
+31,1627,205,1,Stream Discharge,annual,table,year rows,False,contents,contents;discharge;gage_height,daily,12
+32,70038393,352,1,Stream Discharge,unclassified,none,,False,discharge,discharge,daily,5
+33,70038415,319,2,Stream Discharge,daily,table,day column (labeled),False,discharge,discharge;sediment;water_chemistry,daily,273
+34,1610,183,2,Stream Discharge,monthly,table,month rows,True,discharge,discharge,daily,0
+35,1610,297,1,Stream Discharge,daily,table,day column (labeled),False,discharge,discharge,daily,351
+36,27037,18,1,Groundwater,annual,caption,caption,False,precipitation,precipitation,annual,11
+37,1110,262,2,Groundwater,unclassified,none,,False,unknown,,,54
+38,56362,309,2,Reservoir,daily,table,day column (labeled),False,contents,contents,daily,364
+39,70038676,372,1,Reservoir,no_time_series,table,rating table caption,False,contents,contents;gage_height,daily,28
+40,56461,332,2,Stream Discharge,discrete,table,date column,False,sediment,sediment;temperature;discharge;water_chemistry,daily,8
+41,2257,6,1,Groundwater,annual,table,year rows,False,water_level,water_level,annual,108
+42,45707,13,1,Groundwater,annual,table,year rows,False,unknown,,annual,28
+43,70038403,235,1,Stream Discharge,monthly,table,month rows,False,water_chemistry,water_chemistry;sediment;temperature,daily,336
+44,1520,472,2,Stream Discharge,daily,table,day column (labeled),False,gage_height,gage_height,daily,365
+45,648,154,1,Reservoir,discrete,table,date column,False,contents,contents;gage_height,monthly,35
+46,2809,550,1,Groundwater,monthly,table,month rows,False,unknown,,,251
+47,56361,501,2,Stream Discharge,daily,table,day column (labeled),False,temperature,temperature,daily,83
+48,22374,101,1,Groundwater,discrete,table,dated cells,False,water_level,water_level,monthly,90
+49,2416,230,1,Groundwater,unclassified,none,,False,contents,contents,,215
+50,51920,47,2,Groundwater,daily,caption,caption,False,water_level,water_level,daily,103
+51,2507,155,1,Groundwater,no_time_series,table,log / inventory / rating / analyses headers,False,water_chemistry,water_chemistry,,69
+52,23601,34,1,Stream Discharge,unclassified,none,,False,sediment,sediment;discharge,annual,67
+53,51801,30,3,Groundwater,discrete,table,dated cells,False,water_level,water_level,monthly,11
+54,1138,53,2,Stream Discharge,no_time_series,table,rating table caption,False,gage_height,gage_height;discharge,daily,57
+55,3090,170,1,Stream Discharge,discrete,table,date column,False,discharge,discharge;gage_height,,18
+56,623,304,2,Stream Discharge,monthly,table,month rows,True,discharge,discharge,daily,0
+57,810,132,3,Groundwater,monthly,table,month rows,True,water_level,water_level,monthly,0
+58,1641,171,2,Stream Discharge,annual,table,year rows,True,discharge,discharge,,0
+59,3090,292,1,Stream Discharge,annual,table,year rows,False,gage_height,gage_height;discharge,daily,9
+60,9347,159,1,Precipitation,discrete,table,dated cells,False,precipitation,precipitation,,86
+61,70038677,76,1,Stream Discharge,discrete,table,date column,False,water_chemistry,water_chemistry;discharge;temperature,monthly,99
+62,3992,42,1,Stream Discharge,unclassified,none,,False,discharge,discharge,annual,65
+63,3090,474,2,Stream Discharge,annual,table,year rows,True,discharge,discharge,,0
+64,52982,116,1,Springs,discrete,table,date column,False,contents,contents;discharge;temperature,,32
+65,3048,200,1,Stream Discharge,no_time_series,table,rating table caption,False,gage_height,gage_height;discharge,daily,41

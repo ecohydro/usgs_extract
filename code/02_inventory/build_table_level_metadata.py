@@ -107,6 +107,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import add_date_columns, apply_table_dates
+from paper_filters import apply_review
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -551,6 +552,10 @@ def main():
     print(merged['date_status'].value_counts().to_string())
     print()
 
+    # reviewer corrections (manual_review/earliest_records_review.csv): water type and dates.
+    # 'drop' verdicts only exclude a page from paper claims, so tables are kept (drop=False).
+    merged = apply_review(merged, id_col='doc_id', type_col='water_type_final', drop=False)
+
     # ------------------------------------------------------------------
     # Step 5: save
     # ------------------------------------------------------------------
@@ -566,6 +571,7 @@ def main():
         'lat_combined', 'lon_combined', 'coord_method', 'precision_km',
         'precision_class', 'evidence_scope', 'location_match', 'n_site_locations',
         'site_spread_km', 'location_ambiguous', 'meta_row_location', 'lat_llm', 'lon_llm', 'watersource_name',
+        'review_action',
     ]
     final = merged[[c for c in col_order if c in merged.columns]]
     final.to_csv(OUT_TABLE, index=False)

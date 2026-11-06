@@ -37,6 +37,9 @@ from pathlib import Path
 
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from temporal_resolution import classify, DAY_NUM, DAY_HEAD  # noqa: E402
+
 csv.field_size_limit(10_000_000)
 ROOT = Path(__file__).resolve().parents[2]
 A = ROOT / 'data/analysis'
@@ -89,7 +92,7 @@ def month_days(header):
     return None
 
 
-def metrics(path: Path) -> dict:
+def metrics(path: Path, caption: str = '') -> dict:
     try:
         with open(path, newline='', encoding='utf-8', errors='ignore') as f:
             rows = list(csv.reader(f))
@@ -99,22 +102,32 @@ def metrics(path: Path) -> dict:
     data = rows[1:]
     ncol = max((len(r) for r in rows), default=0)
     hdr = [(header[j] if j < len(header) else '') for j in range(ncol)]
+    resolution, evidence = classify(rows, caption)
 
     summary = [bool(r) and bool(SUMMARY.match(r[0].strip())) for r in data]
     body = [r for r, s in zip(data, summary) if not s]
+    summary_rows = [r for r, s in zip(data, summary) if s]
     # day-by-month grid: only rows labeled with day numbers are data (footer lines are not)
     months = {j: month_days(hdr[j]) for j in range(1, ncol)}
     months = {j: v for j, v in months.items() if v}
     day_rows = [r for r in body if r and r[0].split() and all(DAY.fullmatch(t)
                                                               for t in r[0].split())]
-    is_daily = len(months) >= 6 and len(day_rows) >= 25
+    is_daily = len(months) >= 6 and len(day_rows) >= 25   # standard grid (calendar check)
     if is_daily:
         body = day_rows
+    elif resolution == 'daily':
+        # other daily layouts (split grids "Day | Feb | Mar | Day.1 ...", day labels "1.0" /
+        # "1..", two-level headers): rows labeled with a day number are data, other non-summary
+        # rows (repeated header rows, notes) are not counted (2026-11-05)
+        body = [r for r in body if r and DAY_NUM.match(r[0])]
 
     # column decisions
     excluded = set()
     for j in range(1, ncol):
         h = re.sub(r'(?i)unnamed:\s*\d+', '', hdr[j])
+        if DAY_HEAD.match(h):
+            excluded.add(j)  # repeated day-label column of a split daily grid ("Day.1")
+            continue
         if EXCLUDE_HEADER.search(h) and not KEEP_HEADER.search(h):
             excluded.add(j)
             continue
@@ -136,6 +149,9 @@ def metrics(path: Path) -> dict:
             n_values += k
             n_merged += k > 1
             col_counts[j] = col_counts.get(j, 0) + k
+    # derived values (Total / Mean / Max / Min / Runoff rows): reported, never counted as values
+    n_summary_values = sum(len(tokens(r[j])) for r in summary_rows
+                           for j in range(1, min(len(r), ncol)) if j not in excluded)
 
     # calendar check for day x month tables
     rec = {}
@@ -153,20 +169,26 @@ def metrics(path: Path) -> dict:
 
     return {'n_data_rows': len(data), 'n_summary_rows': sum(summary), 'n_cols': ncol,
             'n_excluded_cols': len(excluded), 'n_values': n_values, 'n_merged_cells': n_merged,
-            'is_daily_grid': is_daily, **rec}
+            'is_daily_grid': is_daily, 'resolution': resolution, 'resolution_evidence': evidence,
+            'n_summary_values': n_summary_values, **rec}
 
 
 def scan():
     files = list(DIGITIZED.rglob('*_table*.csv'))
     print(f'{len(files):,} table CSVs', flush=True)
+    td = pd.read_csv(A / 'table_dates.csv', usecols=['id', 'page_number', 'table_number', 'caption'],
+                     low_memory=False)
+    captions = {(int(a), int(b), int(c)): d for a, b, c, d in td.itertuples(index=False)
+                if isinstance(d, str)}
     recs = []
     for i, p in enumerate(files):
         if i % 20000 == 0:
             print(f'  {i:,}', flush=True)
         m = FILE_RE.match(p.name)
         if m:
-            recs.append({'doc_id': int(m[1]), 'page_number': int(m[2]), 'table_number': int(m[3]),
-                         **metrics(p)})
+            key = (int(m[1]), int(m[2]), int(m[3]))
+            recs.append({'doc_id': key[0], 'page_number': key[1], 'table_number': key[2],
+                         **metrics(p, captions.get(key, ''))})
     v = pd.DataFrame(recs).sort_values(['doc_id', 'page_number', 'table_number'])
     v.to_csv(OUT, index=False)
     return v
