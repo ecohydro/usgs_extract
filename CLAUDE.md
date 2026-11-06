@@ -1502,8 +1502,15 @@ GW 1883 vs 1890 (+7 yr, 1 site), +79 HUC12 (+4%). Published 100,829 tables / 2,5
 2. Annette (when time allows): grade data/analysis/temporal_resolution/review/resolution_review_sample.csv
    -> score -> fix -> add resolution / derived_summary / primary_parameter / parameters to catalog (18),
    catalog_key.txt and user guide.
-3. Re-run 03_santa_barbara (and dam / 09_sgma if used in the paper).
-4. Decide per-page _metadata.csv contents (rebuilt vs raw LLM) -> HydroShare package into a NEW folder
-   -> finalize user guide (citation, license, contact, counts).
-5. Housekeeping: .gitignore archive/ and the 193 MB NWIS GW raw file; Git LFS for ~57 MB table CSVs.
+3. Re-run 04_santa_ynez only (Annette, Nov 5: the Santa Barbara figures in 03 do NOT need a re-run; dam /
+   09_sgma only if used in the paper). 04 was last run Nov 4, before the out-of-state, date-parser and
+   review fixes.
+4. **Review the metadata files and catalog with Annette** (main_metadata.csv + metadata_key.txt,
+   processed_metadata.parquet, table-level CSVs, data/catalog/ + catalog_key.txt, per-page _metadata.csv).
+   Decide whether to include the original LLM fields at all, especially dates (dates_of_recording,
+   *_llm) and locations (actual_/inferred_ lat/long, lat_llm/lon_llm, county fields), given the extensive
+   rebuild. Options: keep raw (labeled superseded), move to a separate "raw LLM output" file, or drop.
+   This decision sets what the per-page _metadata.csv files and the HydroShare package contain.
+5. Then: HydroShare package into a NEW folder -> finalize user guide (citation, license, contact, counts).
+6. Housekeeping: .gitignore archive/ and the 193 MB NWIS GW raw file; Git LFS for ~57 MB table CSVs.
 Deferred: row-level PLSS for well inventories (~170 GW tables); table-detection recall script.
