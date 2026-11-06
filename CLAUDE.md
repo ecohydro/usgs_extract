@@ -1485,3 +1485,25 @@ and point them to it, without double counting. Replaces the page-level LLM `temp
   70038392 p42, 251 p20 left in old area folders). data/withheld_tribal now = manifest (2,076 page folders).
 - **metadata_key.txt:** header note (LLM coords/dates are raw, superseded) + SECTION 3 documenting
   processed_metadata.parquet rebuilt date / location / page / review columns.
+
+## Session Log — November 5, 2026 — END OF DAY (RESUME HERE, next session)
+Done today: user guide draft (docs/user_guide.md); GW earliest-record grading applied (GW start 1883, one
+site); year-completed date parser fix; pre-1890 unlocated GW search (nothing earlier); per-table temporal
+resolution + parameter (20_temporal_resolution.py); reviewer corrections carried into published data;
+stale tribal copies removed; metadata_key.txt Section 3. Commits: ed13544, 9a4b03a.
+
+Current numbers: stream 1862 vs NWIS 1891 (+29 yr, 124 sites predate NWIS), +528 HUC12 (+36%);
+GW 1883 vs 1890 (+7 yr, 1 site), +79 HUC12 (+4%). Published 100,829 tables / 2,512,776 rows /
+~18.27M values. Tribal withheld: 1,875 pages, 221 docs, 118 areas, 2,846 tables, 70,566 rows.
+
+### Next (in order)
+1. Draft manuscript text: abstract, 6-panel caption, tribal sentence (118 vs 121 areas?), "2.5M table rows,
+   ~18 million values", methods for date protocol (25/30) and location tiers (incl. out-of-state).
+2. Annette (when time allows): grade data/analysis/temporal_resolution/review/resolution_review_sample.csv
+   -> score -> fix -> add resolution / derived_summary / primary_parameter / parameters to catalog (18),
+   catalog_key.txt and user guide.
+3. Re-run 03_santa_barbara (and dam / 09_sgma if used in the paper).
+4. Decide per-page _metadata.csv contents (rebuilt vs raw LLM) -> HydroShare package into a NEW folder
+   -> finalize user guide (citation, license, contact, counts).
+5. Housekeeping: .gitignore archive/ and the 193 MB NWIS GW raw file; Git LFS for ~57 MB table CSVs.
+Deferred: row-level PLSS for well inventories (~170 GW tables); table-detection recall script.
