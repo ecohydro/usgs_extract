@@ -61,13 +61,20 @@ LOCATION (rebuilt; LLM-guessed coordinates are not used)
   coord_method         printed (lat/long printed on the page), plss_section /
                        plss_township / plss_wellno / wellno_group (Public Land Survey
                        or state well number on the page), nwis_station / nwis_well (NWIS
-                       number on the page), gnis_* (named place on the page),
+                       number on the page), nwis_name / nwis_name_cluster (NWIS station
+                       name, e.g. "Santa Ynez River near Lompoc", printed on the page without
+                       a number; cluster = several gauges within 5 km, centroid),
+                       gnis_* (named place on the page),
                        b118_basin / b118_subbasin (groundwater basin named on the page)
   precision_km         approximate uncertainty of the point
-  precision_class      precise | approximate | basin | unlocated
+  precision_class      precise | approximate | basin | conflict | unlocated
                        precise: suitable for subwatershed (HUC12) analysis
                        approximate: county / HUC8 scale
                        basin: a point inside the named groundwater basin; basin-scale only
+                       conflict: independent location methods disagree by > 25 km with no
+                         agreeing majority, or a named-place point lies > 30 km from every
+                         NWIS gauge on the stream the entry names. Coordinates kept; do not
+                         rely on them (excluded from the paper's maps and statistics)
   evidence_scope       page (all evidence on the table's own page) | document (direction
                        letters / meridian settled from elsewhere in the report) |
                        continuation (location carried from the start of a continued table)
@@ -88,6 +95,7 @@ SEARCH KEYS (blank when the location is too coarse)
   nwis_site_no, nwis_station_name, nwis_match_km, nwis_match
                         likely USGS NWIS site:
                         station_number_on_page: NWIS number printed on the page
+                        station_name_on_page: NWIS station name printed on the page (no number)
                         nearest_named: nearest NWIS stream site within 5 km sharing a
                           name word (picks the printed station for ~95% of tables where
                           one is printed)

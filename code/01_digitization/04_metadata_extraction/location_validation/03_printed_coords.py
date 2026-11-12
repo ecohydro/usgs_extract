@@ -43,14 +43,32 @@ out_dir.mkdir(parents=True, exist_ok=True)
 TOL_SEC = 0.005   # deg, when seconds are printed
 TOL_MIN = 0.02    # deg, degrees-minutes only
 
-# degrees, minutes, optional seconds; separators are OCR-garbled symbols/spaces
-_DMS = r'(\d{2,3})\s?[^\w\s,;]{0,3}\s?(\d{1,2})\s?[^\w\s,;]{0,3}\s?(?:(\d{1,2}(?:\.\d+)?)\s?[^\w\s,;]{0,3})?'
+# degrees, minutes, optional seconds; separators are OCR-garbled symbols/spaces.
+# Separators are captured so that garbled values with a MISSING component can be rejected.
+_DMS = (r'(\d{2,3})\s?([^\w\s,;]{0,3})\s?(\d{1,2})\s?([^\w\s,;]{0,3})\s?'
+        r'(?:(\d{1,2}(?:\.\d+)?)\s?[^\w\s,;]{0,3})?')
 RE_LAT = re.compile(r'\blat(?:itude)?\b[.,:\s-]{0,4}' + _DMS, re.I)
 RE_LON = re.compile(r'\blong?(?:itude)?\b[.,:\s-]{0,4}' + _DMS, re.I)
-RE_ANY = re.compile(r'(?<!\d)' + _DMS.replace(r'(\d{2,3})', r'(\d{2,3})', 1), re.I)
+RE_ANY = re.compile(r'(?<!\d)' + _DMS, re.I)
 
 
-def to_deg(d, m, s):
+def garbled(sep1, sep2, s):
+    """True if OCR dropped a component (added 2026-11-12, found in the Santa Ynez audit).
+    'Lat 38'00"' (true 34°38'00") was read as 38°00': the degrees were lost, and the minutes
+    and seconds were taken as degrees and minutes. Two signatures:
+      - two numbers, the second followed by a seconds mark (")  -> degrees or minutes missing
+        ('38'00"', '39°59"', '33 10"'); the error can be a full degree or more.
+      - a degree sign AFTER the second number ('38 3°35'') -> the first number is not degrees."""
+    if not s and '"' in sep2:
+        return True
+    if s and not sep1 and ('\N{DEGREE SIGN}' in sep2 or '�' in sep2):
+        return True
+    return False
+
+
+def to_deg(d, sep1, m, sep2, s):
+    if garbled(sep1, sep2, s):
+        return None, None
     d, m = int(d), int(m)
     if m >= 60 or (s and float(s) >= 60):
         return None, None

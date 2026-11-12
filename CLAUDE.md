@@ -1514,3 +1514,54 @@ GW 1883 vs 1890 (+7 yr, 1 site), +79 HUC12 (+4%). Published 100,829 tables / 2,5
 5. Then: HydroShare package into a NEW folder -> finalize user guide (citation, license, contact, counts).
 6. Housekeeping: .gitignore archive/ and the 193 MB NWIS GW raw file; Git LFS for ~57 MB table CSVs.
 Deferred: row-level PLSS for well inventories (~170 GW tables); table-detection recall script.
+
+## Location Accuracy Round 2 — November 12, 2026 (from the Santa Ynez audit)
+Annette asked for a double-check of Santa Ynez (04): the Nov 12 re-run was unchanged vs Nov 4 and
+the pipeline files were consistent, but the audit found statewide location errors. Fixes:
+- **Tier 1 garbled coordinates** (`03_printed_coords.py`, `garbled()`): OCR that drops a component
+  ("Lat 38'00"" = 34°38'00" read as 38°00'; "39°59""; degree sign after the 2nd number) is rejected.
+  77 rows lost tier-1 status (e.g. lat 26.67, lat 38.0 for Lompoc).
+- **Tier 3c NWIS station NAME** (`11_nwis_station_names.py`, shared parser `nwis_name_utils.py`):
+  "<stream> at/near/above/below <place>" printed on the page, matched to NWIS CA station names
+  (abbreviations expanded). Validation vs printed: exact/unique median 0.1 km, 97–98% ≤5 km;
+  cluster (gauges within 5 km → centroid) 2.5 km, 96% ≤5 km. All precise. Moved ~8,000 rows from a
+  GNIS town point to their gauge (e.g. "Santa Ynez R near Santa Barbara" was 8 km outside the watershed).
+- **Hierarchy** (`04_build_locations.py`): GNIS < PLSS < NWIS name < NWIS number < well no. < printed.
+  When NWIS and PLSS disagree >25 km, printed coords side with NWIS 46/63.
+- **Consensus check** (`location_check`, `n_sources`, `max_disagree_km`): independent sources
+  (printed / nwis / plss / gnis). agree | consensus | consensus_override (a group of ≥2 agreeing sources
+  outvotes the hierarchy winner; 82 rows, mostly printed OCR digit errors like long 102 for 120) |
+  conflict (no agreeing group) | single.
+- **Stream check for GNIS** (`stream_check_km`): GNIS point >30 km from every NWIS gauge on the named
+  stream (stream names whose gauges span ≤150 km) → conflict. Catches 158 wrong / 64 correct of
+  California GNIS rows with printed truth; not applied to PLSS (coin flip). Fixes Paradise Camp → Mono Co.
+- Sign repair (lat abs, lon −abs); new `precision_class = 'conflict'` (coords kept, excluded from maps/
+  stats by the existing precise/approximate filters; lowest rank in build_table_level_metadata);
+  `nwis_site_source` (number_on_page / name_on_page / name_cluster) → catalog key `station_name_on_page`.
+- **locations.csv:** precise 54,043 → 62,503 · approximate 20,128 → 12,871 · basin 793 → 802 · conflict 1,123 ·
+  unlocated 34,476 → 32,141.
+- Re-ran: 03, 11, 04, 08_continuation, 04, 00_data_prep, 12 tribal screen, 16, build_table_level_metadata,
+  filter_published, 18 catalog, 08 scope stats, 07 6-panel, notebooks 01, 02, 04.
+  **NOT re-run:** 13_copy_withheld_tribal (data/withheld_tribal is now out of sync with the new screen),
+  03_santa_barbara, dam scripts, 09_sgma, county_spatial_join.
+
+### Numbers after this round (supersede Nov 5)
+| | Before | Now |
+|---|---|---|
+| Stream previously ungauged HUC12 | +528 (+36%) | **+398 (+27%)** |
+| GW previously ungauged HUC12 | +79 (+4%) | **+77 (+4%)** |
+| Stream earliest / sites predating NWIS | 1862 (+29 yr) / 124 | 1862 (+29 yr) / **148** |
+| GW earliest | 1883 (+7 yr, 1 site) | unchanged |
+| Restored CA sites (6-panel) stream / GW | 12,888 / 2,694 | 12,644 / 2,661 |
+| Tribal withheld: pages / docs / areas / tables / rows | 1,875 / 221 / 118 / 2,846 / 70,566 | **2,036 / 225 / 112 / 3,112 / 78,826 (3.1%)** |
+| Catalog tables / precise / unlocated | 98,157 / 65,880 / 15,940 | 97,717 / 74,381 / 13,624 (conflict 831) |
+| Santa Ynez records (unique locations TBD) | 1,026 | 1,084 (precise 961) |
+The approved tribal manuscript sentence must use the new numbers (tribal sheet lists 119 areas incl. text-only).
+
+### Open from the Santa Ynez audit
+- Table 9 false early cells: doc 2133 p87 (1867–68 discharge *estimated from rainfall*, page text) and
+  doc 2848 p23 (1879–1904 seasonal table with "Tr" = likely rainfall). Need Annette's verdict → add to
+  manual_review/earliest_records_review.csv. Panel B of the SY figure still shows the thin 1868–1900 band.
+- Table 8 compares metadata RECORDS (1,084) with NWIS SITES (7); report unique locations too.
+- Remaining known gap: GNIS wrong-namesake rows with no stream to check against stay as is (~236 of 394
+  wrong GNIS rows in validation are not flagged).

@@ -307,8 +307,8 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 16643,15,272,Stream Discharge,40.9,-121.55,printed_match
 30181,15,273,Stream Discharge,40.95,-121.54625,printed_match
 30182,15,273,Stream Discharge,40.9667,-121.55,printed_match
-24952,15,276,Stream Discharge,40.9833333,-121.7833333,printed_match
-40586,15,277,Stream Discharge,41.0166667,-121.9166667,printed_match
+24952,15,276,Stream Discharge,40.9833333,-121.7833333,printed_other_values
+40586,15,277,Stream Discharge,41.0166667,-121.9166667,printed_other_values
 55705,15,280,Stream Discharge,40.919444,-121.993056,printed_match
 94455,15,281,Stream Discharge,40.8346,-121.9208,printed_match
 94456,15,281,Stream Discharge,40.8472,-121.975,printed_other_values
@@ -686,7 +686,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 58880,199,125,Stream Discharge,40.408333,-109.233333,printed_match
 16260,199,126,Stream Discharge,39.5894,-111.8983,not_printed
 31117,199,132,Stream Discharge,40.2166667,-109.7833333,printed_match
-4167,199,136,Stream Discharge,39.9833,-109.1833,printed_match
+4167,199,136,Stream Discharge,39.9833,-109.1833,not_printed
 20541,199,140,Stream Discharge,40.072222,-109.727778,printed_match
 95885,199,146,Stream Discharge,39.2638889,-110.3458333,printed_match
 7614,199,150,Stream Discharge,38.9861,-110.15,printed_match
@@ -746,7 +746,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 32148,199,306,Stream Discharge,40.8166667,-112.1011111,printed_match
 18123,199,307,Stream Discharge,40.7577778,-112.1677778,printed_match
 75725,199,308,Irrigation,38.331389,-112.1875,printed_match
-88706,199,309,Irrigation,39.65,-112.4,printed_match_no_keyword
+88706,199,309,Irrigation,39.65,-112.4,not_printed
 53257,199,312,Stream Discharge,38.8833,-117.2431,printed_match
 12005,199,313,Stream Discharge,34.420833,-117.838611,printed_match
 84119,199,315,Irrigation,39.293056,-119.251389,printed_match
@@ -2151,7 +2151,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 65179,489,177,Reservoir,37.283333,-118.966667,printed_match
 2323,489,178,Stream Discharge,37.272222,-118.963889,printed_match
 43281,489,179,Stream Discharge,37.25,-119.3194444,printed_match
-28463,489,180,Stream Discharge,37.533333,-119.695556,printed_match
+28463,489,180,Stream Discharge,37.533333,-119.695556,printed_other_values
 14839,489,181,Stream Discharge,37.3505556,-120.9761111,printed_match
 57057,489,182,Stream Discharge,37.676111,-121.264167,printed_match
 96415,489,183,Stream Discharge,37.283333,-118.966667,printed_match
@@ -2216,7 +2216,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 8163,489,243,Stream Discharge,40.007,-122.004,printed_other_values
 68568,489,244,Stream Discharge,40.231944,-122.180556,printed_match
 42159,489,246,Stream Discharge,39.2138889,-121.9986111,printed_match
-55,489,247,Stream Discharge,39.5833333,-121.8236111,printed_match
+55,489,247,Stream Discharge,39.5833333,-121.8236111,printed_other_values
 67379,489,248,Stream Discharge,38.769444,-121.714722,printed_other_values
 105618,489,249,Stream Discharge,38.7805556,-121.6041667,printed_match
 63138,489,250,Stream Discharge,41.4,-120.9166667,printed_match
@@ -2939,7 +2939,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 77525,553,333,Stream Discharge,38.91666667,-121.0,printed_match
 5652,553,334,Stream Discharge,38.76666667,-120.31666667,printed_match
 47793,553,335,Stream Discharge,38.7667,-120.7,printed_match
-85454,553,336,Stream Discharge,38.8333,-120.0333,printed_match
+85454,553,336,Stream Discharge,38.8333,-120.0333,printed_other_values
 72388,553,337,Stream Discharge,38.85,-120.1333,printed_match
 21406,553,338,Stream Discharge,38.6667,-120.1333,printed_match
 35968,553,339,Groundwater,38.6667,-120.1167,printed_match
@@ -4964,9 +4964,9 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 55427,614,284,Stream Discharge,37.947222,-120.529167,printed_match
 26850,614,286,Stream Discharge,38.233333,-120.283333,printed_match
 13154,614,287,Stream Discharge,38.2,-120.0167,printed_match
-79911,614,288,Stream Discharge,38.083333,-120.183333,printed_match
+79911,614,288,Stream Discharge,38.083333,-120.183333,printed_other_values
 92557,614,289,Stream Discharge,38.183333,-120.05,printed_match
-75693,614,290,Stream Discharge,38.083333,-120.183333,printed_match
+75693,614,290,Stream Discharge,38.083333,-120.183333,printed_other_values
 88652,614,291,Stream Discharge,37.85555555555556,-120.6375,printed_match
 51027,614,292,Stream Discharge,37.858333,-120.633333,printed_match
 8859,614,293,Stream Discharge,38.083333,-120.866667,printed_match
@@ -5446,7 +5446,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 1150,623,357,Stream Discharge,40.183333,-121.016667,printed_match
 105012,623,359,Stream Discharge,40.001389,-120.955556,printed_match
 87951,623,360,Reservoir,39.9,-121.2,printed_match
-74902,623,361,Stream Discharge,39.7,-121.5666667,printed_match
+74902,623,361,Stream Discharge,39.7,-121.5666667,printed_other_values
 6489,623,362,Stream Discharge,39.76666667,-121.53333333,printed_match
 48560,623,363,Irrigation,39.767,-121.5333,printed_match
 83038,623,364,Stream Discharge,39.75,-120.6,printed_match
@@ -5900,7 +5900,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 64387,633,352,Stream Discharge,40.083333,-120.933333,printed_match
 102351,633,353,Stream Discharge,40.001388888889,-120.9555555556,printed_match
 26559,633,354,Reservoir,39.9,-121.2,printed_match
-13563,633,355,Stream Discharge,39.7,-121.56666667,printed_match
+13563,633,355,Stream Discharge,39.7,-121.56666667,printed_other_values
 94159,633,357,Stream Discharge,39.7667,-121.5333,printed_match
 53666,633,358,Stream Discharge,39.75,-120.6,printed_match
 11654,633,359,Stream Discharge,39.8667,-120.7667,printed_match
@@ -10213,7 +10213,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 25967,724,464,Stream Discharge,42.233333,-120.5,printed_match
 41368,724,465,Stream Discharge,41.2667,-122.3106,printed_match
 105484,724,466,Stream Discharge,40.9388889,-122.4152778,printed_match
-66120,724,467,Stream Discharge,41.025,-120.4833333,printed_match
+66120,724,467,Stream Discharge,41.025,-120.4833333,printed_other_values
 1501,724,468,Stream Discharge,41.233333,-120.416667,printed_match
 42382,724,469,Stream Discharge,41.4,-120.9167,printed_match
 30661,724,470,Stream Discharge,41.3236,-121.1264,printed_match
@@ -17451,7 +17451,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 93059,1640,560,Stream Discharge,42.7844,-121.7753,not_printed
 55203,1640,561,Stream Discharge,42.617,-121.937,printed_match_no_keyword
 27505,1640,563,Stream Discharge,42.45416666666667,-122.11666666666666,printed_match
-63411,1640,565,Stream Discharge,42.0,-122.1138889,printed_match_no_keyword
+63411,1640,565,Stream Discharge,42.0,-122.1138889,printed_other_values
 37615,1640,567,Canal Discharge,42.205556,-121.801389,printed_match
 70845,1640,569,Stream Discharge,42.7622,-121.7384,not_printed
 70846,1640,569,Stream Discharge,42.7622,-121.7384,not_printed
@@ -21552,7 +21552,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 77395,2447,164,Stream Discharge,38.716667,-107.583333,printed_match
 90096,2447,165,Stream Discharge,38.6833,-107.6,printed_match_no_keyword
 90097,2447,165,Stream Discharge,39.0167,-107.3667,printed_match
-52969,2447,166,Stream Discharge,39.1518,-107.5833,printed_match
+52969,2447,166,Stream Discharge,39.1518,-107.5833,printed_other_values
 52970,2447,166,Stream Discharge,38.9404,-107.3583,printed_match
 10366,2447,167,Stream Discharge,38.8625,-107.1611,printed_match
 10367,2447,167,Stream Discharge,38.9291667,-107.4480556,printed_match
@@ -21878,8 +21878,8 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 31152,2447,377,Stream Discharge,34.896389,-110.161111,printed_match
 54803,2447,378,Stream Discharge,34.633333,-110.716667,printed_match
 93389,2447,379,Stream Discharge,34.9333,-110.5167,printed_match
-80238,2447,380,Stream Discharge,34.027,-111.0,printed_match
-80239,2447,380,Stream Discharge,34.027,-111.0,printed_match
+80238,2447,380,Stream Discharge,34.027,-111.0,printed_other_values
+80239,2447,380,Stream Discharge,34.027,-111.0,printed_other_values
 68219,2447,381,Stream Discharge,34.9667,-110.6333,printed_match_no_keyword
 1291,2447,382,Stream Discharge,35.4333,-111.2,printed_match
 88400,2447,384,Stream Discharge,35.925,-111.4208333,printed_match
@@ -24177,7 +24177,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 46631,3034,78,Stream Discharge,36.202222,-118.759999,printed_match
 46632,3034,78,Stream Discharge,36.139444,-118.804167,printed_match
 46633,3034,78,Stream Discharge,36.094722,-118.835833,printed_match
-5298,3034,79,Stream Discharge,36.0833,-118.9167,printed_match
+5298,3034,79,Stream Discharge,36.0833,-118.9167,printed_other_values
 18533,3034,80,Stream Discharge,36.0,-118.7833,printed_match
 18534,3034,80,Stream Discharge,36.0,-118.7833,printed_match
 33992,3034,81,Stream Discharge,36.0416667,-118.8569444,printed_match
@@ -24468,7 +24468,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 62084,3034,276,Stream Discharge,42.140277,-121.677778,printed_match
 62085,3034,276,Stream Discharge,41.545833,-121.917778,printed_match
 101265,3034,277,Stream Discharge,42.7402778,-121.8333333,printed_match_no_keyword
-46677,3034,278,Stream Discharge,42.0441667,-121.85,printed_match
+46677,3034,278,Stream Discharge,42.0441667,-121.85,printed_other_values
 46678,3034,278,Stream Discharge,42.7222222,-121.8722222,printed_other_values
 5345,3034,279,Stream Discharge,42.447222,-121.2375,printed_match
 5346,3034,279,Stream Discharge,42.833333,-121.216667,printed_match
@@ -25939,7 +25939,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 12787,3067,171,Stream Discharge,34.614,-120.192,printed_match
 79067,3067,172,Stream Discharge,34.6138889,-120.2416667,printed_match
 91698,3067,173,Stream Discharge,34.6097222222,-120.3041666667,printed_match
-4314,3067,175,Stream Discharge,38.0,-120.3916667,printed_match
+4314,3067,175,Stream Discharge,38.0,-120.3916667,printed_other_values
 83475,3067,177,Stream Discharge,34.6375,-120.425,printed_match
 22437,3067,179,Stream Discharge,34.669444,-120.455556,printed_match
 9062,3067,180,Stream Discharge,34.6680555556,-120.473888889,printed_match
@@ -26221,7 +26221,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 48950,3067,561,Stream Discharge,41.288889,-124.058333,printed_match
 86686,3067,562,Stream Discharge,42.15,-121.6667,printed_match
 74491,3067,563,Stream Discharge,41.545833,-121.917222,printed_match_no_keyword
-44259,3067,565,Stream Discharge,42.733333,-121.833333,printed_match
+44259,3067,565,Stream Discharge,42.733333,-121.833333,printed_other_values
 81843,3067,566,Stream Discharge,42.45,-121.25,printed_match
 69923,3067,567,Stream Discharge,42.5833,-121.85,printed_match
 39861,3067,569,Irrigation,42.401111,-122.268333,printed_match_no_keyword
@@ -29317,7 +29317,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 42324,3150,701,Stream Discharge,38.640277,-122.7625,printed_match
 80386,3150,702,Stream Discharge,39.825,-123.14083333333332,printed_match
 80388,3150,702,Stream Discharge,39.93611111111111,-123.35277777777776,printed_match
-67945,3150,703,Stream Discharge,37.5,-123.340278,printed_match
+67945,3150,703,Stream Discharge,37.5,-123.340278,printed_other_values
 9170,3150,704,Stream Discharge,39.7375,-123.3708,printed_match_no_keyword
 50921,3150,705,Stream Discharge,39.938333,-123.343333,printed_match
 50922,3150,705,Stream Discharge,40.352083,-123.003333,printed_match
@@ -31485,7 +31485,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 57339,4538,27,Stream Discharge,32.5888889,-116.5263889,printed_match
 9902,4538,28,Stream Discharge,32.636111,-116.884722,printed_match
 51646,4538,29,Stream Discharge,32.611111,-116.927778,printed_match
-51647,4538,29,Stream Discharge,32.333333,-117.009722,printed_match
+51647,4538,29,Stream Discharge,32.333333,-117.009722,printed_other_values
 7212,4538,30,Stream Discharge,32.883333,-116.811111,printed_match
 49623,4538,31,Stream Discharge,32.822222,-116.550556,printed_other_values
 87056,4538,32,Reservoir,32.9875,-116.5861,printed_match
@@ -33585,7 +33585,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 33928,24284,246,Stream Discharge,34.5388889,-119.9583333,printed_match
 75428,24284,248,Groundwater,34.55,-119.9611,printed_match
 77220,24284,250,Springs,34.55278,-119.96111,printed_match
-52727,24284,252,Groundwater,33.1666667,-119.9583333,printed_match
+52727,24284,252,Groundwater,33.1666667,-119.9583333,printed_other_values
 72706,24284,254,Stream Discharge,34.572222,-119.95,printed_match
 48089,24284,256,Springs,34.5638889,-119.9722222,printed_match
 61777,24284,258,Springs,34.5666667,-119.9694444,printed_match
@@ -34449,14 +34449,14 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 22534,47988,45,Stream Discharge,38.9291667,-122.9194444,printed_match
 22535,47988,45,Stream Discharge,39.0944444,-122.9163889,printed_match
 22536,47988,45,Stream Discharge,38.9966667,-122.5544444,printed_match
-22537,47988,45,Stream Discharge,39.3333,-123.0438889,printed_match
+22537,47988,45,Stream Discharge,39.3333,-123.0438889,printed_other_values
 101940,47988,47,Stream Discharge,40.004722,-123.389167,printed_match
 101941,47988,47,Stream Discharge,39.761389,-123.539444,printed_match
 101942,47988,47,Stream Discharge,40.108,-123.697556,printed_match
 101943,47988,47,Stream Discharge,40.478889,-123.719722,printed_match
 81468,47988,53,Stream Discharge,39.549,-122.724,printed_match
 50211,47988,54,Stream Discharge,37.446111,-120.101389,printed_match
-50212,47988,54,Stream Discharge,37.5,-120.377778,printed_match
+50212,47988,54,Stream Discharge,37.5,-120.377778,printed_other_values
 50213,47988,54,Stream Discharge,38.185556,-120.845833,printed_match
 50214,47988,54,Stream Discharge,38.324167,-120.938889,printed_other_values
 50215,47988,54,Stream Discharge,38.318056,-120.938889,printed_match
@@ -34514,7 +34514,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 62203,47988,77,Stream Discharge,39.386944,-123.811667,printed_match
 62204,47988,77,Stream Discharge,39.798889,-123.819722,printed_match
 46545,47988,79,Stream Discharge,37.521666,-121.846944,printed_match
-46546,47988,79,Stream Discharge,37.241111,-121.846667,printed_match
+46546,47988,79,Stream Discharge,37.241111,-121.846667,printed_other_values
 46547,47988,79,Stream Discharge,37.704167,-121.940278,printed_other_values
 46548,47988,79,Stream Discharge,37.645833,-121.798333,printed_match
 33844,47988,80,Stream Discharge,37.5875,-121.9611111,printed_match
@@ -34528,7 +34528,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 23290,47988,85,Stream Discharge,37.915277,-121.890278,printed_match
 23291,47988,85,Stream Discharge,36.718056,-120.863889,printed_match
 23292,47988,85,Stream Discharge,36.7875,-120.765833,printed_match
-23293,47988,85,Stream Discharge,36.0,-120.7875,printed_match
+23293,47988,85,Stream Discharge,36.0,-120.7875,printed_other_values
 104391,47988,87,Stream Discharge,37.745,-121.6306,printed_match
 104392,47988,87,Stream Discharge,37.7458,-121.5833,printed_match
 104393,47988,87,Stream Discharge,37.8458,-121.7181,printed_match
@@ -36073,7 +36073,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 64659,56086,131,Springs,34.561111,-120.027778,printed_match
 24096,56086,132,Stream Discharge,34.5638889,-120.0277778,printed_match
 39954,56086,133,Springs,34.569444,-120.052778,printed_match
-98914,56086,134,Springs,33.5,-120.0583333,printed_match
+98914,56086,134,Springs,33.5,-120.0583333,printed_other_values
 59700,56086,135,Springs,34.561111,-120.072222,printed_match
 19424,56086,136,Springs,34.536111,-120.063889,printed_match
 34833,56086,137,Stream Discharge,34.552778,-120.072222,printed_match
@@ -41953,7 +41953,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 100468,56419,210,Stream Discharge,33.757,-116.976,not_printed
 61264,56419,211,Stream Discharge,33.734444,-116.8925,printed_match
 20927,56419,212,Stream Discharge,33.801111,-117.205278,printed_match
-36379,56419,213,Stream Discharge,39.85,-117.2930555556,printed_match
+36379,56419,213,Stream Discharge,39.85,-117.2930555556,printed_other_values
 95432,56419,214,Stream Discharge,33.841389,-117.510278,printed_match
 56556,56419,215,Stream Discharge,33.896111,-117.580556,printed_match
 15488,56419,216,Stream Discharge,34.216111,-117.667778,printed_match
@@ -45073,7 +45073,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 1735,56845,45,Reservoir,38.325,-119.2111111,printed_match
 70280,56845,46,Stream Discharge,38.328889,-119.214444,printed_match
 38572,56845,48,Stream Discharge,38.44125,-119.105,printed_match
-23609,56845,49,Stream Discharge,48.75,-119.047222,printed_match
+23609,56845,49,Stream Discharge,48.75,-119.047222,printed_other_values
 20823,56845,51,Stream Discharge,38.358333,-119.441667,printed_match
 100341,56845,53,Stream Discharge,38.379722,-119.449167,printed_match
 95545,56845,57,Reservoir,38.693056,-119.519444,printed_match
@@ -47026,7 +47026,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 29733,70038393,118,Stream Discharge,36.8625,-119.1236111111111,printed_match
 69229,70038393,123,Reservoir,37.0777778,-118.9680556,printed_match
 69230,70038393,123,Reservoir,37.0055556,-118.9666667,printed_match
-7155,70038393,124,Stream Discharge,36.633333,-118.980556,printed_match
+7155,70038393,124,Stream Discharge,36.633333,-118.980556,printed_other_values
 49555,70038393,125,Stream Discharge,36.961111,-119.026389,printed_match
 87024,70038393,126,Stream Discharge,36.9625,-119.0222,printed_match
 74350,70038393,127,Stream Discharge,36.959722,-119.033333,printed_match_no_keyword
@@ -47076,7 +47076,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 84638,70038393,205,Stream Discharge,37.9375,-119.7972222,printed_match
 45616,70038393,206,Reservoir,58.5,-119.8958333,printed_other_values
 64265,70038393,208,Reservoir,37.975,-119.8791667,printed_match
-66335,70038393,210,Stream Discharge,37.6,-119.9542,printed_match
+66335,70038393,210,Stream Discharge,37.6,-119.9542,printed_other_values
 105279,70038393,211,Stream Discharge,37.894444,-119.961667,printed_match
 17539,70038393,217,Stream Discharge,37.858333,-120.395833,printed_match_no_keyword
 104651,70038393,220,Irrigation,37.6677778,-120.4572222,printed_match
@@ -47127,7 +47127,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 73676,70038393,297,Stream Discharge,40.870833,-121.816667,printed_other_values
 20184,70038393,298,Stream Discharge,40.9736,-121.7783,printed_match_no_keyword
 35626,70038393,299,Stream Discharge,41.016667,-121.916667,printed_match
-70596,70038393,302,Stream Discharge,41.2222,-122.8333,printed_other_values
+70596,70038393,302,Stream Discharge,41.2222,-122.8333,not_printed
 75381,70038393,306,Stream Discharge,40.694444,-122.636111,not_printed
 33852,70038393,308,Stream Discharge,40.643056,-122.368056,printed_match
 16170,70038393,311,Stream Discharge,40.7458333333,-122.0611111111,printed_match
@@ -47658,7 +47658,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 50004,70038395,369,Stream Discharge,38.3683333,-122.3022222,printed_match_no_keyword
 91910,70038395,372,Stream Discharge,38.1125,-122.58472222222224,printed_match
 78905,70038395,373,Stream Discharge,37.9625,-122.5556,printed_match
-4051,70038395,374,Stream Discharge,38.05639,-122.85972,printed_match
+4051,70038395,374,Stream Discharge,38.05639,-122.85972,printed_other_values
 46089,70038395,375,Stream Discharge,38.348333,-122.979167,printed_match
 70828,70038395,377,Stream Discharge,39.201944,-123.198611,printed_match
 23094,70038395,378,Stream Discharge,39.2430555556,-123.1361111111,printed_match_no_keyword
@@ -47893,7 +47893,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 93939,70038396,209,Stream Discharge,39.1169,-121.7167,not_printed
 58060,70038396,210,Stream Discharge,39.7517,-121.1176,not_printed
 17240,70038396,213,Stream Discharge,38.144444,-119.901389,printed_match
-41192,70038396,216,Stream Discharge,37.4666667,-120.2005556,printed_match
+41192,70038396,216,Stream Discharge,37.4666667,-120.2005556,printed_other_values
 80518,70038396,219,Stream Discharge,37.858333,-120.395833,printed_other_values
 99715,70038396,220,Reservoir,37.713333,-120.403889,printed_match_no_keyword
 60491,70038396,221,Stream Discharge,37.709722,-120.4125,printed_match
@@ -47954,7 +47954,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 51473,70038396,295,Stream Discharge,40.8988889,-121.1730556,printed_match_no_keyword
 78425,70038396,297,Stream Discharge,40.97361,-121.77833,printed_match_no_keyword
 14885,70038396,298,Stream Discharge,41.019444,-121.909722,printed_match
-28500,70038396,299,Stream Discharge,40.5,-122.0166667,printed_match_no_keyword
+28500,70038396,299,Stream Discharge,40.5,-122.0166667,printed_other_values
 6679,70038396,301,Stream Discharge,41.18888889,-122.06388889,printed_match_no_keyword
 75507,70038396,302,Stream Discharge,41.111111,-122.095,printed_match
 87379,70038396,303,Stream Discharge,40.958333,-122.217222,printed_match_no_keyword
@@ -47971,7 +47971,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 56844,70038396,316,Stream Discharge,40.5,-121.972222,printed_match
 94844,70038396,317,Stream Discharge,40.2638889,-122.1083333,printed_other_values
 10515,70038396,319,Stream Discharge,40.386111,-122.2375,printed_match_no_keyword
-102277,70038396,322,Stream Discharge,40.833333,-122.186111,printed_match
+102277,70038396,322,Stream Discharge,40.833333,-122.186111,printed_other_values
 64304,70038396,323,Stream Discharge,40.231944,-122.180556,printed_match
 13495,70038396,324,Stream Discharge,40.202777,-122.118055,printed_match
 26456,70038396,325,Stream Discharge,40.025,-122.509722,printed_match
@@ -47998,7 +47998,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 90440,70038396,350,Stream Discharge,39.6667,-121.1333,printed_match
 52798,70038396,353,Reservoir,39.723611,-121.019444,printed_match
 85221,70038396,354,Stream Discharge,39.724444,-121.019444,printed_match
-72566,70038396,355,Stream Discharge,39.85,-121.117778,printed_match_no_keyword
+72566,70038396,355,Stream Discharge,39.85,-121.117778,printed_other_values
 47952,70038396,357,Reservoir,39.583333,-121.1125,printed_match_no_keyword
 99870,70038396,358,Stream Discharge,39.5541666667,-121.1916666667,printed_match
 79698,70038396,360,Stream Discharge,39.551389,-121.208333,printed_match_no_keyword
@@ -48096,7 +48096,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 29354,70038396,480,Stream Discharge,38.734722,-122.647222,printed_match
 56318,70038396,482,Stream Discharge,38.63,-122.3311,printed_match
 95664,70038396,483,Stream Discharge,38.434722,-122.204167,printed_match_no_keyword
-36519,70038396,484,Reservoir,38.833333,-122.104167,printed_match
+36519,70038396,484,Reservoir,38.833333,-122.104167,printed_other_values
 61434,70038396,486,Stream Discharge,38.478,-122.0286,printed_match_no_keyword
 43741,70038396,490,Stream Discharge,38.9819,-122.8585,not_printed
 43742,70038396,490,Stream Discharge,40.0583,-120.0181,not_printed
@@ -48260,7 +48260,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 1707,70038398,44,Stream Discharge,33.719444,-114.497222,printed_match
 83014,70038398,46,Stream Discharge,32.7316667,-114.6327778,printed_match
 70306,70038398,47,Stream Discharge,32.7166667,-114.7166667,printed_match_no_keyword
-23648,70038398,48,Stream Discharge,32.8763888889,-114.25,printed_match
+23648,70038398,48,Stream Discharge,32.8763888889,-114.25,printed_other_values
 38609,70038398,49,Stream Discharge,32.870833,-114.480556,printed_match_no_keyword
 20817,70038398,50,Stream Discharge,32.7375,-114.7152777778,printed_match
 36614,70038398,51,Stream Discharge,32.734722,-114.723611,printed_match
@@ -48831,7 +48831,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 49092,70038399,166,Stream Discharge,37.2888889,-119.5291667,printed_match
 7513,70038399,167,Stream Discharge,37.15278,-119.45833,printed_match
 59911,70038399,168,Stream Discharge,37.0791666667,-119.5597222222,printed_match
-98732,70038399,169,Stream Discharge,37.1667,-119.7056,printed_match
+98732,70038399,169,Stream Discharge,37.1667,-119.7056,printed_other_values
 57588,70038399,170,Irrigation,36.983333,-119.186111,printed_other_values
 95711,70038399,171,Reservoir,37.0,-119.702778,printed_match_no_keyword
 28151,70038399,172,Stream Discharge,36.984444,-119.723333,printed_match
@@ -48909,7 +48909,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 37314,70038399,249,Stream Discharge,37.858333,-120.633333,printed_match
 26119,70038399,250,Stream Discharge,37.8503,-120.6369,printed_match
 41069,70038399,251,Stream Discharge,37.72972,-121.01556,printed_other_values
-104826,70038399,252,Stream Discharge,37.5666667,-121.2641667,printed_match
+104826,70038399,252,Stream Discharge,37.5666667,-121.2641667,printed_other_values
 66636,70038399,253,Stream Discharge,37.6566667,-121.4777778,printed_match
 17959,70038399,254,Stream Discharge,38.144444,-120.663889,printed_match
 30353,70038399,255,Stream Discharge,38.1638889,-120.6583333,printed_match
@@ -48958,7 +48958,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 23987,70038399,305,Stream Discharge,36.7425,-119.5694,not_printed
 65681,70038399,306,Stream Discharge,40.6866667,-122.4186111,printed_other_values
 104181,70038399,307,Stream Discharge,40.870833,-121.680556,printed_match
-1897,70038399,309,Stream Discharge,41.019444,-121.583333,printed_match
+1897,70038399,309,Stream Discharge,41.019444,-121.583333,printed_other_values
 47428,70038399,310,Stream Discharge,40.9875,-121.976388888889,printed_match_no_keyword
 6154,70038399,311,Stream Discharge,40.84305555555556,-122.01611111111112,printed_match
 72902,70038399,312,Stream Discharge,40.856944,-122.085556,printed_match
@@ -49024,7 +49024,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 1054,70038399,373,Stream Discharge,39.7527778,-120.5833333,printed_match
 75992,70038399,374,Stream Discharge,39.708333,-121.269444,printed_match
 88562,70038399,375,Stream Discharge,39.666667,-121.133333,printed_match
-8790,70038399,377,Stream Discharge,45.116667,-120.957222,printed_other_values
+8790,70038399,377,Stream Discharge,45.116667,-120.957222,not_printed
 58472,70038399,378,Reservoir,39.723611,-121.019444,printed_match_no_keyword
 96558,70038399,379,Stream Discharge,39.724444,-121.021389,printed_match
 83712,70038399,380,Stream Discharge,39.6475,-121.1178,printed_match_no_keyword
@@ -49066,7 +49066,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 90798,70038399,421,Stream Discharge,39.379167,-120.497778,printed_match
 10142,70038399,423,Stream Discharge,39.324444,-120.643611,printed_match
 74018,70038399,424,Stream Discharge,39.2638889,-120.7291667,printed_match
-85824,70038399,425,Stream Discharge,39.3125,-120.75,printed_match
+85824,70038399,425,Stream Discharge,39.3125,-120.75,printed_other_values
 46868,70038399,426,Stream Discharge,39.318611,-120.6575,printed_match
 5101,70038399,427,Reservoir,39.45028,-120.65278,printed_match
 62361,70038399,428,Stream Discharge,39.440277777778,-120.65833333333,printed_match_no_keyword
@@ -49158,7 +49158,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 42150,70038399,520,Stream Discharge,38.9130555556,-122.270555556,printed_match_no_keyword
 38,70038399,521,Stream Discharge,38.727778,-122.104167,printed_match
 68597,70038399,522,Stream Discharge,38.725,-121.80708333333332,printed_match
-81345,70038399,523,Stream Discharge,38.6667,-121.6431,printed_match_no_keyword
+81345,70038399,523,Stream Discharge,38.6667,-121.6431,printed_other_values
 50286,70038399,524,Stream Discharge,38.734722,-122.647222,printed_match_no_keyword
 8172,70038399,525,Stream Discharge,38.77916666666667,-122.51666666666668,printed_match
 76584,70038399,526,Reservoir,38.5138889,-122.1041667,printed_match
@@ -49753,7 +49753,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 12559,70038401,243,Stream Discharge,34.029167,-118.068611,printed_match
 71366,70038401,244,Stream Discharge,34.020833,-118.070833,printed_match
 83665,70038401,245,Stream Discharge,34.0166667,-118.0869444,printed_match_no_keyword
-45806,70038401,246,Stream Discharge,33.9466667,-118.7166667,printed_match_no_keyword
+45806,70038401,246,Stream Discharge,33.9466667,-118.7166667,not_printed
 4486,70038401,247,Stream Discharge,33.817222,-118.2055556,printed_match
 102089,70038401,249,Stream Discharge,34.064444,-118.586111,printed_match
 67147,70038401,250,Stream Discharge,34.077778,-118.700833,printed_match
@@ -49802,7 +49802,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 56786,70038401,294,Stream Discharge,35.048055555556,-120.301388888889,printed_match
 94793,70038401,295,Stream Discharge,35.0777777778,-120.3708333333,printed_match
 29065,70038401,296,Stream Discharge,34.944444,-120.291667,printed_match_no_keyword
-15777,70038401,297,Stream Discharge,34.84028,-120.0,printed_match
+15777,70038401,297,Stream Discharge,34.84028,-120.0,printed_other_values
 77506,70038401,298,Stream Discharge,34.8528,-120.1986,printed_match
 90203,70038401,299,Stream Discharge,34.816111,-120.224444,printed_match
 98379,70038401,300,Stream Discharge,34.872222,-120.243056,printed_match
@@ -49988,7 +49988,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 52137,70038401,483,Stream Discharge,41.107222,-122.706389,printed_match
 86252,70038401,484,Reservoir,40.8014,-122.7622,printed_match
 73230,70038401,485,Stream Discharge,40.647,-122.6261,printed_match_no_keyword
-4743,70038401,486,Stream Discharge,43.1666667,-122.8025,printed_match
+4743,70038401,486,Stream Discharge,43.1666667,-122.8025,printed_other_values
 46915,70038401,487,Stream Discharge,40.670833,-122.941667,printed_match_no_keyword
 100948,70038401,488,Stream Discharge,40.642972,-122.979167,printed_match
 62590,70038401,489,Stream Discharge,40.782,-123.1289,printed_match
@@ -50377,7 +50377,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 70847,70038402,391,Stream Discharge,40.1667,-120.615,printed_match
 30685,70038402,392,Stream Discharge,40.015278,-120.752778,printed_match
 46123,70038402,393,Stream Discharge,40.048611,-120.918889,printed_other_values
-91950,70038402,394,Stream Discharge,40.3333333,-120.9263889,printed_match
+91950,70038402,394,Stream Discharge,40.3333333,-120.9263889,printed_other_values
 78942,70038402,395,Stream Discharge,39.934167,-120.905,printed_match
 12213,70038402,396,Stream Discharge,40.00139,-120.95556,printed_match
 54538,70038402,397,Reservoir,39.895833,-121.202778,printed_match
@@ -51175,7 +51175,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 21036,70038404,297,Stream Discharge,41.231111,-120.942222,printed_other_values
 72703,70038404,298,Stream Discharge,41.0152777778,-121.1547222222,printed_match
 85346,70038404,299,Stream Discharge,41.1391666667,-121.64,printed_match
-103348,70038404,300,Stream Discharge,41.203333,-121.423611,printed_match_no_keyword
+103348,70038404,300,Stream Discharge,41.203333,-121.423611,printed_other_values
 64798,70038404,301,Stream Discharge,40.870833,-121.680556,printed_match
 24733,70038404,302,Stream Discharge,40.97361,-121.77833,printed_match
 39294,70038404,303,Stream Discharge,41.019444,-121.909722,printed_match
@@ -53011,7 +53011,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 15363,70038668,33,Reservoir,34.316667,-114.157222,printed_match
 61347,70038668,34,Reservoir,34.31666667,-114.15694444,printed_match_no_keyword
 100583,70038668,35,Reservoir,34.5722,-114.1858,not_printed
-36432,70038668,36,Stream Discharge,34.5,-114.15,printed_match_no_keyword
+36432,70038668,36,Stream Discharge,34.5,-114.15,printed_other_values
 72899,70038668,38,Stream Discharge,33.7316667,-114.5119444,printed_match_no_keyword
 85094,70038668,39,Stream Discharge,33.719444,-114.497222,printed_match_no_keyword
 3642,70038668,41,Stream Discharge,32.729167,-114.620833,printed_match_no_keyword
@@ -53068,7 +53068,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 19115,70038668,89,Stream Discharge,37.1663,-118.1836,not_printed
 28241,70038668,90,Stream Discharge,37.015277,-118.225,printed_match_no_keyword
 15024,70038668,91,Stream Discharge,36.7791666667,-118.2625,printed_match
-57689,70038668,92,Stream Discharge,36.833333,-118.084722,printed_match
+57689,70038668,92,Stream Discharge,36.833333,-118.084722,printed_other_values
 57690,70038668,92,Stream Discharge,36.575,-118.0125,printed_match_no_keyword
 95842,70038668,93,Stream Discharge,36.4388889,-118.0777778,printed_match_no_keyword
 35074,70038668,94,Not Water Related,38.0,-119.1333,printed_match
@@ -53141,7 +53141,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 94724,70038668,172,Stream Discharge,34.2161,-117.6678,printed_match
 21611,70038668,174,Stream Discharge,33.883333,-117.644444,printed_match_no_keyword
 37319,70038668,175,Stream Discharge,33.9138889,-117.8416667,printed_match
-63882,70038668,177,Reservoir,33.1667,-117.7261,printed_match
+63882,70038668,177,Reservoir,33.1667,-117.7261,printed_other_values
 45128,70038668,179,Stream Discharge,33.769167,-117.881111,printed_match_no_keyword
 30285,70038668,180,Stream Discharge,33.0,-117.9083333,printed_other_values
 16347,70038668,181,Stream Discharge,34.2355556,-117.8044444,printed_match
@@ -53218,8 +53218,8 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 3844,70038668,276,Stream Discharge,34.8528,-120.1986,printed_match
 101556,70038668,278,Stream Discharge,34.8938889,-120.3055556,printed_match
 63576,70038668,279,Stream Discharge,34.9763889,-120.5708333,printed_other_values
-88534,70038668,281,Stream Discharge,35.5,-120.568055555556,printed_match
-51290,70038668,282,Stream Discharge,35.583333,-120.997222,printed_match
+88534,70038668,281,Stream Discharge,35.5,-120.568055555556,printed_other_values
+51290,70038668,282,Stream Discharge,35.583333,-120.997222,printed_other_values
 80775,70038668,285,Stream Discharge,36.2458333,-121.7722222,printed_match
 42784,70038668,286,Stream Discharge,36.474444,-121.727778,printed_match
 1008,70038668,287,Stream Discharge,35.30555555555556,-120.40555555555557,printed_match
@@ -53234,7 +53234,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 81044,70038668,308,Stream Discharge,36.630556,-121.677778,printed_match_no_keyword
 71094,70038668,311,Stream Discharge,36.980556,-121.379167,printed_match_no_keyword
 3869,70038668,312,Stream Discharge,37.113889,-121.690278,printed_match
-46350,70038668,313,Stream Discharge,36.9480555556,-121.666666667,printed_match
+46350,70038668,313,Stream Discharge,36.9480555556,-121.666666667,printed_other_values
 92151,70038668,314,Stream Discharge,37.092777,-121.717222,printed_match
 93255,70038668,318,Stream Discharge,36.613888,-121.213889,printed_match
 55015,70038668,319,Stream Discharge,36.694444,-121.309722,printed_match
@@ -53316,7 +53316,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 52916,70038668,410,Stream Discharge,39.825,-123.1402778,printed_match
 10783,70038668,411,Stream Discharge,39.8416667,-123.2763889,printed_match
 77333,70038668,412,Stream Discharge,39.830556,-123.180556,printed_match_no_keyword
-90485,70038668,413,Stream Discharge,39.75,-123.171111,printed_match
+90485,70038668,413,Stream Discharge,39.75,-123.171111,printed_other_values
 48021,70038668,414,Stream Discharge,39.7375,-123.37083333333332,printed_match
 5465,70038668,415,Stream Discharge,39.9138889,-123.2486111,printed_match
 72632,70038668,416,Stream Discharge,39.9375,-123.3458333,printed_match
@@ -53329,7 +53329,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 45207,70038668,425,Stream Discharge,40.0416667,-123.3,printed_other_values
 84687,70038668,426,Stream Discharge,40.4916667,-124.0986111,printed_match
 71624,70038668,427,Stream Discharge,40.5756,-123.8333,not_printed
-22264,70038668,428,Stream Discharge,26.6667,-123.6542,printed_match
+22264,70038668,428,Stream Discharge,26.6667,-123.6542,printed_other_values
 36734,70038668,429,Stream Discharge,40.6254,-123.8985,not_printed
 25885,70038668,430,Stream Discharge,40.4638889,-123.8569444,printed_match
 66022,70038668,433,Stream Discharge,40.7916667,-124.0027778,printed_match
@@ -53399,7 +53399,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 1815,70038669,41,Stream Discharge,32.7291666667,-114.6208333333,printed_match
 70376,70038669,42,Stream Discharge,32.716667,-114.716667,printed_match_no_keyword
 83088,70038669,43,Stream Discharge,32.876389,-114.454167,printed_match
-48607,70038669,44,Stream Discharge,32.870833,-114.833333,printed_match
+48607,70038669,44,Stream Discharge,32.870833,-114.833333,printed_other_values
 6544,70038669,45,Stream Discharge,32.75,-114.7055556,printed_match
 88015,70038669,47,Stream Discharge,32.734722,-114.723611,printed_match
 95487,70038669,53,Stream Discharge,36.2652777778,-117.177777778,printed_match
@@ -53422,7 +53422,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 44808,70038669,69,Stream Discharge,33.965278,-116.443056,printed_match
 1108,70038669,70,Stream Discharge,33.805,-116.5583333,printed_match
 42865,70038669,71,Stream Discharge,33.748611,-116.5375,printed_match
-80870,70038669,72,Stream Discharge,33.6,-116.5491667,printed_match
+80870,70038669,72,Stream Discharge,33.6,-116.5491667,printed_other_values
 67557,70038669,73,Stream Discharge,33.6305556,-116.3916667,printed_match
 8642,70038669,74,Stream Discharge,33.510833,-116.059722,printed_match_no_keyword
 51174,70038669,75,Stream Discharge,33.74444,-115.82639,printed_match
@@ -53525,7 +53525,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 10899,70038669,183,Stream Discharge,34.101389,-117.8877778,printed_other_values
 72967,70038669,184,Stream Discharge,34.1666667,-117.9236111,printed_other_values
 85178,70038669,185,Stream Discharge,34.112222,-117.968056,printed_match_no_keyword
-85179,70038669,185,Stream Discharge,34.166667,-117.771667,printed_match_no_keyword
+85179,70038669,185,Stream Discharge,34.166667,-117.771667,printed_other_values
 47460,70038669,186,Stream Discharge,34.1675,-117.8361,printed_match_no_keyword
 6209,70038669,187,Stream Discharge,34.023611,-118.034722,printed_match
 61265,70038669,188,Stream Discharge,34.006944,-118.068056,printed_match
@@ -53571,13 +53571,13 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 40935,70038669,244,Stream Discharge,34.583333,-119.995833,printed_match
 26380,70038669,245,Stream Discharge,34.594444,-120.025,printed_match
 66436,70038669,246,Stream Discharge,34.0,-120.1,printed_other_values
-105083,70038669,247,Stream Discharge,34.9166667,-120.1444444,printed_match
+105083,70038669,247,Stream Discharge,34.9166667,-120.1444444,printed_other_values
 42831,70038669,248,Stream Discharge,34.584722,-120.1425,printed_match
 1079,70038669,249,Stream Discharge,34.614,-120.1917,printed_match
-44849,70038669,250,Stream Discharge,34.752778,-120.5,printed_other_values
+44849,70038669,250,Stream Discharge,34.752778,-120.5,not_printed
 3716,70038669,251,Stream Discharge,34.609722,-120.305556,printed_match
 72054,70038669,252,Stream Discharge,34.613333,-120.355556,printed_match
-53343,70038669,254,Stream Discharge,34.25,-120.425,printed_match
+53343,70038669,254,Stream Discharge,34.25,-120.425,printed_other_values
 79945,70038669,256,Stream Discharge,34.6889,-120.5847,printed_match
 92201,70038669,257,Stream Discharge,34.782222,-120.529722,printed_match
 27149,70038669,258,Stream Discharge,35.022222,-120.218889,printed_match
@@ -53630,7 +53630,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 60740,70038669,317,Stream Discharge,37.0638889,-122.2291667,printed_match
 6598,70038669,318,Stream Discharge,37.261111,-122.327778,printed_match_no_keyword
 48654,70038669,319,Stream Discharge,37.434444,-122.372778,printed_match
-40960,70038669,320,Stream Discharge,37.9666667,-122.2325,printed_match
+40960,70038669,320,Stream Discharge,37.9666667,-122.2325,printed_other_values
 66456,70038669,322,Stream Discharge,37.4066667,-122.2027778,printed_match
 17804,70038669,325,Stream Discharge,37.423333,-122.188333,printed_match
 96556,70038669,327,Reservoir,37.298611,-122.076111,printed_match
@@ -53669,7 +53669,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 8926,70038669,362,Stream Discharge,38.209722,-122.859722,printed_match
 51088,70038669,363,Stream Discharge,38.3483333,-122.9791667,printed_match_no_keyword
 67673,70038669,365,Stream Discharge,39.24306,-123.13611,printed_match_no_keyword
-104840,70038669,368,Stream Discharge,38.064444,-123.1416667,printed_match
+104840,70038669,368,Stream Discharge,38.064444,-123.1416667,printed_other_values
 66660,70038669,369,Stream Discharge,38.881944,-123.054167,printed_match_no_keyword
 102700,70038669,370,Stream Discharge,38.823611,-122.984722,printed_match_no_keyword
 37280,70038669,373,Stream Discharge,38.74972,-123.09111,printed_match
@@ -53738,7 +53738,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 49361,70038669,464,Stream Discharge,41.5166667,-122.8347222,printed_other_values
 7407,70038669,465,Stream Discharge,40.553056,-123.135833,printed_match_no_keyword
 74142,70038669,466,Stream Discharge,40.626389,-123.433333,printed_match_no_keyword
-34209,70038669,468,Stream Discharge,40.5,-123.56666667,printed_match
+34209,70038669,468,Stream Discharge,40.5,-123.56666667,printed_other_values
 19616,70038669,469,Stream Discharge,41.7333,-123.0,not_printed
 28504,70038669,470,Stream Discharge,40.9275,-123.6363889,printed_match_no_keyword
 96453,70038669,473,Stream Discharge,41.844444,-123.959722,printed_match
@@ -53853,7 +53853,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 70185,70038672,103,Stream Discharge,37.8055555556,-119.1083333333,printed_match
 6577,70038672,104,Stream Discharge,37.929167,-119.169444,printed_match_no_keyword
 88055,70038672,106,Stream Discharge,32.679444,-116.669722,printed_match
-88056,70038672,106,Stream Discharge,32.5,-116.752778,printed_match
+88056,70038672,106,Stream Discharge,32.5,-116.752778,printed_other_values
 74979,70038672,107,Stream Discharge,32.7041667,-116.3633333,printed_match_no_keyword
 74980,70038672,107,Stream Discharge,32.5902778,-116.525,printed_match
 74981,70038672,107,Stream Discharge,32.5638889,-116.7736111,printed_match
@@ -53863,13 +53863,13 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 32730,70038672,109,Stream Discharge,32.834722,-116.622222,printed_match_no_keyword
 15680,70038672,110,Stream Discharge,33.0935,-116.8973,not_printed
 29353,70038672,111,Stream Discharge,32.781667,-116.792917,printed_match
-95663,70038672,112,Reservoir,41.3333,-117.0097,printed_match
+95663,70038672,112,Reservoir,41.3333,-117.0097,printed_other_values
 56317,70038672,113,Reservoir,32.9888889,-116.5861111,printed_match
 20720,70038672,114,Stream Discharge,32.883333,-116.807083,printed_match
 36526,70038672,115,Stream Discharge,32.824722,-117.054722,printed_match_no_keyword
 61440,70038672,117,Stream Discharge,33.106944,-116.865833,printed_match
 47743,70038672,119,Stream Discharge,33.115833,-116.952222,printed_match_no_keyword
-13035,70038672,121,Reservoir,33.8,-117.1255,printed_match
+13035,70038672,121,Reservoir,33.8,-117.1255,printed_other_values
 55699,70038672,122,Stream Discharge,33.288889,-116.652222,printed_match
 94457,70038672,123,Stream Discharge,33.297222,-116.758333,printed_match
 37046,70038672,124,Stream Discharge,33.2388889,-116.7619444,printed_match
@@ -53910,7 +53910,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 72312,70038672,161,Irrigation,34.079722,-117.3,printed_match
 3550,70038672,162,Stream Discharge,34.212222,-117.457222,printed_match
 45110,70038672,163,Stream Discharge,34.1079,-117.5625,not_printed
-92463,70038672,164,Stream Discharge,34.0675,-117.4583,printed_match
+92463,70038672,164,Stream Discharge,34.0675,-117.4583,printed_other_values
 79798,70038672,165,Stream Discharge,34.266389,-117.4625,printed_match_no_keyword
 94765,70038672,168,Stream Discharge,33.9647,-117.4653,printed_match_no_keyword
 55539,70038672,169,Stream Discharge,33.964444,-117.465,printed_match
@@ -53932,7 +53932,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 37604,70038672,186,Stream Discharge,33.709,-117.634722,printed_match
 23152,70038672,187,Reservoir,33.786111,-117.726083,printed_match_no_keyword
 70873,70038672,188,Stream Discharge,33.768611,-117.881667,printed_match
-84005,70038672,189,Stream Discharge,33.933333,-117.908333,printed_match
+84005,70038672,189,Stream Discharge,33.933333,-117.908333,printed_other_values
 68830,70038672,190,Stream Discharge,34.235556,-117.804444,printed_match
 81203,70038672,191,Stream Discharge,34.2416667,-117.8638889,printed_match
 41675,70038672,192,Stream Discharge,34.169722,-117.888889,printed_other_values
@@ -53970,13 +53970,13 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 46062,70038672,226,Stream Discharge,34.064444,-118.586111,printed_match
 4042,70038672,227,Stream Discharge,34.077222,-118.700833,printed_match
 101709,70038672,229,Stream Discharge,34.261111,-118.755833,printed_other_values
-66766,70038672,230,Reservoir,34.869444,-118.74875,printed_match
+66766,70038672,230,Reservoir,34.869444,-118.74875,printed_other_values
 106142,70038672,231,Stream Discharge,34.4602777778,-118.7511111111,printed_match
 25135,70038672,233,Stream Discharge,34.577778,-119.256944,printed_match
 97749,70038672,235,Stream Discharge,34.450833,-118.925,printed_match_no_keyword
 16367,70038672,237,Stream Discharge,34.3955556,-119.0755556,printed_match
 77051,70038672,238,Stream Discharge,34.49472,-119.33,printed_match
-88918,70038672,239,Reservoir,29.0388889,-119.3083333,printed_match_no_keyword
+88918,70038672,239,Reservoir,29.0388889,-119.3083333,printed_other_values
 49096,70038672,240,Stream Discharge,34.482778,-119.300833,printed_match
 7538,70038672,241,Stream Discharge,34.4925,-119.3055556,printed_match
 74678,70038672,242,Stream Discharge,34.4676,-119.3839,not_printed
@@ -54310,7 +54310,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 59655,70038673,167,Stream Discharge,33.4767,-117.6536,not_printed
 7699,70038673,168,Stream Discharge,33.016667,-117.668889,printed_other_values
 48940,70038673,169,Stream Discharge,33.6255556,-117.6841667,printed_match
-9831,70038673,170,Stream Discharge,40.3333,-117.7861,printed_match_no_keyword
+9831,70038673,170,Stream Discharge,40.3333,-117.7861,printed_other_values
 91360,70038673,172,Reservoir,34.238889,-116.980556,printed_match
 78224,70038673,173,Stream Discharge,34.111111,-117.098333,printed_match
 4625,70038673,174,Stream Discharge,33.8405,-116.8802,not_printed
@@ -54360,7 +54360,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 61065,70038673,222,Stream Discharge,34.235833,-117.804999,printed_match
 99042,70038673,223,Stream Discharge,34.241111,-117.8625,printed_match
 38526,70038673,224,Stream Discharge,34.1667,-117.9167,printed_match_no_keyword
-23992,70038673,225,Stream Discharge,34.733333,-117.968611,printed_match
+23992,70038673,225,Stream Discharge,34.733333,-117.968611,printed_other_values
 65715,70038673,226,Stream Discharge,34.152778,-117.771667,printed_other_values
 104231,70038673,227,Stream Discharge,34.1675,-117.836944,printed_match
 43628,70038673,228,Stream Discharge,34.031389,-118.010556,printed_match_no_keyword
@@ -54644,7 +54644,7 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 62334,70038673,508,Stream Discharge,41.5125,-123.975,printed_match
 101089,70038673,509,Stream Discharge,41.7888889,-124.0555556,printed_match
 65026,70038673,510,Stream Discharge,35.5275,-120.8564,printed_match
-65027,70038673,510,Stream Discharge,35.25,-120.2667,printed_match
+65027,70038673,510,Stream Discharge,35.25,-120.2667,printed_other_values
 65028,70038673,510,Stream Discharge,35.5133,-120.8002,printed_match
 103211,70038673,511,Stream Discharge,40.791667,-124.002778,printed_match
 103212,70038673,511,Stream Discharge,41.222222,-123.25,printed_match
@@ -57703,14 +57703,14 @@ meta_row,id,page_number,water_type,actual_latitude,actual_longitude,tier1_status
 98485,70160570,37,Stream Discharge,43.1167,-112.6167,not_printed
 102600,70162522,44,Stream Discharge,40.7971,-124.0965,not_printed
 45883,70162874,32,Stream Discharge,38.5816,-121.4944,not_printed
-20487,70162874,114,Groundwater,36.8833,-120.8,printed_match_no_keyword
+20487,70162874,114,Groundwater,36.8833,-120.8,not_printed
 20488,70162874,114,Groundwater,36.8333,-120.7833,not_printed
 20489,70162874,114,Groundwater,36.5667,-120.6167,printed_match_no_keyword
 20490,70162874,114,Springs,36.55,-120.6333,printed_match_no_keyword
 20491,70162874,114,Springs,36.4167,-120.5667,not_printed
 20492,70162874,114,Groundwater,36.25,-110.3667,not_printed
 20493,70162874,114,Groundwater,35.4333,-119.7833,not_printed
-20494,70162874,114,Groundwater,35.1,-119.5167,printed_match_no_keyword
+20494,70162874,114,Groundwater,35.1,-119.5167,not_printed
 20495,70162874,114,Groundwater,35.2167,-119.8833,not_printed
 20496,70162874,114,Springs,34.7667,-119.5833,printed_match_no_keyword
 104939,70184370,24,Stream Discharge,33.9466667,-116.64,printed_other_values

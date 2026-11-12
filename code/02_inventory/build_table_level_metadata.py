@@ -77,7 +77,7 @@ COLUMNS IN table_level_metadata.csv
     lon_combined          NaN when no entry on the page has a rebuilt location
     coord_method        how the location was found (printed, plss_section, nwis_station, ...)
     precision_km        approximate location uncertainty
-    precision_class     precise | approximate | basin | unlocated
+    precision_class     precise | approximate | basin | conflict | unlocated
     evidence_scope      page | document | continuation (where the location evidence came from)
     location_match      entry  -- location from an entry matched to THIS table
                         page   -- no entry matched to this table; best location on the page
@@ -368,7 +368,9 @@ def build_page_meta() -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 # Step 2b — rebuilt table locations
 # ---------------------------------------------------------------------------
-CLASS_RANK = {'precise': 0, 'approximate': 1, 'basin': 2}
+# 'conflict' (2026-11-12): independent methods disagree; coordinates kept for the catalog, lowest rank,
+# excluded from maps and statistics by the precision_class filters
+CLASS_RANK = {'precise': 0, 'approximate': 1, 'basin': 2, 'conflict': 3}
 AMBIGUOUS_KM = 5
 
 

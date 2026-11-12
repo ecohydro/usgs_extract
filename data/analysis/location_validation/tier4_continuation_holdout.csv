@@ -4,7 +4,7 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 485,70038406,224,ok,owner/site name,1.0,223.0,76948.0,nwis_well,0.1,precise,35.01858765,-120.5932262,34.97901864612942,-120.59465593874204,4.401799385743944,approximate,precise source / approximate own
 486,70038406,224,ok,owner/site name,1.0,223.0,76948.0,nwis_well,0.1,precise,35.01858765,-120.5932262,35.0033101,-120.5748922,2.3819954651669084,precise,precise source / precise own
 948,56412,401,ok,owner/site name,2.0,399.0,25961.0,printed,1.0,precise,39.505278,-121.685,39.450278,-121.6575,6.555374695628899,precise,precise source / precise own
-2328,1568,268,ok,owner/site name,1.0,267.0,65185.0,gnis_qualifier_at,1.0,precise,41.0501635,-121.3991469,40.78718662904138,-122.28877882942145,80.26540753101449,precise,precise source / precise own
+2328,1568,268,ok,owner/site name,1.0,267.0,65185.0,gnis_qualifier_at,1.0,precise,41.0501635,-121.3991469,40.78718662904138,-122.28877882942145,80.26540753101449,conflict,precise source / conflict own
 2711,2060,168,ok,owner/site name,1.0,167.0,64781.0,nwis_well,0.1,precise,34.63526127,-120.4487738,34.63887216,-120.4748862,2.422470050139964,precise,precise source / precise own
 3475,56086,58,ok,owner/site name,1.0,57.0,63941.0,printed,1.0,precise,34.5166667,-119.9480556,34.5152777778,-119.9375,0.9793694907880065,precise,precise source / precise own
 3956,1577,73,ok,owner/site name,1.0,72.0,46439.0,gnis_qualifier_near,5.9,approximate,34.1336186,-117.9075627,34.15958924882629,-117.91698009014088,3.0150417928038022,precise,approximate source / precise own
@@ -21,6 +21,7 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 9438,8616,32,ok,owner/site name,1.0,31.0,78237.0,nwis_well,0.1,precise,34.1280766,-116.0397235,34.12835437,-116.0397235,0.030886614773336984,precise,precise source / precise own
 9661,70038406,242,ok,owner/site name,1.0,241.0,78049.0,nwis_well,0.1,precise,34.70526019,-120.4193285,34.6719271,-120.4923872,7.639234085583574,precise,precise source / precise own
 9662,70038406,242,ok,owner/site name,1.0,241.0,78049.0,nwis_well,0.1,precise,34.70526019,-120.4193285,34.66942715,-120.4923872,7.777993356341769,precise,precise source / precise own
+9735,2294,140,ok,owner/site name,1.0,139.0,78865.0,b118_basin,106.1,basin,36.7077,-120.06727444970414,36.7077,-120.06727444970414,0.0,basin,basin source / basin own
 10554,70038677,82,ok,owner/site name,1.0,81.0,77188.0,nwis_station,1.0,precise,33.96473675,-117.4581031,33.96473675,-117.4581031,0.0,precise,precise source / precise own
 10682,2060,355,ok,owner/site name,1.0,354.0,52769.0,gnis_place,6.2,approximate,34.4208305,-119.6981901,34.64970518,-120.5404447,81.23927209873955,precise,approximate source / precise own
 11831,56086,17,ok,owner/site name,1.0,16.0,53465.0,printed,1.0,precise,34.5138889,-119.7861111,34.5138889,-119.7888889,0.2545114283991582,precise,precise source / precise own
@@ -29,6 +30,7 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 13377,1305,152,ok,owner/site name,1.0,151.0,55981.0,gnis_place,6.2,approximate,32.8572718,-116.9222488,32.8572718,-116.9222488,0.0,approximate,approximate source / approximate own
 13378,1305,152,ok,owner/site name,1.0,151.0,55981.0,gnis_place,6.2,approximate,32.8572718,-116.9222488,32.8572718,-116.9222488,0.0,approximate,approximate source / approximate own
 13379,1305,152,ok,owner/site name,1.0,151.0,55981.0,gnis_place,6.2,approximate,32.8572718,-116.9222488,32.8572718,-116.9222488,0.0,approximate,approximate source / approximate own
+13656,1147,168,ok,owner/site name,1.0,167.0,79371.0,b118_subbasin,15.6,basin,37.30295,-121.92480365403956,37.0057816,-121.5682751,45.71907768123141,approximate,basin source / approximate own
 13790,2060,80,ok,owner/site name,1.0,79.0,1414.0,wellno_group,5.0,approximate,34.41865076511345,-119.522100561521,34.412217,-119.5276239,0.8766462592332305,precise,approximate source / precise own
 13818,8375,77,ok,owner/site name,1.0,76.0,27942.0,gnis_place,6.2,approximate,37.8736111,-122.4566667,37.8736111,-122.4566667,0.0,approximate,approximate source / approximate own
 13918,22945,68,ok,owner/site name,2.0,66.0,91722.0,gnis_place,6.2,approximate,34.9994202,-117.6497822,34.9994202,-117.6497822,0.0,approximate,approximate source / approximate own
@@ -56,6 +58,9 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 22762,70038406,230,ok,owner/site name,1.0,229.0,40742.0,nwis_well,0.1,precise,34.5738694,-120.0695548,34.63303418,-120.125668,8.346066339319652,precise,precise source / precise own
 22988,8616,40,ok,owner/site name,1.0,39.0,62490.0,nwis_well,0.1,precise,34.12752104,-116.0425013,34.12752104,-116.0425013,0.0,precise,precise source / precise own
 23029,48308,250,ok,well number,1.0,249.0,40556.0,plss_wellno,1.0,precise,32.788850000000004,-115.255,32.788850000000004,-115.255,0.0,precise,precise source / precise own
+23092,3095,268,ok,owner/site name,2.0,266.0,83955.0,b118_subbasin,35.6,basin,36.64785,-119.75263164069264,36.64785,-119.75263164069264,0.0,basin,basin source / basin own
+23093,3095,268,ok,owner/site name,2.0,266.0,83954.0,b118_basin,106.1,basin,36.7077,-120.06727444970414,36.7077,-120.06727444970414,0.0,basin,basin source / basin own
+25154,3095,270,ok,owner/site name,2.0,268.0,23093.0,b118_basin,106.1,basin,36.7077,-120.06727444970414,36.7077,-120.06727444970414,0.0,basin,basin source / basin own
 25220,48308,248,ok,well number,1.0,247.0,68829.0,plss_wellno,1.0,precise,32.788850000000004,-115.255,32.788850000000004,-115.255,0.0,precise,precise source / precise own
 25961,56412,399,ok,owner/site name,1.0,398.0,41361.0,printed,1.0,precise,39.505278,-121.684167,39.505278,-121.685,0.07146658789747953,precise,precise source / precise own
 26655,2060,246,ok,owner/site name,1.0,245.0,94229.0,nwis_well,0.1,precise,34.6430386,-120.5059988,34.6416497,-120.5015542,0.43494277266101483,precise,precise source / precise own
@@ -75,11 +80,15 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 34007,810,115,ok,owner/site name,1.0,114.0,18563.0,nwis_well,0.1,precise,34.90442334,-120.5026665,34.98625793560336,-120.4445031960868,10.531244752241651,approximate,precise source / approximate own
 34011,810,115,ok,owner/site name,1.0,114.0,18563.0,nwis_well,0.1,precise,34.90442334,-120.5026665,34.98625793560336,-120.4445031960868,10.531244752241651,approximate,precise source / approximate own
 34662,51002,122,ok,owner/site name,1.0,121.0,98743.0,printed,1.0,precise,34.511111,-119.833333,34.511111,-119.833333,0.0,precise,precise source / precise own
+35730,2846,34,ok,owner/site name,1.0,33.0,96444.0,b118_basin,25.0,basin,33.710750000000004,-116.22168523818242,33.710750000000004,-116.22168523818242,0.0,basin,basin source / basin own
 35926,51831,115,ok,owner/site name,1.0,114.0,21373.0,printed,1.0,precise,34.566667,-119.969444,34.5638889,-119.9694444,0.3089106278822209,precise,precise source / precise own
 36105,2060,194,ok,owner/site name,1.0,193.0,95094.0,nwis_well,0.1,precise,34.67331614,-120.4584968,34.6708083,-120.4726216,1.3214582731491606,precise,precise source / precise own
 36717,14430,13,ok,well number,1.0,12.0,22229.0,nwis_well,0.1,precise,38.0435332,-121.1338326,38.0435332,-121.1338326,0.0,precise,precise source / precise own
 37462,48308,251,ok,well number,1.0,250.0,23029.0,plss_wellno,1.0,precise,32.788850000000004,-115.255,32.788850000000004,-115.255,0.0,precise,precise source / precise own
+38427,70038406,47,ok,owner/site name,1.0,46.0,23919.0,b118_basin,106.1,basin,36.7077,-120.06727444970414,35.9230094,-119.2859447,111.86461344038648,precise,basin source / precise own
+38428,70038406,47,ok,owner/site name,1.0,46.0,23919.0,b118_basin,106.1,basin,36.7077,-120.06727444970414,35.9230094,-119.2859447,111.86461344038648,precise,basin source / precise own
 39266,2060,165,ok,owner/site name,2.0,163.0,60268.0,nwis_well,0.1,precise,34.60442936,-120.33099,34.63887237,-120.4412735,10.793776406607527,precise,precise source / precise own
+39554,251,34,ok,owner/site name,6.0,28.0,28509.0,gnis_oos_qualifier_near,9.5,approximate,32.8492323,-109.7592479,32.8936777,-109.2028447,52.19777991152934,precise,approximate source / precise own
 40177,251,326,ok,owner/site name,3.0,323.0,16700.0,printed,1.0,precise,32.9,-109.8,32.9167,-109.8333,3.621042504596141,precise,precise source / precise own
 40393,56845,102,ok,owner/site name,1.0,101.0,105674.0,gnis_place,6.2,approximate,38.9332411,-119.9843482,39.235277,-119.948056,33.73062292281953,precise,approximate source / precise own
 40556,48308,249,ok,well number,1.0,248.0,25220.0,plss_wellno,1.0,precise,32.788850000000004,-115.255,32.788850000000004,-115.255,0.0,precise,precise source / precise own
@@ -101,6 +110,7 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 44918,70038406,29,ok,owner/site name,1.0,28.0,3782.0,nwis_well,0.1,precise,35.65301075,-117.7247873,35.7324004,-117.6093665,13.659282553407332,approximate,precise source / approximate own
 45295,2060,361,ok,owner/site name,2.0,359.0,16166.0,nwis_well,0.1,precise,34.6494274,-120.5276664,34.64748298,-120.5140547,1.263764721599997,precise,precise source / precise own
 45894,2060,140,ok,owner/site name,1.0,139.0,85725.0,wellno_group,5.0,approximate,34.613756269113146,-120.24409082568808,34.61342866233026,-120.24105761985878,0.2799597315080904,approximate,approximate source / approximate own
+46243,2345,14,ok,owner/site name,1.0,13.0,91837.0,b118_basin,2.8,basin,34.432950000000005,-119.62326088235297,34.432950000000005,-119.62326088235297,0.0,basin,basin source / basin own
 48287,648,311,ok,owner/site name,1.0,310.0,7018.0,printed,1.0,precise,37.6678,-120.4572,37.666667,-120.440278,1.4947746887941755,precise,precise source / precise own
 48319,57548,272,ok,owner/site name,1.0,271.0,87689.0,printed,1.0,precise,37.667777,-120.457222,37.665833,-120.44,1.531205352725317,precise,precise source / precise own
 48763,56086,74,ok,owner/site name,1.0,73.0,83297.0,printed,1.0,precise,34.525,-120.055556,34.5167,-120.0583,0.956543857629092,precise,precise source / precise own
@@ -111,6 +121,7 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 51831,56086,85,ok,owner/site name,1.0,84.0,9689.0,printed,1.0,precise,34.5111111111,-119.8333333333,34.511111,-119.833333,3.294315320217692e-05,precise,precise source / precise own
 52008,8616,33,ok,owner/site name,1.0,32.0,9438.0,nwis_well,0.1,precise,34.12835437,-116.0397235,34.12724329,-116.03889,0.14542943039951578,precise,precise source / precise own
 52079,70038406,208,ok,owner/site name,1.0,207.0,95888.0,nwis_well,0.1,precise,34.90914556,-120.3298807,34.90720116,-120.3218248,0.7657550188545504,precise,precise source / precise own
+53534,1147,165,ok,owner/site name,2.0,163.0,71850.0,b118_subbasin,15.6,basin,37.30295,-121.92480365403956,37.30295,-121.92480365403956,0.0,basin,basin source / basin own
 53696,2060,365,ok,well number,1.0,364.0,11258.0,nwis_well,0.1,precise,34.64248306,-120.5221106,34.64248306,-120.5221106,0.0,precise,precise source / precise own
 54088,2060,144,ok,owner/site name,1.0,143.0,83404.0,wellno_group,5.0,approximate,34.61077349445582,-120.21178495622956,34.61443024,-120.1968174,1.428828831219153,precise,approximate source / precise own
 54510,15,180,ok,owner/site name,1.0,179.0,41164.0,printed,1.0,precise,37.6677778,-120.4572222,37.6667,-120.4403,1.4942873200186737,precise,precise source / precise own
@@ -120,11 +131,11 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 57717,1312,75,ok,owner/site name,1.0,74.0,95873.0,gnis_place,6.2,approximate,32.64,-117.0841667,32.64,-117.0841667,0.0,approximate,approximate source / approximate own
 57718,1312,75,ok,owner/site name,1.0,74.0,95873.0,gnis_place,6.2,approximate,32.64,-117.0841667,32.64,-117.0841667,0.0,approximate,approximate source / approximate own
 58007,52982,105,ok,owner/site name,1.0,104.0,96884.0,printed,1.0,precise,34.511111,-119.833333,34.511111,-119.833333,0.0,precise,precise source / precise own
-58599,2060,445,ok,owner/site name,1.0,444.0,97845.0,nwis_well,0.1,precise,34.96220017,-120.4962775,34.95244503940668,-120.4346273969629,5.722114742356706,approximate,precise source / approximate own
-58600,2060,445,ok,owner/site name,1.0,444.0,97845.0,nwis_well,0.1,precise,34.96220017,-120.4962775,34.95244503940668,-120.4346273969629,5.722114742356706,approximate,precise source / approximate own
+58599,2060,445,ok,owner/site name,1.0,444.0,97845.0,nwis_well,0.1,precise,34.96220017,-120.4962775,34.95244503940668,-120.4346273969629,5.722114742356706,conflict,precise source / conflict own
+58600,2060,445,ok,owner/site name,1.0,444.0,97845.0,nwis_well,0.1,precise,34.96220017,-120.4962775,34.95244503940668,-120.4346273969629,5.722114742356706,conflict,precise source / conflict own
 58980,70038406,99,ok,owner/site name,1.0,98.0,97759.0,nwis_well,0.1,precise,35.02025235,-117.7475626,35.0100833,-117.70225,4.278676010571276,precise,precise source / precise own
 58983,70038406,99,ok,owner/site name,1.0,98.0,97759.0,nwis_well,0.1,precise,35.02025235,-117.7475626,35.036047583082535,-117.78353609944983,3.716707700281102,precise,precise source / precise own
-59700,56086,135,ok,owner/site name,1.0,134.0,98914.0,printed,1.0,precise,33.5,-120.0583333,34.561111,-120.072222,117.9971006300651,precise,precise source / precise own
+59700,56086,135,ok,owner/site name,2.0,133.0,39954.0,printed,1.0,precise,34.569444,-120.052778,34.561111,-120.072222,2.007107182250142,precise,precise source / precise own
 59880,2849,59,ok,owner/site name,1.0,58.0,98663.0,wellno_group,5.0,approximate,34.930560399979065,-119.53251340243968,34.92787323435039,-119.52695211062236,0.5884904086204088,approximate,approximate source / approximate own
 59881,2849,59,ok,owner/site name,1.0,58.0,98663.0,wellno_group,5.0,approximate,34.930560399979065,-119.53251340243968,34.92787323435039,-119.52695211062236,0.5884904086204088,approximate,approximate source / approximate own
 59882,2849,59,ok,owner/site name,1.0,58.0,98663.0,wellno_group,5.0,approximate,34.930560399979065,-119.53251340243968,34.92787323435039,-119.52695211062236,0.5884904086204088,approximate,approximate source / approximate own
@@ -134,7 +145,7 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 62475,51002,177,ok,owner/site name,1.0,176.0,100819.0,printed,1.0,precise,34.558333,-120.058333,34.561111,-120.072222,1.3088309568374843,precise,precise source / precise own
 62490,8616,39,ok,owner/site name,1.0,38.0,100825.0,nwis_well,0.1,precise,34.12752104,-116.0425013,34.12752104,-116.0425013,0.0,precise,precise source / precise own
 62703,2507,280,ok,owner/site name,2.0,278.0,87742.0,plss_township,5.0,approximate,33.81665683915724,-118.13396213879162,33.81674981122696,-118.23906013712372,9.70929658945423,approximate,approximate source / approximate own
-62709,1588,246,ok,owner/site name,1.0,245.0,20282.0,gnis_qualifier_near,5.9,approximate,37.8196499,-120.6721494,37.8196499,-120.6721494,0.0,approximate,approximate source / approximate own
+62709,1588,246,ok,owner/site name,1.0,245.0,20282.0,gnis_qualifier_near,5.9,approximate,37.8196499,-120.6721494,37.85881594,-120.6332592,5.5344076916467815,precise,approximate source / precise own
 63248,48308,253,ok,well number,1.0,252.0,101620.0,plss_wellno,1.0,precise,32.788850000000004,-115.255,32.788850000000004,-115.255,0.0,precise,precise source / precise own
 63366,51002,36,ok,owner/site name,1.0,35.0,23153.0,printed,1.0,precise,34.5138889,-119.7861111,34.5138889,-119.7888889,0.2545114283991582,precise,precise source / precise own
 63818,23982,59,ok,well number,1.0,58.0,102670.0,nwis_well,0.1,precise,34.32166568,-116.1716744,34.32166568,-116.1716744,0.0,precise,precise source / precise own
@@ -150,13 +161,14 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 68530,56416,136,ok,owner/site name,1.0,135.0,30.0,nwis_station,1.0,precise,34.07390177,-117.2875426,34.07390177,-117.2875426,0.0,precise,precise source / precise own
 69166,3011,107,ok,owner/site name,1.0,106.0,82451.0,nwis_well,0.1,precise,41.8145933,-122.015563,41.78264945,-122.0163962,3.5526655036250228,precise,precise source / precise own
 69429,2060,120,ok,owner/site name,1.0,119.0,59428.0,nwis_well,0.1,precise,34.43055226,-119.8059719,34.4344407,-119.8245832,1.7608054725576623,precise,precise source / precise own
+71423,17489,36,ok,owner/site name,2.0,34.0,45846.0,nwis_station,1.0,precise,39.5038035,-119.0451614,39.4639361,-119.0462583,4.434052010259488,precise,precise source / precise own
 71494,2060,142,ok,owner/site name,1.0,141.0,4236.0,nwis_well,0.1,precise,34.62109638,-120.234319,34.61172265728051,-120.21956139042776,1.705929967728223,approximate,precise source / approximate own
 71495,2060,142,ok,owner/site name,1.0,141.0,4236.0,nwis_well,0.1,precise,34.62109638,-120.234319,34.61172265728051,-120.21956139042776,1.705929967728223,approximate,precise source / approximate own
 71502,38870,69,ok,well number,1.0,68.0,83402.0,plss_wellno,1.0,precise,35.798031656328966,-119.11633537790028,35.798031656328966,-119.11633537790028,0.0,precise,precise source / precise own
 71693,2060,207,ok,owner/site name,1.0,206.0,84752.0,nwis_well,0.1,precise,34.6649831,-120.4251618,34.667483,-120.4321066,0.693306646819229,precise,precise source / precise own
 71892,2060,328,ok,well number,1.0,327.0,22036.0,nwis_well,0.1,precise,34.66248276,-120.5226662,34.66248276,-120.5226662,0.0,precise,precise source / precise own
-72209,70038406,131,ok,owner/site name,1.0,130.0,84133.0,plss_wellno,1.0,precise,35.060652844103245,-116.79275915694453,35.10775665,-116.7800335,5.364172450289745,precise,precise source / precise own
-72210,70038406,131,ok,owner/site name,1.0,130.0,84133.0,plss_wellno,1.0,precise,35.060652844103245,-116.79275915694453,35.09636777,-116.8044787,4.112018857197503,precise,precise source / precise own
+72209,70038406,131,ok,owner/site name,1.0,130.0,84133.0,plss_wellno,1.0,conflict,35.060652844103245,-116.79275915694453,35.10775665,-116.7800335,5.364172450289745,conflict,conflict source / conflict own
+72210,70038406,131,ok,owner/site name,1.0,130.0,84133.0,plss_wellno,1.0,conflict,35.060652844103245,-116.79275915694453,35.09636777,-116.8044787,4.112018857197503,conflict,conflict source / conflict own
 72582,810,107,ok,owner/site name,1.0,106.0,85230.0,gnis_place,6.2,approximate,34.6391501,-120.4579409,34.67359369,-120.5604456,10.127832197127017,precise,approximate source / precise own
 72584,810,107,ok,owner/site name,1.0,106.0,85230.0,gnis_place,6.2,approximate,34.6391501,-120.4579409,34.6391501,-120.4579409,0.0,approximate,approximate source / approximate own
 72586,810,107,ok,owner/site name,1.0,106.0,85230.0,gnis_place,6.2,approximate,34.6391501,-120.4579409,34.6391501,-120.4579409,0.0,approximate,approximate source / approximate own
@@ -231,7 +243,6 @@ meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,sourc
 98588,810,79,ok,owner/site name,1.0,78.0,59814.0,gnis_place,6.2,approximate,33.7414065,-118.1047866,33.660297,-117.9992265,13.292864271033883,approximate,approximate source / approximate own
 98594,810,79,ok,owner/site name,1.0,78.0,59814.0,gnis_place,6.2,approximate,33.7414065,-118.1047866,33.7414065,-118.1047866,0.0,approximate,approximate source / approximate own
 98598,8616,24,ok,owner/site name,1.0,23.0,39809.0,nwis_well,0.1,precise,33.9841906,-116.1477805,33.98446839,-116.1480582,0.04012115821951357,precise,precise source / precise own
-98914,56086,134,ok,owner/site name,1.0,133.0,39954.0,printed,1.0,precise,34.569444,-120.052778,33.5,-120.0583333,118.91784885554073,precise,precise source / precise own
 100825,8616,38,ok,owner/site name,1.0,37.0,46985.0,nwis_well,0.1,precise,34.1277988,-116.0425013,34.12752104,-116.0425013,0.030885502824660294,precise,precise source / precise own
 101804,56086,119,ok,owner/site name,1.0,118.0,63402.0,printed,1.0,precise,34.5667,-119.9694,34.5638889,-119.9694444,0.3126064965305056,precise,precise source / precise own
 102163,1299,43,ok,owner/site name,3.0,40.0,38078.0,gnis_place,6.2,approximate,33.8302961,-116.5452921,33.8302961,-116.5452921,0.0,approximate,approximate source / approximate own

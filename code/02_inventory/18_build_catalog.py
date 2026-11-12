@@ -34,6 +34,8 @@ Search-key rules (a key is left blank when the location is too coarse for it):
                  the basin named on the page for basin-class locations
   nwis           station_number_on_page: an NWIS station number printed on the page and
                    tied to this entry (05_nwis_station_numbers.py / printed tier)
+                 station_name_on_page: the NWIS station name (stream + at/near place) printed on
+                   the page, no number (11_nwis_station_names.py; added 2026-11-12)
                  nearest_named: precise surface-water point; nearest NWIS stream site within
                    NWIS_STREAM_KM that shares a distinctive name word with watersource_name
                  nearest_well: precise groundwater point; nearest NWIS groundwater site
@@ -157,10 +159,13 @@ def add_search_keys(t):
     t.loc[t.precision_class != 'precise', 'huc12'] = np.nan
     t[['b118_basin_id', 'b118_basin_name']] = first_hit(pts, b118, ['b118_basin_id', 'b118_basin_name'])
     # basin-class locations: the B118 basin named on the page (locations.csv)
-    L = pd.read_csv(A / 'location_validation/locations.csv', usecols=['meta_row', 'b118_basin', 'nwis_site_no'],
+    L = pd.read_csv(A / 'location_validation/locations.csv', usecols=['meta_row', 'b118_basin', 'nwis_site_no', 'nwis_site_source'],
                     dtype={'nwis_site_no': str})
     t = t.merge(L.rename(columns={'meta_row': 'meta_row_location', 'b118_basin': '_b118_named',
-                                  'nwis_site_no': '_nwis_page'}), on='meta_row_location', how='left')
+                                  'nwis_site_no': '_nwis_page', 'nwis_site_source': '_nwis_src'}),
+                  on='meta_row_location', how='left')
+    # several gauges within 5 km (name_cluster) is not one station: no NWIS key from the page
+    t.loc[t._nwis_src.eq('name_cluster'), '_nwis_page'] = None
     isb = t.precision_class.eq('basin')
     t.loc[isb, 'b118_basin_name'] = t.loc[isb, '_b118_named']
     t['in_california'] = t.state.eq('California').astype('boolean')
@@ -200,7 +205,8 @@ def add_nwis(t):
     on_page = t._nwis_page.notna()
     t.loc[on_page, 'nwis_site_no'] = t.loc[on_page, '_nwis_page']
     t.loc[on_page, 'nwis_match_km'] = 0.0
-    t.loc[on_page, 'nwis_match'] = 'station_number_on_page'
+    t.loc[on_page, 'nwis_match'] = np.where(t.loc[on_page, '_nwis_src'].eq('name_on_page'),
+                                            'station_name_on_page', 'station_number_on_page')
     precise = t.precision_class.eq('precise')
     surface = t.water_type.isin(SURFACE)
     for mask, sites, km, need, label in [(surface, stream, NWIS_STREAM_KM, True, 'nearest_named'),
@@ -211,7 +217,7 @@ def add_nwis(t):
         t.loc[j.index, 'nwis_match'] = label
     t['nwis_station_name'] = t.nwis_site_no.map(names)
     # validation: run nearest_named on tables whose station number IS printed on the page
-    v = t[on_page & precise & surface]
+    v = t[on_page & t._nwis_src.eq('number_on_page') & precise & surface]
     j = _nearest(v, stream, NWIS_STREAM_KM, True)
     got = j.site_no.reindex(v.index)
     val = pd.Series({'n': len(v), 'same_station': int((got == v.nwis_site_no).sum()),
@@ -312,10 +318,11 @@ def main():
 
     s = {'tables': len(cat), 'measurements': int(cat.n_measurements.sum()),
          'documents': cat.doc_id.nunique(), 'pages': cat.page_folder.nunique(),
-         'located tables (precise/approximate/basin)': int(cat.latitude.notna().sum()),
+         'located tables (precise/approximate/basin/conflict)': int(cat.latitude.notna().sum()),
          'precise': int(cat.precision_class.eq('precise').sum()),
          'approximate': int(cat.precision_class.eq('approximate').sum()),
          'basin': int(cat.precision_class.eq('basin').sum()),
+         'conflict': int(cat.precision_class.eq('conflict').sum()),
          'unlocated': int(cat.precision_class.eq('unlocated').sum()),
          'location_ambiguous': int(cat.location_ambiguous.fillna(False).astype(bool).sum()),
          'in California': int(cat.in_california.eq(True).sum()),
