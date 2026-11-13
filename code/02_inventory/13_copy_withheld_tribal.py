@@ -75,4 +75,15 @@ for r in p.itertuples():
 m = pd.DataFrame(rows, columns=['id', 'page_number', 'tribal_area', 'folder', 'evidence', 'status'])
 m.to_csv(DST / '_withheld_manifest.csv', index=False)
 print(m.status.value_counts().to_string())
+
+# ---- remove stale copies: page folders no longer withheld (or now under another area) ----
+# Only deletes inside data/withheld_tribal; the source pages in data/digitized are untouched.
+keep = {DST / f / i / f'page_{n}' for f, i, n in zip(m.folder, m.id, m.page_number)}
+stale = [d for d in DST.glob('*/*/page_*') if d.is_dir() and d not in keep]
+for d in stale:
+    shutil.rmtree(d)
+for d in sorted(DST.glob('*/*'), key=lambda x: -len(x.parts)) + sorted(DST.glob('*')):
+    if d.is_dir() and not any(d.iterdir()):
+        d.rmdir()
+print(f'stale page folders removed: {len(stale)}')
 print(f'{m.folder.nunique()} area folders, {p.shape[0]} pages')

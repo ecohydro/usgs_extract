@@ -1,8 +1,8 @@
 # Restored Historical California Water Data (1850s–1980) — User Guide
 
-> **DRAFT (2026-11-05).** Items marked **[TODO]** depend on decisions or steps not yet
+> **DRAFT (2026-11-13).** Items marked **[TODO]** depend on decisions or steps not yet
 > finished (HydroShare packaging, citation, license, final counts). Counts are from
-> `data/catalog/catalog_summary.csv` as of 2026-11-04 and will be refreshed before release.
+> `data/catalog/catalog_summary.csv` as of 2026-11-13 and will be refreshed before release.
 
 ## 1. What this dataset is
 
@@ -15,13 +15,14 @@ The published release contains:
 
 | | |
 |---|---|
-| Digitized tables | 97,983 |
+| Digitized tables | 97,717 |
 | Table rows (conservative measurement count) | about 2.4 million |
-| Recorded numeric values (see §6.4) | about 18 million |
-| Source documents | 584 USGS reports |
-| Pages with tables | 61,859 |
-| Tables with a location | 82,043 (84%) |
-| Tables with dates | 93,166 (95%) |
+| Recorded numeric values (see §6.4) | about 17.8 million (17.2 million excluding derived summary tables) |
+| Source documents | 583 USGS reports |
+| Pages with tables | 61,698 |
+| Tables with a location | 83,262 (85%; precise, approximate or basin) |
+| Tables with dates | 92,899 (95%) |
+| Record type (§4.4) | daily 42,355 · monthly 18,606 · discrete 16,815 · annual 10,492 · no time series 2,881 · unclassified 6,568 |
 
 Water types (by table): Stream Discharge (about 84%), Groundwater, Reservoir, Irrigation,
 Springs, Precipitation, Water Quality, Not Water Related, and Other.
@@ -47,8 +48,7 @@ Full methods are in the paper. In brief:
 4. **Page metadata.** A large language model (Microsoft Phi-4) read each page's text and
    recorded the site name, location description, water type, dates, units and key terms.
    About 87% of these fields were correct in hand-graded test sets.
-5. **Rebuilt locations and dates.** Coordinates and dates guessed by the language model
-   proved unreliable, so both were rebuilt from evidence printed on each page (§5).
+5. **Rebuilt locations and dates.** Coordinates and dates determined by Microsoft Phi-4 were passed through a second series of checks; both were rebuilt from evidence printed on each page to improve accuracy (§5).
 6. **Screening.** Tables with no language-model metadata (about 5% of detected tables) and
    pages on federally recognized tribal lands (§7) are not included.
 
@@ -135,7 +135,31 @@ to the modern record. `nwis_match` says how the match was made:
 - Out-of-state data: filter `in_california == False`. Tables with no location have both
   `state` and `in_california` blank.
 
-### 4.4 Example
+### 4.4 By record type and parameter
+
+Each table is classified from its own layout and title (not from the page-level language-model
+field `temporal_resolution`, which is kept but superseded):
+
+| `data_resolution` | What the table holds |
+|---|---|
+| `daily` | One value per day: the classic USGS grid of day rows (1–31) by month columns |
+| `monthly` | One value per month: month rows, year rows by month columns, end-of-month readings, or samples taken about once a month |
+| `annual` | One value per year: annual peaks, yearly totals or means, annual maximum/minimum, peaks above a base, stream rating tables |
+| `discrete` | Measurements on given dates at irregular times: field discharge measurements, well water levels, water-quality samples |
+| `no_time_series` | No time dimension: well logs, well inventories, reservoir capacity tables, undated analyses |
+| `unclassified` | Could not be decided from the table or its title |
+
+- `primary_parameter` — the main quantity (`discharge`, `gage_height`, `contents`,
+  `water_level`, `temperature`, `sediment`, `water_chemistry`, `precipitation`,
+  `evaporation`, `unknown`); `parameters` lists every parameter named in the title and headers.
+- `derived_summary` — `True` for a monthly or annual table printed beside the daily table it
+  summarizes (same or adjacent page, same water type and parameter). Its values repeat the
+  daily record. To count values without double counting, sum `n_values_primary`, which is 0
+  for these tables. `n_values` counts every numeric value in the table.
+
+In a hand check of 65 tables, the classification matched the settled definitions for 59 of 65 tables, and the derived-summary flag for 62 of 65.
+
+### 4.5 Example
 
 Daily stream discharge tables in Santa Barbara County before 1920, with precise locations:
 
@@ -146,14 +170,15 @@ sel = cat[(cat.water_type == "Stream Discharge")
           & (cat.county == "Santa Barbara")
           & (cat.year_start < 1920)
           & (cat.precision_class == "precise")
-          & (cat.temporal_resolution.str.contains("daily", case=False, na=False))]
+          & (cat.data_resolution == "daily")
+          & (cat.primary_parameter == "discharge")]
 for path in sel.table_csv:
     table = pd.read_csv(path)   # paths are relative to the data root
 ```
 
 County names are given without the word "County" (e.g. `Santa Barbara`).
 
-## 5. How far to trust each field
+## 5. Accuracy
 
 ### 5.1 Locations
 
@@ -241,7 +266,8 @@ for 6.
 - `Other` means a data table was found but the language model could not decide its water
   type.
 - `watersource_name`, `location_text`, `temporal_resolution`, `units` and `keyterms` are
-  language-model fields (about 87% accurate overall in hand-graded tests). Units are as
+  language-model fields (about 87% accurate overall in hand-graded tests). For the type of
+  record, use the table-level `data_resolution` (§4.4) instead of `temporal_resolution`. Units are as
   printed: "second-feet", "sec.-ft." and "cfs" are the same unit (cubic feet per second)
   and are not standardized.
 - `page_type`: `data`, `index_contents` (indexes and tables of contents), `narrative` or
@@ -275,7 +301,9 @@ Read them as 0.
 4. **Row and value counts are estimates.** "Table rows" counts CSV lines. A daily table
    row holds up to 12 values, so the count of numeric values (about 18 million) better
    reflects the data volume. Daily tables passed a calendar check (99% of expected days
-   found). Counts for other tables may run up to about 20% high.
+   found). Counts for other tables may run up to about 20% high. Monthly and annual summary
+   tables printed beside a daily table repeat its values; they are flagged
+   `derived_summary` and left out of `n_values_primary`.
 5. **Coverage gaps.** Table detection recovers about 79% of known tables. Some visible
    tables were read as plain text, not as a table; their text is still in the page JSON
    but there is no CSV. About 5% of detected tables had no language-model metadata and are
@@ -291,9 +319,10 @@ Read them as 0.
 
 To respect tribal data sovereignty, pages whose sites fall on federally recognized tribal
 lands (Census TIGER 2023 American Indian/Alaska Native areas), or that name a reservation
-or rancheria, are withheld from this release. [TODO: final counts — currently about
-2,800 tables and 71,000 table rows from 118 federally recognized areas, most in
-California.] These data are being offered directly to the tribes.
+or rancheria, are withheld from this release: about 3,100 tables (78,826 table rows,
+3.1% of the published total) on 2,036 pages from 225 reports, covering 112 federally
+recognized areas, most in California. [TODO: confirm final counts before release.]
+These data are being offered directly to the tribes.
 
 ## 8. Column reference
 

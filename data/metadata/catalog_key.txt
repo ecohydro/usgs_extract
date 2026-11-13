@@ -102,6 +102,37 @@ SEARCH KEYS (blank when the location is too coarse)
                         nearest_well: nearest NWIS groundwater site within 0.5 km
                           (candidate only)
 
+RECORD TYPE (read from the table itself; 20_temporal_resolution.py, added 2026-11-12)
+  data_resolution       what one table's own observations are:
+                        daily: day-of-month rows x months (or months x day columns)
+                        monthly: month rows, year rows x month columns, end-of-month readings
+                          and dated samples taken about once a month (one per month, months
+                          in sequence: designed as a monthly series)
+                        annual: one row per year (annual peaks, yearly totals or means),
+                          annual maximum/minimum per water year, peaks above a base, and
+                          stream rating tables (one per year or period of use)
+                        discrete: measurements on given dates (field measurements, water
+                          levels, water-quality samples); also lists of selected years
+                          with dates (e.g. revised peaks)
+                        no_time_series: logs, inventories, reservoir capacity tables,
+                          undated analyses, probability tables
+                        unclassified: could not be decided from the table or its title
+                        Replaces the page-level LLM field temporal_resolution (kept, raw).
+                        Hand check (65 tables, blind; definitions settled 2026-11-13):
+                          59/65 agree (derived_summary flag 62/65).
+  resolution_source     table (structure) | caption (table title) | none
+  derived_summary       True = monthly/annual table printed beside the daily table of the same
+                          water type and parameter (same or adjacent page) it was computed
+                          from (incl. annual max/min "extremes" tables and rating tables);
+                          its values repeat or summarize the daily record. Peaks above a base
+                          are never derived (instantaneous peaks are not in the daily means)
+  primary_parameter     main quantity: discharge, gage_height, contents, water_level,
+                          temperature, sediment, water_chemistry, precipitation, evaporation,
+                          unknown (from the table title, else column headers)
+  parameters            all parameters named in the title and headers (';'-separated)
+  n_values              numeric values in data cells (summary rows, dates, IDs excluded)
+  n_values_primary      n_values, or 0 for a derived_summary table (so sums don't double count)
+
 DIGITIZATION QUALITY (heuristic; describes the digitized cells, not value accuracy)
   digitization_quality  poor: no data rows, > 90% empty cells, or > 5% cells with an OCR
                           letter-for-digit swap ("4,02C", "1O5", "2S0")

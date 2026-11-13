@@ -1565,3 +1565,82 @@ The approved tribal manuscript sentence must use the new numbers (tribal sheet l
 - Table 8 compares metadata RECORDS (1,084) with NWIS SITES (7); report unique locations too.
 - Remaining known gap: GNIS wrong-namesake rows with no stream to check against stay as is (~236 of 394
   wrong GNIS rows in validation are not flagged).
+
+## Session Log — November 12, 2026 (afternoon)
+- **Santa Ynez verdicts applied** (manual_review/earliest_records_review.csv): 2133 p87 (Gibraltar
+  Reservoir Site capacity, acre-feet) -> Reservoir + undated; 2848 p23 (1879-1904 seasonal table,
+  quantity unknown, maybe precipitation) -> Other. Re-ran 00_data_prep, build_table_level_metadata,
+  filter_published, 18 catalog, 08, 07, notebooks 01/02/04. Santa Ynez Table 9 now starts in the 1900s.
+  Stream sites predating NWIS 148 -> 146; basin numbers unchanged (+398 / +77).
+- **Santa Ynez Table 8** now also reports unique restored locations: 203 (28/31/31/29/84 by order 1-5)
+  vs 1,082 records and 7 NWIS sites.
+- **Temporal-resolution grading scored** (`validation/score_resolution_vs_review.py` ->
+  `review/resolution_review_scored.csv`). Before -> after fixes: resolution vs grader 40 -> 49/65;
+  vs README definitions 49 -> **59/65**; primary parameter 44 -> 53/65; derived flag 56 -> 55/65.
+  Grader labels that differ from the README definitions (scored both ways; listed in DEFINITION in the
+  scorer): rating tables 12/54/65 (grader annual/discrete/monthly), annual peaks 21/31 (grader
+  discrete), peaks above base 55 (grader annual), dated WQ/spring samples 61/64 (grader monthly).
+  **Annette to confirm these definitions.** Derived-summary disagreement is definitional too: annual
+  max/min tables beside a daily table are flagged derived; grader said "related, not continuation" (n).
+- Classifier fixes (`temporal_resolution.py`): end-of-month date columns -> monthly; rating-table
+  caption ignored when the table has a Date column; transposed daily grids (day-number header row x
+  month rows); "DATE OF" split header; a (water) year column anywhere -> annual; aquifer / probability
+  / exceedance / storage-capacity -> no_time_series. Parameter = last caption sentence naming one.
+- Re-ran 19 (--force) and 20: published values 18,277,055 (catalog 17,762,655; tribal 514,400);
+  stream daily 82.7% of primary values. Catalog now has data_resolution, resolution_source,
+  derived_summary, primary_parameter, parameters, n_values, n_values_primary (catalog_key.txt updated).
+  Catalog: daily 42,355 · discrete 20,204 · monthly 16,222 · no_time_series 7,709 · unclassified 6,591 ·
+  annual 4,636 tables; derived 9,619. User guide NOT yet updated (Annette has uncommitted edits there).
+- **PAUSED here (resume next session):** (1) Annette to confirm the resolution definitions for the 10
+  disputed rows and the derived-summary rule for annual max/min tables; (2) 2848 p23 retyped to Other
+  by Claude (Annette may prefer Precipitation); (3) nothing from this afternoon is committed yet,
+  so ask whether resolution_review_sample.csv and docs/user_guide.md go in; (4) then update the user guide
+  with the new catalog columns; re-run 13_copy_withheld_tribal.py; update the manuscript numbers.
+
+## Session Log — November 13, 2026 (RESUME HERE)
+Supersedes the "PAUSED here" list of Nov 12.
+
+### Temporal-resolution definitions settled (Annette)
+- Rating tables -> **annual** (one per year / period of use). Reservoir *capacity* tables stay no_time_series.
+- Annual peaks: row 21 (revised peaks for selected years 1928/35/36 + Date column) -> **discrete**
+  (rule: year rows with gaps + a Date column); row 31 (max/min per consecutive water year) -> **annual**.
+- Peaks above a base (row 55) -> **annual** (caption rule `PEAK_ANNUAL`); never flagged derived.
+- Dated WQ / spring samples about once a month (61, 64) -> **monthly** (rule `_monthly_sequence`: month
+  names advance +1 AND >= 80% of sample cells name their own month; the second test keeps weekly field
+  measurements like "Oct. 4 17 31 | 27 | 9" (633 p81) discrete).
+- Derived: tables the grader called "related" count as derived (25, 31, 58, 63; 59 scored like 31).
+- 2848 p23 stays **Other**.
+- Scores (`validation/score_resolution_vs_review.py`): vs settled definitions **59/65**, derived 62/65,
+  parameter 53/65. Remaining misses: 3, 9, 32, 37, 62 unclassified; 16 month column -> monthly (truth annual).
+- Catalog (97,717 tables): daily 42,355 · monthly 18,606 · discrete 16,815 · annual 10,492 ·
+  no_time_series 2,881 · unclassified 6,568; derived 10,135; primary values 17,162,900 (all 17,762,655).
+  Published values unchanged: 18,277,055 (tribal 514,400). Calendar check unchanged (99.2%).
+- User guide (§1 counts, new §4.4 record type, §4.5 example, §7 tribal) and catalog_key.txt updated.
+- `13_copy_withheld_tribal.py` now also removes stale copies; re-run: 2,036 pages, 118 area folders
+  (252 copied, 113 stale removed). Tribal sheet lists 115 areas (112 from located points + text-only).
+
+### DRAFT manuscript sentences (#6; numbers as of Nov 13 — re-check after any re-run)
+- **Volume:** "We digitized 100,829 tables from 581 USGS reports, containing about 2.5 million table
+  rows and roughly 18 million recorded numeric values." (581 = paper's document count; catalog has 583
+  docs after tribal exclusion of published tables — reconcile before submission.)
+- **Abstract (scope):** "The restored records extend California's digital streamflow record back 29 years,
+  to 1862 (NWIS begins in 1891), and add stream monitoring in 398 HUC12 subwatersheds with no NWIS gauge,
+  a 27% increase. For groundwater, they add 77 previously unmonitored subwatersheds (+4%) and one record
+  (1883) that predates the first NWIS well (1890)."
+- **Tribal:** "We restored about 79,000 table rows (about 514,000 values) in 3,112 tables from 112 federally
+  recognized tribal areas, most in California. To respect tribal data sovereignty, these data are not
+  published or featured here and are being provided directly to the tribes." (112 = areas with a located
+  point; 115 if areas named only in page text are counted — Annette to choose.)
+- **6-panel caption numbers:** restored CA sites mapped 12,643 stream / 2,661 GW (precise+approximate,
+  dated); NWIS 2,930 stream / 44,091 GW sites; C/F red = 398 / 77 subwatersheds; stream starts 1862, GW 1883.
+  Caption still says "1849–1980" and "+1,522 / +372" — replace.
+- **Record types (methods):** "Each table was classified from its own layout as daily, monthly, annual,
+  discrete or no time series; in a blind check of 65 tables the classification agreed with the hand
+  label for 59 (91%)."
+
+### Next
+1. Re-generate figures (07 6-panel, notebooks 01/02/04) and paste final numbers into the manuscript.
+2. Metadata-file decisions with Annette (keep / move / drop raw LLM date and location fields), then
+   per-page _metadata.csv content.
+3. HydroShare package into a NEW folder; finish user guide (citation, license, contact).
+4. Housekeeping: .gitignore archive/ and the 193 MB NWIS GW raw file; Git LFS for table-level CSVs.

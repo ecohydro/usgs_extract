@@ -66,8 +66,19 @@ def params_in(text):
     return [n for _, n in sorted(hits)]
 
 
-cap_tail = t.caption.fillna('').str[-200:]   # the title just above the table (not station notes)
-p_cap = cap_tail.map(params_in)
+def title_params(caption):
+    """Parameters in the table title: the LAST sentence of the caption block that names one
+    (the block can also hold the previous station's notes, e.g. "...tons Dec. 24, 1964.
+    Temperature (F) of water, water year ..."). Graded 2026-11-12."""
+    parts = re.split(r'(?<=[.;\]])\s+(?=[A-Z\[(])', (caption or '')[-300:])
+    for s in reversed(parts):
+        p = params_in(s)
+        if p:
+            return p
+    return []
+
+
+p_cap = t.caption.fillna('').map(title_params)
 p_head = t.header_text.fillna('').map(params_in)
 t['parameters'] = [';'.join(dict.fromkeys(a + b)) for a, b in zip(p_cap, p_head)]
 t['primary_parameter'] = [(a or b or ['unknown'])[0] for a, b in zip(p_cap, p_head)]
@@ -112,7 +123,9 @@ daily_pages = t[t.resolution.eq('daily')][DCOLS].drop_duplicates()
 near = pd.concat([daily_pages.assign(page_number=daily_pages.page_number + d) for d in (-1, 0, 1)])
 near = near.drop_duplicates().assign(near_daily=True)
 t = t.merge(near, on=DCOLS, how='left')
-t['derived_summary'] = t.resolution.isin(['monthly', 'annual']) & t.near_daily.fillna(False).astype(bool)
+# peaks above a base are instantaneous peaks, not summaries of the daily means -> never derived
+t['derived_summary'] = (t.resolution.isin(['monthly', 'annual']) & t.near_daily.fillna(False).astype(bool)
+                        & ~t.resolution_evidence.fillna('').str.startswith('peaks above base'))
 t['n_values_primary'] = t.n_values.where(~t.derived_summary, 0)
 t['n_values_secondary'] = t.n_summary_values.fillna(0) + t.n_values.where(t.derived_summary, 0)
 

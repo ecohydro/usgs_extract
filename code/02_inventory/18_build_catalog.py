@@ -23,6 +23,9 @@ Columns (see CATALOG_COLUMNS below for order):
   search keys        state, in_california, county, huc8, huc8_name, huc12, b118_basin_id,
                      b118_basin_name, nwis_site_no, nwis_station_name, nwis_match_km,
                      nwis_match
+  record type        data_resolution, resolution_source, derived_summary, primary_parameter,
+                     parameters, n_values, n_values_primary (table_resolution.csv,
+                     20_temporal_resolution.py; graded 2026-11-12: 59/65 vs definitions)
   quality            digitization_quality, table_content, frac_ocr_suspect, frac_letter_zero, frac_empty,
                      n_data_rows, n_cols
 
@@ -226,6 +229,14 @@ def add_nwis(t):
     return t, val
 
 
+def add_resolution(t):
+    r = pd.read_csv(A / 'table_resolution.csv',
+                    usecols=KEY + ['table_number', 'resolution', 'resolution_source', 'derived_summary',
+                                   'primary_parameter', 'parameters', 'n_values', 'n_values_primary'])
+    r = r.rename(columns={'resolution': 'data_resolution'})
+    return t.merge(r, on=KEY + ['table_number'], how='left')
+
+
 def add_quality(t):
     q = pd.read_csv(A / 'table_quality.csv')
     cols = ['digitization_quality', 'table_content', 'frac_ocr_suspect', 'frac_letter_zero', 'frac_empty', 'n_data_rows', 'n_cols']
@@ -238,6 +249,8 @@ CATALOG_COLUMNS = [
     'doc_title', 'series_title', 'series_number', 'index_id', 'year_published', 'authors', 'usgs_url', 'doi',
     'water_type', 'water_type_source', 'table_caption', 'page_type', 'n_measurements', 'watersource_name',
     'location_text', 'temporal_resolution', 'units', 'keyterms',
+    'data_resolution', 'resolution_source', 'derived_summary', 'primary_parameter', 'parameters',
+    'n_values', 'n_values_primary',
     'year_start', 'year_end', 'date_status', 'date_tier', 'period_of_record_start', 'period_of_record_end',
     'construction_start', 'construction_end', 'year_start_llm', 'year_end_llm',
     'latitude', 'longitude', 'coord_method', 'precision_km', 'precision_class', 'evidence_scope',
@@ -257,6 +270,7 @@ def enrich(t):
     t = add_search_keys(t)
     t, val = add_nwis(t)
     t = add_quality(t)
+    t = add_resolution(t)
     for c in ['huc8', 'huc12']:
         t[c] = t[c].astype('string')
     for c in ['year_start', 'year_end', 'period_of_record_start', 'period_of_record_end',
@@ -332,6 +346,10 @@ def main():
          'dated (table-level)': int(cat.year_start.notna().sum())}
     for k, v in cat.nwis_match.value_counts().items():
         s[f'nwis {k}'] = int(v)
+    for k, v in cat.data_resolution.value_counts().items():
+        s[f'resolution {k}'] = int(v)
+    s['derived_summary tables'] = int(cat.derived_summary.fillna(False).astype(bool).sum())
+    s['values (primary)'] = int(cat.n_values_primary.sum())
     for k, v in cat.digitization_quality.value_counts().items():
         s[f'quality {k}'] = int(v)
     if val is not None:

@@ -9,12 +9,19 @@ counting. Each table gets one PRIMARY class describing its observations:
                  day tables, two-level headers (Day | OCTOBER ...)
   monthly        Month rows (October ... September) x Max/Min/Mean/Runoff, or year rows x
                  month columns (Water year | Oct | Nov ...)
-  annual         one row per year (annual peaks, yearly totals/means), no month columns
+  annual         one row per year (annual peaks, yearly totals/means), no month columns;
+                 also annual max/min per consecutive water year, peaks above a base and annual
+                 maximum (caption), and stream RATING tables (one per year / period of use)
   discrete       individual dated measurements at irregular times: field discharge
-                 measurements, water levels on given dates, water-quality samples, peaks above
-                 a base ("Date | Gage height | Discharge", "Feb. 6, 1961 | 14.6")
-  no_time_series no time dimension in the table: well logs, well inventories, rating tables,
-                 analyses without dates
+                 measurements, water levels on given dates, water-quality samples
+                 ("Date | Gage height | Discharge", "Feb. 6, 1961 | 14.6"); also selected
+                 years with gaps plus a Date column (e.g. lists of revised peaks)
+                 EXCEPTION: dated samples taken about once a month (months in sequence) are
+                 MONTHLY, because the record was designed as a monthly series
+  no_time_series no time dimension in the table: well logs, well inventories, reservoir
+                 capacity tables, analyses without dates
+
+Rating-table, peak, and monthly-sample rules follow Annette's grading decisions (2026-11-13).
   unclassified   none of the above could be decided from the table or its caption
 
 Summary rows (Total / Mean / Max / Min / Runoff / "The year") are DERIVED and never define
@@ -34,14 +41,23 @@ YEAR_CELL = re.compile(r'^\s*(1[89]\d\d)(?:\.0)?(?:\s*-\s*(?:\d{1,4}))?\W*$')  #
 # a date with a day: "Feb. 20", "Oct. 10, 1950", "6, 1961", "3 - 6 -51", "8/5/52"
 DATE_DAY = re.compile(rf'(?i)\b{MONTH}\.?\s*\d{{1,2}}(?!\d)|^\s*\d{{1,2}},\s*1[89]\d\d|'
                       r'\b\d{1,2}\s*[-/]\s*\d{1,2}\s*[-/]\s*\d{2}(?![\dA-Za-z])')  # not well no. "11/4-30N2" 
-DATE_HEAD = re.compile(r'(?i)^\W*(date|dates|date of (?:collection|measurement|sampling)|'
+DATE_HEAD = re.compile(r'(?i)^\W*(date|dates|date of(?:\s+(?:collection|measurement|sampling))?|'
                        r'date\s+and\s+time)\W*(?:\.\d+)?$')
 SUMMARY = re.compile(r'(?i)^\W*(total|mean|max|min|monthly|ac\.?-?\s*ft|acre|runoff|cfsm|'
                      r'in\.|inches|calendar|water\b|average|sum|yearly|annual|peak|extremes|'
                      r'period|the year|year\b)')
-NO_TS = re.compile(r'(?i)thickness|rating\s+table|\blog of\b|drillers?\W+log|material|'
-                   r'character of|formation|constituents?\b|specific capacity')
-RATING = re.compile(r'(?i)(?:rating|capacity)\s+tables?\b')   # lookup tables, not records
+NO_TS = re.compile(r'(?i)thickness|capacity\s+table|\blog of\b|drillers?\W+log|material|'
+                   r'character of|formation|constituents?\b|specific capacity|aquifers?\b|'
+                   r'probabilit|exceed(?:ed|ance)|recurrence|storage\s+capacity')
+RATING = re.compile(r'(?i)rating\s+tables?\b')        # stream rating: one per year / period of use
+CAPACITY = re.compile(r'(?i)capacity\s+tables?\b')    # reservoir capacity: lookup, no time
+PEAK_ANNUAL = re.compile(r'(?i)peak\s+discharges?\s+above\s+(?:a\s+)?base|annual\s+maximum|'
+                         r'(?:maximum|peak)\s+and\s+minimum\s+discharges?\s+for\s+the\s+water\s+years')
+MONTH_IDX = {m: i for i, m in enumerate(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug',
+                                          'sep', 'oct', 'nov', 'dec'])}
+MONTH_TOKEN = re.compile(rf'(?i)\b({MONTH})\b')
+MONTH_END = re.compile(rf'(?i)^\W*{MONTH}\.?\s*(2[89]|3[01])\W*$')   # "Oct. 31", "Sept 30"
+YEAR_HEAD = re.compile(r'(?i)\byear\b')
 MONTH_HEAD = re.compile(r'(?i)^\W*months?\W*$')
 WELL_INV = re.compile(r'(?i)owner|cost\s+of|method\s+of\s+lift|class\s+of\s+well|'
                       r'depth\s+of\s+well|type\s+of\s+well|diameter|casing|year\s+com')
@@ -49,7 +65,28 @@ CAP = [('daily', re.compile(r'(?i)\bdaily\b|\bday\b(?!s)')),
        ('monthly', re.compile(r'(?i)\bmonthly\b')),
        ('annual', re.compile(r'(?i)\bannual\b|\byearly\b|annual\s+peak')),
        ('discrete', re.compile(r'(?i)discharge\s+measurements|measurements\s+of|analys[ie]s|'
-                               r'water\s+levels?|peak\s+discharges?\s+above|miscellaneous'))]
+                               r'water\s+levels?|miscellaneous'))]
+
+
+def _monthly_sequence(cols):
+    """True if the date columns hold about one sample per month: the month names advance one
+    month at a time (>= 6 names, >= 70% of steps exactly +1, wrapping Dec -> Jan) AND >= 80% of
+    the sample cells name their own month. The second test rejects weekly field measurements
+    printed as "Oct. 4 17 31" followed by bare days "27", "9" (month named once per month).
+    Split month | day columns (JAN. | 4, 1966) are handled by skipping columns with no month
+    names; pure year cells ("1926") and "-Con." labels are not samples."""
+    cols = [[c for c in col if c and not YEAR_CELL.match(c) and not DATE_HEAD.match(c)
+             and not re.search(r'(?i)con\.?\W*$', c)] for col in cols]
+    cols = [col for col in cols if any(MONTH_TOKEN.search(c) for c in col)]
+    cells = [c for col in cols for c in col]
+    if not cells or sum(bool(MONTH_TOKEN.search(c)) for c in cells) < 0.8 * len(cells):
+        return False
+    ms = [MONTH_IDX.get(m.group(1).lower()[:3]) for c in cells for m in MONTH_TOKEN.finditer(c)]
+    ms = [m for m in ms if m is not None]
+    if len(ms) < 6:
+        return False
+    steps = sum((b - a) % 12 == 1 for a, b in zip(ms, ms[1:]))
+    return steps >= 0.7 * (len(ms) - 1)
 
 
 def _clean(c):
@@ -66,8 +103,13 @@ def classify(rows, caption=''):
     head = grid[:4]                       # CSV header + repeated multi-level header rows
     head_text = ' '.join(c for r in head for c in r)
     cap = caption or ''
-    if RATING.search(cap[-300:]):
-        return 'no_time_series', 'rating table caption'  # gage height -> discharge lookup
+    date_cols = [j for j in range(ncol) if any(DATE_HEAD.match(r[j]) for r in head)]
+    # rating table: gage height -> discharge lookup. Not if the table has a Date column (the
+    # caption block can hold the rating-table note of the station above a measurements table)
+    if CAPACITY.search(cap[-300:]) and not date_cols:
+        return 'no_time_series', 'capacity table caption'
+    if (RATING.search(cap[-300:]) or RATING.search(head_text)) and not date_cols:
+        return 'annual', 'rating table'
 
     # ---- daily: a column of day numbers 1..31 counting up, with month context ----
     months_in_head = {re.sub(r'\W|\d', '', c.lower())[:3] for r in head for c in r if MONTH_CELL.match(c)}
@@ -82,6 +124,13 @@ def classify(rows, caption=''):
         labeled = any(DAY_HEAD.match(r[j]) for r in head)
         if labeled or len(months_in_head) >= 2 or CAP[0][1].search(cap):
             return 'daily', 'day column' + (' (labeled)' if labeled else '')
+    # transposed daily grid: a header row of day numbers 1, 2, 3 ... with month rows
+    month_rows_any = sum(bool(MONTH_START.match(r[0])) for r in grid)
+    for r in head:
+        days = [int(DAY_NUM.match(c).group(1)) for c in r[1:] if DAY_NUM.match(c)]
+        steps = sum(b == a + 1 for a, b in zip(days, days[1:]))
+        if len(days) >= 8 and steps >= 0.7 * (len(days) - 1) and month_rows_any >= 3:
+            return 'daily', 'day header row x month rows'
 
     # ---- monthly: month rows (not followed by a day/date), or year rows x month columns ----
     first = [r[0] for r in grid]
@@ -99,10 +148,37 @@ def classify(rows, caption=''):
     nonempty = [c for c in first[1:] if c and not SUMMARY.match(c)]
     if year_rows >= 3 and year_rows >= 0.6 * max(len(nonempty), 1) and len(months_in_head) < 3 \
             and not WELL_INV.search(head_text):
+        # selected years with gaps + a Date column = individual events (e.g. revised peaks)
+        ys = [int(YEAR_CELL.match(c).group(1)) for c in first[1:] if YEAR_CELL.match(c)]
+        consec = sum(b - a == 1 for a, b in zip(ys, ys[1:]))
+        if date_cols and consec <= 0.5 * (len(ys) - 1):
+            return 'discrete', 'selected years with dates'
         return 'annual', 'year rows'
+    # a "(Water) year" column that is not the first (e.g. Station | Area | Water year | ...)
+    if len(months_in_head) < 3 and not WELL_INV.search(head_text) and not date_cols:
+        for j in range(1, ncol):
+            if not any(YEAR_HEAD.search(r[j]) for r in head):
+                continue
+            col = [r[j] for r in grid[1:]]
+            ys = sum(bool(YEAR_CELL.match(c)) for c in col)
+            if ys >= 3 and ys >= 0.6 * max(sum(bool(c) for c in col), 1):
+                return 'annual', 'year column'
+
+    # ---- peaks above a base / annual maximum (caption) = an annual peak series ----
+    if PEAK_ANNUAL.search(cap[-300:]):
+        return 'annual', 'peaks above base / annual maximum caption'
 
     # ---- discrete: a Date column or cells holding dates with a day ----
-    if any(DATE_HEAD.match(c) for r in head for c in r):
+    if date_cols:
+        # end-of-month dates (Sept. 30, Oct. 31, Nov. 30 ...) = monthly reservoir/well readings
+        cells = [r[j] for j in date_cols for r in grid if r[j] and not DATE_HEAD.match(r[j])]
+        dated = [c for c in cells if DATE_DAY.search(c)]
+        ends = sum(bool(MONTH_END.match(c)) for c in dated)
+        if ends >= 6 and ends >= 0.7 * len(dated):
+            return 'monthly', 'end-of-month dates'
+        # about one sample a month, months in sequence = designed monthly series
+        if _monthly_sequence([[r[j] for r in grid[1:]] for j in date_cols]):
+            return 'monthly', 'one sample per month'
         return 'discrete', 'date column'
     n_date_cells = sum(bool(DATE_DAY.search(c)) for r in grid for c in r if len(c) < 30)
     if n_date_cells >= 3:
@@ -110,7 +186,7 @@ def classify(rows, caption=''):
 
     # ---- no time dimension ----
     if NO_TS.search(head_text) or NO_TS.search(cap[-200:]) or WELL_INV.search(head_text):
-        return 'no_time_series', 'log / inventory / rating / analyses headers'
+        return 'no_time_series', 'log / inventory / capacity / analyses headers'
 
     # ---- a "Month" label column (monthly summaries with < 6 month rows) ----
     if any(MONTH_HEAD.match(r[0]) for r in head):
