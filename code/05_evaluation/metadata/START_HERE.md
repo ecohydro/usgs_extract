@@ -4,10 +4,43 @@ Handoff from Annette's session of 2026-11-14 to Anna. Paste the prompt below int
 session opened in the repo root (on the `evaluation` branch).
 
 Before starting:
-- Data: most pipeline outputs are git-ignored (catalog, `page_blocks.parquet`, `table_dates.csv`,
-  `entry_dates.csv`, tribal files). Work from the shared Dropbox copy of the repo, not a fresh clone.
+- Work in your own clone of the repo on the `evaluation` branch (not in Annette's Dropbox folder).
 - Flowchart of the current pipeline: https://claude.ai/artifact/QkJD9xN6CAbXrrFyrJk1kA
   (private until Annette shares it with you).
+- Data: the git repo holds the code and most metadata files, but several large or sensitive files
+  are git-ignored and exist only on Annette's machine. If you are missing any of the files below,
+  ask Annette; she can transfer them (a ~600 MB bundle without page images) or you can regenerate
+  some of them, which is slow.
+
+## Data you need (as of 2026-11-14)
+
+In git (you get these with the `evaluation` branch):
+`data/metadata/main_metadata.csv` (Phi-4 rows), `data/analysis/processed_metadata.parquet`,
+`data/analysis/location_validation/locations.csv` and the tier files, `data/analysis/page_types.csv`,
+`data/analysis/table_level_metadata.csv` / `_published.csv`, `data/analysis/table_headers.csv`,
+`data/analysis/table_value_counts.csv`, `data/analysis/table_resolution.csv`,
+`data/analysis/manual_review/`, graded samples in `data/analysis/date_parsing/`, the CA GNIS file,
+WBD/HUC files, NWIS CA site lists, PLSS caches.
+
+NOT in git (git-ignored) - needed for the evaluation and the Phi-4 pilot:
+
+| File | Size | Needed for | If missing |
+|---|---|---|---|
+| `data/digitized/{doc}/page_{N}/` (page PNG, Reducto JSON, table CSVs) | tens of GB | grading against page images; the pilot prompt input | Rebuild from your May files with `code/01_digitization/05_final_data_organization/organize_data.py` (expects `Data_Files/ReductCSVs/`, `Data_Files/ReductJson/`, `Data_Files/UpdatedDataJan/` + `UpdatedDataDec/`, `Data_Files/cleaned_metadata_final - Copy.csv`) |
+| `data/catalog/restored_tables_catalog.csv` (+ `.gpkg`, `catalog_summary.csv`) | 228 MB | the per-table product being evaluated | Ask Annette (rebuilding needs most rows below) |
+| `data/analysis/page_blocks.parquet` | 138 MB | numbered tables per page (pilot prompt input) | `code/02_inventory/11_page_blocks_cache.py` (needs `data/digitized`) |
+| `data/analysis/table_dates.csv`, `table_row_dates.parquet` | 41 MB | table dates | `14_table_dates.py` (needs `page_blocks.parquet`) |
+| `data/analysis/entry_dates.csv` | 18 MB | which Phi-4 rows are tied to which tables | `15_entry_dates.py` |
+| `data/analysis/table_quality.csv` | 6 MB | digitization-quality flag | `17_table_quality.py` |
+| `data/analysis/tribal_lands/` (esp. `tribal_screen_pages.csv`) | <1 MB | `paper_filters.drop_tribal()`; every figure/statistic | Ask Annette. Sensitive: lists pages on tribal lands; never publish or share |
+| `data/analysis/spatial/tribal_lands/` (Census AIANNH) | 23 MB | re-running the tribal screen only | re-download (see `12_tribal_lands_screen.py`) |
+| `data/analysis/spatial/gnis/*_Features_20210825.txt` (non-CA states), `data/analysis/nwis_sites/by_state/` | ~40 MB | re-running out-of-state locations only | re-fetched by `10_out_of_state.py` |
+
+Not needed: `data/withheld_tribal/` (1.2 GB copies of withheld pages, do not transfer),
+`archive/`, `data/hydroshare/`, `data/analysis/nwis_sites/ca_groundwater_sites_raw.csv`.
+
+Python: Annette's machine uses Python 3.13 (no conda) with pandas, numpy, geopandas, pyogrio,
+pyarrow, matplotlib, seaborn, jupyter/nbconvert.
 
 ## Prompt
 
@@ -77,7 +110,10 @@ tolerance in code/02_inventory/21_site_definitions.py (0.5 / 1 / 2 km; review sa
 data/analysis/site_definitions/split_station_review.csv awaits Annette's check); syncing 2 newly
 withheld tribal pages (13_copy_withheld_tribal.py); re-running figures other than Figure 1.
 
-First steps: confirm the repo and data are present and which Python environment to use (on
-Annette's machine it was Python 3.13 without conda); summarize your understanding back to me in a
-few lines; then propose a concrete plan for A and for the B pilot.
+First steps: I do NOT have Annette's Dropbox folder; I have the Reducto files and other inputs
+from May 2026. Check which files in the "Data you need" table of
+code/05_evaluation/metadata/START_HERE.md exist on this machine and list what is missing. Do not
+start long regeneration runs without asking me: some files are faster to get from Annette, and the
+tribal-lands files must come from her. Then confirm the Python environment, summarize your
+understanding back to me in a few lines, and propose a concrete plan for A and for the B pilot.
 ```
