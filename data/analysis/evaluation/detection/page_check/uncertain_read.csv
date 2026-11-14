@@ -1,0 +1,119 @@
+report,pdf_page,expected_printed,method,printed_seen,page_kind,note
+1180,65,46,between_disagreeing_pages,,blank,blank page
+1180,66,46,between_disagreeing_pages alt,45,text,"running head, top right"
+1180,67,46,between_disagreeing_pages alt,46,text,"running head, top left"
+1180,68,46,between_disagreeing_pages alt,,plate_or_map,"plate XII, no page number"
+1180,69,46,between_disagreeing_pages alt,,blank,blank page
+1246,83,66,between_disagreeing_pages,,blank,blank page
+1246,84,66,between_disagreeing_pages alt,65,text,top right
+1246,85,66,between_disagreeing_pages alt,66,text,top left
+1246,86,66,between_disagreeing_pages alt,,plate_or_map,"plate XIII map, no page number"
+1246,87,66,between_disagreeing_pages alt,,blank,blank page
+1274,119,111,between_disagreeing_pages,,table,"fold-out table, no own page number; footer says to face page 110"
+1274,120,111,between_disagreeing_pages alt,111,text,top right
+1343,20,15,between_disagreeing_pages,,blank,blank except a rule
+1343,21,15,between_disagreeing_pages alt,15,text,top right
+1343,22,15,between_disagreeing_pages alt,16,text,top left
+2035,172,165,extrapolated,165,rotated_table,top right
+2225,314,282,between_disagreeing_pages,282,rotated_table,top left
+2225,315,282,between_disagreeing_pages alt,,table,"fold-out table, no own page number; footer says to face page 282"
+2225,316,282,between_disagreeing_pages alt,,blank,blank page
+2225,317,282,between_disagreeing_pages alt,283,text,top right
+2225,318,282,between_disagreeing_pages alt,284,text,top left
+2225,319,282,between_disagreeing_pages alt,,table,"fold-out table, no own page number; footer says to face page 284"
+2225,320,282,between_disagreeing_pages alt,,blank,blank page
+2225,407,356,between_disagreeing_pages,356,rotated_table,top left
+2225,408,356,between_disagreeing_pages alt,,table,"fold-out table, no own page number; footer says to face page 356"
+2225,409,356,between_disagreeing_pages alt,,blank,blank page
+2225,455,392,between_disagreeing_pages,,blank,blank page
+2225,456,392,between_disagreeing_pages alt,391,text,top right
+2225,457,392,between_disagreeing_pages alt,392,text,top left
+2225,458,392,between_disagreeing_pages alt,,table,"fold-out table, no own page number; footer says to face page 392"
+2225,459,392,between_disagreeing_pages alt,,blank,blank page
+2278,109,109,not_found (showing pdf page = printed),81,text,top right
+2280,283,268,between_disagreeing_pages,268,rotated_table,top left
+2280,283,268,between_disagreeing_pages alt,268,rotated_table,top left
+2280,300,285,between_disagreeing_pages,285,rotated_table,top right
+2280,300,285,between_disagreeing_pages alt,285,rotated_table,top right
+2280,320,305,between_disagreeing_pages,305,rotated_table,top right
+2280,320,305,between_disagreeing_pages alt,305,rotated_table,top right
+2292,38,36,extrapolated,36,rotated_table,sideways in running head along right edge
+2292,89,87,extrapolated,87,rotated_table,sideways along right edge
+2292,139,137,extrapolated,137,rotated_table,sideways along right edge
+2293,27,22,extrapolated,22,rotated_table,sideways along right edge
+2293,67,62,extrapolated,62,rotated_table,sideways along right edge
+2293,107,102,extrapolated,102,rotated_table,sideways along right edge
+2296,67,53,extrapolated,53,rotated_table,top right
+23271,16,13,extrapolated,13,table,"typed, top right"
+23272,16,13,between_disagreeing_pages,12,table,"typed ""12-A"" at top right"
+23272,17,13,between_disagreeing_pages alt,13,table,"typed ""-13-"" top centre, second digit overstruck"
+23272,17,14,between_disagreeing_pages,13,table,"typed ""-13-"" top centre, second digit overstruck"
+23272,18,14,between_disagreeing_pages alt,14,table,"typed ""-14-"" top centre"
+23272,18,15,between_disagreeing_pages,14,table,"typed ""-14-"" top centre"
+23272,19,15,between_disagreeing_pages alt,15,table,"typed ""-15-"" top centre"
+23321,47,43,extrapolated,43,table,top left
+23321,51,47,extrapolated,47,table,top left
+23321,54,50,extrapolated,50,table,top right
+23838,35,32,extrapolated,33,table,top right
+23838,36,33,extrapolated,34,table,top right
+2505,251,230,between_disagreeing_pages,230,rotated_table,top left
+2505,251,230,between_disagreeing_pages alt,230,rotated_table,top left
+2505,253,232,between_disagreeing_pages,232,rotated_table,top left
+2505,253,232,between_disagreeing_pages alt,232,rotated_table,top left
+2505,254,233,between_disagreeing_pages,233,rotated_table,top right
+2505,254,233,between_disagreeing_pages alt,233,rotated_table,top right
+25084,72,170,extrapolated,170,rotated_table,sideways along right edge
+25084,79,177,extrapolated,177,rotated_table,sideways along right edge
+25084,85,183,extrapolated,183,rotated_table,sideways along right edge
+2585,152,152,not_found (showing pdf page = printed),130,rotated_table,top left
+2585,156,156,not_found (showing pdf page = printed),134,rotated_table,top left
+2585,160,160,not_found (showing pdf page = printed),138,rotated_table,top left
+2668,135,129,extrapolated,129,rotated_table,"top right, speckled scan"
+2668,141,135,extrapolated,135,rotated_table,"top right, speckled scan"
+2668,147,141,extrapolated,141,rotated_table,top right
+2805,11,4,extrapolated,5,table,top right
+2805,14,7,extrapolated,7,text,top right
+2805,15,8,extrapolated,8,text,top left
+2964,63,50,extrapolated,50,rotated_table,top left
+2964,78,65,extrapolated,65,rotated_table,top right
+2964,93,80,extrapolated,80,rotated_table,top left
+2978,39,175,between_disagreeing_pages,177,rotated_table,top right
+2978,38,175,between_disagreeing_pages alt,176,rotated_table,top left
+2978,39,175,between_disagreeing_pages alt,177,rotated_table,top right
+2978,83,219,between_disagreeing_pages,221,rotated_table,top right
+2978,82,219,between_disagreeing_pages alt,220,rotated_table,top left
+2978,83,219,between_disagreeing_pages alt,221,rotated_table,top right
+2978,127,263,between_disagreeing_pages,265,text,top right; drillers logs
+2978,126,263,between_disagreeing_pages alt,264,text,top left; drillers logs
+2978,127,263,between_disagreeing_pages alt,265,text,top right; drillers logs
+3312,211,198,extrapolated,198,rotated_table,sideways along right edge
+3312,217,204,extrapolated,204,rotated_table,sideways along right edge
+3312,223,210,extrapolated,210,rotated_table,sideways along right edge
+3348,58,52,extrapolated,52,text,top left
+3348,62,56,extrapolated,56,text,top left
+3348,65,59,extrapolated,59,table,top right
+3715,38,34,extrapolated,34,rotated_table,sideways along right edge
+3715,39,35,extrapolated,35,rotated_table,sideways along right edge
+3715,40,36,extrapolated,36,rotated_table,sideways along right edge
+3718,98,90,extrapolated,90,rotated_table,sideways along right edge
+3718,101,93,extrapolated,93,rotated_table,sideways along right edge
+3718,103,95,extrapolated,95,rotated_table,sideways along right edge
+52002,4,4,not_found (showing pdf page = printed),3,text,"typed ""-3-"" top centre"
+52002,5,5,not_found (showing pdf page = printed),4,table,LOW CONFIDENCE: small smudged sideways mark at lower right that looks like 4
+52059,262,258,extrapolated,258,rotated_table,sideways along right edge
+52059,269,265,extrapolated,265,rotated_table,sideways along right edge
+52059,275,271,extrapolated,271,rotated_table,sideways along right edge
+52938,8,8,not_found (showing pdf page = printed),,table,"wide landscape table, no page number visible"
+52938,9,9,not_found (showing pdf page = printed),,table,"wide landscape table, no page number visible"
+52985,44,39,extrapolated,40,rotated_table,sideways along right edge
+52985,67,62,extrapolated,63,rotated_table,sideways along right edge
+52985,90,85,extrapolated,86,rotated_table,sideways along right edge; table footnotes
+52986,151,138,extrapolated,138,rotated_table,sideways along right edge
+52986,218,205,extrapolated,205,rotated_table,sideways along right edge
+52986,284,271,extrapolated,271,rotated_table,sideways along right edge
+53769,97,91,extrapolated,,table,no page number visible
+53769,101,95,extrapolated,,table,no page number visible
+53769,105,99,extrapolated,,table,only a clipped illegible mark at top right corner
+70178708,86,85,extrapolated,85,rotated_table,sideways in left margin
+70178708,92,91,extrapolated,91,rotated_table,sideways in left margin
+70178708,97,96,extrapolated,96,rotated_table,sideways in left margin

@@ -1,0 +1,692 @@
+n,report,pdf_page,label,note
+1,2115,395.0,table,wells tables
+2,2978,81.0,table,"well records table, sideways"
+3,2225,319.0,table,"typical wells table, sideways"
+4,1135,279.0,table,deep wells records table
+5,2292,50.0,table,"well records table, sideways"
+6,57116,74.0,table,"well records table, one data row"
+7,2907,314.0,no_table,text only
+8,2907,268.0,no_table,text only
+9,2116,49.0,table,wells table below text
+10,2749,395.0,table,water-level measurements table
+11,2885,84.0,table,small springs table
+12,2907,162.0,no_table,text only
+13,2907,148.0,table,"well records table, sideways"
+14,2754,174.0,table,"well records table, sideways"
+15,2430,206.0,table,dug wells tables
+16,1983,94.0,table,wells table
+17,52059,261.0,no_table,footnotes key text only
+18,52019,14.0,table,well records table
+19,2795,268.0,table,water-level measurements table
+20,1983,96.0,table,wells table
+21,25084,78.0,table,"well records table, sideways"
+22,32883,198.0,table,representative wells table
+23,32883,184.0,table,representative wells table
+24,2292,115.0,table,"well records table, sideways"
+25,32883,168.0,table,representative wells table
+26,2115,268.0,table,small wells table above text
+27,2907,317.0,no_table,text and graph
+28,52986,194.0,table,well records table
+29,23838,21.0,table,well records table
+30,70178708,87.0,table,"wells table, sideways"
+31,52985,53.0,table,well records table
+32,2749,421.0,table,water-level measurements table
+33,2115,180.0,table,wells table above text
+34,32883,161.0,table,representative wells table
+35,2907,318.0,no_table,text only
+36,2429,147.0,table,small dug wells table below text
+37,2585,158.0,table,"waters analyses table, sideways"
+38,2749,380.0,table,water-level measurements table
+39,2429,109.0,table,wells and springs tables
+40,2292,44.0,table,"well records table, sideways"
+41,2291,97.0,table,"well records table, sideways"
+42,2225,473.0,no_table,text only
+43,2060,387.0,table,"well records table end, sideways"
+44,2907,283.0,no_table,text only
+45,2805,59.0,table,artesian wells table plus single-column well record
+46,32883,193.0,table,representative wells table
+47,2292,53.0,table,"well records table, sideways"
+48,2293,75.0,table,"well records table, sideways"
+49,2116,252.0,table,wells table above text
+50,53769,101.0,table,well records table
+51,2430,200.0,table,wells and springs tables plus text
+52,52059,274.0,table,well records table
+53,2430,114.0,table,dug wells tables
+54,2756,231.0,table,wells table below text
+55,2756,182.0,table,wells table below text
+56,2280,285.0,table,"wells and analyses table, sideways"
+57,24731,21.0,table,well records table
+58,2756,286.0,no_table,text only
+59,23838,27.0,table,well records table
+60,2135,37.0,table,"well records table, sideways"
+61,2293,93.0,table,"well records table, sideways"
+62,2293,92.0,table,"well records table, sideways"
+63,2097,101.0,table,"well records table, sideways"
+64,25084,73.0,table,"well records table, sideways"
+65,3313,51.0,table,water-level measurement tables
+66,2225,340.0,no_table,text only
+67,2292,79.0,table,"well records table, sideways"
+68,1305,93.0,table,water-level tables
+69,2293,58.0,table,"well records table, sideways"
+70,2429,98.0,table,dug wells table below text
+71,3133,21.0,table,"well records table, sideways"
+72,2115,117.0,table,wells tables plus short well record
+73,1721,135.0,table,dug wells tables below text
+74,52985,52.0,table,well records table
+75,1983,92.0,table,wells table
+76,2292,89.0,table,"well records table, sideways"
+77,32883,188.0,table,representative wells table
+78,22508,22.0,table,well records table
+79,3313,43.0,table,water-level measurement tables
+80,2430,150.0,table,wells tables
+81,1105,72.0,table,partial list of wells table below text
+82,2115,171.0,table,"small wells table, text and sketch map"
+83,24731,24.0,table,well records table
+84,2430,221.0,table,dug wells table
+85,2756,375.0,table,wells table plus text
+86,2503,392.0,table,water-level tables
+87,2907,177.0,no_table,text only
+88,52986,265.0,table,well records table
+89,1180,77.0,table,representative wells table below text
+90,2907,233.0,borderline,"log of boring under headed columns, thickness and depth plus grain size"
+91,2756,492.0,table,wells table plus text
+92,2292,69.0,table,"well records table, sideways"
+93,2651,157.0,table,"well records table, sideways"
+94,23272,18.0,table,well records table
+95,1070,221.0,table,wells and springs table below text
+96,1721,73.0,table,dug wells table
+97,2962,54.0,table,water-level tables
+98,2147,110.0,table,"well records table, sideways"
+99,3313,54.0,table,water-level measurement tables
+100,52059,176.0,table,chemical analyses table
+101,1070,185.0,table,wells and springs tables plus text
+102,52016,11.0,table,well records table
+103,1246,85.0,table,artesian wells table
+104,2749,367.0,table,water-level measurements table
+105,2429,157.0,table,wells tables
+106,2116,232.0,table,flowing wells table plus text
+107,2430,157.0,table,dug wells tables
+108,2749,385.0,table,water-level measurements table
+109,2430,199.0,table,dug wells table
+110,53769,105.0,table,well records table
+111,2907,252.0,no_table,text only
+112,1070,189.0,table,wells table
+113,1805,71.0,table,well records table below text
+114,1070,169.0,table,wells and springs tables plus text
+115,2504,27.0,table,daily water level table
+116,1774,27.0,table,"chemical analyses table, sideways"
+117,1108,81.0,table,typical wells table
+118,2115,115.0,table,wells table
+119,2907,196.0,table,"well records table, sideways"
+120,2978,76.0,table,"well records table, sideways"
+121,2978,50.0,table,"well records table, sideways"
+122,2907,259.0,no_table,well log single column with depth
+123,1341,406.0,table,"artesian wells table, sideways"
+124,2279,174.0,table,"chemical analyses table, sideways"
+125,22508,20.0,table,well records table
+126,2907,153.0,no_table,text only
+127,1135,281.0,table,deep wells records table
+128,3716,36.0,table,well records table
+129,2293,97.0,table,"well records table, sideways"
+130,25084,74.0,table,"well records table, sideways"
+131,2907,137.0,no_table,text only
+132,2907,208.0,borderline,well logs under headed thickness and depth columns
+133,1983,80.0,table,wells table
+134,2292,91.0,table,"well records table, sideways"
+135,52059,268.0,table,well records table
+136,2885,75.0,table,wells and springs tables
+137,2754,287.0,table,"wells table, sideways"
+138,2907,170.0,no_table,text only
+139,52986,163.0,table,well records table
+140,23128,14.0,table,well records table
+141,3313,42.0,table,water-level measurement tables
+142,32883,166.0,table,representative wells table
+143,2035,153.0,table,"well records table, sideways"
+144,1805,73.0,table,well records table
+145,1305,24.0,table,water-level tables
+146,24731,26.0,table,well records table
+147,1341,378.0,table,"artesian wells table, sideways"
+148,1070,157.0,table,wells tables
+149,2807,144.0,table,"well records table, sideways"
+150,2668,136.0,table,"wells and springs table, sideways"
+151,2907,312.0,no_table,text only
+152,2907,224.0,borderline,"well log under headed thickness and depth columns, plus text"
+153,23506,27.0,table,well records table
+154,2502,211.0,table,water-level tables
+155,1707,182.0,table,well records table
+156,52985,84.0,table,well records table
+157,2961,146.0,table,"well records table, sideways"
+158,3313,31.0,table,water-level measurement tables
+159,1274,333.0,table,wells and springs table
+160,1070,164.0,table,wells and springs tables
+161,2060,421.0,table,"well records table, sideways"
+162,1723,123.0,table,"well records table, sideways"
+163,2978,58.0,table,"well records table, sideways"
+164,22508,24.0,table,well records table
+165,2116,131.0,table,small wells table below text
+166,25084,75.0,table,"well records table, sideways"
+167,2293,74.0,table,"well records table, sideways"
+168,2060,392.0,table,"well records table, sideways"
+169,1246,146.0,table,artesian wells tables plus text
+170,2293,78.0,table,"well records table, sideways"
+171,2292,55.0,table,"well records table, sideways"
+172,2060,388.0,table,"well records table, sideways"
+173,2292,71.0,table,"well records table, sideways"
+174,3716,34.0,table,well records table with key text
+175,2115,318.0,table,wells table plus short log and analyses
+176,2293,106.0,table,"well records table, sideways"
+177,2502,204.0,table,water-level tables
+178,2430,198.0,table,dug wells table below text
+179,22508,32.0,table,well records table
+180,2430,151.0,table,springs table and chemical table plus text
+181,2807,134.0,table,"springs records table, sideways"
+182,2907,302.0,no_table,"figure, graphic well log"
+183,1135,267.0,table,deep wells records table
+184,1135,265.0,table,deep wells records table
+185,1305,53.0,table,water-level table
+186,23838,28.0,table,well records table
+187,1983,79.0,table,well data table
+188,52986,235.0,table,well records table
+189,2504,29.0,table,daily water level table
+190,2279,177.0,table,"chemical analyses table, sideways"
+191,52059,245.0,borderline,well logs under headed thickness and depth columns
+192,2060,407.0,table,"well records table, sideways"
+193,2978,68.0,table,"well records table, sideways"
+194,2503,294.0,table,"well records table, sideways"
+195,2961,153.0,table,"well records table, sideways"
+196,2293,68.0,table,"well records table, sideways"
+197,2279,176.0,table,"chemical analyses table, sideways"
+198,2907,251.0,no_table,text only
+199,2060,397.0,table,"well records table, sideways"
+200,3313,59.0,table,water-level measurement tables
+201,2504,30.0,table,daily water level table
+202,2505,253.0,table,"typical wells table, sideways"
+203,4786,26.0,table,well records table
+204,2805,33.0,table,artesian wells table plus single-column well record
+205,2194,35.0,table,"well records table, sideways"
+206,1305,134.0,table,water-level tables
+207,3313,47.0,table,water-level measurement tables
+208,2907,272.0,borderline,"well logs under headed thickness and depth columns, plus text"
+209,2907,267.0,no_table,text only
+210,23838,23.0,table,well records table
+211,2060,427.0,table,"well records table, sideways"
+212,22508,29.0,table,well records table
+213,2978,74.0,table,"well records table, sideways"
+214,32883,167.0,table,representative wells table
+215,22508,23.0,table,well records table
+216,2035,130.0,table,"well records table, sideways"
+217,2430,166.0,table,wells and springs tables plus text
+218,2795,360.0,table,daily depth to water tables
+219,2116,213.0,table,wells table
+220,23272,19.0,table,well records table
+221,23126,22.0,table,well records table
+222,2978,110.0,table,"well records table, sideways"
+223,2225,458.0,table,"typical wells table, sideways"
+224,2292,107.0,table,"well records table, sideways"
+225,2907,342.0,no_table,text only
+226,52985,54.0,table,well records table
+227,2060,409.0,table,"well records table, sideways"
+228,2907,190.0,no_table,text only
+229,52986,212.0,table,well records table
+230,2504,21.0,table,water-level table
+231,2292,64.0,table,"well records table, sideways"
+232,53769,99.0,table,well records table
+233,2225,365.0,no_table,text only
+234,2430,207.0,table,wells and springs tables with text
+235,3348,60.0,table,well records table rotated
+236,2907,143.0,no_table,text only
+237,2296,65.0,table,list of wells table rotated
+238,2907,248.0,table,well records table rotated
+239,1246,169.0,table,artesian wells table with text
+240,2756,454.0,table,wells table; also well log with thickness and depth
+241,2293,105.0,table,well records table
+242,2429,89.0,table,wells and springs tables with text
+243,2749,353.0,table,depth to water measurements table
+244,1070,163.0,table,wells tables
+245,23272,21.0,table,well records table
+246,2060,396.0,table,well records table
+247,52059,174.0,table,chemical analyses table
+248,2292,83.0,table,well records table
+249,22508,21.0,table,well records table
+250,1341,424.0,table,well records table rotated
+251,2097,67.0,table,shallow wells table
+252,2749,396.0,table,depth to water measurements table
+253,1070,176.0,table,wells and springs tables
+254,2964,92.0,table,well records table rotated
+255,2749,376.0,table,depth to water measurements table
+256,2225,307.0,no_table,text only
+257,2749,345.0,table,depth to water measurements table
+258,2749,427.0,table,depth to water measurements table
+259,2907,215.0,no_table,text only
+260,1070,223.0,table,wells and springs tables
+261,23838,26.0,table,well records table
+262,1983,81.0,table,well data table
+263,23506,29.0,table,well records table
+264,23271,16.0,table,well records table
+265,52986,200.0,table,well records table
+266,2964,76.0,table,well records table rotated
+267,2795,255.0,table,water level table with well descriptions
+268,32883,171.0,table,representative wells table
+269,2962,51.0,table,water level tables
+270,1983,82.0,table,wells table
+271,2907,152.0,table,water analyses table with text
+272,2060,420.0,table,well records table
+273,2756,189.0,no_table,text only
+274,32883,203.0,table,representative wells table
+275,2291,55.0,table,well records table rotated
+276,1104,111.0,table,test holes and wells records table rotated
+277,2907,333.0,no_table,graph and text
+278,3715,38.0,table,well records table
+279,32883,173.0,table,representative wells table
+280,937,30.0,table,well records table rotated
+281,2668,138.0,table,wells and springs records table rotated
+282,2651,151.0,table,well records table rotated
+283,1314,72.0,table,dug wells table with text
+284,2060,417.0,table,well records table
+285,2749,356.0,table,depth to water measurements table
+286,32883,157.0,table,representative wells table
+287,2430,132.0,table,dug wells table with text
+288,23272,23.0,table,well records table
+289,2116,259.0,table,wells table with text
+290,2503,322.0,table,well records table rotated
+291,3313,27.0,table,water level measurement tables
+292,2907,338.0,no_table,figure and text
+293,52985,63.0,table,well records table
+294,2137,36.0,table,well records table
+295,2429,170.0,table,dug wells tables
+296,3313,28.0,table,water level measurement tables
+297,1312,257.0,no_table,text only
+298,2907,183.0,no_table,text only
+299,2430,164.0,table,dug wells table
+300,2429,80.0,table,drilled wells table with text
+301,2293,80.0,table,well records table
+302,2749,362.0,table,depth to water measurements table
+303,52059,162.0,table,chemical analyses table
+304,2097,70.0,table,well records table
+305,2291,121.0,table,well records table rotated
+306,32883,182.0,table,representative wells table
+307,2060,424.0,table,well records table
+308,937,39.0,table,wells and springs records table rotated
+309,2060,390.0,table,well records table
+310,52986,76.0,table,"flowing wells table continued, with text"
+311,2115,179.0,table,well records table
+312,2503,403.0,table,water level tables
+313,2885,33.0,table,dug wells table
+314,2978,124.0,table,well records table rotated
+315,2756,175.0,table,wells table with text
+316,2060,422.0,table,well records table
+317,2225,389.0,no_table,text only
+318,1135,273.0,table,deep well records table
+319,2225,463.0,borderline,well logs under thickness and depth columns
+320,2756,170.0,table,wells table with text
+321,4793,31.0,table,wells and springs table with text
+322,2964,86.0,table,well records table rotated
+323,1805,74.0,table,well records table
+324,24731,22.0,table,well records table
+325,1723,119.0,table,well records table rotated
+326,23506,31.0,table,well records table
+327,2293,48.0,table,well records table
+328,2756,167.0,table,wells table with text
+329,2978,86.0,table,well records table rotated
+330,1070,177.0,table,wells and springs table
+331,2749,387.0,table,depth to water measurements table
+332,2907,332.0,table,small pumpage table within text
+333,2749,348.0,table,depth to water measurements table
+334,2907,157.0,no_table,text only
+335,2795,331.0,table,water level tables
+336,2978,104.0,table,well records table rotated
+337,52019,13.0,table,well records table
+338,2756,381.0,no_table,text only
+339,24731,20.0,table,well records table
+340,23838,25.0,table,well records table
+341,2962,25.0,table,well records table
+342,2907,340.0,no_table,text only
+343,2795,216.0,table,water level table with well descriptions
+344,1070,212.0,table,wells and springs table
+345,2292,109.0,table,well records table
+346,1983,90.0,table,well records table
+347,2291,103.0,table,well records table rotated
+348,1774,30.0,table,water analyses table rotated
+349,2291,82.0,table,well records table rotated
+350,2964,78.0,table,well records table rotated
+351,2115,304.0,table,wells table with notes
+352,2964,74.0,table,well records table rotated
+353,52985,89.0,table,well records table
+354,2749,375.0,table,depth to water measurements table
+355,2749,400.0,table,depth to water measurements table
+356,2795,323.0,no_table,well descriptions as text
+357,2035,127.0,table,well records table rotated
+358,23270,9.0,table,well records table
+359,2907,222.0,no_table,text only
+360,2749,374.0,table,depth to water measurements table
+361,52002,5.0,table,well records table
+362,1070,152.0,table,dug wells table with text
+363,2292,124.0,table,well records table
+364,2756,371.0,table,wells table with text and analysis list
+365,2505,195.0,table,well records table rotated
+366,2291,149.0,table,well records table rotated
+367,2504,35.0,table,daily water level table
+368,23272,24.0,table,well records table
+369,1305,88.0,table,water level tables
+370,52059,181.0,table,chemical analyses table
+371,23838,29.0,table,well records table
+372,70178708,97.0,table,small well records table
+373,2430,149.0,table,dug wells table with text
+374,2907,328.0,no_table,text only
+375,2292,43.0,table,well records table
+376,32883,156.0,table,representative wells table
+377,2226,179.0,table,wells table rotated
+378,2650,127.0,table,well records table
+379,2060,401.0,table,well records table
+380,1314,56.0,table,dug wells table
+381,23270,10.0,table,well records table
+382,2132,82.0,table,well records table
+383,52985,57.0,table,well records table
+384,2795,309.0,table,water level table
+385,23128,13.0,table,well records table
+386,52059,231.0,borderline,well log under thickness and depth columns
+387,1789,28.0,table,well records table rotated
+388,2115,297.0,table,wells tables
+389,2503,304.0,table,well records table rotated
+390,2429,138.0,table,dug wells tables with text
+391,2403,259.0,table,village supplies and wells tables
+392,2749,422.0,table,depth to water measurements table
+393,3313,48.0,table,water level measurement tables
+394,2074,81.0,table,springs table
+395,2292,73.0,table,well records table
+396,2907,307.0,no_table,text only
+397,2293,45.0,table,well records table
+398,1341,355.0,no_table,text only
+399,1723,155.0,table,well records table rotated
+400,2795,315.0,no_table,well descriptions as text
+401,2502,203.0,table,depth to water measurements tables
+402,2795,305.0,no_table,well descriptions as text
+403,2291,81.0,table,well records table rotated
+404,2430,184.0,table,wells tables
+405,2907,191.0,no_table,text only
+406,52016,12.0,table,well records table
+407,3312,222.0,table,well records table
+408,2964,88.0,table,well records table rotated
+409,1314,44.0,table,dug wells table with text
+410,1721,132.0,table,wells and springs tables with text
+411,32892,111.0,table,artesian wells table within text; also single column log
+412,1246,91.0,table,artesian wells table with text
+413,2907,230.0,borderline,well log under thickness and depth columns
+414,24731,27.0,table,well records table
+415,2907,329.0,no_table,graph and text
+416,2132,93.0,table,well records table
+417,2429,129.0,table,dug wells tables
+418,1341,361.0,table,well records table rotated
+419,2429,139.0,table,drilled wells table with text
+420,2293,52.0,table,well records table
+421,52018,14.0,table,well records table (faint grey scan)
+422,2749,334.0,table,depth to water measurements table
+423,1104,110.0,table,well records table rotated
+424,2651,145.0,table,well records table rotated
+425,2756,259.0,table,wells table with text
+426,1063,25.0,table,well records table
+427,23321,48.0,table,well records table
+428,2292,51.0,table,well records table
+429,3313,58.0,table,water level measurement tables
+430,23506,26.0,table,well records table
+431,22508,26.0,table,well records table
+432,2295,165.0,table,well statistics table rotated
+433,2293,73.0,table,well records table
+434,2961,143.0,table,well records table rotated
+435,3313,37.0,table,water level measurement tables
+436,2756,196.0,table,wells table with text
+437,2116,55.0,table,wells table with text
+438,2293,41.0,table,well records table
+439,22508,17.0,table,well records table
+440,2060,393.0,table,well records table
+441,2885,62.0,table,wells and springs tables
+442,1063,23.0,table,well records table
+443,2756,227.0,table,water analyses table with text
+444,2060,384.0,table,well records table
+445,1305,126.0,table,water level records table
+446,1063,24.0,table,well records table
+447,2291,99.0,table,well records table rotated
+448,22508,18.0,table,well records table
+449,2292,113.0,table,well records table
+450,1723,154.0,table,well records table rotated
+451,2907,313.0,no_table,text only
+452,4786,29.0,table,small well records table with text
+453,23128,12.0,table,well records table
+454,2503,393.0,table,ground-water level tables
+455,4771,12.0,table,well records table
+456,2756,395.0,no_table,text with single column well log
+457,2907,188.0,table,well records table rotated
+458,3313,22.0,table,water level measurement tables
+459,23321,54.0,table,well records table
+460,2293,34.0,table,well records table
+461,2060,389.0,table,well records table
+462,2292,57.0,table,well records table
+463,2749,347.0,table,depth to water measurements table
+464,2226,177.0,table,wells table rotated
+465,2292,128.0,table,wells table
+466,2907,334.0,no_table,text and graph figure
+467,52059,179.0,table,chemical analyses table
+468,2907,138.0,no_table,text only
+469,24731,25.0,table,well records table
+470,2293,98.0,table,well records table
+471,2115,120.0,table,wells tables plus text
+472,1312,252.0,no_table,text only
+473,24731,23.0,table,well records table
+474,1070,173.0,table,text plus dug wells table
+475,3313,40.0,table,water level measurements tables
+476,2292,76.0,table,wells table
+477,52986,199.0,table,well records table
+478,2293,43.0,table,wells table
+479,1070,190.0,table,wells tables
+480,2293,56.0,table,well records table
+481,2225,424.0,table,typical wells table
+482,2225,373.0,no_table,text only
+483,52986,210.0,table,well records table
+484,2225,489.0,no_table,text only
+485,1983,84.0,table,wells table
+486,52985,78.0,table,well records table
+487,2292,49.0,table,well records table
+488,2429,88.0,table,dug and drilled wells tables
+489,2292,87.0,table,well records table
+490,2430,213.0,table,text plus dug wells table
+491,2907,277.0,no_table,text only
+492,2060,412.0,table,well records table
+493,2115,225.0,table,wells table plus text
+494,52059,271.0,table,well records table
+495,2116,51.0,table,text plus wells table
+496,2504,28.0,table,daily water level table
+497,2293,102.0,table,well records table
+498,4780,23.0,table,text plus well records table
+499,22508,25.0,table,well records table
+500,2430,215.0,table,"drilled wells and springs tables, small section, text"
+501,2795,341.0,table,well descriptions plus daily depth to water table
+502,2060,394.0,table,well records table
+503,1135,271.0,table,rotated deep well records table
+504,23321,51.0,table,wells and springs records table
+505,2754,225.0,table,rotated wells table
+506,2503,397.0,table,ground-water levels table
+507,2907,290.0,no_table,text only
+508,2503,327.0,table,rotated well records table
+509,2885,34.0,table,"dug, drilled wells and springs tables"
+510,3312,221.0,table,well records table
+511,32883,204.0,table,representative wells table
+512,1070,219.0,table,wells and springs tables plus text
+513,2293,76.0,table,well records table
+514,23128,11.0,table,well records table
+515,2291,83.0,table,rotated wells table
+516,23126,23.0,table,well records table
+517,4785,33.0,table,well records table
+518,2756,205.0,table,text plus wells table
+519,52059,180.0,table,chemical analyses table
+520,1314,50.0,table,"dug, drilled wells and springs tables"
+521,2060,419.0,table,well records table
+522,23272,22.0,table,well records table
+523,2650,125.0,table,well records table
+524,1305,150.0,table,water level records tables
+525,4786,28.0,table,well records table
+526,22508,27.0,table,well records table
+527,2060,423.0,table,end of well records table plus footnotes
+528,23272,20.0,table,well records table
+529,2907,136.0,no_table,text only
+530,2060,428.0,table,well records table
+531,2907,189.0,table,water analyses table plus text
+532,2060,395.0,table,well records table
+533,2225,295.0,table,text plus water resources tables
+534,2907,330.0,no_table,text only
+535,2430,135.0,table,drilled wells and springs tables plus text
+536,2756,237.0,no_table,text only
+537,1070,200.0,table,driven and drilled wells tables
+538,1707,191.0,table,well records table
+539,2292,119.0,table,well records table
+540,52985,51.0,table,well records table
+541,2293,84.0,table,well records table
+542,22508,31.0,table,well records table
+543,52059,218.0,borderline,test hole log under headed thickness and depth columns
+544,2962,52.0,table,water level tables
+545,2749,412.0,table,depth to water measurements table
+546,2430,82.0,table,text plus dug wells table
+547,1721,83.0,table,dug wells table
+548,22508,19.0,table,well records table
+549,2795,261.0,table,water level measurements table
+550,1721,145.0,table,dug wells tables
+551,1305,85.0,table,water level records table
+552,2754,259.0,table,rotated well records table
+553,2116,50.0,table,well table plus text
+554,2504,25.0,table,daily water levels table
+555,1246,147.0,table,text plus artesian wells table
+556,2749,388.0,table,depth to water measurements table
+557,2749,331.0,table,depth to water measurements table
+558,2907,184.0,borderline,text plus well log under headed thickness and depth columns
+559,2225,332.0,no_table,text only
+560,2097,68.0,table,well records table
+561,2754,175.0,table,rotated well records table
+562,2293,104.0,table,well records table
+563,2292,123.0,table,well records table
+564,3717,40.0,table,well records table
+565,2115,243.0,table,wells table plus text
+566,23321,52.0,table,well records table
+567,2293,49.0,table,well records table
+568,2060,405.0,table,well records table
+569,2503,331.0,table,rotated well records table
+570,2964,80.0,table,rotated well records table
+571,2756,378.0,table,text plus wells table
+572,1305,46.0,table,water level records table
+573,2292,45.0,table,well records table
+574,2430,99.0,table,drilled wells and springs tables
+575,2749,415.0,table,depth to water measurements table
+576,2978,116.0,table,rotated well records table
+577,2907,301.0,no_table,text only
+578,2964,84.0,table,rotated well records table
+579,2060,426.0,table,well records table
+580,1805,75.0,table,well records table
+581,1135,276.0,table,deep well records table
+582,1341,408.0,table,rotated artesian well records table
+583,2749,365.0,table,depth to water measurements table
+584,1341,365.0,table,rotated well records table
+585,2907,186.0,table,rotated well records table
+586,2194,33.0,table,rotated well records table
+587,2430,220.0,table,text plus dug wells table
+588,2805,50.0,table,"flowing wells table, single column log, analysis"
+589,2430,222.0,table,wells and springs tables
+590,2591,60.0,table,rotated well data table
+591,2074,67.0,table,deep wells table
+592,2907,339.0,no_table,text only
+593,2756,285.0,table,wells table plus text
+594,1135,274.0,table,deep well records table
+595,32883,185.0,table,representative wells table
+596,1341,432.0,no_table,blank
+597,2907,212.0,table,rotated well records table
+598,2907,214.0,table,water analyses table plus text
+599,1340,94.0,table,rotated well records table
+600,2795,250.0,table,daily depth to water tables
+601,2292,133.0,table,well records table
+602,2756,209.0,table,text plus small wells table
+603,1274,350.0,table,wells table plus single column log
+604,52002,6.0,table,faint well records table
+605,23272,17.0,table,well records table
+606,2592,74.0,table,wells table
+607,2115,93.0,table,text plus small wells table
+608,2907,163.0,no_table,text only
+609,52059,267.0,table,well records table
+610,2292,99.0,table,well records table
+611,2907,156.0,table,water analyses table plus text
+612,2962,24.0,table,well records table
+613,2756,318.0,borderline,"well log under headed thickness and depth columns, plus text"
+614,1179,64.0,table,rotated artesian wells table
+615,2795,312.0,table,daily depth to water tables
+616,2291,113.0,table,rotated wells table
+617,2292,117.0,table,well records table
+618,23506,28.0,table,well records table
+619,2756,327.0,table,text plus wells table
+620,3715,39.0,table,well records table
+621,2907,311.0,table,water analyses tables plus text
+622,32883,194.0,table,representative wells table
+623,52059,164.0,table,chemical analyses table
+624,2403,285.0,table,typical wells table
+625,2292,129.0,table,well records table
+626,2907,174.0,table,rotated well records table
+627,2907,316.0,no_table,graph figure
+628,3717,39.0,table,well records table
+629,2756,299.0,table,wells table plus text
+630,2429,100.0,table,"drilled wells table, text, population table"
+631,2795,205.0,no_table,well records as running text
+632,2116,238.0,table,text plus wells table
+633,2907,331.0,no_table,text only
+634,52986,223.0,table,well records table
+635,1063,29.0,table,well records table
+636,2293,62.0,table,well records table
+637,2756,165.0,no_table,text only
+638,2749,409.0,table,depth to water measurements table
+639,1246,125.0,table,"single column log, artesian wells table, text"
+640,2885,55.0,table,drilled wells and springs tables
+641,2907,291.0,no_table,text only
+642,2291,104.0,table,rotated wells table
+643,2060,386.0,table,well records table
+644,52985,46.0,table,well records table
+645,2225,475.0,no_table,text only
+646,32892,107.0,table,"text, artesian wells table, single column log"
+647,2961,151.0,table,rotated well records table
+648,2907,198.0,no_table,text only
+649,1707,180.0,table,well records table
+650,2756,499.0,table,wells tables
+651,937,44.0,table,rotated well records table
+652,2749,420.0,table,depth to water measurements table
+653,2795,271.0,table,water level measurements tables
+654,2749,381.0,table,depth to water measurements table
+655,2907,254.0,table,rotated well records table
+656,53769,97.0,table,well records table
+657,2292,77.0,table,well records table
+658,2907,320.0,no_table,text only
+659,2116,100.0,table,flowing wells tables with footnotes
+660,2430,192.0,table,dug wells table
+661,3313,41.0,table,water level measurements tables
+662,1774,26.0,table,rotated water analyses table
+663,52059,192.0,borderline,test hole logs under headed thickness and depth columns
+664,2749,325.0,table,depth to water measurements table
+665,2756,310.0,no_table,text plus single column well log
+666,52059,182.0,table,chemical analyses table
+667,2754,173.0,table,rotated well records table
+668,2132,99.0,table,wells table
+669,2291,88.0,table,rotated wells table
+670,2756,485.0,table,wells tables
+671,23271,15.0,table,well records table
+672,1341,433.0,no_table,index
+673,2060,398.0,table,well records table
+674,52985,56.0,table,well records table
+675,2502,208.0,table,depth to water measurements tables
+676,937,36.0,table,rotated well records table
+677,1983,88.0,table,wells table
+678,2293,38.0,table,well records table
+679,52985,85.0,table,well records table
+680,2756,333.0,table,text plus wells tables
+681,2749,336.0,table,depth to water measurements table
+682,4793,32.0,table,wells and springs records table
+683,1246,135.0,table,"text, artesian wells table, single column log"
+684,1343,21.0,table,"single column log, artesian wells list table, text"
+685,2795,273.0,table,water level measurements tables
+686,52059,169.0,table,chemical analyses table
+687,2116,243.0,table,wells table plus text
+688,2291,157.0,table,rotated wells table
+689,2749,371.0,table,depth to water measurements table
+690,2795,206.0,table,well descriptions plus water level tables
+691,2756,487.0,no_table,text only

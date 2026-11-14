@@ -1,0 +1,83 @@
+n,listed_n,report,listed_pdf_page,pdf_page,label,note
+1,42,2225,473,471,no_table,running text
+2,42,2225,473,472,table,typical wells and general water resources tables
+3,42,2225,473,474,borderline,well log(s) under headed Thickness and Depth columns; plus single-column partial log
+4,58,2756,286,284,table,"Table 38 wells in Emanuel County, lower part of page"
+5,58,2756,286,287,borderline,water analysis list: constituent names with a single parts-per-million value column; cannot decide if one value column counts as two aligned columns; rest running text
+6,58,2756,286,288,no_table,running text
+7,66,2225,340,338,borderline,well log(s) under headed Thickness and Depth columns
+8,66,2225,340,339,borderline,well log(s) under headed Thickness and Depth columns; plus single-column partial log and text
+9,66,2225,340,341,table,"fold-out table, typical wells of Duval County; to face page 300"
+10,66,2225,340,342,table,"general water resources of Duval County, then text"
+11,182,2907,302,303,no_table,plate: geologic cross sections through Memphis
+12,182,2907,302,304,no_table,blank page
+13,233,2225,365,363,borderline,"text, then well log(s) under headed Thickness and Depth columns"
+14,233,2225,365,364,borderline,"well log(s) under headed Thickness and Depth columns, then text"
+15,233,2225,365,366,table,"fold-out table, typical wells of Hillsborough County; to face page 322"
+16,233,2225,365,367,no_table,blank page (back of fold-out)
+17,256,2225,307,305,borderline,well log(s) under headed Thickness and Depth columns
+18,256,2225,307,306,borderline,"well log(s) under headed Thickness and Depth columns, then text"
+19,256,2225,307,308,table,"fold-out table, principal wells of Brevard County; to face page 276"
+20,256,2225,307,309,table,"general water resources of Brevard County, with text"
+21,273,2756,189,187,table,"text, then Table 8 wells in Bryan County"
+22,273,2756,189,188,table,Table 8 continued and Table 9 analyses
+23,273,2756,189,190,no_table,running text
+24,297,1312,257,255,table,"fold-out table, Table 60 continued, wells and springs San Diego County; face p. 222, No. 3"
+25,297,1312,257,256,table,"fold-out table, Table 60 continued, wells and springs San Diego County; face p. 222, No. 4"
+26,297,1312,257,258,no_table,running text
+27,297,1312,257,259,no_table,running text with one formula
+28,317,2225,389,387,borderline,well log(s) under headed Thickness and Depth columns
+29,317,2225,389,388,borderline,"well log(s) under headed Thickness and Depth columns, then text"
+30,317,2225,389,390,table,"fold-out table, typical wells of Lake County; to face page 342"
+31,317,2225,389,391,no_table,blank page (back of fold-out)
+32,338,2756,381,379,table,"Table 65 continued and Table 66 analyses, then text"
+33,338,2756,381,380,no_table,running text
+34,338,2756,381,382,no_table,running text
+35,338,2756,381,383,table,"data of test wells near Columbus (multi-column), plus a well log"
+36,374,2907,328,326,no_table,plate: graph of water-level rise in wells
+37,374,2907,328,327,no_table,blank page
+38,398,1341,355,353,no_table,running text with numbered paragraphs
+39,398,1341,355,354,no_table,running text
+40,415,2907,329,327,no_table,blank page
+41,456,2756,395,393,table,"Table 67 continued (short), then text"
+42,456,2756,395,394,no_table,running text
+43,456,2756,395,396,borderline,water analysis list: constituent names with a single parts-per-million value column; cannot decide if one value column counts as two aligned columns; rest running text
+44,456,2756,395,397,no_table,running text
+45,472,1312,252,250,table,"rotated Table 45 continued, wells in San Diego County"
+46,472,1312,252,251,table,"rotated Table 45 continued, detailed well records"
+47,472,1312,252,253,table,"fold-out table, Table 60 wells and springs San Diego County; face p. 222, No. 1"
+48,472,1312,252,254,table,"fold-out table, Table 60 continued; face p. 222, No. 2"
+49,482,2225,373,371,table,typical wells and general water resources of Holmes County
+50,482,2225,373,372,table,"general water resources of Holmes County continued (short), then text"
+51,482,2225,373,374,table,"fold-out table, typical wells of Jackson County; to face page 328"
+52,482,2225,373,375,no_table,blank page (back of fold-out)
+53,484,2225,489,487,no_table,running text
+54,484,2225,489,488,borderline,well log(s) under headed Thickness and Depth columns; plus single-column general log
+55,484,2225,489,490,table,"fold-out table, typical wells of Volusia County; to face page 418"
+56,484,2225,489,491,no_table,running text
+57,529,2907,136,134,no_table,running text
+58,536,2756,237,235,table,"Table 23 wells in Colquitt County, with text"
+59,536,2756,237,236,no_table,running text
+60,536,2756,237,238,borderline,"well log(s) under headed Thickness and Depth columns, with text"
+61,536,2756,237,239,table,"Table 24 wells in Crawford County, then text"
+62,559,2225,332,330,no_table,running text
+63,559,2225,332,333,table,"fold-out table, typical wells of De Soto County; to face page 294"
+64,559,2225,332,334,no_table,blank page (back of fold-out)
+65,577,2907,301,303,no_table,plate: geologic cross sections through Memphis
+66,596,1341,432,434,no_table,index
+67,637,2756,165,164,no_table,running text
+68,637,2756,165,166,borderline,"single-value water analysis list, plus well log(s) under headed Thickness and Depth columns"
+69,645,2225,475,474,borderline,well log(s) under headed Thickness and Depth columns; plus single-column partial log
+70,645,2225,475,476,table,"fold-out table, typical wells of Sumter County; to face page 406"
+71,645,2225,475,477,no_table,blank page (back of fold-out)
+72,658,2907,320,321,no_table,plate: map of alkalinity in Memphis
+73,658,2907,320,322,no_table,fold-out plate: hydrographs
+74,665,2756,310,308,table,"Table 43 analyses of underground waters, then text"
+75,665,2756,310,309,borderline,water analysis list: constituent names with a single parts-per-million value column; cannot decide if one value column counts as two aligned columns; rest running text
+76,665,2756,310,311,no_table,running text
+77,665,2756,310,312,borderline,"single-value water analysis list, plus well log(s) under headed Thickness and Depth columns"
+78,672,1341,433,434,no_table,index
+79,672,1341,433,435,no_table,index
+80,691,2756,487,486,table,"Table 93 analyses of well waters, two sample columns, then text"
+81,691,2756,487,488,borderline,"well log(s) under headed Thickness and Depth columns (short), then text"
+82,691,2756,487,489,no_table,running text

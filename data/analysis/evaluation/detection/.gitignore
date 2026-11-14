@@ -1,0 +1,7 @@
+# page images and sheets are reproducible from the PDFs; keep them out of git
+rendered_pages/
+for_anna/
+*.png
+*.jpg
+!figures/*.png
+run_detection.log
