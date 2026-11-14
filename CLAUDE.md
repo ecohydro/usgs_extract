@@ -1610,6 +1610,10 @@ Supersedes the "PAUSED here" list of Nov 12.
   measurements like "Oct. 4 17 31 | 27 | 9" (633 p81) discrete).
 - Derived: tables the grader called "related" count as derived (25, 31, 58, 63; 59 scored like 31).
 - 2848 p23 stays **Other**.
+- Annette CONFIRMED (Nov 13) the three extra rules: capacity tables stay no_time_series; peaks above base
+  never derived; row 59 (extremes) scored as derived like 31.
+- Collaborator briefing doc (methods update: locations, dates, record type, tribal screen):
+  https://claude.ai/artifact/QKuPpUTwqXAAFfGMaGkAWW
 - Scores (`validation/score_resolution_vs_review.py`): vs settled definitions **59/65**, derived 62/65,
   parameter 53/65. Remaining misses: 3, 9, 32, 37, 62 unclassified; 16 month column -> monthly (truth annual).
 - Catalog (97,717 tables): daily 42,355 · monthly 18,606 · discrete 16,815 · annual 10,492 ·
@@ -1644,3 +1648,30 @@ Supersedes the "PAUSED here" list of Nov 12.
    per-page _metadata.csv content.
 3. HydroShare package into a NEW folder; finish user guide (citation, license, contact).
 4. Housekeeping: .gitignore archive/ and the 193 MB NWIS GW raw file; Git LFS for table-level CSVs.
+
+## STANDING TO-DO — Open-source code package (DO AT THE VERY END, after all analyses are final)
+Annette (Nov 13): publish the code so others can check/follow the date, location, record-type etc. protocols.
+Do NOT build final versions until the analyses are finished. Then:
+1. Neat, succinct scripts (remove dead branches/toggles that were only exploratory; keep the validated rules).
+2. README with instructions + run order (or one `run_pipeline.py`); list inputs/outputs per step.
+3. `fetch_reference_data.py` for the hand-downloaded references: CA GNIS 2021 archive, WBD HUC8/HUC12,
+   DWR Bulletin 118 basins, Census TIGER AIANNH (tribal), SGMA basins.
+4. Script the one-off validation numbers cited in the paper/docs: 400-page "32% not printed" sample,
+   re-analysis of dissertation grades (39%/60% actual coords), stream-check score (158/64), NWIS-vs-PLSS
+   46/63, 1,500-table "poor" spot check, the Oct 28 date_validation_sample draw.
+5. Save the sampling code for groundwater_location_review.csv, gw_scoping sample, gw_earliest_candidates.
+6. Exclude exploratory work (dam vignettes) or put it in a clearly separate folder.
+
+## Session Log — November 13, 2026 (evening) — weekend prep with collaborator
+Goal (Annette): submit manuscript by end of 2026. This weekend: finish analyses, finalize main figures and
+methods, get data + metadata into HydroShare-ready formats. Annette + collaborator write the manuscript;
+Claude provides stats and supporting material only (do NOT write manuscript text unless asked).
+Docs made today (Claude Docs, private until shared):
+- Methods update for collaborator: https://claude.ai/artifact/QKuPpUTwqXAAFfGMaGkAWW
+- Methods summary (all final digitization/metadata steps, incl. original LLM steps): https://claude.ai/artifact/QCwBNwrRiv73ih1hHjXKf8
+- Figure inventory + groundwater example candidates: https://claude.ai/artifact/Uri4yWqM2KkFn66MjN79vs
+  Finding: Santa Ynez River Valley is by far the richest GW basin in the catalog (776 tables, 20 docs,
+  1910-1977, ~60k values) -> candidate to pair GW with the Santa Ynez stream example.
+Wanted next (Annette): one place with all paper stats (final numbers per water category, record types per
+category, date ranges, tables / rows / values) and all accuracy stats (original Phi-4 grades + redo of
+dates, locations, record type, value counts). metadata_accuracy.png lives in code/01_digitization/04_metadata_extraction/.
