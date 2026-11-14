@@ -316,7 +316,7 @@ def _runs(years):
 
 def plausible_years(ys, quotes):
     """Drop OCR century errors and uncorroborated very early years (added 2026-11-04 after
-    pre-1850 dates appeared in Fig 7: '1834' printed for 1934, well IDs '35W-1823', a bare
+    pre-1850 dates appeared in Fig 7 (now Figure 1): '1834' printed for 1934, well IDs '35W-1823', a bare
     '1800' value in a data column).
     1. Century mirror: if the table has an 18xx block and a 19xx block >= 30 years apart, and
        at least half of the 18xx years have their +100 year in the 19xx block, the 18xx

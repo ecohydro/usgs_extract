@@ -135,11 +135,11 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 57549,305,data,1,True,True,"# SAN LUIS REY RIVER BASIN # 11040000 SAN LUIS REY RIVER AT MONSERATE NARROWS, NEAR PALA, CA LOCATIO"
 194,401,data,1,True,True,"PACIFIC SLOPE BASINS IN CALIFORNIA # 11-3350. COSUMNES RIVER AT MICHIGAN BAR, CALIF.--Continued # Su"
 70038397,313,data,1,True,True,"MISCELLANEOUS ANALYSES OF STREAMS IN BEAR RIVER BASIN Chemical analyses, in parts per million, water"
-1140,11,data,1,True,True,# CALIFORNIA. # Stream-flow data in reports of the United States Geological Survey. [Ann.= Annual Re
+1140,11,report_list,1,True,True,# CALIFORNIA. # Stream-flow data in reports of the United States Geological Survey. [Ann.= Annual Re
 3106,4,index_contents,1,True,True,"# CONTENTS Preface Page 111 List of Water-Quality stations, in downstream order, for which records a"
 2249,406,data,2,True,True,"# KLAMATH RIVER BASIN. # Discharge measurements of Coffee Creek at Coffee, Cal., in 1911-12. Date. H"
 2249,81,data,2,True,True," # SURFACE WATER SUPPLY, 1912, PART XI. # Daily discharge, in second-feet, of Arroyo Seco near Pasad"
-583,19,data,2,True,True,RECORDS # OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 The reports listed 
+583,19,report_list,2,True,True,RECORDS # OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 The reports listed 
 1548,236,data,2,True,True,"# SURFACE WATER SUPPLY, 1919 AND 1920, PART XI. Daily discharge, in second-feet, of Cherry Creek nea"
 604,343,data,3,True,True,"# FEATHER RIVER BASIN # FEATHER RIVER BASIN (cont.) Feather River at Nicolaus, Calif. Location. - Wa"
 2809,708,index_contents,1,True,True, # INDEX Geologic structure-Continued Page Ground-water recharge--ontinued Laurel Creek and vicinity
@@ -175,7 +175,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 27067,29,data,1,True,True,Table 3. - -Statistical comparison between water-quality values in the Sacramento River below the Fe
 56419,465,data,1,True,True,"# RUSSIAN RIVER BASIN # 11466500 LAGUNA DE SANTA ROSA NEAR GRATON, CALIF. LOCATION. -- Lat 38°27'10"""
 553,290,data,2,True,True,"# CHICO CREEK BASIN 281 # Chico Creek near Chico, Calif. Location.- Water-stage recorder, lat. 39°46"
-4821,4,data,1,True,True, 3. Sets of the reports may be consulted in the libraries of the principal cities in the United Stat
+4821,4,report_list,1,True,True, 3. Sets of the reports may be consulted in the libraries of the principal cities in the United Stat
 573,216,data,3,True,True," # SAN JOAQUIN RIVER TRIBUTARIES ABOVE FRESNO RIVER # Pitman Creek below, Tamarack Creek, Calif. Loc"
 633,164,data,2,True,True,"# Sisquoc River near Sisquoc, Calif. Location. Water-stage recorder, lat. 34°50'15"" long. 120°10'10"""
 1573,300,data,2,True,True,"# KLAMATH RIVER BASIN # NEW RIVER NEAR DENNY, CALIF. LOCATION. - Water-stage recorder in SE. 1/4 sec"
@@ -474,7 +474,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 583,424,data,2,True,True," # COLUSA AND YQLO BASINS # North Fork Cache Creek near Lower Lake, Calif. Location. - Water-stage r"
 1606,186,data,1,True,True," # Kings River above North Fork, Calif. Location. - Water-stage recorder, lat. 36°52', long. 119°07'"
 70038668,341,data,2,True,True,"# SAN FRANCISQUITO CREEK BASIN # 11-1645. San Francisquito Creek at Stanford University, Calif. Loca"
-573,15,data,1,True,True,PUBLICATIONS 7 Early records of the flow of streams in the United States are published in the report
+573,15,report_list,1,True,True,PUBLICATIONS 7 Early records of the flow of streams in the United States are published in the report
 70038403,344,data,1,True,True," # 11-4652. DRY CREEK NEAR GEYSERVILLE, LIF.--Continued # Suspended sediment, water year October 196"
 3067,555,data,2,True,True,"# EEL RIVER BASIN # Yager Creek near Carlotta, Calif. Location --Lat 40°34'10"", long 124°03'10"", in "
 1627,262,data,2,True,True,"# SAN JOAQUIN RIVER BASIN 11-2347.6. San Joaquin River above Shakeflat Creek, near Big Creek, Calif."
@@ -3054,7 +3054,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1630,269,data,2,True,True,"# SANTA ANA RIVER BASIN # 11077500 SANTIAGO CREEK AT SANTA ANA, CALIF. LOCATION. Lat 33°46'13"", long"
 2251,401,data,2,True,True,"# STREAM MEASUREMENTS IN SAN JOAQUIN BASIN. # Daily discharge, in second-feet, of South Fork of Moke"
 583,446,data,2,True,True," # KLAMATH RIVER BASIN Klamath River below Fall Creek, near Copco, Calif. Location.- Water-stage rec"
-4537,14,data,1,True,True,# PUBLICATIONS # State reports containing compilation of records of discharge State Year ending Repo
+4537,14,report_list,1,True,True,# PUBLICATIONS # State reports containing compilation of records of discharge State Year ending Repo
 3067,453,data,2,True,True,"SACRAMENTO RIVER BASIN 441 # South Yuba River near Cisco, Calif. Location. -Lat 39°19' long 120°33' "
 1627,364,data,2,True,True,"11-2665. Merced River at Pohono Bridge, near Yosemite, Calif.--Continued DISCHARGE, IN CUBIC FEET PE"
 56850,130,data,2,True,True," # CHEMICAL ANALYSES, WATER YEAR OCTOBER 1977 TO SEPTEMBER 1978 DATE PROME- TONE TOTAL (UG/L) PROME-"
@@ -3969,7 +3969,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3150,269,data,1,True,True,A Includes estimated data for missing periods; includes 100 percent of runoff for water year. pH 7.8
 57549,529,data,2,True,True,"# SANTA CLARA RIVER BASIN 11108500 SANTA CLARA RIVER AT LOS ANGELES-VENTURA COUNTY LINE, CA--Continu"
 1610,24,data,2,True,True,"# TIA JUANA RIVER BASIN 17 # Tia Juana River/near Dulzura, Calif. Location. - Water-stage recorder, "
-3048,22,data,1,True,True,"# SURFACE WATER SUPPLY, 1958, PART 11 Many gaging stations on streams in the irrigated areas of the "
+3048,22,report_list,1,True,True,"# SURFACE WATER SUPPLY, 1958, PART 11 Many gaging stations on streams in the irrigated areas of the "
 1588,110,data,2,True,True,"## FOX CREEK NEAR COLBY RANCH, CALIF. LoCATION.-Water-stage recorder half a mile above junction with"
 56411,192,data,1,True,True,"# SANTA ANA RIVER BASIN 11070475 SALT CREEK AT RAILROAD CANYON RESERVOIR, NEAR ELSINORE, CALIF. LOCA"
 70038676,262,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # 11322300 CAMANCHE RESERVOIR NEAR CLEMENTS, CALIF. LOCATION --Lat 38°13'3"
@@ -4928,7 +4928,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 593,397,data,2,True,True,"# RUSSIAN RIVER BASIN # Laguna de Santa Rosa near Graton, Calif. Location. - Water-stage recorder, l"
 70038677,245,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11348500 PIT RIVER NEAR CANBY, CALIF. LOCATION.-- 41°24'22"", long 120°55'"
 695,411,data,2,True,True,"# SACRAMENTO RIVER BASIN # McCloud River below Big Springs, near McCloud, Calif. Location. --Lat 41°"
-667,25,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
+667,25,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
 1585,226,data,2,True,True," # SURFACE WATER SUPPLY, 1931, PART 11 ## FLORENCE LAKE TUNNEL AT INTAKE, CALIF. LOCATION. - -Water-"
 3117,516,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11425000 FEATHER RIVER AT NICOLAUS, CALIF. LOCATION. 38°54'01"" long 121°3"
 648,509,data,1,True,True,"# Navarro River near Navarro, Calif.--Continued Discharge, in cubic feet per second, water year Octo"
@@ -5705,7 +5705,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 431,302,data,2,True,True," # SURFACE WATER SUPPLY, 1926, PART XI EXTREMES OF DISCHARGE.-Maximum stage recorded during year, 10"
 3217,151,data,3,True,True,"Monthly and yearly runoff, in acre-feet, of San Gabriel River below Santa Fe Dam, near Baldwin Park,"
 3033,44,data,1,True,True,MAXIMUM KNOWN FLOODS Recur- rence interval (years) - 14 47 *2.30 *1.61 *1.49 10 32 - 2 *3.46 34 48 3
-623,23,data,2,True,True,# PUBLICATIONS # State reports containing compilations of records of discharge Continued State Perio
+623,23,report_list,2,True,True,# PUBLICATIONS # State reports containing compilations of records of discharge Continued State Perio
 553,352,data,3,True,True," # Putah Creek near Guenoc, Calif. Location. - Water-stage recorder, lat. 38°46' long. 122°31', in s"
 3067,348,data,2,True,True,"336 # SAN JOAQUIN RIVER BASIN # Stanislaus River at Ripon, Calif. Location. Lat 37°43'50"", long 121°"
 1630,416,data,2,True,True,"408 SANTA CLARA RIVER BASIN DISCHARGE. IN CUBIC FEET PER SECOND, WATER YEAR OCTURER 1968 10 SEPTEMBE"
@@ -7795,7 +7795,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038397,344,data,1,True,True," # 11-4770. EEL RIVER AT SCOTIA, CALIF. -Continued # Suspended sediment, water year October 1964 to "
 1548,261,data,1,True,True,"# STANISLAUS RIVER BASIN. Monthly discharge of Utica Gold Mining Co.'s canal near Avery, Calif., for"
 604,314,data,1,True,True," # SACRAMENTO RIVER MAIN STEM # Sacramento River at Colusa, Calif. Location.- - Water-stage recorder"
-4538,19,data,2,True,True,# PUBLICATIONS The reports listed in the foregoing tables contain the customary records of discharge
+4538,19,report_list,2,True,True,# PUBLICATIONS The reports listed in the foregoing tables contain the customary records of discharge
 677,267,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # North Fork San Joaquin River below Iron Creek, Calif. Location -Lat 37°3"
 2252,729,data,2,True,True,# LOMA ABAJO RIVER. The Loma Abajo was measured by Charles J. Johansen for the Pacific Improvement C
 1553,119,data,2,True,True,"# COYOTE RIVER BASIN Daily discharge, in second-feet, of Arroyo Seco near Soledad, Calif., for the y"
@@ -8590,7 +8590,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56418,638,data,1,True,True,"# SMITH RIVER BASIN # 11532620 MILL CREEK NEAR CRESCENT CITY, CALIF. LOCATION. Lat 41°44'32"", long 1"
 70038682,456,data,2,True,True,"EEL RIVER BASIN # 11475100 DOBBYN CREEK NEAR FORT SEWARD, CALIF. LOCATION. Lat 40°14'14"", long 123°3"
 604,318,data,3,True,True,"# Pit River near Canby, Calif. Location. - Water-stage recorder, lat. 41°24' long. 120°55' in SW1 se"
-4538,15,data,1,True,True,"PUBLICATIONS Louisville, Ky., 652 Federal Building. Madison, Wis., 666 State Office Building. Montgo"
+4538,15,report_list,1,True,True,"PUBLICATIONS Louisville, Ky., 652 Federal Building. Madison, Wis., 666 State Office Building. Montgo"
 583,42,data,2,True,True," # SANTA MARGARITA RIVER BASIN # Murrieta Creek at Temecula, Calif. Location. Water-stage recorder, "
 2251,283,data,3,True,True,"# STREAM MEASUREMENTS IN SAN JOAQUIN BASIN. Daily gage height, in feet, of Modesto canal near Lagran"
 553,31,data,3,True,True,"Discharge, in second-feet, of San Diego River near Santee, Calif., water year October 1941 to Septem"
@@ -8965,7 +8965,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56417,312,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11376000 COTTONWOOD CREEK NEAR COTTONWOOD, CALIF. LOCATION Lat 40°23'14"" "
 716,564,data,2,True,True,"# 4130. North Yuba River below Goodyears Bar, Calif. Location. --Lat 39°31'30"", long 120°56'13"" in S"
 1568,176,data,3,True,True,"# WEST FORK OF GRANITE CREEK NEAR TIMBER KNOB, CALIF. LOCATION.-In sec. 36, T. 4 S., R. 24 E., 1 mil"
-633,21,data,1,True,True,# PUBLICATIONS The records at most of the stations discussed in these reports extend over a series o
+633,21,report_list,1,True,True,# PUBLICATIONS The records at most of the stations discussed in these reports extend over a series o
 51831,38,data,1,True,True,"# MC COY CANYON CREEK Location Lat. 34°28'40"", long. 119°52'15"", on Bishop Company Ranch. Altitude A"
 1553,288,data,2,True,True," # SURFACE WATER SUPPLY, 1921, PART XI # SYCAN RIVER NEAR SILVER LAKE, OREG, LOCATION.- sec. 21, T. "
 2246,177,data,2,True,True,"# SAN LUIS REY RIVER . BASIN. # Daily discharge, in second-feet, of San Luis Rey River near Warner S"
@@ -10442,7 +10442,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 695,199,data,2,True,True,"# SANTA MARIA RIVER BASIN # Sisquoc River near Garey, Calif. Location.-- 34°53'38"", long 120°18'20"","
 9956,26,data,1,True,True,"The second system, used by the State of California, Department of Public Works, in its 1941 annual r"
 3153,102,data,1,True,True, used. not springs; 2 used. not spring; 1 used. not springs; 6 use. local springs; Several bathing. 
-383,321,data,1,True,True,# STREAM-GAGING STATIONS AND PUBLICATIONS. # Stream-flow data in reports of the United States Geolog
+383,321,report_list,1,True,True,# STREAM-GAGING STATIONS AND PUBLICATIONS. # Stream-flow data in reports of the United States Geolog
 70038675,109,data,1,True,True,"# OWENS LAKE BASIN # 10268700 SILVER CANYON CREEK NEAR LAWS, CALIF. LOCATION. -Lat 37°24'16"", long 1"
 56404,82,data,1,True,True,"SALINAS RIVER BASIN 11152500 SALINAS RIVER NEAR SPRECKELS, CA--Continued QUALITATIVE AND ASSOCIATED "
 724,460,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 3360. Cosumnes River at McConnell, Calif. Location. -Lat 38°21'29"" long "
@@ -11378,7 +11378,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 733,283,data,2,True,True,"# 11-0902. Fullerton Creek at Richman Avenue, at Fullerton, Calif.--Continued DISCHARGE, IN CUBIC FE"
 56412,473,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11428300 BUCK-LOON TUNNEL NEAR MEEKS BAY, CALIF. LOCATION. -Lat 39°00'15"""
 70038676,225,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # 11292600 DONNELL LAKE NEAR DARDANELLE, CALIF. LOCATION Lat 38°19'46"", lo"
-3067,22,data,3,True,True," Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A = Annual"
+3067,22,report_list,3,True,True," Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A = Annual"
 70038392,49,data,1,True,True,"# DIVERSIONS AND RETURN FLOWS AT AND BELOW IMPERIAL DAM # Return surface flows from Yuma project, Ar"
 614,149,data,2,True,True,"# SANTA CLARA RIVER BASIN # Sespe Creek near Wheeler Springs, Calif. Location. - Water-stage recorde"
 2507,191,data,1,True,True,"# CONTAMINATION OF NATIVE FRESH WATER Gaspur water-bearing zone from either side, but not from be- n"
@@ -13035,7 +13035,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56086,54,data,1,True,True,"# DOS PUEBLOS CREEK NEAR NAPLES Location - Lat. 34°29'10"", long. 119°57'10"", at diversion of Dos Pue"
 2913,493,data,1,True,True," Page Page Thistle, Utah, Diamond Fork near 142 Wabuska, Nev., Walker River near 340 Spanish Fork at"
 1136,104,data,2,True,True," # Discharge measurements of Ash Creek near Olancha, Cal., in 1907 and 1908. Date. Hydrographer. Wid"
-695,25,data,2,True,True,# PUBLICATIONS 11 # PUBLICATIONS (cont.) the report. An index of the records obtained before 1904 ha
+695,25,report_list,2,True,True,# PUBLICATIONS 11 # PUBLICATIONS (cont.) the report. An index of the records obtained before 1904 ha
 56807,377,data,1,True,True,"361 # 11477000 EEL RIVER AT SCOTIA, CA--Continued SUSPENDED-SEDIMENT DISCHARGE (TONS/DAY) . WATER YE"
 70038675,449,data,1,True,True,"# EEL RIVER BASIN # 11472800 MIDDLE FORK EEL RIVER ABOVE BLACK BUTTE RIVER, NEAR COVELO, CALIF. LOCA"
 724,120,data,1,True,True," # SAN GABRIEL RIVER BASIN # 863. San Dimas Creek below San Dimas Dam, Calif. Location. --Lat 34°09'"
@@ -13990,7 +13990,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 366,86,data,1,True,True,"Daily discharge, in for second-feet, the years ending of Escondido Sept. 30, Mutual 1897-1915-Contin"
 3153,137,data,1,True,True,# Data on thermal springs in the United States-Continued # Oregon-Continued Remarks irrigation. spri
 70038404,123,data,1,True,True,"# TULARE LAKE BASIN 601 # 11-2109.5. KAWEAH RIVER BELOW TERMINUS DAM, CALIF. LOCATION. -Lat 36°24'51"
-1630,18,data,2,True,True,"have been included for some streams. Most of these reports are out of print, but may be available fo"
+1630,18,report_list,2,True,True,"have been included for some streams. Most of these reports are out of print, but may be available fo"
 56363,360,data,1,True,True,"342 SACRAMENTO RIVER BASIN # 11447810 SACRAMENTO RIVER AT GREEN'S LANDING, NEAR COURTLAND, CALIF. LO"
 2060,221,data,2,True,True,"7/34-28E2. City of Santa Barbara, well 62. T. M. Parks. About 1.8 miles north-northwest of Lompoc, 5"
 70038405,241,data,1,True,True,"# SACRAMENTO RIVER BASIN 227 # 11-4071.5 FEATHER RIVER NEAR GRIDLEY, CALIF.--Continued SUSPENDED SED"
@@ -14102,7 +14102,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56362,281,data,1,True,True,"# RUSSIAN RIVER BASIN # 11467000 RUSSIAN RIVER NEAR GUERNEVILLE, CALIF. --Continued PERIOD OF RECORD"
 383,197,data,2,True,True,"# SACRAMENTO RIVER BASIN. 195 Daily discharge, in second-feet, of Pit River at Ydalpom, Calif., for "
 667,406,data,2,True,True," # SACRAMENTO RIVER BASIN # Paynes Creek near Red Bluff, Calif. Location (revised) Lat 40°15'50"", lo"
-1558,400,data,1,True,True," # SURFACE WATER SUPPLY, 1923, PART XI 3. Complete sets are available for consultation in the local "
+1558,400,report_list,1,True,True," # SURFACE WATER SUPPLY, 1923, PART XI 3. Complete sets are available for consultation in the local "
 53419,19,data,1,True,True,maps. topographic Survey Geological from interpolated level; sea mean above feet In Discharge: In ga
 56808,236,data,1,True,True,"220 # SACRAMENTO RIVER BASIN # 11391500 BIG GRIZZLY CREEK AT GRIZZLY VALLEY DAM, NEAR PORTOLA, CA LO"
 4561,160,data,1,True,True,"# SAN JOAQUIN RIVER BASIN. # Monthly discharge of Middle Fork of Tuolumne River near Buck Meadows, C"
@@ -14172,7 +14172,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 15,63,data,3,True,True,"# TULARE LAKE BASIN Yearly discharge, in cubic feet per second, of Kings River above North Fork, Cal"
 70038399,61,data,1,True,True,"# PYRAMID AND WINNEMUCCA LAKES BASIN # 10-3405. Prosser Creek near Boca, Calif. Location.- 39°22'10"""
 70038675,56,data,2,True,True,"# PANAMINT VALLEY # 10250600 WILDROSE CREEK NEAR WILDROSE STATION, CALIF. (Hydrologic bench-mark sta"
-499,14,data,1,True,True," # PUBLICATIONS Harrisburg, Pa., 490 Education Building. Charlottesville, Va., University of Virgini"
+499,14,report_list,1,True,True," # PUBLICATIONS Harrisburg, Pa., 490 Education Building. Charlottesville, Va., University of Virgini"
 3133,24,data,1,True,True,# Wells in Redlands quadrangle-Continued. Owner. Location (T.R.S.). Class of well. Eleva- tion of su
 26921,41,data,1,True,True,# GROUND-WATER QUALITY IN THE UPPER SANTA ANA RIVER BASIN TABLE 1. - Chemical analyses [Concentratio
 56417,94,data,2,True,True,"# BUENA VISTA LAKE BASIN # 11190500 ISABELLA LAKE NEAR LAKE ISABELLA, CALIF. LOCATION Lat 35°38'46"","
@@ -14370,7 +14370,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2560,64,data,1,True,True," 160 2, 300 4,350 5,800 6,900 498 673 815 990 130 1, 565 800 1,000 270 480 250 360 448 542 610 1,600"
 1606,152,data,2,True,True," # SANTA MARIA RIVER BASIN # Cuyama River near Santa Maria, Calif. Location. - Water-stage recorder,"
 3174,302,data,2,True,True,"# NOYO RIVER BASIN # 11468500 NOYO RIVER NEAR FORT BRAGG, CALIF. LOCATION,-Lat 39°25'42"", long 123 4"
-614,19,data,1,True,True,"# PUBLICATIONS # PUBLICATIONS (cont.) West of the Mississippi River: Austin, Tex., , 302 West Fiftee"
+614,19,report_list,1,True,True,"# PUBLICATIONS # PUBLICATIONS (cont.) West of the Mississippi River: Austin, Tex., , 302 West Fiftee"
 70038668,395,data,2,True,True,"# ALBION RIVER BASIN 11-4680.1 Albion River near Comptche, Calif. Location Lat 39°15'40"", long 123°3"
 1641,568,data,2,True,True,"# 11308700 NEW HOGAN LAKE NEAR VALLEY SPRINGS, CALIF. CONTINUED CONTENTS. IN ACRE-FEET, AT 2400, WAT"
 70038403,390,data,1,True,True,"# EEL RIVER BASIN--Continued # 11-4729. BLACK BUTTE RIVER NEAR COVELO, CALIF.--Continued Periodic de"
@@ -15118,7 +15118,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3095,270,data,1,True,True,"# 262 GROUND WATER, STORAGE CAPACITY, SAN JOAQUIN VALLEY, CALIF. TABLE 9.-Percentages of specific-yi"
 1109,126,data,2,True,True,"TABLE .DDscription of water wells and springs in the Russian River valley area, California-Continued"
 70038398,313,data,1,True,True,"# SALINAS RIVER BASIN # 11-1476. Huerhuero Creek near Creston, Calif. Location Lat 35°35'00"", long 1"
-573,19,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 The reports listed 
+573,19,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 The reports listed 
 70038403,348,data,1,True,True,"RUSSIAN RIVER BASIN--Continued # 11-4652. DRY CREEK NEAR GEYSERVILLE, CALIF.--Continued # Periodic d"
 2251,82,data,1,True,True," # WATER RESOURCES OF CALIFORNIA, PART II. # Monthly discharge of Kern River at Kernville, Cal., for"
 583,428,data,2,True,True," # Conn Creek near St. Helena, Calif. Location.- Water-stage recorder, lat. 38°29', long. 122°24' in"
@@ -15405,7 +15405,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 583,293,data,3,True,True,"STANISLAUS RIVER BASIN 285- # Stanislaus River below Melones powerhouse, Calif. Location. - Water-st"
 1072,315,data,2,True,True,Computations and classifications follow the system used by Dole and described in Water-Supply Paper 
 70038405,73,data,2,True,True,"SANTA ANA RIVER BASIN 11-0740. SANTA ANA RIVER BELOW PRADO DAM, CALIF.--Continued SPECIFIC CONDUCTAN"
-583,15,data,1,True,True,PUBLICATIONS 7 Early records of the flow of streams in the United States are published in the report
+583,15,report_list,1,True,True,PUBLICATIONS 7 Early records of the flow of streams in the United States are published in the report
 4538,42,data,2,True,True," # SANTA MARGARITA RIVER BASIN # Santa Margarita River at Ysidora, Calif. Location. - Water-stage re"
 431,160,data,2,True,True," # Monthly discharge of Dinkey Creek at Dinkey Meadow, Calif., for the year ending September 30, 192"
 489,200,data,1,True,True,"198 # MERCED RIVER BASIN # Tenaya Creek near Yosemite, Calif. Location. - Water-stage recorder, lat."
@@ -16582,7 +16582,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56411,397,data,1,True,True,"# MATADERO CREEK BASIN # 11166000 MATADERO CREEK AT PALO ALTO, CALIF. LOCATION. Lat 37°25'18"" long 1"
 1588,315,data,2,True,True,"# SACRAMENTO RIVER BASIN # INDIAN CREEK NEAR CRESCENT MILLS, CALIF. LOCATION.-Water-stage recorder i"
 26284,41,data,1,True,True,"# WATER-QUALITY INVESTIGATION, UPPER SANTA CLARA RIVER BASIN, CALIF. # NITROGEN, PHOSPHORUS, AND TOT"
-3106,26,data,1,True,True,# PUBLICATIONS colloidal suspension. Much fluvial sediment results from the natural process of erosi
+3106,26,report_list,1,True,True,# PUBLICATIONS colloidal suspension. Much fluvial sediment results from the natural process of erosi
 1577,113,data,2,True,True,# TULARE LAKE BASIN 108 # TULARE LAKE BASIN (cont.) ## NORTH FORK OF KINGS RIVER BELOW RANCHERIA GRE
 56361,405,data,1,True,True,"# SAN GABRIEL RIVER BASIN # 11090700 COYOTE CREEK AT LOS ALAMITOS, CALIF. LOCATION. Lat 33°48'38"", l"
 3150,530,data,1,True,True,"RUSSIAN RIVER BASIN--Continued 11-4630. RUSSIAN RIVER NEAR CLOVERDALE, CALIF.--Continued Suspended s"
@@ -17505,7 +17505,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 199,594,data,1,True,True,"RUSSIAN RIVER BASIN--Continued 11-4625. RUSSIAN RIVER NEAR HOPLAND, CALIF. --Continued Temperature ("
 56405,397,data,2,True,True,"# WATER QUALITY DATA, WATER YEAR OCTOBER 1975 TO SEPTEMBER 1976 # GOOSE LAKE BASIN 11337705 GOOSE LA"
 56808,187,data,2,True,True,"# SACRAMENTO RIVER BASIN 11383800 SACRAMENTO RIVER NEAR HAMILTON CITY, CA--Continued # SACRAMENTO RI"
-1609,17,data,2,True,True,# PUBLICATIONS 7 From time to time reports have been published that are compilations of records for 
+1609,17,report_list,2,True,True,# PUBLICATIONS 7 From time to time reports have been published that are compilations of records for 
 70038405,373,data,1,True,True," # 11-4755. SOUTH FORK EEL RIVER NEAR BRANSCOMB, LIF.--Continued # PERIODIC DETERMINATIONS OF SUSPEN"
 56363,252,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11418500 DEER CREEK NEAR SMARTVILLE, CALIF. LOCATION.-- Lat 39°13'28"", lo"
 2060,313,data,2,True,True,"# CARPINTERIA, GOLETA, AND SANTA YNEZ VALLEYS Water levels, in feet above or below (-) sea-level dat"
@@ -17737,7 +17737,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3117,646,data,2,True,True,"# 11441001 UNION VALLEY RESERVOIR NEAR RIVERTON, CALIF.--CONTINUED CONTENTS, IN ACRE-FEET, AT 2400, "
 56361,349,data,1,True,True,"# SANTA ANA RIVER BASIN 11074000 SANTA ANA RIVER BELOW PRADO DAM, CALIF. --Continued BIOLOGICAL ANAL"
 70232250,4,data,2,True,True,# ABBREVIATIONS A ampere EROS Earth Resources Observation mol mole A langstrom System m.y. million y
-3117,19,data,2,True,True,"10 # SURFACE WATER SUPPLY, 1966-70, PART 11, VOLUME 4 Streamflow data for the years 1884-1901, in re"
+3117,19,report_list,2,True,True,"10 # SURFACE WATER SUPPLY, 1966-70, PART 11, VOLUME 4 Streamflow data for the years 1884-1901, in re"
 4561,20,data,2,True,True,# SAN DIEGO RIVER BASIN. # SAN DIEGO RIVER BASIN. (cont.) Monthly discharge of Boulder Creek at Cuya
 194,238,data,1,True,True,"GILA RIVER BASIN--Continued 9-5100. VERDE RIVER BELOW BARTLETT DAM, ARIZ.--Continued Temperature (°F"
 658,50,data,3,True,True,"# San Luis Rey River near Bonsall, Calif. Location. -Lat 33°15'05"", long. 117°14'55"" in NE sec. 1, T"
@@ -18087,7 +18087,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3931,12,data,1,True,True, Gaging station Drainage area (sq mi) Period of record Sevier Lake basin Continued Sevier River near
 56807,100,data,2,True,True,"# PAJARO RIVER BASIN # 11152900 CEDAR CREEK NEAR BELL STATION, CA LOCATION Lat 37°03'00"" long 121°19"
 733,50,data,1,True,True,"# 11-0233.4. Los Penasquitos Creek near Poway, Calif. Location. --Lat 32°56'35"" long 117°07'15"", in "
-366,356,data,1,True,True,"2. Copies may be purchased at nominal cost from the Superin- tendent of Documents, Government Printi"
+366,356,report_list,1,True,True,"2. Copies may be purchased at nominal cost from the Superin- tendent of Documents, Government Printi"
 3150,393,data,1,True,True,"SAN JOAQUIN RIVER BASIN--Continued 11-3035, SAN JOAQUIN RIVER NEAR VERNALIS, CALIF.--Continued Suspe"
 1305,69,data,2,True,True,"# Records of water levels in the valley of southern California-Continued. # 57b. Bradley Bros., thre"
 3089,28,data,2,True,True,"16 # 11-1415. Arroyo Grande at Arroyo Grande, Calif.--Continued DISCHARGE, IN CUBIC FEET PER SECOND,"
@@ -18457,7 +18457,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70162522,103,data,1,True,True,as that of sample T123 in another sample of hydro- thermal biotite from the Granite Mountain Porphyr
 431,257,data,2,True,True,"# MOKELUMNE RIVER BASIN Daily discharge, in second-feet, of Sutter Creek at Sutter Creek, Calif., fo"
 1568,343,data,2,True,True,"# EEL RIVER BASIN # Daily discharge, in second-feet, of Putah Creek at Winters, Calif., for the year"
-4768,5,data,1,True,True,# STREAM-FLOW RECORDS. V Stream-flow data in reports of the United States Geological Survey-Continue
+4768,5,report_list,1,True,True,# STREAM-FLOW RECORDS. V Stream-flow data in reports of the United States Geological Survey-Continue
 1532,320,data,1,True,True,# Miscellaneous discharge measurements in the Pacific slope basins of California-Cont'd. Streams sou
 2501,19,data,2,True,True,"# GEOLOGY AND GROUND WATER OF MOKELUMNE AREA, CALIF. freshets. Water was first impounded above this "
 1138,145,data,1,True,True," # STREAM MEASUREMENTS IN 1905, PART XIII. # Estimated monthly discharge of Pit River near Canby, Ca"
@@ -18494,7 +18494,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 48308,25,data,1,True,True,# TABLE --Description # TABLE --Description (cont.) STATE NUMBER A OWNER OR NAME D D C R M R 0 W # C
 623,237,data,1,True,True,"# SAN JOAQUIN RIVER TRIBUTARIES ABOVE FRESNO RIVER # Ward tunnel at intake, Calif. Location. - Water"
 3174,65,data,2,True,True,"# CALLEGUAS CREEK BASIN # 11105850 ARROYO SIMI NEAR SIMI, CALIF. LOCATION.--Lat 34° °16'41"", long 11"
-1610,15,data,1,True,True,"8 # SURFACE WATER SUPPLY, 1943, PART 11 # Early records of the flow of streams in the United States "
+1610,15,report_list,1,True,True,"8 # SURFACE WATER SUPPLY, 1943, PART 11 # Early records of the flow of streams in the United States "
 1607,22,data,1,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 9 Records of daily dis
 56361,209,data,1,True,True,"MONO LAKE BASIN # 10287070 MILL CREEK BELOW LUNDY LAKE, NEAR MONO LAKE, CALIF. LOCATION. Lat 38°01'5"
 194,378,data,1,True,True,"SAN JOAQUIN RIVER BASIN--Continued # 11-3127. OLD RIVER AT SOUTH TIP OF FABIAN TRACT, NEAR TRACY, CA"
@@ -18535,7 +18535,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 35575,85,index_contents,1,True,True,"74 # INDEX. Page. Page. Latites, alkali content of 10,57 Plagioclases of biotite-augite-latite, char"
 1744,242,data,2,True,True,"# SURFACE WATER SUPPLY, 1914, PART XI. RECORDS AVAILABLE.-October 8, 1911, to September 30, 1914. GA"
 2849,5,index_contents,1,True,True,# CONTENTS Page Abstract 21 Introduction 22 Location of the area 22 Development of ground water 22 P
-1548,17,data,1,True,True,# PUBLICATIONS. # Stream-flow data in reports of the United States Geological Survey # [A = Annual R
+1548,17,report_list,1,True,True,# PUBLICATIONS. # Stream-flow data in reports of the United States Geological Survey # [A = Annual R
 56362,534,index_contents,1,True,True,"514 INDEX Page Page Ground water, well levels, by county--Continued Madison Avenue, Castro Valley 49"
 733,9,data,1,True,True,"# GAGING STATIONS, IN DOWNSTREAM ORDER, FOR WHICH RECORDS ARE PUBLISHED PACIFIC SLOPE BASINS IN CALI"
 9716,63,data,2,True,True,# WATER-QUALITY DATA FOR SELECTED SITES # SACRAMENTO RIVER BASIN 11394500 MIDDLE FORK FEATHER RIVER 
@@ -19154,7 +19154,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2447,108,data,2,True,True,"90 555. Cataract Creek above Green Mountain Reservoir, Colo. Location. Lat 39°51'00"", , long 106°17'"
 70038404,117,data,1,True,True,"# 11-2087.3. EAST FORK KAWEAH RIVER NEAR THREE RIVERS, CALIF. -Continued Combined discharge, in cubi"
 3153,103,data,1,True,True,"# Data on""thermal springs in the United States-Continued Idaho-Continued Remarks use. local springs;"
-383,320,data,1,True,True,"# SURFACE WATER SUPPLY, 1918, PART XI. 2. Copies may be purchased at nominal cost from the Superinte"
+383,320,report_list,1,True,True,"# SURFACE WATER SUPPLY, 1918, PART XI. 2. Copies may be purchased at nominal cost from the Superinte"
 695,198,data,3,True,True,"# SANTA MARIA RIVER BASIN # La Brea Creek near Sisquoc, Calif. Location Lat 34°51'10"", long 120°11'5"
 1532,278,data,2,True,True,"# SURFACE WATER SUPPLY, 1916, PART XI. Daily discharge, in second-feet, of Fourmile Creek near Odess"
 1139,62,data,2,True,True,"Discharge measurements of Cottonwood Creck near Jamul, Cal., in 1905-6. Date. Hydrographer. Width. A"
@@ -19304,7 +19304,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1548,33,data,1,True,True,# SAN DIEGUITO RIVER BASIN. # SAN DIEGUITO RIVER BASIN. (cont.) DIVERSIONS.-No large diversions abov
 2987,47,data,1,True,True,TABLE 2.-South Atlantic slope and eastern Gulf of Mexico Basins-Continued dis- peak charge Momentary
 70038676,188,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11270900 MERCED RIVER BELOW MERCED FALLS DAM, NEAR SNELLING, CALIF. LOCA"
-3067,23,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
+3067,23,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
 2188,50,data,1,True,True,# GEOLOGY 45 # GEOLOGY (cont.) Water-bearing character.-Except for scattered lenses of well- bedded 
 614,148,data,2,True,True,"# SANTA CLARA RIVER BASIN # Hopper Creek near Piru, Calif. Location. - Water-stage recorder, lat. 34"
 70038677,146,data,1,True,True,"# SALINAS RIVER BASIN # 11148800 NACIMIENTO RIVER NEAR BRYSON, CALIF. DRAINAGE AREA -140 sq mi. LOCA"
@@ -19949,7 +19949,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 604,330,data,2,True,True," # COTTONWOOD CREEK BASIN # Cottonwood Creek near Cottonwood, Calif. Location. - Water-stage recorde"
 1548,245,data,1,True,True,"# TUOLUMNE RIVER BASIN. ""onthly discharge of Middle Fork of Tuolumne River near Buck Meadows, Calif."
 70038401,348,data,2,True,True,"# SOQUEL CREEK BASIN # 11-1598. WEST BRANCH SOQUEL CREEK NEAR SOQUEL, CALIF. LOCATION Lat 37°03'05"","
-553,19,data,2,True,True,# PUBLICATIONS The reports listed in the foregoing tables contain the customary records of discharge
+553,19,report_list,2,True,True,# PUBLICATIONS The reports listed in the foregoing tables contain the customary records of discharge
 1312,332,data,3,True,True,"# 298 GROUND WATERS OF WESTERN SAN DIEGO COUNTY, CALIF. # TABLE 64.-Monthly and annual precipitation"
 2888,121,data,1,True,True,# HOT SPRINGS. 113 # OHMS SPRING (SONOMA 21). About one-half mile southeast of Boyes Hot Springs is 
 251,358,data,1,True,True,"GILA RIVER BASIN # Pierson-Nicholas Canal near Florence, Ariz. Location.- Lat. 33°01'00"", long. 111°"
@@ -21236,7 +21236,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 658,190,data,3,True,True," # SALINAS RIVER BASIN # Salinas Reservoir near Pozo, Calif. Location. Lat 35°20' long. 120°30', in "
 10430,25,data,2,True,True,TABLE 3. -Drillers' logs of wells on the Barona Indian Reservation--Continued Thickness Depth Thickn
 2313,14,data,1,True,True,"# GROUND-WATER USE, SANTA MARIA VALLEY, CALIF. # GROUND-WATER USE, SANTA MARIA VALLEY, CALIF. (cont."
-1641,18,data,1,True,True,# OTHER DATA AVAILABLE annual discharges for all previously published records as well as some record
+1641,18,report_list,1,True,True,# OTHER DATA AVAILABLE annual discharges for all previously published records as well as some record
 4538,328,data,2,True,True,"318 # FEATHER RIVER BASIN Discharge, in second-feet, of Concow Creek near Yankee Hill, Calif., 1939-"
 70038399,357,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11-3878. North Fork Stony Creek near Newville, Calif. Location.--Lat 39°4"
 1627,148,data,1,True,True,"# TULARE LAKE BASIN # 11-2109. Lake Kaweah near Lemoncove, Calif. Continued CONTENTS, IN ACRE-FEET, "
@@ -21759,7 +21759,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038677,120,data,1,True,True,"106 # 11113500 SANTA PAULA CREEK NEAR SANTA PAULA, CALIF.--Continued TEMPERATURE (C) OF WATER, WATER"
 1607,33,data,2,True,True," # SAN DIEGO RIVER BASIN # San Vicente Creek at Foster, Calif. Location.- - Water-stage recorder and"
 3146,142,data,1,True,True,"GREEN RIVER BASIN--Continued 9-3145. PRICE RIVER AT WOODSIDE, UTAH LOCATION. gaging station at bridg"
-677,22,data,1,True,True,"8 # SURFACE WATER SUPPLY, 1955, PART 11 lines. Formerly, the results of streamflow measurements were"
+677,22,report_list,1,True,True,"8 # SURFACE WATER SUPPLY, 1955, PART 11 lines. Formerly, the results of streamflow measurements were"
 70038676,242,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11302000 STANISLAUS RIVER BELOW GOODWIN DAM, NEAR KNIGHTS FERRY, CALIF. "
 56412,414,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11409300 OREGON CREEK AT CAMPTONVILLE, CALIF. LOCATION. Lat 39°26'46"", lo"
 1588,130,data,2,True,True,"# SANTA PAULA CREEK NEAR SANTA PAULA, CALIF. NOCATION.-Water-stage recorder 50 feet upstream from Sa"
@@ -22632,7 +22632,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3146,518,data,1,True,True,"1965 SACRAMENTO RIVER BASIN--Continued 11-4070. FEATHER RIVER AT OROVILLE, CALIF.--Continued Tempera"
 383,196,data,2,True,True," # SURFACE WATER SUPPLY, 1918, PART XI. # Monthly discharge of Pit River at Henderson, Calif., for t"
 56362,280,data,2,True,True,"# RUSSIAN RIVER BASIN # 11467000 RUSSIAN RIVER NEAR GUERNEVILLE, CALIF. (National stream-quality acc"
-1558,401,data,1,True,True,# STREAM-FLOW REPORTS # Stream-flow data in reports of the United States Geological Survey-Continued
+1558,401,report_list,1,True,True,# STREAM-FLOW REPORTS # Stream-flow data in reports of the United States Geological Survey-Continued
 667,407,data,2,True,True,"# SACRAMENTO RIVER BASIN # Sacramento River near Red Bluff, Calif. Location -Lat 40°13'55"" long. 122"
 56404,345,data,3,True,True,"# EEL RIVER BASIN # 11476500 SOUTH FORK EEL RIVER NEAR MIRANDA, CA--Continued WATER-QUALITY RECORDS "
 3117,229,data,2,True,True,"# 11390500 SACRAMENTO RIVER BELOW WILKINS SLOUGH, NEAR GRIMES, CALIF. (Formerly published as Sacrame"
@@ -22766,7 +22766,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56363,361,data,1,True,True,"11447810 SACRAMENTO RIVER AT GREEN'S LANDING, NEAR COURTLAND, CALIF. - Continued WATER QUALITY DATA."
 70038405,240,data,1,True,True,"226 SACRAMENTO RIVER BASIN 11-4071.5. FEATHER RIVER NEAR GRIDLEY, CALIF. LOCATION.- right bank, -Lat"
 3153,136,data,1,True,True," resort; hotel, springs; main 12 dis- min- used deep, a water, 1/2 feet gallons boiling 200 120 east"
-1630,19,data,1,True,True,# OTHER DATA AVAILABLE Records for the area covered by this report have been compiled through Septem
+1630,19,report_list,1,True,True,# OTHER DATA AVAILABLE Records for the area covered by this report have been compiled through Septem
 70038404,122,data,1,True,True," # TULARE LAKE BASIN # 11-2109.3 FOOTHILL DITCH BELOW TERMINUS DAM, CALIF. LOCATION.--Lat 36°24'48"","
 70038393,268,data,2,True,True,"# SAN JOAQUIN RIVER BASIN 11-3210. Mokelumne River at Lancha Plana, Calif. Location.--Lat 38°13'25"","
 724,530,data,1,True,True," # SACRAMENTO RIVER BASIN # 4013. Lights Creek near Taylorsville, Calif. Location. --Lat 40°10'00"", "
@@ -22775,7 +22775,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 383,271,data,1,True,True,"# KLAMATH RIVER BASIN. Monthly discharge of Fivemile Creek near Bly, Oreg., for the period Sept. 8, "
 56362,167,data,2,True,True,"# CALABAZAS CREEK BASIN # 11169580 CALABAZAS CREEK TRIBUTARY AT MT. EDEN ROAD, NEAR SARATOGA, CALIF."
 2987,110,data,1,True,True,34 From reports of State engineer of Colorado. 33 Also occurred Mar. 12. 1936. 11.0 so 3.7 3.1 4.0 1
-641,21,data,2,True,True,"# SURFACE WATER SUPPLY, 1951, PART 11 Streamflow data for the years 1884-1901, in reports of the Geo"
+641,21,report_list,2,True,True,"# SURFACE WATER SUPPLY, 1951, PART 11 Streamflow data for the years 1884-1901, in reports of the Geo"
 1609,40,data,1,True,True,"30 SANTA MARGARITA RIVER BASIN # Santa Margarita River near Fall Brook, Calif. Location. - Water-sta"
 4316,41,data,2,True,True,"# ALPHABETICAL LIST # ALPHABETICAL LIST (cont.) Page Messner and Wible ditch, Oreg 31 Middle Martis "
 70038405,324,data,1,True,True,"310 # NAVARRO RIVER BASIN # 11-4680. NAVARRO RIVER NEAR NAVARRO, CALIF. LOCATION. -Lat 39°10'15"" lon"
@@ -23903,7 +23903,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56850,251,data,2,True,True,"# OTAY RIVER BASIN 11014000 JAMUL CREEK NEAR JAMUL, CA 235 LOCATION. Lat 32°38'15"" long 116°53'00"" i"
 70038669,244,data,1,True,True,"226 SANTA YNEZ RIVER BASIN # 11-1260. Santa Ynez River near Santa Ynez, Calif. Location Lat 34' 35 l"
 2749,169,data,1,True,True,"142 # WATER RESOURCES OF MOKELUMNE AREA, CALIFORNIA Measurements of depth to water level in wells by"
-1744,337,data,1,True,True,"# SURFACE WATER SUPPLY, 1914, PART XI. 4. Complete sets are available for consultation in the local "
+1744,337,report_list,1,True,True,"# SURFACE WATER SUPPLY, 1914, PART XI. 4. Complete sets are available for consultation in the local "
 70038681,413,data,1,True,True,"# SACRAMENTO RIVER BASIN 905 # 11413510 NEW COLGATE POWERPLANT NEAR FRENCH CORRAL, CALIF. LOCATION. "
 22104,244,data,1,True,True,"# TABLE ,--Seston analyses of water samples [See figures 2, 3, and 4 for location of stations. Perce"
 23002,42,data,1,True,True,# Summary of data on observation wells level water Water level : : p.255.4 g99.50 104.42 g31.40 84.1
@@ -24315,7 +24315,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56808,458,data,1,True,True,"442 # 11449100 SCOTTS CREEK NEAR LAKEPORT, CA--Continued # DISCHARGE, IN CUBIC FEET PER SECOND, WATE"
 499,254,data,2,True,True,"252 # FEATHER RIVER BASIN # Palermo Canal at Enterprise, Calif. Location. - Water-stage recorder and"
 1137,136,data,1,True,True,"CLAPP.] # SAN FRANCISCO BAY DRAINAGE BASIN. Estimated monthly discharge of Pit River near Bieber, Ca"
-724,24,data,1,True,True,Numbers of water-supply papers containing results of stream measurements in Pacific slope basins in 
+724,24,report_list,1,True,True,Numbers of water-supply papers containing results of stream measurements in Pacific slope basins in 
 3033,186,data,2,True,True," # PAJARO RIVER BASIN # 1592. Corralitos Creek at Freedom, Calif. Location. 36°56'22"", long 121°46'1"
 70184370,89,data,2,True,True,"# 11454000 PUTAH CREEK NEAR WINTERS, CALIF. LOCATION. -Lat 38°30'55"" N., long 122°04'50"" W., Yolo Co"
 70038672,31,data,1,True,True,"# COLORADO RIVER MAIN STEM # 9-4240. Colorado River near Topock, Ariz. Location Lat 34°41'15"", long "
@@ -24522,7 +24522,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1640,100,data,2,True,True,"# SALINAS RIVER BASIN # 11150500 SALINAS RIVER NEAR BRADLEY, CALIF. LOCATION {REVISED) Lat 35°55'49"""
 27067,28,data,1,True,True,Table 2. - --Statistical comparison between water-quality values in the Sacramento River above the F
 56419,464,data,1,True,True,"# RUSSIAN RIVER BASIN # 11465200 DRY CREEK NEAR GEYSERVILLE, CALIF. LOCATION. -Lat 38°41'55"", long 1"
-4821,5,data,1,True,True,# STREAM-FLOW REPORTS. # Stream-flow data in reports of the United States Geological Survey-Continue
+4821,5,report_list,1,True,True,# STREAM-FLOW REPORTS. # Stream-flow data in reports of the United States Geological Survey-Continue
 553,291,data,2,True,True," # Stony Creek near Hamilton City, Calif. Location. - Water-stage recorder, lat. 39°44'40"", long. 12"
 573,217,data,2,True,True,"# SAN JOAQUIN RIVER TRIBUTARIES ABOVE FRESNO RIVER # Shaver Lake near Big Creek, Calif. Location - W"
 56418,706,data,3,True,True,"# WATER QUALITY DATA, WATER YEAR OCTOBER 1973 TO SEPTEMBER 1974 # EEL RIVER BASIN Continued 11471500"
@@ -24870,7 +24870,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2246,212,data,2,True,True,"# SURFACE WATER OF PACIFIC SLOPE, SOUTHERN CALIFORNIA. Discharge measurements of West Fork of San Lu"
 70038404,154,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11-2315. MONO CREEK BELOW LAKE THOMAS A. EDISON, CALIF. LOCATION.--Lat 3"
 3153,140,data,2,True,True,"Texas [See pl. 8] bank; river near river spring, local use. 1 bathing; earth- flat; after ceased 193"
-199,43,data,1,True,True,"# STREAMFLOW Most of the records of stream discharge, used in conjunction with the chemical analyses"
+199,43,report_list,1,True,True,"# STREAMFLOW Most of the records of stream discharge, used in conjunction with the chemical analyses"
 1139,21,data,1,True,True,# LOWER COLORADO RIVER BASIN. for cooperation in gaging Santa Ynez River; to the Bay Cities Water Co
 70038405,236,data,2,True,True," # 11-4070. FEATHER RIVER AT OROVILLE, CALIF.--Continued # CHEMICAL ANALYSES IN MILLIGRAMS PER LITER"
 24284,198,data,1,True,True,# Site 94--Spring - Tom Kinevan (continued) Date Discharge (gpm) Temp. (°F) Date Discharge (gpm) Tem
@@ -25145,7 +25145,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038402,206,data,1,True,True," # SAN JOAQUIN RIVER BASIN # 11-2740. SAN JOAQUIN RIVER NEAR NEWMAN, CALIF. LOCATION, Lat 37°21'02"" "
 56850,216,data,1,True,True,"# OWENS LAKE BASIN # 10265700 ROCK CREEK AT LITTLE ROUND VALLEY, NEAR BISHOP, CA LOCATION.--Lat 37°3"
 70038669,203,data,1,True,True,"# LOS ANGELES RIVER BASIN 185 # 11-1000. Santa Anita Creek near Sierra Madre, Calif. Location.-- Lat"
-3150,40,data,1,True,True,"size of particles transported, as well as the total sediment load, is in constant adjustment with th"
+3150,40,report_list,1,True,True,"size of particles transported, as well as the total sediment load, is in constant adjustment with th"
 3048,144,data,1,True,True,"# 1015. Rio Hondo near Montebello, Calif. Location. -Lat 34°01'55"", long 118°04'15"", in Potrero Gran"
 3217,408,data,4,True,True,"# SMITH RIVER BASIN Yearly discharge, in cubic feet per second, of North Fork Smith River near Cresc"
 1141,187,data,1,True,True,"# NORTH PACIFIC OCEAN DRAINAGE BASINS. # UPPER KLAMATH LAKE NEAR KLAMATH FALLS, OREG. Upper Klamath "
@@ -26279,7 +26279,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1585,104,data,1,True,True,"# SURFACE WATER SUPPLY, 1931, PART 11 LOS ANGELES RIVER NEAR DOWNEY, CALIF. RECORDS AVAILABLE. -Marc"
 455,58,data,2,True,True," # SURFACE WATER SUPPLY, 1930, PART 11 # MEEKS & DALEY CANAL NEAR COLTON, CALIF. LOCATION.-Water-sta"
 623,186,data,2,True,True," # San Antonio River at Pleyto, Calif. Location.- Water-stage recorder, lat. 35°51'55"", long. 120°59"
-658,22,data,3,True,True, Reports containing compilations of records of discharge by States WSP Period Report 298 1887 -1912 
+658,22,report_list,3,True,True, Reports containing compilations of records of discharge by States WSP Period Report 298 1887 -1912 
 4561,52,data,2,True,True,"# SANTA ANA RIVER BASIN. 51 EXTREMES OF DISCHARGE.-1901-1917 Maximum mean daily discharge reported, "
 70038677,167,data,1,True,True,"# SAN LORENZO RIVER BASIN # 11160500 SAN LORENZO RIVER AT BIG TREES, CALIF, 153 LOCATION. -Lat 37°01"
 2188,71,data,1,True,True, # WATER UTILIZATION Most of the wells in Shasta Valley are dug wells about 20 feet deep which suppl
@@ -26361,7 +26361,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1137,28,data,1,True,True," # IMPERIAL VALLEY CANALS. In July, 1904, stations were established on all canals entering the Imper"
 56361,370,data,2,True,True,"# 11075620 SANTA ANA RIVER SPREADING DIVERSION BELOW IMPERIAL HIGHWAY, NEAR ANAHEIM, CALIF. Continue"
 3150,245,data,2,True,True,"GILA RIVER BASIN--Continued 9-5100. VERDE RIVER BELOW PARTLETT DAM, ARIZ.--Continued September 600 5"
-3117,20,data,2,True,True,"# OTHER DATA AVAILABLE Papers 1315-A and 1735, respectively. These reports contain a summary of mont"
+3117,20,report_list,2,True,True,"# OTHER DATA AVAILABLE Papers 1315-A and 1735, respectively. These reports contain a summary of mont"
 4561,19,data,1,True,True," # BOULDER CREEK AT CUYAMACA RESERVOIR, NEAR JULIAN, CALIF. LOCATION.-In Cuyamaca grant, at outlet o"
 366,280,data,1,True,True," # SURFACE WATER SUPPLY, 1915, PART XI. Gage.-Staff in two sections bolted to solid rock on right ba"
 658,69,data,2,True,True,"# SANTA ANA RIVER BASIN 57 # San Timoteo Creek near Redlands, Calif. Location. Lat 34°01'55"", long. "
@@ -26800,7 +26800,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1627,608,data,2,True,True,"SAN JOAQUIN RIVER BASIN # 11-3250. Woodbridge Woodbridge Canal Canal at at Woodbridge, Woodbridge, C"
 553,125,data,2,True,True," # Sespe Creek near Fillmore, Calif. Location. - Water-stage recorder, lat. 34°26'55"", long. 118°55'"
 70038669,449,data,3,True,True,"# KLAMATH RIVER BASIN # 11-5230.3. Red Cap Creek near Orleans, Calif. Location Lat 41°14'25"", long 1"
-3217,16,data,2,True,True,The records at most of the stations discussed in these reports extend over many years. Miscellaneous
+3217,16,report_list,2,True,True,The records at most of the stations discussed in these reports extend over many years. Miscellaneous
 2516,184,data,2,True,True," Remarks Data avail able Use Pump, type and power zone zones1 or zone Water-yielding material of Cha"
 27067,30,data,2,True,True,# Biological The total number of phytoplankton cells and taxa per milliliter during the August 13-14
 1640,118,data,2,True,True,"# SALINAS RIVER BASIN 11152540 EL TORO CREEK NEAR SPRECKELS, CALIF. CONTINUED DISCHARGE, IN CUBIC FE"
@@ -28830,7 +28830,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1588,330,data,1,True,True,"# PALERMO CANAL AT ENTERPRISE, CALIF. - LOCATION.-Staff gage in NE1/4 sec. 1, T. 19 N., R. 5 E., (fo"
 593,396,data,1,True,True,"386 # RUSSIAN RIVER BASIN # Russian River at Guerneville, Calif. Location. - Wire-weight gage, lat. "
 695,410,data,2,True,True," # SACRAMENTO RIVER BASIN # Squaw Creek above Shasta Lake, Calif. Location -Lat 40°51'25"", long 122°"
-667,24,data,2,True,True,"10 # SURFACE WATER SUPPLY, 1954, PART 11 Reports on surface-water supply containing records from 187"
+667,24,report_list,2,True,True,"10 # SURFACE WATER SUPPLY, 1954, PART 11 Reports on surface-water supply containing records from 187"
 667,339,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # Highland Creek below Spicer Meadows Reservoir, Calif. Location. 38°23'50"
 70038676,126,data,1,True,True,"# TULARE LAKE BASIN # 11214000 NORTH FORK KINGS RIVER BELOW MEADOW BROOK, CALIF. LOCATION.- Lat 37°0"
 56808,509,data,2,True,True,"Page Page Partial-record station, definition of 8 Partial-record stations, crest-stage 484 discharge"
@@ -29138,7 +29138,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2913,44,data,5,True,True,"Yearly discharge, in cubic feet per second, of Woodruff Creek near Woodruff, Utah Year W.S.P. no. Wa"
 70038401,344,data,2,True,True,"# PAJARO RIVER BASIN # 11-1592. CORRALITOS CREEK AT FREEDOM, CALIF. LOCATION Lat 36°56'22"" long 121°"
 4536,313,data,1,True,True,"# SACRAMENTO RIVER BASIN # Monthly discharge of Sacramento River at Antler, Calif., for the year end"
-553,15,data,1,True,True,# PUBLICATIONS Early records of the flow of streams in the United States were published in the repor
+553,15,report_list,1,True,True,# PUBLICATIONS Early records of the flow of streams in the United States were published in the repor
 56403,564,data,1,True,True,"548 # SANTA CLARA RIVER BASIN # 11113500 SANTA PAULA CREEK NEAR SANTA PAULA, CA LOCATION. Lat 34°23'"
 583,66,data,2,True,True," # SANTA ANA RIVER BASIN # Waterman Canyon Creek near Arrowhead Springs, Calif. Location - Water-sta"
 4538,31,data,2,True,True,"# SAN DIEGO RIVER BASIN # San Diego River near Santee, Calif. Location. - Water-stage recorder and u"
@@ -30015,7 +30015,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2251,62,data,1,True,True,"# WATER RESOURCES OF CALIFORNIA, PART II. Daily gage height, in feet, of San Joaquin River at Herndo"
 658,256,data,2,True,True,"# TULARE LAKE BASIN # Sycamore Creek above Pine Flat Reservoir, Calif. Location. -Lat 36°55'15"", lon"
 2252,129,data,3,True,True," # Daily gage height, in feet, of Prosser Creek near Truckee, Cal., for 1907-1911-Continued. Day. Oc"
-614,21,data,1,True,True,# PUBLICATIONS # PUBLICATIONS (cont.) The records at most of the stations discussed in these reports
+614,21,report_list,1,True,True,# PUBLICATIONS # PUBLICATIONS (cont.) The records at most of the stations discussed in these reports
 56414,325,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11390500 SACRAMENTO RIVER BELOW WILKINS SLOUGH, NEAR GRIMES, CALIF. LOCAT"
 2249,251,data,2,True,True," # SURFACE WATER SUPPLY, 1912, PART XI. # Daily discharge, in second-feet, of Kosk Creek near Hender"
 3013,71,data,1,True,True," dry or Plugged ft. 197 at depth Measured 1951. ft, 140 depth 1955. Measured 218 ft, access, Do. No "
@@ -31695,7 +31695,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038397,345,data,1,True,True," # 11-4770. EEL RIVER AT SCOTIA, CALIF.--Continued # Suspended sediment, water year October 1964 to "
 677,266,data,2,True,True," # Los Gatos Creek above Nunez Canyon, near Coalinga, Calif. Location - Lat 36°12'55"" long 120°28'10"
 604,315,data,3,True,True,"# SACRAMENTO RIVER MAIN STEM 305 # Sacramento River below Wilkins Slough, Calif. Location. - Water-s"
-4538,18,data,1,True,True,8 # PUBLICATIONS State reports containing compilation of records of discharge # PUBLICATIONS (cont.)
+4538,18,report_list,1,True,True,8 # PUBLICATIONS State reports containing compilation of records of discharge # PUBLICATIONS (cont.)
 1548,260,data,1,True,True,"# SURFACE WATER SUPPLY, 1919 AND 1920, PART XI. Daily discharge, in second-feet, of Utica Gold Minin"
 3048,589,data,2,True,True,"RUSSIAN RIVER BASIN 575 # 4632. Big Sulphur Creek near Cloverdale, Calif. Location. Lat 38°49'25"", l"
 431,296,data,1,True,True,"# SURFACE WATER SUPPLY, 1926, PART XI # FEATHER RIVER BASIN # NORTH FORK OF FEATHER RIVER NEAR PRATT"
@@ -32571,7 +32571,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56412,412,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11408850 MIDDLE YUBA RIVER NEAR CAMPTONVILLE, CALIF. LOCATION. 39°25'01"","
 1607,35,data,2,True,True," # SAN DIEGUITO RIVER BASIN # San Dieguito River at Lake Hodges, Calif. Location.- - Lat. 33°02'55"","
 3146,144,data,2,True,True,"9-3145. PRICE RIVER AT WOODSIDE, UTAH--Continued # GREEN RIVER BASIN--Continued pH 8.1 7.7 7.8 7.9 S"
-677,24,data,2,True,True,"10 # SURFACE WATER SUPPLY, 1955, PART 11 Reports on surface-water supply containing records from 187"
+677,24,report_list,2,True,True,"10 # SURFACE WATER SUPPLY, 1955, PART 11 Reports on surface-water supply containing records from 187"
 70038406,139,data,4,True,True,# SAN BERNARDINO COUNTY 131 4N/1W-21E2 S. R. HITCHCOCK. ABOUT 3 MILES SOUTHWEST OF LUCERNE VALLEY (V
 1592,25,data,2,True,True,"# SAN DIEGUITO RIVER BASIN SAN DIEGUITO RIVER AT LAKE HODGES, CALIF. LOCATION.-In NW1/4 sec. 18, T. "
 70039753,259,data,2,True,True,"# SACRAMENTO RI VER BASIN--Continued # 11-4517.6. CACHE CREEK ABOVE RUMSEY, CALIF.--Continued Partic"
@@ -33809,7 +33809,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3146,94,data,1,True,True,"80 # QUALITY OF SURFACE WATERS, 1965 9-2170. GREEN RIVER NEAR GREEN RIVER, WYO.--Continued Suspended"
 641,488,data,2,True,True,"# KLAMATH RIVER BASIN # Klamath River at Keno, Oreg. Location Lat 42°08', long. 121°58' in SE1 sec. "
 2187,100,data,1,True,True,"# TABLE 11.-Chemical analyses of ground water in the Scott Valley area, California Sodium (Na) (per-"
-604,21,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY The reports listed in 
+604,21,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY The reports listed in 
 3106,249,data,2,True,True," # 11465200 DRY CREEK NEAR GEYSERVILLE, CALIF.--Continued SUSPENDED-SEDIMENT DISCHARGE, WATER YEAR O"
 70038400,60,data,1,True,True,"# 11-1499. SAN ANTONIO RIVER NEAR LOCKWOOD, CALIF.--Continued Suspended sediment, water year October"
 56418,356,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11319500 MOKELUMNE RIVER NEAR MOKELUMNE HILL, CALIF. LOCATION. Lat 38°18"
@@ -36935,7 +36935,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2913,448,data,2,True,True,"Monthly and yearly mean discharge, in cubic feet per second, of Chewaucan River above Conn ditch, ne"
 3146,350,data,1,True,True,"# SALINAS RIVER BASIN--Continued # 11-1500. SAN ANTONIO RIVER AT PLEYTO, CALIF.--Continued (Where no"
 22830,41,data,1,True,True,"# GEOLOGY The high yield factors, ranging between 80 and 160, in the vicinity of T. 28 S. , R. 25 E."
-70038394,24,data,2,True,True,"# Annual Series of Water-Supply Papers for Quality of Surface Waters - U.S. Geological Survey, 1943-"
+70038394,24,report_list,2,True,True,"# Annual Series of Water-Supply Papers for Quality of Surface Waters - U.S. Geological Survey, 1943-"
 1588,322,data,2,True,True,"# MIDDLE FORK OF FEATHER RIVER NEAR CLIO, CALIF. LoCATION.-Water-stage recorder in center of sec. 23"
 3090,215,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11-3925. Middle Fork Feather River near Clio, Calif.--Continued 207 # DIS"
 716,76,data,1,True,True,"462.5. San Onofre Creek at San Onofre, Calif.--Continued Discharge, in cubic feet per second, water "
@@ -37268,7 +37268,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038676,459,data,1,True,True,"SACRAMENTO RIVER BASIN 935 # 11427500 MIDDLE FORK AMERICAN RIVER AT FRENCH MEADOWS, CALIF. LOCATION,"
 1139,95,data,1,True,True,# SALINAS RIVER DRAINAGE BASIN. poor results. There are numerous wells in the vicinity of Santa Mari
 70038405,282,data,1,True,True," BOLINAS LAGOON BASIN 11-4601.7. PINE CREEK AT BOLINAS, CALIF. LOCATION.--Lat from 37°55'07"", highwa"
-4561,320,data,1,True,True,# STREAM-GAGING STATIONS AND PUBLICATIONS. # Stream-flow data in reports of the United States Geolog
+4561,320,report_list,1,True,True,# STREAM-GAGING STATIONS AND PUBLICATIONS. # Stream-flow data in reports of the United States Geolog
 1572,41,data,2,True,True,"# SANTA ANA RIVER BASIN # MILL CREEK POWER CANAL NO. 1 NEAR CRAFTONVILLE, CALIF. LoCATION.-Water-sta"
 70038393,106,data,1,True,True,"# 11-2087 3. East Fork Kaweah River near Three Rivers, Calif Continued. Discharge, in cubic feet per"
 38870,65,data,2,True,True, 380 756.9 757.4 23.8 34.8 41.4 32 0073 6.48 812 Sand-silt-clay 2.66 1.35 84.2 49.2 .96 003 381 763.
@@ -37444,7 +37444,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3033,277,data,2,True,True,"# MAD RIVER BASIN Peak stages and discharges of Mad River near Arcata, Calif.--Continued # MAD RIVER"
 3089,36,data,2,True,True,"24 # RAT CREEK BASIN # 11-1428. Rat Creek near Lucia, Calif. Location. --Lat 36°05'32"" long 121°37'0"
 57548,403,data,2,True,True,"# ANALYSES OF SAMPLES COLLECTED AT WATER-QUALITY PARTIAL-RECORD STATIONS WATER QUALITY DATA, WATER Y"
-1553,17,data,1,True,True,# PUBLICATIONS 7 # Stream-flow data in reports of the United States Geological Survey [A = Annual Re
+1553,17,report_list,1,True,True,# PUBLICATIONS 7 # Stream-flow data in reports of the United States Geological Survey [A = Annual Re
 1305,77,data,2,True,True,"# Records of water levels in the valley of southern California-Continued. 64. Mr. Haley, one-fourth "
 648,404,data,2,True,True," # SACRAMENTO RIVER BASIN # Butte Creek near Chico, Calif. Location -Lat 39°44' long. 121°42' in NW "
 70038675,95,data,1,True,True,"# MOJAVE RIVER BASIN 77 # 10261900 MOJAVE RIVER AT WILD CROSSING, NEAR HELENDALE, CALIF. LOCATION.- "
@@ -38081,7 +38081,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038403,255,data,1,True,True,"SACRAMENTO RIVER BASIN--Continued 11-4475. SACRAMENTO RIVER AT SACRAMENTO, CALIF. -Continued Suspend"
 633,406,data,2,True,True,"394 # COLUSA AND YOLO BASINS # Yolo bypass near Woodland, Calif. Location. .--Water-stage recorder o"
 56411,297,data,1,True,True,"# SANTA YNEZ RIVER BASIN # 11129800 ZACA CREEK NEAR BUELLTON, CALIF. 281 LOCATION. Lat 34°38'55"", lo"
-648,22,data,2,True,True,"10 # SURFACE WATER SUPPLY, 1952, PART 11 The records at most of the stations discussed in these repo"
+648,22,report_list,2,True,True,"10 # SURFACE WATER SUPPLY, 1952, PART 11 The records at most of the stations discussed in these repo"
 1585,266,data,2,True,True,"# SURFACE WATER SUPPLY, 1931, PART 11 # MODESTO CANAL NEAR LA GRANGE, CALIF. LOCATION.-Water-stage r"
 3117,556,data,2,True,True,"SACRAMENTO SACRAMENTO # DAM. NEAR FRENCH MEADOWS, CALIF. CALIF. # RIVER RIVER BASIN BASIN DUNCAN CRE"
 3090,322,data,1,True,True," # SACRAMENTO RIVER BASIN 11-4080. Milton-Bowman tunnel outlet near Graniteville, Calif. (Formerly p"
@@ -38664,7 +38664,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1572,236,data,2,True,True,"# SURFACE WATER SUPPLY, 1927, PART XI # NORTH PORK OF YURA RIVER NEAR STEEBA CITY, CALIF LOCATION.Wa"
 56850,611,data,2,True,True,"# SAN ANTONIO CREEK BASIN 11135800 SAN ANTONIO CREEK AT LOS ALAMOS, CA 595 LOCATION upstream Lat fro"
 3034,287,data,2,True,True,"# KLAMATH RIVER BASIN # KLAMATH RIVER BASIN (cont.) 5130. Grizzly Creek near Lilyglen, Oreg. (Publis"
-623,19,data,1,True,True,"PUBLICATIONS 7 West of the Mississippi River: Austin, Tex. 302 West Fifteenth Street. Bismarck, N. D"
+623,19,report_list,1,True,True,"PUBLICATIONS 7 West of the Mississippi River: Austin, Tex. 302 West Fifteenth Street. Bismarck, N. D"
 1627,445,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # 11-2865. Woods Creek near Jacksonville, Calif. Location Lat 37°51'30"" lo"
 633,330,data,3,True,True," # McCloud River above Shasta Lake, Calif. (Formerly published as McCloud River above Shasta Reservo"
 70038682,491,data,1,True,True,"# KLAMATH RIVER BASIN # 11526500 NORTH FORK TRINITY RIVER AT HELENA, CALIF. LOCATION.-- Lat 40°46'55"
@@ -40844,7 +40844,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56361,100,data,1,True,True,"# 09522000 COLORADO RIVER AT NORTHERLY INTERNATIONAL BOUNDARY, ABOVE MORELOS DAM, NEAR ANDRADE, CALI"
 70038675,81,data,1,True,True,"# SALTON SEA BASIN 63 # 10258000 TAHQUITZ CREEK NEAR PALM SPRINGS, CALIF. LOCATION Lat 33°48'18"", lo"
 56417,43,data,1,True,True,"# WALKER LAKE BASIN # 10296500 WEST WALKER RIVER NEAR COLEVILLE, CALIF. LOCATION. Lat 38°30'55"", lon"
-3089,22,data,2,True,True," # Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A - Annu"
+3089,22,report_list,2,True,True," # Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A - Annu"
 26284,18,data,1,True,True,TABLE 3. --Summary of dissolved major inorganic chemical-constituent data for the Santa Clara River 
 38936,79,data,2,True,True, in the interval of water-level fluctuations in the well cas- ing and was most rapid in wells that h
 1305,63,data,2,True,True,# THE RECORDS. # Records of water levels in the valley of southern California-Continued. # 51. Azusa
@@ -41278,7 +41278,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1588,26,data,2,True,True,"# SAN DIEGUITO RIVER BASIN ## SAN DIEGUITO RIVER AT LAKE HODGES, CALIF. LOCATION.- NW1/4 sec. 18, T."
 2060,437,data,2,True,True,"# SAN ANTONIO, SANTA MARIA, AND CUYAMA VALLEYS 431 # Water level, in feet below land-surface datum, "
 53793,19,data,2,True,True,"# HYDROLOGIC BUDGET An additional 1,000 acre-feet is probably pumped annually to meet the demands of"
-733,20,data,2,True,True,Reports on surface water supply containing records from 1899 to date for drainage basins in this rep
+733,20,report_list,2,True,True,Reports on surface water supply containing records from 1899 to date for drainage basins in this rep
 3089,411,data,2,True,True,"EEL RIVER BASIN 399 # 11-4729. Black Butte River near Covelo, Calif.--Continued # DISCHARGE, IN CUBI"
 51002,128,data,1,True,True,"# SPRING - U. S. FOREST SERVICE Location. - Lat. 34°30'40"", long. 119°52'40"" Altitude. - About 2,475"
 56807,170,data,2,True,True,"154 CALABAZAS CREEK BASIN # 11169600 PROSPECT CREEK AT SARATOGA GOLF COURSE, NEAR SARATOGA, CA--Cont"
@@ -41310,7 +41310,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1588,336,data,2,True,True," NORTH FORK OF YUBA RIVER NEAR SIERRA CITY, CALIF. LOCATION.-Water-stag - recorder in NW1/4 sec. 32,"
 2447,486,index_contents,1,True,True,"INDEX 471 Page Page Eagle River below Gypsum, Colo 102 Gila River, below Gillespie Dam, Ariz 461 Eag"
 70038404,499,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11-4490.1. HIGHLAND CREEK BELOW HIGHLAND CREEK DAM, NEAR KELSEYVILLE, CAL"
-667,22,data,1,True,True," - Part 1. North Atlantic slope basins, in two volumes: - A, North Atlantic slope basins, Maine to C"
+667,22,report_list,1,True,True," - Part 1. North Atlantic slope basins, in two volumes: - A, North Atlantic slope basins, Maine to C"
 1592,248,data,2,True,True,"# SUTTER CREEK AT SUTTER CREEK, CALIF. LOCATION.-Staf - gage in sec. 7, T. 6 N., R. 11 E., three-eig"
 593,390,data,3,True,True," # COLUSA AND YOLO BASINS # Putah Creek near Winters, Calif. Location. - Water-stage recorder, lat. "
 1422,39,data,2,True,True,"# PART 1. COLORADO RIVER BASIN BELOW BOULDER DAM Gage height and discharge at indicate / time, 1939 "
@@ -41468,7 +41468,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1276,250,data,1,True,True,"# GILA RIVER NEAR DOME, ARIZ. Monthly summary of discharge of Gila River at Yuma and at and near Dom"
 1554,69,data,1,True,True,"# Monthly discharge of City Creek near Highlands, Calif., for the year ending Sep- tember 30, 1922 M"
 1558,118,data,2,True,True,"# SURFACE WATER SUPPLY, 1923, PART XI Daily discharge, in second-feet, of San Benito River near Tres"
-3048,25,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 # RECORDS OF DISCHA
+3048,25,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 # RECORDS OF DISCHA
 56411,195,data,1,True,True,"# SANTA ANA RIVER BASIN 11070500 SAN JACINTO RIVER NEAR ELSINORE, CALIF, LOCATION Lat 33°39'51"", lon"
 1588,117,data,2,True,True,"# LOS ANGELES RIVER BASIN # RIO HONDO NEAR MONTEBELLO, CALIF. LOCATION.-Water-stage - recorder in Sa"
 2063,178,data,2,True,True, # COLORADO RIVER AND ITS UTILIZATION. # Estimate of present and proposed diversions from the Colora
@@ -41840,7 +41840,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3090,418,data,1,True,True,"11-4261.2. Onion Creek tributary No. 5A near Soda Springs, Calif.--Continued DISCHARGE, IN CUBIC FEE"
 56404,300,data,1,True,True,"# EEL RIVER BASIN # 11471000 POTTER VALLEY POWERHOUSE TAILRACE NEAR POTTER VALLEY, CA--Continued WAT"
 70038678,388,data,1,True,True,"374 # EEL RIVER BASIN # 11471000 POTTER VALLEY POWERHOUSE TAILRACE NEAR POTTER VALLEY, CALIF. LOCATI"
-210,30,data,1,True,True,# PUBLICATIONS Reports giving records of chemical quality and temperatures of surface waters and sus
+210,30,report_list,1,True,True,# PUBLICATIONS Reports giving records of chemical quality and temperatures of surface waters and sus
 1139,165,data,2,True,True,"# SAN JOAQUIN RIVER BASIN. # TUOLUMNE RIVER AT LA GRANGE, CAL. This station was established August 2"
 70038396,56,data,3,True,True,"# PYRAMID AND WINNEMUCCA LAKES BASIN 10-3394. Martis Creek near Truckee, Calif. Location, 39°20'20"","
 57548,274,data,1,True,True,"# 11289650 TUOLUMNE RIVER BELOW LA GRANGE DAM, NEAR LA GRANGE, CALIF.--Continued COMBINED DISCHARGE,"
@@ -42157,7 +42157,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 499,205,data,2,True,True,"# MOKELUMNE RIVER BASIN 203 # Sutter Creek near Sutter Creek, Calif. Location. - Staff gage, lat. 38"
 1554,282,data,1,True,True,"272 # Monthly discharge of Pine Creek near Alturas, Calif., for the year ending September 30, 1922 M"
 3150,381,data,1,True,True,"TULARE LAKE BASIN--Continued 11-2185. KINGS RIVER BELOW NORTH FORK, NEAR TRIMMER, CALIF. miles Janua"
-489,15,data,1,True,True,# PUBLICATIONS # Stream-flow data in reports of the United States Geological Survey--Continued # (A 
+489,15,report_list,1,True,True,# PUBLICATIONS # Stream-flow data in reports of the United States Geological Survey--Continued # (A 
 56807,112,data,1,True,True,"# PAJARO RIVER BASIN 11156500 SAN BENITO RIVER NEAR WILLOW CREEK SCHOOL, CA LOCATION.-- 36°36'34"" lo"
 724,345,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # 2347. Mammoth Pool Reservoir near Big Creek, Calif. Location. -Lat 37°19"
 3089,473,data,2,True,True,"# 11-4805. Mad River near Forest Glen, Calif.--Continued DISCHARGE, IN CUBIC FEET PER SECOND, WATER "
@@ -42277,7 +42277,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 573,369,data,3,True,True,"# RUSSIAN RIVER BASIN 361 # RUSSIAN RIVER BASIN (cont.) Russian River near Hopland, Calif. Location "
 3034,200,data,2,True,True,"# SACRAMENTO RIVER BASIN Peak stages and discharges of Sacramento River at Kennett, Calif.--Continue"
 251,330,data,2,True,True,"# GILA RIVER BASIN Monthly summary of discharge of Curtis Canal near Eden, Ariz., 1914-15, 192C-31--"
-2913,20,data,2,True,True," # COMPILATION OF SURFACE WATER RECORDS, PART 10 The records at most of the stations discussed in th"
+2913,20,report_list,2,True,True," # COMPILATION OF SURFACE WATER RECORDS, PART 10 The records at most of the stations discussed in th"
 70038676,455,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11426400 NORTH SHIRTTAIL CREEK NEAR DUTCH FLAT, CALIF. LOCATION.-- Lat 39"
 56461,370,data,1,True,True,"352 # SAN JOAQUIN RIVER BASIN # 11333500 NORTH FORK COSUMNES RIVER NEAR EL DORADO, CA LOCATION. Lat "
 56412,203,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11270900 MERCED RIVER BELOW MERCED FALLS DAM, NEAR SNELLING, CALIF. LOCA"
@@ -42363,7 +42363,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1573,198,data,2,True,True,"# SACRAMENTO RIVER BASIN # SACRAMENTO RIVER AT COLUSA, CALIF. LOCATION.-Water-stage recorder in sec."
 56414,522,data,4,True,True," # 11530500 KLAMATH RIVER NEAR KLAMATH, CALIF.--Continued CHEMICAL ANALYSES, WATER YEAR OCTOBER 1971"
 56792,430,data,1,True,True,# Crest-stage partial-record stations The following table contains annual maximum discharges for cre
-3144,22,data,2,True,True," # Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A - Annu"
+3144,22,report_list,2,True,True," # Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A - Annu"
 1640,399,data,2,True,True,"GUALALA RIVER BASIN SOUTH FORK GUALALA RIVER NEAR ANNAPOLIS, CALIF. TO CONTINUED SEPTEMBER DISCHARGE"
 641,241,data,2,True,True," # North Fork Kings River near Cliff Camp, Calif. Location. Lat 37°00', long. 118°59' in NW sec. 12,"
 56850,571,data,1,True,True,"# VENTURA RIVER BASIN 11118000 COYOTE CREEK NEAR VENTURA, CA LOCATION Lat 34°21'26"", long 119°18'46"""
@@ -42699,7 +42699,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1585,106,data,1,True,True,"96 SURFACE WATER SUPPLY, 1931, PART 11 Daily discharge, in second-feet, of 1931-Continued Los Angele"
 3117,636,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11439500 SOUTH FORK AMERICAN RIVER NEAR KYBURZ, CALIF. CONTINUED DISCHARG"
 4561,50,data,3,True,True,"# SANTA ANA RIVER BASIN. Discharge measurements of San Antonio Creek near Claremont, Calif., during "
-658,20,data,1,True,True,"8 - Part 6. Missouri River basin, in two volumes : A, Missouri River basin above Sioux City, Iowa. -"
+658,20,report_list,1,True,True,"8 - Part 6. Missouri River basin, in two volumes : A, Missouri River basin above Sioux City, Iowa. -"
 194,248,data,1,True,True,MISCELLANEOUS ANALYSES OF STREAMS IN COLORADO RIVER BASIN--Continued Method of analysis VPWC 2.000 1
 56361,339,data,1,True,True,"# SANTA ANA RIVER BASIN # 11073470 CUCAMONGA CREEK NEAR UPLAND, CALIF. 321 # 11073470 CUCAMONGA CREE"
 623,184,data,2,True,True,"# SALINAS RIVER BASIN # Toro Creek near Pozo, Calif. Location - Water-stage recorder and 90° V-notch"
@@ -44108,7 +44108,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1595,237,data,2,True,True,"# MOKELUMNE RIVER BASIN # Sutter Creek at Sutter Creek, Calif. Location. - Staff gage in sec. 7, T. "
 1520,124,data,2,True,True,"# SURFACE WATER SUPPLY, 1913, PART XI. Monthly discharge of Kern River Power Co.'s Canal at Kernvill"
 2252,667,data,1,True,True,"# STREAM MEASUREMENTS IN SOUTH PACIFIC COAST BASINS. Daily discharge, in second-feet, of Pacific Lig"
-553,17,data,2,True,True,8 # PUBLICATIONS From time to time reports have been published that are compilations of records for 
+553,17,report_list,2,True,True,8 # PUBLICATIONS From time to time reports have been published that are compilations of records for 
 56403,566,data,2,True,True,"550 # 11113500 SANTA PAULA CREEK NEAR SANTA PAULA, CA--Continued SPECIFIC CONDUCTANCE (MICROMHOS/CM "
 4538,33,data,2,True,True,"# SAN DIEGO RIVER BASIN # San Vicente Creek at Foster, Calif. Location.- Water-stage recorder and co"
 583,64,data,2,True,True,"# SANTA ANA RIVER BASIN Combined discharge, in second-feet, of Warm Creek and Meeks & Daley Canal ne"
@@ -44448,7 +44448,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70039753,237,data,1,True,True,"# SACRAMENTO RIVER BASIN--Continued # 11-4249. BEAR RIVER NEAR MOUTH, AT RIO oso, CALIF. LOCATION --"
 199,216,data,1,True,True,"VIRGIN RIVER N--Continued 9-4100. SANTA CLARA RIVER ABOVE WINSOR DAM, NEAR SANTA CLARA, UTAH--Contin"
 70038406,157,data,6,True,True,# SAN BERNARDINO COUNTY 149 1N/7F-26N1 S. CLYDE ROLLARD. NEAR SOUTH END OF COPPER MOUNTAIN AND ABOUT
-1640,23,data,1,True,True,# PUBLICATIONS Records for the area covered by this report have been compiled through September 1950
+1640,23,report_list,1,True,True,# PUBLICATIONS Records for the area covered by this report have been compiled through September 1950
 70038403,118,data,1,True,True,"# COLMA CREEK BASIN--Continued 11-1627.22. SPRUCE BRANCH AT SOUTH SAN FRANCISCO, CALIF. LOCATION. --"
 70038394,252,data,1,True,True,"# SALMON CREEK BASIN 11-4609.2. SALMON CREEK AT BODGEA, CALIF. DRAINAGE AREA.--15.7 square miles. LO"
 70038398,143,data,2,True,True,"# 11-0377. Pauma Creek near Pauma Valley, lif.--Continued Combined discharge, in cubic feet per seco"
@@ -45031,7 +45031,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038672,95,data,1,True,True,"# OWENS LAKE BASIN # 10-2760. Big Pine Creek near Big Pine, Calif. Location.--La: 37°08'40"", long 11"
 26334,21,data,1,True,True,"# Table 2. .--Land use along the banks of the Sacramento River [From U.S. Army Corps of Engineers, 1"
 56792,70,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11363910 JAMES B. BLACK POWERPLANT NEAR BIG BEND, CA LOCATION. Lat 40°59'"
-1554,17,data,1,True,True,# PUBLICATIONS # Stream-flow data in reports of the United States Geological Survey [A =Annual Repor
+1554,17,report_list,1,True,True,# PUBLICATIONS # Stream-flow data in reports of the United States Geological Survey [A =Annual Repor
 1558,166,data,1,True,True,"Monthly discharge of Dinkey Creek at mouth, California, for the year ending September 30, 1923 Month"
 667,160,data,2,True,True,"# VENTURA RIVER BASIN # Ventura River near Ventura, Calif.--Continued Discharge, in cubic feet per s"
 1137,192,data,2,True,True," # SPRAGUE RIVER AT YAINAX, OREG. # Mean daily gage height, in feet, of Sprague River at Yainax, Ore"
@@ -45970,7 +45970,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 383,228,data,2,True,True,"226 # SURFACE WATER SUPPLY, 1918, PART XI. Daily discharge, in second-feet, of Goodyear Creek at Goo"
 2987,149,data,1,True,True,# TABLE 9.-Colorado River Basin-Continued dis- peak charge Momentary Second-feet square per mile 3 2
 641,78,data,2,True,True,"# SANTA ANA RIVER BASIN # Warm Creek near Colton, Calif. Location Lat 34°04'00"", long. 117°18'30"", i"
-1609,19,data,2,True,True,# PUBLICATIONS The reports listed in the foregoing tables contain the customary records of discharge
+1609,19,report_list,2,True,True,# PUBLICATIONS The reports listed in the foregoing tables contain the customary records of discharge
 56808,189,data,1,True,True,"173 # SACRAMENTO RIVER BASIN 11384000 BIG CHICO CREEK NEAR CHICO, CA--Continued WATER-QUALITY RECORD"
 56461,283,data,1,True,True,"# SAN JAOQUIN RIVER BASIN 11292700 MIDDLE FORK STANISLAUS RIVER AT HELLS HALF ACRE BRIDGE, NEAR PINE"
 667,415,data,1,True,True,"# SACRAMENTO RIVER BASIN # Big Chico Creek near Chico, Calif. Location. --Lat 39°46'20"" (revised), l"
@@ -46522,7 +46522,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038403,321,data,1,True,True,"RUSSIAN RIVER BASIN--Continued 11-4620. EAST FORK RUSSIAN RIVER NEAR UKIAH, CALIF.--Continued Period"
 573,70,data,2,True,True,"62 SANTA ANA RIVER BASIN Combined discharge, in second-feet, of Lytle Creek and Fontana pipe line ne"
 583,441,data,3,True,True,"# EEL RIVER BASIN # Van Duzen River at Bridgeville, Calif. Location. - Wire-weight gage, lat. 40°28'"
-4537,13,data,1,True,True,"6 # PUBLICATIONS The foregoing table gives, by years and drainage basins, the numbers of the papers "
+4537,13,report_list,1,True,True,"6 # PUBLICATIONS The foregoing table gives, by years and drainage basins, the numbers of the papers "
 2251,406,data,1,True,True,"396 # WATER RESOURCES OF CALIFORNIA, PART II. # COSUMNES RIVER AT MICHIGAN BAR, CAL. Cosumnes River "
 70038414,348,data,1,True,True,"830 SACRAMENTO RIVER BASIN # 11-3880. STONY CREEK BELOW BLACK BUTTE DAM, NEAR ORLAND, CALIF, LOCATIO"
 3048,301,data,2,True,True,"# TULARE LAKE BASIN # 2150. North Fork Kings River near Cliff Camp, Calif. Location. --Lat 37°00' lo"
@@ -47068,7 +47068,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56418,67,data,1,True,True,"# SUSPENDED-SEDIMENT DISCHARGE, OCTOBER 1973 TO JUNE 1974 55 # SUSPENDED-SEDIMENT DISCHARGE, OCTOBER"
 70038405,126,data,2,True,True,"SALINAS RIVER BASIN 11-1523, SALINAS RIVER NEAR CHUALAR, CALIF.--Continued OCTOBER no concentrations"
 24284,288,data,1,True,True, Date Discharge (gpm) Temp. (°F) Date Discharge (gpm) Temp. (°F) Date Discharge (gpm) Temp. (°F) 195
-3090,18,data,2,True,True,"Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A - Annual "
+3090,18,report_list,2,True,True,"Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A - Annual "
 2060,146,data,3,True,True,"# 140 GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF. Water levels, in feet below land-surface dat"
 70038404,244,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11-2965. SOUTH FORK STANISLAUS RIVER AT STRAWBERRY, CALIF. LOCATION. -La"
 1572,49,data,2,True,True,"# SANTA ANA RIVER BASIN # CITY CREEK WATER CO.'S CANAL NEAR HIGHLAND, CALIF. LoCATION.-Water-stage r"
@@ -47278,7 +47278,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56420,205,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11277300 CHERRY CREEK BELOW CHERRY VALLEY DAM, NEAR HETCH HETCHY, CALIF."
 633,192,data,3,True,True,"# Campbell Creek at Saratoga, Calif. Location. -Water-stage recorder and concrete control, lat. 37°1"
 1641,139,data,2,True,True,"# TULARE LAKE BASIN 11208625 EAST FORK KAWEAH RIVER AT SEQUOIA NATIONAL PARK BOUNDARY, NEAR HAMMOND,"
-593,21,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 The reports listed 
+593,21,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 The reports listed 
 2888,208,data,1,True,True," # SPRINGS OF CALIFORNIA. the Geyser Spring, or Omar-Ach-Hah-Bee, the Great Spring, and in July, 191"
 70038415,47,data,1,True,True,"# SALTON SEA BASIN 33 10-2547.3. ALAMO RIVER NEAR NILAND, CALIF. LOCATION -Lat 33°12'03"", long 115°3"
 3048,685,index_contents,1,True,True,"INDEX 671 Page Page Coalinga, Calif., Los Gatos Creek Dalton Creek near Glendora, Calif 105 near 300"
@@ -47421,7 +47421,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3048,406,data,2,True,True," # SAN JOAQUIN RIVER BASIN # 3070. Esperanza Creek near Mokelumne Hill, Calif. Location. Lat 38°19'0"
 2251,301,data,2,True,True,"# STREAM MEASUREMENTS IN SAN JOAQUIN BASIN. # Daily discharge, in second-feet, of Turlock canal near"
 583,346,data,3,True,True," # BATTLE CREEK BASIN # Battle Creek near Cottonwood, Calif. Location.- Water-stage recorder, lat. 4"
-2248,15,data,1,True,True,# PACIFIC COAST IN CALIFORNIA. 11 # Stream-flow data in reports of the United States Geological Surv
+2248,15,report_list,1,True,True,# PACIFIC COAST IN CALIFORNIA. 11 # Stream-flow data in reports of the United States Geological Surv
 70038400,180,data,1,True,True,"SACRAMENTO RIVER BASIN--Continued 11-3722. SOUTH COW CREEK NEAR MILLVILLE, CALIF. LOCATION.--Lat 40°"
 4536,119,data,2,True,True,"# ALAMEDA CREEK BASIN # Daily discharge, in second-feet, of Alameda Creek near Sunol, Calif., for th"
 70038396,204,data,2,True,True,"654 # SAN JOAQUIN RIVER BASIN # 11-2775. Lake Eleanor near Hetch Hetchy, Calif. Location Lat 37°58'3"
@@ -48001,7 +48001,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 667,282,data,2,True,True," # SAN JOAQUIN RIVER BASIN # Granite Creek near Cattle Mountain, Calif. Location. -Lat 37°31'30"", lo"
 2507,329,data,1,True,True,# GROUND WATERS-LONG BEACH-SANTA ANA AREA 319 T Page # GROUND WATERS-LONG BEACH-SANTA ANA AREA 319 (
 499,60,data,2,True,True,"58 # SANTA ANA RIVER BASIN # Cucamonga Creek near Upland, Calif. Location. - Water-stage recorder, l"
-15,17,data,1,True,True,"# PUBLICATIONS have been revised), as well as some records not contained in the annual series of wat"
+15,17,report_list,1,True,True,"# PUBLICATIONS have been revised), as well as some records not contained in the annual series of wat"
 56807,205,data,1,True,True,"# ALAMEDA CREEK BASIN # 11179000 ALAMEDA CREEK NEAR NILES, CA LOCATION Lat 37°35'14"" long 121°57'35"""
 3089,81,data,2,True,True," # 11-1494. Nacimiento River below Nacimiento Dam, near Bradley, Calif.--Continued # DISCHARGE, IN C"
 70038404,440,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11-4237. NEW CAMP FAR WEST RESERVOIR NEAR WHEATLAND, CALIF. LOCATION Lat "
@@ -48081,7 +48081,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 23995,30,data,4,True,True,"4/25-34F2. H. R. Hirsch. Drilled gravel-packed uaused water-table well in Santa Barbara formation, d"
 56403,300,data,2,True,True,"284 # 11022500 SAN DIEGO RIVER NEAR SANTEE, CA--Continued # SUSPENDED-SEDIMENT DISCHARGE (TONS/DAY),"
 3174,63,data,2,True,True,"# 11097500 LOS ANGELES RIVER AT LOS ANGELES, CALIF. LOCATION, --Lat 34°04'52"", long 118°13'36"", Los "
-1744,338,data,1,True,True,# STREAM-GAGING STATIONS AND PUBLICATIONS. V # Stream-flow data in reports of the United States Geol
+1744,338,report_list,1,True,True,# STREAM-GAGING STATIONS AND PUBLICATIONS. V # Stream-flow data in reports of the United States Geol
 70038673,335,data,1,True,True,"# SALINAS RIVER BASIN # 11-1488. NACIMIENTO RIVER NEAR BRYSON, CALIF. LOCATION. -Lat 35°48'06"" long "
 716,315,data,2,True,True,"299 # 1905. Isabella Reservoir near Isabella, Calif. Location. --Lat 35°38'50"", long 118°28'50"" in S"
 56416,601,data,2,True,True,"# 11523000 KLAMATH RIVER AT ORLEANS CALIF. Continued # SUSPENDED-SEDIMENT DISCHARGE, WATER YEAR OCTO"
@@ -48224,7 +48224,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56808,410,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11440000 ALDER CREEK NEAR WHITE HALL, CA LOCATION.- Lat 38°45'19"", long 1"
 2913,427,data,5,True,True,"# HONEY LAKE BASIN # HONEY LAKE BASIN (cont.) Monthly and yearly mean discharge, in cubic feet per s"
 3033,262,data,2,True,True,"Peak stages and discharges of Black Butte River near Covelo, Calif. Water year Date Gage height (fee"
-3089,23,data,1,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 # Special reports o
+3089,23,report_list,1,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 # Special reports o
 26284,19,data,1,True,True,TABLE 4. --Summary of dissolved major inorganic chemical-constituent data for the Santa Clara River 
 1305,62,data,1,True,True,# WATER LEVELS IN WELLS IN SOUTHERN CALIFORNIA. # Records of water levels in the valley of southern 
 56361,101,data,1,True,True,"09522000 COLORADO RIVER MAIN STEM ABOVE MORELOS RIVER DAM, AT NEAR NORTHERLY ANDRADE, INTERNATIONAL "
@@ -48381,7 +48381,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1606,184,data,1,True,True,"174 # TULARE LAKE BASIN # Kaweah River near Three Rivers, Calif. Location.- Water-stage recorder, la"
 70038403,346,data,1,True,True,"# 11-4652. DRY RUSSIAN RIVER BASIN--Continued CREEK NEAR GEYSERVILLE, periodic determinations of and"
 2246,408,data,1,True,True,"# 398 SURFACE WATER OF PACIFIC SLOPE, SOUTHERN CALIFORNIA. Combined monthly discharge of San Gabriel"
-573,17,data,2,True,True,"# PUBLICATIONS 9 Reports have been published that are compilations of records for various areas, usu"
+573,17,report_list,2,True,True,"# PUBLICATIONS 9 Reports have been published that are compilations of records for various areas, usu"
 1627,260,data,2,True,True,"# 11-2347. Mammoth Pool Reservoir near Big Creek, Calif.--Continued CONTENTS, IN ACRE-FEET, AT 2400 "
 56792,175,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11390660 WALKER CREEK AT ARTOIS, CA LOCATION. - Lat 39°37'32"", long 122°1"
 1109,128,data,2,True,True,"# TABLE.-Description of water wells and springs in the Russian River valley area, California-Continu"
@@ -49626,7 +49626,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 455,39,data,2,True,True,"# SANTA ANA RIVER BASIN # Daily and monthly discharge, in second-feet, of Greenspot pipe line near M"
 1588,116,data,3,True,True,"# EATON CREEK NEAR PASADENA, CALIF. LoCATION.-Water-stage - recorder near line between secs. 2 and 1"
 56411,194,data,1,True,True,"178 11070475 CREEK SANTA CANYON RESERVOIR, ELSINORE, CALIF DISCHARGE, # IN PER WATER YEAR TO 1972 # "
-3048,24,data,3,True,True,"10 Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A = Annu"
+3048,24,report_list,3,True,True,"10 Streamflow data for the years 1884-1901, in reports of the Geological Survey--Continued (A = Annu"
 2063,179,data,3,True,True,"# IRRIGATION. # Irrigated and irrigable lands in lower basin of the Colorado, including all areas be"
 70038406,119,data,5,True,True,"# RIVERSIDE COUNTY 111 7S/3W-8M1 S. DR. WILLIAM HUNTLEY, FORMERLY HARVEY BLACKMORE. NEAR MURRIETA, A"
 1610,22,data,2,True,True,"# GAGING-STATION RECORDS 15 # TIA JUANA RIVER BASIN # Cottonwood Creek at Morena Dam, Calif. Locatio"
@@ -49761,7 +49761,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 573,323,data,3,True,True,"# FEATHER RIVER BASIN # Middle Fork Feather River at Bidwell Bar, Calif. Location. - Water-stage rec"
 2252,483,data,2,True,True," acres in barley, which was sown in October, 1904. The crop was only fair and was used for the pastu"
 1573,235,data,2,True,True," # MIDDLE FORK OF YUBA RIVER AT MILTON, CALIF. LOCATION.-Water-stage recorder in SW. 1/4 sec. 12, T."
-3144,23,data,1,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 # Special reports o
+3144,23,report_list,1,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY 11 # Special reports o
 56792,431,data,1,True,True,# DISCHARGE AT PARTIAL-RECORD STATIONS # Annual maximum discharge at crest-stage partial-record stat
 641,240,data,2,True,True,"# TULARE LAKE BASIN # Kings River above North Fork, Calif. Location (revised) Lat 36°52' long. 119°0"
 1640,398,data,1,True,True,"# GUALALA RIVER BASIN 11467500 SOUTH FORK GUALALA RIVER NEAR ANNAPOLIS, CALIF. CONTINUED DISCHARGE, "
@@ -49861,7 +49861,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 716,514,data,1,True,True,"498 # SACRAMENTO RIVER BASIN 3757. North Fork Cottonwood Creek near Igo, Calif. Location -Lat 40°26'"
 677,186,data,1,True,True," # SANTA MARIA RIVER BASIN # Cuyama River near Ventucopa, Calif. Location (revised) -Lat 34°41'20"" l"
 3048,669,data,2,True,True,"# SMITH RIVER BASIN # 5327. Rowdy Creek at Smith River, Calif. Location.--Lat 41°55'18"" long 124°08'"
-3217,15,data,2,True,True,"# PUBLICATIONS # Streamflow data for the years 1884-1901, in reports of the Geological Survey (A = A"
+3217,15,report_list,2,True,True,"# PUBLICATIONS # Streamflow data for the years 1884-1901, in reports of the Geological Survey (A = A"
 2850,14,data,1,True,True,Total 24.75 22.69 48.12 9.63 37.74 59.17 42.62 26.49 22.37 24.85 Sept. .50 .37 0 0 0 0 0 0 0 0 0 Aug
 70210573,46,data,1,True,True,"# SEDIMENTATION, MIDDLE FORK EEL RIVER, CALIFORNIA Table 8.--Bed material and streamflow data for se"
 251,12,data,1,True,True,# BIBLIOGRAPHY Gaging stations for which records of discharge are available and which are summarized
@@ -50046,7 +50046,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1137,89,data,1,True,True,"# STREAM MEASUREMENTS IN 1904, PART XI. # Miscellaneous discharge measurements in southern Californi"
 1136,204,data,2,True,True," # Discharge measurements of North Fork of Feather River near Big Bend, Cal., in 1905 to 1908. Date."
 70038672,61,data,2,True,True,"# SALTON SEA BASIN # 10-2540.5. Salt Creek near Mecca, Calif. Location Lat 33°26'50"", long 115°50'35"
-489,14,data,1,True,True,3. Sets are available for consultation in the local offices of the water-resources branch of the Geo
+489,14,report_list,1,True,True,3. Sets are available for consultation in the local offices of the water-resources branch of the Geo
 56807,113,data,2,True,True,"# PAJARO RIVER BASIN # 11157500 TRES PINOS CREEK NEAR TRES PINOS, CA LOCATION.-- Lat 36°45'13"", long"
 3089,472,data,2,True,True,"11-4805. Mad River near Forest Glen, Calif.--Continued DISCHARGE, IN CUBIC FEET PER SECOND, WATER YE"
 3150,380,data,1,True,True,"11-2135. KINGS RIVER ABOVE NORTH FORK, NEAR TRIMMER, CALIF. LOCATION Lat 36°51'45"", long 119°07'25"","
@@ -50087,7 +50087,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038682,100,data,1,True,True,"# OWENS LAKE BASIN 10277500 OWENS RIVER NEAR BIG PINE, CALIF. LOCATION.- 37°00'55"", long 118°13'25"" "
 3106,271,data,1,True,True,"# EKL RIVER BASIN # 11472200 OUTLET CREEK NEAR LONGVALE, CALIF. LOCATION --Lat 39°37'05"", long 123°2"
 70038669,395,data,1,True,True,"# EEL RIVER BASIN # 11-4729. Black Butte River near Covelo, Calif. Location.- Lat 39°49'10"", long 12"
-604,19,data,2,True,True,"# PUBLICATIONS 9 Reports have been published that are compilations of records for various areas, usu"
+604,19,report_list,2,True,True,"# PUBLICATIONS 9 Reports have been published that are compilations of records for various areas, usu"
 1607,152,data,3,True,True,"# SAN FRANCISQUITO CREEK BASIN # San Francisquito Creek at Palo Alto, Calif. Location.- Water-stage "
 56850,380,data,2,True,True,"# 11067890 SANTA ANA RIVER AT PRADO PARK NEAR CORONA, CA--Continued # SUSPENDED-SEDIMENT DISCHARGE ("
 70038400,58,data,1,True,True,"# SALINAS RIVER BASIN--Continued 11-1499. SAN ANTONIO RIVER NEAR LOCKWOOD, CALIF. LOCATION Lat 35°53"
@@ -50219,7 +50219,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 3146,385,data,1,True,True,"11-2032. TULE RIVER NEAR SPRINGVILLE, CALIF. TULARE LAKE BASIN LOCATION --At gaging station, 15 feet"
 9534,13,data,1,True,True,TABLE 3.--Physical and major chemical analyses (See figure 1 for location of stations) STATION 1 -ME
 593,235,data,3,True,True,"# SAN JOAQUIN RIVER TRIBUTARIES ABOVE FRESNO RIVER 225 # Fine Gold Creek near Friant, Calif. Locatio"
-3174,30,data,1,True,True,which in turn is part of the geologic cycle of rock transformation. This natural process may be acce
+3174,30,report_list,1,True,True,which in turn is part of the geologic cycle of rock transformation. This natural process may be acce
 3048,397,data,1,True,True,# SAN JOAQUIN RIVER BASIN # SAN JOAQUIN RIVER BASIN (cont.) 3005. South San Joaquin Canal near Knigh
 2296,39,data,1,True,True,"# GROUND WATERS OF INDIO REGION, CALIFORNIA. parts of solid matter per 100,000 parts of water is sho"
 4537,85,data,1,True,True,"# SANTA ANA RIVER BASIN # Temescal Creek near Corona, Calif. Location.- - Water-stage recorder, lat."
@@ -50486,7 +50486,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56502,229,data,2,True,True,"# 11458000 NAPA RIVER NEAR NAPA, CA--Continued 213 # TEMPERATURE (DEG. C) OF WATER, WATER YEAR OCTOB"
 648,374,data,2,True,True," # SACRAMENTO RIVER BASIN # McCloud River near McCloud, Calif. Location. -Lat 41°11', long. 122°04' "
 56404,207,data,1,True,True,"# ARROYO DEL HAMBRE BASIN # 11182400 ARROYO DEL HAMBRE AT MARTINEZ, CA LOCATION. Lat 38°00'12"" long "
-1568,25,data,1,True,True,# PUBLICATIONS 7 # Stream-flow data in reports of the United States Geological Survey [A = Annual Re
+1568,25,report_list,1,True,True,# PUBLICATIONS 7 # Stream-flow data in reports of the United States Geological Survey [A = Annual Re
 1147,162,data,1,True,True, # Depth to water levels in wells in the vicinity of Hollister-Continued. Map No. Owner Depth of wat
 2447,398,data,1,True,True,"# VIRGIN RIVER BASIN 4190. Muddy River near Glendale, Nev. Location.--Lat 36°38'35"", long 114°32'20"""
 57548,373,data,2,True,True,"# SAN JOAQUIN RIVER BASIN # 11335000 COSUMNES RIVER AT MICHIGAN BAR, CALIF. LOCATION.--Lat 38°30'01"""
@@ -50728,7 +50728,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56419,333,data,1,True,True,"# SANTA MARIA RIVER BASIN # 11139350 FOXEN CREEK NEAR SISQUOC, CALIF. LOCATION.- -Lat 34°48'58"" long"
 1640,657,data,2,True,True,"# KLAMATH RIVER BASIN # 11529800 WILLOW CREEK NEAR WILLOW CREEK, CALIF CONTINUED DISCHARGE, IN CUBIC"
 70038682,193,data,1,True,True,"# SANTA ANA RIVER BASIN # 11073200 SAN ANTONIO CREEK BELOW SAN ANTONIO DAM, CALIF. LOCATION Lat 34°0"
-1641,17,data,2,True,True,"# SURFACE WATER SUPPLY, 1966-70, PART 11, VOLUME 3 Streamflow data for the years 1884-1901, in repor"
+1641,17,report_list,2,True,True,"# SURFACE WATER SUPPLY, 1966-70, PART 11, VOLUME 3 Streamflow data for the years 1884-1901, in repor"
 431,80,data,3,True,True, ACCURACY.-Stage-discharge relation changed April 6. Rating curves not well defined. Water-stage rec
 25077,19,data,1,True,True,"# PACIFIC BASINS, SOUTHERN CALIFORNIA, 1894-1927 # Maximum and minimum discharges recorded at statio"
 70038402,303,data,1,True,True,"# SACRAMENTO RIVER BASIN 11-3505. ASH CREEK AT ADIN, CALIF. LOCATION. 41°11'54"", long 120°56'32"" in "
@@ -52593,7 +52593,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56418,285,data,1,True,True,"# ALAMEDA CREEK BASIN # 11176500 ARROYO VALLE NEAR LIVERMORE, CALIF. LOCATION. Lat 37°37'24"" long 12"
 70038403,119,data,1,True,True,"# COLMA CREEK BASIN--Continued # 11-1627.22. SPRUCE BRANCH AT SOUTH SAN FRANCISCO, CALIF.--Continued"
 70038394,253,data,1,True,True,"# RUSSIAN RIVER BASIN # 11-4610. RUSSIAN RIVER NEAR UKIAH, CALIF. LOCATION At gaging station 200 fee"
-1640,22,data,2,True,True,"have been included for some streams. Most of these reports are out of print, but may be available fo"
+1640,22,report_list,2,True,True,"have been included for some streams. Most of these reports are out of print, but may be available fo"
 70038398,142,data,2,True,True,"120 # SAN LUIS REY RIVER BASIN # 11-0377. Pauma Creek near Pauma Valley, Calif. Location.--Lat 33°20"
 2252,398,data,1,True,True," # WATER RESOURCES OF CALIFORNIA, PART III. # Miscellaneous measurements in Owens River drainage bas"
 56414,194,data,2,True,True," # SALINAS RIVER BASIN 11152500 SALINAS RIVER NEAR SPRECKELS, CALIF.--Continued SUSPENDED-SEDIMENT D"
@@ -52702,7 +52702,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 10595,20,data,2,True,True,# Unconfined Aquifer An unconfined aquifer probably occurs in the area where the continental deposit
 633,308,data,3,True,True,"# MOKELUMNE RIVER BASIN # Camp Creek near Camino, Calif. Location Water-stage recorder, lat. 38°41',"
 553,350,data,2,True,True,"# COLUSA AND YOLO BASINS # Cache Creek at Yolo, Calif, Location.- - Water-stage recorder, lat. 38°43"
-623,21,data,1,True,True,# PUBLICATIONS 9 The records at most of the stations discussed in these reports extend over a series
+623,21,report_list,1,True,True,# PUBLICATIONS 9 The records at most of the stations discussed in these reports extend over a series
 56850,629,data,1,True,True,# DISCHARGE AT PARTIAL-RECORD STATIONS Annual maximum discharge at crest-stage partial-record statio
 641,119,data,1,True,True,"108 # Haines Creek near Tujunga, Calif. Location Lat 34°15'50"", long. 118°16'15"" in NW1NW1 sec. 17, "
 3117,258,data,2,True,True,"# SACRAMENTO RIVER BASIN 249 11394500 MIDDLE FORK FEATHER RIVER NEAR MERRIMAC, CALIF. CONTINUED DISC"
@@ -52984,11 +52984,11 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56411,34,data,1,True,True,"# COLORADO RIVER MAIN STEM # 09427500 LAKE HAVASU NEAR PARKER DAM, ARIZ.-CALIF. LOCATION.--La 34°18'"
 56412,407,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11407700 FEATHER RIVER AT YUBA CITY, CALIF. LOCATION. Lat 39°08'20"", long"
 70232242,3,data,3,True,True,# JOURNAL OF RESEARCH of the U.S. Geological Survey Mar.-Apr. 1976 Vol. 4 No. 2 ## CONTENTS Abbrevia
-1607,20,data,2,True,True,# PUBLICATIONS 7 From time to time reports have been published that are compilations of records for 
+1607,20,report_list,2,True,True,# PUBLICATIONS 7 From time to time reports have been published that are compilations of records for 
 3146,151,data,1,True,True,"9-3150. GREEN RIVER AT GREEN RIVER, UTAH--Continued GREEN RIVER BASIN--Continued Particle-size analy"
 677,31,data,1,True,True,"# TIA JUANA RIVER BASIN 17 # Cottonwood Creek at Barrett Dam, near Dulzura, Calif. Location. --Lat 3"
 1592,30,data,2,True,True," # SURFACE WATER SUPPLY, 1933, PART 11 SANTA MARGARITA RIVER NEAR FALL BROOK, CALIF. LOCATION.-Water"
-1610,17,data,2,True,True,"# SURFACE WATER SUPPLY, 1943, PART 11 From time to time reports have been published that are compila"
+1610,17,report_list,2,True,True,"# SURFACE WATER SUPPLY, 1943, PART 11 From time to time reports have been published that are compila"
 1588,123,data,1,True,True,"# SANTA CLARA RIVER BASIN SANTA CLARA RIVER NEAR SAUGUS, CALIF. LOCATION.-Water-stage - recorder on "
 1585,150,data,2,True,True," # SURFACE WATER SUPPLY, 1931, PART 11 # Daily discharge, in second-feet, of Matilija Creek at Matil"
 3117,660,data,2,True,True,"# SACRAMENTO RIVER BASIN # 11444500 SOUTH FORK AMERICAN RIVER NEAR PLACERVILLE, CALIF. LOCATION. -La"
@@ -53068,7 +53068,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1606,169,data,1,True,True,"# GUADALUPE CREEK BASIN # Los Gatos Creek at Los Gatos, Calif. Location. - Water-stage recorder and "
 56414,326,data,2,True,True,"# SACRAMENTO RIVER BASIN 11390650 SACRAMENTO RIVER ABOVE COLUSA TROUGH, AT KNIGHTS LANDING, CALIF. L"
 3174,339,data,2,True,True,"# 11475500 SOUTH FORK EEL RIVER NEAR BRANSCOMB, CALIF.--Continued SUSPENDED-SEDIMENT DISCHARGE, WATE"
-614,22,data,1,True,True, # State reports containing compilations of records of discharge State Period Report Issued by Alaba
+614,22,report_list,1,True,True, # State reports containing compilations of records of discharge State Period Report Issued by Alaba
 1264,4,index_contents,2,True,True,# CONTENTS Page Abstract C1 Introduction 1 Acknowledgments 3 Precipitation 5 General description of 
 56419,355,data,1,True,True,"# SALINAS RIVER BASIN 11145000 SALINAS RIVER ABOVE PILITAS CREEK, NEAR SANTA MARGARITA, CALIF. LOCAT"
 56792,198,data,1,True,True,"# SACRAMENTO RIVER BASIN 11396200 SOUTH FORK FEATHER RIVER BELOW FORBESTOWN DAM, CA LOCATION. Lat 39"
@@ -54817,7 +54817,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56403,84,data,1,True,True,"68 # 09427500. LAKE HAVASU NEAR PARKER DAM, ARIZ.-CALIF. CONTINUED ELEVATION, IN FEET ABOVE MEAN SEA"
 70038405,127,data,2,True,True,"# 11-1523, SALINAS RIVER NEAR CHUALAR, CALIF. --Continued SUSPENDED SEDIMENT, WATER YEAR OCTOBER 196"
 24284,289,data,1,True,True,"Location. Lat 34° 34 10"" long 120°03'10"". Altitude. About 1,150 feet, from topographic map. Descript"
-3090,19,data,1,True,True,# Special reports on floods published by the Geological Survey--Continued WSP # Special reports on f
+3090,19,report_list,1,True,True,# Special reports on floods published by the Geological Survey--Continued WSP # Special reports on f
 2060,147,data,1,True,True,"# CARPINTERIA, GOLETA, AND SANTA YNEZ VALLEYS 141 6/32-12J7. City of Santa Barbara, well 607. Peters"
 56807,564,data,1,True,True,"548 # ANALYSES OF SAMPLES COLLECTED AT WATER-QUALITY PARTIAL-RECORD STATIONS WATER-QUALITY DATA, WAT"
 24284,72,data,1,True,True,"# Site 16--Spring - Tom Kinevan Location. Lat 34° 30 30"" long 119°49'40"", about 0.3 mile southwest o"
@@ -55507,7 +55507,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 4537,355,data,3,True,True,"348 # SMITH RIVER BASIN # Smith River near Crescent City, Calif. Location.- - Water-stage recorder, "
 2252,859,data,1,True,True,"# STREAM MEASUREMENTS IN NORTH PACIFIC COAST BASINS. Daily gage height, in feet, of Tule Lake near M"
 70038400,302,data,1,True,True,"# SACRAMENTO RIVER BASIN--Continued 11-4535. PUTAH CREEK NEAR GUENOC, CALIF.--continued Periodic det"
-593,20,data,1,True,True," # SURFACE WATER SUPPLY, 1946, PART 11 # State reports containing compilations of records of dischar"
+593,20,report_list,1,True,True," # SURFACE WATER SUPPLY, 1946, PART 11 # State reports containing compilations of records of dischar"
 70038415,46,data,1,True,True,"32 # 10-2546.7. ALAMO RIVER AT DROP NO. 3, NEAR CALIPATRIA, CALIF, LOCATION. -Lat 33°06'13"" long 115"
 8375,90,data,1,True,True,# ESTUARINE STUDIES PRODUCTIVITY DATA REPORT 11-APR-79 08:44:13 PAGE 65 # ESTUARINE STUDIES PRODUCTI
 3144,85,data,2,True,True,"9-4015. Moenkopi Wash near Cameron, Ariz.--Continued DISCHARGE, IN CUBIC FEET PER SECOND, WATER YEAR"
@@ -55986,7 +55986,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2251,281,data,2,True,True,"# STREAM MEASUREMENTS IN SAN JOAQUIN BASIN. Cal. On July 12, 1904, the station was moved to the flum"
 583,40,data,2,True,True," # SANTA MARGARITA RIVER BASIN # Santa Margarita River near Fall Brook, Calif. Location.- Water-stag"
 677,269,data,2,True,True,"SAN JOAQUIN RIVER BASIN 255 # Granite Creek near Cattle Mountain, Calif. Location (revised) Lat 37°3"
-4538,17,data,1,True,True,"# PUBLICATIONS 7 # PUBLICATIONS (cont.) which the station was maintained. For example, the data for "
+4538,17,report_list,1,True,True,"# PUBLICATIONS 7 # PUBLICATIONS (cont.) which the station was maintained. For example, the data for "
 70038401,362,data,2,True,True,"342 # ATHERTON DRAINAGE CHANNEL BASIN # 11-1629. SHARON CREEK NEAR MENLO PARK, CALIF. LOCATION. -Lat"
 4536,335,data,2,True,True,"# STONY CREEK BASIN Daily discharge, in second-feet, of Deer Creek near Vina, Calif., for the year e"
 553,33,data,2,True,True," # Santa Ysabel Creek near Mesa Grande, Calif. Location. - Water-stage recorder and broad-crested we"
@@ -56409,7 +56409,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56412,413,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11408880 MIDDLE YUBA RIVER BELOW OUR HOUSE DAM, CALIF. LOCATION. -Lat 39°"
 70038676,245,data,1,True,True,"# SAN JOAQUIN RIVER BASIN # 11306000 SOUTH FORK CALAVERAS RIVER NEAR SAN ANDREAS, CALIF. LOCATION.--"
 1607,34,data,2,True,True,"# SAN DIEGUITO RIVER BASIN # Santa Ysabel Creek near Mesa Grande, Calif. Location. - Water-stage rec"
-677,25,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
+677,25,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
 3146,145,data,1,True,True,"GREEN RIVER BASIN--Continued # 9-3145, PRICE RIVER AT WOODSIDE, UTAH--Continued September 3270 3310 "
 70038677,127,data,2,True,True,"# VENTURA RIVER BASIN # 11118500 VENTURA RIVER NEAR VENTURA, CALIF. LOCATION, --Lat 34°21'08"", long "
 614,129,data,2,True,True,"# LOS ANGELES RIVER BASIN 117 # Tujunga Creek near Sunland, Calif. Location. - Water-stage recorder,"
@@ -56773,7 +56773,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2292,3,index_contents,1,True,True,# CONTENTS. Page. Letter of transmittal 7 Introduction 9 Coastal plain 11 Crops 11 Irrigation system
 667,453,data,2,True,True,"# SACRAMENTO RIVER BASIN # Dry Creek near Brownsville, Calif. Location. --Lat 39°28'40"", long. 121°1"
 4561,299,data,1,True,True,"# SURFACE WATER SUPPLY, 1917, PART XI. # TRINITY RIVER AT LEWISTON, CALIF. LOCATION.-In NE. 1 sec. 1"
-1532,336,data,1,True,True," 2. Copies may be purchased at nominal cost from the Superin- tendent of Documents, Government Print"
+1532,336,report_list,1,True,True," 2. Copies may be purchased at nominal cost from the Superin- tendent of Documents, Government Print"
 56362,178,data,2,True,True," # CALABAZAS CREEK BASIN 11169616 CALABAZAS CREEK AT RAINBOW DRIVE, NEAR CUPERTINO, CALIF. Continued"
 70038393,313,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11-3741. Bear Creek near Millville, Calif. Location.--L 40°31'50"", long 1"
 3089,219,data,2,True,True,"11-1690. Guadalupe River at San Jose, Calif.--Continued DISCHARGE, IN CUBIC FEET PER SECOND, WATER Y"
@@ -57188,7 +57188,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1640,551,data,2,True,True,"# KLAMATH RIVER BASIN 11497500 SPRAGUE RIVER NEAR BEATTY, OREG CONTINUED DISCHARGE, IN CUBIC FEET PE"
 2187,101,data,1,True,True, 24 3 4 5 5 6 21 21 13 8 4 6 5 14 14 10 7 48 251 284 196 302 183 52 51 55 131 153 148 78 31 166 119 
 3106,248,data,2,True,True," # 11464200 DRY CREEK NEAR GEYSERVILLE, CALIF. Continued SUSPENDED-SEDIMENT DISCHARGE, WATER YEAR OC"
-604,20,data,1,True,True,"SURFACE WATER SUPPLY, 1947, PART 11 State reports containing compilations of records of discharge--C"
+604,20,report_list,1,True,True,"SURFACE WATER SUPPLY, 1947, PART 11 State reports containing compilations of records of discharge--C"
 70038400,61,data,1,True,True,"# SALINAS RIVER BASIN--Continued # 11-1499. SAN ANTONIO RIVER NEAR LOCKWOOD, CALIF.--Continued Parti"
 1610,102,data,2,True,True,"# SAN GABRIEL RIVER BASIN # Fullerton Creek at Fullerton, Calif. Location.- Water-stage recorder, la"
 1630,184,data,3,True,True,"# SANTA ANA RIVER BASIN # 11059300 SANTA ANA RIVER AT E STREET, NEAR SAN BERNARDINO, CALIF. LOCATION"
@@ -57823,7 +57823,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038405,312,data,2,True,True,"# RUSSIAN RIVER BASIN # 11-4632. BIG SULPHUR CREEK NEAR CLOVERDALE, CALIF.--Continued SUSPENDED SEDI"
 1609,76,data,2,True,True,"66 # SANTA ANA RIVER BASIN # Cajon Creek near Keenbrook, Calif. Location.- Water-stage recorder and "
 3144,169,data,2,True,True,"# COLORADO RIVER MAIN STEM # 9-4240. Colorado River near Topock, Ariz. -Continued MEAN ELEVATION, IN"
-1627,18,data,2,True,True,Reports on surface water supply containing records from 1899 to date for drainage basins in this rep
+1627,18,report_list,2,True,True,Reports on surface water supply containing records from 1899 to date for drainage basins in this rep
 70038678,178,data,1,True,True,"# SAN LORENZO RIVER BASIN # 11160500 SAN LORENZO RIVER AT BIG TREES, CALIF. LOCATION.- 37°01'49"", lo"
 199,491,data,1,True,True,"SACRAMENTO RIVER BASIN -Continued 11-3820. THOMES CREEK AT PASKENTA, CALIF.--Continued Suspended sed"
 3089,354,data,2,True,True,"# 11-4670. Russian River near Guerneville, Calif.--Continued DISCHARGE, IN CUBIC FEET PER SECOND, WA"
@@ -59274,7 +59274,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 56412,471,data,1,True,True,"# SACRAMENTO RIVER BASIN # 11427940 RUBICON-ROCKBOUND TUNNEL NEAR MEEKS BAY, CALIF. LOCATION.--L 38°"
 733,281,data,1,True,True,"# 11-0900. Fullerton Creek at Fullerton, Calif. Continued DISCHARGE, IN CUBIC FEET PER SECOND, OCTOB"
 56411,42,data,1,True,True,"# COLORADO RIVER BASIN STEM # 09521100 COLORADO RIVER BELOW YUMA MAIN CANAL WASTEWAY, AT YUMA, ARIZ."
-3067,20,data,1,True,True,"8 # SURFACE WATER SUPPLY, 1956, PART 11 # PUBLICATIONS To facilitate publication of the annual serie"
+3067,20,report_list,1,True,True,"8 # SURFACE WATER SUPPLY, 1956, PART 11 # PUBLICATIONS To facilitate publication of the annual serie"
 45707,20,data,1,True,True," TABLE 4.-Ground-water development in Hidalgo County, N. Mex. Animas Valley Playas Valley Year Irrig"
 70038677,145,data,2,True,True,"# 11147070 SANTA RITA CREEK NEAR TEMPLETON, CALIF. Continued SUSPENDED-SEDIMENT DISCHARGE, WATER YEA"
 70038668,62,data,2,True,True,"# SALTON SEA BASIN Location Lat County. 33°16'44"", long 116°25'45"", in Anza-Borrego Desert State Par"
@@ -59789,7 +59789,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2252,860,data,1,True,True,"# WATER RESOURCES OF CALIFORNIA, PART III. Daily gage height, in feet, of Tule Lake near Merrill, Or"
 1548,154,data,2,True,True,"# SURFACE WATER SUPPLY, 1919 AND 1920, PART XI. # SURFACE WATER SUPPLY, 1919 AND 1920, PART XI. (con"
 677,152,data,1,True,True," # VENTURA RIVER BASIN # North Fork Matilija Creek at Matilija Hot Springs, Calif. Location.--Lat 34"
-593,19,data,2,True,True,"# PUBLICATIONS 9 Reports have been published that.are compilations of records for various areas, usu"
+593,19,report_list,2,True,True,"# PUBLICATIONS 9 Reports have been published that.are compilations of records for various areas, usu"
 70038402,48,data,2,True,True,"# HUMBOLDT-CARSON SINK BASIN # CARSON RIVER BASIN 10-3045. SILVER CREEK BELOW PENNSYLVANIA CREEK, NE"
 1640,307,data,2,True,True,"PACHECO CREEK 295 DISCHARGE, SEPTEMBER 1969 DAY OCT NOV FEB MAR JUN JUL AUG SEP 1 .99 1.3 1.5 2.6 35"
 633,85,data,3,True,True,"# SANTA ANA RIVER BASIN # SANTA ANA RIVER BASIN (cont.) San Jacinto River near Elsinore, Calif. Loca"
@@ -62357,7 +62357,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 2060,347,data,2,True,True,"# CARPINTERIA, GOLETA, AND SANTA YNEZ VALLEYS 7/35-27J1. City of Santa Barbara, well 156. S. Colli. "
 56363,206,data,2,True,True,"# 11407150 FEATHER RIVER NEAR GRIDLEY, CALIF.--Continued # SUSPENDED-SEDIMENT DISCHARGE (TONS/DAY) ,"
 52651,46,data,1,True,True, 7.3 7.7 8.0 7.6 7.2 7.8 7.9 7.5 8.3 7.9 7.4 7.8 8.1 8.4 7.7 8.6 2.0 7.6 7.7 9.1 8.2 7.8 7.8 6.9 7.7
-641,22,data,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
+641,22,report_list,2,True,True,# RECORDS OF DISCHARGE COLLECTED BY AGENCIES OTHER THAN THE GEOLOGICAL SURVEY # RECORDS OF DISCHARGE
 56362,164,data,4,True,True,"# CALABAZAS CREEK BASIN # 11169580 CALABAZAS CREEK TRIBUTARY AT MT. EDEN ROAD, NEAR SARATOGA, CALIF."
 2513,387,data,2,True,True,# WELL RECORDS # TABLE 8.-Materials penetrated by typical water wells in the coastal zone of the Tor
 3089,205,data,2,True,True,"# MATADERO CREEK BASIN # 11-1660, Matadero Creek at Palo Alto, Calif. Location.--Lat 37°25'10"", long"
@@ -63203,7 +63203,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1609,184,data,1,True,True,"184 # SAN JOAQUIN RIVER TRIBUTARIES ABOVE FRESNO RIVER # Ward tunnel at outlet, Calif. Location.- - "
 1548,238,data,1,True,True," # SURFACE WATER SUPPLY, 1919 AND 1920, PART XI. Gage.-Stevens continuous water-stage recorder in wo"
 4538,40,data,2,True,True,"30 # SANTA MARGARITA RIVER BASIN # Temecula Creek at Railroad Canyon, near Temecula, Calif. Location"
-583,17,data,2,True,True,"PUBLICATIONS 9 Reports have been published that are compilations of records for various areas, usual"
+583,17,report_list,2,True,True,"PUBLICATIONS 9 Reports have been published that are compilations of records for various areas, usual"
 2249,408,data,2,True,True,# KLAMATH RIVER BASIN. Channel.-Gravel and small bowlders; appears permanent. The section at the bri
 70038405,71,data,1,True,True,"SANTA ANA RIVER BASIN 11-0680. ANA RIVER AT AUBURNDALE BRIDGE, NEAR CORONA, TO SEPTEMBER CALIF. Cont"
 2252,770,data,1,True,True,WATER # III. Daily 1901-1912-Continued. # III. (cont.) Day. Oct. Nov. Dec. Jan. Feb. Mar. Apr. May. 
@@ -63507,7 +63507,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 70038413,27,no_page_text,0,False,False,
 2447,46,narrative,0,False,True," # MAGNITUDE AND FREQUENCY OF FLOODS, PART 9 similar data for miscellaneous sites and for outstandin"
 1553,19,no_page_text,0,False,False,
-15,14,data,1,True,True," # COMPILATION OF SURFACE WATER RECORDS, PART 11-B - Part 1. North Atlantic slope basins, in two vol"
+15,14,report_list,1,True,True," # COMPILATION OF SURFACE WATER RECORDS, PART 11-B - Part 1. North Atlantic slope basins, in two vol"
 3217,14,narrative,0,False,True,"# COMPILATION OF SURFACE WATER RECORDS, PART 11-A States was published in 14 volumes, one for each o"
 70038398,22,no_page_text,0,False,False,
 15,43,data,3,True,True,"# TULARE LAKE BASIN Monthly and yearly runoff, in acre-feet, of White River near Ducor, Calif. # TUL"
@@ -63588,7 +63588,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 40730,1,no_page_text,0,False,False,
 1568,3,no_page_text,0,False,False,
 2913,21,narrative,0,False,True,# HYDROLOGIC CONDITIONS these special reports also contain other pertinent hydrologic in- formation 
-3144,21,data,1,True,True,"# PUBLICATIONS # PUBLICATIONS (cont.) Part 7. Lower Mississippi River basin, in two volumes: Volume "
+3144,21,report_list,1,True,True,"# PUBLICATIONS # PUBLICATIONS (cont.) Part 7. Lower Mississippi River basin, in two volumes: Volume "
 2057,1,no_page_text,0,False,False,
 1136,27,no_page_text,0,False,False,
 2888,28,narrative,0,False,True,# SPRINGS OF CALIFORNIA. determines the quantity of the water that should be drunk. It is generally 
@@ -63627,7 +63627,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1627,16,no_page_text,0,False,False,
 2987,10,narrative,0,False,True,# TABLES may usually be found by referring to the annual surface water-supply papers and special flo
 1141,7,no_page_text,0,False,False,
-4536,15,data,1,True,True,# PUBLICATIONS A list of the Geological Survey's publications may be obtained by applying to the Dir
+4536,15,report_list,1,True,True,# PUBLICATIONS A list of the Geological Survey's publications may be obtained by applying to the Dir
 22029,23,data,1,True,True,"# C # e Table 2.--Data for rock samples, Walker Lake 2 degree quadrangle, Nevada and California--con"
 56420,3,narrative,0,False,True,1971 Water Resources Data for California Part 1. Surface Water Records Volume 2: Northern Great Basi
 56418,28,no_page_text,0,False,False,
@@ -63673,7 +63673,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1568,11,no_page_text,0,False,False,
 2252,16,no_page_text,0,False,False,
 1553,12,no_page_text,0,False,False,
-733,19,data,1,True,True,"# PUBLICATIONS 9 # PUBLICATIONS (cont.) Part 11. Pacific Slope Basins in California, in four volumes"
+733,19,report_list,1,True,True,"# PUBLICATIONS 9 # PUBLICATIONS (cont.) Part 11. Pacific Slope Basins in California, in four volumes"
 2252,8,no_page_text,0,False,False,
 53590,6,no_page_text,0,False,False,
 614,6,no_page_text,0,False,False,
@@ -63739,7 +63739,7 @@ id,page_number,page_type,n_table_csv,has_reducto_table,has_json,page_start
 1553,15,no_page_text,0,False,False,
 1553,2,no_page_text,0,False,False,
 2246,24,no_page_text,0,False,False,
-431,17,data,1,True,True,# PUBLICATIONS A list of the Geological Survey's publications may be obtained by applying to the Dir
+431,17,report_list,1,True,True,# PUBLICATIONS A list of the Geological Survey's publications may be obtained by applying to the Dir
 70038682,13,data,1,True,True,"# GAGING STATION RECORDS, IN DOWNSTREAM Continued XI # GAGING STATION RECORDS, IN DOWNSTREAM Continu"
 383,16,no_page_text,0,False,False,
 56845,31,narrative,0,False,True,"WATER RESOURCES DATA FOR CALIFORNIA, 1978 5S/10E-22GIM FIGURE 3 .--California well-numbering system."

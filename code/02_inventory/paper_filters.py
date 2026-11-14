@@ -22,6 +22,14 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 TRIBAL_PAGES = ROOT / 'data/analysis/tribal_lands/tribal_screen_pages.csv'
 MAP_PRECISION = ('precise', 'approximate')
+# Pages that are not measurement data (10_page_types.py). Kept in the published metadata,
+# excluded from every paper figure and statistic. 'no_page_text' pages are kept (cannot tell).
+NON_DATA_PAGE_TYPES = ('index_contents', 'report_list', 'narrative')
+
+
+def data_page_mask(df, col='page_type'):
+    """True for rows on measurement-data pages (the paper's is_data_page rule)."""
+    return ~df[col].isin(NON_DATA_PAGE_TYPES)
 
 
 def withheld_pages():

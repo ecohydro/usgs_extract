@@ -96,9 +96,16 @@ def extract(text):
 
 
 def matches(value, printed, level):
+    """Closest printed value within tolerance of the LLM value, or None.
+    Since 2026-11-14 the PRINTED value is stored (printed_latitude/longitude), not the LLM's
+    decimal conversion: the LLM converted the same printed text inconsistently across reports
+    (e.g. 121°59'35" -> -121.99250 / .99278 / .99306 / .99333), which split one gauge into
+    several 'sites'. The LLM value is now only a pointer to which printed coordinate to use."""
     ok = [p for p in printed if (level == 'any' or p[2] == 'keyword')
           and abs(abs(value) - p[0]) <= p[1]]
-    return len(ok) > 0
+    if not ok:
+        return None
+    return min(ok, key=lambda p: abs(abs(value) - p[0]))[0]
 
 
 meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False)
@@ -122,21 +129,25 @@ for (doc, page), g in meta.groupby(['id', 'page_number']):
                       'printed_lons': ';'.join(f'{-v:.5f}' for v, _, _ in kw_lons)})
     for _, row in g[g['actual_latitude'].notna()].iterrows():
         la, lo = row['actual_latitude'], row['actual_longitude']
+        pla = plo = None
         if text is None:
             status = 'no_page_text'
         elif pd.isna(lo):
             status = 'actual_incomplete'
-        elif matches(la, lats, 'keyword') and matches(lo, lons, 'keyword'):
+        elif (pla := matches(la, lats, 'keyword')) and (plo := matches(lo, lons, 'keyword')):
             status = 'printed_match'
-        elif matches(la, lats, 'any') and matches(lo, lons, 'any'):
+        elif (pla := matches(la, lats, 'any')) and (plo := matches(lo, lons, 'any')):
             status = 'printed_match_no_keyword'
         elif kw_lats or kw_lons:
             status = 'printed_other_values'     # page prints coords, but not these
+            pla = plo = None
         else:
             status = 'not_printed'
+            pla = plo = None
         recs.append({'meta_row': row['meta_row'], 'id': doc, 'page_number': page,
                      'water_type': row['water_type'], 'actual_latitude': la,
-                     'actual_longitude': lo, 'tier1_status': status})
+                     'actual_longitude': lo, 'tier1_status': status,
+                     'printed_latitude': pla, 'printed_longitude': -plo if plo else None})
 
 pages = pd.DataFrame(page_rows)
 pages.to_csv(out_dir / 'printed_coords_by_page.csv', index=False)

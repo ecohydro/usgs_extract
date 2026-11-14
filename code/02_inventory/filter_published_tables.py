@@ -47,7 +47,7 @@ OUTPUT
 ------
     data/analysis/table_level_metadata_published.csv  — one row per LLM-processed
         table CSV.  Same columns as table_level_metadata.csv.  This is the
-        correct input for publication measurement counts and Fig 7.
+        correct input for publication measurement counts and Figure 1 (was Fig 7).
 
 USAGE
 -----

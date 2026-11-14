@@ -71,7 +71,7 @@ usgs_extract/
 â”‚   â”œâ”€â”€ 02_inventory/                    â† data inventory notebooks (all manuscript figures)
 â”‚   â”‚   â”œâ”€â”€ water_palette.py             â† shared colorblind-safe color mapping
 â”‚   â”‚   â”œâ”€â”€ 00_data_prep.ipynb           â† clean main_metadata.csv â†’ data/analysis/processed_metadata.parquet
-â”‚   â”‚   â”œâ”€â”€ 01_measurements_by_type.ipynb â† Fig 7: measurements by water type Ã— decade
+â”‚   â”‚   â”œâ”€â”€ 01_measurements_by_type.ipynb â† Figure 1 (was Fig 7): measurements by water type Ã— decade
 â”‚   â”‚   â”œâ”€â”€ 02_spatial_overview.ipynb    â† Fig 8: USA map; Fig 9: CA map; Fig 10: CA by decade
 â”‚   â”‚   â”œâ”€â”€ 03_santa_barbara.ipynb       â† Figs 11â€“18: SB county coverage + NWIS comparison
 â”‚   â”‚   â””â”€â”€ 04_santa_ynez.ipynb          â† Fig 19, Tables 7â€“9: Santa Ynez stream order analysis
@@ -199,7 +199,7 @@ data/hydroshare/{water_type}/{county_name}/
 All publication figures are implemented in `code/02_inventory/`. Run notebooks in order (00 â†’ 04); all figures save to `manuscript/figures/`.
 
 - `00_data_prep.ipynb` â€” parses `data/metadata/main_metadata.csv`, cleans water types, parses dates, joins row counts; outputs `data/analysis/processed_metadata.parquet`
-- `01_measurements_by_type.ipynb` â€” Fig 7: measurements by water type Ã— decade
+- `01_measurements_by_type.ipynb` â€” Figure 1 (was Fig 7): measurements by water type Ã— decade
 - `02_spatial_overview.ipynb` â€” Figs 8â€“10: USA and California maps
 - `03_santa_barbara.ipynb` â€” Figs 11â€“18: SB county coverage + NWIS groundwater/stream discharge comparison
 - `04_santa_ynez.ipynb` â€” Fig 19, Tables 7â€“9: Santa Ynez stream order analysis
@@ -364,7 +364,7 @@ Want to start with Step 1 â€” scoping how many tables we're actually dealin
 | `Hilton_Dissertation_USGSDig.docx` | Full paper draft â€” authoritative description of all methods and results |
 | `Chapter_2_USGS_Digitization/Yibo Results/May 27 2025 R4-6/api_run.py` | Core LLM metadata extraction script (calls UCSB HPC API: llama3 + deepseek-r1) |
 | `code/02_inventory/00_data_prep.ipynb` | Loads and cleans main_metadata.csv â†’ processed_metadata.parquet |
-| `code/02_inventory/01_measurements_by_type.ipynb` | Fig 7: measurements by type and decade |
+| `code/02_inventory/01_measurements_by_type.ipynb` | Figure 1 (was Fig 7): measurements by type and decade |
 | `code/02_inventory/02_spatial_overview.ipynb` | Figs 8â€“10: USA and California maps |
 | `code/02_inventory/03_santa_barbara.ipynb` | Figs 11â€“18: Santa Barbara County coverage and NWIS comparison |
 | `code/02_inventory/04_santa_ynez.ipynb` | Fig 19, Tables 7â€“9: Santa Ynez stream order analysis |
@@ -1722,3 +1722,45 @@ supplies stats, figures, checks and supporting docs only.
 ### Uncommitted right now
 CLAUDE.md (this + earlier Nov 13 evening notes), code/04_vignettes/groundwater_candidates/gw_basin_profiles.py,
 data/analysis/gw_candidates/ (3 PNGs + 3 CSVs). Ask Annette before committing.
+
+## Session Log — November 14, 2026
+- **Figure 1 (was Fig 7) DECISION (Annette):** California only, but include undated tables and tables with no defined
+  location (maps keep their date/location rules; Fig 7 shows as much CA data as possible). An all-locations
+  version goes in the supplement. Notebook 01 now builds from the catalog (tribal excluded) and writes
+  `measurements_by_type_decade_{rows,values}.png` (CA) and `..._all_locations.png` (supplement).
+  CA rule: precise/approximate point in CA, or B118 basin point, or unlocated/conflict unless the page names
+  only other states (page_states.csv). Points outside the US (mostly Baja/Tijuana R.) count as outside CA.
+  Other kept as "Other (type undetermined)"; Not Water Related left out. Undated + fallback-date tables in a
+  "No measurement date" bar; "Before 1850" and 1980s bars shown.
+  CA totals: 2,254,533 rows / 16,633,687 values (no measurement date 128,556 / 519,927; unlocated-CA
+  279,284 / 1,769,157). All locations: 2,422,558 / 17,723,983. Rows-vs-values choice still open.
+
+- **Renumbered (Annette, Nov 14): the measurements-by-type-and-decade figure is manuscript Figure 1** (was "Fig 7" in all earlier logs). Outputs: `manuscript/figures/fig1_measurements_by_type_decade_{rows,values}.png`; supplement: `supp_all_locations_measurements_by_type_decade_{rows,values}.png`.
+- **Report lists (Nov 14):** new page_type `report_list` in 10_page_types.py (104 pages: "Publications" front matter
+  of Surface Water Supply volumes -- lists of earlier reports with periods, "Year | WSP" volume tables, flood-report
+  lists). Their "Period" columns had been read as table dates (e.g. Massachusetts 1845 -> false pre-1850 stream
+  record). Shared rule `paper_filters.NON_DATA_PAGE_TYPES` / `data_page_mask()`; 00_data_prep and Figure 1 use it.
+  1147 p219 (well numbers 1804-1853 read as years) -> review file, action undate.
+- **Printed coordinates (Nov 14):** tier 1 now stores the PRINTED value (03_printed_coords.py printed_latitude/
+  longitude; 04_build_locations uses it), not the LLM's decimal conversion. The LLM converted identical printed text
+  inconsistently, splitting one gauge into many points. Unique located stream points 12,320 -> 8,868; 35 rows moved
+  >1 km; no precision class changed. The old six-panel count also de-duplicated raw floats (15,564 before).
+  Tribal screen re-run: 2,038 withheld pages (+2); 13_copy_withheld_tribal NOT re-run (copies 2 pages out of sync).
+- **Site definitions (Nov 14):** `code/02_inventory/21_site_definitions.py` -> data/analysis/site_definitions/
+  (site_count_range.csv, entry_site_keys.csv, split_station_review.csv). Entry level, six-panel site set.
+  A = unique coordinate; B = same NWIS station number/name on page (or same state well no.) AND within T km
+  (T = 0.5/1/2; main 1 km pending Annette); C = B + same water-source name within 0.5 km.
+  Stream: A 6,400 / B0.5 5,870 / B1 5,675 / B2 5,518 / C 5,229. GW: A 2,626 / B 2,800-2,811 (well numbers split
+  shared section centroids) / C 2,802. Review of 40 split stations (Claude first pass,
+  validation/split_station_first_pass.py; Annette to check): <0.5 km all same site; >10 km mostly another
+  station's coordinates (7/10) or documented different gauge locations (3/10) -> why identity needs a distance cap.
+- **Figure 1 FINAL styling (Annette, Nov 14):** `fig1_measurements_by_type_decade_values.png` = Figure 1. No title;
+  y = "Estimated measurements"; text "Total: 16.2 million estimated unique measurements" (16,176,726); decades
+  Before 1850 - 1970s (1980 starts left out: 194 values); Before 1850 - 1880s labeled with total + dominant category.
+  Rows version (2,136,549 table rows) and all-locations versions kept for the supplement.
+- **Figure 1 decade rule (Annette, Nov 14):** decade of each table's START year; all its measurements counted there.
+  x-axis "Decade"; explain in caption (~15% of measurements are in tables running into a later decade; water years
+  starting Oct of a decade's last year land in the earlier decade). A spread-over-years version was compared and dropped.
+- **Handoff to Anna (Nov 14):** metadata simplification + per-table evaluation continues on branch `evaluation`;
+  start prompt in `code/05_evaluation/metadata/START_HERE.md`. Today's work was committed to `evaluation`
+  (main is behind; merge later).

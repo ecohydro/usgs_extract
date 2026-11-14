@@ -232,8 +232,9 @@ loc['well_number'] = loc['meta_row'].map(wn['well'])
 t1 = pd.read_csv(lv / 'tier1_printed.csv')
 t1 = t1[t1['tier1_status'].isin(['printed_match', 'printed_match_no_keyword'])].set_index('meta_row')
 i = loc['meta_row'].isin(t1.index)
-loc.loc[i, 'lat'] = loc.loc[i, 'meta_row'].map(t1['actual_latitude'])
-loc.loc[i, 'lon'] = loc.loc[i, 'meta_row'].map(t1['actual_longitude'])
+# the printed value itself, not the LLM's decimal conversion of it (2026-11-14; see 03_printed_coords.matches)
+loc.loc[i, 'lat'] = loc.loc[i, 'meta_row'].map(t1['printed_latitude'])
+loc.loc[i, 'lon'] = loc.loc[i, 'meta_row'].map(t1['printed_longitude'])
 loc.loc[i, 'coord_method'] = 'printed'
 loc.loc[i, 'precision_km'] = 1.0
 loc.loc[i, 'evidence_scope'] = 'page'
@@ -265,7 +266,7 @@ def _add(df, src, rank, la, lo, method, prec, scope='page'):
                       'prec': prec if np.isscalar(prec) else np.asarray(prec),
                       'scope': scope if isinstance(scope, str) else np.asarray(scope)})
     cand.append(d[~d['meta_row'].isin(set().union(*[set(c['meta_row'][c['src'] == src]) for c in cand]) if cand else set())])
-_add(t1, 'printed', 5, 'actual_latitude', 'actual_longitude', 'printed', 1.0)
+_add(t1, 'printed', 5, 'printed_latitude', 'printed_longitude', 'printed', 1.0)
 _add(t3, 'nwis', 3, 'nwis_lat', 'nwis_lon', 'nwis_station', 1.0)
 if t3c_path.exists():
     _add(t3c, 'nwis', 3, 'lat', 'lon', np.where(t3c['match'].eq('cluster'), 'nwis_name_cluster', 'nwis_name'),
