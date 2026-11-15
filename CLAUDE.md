@@ -1,5 +1,14 @@
 # USGS Historical Water Data Digitization â€” Project Guide
 
+## Working Rule for Every Session (Annette, Nov 14, 2026)
+Before explaining how anything works (a category, filter, figure, script, why a number changed, what a
+page contains), CHECK it in the code or data and cite the evidence (file:line, counts, or page text).
+Never describe pipeline behaviour from memory or from what the code "should" do. Sanity-check every new
+number before reporting it (does it reconcile with the previous run and move in the expected direction?).
+Say plainly when something is not yet verified and how many examples a claim rests on.
+
+---
+
 ## What This Project Is
 
 This repository supports the publication of a workflow that digitizes over a century of historical water records from USGS archives. The core paper (Chapter 2 of Hilton's dissertation, `Hilton_Dissertation_USGSDig.docx`) is titled:
@@ -1764,3 +1773,80 @@ data/analysis/gw_candidates/ (3 PNGs + 3 CSVs). Ask Annette before committing.
 - **Handoff to Anna (Nov 14):** metadata simplification + per-table evaluation continues on branch `evaluation`;
   start prompt in `code/05_evaluation/metadata/START_HERE.md`. Today's work was committed to `evaluation`
   (main is behind; merge later).
+- **Figure 2 (Nov 14):** `code/02_inventory/fig2_category_maps.py` -> `manuscript/figures/fig2_category_maps.png/.pdf`,
+  counts `data/analysis/fig2_category_counts.csv`. Figure 1 tables + location required (ALL location classes:
+  precise, approximate, basin, conflict; inside CA); one point per unique location per category; 7 panels + table.
+- **Figure 3 (Nov 14; replaces the 6-panel figure, 07 kept for reference):** `code/02_inventory/fig3_nwis_comparison.py`.
+  4 panels: active sites per decade (stacked: NWIS / restored at an NWIS site in decades without NWIS data / restored,
+  no NWIS link) + HUC12 maps. NWIS AND restored capped at 1979 (NWIS sites begin <=1979, years cut at 1979).
+  Restored sites = site_B1 (21_site_definitions); measurement dates only; precise+approximate; active decades from
+  years printed in table rows (table_row_dates), else year_start..year_end. Link by identity only (stream: station
+  number/name on page, nearest cluster; GW: full state well no. = NWIS well, tier2b nwis_site_no).
+  Stats `data/analysis/fig3_stats.csv`: stream HUC12 +468 (+37%) restored-only vs 1,251 NWIS; GW +117 (+8%) vs 1,466.
+  A line-graph version was compared and dropped.
+- **Index of surface-water records (Nov 14, Annette's review):** 13 volumes, 170 pages. 40 alphabetical station
+  lists (name + page number) -> index_contents (out everywhere); 130 station catalogues (name, number, drainage
+  area, periods of record) -> new page_type `station_index`: kept in Figures 1-2, excluded from measurement/site
+  analyses via `paper_filters.NO_MEASUREMENT_PAGE_TYPES` / `measurement_page_mask()` (21, Figure 3). Reviewed list
+  `data/analysis/manual_review/station_index_pages.csv`, applied at the end of 10_page_types.py; review folder
+  `manual_review/station_index_check/`. 12 catalogue pages had been index_contents (header "INDEX, PART 11") and
+  are now kept: Figure 1 total 16,176,726 -> 16,176,900 (still 16.2 M).
+- **Site tolerance FINAL (Annette, Nov 14): B = 1 km.** The 40-station review stays a Claude first pass (no human
+  check; Annette: not needed because results barely change with tolerance). Supplement versions at 0.5 / 2 km:
+  `python fig3_nwis_comparison.py 0.5|2` -> supp_fig3_nwis_comparison_tol{0.5,2}km.png, fig3_stats_tol*.csv.
+  Stream sites 5,844 / 5,649 / 5,493; stream restored-only HUC12 469 / 468 / 466; GW 117 at all tolerances.
+- **Figure 3 NWIS years fixed (Nov 14):** NWIS site files keep ONE record type per site; years now come from the raw
+  series lists (stream: dv/uv 00060, uv 00065, pk, sv; GW: water levels 72019/62610/62611), union of series spans.
+  (First attempt dropped all pk/sv series: NaN parm_cd not matched; fixed.) NWIS stream sites <=1979: 2,107 -> 2,094
+  (23 water-quality/temperature-only sites out, 10 peak-only sites in). Maps B/D now 3 classes: NWIS only / NWIS +
+  restored decades without NWIS data (before, after or between) / restored only. Stream 625 / 620 / 476 (+38%);
+  GW 1,268 / 198 / 117 (+8%).
+- **NWIS has stream records before 1891 (Nov 14):** historic flood peaks in NWIS peak files: Sacramento R nr Hamilton
+  City 1854 (DWR furnished), American R at Fair Oaks / Stanislaus R nr Knights Ferry / Santa Ana R 1862, San Joaquin
+  R nr Newman 1868, Sacramento R nr Red Bluff 1879, 1890 Truckee/Carson. The "+29 yr (1862 vs NWIS 1891)" claim
+  (08_scope_extension_stats.py uses begin_year of one series per site) must be recomputed with all series.
+- **NOTE, not acted on (Annette, Nov 14): NWIS lake/reservoir-type sites.** Our NWIS stream lists were fetched with
+  siteType=ST. Some discharge records are held under other site types, e.g. 11122000 "SANTA YNEZ R AB GIBRALTAR DAM"
+  is type LK but has daily discharge 1904-04-01 to 1918-09-29 (2,737 days). So some restored records counted as
+  "no NWIS data" in Figure 3 may exist in NWIS under LK (or other) sites. Annette: likely beyond the original scope;
+  acceptable as a stated limitation. Do not pursue unless asked.
+- **Santa Ynez example, Gibraltar Dam (Nov 14):** `code/04_vignettes/santa_ynez/gibraltar_annual.py` ->
+  `manuscript/figures/santa_ynez_gibraltar_annual.png/.pdf`, data `data/analysis/santa_ynez/`. Same reach checked from
+  printed descriptions (pre-dam gage SE1/4 SE1/4 sec 10, 1/4 mi below dam site, 218 sq mi; later 700 ft below dam,
+  sec 11, 216-219 sq mi). NWIS holds the pre-dam daily record as 11122000 (site type LK, 1904-04..1918-09) and
+  11123000 from 1933-10. Restored (doc 3217 p225/p227 compilation) adds water years 1921-1933 (flow passing the dam,
+  city records). Checks: pre-dam restored vs NWIS within 0.04-1.1% (5 complete years); printed yearly vs monthly
+  disagreements are all lost decimals (1923, 1924, 1942, 1945 months; 1934 yearly "134"=13.4). 1934-1943 restored
+  (= yearly WSPs, e.g. doc 489: WY1935 26.0 cfs) differ from current NWIS by 10-30% (NWIS 37.3): not digitization;
+  NWIS values differ from the originally published city record. 1944-1950 match NWIS exactly.
+- **NWIS statistics service is unreliable for years-with-data** (Solvang 11128500 stats start 1951, daily values
+  from 1928); fetch_nwis_years_with_data.py now uses the daily-values service.
+- **Santa Ynez figure (Nov 14):** `code/04_vignettes/santa_ynez/fig_santa_ynez.py` -> `manuscript/figures/fig_santa_ynez.png/.pdf`.
+  A = watershed map (stream order, 123 restored SITES B1 by first measured decade, 38 NWIS sites with a discharge
+  record beginning <= 1979, Gibraltar gauge star); B = Gibraltar annual flow (`gibraltar_plot.py`). Old timeline
+  panel dropped (Annette). The dissertation NWIS file `sb_streamflow_sites.csv` had only 7 watershed sites with
+  partial spans (11123000 listed 1973-75) -> replaced. Tables 7-9 rebuilt -> data/analysis/santa_ynez/table7-9*.csv.
+  Shared logic moved to `code/02_inventory/site_activity.py` (Figure 3 imports it; outputs verified identical).
+  02_inventory/04_santa_ynez.ipynb is superseded for the paper figure.
+  RENAMED Figure 4 (Annette, Nov 14): `fig4_santa_ynez.png/.pdf` = restored sites in one colour (red), NWIS blue,
+  Gibraltar star gold; decade-coloured version kept as `fig4_santa_ynez_by_decade.png` (alternative, not the paper figure).
+
+## RESUME HERE (next session, after Nov 14, 2026)
+- **Next: Santa Ynez GROUNDWATER figure (Figure 5?), same layout as Figure 4. DECIDED (Annette, Nov 14): do the four
+  first steps below, then Option 1.** Options discussed: (1) A basin map (B118 3-015, restored wells red / NWIS wells by 1979 blue, highlighted well) + B one
+  well's water-level record, restored years filling NWIS gaps; (2) map + wells measured per year in the basin;
+  (3) one combined stream+GW figure; (4) map of water-level change 1930s (restored) vs 1970s (NWIS) + hydrographs.
+  First steps: recount the basin under today's rules (site_B1, measurement pages, page types); link restored wells
+  to NWIS by state well number (tier2b nwis_site_no); pick candidate wells (doc 2060, 1950: 1930s levels at ~100
+  wells, NWIS 1941-42 only -- Nov 13 numbers, recheck); confirm locations from printed text; parse levels with
+  checks against NWIS where both exist.
+- **NWIS years download** (`code/03_nwis_usgs/fetch_nwis_years_with_data.py`): peaks + daily values done and cached;
+  Water Data API field measurements (stream 00060, GW 72019) were rate-limited and restarted with slower pacing.
+  When done -> outputs nwis_years_stream.csv / nwis_years_gw.csv; then wire actual NWIS years into Figure 3
+  (site_activity.nwis_table) so yellow includes real gaps, and check Hamilton City 1854 -> 1915 gap appears.
+- **Pending decisions:** long restored spans (10+ yr, no printed years): conservative endpoint rule or not
+  (Annette thinking); Figure 3 caption (NWIS has historic peaks back to 1854, so "+29 yr / 1891" and "three decades
+  before NWIS" must change; recompute 08_scope_extension_stats with all NWIS series); Gibraltar flow-duration
+  curves (scope); figure numbering: Fig 1 measurements, Fig 2 category maps, Fig 3 NWIS comparison, Fig 4 Santa Ynez.
+- **Not committed since 311f15d:** Figures 2-4 scripts/outputs, page types (station_index/report_list), site_activity.py,
+  printed-coordinate fix outputs, NWIS scripts, CLAUDE.md. Ask Annette before committing.

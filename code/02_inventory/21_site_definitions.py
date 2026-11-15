@@ -43,7 +43,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import FALLBACK_STATUSES          # noqa: E402
-from paper_filters import data_page_mask             # noqa: E402
+from paper_filters import data_page_mask, measurement_page_mask   # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 A = ROOT / 'data/analysis'
@@ -81,7 +81,7 @@ def load():
     df = pd.read_parquet(A / 'processed_metadata.parquet')
     df = apply_review(drop_tribal(df, verbose=False), verbose=False)
     df = df[df.water_type_clean.isin(TYPES) & df.year_start.notna()
-            & ~df.date_status.isin(FALLBACK_STATUSES) & df.is_data_page
+            & ~df.date_status.isin(FALLBACK_STATUSES) & measurement_page_mask(df)
             & df.precision_class.isin(['precise', 'approximate']) & df.lat_combined.notna()].copy()
     ca = gpd.read_file(A / 'spatial/ca_shapefile/ca_poly.shp').to_crs('EPSG:4326')
     g = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.lon_combined, df.lat_combined), crs='EPSG:4326')

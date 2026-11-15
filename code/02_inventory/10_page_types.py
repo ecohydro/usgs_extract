@@ -10,6 +10,13 @@ page_type
                   "Water-Supply Paper | Title"), printed in the front of Surface Water Supply
                   volumes. Not measurements; its "Period" column (e.g. Massachusetts 1845-1915)
                   had been read as table dates (added 2026-11-14)
+  station_index   station catalogue in the "Index of surface-water records" volumes (station name,
+                  number, drainage area, periods of record). Useful site information but NO
+                  measurements: kept as data (Figures 1-2) but excluded from analyses of measurement
+                  activity and sites (paper_filters.NO_MEASUREMENT_PAGE_TYPES; Figure 3).
+                  The alphabetical station lists in the same volumes (name + page number) are
+                  index_contents. Both set from a reviewed page list (Annette, 2026-11-14):
+                  data/analysis/manual_review/station_index_pages.csv
   narrative       no table at all: no table CSV and no <table> in the Reducto output
   no_page_text    no Reducto JSON for the page; cannot tell, so kept (not excluded)
   data            everything else (incl. pages with a Reducto table but no CSV, so possible
@@ -85,6 +92,21 @@ for doc, page in pages.itertuples(index=False):
                  'has_reducto_table': has_html_table, 'has_json': jp.exists(), 'page_start': head[:100]})
 
 pt = pd.DataFrame(recs)
+
+
+def apply_reviewed_pages(pt):
+    """Page types set by manual review (station_index_pages.csv: id, page_number, page_type)."""
+    f = root / 'data/analysis/manual_review/station_index_pages.csv'
+    if not f.exists():
+        return pt
+    rv = pd.read_csv(f, usecols=['doc_id', 'page_number', 'page_type']).rename(
+        columns={'doc_id': 'id', 'page_type': 'reviewed_type'})
+    pt = pt.drop(columns=['reviewed_type'], errors='ignore').merge(rv, on=['id', 'page_number'], how='left')
+    pt['page_type'] = pt['reviewed_type'].fillna(pt['page_type'])
+    return pt.drop(columns='reviewed_type')
+
+
+pt = apply_reviewed_pages(pt)
 pt.to_csv(root / 'data/analysis/page_types.csv', index=False)
 print(pt['page_type'].value_counts().to_string())
 print('\nno JSON:', (~pt['has_json']).sum())

@@ -48,3 +48,9 @@ data/analysis/manual_review/gw_earliest_candidates/pngs/
 
 # temporal-resolution grading page images (copies of data/digitized pages)
 data/analysis/temporal_resolution/review/pngs/
+
+# page-image copies for the station-index check (Nov 14)
+data/analysis/manual_review/station_index_check/pages/
+
+# NWIS download cache (re-fetch with code/03_nwis_usgs/fetch_nwis_years_with_data.py)
+data/analysis/nwis_sites/years_cache/

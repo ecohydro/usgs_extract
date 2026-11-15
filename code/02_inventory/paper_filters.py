@@ -32,6 +32,17 @@ def data_page_mask(df, col='page_type'):
     return ~df[col].isin(NON_DATA_PAGE_TYPES)
 
 
+# Data pages that hold site information but no measurements (station catalogues in the
+# "Index of surface-water records" volumes). Kept in volume figures (Figures 1-2), excluded from
+# measurement-activity and site analyses (Figure 3, 21_site_definitions.py). Annette, 2026-11-14.
+NO_MEASUREMENT_PAGE_TYPES = ('station_index',)
+
+
+def measurement_page_mask(df, col='page_type'):
+    """True for rows on pages with actual measurements (data pages minus station catalogues)."""
+    return data_page_mask(df, col) & ~df[col].isin(NO_MEASUREMENT_PAGE_TYPES)
+
+
 def withheld_pages():
     p = pd.read_csv(TRIBAL_PAGES, usecols=['id', 'page_number', 'withhold'])
     p = p[p.withhold.astype(bool)]
