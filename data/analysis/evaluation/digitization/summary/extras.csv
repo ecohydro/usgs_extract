@@ -1,0 +1,10 @@
+variant,system,n_output_numbers,n_not_printed,share_not_printed
+_fuzzylabel,paddle_raw,1360,52,0.03823529411764706
+_fuzzylabel,reducto_csv,4721,64,0.013556449904681212
+_fuzzylabel,reducto_raw,4721,64,0.013556449904681212
+_strict,paddle_raw,1255,38,0.030278884462151396
+_strict,reducto_csv,4520,63,0.013938053097345133
+_strict,reducto_raw,4520,63,0.013938053097345133
+default,paddle_raw,1360,52,0.03823529411764706
+default,reducto_csv,4721,64,0.013556449904681212
+default,reducto_raw,4721,64,0.013556449904681212

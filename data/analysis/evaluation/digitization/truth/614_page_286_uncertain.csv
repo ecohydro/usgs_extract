@@ -1,0 +1,7 @@
+doc_id,page_number,table_no,row,col,typed,alternative,reason
+614,286,1,7,2,89,99,"first digit reads as 8 but column then sums to 2,235, 10 short of the printed 2,245 second-foot-days; 99 would match"
+614,286,1,30,4,98,96,"second digit partly filled; 98 makes the column sum match the printed 5,403 (Jan. 4 read as 213, last digit faint, could be 215 if this is 96)"
+614,286,1,4,4,213,215,last digit faint; see Jan. 30
+614,286,1,23,9,689,683,"last digit broken; 689 makes the column sum match the printed 36,989"
+614,286,1,2,10,338,339,"last digit broken; 338 makes the column sum match the printed 3,916"
+614,286,1,3,10,287,286,middle digit faint; alternative only if July 2 is 339

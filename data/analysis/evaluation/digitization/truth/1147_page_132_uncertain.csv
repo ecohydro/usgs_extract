@@ -1,0 +1,6 @@
+doc_id,page_number,table_no,row,col,typed,alternative,reason
+1147,132,1,8,6,"84,800","84,80c",last digit broken; taken as 0
+1147,132,1,14,4,.026,.020,second digit broken (top missing); .026 agrees with 4.97/193
+1147,132,1,15,6,"204,000",204.000,separator looks like a period in the scan; comma assumed
+1147,132,1,37,4,.896,.396,first digit 8 partly broken; .896 agrees with 173/193
+1147,132,1,55,2,2.5,2 5,decimal point not visible in scan (gap between 2 and 5)

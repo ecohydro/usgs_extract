@@ -1,0 +1,7 @@
+doc_id,page_number,table_no,row,col,typed,alternative,reason
+15,318,1,1,11,252,253,last digit broken in scan
+15,318,1,4,11,830,839,last digit broken in scan; 830 fits the yearly total
+15,318,1,6,11,"2,000","2,009","last digit broken in scan; 2,000 fits the yearly total"
+15,318,3,6,5,"2,920","1,920",leading digit overlaps the column rule
+15,318,3,8,5,"4,250","1,250",leading digit overlaps the column rule
+15,318,3,15,1,94.5,84.5,first digit heavy/smudged
