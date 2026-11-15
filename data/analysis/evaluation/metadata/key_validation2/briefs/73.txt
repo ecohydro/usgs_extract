@@ -1,0 +1,13 @@
+sample_no: 73
+report (doc_id): 2809   page: 549   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2809_page_549.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/73.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+Date | Water level | Date.1 | Water level.1 | Date.2 | Water level.2
+7/1E -23A1 -Continued | 7/1E -23A1 -Continued | 7/1E -23A1 -Continued | 7/1E -23A1 -Continued | 7/1E -23A1 -Continued | 
+May 1931 | 41 | Jan. 1940 | 3 52 | Feb. 1945 | 35
+June 1931 | 47 | Feb. 1940 | 42 | April 1945 | 35
+... (66 lines in all; last lines:)
+July 1936 | 45 | Dec. 1944 | 35 | July 1952 | 65
+Jan. 1940 | 45 | Dec. 1944 | 3 43 |  | 

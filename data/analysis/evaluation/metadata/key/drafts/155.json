@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "5/3W-35H1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Fairfield",
+  "place_relation": "About 6.1 miles west of",
+  "basin_or_area": "Suisun-Fairfield area",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "C. & R. H. Bowles",
+  "data_type": "Groundwater",
+  "date_start": "1918-06-09",
+  "date_end": "1920-02-07",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 81,
+  "n_variables": 81,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second well block on the page, 5/3W-35H1 (Clark-32), irrigation well enlarged from a spring. Counted 3 date/water-level column pairs x 27 rows = 81 (checked month by month: 27 + 27 + 27). Dates are first and last printed rows on this page; the heading says measurements run through June 9, 1922, so the table probably continues on the next page. Other location words in heading: 1.03 miles southerly along paved road from road intersection at Falls School, 18 feet east of creek. Heading numbers (pit diameter 8 feet, depth 86 feet in 1918, datum 55 feet above sea level) not counted; no construction year given. No county or state printed."
+ }
+]

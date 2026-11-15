@@ -1,0 +1,13 @@
+sample_no: 132
+report (doc_id): 3117   page: 94   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/3117_page_94.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/132.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 11 columns):
+Wtr yr | Date | Unnamed: 2 | Unnamed: 3 | Contents | Elevation | Date.1 | Unnamed: 7
+1966 | Dec. 14, 1965 |  |  | 35400 | 2680.3 |  | 
+1967 |  |  | May 20, 22, 1967 | 35400 | 2680.4 |  | 
+1968 | Aug. 10, 1968 |  |  | 34900 | 2679.4 |  | 
+... (6 lines in all; last lines:)
+1969 | May 14, 1969 |  |  | 35500 | 2680.48 |  | 
+1970 |  |  | Jan. 21, 1970 | 35652 | 2680.8 |  | 

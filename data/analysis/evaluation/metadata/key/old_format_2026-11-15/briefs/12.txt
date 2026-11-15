@@ -1,0 +1,12 @@
+sample_no: 12
+report (doc_id): 56807   page: 269   table on the page: 1 of 2
+page scan: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/56807_page_269.png
+earlier pages of this report: /home/waves/data/usgs_extract/UpdatedDataJan/56807/56807_page_<N>.png (same folder; only pages with tables were scanned, so some numbers are missing)
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/12.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here):
+Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Capacity table (elevation, i | Capacity table (elevation, i
+637 | 0 | 665 | 2810 |  | 690 | 13800 | 730.0
+645 | 152 | 670 | 4290 |  | 695 | 17300 | 740.0
+650 | 432 | 675 | 6110 |  | 700 | 21200 | 750.0
+... (6 lines in all)

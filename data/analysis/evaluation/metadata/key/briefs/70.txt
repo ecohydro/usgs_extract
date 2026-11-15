@@ -1,0 +1,13 @@
+sample_no: 70
+report (doc_id): 70038399   page: 273   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70038399_page_273.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/70.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | Unnamed: 1 | Contents, | in thousands | of | acre-feet, at | 2400 hrs. | Water year
+Day | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1 | 201.5 | 201.9 | 1992 | 197.4 | 187.9 | 158.9 | 162.6
+2 | 201.6 | 201.6 | 199.1 | 197.7 | 186.7 | 158.9 | 162.6
+... (35 lines in all; last lines:)
+(++) | 643 | 240 | 211 | 230 | 211 | 325 | 631
+(##) | 19030 | 18200 | 19000 | 17650 | 15490 | 15410 | 16060

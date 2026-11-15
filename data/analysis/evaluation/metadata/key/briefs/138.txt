@@ -1,0 +1,13 @@
+sample_no: 138
+report (doc_id): 52295   page: 38   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/52295_page_38.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/138.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 11 columns):
+Unnamed: 0_level_0 | a. Calculated as difference | (SW 1A) 3N/8E -29L1 4 -5 -62 | (SW 4A) 3N/7E -35P2 5 -5 -62 | (SW 2A) 2N/7E - 3B1 4 -5 -62 | (SW 2N/7E 3A) 3A1 4.5 -62 56 | - | (SW 2) 1N/9E 5G1 4 -4 -62 50
+Well Number Number below abo | Unnamed: 1_level_1 | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1 | Unnamed: 6_level_1 | Unnamed: 7_level_1
+Well Number Number below abo | Unnamed: 1_level_2 | Unnamed: 2_level_2 | Unnamed: 3_level_2 | Unnamed: 4_level_2 | Unnamed: 5_level_2 | Unnamed: 6_level_2 | Unnamed: 7_level_2
+Well Number Number below abo | Unnamed: 1_level_3 | Unnamed: 2_level_3 | Unnamed: 3_level_3 | Unnamed: 4_level_3 | Unnamed: 5_level_3 | Unnamed: 6_level_3 | Unnamed: 7_level_3
+... (32 lines in all; last lines:)
+ |  | 7.8 | 8.0 | 8.2 | 8.2 |  | 8.0
+ |  | 39907 | 40235 | 39906 | 39905 |  | 39908

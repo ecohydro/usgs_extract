@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Lompoc plain; Santa Ynez River Basin",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "shallow water table beneath the Lompoc plain",
+  "data_type": "Groundwater",
+  "date_start": "1934-10",
+  "date_end": "1944-09",
+  "temporal_resolution": "annual",
+  "variables": "precipitation;other",
+  "n_measurements": 30,
+  "n_variables": 36,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 24: computed rainfall, estimated penetration (inches) and recharge to shallow water body (acre-feet) for 10 years 1935-44; text says seasons ending September 30, so dated as water years. All values are computed/estimated, not measured; counted 10 rows x 3 columns = 30 (zeros counted); Average and Long-term average rows (6 values) only in n_variables. Data type unsure (rainfall and recharge to ground water; chose Groundwater). Penetration and recharge listed as 'other'. State from running head."
+ }
+]

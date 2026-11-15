@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 34°10'45\", long. 117°15'55\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Strawberry Creek near Arrowhead Springs, Calif.",
+  "township_range_section": "SE¼ sec. 11, T. 1 N., R. 4 W.",
+  "place_name": "Arrowhead Springs",
+  "place_relation": "near",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Strawberry Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1944-10",
+  "date_end": "1945-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge;runoff",
+  "n_measurements": 60,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Monthly summary table, water year 1944-45. 12 month rows x 5 columns (second-foot-days, maximum, minimum, mean, runoff in acre-feet) = 60 counted as measurements; the calendar-year 1944 and water-year 1944-45 rows (2 x 5 = 10) only in n_variables. The rules name only monthly max / min / mean as the table's values; if second-foot-days and runoff columns are summaries instead, n_measurements = 36 (n_variables stays 70). Unsure for that reason only. Other location words: upstream from Del Rosa Water Co.'s lower diversion dam, 0.5 mile south of Arrowhead Springs. Fraction in the section description is hard to read (SE 1/4). No county or station number on the page."
+ }
+]

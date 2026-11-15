@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7N/35W-21L1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 10,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Driller's log of one well (third log block on the page, two side-by-side halves). Lithology is a described variable, so no measured values; 5 material rows x (thickness, depth) = 10 numbers. Heading above block (not counted): 12-inch casing to 190 ft; perforated 145-186 ft; altitude about 20 ft. Page prints no owner, place, basin, county, state or date for this well; no table title on page."
+ }
+]

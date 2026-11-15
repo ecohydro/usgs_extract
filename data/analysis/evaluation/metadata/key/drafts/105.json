@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°51'30\", long. 120°38'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Oakdale Canal near Knights Ferry, Calif.",
+  "township_range_section": "SE¼ sec. 10, T. 1 S., R. 12 E.",
+  "place_name": "Knights Ferry",
+  "place_relation": "near",
+  "basin_or_area": "Stanislaus River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Oakdale Canal",
+  "data_type": "Irrigation",
+  "date_start": "1942-10",
+  "date_end": "1943-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 244,
+  "n_variables": 244,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid only (the monthly summary below is the page's other table). Counted by month: Oct 31, Nov 30 (54 then zeros), Dec-Mar blank columns = 0, Apr 30 (zeros on days 1-10 counted), May 31, June 30, July 31, Aug 31, Sept 30 = 244. Last digit of many August values is cut off in the scan but each value is present. Canal diverting water for irrigation, so Irrigation. Location paragraph also says: half a mile downstream from head gate at Goodwin Dam on Stanislaus River and 4 miles upstream from Knights Ferry. No station number or county printed."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-4400",
+  "station_name": "Alder Creek near White Hall, Calif.",
+  "township_range_section": "",
+  "place_name": "White Hall",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Alder Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-10-01",
+  "date_end": "1962-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 358,
+  "n_variables": 427,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 = water year 1962 grid (upper table). Printed daily values by month: Oct 31, Nov 30, Dec 24 (1.5 braced for days 1-5 = 1 value, 2.0 on day 6, 2.5 braced for days 7-10 = 1 value, then 21 values for days 11-31), Jan 31, Feb 28, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 358. Summary: TOTAL/MEAN/MAX/MIN/AC-FT x 12 months = 60, minus Dec MIN printed as a dash = 59, plus CAL YR 1961 and WAT YR 1962 lines 5 each = 69."
+ }
+]

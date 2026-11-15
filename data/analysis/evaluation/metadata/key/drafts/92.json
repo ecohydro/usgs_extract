@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°32'35\", long. 119°51'45\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Santa Ynez River below Los Laureles Canyon, near Santa Ynez, Calif.",
+  "township_range_section": "in San Marcos Grant",
+  "place_name": "Los Laureles Canyon; Santa Ynez",
+  "place_relation": "below; near",
+  "basin_or_area": "Santa Ynez River Basin",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Santa Ynez River",
+  "data_type": "Stream Discharge",
+  "date_start": "1952-10",
+  "date_end": "1953-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 22,
+  "n_variables": 22,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1952-53. 11 gage height / discharge pairs (6 in the left pair of columns, 5 in the right), both columns counted = 22. Dates = the water year the rating applies to. Other distances on page: on left bank 0.1 mile downstream from Los Laureles Canyon Creek and 13 miles east of Santa Ynez. No station number printed."
+ }
+]

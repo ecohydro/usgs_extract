@@ -1,0 +1,13 @@
+sample_no: 100
+report (doc_id): 3153   page: 128   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/3153_page_128.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/100.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 21 columns):
+Unnamed: 0 | deposit. tufa resort; spring | Unnamed: 2 | stock pools; small Many | ac- more formerly water; tiv | used. Not | used. not spring; 1 | used; not springs; 8 About
+ | p. 108, 114*; p. 107, | 73*; 625*: 173, p. 22 -27* 1 | 174 |  | 174 | 174 10; p. 111, | 111, 300; p. 108,
+ | 350 |  | 20 |  | 150 | 50 | 500
+ | 98 -113 |  | 65 |  | 130 | 120 | 80 -167
+... (8 lines in all; last lines:)
+County Taos | Barranca of northwest miles  | County McKinley | 33, sec. about Tohatchi, of  | County W. 15 Sandoval R. N., | 29, sec. Springs, Jemez of n | of north miles 20 3 Creek, R | E. 3, R. sec. N., 20 Springs
+ | 8 |  | 9 |  | 10 | 11 | 12

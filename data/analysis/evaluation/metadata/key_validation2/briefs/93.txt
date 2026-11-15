@@ -1,0 +1,13 @@
+sample_no: 93
+report (doc_id): 1312   page: 334   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1312_page_334.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/93.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 14 columns):
+1849 -50 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | 0.00
+1850 -51 | 0.0 | 0.00 | 0.0 | 0.19 | 2.82 | 1.93 | 0.03
+1851 -52 | 0.0 | .00 | 0.02 | 0.01 | 0.25 | 3.74 | 0.58
+1852 -53 | 0.0 | .40 | 0.0 | 0.06 | 1.45 | 4.5 | 0.5
+... (34 lines in all; last lines:)
+1881 -82 | 0.0 | .01 | 0.04 | 24.0 | 0.12 | 0.3 | 4.53
+1882 -83 | 0.0 | Tr. | 0.01 | 0.41 | 0.39 | 0.13 | 1.09

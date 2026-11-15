@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°06'57\", long 116°57'08\"",
+  "well_number": "",
+  "station_number": "11-270",
+  "station_name": "Guejito Creek near San Pasqual, Calif.",
+  "township_range_section": "NW¼NW¼SE¼ sec.23, T.12 S., R.1 W.",
+  "place_name": "San Pasqual",
+  "place_relation": "near",
+  "basin_or_area": "San Dieguito River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Guejito Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1963-10",
+  "date_end": "1964-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 152,
+  "n_variables": 220,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values are printed only for Jan (31), Feb (29), Mar (31), Apr (30), May (31) = 152, zeros included; counts checked against the printed monthly totals. Oct-Dec and June-Sept columns hold only '(*)' marks (observation of no flow made on that day), no daily values, so nothing counted there. Summary values: TOTAL, MEAN, AC-FT, MAX, MIN rows x 12 months = 60, calendar-year line 4, water-year line 4 = 68. The base '30 cfs' in the peak-discharge line not counted. The small rating table above the title is not part of the sampled table. Location text also gives: 0.3 mile upstream from Rockwood Canyon Creek and 1.8 miles north of San Pasqual. County not printed."
+ }
+]

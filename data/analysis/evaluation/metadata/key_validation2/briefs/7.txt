@@ -1,0 +1,13 @@
+sample_no: 7
+report (doc_id): 2809   page: 488   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2809_page_488.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/7.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+Well No. | Numbers assigned by other ag | Owner or user | Year com- pleted | Alti- tude of land- surface  | Depth of well (feet) | Type of well and diameter of | Perforated interval
+Well No. | Numbers assigned by other ag | Owner or user | Year com- pleted | Alti- tude of land- surface  | Depth of well (feet) | Type of well and diameter of | Unnamed: 7_level_1
+Depth below land surface (fe |  |  |  |  |  |  | 
+T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued | T. 9 N., R. 1 E.-Continued
+... (45 lines in all; last lines:)
+-35P1 |  | o. Rickter | 1938 | 79 | 114 | DR, G, 12 | (27 -42 48 -54 69 -105
+-35Q1 | UC -399 | Roche & Macedo | 1929 | 76 | 234 | DP, 14 | 32 -46 212 -232

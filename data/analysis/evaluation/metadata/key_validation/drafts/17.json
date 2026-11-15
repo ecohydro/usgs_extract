@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°28'30\", long. 119°55'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - L. G. Dreyfus Estate",
+  "data_type": "Springs",
+  "date_start": "1953-09-16",
+  "date_end": "1954-06-10",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 5,
+  "n_variables": 5,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: STATION 47. Heading: 'Altitude.--About 350 feet, from topographic map'; two concrete-curbed seeps at foot of hill, discharge measured at settling box. No county, state, basin or place name printed other than the owner (L. G. Dreyfus Estate, put in water_source). Count: discharge 3 (Sept. 16 'No flow', Mar. 10 'No flow', June 10 0.000023 cfs = 0.010 gpm, two units counted once; Dec. 9 cell empty, May 18 a dash) + temperature 2 (61, 60) = 5. '108 drops per minute' (Dec. 9) and '42 drops per minute' (May 18) are in Remarks and not counted. Altitude 350 ft is in the heading, not in the table, so not added to n_variables (would make 6)."
+ }
+]

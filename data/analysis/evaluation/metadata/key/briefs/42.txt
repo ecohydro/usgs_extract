@@ -1,0 +1,13 @@
+sample_no: 42
+report (doc_id): 70038398   page: 132   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70038398_page_132.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/42.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Month | Gage height (feet)t | Contents (acre- feet) | Change in contents (acre- fe | Draft (acre- feet) | Evapo- ration (acre- feet) | Spill plus leakage (acre- fe | Discharge (acre- feet)
+Month | Change in contents (acre- fe | Draft (acre- feet) | Evapo- ration (acre- feet) | Spill plus leakage (acre- fe | Discharge (acre- feet) | Unnamed: 6_level_1 | Unnamed: 7_level_1
+Sutherland Reservoir | Sutherland Reservoir |  |  |  |  |  | 
+Sept. 30 | 69.65 | 3331 | - | - | - | - | -
+... (18 lines in all; last lines:)
+Sept. 30 | 58.47 | 1855 | -47 | 0 | 54 | o | 7
+Water year 1965 -66 | - | - | -1476 | 5307 | 787 | o | 4618

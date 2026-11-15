@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Pajaro River at Watsonville, Cal.",
+  "township_range_section": "",
+  "place_name": "Watsonville",
+  "place_relation": "at",
+  "basin_or_area": "Pajaro River Basin",
+  "county": "",
+  "state": "Cal.",
+  "evidence_place": "heading before table",
+  "water_source": "Pajaro River",
+  "data_type": "Stream Discharge",
+  "date_start": "1913-02-28",
+  "date_end": "1913-06-08",
+  "temporal_resolution": "discrete",
+  "variables": "gage_height;discharge",
+  "n_measurements": 6,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Three discharge measurements (Feb. 28, Apr. 17, June 8), each with gage height and discharge: 3 x 2 = 6. Year taken from the title 'year ending Sept. 30, 1913' (dates in the table print no year). Location paragraph: at highway bridge at Watsonville, about 10 miles below mouth of San Benito River and 5 miles above mouth. No county, coordinates or station number on the page."
+ }
+]

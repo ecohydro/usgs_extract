@@ -1,0 +1,13 @@
+sample_no: 47
+report (doc_id): 1627   page: 527   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1627_page_527.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/47.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 7 columns):
+Water year | Maximum | Maximum | Maximum | Minimum | Minimum | Minimum
+Water year | Unnamed: 1_level_1 | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1 | Unnamed: 6_level_1
+Date | Discharge (cfs) | Gage height (feet) | Date | Discharge (cfs) | Gage height (feet) | 
+1961 | Jan. 8, 1961 | 219 | 7.84 | Oct. 1, 1960 | a 0.30 | 
+... (8 lines in all; last lines:)
+1964 | Jan. 22, 1964 | 900 | 9.30 | June 11, 1964 | a 1.1 | 
+1965 | Dec. 24, 1964 | 40200 | 28.85 | Oct. 3 -5, 1964 | a 1.7 | 

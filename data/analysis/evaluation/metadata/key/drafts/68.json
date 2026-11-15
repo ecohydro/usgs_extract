@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°09'56\", long 121°37'42\"",
+  "well_number": "",
+  "station_number": "1699.2",
+  "station_name": "Anderson Lake near Madrone, Calif.",
+  "township_range_section": "in southeast corner of La Laguna Seca Grant",
+  "place_name": "Madrone",
+  "place_relation": "near",
+  "basin_or_area": "COYOTE CREEK BASIN",
+  "county": "Santa Clara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Anderson Lake",
+  "data_type": "Reservoir",
+  "date_start": "1950-12",
+  "date_end": "1960-09",
+  "temporal_resolution": "monthly",
+  "variables": "contents",
+  "n_measurements": 118,
+  "n_variables": 118,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second table on page. Water year 1951 has 10 values (Oct., Nov. are dashes); water years 1952-60 have 12 each: 10 + 9x12 = 118. Contents are for the first day of the following month; dates given as the column months (Dec. of water year 1951 = 1950-12; Sept. of water year 1960 = 1960-09). Other location words: at center of dam on Coyote Creek, 2.5 miles northeast of Madrone. Dam completed in 1950 (not a well, so construction_date left blank). Some digits of the longitude are faint in the scan."
+ }
+]

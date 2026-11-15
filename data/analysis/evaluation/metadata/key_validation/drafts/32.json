@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°00'15\", long 121°39'58\"",
+  "well_number": "",
+  "station_number": "11154100",
+  "station_name": "BODFISH CREEK NEAR GILROY, CALIF.",
+  "township_range_section": "in Las Animas Grant",
+  "place_name": "Gilroy",
+  "place_relation": "near",
+  "basin_or_area": "PAJARO RIVER BASIN",
+  "county": "Santa Clara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bodfish Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-12-28",
+  "date_end": "1970-01-21",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 32,
+  "n_variables": 32,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table = 'Annual maximum discharge (*) and peak discharges above base (150 cfs), water years 1966-70'. 16 peaks (6 + 5 + 5 in the three printed column groups), each with a discharge and a gage height = 32; times not counted. Other location text: on left bank just upstream from Whitehurst Creek, 2.7 miles upstream from mouth and 5.1 miles west of west city limits of Gilroy."
+ }
+]

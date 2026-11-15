@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Hyatt Prairie Reservoir near Ashland, Oreg.",
+  "township_range_section": "SW¼ sec. 16, T. 39 S., R. 3 E.",
+  "place_name": "Ashland",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Hyatt Prairie Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1932-09-30",
+  "date_end": "1933-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "contents;elevation",
+  "n_measurements": 12,
+  "n_variables": 22,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly stage and contents, 1932-33. Printed rows: Sept. 30, then Jan. 31 to Sept. 30 (no Oct.-Dec. rows); first row is the last day of the previous water year, dates taken from printed rows (years from the title). Count: 10 contents values (7 interpolated, marked a) + 2 elevations (Mar. 31, July 31) = 12. Summary: 9 monthly change-in-contents values + 1 for the year = 10. Location text also gives: at dam of Talent Irrigation District, 3 miles north of Ashland-Klamath Falls highway and 20 miles east of Ashland. No coordinates, no station number, no county printed."
+ }
+]

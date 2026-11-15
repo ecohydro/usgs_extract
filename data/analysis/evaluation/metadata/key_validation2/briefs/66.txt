@@ -1,0 +1,13 @@
+sample_no: 66
+report (doc_id): 1607   page: 292   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1607_page_292.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/66.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+Day | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1 | 0.5 | 0.7 | 22 | 4.0 | 28 | 31 | 150.0
+2 | .4 | 14 | 56 | 3.9 | 32 | 31 | 140.0
+3 | .4 | 34 | 102 | 8 | 34 | 28 | 130.0
+... (47 lines in all; last lines:)
+September | September | September | September | September | September |  | 6.0
+Water year 1938 -39 | Water year 1938 -39 | Water year 1938 -39 | Water year 1938 -39 | Water year 1938 -39 | Water year 1938 -39 | 8136.9 | 

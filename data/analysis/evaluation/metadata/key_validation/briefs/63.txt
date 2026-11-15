@@ -1,0 +1,13 @@
+sample_no: 63
+report (doc_id): 56405   page: 162   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/56405_page_162.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/63.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+4422 | 8950 | 4432 | 34200 | 4450 | 220800 | 4475 | 672700
+4424 | 10100 | 4434 | 49500 | 4455 | 294500 | 4480.0 | 787300
+4426 | 11300 | 4437 | 74200 | 4460 | 376700 | 4485.0 | 908500
+4428 | 13500 | 4440 | 101900 | 4465 | 467000 | 4490.0 | 1036000
+... (5 lines in all; last lines:)
+4428 | 13500 | 4440 | 101900 | 4465 | 467000 | 4490.0 | 1036000
+4430 | 21200 | 4445 | 156400 | 4470 | 565500 | 4495.5 | 1184000

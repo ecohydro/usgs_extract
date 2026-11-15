@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 42°24', long. 122°16'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Cascade Canal near Fish Lake, Oreg.",
+  "township_range_section": "SE¼ sec. 30, T. 36 S., R. 5 E.",
+  "place_name": "Fish Lake",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Cascade Canal",
+  "data_type": "Irrigation",
+  "date_start": "1934-10",
+  "date_end": "1935-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 65,
+  "n_variables": 65,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = daily discharge grid only (the monthly summary below is table 2). Printed values: May 28-31 = 4, June 1-30 = 30, July 1-31 = 31; total 65. Dashes (May 1-27, June 31) and the empty October-April, August and September columns not counted; the note 'No flow during August and September' prints no daily values. Dates = water year in the title, although values are printed only for May 28 to July 31, 1935. Canal diverts water from Fourmile Creek, so Irrigation. Other location words: at divide between Rogue River and Klamath River Basins, 3 miles above Fish Lake; gaging station is 10 miles below point of diversion. No station number or county printed."
+ }
+]

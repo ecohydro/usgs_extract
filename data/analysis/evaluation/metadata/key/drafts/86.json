@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "B-49-I",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "well B-49-I lease OCS-P 0241",
+  "data_type": "Other",
+  "date_start": "1971-06",
+  "date_end": "1973-05",
+  "temporal_resolution": "monthly",
+  "variables": "other",
+  "n_measurements": 96,
+  "n_variables": 240,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Water injection history of one well, two injection intervals (EP interval (Upper yellow), FP interval (Upper purple)) side by side; treated as one location. Page gives no place, county or state; 'lease OCS-P 0241' is the only other identifier. Data type unclear under the rules: water injected into a well (not a water-supply well), put as Other; Groundwater would be the alternative. No listed variable fits (water injected in bbls, well-head pressure) -> other. 24 monthly rows (June 1971 to May 1973: 7+12+5). Measurements counted = monthly water injected (24x2) + well-head pressure (24x2) = 96, zeros counted. Days of injection, cumulative and daily average (24x2 each = 144) treated as other/computed numbers: n_variables = 240."
+ }
+]

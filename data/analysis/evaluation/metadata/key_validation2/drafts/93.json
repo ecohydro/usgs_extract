@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "San Diego",
+  "place_relation": "",
+  "basin_or_area": "western San Diego County",
+  "county": "San Diego County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Precipitation",
+  "date_start": "1850-01",
+  "date_end": "1883-06",
+  "temporal_resolution": "monthly",
+  "variables": "precipitation",
+  "n_measurements": 402,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the lower table: 'San Diego (39); elevation, 93 feet. [Authority, U. S. Weather Bureau.]', seasons 1849-50 to 1882-83 (July to June), no column headings of its own (months taken from the block above on the same page). Station '(39)' is the report's own number. Counted: season 1849-50 has 6 monthly values (Jan.-June, no total); the other 33 seasons have 12 each = 396; total 402 ('Tr.' counted as a value). 33 season totals are summary values (n_variables 435). County and state from the running head and table title ('stations in or near San Diego County'); the page does not say outright that the station is in the county. No place relation printed."
+ }
+]

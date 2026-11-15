@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 40°10'30\", long. 121°05'25\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Lake Almanor near Prattville, Calif.",
+  "township_range_section": "NW¼ sec. 28, T. 27 N., R. 8 E.",
+  "place_name": "Prattville",
+  "place_relation": "near",
+  "basin_or_area": "FEATHER RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lake Almanor",
+  "data_type": "Reservoir",
+  "date_start": "1941-10-01",
+  "date_end": "1942-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents grid, water year 1942; every day has a printed value: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. No summary rows in this table (the monthly elevation and contents table below is table 2). Other location text: staff gage at outlet tower at dam on North Fork of Feather River and 5 miles southeast of Prattville. No county printed."
+ }
+]

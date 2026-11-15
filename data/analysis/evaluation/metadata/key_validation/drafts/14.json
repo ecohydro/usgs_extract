@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°46', long. 121°32'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Concow Creek near Yankee Hill, Calif.",
+  "township_range_section": "NE¼ sec. 16, T. 22 N., R. 4 E.",
+  "place_name": "Yankee Hill",
+  "place_relation": "near",
+  "basin_or_area": "FEATHER RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Concow Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1945-10",
+  "date_end": "1946-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge;runoff",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary table (table 3). Measurements = monthly Maximum, Minimum, Mean cells: 12 months x 3 = 36, all printed (zeros count). Counted only in n_variables: monthly Second-foot-days (12) and Runoff in acre-feet (12), taken as totals/conversions, plus the Calendar year 1945 and Water year 1945-46 rows (2 x 5 = 10): 36+24+10 = 70. Other location words: water-stage recorder above diversion dam of Spring Valley ditch, 300 feet downstream from Lake Wilenor Dam and 4 miles north of Yankee Hill post office. No county printed."
+ }
+]

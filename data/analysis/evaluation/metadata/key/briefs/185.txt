@@ -1,0 +1,13 @@
+sample_no: 185
+report (doc_id): 733   page: 190   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/733_page_190.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/185.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 14 columns):
+Water year | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+194S | 0 | o | o | o | O | o | 262
+1949 | 325 | 306 | 330 | 295 | 246 | o | 182
+1950 | 324 | 304 | 314 | 314 | 284 | 305 | 304
+... (17 lines in all; last lines:)
+1962 | 839 | 795 | 183 | 757 | 743 | 814 | 807
+1963 | 833 | 850 | 832 | 832 | 768 | 826 | 836

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°49'26\", long 120°21'34\"",
+  "well_number": "",
+  "station_number": "11-4411",
+  "station_name": "Ice House Reservoir near Kyburz, Calif.",
+  "township_range_section": "SE¼SW¼ sec.1, T.11 N., R.14 E.",
+  "place_name": "Kyburz",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Ice House Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 14,
+  "n_variables": 14,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Capacity table, water years 1961-65: 7 elevation/contents pairs printed (5,349; 5,350; 5,360; 5,380; 5,400; 5,420; 5,450), both columns counted = 14. The digitizer's version has only 2 rows, so the lone third-row pair (5,450 / 46,000) may not be in the digitized table (then 12). No dates for a capacity table. Other location text: on left bank at Ice House Dam on South Fork Silver Creek, 0.5 mile upstream from Peavine Creek and 4.75 miles northwest of Kyburz."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "321838N1095431.1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1962-01-05",
+  "date_end": "1965-03-15",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 227,
+  "n_variables": 227,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Continuation page: only the well number '321838N1095431.1--Continued.' is printed; no owner, place, county or state for this well (running head says only 'SOUTHWESTERN STATES'). Grid has no variable label; water level taken from the running head 'GROUND-WATER LEVELS' and the following table of the same well. Values on days 5, 10, 15, 20, 25 and end of month: called discrete (could be read as daily-recorder extract). Count: 1962 72; 1963 72 minus 4 dotted cells (June 10, 15, 20; Oct. 10) = 68; 1964 72; 1965 Jan 6 + Feb 6 + Mar 3 = 15; total 227. Last value Mar. 15, 1965."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11458000",
+  "station_name": "NAPA RIVER NEAR NAPA, CALIF.",
+  "township_range_section": "",
+  "place_name": "NAPA",
+  "place_relation": "near",
+  "basin_or_area": "NAPA RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "NAPA RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1974-11-14",
+  "date_end": "1975-09-11",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;water_chemistry",
+  "n_measurements": 45,
+  "n_variables": 55,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled table = upper block only (chemical analyses, water year October 1974 to September 1975; 6 sampling dates Nov. 14 to Sep. 11; years taken from the water-year title). Counted column by column, dashes not counted: instantaneous discharge 6, calcium 5, sodium 6, bicarbonate 6, carbonate 6, alkalinity 6, chloride 5, dissolved solids (residue at 180 C) 5 = 45. Dissolved solids in tons per ac-ft (5) and tons per day (5) treated as the same value in other units / computed loads: not measurements, added only to n_variables (45+10=55). Time column not counted. Unsure only because the rules do not say how to treat the tons columns. If the digitizer's table 1 does not include the last four columns (brief shows 8 columns), counts would be 35."
+ }
+]

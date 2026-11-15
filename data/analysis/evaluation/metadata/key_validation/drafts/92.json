@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°31'30\", long 120°56'13\"",
+  "well_number": "",
+  "station_number": "11413000",
+  "station_name": "NORTH YUBA RIVER BELOW GOODYEARS BAR, CALIF.",
+  "township_range_section": "NE¼SW¼ sec.11, T.19 N., R.9 E.",
+  "place_name": "Goodyears Bar",
+  "place_relation": "below",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Sierra County",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "North Yuba River",
+  "data_type": "Stream Discharge",
+  "date_start": "1975-03-25",
+  "date_end": "1975-06-06",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 6,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Peak discharge table (base, 3,200 ft3/s) at the bottom of the page: 3 peaks (3-25, 5-18, 6-6), each with gage height and discharge = 6 values; time-of-day column not counted. Dates are printed as month-day only; year 1975 taken from the daily table title on the same page (water year October 1974 to September 1975). Other location text: Tahoe National Forest, on right bank 200 ft (61 m) downstream from St. Catherine Creek, 3.1 mi (5.0 km) southwest of Goodyears Bar, and 6.4 mi (10.3 km) southwest of Downieville."
+ }
+]

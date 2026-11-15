@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "5/11-6A1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Seal Beach",
+  "place_relation": "About 3 miles northeast of",
+  "basin_or_area": "coastal zone of the Long Beach-Santa Ana area",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "I. W. Hellman Ranch",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 62,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Driller's log (materials penetrated) of one well; no dates, county or state on page. Lithology is a described variable, so no measured values; 31 material rows x (thickness, depth) = 62 numbers. Heading above table (not counted): Altitude 17 feet; casing perforated 818-841 and 925-975 feet; yield not known. Area from table title (Table 6, continued) and running head."
+ }
+]

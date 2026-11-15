@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-4770",
+  "station_name": "EEL RIVER AT SCOTIA, CALIF.",
+  "township_range_section": "",
+  "place_name": "SCOTIA",
+  "place_relation": "AT",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "EEL RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10",
+  "date_end": "1968-09",
+  "temporal_resolution": "daily",
+  "variables": "temperature",
+  "n_measurements": 732,
+  "n_variables": 756,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily maximum and minimum water temperature. Counted per month: a maximum and a minimum for every day of the month (Oct 31, Nov 30, Dec 31, Jan 31, Feb 29, Mar 31, Apr 30, May 31, Jun 30, Jul 31, Aug 31, Sep 30 = 366 days x 2 = 732); dashes only on days that do not exist. The 24 monthly averages (max and min) are summary values, in n_variables only."
+ }
+]

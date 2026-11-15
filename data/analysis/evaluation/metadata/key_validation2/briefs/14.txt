@@ -1,0 +1,13 @@
+sample_no: 14
+report (doc_id): 1109   page: 141   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1109_page_141.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/14.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 4 columns):
+7.3 7.7 8.0 | Unnamed: 1 | Unnamed: 2 | 7.9
+0 |  |  | 0
+272 106 115 | 185 |  | 491
+24 0 12 | 21 |  | 48
+... (24 lines in all; last lines:)
+94 34 (5) |  | Valley Potter | 658
+14/12 -5K1 15/12 1 -16Q1 22D | 4 35D |  | 17/11 -33D1

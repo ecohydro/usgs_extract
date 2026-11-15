@@ -1,0 +1,13 @@
+sample_no: 124
+report (doc_id): 1641   page: 604   table on the page: 1 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/1641_page_604.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/124.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 18 columns):
+Date | Unnamed: 1 | Unnamed: 2 | Time | Disch. | G.H. | Date.1 | Unnamed: 7
+Nov. 24, 1965 |  |  | 1115.0 | *372 | 4.54 | May | 21.0
+ |  |  |  |  |  |  | 
+Dec. |  | 3, 1966 | 30.0 | 588 | 5.15 | Feb. | 20.0
+... (10 lines in all; last lines:)
+Apr. 7, 1967 |  |  |  | 1020 | 6.0 | Feb. 15, 1969 | 
+May | 10.0 | 1967 | 730.0 | 780 | 5.56 |  | 

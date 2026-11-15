@@ -1,0 +1,13 @@
+sample_no: 98
+report (doc_id): 53590   page: 34   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/53590_page_34.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/98.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Other data | Unnamed: 1 | Unnamed: 2 | L | C,L,T | L.1 | Unnamed: 6 | L.2
+Water level below lsd (feet) |  |  |  | 2.5 |  |  | 
+Altitude of Isd (feet) |  |  | 200 | 40 | 120 |  | 80
+or Measuring point Distance  |  |  |  |  |  |  | 
+... (18 lines in all; last lines:)
+Other numbers and of source  | W. 35 |  | GS USAF | GS D | GS USAF |  | GS USAF
+USGS well number | R. N. 8 T. | 8/35 | -5Z2 | 7R1 | 7Z1 |  | 7Z2

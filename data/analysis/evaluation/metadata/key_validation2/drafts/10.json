@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Concow Creek near Yankee Hill, Calif.",
+  "township_range_section": "",
+  "place_name": "Yankee Hill",
+  "place_relation": "near",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Concow Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1940-10",
+  "date_end": "1941-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 182,
+  "n_variables": 182,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid for water year 1940-41 (sub-heading '1940-41'); values printed only for Dec 1, 1940 to May 31, 1941; Oct, Nov, June-Sept columns are blank. Water year given per the rule. Count: Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31 = 182 (dashes not counted). Monthly table below is table 2, not counted."
+ }
+]

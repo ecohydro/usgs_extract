@@ -1,0 +1,13 @@
+sample_no: 74
+report (doc_id): 70232250   page: 88   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/70232250_page_88.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/74.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+hkl (mono- I (x1) clinic) | Unnamed: 1 | d (calc) | (obs) | Unnamed: 4 | (obs) (Dj) | Unnamed: 6 | h'k'l' I (Dj) (orthor- hombi
+440 | 5 | 2.2417 |  |  |  |  | 480
+244 | 1 | 2.2298 |  |  | 2.2301 | Vw | 404
+206 406 | 2 2 | 2.2196 2.2192 | 2.2183 | 3.0 | 2.2183 | Vw | 026
+... (64 lines in all; last lines:)
+443 | 3 | 1.7550 | *1.7544 | 2.0 |  |  | 4.11.3
+743 | 1 | 1.7446 |  |  |  |  | 

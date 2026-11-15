@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°01'00\", long 120°40'05\"",
+  "well_number": "",
+  "station_number": "11-1540",
+  "station_name": "UVAS CREEK NEAR MORGAN HILL, CALIF.",
+  "township_range_section": "",
+  "place_name": "Morgan Hill",
+  "place_relation": "near",
+  "basin_or_area": "PAJARO RIVER BASIN",
+  "county": "Santa Clara County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "UVAS CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-11-10",
+  "date_end": "1966-09-07",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry",
+  "n_measurements": 74,
+  "n_variables": 76,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Page is printed sideways (landscape). 6 sampling dates. Counted column by column, dashes and empty cells not counted: silica 2, calcium 2, magnesium 2, sodium 6, potassium 2, bicarbonate 6, carbonate 6, sulfate 2, chloride 6, nitrate 2, boron 6, dissolved solids ppm 2, hardness Ca-Mg 6, noncarbonate hardness 6, sodium adsorption ratio 6, specific conductance 6, pH 6 = 74. Mean discharge, iron, fluoride and tons per day columns are empty (remarks: no discharge records available), so discharge is not listed. Dissolved solids in tons per acre-foot (2) treated as the same value in a second unit: only in n_variables. Other distances in location text: downstream from Uvas Dam at the outlet, 0.6 mile downstream from Eastman Canyon, 4.8 miles southwest of Morgan Hill."
+ }
+]

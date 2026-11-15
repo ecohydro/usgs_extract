@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°29'30\", long 119°57'50\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - W. H. Woods",
+  "data_type": "Springs",
+  "date_start": "1948-11-01",
+  "date_end": "1957-12-04",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 134,
+  "n_variables": 134,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: Site 51 (put here, not in well_number). No state, county or place name on page. Counted per printed column block: discharge 24 + 19 + 31 = 74; temperature 16 + 18 + 26 = 60. Cells holding only the footnote mark 'a' (footnote text not on this page) are not counted. Altitude in heading not counted."
+ }
+]

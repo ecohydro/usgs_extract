@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "6/32-9A1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Buellton",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Owen E. Hollister",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "monthly",
+  "variables": "water_level",
+  "n_measurements": 10,
+  "n_variables": 10,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Second well block on the page. 10 printed water levels, one near the end of each month Jan. 28 to Oct. 29 (Jan., Feb., Mar., Apr., May, June, July, Aug., Sept., Oct.). The YEAR of the measurements is not printed anywhere on this page (heading gives only records available 1932-53 and extremes in 1942), so dates are left blank. Resolution: about one dated measurement per month, entered as monthly; could be called discrete. Diameter, depth and land-surface datum are in the heading text, not the table, so not in n_variables. No drilling date, county or state printed."
+ }
+]

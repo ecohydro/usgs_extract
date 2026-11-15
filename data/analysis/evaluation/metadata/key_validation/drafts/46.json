@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°17'36\", long 119°31'40\"",
+  "well_number": "",
+  "station_number": "11243400",
+  "station_name": "BASS LAKE NEAR BASS LAKE, CALIF.",
+  "township_range_section": "NE¼ sec.26, T.7 S., R.22 E.",
+  "place_name": "Bass Lake",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Madera County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bass Lake",
+  "data_type": "Reservoir",
+  "date_start": "1971-09-30",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "contents",
+  "n_measurements": 13,
+  "n_variables": 13,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthend contents, one value per printed date row: Sept. 30 (1971) through Sept. 30 (1972) = 13 values. Title says water year October 1971 to September 1972; first row (Sept. 30) is the end of the previous water year, so start date is taken from the printed rows. Location text also: at outlet tower at dam on North Fork Willow Creek, 2.2 miles southeast of town of Bass Lake, and 5 miles north of town of North Fork; Sierra National Forest. Formerly called Crane Valley Reservoir. Dam completed 1901 (not a well, so construction_date blank)."
+ }
+]

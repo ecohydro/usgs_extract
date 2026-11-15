@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-4922",
+  "station_name": "Crater Lake near Crater Lake, Oreg.",
+  "township_range_section": "",
+  "place_name": "Crater Lake",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Crater Lake",
+  "data_type": "Reservoir",
+  "date_start": "1963-10-01",
+  "date_end": "1964-09-30",
+  "temporal_resolution": "daily",
+  "variables": "elevation",
+  "n_measurements": 366,
+  "n_variables": 390,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second grid on the page (water year October 1963 to September 1964); station title is at the top of the page above the first grid. Daily elevation at 2400 hours, counted by month: 31+30+31+31+29+31+30+31+30+31+31+30 = 366 (Feb. has 29 values; no missing days seen). MAX and MIN rows (24 values) only in n_variables. The brief's preview lines stop at APR.; I took the whole 12-month grid as the table. Lake treated as Reservoir per the samples-from-a-lake rule."
+ }
+]

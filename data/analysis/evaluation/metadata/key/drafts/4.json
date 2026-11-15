@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 35°34', long. 120°48'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Jack Creek near Templeton, Calif.",
+  "township_range_section": "",
+  "place_name": "Templeton",
+  "place_relation": "near",
+  "basin_or_area": "Salinas River Basin",
+  "county": "San Luis Obispo County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Jack Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1953-10",
+  "date_end": "1954-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "units": "cubic feet per second",
+  "n_measurements": 212,
+  "n_variables": 256,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Daily discharge, water year October 1953 to September 1954. Filled day cells: Jan 31, Feb 28, Mar 31, Apr 30, May 31, June 30, July 31 = 212. Oct, Nov, Dec, Aug and Sept have no daily values printed (only '(*)' marks; monthly total and mean 0 = no flow all month); if those no-flow days are counted as measurements the total is 365. n_variables adds the Total / Mean / Ac-ft rows (12 x 3 = 36) and the 8 calendar-year and water-year summary values. No station number printed. Location text also says: in Paso de Robles Grant, on left bank 1.4 miles upstream from mouth, 1.8 miles northwest of Oakdale school, and 5.6 miles west of Templeton (a land grant, no township-range-section printed)."
+ }
+]

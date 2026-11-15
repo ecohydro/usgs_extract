@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "3N/8E-17L1 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Marine Corps Base Headquarters",
+  "place_relation": "about 10 miles northwest of",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "U.S. Department of the Navy",
+  "data_type": "Groundwater",
+  "date_start": "1966-11-17",
+  "date_end": "1967-12-19",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 2,
+  "n_variables": 2,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Third well block on the page (the page prints six well tables; the digitizer numbered this one table 3, recognised by its values 48.00 and 47.87). Two water levels. Heading gives owner, drilled test water-table well in alluvium, diameter 10 inches, depth 512 ft, LSD 1,850.4 ft above msl (not in the table, not counted); no year drilled. No county, state or basin printed on the page."
+ }
+]

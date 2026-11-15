@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4635A2",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Mokelumne area",
+  "county": "",
+  "state": "California",
+  "evidence_place": "in table",
+  "water_source": "F. Journeay",
+  "data_type": "Groundwater",
+  "date_start": "1926-06-06",
+  "date_end": "1929-06-20",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 42,
+  "n_variables": 84,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled block = third printed column, top: '4635A2--Con.'. Rows by year: 1926 10, 1927 12, 1928 14, 1929 6 = 42 dates, each with depth to water and altitude of water table. Depth to water counted as the measurement (42); altitude of water table is the same level restated from the bench mark, counted only in n_variables (84). If altitude counts as a measurement, n_measurements = 84. Owner and well description (F. Journeay, 6-inch well, 100 feet deep, domestic supply, bench mark altitude 46.80 feet) are from the well's heading elsewhere on the page (second column); no year drilled given. Area and state from running head."
+ }
+]

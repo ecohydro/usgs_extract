@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Edwards Air Force Base",
+  "place_relation": "at",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "wells at Edwards Air Force Base",
+  "data_type": "Groundwater",
+  "date_start": "1947",
+  "date_end": "1959",
+  "temporal_resolution": "annual",
+  "variables": "water_use",
+  "n_measurements": 13,
+  "n_variables": 13,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 4: yearly pumpage (acre-feet) from the wells of the base as a group; 13 printed values (7 in left block 1947-53, 6 in right block 1954-59), 7 of them marked 'a' (in part estimated). Pumpage keyed as water_use (no closer word in the list) and counted as measurements. No county, state, basin or individual wells printed."
+ }
+]

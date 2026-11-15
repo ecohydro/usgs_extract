@@ -1,0 +1,13 @@
+sample_no: 134
+report (doc_id): 57549   page: 376   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/57549_page_376.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/134.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+JUNE | JUNE.1 | JUNE.2 | JUNE.3 | JULY | JULY.1 | JULY.2 | AUGUST
+DAY | MAX | MIN | MEAN | MAX | MIN | MEAN | MAX
+1 | 1010 | 873 | 956 | 1000 | 877 | 942 | 
+2 | 1000 | 875 | 940 | 985 | 877 | 942 | 
+... (34 lines in all; last lines:)
+MONTH | 1030 | 819 | 933 | 1090 | 849 | 960 | 
+YEAR | 1140 | 795 | 967 |  |  |  | 

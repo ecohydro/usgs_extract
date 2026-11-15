@@ -1,0 +1,13 @@
+sample_no: 99
+report (doc_id): 22945   page: 29   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/22945_page_29.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/99.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+: Water level | :Other data Depth below lsd  | Unnamed: 2 | 134.38 | Unnamed: 4 | 156.78 | Unnamed: 6 | 156.38
+Altitude | lsd (feet) of : : |  | 2370 |  | 2370 |  | 2360
+ |  |  | 2.0 |  |  |  | .5
+:Measuring | point (feet) |  |  |  | 1.0 |  | 
+... (15 lines in all; last lines:)
+: : Date | user or Owner : : : of :obse | W. 9 R. , N. 11 T. | 1 -16 -58 4 -21 | -52.0 | 1 -16 -58 7 -30 | -52.0 | Conklin R, and M 1 -16
+Source : | data : of and : other number |  | GS GS 11/9 -13R1 |  | GS GS 14B1 |  | GS 15HL

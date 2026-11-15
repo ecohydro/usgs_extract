@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°28'10\", long. 120°00'30\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - Gila Land Company",
+  "data_type": "Springs",
+  "date_start": "1948-11-24",
+  "date_end": "1950-04-11",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 14,
+  "n_variables": 14,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Faint scan: coordinate digits (34°28'10\", 120°00'30\") and the first dates (Nov. 24, 1948; Jan. 18, 1949) are hard to read. Report's own numbering \"STATION 64\" at top of page. Description: seep in creek bed; altitude about 230 feet. 12 dated rows; discharge printed in second-feet and gallons per minute = one measurement per row (12, counting 1 \"Almost dry\" and 5 \"No flow\" rows as measurements) + 2 temperatures (59, 54) = 14. Time-of-day column not counted."
+ }
+]

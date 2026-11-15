@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/34-9H3",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Davis Canyon",
+  "place_relation": "in",
+  "basin_or_area": "Lompoc upland",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Well 7/34-9H3",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 26,
+  "construction_date": "1948-03-29",
+  "confidence": "sure",
+  "notes": "Driller's log: 13 material rows, each with thickness and depth = 26 numbers; no measured values, so n_measurements 0. Casing numbers in the bracketed heading are not in the table. Text: completed March 29, 1948; wells 7/34-9H3 and 21E1 in Davis Canyon, 1 and 2 miles west of Purisima Canyon. 'County of Santa Barbara' appears only as the contracting agency, so county left blank; state not printed. Some depth digits are blurred in the scan."
+ }
+]

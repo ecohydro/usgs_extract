@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 38°35'20\", long. 120°50'35\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork Cosumnes River near El Dorado, Calif.",
+  "township_range_section": "SW¼ sec. 35, T. 9 N., R. 10 E.",
+  "place_name": "El Dorado",
+  "place_relation": "near",
+  "basin_or_area": "Mokelumne River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork Cosumnes River",
+  "data_type": "Stream Discharge",
+  "date_start": "1948-10",
+  "date_end": "1949-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 65,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary under the daily grid. Other distances on page: 0.8 mile north of Nashville, 2.6 miles upstream from mouth, 6 miles south of El Dorado. Measurements = max, min, mean x 12 months = 36. n_variables adds 12 second-foot-days, 12 runoff cells and 5 cells of the water year 1948-49 row = 65; calendar year row is all dashes (not counted)."
+ }
+]

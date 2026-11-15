@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 34°05'10\", long. 117°06'55\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Mill Creek near Mentone, Calif.",
+  "township_range_section": "SE¼NW¼ sec. 17, T. 1 S., R. 2 W.",
+  "place_name": "Mentone",
+  "place_relation": "near",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Mill Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1939-10",
+  "date_end": "1940-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 262,
+  "n_variables": 262,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid only (the monthly summary below is the page's second table). Counted printed values per month, zeros counted, dashes not: Oct 31, Nov 30, Dec 31, Jan 31, Feb 29, Mar 31, Apr 30, May 17, June 2, July 9, Aug 9, Sept 12 = 262. Dashes stand for discharge less than 0.1 second-foot (note under table). Other location text: at Bear Valley pipe line crossing, a quarter of a mile upstream from Santa Ana River, 1 1/2 miles northeast of Mentone, 5 miles southeast of East Highlands."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "481L1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Mokelumne area",
+  "county": "",
+  "state": "California",
+  "evidence_place": "in table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1928-04-26",
+  "date_end": "1929-04-12",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 5,
+  "n_variables": 10,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled block is only the continuation of well 481L1 at the top of the left column (1928: Apr. 26, May 23, Sept. 25; 1929: Mar. 13, Apr. 12). 5 depth-to-water values counted as measurements; the 5 altitude-of-water-table values are the same water level restated against sea level, counted only in n_variables (if they count as measurements, n_measurements is 10). Owner and well description of 481L1 are not on this page. Basin and state from the running head 'Water resources of Mokelumne area, California'."
+ }
+]

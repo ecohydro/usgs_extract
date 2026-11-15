@@ -1,0 +1,13 @@
+sample_no: 168
+report (doc_id): 3048   page: 232   table on the page: 1 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/3048_page_232.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/168.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 5 columns):
+WSP | Water year | Date | Discharge (cfs) | Gage height (feet)
+721 | 1930 | Mar. 7, 1930 | 2460 | 7.19
+791 | 1935 | Apr. 9, 1935 | 16900 | 18.7
+1041 | 1945 | Feb. 3, 1945 | 44800 | 21.4
+... (4 lines in all; last lines:)
+791 | 1935 | Apr. 9, 1935 | 16900 | 18.7
+1041 | 1945 | Feb. 3, 1945 | 44800 | 21.4

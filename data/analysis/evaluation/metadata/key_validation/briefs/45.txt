@@ -1,0 +1,13 @@
+sample_no: 45
+report (doc_id): 3011   page: 124   table on the page: 2 of 5
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/3011_page_124.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/45.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Alluvium and lake deposits,  | Unnamed: 1 | Unnamed: 2
+Sand and clay mixed with an  | 260 | 260
+Sand, coarse, and pumice | 20 | 280
+Sand, black | 40 | 320
+... (4 lines in all; last lines:)
+Sand, coarse, and pumice | 20 | 280
+Sand, black | 40 | 320

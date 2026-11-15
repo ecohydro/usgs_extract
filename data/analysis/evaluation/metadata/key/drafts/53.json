@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Los Angeles",
+  "place_relation": "at",
+  "basin_or_area": "Torrance-Santa Monica area",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Precipitation",
+  "date_start": "1877-07",
+  "date_end": "1946-06",
+  "temporal_resolution": "annual",
+  "variables": "precipitation",
+  "n_measurements": 69,
+  "n_variables": 207,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 2, Rainfall at Los Angeles, years ending June 30, 1877-78 to 1945-46: 35 rows in the left half, 34 in the right half = 69 yearly rainfall values. 'Surplus or deficiency' (69) and 'Cumulated surplus or deficiency' (69) are computed from the rainfall column, counted only in n_variables (69x3=207). Dates given as years ending June 30 (July 1877 to June 1946). Basin/area taken from the running head and text (station is 'in the vicinity of' that area). No county or state on page; no water body name."
+ }
+]

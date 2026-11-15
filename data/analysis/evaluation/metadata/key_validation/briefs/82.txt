@@ -1,0 +1,13 @@
+sample_no: 82
+report (doc_id): 194   page: 473   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/194_page_473.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/82.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | pH | pH.1 | 8.0 7.4 8.0 8.1 8.1 8.2 | 8.2 8.0 7.7 8.2 7.9 8.0
+ | Specific con- duct- ance (mi | Specific con- duct- ance (mi | 111 81 102 110 107 113 | 99 90 85 118 114 119
+ | So- dium ad- sorp- tion rati | So- dium ad- sorp- tion rati | 0.3 .2 .3 .3 .3 .3 | .3 .2 .3 .3 .3 .3
+ | Hardness CaCO3 as | Non- car- bon- ate | o o 0 o 0 0 | 0 0 0 0 0 0
+... (23 lines in all; last lines:)
+ | Mean discharge (cfs) | Mean discharge (cfs) | 1540 7940 3700 2170 2840 248 | 1540 7940 3700 2170 2840 248
+ | Date of collection | Date of collection | 1963 1964 9, 6 5 9, 6 4 9 7  | 1963 1964 9, 6 5 9, 6 4 9 7 

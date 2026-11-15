@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°30', long. 120°12'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Salt Springs Reservoir near West Point, Calif.",
+  "township_range_section": "SE¼ sec. 33, T. 8 N., R. 16 E.",
+  "place_name": "West Point; Salt Springs Dam",
+  "place_relation": "near; at",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Salt Springs Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1951-09-30",
+  "date_end": "1952-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 26,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "13 month-end rows (Sept. 30, 1951 to Sept. 30, 1952) x elevation and contents = 26 measurements. Change in contents during month (12 values) plus calendar-year and water-year changes (2) treated as summary values computed from the contents column: 14 more in n_variables; rules do not say whether monthly change counts as a measurement. Location text also: at right end of Salt Springs Dam on North Fork Mokelumne River, 2 miles upstream from Cold Creek and 18 miles northeast of West Point. Year of first Sept. 30 row taken from the table title (water year October 1951 to September 1952)."
+ }
+]

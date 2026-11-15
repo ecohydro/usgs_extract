@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 32°33'56\", long 116°46'27\"",
+  "well_number": "",
+  "station_number": "11013000",
+  "station_name": "Tijuana River near Dulzura, Calif.",
+  "township_range_section": "E½ sec.33, T.18 S., R.2 E.",
+  "place_name": "Dulzura",
+  "place_relation": "near",
+  "basin_or_area": "Tijuana River Basin",
+  "county": "San Diego County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Tijuana River",
+  "data_type": "Stream Discharge",
+  "date_start": "1973-10-01",
+  "date_end": "1974-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid complete, month by month 31+30+31+31+28+31+30+31+30+31+31+30 = 365 (zeros in July counted). Summary values: TOTAL, MEAN, MAX, MIN, AC-FT for 12 months = 60, plus 5 for calendar year 1973 and 5 for water year 1974 = 70. Other distances in LOCATION: 0.5 mi downstream from confluence of Cottonwood and Tecate Creeks, 5.5 mi south of Dulzura."
+ }
+]

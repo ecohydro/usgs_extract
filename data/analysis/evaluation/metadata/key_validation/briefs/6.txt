@@ -1,0 +1,13 @@
+sample_no: 6
+report (doc_id): 70038673   page: 379   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/70038673_page_379.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/6.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Contents
+Sept. 30 | 720
+Oct. 31 | 421
+Nov. 30 | 397
+... (14 lines in all; last lines:)
+Aug. 31 | 1200
+Sept. 30 | 660

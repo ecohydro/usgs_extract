@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°29'00\", long. 119°18'30\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Matilija Reservoir at Matilija, Calif.",
+  "township_range_section": "SE¼ sec. 29, T. 5 N., R. 23 W.",
+  "place_name": "Matilija",
+  "place_relation": "at",
+  "basin_or_area": "VENTURA RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Matilija Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1950-09",
+  "date_end": "1951-09",
+  "temporal_resolution": "monthly",
+  "variables": "gage_height;contents",
+  "n_measurements": 23,
+  "n_variables": 37,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Month rows September (1950) through September 1951 = 13. Gage height: 10 values (dashes for July, August, September 1951). Contents: 13 values (three are 'e54', estimated). Measurements = 10 + 13 = 23. 'Change in contents' column treated as summary values computed from the table's own rows: 12 monthly values (October-September, including two printed 0) + Calendar year 1950 (+552) + Water year 1950-51 (-581) = 14; n_variables = 37. Unsure because the rules do not say whether a change-in-contents column is a measurement or a summary (if measurement: n_measurements 35). Dates given to the month as printed (values are for 12 p.m. on last day of month; title says water year October 1950 to September 1951, but the first row is September 1950). No station number printed. No county printed as a location ('Ventura County Water Survey' appears only as the source of levels). Location text also: on upstream face near right end of Matilija Dam, 0.2 mile northwest of Matilija."
+ }
+]

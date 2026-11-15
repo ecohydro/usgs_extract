@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "27S/23E-1R3 M",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Wasco",
+  "place_relation": "about 6 miles west of",
+  "basin_or_area": "San Joaquin Valley",
+  "county": "Kern County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "U.S. Bureau of Reclamation",
+  "data_type": "Groundwater",
+  "date_start": "1966-01-18",
+  "date_end": "1968-12-18",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 35,
+  "n_variables": 35,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "First of four well tables on the page. Counted water levels per column pair: 9+9+9+8 = 35. Other number printed in heading: (27-27-1A-3). County from running head; state not printed. Depth, LSD altitude and extremes are in the heading text, not counted. Drilled observation well but no drilling year printed. Measurements about monthly on given dates: discrete."
+ }
+]

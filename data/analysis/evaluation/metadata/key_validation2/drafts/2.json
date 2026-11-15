@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°53'45\", long 121°12'10\"",
+  "well_number": "",
+  "station_number": "11403500",
+  "station_name": "BUCKS LAKE NEAR BUCKS LODGE, CA",
+  "township_range_section": "NW¼ sec.33, T.24 N., R.7 E.",
+  "place_name": "Bucks Lodge",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Plumas County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Bucks Lake",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 40,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table (elevation in feet, contents in acre-feet): 20 printed pairs, both columns counted = 40. No dates (capacity table). Other location text: in intake tower No. 2 upstream from dam on Bucks Creek, 2 mi northwest of Bucks Lodge, 15 mi west of Quincy; Plumas National Forest."
+ }
+]

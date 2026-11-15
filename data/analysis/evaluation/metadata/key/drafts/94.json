@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 42°58'45\", long 122°04'45\"",
+  "well_number": "",
+  "station_number": "11-4922",
+  "station_name": "Crater Lake near Crater Lake, Oreg.",
+  "township_range_section": "",
+  "place_name": "Crater Lake",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "Klamath County",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Crater Lake",
+  "data_type": "Reservoir",
+  "date_start": "1967-06-30",
+  "date_end": "1967-09-16",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry",
+  "n_measurements": 51,
+  "n_variables": 51,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Samples from a lake: Reservoir. 3 rows (June 30, Aug. 15, Sept. 16, 1967) x 17 filled columns (silica, iron, calcium, magnesium, sodium, potassium, bicarbonate, carbonate, sulfate, chloride, fluoride, nitrate, dissolved solids ppm, hardness, noncarbonate hardness, specific conductance, pH) = 51. Mean discharge, boron, tons columns and sodium adsorption ratio are blank. Other distance on page: gaging station 6 miles northeast of Crater Lake post office. Table title gives water year October 1966 to September 1967; dates are the printed sample dates."
+ }
+]

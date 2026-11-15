@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11473900",
+  "station_name": "MIDDLE FORK EEL RIVER NEAR DOS RIOS, CALIF.",
+  "township_range_section": "",
+  "place_name": "DOS RIOS",
+  "place_relation": "near",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "MIDDLE FORK EEL RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1974-01-01",
+  "date_end": "1974-03-31",
+  "temporal_resolution": "daily",
+  "variables": "discharge;sediment",
+  "n_measurements": 270,
+  "n_variables": 276,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the upper one (January, February, March) of a water year October 1973 to September 1974 table, so the block's own months are used for dates. Three values per day (mean discharge, mean concentration, sediment discharge): January 31x3 = 93, February 28x3 = 84 (days 29-31 are dashes), March 31x3 = 93; total 270. MONTH row: 2 totals per month x 3 = 6 summary values, only in n_variables."
+ }
+]

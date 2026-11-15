@@ -1,0 +1,13 @@
+sample_no: 103
+report (doc_id): 3089   page: 495   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/3089_page_495.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/103.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DAY | OCT. | NOV. | DEC. | JAN. | FEB. | MAR. | APR.
+1 | 74.43 | 74.21 | 74.87 | 74.92 | 75.71 | 75.52 | 75.64
+2 | 74.42 | 74.17 | 74.86 | 74.91 | 75.69 | 75.53 | 75.64
+3 | 74.39 | 74.19 | 74.85 | 74.89 | 75.68 | 75.54 | 75.62
+... (34 lines in all; last lines:)
+MAX | 74.44 | 74.97 | 74.94 | 75.74 | 75.71 | 75.82 | 75.64
+MIN | 74.17 | 74.17 | 74.75 | 74.87 | 75.41 | 75.52 | 75.33

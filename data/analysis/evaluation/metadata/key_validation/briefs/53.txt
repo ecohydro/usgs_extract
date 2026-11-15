@@ -1,0 +1,13 @@
+sample_no: 53
+report (doc_id): 648   page: 343   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/648_page_343.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/53.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Elevation (feet)t | Contents (acre-feet) | Change in contents during mo
+Sept.3 | 3885.4 | 77600 | 
+Oct. 31 | 3846.1 | 50500 | -27100.0
+Nov. 30 | 3802.2 | 27100 | -23400.0
+... (16 lines in all; last lines:)
+Sept 30 | 3918.4 | 104000 | -26400.0
+Water year 1951 -52 | - | - | 26400.0

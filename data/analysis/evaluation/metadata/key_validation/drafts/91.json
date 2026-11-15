@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4/25-34F2",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "T. H. Canfield",
+  "data_type": "Groundwater",
+  "date_start": "1952-01-30",
+  "date_end": "1952-12-30",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Last well block on the page (4/25-34F2, T. H. Canfield). 12 dated water levels, one per month (3 rows x 4 date/level pairs). Year 1952 is not in the table; taken from the page header 'WATER LEVELS AND ARTESIAN PRESSURES, 1952, SOUTHWESTERN STATES' (heading says records available 1949-52). No state, county, basin or place printed for this well; 'Santa Barbara formation' is a geologic unit, not entered as a place. Well description numbers in the heading (diameter 12 inches, depth 563 feet, cased to 563, perforations 83-563, land-surface datum 154.1 feet) are outside the table and not counted in n_variables. No year drilled printed. Measurements are about once a month on given dates: entered as discrete."
+ }
+]

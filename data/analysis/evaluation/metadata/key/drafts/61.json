@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11059100",
+  "station_name": "SAN BERNARDINO WATER QUALITY CONTROL PLANT AT SAN BERNARDINO, CA",
+  "township_range_section": "",
+  "place_name": "SAN BERNARDINO",
+  "place_relation": "AT",
+  "basin_or_area": "SANTA ANA RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "SAN BERNARDINO WATER QUALITY CONTROL PLANT",
+  "data_type": "Water Quality",
+  "date_start": "1975-10-01",
+  "date_end": "1976-01-31",
+  "temporal_resolution": "daily",
+  "variables": "water_chemistry",
+  "n_measurements": 369,
+  "n_variables": 381,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled table is the upper block only (October to January) of the specific conductance table for water year October 1975 to September 1976; dates are the block's own months. Counted daily MAX, MIN and MEAN cells: Oct 31x3=93, Nov 30x3=90 (day 31 dashes), Dec 31x3=93, Jan 31x3=93 = 369. MONTH row (12 values) is summary: n_variables 381. Page does not say what kind of water the plant site is on (no water body named), so data_type Water Quality; unsure for that reason and because daily max/min/mean were all counted as measurements."
+ }
+]

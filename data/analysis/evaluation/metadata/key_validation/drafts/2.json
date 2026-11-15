@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 32°34'30\", long 116°45'10\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Cottonwood Creek above Tecate Creek, near Dulzura, Calif.",
+  "township_range_section": "SW¼ sec. 26, T. 18 S., R. 2 E.",
+  "place_name": "Tecate Creek; Dulzura",
+  "place_relation": "above; near",
+  "basin_or_area": "Tia Juana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Cottonwood Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1936-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 168,
+  "n_variables": 182,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 'Monthly and yearly mean discharge, in cubic feet per second', water years 1937-1950. Counted row by row: 14 water years x 12 months, every cell printed (zeros included) = 168; 'The year' column = 14 summary values. Station heading is numbered '5.' (report's own number, not a USGS station number). Location paragraph also gives: 0.8 mile upstream from confluence with Tecate Creek and 5.1 miles south of Dulzura. No county printed. Some values marked * Revised."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 140
+report (doc_id): 1627   page: 580   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/1627_page_580.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/140.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 15 columns):
+DAY | OCT. | NOV. | DEC. | JAN. | FEB. | Unnamed: 6 | MAR.
+1 | 3.0 | 2.5 | 20.0 | 3.9 | 6.1 |  | 6.1
+2 | 3.0 | 2.1 | 12.0 | 3.9 | 12 |  | 6.1
+3 | 3.0 | 2.1 | 7.3 | 3.4 | 11 |  | 6.1
+... (39 lines in all; last lines:)
+CAL YR | 1960: TOTAL | 7199.8 |  | MEAN 19.7 | MAX | 300.0 | 
+WAT YR | 1961: TOTAL | 2254.4 |  | MEAN 6.18 | MAX | 30.0 | 

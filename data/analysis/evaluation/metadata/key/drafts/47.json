@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°29'08\", long 119°18'25\"",
+  "well_number": "",
+  "station_number": "11115000",
+  "station_name": "Matilija Reservoir at Matilija Hot Springs, Calif.",
+  "township_range_section": "NE¼NW¼SE¼ sec.29, T.5 N., R.23 W.",
+  "place_name": "Matilija Hot Springs",
+  "place_relation": "at",
+  "basin_or_area": "Ventura River Basin",
+  "county": "Ventura",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Matilija Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1971-10-31",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 24,
+  "n_variables": 38,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second table on the page (water year October 1971 to September 1972). Month-end values: 12 elevations + 12 contents = 24 measurements. Summary values: 12 changes in contents, calendar-year 1971 change, water-year 1972 change = 14. Other distances in the location text: on left end of dam 0.2 mile east of Matilija Hot Springs, 1.8 miles southwest of Wheeler Springs."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 35°30'50\", long 118°54'17\"",
+  "well_number": "",
+  "station_number": "11197800",
+  "station_name": "POSO CREEK NEAR OILDALE, CA",
+  "township_range_section": "SW¼SW¼ sec.6, T.28 S., R.29 E.",
+  "place_name": "Oildale",
+  "place_relation": "near",
+  "basin_or_area": "TULARE LAKE BASIN",
+  "county": "Kern County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Poso Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1976-10-01",
+  "date_end": "1977-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 243,
+  "n_variables": 313,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances on page: 10 mi northeast of Oildale, 12 mi northeast of Bakersfield, on downstream side of highway bridge opposite mouth of Hillvale Canyon. Daily values printed Oct-May only: 31+30+31+31+28+31+30+31 = 243 (zeros counted). Jun-Sep have no printed daily values (blank; only dashes on day 31 of Jun and Sep), counted nothing; water year from title kept for dates. Summary values: 5 foot rows x 12 months = 60 (Jun-Sep printed as 0) + 2 yearly rows x 5 = 10; n_variables = 243 + 70."
+ }
+]

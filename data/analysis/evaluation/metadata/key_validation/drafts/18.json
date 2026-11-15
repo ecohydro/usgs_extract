@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "E",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "resort",
+  "place_relation": "at road corner east of",
+  "basin_or_area": "San Bernardino Valley",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Urbita Hot Springs Co.",
+  "data_type": "Groundwater",
+  "date_start": "1916-06-08",
+  "date_end": "1920-11-01",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 10,
+  "n_variables": 10,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Heading: 'E. Urbita Hot Springs Co., at road corner east of resort, San Bernardino quadrangle.' under 'Records of pressure of water in flowing wells in San Bernardino Valley--Continued'. 'E' is the report's own well letter. Quadrangle (San Bernardino) not given a field; kept here. No county or state printed. Variable is artesian pressure in pounds per square inch; entered as water_level (no 'pressure' in the list; could be 'other'). Count: left column 6 (1916: 2, 1917: 2, 1918: 2) + right column 4 (1919: 2, 1920: 2) = 10."
+ }
+]

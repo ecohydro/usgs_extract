@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 33°40'35\", long. 117°21'30\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Elsinore Lake at Elsinore, Calif.",
+  "township_range_section": "in La Laguna Grant",
+  "place_name": "Elsinore",
+  "place_relation": "at",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "Riverside County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Elsinore Lake",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 16,
+  "n_variables": 16,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table: 8 printed elevation/contents pairs, both columns counted = 16. No dates (capacity table). Location text also says: on northeast shore, at Aloha Beach Club, Elsinore."
+ }
+]

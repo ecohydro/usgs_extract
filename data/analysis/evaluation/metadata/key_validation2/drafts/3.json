@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "9-4060",
+  "station_name": "Virgin River at Virgin, Utah",
+  "township_range_section": "",
+  "place_name": "Virgin",
+  "place_relation": "at",
+  "basin_or_area": "VIRGIN RIVER BASIN",
+  "county": "",
+  "state": "Utah",
+  "evidence_place": "heading before table",
+  "water_source": "Virgin River",
+  "data_type": "Stream Discharge",
+  "date_start": "1963-10",
+  "date_end": "1964-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 352,
+  "n_variables": 422,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Upper table on the page (water year 1964), including its CAL YR / WAT YR lines. Printed daily values per month: Oct 31, Nov 25 (days 10-15 one braced value 120), Dec 24 (days 23-30 one braced value 110), Jan 31, Feb 29, Mar 29 (days 23-25 one braced value 130), Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 352; a braced value counted once. Summary values: 5 foot rows x 12 months = 60 (Dec MIN is printed faint or as a dash, so possibly 59) plus 10 in the two yearly lines. Print is faint, many digits hard to read, but the cells are countable."
+ }
+]

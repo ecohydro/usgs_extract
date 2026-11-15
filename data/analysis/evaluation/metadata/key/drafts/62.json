@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 38°49', long. 121°06'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork American River at Rattlesnake Bridge, Calif.",
+  "township_range_section": "SW¼ sec. 9, T. 11 N., R. 8 E.",
+  "place_name": "Rattlesnake Bridge",
+  "place_relation": "at",
+  "basin_or_area": "AMERICAN RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork American River",
+  "data_type": "Stream Discharge",
+  "date_start": "1949-10-01",
+  "date_end": "1950-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge grid, water year October 1949 to September 1950. Counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365 (Feb. 29-31 and the 31st of 30-day months are dashes). Monthly summary is a separate table, not counted. Location paragraph also says 800 feet downstream from Rattlesnake Bridge, 3 miles downstream from Pilot Creek, and 6 miles south of Auburn. No station number printed."
+ }
+]

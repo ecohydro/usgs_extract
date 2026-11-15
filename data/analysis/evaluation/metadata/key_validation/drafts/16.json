@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "in table",
+  "water_source": "Normal sea water",
+  "data_type": "Water Quality",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "water_chemistry",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 'Changes in properties of sea water through substitution of carbonate for sulphate': 3 rows x 4 columns (primary salinity, secondary salinity, secondary alkalinity, concentration) = 12 printed values. No location, no date on the page for this table (text mentions San Joaquin Valley and Midway syncline, but the table is about sea water in general). Row 1 is an analysis of normal sea water ('see analysis 19, Table 16'); rows 2-3 are calculated hypothetical waters, not measurements, so only 4 of the 12 values are from an actual analysis. Treated as one location (sea water), data type Water Quality; could also be judged Not Water Related (theoretical table). Unsure for that reason."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 34
+report (doc_id): 2749   page: 377   table on the page: 2 of 6
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2749_page_377.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/34.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 3 columns):
+Date | Depth to water (feet) | Altitude of water table (fee
+4635A2 -Con. |  | 
+1926 |  | 
+June 6 | 18.20 | 28.6
+... (48 lines in all; last lines:)
+May 27 | 18.30 | 28.5
+June 20 | 18.00 | 28.8

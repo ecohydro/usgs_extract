@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "41",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Anaheim",
+  "place_relation": "1½ miles south of",
+  "basin_or_area": "valley of southern California",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "J. B. Neff",
+  "data_type": "Groundwater",
+  "date_start": "1898-02-22",
+  "date_end": "1900-12-12",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 44,
+  "n_variables": 44,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Well 41 is the report's own well number. Counted dated rows, each 'Ft. in.' depth = one value: 1898 13, 1899 left column 9, 1899 continued 9, 1900 13 = 44. Also printed: 'Anaheim quadrangle'. State only from the running head and table title ('southern California'). Bench mark offset (50 feet 4 inches) is in the heading, not in the table, so not counted. No construction date printed."
+ }
+]

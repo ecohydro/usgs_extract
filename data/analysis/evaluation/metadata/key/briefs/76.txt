@@ -1,0 +1,13 @@
+sample_no: 76
+report (doc_id): 2060   page: 167   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/2060_page_167.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/76.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Water level | Date.1 | Water level.1 | Date.2 | Water level.2
+1941 |  | 1941 |  | 1941 | 
+Feb. 4 | 69. 1 | June 13 | 1 70. 35 | Nov. 10 | 4 78. 40
+Feb. 26 | 4 74. 69 | June 20 | 4 79. 64 | Nov. 14 | 78. 3
+... (20 lines in all; last lines:)
+June 5 | 4 80. 00 | Oct. 17 | 78. 9 | Mar. 2 | 78. 9
+June 6 | 80. 2 | Oct. 27 | 4 78. 75 | Apr. 2 | 5 78. 6

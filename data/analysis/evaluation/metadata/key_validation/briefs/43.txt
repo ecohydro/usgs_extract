@@ -1,0 +1,13 @@
+sample_no: 43
+report (doc_id): 70038402   page: 292   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/70038402_page_292.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/43.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Time | Gage height | Discharge | Date.1 | Time.1 | Gage height.1 | Discharge.1
+11 -06 | 1515 | 3.06 | 231 | 12 -02 | 1645 | 3.69 | 350
+11 -16 | 245 | 3.51 | 312 | 12 -05 | 1730 | 4.52 | 540
+11 -20 | 2115 | 4.19 | 458 | 1 -21 | 2145 | 7.36 | 1500
+... (4 lines in all; last lines:)
+11 -16 | 245 | 3.51 | 312 | 12 -05 | 1730 | 4.52 | 540
+11 -20 | 2115 | 4.19 | 458 | 1 -21 | 2145 | 7.36 | 1500

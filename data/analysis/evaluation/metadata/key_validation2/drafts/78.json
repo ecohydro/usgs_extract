@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Shasta River near Montague, Calif.",
+  "township_range_section": "N. 1/2 NE. 1/4 sec. 33, T. 45 N., R. 6 W.",
+  "place_name": "Montague",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Shasta River",
+  "data_type": "Stream Discharge",
+  "date_start": "1926-10-01",
+  "date_end": "1927-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the daily grid only (the monthly summary below is table 2). Counted by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 365; no blank days seen. Scan is heavily smudged: section number reads 33 but could be 38; station title partly illegible. Location text also says: at highway bridge 1 1/4 miles southwest of Montague; Little Shasta River enters 1 mile above and Yreka Creek 5 1/2 miles below station."
+ }
+]

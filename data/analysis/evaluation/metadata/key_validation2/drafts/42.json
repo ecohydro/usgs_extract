@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11325500",
+  "station_name": "MOKELUMNE RIVER AT WOODBRIDGE, CA",
+  "township_range_section": "",
+  "place_name": "WOODBRIDGE",
+  "place_relation": "at",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "MOKELUMNE RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-10-17",
+  "date_end": "1978-09-06",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry",
+  "n_measurements": 87,
+  "n_variables": 87,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Both printed blocks (upper: iron to mercury suspended; lower: mercury dissolved to organic carbon) were kept as one digitized table, so both counted. Six sample rows each (Oct 17, Jan 12, Apr 12, Apr 12 A, Jul 06, Sep 06 A). Upper block by row: 9+9+9+4+10+4 = 45; lower block: 10+10+10+1+10+1 = 42. Dashes not counted; '<100', '<99', '<10' and zeros counted. Year of each sample taken from the water-year title (Oct 1977 to Sep 1978)."
+ }
+]

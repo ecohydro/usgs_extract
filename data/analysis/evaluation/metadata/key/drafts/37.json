@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°23'20\", long 120°05'45\"",
+  "well_number": "",
+  "station_number": "10344490",
+  "station_name": "BOCA RESERVOIR AT BOCA, CA",
+  "township_range_section": "NE¼NW¼ sec.28, T.18 N., R.17 E.",
+  "place_name": "Boca",
+  "place_relation": "at",
+  "basin_or_area": "PYRAMID AND WINNEMUCCA LAKES BASIN",
+  "county": "Nevada County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Boca Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 10,
+  "n_variables": 10,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the small capacity table (elevation / contents), not the daily contents grid below it. 5 printed pairs, both columns counted = 10. Capacity table: no dates. Page also says: in control house at Boca Dam on Little Truckee River 1,800 ft upstream from mouth, and 0.5 mi northwest of Boca."
+ }
+]

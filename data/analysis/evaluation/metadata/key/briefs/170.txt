@@ -1,0 +1,13 @@
+sample_no: 170
+report (doc_id): 1136   page: 354   table on the page: 8 of 10
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/1136_page_354.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/170.json
+
+To recognise table 8 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 3 columns):
+1907. | Unnamed: 1 | Unnamed: 2
+February 5. | 25.0 | 61.0
+May 1 | 29.0 | 1.0
+August 21 | 34.0 | 
+... (10 lines in all; last lines:)
+October 20 | 33.0 | 6.0
+December 17 | 27.0 | 3.0

@@ -1,0 +1,13 @@
+sample_no: 144
+report (doc_id): 716   page: 677   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/716_page_677.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/144.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+Day | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1 | 1.1 | 2.5 | 2.8 | 23 | 60 | 40 | 114
+2 | 1.1 | 1.9 | 28 | 20 | 41 | *36 | 71
+3 | 11 | 18 | 2.7 | 17 | 32 | 32 | 54
+... (38 lines in all; last lines:)
+Water | year 1958 | -59: | 1570 |  | Min 0.6 | Mean | 59.8
+Peak discharge (base, 1,100  | Peak discharge (base, 1,100  | Peak discharge (base, 1,100  | Peak discharge (base, 1,100  | Peak discharge (base, 1,100  | Peak discharge (base, 1,100  | Peak discharge (base, 1,100  | Peak discharge (base, 1,100 

@@ -1,0 +1,13 @@
+sample_no: 127
+report (doc_id): 431   page: 187   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/431_page_187.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/127.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 5 columns):
+Month | Discharge in second-feet | Discharge in second-feet | Discharge in second-feet | Run-off in acre-feet
+Month | Run-off in acre-feet | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1
+Maximum | Minimum | Mean |  | 
+1925 |  |  |  | 
+... (10 lines in all; last lines:)
+May 21 -31 | 1, 160 | 137 | 834 | 18, 200
+June 1 -25 | 770 | 3. 1 | 291 | 14400

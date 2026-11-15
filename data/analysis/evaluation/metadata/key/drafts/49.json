@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "72",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Perris",
+  "place_relation": "",
+  "basin_or_area": "southern California",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "Crawford Carter",
+  "data_type": "Groundwater",
+  "date_start": "1907-02-13",
+  "date_end": "1908-12-28",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 6,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Block headed '72. Crawford Carter, Perris.'; 72 is the report's own well number. No relation word printed for Perris. This block has no column headings; 'Depth to water' (Ft. in.) is taken from the other blocks in the same column and the page title 'Variations of water level in wells in southern California'. Two dates in 1907 and four in 1908; each feet-and-inches pair counted as one value."
+ }
+]

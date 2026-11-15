@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4/25-19F4",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Carpinteria",
+  "place_relation": "near",
+  "basin_or_area": "Carpinteria Basin",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "M. F. Lewis",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 7,
+  "n_variables": 7,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "The table gives month and day only (Jan. 28 to Nov. 23); the year of the measurements is not printed on this page (only 'Records available: 1941-53'), so dates are left blank. 7 water levels counted cell by cell (3+2+2). Depth, diameter and datum are in the heading text, not counted. Well number digit typed like 'h' read as 4; owner's first initial faint, read as M. No year drilled given."
+ }
+]

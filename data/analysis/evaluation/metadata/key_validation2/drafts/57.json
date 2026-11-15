@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "31/37-1R1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Cantil Ranch",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "M and R, Cantil Ranch, well 11",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Driller's log, second of four on the page (6 material rows, Topsoil and clay to Hard granite). No measured variable: n_measurements 0; n_variables = 6 thickness + 6 depth values. Well number is typed '31/37-1Rl' (typewriter l for 1). Altitude (about 2,065 feet) and casing details are in the heading text, not in the table, so not counted and well_construction not listed. No date, county or state on the page."
+ }
+]

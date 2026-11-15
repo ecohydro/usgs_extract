@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°28'50\", long. 119°52'50\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - Olaf Hove",
+  "data_type": "Springs",
+  "date_start": "1953-07-21",
+  "date_end": "1954-06-17",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 19,
+  "n_variables": 19,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own numbering: Station 36. 10 dated discharge values (printed in cfs and gpm, counted once) + 9 temperatures (none on June 17) = 19. Altitude (about 600 feet) is in heading text, not counted. Description: seeps in alluvium along creek bed; discharge measured at inflow to reservoir from settling box. No place, county or state printed."
+ }
+]

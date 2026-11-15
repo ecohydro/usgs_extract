@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°08'10\", long 122°04'40\"",
+  "well_number": "",
+  "station_number": "3677",
+  "station_name": "McCloud River above Panther Creek, near McCloud, Calif.",
+  "township_range_section": "SW¼ sec.22, T.38 N., R.2 W.",
+  "place_name": "McCloud",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "McCloud River",
+  "data_type": "Stream Discharge",
+  "date_start": "1958-10",
+  "date_end": "1959-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "units": "feet;cubic feet per second",
+  "n_measurements": 8,
+  "n_variables": 8,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled table is the small rating table (water year 1958-59): 4 gage heights and 4 discharges, counted as 8 values (4 if only discharge counts; rating-table values are curve points, not observations). Dates = water year the rating applies to. Location paragraph also says 900 ft upstream from Panther Creek and 9 miles southeast of McCloud. No county printed."
+ }
+]

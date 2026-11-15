@@ -1,0 +1,13 @@
+sample_no: 17
+report (doc_id): 51831   page: 50   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/51831_page_50.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/17.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Time | Discharge | Discharge | Tempera- ature °F | Remarks
+Date | Time | Tempera- ature °F | Remarks | Unnamed: 4_level_1 | Unnamed: 5_level_1
+Cubic feet per second | Gallons per minute |  |  |  | 
+1953 Sept. 16 Dec. 9 1954 | 8:30 a.m. 12:55 p.m. | No flow | No flow |  | Water tank full. 108 drops p
+... (7 lines in all; last lines:)
+May 18 | 12:50 p.m. |  |  | 61.0 | 42 drops per minute.
+June 10 | 9:10 a.m. | 0.000023 | 0.010 | 60.0 | 

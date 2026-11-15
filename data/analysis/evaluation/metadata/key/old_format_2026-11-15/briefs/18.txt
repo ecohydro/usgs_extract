@@ -1,0 +1,12 @@
+sample_no: 18
+report (doc_id): 56405   page: 398   table on the page: 1 of 2
+page scan: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/56405_page_398.png
+earlier pages of this report: /home/waves/data/usgs_extract/UpdatedDataJan/56405/56405_page_<N>.png (same folder; only pages with tables were scanned, so some numbers are missing)
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/18.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here):
+Unnamed: 0 | TIME | RESER- VOIR STORAGE | TEMPER- ATURE | HARD- NESS (CA.MG) | NON- CAR- BONATE HARD- NESS | Unnamed: 6 | DIS- SOLVED CAL- CIUM (CA)
+DATE |  | (AC-FT) | (DEG C) | (MG/L) | (MG/L) |  | (MG/L)
+NOV |  |  |  |  |  |  | 
+11 MAY | 0430 | 849400 | 2.5 | 56 | 0 |  | 14
+... (24 lines in all)

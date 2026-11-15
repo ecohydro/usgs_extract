@@ -1,0 +1,12 @@
+sample_no: 91
+report (doc_id): 810   page: 92   table on the page: 3 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/810_page_92.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/91.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Jan. | 30 | 133. 80 | Apr. | 28 | 135.69 | July | 31
+Feb. | 26 | 135. 44 | May | 29 | 135. 46 | Aug. | 28
+Mar. | 31 | 135.62 | June | 27 | 135. 84 | Sept. | 30
+... (3 lines in all; last lines:)
+Feb. | 26 | 135. 44 | May | 29 | 135. 46 | Aug. | 28
+Mar. | 31 | 135.62 | June | 27 | 135. 84 | Sept. | 30

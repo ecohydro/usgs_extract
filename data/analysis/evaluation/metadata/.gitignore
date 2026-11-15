@@ -1,0 +1,8 @@
+# sensitive: pages on tribal lands found by the screen (never commit)
+tribal/
+# full run: page texts and model answers for every page, including pages on tribal lands
+full_run/
+# copies of page scans (the originals are on the data share)
+pages/
+pages_validation/
+pages_validation2/

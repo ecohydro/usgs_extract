@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11322300",
+  "station_name": "Camanche Reservoir near Clements, Calif.",
+  "township_range_section": "",
+  "place_name": "Clements",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Camanche Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1966-10-01",
+  "date_end": "1967-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation;evaporation",
+  "n_measurements": 389,
+  "n_variables": 425,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the first table (water year 1967), day rows through the three foot rows; the CAL YR / WTR YR lines below are not in the digitized block and were not counted. Daily contents 365 (months 31,30,31,31,28,31,30,31,30,31,31,30) + 12 end-of-month elevations + 12 monthly evaporation values = 389. Summary values: MAX 12, MIN 12, change in contents 12 = 36. Monthly evaporation in the foot rows was treated as a measured variable like the elevation."
+ }
+]

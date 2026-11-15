@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°52'29\", long 119°08'27\"",
+  "well_number": "",
+  "station_number": "11218500",
+  "station_name": "Kings River below North Fork, near Trimmer, Calif.",
+  "township_range_section": "SW¼NE¼ sec.21, T.12 S., R.26 E.",
+  "place_name": "North Fork; Trimmer",
+  "place_relation": "below; near",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "Fresno County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Kings River",
+  "data_type": "Stream Discharge",
+  "date_start": "1972-10-01",
+  "date_end": "1973-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 463,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. Summary values: 7 foot rows (TOTAL, MEAN, MAX, MIN, AC-FT, MEAN a, AC-FT a) x 12 = 84, plus CAL YR 7 and WTR YR 7 = 98. Other distances printed: 0.8 mile downstream from North Fork, 2.4 miles southwest of Balch Camp, 8.5 miles southeast of Trimmer. 'North Fork' in the name is a stream, entered as the first of two places per the two-places rule."
+ }
+]

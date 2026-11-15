@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11181400",
+  "station_name": "WILDCAT CREEK AT RICHMOND, CALIF.",
+  "township_range_section": "",
+  "place_name": "Richmond",
+  "place_relation": "at",
+  "basin_or_area": "CASTRO CREEK BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Wildcat Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1968-10",
+  "date_end": "1969-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 273,
+  "n_variables": 343,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "First of two tables (water year 1969). Daily cells are blank for October, August and September (only their foot rows print 0), so nothing counted there. Counted by month: Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, Jun 30, Jul 31 = 273. A few zeros are badly printed (e.g. Nov 21) but counted as printed values. Summary values: 5 foot rows x 12 months = 60, plus 5 in each of the two yearly rows = 10. Dates given as the water year in the title; printed daily values run November 1968 to July 1969. Continuation page: no coordinates or county printed."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11105850",
+  "station_name": "ARROYO SIMI NEAR SIMI, CALIF.",
+  "township_range_section": "",
+  "place_name": "SIMI",
+  "place_relation": "NEAR",
+  "basin_or_area": "CALLEGUAS CREEK BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "ARROYO SIMI",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-07-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;sediment",
+  "n_measurements": 276,
+  "n_variables": 282,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the lower block (July-September) only; dates are that block's own. Counted per month, 3 columns (mean discharge, mean concentration, sediment discharge): July 31x3=93, August 31x3=93, September 30x3=90; zeros counted; total 276. n_variables adds the 6 printed monthly totals (discharge and sediment discharge per month). The two year-total lines below are outside the digitized block: not counted. Sediment concentration and sediment discharge were both counted (if tons/day is treated as a restatement, the count is 184)."
+ }
+]

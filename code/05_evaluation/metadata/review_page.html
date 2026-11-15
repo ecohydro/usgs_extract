@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Metadata answer key review</title>
+<style>
+  :root { --bg:#f6f7f8; --panel:#fff; --fg:#1b2530; --muted:#5b6875; --line:#cfd6dd; --accent:#1f6f8b;
+          --ok:#2e7d4f; --warn:#b07a12; --bad:#b8433a; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--fg);
+         display: flex; flex-direction: column; }
+  header { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 8px 14px; background: var(--panel);
+           border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 15px; margin: 0 8px 0 0; }
+  button, select { font: inherit; padding: 4px 10px; border: 1px solid var(--line); border-radius: 6px; background: #fff;
+                   color: var(--fg); cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button.done { background: var(--ok); color: #fff; border-color: var(--ok); }
+  .where { font-weight: 600; }
+  .muted { color: var(--muted); }
+  main { flex: 1; display: flex; min-height: 0; }
+  #scan { flex: 1 1 55%; overflow: auto; background: #3a3f45; position: relative; }
+  #scan img { display: block; transform-origin: top left; }
+  #side { flex: 1 1 45%; min-width: 380px; max-width: 720px; overflow: auto; padding: 12px 14px; }
+  .tools { position: sticky; top: 0; z-index: 2; display: flex; gap: 6px; padding: 6px; background: rgba(58,63,69,.9); }
+  .tools button { padding: 2px 9px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
+  .card h2 { font-size: 14px; margin: 0 0 8px; display: flex; justify-content: space-between; align-items: center; }
+  .grid { display: grid; grid-template-columns: 150px 1fr; gap: 5px 8px; align-items: start; }
+  .grid label { color: var(--muted); padding-top: 4px; }
+  .grid input, .grid textarea, .grid select { width: 100%; font: inherit; padding: 3px 6px; border: 1px solid var(--line);
+        border-radius: 4px; background: #fff; color: var(--fg); }
+  .grid textarea { resize: vertical; min-height: 44px; }
+  .saved { border-color: var(--ok) !important; }
+  .failed { border-color: var(--bad) !important; background: #fdecea !important; }
+  .unsure { border-left: 4px solid var(--warn); }
+  table.prev { border-collapse: collapse; font-size: 12px; }
+  table.prev td { border: 1px solid var(--line); padding: 1px 5px; white-space: nowrap; max-width: 160px; overflow: hidden;
+                  text-overflow: ellipsis; }
+  .prevwrap { overflow-x: auto; }
+  .pill { display: inline-block; padding: 0 8px; border-radius: 999px; font-size: 12px; color: #fff; background: var(--muted); }
+  .pill.ok { background: var(--ok); } .pill.warn { background: var(--warn); }
+  details summary { cursor: pointer; color: var(--muted); }
+  .sub { grid-column: 1 / -1; font-weight: 600; margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--line); }
+  .ro { background: #eef2f5 !important; font-weight: 600; }
+  .hint { font-size: 12px; color: var(--muted); margin: 4px 0 10px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Answer key review</h1>
+  <button id="prev">&larr; Previous</button>
+  <select id="pick"></select>
+  <button id="next">Next &rarr;</button>
+  <span class="where" id="where"></span>
+  <span class="muted" id="progress"></span>
+  <span style="flex:1"></span>
+  <button id="checked">Mark as checked</button>
+</header>
+<main>
+  <div id="scan">
+    <div class="tools">
+      <button id="zin">Zoom +</button><button id="zout">Zoom &minus;</button><button id="fit">Fit width</button>
+      <button id="rot">Turn 90&deg;</button>
+    </div>
+    <img id="img" alt="page scan">
+  </div>
+  <div id="side">
+    <div class="card">
+      <h2>Which table on the page</h2>
+      <div id="which"></div>
+      <div class="hint">First lines of the digitizer's version, only to recognise the table. It may contain reading errors.</div>
+      <div class="prevwrap"><table class="prev" id="preview"></table></div>
+    </div>
+    <div id="sites"></div>
+    <button id="add">Add a location</button>
+    <details style="margin-top:14px"><summary>What the fields mean</summary>
+      <p class="hint">One card per location the table reports data for, from this page only. Copy names, numbers and location words as printed.
+      Blank = the page does not give it. "cannot tell" = it is on the page but cannot be read or decided.
+      Fill every kind of location evidence the page prints; the grey Location and Location type at the top are picked from them
+      automatically (coordinates, then well number, station number, station name, township-range-section, place, basin or area, county, state).
+      Dates are those of the measurements in this table, as fine as printed: 1916, 1916-10 or 1916-10-01.
+      Variables: discharge, runoff, gage_height, contents, elevation, water_level, well_yield, temperature, sediment, water_chemistry,
+      precipitation, evaporation, well_construction, lithology, water_use, irrigated_area, other. Changes save when you leave a field.</p>
+    </details>
+  </div>
+</main>
+<script>
+const FIELDS = [
+  ["location", "Location (chosen)", "ro"],
+  ["location_type", "Location type", "ro"],
+  ["h1", "Location evidence on this page, as printed", "head"],
+  ["coordinates", "Coordinates"],
+  ["well_number", "Well number"],
+  ["station_number", "Station number"],
+  ["station_name", "Station name", "area"],
+  ["township_range_section", "Township, range, section", "area"],
+  ["place_name", "Place or landmark"],
+  ["place_relation", "Relation to place"],
+  ["basin_or_area", "Basin or area"],
+  ["county", "County"],
+  ["state", "State"],
+  ["evidence_place", "Where printed", ["in table", "heading before table", "elsewhere on page"]],
+  ["h2", "What the table records for this location", "head"],
+  ["water_source", "Water source"],
+  ["data_type", "Data type", ["Stream Discharge", "Groundwater", "Reservoir", "Irrigation", "Springs", "Precipitation",
+     "Water Quality", "Not Water Related", "Other", "cannot tell"]],
+  ["date_start", "Start date"],
+  ["date_end", "End date"],
+  ["temporal_resolution", "Temporal resolution", ["daily", "monthly", "annual", "discrete", "no_time_series", "cannot tell"]],
+  ["variables", "Variables", "area"],
+  ["n_measurements", "Number of measurements"],
+  ["n_variables", "All numbers recorded"],
+  ["construction_date", "Construction date (wells)"],
+  ["h3", "Bookkeeping", "head"],
+  ["n_locations_in_table", "Locations in the table"],
+  ["confidence", "Drafter was", ["sure", "unsure"]],
+  ["notes", "Notes", "area"],
+];
+let list = [], cur = null, zoom = 1, turn = 0, data = null;
+const $ = id => document.getElementById(id);
+const post = (path, body) => fetch(path, {method: "POST", headers: {"Content-Type": "application/json"},
+                                           body: JSON.stringify(body)}).then(r => r.json());
+
+async function loadList(keep) {
+  list = await (await fetch("api/list")).json();
+  const drafted = list.filter(s => s.drafted);
+  $("pick").innerHTML = drafted.map(s =>
+    `<option value="${s.sample_no}">${s.checked ? "✓ " : ""}${s.sample_no}: ${s.stratum}</option>`).join("");
+  $("progress").textContent = `${drafted.filter(s => s.checked).length} of ${drafted.length} drafted tables checked (${list.length} in the test set)`;
+  if (!keep && drafted.length) show((drafted.find(s => !s.checked) || drafted[0]).sample_no);
+  else if (cur) $("pick").value = cur;
+}
+
+function applyView() {
+  const img = $("img");
+  const w = img.naturalWidth * zoom, h = img.naturalHeight * zoom;
+  img.style.width = w + "px";
+  const t = ((turn % 360) + 360) % 360;
+  img.style.transform = t === 90 ? `translate(${h}px,0) rotate(90deg)` : t === 180 ? `translate(${w}px,${h}px) rotate(180deg)`
+                      : t === 270 ? `translate(0,${w}px) rotate(270deg)` : "";
+}
+function fitWidth() { const img = $("img"); zoom = ($("scan").clientWidth - 16) / (turn % 180 ? img.naturalHeight : img.naturalWidth); applyView(); }
+
+function control(site, [field, label, kind]) {
+  if (kind === "head") return `<div class="sub">${label}</div>`;
+  const v = site[field] ?? "";
+  const id = `f_${site.location_number}_${field}`;
+  let el;
+  if (kind === "ro") {
+    el = `<input id="${id}" value="${v.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" readonly class="ro">`;
+  } else if (Array.isArray(kind)) {
+    const opts = kind.includes(v) || v === "" ? kind : [v, ...kind];
+    el = `<select id="${id}"><option value=""></option>${opts.map(o => `<option${o === v ? " selected" : ""}>${o}</option>`).join("")}</select>`;
+  } else if (kind === "area") {
+    el = `<textarea id="${id}">${v.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</textarea>`;
+  } else {
+    el = `<input id="${id}" value="${v.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}">`;
+  }
+  return `<label for="${id}">${label}</label>${el}`;
+}
+
+function render() {
+  const s = data.sample;
+  $("where").textContent = `Table ${s.sample_no} of the test set: report ${s.doc_id}, page ${s.page_number}`;
+  $("which").innerHTML = `<b>Table ${s.table_number}</b> on this page, counted top to bottom. Group: ${s.stratum}.`;
+  $("preview").innerHTML = data.preview.map(r => "<tr>" + r.map(c => `<td>${c.replace(/</g, "&lt;")}</td>`).join("") + "</tr>").join("");
+  $("sites").innerHTML = data.sites.map(site => `
+    <div class="card ${site.confidence === "unsure" ? "unsure" : ""}">
+      <h2><span>Location ${site.location_number}${site.confidence === "unsure" ? ' <span class="pill warn">drafter unsure</span>' : ""}</span>
+          ${data.sites.length > 1 ? `<button data-del="${site.location_number}">Remove</button>` : ""}</h2>
+      <div class="grid">${FIELDS.map(f => control(site, f)).join("")}</div>
+    </div>`).join("");
+  for (const site of data.sites) for (const [field, , kind] of FIELDS) {
+    if (kind === "head" || kind === "ro") continue;
+    const el = $(`f_${site.location_number}_${field}`);
+    el.addEventListener("change", async () => {
+      const r = await post("save", {sample_no: cur, location_number: site.location_number, field, value: el.value}).catch(() => ({ok: false}));
+      el.classList.toggle("saved", !!r.ok); el.classList.toggle("failed", !r.ok);
+      if (r.ok) {
+        site[field] = el.value;
+        if ("location" in r) { $(`f_${site.location_number}_location`).value = r.location; $(`f_${site.location_number}_location_type`).value = r.location_type; }
+      }
+    });
+  }
+  document.querySelectorAll("[data-del]").forEach(b => b.onclick = async () => {
+    if (b.dataset.sure) { await post("delete_site", {sample_no: cur, location_number: +b.dataset.del}); show(cur); }
+    else { b.dataset.sure = 1; b.textContent = "Click again to remove"; }
+  });
+  const c = $("checked"); c.textContent = data.checked ? "✓ Checked (click to undo)" : "Mark as checked";
+  c.className = data.checked ? "done" : "primary";
+}
+
+async function show(n) {
+  cur = +n; $("pick").value = cur;
+  data = await (await fetch(`api/sample/${cur}`)).json();
+  const s = data.sample, img = $("img");
+  turn = 0;
+  img.onload = fitWidth;
+  img.src = `pages/${s.doc_id}_page_${s.page_number}.png`;
+  render();
+  $("side").scrollTop = 0; $("scan").scrollTop = 0;
+}
+function step(d) {
+  const drafted = list.filter(s => s.drafted).map(s => s.sample_no);
+  const i = drafted.indexOf(cur) + d;
+  if (i >= 0 && i < drafted.length) show(drafted[i]);
+}
+$("prev").onclick = () => step(-1); $("next").onclick = () => step(1);
+$("pick").onchange = e => show(e.target.value);
+$("zin").onclick = () => { zoom *= 1.25; applyView(); }; $("zout").onclick = () => { zoom /= 1.25; applyView(); };
+$("fit").onclick = fitWidth; $("rot").onclick = () => { turn += 90; fitWidth(); };
+$("add").onclick = async () => { await post("add_site", {sample_no: cur}); show(cur); };
+$("checked").onclick = async () => { await post("checked", {sample_no: cur, checked: !data.checked}); data.checked = !data.checked; render(); loadList(true); };
+loadList(false);
+</script>
+</body>
+</html>

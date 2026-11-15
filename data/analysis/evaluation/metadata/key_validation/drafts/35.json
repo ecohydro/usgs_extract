@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Little Cottonwood Creek near Salt Lake City, Utah",
+  "township_range_section": "",
+  "place_name": "Salt Lake City",
+  "place_relation": "near",
+  "basin_or_area": "JORDAN RIVER BASIN",
+  "county": "",
+  "state": "Utah",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Little Cottonwood Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1898-11",
+  "date_end": "1950-09",
+  "temporal_resolution": "monthly",
+  "variables": "runoff",
+  "n_measurements": 507,
+  "n_variables": 545,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 'Monthly and yearly runoff, in acre-feet'; it has no station name of its own: the name is in the title of the table above it (continued monthly mean discharge table). No station number, coordinates or county on this page. Counted row by row: 1899 7 (Nov-May), 1904 2, 1905 2, 1906 6, 1907 3, 1908 5, 1909 5, 1910 6, 1911 6, 1912 9 (Jan-Sept), 1913-1950 38 years x 12 = 456; total 507 monthly values; dashes not counted. 38 yearly totals (1913-1950) are summary values. Start = November of water year 1899 (1898-11). In the 1911/1912 rows the Apr-Sept values are printed slightly high; read as water year 1912 (count unaffected)."
+ }
+]

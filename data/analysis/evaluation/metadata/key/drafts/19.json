@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11148900",
+  "station_name": "Nacimiento River below Sapaque Creek, near Bryson, Calif.",
+  "township_range_section": "",
+  "place_name": "Sapaque Creek; Bryson",
+  "place_relation": "below; near",
+  "basin_or_area": "Salinas River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Nacimiento River",
+  "data_type": "Stream Discharge",
+  "date_start": "1972-04-01",
+  "date_end": "1972-06-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge; sediment",
+  "units": "CFS; MG/L; TONS/DAY",
+  "n_measurements": 273,
+  "n_variables": 281,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation page: suspended-sediment discharge for April, May, June of water year October 1971 to September 1972, three columns per month (mean discharge, mean concentration, sediment discharge). Count: April 30 days x 3 = 90, May 31 x 3 = 93, June 30 x 3 = 90 (printed zeros counted, '--' on day 31 not) = 273. Summary numbers: 6 in the TOTAL row plus the 2 year totals under the table = 8. Station name has two places (below Sapaque Creek, near Bryson); both entered. No coordinates, township or county on this page."
+ }
+]

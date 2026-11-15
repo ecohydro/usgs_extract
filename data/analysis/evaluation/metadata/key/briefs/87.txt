@@ -1,0 +1,13 @@
+sample_no: 87
+report (doc_id): 1588   page: 245   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/1588_page_245.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/87.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Month | Maximum | Minimum | Mean | Run-off in acre-feet
+October | 172 | 0 | 118 | 7260
+January | 418 | 0 | 125 | 7690
+February | 724 | 0 | 305 | 17500
+... (12 lines in all; last lines:)
+September | 628 | 460 | 543 | 32300
+The year | 936 | 0 | 453 | 32900

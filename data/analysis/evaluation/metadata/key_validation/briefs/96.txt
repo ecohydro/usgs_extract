@@ -1,0 +1,13 @@
+sample_no: 96
+report (doc_id): 56362   page: 235   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/56362_page_235.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/96.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DATE | TIME | INSTAN- TANEOUS DIS- CHARGE  | DIS- SOLVED CAL- CIUM (CA) ( | DIS SOLVED SODIUM (NA) (MG/L | BICAR- BONATE (HC03) (MG/L) | CAR- BONATE (C03) (MG/L) | ALKA- LINITY AS CAC03 (MG/L)
+NOV. 14... JAN. | 1030 | 5.9 | 25 | 25 | 188 | 0 | 154
+09... MAR. | 1345 | 119.0 | 16 | 18 | 90 | 0 | 74
+12... MAY | 1230 | 525.0 | 14 | 12 | 95 | 0 | 78
+... (7 lines in all; last lines:)
+11... SEP. | 1315 | 10.0 | - | 21 | 188 | 0 | 154
+11. | 1130 | 7.7 | 29 | 22 | 208 | 0 | 171

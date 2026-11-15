@@ -1,0 +1,13 @@
+sample_no: 98
+report (doc_id): 3011   page: 67   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/3011_page_67.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/98.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 3 columns):
+Unnamed: 0 | Date | Discharge (cf8)
+Nov. 19, 1954 |  | 15. 6
+Dec. 30, 1954 |  | 17. 7
+Feb. 26, 1955 |  | 17. 6
+... (6 lines in all; last lines:)
+Mar. 31, 1955 |  | 17. 3
+May 25, 1955 |  | 12. 4

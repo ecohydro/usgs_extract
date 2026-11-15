@@ -1,0 +1,13 @@
+sample_no: 71
+report (doc_id): 3564   page: 11   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/3564_page_11.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/71.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Physiographic type and stati | Period of record | Period of record | Precipitation for 1957 -58 | Precipitation for 1957 -58 | Average annual precipitation | Average annual precipitation
+Physiographic type and stati | Unnamed: 1_level_1 | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1 | Unnamed: 6_level_1
+Length (years) | Average annual precipitation | Inches | Departure from average (perc | Inches | Departure from average (perc | 
+Coastal and Plain: |  |  |  |  |  | 
+... (17 lines in all; last lines:)
+Desert: |  |  |  |  |  | 
+Indio U. S. Date Garden | 80 | 3.18 | 4.53 | +42 | 2.54 | -20.0

@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork of Yuba River near Sierra City, Calif.",
+  "township_range_section": "S. ½ sec. 29, T. 20 N., R. 12 E.",
+  "place_name": "Sierra City",
+  "place_relation": "near; 1½ miles west of",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork of Yuba River",
+  "data_type": "Stream Discharge",
+  "date_start": "1928-10-01",
+  "date_end": "1929-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "units": "second-feet",
+  "n_measurements": 264,
+  "n_variables": 264,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Daily grid for 1928-29 (page heading: Surface Water Supply, 1929). Many periods carry one estimated value in a brace covering several days; I counted PRINTED values, a braced value once. By month: Oct 31, Nov 18 (17 daily + one braced 50), Dec 1 (one braced 60 for the month), Jan 16 (15 + braced 55), Feb 19 (braced 80 + 18), Mar 15 (11 + braced 120 + 3), Apr 21 (20 + braced 280), May 21 (braced 550 + 20), June 30, July 31, Aug 31, Sept 30 = 264. If each day covered by a brace is counted the total is 365. Extent of some braces is hard to see on the scan, so the count may be off by a few. LOCATION also says 2½ miles below mouth of South Fork of North Fork of Yuba River. No county, no station number, no coordinates on the page. The monthly table below is table 2, not counted."
+ }
+]

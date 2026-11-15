@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "9N/6W-18N1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Haystack Butte area",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "9N/6W-18N1",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 6,
+  "construction_date": "1973-12",
+  "confidence": "sure",
+  "notes": "Driller's log, third of three on the page: 3 material rows, each with thickness and depth = 6 numbers, none a measured variable, so n_measurements 0. The heading text before the log (altitude 2,818.26 feet, hole diameter, perforated interval, water level 107.06 feet below lsd on 2-25-74) is not in the table and is not counted. Drilled by U.S. Geological Survey; date finished December 1973. Area and state from the running head."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 97
+report (doc_id): 56418   page: 524   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/56418_page_524.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/97.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | Unnamed: 1 | JANUARY | Unnamed: 3 | Unnamed: 4 | FEBRUARY | Unnamed: 6 | Unnamed: 7
+DAY | MEAN DISCHARGE (CFS) | MEAN CONCEN- TRATION (MG/L) | SEDIMENT DISCHARGE (TONS/DAY | MEAN DISCHARGE (CFS) | MEAN CONCEN- TRATION (MG/L) | SEDIMENT DISCHARGE (TONS/DAY | MEAN DISCHARGE (CFS)
+I | 4080 | 305 | 3360 | 2900 | 440 | 3450 | 14500
+2 | 3220 | 220 | 1910 | 2140 | 270 | 1560 | 9020
+... (34 lines in all; last lines:)
+31 | 2410 | 308 | 2360 |  |  |  | 19900
+MONTH | 270640 |  | 3333666 | 66246 |  | 297832 | 236660

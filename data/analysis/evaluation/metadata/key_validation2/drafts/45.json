@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 35°20'14\", long 120°30'08\"",
+  "well_number": "",
+  "station_number": "11-1445",
+  "station_name": "SANTA MARGARITA LAKE NEAR POZO, CALIF.",
+  "township_range_section": "NW¼NW¼ sec.8, T.30 S., R.14 E.",
+  "place_name": "Pozo",
+  "place_relation": "near",
+  "basin_or_area": "SALINAS RIVER BASIN",
+  "county": "San Luis Obispo County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA MARGARITA LAKE",
+  "data_type": "Reservoir",
+  "date_start": "1968-10-01",
+  "date_end": "1969-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation;other",
+  "n_measurements": 429,
+  "n_variables": 469,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "The digitized table covers the capacity table, the daily contents grid and the foot rows, so all are counted. Measurements: capacity table 20 elevation/contents pairs = 40 points; daily contents 365 (Oct 31, Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, Jun 30, Jul 31, Aug 31, Sep 30); row (a) end-of-month elevation 12; row (c) monthly diversion for municipal supply 12 (listed as 'other'; zeros counted) = 429. Summary values: MAX and MIN rows 24, row (b) change in contents 12, CAL YR / WTR YR lines 4 = 40, giving 469. Unsure because the rules do not say how to treat a capacity table and a daily table merged into one, or whether the diversion row is a measurement; resolution given as daily (the capacity part alone would be no_time_series, without dates). Other distances: at left end of dam on Salinas River, 2 miles upstream from Pilitas Creek, 7.5 miles northwest of Pozo. Formerly published as Salinas Reservoir near Pozo."
+ }
+]

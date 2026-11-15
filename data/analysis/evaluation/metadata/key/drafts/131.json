@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°52'55\", long 122°33'05\"",
+  "well_number": "",
+  "station_number": "308",
+  "station_name": "Thomes Creek at Paskenta, Calif.",
+  "township_range_section": "NW¼ sec. 4, T. 23 N., R. 6 W.",
+  "place_name": "Paskenta",
+  "place_relation": "at",
+  "basin_or_area": "Thomes Creek Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Thomes Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1920-10",
+  "date_end": "1945-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 300,
+  "n_variables": 325,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly mean discharge, water years 1921-1945: 25 rows x 12 months = 300, all cells filled (zeros counted); 25 'The year' values are summaries. Number '308.' printed before the station name is entered as station_number (may be the compilation report's own number). No county printed for this station (Tehama County is printed for the Elder Creek station above). Other distances: 0.25 mile upstream from Digger Creek and 0.3 mile upstream from highway bridge at Paskenta. Footnote: prior to 1943 published as Thomas Creek."
+ }
+]

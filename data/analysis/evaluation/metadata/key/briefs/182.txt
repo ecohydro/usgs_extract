@@ -1,0 +1,13 @@
+sample_no: 182
+report (doc_id): 56502   page: 324   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/56502_page_324.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/182.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 11 columns):
+DATE | TIME | INSTAN- TANEOUS DIS- CHARGE  | SPE- CIFIC CON- DUCT- ANCE ( | PH (UNITS) | TEMPER- ATURE (DEG C) | TUR- BID- ITY (JTU) | DIS- SOLVED OXYGEN (MG/L)
+OCT 06 A NOV | 0940 | 5.4 | 260 | 8.0 | 18.0 | 0 | 8.6
+09 A | 1410 | 3.7 | 270 | 8.1 | 13.0 | 1 | 10.6
+DEC 08 A | 1115 | 8.2 | 295 | 8.0 | 5.0 | 0 | 12.5
+... (26 lines in all; last lines:)
+AUG 02 | 11 | 31 | 9.7 | 15 | 21 | .6 | 1.7
+SEP 21 | 30 |  | -- | 16 |  | .6 | 

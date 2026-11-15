@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Carpinteria, Goleta, and Santa Ynez Valleys",
+  "county": "",
+  "state": "",
+  "evidence_place": "elsewhere on page",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1938-03-28",
+  "date_end": "1938-12-23",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 14,
+  "n_variables": 14,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation block ('Water levels, in feet above sea-level datum of 1929, in 1932-38--Continued'); the well number and description are on an earlier page, so well_number, place and water_source are blank. Only area evidence is the running head. No state or county printed. Count: 5 + 5 + 4 water levels in the three column pairs (all 1938). Footnote on last value: measurements discontinued."
+ }
+]

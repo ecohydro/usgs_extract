@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11475560",
+  "station_name": "ELDER CREEK NEAR BRANSCOMB, CALIF.",
+  "township_range_section": "",
+  "place_name": "BRANSCOMB",
+  "place_relation": "NEAR",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "ELDER CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-05-25",
+  "date_end": "1971-05-25",
+  "temporal_resolution": "discrete",
+  "variables": "temperature;discharge;sediment",
+  "n_measurements": 12,
+  "n_variables": 13,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Particle-size distribution of surface bed material, one sample (MAY 25, water year October 1970 to September 1971, so 1971); both printed blocks (sieves .125-.500 mm and 1.00-64.0 mm) are the one digitized table. Counted: temperature 1, discharge 1, percent finer for 10 sieve sizes = 12 measurements; number of sampling points (3) added in n_variables = 13. Time column not counted. No coordinates, county or township on this page (continuation page)."
+ }
+]

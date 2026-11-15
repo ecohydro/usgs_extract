@@ -1,0 +1,13 @@
+sample_no: 177
+report (doc_id): 39449   page: 92   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/39449_page_92.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/177.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 19 columns):
+Grade W Q n, p. e | Unnamed: 1 | (B) .23 .093 .49 3.3 | Unnamed: 3 | (B) .23 .182 .49 | (B) .23 .182 .49.1 | (B) .23 .182 .49.2 | (B) .44 .093 [.44] 5.5
+S | d | Vm | R | d | Vm | R | d
+0.4 |  |  |  |  |  |  | 
+.6 |  |  |  |  |  |  | 0.128
+... (60 lines in all; last lines:)
+1.6 |  |  |  |  |  |  | 
+-1.8 |  |  |  |  |  |  | 

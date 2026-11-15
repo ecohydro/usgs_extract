@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°50'25\", long. 120°10'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Sisquoc River near Sisquoc, Calif.",
+  "township_range_section": "sec. 20, T. 9 N., R. 31 W.",
+  "place_name": "Sisquoc",
+  "place_relation": "near",
+  "basin_or_area": "Santa Maria River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sisquoc River",
+  "data_type": "Stream Discharge",
+  "date_start": "1952-10-01",
+  "date_end": "1953-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 409,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid, every day of water year 1952-53 has a printed value: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. Summary values: Total/Mean/Ac-ft rows 3x12 = 36, calendar-year and water-year lines 4 each = 8; n_variables = 365+44. Dates given to the day because the table is daily (water year Oct 1952 to Sept 1953). Location paragraph also says: on left bank 2.2 miles upstream from La Brea Creek and 7 miles east of Sisquoc. No county and no station number printed."
+ }
+]

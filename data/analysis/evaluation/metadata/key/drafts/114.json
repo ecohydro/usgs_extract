@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "1S/5-29A1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Citizens Land and Water Company, Slover Well 2",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 55,
+  "construction_date": "1926",
+  "confidence": "sure",
+  "notes": "Driller's log. Heading also gives another number '(D-1068)'. Well name digit is poorly printed ('Slover Well 2', could be read '?'). No place, county or state on the page. No measured variables in the table; n_variables = 27 thickness values + 28 depth values (28 rows; 'Pit' row has depth only). Altitude and casing diameter are in the heading, not counted."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°11'00\", long 118°07'40\"",
+  "well_number": "",
+  "station_number": "1882",
+  "station_name": "South Fork Kern River near Olancha, Calif.",
+  "township_range_section": "NW¼SW¼ sec.18, T.20 S., R.36 E.",
+  "place_name": "Olancha",
+  "place_relation": "near",
+  "basin_or_area": "Buena Vista Lake Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Fork Kern River",
+  "data_type": "Stream Discharge",
+  "date_start": "1956-10",
+  "date_end": "1960-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 48,
+  "n_variables": 52,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly mean discharge, water years 1957-1960: 4 rows x 12 months = 48; 4 'The year' values are summaries. Other distances: 50 ft upstream from small unnamed left bank tributary, 2.0 miles downstream from Snake Creek, 9.7 miles southwest of Olancha. No county printed."
+ }
+]

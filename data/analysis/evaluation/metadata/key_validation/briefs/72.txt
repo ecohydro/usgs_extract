@@ -1,0 +1,13 @@
+sample_no: 72
+report (doc_id): 1257   page: 139   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/1257_page_139.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/72.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+sample of water Description | Remarks | Clear. Do. | Brown. | Clear. | Brown. | pumping Muddy, sand. | Milky.
+sample of water Description | Unnamed: 1_level_1 | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1 | Unnamed: 6_level_1 | Unnamed: 7_level_1
+sample of water Description | Unnamed: 1_level_2 | Unnamed: 2_level_2 | Unnamed: 3_level_2 | Unnamed: 4_level_2 | Unnamed: 5_level_2 | Unnamed: 6_level_2 | Unnamed: 7_level_2
+sample of water Description | Unnamed: 1_level_3 | Unnamed: 2_level_3 | Unnamed: 3_level_3 | Unnamed: 4_level_3 | Unnamed: 5_level_3 | Unnamed: 6_level_3 | Unnamed: 7_level_3
+... (21 lines in all; last lines:)
+ | former No. or source of powe | 1353 1353 | 9172 | 8839 | 9096 | 9148 | 9211
+ | No. Well | 18/19 -8K3 8Q1 | 8M1 | 19N1 | 20M1 | 21NI | 21H1

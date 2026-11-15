@@ -1,0 +1,13 @@
+sample_no: 60
+report (doc_id): 56419   page: 75   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/56419_page_75.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/60.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DAY | OCT | NOV | DEC | JAN | Unnamed: 5 | FEB | Unnamed: 7
+1 | 3.7 | 3.8 | 9.9 | 6.3 |  | 5.4 | 
+2 | 3.6 | 3.8 | 7.1 | 6.2 |  | 5.1 | 
+3 | 3.8 | 3.7 | 6.2 | 6.2 |  | 5.1 | 
+... (38 lines in all; last lines:)
+AC-FT | 231.0 | 457 | 453 | 493.0 |  | 308.0 | 
+CAL YR 1970 TOTAL 2, 55.6 YR | 1971.0 | TOTAL 2,025.7 | MEAN 5.63 MEAN 5.55 |  | MAX 93 MAX 93 |  | MIN 2.8 MIN 2.6

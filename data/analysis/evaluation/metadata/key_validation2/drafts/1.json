@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Santa Ysabel Creek near Escondido, Calif.",
+  "township_range_section": "",
+  "place_name": "Escondido",
+  "place_relation": "near",
+  "basin_or_area": "San Dieguito River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ysabel Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1911-04-11",
+  "date_end": "1911-07-06",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 87,
+  "n_variables": 87,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the lower block headed 1911 (two half-month panels side by side). Counted per month: Apr 20 (days 11-30), May 31, June 30, July 6 (days 1-6). Title covers both blocks on the page (1907-1912, Continued); dates are those of the 1911 block only. Basin from running head."
+ }
+]

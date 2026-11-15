@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°24', long 120°55'",
+  "well_number": "",
+  "station_number": "3485",
+  "station_name": "Pit River near Canby, Calif.",
+  "township_range_section": "SW¼ sec.10, T.41 N., R.9 E.",
+  "place_name": "Canby",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Pit River",
+  "data_type": "Stream Discharge",
+  "date_start": "1959-10-01",
+  "date_end": "1960-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 366,
+  "n_variables": 410,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 2 = daily discharge grid, water year October 1959 to September 1960 (the rating tables above it are table 1). Counted by month: 31+30+31+31+29+31+30+31+30+31+31+30 = 366 (Feb. 29 printed; no blank days seen). Summary values: Total, Mean, Ac-ft rows 12 each = 36, plus calendar-year line 4 and water-year line 4 = 44. No county printed. Other location words: on right bank at lower end of Warm Spring Valley, 4 miles southwest of Canby."
+ }
+]

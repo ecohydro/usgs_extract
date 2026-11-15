@@ -1,0 +1,13 @@
+sample_no: 123
+report (doc_id): 22374   page: 160   table on the page: 2 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/22374_page_160.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/123.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+Apr. | 25, 1946 125.35 | May | 5, 1950 126.80 | Nov. | 16, | 1954 | c135.00
+Jan. | 14, 1948 125.60 | Nov. | 7 b127.25 | Apr. | 5 | 1956.0 | 137.90
+May | 13 125.70 | Nov. | 27, 1951 128.39 | Dec. | 18 |  | c140.45
+Nov. | 19 125.81 | Dec. | 4, 1952 130.47 | Apr. | 30 | 1957.0 | c141.74
+... (6 lines in all; last lines:)
+May | 11, 1949 126.00 | May | 23, 1953 131.37 | May | 15 |  | 142.04
+Nov. | 15 126.39 |  | 27 131.37 | Nov. | 5 |  | 145.38

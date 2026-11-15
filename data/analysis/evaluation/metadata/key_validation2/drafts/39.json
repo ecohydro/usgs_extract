@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Sacramento River near Red Bluff, Calif.",
+  "township_range_section": "lot 4, sec. 34, T. 28 N., R. 3 W.",
+  "place_name": "Red Bluff",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sacramento River",
+  "data_type": "Stream Discharge",
+  "date_start": "1930-10",
+  "date_end": "1931-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 52,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary under the daily grid. Measurements: maximum, minimum, mean for 12 months = 36. Summary values: run-off in acre-feet 12 + 'The year' row 4 = 16. Location text also: at lower end of Iron Canyon, 4 miles northeast of Red Bluff. No station number, county or basin heading printed."
+ }
+]

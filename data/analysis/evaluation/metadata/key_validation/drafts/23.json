@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°31'30\", long. 120°03'20\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - MRS. FLORENCE BROWN",
+  "data_type": "Springs",
+  "date_start": "1948-11-08",
+  "date_end": "1950-04-21",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 7,
+  "n_variables": 7,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: STATION 78 (not a USGS station number). Seven dated visits; discharge printed in second-feet and gals. per min. counted once each: 5 values (Nov. 8, 1948; Jan. 28 and May 25, 1949; Mar. 10 and Apr. 21, 1950); Sept. 14 and Dec. 29, 1949 say 'No meast.' and are not counted. Temperature 2 values (85, 60). Total 7. Times of day not counted. Altitude (about 1,800 feet) is in the text above the table, not in the table. Page gives no place name, county or state; description: stone-curbed pool west side of creek."
+ }
+]

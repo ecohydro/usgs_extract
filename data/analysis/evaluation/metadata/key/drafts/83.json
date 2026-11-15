@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°42', long. 121°34'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "West Branch Feather River near Yankee Hill, Calif.",
+  "township_range_section": "in SW¼ sec. 5, T. 21 N., R. 4 E.",
+  "place_name": "Yankee Hill",
+  "place_relation": "near",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "West Branch Feather River",
+  "data_type": "Stream Discharge",
+  "date_start": "1947-10-01",
+  "date_end": "1948-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 366,
+  "n_variables": 436,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Digitized table 2 covers the daily grid and the monthly summary block below it. Daily values counted by month 31+30+31+31+29+31+30+31+30+31+31+30 = 366 (Feb. has 29 days). The monthly block (12 months x 5 columns = 60) and the calendar-year and water-year rows (2 x 5 = 10) are computed from the daily rows of the same table, so they are summary values, only in n_variables. Runoff appears only in summary rows, not listed. Also printed: at highway bridge, 1.4 miles downstream from Concow Creek and 2 miles west of Yankee Hill."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 42°24'20\", long 122°16'05\"",
+  "well_number": "",
+  "station_number": "5050",
+  "station_name": "Cascade Canal near Fish Lake, Oreg.",
+  "township_range_section": "SE¼ sec.30, T.36 S., R.5 E.",
+  "place_name": "Fish Lake",
+  "place_relation": "near",
+  "basin_or_area": "KLAMATH RIVER BASIN",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Cascade Canal",
+  "data_type": "Irrigation",
+  "date_start": "1958-10-01",
+  "date_end": "1959-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 175,
+  "n_variables": 199,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Daily values counted by month: Oct 31; Nov-Apr no daily values printed (blank columns); May 22 (one braced value 'a2' for days 1-10 counted once, plus days 11-31 = 21); June 30; July 31; Aug 31; Sept 30. Total 175. Summary values (Total, Mean, Ac-ft rows): 3 each for Oct, Nov, Dec (zeros printed for Nov and Dec), May, June, July, Aug, Sept = 24; Jan-Apr are dashes; Calendar year / Water year lines have no values. n_variables = 175 + 24 = 199. Unsure is about data_type only: the site is a canal diverting water (gauge inspected by Medford Irrigation District; 'irrigation seasons only'), so Irrigation was chosen over Stream Discharge; the rules do not say which a canal gauge is. Location text also: on left bank at divide between Rogue River and Klamath River basins, 3 miles upstream from Fish Lake and 8.5 miles downstream from point of diversion. Canal diverts from Fourmile Creek. No county printed."
+ }
+]

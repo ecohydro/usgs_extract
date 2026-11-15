@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°30', long 120°29'",
+  "well_number": "",
+  "station_number": "3435",
+  "station_name": "North Fork Pit River near Alturas, Calif.",
+  "township_range_section": "NE¼ sec.8, T.42 N., R.13 E.",
+  "place_name": "Alturas",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork Pit River",
+  "data_type": "Stream Discharge",
+  "date_start": "1957-10-01",
+  "date_end": "1958-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 405,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge grid, water year October 1957 to September 1958. Counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365 (Feb. 29 printed as a dash, not counted). Summary values: Total, Mean, Ac-ft for 12 months (36) + water year Max, Min, Mean, Ac-ft (4) = 40; calendar year 1957 line has only dashes. Also printed: on right bank 1.5 miles downstream from Parker Creek, 3 miles northeast of Alturas, and 4 miles upstream from mouth. No county printed."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 21
+report (doc_id): 2809   page: 590   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2809_page_590.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/21.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+Date | Water level | Date.1 | Water level.1 | Date.2 | Water level.2
+8/1W -28R1 -Continued | 8/1W -28R1 -Continued | 8/1W -28R1 -Continued | 8/1W -28R1 -Continued | 8/1W -28R1 -Continued | 
+Aug. 12, 1949 | 1 49.03 | May 1, 1950 | 37.97 | Feb. 5, 1951 | 36.75
+Aug. 19, 1949 | 48.65 | May 8, 1950 | 39. | Feb. 12, 1951 | 36.46
+... (38 lines in all; last lines:)
+Apr. 17, 1950 | 37.67 | Jan. 29, 1951 | 36.86 | Nov. 12, 1951 | 50.81
+Apr. 24, 1950 | 37.93 |  |  |  | 

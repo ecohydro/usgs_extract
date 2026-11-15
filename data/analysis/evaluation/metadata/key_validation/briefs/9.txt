@@ -1,0 +1,13 @@
+sample_no: 9
+report (doc_id): 52982   page: 118   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/52982_page_118.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/9.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DATE | DATE.1 | DISCHARGE TEMP | DISCHARGE TEMP.1 | DISCHARGE TEMP.2
+ | : | Second-feet | : Gals. per min. | : °F
+May 27, 1949 | (12:35 p.m. : | 0.0021 | : 0.94 | :
+June 22, | (11:20 a.m. : | .0016 | : .71 | :
+... (14 lines in all; last lines:)
+Mar. 23 | (10:05 a.m. : | .0020 | : .88 | : 60
+Apr. 21 | (11:00 a.m.) : | .0013 : | .58 | : 60

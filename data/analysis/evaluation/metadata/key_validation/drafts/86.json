@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-4075",
+  "station_name": "South Honcut Creek near Bangor, Calif.",
+  "township_range_section": "",
+  "place_name": "Bangor",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Honcut Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1964-10-01",
+  "date_end": "1965-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second daily grid on the page (water year October 1964 to September 1965). Counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365, no blank cells. Summary values: TOTAL, MEAN, MAX, MIN, AC-FT for 12 months (60) plus 5 each on the CAL YR 1964 and WAT YR 1965 lines (10). Continuation page: no coordinates, county or location paragraph printed."
+ }
+]

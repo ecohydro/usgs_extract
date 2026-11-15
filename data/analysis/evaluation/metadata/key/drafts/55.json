@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°24', long 118°57'",
+  "well_number": "",
+  "station_number": "2105",
+  "station_name": "Kaweah River near Three Rivers, Calif.",
+  "township_range_section": "SW¼ sec.33, T.17 S., R.28 E.",
+  "place_name": "Three Rivers",
+  "place_relation": "near",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Kaweah River",
+  "data_type": "Stream Discharge",
+  "date_start": "1904-03-23",
+  "date_end": "1956-05-23",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 160,
+  "n_variables": 160,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Peak stages and discharges (annual peaks to 1946, peaks above base after). Left half: water years 1904-1946, 43 rows, each with gage height and discharge (1907 has two dates but one value pair) = 86. Right half: 44 dated rows (1947:2, 1948:5, 1949:2, 1950:5, 1951:5, 1952:9, 1953:3, 1954:3, 1955:4, 1956:6); discharge printed for 42 (two rows of Dec. 1950 show '(a)' = unknown, exceeded base, not counted); gage height printed for 32 (12 dashes) = 74. Total 85 discharges + 75 gage heights = 160. Other distances on page: on left bank 2.5 miles downstream from South Fork and 3 miles southwest of Three Rivers Post Office. Drainage area and datum are in the heading, not counted. County not printed."
+ }
+]

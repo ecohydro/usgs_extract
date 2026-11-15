@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°29'37\", long 120°17'18\"",
+  "well_number": "",
+  "station_number": "11-3160",
+  "station_name": "Bear River near Salt Springs Dam, Calif.",
+  "township_range_section": "NW¼ sec.2, T.7 N., R.15 E.",
+  "place_name": "Salt Springs Dam",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bear River",
+  "data_type": "Stream Discharge",
+  "date_start": "1960-10-01",
+  "date_end": "1961-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 2 = daily discharge grid (table 1 is the extremes table). Counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365, no blanks seen; some digits in AUG and SEPT are faint. Summary: 5 foot rows x 12 = 60, plus CAL YR 1960 and WAT YR 1961 lines 5 each = 10. Other location text: on right bank 200 ft upstream from diversion to Tiger Creek powerhouse conduit and highway bridge, 1.5 miles upstream from mouth, and 4 miles west of Salt Springs Dam. No county printed."
+ }
+]

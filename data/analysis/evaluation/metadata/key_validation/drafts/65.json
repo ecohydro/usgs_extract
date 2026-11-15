@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°59', long 108°27'",
+  "well_number": "",
+  "station_number": "9-1525",
+  "station_name": "GUNNISON RIVER NEAR GRAND JUNCTION, COLO.",
+  "township_range_section": "",
+  "place_name": "Grand Junction",
+  "place_relation": "near",
+  "basin_or_area": "GUNNISON RIVER BASIN",
+  "county": "Mesa County",
+  "state": "COLO.",
+  "evidence_place": "heading before table",
+  "water_source": "Gunnison River",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10-01",
+  "date_end": "1966-05-23",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;water_chemistry",
+  "n_measurements": 266,
+  "n_variables": 266,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Rotated page. 19 sample rows (5+5+5+4), each a composite over a printed span of days (Oct. 1-13, 1965 ... May 13-23). 14 columns hold values in every row: mean discharge, sodium, bicarbonate, carbonate, sulfate, chloride, dissolved solids (ppm, tons per acre-foot, tons per day), hardness (calcium-magnesium, noncarbonate), sodium adsorption ratio, specific conductance, pH; 14 x 19 = 266. Silica, iron, calcium, magnesium, potassium, fluoride, nitrate, boron columns are empty. All 14 columns counted as measurements; the rules do not say whether computed columns (tons per acre-foot, tons per day, hardness, sodium adsorption ratio = 76 values) are measurements or summaries. Title says water year October 1965 to September 1966 but the rows on this page end in May; dates are the first and last printed sample dates, year 1966 for May taken from the 'Jan. 1-31, 1966' row. Composite periods called discrete; rules do not cover composites. Location text also gives: at gaging station at bridge on State Highway 141, 0.4 mile downstream from Whitewater Creek, 0.5 mile south of Whitewater, and 8 miles southeast of Grand Junction. '(Irrigation network station)' printed under the name."
+ }
+]

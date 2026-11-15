@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "10N/35W-25M1 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Betteravia",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Union Sugar Company",
+  "data_type": "Groundwater",
+  "date_start": "1966-09-15",
+  "date_end": "1968-10-09",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 3,
+  "n_variables": 3,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second table on the page (well 10N/35W-25M1 S). 5 dates printed; 3 have a water level (76.60, 67.55, 78.78), 2 show the letter N (no value) and are not counted. Depth, diameter, perforated intervals and LSD altitude are in the heading text, not counted. No drilling year printed. No county or state on the page."
+ }
+]

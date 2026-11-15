@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 34°13'20\", long 118°10'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Arroyo Seco near Pasadena, Calif.",
+  "township_range_section": "near north line of sec. 31, T. 2 N., R. 12 W.",
+  "place_name": "Pasadena",
+  "place_relation": "near",
+  "basin_or_area": "Los Angeles River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Arroyo Seco",
+  "data_type": "Stream Discharge",
+  "date_start": "1935-10",
+  "date_end": "1936-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary under the daily grid. Measurements: maximum, minimum, mean for 12 months = 36. Summary values: second-foot-days and run-off in acre-feet for 12 months = 24, calendar year 1935 row 5, water year 1935-36 row 5. Location text also gives: 1½ miles above mouth of Millard Canyon and 5½ miles northwest of Pasadena. No station number or county printed."
+ }
+]

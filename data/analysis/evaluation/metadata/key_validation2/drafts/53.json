@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°49'55\", long 119°19'25\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Pine Flat Reservoir near Piedra, Calif.",
+  "township_range_section": "NE¼ sec. 2, T. 13 S., R. 24 E.",
+  "place_name": "Piedra",
+  "place_relation": "near",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Pine Flat Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1956-10-01",
+  "date_end": "1957-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation",
+  "n_measurements": 377,
+  "n_variables": 389,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily total contents, water year October 1956 to September 1957: all days filled (31+30+31+31+28+31+30+31+30+31+31+30 = 365; Feb. 29 is a dash) plus 12 end-of-month elevations in the foot row = 377. The 12 monthly change-in-contents values are summary values (n_variables 389). Calendar-year and water-year change lines below the grid are outside the digitized table and not counted. No station number printed. Location text: near center of Pine Flat Dam on Kings River, 1.9 miles upstream from Mill Creek, 3.5 miles northeast of Piedra, 16 miles northeast of Sanger. The capacity table above is a different table."
+ }
+]

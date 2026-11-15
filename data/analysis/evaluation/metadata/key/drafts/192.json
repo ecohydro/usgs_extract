@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 32°43', long. 109°06'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Black-McClesky Canal at Duncan, Ariz.",
+  "township_range_section": "NE¼SE¼ sec. 19, T. 8 S., R. 32 E.",
+  "place_name": "Duncan",
+  "place_relation": "at",
+  "basin_or_area": "Gila River Basin",
+  "county": "",
+  "state": "Ariz.",
+  "evidence_place": "heading before table",
+  "water_source": "Black-McClesky Canal",
+  "data_type": "Irrigation",
+  "date_start": "1923-07-17",
+  "date_end": "1925-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 80,
+  "n_variables": 149,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary; title says 1923-31 but this page prints July 17-31, 1923 to September 1925. 27 month rows x max/min/mean = 81, minus 1 dash (December 1923 maximum) = 80. n_variables adds second-foot-days and acre-feet for 27 months (54) and 3 yearly rows with values x 5 (15); water year 1923 and calendar year 1923 rows are dashes. Location text also: a quarter of a mile southeast of Duncan, about 2,000 feet downstream from intake (since 1936); 1923-31 a quarter of a mile downstream from intake. Canal diverts from Gila River in SW¼ sec. 20, T. 8 S., R. 32 E."
+ }
+]

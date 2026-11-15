@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "1680",
+  "station_name": "Los Gatos Creek at Los Gatos, Calif.",
+  "township_range_section": "",
+  "place_name": "Los Gatos",
+  "place_relation": "at",
+  "basin_or_area": "GUADALUPE RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Los Gatos Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1929-09",
+  "date_end": "1960-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 373,
+  "n_variables": 404,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table is 'Monthly and yearly diversions, in acre-feet' under stream station 1680 (continued). Rules do not say how to type a diversion table printed under a stream gauge: kept Stream Discharge because the station is on the creek (could be Irrigation); variable given as discharge (diverted volume). Santa Clara County is printed on the page only for the next station (1685), so county left blank. Count: water year 1929 has only Sept. (1 value); 1930-1960 = 31 years x 12 months = 372; total 373 monthly values. 'The year' column: 31 yearly totals (1929 is a dash), summary only."
+ }
+]

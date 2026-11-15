@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°22'05\", long 121°22'15\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "South Honcut Creek near Bangor, Calif.",
+  "township_range_section": "SE¼ sec. 35, T. 18 N., R. 5 E.",
+  "place_name": "Bangor",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Honcut Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1956-10",
+  "date_end": "1957-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 34,
+  "n_variables": 34,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1956-57. Pairs per column block: 5 + 4 + 4 + 4 = 17 gage height / discharge pairs = 34 printed values. Dates = the water year the rating applies to. Other location words: on right bank 2.3 miles southeast of Bangor and 3.3 miles upstream from Tennessee Creek. No county or station number on the page."
+ }
+]

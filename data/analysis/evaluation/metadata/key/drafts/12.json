@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°11'53\", long 123°10'50\"",
+  "well_number": "",
+  "station_number": "11461800",
+  "station_name": "LAKE MENDOCINO NEAR UKIAH, CA",
+  "township_range_section": "",
+  "place_name": "Coyote Dam on East Fork Russian River",
+  "place_relation": "in intake tower 30 ft (9 m) upstream from",
+  "basin_or_area": "RUSSIAN RIVER BASIN",
+  "county": "Mendocino County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "LAKE MENDOCINO",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "units": "feet;acre-feet",
+  "n_measurements": 40,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the capacity table (elevation, in feet, and contents, in acre-feet), not the daily contents grid below it. 20 elevation/contents pairs = 40 printed values (20 if only contents are counted). No measurement dates for a capacity table, so dates left blank (page says capacity based on 1975 resurvey, table put into use July 1, 1977). Other location words on page: 'in Yokaya Grant', 'Hydrologic Unit 18010110', '3.6 mi (5.8 km) northeast of Ukiah'; station name says 'NEAR UKIAH'. No township/range printed."
+ }
+]

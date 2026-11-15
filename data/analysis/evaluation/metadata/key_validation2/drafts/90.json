@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-2900",
+  "station_name": "Tuolumne River at Modesto, Calif.",
+  "township_range_section": "",
+  "place_name": "Modesto",
+  "place_relation": "at",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Tuolumne River",
+  "data_type": "Stream Discharge",
+  "date_start": "1963-10-01",
+  "date_end": "1964-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 366,
+  "n_variables": 436,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "First of two water-year grids (October 1963 to September 1964). Daily values: 366 (Feb. has 29 printed days). Summary: TOTAL, MEAN, MAX, MIN, AC-FT x 12 months = 60, plus CAL YR 1963 and WAT YR 1964 lines 5 each = 10; n_variables 436. Print is faint, many digits hard to read, but no empty day cells seen."
+ }
+]

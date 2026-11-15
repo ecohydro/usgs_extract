@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°42'48\", long. 120°24'14\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Don Pedro Reservoir near La Grange, Calif.",
+  "township_range_section": "SW¼ sec. 35, T. 2 S., R. 14 E.",
+  "place_name": "La Grange",
+  "place_relation": "near",
+  "basin_or_area": "TUOLUMNE RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Don Pedro Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1944-10-01",
+  "date_end": "1945-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents grid, water year October 1944 to September 1945. Counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365 (dashes not counted); no summary rows in this table. The brief's digitized lines show only Oct.-Apr. columns; I counted the whole printed grid (all 12 months) since the rows cover it; if only Oct.-Apr. count, it is 212 and the end date 1945-04-30. No station number printed. Other place wording: at Don Pedro Dam on Tuolumne River, 1 mile downstream from Rogers Creek and 5.5 miles upstream from La Grange."
+ }
+]

@@ -1,0 +1,2229 @@
+sample_no,stratum,weight,field,key,pred,verdict
+1,Stream Discharge,2090.725,n_locations,1,1,correct
+1,Stream Discharge,2090.725,location,"Santa Ysabel Creek near Escondido, Calif.","Santa Ysabel Creek near Escondido, Calif.",correct
+1,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+1,Stream Discharge,2090.725,water_source,Santa Ysabel Creek,Santa Ysabel Creek,correct
+1,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+1,Stream Discharge,2090.725,date_start,1911-04-11,1911-04,correct
+1,Stream Discharge,2090.725,date_end,1911-07-06,1911-07,correct
+1,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+1,Stream Discharge,2090.725,variables,discharge,discharge,correct
+1,Stream Discharge,2090.725,n_measurements,87,87,correct
+1,Stream Discharge,2090.725,n_variables,87,118,wrong
+1,Stream Discharge,2090.725,construction_date,,,both_blank
+1,Stream Discharge,2090.725,date_start_year,1911-04-11,1911-04,correct
+1,Stream Discharge,2090.725,date_end_year,1911-07-06,1911-07,correct
+1,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+2,Reservoir,213.61111111111111,n_locations,1,1,correct
+2,Reservoir,213.61111111111111,location,"Lat 39°53'45"", long 121°12'10""","39°53'45"", long 121°12'10""",correct
+2,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+2,Reservoir,213.61111111111111,water_source,Bucks Lake,Bucks Lake,correct
+2,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+2,Reservoir,213.61111111111111,date_start,,,both_blank
+2,Reservoir,213.61111111111111,date_end,,,both_blank
+2,Reservoir,213.61111111111111,temporal_resolution,no_time_series,no_time_series,correct
+2,Reservoir,213.61111111111111,variables,elevation;contents,elevation;contents,correct
+2,Reservoir,213.61111111111111,n_measurements,40,32,wrong
+2,Reservoir,213.61111111111111,n_variables,40,32,wrong
+2,Reservoir,213.61111111111111,construction_date,,,both_blank
+2,Reservoir,213.61111111111111,date_start_year,,,both_blank
+2,Reservoir,213.61111111111111,date_end_year,,,both_blank
+2,Reservoir,213.61111111111111,variables_overlap,elevation;contents,elevation;contents,correct
+3,Stream Discharge,2090.725,n_locations,1,1,correct
+3,Stream Discharge,2090.725,location,9-4060,9-4060,correct
+3,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+3,Stream Discharge,2090.725,water_source,Virgin River,Virgin River,correct
+3,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+3,Stream Discharge,2090.725,date_start,1963-10,1963-10,correct
+3,Stream Discharge,2090.725,date_end,1964-09,1964-09,correct
+3,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+3,Stream Discharge,2090.725,variables,discharge,discharge,correct
+3,Stream Discharge,2090.725,n_measurements,352,363,correct
+3,Stream Discharge,2090.725,n_variables,422,422,correct
+3,Stream Discharge,2090.725,construction_date,,,both_blank
+3,Stream Discharge,2090.725,date_start_year,1963-10,1963-10,correct
+3,Stream Discharge,2090.725,date_end_year,1964-09,1964-09,correct
+3,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+4,Reservoir,213.61111111111111,n_locations,1,1,correct
+4,Reservoir,213.61111111111111,location,"lat. 40°10'30"", long. 121°05'25""","lat. 40°10'30"", long. 121°05'25""",correct
+4,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+4,Reservoir,213.61111111111111,water_source,Lake Almanor,Lake Almanor,correct
+4,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+4,Reservoir,213.61111111111111,date_start,1941-10-01,1941-10,correct
+4,Reservoir,213.61111111111111,date_end,1942-09-30,1942-09,correct
+4,Reservoir,213.61111111111111,temporal_resolution,daily,daily,correct
+4,Reservoir,213.61111111111111,variables,contents,contents,correct
+4,Reservoir,213.61111111111111,n_measurements,365,354,correct
+4,Reservoir,213.61111111111111,n_variables,365,358,correct
+4,Reservoir,213.61111111111111,construction_date,,,both_blank
+4,Reservoir,213.61111111111111,date_start_year,1941-10-01,1941-10,correct
+4,Reservoir,213.61111111111111,date_end_year,1942-09-30,1942-09,correct
+4,Reservoir,213.61111111111111,variables_overlap,contents,contents,correct
+5,Reservoir,213.61111111111111,n_locations,1,1,correct
+5,Reservoir,213.61111111111111,location,"Clear Lake at Lakeport, Cal.","Clear Lake at Lakeport, Cal.",correct
+5,Reservoir,213.61111111111111,location_type,station_name,station_name,correct
+5,Reservoir,213.61111111111111,water_source,Clear Lake,Clear Lake,correct
+5,Reservoir,213.61111111111111,data_type,Reservoir,Precipitation,wrong
+5,Reservoir,213.61111111111111,date_start,1901-01,1901-01,correct
+5,Reservoir,213.61111111111111,date_end,1904-12,1904-12,correct
+5,Reservoir,213.61111111111111,temporal_resolution,monthly,monthly,correct
+5,Reservoir,213.61111111111111,variables,evaporation,evaporation,correct
+5,Reservoir,213.61111111111111,n_measurements,88,97,wrong
+5,Reservoir,213.61111111111111,n_variables,96,97,correct
+5,Reservoir,213.61111111111111,construction_date,,,both_blank
+5,Reservoir,213.61111111111111,date_start_year,1901-01,1901-01,correct
+5,Reservoir,213.61111111111111,date_end_year,1904-12,1904-12,correct
+5,Reservoir,213.61111111111111,variables_overlap,evaporation,evaporation,correct
+6,Groundwater,326.92,n_locations,11,12,wrong
+6,Groundwater,65.384,location,14/5-2X1,2X1 14/5,wrong
+6,Groundwater,65.384,location_type,well_number,well_number,correct
+6,Groundwater,65.384,water_source,Strahlmann-Mayer Rancho,Strahlmann-Mayer,correct
+6,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+6,Groundwater,65.384,date_start,1953-11-25,,missed
+6,Groundwater,65.384,date_end,1953-11-25,,missed
+6,Groundwater,65.384,temporal_resolution,discrete,discrete,correct
+6,Groundwater,65.384,variables,water_level;well_construction;water_use,water_level;temperature;well_construction,wrong
+6,Groundwater,65.384,n_measurements,1,,missed
+6,Groundwater,65.384,n_variables,5,,missed
+6,Groundwater,65.384,construction_date,,1953,extra
+6,Groundwater,65.384,date_start_year,1953-11-25,,missed
+6,Groundwater,65.384,date_end_year,1953-11-25,,missed
+6,Groundwater,65.384,variables_overlap,water_level;well_construction;water_use,water_level;temperature;well_construction,correct
+6,Groundwater,65.384,location,14/6-3X1,3X1 14/6,wrong
+6,Groundwater,65.384,location_type,well_number,well_number,correct
+6,Groundwater,65.384,water_source,San Diego Co. Park Vallecito Stage Sta.,Park Co.,wrong
+6,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+6,Groundwater,65.384,date_start,1953-12-14,,missed
+6,Groundwater,65.384,date_end,1953-12-14,,missed
+6,Groundwater,65.384,temporal_resolution,discrete,discrete,correct
+6,Groundwater,65.384,variables,water_level;temperature;well_construction;water_use,water_level;temperature;well_construction,wrong
+6,Groundwater,65.384,n_measurements,2,,missed
+6,Groundwater,65.384,n_variables,5,,missed
+6,Groundwater,65.384,construction_date,,1953,extra
+6,Groundwater,65.384,date_start_year,1953-12-14,,missed
+6,Groundwater,65.384,date_end_year,1953-12-14,,missed
+6,Groundwater,65.384,variables_overlap,water_level;temperature;well_construction;water_use,water_level;temperature;well_construction,correct
+6,Groundwater,65.384,location,14/6-10X1,10X1,correct
+6,Groundwater,65.384,location_type,well_number,well_number,correct
+6,Groundwater,65.384,water_source,Campbell Ranch,Campbell Ranch,correct
+6,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+6,Groundwater,65.384,date_start,,,both_blank
+6,Groundwater,65.384,date_end,,,both_blank
+6,Groundwater,65.384,temporal_resolution,no_time_series,discrete,wrong
+6,Groundwater,65.384,variables,temperature;well_construction;water_use,water_level;temperature;well_construction,wrong
+6,Groundwater,65.384,n_measurements,1,,missed
+6,Groundwater,65.384,n_variables,3,,missed
+6,Groundwater,65.384,construction_date,,1954,extra
+6,Groundwater,65.384,date_start_year,,,both_blank
+6,Groundwater,65.384,date_end_year,,,both_blank
+6,Groundwater,65.384,variables_overlap,temperature;well_construction;water_use,water_level;temperature;well_construction,correct
+6,Groundwater,65.384,location,15/7-12X1,12X1,correct
+6,Groundwater,65.384,location_type,well_number,well_number,correct
+6,Groundwater,65.384,water_source,,Stubb Ranch,extra
+6,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+6,Groundwater,65.384,date_start,1954-01-05,,missed
+6,Groundwater,65.384,date_end,1954-01-05,,missed
+6,Groundwater,65.384,temporal_resolution,discrete,discrete,correct
+6,Groundwater,65.384,variables,water_level;well_construction;water_use,water_level;temperature;well_construction,wrong
+6,Groundwater,65.384,n_measurements,1,,missed
+6,Groundwater,65.384,n_variables,5,,missed
+6,Groundwater,65.384,construction_date,,1953,extra
+6,Groundwater,65.384,date_start_year,1954-01-05,,missed
+6,Groundwater,65.384,date_end_year,1954-01-05,,missed
+6,Groundwater,65.384,variables_overlap,water_level;well_construction;water_use,water_level;temperature;well_construction,correct
+6,Groundwater,65.384,location,15/8-8X1,7X1,wrong
+6,Groundwater,65.384,location_type,well_number,well_number,correct
+6,Groundwater,65.384,water_source,Stubb Ranch,Stubb Ranch,correct
+6,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+6,Groundwater,65.384,date_start,1953-12-14,,missed
+6,Groundwater,65.384,date_end,1953-12-14,,missed
+6,Groundwater,65.384,temporal_resolution,discrete,discrete,correct
+6,Groundwater,65.384,variables,water_level;well_construction;water_use,water_level;temperature;well_construction,wrong
+6,Groundwater,65.384,n_measurements,1,,missed
+6,Groundwater,65.384,n_variables,5,,missed
+6,Groundwater,65.384,construction_date,,1954,extra
+6,Groundwater,65.384,date_start_year,1953-12-14,,missed
+6,Groundwater,65.384,date_end_year,1953-12-14,,missed
+6,Groundwater,65.384,variables_overlap,water_level;well_construction;water_use,water_level;temperature;well_construction,correct
+7,Groundwater,326.92,n_locations,37,37,correct
+7,Groundwater,65.384,location,9/1E-24R1,9/1E -24R1,correct
+7,Groundwater,65.384,location_type,well_number,well_number,correct
+7,Groundwater,65.384,water_source,R. Collier,R. Collier,correct
+7,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+7,Groundwater,65.384,date_start,,,both_blank
+7,Groundwater,65.384,date_end,,,both_blank
+7,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+7,Groundwater,65.384,variables,well_construction,well_construction,correct
+7,Groundwater,65.384,n_measurements,0,,both_blank
+7,Groundwater,65.384,n_variables,2,,missed
+7,Groundwater,65.384,construction_date,1948,1948,correct
+7,Groundwater,65.384,date_start_year,,,both_blank
+7,Groundwater,65.384,date_end_year,,,both_blank
+7,Groundwater,65.384,variables_overlap,well_construction,well_construction,correct
+7,Groundwater,65.384,location,9/1E-28G1,9/1E -28G1,correct
+7,Groundwater,65.384,location_type,well_number,well_number,correct
+7,Groundwater,65.384,water_source,Opie Odell,Opie Odell,correct
+7,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+7,Groundwater,65.384,date_start,,,both_blank
+7,Groundwater,65.384,date_end,,,both_blank
+7,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+7,Groundwater,65.384,variables,well_construction,well_construction,correct
+7,Groundwater,65.384,n_measurements,0,,both_blank
+7,Groundwater,65.384,n_variables,3,,missed
+7,Groundwater,65.384,construction_date,1948,1948,correct
+7,Groundwater,65.384,date_start_year,,,both_blank
+7,Groundwater,65.384,date_end_year,,,both_blank
+7,Groundwater,65.384,variables_overlap,well_construction,well_construction,correct
+7,Groundwater,65.384,location,9/1E-29Q1,9/1E -29Q1,correct
+7,Groundwater,65.384,location_type,well_number,well_number,correct
+7,Groundwater,65.384,water_source,Standard Oil Co.,Standard Oil Co,correct
+7,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+7,Groundwater,65.384,date_start,,,both_blank
+7,Groundwater,65.384,date_end,,,both_blank
+7,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+7,Groundwater,65.384,variables,well_construction,well_construction,correct
+7,Groundwater,65.384,n_measurements,0,,both_blank
+7,Groundwater,65.384,n_variables,4,,missed
+7,Groundwater,65.384,construction_date,1939,1939,correct
+7,Groundwater,65.384,date_start_year,,,both_blank
+7,Groundwater,65.384,date_end_year,,,both_blank
+7,Groundwater,65.384,variables_overlap,well_construction,well_construction,correct
+7,Groundwater,65.384,location,9/1E-35A1,9/1E -35A1,correct
+7,Groundwater,65.384,location_type,well_number,well_number,correct
+7,Groundwater,65.384,water_source,R. Greiner,R. Greiner,correct
+7,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+7,Groundwater,65.384,date_start,,,both_blank
+7,Groundwater,65.384,date_end,,,both_blank
+7,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+7,Groundwater,65.384,variables,well_construction,well_construction,correct
+7,Groundwater,65.384,n_measurements,0,,both_blank
+7,Groundwater,65.384,n_variables,1,,missed
+7,Groundwater,65.384,construction_date,,,both_blank
+7,Groundwater,65.384,date_start_year,,,both_blank
+7,Groundwater,65.384,date_end_year,,,both_blank
+7,Groundwater,65.384,variables_overlap,well_construction,well_construction,correct
+7,Groundwater,65.384,location,9/1E-35Q1,9/1E -35Q1,correct
+7,Groundwater,65.384,location_type,well_number,well_number,correct
+7,Groundwater,65.384,water_source,Roche & Macedo,Roche & Macedo,correct
+7,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+7,Groundwater,65.384,date_start,,,both_blank
+7,Groundwater,65.384,date_end,,,both_blank
+7,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+7,Groundwater,65.384,variables,well_construction,well_construction,correct
+7,Groundwater,65.384,n_measurements,0,,both_blank
+7,Groundwater,65.384,n_variables,5,,missed
+7,Groundwater,65.384,construction_date,1929,1929,correct
+7,Groundwater,65.384,date_start_year,,,both_blank
+7,Groundwater,65.384,date_end_year,,,both_blank
+7,Groundwater,65.384,variables_overlap,well_construction,well_construction,correct
+8,Small types,222.41176470588235,n_locations,1,1,correct
+8,Small types,222.41176470588235,location,11070262,11070262,correct
+8,Small types,222.41176470588235,location_type,station_number,station_number,correct
+8,Small types,222.41176470588235,water_source,"Perris Channel Lateral ""B""",,missed
+8,Small types,222.41176470588235,data_type,Precipitation,Precipitation,correct
+8,Small types,222.41176470588235,date_start,1972-10-01,1972-10,correct
+8,Small types,222.41176470588235,date_end,1973-09-30,1973-09,correct
+8,Small types,222.41176470588235,temporal_resolution,daily,daily,correct
+8,Small types,222.41176470588235,variables,precipitation,precipitation,correct
+8,Small types,222.41176470588235,n_measurements,337,337,correct
+8,Small types,222.41176470588235,n_variables,337,337,correct
+8,Small types,222.41176470588235,construction_date,,,both_blank
+8,Small types,222.41176470588235,date_start_year,1972-10-01,1972-10,correct
+8,Small types,222.41176470588235,date_end_year,1973-09-30,1973-09,correct
+8,Small types,222.41176470588235,variables_overlap,precipitation,precipitation,correct
+9,Stream Discharge,2090.725,n_locations,1,1,correct
+9,Stream Discharge,2090.725,location,"Aliso Creek at El Toro, Calif.","ALISO CREEK AT EL TORO, CALIF.",correct
+9,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+9,Stream Discharge,2090.725,water_source,Aliso Creek,Aliso Creek,correct
+9,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+9,Stream Discharge,2090.725,date_start,1931-02-03,1930-10,wrong
+9,Stream Discharge,2090.725,date_end,1932-02-29,1932-09,wrong
+9,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+9,Stream Discharge,2090.725,variables,discharge,discharge,correct
+9,Stream Discharge,2090.725,n_measurements,129,128,correct
+9,Stream Discharge,2090.725,n_variables,129,159,wrong
+9,Stream Discharge,2090.725,construction_date,,,both_blank
+9,Stream Discharge,2090.725,date_start_year,1931-02-03,1930-10,wrong
+9,Stream Discharge,2090.725,date_end_year,1932-02-29,1932-09,correct
+9,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+10,Stream Discharge,2090.725,n_locations,1,1,correct
+10,Stream Discharge,2090.725,location,"Concow Creek near Yankee Hill, Calif.","Concow Creek near Yankee Hill, Calif.",correct
+10,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+10,Stream Discharge,2090.725,water_source,Concow Creek,Concow Creek,correct
+10,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+10,Stream Discharge,2090.725,date_start,1940-10,1940-12,wrong
+10,Stream Discharge,2090.725,date_end,1941-09,1941-05,wrong
+10,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+10,Stream Discharge,2090.725,variables,discharge,discharge,correct
+10,Stream Discharge,2090.725,n_measurements,182,182,correct
+10,Stream Discharge,2090.725,n_variables,182,218,wrong
+10,Stream Discharge,2090.725,construction_date,,,both_blank
+10,Stream Discharge,2090.725,date_start_year,1940-10,1940-12,correct
+10,Stream Discharge,2090.725,date_end_year,1941-09,1941-05,correct
+10,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+11,Stream Discharge,2090.725,n_locations,1,1,correct
+11,Stream Discharge,2090.725,location,"Sacramento River at Antler, Calif.","Sacramento River at Antler, Calif.",correct
+11,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+11,Stream Discharge,2090.725,water_source,Sacramento River,Sacramento River,correct
+11,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+11,Stream Discharge,2090.725,date_start,1919-04-18,1919-05-01,wrong
+11,Stream Discharge,2090.725,date_end,1919-09-30,1920-09-30,wrong
+11,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+11,Stream Discharge,2090.725,variables,discharge,discharge,correct
+11,Stream Discharge,2090.725,n_measurements,166,169,correct
+11,Stream Discharge,2090.725,n_variables,166,200,wrong
+11,Stream Discharge,2090.725,construction_date,,,both_blank
+11,Stream Discharge,2090.725,date_start_year,1919-04-18,1919-05-01,correct
+11,Stream Discharge,2090.725,date_end_year,1919-09-30,1920-09-30,wrong
+11,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+12,Stream Discharge,2090.725,n_locations,1,1,correct
+12,Stream Discharge,2090.725,location,"Lat 33°48'08"", long 117°52'39""","33°48'08"" 117°52'39""",correct
+12,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+12,Stream Discharge,2090.725,water_source,Santa Ana River,SANTA ANA RIVER,correct
+12,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+12,Stream Discharge,2090.725,date_start,1975-10,1975-10,correct
+12,Stream Discharge,2090.725,date_end,1976-09,1976-09,correct
+12,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+12,Stream Discharge,2090.725,variables,discharge,discharge,correct
+12,Stream Discharge,2090.725,n_measurements,180,180,correct
+12,Stream Discharge,2090.725,n_variables,250,252,correct
+12,Stream Discharge,2090.725,construction_date,,,both_blank
+12,Stream Discharge,2090.725,date_start_year,1975-10,1975-10,correct
+12,Stream Discharge,2090.725,date_end_year,1976-09,1976-09,correct
+12,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+13,Groundwater,326.92,n_locations,1,1,correct
+13,Groundwater,326.92,location,22S/39E-4K3 M,22S/39E-4K3,correct
+13,Groundwater,326.92,location_type,well_number,well_number,correct
+13,Groundwater,326.92,water_source,,,both_blank
+13,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+13,Groundwater,326.92,date_start,1960-12-14,1960-12-14,correct
+13,Groundwater,326.92,date_end,1975-07-29,1975-07-29,correct
+13,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+13,Groundwater,326.92,variables,water_level,water_level,correct
+13,Groundwater,326.92,n_measurements,2,0,missed
+13,Groundwater,326.92,n_variables,2,0,missed
+13,Groundwater,326.92,construction_date,,,both_blank
+13,Groundwater,326.92,date_start_year,1960-12-14,1960-12-14,correct
+13,Groundwater,326.92,date_end_year,1975-07-29,1975-07-29,correct
+13,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+14,Small types,222.41176470588235,n_locations,5,1,wrong
+14,Small types,44.48235294117647,location,14/12-5K1,,missed
+14,Small types,44.48235294117647,location_type,well_number,,missed
+14,Small types,44.48235294117647,water_source,,,both_blank
+14,Small types,44.48235294117647,data_type,Groundwater,Not Water Related,wrong
+14,Small types,44.48235294117647,date_start,1953-05-12,,missed
+14,Small types,44.48235294117647,date_end,1953-05-12,,missed
+14,Small types,44.48235294117647,temporal_resolution,discrete,,missed
+14,Small types,44.48235294117647,variables,water_chemistry,,missed
+14,Small types,44.48235294117647,n_measurements,19,,missed
+14,Small types,44.48235294117647,n_variables,20,,missed
+14,Small types,44.48235294117647,construction_date,,,both_blank
+14,Small types,44.48235294117647,date_start_year,1953-05-12,,missed
+14,Small types,44.48235294117647,date_end_year,1953-05-12,,missed
+14,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+14,Small types,44.48235294117647,location,15/12-16Q1,,missed
+14,Small types,44.48235294117647,location_type,well_number,,missed
+14,Small types,44.48235294117647,water_source,,,both_blank
+14,Small types,44.48235294117647,data_type,Groundwater,,missed
+14,Small types,44.48235294117647,date_start,1950-07-06,,missed
+14,Small types,44.48235294117647,date_end,1950-07-06,,missed
+14,Small types,44.48235294117647,temporal_resolution,discrete,,missed
+14,Small types,44.48235294117647,variables,water_chemistry,,missed
+14,Small types,44.48235294117647,n_measurements,15,,missed
+14,Small types,44.48235294117647,n_variables,16,,missed
+14,Small types,44.48235294117647,construction_date,,,both_blank
+14,Small types,44.48235294117647,date_start_year,1950-07-06,,missed
+14,Small types,44.48235294117647,date_end_year,1950-07-06,,missed
+14,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+14,Small types,44.48235294117647,location,15/12-22D2,,missed
+14,Small types,44.48235294117647,location_type,well_number,,missed
+14,Small types,44.48235294117647,water_source,,,both_blank
+14,Small types,44.48235294117647,data_type,Springs,,missed
+14,Small types,44.48235294117647,date_start,1950-12,,missed
+14,Small types,44.48235294117647,date_end,1950-12,,missed
+14,Small types,44.48235294117647,temporal_resolution,discrete,,missed
+14,Small types,44.48235294117647,variables,water_chemistry,,missed
+14,Small types,44.48235294117647,n_measurements,11,,missed
+14,Small types,44.48235294117647,n_variables,11,,missed
+14,Small types,44.48235294117647,construction_date,,,both_blank
+14,Small types,44.48235294117647,date_start_year,1950-12,,missed
+14,Small types,44.48235294117647,date_end_year,1950-12,,missed
+14,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+14,Small types,44.48235294117647,location,15/12-35D,,missed
+14,Small types,44.48235294117647,location_type,well_number,,missed
+14,Small types,44.48235294117647,water_source,,,both_blank
+14,Small types,44.48235294117647,data_type,Groundwater,,missed
+14,Small types,44.48235294117647,date_start,1948-08-25,,missed
+14,Small types,44.48235294117647,date_end,1948-08-25,,missed
+14,Small types,44.48235294117647,temporal_resolution,discrete,,missed
+14,Small types,44.48235294117647,variables,water_chemistry,,missed
+14,Small types,44.48235294117647,n_measurements,11,,missed
+14,Small types,44.48235294117647,n_variables,11,,missed
+14,Small types,44.48235294117647,construction_date,,,both_blank
+14,Small types,44.48235294117647,date_start_year,1948-08-25,,missed
+14,Small types,44.48235294117647,date_end_year,1948-08-25,,missed
+14,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+14,Small types,44.48235294117647,location,17/11-33D1,,missed
+14,Small types,44.48235294117647,location_type,well_number,,missed
+14,Small types,44.48235294117647,water_source,,,both_blank
+14,Small types,44.48235294117647,data_type,Groundwater,,missed
+14,Small types,44.48235294117647,date_start,1952-09-23,,missed
+14,Small types,44.48235294117647,date_end,1952-09-23,,missed
+14,Small types,44.48235294117647,temporal_resolution,discrete,,missed
+14,Small types,44.48235294117647,variables,water_chemistry,,missed
+14,Small types,44.48235294117647,n_measurements,19,,missed
+14,Small types,44.48235294117647,n_variables,20,,missed
+14,Small types,44.48235294117647,construction_date,,,both_blank
+14,Small types,44.48235294117647,date_start_year,1952-09-23,,missed
+14,Small types,44.48235294117647,date_end_year,1952-09-23,,missed
+14,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+15,Stream Discharge,2090.725,n_locations,1,1,correct
+15,Stream Discharge,2090.725,location,10336610,10336610,correct
+15,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+15,Stream Discharge,2090.725,water_source,Upper Truckee River,UPPER TRUCKEE RIVER,correct
+15,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+15,Stream Discharge,2090.725,date_start,1972-04-01,1972-04,correct
+15,Stream Discharge,2090.725,date_end,1972-06-30,1972-06,correct
+15,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+15,Stream Discharge,2090.725,variables,discharge;sediment,discharge;sediment,correct
+15,Stream Discharge,2090.725,n_measurements,273,179,wrong
+15,Stream Discharge,2090.725,n_variables,279,278,correct
+15,Stream Discharge,2090.725,construction_date,,,both_blank
+15,Stream Discharge,2090.725,date_start_year,1972-04-01,1972-04,correct
+15,Stream Discharge,2090.725,date_end_year,1972-06-30,1972-06,correct
+15,Stream Discharge,2090.725,variables_overlap,discharge;sediment,discharge;sediment,correct
+16,Stream Discharge,2090.725,n_locations,1,1,correct
+16,Stream Discharge,2090.725,location,"South Fork of Tuolumne River near Buck Meadows, Calif.","South Fork of Tuolumne River near Buck Meadows, Calif.",correct
+16,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+16,Stream Discharge,2090.725,water_source,South Fork of Tuolumne River,South Fork of Tuolumne River,correct
+16,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+16,Stream Discharge,2090.725,date_start,1918-10-30,1918-10-30,correct
+16,Stream Discharge,2090.725,date_end,1920-07-27,1920-07-27,correct
+16,Stream Discharge,2090.725,temporal_resolution,discrete,discrete,correct
+16,Stream Discharge,2090.725,variables,gage_height;discharge,gage_height;discharge,correct
+16,Stream Discharge,2090.725,n_measurements,16,16,correct
+16,Stream Discharge,2090.725,n_variables,16,18,correct
+16,Stream Discharge,2090.725,construction_date,,,both_blank
+16,Stream Discharge,2090.725,date_start_year,1918-10-30,1918-10-30,correct
+16,Stream Discharge,2090.725,date_end_year,1920-07-27,1920-07-27,correct
+16,Stream Discharge,2090.725,variables_overlap,gage_height;discharge,gage_height;discharge,correct
+17,Stream Discharge,2090.725,n_locations,1,1,correct
+17,Stream Discharge,2090.725,location,"Lat 34°08'38"", long 117°11'16""","Lat 34°08'38"", long 117°11'16""",correct
+17,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+17,Stream Discharge,2090.725,water_source,City Creek,City Creek,correct
+17,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+17,Stream Discharge,2090.725,date_start,1950-10,1950-10,correct
+17,Stream Discharge,2090.725,date_end,1960-09,1960-09,correct
+17,Stream Discharge,2090.725,temporal_resolution,monthly,monthly,correct
+17,Stream Discharge,2090.725,variables,discharge,discharge,correct
+17,Stream Discharge,2090.725,n_measurements,120,120,correct
+17,Stream Discharge,2090.725,n_variables,130,130,correct
+17,Stream Discharge,2090.725,construction_date,,,both_blank
+17,Stream Discharge,2090.725,date_start_year,1950-10,1950-10,correct
+17,Stream Discharge,2090.725,date_end_year,1960-09,1960-09,correct
+17,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+18,Stream Discharge,2090.725,n_locations,1,1,correct
+18,Stream Discharge,2090.725,location,"Lat 37°53'50"", long 122°32'06""","Lat 37°53'50"", long 122°32'06""",correct
+18,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+18,Stream Discharge,2090.725,water_source,Arroyo Corte Madera del Presidio,ARROYO CORTE MADERA DEL PRESIDIO,correct
+18,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+18,Stream Discharge,2090.725,date_start,1966-10-01,1966-10,correct
+18,Stream Discharge,2090.725,date_end,1967-09-30,1967-09,correct
+18,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+18,Stream Discharge,2090.725,variables,discharge,discharge,correct
+18,Stream Discharge,2090.725,n_measurements,365,364,correct
+18,Stream Discharge,2090.725,n_variables,435,441,correct
+18,Stream Discharge,2090.725,construction_date,,,both_blank
+18,Stream Discharge,2090.725,date_start_year,1966-10-01,1966-10,correct
+18,Stream Discharge,2090.725,date_end_year,1967-09-30,1967-09,correct
+18,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+19,Groundwater,326.92,n_locations,1,1,correct
+19,Groundwater,326.92,location,5/11-6A1,5/11-6A1,correct
+19,Groundwater,326.92,location_type,well_number,well_number,correct
+19,Groundwater,326.92,water_source,I. W. Hellman Ranch,I. W. Hellman Ranch,correct
+19,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+19,Groundwater,326.92,date_start,,,both_blank
+19,Groundwater,326.92,date_end,,,both_blank
+19,Groundwater,326.92,temporal_resolution,no_time_series,no_time_series,correct
+19,Groundwater,326.92,variables,lithology,lithology;well_construction,wrong
+19,Groundwater,326.92,n_measurements,0,60,extra
+19,Groundwater,326.92,n_variables,62,60,correct
+19,Groundwater,326.92,construction_date,,,both_blank
+19,Groundwater,326.92,date_start_year,,,both_blank
+19,Groundwater,326.92,date_end_year,,,both_blank
+19,Groundwater,326.92,variables_overlap,lithology,lithology;well_construction,correct
+20,Groundwater,326.92,n_locations,1,1,correct
+20,Groundwater,326.92,location,7N/35W-21L1,7N/35W-21L4,wrong
+20,Groundwater,326.92,location_type,well_number,well_number,correct
+20,Groundwater,326.92,water_source,,,both_blank
+20,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+20,Groundwater,326.92,date_start,,,both_blank
+20,Groundwater,326.92,date_end,,,both_blank
+20,Groundwater,326.92,temporal_resolution,no_time_series,no_time_series,correct
+20,Groundwater,326.92,variables,lithology,well_construction;lithology,wrong
+20,Groundwater,326.92,n_measurements,0,8,extra
+20,Groundwater,326.92,n_variables,10,8,correct
+20,Groundwater,326.92,construction_date,,,both_blank
+20,Groundwater,326.92,date_start_year,,,both_blank
+20,Groundwater,326.92,date_end_year,,,both_blank
+20,Groundwater,326.92,variables_overlap,lithology,well_construction;lithology,correct
+21,Groundwater,326.92,n_locations,1,1,correct
+21,Groundwater,326.92,location,8/1W-28R1,8/1W-28R1,correct
+21,Groundwater,326.92,location_type,well_number,well_number,correct
+21,Groundwater,326.92,water_source,,,both_blank
+21,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+21,Groundwater,326.92,date_start,1949-08-12,1949-08-12,correct
+21,Groundwater,326.92,date_end,1951-11-12,1951-04-24,wrong
+21,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+21,Groundwater,326.92,variables,water_level,water_level,correct
+21,Groundwater,326.92,n_measurements,106,112,wrong
+21,Groundwater,326.92,n_variables,106,117,wrong
+21,Groundwater,326.92,construction_date,,,both_blank
+21,Groundwater,326.92,date_start_year,1949-08-12,1949-08-12,correct
+21,Groundwater,326.92,date_end_year,1951-11-12,1951-04-24,correct
+21,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+22,Stream Discharge,2090.725,n_locations,1,1,correct
+22,Stream Discharge,2090.725,location,1680,"Los Gatos Creek at Los Gatos, Calif.",wrong
+22,Stream Discharge,2090.725,location_type,station_number,station_name,wrong
+22,Stream Discharge,2090.725,water_source,Los Gatos Creek,Los Gatos Creek,correct
+22,Stream Discharge,2090.725,data_type,Stream Discharge,Irrigation,wrong
+22,Stream Discharge,2090.725,date_start,1929-09,1928-10,wrong
+22,Stream Discharge,2090.725,date_end,1960-09,1960-09,correct
+22,Stream Discharge,2090.725,temporal_resolution,monthly,monthly,correct
+22,Stream Discharge,2090.725,variables,discharge,water_use,wrong
+22,Stream Discharge,2090.725,n_measurements,373,373,correct
+22,Stream Discharge,2090.725,n_variables,404,404,correct
+22,Stream Discharge,2090.725,construction_date,,,both_blank
+22,Stream Discharge,2090.725,date_start_year,1929-09,1928-10,wrong
+22,Stream Discharge,2090.725,date_end_year,1960-09,1960-09,correct
+22,Stream Discharge,2090.725,variables_overlap,discharge,water_use,wrong
+23,Reservoir,213.61111111111111,n_locations,1,1,correct
+23,Reservoir,213.61111111111111,location,"Lat 38°42'29"", long 121°09'22""","Lat 38°42'29"", long 121°09'22""",correct
+23,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+23,Reservoir,213.61111111111111,water_source,Folsom Lake,American River,wrong
+23,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+23,Reservoir,213.61111111111111,date_start,1975-10-01,1975-10,correct
+23,Reservoir,213.61111111111111,date_end,1976-09-30,1976-09,correct
+23,Reservoir,213.61111111111111,temporal_resolution,daily,daily,correct
+23,Reservoir,213.61111111111111,variables,contents;elevation;evaporation,contents;elevation;evaporation,correct
+23,Reservoir,213.61111111111111,n_measurements,390,404,correct
+23,Reservoir,213.61111111111111,n_variables,428,428,correct
+23,Reservoir,213.61111111111111,construction_date,,,both_blank
+23,Reservoir,213.61111111111111,date_start_year,1975-10-01,1975-10,correct
+23,Reservoir,213.61111111111111,date_end_year,1976-09-30,1976-09,correct
+23,Reservoir,213.61111111111111,variables_overlap,contents;elevation;evaporation,contents;elevation;evaporation,correct
+24,Stream Discharge,2090.725,n_locations,1,1,correct
+24,Stream Discharge,2090.725,location,"lat. 38°11', long. 120°09'","lat. 38°11', long. 100°09'",wrong
+24,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+24,Stream Discharge,2090.725,water_source,Middle Fork Stanislaus River,Middle Fork Stanislaus River,correct
+24,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+24,Stream Discharge,2090.725,date_start,1944-10,1944-10,correct
+24,Stream Discharge,2090.725,date_end,1945-09,1945-09,correct
+24,Stream Discharge,2090.725,temporal_resolution,monthly,monthly,correct
+24,Stream Discharge,2090.725,variables,discharge,discharge,correct
+24,Stream Discharge,2090.725,n_measurements,36,60,wrong
+24,Stream Discharge,2090.725,n_variables,70,73,correct
+24,Stream Discharge,2090.725,construction_date,,,both_blank
+24,Stream Discharge,2090.725,date_start_year,1944-10,1944-10,correct
+24,Stream Discharge,2090.725,date_end_year,1945-09,1945-09,correct
+24,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+25,Small types,222.41176470588235,n_locations,cannot tell,1,wrong
+25,Small types,44.48235294117647,location,,,both_blank
+25,Small types,44.48235294117647,location_type,,,both_blank
+25,Small types,44.48235294117647,water_source,,,both_blank
+25,Small types,44.48235294117647,data_type,Water Quality,Not Water Related,wrong
+25,Small types,44.48235294117647,date_start,,,both_blank
+25,Small types,44.48235294117647,date_end,,,both_blank
+25,Small types,44.48235294117647,temporal_resolution,cannot tell,,both_blank
+25,Small types,44.48235294117647,variables,water_chemistry,,missed
+25,Small types,44.48235294117647,n_measurements,12,,missed
+25,Small types,44.48235294117647,n_variables,12,,missed
+25,Small types,44.48235294117647,construction_date,,,both_blank
+25,Small types,44.48235294117647,date_start_year,,,both_blank
+25,Small types,44.48235294117647,date_end_year,,,both_blank
+25,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+25,Small types,44.48235294117647,location,,,both_blank
+25,Small types,44.48235294117647,location_type,,,both_blank
+25,Small types,44.48235294117647,water_source,,,both_blank
+25,Small types,44.48235294117647,data_type,Water Quality,,missed
+25,Small types,44.48235294117647,date_start,,,both_blank
+25,Small types,44.48235294117647,date_end,,,both_blank
+25,Small types,44.48235294117647,temporal_resolution,cannot tell,,both_blank
+25,Small types,44.48235294117647,variables,water_chemistry,,missed
+25,Small types,44.48235294117647,n_measurements,4,,missed
+25,Small types,44.48235294117647,n_variables,4,,missed
+25,Small types,44.48235294117647,construction_date,,,both_blank
+25,Small types,44.48235294117647,date_start_year,,,both_blank
+25,Small types,44.48235294117647,date_end_year,,,both_blank
+25,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+25,Small types,44.48235294117647,location,,,both_blank
+25,Small types,44.48235294117647,location_type,,,both_blank
+25,Small types,44.48235294117647,water_source,,,both_blank
+25,Small types,44.48235294117647,data_type,Water Quality,,missed
+25,Small types,44.48235294117647,date_start,,,both_blank
+25,Small types,44.48235294117647,date_end,,,both_blank
+25,Small types,44.48235294117647,temporal_resolution,cannot tell,,both_blank
+25,Small types,44.48235294117647,variables,water_chemistry,,missed
+25,Small types,44.48235294117647,n_measurements,12,,missed
+25,Small types,44.48235294117647,n_variables,12,,missed
+25,Small types,44.48235294117647,construction_date,,,both_blank
+25,Small types,44.48235294117647,date_start_year,,,both_blank
+25,Small types,44.48235294117647,date_end_year,,,both_blank
+25,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+25,Small types,44.48235294117647,location,,,both_blank
+25,Small types,44.48235294117647,location_type,,,both_blank
+25,Small types,44.48235294117647,water_source,,,both_blank
+25,Small types,44.48235294117647,data_type,Water Quality,,missed
+25,Small types,44.48235294117647,date_start,,,both_blank
+25,Small types,44.48235294117647,date_end,,,both_blank
+25,Small types,44.48235294117647,temporal_resolution,cannot tell,,both_blank
+25,Small types,44.48235294117647,variables,water_chemistry,,missed
+25,Small types,44.48235294117647,n_measurements,7,,missed
+25,Small types,44.48235294117647,n_variables,7,,missed
+25,Small types,44.48235294117647,construction_date,,,both_blank
+25,Small types,44.48235294117647,date_start_year,,,both_blank
+25,Small types,44.48235294117647,date_end_year,,,both_blank
+25,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+25,Small types,44.48235294117647,location,,,both_blank
+25,Small types,44.48235294117647,location_type,,,both_blank
+25,Small types,44.48235294117647,water_source,,,both_blank
+25,Small types,44.48235294117647,data_type,Water Quality,,missed
+25,Small types,44.48235294117647,date_start,,,both_blank
+25,Small types,44.48235294117647,date_end,,,both_blank
+25,Small types,44.48235294117647,temporal_resolution,cannot tell,,both_blank
+25,Small types,44.48235294117647,variables,water_chemistry,,missed
+25,Small types,44.48235294117647,n_measurements,7,,missed
+25,Small types,44.48235294117647,n_variables,7,,missed
+25,Small types,44.48235294117647,construction_date,,,both_blank
+25,Small types,44.48235294117647,date_start_year,,,both_blank
+25,Small types,44.48235294117647,date_end_year,,,both_blank
+25,Small types,44.48235294117647,variables_overlap,water_chemistry,,missed
+26,Reservoir,213.61111111111111,n_locations,1,1,correct
+26,Reservoir,213.61111111111111,location,,,both_blank
+26,Reservoir,213.61111111111111,location_type,,,both_blank
+26,Reservoir,213.61111111111111,water_source,,,both_blank
+26,Reservoir,213.61111111111111,data_type,Not Water Related,Not Water Related,correct
+26,Reservoir,213.61111111111111,date_start,,,both_blank
+26,Reservoir,213.61111111111111,date_end,,,both_blank
+26,Reservoir,213.61111111111111,temporal_resolution,,,both_blank
+26,Reservoir,213.61111111111111,variables,,,both_blank
+26,Reservoir,213.61111111111111,n_measurements,,,both_blank
+26,Reservoir,213.61111111111111,n_variables,,,both_blank
+26,Reservoir,213.61111111111111,construction_date,,,both_blank
+26,Reservoir,213.61111111111111,date_start_year,,,both_blank
+26,Reservoir,213.61111111111111,date_end_year,,,both_blank
+26,Reservoir,213.61111111111111,variables_overlap,,,both_blank
+27,Small types,222.41176470588235,n_locations,1,1,correct
+27,Small types,222.41176470588235,location,,,both_blank
+27,Small types,222.41176470588235,location_type,,,both_blank
+27,Small types,222.41176470588235,water_source,,,both_blank
+27,Small types,222.41176470588235,data_type,Not Water Related,Not Water Related,correct
+27,Small types,222.41176470588235,date_start,,,both_blank
+27,Small types,222.41176470588235,date_end,,,both_blank
+27,Small types,222.41176470588235,temporal_resolution,,,both_blank
+27,Small types,222.41176470588235,variables,,,both_blank
+27,Small types,222.41176470588235,n_measurements,,,both_blank
+27,Small types,222.41176470588235,n_variables,,,both_blank
+27,Small types,222.41176470588235,construction_date,,,both_blank
+27,Small types,222.41176470588235,date_start_year,,,both_blank
+27,Small types,222.41176470588235,date_end_year,,,both_blank
+27,Small types,222.41176470588235,variables_overlap,,,both_blank
+28,Stream Discharge,2090.725,n_locations,1,1,correct
+28,Stream Discharge,2090.725,location,11074000,11074000,correct
+28,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+28,Stream Discharge,2090.725,water_source,SANTA ANA RIVER,SANTA ANA RIVER,correct
+28,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+28,Stream Discharge,2090.725,date_start,1975-10-30,1975-10,correct
+28,Stream Discharge,2090.725,date_end,1976-07-29,1976-09,wrong
+28,Stream Discharge,2090.725,temporal_resolution,discrete,discrete,correct
+28,Stream Discharge,2090.725,variables,water_chemistry,water_chemistry,correct
+28,Stream Discharge,2090.725,n_measurements,52,52,correct
+28,Stream Discharge,2090.725,n_variables,52,52,correct
+28,Stream Discharge,2090.725,construction_date,,,both_blank
+28,Stream Discharge,2090.725,date_start_year,1975-10-30,1975-10,correct
+28,Stream Discharge,2090.725,date_end_year,1976-07-29,1976-09,correct
+28,Stream Discharge,2090.725,variables_overlap,water_chemistry,water_chemistry,correct
+29,Stream Discharge,2090.725,n_locations,1,1,correct
+29,Stream Discharge,2090.725,location,11114000,11114000,correct
+29,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+29,Stream Discharge,2090.725,water_source,SANTA CLARA RIVER,Santa Clara River,correct
+29,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+29,Stream Discharge,2090.725,date_start,1973-10-01,1973-10,correct
+29,Stream Discharge,2090.725,date_end,1973-12-31,1973-12,correct
+29,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+29,Stream Discharge,2090.725,variables,discharge;sediment,discharge;sediment,correct
+29,Stream Discharge,2090.725,n_measurements,276,272,correct
+29,Stream Discharge,2090.725,n_variables,282,272,correct
+29,Stream Discharge,2090.725,construction_date,,,both_blank
+29,Stream Discharge,2090.725,date_start_year,1973-10-01,1973-10,correct
+29,Stream Discharge,2090.725,date_end_year,1973-12-31,1973-12,correct
+29,Stream Discharge,2090.725,variables_overlap,discharge;sediment,discharge;sediment,correct
+30,Groundwater,326.92,n_locations,1,1,correct
+30,Groundwater,326.92,location,4/25-19F4,4/25-19F4,correct
+30,Groundwater,326.92,location_type,well_number,well_number,correct
+30,Groundwater,326.92,water_source,M. F. Lewis,I'. Fo Lewis,wrong
+30,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+30,Groundwater,326.92,date_start,,1953-01-28,extra
+30,Groundwater,326.92,date_end,,1953-11-23,extra
+30,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+30,Groundwater,326.92,variables,water_level,water_level,correct
+30,Groundwater,326.92,n_measurements,7,7,correct
+30,Groundwater,326.92,n_variables,7,7,correct
+30,Groundwater,326.92,construction_date,,,both_blank
+30,Groundwater,326.92,date_start_year,,1953-01-28,extra
+30,Groundwater,326.92,date_end_year,,1953-11-23,extra
+30,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+31,Stream Discharge,2090.725,n_locations,1,1,correct
+31,Stream Discharge,2090.725,location,"lat. 39°32', long. 120°56'","lat. 39032', long. 120°56'",wrong
+31,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+31,Stream Discharge,2090.725,water_source,North Fork of Yuba River,North Fork of Yuba River,correct
+31,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+31,Stream Discharge,2090.725,date_start,1934-10-01,1934-10,correct
+31,Stream Discharge,2090.725,date_end,1935-09-30,1935-09,correct
+31,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+31,Stream Discharge,2090.725,variables,discharge,discharge,correct
+31,Stream Discharge,2090.725,n_measurements,365,424,wrong
+31,Stream Discharge,2090.725,n_variables,435,437,correct
+31,Stream Discharge,2090.725,construction_date,,,both_blank
+31,Stream Discharge,2090.725,date_start_year,1934-10-01,1934-10,correct
+31,Stream Discharge,2090.725,date_end_year,1935-09-30,1935-09,correct
+31,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+32,Small types,222.41176470588235,n_locations,1,1,correct
+32,Small types,222.41176470588235,location,"Lat 34°29'30"", long 119°57'50""","Lat 34°29 0 30"" long 119°57'50""",wrong
+32,Small types,222.41176470588235,location_type,coordinates,coordinates,correct
+32,Small types,222.41176470588235,water_source,Spring - W. H. Woods,,missed
+32,Small types,222.41176470588235,data_type,Springs,Springs,correct
+32,Small types,222.41176470588235,date_start,1948-11-01,1948-11-01,correct
+32,Small types,222.41176470588235,date_end,1957-12-04,1957-08-09,wrong
+32,Small types,222.41176470588235,temporal_resolution,discrete,discrete,correct
+32,Small types,222.41176470588235,variables,discharge;temperature,discharge;temperature,correct
+32,Small types,222.41176470588235,n_measurements,134,134,correct
+32,Small types,222.41176470588235,n_variables,134,134,correct
+32,Small types,222.41176470588235,construction_date,,,both_blank
+32,Small types,222.41176470588235,date_start_year,1948-11-01,1948-11-01,correct
+32,Small types,222.41176470588235,date_end_year,1957-12-04,1957-08-09,correct
+32,Small types,222.41176470588235,variables_overlap,discharge;temperature,discharge;temperature,correct
+33,Reservoir,213.61111111111111,n_locations,1,1,correct
+33,Reservoir,213.61111111111111,location,"North Drew Canal near Lakeview, Oreg.","North Drew Canal near Lakeview, Oreg.",correct
+33,Reservoir,213.61111111111111,location_type,station_name,station_name,correct
+33,Reservoir,213.61111111111111,water_source,North Drew Canal,North Drew Canal,correct
+33,Reservoir,213.61111111111111,data_type,Irrigation,Irrigation,correct
+33,Reservoir,213.61111111111111,date_start,1927-10,1927-05,wrong
+33,Reservoir,213.61111111111111,date_end,1928-09,1928-09,correct
+33,Reservoir,213.61111111111111,temporal_resolution,monthly,monthly,correct
+33,Reservoir,213.61111111111111,variables,runoff,runoff,correct
+33,Reservoir,213.61111111111111,n_measurements,5,9,wrong
+33,Reservoir,213.61111111111111,n_variables,6,11,wrong
+33,Reservoir,213.61111111111111,construction_date,,,both_blank
+33,Reservoir,213.61111111111111,date_start_year,1927-10,1927-05,correct
+33,Reservoir,213.61111111111111,date_end_year,1928-09,1928-09,correct
+33,Reservoir,213.61111111111111,variables_overlap,runoff,runoff,correct
+34,Groundwater,326.92,n_locations,1,1,correct
+34,Groundwater,326.92,location,4635A2,4635A2,correct
+34,Groundwater,326.92,location_type,well_number,well_number,correct
+34,Groundwater,326.92,water_source,F. Journeay,,missed
+34,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+34,Groundwater,326.92,date_start,1926-06-06,1926-06-06,correct
+34,Groundwater,326.92,date_end,1929-06-20,1929-06-20,correct
+34,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+34,Groundwater,326.92,variables,water_level,water_level,correct
+34,Groundwater,326.92,n_measurements,42,85,wrong
+34,Groundwater,326.92,n_variables,84,87,correct
+34,Groundwater,326.92,construction_date,,,both_blank
+34,Groundwater,326.92,date_start_year,1926-06-06,1926-06-06,correct
+34,Groundwater,326.92,date_end_year,1929-06-20,1929-06-20,correct
+34,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+35,Stream Discharge,2090.725,n_locations,1,1,correct
+35,Stream Discharge,2090.725,location,"Trinity River at Lewiston, Cal.","Trinity River at Lewiston, Cal.",correct
+35,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+35,Stream Discharge,2090.725,water_source,Trinity River,Trinity River,correct
+35,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+35,Stream Discharge,2090.725,date_start,1912-10-01,1912-10,correct
+35,Stream Discharge,2090.725,date_end,1913-09-30,1913-09,correct
+35,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+35,Stream Discharge,2090.725,variables,discharge,discharge,correct
+35,Stream Discharge,2090.725,n_measurements,365,383,correct
+35,Stream Discharge,2090.725,n_variables,365,383,correct
+35,Stream Discharge,2090.725,construction_date,,,both_blank
+35,Stream Discharge,2090.725,date_start_year,1912-10-01,1912-10,correct
+35,Stream Discharge,2090.725,date_end_year,1913-09-30,1913-09,correct
+35,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+36,Reservoir,213.61111111111111,n_locations,1,1,correct
+36,Reservoir,213.61111111111111,location,,,both_blank
+36,Reservoir,213.61111111111111,location_type,,,both_blank
+36,Reservoir,213.61111111111111,water_source,,,both_blank
+36,Reservoir,213.61111111111111,data_type,Not Water Related,Not Water Related,correct
+36,Reservoir,213.61111111111111,date_start,,,both_blank
+36,Reservoir,213.61111111111111,date_end,,,both_blank
+36,Reservoir,213.61111111111111,temporal_resolution,,,both_blank
+36,Reservoir,213.61111111111111,variables,,,both_blank
+36,Reservoir,213.61111111111111,n_measurements,,,both_blank
+36,Reservoir,213.61111111111111,n_variables,,,both_blank
+36,Reservoir,213.61111111111111,construction_date,,,both_blank
+36,Reservoir,213.61111111111111,date_start_year,,,both_blank
+36,Reservoir,213.61111111111111,date_end_year,,,both_blank
+36,Reservoir,213.61111111111111,variables_overlap,,,both_blank
+37,Groundwater,326.92,n_locations,1,1,correct
+37,Groundwater,326.92,location,27S/23E-1R3 M,27S/23E-1R3,correct
+37,Groundwater,326.92,location_type,well_number,well_number,correct
+37,Groundwater,326.92,water_source,U.S. Bureau of Reclamation,,missed
+37,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+37,Groundwater,326.92,date_start,1966-01-18,1966-01-18,correct
+37,Groundwater,326.92,date_end,1968-12-18,1968-11-18,wrong
+37,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+37,Groundwater,326.92,variables,water_level,water_level,correct
+37,Groundwater,326.92,n_measurements,35,35,correct
+37,Groundwater,326.92,n_variables,35,38,wrong
+37,Groundwater,326.92,construction_date,,,both_blank
+37,Groundwater,326.92,date_start_year,1966-01-18,1966-01-18,correct
+37,Groundwater,326.92,date_end_year,1968-12-18,1968-11-18,correct
+37,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+38,Reservoir,213.61111111111111,n_locations,1,1,correct
+38,Reservoir,213.61111111111111,location,"Lat 39°48'50"", long 122°20'10""","39°48'50"" long 122°20'10""",correct
+38,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+38,Reservoir,213.61111111111111,water_source,Black Butte Reservoir,Stony Creek,wrong
+38,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+38,Reservoir,213.61111111111111,date_start,1963-10,1963-10,correct
+38,Reservoir,213.61111111111111,date_end,1964-09,1964-09,correct
+38,Reservoir,213.61111111111111,temporal_resolution,daily,daily,correct
+38,Reservoir,213.61111111111111,variables,contents;elevation;evaporation,contents;elevation;evaporation,correct
+38,Reservoir,213.61111111111111,n_measurements,360,372,correct
+38,Reservoir,213.61111111111111,n_variables,394,394,correct
+38,Reservoir,213.61111111111111,construction_date,,,both_blank
+38,Reservoir,213.61111111111111,date_start_year,1963-10,1963-10,correct
+38,Reservoir,213.61111111111111,date_end_year,1964-09,1964-09,correct
+38,Reservoir,213.61111111111111,variables_overlap,contents;elevation;evaporation,contents;elevation;evaporation,correct
+39,Stream Discharge,2090.725,n_locations,1,1,correct
+39,Stream Discharge,2090.725,location,"Sacramento River near Red Bluff, Calif.","SACRAMENTO RIVER NEAR RED BLUFF, CALIF.",correct
+39,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+39,Stream Discharge,2090.725,water_source,Sacramento River,SACRAMENTO RIVER,correct
+39,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+39,Stream Discharge,2090.725,date_start,1930-10,1930-10,correct
+39,Stream Discharge,2090.725,date_end,1931-09,1931-09,correct
+39,Stream Discharge,2090.725,temporal_resolution,monthly,monthly,correct
+39,Stream Discharge,2090.725,variables,discharge,discharge,correct
+39,Stream Discharge,2090.725,n_measurements,36,48,wrong
+39,Stream Discharge,2090.725,n_variables,52,52,correct
+39,Stream Discharge,2090.725,construction_date,,,both_blank
+39,Stream Discharge,2090.725,date_start_year,1930-10,1930-10,correct
+39,Stream Discharge,2090.725,date_end_year,1931-09,1931-09,correct
+39,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+40,Stream Discharge,2090.725,n_locations,1,1,correct
+40,Stream Discharge,2090.725,location,"Lat 36°52'29"", long 119°08'27""","Lat 36°52'29"" long 119°08'27""",correct
+40,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+40,Stream Discharge,2090.725,water_source,Kings River,KINGS RIVER,correct
+40,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+40,Stream Discharge,2090.725,date_start,1972-10-01,1972-10,correct
+40,Stream Discharge,2090.725,date_end,1973-09-30,1973-09,correct
+40,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+40,Stream Discharge,2090.725,variables,discharge,discharge,correct
+40,Stream Discharge,2090.725,n_measurements,365,365,correct
+40,Stream Discharge,2090.725,n_variables,463,465,correct
+40,Stream Discharge,2090.725,construction_date,,,both_blank
+40,Stream Discharge,2090.725,date_start_year,1972-10-01,1972-10,correct
+40,Stream Discharge,2090.725,date_end_year,1973-09-30,1973-09,correct
+40,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+41,Groundwater,326.92,n_locations,1,1,correct
+41,Groundwater,326.92,location,2615E1,2615E1,correct
+41,Groundwater,326.92,location_type,well_number,well_number,correct
+41,Groundwater,326.92,water_source,E. W. Hammer,E. W. Hammer,correct
+41,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+41,Groundwater,326.92,date_start,1926-04-20,1926-04-20,correct
+41,Groundwater,326.92,date_end,1926-04-20,1926-04-20,correct
+41,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+41,Groundwater,326.92,variables,water_level,water_level,correct
+41,Groundwater,326.92,n_measurements,1,2,correct
+41,Groundwater,326.92,n_variables,2,2,correct
+41,Groundwater,326.92,construction_date,,,both_blank
+41,Groundwater,326.92,date_start_year,1926-04-20,1926-04-20,correct
+41,Groundwater,326.92,date_end_year,1926-04-20,1926-04-20,correct
+41,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+42,Stream Discharge,2090.725,n_locations,1,1,correct
+42,Stream Discharge,2090.725,location,11325500,11325500,correct
+42,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+42,Stream Discharge,2090.725,water_source,MOKELUMNE RIVER,MOKELUMNE RIVER,correct
+42,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+42,Stream Discharge,2090.725,date_start,1977-10-17,1977-10,correct
+42,Stream Discharge,2090.725,date_end,1978-09-06,1978-09,correct
+42,Stream Discharge,2090.725,temporal_resolution,discrete,discrete,correct
+42,Stream Discharge,2090.725,variables,water_chemistry,water_chemistry,correct
+42,Stream Discharge,2090.725,n_measurements,87,92,wrong
+42,Stream Discharge,2090.725,n_variables,87,92,wrong
+42,Stream Discharge,2090.725,construction_date,,,both_blank
+42,Stream Discharge,2090.725,date_start_year,1977-10-17,1977-10,correct
+42,Stream Discharge,2090.725,date_end_year,1978-09-06,1978-09,correct
+42,Stream Discharge,2090.725,variables_overlap,water_chemistry,water_chemistry,correct
+43,Small types,222.41176470588235,n_locations,1,1,correct
+43,Small types,222.41176470588235,location,"lat. 37°51'20"", long. 120°38'15""","lat. 37°51'20"", long. 120°58'15""",wrong
+43,Small types,222.41176470588235,location_type,coordinates,coordinates,correct
+43,Small types,222.41176470588235,water_source,South San Joaquin canal,South San Joaquin canal,correct
+43,Small types,222.41176470588235,data_type,Irrigation,Irrigation,correct
+43,Small types,222.41176470588235,date_start,1937-10,1937-10,correct
+43,Small types,222.41176470588235,date_end,1938-09,1938-09,correct
+43,Small types,222.41176470588235,temporal_resolution,daily,daily,correct
+43,Small types,222.41176470588235,variables,discharge,discharge,correct
+43,Small types,222.41176470588235,n_measurements,306,300,correct
+43,Small types,222.41176470588235,n_variables,306,302,correct
+43,Small types,222.41176470588235,construction_date,,,both_blank
+43,Small types,222.41176470588235,date_start_year,1937-10,1937-10,correct
+43,Small types,222.41176470588235,date_end_year,1938-09,1938-09,correct
+43,Small types,222.41176470588235,variables_overlap,discharge,discharge,correct
+44,Groundwater,326.92,n_locations,1,1,correct
+44,Groundwater,326.92,location,S20/53-24caa1,S20/53-24caa1,correct
+44,Groundwater,326.92,location_type,well_number,well_number,correct
+44,Groundwater,326.92,water_source,Ray Thomas,Ray Thomas,correct
+44,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+44,Groundwater,326.92,date_start,1952-01-01,1952-01-01,correct
+44,Groundwater,326.92,date_end,1952-12-20,1952-12-20,correct
+44,Groundwater,326.92,temporal_resolution,daily,daily,correct
+44,Groundwater,326.92,variables,water_level,water_level,correct
+44,Groundwater,326.92,n_measurements,204,204,correct
+44,Groundwater,326.92,n_variables,204,204,correct
+44,Groundwater,326.92,construction_date,,,both_blank
+44,Groundwater,326.92,date_start_year,1952-01-01,1952-01-01,correct
+44,Groundwater,326.92,date_end_year,1952-12-20,1952-12-20,correct
+44,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+45,Reservoir,213.61111111111111,n_locations,1,1,correct
+45,Reservoir,213.61111111111111,location,"Lat 35°20'14"", long 120°30'08""","Lat 35°20'14"", long 120°30'08""",correct
+45,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+45,Reservoir,213.61111111111111,water_source,SANTA MARGARITA LAKE,Salinas River,wrong
+45,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+45,Reservoir,213.61111111111111,date_start,1968-10-01,1968-10,correct
+45,Reservoir,213.61111111111111,date_end,1969-09-30,1969-09,correct
+45,Reservoir,213.61111111111111,temporal_resolution,daily,daily,correct
+45,Reservoir,213.61111111111111,variables,contents;elevation;other,contents;elevation,wrong
+45,Reservoir,213.61111111111111,n_measurements,429,444,correct
+45,Reservoir,213.61111111111111,n_variables,469,468,correct
+45,Reservoir,213.61111111111111,construction_date,,1941,extra
+45,Reservoir,213.61111111111111,date_start_year,1968-10-01,1968-10,correct
+45,Reservoir,213.61111111111111,date_end_year,1969-09-30,1969-09,correct
+45,Reservoir,213.61111111111111,variables_overlap,contents;elevation;other,contents;elevation,correct
+46,Small types,222.41176470588235,n_locations,1,1,correct
+46,Small types,222.41176470588235,location,,,both_blank
+46,Small types,222.41176470588235,location_type,,,both_blank
+46,Small types,222.41176470588235,water_source,,,both_blank
+46,Small types,222.41176470588235,data_type,Not Water Related,Not Water Related,correct
+46,Small types,222.41176470588235,date_start,,,both_blank
+46,Small types,222.41176470588235,date_end,,,both_blank
+46,Small types,222.41176470588235,temporal_resolution,,,both_blank
+46,Small types,222.41176470588235,variables,,,both_blank
+46,Small types,222.41176470588235,n_measurements,,,both_blank
+46,Small types,222.41176470588235,n_variables,,,both_blank
+46,Small types,222.41176470588235,construction_date,,,both_blank
+46,Small types,222.41176470588235,date_start_year,,,both_blank
+46,Small types,222.41176470588235,date_end_year,,,both_blank
+46,Small types,222.41176470588235,variables_overlap,,,both_blank
+47,Stream Discharge,2090.725,n_locations,1,1,correct
+47,Stream Discharge,2090.725,location,"Lat 37°51'00"", long 120°38'15""","Lat 37°51'00"" long 120°38'15""",correct
+47,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+47,Stream Discharge,2090.725,water_source,Stanislaus River,Stanislaus River,correct
+47,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+47,Stream Discharge,2090.725,date_start,1960-10-01,1960-10,correct
+47,Stream Discharge,2090.725,date_end,1964-12-24,1965-09,wrong
+47,Stream Discharge,2090.725,temporal_resolution,annual,annual,correct
+47,Stream Discharge,2090.725,variables,discharge;gage_height,discharge;gage_height,correct
+47,Stream Discharge,2090.725,n_measurements,15,21,wrong
+47,Stream Discharge,2090.725,n_variables,15,21,wrong
+47,Stream Discharge,2090.725,construction_date,,,both_blank
+47,Stream Discharge,2090.725,date_start_year,1960-10-01,1960-10,correct
+47,Stream Discharge,2090.725,date_end_year,1964-12-24,1965-09,wrong
+47,Stream Discharge,2090.725,variables_overlap,discharge;gage_height,discharge;gage_height,correct
+48,Reservoir,213.61111111111111,n_locations,1,1,correct
+48,Reservoir,213.61111111111111,location,"Hyatt Prairie Reservoir near Ashland, Oreg.","HYATT PRAIRIE RESERVOIR NEAR ASHLAND, OREG.",correct
+48,Reservoir,213.61111111111111,location_type,station_name,station_name,correct
+48,Reservoir,213.61111111111111,water_source,Hyatt Prairie Reservoir,HYATT PRAIRIE RESERVOIR,correct
+48,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+48,Reservoir,213.61111111111111,date_start,1932-09-30,1932-09,correct
+48,Reservoir,213.61111111111111,date_end,1933-09-30,1933-09,correct
+48,Reservoir,213.61111111111111,temporal_resolution,monthly,monthly,correct
+48,Reservoir,213.61111111111111,variables,contents;elevation,elevation;contents,correct
+48,Reservoir,213.61111111111111,n_measurements,12,97,wrong
+48,Reservoir,213.61111111111111,n_variables,22,99,wrong
+48,Reservoir,213.61111111111111,construction_date,,,both_blank
+48,Reservoir,213.61111111111111,date_start_year,1932-09-30,1932-09,correct
+48,Reservoir,213.61111111111111,date_end_year,1933-09-30,1933-09,correct
+48,Reservoir,213.61111111111111,variables_overlap,contents;elevation,elevation;contents,correct
+49,Small types,222.41176470588235,n_locations,1,11,wrong
+49,Small types,222.41176470588235,location,,"Granite Creek near Prescott, Ariz.",extra
+49,Small types,222.41176470588235,location_type,,station_name,extra
+49,Small types,222.41176470588235,water_source,,Granite Creek,extra
+49,Small types,222.41176470588235,data_type,Not Water Related,Stream Discharge,wrong
+49,Small types,222.41176470588235,date_start,,1932,extra
+49,Small types,222.41176470588235,date_end,,1938,extra
+49,Small types,222.41176470588235,temporal_resolution,,annual,extra
+49,Small types,222.41176470588235,variables,,discharge,extra
+49,Small types,222.41176470588235,n_measurements,,,both_blank
+49,Small types,222.41176470588235,n_variables,,,both_blank
+49,Small types,222.41176470588235,construction_date,,,both_blank
+49,Small types,222.41176470588235,date_start_year,,1932,extra
+49,Small types,222.41176470588235,date_end_year,,1938,extra
+49,Small types,222.41176470588235,variables_overlap,,discharge,extra
+50,Groundwater,326.92,n_locations,2,2,correct
+50,Groundwater,163.46,location,at Corning municipal plant,Corning municipal plant,correct
+50,Groundwater,163.46,location_type,named_place,station_name,wrong
+50,Groundwater,163.46,water_source,three wells (190 to 320 feet deep) at Corning municipal plant,Corning municipal plant,correct
+50,Groundwater,163.46,data_type,Groundwater,Groundwater,correct
+50,Groundwater,163.46,date_start,1913-11-17,1913-11-17,correct
+50,Groundwater,163.46,date_end,1913-11-17,1913-11-17,correct
+50,Groundwater,163.46,temporal_resolution,discrete,discrete,correct
+50,Groundwater,163.46,variables,water_chemistry,water_chemistry,correct
+50,Groundwater,163.46,n_measurements,16,,missed
+50,Groundwater,163.46,n_variables,16,,missed
+50,Groundwater,163.46,construction_date,,,both_blank
+50,Groundwater,163.46,date_start_year,1913-11-17,1913-11-17,correct
+50,Groundwater,163.46,date_end_year,1913-11-17,1913-11-17,correct
+50,Groundwater,163.46,variables_overlap,water_chemistry,water_chemistry,correct
+50,Groundwater,163.46,location,at; 3 miles north of No. 2 pumping plant of the Richfield Land Co.; Corning,No. 2 pumping plant of the Richfield Land Co.,correct
+50,Groundwater,163.46,location_type,named_place,station_name,wrong
+50,Groundwater,163.46,water_source,four wells (one dug 44 feet deep and three about 250 feet deep) at No. 2 pumping plant of the Richfield Land Co.,No. 2 pumping plant of the Richfield Land Co.,correct
+50,Groundwater,163.46,data_type,Groundwater,Groundwater,correct
+50,Groundwater,163.46,date_start,1913-11-22,1913-11-22,correct
+50,Groundwater,163.46,date_end,1913-11-22,1913-11-22,correct
+50,Groundwater,163.46,temporal_resolution,discrete,discrete,correct
+50,Groundwater,163.46,variables,water_chemistry,water_chemistry,correct
+50,Groundwater,163.46,n_measurements,7,,missed
+50,Groundwater,163.46,n_variables,7,,missed
+50,Groundwater,163.46,construction_date,,,both_blank
+50,Groundwater,163.46,date_start_year,1913-11-22,1913-11-22,correct
+50,Groundwater,163.46,date_end_year,1913-11-22,1913-11-22,correct
+50,Groundwater,163.46,variables_overlap,water_chemistry,water_chemistry,correct
+51,Stream Discharge,2090.725,n_locations,1,1,correct
+51,Stream Discharge,2090.725,location,"Lat 38°26'10"", long 109°21'15""","Lat 38°26'10"", long 109°21'15""",correct
+51,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+51,Stream Discharge,2090.725,water_source,Pack Creek,Pack Creek,correct
+51,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+51,Stream Discharge,2090.725,date_start,1954-10-08,1954-10,correct
+51,Stream Discharge,2090.725,date_end,1959-09-16,1959-09,correct
+51,Stream Discharge,2090.725,temporal_resolution,annual,discrete,wrong
+51,Stream Discharge,2090.725,variables,gage_height;discharge,gage_height;discharge,correct
+51,Stream Discharge,2090.725,n_measurements,26,26,correct
+51,Stream Discharge,2090.725,n_variables,26,26,correct
+51,Stream Discharge,2090.725,construction_date,,,both_blank
+51,Stream Discharge,2090.725,date_start_year,1954-10-08,1954-10,correct
+51,Stream Discharge,2090.725,date_end_year,1959-09-16,1959-09,correct
+51,Stream Discharge,2090.725,variables_overlap,gage_height;discharge,gage_height;discharge,correct
+52,Groundwater,326.92,n_locations,18,18,correct
+52,Groundwater,65.384,location,"latitude 32 52 50, longitude 114 51 45",32 52 50 114 51 45,correct
+52,Groundwater,65.384,location_type,coordinates,coordinates,correct
+52,Groundwater,65.384,water_source,,,both_blank
+52,Groundwater,65.384,data_type,Water Quality,Water Quality,correct
+52,Groundwater,65.384,date_start,,,both_blank
+52,Groundwater,65.384,date_end,,,both_blank
+52,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+52,Groundwater,65.384,variables,other,water_chemistry,wrong
+52,Groundwater,65.384,n_measurements,0,,both_blank
+52,Groundwater,65.384,n_variables,4,,missed
+52,Groundwater,65.384,construction_date,,,both_blank
+52,Groundwater,65.384,date_start_year,,,both_blank
+52,Groundwater,65.384,date_end_year,,,both_blank
+52,Groundwater,65.384,variables_overlap,other,water_chemistry,wrong
+52,Groundwater,65.384,location,"latitude 32 44 43, longitude 115 59 30",32 44 43 115 59 30,correct
+52,Groundwater,65.384,location_type,coordinates,coordinates,correct
+52,Groundwater,65.384,water_source,,,both_blank
+52,Groundwater,65.384,data_type,Water Quality,Water Quality,correct
+52,Groundwater,65.384,date_start,,,both_blank
+52,Groundwater,65.384,date_end,,,both_blank
+52,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+52,Groundwater,65.384,variables,other,water_chemistry,wrong
+52,Groundwater,65.384,n_measurements,0,,both_blank
+52,Groundwater,65.384,n_variables,4,,missed
+52,Groundwater,65.384,construction_date,,,both_blank
+52,Groundwater,65.384,date_start_year,,,both_blank
+52,Groundwater,65.384,date_end_year,,,both_blank
+52,Groundwater,65.384,variables_overlap,other,water_chemistry,wrong
+52,Groundwater,65.384,location,"latitude 32 43 45, longitude 116 01 00",32 43 45 116 01 00,correct
+52,Groundwater,65.384,location_type,coordinates,coordinates,correct
+52,Groundwater,65.384,water_source,,,both_blank
+52,Groundwater,65.384,data_type,Water Quality,Water Quality,correct
+52,Groundwater,65.384,date_start,,,both_blank
+52,Groundwater,65.384,date_end,,,both_blank
+52,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+52,Groundwater,65.384,variables,other,water_chemistry,wrong
+52,Groundwater,65.384,n_measurements,0,,both_blank
+52,Groundwater,65.384,n_variables,4,,missed
+52,Groundwater,65.384,construction_date,,,both_blank
+52,Groundwater,65.384,date_start_year,,,both_blank
+52,Groundwater,65.384,date_end_year,,,both_blank
+52,Groundwater,65.384,variables_overlap,other,water_chemistry,wrong
+52,Groundwater,65.384,location,"latitude 32 44 16, longitude 115 59 41",32 44 16 115 59 41,correct
+52,Groundwater,65.384,location_type,coordinates,coordinates,correct
+52,Groundwater,65.384,water_source,,,both_blank
+52,Groundwater,65.384,data_type,Water Quality,Water Quality,correct
+52,Groundwater,65.384,date_start,,,both_blank
+52,Groundwater,65.384,date_end,,,both_blank
+52,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+52,Groundwater,65.384,variables,other,water_chemistry,wrong
+52,Groundwater,65.384,n_measurements,0,,both_blank
+52,Groundwater,65.384,n_variables,2,,missed
+52,Groundwater,65.384,construction_date,,,both_blank
+52,Groundwater,65.384,date_start_year,,,both_blank
+52,Groundwater,65.384,date_end_year,,,both_blank
+52,Groundwater,65.384,variables_overlap,other,water_chemistry,wrong
+52,Groundwater,65.384,location,"latitude 32 44 01, longitude 115 59 32",32 44 01 115 59 32,correct
+52,Groundwater,65.384,location_type,coordinates,coordinates,correct
+52,Groundwater,65.384,water_source,,,both_blank
+52,Groundwater,65.384,data_type,Water Quality,Water Quality,correct
+52,Groundwater,65.384,date_start,,,both_blank
+52,Groundwater,65.384,date_end,,,both_blank
+52,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+52,Groundwater,65.384,variables,other,water_chemistry,wrong
+52,Groundwater,65.384,n_measurements,0,,both_blank
+52,Groundwater,65.384,n_variables,2,,missed
+52,Groundwater,65.384,construction_date,,,both_blank
+52,Groundwater,65.384,date_start_year,,,both_blank
+52,Groundwater,65.384,date_end_year,,,both_blank
+52,Groundwater,65.384,variables_overlap,other,water_chemistry,wrong
+53,Reservoir,213.61111111111111,n_locations,1,1,correct
+53,Reservoir,213.61111111111111,location,"Lat 36°49'55"", long 119°19'25""","Lat 36°49'55"" long 119°19'25""",correct
+53,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+53,Reservoir,213.61111111111111,water_source,Pine Flat Reservoir,Kings River,wrong
+53,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+53,Reservoir,213.61111111111111,date_start,1956-10-01,1956-10,correct
+53,Reservoir,213.61111111111111,date_end,1957-09-30,1957-09,correct
+53,Reservoir,213.61111111111111,temporal_resolution,daily,daily,correct
+53,Reservoir,213.61111111111111,variables,contents;elevation,contents;elevation,correct
+53,Reservoir,213.61111111111111,n_measurements,377,389,correct
+53,Reservoir,213.61111111111111,n_variables,389,389,correct
+53,Reservoir,213.61111111111111,construction_date,,,both_blank
+53,Reservoir,213.61111111111111,date_start_year,1956-10-01,1956-10,correct
+53,Reservoir,213.61111111111111,date_end_year,1957-09-30,1957-09,correct
+53,Reservoir,213.61111111111111,variables_overlap,contents;elevation,contents;elevation,correct
+54,Groundwater,326.92,n_locations,12,11,wrong
+54,Groundwater,65.384,location,6/11-2A3,coastal zone of the Long Beach-Santa Ana area,wrong
+54,Groundwater,65.384,location_type,well_number,basin_or_area,wrong
+54,Groundwater,65.384,water_source,L. J. Stearns,Stearns J. L.,wrong
+54,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+54,Groundwater,65.384,date_start,,,both_blank
+54,Groundwater,65.384,date_end,,,both_blank
+54,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+54,Groundwater,65.384,variables,well_construction;water_use,well_construction,wrong
+54,Groundwater,65.384,n_measurements,0,,both_blank
+54,Groundwater,65.384,n_variables,2,,missed
+54,Groundwater,65.384,construction_date,,,both_blank
+54,Groundwater,65.384,date_start_year,,,both_blank
+54,Groundwater,65.384,date_end_year,,,both_blank
+54,Groundwater,65.384,variables_overlap,well_construction;water_use,well_construction,correct
+54,Groundwater,65.384,location,6/11-2D1,coastal zone of the Long Beach-Santa Ana area,wrong
+54,Groundwater,65.384,location_type,well_number,basin_or_area,wrong
+54,Groundwater,65.384,water_source,Turley,Turley,correct
+54,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+54,Groundwater,65.384,date_start,,,both_blank
+54,Groundwater,65.384,date_end,,,both_blank
+54,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+54,Groundwater,65.384,variables,well_construction;water_use,well_construction,wrong
+54,Groundwater,65.384,n_measurements,0,,both_blank
+54,Groundwater,65.384,n_variables,3,,missed
+54,Groundwater,65.384,construction_date,,,both_blank
+54,Groundwater,65.384,date_start_year,,,both_blank
+54,Groundwater,65.384,date_end_year,,,both_blank
+54,Groundwater,65.384,variables_overlap,well_construction;water_use,well_construction,correct
+54,Groundwater,65.384,location,6/11-2G2,coastal zone of the Long Beach-Santa Ana area,wrong
+54,Groundwater,65.384,location_type,well_number,basin_or_area,wrong
+54,Groundwater,65.384,water_source,Southern California Water Co.,,missed
+54,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+54,Groundwater,65.384,date_start,,,both_blank
+54,Groundwater,65.384,date_end,,,both_blank
+54,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+54,Groundwater,65.384,variables,well_construction;lithology;water_use,well_construction,wrong
+54,Groundwater,65.384,n_measurements,0,,both_blank
+54,Groundwater,65.384,n_variables,5,,missed
+54,Groundwater,65.384,construction_date,,,both_blank
+54,Groundwater,65.384,date_start_year,,,both_blank
+54,Groundwater,65.384,date_end_year,,,both_blank
+54,Groundwater,65.384,variables_overlap,well_construction;lithology;water_use,well_construction,correct
+54,Groundwater,65.384,location,6/11-2G4,coastal zone of the Long Beach-Santa Ana area,wrong
+54,Groundwater,65.384,location_type,well_number,basin_or_area,wrong
+54,Groundwater,65.384,water_source,Southern California Water Co.,,missed
+54,Groundwater,65.384,data_type,Groundwater,Groundwater,correct
+54,Groundwater,65.384,date_start,,,both_blank
+54,Groundwater,65.384,date_end,,,both_blank
+54,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+54,Groundwater,65.384,variables,well_construction;lithology,well_construction,wrong
+54,Groundwater,65.384,n_measurements,0,,both_blank
+54,Groundwater,65.384,n_variables,4,,missed
+54,Groundwater,65.384,construction_date,,,both_blank
+54,Groundwater,65.384,date_start_year,,,both_blank
+54,Groundwater,65.384,date_end_year,,,both_blank
+54,Groundwater,65.384,variables_overlap,well_construction;lithology,well_construction,correct
+54,Groundwater,65.384,location,6/11-2H3,,missed
+54,Groundwater,65.384,location_type,well_number,,missed
+54,Groundwater,65.384,water_source,L. R. McDowell,,missed
+54,Groundwater,65.384,data_type,Groundwater,,missed
+54,Groundwater,65.384,date_start,,,both_blank
+54,Groundwater,65.384,date_end,,,both_blank
+54,Groundwater,65.384,temporal_resolution,no_time_series,,missed
+54,Groundwater,65.384,variables,well_construction;lithology;water_use,,missed
+54,Groundwater,65.384,n_measurements,0,,both_blank
+54,Groundwater,65.384,n_variables,5,,missed
+54,Groundwater,65.384,construction_date,,,both_blank
+54,Groundwater,65.384,date_start_year,,,both_blank
+54,Groundwater,65.384,date_end_year,,,both_blank
+54,Groundwater,65.384,variables_overlap,well_construction;lithology;water_use,,missed
+55,Groundwater,326.92,n_locations,1,1,correct
+55,Groundwater,326.92,location,481L1,481L1,correct
+55,Groundwater,326.92,location_type,well_number,well_number,correct
+55,Groundwater,326.92,water_source,,,both_blank
+55,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+55,Groundwater,326.92,date_start,1928-04-26,1928-04,correct
+55,Groundwater,326.92,date_end,1929-04-12,1929-04,correct
+55,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+55,Groundwater,326.92,variables,water_level,water_level,correct
+55,Groundwater,326.92,n_measurements,5,11,wrong
+55,Groundwater,326.92,n_variables,10,19,wrong
+55,Groundwater,326.92,construction_date,,,both_blank
+55,Groundwater,326.92,date_start_year,1928-04-26,1928-04,correct
+55,Groundwater,326.92,date_end_year,1929-04-12,1929-04,correct
+55,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+56,Small types,222.41176470588235,n_locations,9,1,wrong
+56,Small types,44.48235294117647,location,Subregion J,,missed
+56,Small types,44.48235294117647,location_type,basin_or_area,,missed
+56,Small types,44.48235294117647,water_source,Local pumping from delta (Sacramento-San Joaquin Rivers system),,missed
+56,Small types,44.48235294117647,data_type,Stream Discharge,Not Water Related,wrong
+56,Small types,44.48235294117647,date_start,1970,,missed
+56,Small types,44.48235294117647,date_end,1970,,missed
+56,Small types,44.48235294117647,temporal_resolution,annual,,missed
+56,Small types,44.48235294117647,variables,other,,missed
+56,Small types,44.48235294117647,n_measurements,2,,missed
+56,Small types,44.48235294117647,n_variables,3,,missed
+56,Small types,44.48235294117647,construction_date,,,both_blank
+56,Small types,44.48235294117647,date_start_year,1970,,missed
+56,Small types,44.48235294117647,date_end_year,1970,,missed
+56,Small types,44.48235294117647,variables_overlap,other,,missed
+56,Small types,44.48235294117647,location,Subregion L,,missed
+56,Small types,44.48235294117647,location_type,basin_or_area,,missed
+56,Small types,44.48235294117647,water_source,"Local inflow to terminal reservoirs of Hetch Hetchy Aqueduct (Crystal Springs Reservoir, Pilarcitos Lake, and San Andreas Lake)",,missed
+56,Small types,44.48235294117647,data_type,Reservoir,,missed
+56,Small types,44.48235294117647,date_start,1970,,missed
+56,Small types,44.48235294117647,date_end,1970,,missed
+56,Small types,44.48235294117647,temporal_resolution,annual,,missed
+56,Small types,44.48235294117647,variables,other,,missed
+56,Small types,44.48235294117647,n_measurements,2,,missed
+56,Small types,44.48235294117647,n_variables,3,,missed
+56,Small types,44.48235294117647,construction_date,,,both_blank
+56,Small types,44.48235294117647,date_start_year,1970,,missed
+56,Small types,44.48235294117647,date_end_year,1970,,missed
+56,Small types,44.48235294117647,variables_overlap,other,,missed
+56,Small types,44.48235294117647,location,Subregion M,,missed
+56,Small types,44.48235294117647,location_type,basin_or_area,,missed
+56,Small types,44.48235294117647,water_source,Del Valle Reservoir (Arroyo Valle),,missed
+56,Small types,44.48235294117647,data_type,Reservoir,,missed
+56,Small types,44.48235294117647,date_start,1970,,missed
+56,Small types,44.48235294117647,date_end,1970,,missed
+56,Small types,44.48235294117647,temporal_resolution,annual,,missed
+56,Small types,44.48235294117647,variables,other,,missed
+56,Small types,44.48235294117647,n_measurements,2,,missed
+56,Small types,44.48235294117647,n_variables,3,,missed
+56,Small types,44.48235294117647,construction_date,,,both_blank
+56,Small types,44.48235294117647,date_start_year,1970,,missed
+56,Small types,44.48235294117647,date_end_year,1970,,missed
+56,Small types,44.48235294117647,variables_overlap,other,,missed
+56,Small types,44.48235294117647,location,Subregion N,,missed
+56,Small types,44.48235294117647,location_type,basin_or_area,,missed
+56,Small types,44.48235294117647,water_source,"Santa Clara Valley reservoir system (Lexington, Guadalupe, Almaden, Calero, Coyote, Anderson, and Stevens Creek Reservoirs)",,missed
+56,Small types,44.48235294117647,data_type,Reservoir,,missed
+56,Small types,44.48235294117647,date_start,1970,,missed
+56,Small types,44.48235294117647,date_end,1970,,missed
+56,Small types,44.48235294117647,temporal_resolution,annual,,missed
+56,Small types,44.48235294117647,variables,other,,missed
+56,Small types,44.48235294117647,n_measurements,2,,missed
+56,Small types,44.48235294117647,n_variables,3,,missed
+56,Small types,44.48235294117647,construction_date,,,both_blank
+56,Small types,44.48235294117647,date_start_year,1970,,missed
+56,Small types,44.48235294117647,date_end_year,1970,,missed
+56,Small types,44.48235294117647,variables_overlap,other,,missed
+56,Small types,44.48235294117647,location,Subregion O,,missed
+56,Small types,44.48235294117647,location_type,basin_or_area,,missed
+56,Small types,44.48235294117647,water_source,Pacheco Lake (Pacheco Creek),,missed
+56,Small types,44.48235294117647,data_type,Reservoir,,missed
+56,Small types,44.48235294117647,date_start,1970,,missed
+56,Small types,44.48235294117647,date_end,1970,,missed
+56,Small types,44.48235294117647,temporal_resolution,annual,,missed
+56,Small types,44.48235294117647,variables,other,,missed
+56,Small types,44.48235294117647,n_measurements,2,,missed
+56,Small types,44.48235294117647,n_variables,3,,missed
+56,Small types,44.48235294117647,construction_date,,,both_blank
+56,Small types,44.48235294117647,date_start_year,1970,,missed
+56,Small types,44.48235294117647,date_end_year,1970,,missed
+56,Small types,44.48235294117647,variables_overlap,other,,missed
+57,Groundwater,326.92,n_locations,1,1,correct
+57,Groundwater,326.92,location,31/37-1R1,31/37-1R1,correct
+57,Groundwater,326.92,location_type,well_number,well_number,correct
+57,Groundwater,326.92,water_source,"M and R, Cantil Ranch, well 11","M and R, Cantil Ranch, well 11",correct
+57,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+57,Groundwater,326.92,date_start,,,both_blank
+57,Groundwater,326.92,date_end,,,both_blank
+57,Groundwater,326.92,temporal_resolution,no_time_series,no_time_series,correct
+57,Groundwater,326.92,variables,lithology,lithology;well_construction,wrong
+57,Groundwater,326.92,n_measurements,0,10,extra
+57,Groundwater,326.92,n_variables,12,10,correct
+57,Groundwater,326.92,construction_date,,,both_blank
+57,Groundwater,326.92,date_start_year,,,both_blank
+57,Groundwater,326.92,date_end_year,,,both_blank
+57,Groundwater,326.92,variables_overlap,lithology,lithology;well_construction,correct
+58,Stream Discharge,2090.725,n_locations,1,1,correct
+58,Stream Discharge,2090.725,location,"lat. 39°15', long. 123°09'","lat. 39°15', long. 123°09'",correct
+58,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+58,Stream Discharge,2090.725,water_source,East Fork Russian River,East Fork Russian River,correct
+58,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+58,Stream Discharge,2090.725,date_start,1946-10,1946-10,correct
+58,Stream Discharge,2090.725,date_end,1947-09,1947-09,correct
+58,Stream Discharge,2090.725,temporal_resolution,annual,annual,correct
+58,Stream Discharge,2090.725,variables,gage_height;discharge,gage_height;discharge,correct
+58,Stream Discharge,2090.725,n_measurements,32,24,wrong
+58,Stream Discharge,2090.725,n_variables,32,24,wrong
+58,Stream Discharge,2090.725,construction_date,,,both_blank
+58,Stream Discharge,2090.725,date_start_year,1946-10,1946-10,correct
+58,Stream Discharge,2090.725,date_end_year,1947-09,1947-09,correct
+58,Stream Discharge,2090.725,variables_overlap,gage_height;discharge,gage_height;discharge,correct
+59,Stream Discharge,2090.725,n_locations,1,1,correct
+59,Stream Discharge,2090.725,location,"Lat 35°34'35"", long 120°59'50""","Lat 35°34'35"", long 120°59'50""",correct
+59,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+59,Stream Discharge,2090.725,water_source,Santa Rosa Creek,Santa Rosa Creek,correct
+59,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+59,Stream Discharge,2090.725,date_start,1958-10,1958-10,correct
+59,Stream Discharge,2090.725,date_end,1959-09,1959-09,correct
+59,Stream Discharge,2090.725,temporal_resolution,annual,annual,correct
+59,Stream Discharge,2090.725,variables,gage_height;discharge,gage_height;discharge,correct
+59,Stream Discharge,2090.725,n_measurements,22,18,wrong
+59,Stream Discharge,2090.725,n_variables,22,18,wrong
+59,Stream Discharge,2090.725,construction_date,,,both_blank
+59,Stream Discharge,2090.725,date_start_year,1958-10,1958-10,correct
+59,Stream Discharge,2090.725,date_end_year,1959-09,1959-09,correct
+59,Stream Discharge,2090.725,variables_overlap,gage_height;discharge,gage_height;discharge,correct
+60,Small types,222.41176470588235,n_locations,1,1,correct
+60,Small types,222.41176470588235,location,Eaton Canyon,Eaton Canyon,correct
+60,Small types,222.41176470588235,location_type,named_place,station_name,wrong
+60,Small types,222.41176470588235,water_source,Eaton Canyon,Eaton Canyon,correct
+60,Small types,222.41176470588235,data_type,Stream Discharge,Irrigation,wrong
+60,Small types,222.41176470588235,date_start,1904-04,1904-04,correct
+60,Small types,222.41176470588235,date_end,1905-08,1905-08,correct
+60,Small types,222.41176470588235,temporal_resolution,monthly,monthly,correct
+60,Small types,222.41176470588235,variables,discharge,discharge,correct
+60,Small types,222.41176470588235,n_measurements,14,14,correct
+60,Small types,222.41176470588235,n_variables,14,14,correct
+60,Small types,222.41176470588235,construction_date,,,both_blank
+60,Small types,222.41176470588235,date_start_year,1904-04,1904-04,correct
+60,Small types,222.41176470588235,date_end_year,1905-08,1905-08,correct
+60,Small types,222.41176470588235,variables_overlap,discharge,discharge,correct
+61,Reservoir,213.61111111111111,n_locations,1,1,correct
+61,Reservoir,213.61111111111111,location,,,both_blank
+61,Reservoir,213.61111111111111,location_type,,,both_blank
+61,Reservoir,213.61111111111111,water_source,,,both_blank
+61,Reservoir,213.61111111111111,data_type,Not Water Related,Not Water Related,correct
+61,Reservoir,213.61111111111111,date_start,,,both_blank
+61,Reservoir,213.61111111111111,date_end,,,both_blank
+61,Reservoir,213.61111111111111,temporal_resolution,,,both_blank
+61,Reservoir,213.61111111111111,variables,,,both_blank
+61,Reservoir,213.61111111111111,n_measurements,,,both_blank
+61,Reservoir,213.61111111111111,n_variables,,,both_blank
+61,Reservoir,213.61111111111111,construction_date,,,both_blank
+61,Reservoir,213.61111111111111,date_start_year,,,both_blank
+61,Reservoir,213.61111111111111,date_end_year,,,both_blank
+61,Reservoir,213.61111111111111,variables_overlap,,,both_blank
+62,Groundwater,326.92,n_locations,1,1,correct
+62,Groundwater,326.92,location,7/35-35A4,7/35-35A4,correct
+62,Groundwater,326.92,location_type,well_number,well_number,correct
+62,Groundwater,326.92,water_source,"U. S. Geol. Survey, Gus Aquistapace property","U. S. Geol. Survey, Gus Aquistspace property",wrong
+62,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+62,Groundwater,326.92,date_start,,1955-01-25,extra
+62,Groundwater,326.92,date_end,,1955-12-27,extra
+62,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+62,Groundwater,326.92,variables,water_level;well_construction,water_level,wrong
+62,Groundwater,326.92,n_measurements,12,28,wrong
+62,Groundwater,326.92,n_variables,12,29,wrong
+62,Groundwater,326.92,construction_date,,,both_blank
+62,Groundwater,326.92,date_start_year,,1955-01-25,extra
+62,Groundwater,326.92,date_end_year,,1955-12-27,extra
+62,Groundwater,326.92,variables_overlap,water_level;well_construction,water_level,correct
+63,Groundwater,326.92,n_locations,4,4,correct
+63,Groundwater,81.73,location,1S/4-22Q1,1:/4 - 2201 (E -96g),wrong
+63,Groundwater,81.73,location_type,well_number,well_number,correct
+63,Groundwater,81.73,water_source,1S/4-22Q1 (E-96g),1:/4 - 2201 (E -96g),wrong
+63,Groundwater,81.73,data_type,Groundwater,Groundwater,correct
+63,Groundwater,81.73,date_start,1951-01-30,1951-01-30,correct
+63,Groundwater,81.73,date_end,1951-01-30,1951-01-30,correct
+63,Groundwater,81.73,temporal_resolution,discrete,discrete,correct
+63,Groundwater,81.73,variables,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,n_measurements,8,,missed
+63,Groundwater,81.73,n_variables,8,,missed
+63,Groundwater,81.73,construction_date,,,both_blank
+63,Groundwater,81.73,date_start_year,1951-01-30,1951-01-30,correct
+63,Groundwater,81.73,date_end_year,1951-01-30,1951-01-30,correct
+63,Groundwater,81.73,variables_overlap,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,location,1S/4-22R1,19/4 - 22R1 (E -98),wrong
+63,Groundwater,81.73,location_type,well_number,well_number,correct
+63,Groundwater,81.73,water_source,1S/4-22R1 (E-98),19/4 - 22R1 (E -98),wrong
+63,Groundwater,81.73,data_type,Groundwater,Groundwater,correct
+63,Groundwater,81.73,date_start,1931-06-13,1931-06-13,correct
+63,Groundwater,81.73,date_end,1931-06-13,1931-06-13,correct
+63,Groundwater,81.73,temporal_resolution,discrete,discrete,correct
+63,Groundwater,81.73,variables,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,n_measurements,10,,missed
+63,Groundwater,81.73,n_variables,10,,missed
+63,Groundwater,81.73,construction_date,,,both_blank
+63,Groundwater,81.73,date_start_year,1931-06-13,1931-06-13,correct
+63,Groundwater,81.73,date_end_year,1931-06-13,1931-06-13,correct
+63,Groundwater,81.73,variables_overlap,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,location,1S/4-23N1,1s/4 - 23N1 (E -99e),correct
+63,Groundwater,81.73,location_type,well_number,well_number,correct
+63,Groundwater,81.73,water_source,1S/4-23N1 (E-99e),1s/4 - 23N1 (E -99e),correct
+63,Groundwater,81.73,data_type,Groundwater,Groundwater,correct
+63,Groundwater,81.73,date_start,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,date_end,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,temporal_resolution,discrete,discrete,correct
+63,Groundwater,81.73,variables,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,n_measurements,9,,missed
+63,Groundwater,81.73,n_variables,9,,missed
+63,Groundwater,81.73,construction_date,,,both_blank
+63,Groundwater,81.73,date_start_year,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,date_end_year,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,variables_overlap,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,location,1S/4-26F1,15/4 - 26F1 (E -99),wrong
+63,Groundwater,81.73,location_type,well_number,well_number,correct
+63,Groundwater,81.73,water_source,1S/4-26F1 (E-99),15/4 - 26F1 (E -99),wrong
+63,Groundwater,81.73,data_type,Groundwater,Groundwater,correct
+63,Groundwater,81.73,date_start,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,date_end,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,temporal_resolution,discrete,discrete,correct
+63,Groundwater,81.73,variables,water_chemistry,water_chemistry,correct
+63,Groundwater,81.73,n_measurements,9,,missed
+63,Groundwater,81.73,n_variables,9,,missed
+63,Groundwater,81.73,construction_date,,,both_blank
+63,Groundwater,81.73,date_start_year,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,date_end_year,1952-01-15,1952-01-15,correct
+63,Groundwater,81.73,variables_overlap,water_chemistry,water_chemistry,correct
+64,Stream Discharge,2090.725,n_locations,1,1,correct
+64,Stream Discharge,2090.725,location,"Lat 40°24'30"", long 123°54'00""","40°24'30"" long 123°54'00""",correct
+64,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+64,Stream Discharge,2090.725,water_source,Larabee Creek,Larabee Creek,correct
+64,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+64,Stream Discharge,2090.725,date_start,1964-10-01,1964-10,correct
+64,Stream Discharge,2090.725,date_end,1965-09-30,1965-09,correct
+64,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+64,Stream Discharge,2090.725,variables,discharge,discharge,correct
+64,Stream Discharge,2090.725,n_measurements,365,374,correct
+64,Stream Discharge,2090.725,n_variables,409,410,correct
+64,Stream Discharge,2090.725,construction_date,,,both_blank
+64,Stream Discharge,2090.725,date_start_year,1964-10-01,1964-10,correct
+64,Stream Discharge,2090.725,date_end_year,1965-09-30,1965-09,correct
+64,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+65,Small types,222.41176470588235,n_locations,1,1,correct
+65,Small types,222.41176470588235,location,"Lat. 34°28'10"", long. 120°00'30""","Lat. 34°28'10"", long. 120°00'30""",correct
+65,Small types,222.41176470588235,location_type,coordinates,coordinates,correct
+65,Small types,222.41176470588235,water_source,Spring - Gila Land Company,,missed
+65,Small types,222.41176470588235,data_type,Springs,Springs,correct
+65,Small types,222.41176470588235,date_start,1948-11-24,1949-11,wrong
+65,Small types,222.41176470588235,date_end,1950-04-11,1950-04,correct
+65,Small types,222.41176470588235,temporal_resolution,discrete,discrete,correct
+65,Small types,222.41176470588235,variables,discharge;temperature,discharge;temperature,correct
+65,Small types,222.41176470588235,n_measurements,14,24,wrong
+65,Small types,222.41176470588235,n_variables,14,48,wrong
+65,Small types,222.41176470588235,construction_date,,,both_blank
+65,Small types,222.41176470588235,date_start_year,1948-11-24,1949-11,wrong
+65,Small types,222.41176470588235,date_end_year,1950-04-11,1950-04,correct
+65,Small types,222.41176470588235,variables_overlap,discharge;temperature,discharge;temperature,correct
+66,Stream Discharge,2090.725,n_locations,1,1,correct
+66,Stream Discharge,2090.725,location,"lat. 39°34', long. 121°09'","lat. 39°34', long. 121°09'",correct
+66,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+66,Stream Discharge,2090.725,water_source,Lost Creek,Lost Creek,correct
+66,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+66,Stream Discharge,2090.725,date_start,1938-10-01,1938-10,correct
+66,Stream Discharge,2090.725,date_end,1939-09-30,1939-09,correct
+66,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+66,Stream Discharge,2090.725,variables,discharge,discharge;gage_height,wrong
+66,Stream Discharge,2090.725,n_measurements,365,424,wrong
+66,Stream Discharge,2090.725,n_variables,435,437,correct
+66,Stream Discharge,2090.725,construction_date,,,both_blank
+66,Stream Discharge,2090.725,date_start_year,1938-10-01,1938-10,correct
+66,Stream Discharge,2090.725,date_end_year,1939-09-30,1939-09,correct
+66,Stream Discharge,2090.725,variables_overlap,discharge,discharge;gage_height,correct
+67,Stream Discharge,2090.725,n_locations,2,2,correct
+67,Stream Discharge,1045.3625,location,343040118361801,343040118361801,correct
+67,Stream Discharge,1045.3625,location_type,station_number,station_number,correct
+67,Stream Discharge,1045.3625,water_source,Castaic Creek,Castaic Creek,correct
+67,Stream Discharge,1045.3625,data_type,Stream Discharge,Stream Discharge,correct
+67,Stream Discharge,1045.3625,date_start,1974-08-27,1974-08,correct
+67,Stream Discharge,1045.3625,date_end,1975-06-26,1975-06,correct
+67,Stream Discharge,1045.3625,temporal_resolution,discrete,discrete,correct
+67,Stream Discharge,1045.3625,variables,discharge;water_chemistry,discharge;water_chemistry,correct
+67,Stream Discharge,1045.3625,n_measurements,66,,missed
+67,Stream Discharge,1045.3625,n_variables,66,,missed
+67,Stream Discharge,1045.3625,construction_date,,,both_blank
+67,Stream Discharge,1045.3625,date_start_year,1974-08-27,1974-08,correct
+67,Stream Discharge,1045.3625,date_end_year,1975-06-26,1975-06,correct
+67,Stream Discharge,1045.3625,variables_overlap,discharge;water_chemistry,discharge;water_chemistry,correct
+67,Stream Discharge,1045.3625,location,11108500,11108500,correct
+67,Stream Discharge,1045.3625,location_type,station_number,station_number,correct
+67,Stream Discharge,1045.3625,water_source,Santa Clara River,Santa Clara River,correct
+67,Stream Discharge,1045.3625,data_type,Stream Discharge,Stream Discharge,correct
+67,Stream Discharge,1045.3625,date_start,1974-08-17,1974-08,correct
+67,Stream Discharge,1045.3625,date_end,1974-12-19,1974-12,correct
+67,Stream Discharge,1045.3625,temporal_resolution,discrete,discrete,correct
+67,Stream Discharge,1045.3625,variables,discharge;water_chemistry,discharge;water_chemistry,correct
+67,Stream Discharge,1045.3625,n_measurements,30,,missed
+67,Stream Discharge,1045.3625,n_variables,30,,missed
+67,Stream Discharge,1045.3625,construction_date,,,both_blank
+67,Stream Discharge,1045.3625,date_start_year,1974-08-17,1974-08,correct
+67,Stream Discharge,1045.3625,date_end_year,1974-12-19,1974-12,correct
+67,Stream Discharge,1045.3625,variables_overlap,discharge;water_chemistry,discharge;water_chemistry,correct
+68,Groundwater,326.92,n_locations,1,1,correct
+68,Groundwater,326.92,location,10N/35W-25M1 S,10N/35W-25M1,correct
+68,Groundwater,326.92,location_type,well_number,well_number,correct
+68,Groundwater,326.92,water_source,Union Sugar Company,S. UNION SUGAR COMPANY. DRILLED INDUSTRIAL AND IRRIGATION WATER-TABLE WELL,correct
+68,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+68,Groundwater,326.92,date_start,1966-09-15,1966-09-15,correct
+68,Groundwater,326.92,date_end,1968-10-09,1968-10-09,correct
+68,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+68,Groundwater,326.92,variables,water_level,water_level,correct
+68,Groundwater,326.92,n_measurements,3,3,correct
+68,Groundwater,326.92,n_variables,3,3,correct
+68,Groundwater,326.92,construction_date,,,both_blank
+68,Groundwater,326.92,date_start_year,1966-09-15,1966-09-15,correct
+68,Groundwater,326.92,date_end_year,1968-10-09,1968-10-09,correct
+68,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+69,Groundwater,326.92,n_locations,3,3,correct
+69,Groundwater,108.97333333333334,location,12S/4E-24K1,12S/4E 24K1,correct
+69,Groundwater,108.97333333333334,location_type,well_number,well_number,correct
+69,Groundwater,108.97333333333334,water_source,,,both_blank
+69,Groundwater,108.97333333333334,data_type,Groundwater,Groundwater,correct
+69,Groundwater,108.97333333333334,date_start,1954-01-04,,missed
+69,Groundwater,108.97333333333334,date_end,1954-01-04,,missed
+69,Groundwater,108.97333333333334,temporal_resolution,discrete,discrete,correct
+69,Groundwater,108.97333333333334,variables,water_chemistry,water_chemistry;water_level,wrong
+69,Groundwater,108.97333333333334,n_measurements,15,,missed
+69,Groundwater,108.97333333333334,n_variables,16,,missed
+69,Groundwater,108.97333333333334,construction_date,,,both_blank
+69,Groundwater,108.97333333333334,date_start_year,1954-01-04,,missed
+69,Groundwater,108.97333333333334,date_end_year,1954-01-04,,missed
+69,Groundwater,108.97333333333334,variables_overlap,water_chemistry,water_chemistry;water_level,correct
+69,Groundwater,108.97333333333334,location,12S/5E-34J1,12S/5E 34J1,correct
+69,Groundwater,108.97333333333334,location_type,well_number,well_number,correct
+69,Groundwater,108.97333333333334,water_source,,,both_blank
+69,Groundwater,108.97333333333334,data_type,Groundwater,Groundwater,correct
+69,Groundwater,108.97333333333334,date_start,1952-04-30,,missed
+69,Groundwater,108.97333333333334,date_end,1952-04-30,,missed
+69,Groundwater,108.97333333333334,temporal_resolution,discrete,discrete,correct
+69,Groundwater,108.97333333333334,variables,water_chemistry,water_chemistry;water_level,wrong
+69,Groundwater,108.97333333333334,n_measurements,13,,missed
+69,Groundwater,108.97333333333334,n_variables,13,,missed
+69,Groundwater,108.97333333333334,construction_date,,,both_blank
+69,Groundwater,108.97333333333334,date_start_year,1952-04-30,,missed
+69,Groundwater,108.97333333333334,date_end_year,1952-04-30,,missed
+69,Groundwater,108.97333333333334,variables_overlap,water_chemistry,water_chemistry;water_level,correct
+69,Groundwater,108.97333333333334,location,12S/6E-17X1,12S/6E 17XL,wrong
+69,Groundwater,108.97333333333334,location_type,well_number,well_number,correct
+69,Groundwater,108.97333333333334,water_source,,,both_blank
+69,Groundwater,108.97333333333334,data_type,Groundwater,Groundwater,correct
+69,Groundwater,108.97333333333334,date_start,1954-01-08,,missed
+69,Groundwater,108.97333333333334,date_end,1954-01-08,,missed
+69,Groundwater,108.97333333333334,temporal_resolution,discrete,discrete,correct
+69,Groundwater,108.97333333333334,variables,water_chemistry;temperature,water_chemistry;water_level,wrong
+69,Groundwater,108.97333333333334,n_measurements,16,,missed
+69,Groundwater,108.97333333333334,n_variables,17,,missed
+69,Groundwater,108.97333333333334,construction_date,,,both_blank
+69,Groundwater,108.97333333333334,date_start_year,1954-01-08,,missed
+69,Groundwater,108.97333333333334,date_end_year,1954-01-08,,missed
+69,Groundwater,108.97333333333334,variables_overlap,water_chemistry;temperature,water_chemistry;water_level,correct
+70,Stream Discharge,2090.725,n_locations,1,1,correct
+70,Stream Discharge,2090.725,location,"Warm Creek and Meeks & Daley Canal near Colton, Calif.","Warm Creek and Meeks & Daley Canal near Colton, Calif.",correct
+70,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+70,Stream Discharge,2090.725,water_source,Warm Creek and Meeks & Daley Canal,Warm Creek and Meeks & Daley Canal,correct
+70,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+70,Stream Discharge,2090.725,date_start,1932-10,1932-10,correct
+70,Stream Discharge,2090.725,date_end,1933-09,1933-09,correct
+70,Stream Discharge,2090.725,temporal_resolution,monthly,monthly,correct
+70,Stream Discharge,2090.725,variables,discharge,discharge,correct
+70,Stream Discharge,2090.725,n_measurements,36,48,wrong
+70,Stream Discharge,2090.725,n_variables,52,52,correct
+70,Stream Discharge,2090.725,construction_date,,,both_blank
+70,Stream Discharge,2090.725,date_start_year,1932-10,1932-10,correct
+70,Stream Discharge,2090.725,date_end_year,1933-09,1933-09,correct
+70,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+71,Groundwater,326.92,n_locations,1,1,correct
+71,Groundwater,326.92,location,at foot of Adeline Street Oakland,Western Pacific Railroad Co.'s well,wrong
+71,Groundwater,326.92,location_type,named_place,well_number,wrong
+71,Groundwater,326.92,water_source,Western Pacific Railroad Co.'s well,Western Pacific Railroad Co.'s well,correct
+71,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+71,Groundwater,326.92,date_start,,,both_blank
+71,Groundwater,326.92,date_end,,,both_blank
+71,Groundwater,326.92,temporal_resolution,no_time_series,no_time_series,correct
+71,Groundwater,326.92,variables,lithology,lithology,correct
+71,Groundwater,326.92,n_measurements,0,78,extra
+71,Groundwater,326.92,n_variables,82,78,correct
+71,Groundwater,326.92,construction_date,,,both_blank
+71,Groundwater,326.92,date_start_year,,,both_blank
+71,Groundwater,326.92,date_end_year,,,both_blank
+71,Groundwater,326.92,variables_overlap,lithology,lithology,correct
+72,Small types,222.41176470588235,n_locations,2,2,correct
+72,Small types,111.20588235294117,location,at Santa Barbara,Santa Barbara,correct
+72,Small types,111.20588235294117,location_type,named_place,station_name,wrong
+72,Small types,111.20588235294117,water_source,,,both_blank
+72,Small types,111.20588235294117,data_type,Precipitation,Precipitation,correct
+72,Small types,111.20588235294117,date_start,,1940-07,extra
+72,Small types,111.20588235294117,date_end,1944,1940-07,wrong
+72,Small types,111.20588235294117,temporal_resolution,monthly,annual,wrong
+72,Small types,111.20588235294117,variables,temperature;precipitation;other,precipitation;temperature,wrong
+72,Small types,111.20588235294117,n_measurements,95,,missed
+72,Small types,111.20588235294117,n_variables,113,,missed
+72,Small types,111.20588235294117,construction_date,,,both_blank
+72,Small types,111.20588235294117,date_start_year,,1940-07,extra
+72,Small types,111.20588235294117,date_end_year,1944,1940-07,wrong
+72,Small types,111.20588235294117,variables_overlap,temperature;precipitation;other,precipitation;temperature,correct
+72,Small types,111.20588235294117,location,at Santa Maria,Santa Maria,correct
+72,Small types,111.20588235294117,location_type,named_place,station_name,wrong
+72,Small types,111.20588235294117,water_source,,,both_blank
+72,Small types,111.20588235294117,data_type,Precipitation,Precipitation,correct
+72,Small types,111.20588235294117,date_start,,1940-07,extra
+72,Small types,111.20588235294117,date_end,1944,1940-07,wrong
+72,Small types,111.20588235294117,temporal_resolution,monthly,annual,wrong
+72,Small types,111.20588235294117,variables,temperature;precipitation;other,precipitation;temperature,wrong
+72,Small types,111.20588235294117,n_measurements,96,,missed
+72,Small types,111.20588235294117,n_variables,114,,missed
+72,Small types,111.20588235294117,construction_date,,,both_blank
+72,Small types,111.20588235294117,date_start_year,,1940-07,extra
+72,Small types,111.20588235294117,date_end_year,1944,1940-07,wrong
+72,Small types,111.20588235294117,variables_overlap,temperature;precipitation;other,precipitation;temperature,correct
+73,Groundwater,326.92,n_locations,1,1,correct
+73,Groundwater,326.92,location,7/1E-23A1,PUTAH AREA,wrong
+73,Groundwater,326.92,location_type,well_number,basin_or_area,wrong
+73,Groundwater,326.92,water_source,,,both_blank
+73,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+73,Groundwater,326.92,date_start,1931-05,1931-05,correct
+73,Groundwater,326.92,date_end,1952-07,1952-07,correct
+73,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+73,Groundwater,326.92,variables,water_level,water_level,correct
+73,Groundwater,326.92,n_measurements,191,223,wrong
+73,Groundwater,326.92,n_variables,191,227,wrong
+73,Groundwater,326.92,construction_date,,,both_blank
+73,Groundwater,326.92,date_start_year,1931-05,1931-05,correct
+73,Groundwater,326.92,date_end_year,1952-07,1952-07,correct
+73,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+74,Stream Discharge,2090.725,n_locations,1,1,correct
+74,Stream Discharge,2090.725,location,"Lat 37°01'32"", long 122°07'48""","Lat 37°01'32"" long 122°07'48""",correct
+74,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+74,Stream Discharge,2090.725,water_source,Laguna Creek,LAGUNA CREEK,correct
+74,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+74,Stream Discharge,2090.725,date_start,1974-10-01,1974-10,correct
+74,Stream Discharge,2090.725,date_end,1975-09-30,1975-09,correct
+74,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+74,Stream Discharge,2090.725,variables,discharge,discharge,correct
+74,Stream Discharge,2090.725,n_measurements,365,365,correct
+74,Stream Discharge,2090.725,n_variables,435,437,correct
+74,Stream Discharge,2090.725,construction_date,,,both_blank
+74,Stream Discharge,2090.725,date_start_year,1974-10-01,1974-10,correct
+74,Stream Discharge,2090.725,date_end_year,1975-09-30,1975-09,correct
+74,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+75,Stream Discharge,2090.725,n_locations,1,1,correct
+75,Stream Discharge,2090.725,location,"Lat 34°09'10"", long 117°46'18""","La 34°09'10"" long 117°46'18""",correct
+75,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+75,Stream Discharge,2090.725,water_source,San Dimas Creek,San Dimas Creek,correct
+75,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+75,Stream Discharge,2090.725,date_start,1965-10-01,1965-10,correct
+75,Stream Discharge,2090.725,date_end,1966-09-30,1966-09,correct
+75,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+75,Stream Discharge,2090.725,variables,discharge,discharge,correct
+75,Stream Discharge,2090.725,n_measurements,365,374,correct
+75,Stream Discharge,2090.725,n_variables,409,410,correct
+75,Stream Discharge,2090.725,construction_date,,,both_blank
+75,Stream Discharge,2090.725,date_start_year,1965-10-01,1965-10,correct
+75,Stream Discharge,2090.725,date_end_year,1966-09-30,1966-09,correct
+75,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+76,Stream Discharge,2090.725,n_locations,1,1,correct
+76,Stream Discharge,2090.725,location,at Lake Piru,Lake Piru,correct
+76,Stream Discharge,2090.725,location_type,named_place,station_name,wrong
+76,Stream Discharge,2090.725,water_source,Lake Piru,Lake Piru,correct
+76,Stream Discharge,2090.725,data_type,Reservoir,Reservoir,correct
+76,Stream Discharge,2090.725,date_start,1932,1932,correct
+76,Stream Discharge,2090.725,date_end,1965,1965,correct
+76,Stream Discharge,2090.725,temporal_resolution,annual,annual,correct
+76,Stream Discharge,2090.725,variables,discharge;sediment,sediment,wrong
+76,Stream Discharge,2090.725,n_measurements,68,103,wrong
+76,Stream Discharge,2090.725,n_variables,102,103,correct
+76,Stream Discharge,2090.725,construction_date,,,both_blank
+76,Stream Discharge,2090.725,date_start_year,1932,1932,correct
+76,Stream Discharge,2090.725,date_end_year,1965,1965,correct
+76,Stream Discharge,2090.725,variables_overlap,discharge;sediment,sediment,correct
+77,Stream Discharge,2090.725,n_locations,1,1,correct
+77,Stream Discharge,2090.725,location,"Salt River near Chrysotile, Ariz.","Salt River near Chrysotile, Ariz.",correct
+77,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+77,Stream Discharge,2090.725,water_source,Salt River,Salt River,correct
+77,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+77,Stream Discharge,2090.725,date_start,1951-12-31,1951-12,correct
+77,Stream Discharge,2090.725,date_end,1962-04-17,1962-04,correct
+77,Stream Discharge,2090.725,temporal_resolution,annual,discrete,wrong
+77,Stream Discharge,2090.725,variables,gage_height;discharge,gage_height;discharge,correct
+77,Stream Discharge,2090.725,n_measurements,66,66,correct
+77,Stream Discharge,2090.725,n_variables,66,66,correct
+77,Stream Discharge,2090.725,construction_date,,,both_blank
+77,Stream Discharge,2090.725,date_start_year,1951-12-31,1951-12,correct
+77,Stream Discharge,2090.725,date_end_year,1962-04-17,1962-04,correct
+77,Stream Discharge,2090.725,variables_overlap,gage_height;discharge,gage_height;discharge,correct
+78,Stream Discharge,2090.725,n_locations,1,1,correct
+78,Stream Discharge,2090.725,location,"Shasta River near Montague, Calif.","SHASTA RIVER NEAR MONTAGUE, DAESF.",wrong
+78,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+78,Stream Discharge,2090.725,water_source,Shasta River,SHASTA RIVER,correct
+78,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+78,Stream Discharge,2090.725,date_start,1926-10-01,1926-10,correct
+78,Stream Discharge,2090.725,date_end,1927-09-30,1927-09,correct
+78,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+78,Stream Discharge,2090.725,variables,discharge,discharge,correct
+78,Stream Discharge,2090.725,n_measurements,365,365,correct
+78,Stream Discharge,2090.725,n_variables,365,365,correct
+78,Stream Discharge,2090.725,construction_date,,,both_blank
+78,Stream Discharge,2090.725,date_start_year,1926-10-01,1926-10,correct
+78,Stream Discharge,2090.725,date_end_year,1927-09-30,1927-09,correct
+78,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+79,Stream Discharge,2090.725,n_locations,1,1,correct
+79,Stream Discharge,2090.725,location,,,both_blank
+79,Stream Discharge,2090.725,location_type,,,both_blank
+79,Stream Discharge,2090.725,water_source,,,both_blank
+79,Stream Discharge,2090.725,data_type,Not Water Related,Not Water Related,correct
+79,Stream Discharge,2090.725,date_start,,,both_blank
+79,Stream Discharge,2090.725,date_end,,,both_blank
+79,Stream Discharge,2090.725,temporal_resolution,,,both_blank
+79,Stream Discharge,2090.725,variables,,,both_blank
+79,Stream Discharge,2090.725,n_measurements,,,both_blank
+79,Stream Discharge,2090.725,n_variables,,,both_blank
+79,Stream Discharge,2090.725,construction_date,,,both_blank
+79,Stream Discharge,2090.725,date_start_year,,,both_blank
+79,Stream Discharge,2090.725,date_end_year,,,both_blank
+79,Stream Discharge,2090.725,variables_overlap,,,both_blank
+80,Groundwater,326.92,n_locations,1,1,correct
+80,Groundwater,326.92,location,3N/8E-17L1 S,3N/8F-1711 S.,wrong
+80,Groundwater,326.92,location_type,well_number,well_number,correct
+80,Groundwater,326.92,water_source,U.S. Department of the Navy,U.S. DEPARTMENT OF THE NAVY,correct
+80,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+80,Groundwater,326.92,date_start,1966-11-17,1966-11-17,correct
+80,Groundwater,326.92,date_end,1967-12-19,1967-12-19,correct
+80,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+80,Groundwater,326.92,variables,water_level,water_level,correct
+80,Groundwater,326.92,n_measurements,2,2,correct
+80,Groundwater,326.92,n_variables,2,2,correct
+80,Groundwater,326.92,construction_date,,,both_blank
+80,Groundwater,326.92,date_start_year,1966-11-17,1966-11-17,correct
+80,Groundwater,326.92,date_end_year,1967-12-19,1967-12-19,correct
+80,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+81,Reservoir,213.61111111111111,n_locations,1,1,correct
+81,Reservoir,213.61111111111111,location,"Lat 39°54', long. 121°12'",Lat 39°54' long. 121°12',correct
+81,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+81,Reservoir,213.61111111111111,water_source,Bucks Creek Reservoir,Bucks Creek,correct
+81,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+81,Reservoir,213.61111111111111,date_start,1950-09-30,1950-10,wrong
+81,Reservoir,213.61111111111111,date_end,1951-09-30,1951-09,correct
+81,Reservoir,213.61111111111111,temporal_resolution,monthly,monthly,correct
+81,Reservoir,213.61111111111111,variables,elevation;contents,elevation;contents,correct
+81,Reservoir,213.61111111111111,n_measurements,26,38,wrong
+81,Reservoir,213.61111111111111,n_variables,40,43,wrong
+81,Reservoir,213.61111111111111,construction_date,,,both_blank
+81,Reservoir,213.61111111111111,date_start_year,1950-09-30,1950-10,correct
+81,Reservoir,213.61111111111111,date_end_year,1951-09-30,1951-09,correct
+81,Reservoir,213.61111111111111,variables_overlap,elevation;contents,elevation;contents,correct
+82,Small types,222.41176470588235,n_locations,4,4,correct
+82,Small types,55.60294117647059,location,Eel and Van Duzen River valleys upstream from confluence,Eel and Van Duzen River valleys upstream from confluence,correct
+82,Small types,55.60294117647059,location_type,basin_or_area,basin_or_area,correct
+82,Small types,55.60294117647059,water_source,,,both_blank
+82,Small types,55.60294117647059,data_type,Groundwater,Irrigation,wrong
+82,Small types,55.60294117647059,date_start,1952,1952,correct
+82,Small types,55.60294117647059,date_end,1975,1975,correct
+82,Small types,55.60294117647059,temporal_resolution,annual,discrete,wrong
+82,Small types,55.60294117647059,variables,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,n_measurements,4,,missed
+82,Small types,55.60294117647059,n_variables,7,,missed
+82,Small types,55.60294117647059,construction_date,,,both_blank
+82,Small types,55.60294117647059,date_start_year,1952,1952,correct
+82,Small types,55.60294117647059,date_end_year,1975,1975,correct
+82,Small types,55.60294117647059,variables_overlap,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,location,Eel River flood plain,Eel River flood plain,correct
+82,Small types,55.60294117647059,location_type,basin_or_area,basin_or_area,correct
+82,Small types,55.60294117647059,water_source,,,both_blank
+82,Small types,55.60294117647059,data_type,Groundwater,Irrigation,wrong
+82,Small types,55.60294117647059,date_start,1952,1952,correct
+82,Small types,55.60294117647059,date_end,1975,1975,correct
+82,Small types,55.60294117647059,temporal_resolution,annual,discrete,wrong
+82,Small types,55.60294117647059,variables,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,n_measurements,4,,missed
+82,Small types,55.60294117647059,n_variables,7,,missed
+82,Small types,55.60294117647059,construction_date,,,both_blank
+82,Small types,55.60294117647059,date_start_year,1952,1952,correct
+82,Small types,55.60294117647059,date_end_year,1975,1975,correct
+82,Small types,55.60294117647059,variables_overlap,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,location,Mad River flood plain,Mad River flood plain,correct
+82,Small types,55.60294117647059,location_type,basin_or_area,basin_or_area,correct
+82,Small types,55.60294117647059,water_source,,,both_blank
+82,Small types,55.60294117647059,data_type,Groundwater,Irrigation,wrong
+82,Small types,55.60294117647059,date_start,1952,1952,correct
+82,Small types,55.60294117647059,date_end,1975,1975,correct
+82,Small types,55.60294117647059,temporal_resolution,annual,discrete,wrong
+82,Small types,55.60294117647059,variables,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,n_measurements,4,,missed
+82,Small types,55.60294117647059,n_variables,7,,missed
+82,Small types,55.60294117647059,construction_date,,,both_blank
+82,Small types,55.60294117647059,date_start_year,1952,1952,correct
+82,Small types,55.60294117647059,date_end_year,1975,1975,correct
+82,Small types,55.60294117647059,variables_overlap,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,location,Other areas,Other areas,correct
+82,Small types,55.60294117647059,location_type,basin_or_area,basin_or_area,correct
+82,Small types,55.60294117647059,water_source,,,both_blank
+82,Small types,55.60294117647059,data_type,Groundwater,Irrigation,wrong
+82,Small types,55.60294117647059,date_start,1952,1952,correct
+82,Small types,55.60294117647059,date_end,1975,1975,correct
+82,Small types,55.60294117647059,temporal_resolution,annual,discrete,wrong
+82,Small types,55.60294117647059,variables,water_use;irrigated_area,water_use;irrigated_area,correct
+82,Small types,55.60294117647059,n_measurements,4,,missed
+82,Small types,55.60294117647059,n_variables,7,,missed
+82,Small types,55.60294117647059,construction_date,,,both_blank
+82,Small types,55.60294117647059,date_start_year,1952,1952,correct
+82,Small types,55.60294117647059,date_end_year,1975,1975,correct
+82,Small types,55.60294117647059,variables_overlap,water_use;irrigated_area,water_use;irrigated_area,correct
+83,Stream Discharge,2090.725,n_locations,1,1,correct
+83,Stream Discharge,2090.725,location,11-4400,11-4400,correct
+83,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+83,Stream Discharge,2090.725,water_source,Alder Creek,Alder Creek,correct
+83,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+83,Stream Discharge,2090.725,date_start,1961-10-01,1961-10,correct
+83,Stream Discharge,2090.725,date_end,1962-09-30,1962-09,correct
+83,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+83,Stream Discharge,2090.725,variables,discharge,discharge,correct
+83,Stream Discharge,2090.725,n_measurements,358,358,correct
+83,Stream Discharge,2090.725,n_variables,427,429,correct
+83,Stream Discharge,2090.725,construction_date,,,both_blank
+83,Stream Discharge,2090.725,date_start_year,1961-10-01,1961-10,correct
+83,Stream Discharge,2090.725,date_end_year,1962-09-30,1962-09,correct
+83,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+84,Stream Discharge,2090.725,n_locations,1,1,correct
+84,Stream Discharge,2090.725,location,11-0470,"ARROYO TRABUCO NEAR SAN JUAN CAPISTRANO, CALIF.",wrong
+84,Stream Discharge,2090.725,location_type,station_number,station_name,wrong
+84,Stream Discharge,2090.725,water_source,ARROYO TRABUCO,ARROYO TRABUCO,correct
+84,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+84,Stream Discharge,2090.725,date_start,1967-04-01,1966-04,wrong
+84,Stream Discharge,2090.725,date_end,1967-09-30,1967-09,correct
+84,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+84,Stream Discharge,2090.725,variables,discharge;sediment,discharge;sediment,correct
+84,Stream Discharge,2090.725,n_measurements,329,288,wrong
+84,Stream Discharge,2090.725,n_variables,343,302,wrong
+84,Stream Discharge,2090.725,construction_date,,,both_blank
+84,Stream Discharge,2090.725,date_start_year,1967-04-01,1966-04,wrong
+84,Stream Discharge,2090.725,date_end_year,1967-09-30,1967-09,correct
+84,Stream Discharge,2090.725,variables_overlap,discharge;sediment,discharge;sediment,correct
+85,Reservoir,213.61111111111111,n_locations,1,1,correct
+85,Reservoir,213.61111111111111,location,"Reservoir system on Salt River at and below Roosevelt Dam, Ariz.","reservoir system on Salt River at and below Roosevelt Dam, Ariz.",correct
+85,Reservoir,213.61111111111111,location_type,station_name,station_name,correct
+85,Reservoir,213.61111111111111,water_source,Reservoir system on Salt River,Salt River,correct
+85,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+85,Reservoir,213.61111111111111,date_start,1910-07-31,1910-07,correct
+85,Reservoir,213.61111111111111,date_end,1910-09-30,1910-09,correct
+85,Reservoir,213.61111111111111,temporal_resolution,monthly,monthly,correct
+85,Reservoir,213.61111111111111,variables,contents,contents,correct
+85,Reservoir,213.61111111111111,n_measurements,3,3,correct
+85,Reservoir,213.61111111111111,n_variables,3,3,correct
+85,Reservoir,213.61111111111111,construction_date,,,both_blank
+85,Reservoir,213.61111111111111,date_start_year,1910-07-31,1910-07,correct
+85,Reservoir,213.61111111111111,date_end_year,1910-09-30,1910-09,correct
+85,Reservoir,213.61111111111111,variables_overlap,contents,contents,correct
+86,Reservoir,213.61111111111111,n_locations,1,1,correct
+86,Reservoir,213.61111111111111,location,"Lat 35°45'30"", long 120°53'09""","Lat 35°45'30"", long 120°53'09""",correct
+86,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+86,Reservoir,213.61111111111111,water_source,NACIMIENTO RESERVOIR,NACIMIENTO RESERVOIR,correct
+86,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+86,Reservoir,213.61111111111111,date_start,,1974-08-24,extra
+86,Reservoir,213.61111111111111,date_end,,1974-08-24,extra
+86,Reservoir,213.61111111111111,temporal_resolution,discrete,discrete,correct
+86,Reservoir,213.61111111111111,variables,water_chemistry;temperature,water_chemistry;temperature,correct
+86,Reservoir,213.61111111111111,n_measurements,112,140,wrong
+86,Reservoir,213.61111111111111,n_variables,140,168,wrong
+86,Reservoir,213.61111111111111,construction_date,,,both_blank
+86,Reservoir,213.61111111111111,date_start_year,,1974-08-24,extra
+86,Reservoir,213.61111111111111,date_end_year,,1974-08-24,extra
+86,Reservoir,213.61111111111111,variables_overlap,water_chemistry;temperature,water_chemistry;temperature,correct
+87,Stream Discharge,2090.725,n_locations,1,1,correct
+87,Stream Discharge,2090.725,location,"CHICO CREEK NEAR CHICO, CALIF.","CHICO CREEK NEAR CHICO, CALIF.",correct
+87,Stream Discharge,2090.725,location_type,station_name,station_name,correct
+87,Stream Discharge,2090.725,water_source,Chico Creek,Chico Creek,correct
+87,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+87,Stream Discharge,2090.725,date_start,1932-10-01,1932-10,correct
+87,Stream Discharge,2090.725,date_end,1933-09-30,1933-09,correct
+87,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+87,Stream Discharge,2090.725,variables,discharge,discharge,correct
+87,Stream Discharge,2090.725,n_measurements,365,365,correct
+87,Stream Discharge,2090.725,n_variables,365,365,correct
+87,Stream Discharge,2090.725,construction_date,,,both_blank
+87,Stream Discharge,2090.725,date_start_year,1932-10-01,1932-10,correct
+87,Stream Discharge,2090.725,date_end_year,1933-09-30,1933-09,correct
+87,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+88,Groundwater,326.92,n_locations,1,1,correct
+88,Groundwater,326.92,location,321838N1095431.1,321838N1095431.1,correct
+88,Groundwater,326.92,location_type,well_number,coordinates,wrong
+88,Groundwater,326.92,water_source,,,both_blank
+88,Groundwater,326.92,data_type,Groundwater,Groundwater,correct
+88,Groundwater,326.92,date_start,1962-01-05,1962-01,correct
+88,Groundwater,326.92,date_end,1965-03-15,1965-03,correct
+88,Groundwater,326.92,temporal_resolution,discrete,discrete,correct
+88,Groundwater,326.92,variables,water_level,water_level,correct
+88,Groundwater,326.92,n_measurements,227,227,correct
+88,Groundwater,326.92,n_variables,227,227,correct
+88,Groundwater,326.92,construction_date,,,both_blank
+88,Groundwater,326.92,date_start_year,1962-01-05,1962-01,correct
+88,Groundwater,326.92,date_end_year,1965-03-15,1965-03,correct
+88,Groundwater,326.92,variables_overlap,water_level,water_level,correct
+89,Reservoir,213.61111111111111,n_locations,1,1,correct
+89,Reservoir,213.61111111111111,location,"LAKE McCLURE AT EXCHEQUER, CALIF.","Lake McClure at Exchequer, Calif.",correct
+89,Reservoir,213.61111111111111,location_type,station_name,station_name,correct
+89,Reservoir,213.61111111111111,water_source,Lake McClure,Lake McClure,correct
+89,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+89,Reservoir,213.61111111111111,date_start,1928-10-01,1928-10,correct
+89,Reservoir,213.61111111111111,date_end,1929-09-30,1929-09,correct
+89,Reservoir,213.61111111111111,temporal_resolution,daily,daily,correct
+89,Reservoir,213.61111111111111,variables,elevation,elevation,correct
+89,Reservoir,213.61111111111111,n_measurements,365,367,correct
+89,Reservoir,213.61111111111111,n_variables,365,367,correct
+89,Reservoir,213.61111111111111,construction_date,,,both_blank
+89,Reservoir,213.61111111111111,date_start_year,1928-10-01,1928-10,correct
+89,Reservoir,213.61111111111111,date_end_year,1929-09-30,1929-09,correct
+89,Reservoir,213.61111111111111,variables_overlap,elevation,elevation,correct
+90,Stream Discharge,2090.725,n_locations,1,1,correct
+90,Stream Discharge,2090.725,location,11-2900,11-2900,correct
+90,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+90,Stream Discharge,2090.725,water_source,Tuolumne River,Tuolumne River,correct
+90,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+90,Stream Discharge,2090.725,date_start,1963-10-01,1963-10,correct
+90,Stream Discharge,2090.725,date_end,1964-09-30,1964-09,correct
+90,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+90,Stream Discharge,2090.725,variables,discharge,discharge,correct
+90,Stream Discharge,2090.725,n_measurements,366,366,correct
+90,Stream Discharge,2090.725,n_variables,436,426,correct
+90,Stream Discharge,2090.725,construction_date,,,both_blank
+90,Stream Discharge,2090.725,date_start_year,1963-10-01,1963-10,correct
+90,Stream Discharge,2090.725,date_end_year,1964-09-30,1964-09,correct
+90,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+91,Reservoir,213.61111111111111,n_locations,2,2,correct
+91,Reservoir,106.80555555555556,location,"Lat 39°21'24"", long 122°30'53""","Lat 39°21'24"", long 122°30'53""",correct
+91,Reservoir,106.80555555555556,location_type,coordinates,coordinates,correct
+91,Reservoir,106.80555555555556,water_source,East Park Reservoir,Little Stony Creek,wrong
+91,Reservoir,106.80555555555556,data_type,Reservoir,Reservoir,correct
+91,Reservoir,106.80555555555556,date_start,1974-09-30,1974-09,correct
+91,Reservoir,106.80555555555556,date_end,1975-09-30,1975-09,correct
+91,Reservoir,106.80555555555556,temporal_resolution,monthly,monthly,correct
+91,Reservoir,106.80555555555556,variables,elevation;contents,elevation;contents,correct
+91,Reservoir,106.80555555555556,n_measurements,26,,missed
+91,Reservoir,106.80555555555556,n_variables,40,,missed
+91,Reservoir,106.80555555555556,construction_date,,,both_blank
+91,Reservoir,106.80555555555556,date_start_year,1974-09-30,1974-09,correct
+91,Reservoir,106.80555555555556,date_end_year,1975-09-30,1975-09,correct
+91,Reservoir,106.80555555555556,variables_overlap,elevation;contents,elevation;contents,correct
+91,Reservoir,106.80555555555556,location,"Lat 39°35'09"", long 122°31'54""","Lat 39°35'09"", long 122°31'54""",correct
+91,Reservoir,106.80555555555556,location_type,coordinates,coordinates,correct
+91,Reservoir,106.80555555555556,water_source,Stony Gorge Reservoir,Stony Creek,wrong
+91,Reservoir,106.80555555555556,data_type,Reservoir,Reservoir,correct
+91,Reservoir,106.80555555555556,date_start,1974-09-30,1974-09,correct
+91,Reservoir,106.80555555555556,date_end,1975-09-30,1975-09,correct
+91,Reservoir,106.80555555555556,temporal_resolution,monthly,monthly,correct
+91,Reservoir,106.80555555555556,variables,elevation;contents,elevation;contents,correct
+91,Reservoir,106.80555555555556,n_measurements,26,,missed
+91,Reservoir,106.80555555555556,n_variables,40,,missed
+91,Reservoir,106.80555555555556,construction_date,,,both_blank
+91,Reservoir,106.80555555555556,date_start_year,1974-09-30,1974-09,correct
+91,Reservoir,106.80555555555556,date_end_year,1975-09-30,1975-09,correct
+91,Reservoir,106.80555555555556,variables_overlap,elevation;contents,elevation;contents,correct
+92,Small types,222.41176470588235,n_locations,32,1,wrong
+92,Small types,44.48235294117647,location,1382,,missed
+92,Small types,44.48235294117647,location_type,well_number,,missed
+92,Small types,44.48235294117647,water_source,W. J. Woodin,,missed
+92,Small types,44.48235294117647,data_type,Groundwater,Not Water Related,wrong
+92,Small types,44.48235294117647,date_start,,,both_blank
+92,Small types,44.48235294117647,date_end,,,both_blank
+92,Small types,44.48235294117647,temporal_resolution,no_time_series,,missed
+92,Small types,44.48235294117647,variables,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,n_measurements,,,both_blank
+92,Small types,44.48235294117647,n_variables,,,both_blank
+92,Small types,44.48235294117647,construction_date,,,both_blank
+92,Small types,44.48235294117647,date_start_year,,,both_blank
+92,Small types,44.48235294117647,date_end_year,,,both_blank
+92,Small types,44.48235294117647,variables_overlap,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,location,1390,,missed
+92,Small types,44.48235294117647,location_type,well_number,,missed
+92,Small types,44.48235294117647,water_source,J. T. McCann,,missed
+92,Small types,44.48235294117647,data_type,Groundwater,,missed
+92,Small types,44.48235294117647,date_start,,,both_blank
+92,Small types,44.48235294117647,date_end,,,both_blank
+92,Small types,44.48235294117647,temporal_resolution,no_time_series,,missed
+92,Small types,44.48235294117647,variables,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,n_measurements,,,both_blank
+92,Small types,44.48235294117647,n_variables,,,both_blank
+92,Small types,44.48235294117647,construction_date,,,both_blank
+92,Small types,44.48235294117647,date_start_year,,,both_blank
+92,Small types,44.48235294117647,date_end_year,,,both_blank
+92,Small types,44.48235294117647,variables_overlap,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,location,1398,,missed
+92,Small types,44.48235294117647,location_type,well_number,,missed
+92,Small types,44.48235294117647,water_source,R. M. Foote,,missed
+92,Small types,44.48235294117647,data_type,Groundwater,,missed
+92,Small types,44.48235294117647,date_start,,,both_blank
+92,Small types,44.48235294117647,date_end,,,both_blank
+92,Small types,44.48235294117647,temporal_resolution,no_time_series,,missed
+92,Small types,44.48235294117647,variables,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,n_measurements,,,both_blank
+92,Small types,44.48235294117647,n_variables,,,both_blank
+92,Small types,44.48235294117647,construction_date,,,both_blank
+92,Small types,44.48235294117647,date_start_year,,,both_blank
+92,Small types,44.48235294117647,date_end_year,,,both_blank
+92,Small types,44.48235294117647,variables_overlap,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,location,1405,,missed
+92,Small types,44.48235294117647,location_type,well_number,,missed
+92,Small types,44.48235294117647,water_source,R. G. Ravenscroft,,missed
+92,Small types,44.48235294117647,data_type,Groundwater,,missed
+92,Small types,44.48235294117647,date_start,,,both_blank
+92,Small types,44.48235294117647,date_end,,,both_blank
+92,Small types,44.48235294117647,temporal_resolution,no_time_series,,missed
+92,Small types,44.48235294117647,variables,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,n_measurements,,,both_blank
+92,Small types,44.48235294117647,n_variables,,,both_blank
+92,Small types,44.48235294117647,construction_date,,,both_blank
+92,Small types,44.48235294117647,date_start_year,,,both_blank
+92,Small types,44.48235294117647,date_end_year,,,both_blank
+92,Small types,44.48235294117647,variables_overlap,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,location,1413,,missed
+92,Small types,44.48235294117647,location_type,well_number,,missed
+92,Small types,44.48235294117647,water_source,Mrs. M. E. Frankle,,missed
+92,Small types,44.48235294117647,data_type,Groundwater,,missed
+92,Small types,44.48235294117647,date_start,,,both_blank
+92,Small types,44.48235294117647,date_end,,,both_blank
+92,Small types,44.48235294117647,temporal_resolution,no_time_series,,missed
+92,Small types,44.48235294117647,variables,well_construction;water_use;other,,missed
+92,Small types,44.48235294117647,n_measurements,,,both_blank
+92,Small types,44.48235294117647,n_variables,,,both_blank
+92,Small types,44.48235294117647,construction_date,,,both_blank
+92,Small types,44.48235294117647,date_start_year,,,both_blank
+92,Small types,44.48235294117647,date_end_year,,,both_blank
+92,Small types,44.48235294117647,variables_overlap,well_construction;water_use;other,,missed
+93,Small types,222.41176470588235,n_locations,1,1,correct
+93,Small types,222.41176470588235,location,San Diego,San Diego (39),correct
+93,Small types,222.41176470588235,location_type,named_place,station_name,wrong
+93,Small types,222.41176470588235,water_source,,,both_blank
+93,Small types,222.41176470588235,data_type,Precipitation,Precipitation,correct
+93,Small types,222.41176470588235,date_start,1850-01,1849-10,wrong
+93,Small types,222.41176470588235,date_end,1883-06,1883-09,wrong
+93,Small types,222.41176470588235,temporal_resolution,monthly,annual,wrong
+93,Small types,222.41176470588235,variables,precipitation,precipitation,correct
+93,Small types,222.41176470588235,n_measurements,402,429,wrong
+93,Small types,222.41176470588235,n_variables,435,429,correct
+93,Small types,222.41176470588235,construction_date,,,both_blank
+93,Small types,222.41176470588235,date_start_year,1850-01,1849-10,wrong
+93,Small types,222.41176470588235,date_end_year,1883-06,1883-09,correct
+93,Small types,222.41176470588235,variables_overlap,precipitation,precipitation,correct
+94,Stream Discharge,2090.725,n_locations,1,1,correct
+94,Stream Discharge,2090.725,location,"Lat 41°30', long 120°29'","Lat 41°30', long 120°29'",correct
+94,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+94,Stream Discharge,2090.725,water_source,North Fork Pit River,North Fork Pit River,correct
+94,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+94,Stream Discharge,2090.725,date_start,1957-10-01,1957-10,correct
+94,Stream Discharge,2090.725,date_end,1958-09-30,1958-09,correct
+94,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+94,Stream Discharge,2090.725,variables,discharge,discharge,correct
+94,Stream Discharge,2090.725,n_measurements,365,371,correct
+94,Stream Discharge,2090.725,n_variables,405,407,correct
+94,Stream Discharge,2090.725,construction_date,,,both_blank
+94,Stream Discharge,2090.725,date_start_year,1957-10-01,1957-10,correct
+94,Stream Discharge,2090.725,date_end_year,1958-09-30,1958-09,correct
+94,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+95,Reservoir,213.61111111111111,n_locations,1,1,correct
+95,Reservoir,213.61111111111111,location,"Lat 36°03'40"", long 118°55'18""","Lat 36°03'40"" long 118°55'18""",correct
+95,Reservoir,213.61111111111111,location_type,coordinates,coordinates,correct
+95,Reservoir,213.61111111111111,water_source,Success Lake,Success Lake,correct
+95,Reservoir,213.61111111111111,data_type,Reservoir,Reservoir,correct
+95,Reservoir,213.61111111111111,date_start,,,both_blank
+95,Reservoir,213.61111111111111,date_end,,,both_blank
+95,Reservoir,213.61111111111111,temporal_resolution,no_time_series,no_time_series,correct
+95,Reservoir,213.61111111111111,variables,elevation;contents,elevation;contents,correct
+95,Reservoir,213.61111111111111,n_measurements,18,14,wrong
+95,Reservoir,213.61111111111111,n_variables,18,14,wrong
+95,Reservoir,213.61111111111111,construction_date,,,both_blank
+95,Reservoir,213.61111111111111,date_start_year,,,both_blank
+95,Reservoir,213.61111111111111,date_end_year,,,both_blank
+95,Reservoir,213.61111111111111,variables_overlap,elevation;contents,elevation;contents,correct
+96,Small types,222.41176470588235,n_locations,21,21,correct
+96,Small types,44.48235294117647,location,205,205,correct
+96,Small types,44.48235294117647,location_type,well_number,well_number,correct
+96,Small types,44.48235294117647,water_source,Margaret Flemming,,missed
+96,Small types,44.48235294117647,data_type,Groundwater,Groundwater,correct
+96,Small types,44.48235294117647,date_start,,,both_blank
+96,Small types,44.48235294117647,date_end,,,both_blank
+96,Small types,44.48235294117647,temporal_resolution,no_time_series,no_time_series,correct
+96,Small types,44.48235294117647,variables,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,wrong
+96,Small types,44.48235294117647,n_measurements,2,,missed
+96,Small types,44.48235294117647,n_variables,7,,missed
+96,Small types,44.48235294117647,construction_date,1897,1897,correct
+96,Small types,44.48235294117647,date_start_year,,,both_blank
+96,Small types,44.48235294117647,date_end_year,,,both_blank
+96,Small types,44.48235294117647,variables_overlap,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,correct
+96,Small types,44.48235294117647,location,210,210,correct
+96,Small types,44.48235294117647,location_type,well_number,well_number,correct
+96,Small types,44.48235294117647,water_source,N. L. Sparks,,missed
+96,Small types,44.48235294117647,data_type,Groundwater,Groundwater,correct
+96,Small types,44.48235294117647,date_start,,,both_blank
+96,Small types,44.48235294117647,date_end,,,both_blank
+96,Small types,44.48235294117647,temporal_resolution,no_time_series,no_time_series,correct
+96,Small types,44.48235294117647,variables,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,wrong
+96,Small types,44.48235294117647,n_measurements,2,,missed
+96,Small types,44.48235294117647,n_variables,9,,missed
+96,Small types,44.48235294117647,construction_date,1901,1901,correct
+96,Small types,44.48235294117647,date_start_year,,,both_blank
+96,Small types,44.48235294117647,date_end_year,,,both_blank
+96,Small types,44.48235294117647,variables_overlap,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,correct
+96,Small types,44.48235294117647,location,215,215,correct
+96,Small types,44.48235294117647,location_type,well_number,well_number,correct
+96,Small types,44.48235294117647,water_source,"Michel, Bixby, Kroeger & Co.",,missed
+96,Small types,44.48235294117647,data_type,Groundwater,Groundwater,correct
+96,Small types,44.48235294117647,date_start,,,both_blank
+96,Small types,44.48235294117647,date_end,,,both_blank
+96,Small types,44.48235294117647,temporal_resolution,no_time_series,no_time_series,correct
+96,Small types,44.48235294117647,variables,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,wrong
+96,Small types,44.48235294117647,n_measurements,2,,missed
+96,Small types,44.48235294117647,n_variables,5,,missed
+96,Small types,44.48235294117647,construction_date,1902,1902,correct
+96,Small types,44.48235294117647,date_start_year,,,both_blank
+96,Small types,44.48235294117647,date_end_year,,,both_blank
+96,Small types,44.48235294117647,variables_overlap,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,correct
+96,Small types,44.48235294117647,location,220,220,correct
+96,Small types,44.48235294117647,location_type,well_number,well_number,correct
+96,Small types,44.48235294117647,water_source,W. S. Carson,,missed
+96,Small types,44.48235294117647,data_type,Groundwater,Groundwater,correct
+96,Small types,44.48235294117647,date_start,,,both_blank
+96,Small types,44.48235294117647,date_end,,,both_blank
+96,Small types,44.48235294117647,temporal_resolution,no_time_series,no_time_series,correct
+96,Small types,44.48235294117647,variables,water_level;water_chemistry;well_construction;water_use;other,well_construction;water_use,wrong
+96,Small types,44.48235294117647,n_measurements,2,,missed
+96,Small types,44.48235294117647,n_variables,7,,missed
+96,Small types,44.48235294117647,construction_date,1896,1896,correct
+96,Small types,44.48235294117647,date_start_year,,,both_blank
+96,Small types,44.48235294117647,date_end_year,,,both_blank
+96,Small types,44.48235294117647,variables_overlap,water_level;water_chemistry;well_construction;water_use;other,well_construction;water_use,correct
+96,Small types,44.48235294117647,location,225,225,correct
+96,Small types,44.48235294117647,location_type,well_number,well_number,correct
+96,Small types,44.48235294117647,water_source,George E. Coleman and Laverne Irrigating Co.,,missed
+96,Small types,44.48235294117647,data_type,Groundwater,Groundwater,correct
+96,Small types,44.48235294117647,date_start,,,both_blank
+96,Small types,44.48235294117647,date_end,,,both_blank
+96,Small types,44.48235294117647,temporal_resolution,no_time_series,no_time_series,correct
+96,Small types,44.48235294117647,variables,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,wrong
+96,Small types,44.48235294117647,n_measurements,2,,missed
+96,Small types,44.48235294117647,n_variables,5,,missed
+96,Small types,44.48235294117647,construction_date,1900,1900,correct
+96,Small types,44.48235294117647,date_start_year,,,both_blank
+96,Small types,44.48235294117647,date_end_year,,,both_blank
+96,Small types,44.48235294117647,variables_overlap,water_level;well_yield;well_construction;water_use;other,well_construction;water_use,correct
+97,Stream Discharge,2090.725,n_locations,1,1,correct
+97,Stream Discharge,2090.725,location,"lat. 34°29'15"", long. 119°18'20""","lat. 34°29'15"", long. 119°18'20""",correct
+97,Stream Discharge,2090.725,location_type,coordinates,coordinates,correct
+97,Stream Discharge,2090.725,water_source,North Fork Matilija Creek,North Fork Matilija Creek,correct
+97,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+97,Stream Discharge,2090.725,date_start,1945-10,1945-10,correct
+97,Stream Discharge,2090.725,date_end,1946-09,1946-09,correct
+97,Stream Discharge,2090.725,temporal_resolution,monthly,monthly,correct
+97,Stream Discharge,2090.725,variables,discharge,discharge,correct
+97,Stream Discharge,2090.725,n_measurements,36,60,wrong
+97,Stream Discharge,2090.725,n_variables,70,73,correct
+97,Stream Discharge,2090.725,construction_date,,,both_blank
+97,Stream Discharge,2090.725,date_start_year,1945-10,1945-10,correct
+97,Stream Discharge,2090.725,date_end_year,1946-09,1946-09,correct
+97,Stream Discharge,2090.725,variables_overlap,discharge,discharge,correct
+98,Small types,222.41176470588235,n_locations,1,1,correct
+98,Small types,222.41176470588235,location,48/1E-35R,Sheepy Creek spring,wrong
+98,Small types,222.41176470588235,location_type,well_number,station_name,wrong
+98,Small types,222.41176470588235,water_source,Sheepy Creek spring,Sheepy Creek spring,correct
+98,Small types,222.41176470588235,data_type,Springs,Springs,correct
+98,Small types,222.41176470588235,date_start,1954-11-19,1954-11-19,correct
+98,Small types,222.41176470588235,date_end,1955-05-25,1955-05-25,correct
+98,Small types,222.41176470588235,temporal_resolution,discrete,discrete,correct
+98,Small types,222.41176470588235,variables,discharge,discharge,correct
+98,Small types,222.41176470588235,n_measurements,5,5,correct
+98,Small types,222.41176470588235,n_variables,5,5,correct
+98,Small types,222.41176470588235,construction_date,,,both_blank
+98,Small types,222.41176470588235,date_start_year,1954-11-19,1954-11-19,correct
+98,Small types,222.41176470588235,date_end_year,1955-05-25,1955-05-25,correct
+98,Small types,222.41176470588235,variables_overlap,discharge,discharge,correct
+99,Stream Discharge,2090.725,n_locations,1,1,correct
+99,Stream Discharge,2090.725,location,11105850,11105850,correct
+99,Stream Discharge,2090.725,location_type,station_number,station_number,correct
+99,Stream Discharge,2090.725,water_source,ARROYO SIMI,ARROYO SIMI,correct
+99,Stream Discharge,2090.725,data_type,Stream Discharge,Stream Discharge,correct
+99,Stream Discharge,2090.725,date_start,1971-07-01,1971-07,correct
+99,Stream Discharge,2090.725,date_end,1971-09-30,1971-09,correct
+99,Stream Discharge,2090.725,temporal_resolution,daily,daily,correct
+99,Stream Discharge,2090.725,variables,discharge;sediment,discharge;sediment,correct
+99,Stream Discharge,2090.725,n_measurements,276,277,correct
+99,Stream Discharge,2090.725,n_variables,282,283,correct
+99,Stream Discharge,2090.725,construction_date,,,both_blank
+99,Stream Discharge,2090.725,date_start_year,1971-07-01,1971-07,correct
+99,Stream Discharge,2090.725,date_end_year,1971-09-30,1971-09,correct
+99,Stream Discharge,2090.725,variables_overlap,discharge;sediment,discharge;sediment,correct
+100,Groundwater,326.92,n_locations,12,12,correct
+100,Groundwater,65.384,location,8,Ojo Caliente Springs,wrong
+100,Groundwater,65.384,location_type,well_number,station_name,wrong
+100,Groundwater,65.384,water_source,Ojo Caliente Springs,,missed
+100,Groundwater,65.384,data_type,Springs,Springs,correct
+100,Groundwater,65.384,date_start,,,both_blank
+100,Groundwater,65.384,date_end,,,both_blank
+100,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+100,Groundwater,65.384,variables,temperature;lithology;water_use;other,other,wrong
+100,Groundwater,65.384,n_measurements,1,,missed
+100,Groundwater,65.384,n_variables,2,,missed
+100,Groundwater,65.384,construction_date,,,both_blank
+100,Groundwater,65.384,date_start_year,,,both_blank
+100,Groundwater,65.384,date_end_year,,,both_blank
+100,Groundwater,65.384,variables_overlap,temperature;lithology;water_use;other,other,correct
+100,Groundwater,65.384,location,11,San Antonio Springs,wrong
+100,Groundwater,65.384,location_type,well_number,station_name,wrong
+100,Groundwater,65.384,water_source,San Antonio Springs,,missed
+100,Groundwater,65.384,data_type,Springs,Springs,correct
+100,Groundwater,65.384,date_start,,,both_blank
+100,Groundwater,65.384,date_end,,,both_blank
+100,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+100,Groundwater,65.384,variables,temperature;lithology;water_use;other,other,wrong
+100,Groundwater,65.384,n_measurements,1,,missed
+100,Groundwater,65.384,n_variables,2,,missed
+100,Groundwater,65.384,construction_date,,,both_blank
+100,Groundwater,65.384,date_start_year,,,both_blank
+100,Groundwater,65.384,date_end_year,,,both_blank
+100,Groundwater,65.384,variables_overlap,temperature;lithology;water_use;other,other,correct
+100,Groundwater,65.384,location,14,Sulphur Springs,wrong
+100,Groundwater,65.384,location_type,well_number,station_name,wrong
+100,Groundwater,65.384,water_source,McCauley Spring,,missed
+100,Groundwater,65.384,data_type,Springs,Springs,correct
+100,Groundwater,65.384,date_start,,,both_blank
+100,Groundwater,65.384,date_end,,,both_blank
+100,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+100,Groundwater,65.384,variables,temperature;lithology;water_use;other,other,wrong
+100,Groundwater,65.384,n_measurements,0,,both_blank
+100,Groundwater,65.384,n_variables,1,,missed
+100,Groundwater,65.384,construction_date,,,both_blank
+100,Groundwater,65.384,date_start_year,,,both_blank
+100,Groundwater,65.384,date_end_year,,,both_blank
+100,Groundwater,65.384,variables_overlap,temperature;lithology;water_use;other,other,correct
+100,Groundwater,65.384,location,16,Jemez Hot Springs,wrong
+100,Groundwater,65.384,location_type,well_number,station_name,wrong
+100,Groundwater,65.384,water_source,Phillips Springs,,missed
+100,Groundwater,65.384,data_type,Springs,Springs,correct
+100,Groundwater,65.384,date_start,,,both_blank
+100,Groundwater,65.384,date_end,,,both_blank
+100,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+100,Groundwater,65.384,variables,temperature;lithology;water_use;other,other,wrong
+100,Groundwater,65.384,n_measurements,1,,missed
+100,Groundwater,65.384,n_variables,2,,missed
+100,Groundwater,65.384,construction_date,,,both_blank
+100,Groundwater,65.384,date_start_year,,,both_blank
+100,Groundwater,65.384,date_end_year,,,both_blank
+100,Groundwater,65.384,variables_overlap,temperature;lithology;water_use;other,other,correct
+100,Groundwater,65.384,location,19,San Ysidro Hot Springs,wrong
+100,Groundwater,65.384,location_type,well_number,station_name,wrong
+100,Groundwater,65.384,water_source,San Ysidro Warm Springs,,missed
+100,Groundwater,65.384,data_type,Springs,Springs,correct
+100,Groundwater,65.384,date_start,,,both_blank
+100,Groundwater,65.384,date_end,,,both_blank
+100,Groundwater,65.384,temporal_resolution,no_time_series,no_time_series,correct
+100,Groundwater,65.384,variables,temperature;lithology;water_use,other,wrong
+100,Groundwater,65.384,n_measurements,1,,missed
+100,Groundwater,65.384,n_variables,1,,missed
+100,Groundwater,65.384,construction_date,,,both_blank
+100,Groundwater,65.384,date_start_year,,,both_blank
+100,Groundwater,65.384,date_end_year,,,both_blank
+100,Groundwater,65.384,variables_overlap,temperature;lithology;water_use,other,wrong

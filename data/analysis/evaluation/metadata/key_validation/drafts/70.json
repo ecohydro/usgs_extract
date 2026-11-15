@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°32'00\", long 121°28'25\"",
+  "well_number": "",
+  "station_number": "11406800",
+  "station_name": "Lake Oroville near Oroville, Calif.",
+  "township_range_section": "NE¼SW¼ sec.1, T.19 N., R.4 E.",
+  "place_name": "Oroville",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "Butte County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lake Oroville",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "gage_height;contents",
+  "n_measurements": 36,
+  "n_variables": 36,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table: 3 column blocks x 6 rows = 18 gage height / contents pairs = 36 printed values; no dates for a capacity table. Other location words: near intake structure at left end of Oroville Dam on Feather River, 1.0 mile downstream from North Fork Feather River, and 4.2 miles east of Oroville."
+ }
+]

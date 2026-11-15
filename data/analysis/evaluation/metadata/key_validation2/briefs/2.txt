@@ -1,0 +1,13 @@
+sample_no: 2
+report (doc_id): 56792   page: 217   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/56792_page_217.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/2.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+5064.75 | 274 | 5075 | 2400 | 5100 | 21200 | 5125 | 52500
+5066 | 388 | 5080 | 4740 | 5105 | 26600 | 5130 | 60000
+5068 | 635 | 5085 | 7920 | 5110 | 32500 | 5140 | 75900
+5070 | 977 | 5090 | 11700 | 5115 | 38800 | 5150 | 93000
+... (5 lines in all; last lines:)
+5070 | 977 | 5090 | 11700 | 5115 | 38800 | 5150 | 93000
+5072 | 1440 | 5095 | 16200 | 5120 | 45500 | 5160 | 111200

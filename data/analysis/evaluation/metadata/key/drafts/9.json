@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Crane Valley reservoir near North Fork, Cal.",
+  "township_range_section": "",
+  "place_name": "North Fork",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Cal.",
+  "evidence_place": "heading before table",
+  "water_source": "Crane Valley reservoir",
+  "data_type": "Stream Discharge",
+  "date_start": "1911-10-01",
+  "date_end": "1911-12-31",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "units": "second-feet",
+  "n_measurements": 92,
+  "n_variables": 92,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled table is the third block (Oct.-Dec. 1911) under the page title 'Daily discharge, in second-feet, into Crane Valley reservoir near North Fork, Cal., for 1910-11'; the title is at the top of the page, above the first block. Count: Oct 31, Nov 30, Dec 31 = 92, all day cells filled, no summary rows. Unsure only on data_type: this is inflow into a reservoir (discharge), so Stream Discharge was chosen over Reservoir; no stream is named. The printed name is a table title, not a numbered gauging station; no coordinates, county, basin or township printed. Record furnished by the San Joaquin Light & Power Corporation."
+ }
+]

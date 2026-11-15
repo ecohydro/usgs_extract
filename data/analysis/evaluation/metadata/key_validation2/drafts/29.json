@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11114000",
+  "station_name": "SANTA CLARA RIVER AT MONTALVO, CALIF.",
+  "township_range_section": "",
+  "place_name": "MONTALVO",
+  "place_relation": "at",
+  "basin_or_area": "SANTA CLARA RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA CLARA RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1973-10-01",
+  "date_end": "1973-12-31",
+  "temporal_resolution": "daily",
+  "variables": "discharge;sediment",
+  "n_measurements": 276,
+  "n_variables": 282,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the upper block (October-December 1973) of the water year 1974 suspended-sediment table; dates are the block's own. Three columns per month (mean discharge, mean concentration, sediment discharge), every day printed (many zeros): Oct 31x3=93, Nov 30x3=90, Dec 31x3=93 = 276. MONTH row totals (2 per month, concentration is dashes) = 6 summary values."
+ }
+]

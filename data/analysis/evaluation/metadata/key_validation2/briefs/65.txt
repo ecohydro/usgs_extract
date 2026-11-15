@@ -1,0 +1,13 @@
+sample_no: 65
+report (doc_id): 52982   page: 81   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/52982_page_81.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/65.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+DATE | DATE.1 | DISCHARGE | DISCHARGE.1 | DISCHARGE.2 | TEMP
+ |  | Second- feet | per | in. | : 'F
+Nov. 216, | : | Almost dry : | lost iry |  | 
+Jan. 18, 1349 | : | 0.0020 : | 0.88 |  | 
+... (14 lines in all; last lines:)
+Mar. 13 | (12:05 p.m. : | .005 : | 2.2 |  | :
+Apr. 11 | (8:45 3.1.) : | .002 : | .90 |  | : 54

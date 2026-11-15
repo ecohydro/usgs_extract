@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°42'48\", long. 120°24'14\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Don Pedro Reservoir near La Grange, Calif.",
+  "township_range_section": "SW¼ sec. 35, T. 2 S., R. 14 E.",
+  "place_name": "La Grange",
+  "place_relation": "near",
+  "basin_or_area": "Tuolumne River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Don Pedro Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1949-09-30",
+  "date_end": "1950-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 26,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the lower one (Monthly elevation and contents, water year October 1949 to September 1950). 13 end-of-month rows (Sept. 30, 1949 to Sept. 30, 1950) x elevation and contents = 26 measurements. Change in contents during month (12 monthly values + calendar year 1949 + water year 1949-50 = 14) is computed from the contents column, counted only in n_variables. Location text also says: at Don Pedro Dam on Tuolumne River, 1 mile downstream from Rogers Creek and 5.5 miles upstream from La Grange. No county printed."
+ }
+]

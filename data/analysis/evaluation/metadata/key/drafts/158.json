@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "10N/34W-6N1 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "SANTA BARBARA COUNTY",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "GRISINGHER & SIGNORELLI",
+  "data_type": "Groundwater",
+  "date_start": "1966-01-01",
+  "date_end": "1968-10-01",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 16,
+  "n_variables": 16,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Fourth table on the page (well 10N/34W-6N1 S, drilled irrigation artesian well in alluvium). 20 dated entries in four column pairs; 4 carry only a letter code (A on Mar. 24, 1966, Mar. 11, 1968 and Oct. 8, 1968; N on Apr. 29, 1966) and are not counted: 3 + 5 + 5 + 3 = 16 values. Nov. 1, 1967 is printed '122.888' (probably 122.8 G), counted as one value. Last dated entry Oct. 8, 1968 has no value, so date_end is the last value, Oct. 1, 1968. County from running head; state not printed. Depth, diameter, LSD and highest/lowest levels in the heading text are not counted. No drilling year printed."
+ }
+]

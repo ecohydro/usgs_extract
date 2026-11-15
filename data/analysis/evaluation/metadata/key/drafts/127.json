@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Big Creek below Huntington Lake, Calif.",
+  "township_range_section": "",
+  "place_name": "Huntington Lake",
+  "place_relation": "below",
+  "basin_or_area": "San Joaquin River and tributaries above Fresno River",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Big Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1925-06-18",
+  "date_end": "1926-06-25",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 15,
+  "n_variables": 20,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary table, 5 rows (June 18-30, July, August 1-11 1925; May 21-31, June 1-25 1926): maximum, minimum, mean = 15 measurements; 5 run-off in acre-feet values are conversions. Dates taken from the printed partial-month rows, to the day. No coordinates, township or county printed for this station (the Fresno County location text lower on the page belongs to the next station, Big Creek near mouth). Basin taken from the running head. Note on page: record shows only the spill from Huntington Lake."
+ }
+]

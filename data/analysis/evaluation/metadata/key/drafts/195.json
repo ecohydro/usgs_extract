@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°46', long. 121°32'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Concow Creek near Yankee Hill, Calif.",
+  "township_range_section": "NE¼ sec. 16, T. 22 N., R. 4 E.",
+  "place_name": "Yankee Hill",
+  "place_relation": "near",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Concow Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1941-10",
+  "date_end": "1942-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 34,
+  "n_variables": 34,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1941-42: 17 gage height / discharge pairs (6 + 6 + 5), both columns counted. Location text also: above diversion dam for Spring Valley ditch, 300 feet downstream from Lake Wilenor Dam, 4 miles north of Yankee Hill post office."
+ }
+]

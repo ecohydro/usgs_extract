@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°35'00\", long 121°06'45\"",
+  "well_number": "",
+  "station_number": "11-3954",
+  "station_name": "Sly Creek Reservoir near Strawberry Valley, Calif.",
+  "township_range_section": "NW¼NW¼ sec.20, T.20 N., R.8 E.",
+  "place_name": "Strawberry Valley",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sly Creek Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1961-10",
+  "date_end": "1962-09",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation",
+  "n_measurements": 246,
+  "n_variables": 257,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Water-year table (title: October 1961 to September 1962); values printed only from Nov. 30, 1961 (first printed value) to Sept. 30, 1962; Oct. blank. Daily contents counted by month: Nov 1, Dec 31, Jan 1, Feb 1, Mar 18 (14-31), Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 235; plus 11 end-of-month elevations in foot row = 246. Change in contents foot row (11 values) is summary: n_variables 257. Calendar-year and water-year lines below the grid are outside the sampled block. Location text also says: in valve chamber inside dam, 1.4 miles northwest of Strawberry Valley."
+ }
+]

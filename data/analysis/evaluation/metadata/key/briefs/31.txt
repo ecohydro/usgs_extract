@@ -1,0 +1,13 @@
+sample_no: 31
+report (doc_id): 716   page: 36   table on the page: 1 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/716_page_36.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/31.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Month | Contents (acre- feet) | Change in contents (acre-fee | Month.1 | Contents (acre- feet).1 | Change in contents (acre-fee
+Sept 30 | 7840.0 | - | Apr. 30 | 5460.0 | -470
+Oct. 31 | 7470.0 | -370 | May 31 | 4910.0 | -550
+Nov. 30 | 7140.0 | -330 | June 30 | 4440.0 | -470
+... (10 lines in all; last lines:)
+Feb. 28 | 6400.0 | -210 |  |  | 
+Mar. 31 | 5930.0 | -470 |  |  | 

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Santa Ana River at Hamner Avenue, near Corona, Calif.",
+  "township_range_section": "",
+  "place_name": "Hamner Avenue; Corona",
+  "place_relation": "at; near",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ana River",
+  "data_type": "Stream Discharge",
+  "date_start": "1936-05",
+  "date_end": "1950-11",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 105,
+  "n_variables": 105,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly mean discharge, continued table: 15 years (1936-1950) x 7 months (May-Nov) = 105 values; Apr. and Dec. columns hold only dashes, other columns blank. The coordinates, land grant and county printed lower on the page belong to a different station (91, Santa Ana River at Auburndale Bridge) and are not used. No station number printed for this station on this page."
+ }
+]

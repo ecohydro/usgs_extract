@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°15', long. 123°09'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "East Fork Russian River near Calpella, Calif.",
+  "township_range_section": "sec. 13, T. 16 N., R. 12 W.",
+  "place_name": "Calpella",
+  "place_relation": "near",
+  "basin_or_area": "Russian River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "East Fork Russian River",
+  "data_type": "Stream Discharge",
+  "date_start": "1946-10",
+  "date_end": "1947-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 32,
+  "n_variables": 32,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1946-47: 16 gage height / discharge pairs (4 rows x 4 pairs) = 32 printed points. Dates = the water year the rating applies to. Location paragraph also says 1 mile downstream from Cold Creek and 3 miles east of Calpella. No station number or county printed."
+ }
+]

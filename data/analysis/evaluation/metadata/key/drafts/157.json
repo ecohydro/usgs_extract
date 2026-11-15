@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°57', long. 119°47'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Hetch Hetchy Reservoir at Hetch Hetchy, Calif.",
+  "township_range_section": "sec. 16, T. 1 N., R. 20 E.",
+  "place_name": "Hetch Hetchy",
+  "place_relation": "at",
+  "basin_or_area": "TUOLUMNE RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Hetch Hetchy Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1937-10-01",
+  "date_end": "1938-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents in acre-feet, water year October 1937 to September 1938. Every day has a value (31,30,31,31,28,31,30,31,30,31,31,30 = 365); no summary rows. Location text also says 'at O'Shaughnessy Dam on Tuolumne River at Hetch Hetchy in Yosemite National Park'."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Eaton Canyon",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Eaton Canyon",
+  "data_type": "Stream Discharge",
+  "date_start": "1904-04",
+  "date_end": "1905-08",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 14,
+  "n_variables": 14,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Flow from Eaton Canyon, in miner's inches, one value per month: 1904 April-December = 9 values, 1905 April-August = 5 values (August 1905 marked approximate), September-December 1905 blank; total 14. Text calls it 'Precipice or Eaton Canyon' (Precipice Canyon Water Company, under running head 'Irrigation enterprises'); taken as flow of the canyon stream, so Stream Discharge rather than Irrigation. No place relation, county or state printed."
+ }
+]

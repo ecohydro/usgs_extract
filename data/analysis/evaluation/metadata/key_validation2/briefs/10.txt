@@ -1,0 +1,13 @@
+sample_no: 10
+report (doc_id): 4538   page: 328   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/4538_page_328.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/10.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+Day | Oct. | Nov. | Dec. | Jan. | Feb. | Mar | Apr.
+1 |  |  | 0 | 37 | 52 | 340 | 202
+2 |  |  | 0 | 30 | 46 | 310 | 257
+3 |  |  | 0 | 24 | 41 | 239 | 340
+... (32 lines in all; last lines:)
+26 27 28 29 30 31 |  |  | 67 | 64 | - | 128 | 0
+26 27 28 29 30 31 |  |  | 46 | 52 | - | 219 | -

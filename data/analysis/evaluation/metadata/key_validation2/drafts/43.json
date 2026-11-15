@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°51'20\", long. 120°38'15\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "South San Joaquin canal near Knights Ferry, Calif.",
+  "township_range_section": "sec. 15, T. 1 S., R. 12 E.",
+  "place_name": "Knights Ferry",
+  "place_relation": "near",
+  "basin_or_area": "STANISLAUS RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South San Joaquin canal",
+  "data_type": "Irrigation",
+  "date_start": "1937-10",
+  "date_end": "1938-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 306,
+  "n_variables": 306,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the daily grid only (monthly summary is table 2). Counted by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 0, Mar 0 (both columns printed empty), Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 306; printed zeros counted. Other distances on page: three-quarters of a mile downstream from head gate at Goodwin Dam on Stanislaus River and 4 miles upstream from Knights Ferry. Canal diverts water for irrigation, so Irrigation. No station number or county printed."
+ }
+]

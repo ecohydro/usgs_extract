@@ -1,0 +1,13 @@
+sample_no: 30
+report (doc_id): 70184370   page: 51   table on the page: 3 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70184370_page_51.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/30.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Duration estimate of daily s | Duration estimate of daily s
+Specific conductance (microm | Time exceeded (in percent)
+74 | 1
+62 | 10
+... (9 lines in all; last lines:)
+27 | 90
+20 | 99

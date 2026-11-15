@@ -1,0 +1,13 @@
+sample_no: 13
+report (doc_id): 53409   page: 133   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/53409_page_133.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/13.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Year | Pumpage (acre-feet) | : : | Year.1 | Pumpage (acre-feet).1
+1947 | a600 | : : | 1954.0 | a2,000
+1948 | 670 | : : | 1955.0 | a2,200
+1949 | 640 | : : | 1956.0 | a2,400
+... (8 lines in all; last lines:)
+1952 | 1000 | : : | 1959.0 | a4,500
+1953 | 1800 | : : : |  | 

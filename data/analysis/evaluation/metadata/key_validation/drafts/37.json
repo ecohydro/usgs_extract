@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°32', long. 120°56'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork Yuba River below Goodyears Bar, Calif.",
+  "township_range_section": "SW¼ sec. 11, T. 19 N., R. 9 E.",
+  "place_name": "Goodyears Bar",
+  "place_relation": "below",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork Yuba River",
+  "data_type": "Stream Discharge",
+  "date_start": "1943-10",
+  "date_end": "1944-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge;runoff",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Monthly summary table under the daily table. n_measurements = monthly maximum, minimum, mean: 12 months x 3 = 36. Monthly second-foot-days (12) and runoff in acre-feet (12) treated as totals/conversions, and the 'Calendar year 1943' and 'Water year 1943-44' rows (5 values each) as summaries: 24 + 10 = 34, so n_variables = 70. Rules do not say clearly whether monthly second-foot-days and runoff cells count as measurements (then n_measurements would be 60). Location text also gives: 3.5 miles downstream from Goodyears Creek and 4 miles southwest of Goodyears Bar. No station number or county printed."
+ }
+]

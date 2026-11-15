@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11075620",
+  "station_name": "SANTA ANA RIVER SPREADING DIVERSION BELOW IMPERIAL HIGHWAY, NEAR ANAHEIM, CALIF.",
+  "township_range_section": "",
+  "place_name": "Imperial Highway; Anaheim",
+  "place_relation": "below; near",
+  "basin_or_area": "SANTA ANA RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA ANA RIVER SPREADING DIVERSION",
+  "data_type": "Stream Discharge",
+  "date_start": "1975-06-01",
+  "date_end": "1975-09-29",
+  "temporal_resolution": "daily",
+  "variables": "water_chemistry",
+  "n_measurements": 309,
+  "n_variables": 321,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = lower block (June-September) of the specific conductance table, daily MAX / MIN / MEAN; dates are this block's own first and last printed values (title says water year October 1974 to September 1975). Days with values: June 1-16 (16), July 3-9, 11-22, 24-31 (27), August 1-31 (31), September 1-29 (29) = 103 days x 3 = 309; dashes not counted. Summaries: MONTH rows for July, August, September (9; June is dashes) + YEAR row (3) = 12. Site is a spreading diversion from the river; typed Stream Discharge (could be argued Irrigation/Other). No coordinates or county on this continuation page."
+ }
+]

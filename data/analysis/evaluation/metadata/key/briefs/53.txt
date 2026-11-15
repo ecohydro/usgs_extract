@@ -1,0 +1,13 @@
+sample_no: 53
+report (doc_id): 2513   page: 26   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/2513_page_26.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/53.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Year | Rainfall | Surplus or defi- ciency | Cumu- lated surplus or defi- | Year.1 | Rainfall.1 | Surplus or defi- ciency.1 | Cumu- lated surplus or defi-
+1877 -78 | 21.26 | 5.73 | 5.73 | 1912 -13 | 13.42 | -2.11 | -1.36
+1878 -79 | 11.35 | -4.18 | 1.55 | 1913 -14 | 23.65 | 8.12 | 6.76
+1879 -80 | 20.34 | 4.81 | 6.36 | 1914 -15 | 17.05 | 1.52 | 8.28
+... (36 lines in all; last lines:)
+1910 -11 | 16.18 | 0.65 | 4.68 |  |  |  | 
+1911 -12 | 11.6 | -393.0 | 0.75 | 1945 -46 | 11.68 | -3.88 | -3.9

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "S20/53-24caa1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Pahrump Valley",
+  "county": "Nye County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Ray Thomas",
+  "data_type": "Groundwater",
+  "date_start": "1952-01-01",
+  "date_end": "1952-12-20",
+  "temporal_resolution": "daily",
+  "variables": "water_level",
+  "n_measurements": 204,
+  "n_variables": 204,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Daily noon water level from recorder graph; the page shows days 1-20 only (table continues on next page), so dates and counts are for this block. Year 1952 is not in the table or its title; taken from the running head (WATER LEVELS AND ARTESIAN PRESSURES, 1952) and the well paragraph. Counted by month: Jan 20, Feb 20, Mar 20, Apr 20, May 20, June 11 (days 1-11), July 15 (days 6-20), Aug 0, Sept 20, Oct 18 (days 1-18), Nov 20, Dec 20 = 204; dotted cells not counted. Well also labelled State Engineer No. 40. No state printed (running head says only SOUTHWESTERN STATES). Depth and diameter in heading text not counted; no drilling date."
+ }
+]

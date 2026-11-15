@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-1440",
+  "station_name": "Toro Creek near Pozo, Calif.",
+  "township_range_section": "",
+  "place_name": "Pozo",
+  "place_relation": "near",
+  "basin_or_area": "SALINAS RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Toro Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-10-01",
+  "date_end": "1962-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;runoff",
+  "n_measurements": 365,
+  "n_variables": 430,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Upper of two daily tables (water year October 1961 to September 1962). Every day has a printed value, zeros included (faint print in Aug-Sept checked on an enlargement): 365. Summaries: TOTAL, MEAN, MAX, MIN, AC-FT x 12 = 60, plus WAT YR 1962 line (5); the CAL YR 1961 line has labels but no values: n_variables = 430. Runoff (AC-FT) only as summary values. Continuation page: no coordinates, county or location paragraph."
+ }
+]

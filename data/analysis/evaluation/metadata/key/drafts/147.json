@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "1S/4E-12Q1 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Morongo Valley (village)",
+  "place_relation": "about 5 miles northeast of",
+  "basin_or_area": "Morongo Valley",
+  "county": "San Bernardino County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "F. A. Hicks",
+  "data_type": "Groundwater",
+  "date_start": "1966-02-28",
+  "date_end": "1968-11-05",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 6,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Third table on page (well of F. A. Hicks). 6 water levels counted one by one. The letter in the well number is printed in a typeface where Q and O look alike; read as 12Q1. County from the running head; state not printed. Depth, diameter and altitude are in the heading text, not counted. No construction date printed."
+ }
+]

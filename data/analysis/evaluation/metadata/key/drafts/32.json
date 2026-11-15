@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Kings River at Piedra, Calif.",
+  "township_range_section": "NW. 1/4 sec. 8, T. 13 S., R. 24 E.",
+  "place_name": "Piedra",
+  "place_relation": "at",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "Fresno County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Kings River",
+  "data_type": "Stream Discharge",
+  "date_start": "1922-10",
+  "date_end": "1923-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 120,
+  "n_variables": 120,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Page ends after day 10, so only days 1-10 are printed: 10 rows x 12 months = 120 values, none blank. Dates = the year ending September 30, 1923 from the title (block has no dates of its own; printed days are the 1st-10th of each month). Also printed: half a mile below highway bridge at Piedra, near mouth of canyon, 12 miles northeast of Sanger."
+ }
+]

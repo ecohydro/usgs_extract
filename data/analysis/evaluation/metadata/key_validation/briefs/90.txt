@@ -1,0 +1,13 @@
+sample_no: 90
+report (doc_id): 56808   page: 300   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/56808_page_300.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/90.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+5930 | 2000 | 5990 | 27600
+5940 | 3920 | 6000 | 35300
+5950 | 6760 | 6010 | 43900
+5960 | 10600 | 6020 | 53200
+... (6 lines in all; last lines:)
+5970 | 15400 | 6030 | 63000
+5980 | 21000 | 6040 | 73500

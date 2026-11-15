@@ -1,0 +1,13 @@
+sample_no: 11
+report (doc_id): 1548   page: 291   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1548_page_291.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/11.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 14 columns):
+Day. | Apr. | May. | June. | July. | Aug. | Sept. | Day..1
+1919.0 |  |  |  |  |  |  | 1919.0
+1.0 |  | 3, 880 | 1120.0 | 340.0 | 235.0 | 205.0 | 16.0
+2.0 |  | 3, 320 | 840.0 | 340.0 | 235.0 | 205.0 | 17.0
+... (19 lines in all; last lines:)
+ |  |  |  |  |  |  | 31.0
+ |  |  |  |  |  |  | 

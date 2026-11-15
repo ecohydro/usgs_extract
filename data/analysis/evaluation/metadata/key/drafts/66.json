@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "6/9-31R1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Big Rock Creek",
+  "place_relation": "near",
+  "basin_or_area": "Antelope Valley",
+  "county": "Los Angeles County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Barlow",
+  "data_type": "Groundwater",
+  "date_start": "1952-01-30",
+  "date_end": "1952-12-31",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table rows give month and day only; year 1952 taken from the running head (WATER LEVELS AND ARTESIAN PRESSURES, 1952, SOUTHWESTERN STATES). No state printed. 12 water levels counted: 3 rows x 4 date/level pairs. Heading numbers (diameter 16 inches, land-surface datum 2,833 feet) not counted. 'Near Big Rock Creek' is the only landmark given."
+ }
+]

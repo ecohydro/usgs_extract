@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Merced River near Livingston, Calif.",
+  "township_range_section": "SE. ¼ sec. 20, T. 6 S., R. 11 E.",
+  "place_name": "Livingston",
+  "place_relation": "near",
+  "basin_or_area": "Merced River Basin",
+  "county": "Merced County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Merced River",
+  "data_type": "Stream Discharge",
+  "date_start": "1923-01-04",
+  "date_end": "1923-08-08",
+  "temporal_resolution": "discrete",
+  "variables": "gage_height;discharge",
+  "n_measurements": 20,
+  "n_variables": 20,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "10 discharge measurements (5 rows x 2 column groups), each with gage height and discharge = 20. Table prints month and day only; year 1923 from the title ('during the year ending September 30, 1923', dates Jan. 4 to Aug. 8). Location text also gives: 3½ miles west of Livingston. No station number or coordinates printed."
+ }
+]

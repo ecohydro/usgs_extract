@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 38°34'05\", long. 121°25'20\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "American River at Sacramento, Calif.",
+  "township_range_section": "",
+  "place_name": "H Street Bridge",
+  "place_relation": "at",
+  "basin_or_area": "AMERICAN RIVER BASIN",
+  "county": "Sacramento County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "American River",
+  "data_type": "Stream Discharge",
+  "date_start": "1949-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge;runoff",
+  "units": "Second-foot-days;acre-feet",
+  "n_measurements": 60,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary below the daily grid (same station, water year October 1949 to September 1950). No station number printed. Count: 12 month rows x 5 columns (Second-foot-days, Maximum, Minimum, Mean, Runoff in acre-feet) = 60; the 'Calendar year 1949' and 'Water year 1949-50' rows (5 values each) are summary rows, added only in n_variables. The Maximum/Minimum/Mean columns carry no unit in this table (daily table above says second-feet). Other location words: 'just east of Sacramento', '6.5 miles upstream from mouth'; station name says 'at Sacramento'."
+ }
+]

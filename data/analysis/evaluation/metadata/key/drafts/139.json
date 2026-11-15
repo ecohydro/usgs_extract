@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Ellwood Dairies",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - Ellwood Dairies",
+  "data_type": "Springs",
+  "date_start": "1958-06-09",
+  "date_end": "1960-03-02",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 22,
+  "n_variables": 22,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Report numbering \"Site 42\" (not a USGS station or state well number). Continued table. Discharge: 2 numeric values, \"No flow\" on Oct. 1, 1958, and 17 \"do\" (ditto of No flow) = 20; temperature 2. Aug. 25 \"a\" (less than 0.005 gpm, value only in footnote) and Sept. 12 \"b\" (no measurement obtainable) not counted. Unsure because rules do not say whether \"do\" under \"No flow\" counts as a printed measurement (without them the count is 5) or whether the footnote \"a\" counts. Ellwood Dairies may be an owner rather than a place; no relation word printed. No county or state on page."
+ }
+]

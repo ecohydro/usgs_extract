@@ -1,0 +1,23 @@
+[
+ {
+  "site_no": 1,
+  "n_sites_in_table": 1,
+  "table_is_data": "yes",
+  "table_title": "Rating table, water year 1958-59 (gage height, in feet, and discharge, in cubic feet per second)",
+  "site_name": "McCloud River above Panther Creek, near McCloud, Calif.",
+  "site_number": "3677",
+  "location_text": "Lat 41°08'10\", long 122°04'40\", in SW¼ sec.22, T.38 N., R.2 W., 900 ft upstream from Panther Creek and 9 miles southeast of McCloud.",
+  "evidence_kind": "printed coordinates",
+  "evidence_where": "heading before table",
+  "evidence_page": "none",
+  "state": "Calif.",
+  "county": "none",
+  "water_type": "Stream Discharge",
+  "quantities_units": "gage height (feet); discharge (cubic feet per second)",
+  "kind_of_record": "annual",
+  "year_start": 1958,
+  "year_end": 1959,
+  "confidence": "unsure",
+  "notes": "Sampled table is the 4-line rating table (gage height vs discharge), not the daily discharge table below it. kind_of_record is the hard field: a rating table is not a series of measurements; recorded as annual because it applies to one water year (1958-59); 'no time series' is the alternative. Years are the water year in the title. Site, number and location are clear. Quarter-section fraction read as SW 1/4 (small print). No county printed."
+ }
+]

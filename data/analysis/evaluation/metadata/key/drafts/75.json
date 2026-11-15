@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "10N/9W-5B1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "10N/9W-5B1 (NB-5)",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 26,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Driller's log: 13 layers, each with thickness and depth = 26 numbers. Lithology is a described variable, so n_measurements set to 0 and all 26 in n_variables; the rules do not say how to count logs. Other well name printed: NB-5. No date on page. 'Lancaster, Calif.' is the driller's address, not the well's place, so place and state left blank. Heading numbers (altitude about 2,290 feet, 16-inch casing 0-500 feet, perforated 100-500 feet) not counted."
+ }
+]

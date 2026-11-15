@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°48'50\", long 122°20'12\"",
+  "well_number": "",
+  "station_number": "11387995",
+  "station_name": "BLACK BUTTE LAKE NEAR ORLAND, CA",
+  "township_range_section": "SE¼SW¼ sec.29, T.23 N., R.4 W.",
+  "place_name": "Orland",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Tehama County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Black Butte Lake",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 18,
+  "n_variables": 18,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table: 9 printed elevation/contents pairs (5 in left block, 4 in right), both columns counted = 18. No dates (capacity table); page note says it was put into use Oct. 1, 1975. Other location words: in control tower in right abutment of main dam on Stony Creek, 8 mi (13 km) northwest of Orland."
+ }
+]

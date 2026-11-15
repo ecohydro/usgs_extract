@@ -1,0 +1,11 @@
+sample_no: 13
+report (doc_id): 10427   page: 36   table on the page: 3 of 5
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/10427_page_36.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/13.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+DATE | WATER LEVEL | DATE.1 | WATER LEVEL.1 | DATE.2 | WATER LEVEL.2 | DATE.3 | WATER LEVEL.3
+DEC. 14, 1960 | F | MAR. 29, 1965 | F | JULY 29, 1975 | P |  | 
+... (2 lines in all; last lines:)
+DATE | WATER LEVEL | DATE.1 | WATER LEVEL.1 | DATE.2 | WATER LEVEL.2 | DATE.3 | WATER LEVEL.3
+DEC. 14, 1960 | F | MAR. 29, 1965 | F | JULY 29, 1975 | P |  | 

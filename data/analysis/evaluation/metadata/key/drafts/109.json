@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "",
+  "n_locations_in_table": "",
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "",
+  "water_source": "",
+  "data_type": "Not Water Related",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "",
+  "variables": "",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 3, mean hourly wind velocities (mph) by month at Armitage Field for the 6-year period 1946-51: 12 monthly means, weather data but no water variable, so treated as holding no water data (rule 6). The rules do not say whether a wind table is Not Water Related or Other; if Other: place Armitage Field (at), 1946 to 1951, monthly means over the period, variables other, 12 values."
+ }
+]

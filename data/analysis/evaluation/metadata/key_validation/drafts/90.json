@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°30'40\", long 120°33'15\"",
+  "well_number": "",
+  "station_number": "11407800",
+  "station_name": "JACKSON MEADOWS RESERVOIR NEAR SIERRA CITY, CA",
+  "township_range_section": "NW¼SE¼ sec.18, T.19 N., R.13 E.",
+  "place_name": "Sierra City",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Sierra County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Jackson Meadows Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 24,
+  "n_variables": 24,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table (elevation, in feet NGVD, and contents, in acre-feet): 12 printed pairs, both columns counted = 24. No dates (capacity table). Other location words: Tahoe National Forest, on right bank at Jackson Meadows Dam on Middle Yuba River, 0.7 mi downstream from Pass Creek, and 5.7 mi southeast of Sierra City."
+ }
+]

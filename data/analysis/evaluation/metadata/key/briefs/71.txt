@@ -1,0 +1,13 @@
+sample_no: 71
+report (doc_id): 3174   page: 336   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/3174_page_336.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/71.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DATE | TIME | MEAN DIS- CHARGE (CFS) | TEMPER- ATURE (DEG C) | DIS- SOLVED OXYGEN (MG/L) | DIS- SOLVED CAL- CIUM ICA) [ | DIS- SOLVED MAG- NE- SIUM (M | SODIUM (NA) (MG/L)
+OCT. 07 NOV. | 1430.0 | 31 | 17.8 | 10.3 | -- | -- | 7.5
+04 DEC. | 1430.0 | 124 | 15.0 | 10.4 | -- | -- | 8.0
+02 JAN. | 1530.0 | 10? | 8.9 | 12.7 | -- | -- | 7.0
+... (13 lines in all; last lines:)
+11 | 1200.0 | 29 | 23.3 | 8.0 | -- | -- | 8.0
+SEPT. 15 | 1540.0 | 21 | 17.8 | 10.1 | -- | -- | 9.8

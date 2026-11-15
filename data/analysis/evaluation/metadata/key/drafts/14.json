@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 32°59'20\", long 116°35'10\"",
+  "well_number": "",
+  "station_number": "11-0170",
+  "station_name": "Boulder Creek at Cuyamaca Reservoir, near Julian, Calif.",
+  "township_range_section": "NE¼ sec.5, T.14 S., R.4 E.",
+  "place_name": "Cuyamaca Dam",
+  "place_relation": "on outlet tower at",
+  "basin_or_area": "SAN DIEGO RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Boulder Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10",
+  "date_end": "1966-09",
+  "temporal_resolution": "monthly",
+  "variables": "gage_height;contents;evaporation;discharge;other",
+  "units": "feet;acre-feet;acre-feet;acre-feet;acre-feet",
+  "n_measurements": 79,
+  "n_variables": 89,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 'Monthly runoff, water year October 1965 to September 1966'. Station is a stream station (inflow to Cuyamaca Reservoir) but the gage height and contents columns are for Cuyamaca Reservoir, so data_type could also be Reservoir. 'other' = Change in contents, Draft, Spill plus leakage (all acre-feet). Count of non-dash cells in the 13 month-end rows: Sept. 30 (1965) 1; Oct. 6; Nov. 7; Dec. 7; Jan. 7; Feb. 7; Mar. 7; Apr. 7; May 6; June 6; July 6; Aug. 6; Sept. 6 = 79 (zeros counted, dashes not). Summary rows 'Calendar year 1965' (5 values) and 'Water year 1965-66' (5 values) added in n_variables only. First row is Sept. 30 (1965, contents 0), the opening value before the water year; dates given as the water year. No meridian and no county printed. Other location words: '7 miles south of Julian'; station name says 'near Julian'."
+ }
+]

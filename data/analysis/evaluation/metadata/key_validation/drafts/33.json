@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°00'25\", long 118°04'05\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "San Gabriel River at Pico, Calif.",
+  "township_range_section": "in Paso de Bartolo Grant",
+  "place_name": "Pico",
+  "place_relation": "at",
+  "basin_or_area": "SAN GABRIEL RIVER BASIN",
+  "county": "Los Angeles County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Gabriel River",
+  "data_type": "Stream Discharge",
+  "date_start": "1955-10",
+  "date_end": "1956-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 243,
+  "n_variables": 299,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "No station number printed. Daily values counted month by month: Oct 0 (column empty), Nov 30, Dec 31, Jan 31, Feb 29, Mar 31, Apr 30, May 31, June 0, July 0, Aug 0 (columns empty), Sept 30 = 243; printed zeros counted, empty cells not. Oct, June, July, Aug have no daily values printed (only 0 in the total rows), so dates given as the water year per the water-year rule. Summary values: 4 foot rows (Total, Mean, Ac-ft, dagger row = Colorado River water released for recharge) x 12 months = 48, plus calendar-year and water-year lines 4 + 4 = 8; total 56. Other location text: in downstream end of mid-span pier of Beverly Boulevard Bridge, 0.7 mile downstream from San Jose Creek and 0.8 mile northeast of Pico."
+ }
+]

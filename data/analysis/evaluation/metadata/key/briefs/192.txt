@@ -1,0 +1,13 @@
+sample_no: 192
+report (doc_id): 251   page: 257   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/251_page_257.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/192.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+Month | Discharge in second-feet | Discharge in second-feet | Discharge in second-feet | Runoff | Runoff
+Month | Unnamed: 1_level_1 | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1
+Maximum | Minimum | Mean | Second- foot-days | Agre-feet | 
+July 17 -31, 1923 | 11 | 0 | 3.83 | 57.4 | 114
+... (35 lines in all; last lines:)
+September | 39 | 0 | 3.6 | 108 | 214
+Water year 1925 | 39 | 0 | 6.99 | 2552.2 | 5060

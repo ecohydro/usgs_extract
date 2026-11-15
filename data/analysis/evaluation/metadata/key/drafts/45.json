@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "Kings County",
+  "state": "Cal.",
+  "evidence_place": "heading before table",
+  "water_source": "Tulare Lake",
+  "data_type": "Reservoir",
+  "date_start": "1915-10",
+  "date_end": "1916-09",
+  "temporal_resolution": "daily",
+  "variables": "gage_height",
+  "n_measurements": 114,
+  "n_variables": 114,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table title: 'Depth, in feet, of Tulare Lake in Kings County, Cal., for the year ending Sept. 30, 1916'. Depth of lake recorded as gage_height (page calls it stage); a lake, so Reservoir. Scattered readings; first printed value Oct. 4, last Sept. 2; water year of the title given as dates. Counted by month: Oct 3, Nov 4 (incl. .0 on the 21st), Dec 4, Jan 3, Feb 10, Mar 14, Apr 9, May 19, June 30, July 15, Aug 2, Sept 1 = 114. No station name of the form water body + relation + place, no coordinates. Text mentions the water's edge was 3 miles from the town of Corcoran in November 1907 (not used as the site's place). The Deer Creek at Hot Springs heading below the table belongs to another station."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°03'01\", long 121°18'53\"",
+  "well_number": "",
+  "station_number": "11423700",
+  "station_name": "New Camp Far West Reservoir near Wheatland, Calif.",
+  "township_range_section": "NE¼SW¼ sec.21, T.14 N., R.6 E.",
+  "place_name": "Wheatland",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "Yuba-Placer County line",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "New Camp Far West Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 30,
+  "n_variables": 30,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table: 15 elevation/contents pairs (8 in left block, 7 in right), both columns counted = 30. No dates (capacity table). Page also says: in center of New Camp Far West Dam on the Bear River, 6.4 mi east of Wheatland, 11.8 mi northeast of Sheridan. County printed as 'on Yuba-Placer County line'."
+ }
+]

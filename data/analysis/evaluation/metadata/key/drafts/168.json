@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°37'50\", long 121°40'40\"",
+  "well_number": "",
+  "station_number": "1525",
+  "station_name": "Salinas River near Spreckels, Calif.",
+  "township_range_section": "in El Toro Grant",
+  "place_name": "Spreckels",
+  "place_relation": "near",
+  "basin_or_area": "Salinas River Basin",
+  "county": "Monterey County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Salinas River",
+  "data_type": "Stream Discharge",
+  "date_start": "1930-03-07",
+  "date_end": "1945-02-03",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 6,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table of revised maximum discharge for water years 1930, 1935, 1945 (3 rows): 3 discharges + 3 gage heights = 6. WSP numbers and water years not counted (identifiers / dates). Treated as a table of annual extremes (annual), dated by the first and last printed dates; only three non-consecutive years, so 'discrete' is also arguable. Other distances on page: 2 miles west of Spreckels, 4 miles south of Salinas, 0.5 mile upstream from Toro Creek, 80 ft upstream from bridge on Salinas-Monterey highway."
+ }
+]

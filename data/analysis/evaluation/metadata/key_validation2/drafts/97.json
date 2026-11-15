@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 34°29'15\", long. 119°18'20\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork Matilija Creek at Matilija, Calif.",
+  "township_range_section": "NE¼ sec. 29, T. 5 N., R. 23 W.",
+  "place_name": "Matilija",
+  "place_relation": "at",
+  "basin_or_area": "Ventura River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork Matilija Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1945-10",
+  "date_end": "1946-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary (table 2), not the daily grid. Measurements = 12 months x maximum, minimum, mean = 36. n_variables adds 12 second-foot-days, 12 runoff in acre-feet, and 5 values each in the calendar year 1945 and water year 1945-46 rows = 70. Location text also: at highway bridge, 0.5 mile upstream from mouth and 0.5 mile north of Matilija. County appears only in an agency name (Ventura County Water Survey): left blank."
+ }
+]

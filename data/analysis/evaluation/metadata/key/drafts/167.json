@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 42°35', long. 121°51'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Sprague River near Chiloquin, Oreg.",
+  "township_range_section": "NE¼ sec. 35, T. 34 S., R. 7 E.",
+  "place_name": "Chiloquin",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Sprague River",
+  "data_type": "Stream Discharge",
+  "date_start": "1950-10",
+  "date_end": "1951-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 14,
+  "n_variables": 14,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1950-51 (except periods of ice effect): 7 gage height / discharge pairs, both columns counted = 14. Dates = period the rating applies to. No station number printed. Location text also: on right bank 1¼ miles east of Chiloquin and 4 miles upstream from Modoc Point Canal intake. No county printed."
+ }
+]

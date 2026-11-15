@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "10",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "valley of southern California",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "A. P. Johnson",
+  "data_type": "Groundwater",
+  "date_start": "1909-03-30",
+  "date_end": "1920-11-18",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 23,
+  "n_variables": 23,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation block of well 10 (report's own number); heading gives only '10. A. P. Johnson--Continued', no place, county or well description on this page. State from running head 'Water levels in wells in southern California'. Count: left column 1909 3, 1910 3, 1912 1, 1913 1, 1914 3 (Aug. 15 'pumping' has no value, not counted) = 11; right column 2 per year 1915-1920 = 12; total 23. Each ft-in depth counted as one value."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°19'45\", long 119°19'40\"",
+  "well_number": "",
+  "station_number": "11234700",
+  "station_name": "MAMMOTH POOL RESERVOIR NEAR BIG CREEK, CALIF.",
+  "township_range_section": "SW¼ sec.10, T.7 S., R.24 E.",
+  "place_name": "Big Creek",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "Madera County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Mammoth Pool Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1972-10-01",
+  "date_end": "1973-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation",
+  "n_measurements": 377,
+  "n_variables": 413,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "365 daily contents (months 31,30,31,31,28,31,30,31,30,31,31,30; no blanks seen) + 12 end-of-month elevations in row (a). n_variables adds MAX 12, MIN 12 and change in contents (b) 12. CAL YR / WTR YR lines below are outside the digitized table. Location text: 10 miles northwest of town of Big Creek, near dam on San Joaquin River, Sierra National Forest."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°35', long. 120°16'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Lake McClure at Exchequer, Calif.",
+  "township_range_section": "SW¼ sec. 13, T. 4 S., R. 15 E.",
+  "place_name": "Exchequer",
+  "place_relation": "at",
+  "basin_or_area": "MERCED RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lake McClure",
+  "data_type": "Reservoir",
+  "date_start": "1947-09-30",
+  "date_end": "1948-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 25,
+  "n_variables": 39,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly elevation and contents table. Elevation 12 values (first Sept. 30 row is a dash) + contents 13 values (incl. the estimated 'e 4,400' on Sept. 30, 1947) = 25. Change in contents (12 monthly + calendar-year + water-year = 14) are summary values: n_variables 25 + 14 = 39. First printed row is Sept. 30 of the previous water year, so dates follow the printed rows. No station number printed. Other place wording: at Exchequer Dam on Merced River, 5 miles northeast of Merced Falls."
+ }
+]

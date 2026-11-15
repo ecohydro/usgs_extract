@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°46'35\", long 121°45'10\"",
+  "well_number": "",
+  "station_number": "11384000",
+  "station_name": "BIG CHICO CREEK NEAR CHICO, CALIF.",
+  "township_range_section": "in Arroyo Chico Grant",
+  "place_name": "Chico",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Butte County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Big Chico Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": 371,
+  "n_variables": 441,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Digitized table covers the daily grid and the peak-discharge block below it. Daily values counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. Peak block: 3 peaks, each with gage height and discharge = 6 (time not counted). Summary values: 5 foot rows x 12 months = 60, plus 5 values in each of the calendar-year and water-year rows = 10. Other distances on page: 7 miles northeast of Chico; 1.8 miles upstream from golf clubhouse in Bidwell Park; 2.6 miles upstream from Lindo Channel. Resolution given as daily (main grid); the peak block alone would be annual."
+ }
+]

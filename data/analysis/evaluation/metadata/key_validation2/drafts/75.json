@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°09'10\", long 117°46'18\"",
+  "well_number": "",
+  "station_number": "11-0863",
+  "station_name": "San Dimas Creek below San Dimas Dam, Calif.",
+  "township_range_section": "SW1/4SE1/4 sec.24, T.1 N., R.9 W.",
+  "place_name": "San Dimas Dam",
+  "place_relation": "below",
+  "basin_or_area": "San Gabriel River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Dimas Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10-01",
+  "date_end": "1966-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 409,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Complete daily grid: 365 values (February has 28). Summary: 3 foot rows x 12 = 36, plus 4 values in each of the two year lines = 8. County appears only in an agency name (Los Angeles County Flood Control District), so left blank. Location text also gives 1,000 ft downstream from San Dimas Dam and 3.7 miles northeast of San Dimas."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Little Santa Anita Creek near Sierra Madre, Calif.",
+  "township_range_section": "",
+  "place_name": "Sierra Madre",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Little Santa Anita Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1917-10",
+  "date_end": "1918-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 78,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary table for the year ending Sept. 30, 1918. Measurements = monthly maximum, minimum and mean, 12 months x 3 = 36. Summary values: per square mile, depth in inches and total in acre-feet (12 x 3 = 36) plus 'The year' row (6) = 42; n_variables 36 + 42 = 78. Drainage area 1.9 square miles is in the heading, not counted. No station number, coordinates or county on the page."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°27', long 120°39'",
+  "well_number": "",
+  "station_number": "370",
+  "station_name": "Bowman Lake near Graniteville, Calif.",
+  "township_range_section": "SW¼ sec. 5, T. 18 N., R. 12 E.",
+  "place_name": "Graniteville",
+  "place_relation": "near",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bowman Lake",
+  "data_type": "Reservoir",
+  "date_start": "1926-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "monthly",
+  "variables": "contents",
+  "n_measurements": 269,
+  "n_variables": 269,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Contents on last day of month, water years 1927-1950 (24 rows x 12 months = 288 cells). Counted row by row: 6 dashes (Oct, Nov of water year 1927; Dec, Jan of 1932; Jan, Feb of 1933) and 13 cells printed '(a)' (footnote: contents less than 1,000 acre-ft) not counted; 269 printed numbers, including the 0 for Nov. of water year 1950. If '(a)' cells count as measurements the total is 282. Dates given as the water years of the first and last rows; first printed value is Dec. of water year 1927 (Dec 1926). Location text also: on rock-fill portion of Bowman Dam on Canyon Creek, 4 miles east of Graniteville, and 8 miles south of Sierra City. No county printed."
+ }
+]

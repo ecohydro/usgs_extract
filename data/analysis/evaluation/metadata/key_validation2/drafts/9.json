@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Aliso Creek at El Toro, Calif.",
+  "township_range_section": "Canada de Los Alisos grant",
+  "place_name": "El Toro",
+  "place_relation": "at",
+  "basin_or_area": "Aliso Creek Basin",
+  "county": "Orange",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Aliso Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1931-02-03",
+  "date_end": "1932-02-29",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 129,
+  "n_variables": 129,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid printed in two halves (days 1-15, 16-31), both in table 1; monthly summary below is table 2 and not counted. Only months with flow are printed (Feb and Apr 1931, Nov 1931 to Feb 1932), so dates are the first and last printed values instead of a water year. Count: Feb 1931 5, Apr 1931 3, Nov 30, Dec 31, Jan 31, Feb 1932 29 = 129 (blank cells not counted). Location text also says 'on Second Street Bridge'."
+ }
+]

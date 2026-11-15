@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11392200",
+  "station_name": "Middle Fork Feather River at Delleker, Calif.",
+  "township_range_section": "",
+  "place_name": "Delleker",
+  "place_relation": "at",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Middle Fork Feather River",
+  "data_type": "Stream Discharge",
+  "date_start": "1972-08-23",
+  "date_end": "1972-08-23",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry",
+  "n_measurements": 21,
+  "n_variables": 21,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Pesticide analyses, both printed blocks (one sample, Aug. 23, in water year October 1971 to September 1972): 10 values in the first block + 11 in the second = 21; 'less than' values counted; time column not counted. Half the values are pesticides in bottom deposits (ug/kg), listed under water_chemistry. Station heading is printed above the first table on the page (field determinations), not directly above this table."
+ }
+]

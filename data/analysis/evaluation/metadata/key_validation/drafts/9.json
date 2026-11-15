@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°32'20\", long. 119°52'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - A. Dowling",
+  "data_type": "Springs",
+  "date_start": "1949-05-27",
+  "date_end": "1950-04-21",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 21,
+  "n_variables": 21,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "12 dated discharge measurements (each printed in second-feet and gals. per min., counted once) + 9 temperatures (blank on May 27, June 22 and Jan. 16) = 21. Times of day not counted. Report's own number: STATION 106-A (not a USGS station number). Heading also gives altitude about 1,100 feet and 'Measured at union 50 feet below a 187-foot horizontal well' (outside the table, not counted). No place, county or state printed."
+ }
+]

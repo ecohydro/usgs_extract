@@ -1,0 +1,13 @@
+sample_no: 92
+report (doc_id): 56363   page: 227   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/56363_page_227.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/92.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | Unnamed: 1 | Peak discharge (base, 3,200  | Peak discharge (base, 3,200  | Peak discharge (base, 3,200  | Peak discharge (base, 3,200  | Peak discharge (base, 3,200  | Peak discharge (base, 3,200 
+Date | Time | G.H. | Discharge | Date |  |  | 
+3-25 | 0630 | 8.78 | 4320 | 6-6 | 2130.0 | 9.31 | 4980.0
+5-18 | 2230 | 8.72 | 4240 |  |  |  | 
+... (4 lines in all; last lines:)
+3-25 | 0630 | 8.78 | 4320 | 6-6 | 2130.0 | 9.31 | 4980.0
+5-18 | 2230 | 8.72 | 4240 |  |  |  | 

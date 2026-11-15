@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°29'40\", long. 119°49'45\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "point of diversion",
+  "place_relation": "about 1.0 mile above",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - Sawyer Estate",
+  "data_type": "Springs",
+  "date_start": "1949-10-12",
+  "date_end": "1950-04-20",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 5,
+  "n_variables": 5,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own numbering: Station 28a. 3 discharges (each printed in second-feet and gallons per minute, counted once) + 2 temperatures (none on Oct. 12, 1949) = 5. Times of day not counted. Description also names Strawberry flats (seepage in stream channel at rock outcrop just above it). The only place the location is tied to is an unnamed 'point of diversion'. No county, state or basin printed. Altitude is in the heading, not counted."
+ }
+]

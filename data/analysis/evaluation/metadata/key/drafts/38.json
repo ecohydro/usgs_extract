@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "027S040E02J01M",
+  "station_number": "353644117380601",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Ridgecrest",
+  "place_relation": "southeast of",
+  "basin_or_area": "",
+  "county": "Kern County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Well 027S040E02J01M",
+  "data_type": "Groundwater",
+  "date_start": "1977-12-16",
+  "date_end": "1977-12-16",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 1,
+  "n_variables": 1,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the first of three well blocks (Kern County--Continued). One printed water level (Dec 16, 1977, 117.71). The page prints \"SITE NUMBER 353644117380601\" (USGS 15-digit site number, not a stream gauge number); placed in station_number, rules do not say where it goes. No state printed on the page. No latitude/longitude printed as such. No owner or well name; no year drilled. Heading numbers (diam 10 in, depth 220 ft, altitude 2300 ft) not counted."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Los Angeles River at Los Angeles, Calif.",
+  "township_range_section": "",
+  "place_name": "Los Angeles",
+  "place_relation": "at",
+  "basin_or_area": "LOS ANGELES RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Los Angeles River",
+  "data_type": "Stream Discharge",
+  "date_start": "1929-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 252,
+  "n_variables": 273,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly and yearly mean discharge, water years 1930-1950 (first of three tables on the page). 21 water-year rows x 12 month columns = 252 printed monthly means (zeros count; no blank cells seen). n_variables adds the 21 values of 'The year' column. Station name is only in the table title."
+ }
+]

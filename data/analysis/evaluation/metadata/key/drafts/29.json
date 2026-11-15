@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°49'30\", long 122°35'40\"",
+  "well_number": "",
+  "station_number": "11-5175",
+  "station_name": "Shasta River near Yreka, Calif.",
+  "township_range_section": "E½ sec.24, T.46 N., R.7 W.",
+  "place_name": "Yreka",
+  "place_relation": "near",
+  "basin_or_area": "Klamath River Basin",
+  "county": "Siskiyou County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Shasta River",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10",
+  "date_end": "1968-09-04",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;water_chemistry;temperature",
+  "n_measurements": 192,
+  "n_variables": 194,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Both printed blocks (same 12 sample dates) are one digitized table; all counted. One sample per month, each with a printed day, so discrete. Day of the first (October) sample is poorly printed: 03 or 09, so start given to the month. Count by column: mean discharge 12; Ca 2, Mg 2, Na 12, K 2, HCO3 12, CO3 12, SO4 2, Cl 12, NO3 2, B 12 (=70); dissolved solids residue 2, hardness 12, noncarbonate hardness 12, percent sodium 12, SAR 12, alkalinity 12, specific conductance 12, pH 12, dissolved oxygen 12 (=98); temperature 12. Total 192. Dissolved solids in tons per ac-ft (2 values) restate the mg/l values: not in n_measurements, added in n_variables (rule not explicit on this). Mean discharge counted as a measurement. Other distances: 0.5 mile upstream from mouth, 7 miles north of Yreka."
+ }
+]

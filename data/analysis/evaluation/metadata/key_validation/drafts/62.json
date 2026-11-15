@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°07'25\", long 115°51'08\"",
+  "well_number": "",
+  "station_number": "10255885",
+  "station_name": "SAN FELIPE CREEK NEAR WESTMORLAND, CA",
+  "township_range_section": "NW¼SW¼ sec.17, T.12 S., R.11 E.",
+  "place_name": "Westmorland",
+  "place_relation": "near",
+  "basin_or_area": "SALTON SEA BASIN",
+  "county": "Imperial County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "San Felipe Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-10",
+  "date_end": "1978-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 182,
+  "n_variables": 252,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values printed only in DEC (31), JAN (31), FEB (28), MAR (31), AUG (31), SEP (30) = 182, zeros counted. OCT, NOV, APR-JUL have no printed daily values (only zero totals in the foot rows), so nothing counted there; dates given as the full water year per the water-year rule. Summary values: TOTAL/MEAN/MAX/MIN/AC-FT x 12 months = 60, plus CAL YR and WTR YR lines 5 each = 10; n_variables = 182 + 70. Location text also gives: on left bank 320 ft downstream from State Highway 86, and 14.6 mi northwest of Westmorland."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "47/1W-35Q1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Macdoel",
+  "place_relation": "about 4.1 miles northeast of",
+  "basin_or_area": "Butte Valley",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Dale West",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology;well_construction",
+  "n_measurements": 0,
+  "n_variables": 6,
+  "construction_date": "1952",
+  "confidence": "sure",
+  "notes": "Driller's log of one well (3 layers). No measured variable in the table, so n_measurements = 0; n_variables = 3 thickness + 3 depth = 6. Numbers in the bracketed heading above the log (altitude 4,234 ft, cased to 300 ft, perforated 100-300 ft) are outside the digitized table and not counted; well_construction listed because that heading describes the casing. Heading: 'Dale West. On alluvial plain about 4.1 miles northeast of Macdoel ... Drilled by C. F. Enloe, 1952'. Dale West taken as the owner. No measurement dates. Basin from table title 'wells in Butte Valley, Calif.'. No county printed."
+ }
+]

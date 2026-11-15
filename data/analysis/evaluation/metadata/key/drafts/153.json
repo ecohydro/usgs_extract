@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11026000",
+  "station_name": "Santa Ysabel Creek near San Pasqual, Calif.",
+  "township_range_section": "",
+  "place_name": "San Pasqual",
+  "place_relation": "near",
+  "basin_or_area": "San Dieguito River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ysabel Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1968-10",
+  "date_end": "1969-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 274,
+  "n_variables": 344,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "First of two daily grids on the page (water year October 1968 to September 1969). Daily values printed only Dec-Aug: Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, Jun 30, Jul 31, Aug 31 = 274 (zeros counted). Oct, Nov and Sep columns have no daily values printed (only 0 in the summary rows), so nothing counted there. Summary values: TOTAL, MEAN, MAX, MIN, AC-FT rows x 12 months = 60, plus 5 in CAL YR 1968 row and 5 in WTR YR 1969 row = 70. Dates are the water year in the title."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-0470",
+  "station_name": "ARROYO TRABUCO NEAR SAN JUAN CAPISTRANO, CALIF.",
+  "township_range_section": "",
+  "place_name": "SAN JUAN CAPISTRANO",
+  "place_relation": "near",
+  "basin_or_area": "SAN JUAN CREEK BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "ARROYO TRABUCO",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-04-01",
+  "date_end": "1967-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;sediment",
+  "n_measurements": 329,
+  "n_variables": 343,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Continuation block of the water year October 1966 to September 1967 suspended-sediment table; this block prints April-September, so its own dates are used. Mean discharge: Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 183. Mean concentration (dashes not counted): Apr 14, May 4, June 4, July 2, Aug 0, Sept 0 = 24. Tons per day ('T' = less than 0.05 ton counted as a printed value): Apr 30, May 31, June 30, July 31 = 122; Aug and Sept daily cells are empty. Total 329. Summary: monthly totals of discharge and load, 2 x 6 months = 12, plus total discharge for year and total load for year = 14. Unsure only because of the T cells (67 of them) and the faint concentration column."
+ }
+]

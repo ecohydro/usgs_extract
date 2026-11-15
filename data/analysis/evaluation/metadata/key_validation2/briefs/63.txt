@@ -1,0 +1,13 @@
+sample_no: 63
+report (doc_id): 51659   page: 148   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/51659_page_148.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/63.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 5 columns):
+Unnamed: 0 | 1:/4 - 2201 (E -96g) | 19/4 - 22R1 (E -98) | 1s/4 - 23N1 (E -99e) | 15/4 - 26F1 (E -99)
+(Ca) | 38 | 27 | 38 | 37
+(Mg) | 14 | 6 | 8 | 7
+(Na + K) | 57 | (31) | 33 | 74
+... (13 lines in all; last lines:)
+(Date) | 1 -30 -51 | 6 -13 -31 | 1 -15 -52 | 1 -15 -52
+(D.y) | SECFCD | DA | SBCFCD | SBCFCD

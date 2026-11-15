@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 40°42', long. 122°48'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Trinity River at Lewiston, Calif.",
+  "township_range_section": "NE¼ sec. 19, T. 33 N., R. 8 W.",
+  "place_name": "Lewiston",
+  "place_relation": "at",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Trinity River",
+  "data_type": "Stream Discharge",
+  "date_start": "1948-10-01",
+  "date_end": "1949-09-30",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 68,
+  "n_variables": 68,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Both rating tables (Oct. 1 to Mar. 18 and Mar. 19 to Sept. 30) are in the digitized table, so both counted. First: 7+7+6 = 20 gage height / discharge pairs; second: 5+5+4 = 14 pairs; 34 pairs x 2 = 68. Dates = period the two tables apply to, water year 1948-49. Page also says at highway bridge at Lewiston, 0.8 mile downstream from Deadwood Creek. No station number printed."
+ }
+]

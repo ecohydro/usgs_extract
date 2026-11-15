@@ -1,0 +1,13 @@
+sample_no: 22
+report (doc_id): 733   page: 28   table on the page: 3 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/733_page_28.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/22.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Month | Cfs -days | Maximum | Minimum | Mean | Runoff in acre-feet
+Calendar year 1960 | 44.6 | 1.5 | 0.0 | 0.12 | 88.0
+March 1961 | 0.2 | 0.1 | 0.0 | 0.007 | 0.4
+Water year 1960 -61 | 0.2 | 0.1 | 0.0 | 0.0005 | 0.4
+... (13 lines in all; last lines:)
+April 1965 | 41.5 | 14.0 | 0.0 | 138.0 | 82.0
+Water year 1964 -65 | 41.5 | 14.0 | 0.0 | 0.11 | 82.0

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "South Fork of Tuolumne River near Buck Meadows, Calif.",
+  "township_range_section": "",
+  "place_name": "Buck Meadows",
+  "place_relation": "near",
+  "basin_or_area": "Tuolumne River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Fork of Tuolumne River",
+  "data_type": "Stream Discharge",
+  "date_start": "1918-10-30",
+  "date_end": "1920-07-27",
+  "temporal_resolution": "discrete",
+  "variables": "gage_height;discharge",
+  "n_measurements": 16,
+  "n_variables": 16,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Discharge measurements table (two side-by-side halves). 8 measurement dates (Oct. 30, 1918; Mar. 25, 31, May 3, July 9, 28, Aug. 7, 1919; July 27, 1920), each with gage height and discharge = 16. No station number, coordinates or county on page. Basin from running head. Text above mentions storage at Harden ranch (not a site location)."
+ }
+]

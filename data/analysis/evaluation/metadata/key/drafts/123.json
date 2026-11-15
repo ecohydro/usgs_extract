@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "6/3-28R1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Irene McCarthy, formerly Byron Puneman",
+  "data_type": "Groundwater",
+  "date_start": "1946-04-25",
+  "date_end": "1957-11-05",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 18,
+  "n_variables": 18,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 2 = the block for well 6/3-28R1 (other numbers printed: BR-30, CDE-146). Former owner's surname is hard to read (Puneman / Funeman / Runeman). 6 rows x 3 date/water-level pairs = 18 water levels. Depth about 172 feet and altitude about 2,970 feet are in the heading, not counted. No county, state, basin or township words on the page (San Bernardino County appears only in an agency name in a footnote). 'Records available: 1917, 1946, 1948-54, 1956-57' is not used for dates."
+ }
+]

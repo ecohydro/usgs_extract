@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11113000",
+  "station_name": "SESPE CREEK NEAR FILLMORE, CA",
+  "township_range_section": "",
+  "place_name": "FILLMORE",
+  "place_relation": "near",
+  "basin_or_area": "SANTA CLARA RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "SESPE CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-10-01",
+  "date_end": "1978-05-22",
+  "temporal_resolution": "daily",
+  "variables": "water_chemistry",
+  "n_measurements": 477,
+  "n_variables": 486,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Specific conductance, daily max / min / mean. Title says water year October 1977 to September 1978 but this page prints only October-May (two blocks, both in the digitized table); dates given are the first and last printed values, not the full water year. Days with values: Oct 31, Nov 30, Dec 29 (1-29), Jan 12 (6-10, 15-21), Feb 13 (2-14), Mar 10 (1, 2, 4-9, 30, 31), Apr 14 (1-14), May 20 (3-22) = 159 days x 3 = 477; dashes not counted. MONTH row (Oct, Nov, Dec: 9 values) is summary, in n_variables only."
+ }
+]

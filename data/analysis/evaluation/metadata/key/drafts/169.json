@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Tule River near Portersville, Cal.",
+  "township_range_section": "",
+  "place_name": "Portersville",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Cal.",
+  "evidence_place": "heading before table",
+  "water_source": "Tule River",
+  "data_type": "Stream Discharge",
+  "date_start": "1910-01-01",
+  "date_end": "1910-12-31",
+  "temporal_resolution": "daily",
+  "variables": "gage_height",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily gage height for calendar year 1910. Counted month by month: every day of every month has a printed value (31+28+31+30+31+30+31+31+30+31+30+31 = 365); no blanks seen. Page gives no coordinates, station number, county or basin."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°08'06\", long 122°04'26\"",
+  "well_number": "",
+  "station_number": "11367740",
+  "station_name": "McCloud Reservoir near McCloud, Calif.",
+  "township_range_section": "SE¼SW¼ sec. 22, T.38 N., R.2 W.",
+  "place_name": "McCloud",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "Shasta County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "McCloud Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1965-12-14",
+  "date_end": "1970-05-01",
+  "temporal_resolution": "annual",
+  "variables": "contents;elevation",
+  "n_measurements": 20,
+  "n_variables": 20,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Extremes table, water years 1966-70: 5 rows x (maximum contents, elevation, minimum contents, elevation) = 20. Dates = first and last printed extreme (max Dec. 14, 1965; min May 1, 1970). Location text also: Shasta National Forest, on McCloud Dam near spillway on McCloud River, 200 ft downstream from Panther Creek and 8.8 miles southeast of McCloud."
+ }
+]

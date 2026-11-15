@@ -1,0 +1,13 @@
+sample_no: 149
+report (doc_id): 52982   page: 46   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/52982_page_46.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/149.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 7 columns):
+DATE | DATE.1 | DATE.2 | LISCHARGE | LISCHARGE.1 | LISCHARGE.2 | LISCHARGE.3
+: Second-feet : Gals, per mi | : Second-feet : Gals, per mi | : Second-feet : Gals, per mi | : Second-feet : Gals, per mi | : Second-feet : Gals, per mi | : Second-feet : Gals, per mi | : Second-feet : Gals, per mi
+Oct. 12, | 1949 | (5:20 a.m.) | : 0.029 : |  | 13 | :
+Jan. 23, | 1950 | (1:15 p.m.) | : .033 : |  | 15 | : 60
+... (5 lines in all; last lines:)
+Jan. 23, | 1950 | (1:15 p.m.) | : .033 : |  | 15 | : 60
+Apr. 20 |  | (9:35 a.m.) | : .026 : |  | 12 | : 57

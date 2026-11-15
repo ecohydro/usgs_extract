@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11070262",
+  "station_name": "Perris Channel Lateral \"B\" at Perris Boulevard near March Field, Calif.",
+  "township_range_section": "",
+  "place_name": "Perris Boulevard; March Field",
+  "place_relation": "at; near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Perris Channel Lateral \"B\"",
+  "data_type": "Precipitation",
+  "date_start": "1972-10-01",
+  "date_end": "1973-09-30",
+  "temporal_resolution": "daily",
+  "variables": "precipitation",
+  "n_measurements": 337,
+  "n_variables": 337,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: Station 17. Rainfall record at a stream gauge site; table title says ACCUMULATED RAINFALL (IN.), so Precipitation. Counted month by month, '---' (missing) not counted: Oct 28, Nov 28, Dec 31, Jan 27, Feb 27, Mar 27, Apr 30, May 31, Jun 29, Jul 31, Aug 31, Sep 17 = 337. No summary rows."
+ }
+]
