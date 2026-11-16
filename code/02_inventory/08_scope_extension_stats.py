@@ -4,11 +4,14 @@ what is digitally available from USGS NWIS, for California streamflow and
 groundwater. Produces the abstract/manuscript statistics.
 
 Two questions answered per water type:
-  TEMPORAL  How many years earlier does the restored record begin than the
-            earliest digitally-available (NWIS) record?
+  TEMPORAL  How many sites with data do the restored records add in early decades, compared with
+            NWIS? (2026-11-15: replaces "how many years earlier does the restored record begin";
+            NWIS actual years reach back to isolated flood peaks in 1854, so a single start-year
+            comparison misleads. Same sites and NWIS years as Figure 3; per-decade table in
+            data/analysis/scope_decade_comparison.csv.)
   SPATIAL   How many HUC12 subwatersheds ("basins") contain restored sites but
-            NO NWIS site (previously ungauged basins), and what % increase in
-            monitored basins does that represent?
+            NO NWIS site with a record beginning <= 1979 (same period as the restored data;
+            same sites as Figure 3), and what % increase in monitored basins is that?
 
 Method notes (state these in the manuscript methods):
   - Restored sites are clipped to the CA state boundary. The restored metadata
@@ -57,6 +60,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from date_parsing import is_dated
 from paper_filters import drop_tribal, apply_review, reviewed_keep
+from site_activity import load_records, nwis_table, all_nwis_coords, restored_sites as _restored_sites
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
@@ -129,6 +133,16 @@ def corroborated_earliest(r, water_type):
     return int(yd.year_start.min())
 
 
+def nwis_actual_years(kind):
+    f = nwis_path / f'nwis_years_{kind}.csv'
+    if not f.exists():
+        return None
+    y = pd.read_csv(f, dtype={'site_no': str})
+    return y[y.year <= 1979]
+
+
+fig3_rec = load_records()
+decade_tables = []
 early_review = []
 for wt, csv_name in [('Stream Discharge', stream_csv),
                      ('Groundwater', 'ca_groundwater_sites.csv')]:
@@ -142,17 +156,34 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
     ry = r['year_start'].dropna().astype(int)
     r_early_raw = int(ry.min())
     r_early = corroborated_earliest(r, wt)
-    n_early = int(n['begin_year'].dropna().min())
-    early_review.append(r[r['year_start'] < n_early].assign(water_type=wt))
-    extension_yrs = n_early - r_early
-    n_predate_locs = r[r['year_start'] < n_early].drop_duplicates(
-        ['lat_combined', 'lon_combined']).shape[0]
-    pct_era     = 100 * extension_yrs / (RECORD_END_ERA - n_early)
-    pct_present = 100 * extension_yrs / (RECORD_END_PRESENT - n_early)
+    n_begin = int(n['begin_year'].dropna().min())       # series-catalogue begin date (old basis)
+    early_review.append(r[r['year_start'] < n_begin].assign(water_type=wt))
+    # decade comparison on the Figure 3 basis (2026-11-15): same restored sites (site_B1) and NWIS
+    # ACTUAL years with data. The NWIS series catalogue starts stream records in 1891, but the
+    # actual years include isolated historic flood peaks back to 1854 (Sacramento R nr Hamilton City),
+    # so "restored 1862 vs NWIS 1891 (+29 yr)" no longer holds; report sites active per period instead.
+    nt = nwis_table(csv_name)
+    st = _restored_sites(fig3_rec, wt, all_nwis_coords(csv_name), 'site_B1')
+    act_years = nwis_actual_years('stream' if 'stream' in csv_name else 'gw')
+    n_early_actual = int(act_years.year.min()) if act_years is not None else None
+    dec_rows = []
+    for d in range(1850, 1980, 10):
+        rs = st[st.dec.map(lambda v: d in v)]
+        dec_rows.append({'water_type': wt, 'decade': d, 'nwis_active': sum(d in v for v in nt.decades),
+                         'restored_active': len(rs), 'restored_active_no_nwis_link': int(rs.nwis_link.isna().sum())})
+    decade_tables.append(pd.DataFrame(dec_rows))
+    before = {}
+    for cut in (1900, 1910):
+        rs = st[st.dec.map(lambda v: any(x < cut for x in v))]
+        before[cut] = (sum(any(x < cut for x in v) for v in nt.decades), len(rs), int(rs.nwis_link.isna().sum()))
 
-    # --- spatial (HUC12 basins) ---
-    r_b = huc12_set(r_sites)
-    n_b = huc12_set(n)
+    # --- spatial (HUC12 basins), Figure 3 basis (Annette, 2026-11-15): the restored data end in 1979,
+    # so NWIS is compared over the same period: NWIS sites with a record beginning <= 1979
+    # (site_activity.nwis_table) and the Figure 3 restored sites (site_B1). The earlier version
+    # counted NWIS sites of ANY start year (through today) and was an error (+396 vs +476 stream).
+    r_b = huc12_set(gpd.GeoDataFrame(st, geometry=gpd.points_from_xy(st.lon, st.lat), crs='EPSG:4326'))
+    n_b = huc12_set(gpd.GeoDataFrame(nt, geometry=gpd.points_from_xy(nt.dec_long_va, nt.dec_lat_va),
+                                     crs='EPSG:4326'))
     ungauged = r_b - n_b
     pct_basin_increase = 100 * len(ungauged) / len(n_b)
 
@@ -162,15 +193,18 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
         # temporal
         'restored_earliest_yr': r_early,
         'restored_earliest_yr_raw': r_early_raw,
-        'nwis_earliest_yr': n_early,
-        'temporal_extension_yrs': extension_yrs,
-        'restored_locs_predating_nwis': n_predate_locs,
-        'temporal_pct_vs_1980era': round(pct_era, 1),
-        'temporal_pct_vs_present': round(pct_present, 1),
+        'nwis_earliest_series_begin_yr': n_begin,
+        'nwis_earliest_actual_yr': n_early_actual,
+        'nwis_decades_source': ';'.join(f'{k}={v}' for k, v in nt.decades_source.value_counts().items()),
+        'nwis_sites_active_pre1900': before[1900][0],
+        'restored_sites_active_pre1900': before[1900][1],
+        'restored_sites_active_pre1900_no_nwis_link': before[1900][2],
+        'nwis_sites_active_pre1910': before[1910][0],
+        'restored_sites_active_pre1910': before[1910][1],
+        'restored_sites_active_pre1910_no_nwis_link': before[1910][2],
         # spatial
-        'restored_sites_ca': len(r_sites),
-        'restored_sites_ca_any_precision': r_any.drop_duplicates(['lat_combined', 'lon_combined']).shape[0],
-        'nwis_sites': len(n),
+        'restored_sites_ca': len(st),
+        'nwis_sites_le1979': len(nt),
         'restored_basins_huc12': len(r_b),
         'nwis_basins_huc12': len(n_b),
         'previously_ungauged_basins': len(ungauged),
@@ -180,9 +214,10 @@ for wt, csv_name in [('Stream Discharge', stream_csv),
     })
 
     print(f'\n=== {wt} ===')
-    print(f'  TEMPORAL: restored {r_early} vs NWIS {n_early} -> +{extension_yrs} yrs '
-          f'(+{pct_era:.0f}% vs 1980 era, +{pct_present:.0f}% vs present); '
-          f'{n_predate_locs} CA sites predate NWIS')
+    print(f'  TEMPORAL: restored earliest {r_early}; NWIS earliest actual year {n_early_actual} '
+          f'(series catalogue {n_begin}); NWIS decades from {dict(nt.decades_source.value_counts())}')
+    for cut, (a_, b_, c_) in before.items():
+        print(f'    sites active before {cut}: NWIS {a_} | restored {b_} ({c_} with no NWIS link)')
     print(f'  SPATIAL:  restored {len(r_b)} basins vs NWIS {len(n_b)}; '
           f'+{len(ungauged)} previously-ungauged basins (+{pct_basin_increase:.0f}%)')
 
@@ -198,4 +233,6 @@ print(f'Records predating NWIS (for manual review): {len(rev):,} -> {early_path.
 
 out = pd.DataFrame(rows)
 out.to_csv(out_path, index=False)
+pd.concat(decade_tables).to_csv(root / 'data/analysis/scope_decade_comparison.csv', index=False)
+print('Saved: data/analysis/scope_decade_comparison.csv (sites active per decade, Figure 3 basis)')
 print(f'\nSaved: {out_path}')

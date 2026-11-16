@@ -27,6 +27,11 @@ Each metadata row is matched to a well on its page by (a) a well number in the L
 water-source/location text that is also on the page, (b) an owner name from the LLM
 text found in the well's heading, or (c) the page having only one well. Rows covering
 several wells get the centroid only if all wells are within 5 km (approximate).
+Then (2026-11-15) a table-owner check (table_owner.py): on water-level tables the well
+description printed above the table decides. A row matched to another well is reassigned when that
+description is on the same page, and unlinked when it is only on an earlier page or when the match
+came from 'only well on page' / owner name in a one-row-per-well list (graded sample in
+data/analysis/manual_review/well_owner_check/). Column owner_check records the verdict.
 
 Only rows whose LLM water type is NOT stream discharge / reservoir / precipitation are
 matched (first run: stream-gauge rows picked up well numbers printed elsewhere on the
@@ -55,6 +60,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from plss_utils import MERIDIAN_LETTER, haversine_km, sections, townships  # noqa: E402
+import table_owner  # noqa: E402
 
 root = Path(__file__).resolve().parents[4]
 lv   = root / 'data/analysis/location_validation'
@@ -233,7 +239,7 @@ meta = meta[wt.str.contains('ground|spring|irrigat|well|quality|other|nan') |
             ~wt.str.contains('stream|reservoir|precip')]
 
 # ---- pass 1: page-level resolution; collect report-level evidence
-pages, docs = {}, {}
+pages, docs, SHORT_IDS = {}, {}, {}
 for (doc, page), g in meta.groupby(['id', 'page_number']):
     doc, page = int(doc), int(page)
     p = root / f'data/digitized/{doc}/page_{page}/{doc}_page_{page}.json'
@@ -259,6 +265,7 @@ for (doc, page), g in meta.groupby(['id', 'page_number']):
         w.update({'dir_rule': rule, 'scope': 'page', 'cand': c})
         uniq[k] = w
     pages[(doc, page)] = (g, uniq, page_pairs, page_counties)
+    SHORT_IDS[(doc, page)] = len({m.group(0) for m in RE_SECID.finditer(text)})
     d = docs.setdefault(doc, {'pairs': {}, 'quadrants': set(), 'meridians': set(),
                               'title_counties': title_counties(g['Title'].iloc[0], COUNTY_NAMES)})
     for (t, td, r, rd) in page_pairs:
@@ -277,6 +284,11 @@ for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
                 w.update({'cand': c, 'dir_rule': rule, 'scope': 'document'})
 
 # ---- match rows to wells
+_pb = pd.read_parquet(root / 'data/analysis/page_blocks.parquet',
+                      columns=['id', 'page_number', 'block_order', 'block_type', 'table_idx', 'content'])
+OWNERS = table_owner.table_owners(_pb[_pb['id'].astype(int).isin({d for d, _ in pages})])
+del _pb
+ROW_TABLES = table_owner.matched_tables(root)
 wells_out, row_out = [], []
 for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
     for w in uniq.values():
@@ -314,7 +326,34 @@ for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
                     pick, how = uniq[top[0]], 'owner name in well heading'
         # (c) only one well on the page
         if pick is None and len(uniq) == 1:
-            pick, how = next(iter(uniq.values())), 'only well on page'
+            # (2026-11-15) not on one-row-per-well lists that print one full number and short ids for
+            # the rest (doc 2057 p162: "Well 22G1", "Well 22G2" ... all had become 8N/6W-9D1):
+            # skip if the row's LLM text names a different well, or if the page has several rows
+            # and lists >= 3 short well ids
+            only = next(iter(uniq.values()))
+            named = {(w['sec'], w['tract'], w['seq']) for w in parse_wells(rt)}
+            named |= {(int(m.group(1)), m.group(2), int(m.group(3))) for m in RE_SECID.finditer(rt)}
+            if named - {(only['sec'], only['tract'], only['seq'])}:
+                rec['status'] = 'only_well_skipped'
+                rec['only_well_skip'] = 'row names another well'
+            elif len(g) > 1 and SHORT_IDS.get((doc, page), 0) >= 3:
+                rec['status'] = 'only_well_skipped'
+                rec['only_well_skip'] = 'list of wells on page'
+            else:
+                pick, how = only, 'only well on page'
+        # (d) table-owner check (2026-11-15, table_owner.py): the well description above the row's
+        # water-level table decides; keep / reassign to the same-page owner / unlink
+        if pick is not None:
+            tabs = ROW_TABLES.get(row['meta_row']) or [t for (d_, p_, t) in OWNERS if d_ == doc and p_ == page]
+            verdict, new = table_owner.check(OWNERS, doc, page, tabs, well_key(pick), how)
+            rec['owner_check'] = verdict
+            if verdict == 'owner_same_page':
+                if new in uniq:
+                    pick, how = uniq[new], 'table owner (description above table)'
+                else:
+                    pick, rec['status'] = None, 'owner_not_on_page_list'
+            elif verdict in ('in_table_other', 'owner_earlier'):
+                pick, rec['status'] = None, 'owner_conflict'
         if pick is not None:
             rec.update({'match_rule': how, 'well': f"{pick['t']}{pick['td_res'] or pick['td'] or '?'}/"
                         f"{pick['r']}{pick['rd_res'] or pick['rd'] or '?'}-{pick['sec']}{pick['tract']}{pick['seq']}",
@@ -323,6 +362,8 @@ for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
                         'tract': pick['tract'], 'seq': pick['seq'], 'td_res': pick['td_res'],
                         'rd_res': pick['rd_res'], 't': pick['t'], 'r': pick['r'],
                         'status': 'ok' if pick['plssid'] else pick['dir_rule']})
+        elif rec.get('status') in ('owner_conflict', 'owner_not_on_page_list', 'only_well_skipped'):
+            pass
         elif len(resolved) > 1:
             rec.update({'match_rule': 'group', 'status': 'group',
                         'scope': 'document' if any(w['scope'] == 'document' for w in resolved.values()) else 'page',
@@ -333,6 +374,7 @@ for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
 
 rows = pd.DataFrame(row_out)
 wells = pd.DataFrame(wells_out)
+print('Table-owner check (table_owner.py):\n', rows['owner_check'].value_counts().to_string())
 print(f'Pages with well numbers: {wells[["id", "page_number"]].drop_duplicates().shape[0]:,}; '
       f'distinct wells: {len(wells):,}')
 print(wells['dir_rule'].value_counts().to_string())

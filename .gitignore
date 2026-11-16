@@ -51,6 +51,7 @@ data/analysis/temporal_resolution/review/pngs/
 
 # page-image copies for the station-index check (Nov 14)
 data/analysis/manual_review/station_index_check/pages/
+data/analysis/manual_review/well_owner_check/pngs/
 
 # NWIS download cache (re-fetch with code/03_nwis_usgs/fetch_nwis_years_with_data.py)
 data/analysis/nwis_sites/years_cache/

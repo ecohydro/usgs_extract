@@ -1,0 +1,43 @@
+sample_no,group,meta_row,id,page_number,table_idx,current_well,rule_well,owner_page,match_rule,A_is
+1,G2,16307,1257,167,1,21/18-1D1,19/18-23D2,50,only well on page,current
+2,G1,34372,3011,146,3,47/2-21D1,47/2-16P1,145,owner name in well heading,rule
+3,G2,86192,56404,500,1,42/9-27N1,5/10-22G1,29,well number in LLM text,current
+4,G4,12325,70038406,194,4,9/35-18L1,9/35-18L1,194,well number in LLM text,both
+5,G4,63438,70038406,233,4,6/33-9P1,6/33-9P1,233,well number in LLM text,both
+6,G3,66704,70038406,74,1,7/11-28L1,7/11-6A1,74,well number in LLM text,current
+7,G1,24466,3011,143,1,47/1-19L1,47/1-17R1,142,well number in LLM text,current
+8,G2,29081,53421,102,1,12/22-20R1,16/18-18A1,52,well number in LLM text,rule
+9,G3,63356,70038406,85,1,8/16-3F1,8/15-22N2,85,well number in LLM text,rule
+10,G2,26524,53421,133,1,14/19-21A1,16/18-18A1,52,well number in LLM text,rule
+11,G1,54174,1110,230,1,9/9-34N1,8/9-36N1,229,well number in LLM text,rule
+12,G3,95374,51801,29,1,4/25-26A1,4/25-19F4,29,owner name in well heading,current
+13,G1,93804,2809,599,1,8/1-2B1,8/1-1J1,598,owner name in well heading,current
+14,G3,35662,3011,111,2,47/1-1A2,46/2-36L1,111,well number in LLM text,current
+15,G3,77853,22374,151,1,3/5-14D1,3/4-13B1,151,well number in LLM text,rule
+16,G1,92634,2057,141,1,5/4-27H2,5/4-26E1,140,owner name in well heading,rule
+17,G3,105717,23628,66,1,9/14-2J1,9/13-4A1,66,owner name in well heading,current
+18,G2,35535,2809,603,1,8/1-15B1,8/1-4A1,599,owner name in well heading,rule
+19,G2,51352,22374,131,1,7/7-21G1,6/7-11R1,125,well number in LLM text,current
+20,G3,52455,22374,153,1,4/3-18E1,4/3-6D2,153,well number in LLM text,current
+21,G1,54865,53590,53,1,7/35-30G1,7/35-28K2,52,well number in LLM text,rule
+22,G2,71265,2847,113,1,4/29-13K2,4/25-28J1,77,well number in LLM text,rule
+23,G4,104865,23995,77,1,10/27-11C1,10/27-11C1,77,owner name in well heading,both
+24,G3,43786,51801,71,1,10/34-22R1,10/34-14E3,71,owner name in well heading,current
+25,G4,38465,23995,45,1,6/33-11M1,6/33-11M1,45,owner name in well heading,both
+26,G3,23278,810,110,1,8/34-6K2,8/34-23B1,110,owner name in well heading,rule
+27,G2,24564,2850,33,1,10/7-3C1,11/7-35E2,31,well number in LLM text,rule
+28,G1,50302,1110,263,1,4/6-27L1,4/6-7H1,262,well number in LLM text,current
+29,G3,43581,52082,63,1,8/9-4P1,8/10-4G1,63,well number in LLM text,current
+30,G2,33886,2513,380,2,2/13-29H2,3/15-12L1,232,well number in LLM text,rule
+31,G3,30384,23995,70,1,10/35-9F1,10/35-7F1,70,owner name in well heading,current
+32,G1,58213,70038406,70,1,6/9-4H2,5/10-16P1,69,only well on page,current
+33,G4,98525,53422,20,1,9/1-14B3,9/1-14B3,18,well number in LLM text,both
+34,G2,14577,22374,68,1,5/3-10G1,5/3-2N1,64,well number in LLM text,current
+35,G1,105430,2057,151,1,7/5-23D2,7/5-16B1,150,well number in LLM text,rule
+36,G1,69988,51801,38,1,4/29-13K2,4/28-1B2,37,owner name in well heading,current
+37,G2,89002,1257,169,1,21/18-10D1,19/18-23D2,50,only well on page,rule
+38,G3,75976,23995,35,1,4/28-12B1,4/28-10A1,35,owner name in well heading,rule
+39,G1,27884,53590,51,1,7/35-27P1,7/35-27F1,50,well number in LLM text,current
+40,G2,93667,56361,562,1,7/35-23E4,19/44-23K1,120,well number in LLM text,current
+41,G1,103006,51920,58,2,7/35-25F5,7/35-23J2,57,only well on page,rule
+42,G4,2373,52373,101,1,3/15-4K1,3/15-4K1,101,well number in LLM text,both

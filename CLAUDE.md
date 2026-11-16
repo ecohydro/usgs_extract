@@ -1850,3 +1850,92 @@ data/analysis/gw_candidates/ (3 PNGs + 3 CSVs). Ask Annette before committing.
   curves (scope); figure numbering: Fig 1 measurements, Fig 2 category maps, Fig 3 NWIS comparison, Fig 4 Santa Ynez.
 - **Not committed since 311f15d:** Figures 2-4 scripts/outputs, page types (station_index/report_list), site_activity.py,
   printed-coordinate fix outputs, NWIS scripts, CLAUDE.md. Ask Annette before committing.
+
+## Well-owner check — November 15, 2026
+Problem (found on doc 2060 p203): water-level reports print each well's description ABOVE its table and
+tables continue onto the next page, but 07_well_numbers.py linked rows to a well printed on the SAME page.
+Scoping: `location_validation/12_table_owner_wells_scope.py` (2,132 of 3,311 records on water-level tables
+disagreed with "last well description before the table"). Grading sample (42 items, Claude first pass,
+Annette corrected): `data/analysis/manual_review/well_owner_check/` (`validation/well_owner_review_sample.py`,
+scored file `well_owner_review_scored.csv`). Findings: same-page description 8/8 right (plus 4 merged-table
+items); description only on an earlier page -> neither method reliable; Reducto often MERGES several
+printed well tables into one table (later wells' headings inside it) or splits the shared column header
+into its own header-only "table 1" — so CSV table counts do not equal printed tables.
+**Rule (in `location_validation/table_owner.py`, applied in 07; column `owner_check`):**
+agree 1,179 keep · well printed inside the table + named in LLM text 544 keep · inside the table but matched
+only as 'only well on page'/owner name (one-row-per-well lists with short ids: 3/4 wrong) 588 unlink ·
+same-page description names another well 440 reassign · description only on earlier page or several
+owners 560 unlink. Not verified: date-level check of the kept merged-table records.
+Effect: NWIS well links 3,565 -> 2,926; 654 precise rows -> unlocated, 128 -> approximate; 383 moved >1 km.
+Figure 3 GW: restored sites (B1) 2,800 -> 2,564; HUC12 NWIS only / filled / restored only
+1,268/198/117 -> 1,275/191/114 (+7.8%); stream unchanged (5,649 sites; +476, +38%). Scope stats GW +74
+(+4%), 1883 unchanged. Santa Ynez basin (3-015): 311 -> 270 sites, 248 -> 201 linked, 114 -> 91 linked
+sites with restored decades NWIS lacks; doc 2060 linked 142 -> 107. Tribal: 2,036 pages / 222 docs /
+3,098 published tables / 78,905 rows (withheld copies resynced). Doc 2060 p203 (24N2, checked by hand)
+is now UNLINKED by the rule (description on previous page).
+Open: 'only well on page' also misassigns one-row-per-well lists outside water-level tables (not counted).
+NWIS years download: tile grid now stops at 42 N (Oregon tiles were being cancelled); restarted.
+- **"Only well on page" fix (Nov 15):** 07 now skips that rule when the row's LLM text names another
+  well or the page is a list (several rows + >=3 short well ids); column `only_well_skip`. 144 located
+  records lost their well location, 89 NWIS links (2,882 -> 2,793 in tier2b); spot check 12/12 had
+  been wrong. GW restored sites (Fig 3) 2,564 -> 2,552; HUC12 restored-only 114 unchanged.
+- **NWIS actual years in Figure 3 (Nov 15):** `site_activity.nwis_table` uses nwis_years_{stream,gw}.csv
+  where present (`decades_source`), else series spans. Stream: 2,092 of 2,094 sites on actual years;
+  1870s/1880s NWIS 8 -> 2 active; HUC12 filled 620 -> 655, NWIS-only 625 -> 590; restored-only 476.
+  GW switches automatically when its download finishes (download now splits slow tiles by YEAR, <=1979).
+- **Scope stats temporal claim REPLACED (Nov 15):** NWIS actual stream years go back to 1854 (isolated
+  flood peaks: Hamilton City 1854; 1862 flood at 4 sites; San Joaquin 1868; Red Bluff 1879-88), so
+  "1862 vs NWIS 1891, +29 yr" is wrong. 08 now reports sites active before 1900/1910 on the Figure 3
+  basis + `scope_decade_comparison.csv`. Stream before 1900: NWIS 26, restored 175 (131 no NWIS link);
+  before 1910: 109 vs 552 (383). GW before 1900: NWIS 1 vs restored 9 (PROVISIONAL: GW NWIS still
+  series spans). Open: 08 spatial (+396, NWIS any year) vs Fig 3 (+476, NWIS <=1979) bases differ.
+- **NWIS estimates excluded (Annette, Nov 15):** NWIS peaks coded 2 (estimate) or 7 (historic peak) are not
+  counted as NWIS data (fetch_nwis_years_with_data.py; log nwis_years_excluded_peaks.csv, 754 peaks; 348
+  site-years lost). Sites whose only pre-1980 data are such peaks get no active decades (11046360).
+  Red Bluff 11377100 / 11378000 are two different sites (Annette checked); 11378000's 1879-94 peaks carry
+  no code and are kept, as are Hamilton City 1854 (no code) and San Joaquin nr Newman 1868 (gage height
+  only). Boca 10344500 code 6 = regulation, kept. Estimated DAILY values (qualifier 'e') not yet handled
+  (dv cache has days per year only). Now: NWIS stream sites active before 1900: 21 (was 26); before 1910:
+  100 (was 109); HUC12 filled 666, NWIS-only 579, restored-only 476 (+38%).
+- **REVERSED same day (Annette, Nov 15): ALL NWIS peaks count**, including estimates (2) and historic peaks
+  (7); the exclusion did not change the take-away. Estimated/historic peaks are listed for reporting only in
+  nwis_years_estimated_peaks.csv (754 peaks, 377 sites). nwis_years_stream.csv is identical to before.
+  Numbers back to: NWIS stream sites active before 1900: 26 (5 rest only on estimated/historic peaks:
+  1862 flood at 4 sites + Lytle C 11066100 1891; 15 have daily values, which begin 1891; 6 more have only uncoded
+  peaks before 1900, e.g. Hamilton City 1854, Newman 1868, Red Bluff 11378000 1879-99); before
+  1910: 109; HUC12 filled 655 / NWIS-only 590 / restored-only 476 (+38%).
+- **Ungauged-basin basis FIXED (Annette, Nov 15):** restored data end in 1979, so NWIS must be compared over
+  the same period. 08_scope_extension_stats.py now uses the Figure 3 basis (site_B1 restored sites; NWIS sites
+  with a record beginning <= 1979). The old 08 basis (NWIS sites of ANY start year) was an ERROR (+396 / +74).
+  **Paper numbers: stream +476 HUC12 (+38%; restored 1,642 vs NWIS 1,245); GW +114 (+8%; 661 vs 1,466)** —
+  identical in fig3_stats.csv and scope_extension_stats.csv. Supersedes all earlier "+398/+396/+77/+74".
+- **Figure colours (Annette, Nov 15):** water types = "V1" in code/02_inventory/water_palette.py (Tol + Okabe-Ito;
+  stream #004488 blue, groundwater #882255 wine-purple, precip #66CCEE, irrigation #CCBB44, reservoir #44AA99,
+  springs #0072B2, water quality #CC3311; Other grey #BBBBBB). Every pair OKLab dE >= 9.0 under normal +
+  deuteranopia/protanopia/tritanopia simulation (colorspacious). Figures 1 and 2 regenerated (fig2 now converts
+  hex). Figure 3 = Option B: NWIS grey #9E9E9E, NWIS + restored #DDAA33, restored only #BB5566 (panel D: grey NWIS
+  fill blends with grey HUC12 lines - fix pending). Trial renders (Crameri batlowS/batlowKS/hawaiiS, V1-V5) in
+  manuscript/figures/palette_trials/. Packages added: colorspacious, cmcrameri.
+- **Figure 3 colours FINAL (Annette, Nov 15):** NWIS grey #9E9E9E, NWIS + restored gold #DDAA33, restored only
+  BLUE #0072B2 (replaces rose #BB5566). Panel d: grey HUC12 + HUC8 lines dropped, thin WHITE HUC12 lines instead.
+  No "Decade" x-label on a/c; panel letters lower-case bold (a-d), on the title baseline; titles 9 pt, letters
+  11 pt; thin white HUC12 lines on BOTH maps (b, d).
+  Main + 0.5/2 km supplement versions regenerated. Note: #0072B2 is also the springs colour in Figs 1-2.
+- **Figure 1 styling (Annette, Nov 15):** "Total: 16.2 million estimated measurements" ("unique" dropped); legend
+  12 pt / title 13 pt with wider spacing; small-decade labels (before 1850 - 1880s) at 45 degrees; y-label padded.
+- **Figure 2 styling (Annette, Nov 15):** full-grid table titled "Records beginning 1849-1979" (computed: min table
+  start / max end of plotted tables; 1849 = 2 tables, loose dates allowed in Fig 2); "n =" replaces "meas."
+  (table column "n", footnote "n = estimated measurements"); lower-case bold letters a-g; points s=4 with a
+  0.3 pt darker outline. Two versions: fig2_category_maps (title + "locations · n =" line) and
+  fig2_category_maps_titleonly (water type only).
+- **Figure 2 revised (Annette, Nov 15):** table removed; points no outline, alpha 0.6 (zorder above lines); thin
+  white HUC12 lines on all maps. Versions: fig2_category_maps (7 panels, subtitle "locations · n =") and
+  fig2_category_maps_3panel (stream | groundwater | other 5 categories together with a legend; "999 locations"
+  = unique points across the 5 types, which sum to 1,055 because some locations hold several types).
+  The titleonly version was dropped.
+- **Palette swap (Annette, Nov 15): groundwater #66CCEE sky blue, precipitation #882255 wine** (water_palette.py;
+  same 7 colours, CVD check unchanged). Figures 1 and 2 regenerated.
+- **Figure 2 3-panel = chosen version** (fig2_category_maps_3panel): stream | groundwater | other 5 types; white
+  HUC8 lines; points alpha 0.7; water-type titles 10 pt with the counts line below (7 pt); panel letters a-c on
+  the title baseline; panels pulled together (wspace -0.12); "Other categories" = 1,055 locations (sum over the
+  5 types). The 7-panel version is still produced (HUC12 lines, alpha 0.7, new colours, old title layout).

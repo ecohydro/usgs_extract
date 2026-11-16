@@ -10,7 +10,8 @@ of its matched tables (table_row_dates.parquet), kept within its year_start..yea
 tables have no row years (daily tables) use year_start..year_end. Capped at CAP (1979).
 
 NWIS: discharge-related series (stream: dv/uv 00060, uv 00065, peaks, field measurements; groundwater:
-water levels), union of each series' begin..end span, sites with a series beginning <= CAP.
+water levels), sites with a series beginning <= CAP. Active decades = decades with actual NWIS data
+(nwis_years_{stream,gw}.csv, 2026-11-15) where downloaded, else the union of the series' begin..end spans.
 """
 from pathlib import Path
 
@@ -97,14 +98,37 @@ def nwis_series_decades(raw_csv, keep):
     return r.groupby('site_no').agg(first_year=('b', 'min'), dec=('dec', lambda x: set().union(*x)))
 
 
+def nwis_actual_decades(kind):
+    """site_no -> decades with at least one year of NWIS data <= CAP, from the downloaded years
+    (code/03_nwis_usgs/fetch_nwis_years_with_data.py; stream: peaks + daily discharge + field
+    measurements; groundwater: water-level field measurements). None if not downloaded yet."""
+    f = A / 'nwis_sites' / f'nwis_years_{kind}.csv'
+    if not f.exists():
+        return None
+    y = pd.read_csv(f, dtype={'site_no': str})
+    y = y[y.year <= CAP]
+    return y.groupby('site_no').year.apply(lambda s: {int(v) // 10 * 10 for v in s})
+
+
 def nwis_table(csv):
-    raw, keep = (('ca_stream_sites_expanded_raw.csv', STREAM_SERIES) if 'stream' in csv
+    """NWIS sites with a relevant record beginning <= CAP. Site list and first year from the series
+    catalogue; active decades from the ACTUAL years with data where downloaded (2026-11-15: 154 of
+    2,094 stream sites have gap decades inside their begin-end span, e.g. historic flood peaks
+    followed by decades without data), else the series spans (decades_source column)."""
+    kind = 'stream' if 'stream' in csv else 'gw'
+    raw, keep = (('ca_stream_sites_expanded_raw.csv', STREAM_SERIES) if kind == 'stream'
                  else ('ca_groundwater_sites_raw.csv', GW_SERIES))
     n = pd.read_csv(A / 'nwis_sites' / csv, low_memory=False, dtype={'site_no': str})
     n = n[n.dec_lat_va.notna()].drop_duplicates('site_no').set_index('site_no')
     sd = nwis_series_decades(raw, keep)
     n = n.join(sd, how='inner')                       # sites with a relevant record beginning <= CAP
-    n['decades'] = n['dec']
+    act = nwis_actual_decades(kind)
+    if act is None:
+        n['decades'], n['decades_source'] = n['dec'], 'series span'
+    else:
+        got = n.index.isin(act.index)
+        n['decades'] = [act[s] if g else d for s, g, d in zip(n.index, got, n['dec'])]
+        n['decades_source'] = np.where(got, 'actual years', 'series span')
     return n
 
 

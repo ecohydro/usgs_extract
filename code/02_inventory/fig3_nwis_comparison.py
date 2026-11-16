@@ -14,10 +14,10 @@ Decisions (Annette, 2026-11-14):
     number are one site where their points lie within 1 km; all others one site per location.
   - Restored records: precise + approximate rebuilt location, measurement dates only (no
     period-of-record / construction fallbacks), data pages, inside CA, tribal pages excluded.
-  - Active in a decade = at least one year with data in that decade. Restored: years
-    year_start..year_end of each record. NWIS: begin..end year of the site's record (daily
-    stream records are ~100% complete within that span; 71% of pre-1980 NWIS wells have a single
-    measurement, the rest average ~1 per year over their span).
+  - Active in a decade = at least one year with data in that decade. Restored: years printed in
+    the record's table rows, else year_start..year_end. NWIS: years with actual data
+    (site_activity.nwis_table; stream since 2026-11-15, groundwater once its download is done),
+    so gaps inside an NWIS record now count as decades without NWIS data.
   - NWIS stream = expanded set (daily values, peak flows, other types); NWIS groundwater = wells
     with water-level data.
   - Link restored -> NWIS by identity only: stream = NWIS station number or name printed on the
@@ -33,6 +33,7 @@ from pathlib import Path
 
 import geopandas as gpd
 import matplotlib.pyplot as plt
+from matplotlib.transforms import offset_copy
 import numpy as np
 import pandas as pd
 
@@ -48,9 +49,13 @@ SITE_KEY = f'site_B{float(TOL):g}'
 TAG = '' if float(TOL) == 1 else f'_tol{float(TOL):g}km'
 PREFIX = 'fig3' if not TAG else 'supp_fig3'
 DECADES = list(range(1850, 1980, 10))
-NWIS_COLOR, LINK_COLOR, NEW_COLOR = '#4477AA', '#CCBB44', '#EE6677'
+# Colours (Annette, 2026-11-15): NWIS as a neutral grey baseline; restored contributions in colour:
+# gold (Tol high-contrast #DDAA33) and blue (Okabe-Ito #0072B2). Every pair separated under normal +
+# deuteranopia/protanopia/tritanopia simulation (closest: grey vs gold, OKLab dE 12.7; target >= 8).
+NWIS_COLOR, LINK_COLOR, NEW_COLOR = '#9E9E9E', '#DDAA33', '#0072B2'
 
 plt.rcParams.update({'font.family': 'Arial', 'font.size': 7})
+TITLE_SIZE, LETTER_SIZE, TITLE_PAD = 9, 11, 6   # points (Annette, 2026-11-15: a little bigger, aligned)
 
 
 from site_activity import (CAP, hav_km, decades_of, load_records, nwis_table,   # noqa: E402
@@ -144,15 +149,16 @@ for STYLE in ('bars',):
         bottom = np.zeros(len(x))
         for col, (lab, c) in zip(['nwis', 'restored_at_nwis_site', 'restored_no_nwis_link'], labels):
             v = ts[col].values
-            ax.bar(x, v, 0.8, bottom=bottom, color=c, label=lab, linewidth=0)
+            ax.bar(x, v, 0.8, bottom=bottom, color=c, label=lab,
+                   edgecolor='#4d4d4d', linewidth=0.3)   # thin dark-grey outline (Annette, 2026-11-15)
             bottom += v
         ax.set_xticks(x)
         ax.set_xticklabels([f'{d}s' for d in DECADES], rotation=45, ha='right', fontsize=6)
         ax.set_ylabel('Active sites per decade')
-        ax.set_xlabel('Decade')
+        # no x-axis label (Annette, 2026-11-15): the tick labels already read as decades
         ax.grid(axis='y', alpha=0.3)
         ax.spines[['top', 'right']].set_visible(False)
-        ax.set_title(f'{title}: active sites', fontsize=8, loc='left')
+        ax.set_title(f'{title}: active sites', fontsize=TITLE_SIZE, loc='left', pad=TITLE_PAD)
         ax.legend(fontsize=6, frameon=False, loc='upper left')
 
         ax = axes[row, 1]
@@ -163,12 +169,12 @@ for STYLE in ('bars',):
         b[b.cls == 'nwis'].plot(ax=ax, color=NWIS_COLOR, linewidth=0)
         b[b.cls == 'filled'].plot(ax=ax, color=LINK_COLOR, linewidth=0)
         b[b.cls == 'restored'].plot(ax=ax, color=NEW_COLOR, linewidth=0)
-        if wt == 'Groundwater':
-            huc_ca.boundary.plot(ax=ax, color='#bdbdbd', linewidth=0.1)
-            gpd.clip(huc8, ca).boundary.plot(ax=ax, color='#333333', linewidth=0.3)
+        # HUC12 and HUC8 grey/dark lines dropped (Annette, 2026-11-15); instead a thin WHITE line between
+        # subwatersheds on panel D, which separates the filled patches without adding grey linework
+        huc_ca.boundary.plot(ax=ax, color='white', linewidth=0.15)   # panels b and d (Annette, 2026-11-15)
         ca.boundary.plot(ax=ax, color='#4d4d4d', linewidth=0.4)
         ax.set_axis_off()
-        ax.set_title(f'{title}: subwatersheds (HUC12)', fontsize=8, loc='left')
+        ax.set_title(f'{title}: subwatersheds (HUC12)', fontsize=TITLE_SIZE, loc='left', pad=TITLE_PAD)
         from matplotlib.patches import Patch
         h = [Patch(color=NWIS_COLOR, label=f'NWIS site ({int(s.huc12_nwis_only):,})'),
              Patch(color=LINK_COLOR, label=f'NWIS site + restored decades without NWIS data '
@@ -178,8 +184,10 @@ for STYLE in ('bars',):
         ax.legend(handles=h, fontsize=6, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.01),
                   ncol=1)
 
-    for ax, letter in zip(axes.flat, 'ABCD'):
-        ax.text(-0.02, 1.06, letter, transform=ax.transAxes, fontsize=9, fontweight='bold', ha='right')
+    for ax, letter in zip(axes.flat, 'abcd'):   # lower-case bold panel letters (Annette, 2026-11-15)
+        # same baseline as the panel title: title sits TITLE_PAD points above the axes top, baseline-aligned
+        ax.text(-0.02, 1.0, letter, fontsize=LETTER_SIZE, fontweight='bold', ha='right', va='baseline',
+                transform=offset_copy(ax.transAxes, fig=fig, y=TITLE_PAD, units='points'))
     fig.subplots_adjust(left=0.08, right=0.98, top=0.95, bottom=0.07, wspace=0.12, hspace=0.38)
     for ext in ('png', 'pdf'):
         fig.savefig(FIG / f'{PREFIX}_nwis_comparison{TAG}.{ext}', dpi=400)

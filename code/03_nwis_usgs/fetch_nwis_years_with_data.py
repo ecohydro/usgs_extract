@@ -21,6 +21,7 @@ Outputs: data/analysis/nwis_sites/nwis_years_stream.csv  (site_no, year, source:
          data/analysis/nwis_sites/nwis_years_gw.csv      (site_no, year, n_measurements)
 """
 import io
+import sys
 import json
 import time
 from pathlib import Path
@@ -40,10 +41,32 @@ S = requests.Session()
 S.headers.update(UA)
 
 
+def _api_key():
+    """USGS Water Data API key (api.data.gov; raises the hourly rate limit). Read from the
+    USGS_API_KEY environment variable, or on Windows from the user environment saved by setx.
+    Never written into code or outputs."""
+    import os
+    k = os.environ.get('USGS_API_KEY')
+    if not k and os.name == 'nt':
+        try:
+            import winreg
+            with winreg.OpenKey(winreg.HKEY_CURRENT_USER, 'Environment') as h:
+                k = winreg.QueryValueEx(h, 'USGS_API_KEY')[0]
+        except OSError:
+            k = None
+    return k
+
+
+API_KEY = _api_key()
+print(f'USGS Water Data API key: {"found" if API_KEY else "none (default rate limits)"}', flush=True)
+
+
 def get(url, params=None, tries=8):
     for i in range(tries):
         try:
-            r = S.get(url, params=params, timeout=120)
+            # key goes in a header (not the URL) so it never appears in logs or error messages
+            hdr = {'X-Api-Key': API_KEY} if API_KEY and 'api.waterdata.usgs.gov' in url else None
+            r = S.get(url, params=params, headers=hdr, timeout=120)
             if r.status_code == 429:                 # rate limited (Water Data API, no key): back off
                 wait = int(r.headers.get('Retry-After', 0)) or 60 * (i + 1)
                 print(f'    rate limited; waiting {wait} s', flush=True)
@@ -76,7 +99,7 @@ dv_sites = sorted(set(raw[(raw.t == 'dv') & (raw.parm_cd == '00060') & (raw.b <=
 print(f'stream: {len(pk_sites)} peak series, {len(dv_sites)} daily-discharge series beginning <= {CAP}', flush=True)
 
 # ---------------------------------------------------------------- 1. peaks
-rows = []
+rows, estimated = [], []
 for i, s in enumerate(pk_sites):
     f = CACHE / 'peaks' / f'{s}.rdb'
     if not f.exists():
@@ -85,7 +108,13 @@ for i, s in enumerate(pk_sites):
         time.sleep(0.3)
     d = rdb(f.read_text(encoding='utf-8'))
     if len(d):
+        # ALL peaks count as NWIS data, including those USGS codes as estimates (2) or historic peaks (7)
+        # (Annette, 2026-11-15: an exclusion was tried and dropped; it did not change the take-away).
+        # Those are listed in nwis_years_estimated_peaks.csv for reporting only (not used to filter).
+        cd = d.peak_cd.fillna('').astype(str) if 'peak_cd' in d else pd.Series('', index=d.index)
+        est = cd.str.contains(r'(?:^|,)\s*[27]\s*(?:,|$)')
         yrs = pd.to_numeric(d.peak_dt.str[:4], errors='coerce')
+        estimated += [(s, int(y), c) for y, c, e in zip(yrs, cd, est) if e and pd.notna(y) and y <= CAP]
         rows += [(s, int(y), 'pk') for y in yrs.dropna().unique() if y <= CAP]
     if i % 200 == 0:
         print(f'  peaks {i}/{len(pk_sites)}', flush=True)
@@ -113,26 +142,60 @@ for i in range(0, len(dv_sites), 10):
 
 
 # ---------------------------------------------------------------- 3. Water Data API field measurements
+FM_URL = 'https://api.waterdata.usgs.gov/ogcapi/v0/collections/field-measurements/items'
+FAILED = []                                            # tiles the server would not answer (not cached)
+
+
+def fetch_bbox(param, lon, lat, size, depth=0, y0=1800, y1=CAP):
+    """Records in one bbox and year window (never past CAP = 1979). The server cancels slow queries with
+    HTTP 400 'Long running query has been cancelled' (seen 2026-11-14 on tiles -119.5,40.5 and -116,34):
+    retry once, then split the YEAR window in two (2026-11-15: the cancellations follow the number of
+    records, not the area); only a single year that still fails is split by area."""
+    params = {'f': 'json', 'bbox': f'{lon},{lat},{lon + size},{lat + size}',
+              'parameter_code': param, 'datetime': f'{y0}-01-01T00:00:00Z/{y1}-12-31T23:59:59Z',
+              'limit': 10000, 'properties': 'monitoring_location_id,time'}
+    for attempt in range(2):
+        try:
+            recs, nxt = [], None
+            while True:
+                j = json.loads(get(nxt) if nxt else get(FM_URL, params))
+                recs += [(p['properties']['monitoring_location_id'], p['properties']['time'][:4])
+                         for p in j.get('features', [])]
+                nxt = next((l['href'] for l in j.get('links', []) if l.get('rel') == 'next'), None)
+                if not nxt:
+                    return recs
+                time.sleep(0.3)
+        except requests.HTTPError as e:
+            if e.response is None or e.response.status_code != 400:
+                raise
+            print(f'    server cancelled {params["bbox"]} {y0}-{y1} (attempt {attempt + 1})', flush=True)
+            time.sleep(15)
+    if y1 > y0:                                       # split the years: 1800-1889 / 1890-1979, ...
+        mid = (y0 + y1) // 2
+        parts = [fetch_bbox(param, lon, lat, size, depth, y0, mid),
+                 fetch_bbox(param, lon, lat, size, depth, mid + 1, y1)]
+    elif depth < 3:                                   # one year still too slow: split the area
+        h = size / 2
+        parts = [fetch_bbox(param, lon + dx, lat + dy, h, depth + 1, y0, y1) for dx in (0, h) for dy in (0, h)]
+    else:
+        return None
+    return None if any(p is None for p in parts) else [r for p in parts for r in p]
+
+
 def field_measurements(param):
     """All field measurements of `param` <= 1979 in California tiles -> DataFrame(site_no, year)."""
     out = []
     for lon in np.arange(-124.5, -114.0, 0.5):
-        for lat in np.arange(32.5, 42.1, 0.5):
+        # tiles start at 32.5 and the last one is 41.5-42.0 (California's northern border is 42 N;
+        # the 42.0-42.5 tiles are Oregon and the server kept cancelling them, 2026-11-15)
+        for lat in np.arange(32.5, 41.6, 0.5):
             f = CACHE / 'fm' / f'{param}_{lon:.1f}_{lat:.1f}.csv'
             if not f.exists():
-                url = 'https://api.waterdata.usgs.gov/ogcapi/v0/collections/field-measurements/items'
-                params = {'f': 'json', 'bbox': f'{lon},{lat},{lon + 0.5},{lat + 0.5}',
-                          'parameter_code': param, 'datetime': '1800-01-01T00:00:00Z/1979-12-31T23:59:59Z',
-                          'limit': 10000, 'properties': 'monitoring_location_id,time'}
-                recs, nxt = [], None
-                while True:
-                    j = json.loads(get(nxt) if nxt else get(url, params))
-                    recs += [(p['properties']['monitoring_location_id'], p['properties']['time'][:4])
-                             for p in j.get('features', [])]
-                    nxt = next((l['href'] for l in j.get('links', []) if l.get('rel') == 'next'), None)
-                    if not nxt:
-                        break
-                    time.sleep(0.3)
+                recs = fetch_bbox(param, float(lon), float(lat), 0.5)
+                if recs is None:
+                    FAILED.append((param, round(float(lon), 1), round(float(lat), 1)))
+                    print(f'    FAILED tile {param} {lon:.1f} {lat:.1f} (not cached; re-run retries it)', flush=True)
+                    continue
                 pd.DataFrame(recs, columns=['id', 'year']).to_csv(f, index=False)
                 time.sleep(2)                          # slower pacing for the Water Data API
             d = pd.read_csv(f, dtype=str)
@@ -152,9 +215,16 @@ rows += [(s, int(y), 'fm') for s, y in fm_q[['site_no', 'year']].drop_duplicates
 ys = pd.DataFrame(rows, columns=['site_no', 'year', 'source']).drop_duplicates()
 ys.to_csv(NS / 'nwis_years_stream.csv', index=False)
 print(f'stream: {ys.site_no.nunique()} sites, {len(ys)} site-year-source rows', flush=True)
+pd.DataFrame(estimated, columns=['site_no', 'year', 'peak_cd']).to_csv(NS / 'nwis_years_estimated_peaks.csv', index=False)
+print(f'peaks coded estimate / historic (2, 7), kept, listed for reporting: {len(estimated)}', flush=True)
+if '--stream-only' in sys.argv:
+    sys.exit(0)
 
 gw = field_measurements('72019')
 g = gw.groupby(['site_no', 'year']).size().rename('n_measurements').reset_index()
 g['year'] = g.year.astype(int)
 g.to_csv(NS / 'nwis_years_gw.csv', index=False)
 print(f'groundwater: {g.site_no.nunique()} wells, {len(g)} well-years', flush=True)
+fl = NS / 'nwis_years_failed_tiles.csv'
+pd.DataFrame(FAILED, columns=['param', 'lon', 'lat']).to_csv(fl, index=False)
+print(f'failed tiles: {len(FAILED)} (listed in {fl.name}; outputs are INCOMPLETE if > 0 - re-run)', flush=True)
