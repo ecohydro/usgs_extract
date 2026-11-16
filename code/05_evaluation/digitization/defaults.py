@@ -54,3 +54,6 @@ VERDICT_CHECK_VARIANT = "default"   # drawn 2026-11-14 when these settings were 
 # Review pages: scans shown turned, in degrees clockwise (Anna 2026-11-14). The files in pages/ stay as scanned.
 REVIEW_ROTATE_CW = {(1110, 231): 90}
 REVIEW_PORT = 8787   # Anna 2026-11-14
+
+HEADLINE_WEIGHT = "values"   # frozen, Anna 2026-11-16: the paper headline weights kinds by their share of
+                             # recorded values ("a random number"); the page-weighted figure is reported beside it

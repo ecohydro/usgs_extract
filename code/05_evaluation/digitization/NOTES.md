@@ -222,3 +222,8 @@ column label wrong 3.1 | 16.6 | 3.1; both 0.0 | 0.0 | 7.4; incorrect 1.9 | 1.9 |
 missed cell 0.3 | 0.3 | 48.0; whole table missed 0.8 | 0.8 | 15.7.
 Not done: official GriTS code (own implementation only); human README for the folder; fix of
 the CSV converter (out of scope: code/01_digitization).
+
+**Anna, 2026-11-16: the headline is the random-number figure** (kinds weighted by share of recorded
+values; HEADLINE_WEIGHT in defaults.py), page-weighted reported beside it. From summary/overall.csv,
+default (lenient) run: raw Reducto 96.5% (93.5-98.8) | published CSV 88.2% (82.7-92.5) | PaddleOCR
+1.1% (0.4-1.8); page-weighted 93.9 | 80.4 | 1.9; strict, value-weighted 88.8 | 81.1 | 1.0.
