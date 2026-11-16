@@ -584,3 +584,28 @@ weighted to the published tables. Files: data/analysis/evaluation/metadata/score
 - 07_build_metadata.py builds full_run/metadata_per_location.csv. It includes pages on tribal lands:
   Annette's screen comes after; the file is not to be shared beyond her.
 - Test set: to be scored once from the full-run answers of its 200 pages (same prompt), with --final.
+
+## 2026-11-15 (night): TEST SET SCORED, once (Anna's go), pipeline locked beforehand
+- 05_model_reader.py test v5 (200 pages, all answers readable), 04_score.py test pipeline v5 --final.
+  Found %, weighted, pipeline / Annette's current files: n_locations 98 / 94; location 92 / not stored;
+  location_type 94 / 74; water_source 91 / 85; data_type 96 / 91; date_start 83, date_end 84 (hers: years
+  only); start year 87 / 80; end year 96 / 91; temporal_resolution 95 / 83; variables 92 / 74;
+  construction_date 81 / 48 (19 rows). No change to the pipeline after this point.
+
+## 2026-11-16: full run finished, final table built
+- All 318 shards written by 15:05 UTC (about 16.5 h; only 3 of the 16 batch workers ever got a GPU, plus
+  the two session workers). 63,524 pages read.
+- 07_build_metadata.py -> full_run/metadata_per_location.csv (41 MB, git-ignored: includes pages on tribal
+  lands): 173,063 rows = 100,679 tables x locations (mean 1.7 locations per table, max 135), 580 reports.
+  Status: ok 172,772 rows; "answer not readable" 232 tables on 212 pages (0.3% of pages; 149 pages were
+  cut off at the 8,000-token answer limit, mostly very long site lists); "no answer for this table" 59.
+- Against the published table list (100,829): 100,674 have a row, 100,383 with an answer; 155 pages
+  (155 tables) have no table in their Reducto page file; 5 tables in the file are not in the published list.
+- Tables by data type: Stream Discharge 77,673; Groundwater 7,669; Irrigation 5,604; Reservoir 4,258; Not
+  Water Related 2,951; Water Quality 828; Springs 776; Precipitation 411; Other 65; blank 437; 7 tables
+  (13 rows) carry "Evaporation", which is not one of the nine categories (left as the model wrote it).
+- Rows by location type: coordinates 52,419; station_name 44,719; well_number 37,347; station_number
+  28,078; none 4,008; township_range_section 2,699; named_place 1,762; basin_or_area 1,643; county 362;
+  state 26.
+- Tables by temporal resolution: daily 44,951; discrete 23,163; monthly 16,022; annual 9,850;
+  no_time_series 3,369; blank 3,324 (mostly Not Water Related).
