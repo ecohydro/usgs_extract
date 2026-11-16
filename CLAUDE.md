@@ -1950,3 +1950,85 @@ NWIS years download: tile grid now stops at 42 N (Oregon tiles were being cancel
   all stream numbers unchanged; GW earliest NWIS actual year 1890 = series begin; GW sites active before 1900
   NWIS 1 vs restored 9 (no longer provisional); before 1910 91 vs 74. Santa Ynez basin: 87 linked sites with
   restored decades NWIS lacks (unchanged). Not committed.
+
+## Figure 5 (Santa Ynez groundwater) — candidate check, November 16, 2026
+- palette_trials/ deleted (Annette).
+- **Reference-list pages** doc 53590 pp. 60-66 ("Well number | Reference | Period of record") had their
+  period-of-record years read as measurement dates -> added to manual_review/earliest_records_review.csv as
+  `undate` (reviewer "Claude (pending Annette)"). Re-ran 21, Figure 3 (3 versions), 08, gw_basin_recount:
+  GW restored sites 2,552 -> 2,549; all basin numbers unchanged (+476 / +114). Santa Ynez basin: 264 sites,
+  195 linked, 81 linked with decades NWIS lacks. Catalog/table-level files not yet re-run for this.
+- New `code/04_vignettes/santa_ynez/gw_candidates.py` (ranks linked wells on years PRINTED in table rows only)
+  -> gw_candidates.csv; `fetch_nwis_gw_levels.py` (per-well NWIS 72019 readings, cached in
+  data/analysis/santa_ynez/nwis_gw_levels/).
+- Checked the top candidates by page image: 22M1 = range-filled years (51920 p56 dated 1930-52 from text, table
+  holds one year); 36L2 = 2848 p112 is basin PUMPAGE (acre-feet), not a well record; 27H1 = 2060 p346 table 1
+  (1930-32, feet above sea level) belongs to the PREVIOUS page's well; table 2 (1935-42) = 27H1 and NWIS holds
+  it value for value (13.6, 11.0, 8.5, 9.3 checked). Record-level table matching still pulls in the other
+  well's table on merged pages (year ranges, not locations).
+- **Real pattern:** 60 doc-2060 wells (City of Santa Barbara records, 1930s) where NWIS has <= 2 readings,
+  usually ONE in 1941 or 1942. Verified by page image for 6/34-4F2 (2060 p170 lower table, 1930-34, ~70
+  readings, ft above sea-level datum; NWIS: one reading 1942-10-01, 31.0 ft below LSD); NWIS single 1942
+  reading also confirmed for 7N/34W-29N1, 7N/35W-35E1. So Option 1 as planned (restored years filling gaps in
+  a long NWIS record) is not supported; awaiting Annette's choice of figure design.
+- **Statewide search (Annette: any CA area, Nov 16):** `code/04_vignettes/groundwater_example/`
+  gw_statewide_candidates.py (site level, printed years) and gw_basin_waterlevels.py (table level, catalog,
+  primary_parameter water_level, B118 basins) -> data/analysis/gw_example/. Site-level long runs were mostly
+  NOT water levels (38939 p41 pumpage, 1147 p114 pumped volumes, 2507 p116 chemistry). Basin ranking (restored
+  vs NWIS readings before 1950): Llagas 2,581 vs 1 (1914-20 Morgan Hill burst, town-point locations);
+  Suisun-Fairfield 1,271 vs 2; Solano 1,195 vs 30; Yolo 849 vs 51; San Jacinto 645 vs 19.
+- **Lead candidate: Solano County, doc 2809 = WSP 1464 (Thomasson et al. 1960), "Water-level measurements"
+  section, pages 518-667 (33 pages, 103 tables, ~5,400 readings, 1918-1952).** Only 18 of the 103 tables carry
+  primary_parameter water_level (so the basin ranking undercounts it). 115 state well numbers printed in the
+  section; only 2 are NWIS sites (005N002W27J002M, one 1949 reading; 008N001E15B001M). No section record is
+  linked to NWIS. Wells 5/3W-26F1, -26F2, -26D3, -26G3 (W. O. Clark / City of Vallejo, weekly 1918-22, then
+  1949-52; p642-643) are not in NWIS; nearest NWIS well 2.2 km, from 1975.
+  8/1E-15B1 (p603): printed 1931-51 (~89 readings); NWIS 1931-79 holds 36 of them, each = printed + 1.7 ft
+  (datum change; 8 dates checked), weekly 1948-51 readings mostly absent from NWIS.
+- **Figure 5 = Solano County (DRAFT, Nov 16)** — `code/04_vignettes/groundwater_example/`:
+  solano_wsp1464_parse.py (WSP 1464 Appendix B: readings tied to the well heading printed above them, incl.
+  "-Continued" rows; footnote numbers kept) -> gw_example/solano_wsp1464_readings.csv (6,130 readings,
+  139 wells, 1918-1955), _wells.csv; solano_wsp1464_locate.py -> _wells_located.csv (98 surveyed PLSS section
+  centroids, 37 `plss_grid` = 6x6 grid on township centroid shifted by the township's surveyed sections;
+  plain grid vs 2,683 surveyed sections median 0.10 km, 90% <= 0.64 km; 4 at NWIS coords);
+  fig5_solano.py -> manuscript/figures/fig5_solano.png/.pdf, gw_example/fig5_decade_counts.csv.
+  Checks: parsed counts = printed counts for 15B1 (98) and 26F2 (118); 32A1 6/6 values match p656; 15B1 vs NWIS:
+  26 shared complete values all = printed + 1.7 ft (+/-0.04; NWIS LSD 83.00 vs report 83.48, so cause unknown).
+  Values printed with a space after the decimal point sometimes lost the tenths ("25." for 25.1): 444 readings
+  flagged (note), excluded from plots with footnoted readings. Footnotes 1-13 are on an undigitized page.
+  **Missing pages VERIFIED from the published PDF (Nov 16):** pubs.usgs.gov/wsp/1464/report.pdf (711 pages; text
+  layer read with a stdlib script in the scratchpad; page numbering = pipeline page_number, checked on p603).
+  Of PDF pages 518-659, 138 hold water-level tables (>=5 dated readings + 'Water level'); 45 digitized, 93 NOT
+  (the 94 first reported counted p519, intro text). Raw PNG batch has 283 of 711 pages; that the 93 were dropped
+  by TABLE DETECTION is likely (batch = detected pages) but not verified. Indirect evidence in our own data:
+  5 digitized pages start with '<well>-Continued' after an undigitized page (549, 554, 579, 590, 654).
+  UC Davis wells jump 1942 -> 1948 in the printed report itself (UC readings end 1942; USGS from 1948).
+  Pipeline issues found (not fixed): headerless per-well tables -> primary_parameter 'unknown' (83/103);
+  LLM water types Irrigation (31) / Stream Discharge (7) for these water-level tables.
+  Numbers (B118 subbasins Solano, Yolo, Suisun-Fairfield): wells measured per decade restored vs NWIS:
+  1910s 14/0, 1920s 20/2, 1930s 59/1, 1940s 109/7, 1950s 88/103; NWIS wells with a reading <= 1979: 433, before
+  1950: 9. Restored well numbers found in NWIS: 4 of 139.
+- **Re-digitizing the 93 missing WSP 1464 pages — feasibility (Nov 16, not started; Annette to decide):**
+  scanned table pages are 1-bit JBIG2 in the PDF; Pillow/stdlib cannot decode them and installing PyMuPDF was
+  blocked (needs Annette's permission; poppler/pdftoppm also absent). The PDF's OCR text layer is readable
+  (stdlib script) but scrambles the 3-column tables (dates then values) and drops lines: on the 45 digitized
+  pages it yields 4,728 dates / 5,963 values vs 6,130 Reducto readings (77% / 97%). Options: (1) Reducto on the
+  93 pages, if access exists; (2) Claude reads rendered page images, cross-checked against the text layer,
+  after a pilot on already-digitized pages; (3) text layer only (not trusted for values). ~12,500 readings
+  expected (93 pages x ~135).
+- **Statewide search for more "restored fills a long NWIS gap" wells (Nov 16): none verified besides 8/1E-15B1.**
+  Candidates = NWIS-linked wells with >= 4 restored-only years and >= 20 NWIS years (gw_sites_statewide.csv).
+  Checked by page image / block text + NWIS readings (fetch_nwis_gw_levels.py): 26S/40E-24C1, -22P1 (9034 p9 =
+  basin pumpage table, wells only named in text); 9N/32W-17G1 (2060 p431 top table = 9/32-7N2, own record 1941
+  only); 9/32-7N2 itself fully in NWIS 1920-41 (6 values identical); 10N/35W-21B1 (p378 summary table; p458
+  table = 10/35-15C1); 6N/32W-16P3 (p150 table = 6/32-16A1); 4N/25W-19F4 (well-description page; doc 810 one
+  year); 7N/31W-36L2 (pumpage). Doc 2060 records are in NWIS; the site-level gap metric is inflated by merged
+  tables (other wells' tables on the same page) and summary/inventory tables. Other NWIS-linked Solano wells
+  (5/2W-17D1, -27J2, -30J1): NWIS 1 reading each, restored ~30 readings 1948-52.
+- **Figure 5 panel d = Putah-area network (option 1, Annette Nov 16):** 101 restored WSP 1464 wells, static
+  readings 1931-51; per well annual mean, per year median + 25-75th pct (years with < 10 wells not summarised:
+  1945-47); NWIS 15B1 annual means overlaid; strip of wells measured per year: restored 35-48/yr 1931-42 and
+  50-61/yr 1948-51 vs NWIS 1 well/yr 1931-47, 3-6 in 1948-51 (NWIS wells inside the Putah-area well hull +2 km).
+  Well set changes between UC (1931-42) and USGS (1948-51) networks — caption must say so. Map now stars 15B1
+  only. Option 2 shown separately: fig5_alt_36R1.py -> manuscript/figures/fig5_alt_36R1.png (8/1W-36R1, 23 static
+  readings 1931-42, plss_grid location).
