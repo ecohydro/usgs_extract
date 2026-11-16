@@ -62,6 +62,7 @@ MODEL_MAX_CONTEXT = 21000            # tokens; largest test page so far ~5,000 i
 MODEL_MAX_ANSWER = 8000              # tokens; long site lists need room
 MODEL_MAX_PAGES_AT_ONCE = 48         # with the default batch settings the 46 GB card ran out of memory
 MODEL_RUNS = OUT / "model_runs"      # one folder per (set, prompt version): answers.jsonl
+REREAD_MAX_CONTEXT, REREAD_MAX_ANSWER, REREAD_AT_ONCE = 48000, 28000, 16   # second pass for answers that were unreadable
 PROMPT_VERSION = "v5"   # v1: 6 of 100 validation answers cut off at 3,000 tokens
 TABLE_RESOLUTION = REPO / "data/analysis/table_resolution.csv"   # Annette's per-table record type, variables, value counts
 SCORES = OUT / "scores"                                          # {set}_{source}_long.csv and _summary.csv

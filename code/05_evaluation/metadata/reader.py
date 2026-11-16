@@ -49,19 +49,20 @@ def model_path():
     return str(sorted(snap.iterdir())[-1])
 
 
-def load():
+def load(max_context=None, at_once=None):
     from vllm import LLM
-    return LLM(model=model_path(), max_model_len=D.MODEL_MAX_CONTEXT, gpu_memory_utilization=0.90,
-               max_num_seqs=D.MODEL_MAX_PAGES_AT_ONCE, max_num_batched_tokens=8192,
+    return LLM(model=model_path(), max_model_len=max_context or D.MODEL_MAX_CONTEXT, gpu_memory_utilization=0.90,
+               max_num_seqs=at_once or D.MODEL_MAX_PAGES_AT_ONCE, max_num_batched_tokens=8192,
                limit_mm_per_prompt={"image": 0, "video": 0})
 
 
-def read(llm, pages, version):
+def read(llm, pages, version, max_context=None, max_answer=None):
     """pages: list of (doc, page, n_tables, text) -> list of answer records, same order."""
     from vllm import SamplingParams
-    sp = SamplingParams(temperature=0.0, max_tokens=D.MODEL_MAX_ANSWER)
+    max_context, max_answer = max_context or D.MODEL_MAX_CONTEXT, max_answer or D.MODEL_MAX_ANSWER
+    sp = SamplingParams(temperature=0.0, max_tokens=max_answer)
     tok = llm.get_tokenizer()
-    budget = D.MODEL_MAX_CONTEXT - D.MODEL_MAX_ANSWER - 1800   # room for the instructions
+    budget = max_context - max_answer - 1800   # room for the instructions
     msgs = []
     for doc, page, k, text in pages:
         ids = tok.encode(text)

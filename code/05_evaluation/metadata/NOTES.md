@@ -610,3 +610,18 @@ weighted to the published tables. Files: data/analysis/evaluation/metadata/score
 - Tables by temporal resolution: daily 44,951; discrete 23,163; monthly 16,022; annual 9,850;
   no_time_series 3,369; blank 3,324 (mostly Not Water Related).
 - Anna 2026-11-16: commit full_run/metadata_per_location.csv as is (all pages, incl. pages on tribal lands; the repo is public, she was told); to be cleaned before publication.
+
+## 2026-11-16 (evening): reread of the unreadable pages
+
+- `06_full_run.py reread`: the 212 pages whose answer could not be read were read again by the same
+  model and prompt with longer limits (`REREAD_MAX_CONTEXT` 48000, `REREAD_MAX_ANSWER` 28000, 16 at once;
+  one session GPU, 11,926 s). Readable now: 147 pages. Still unreadable: 65 pages (30 cut off even at
+  28,000 tokens, the rest malformed answers). Nothing is filled by hand.
+- `07_build_metadata.py` uses a readable reread answer in place of an unreadable original.
+  Table now: 177,015 rows (was 173,063), 100,679 tables, 63,524 pages. Status by row: ok 176,884;
+  answer not readable 72 (tables; was 232); no answer for this table 59 (unchanged).
+  Check: rows for all pages outside the 212 are identical to the previous build.
+- The 155 "pages without a table" are not pages without a table: six reports (52056, 23997, 23879, 23996,
+  23894, 52119) have no folder in ReductJson / ReductCSVs on the cluster copy. They are on the published
+  list (header text in table_headers.csv, Phi-4 metadata) with a blank row count, so they add 0 to the
+  2,512,776 measurements. Needs the Reducto files from Annette to run them.

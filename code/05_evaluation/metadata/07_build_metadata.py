@@ -22,6 +22,11 @@ def main():
     n = dict(pages=0, tables=0, rows=0, unreadable_pages=0, cut_off_pages=0, tables_without_answer=0)
     shards = sorted((RUN / "in").glob("shard_*.jsonl.gz"))
     missing = [s.name for s in shards if not (RUN / "out" / (s.name[:-9] + ".jsonl")).exists()]
+    again = {}
+    if (RUN / "reread" / "answers.jsonl").exists():      # second pass with a longer answer limit
+        again = {(a["doc_id"], a["page_number"]): a for a in map(json.loads, open(RUN / "reread" / "answers.jsonl", encoding="utf-8"))
+                 if a["parsed"] is not None}
+    n["pages_fixed_by_reread"] = 0
     with open(RUN / "metadata_per_location.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, COLUMNS, extrasaction="ignore")
         w.writeheader()
@@ -32,6 +37,9 @@ def main():
             text = {(d, p): t for d, p, k, t in map(json.loads, gzip.open(s, "rt", encoding="utf-8"))}
             for a in map(json.loads, open(out, encoding="utf-8")):
                 doc, page = a["doc_id"], a["page_number"]
+                if a["parsed"] is None and (doc, page) in again:
+                    a = again[(doc, page)]
+                    n["pages_fixed_by_reread"] += 1
                 norm = pipeline.page_norm(text[(doc, page)])
                 n["pages"] += 1
                 n["unreadable_pages"] += a["parsed"] is None

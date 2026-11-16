@@ -103,6 +103,28 @@ def worker():
               f"unparsed={sum(r['parsed'] is None for r in rows)} left={len(left) - 1}", flush=True)
 
 
+def reread():
+    """Second pass (Anna 2026-11-16): pages whose answer could not be read (mostly cut off at the answer limit) are
+    read again with a longer limit. Writes reread/answers.jsonl; 07_build_metadata.py uses a reread answer if readable."""
+    import reader
+    bad = set()
+    for f in sorted((RUN / "out").glob("shard_*.jsonl")):
+        bad |= {(a["doc_id"], a["page_number"]) for a in map(json.loads, open(f, encoding="utf-8")) if a["parsed"] is None}
+    pages = []
+    for f in sorted((RUN / "in").glob("shard_*.jsonl.gz")):
+        pages += [tuple(p) for p in map(json.loads, gzip.open(f, "rt", encoding="utf-8")) if (p[0], p[1]) in bad]
+    print(len(pages), "pages to reread", flush=True)
+    llm = reader.load(D.REREAD_MAX_CONTEXT, D.REREAD_AT_ONCE)
+    t0 = time.time()
+    rows = reader.read(llm, pages, D.PROMPT_VERSION, D.REREAD_MAX_CONTEXT, D.REREAD_MAX_ANSWER)
+    (RUN / "reread").mkdir(exist_ok=True)
+    with open(RUN / "reread" / "answers.jsonl", "w", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r) + "\n")
+    print(f"REREAD pages={len(rows)} seconds={time.time() - t0:.0f} readable={sum(r['parsed'] is not None for r in rows)} "
+          f"cut_off={sum(r['finish'] != 'stop' for r in rows)}", flush=True)
+
+
 def status():
     s = shards()
     done = [x for x in s if (RUN / "out" / f"{x}.jsonl").exists()]
@@ -111,4 +133,4 @@ def status():
 
 
 if __name__ == "__main__":
-    {"prepare": prepare, "worker": worker, "status": status}[sys.argv[1]]()
+    {"prepare": prepare, "worker": worker, "status": status, "reread": reread}[sys.argv[1]]()
