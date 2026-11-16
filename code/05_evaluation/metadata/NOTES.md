@@ -609,3 +609,4 @@ weighted to the published tables. Files: data/analysis/evaluation/metadata/score
   state 26.
 - Tables by temporal resolution: daily 44,951; discrete 23,163; monthly 16,022; annual 9,850;
   no_time_series 3,369; blank 3,324 (mostly Not Water Related).
+- Anna 2026-11-16: commit full_run/metadata_per_location.csv as is (all pages, incl. pages on tribal lands; the repo is public, she was told); to be cleaned before publication.
