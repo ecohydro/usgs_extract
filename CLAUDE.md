@@ -1939,3 +1939,14 @@ NWIS years download: tile grid now stops at 42 N (Oregon tiles were being cancel
   HUC8 lines; points alpha 0.7; water-type titles 10 pt with the counts line below (7 pt); panel letters a-c on
   the title baseline; panels pulled together (wspace -0.12); "Other categories" = 1,055 locations (sum over the
   5 types). The 7-panel version is still produced (HUC12 lines, alpha 0.7, new colours, old title layout).
+- **GW NWIS actual years DONE (overnight Nov 15):** download finished with 0 failed tiles (time-split retries) ->
+  `nwis_years_gw.csv` (field measurements, parameter 72019, <=1979): 42,905 wells, 116,490 well-years.
+  32,609 of 32,617 NWIS GW sites (<=1979) now use actual years (8 fall back to series spans). 1,666 wells have gap
+  decades inside their series span (e.g. 324414114532301 measured 1933, then 1963); checked that the 62610/62611
+  series have the same spans, so no data is missed by fetching 72019 only. NWIS GW active sites per decade fell
+  (1920s 741 -> 524, 1930s 1,319 -> 1,012, 1970s 9,372 -> 8,546). Re-ran Figure 3 (main, 0.5, 2 km), 08 scope stats,
+  gw_basin_recount.py (now uses actual years too; it had read the series-span column).
+  Changed: GW HUC12 NWIS + restored-filled 190 -> 208, NWIS only 1,276 -> 1,258; restored-only 114 (+7.8%) and
+  all stream numbers unchanged; GW earliest NWIS actual year 1890 = series begin; GW sites active before 1900
+  NWIS 1 vs restored 9 (no longer provisional); before 1910 91 vs 74. Santa Ynez basin: 87 linked sites with
+  restored decades NWIS lacks (unchanged). Not committed.

@@ -55,16 +55,16 @@ print(sites.dec.explode().value_counts().sort_index().to_string())
 # ---------------------------------------------------------------- NWIS wells
 nw = nwis_table(csv).reset_index()
 nw = inside(nw, 'dec_lat_va', 'dec_long_va')
-nw['decades'] = nw.dec.map(lambda d: ' '.join(str(x) for x in sorted(d)))
+nw['decades_str'] = nw.decades.map(lambda d: ' '.join(str(x) for x in sorted(d)))
 print(f'\nNWIS GW wells in basin with a water-level series beginning <= {CAP}: {len(nw)}; '
       f'first year {nw.first_year.min():.0f}')
-print('NWIS wells active per decade (series spans, not yet actual years):')
-print(nw.dec.explode().value_counts().sort_index().to_string())
+print('NWIS wells active per decade (actual years with data where downloaded; decades_source):')
+print(nw.decades.explode().value_counts().sort_index().to_string())
 
 # ---------------------------------------------------------------- step 3: links by well number
 lk = sites[sites.nwis_link.notna()].copy()
 lk['nwis_link'] = lk.nwis_link.astype(str).str.split(';').str[0].str.replace(r'\.0$', '', regex=True)
-nwd = nw.set_index('site_no').dec
+nwd = nw.set_index('site_no').decades
 lk['nwis_in_basin_list'] = lk.nwis_link.isin(nwd.index)
 lk['nwis_decades'] = lk.nwis_link.map(lambda s: ' '.join(str(x) for x in sorted(nwd.get(s, set()))))
 lk['restored_only_decades'] = [' '.join(str(x) for x in sorted(d - nwd.get(s, set())))
@@ -83,7 +83,7 @@ print(docs.head(12).to_string())
 
 keep = ['site_B1', 'lat', 'lon', 'first_year', 'decades', 'nwis_link']
 sites[keep].to_csv(OUT / 'gw_basin_sites.csv', index=False)
-nw[['site_no', 'station_nm', 'dec_lat_va', 'dec_long_va', 'first_year', 'decades']].to_csv(
+nw[['site_no', 'station_nm', 'dec_lat_va', 'dec_long_va', 'first_year', 'decades_str', 'decades_source']].rename(columns={'decades_str': 'decades'}).to_csv(
     OUT / 'gw_basin_nwis_wells.csv', index=False)
 lk[['site_B1', 'nwis_link', 'nwis_in_basin_list', 'first_year', 'decades', 'nwis_decades',
     'restored_only_decades']].to_csv(OUT / 'gw_basin_links.csv', index=False)
