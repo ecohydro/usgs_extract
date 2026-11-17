@@ -1,0 +1,13 @@
+sample_no: 87
+report (doc_id): 648   page: 427   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/648_page_427.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/87.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Day | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1 | 10 | 5.5 | a3,100 | 853 | 6580 | 840 | 934
+2 | 31 | 5.0 | al,100 | 686 | 4700 | 724 | 866
+3 | 63 | 4.5 | a800 | 572 | 2440 | 715 | 863
+... (37 lines in all; last lines:)
+Calendar | year | 1951: | Max 5,030 |  | Min 3.8 | Mean 388 | Mean 388
+Water | year | 1951 -52: | Max 6,580 |  | Min 3.8 | Mean | 652

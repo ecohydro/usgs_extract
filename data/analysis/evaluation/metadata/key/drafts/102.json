@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/1E-20D1 (UC 166A)",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Dixon",
+  "place_relation": "About 4.0 miles west of",
+  "basin_or_area": "Putah area",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "F. Dettling",
+  "data_type": "Groundwater",
+  "date_start": "1931-12-07",
+  "date_end": "1951-11-16",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 6,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the first well on the page only (3 date/water-level pairs x 2 rows = 6 water levels). Heading also says: 800 feet south of road intersection, 25 feet east of fence, in wooden pump house; irrigation well. Heading numbers (diameter 14 inches, datum 85 feet) not counted. Footnote marks 22 and 4 on three values (footnotes on another page). No county or state printed on the page."
+ }
+]

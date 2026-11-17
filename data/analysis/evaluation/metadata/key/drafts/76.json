@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "CARPINTERIA, GOLETA, AND SANTA YNEZ VALLEYS",
+  "county": "",
+  "state": "",
+  "evidence_place": "elsewhere on page",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1941-02-04",
+  "date_end": "1942-04-02",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 52,
+  "n_variables": 52,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation block of a water-level table; the well it belongs to is not named on this page (the well number 6/34-3G1 printed below belongs to the next table), so well number, owner and place are blank. Only area evidence is the running head. Counted per column: 18 + 18 + 16 (6 in 1941, 10 in 1942) = 52 water levels; year sub-headings not counted."
+ }
+]

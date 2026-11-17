@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "coastal zone of the Long Beach-Santa Ana area",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 8,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is only the top block: the last 4 rows of a well log continued from the previous page ('San Pedro(?) formation--Continued'). The well number, owner and place of this well are not on this page (the wells named lower on the page, 6/10-10D3 and 6/10-11B2, belong to the next logs, not to this block). Table title: 'Table 6.--Materials penetrated by typical water-supply wells in the coastal zone of the Long Beach-Santa Ana area--Continued'. Lithology is a described variable, so n_measurements 0; n_variables = 4 thickness + 4 depth = 8. No dates."
+ }
+]

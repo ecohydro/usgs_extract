@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°55', long 110°49'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Hilliard-East Fork Canal near State line, near Evanston, Wyo.",
+  "township_range_section": "NW¼ sec. 16, T. 2 N., R. 10 E.",
+  "place_name": "State line; Evanston",
+  "place_relation": "near; near",
+  "basin_or_area": "BEAR RIVER BASIN",
+  "county": "",
+  "state": "Utah",
+  "evidence_place": "heading before table",
+  "water_source": "Hilliard-East Fork Canal",
+  "data_type": "Irrigation",
+  "date_start": "1941-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 107,
+  "n_variables": 115,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 'Monthly and yearly mean discharge, in cubic feet per second'. 9 water years (1942-50) x 12 months = 108 cells, minus the dash for Oct. of water year 1942 = 107 (zeros counted). 'The year' column: 8 yearly means (1942 is a dash), counted only in n_variables. Dates are the water years 1942-50 per the water-year rule although Oct. 1941 is blank. State: the location text says the gage is 'in Utah'; the station name says 'near Evanston, Wyo.' Report's own station number '2.' Other distances: 8 ft upstream from abandoned forest road bridge, 300 ft downstream from new road bridge, three-quarters of a mile downstream from head, 25 miles southeast of Evanston. Canal diverts from East Fork Bear River for irrigation, hence Irrigation."
+ }
+]

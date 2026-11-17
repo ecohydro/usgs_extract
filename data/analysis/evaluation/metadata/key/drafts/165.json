@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "11/9-29H1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 24,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Continuation of a driller's log (heading '11/9-29H1.--Continued'); 12 material rows, each with thickness and depth = 24 numbers. Lithology is a described variable, so n_measurements set to 0 and the 24 numbers put in n_variables (rule not explicit for logs; alternative is 24). No owner, date drilled, place, county or state for this well on this page (the heading with those details below belongs to the next well, 11/9-29K1)."
+ }
+]

@@ -1,0 +1,12 @@
+sample_no: 147
+report (doc_id): 70038406   page: 151   table on the page: 3 of 5
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70038406_page_151.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/147.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 9 columns):
+DATE | WATER LEVEL | DATE.1 | WATER LEVEL.1 | Unnamed: 4 | DATE.2 | WATER LEVEL.2 | DATE.3
+FER. 28, 1966 | 163.33 | MAR. 14, 1967 | 164.05 | APR. | 4, 1968 | 164.19 | NOV. 5, 1968
+OCT. 25 | 163.85 | OCT. 23 | 164.07 |  |  |  | 
+... (3 lines in all; last lines:)
+FER. 28, 1966 | 163.33 | MAR. 14, 1967 | 164.05 | APR. | 4, 1968 | 164.19 | NOV. 5, 1968
+OCT. 25 | 163.85 | OCT. 23 | 164.07 |  |  |  | 

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11074000",
+  "station_name": "SANTA ANA RIVER BELOW PRADO DAM, CA",
+  "township_range_section": "",
+  "place_name": "PRADO DAM",
+  "place_relation": "below",
+  "basin_or_area": "SANTA ANA RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA ANA RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1975-10-30",
+  "date_end": "1976-07-29",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry",
+  "n_measurements": 52,
+  "n_variables": 52,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the third (bottom) block of the chemical analyses. Years taken from the title 'water year October 1975 to September 1976' (Oct 30 = 1975, Jul 29 = 1976). Count by column: 7 columns with 4 values each (suspended and dissolved mercury, total/suspended/dissolved selenium, suspended and dissolved zinc; Feb and Mar are dashes) = 28; 4 columns with 6 values each (total silver, total zinc, cyanide, methylene blue active substance) = 24. '<10' counted as a value."
+ }
+]

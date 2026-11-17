@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 35°00'50\", long. 120°16'45\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Cuyama River near Santa Maria, Calif.",
+  "township_range_section": "in Suey Grant",
+  "place_name": "Santa Maria",
+  "place_relation": "near",
+  "basin_or_area": "SANTA MARIA RIVER BASIN",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Cuyama River",
+  "data_type": "Stream Discharge",
+  "date_start": "1941-10",
+  "date_end": "1942-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge; runoff",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary block under the daily grid. Counted as measurements the monthly Maximum, Minimum and Mean cells: 12 months x 3 = 36 (zeros count). n_variables adds the 12 monthly second-foot-days and 12 monthly run-off in acre-feet values (treated as totals / runoff conversions of the daily table) and the 5 + 5 values of the calendar-year and water-year rows: 36 + 24 + 10 = 70. Rules do not say clearly whether monthly second-foot-days and run-off cells are measurements; if they are, n_measurements = 60. Other location words on page: at highway bridge, 3 miles upstream from Alamos Creek, and 10 miles northeast of Santa Maria; altitude of gage about 610 feet. Records available December 1929 to September 1942 (period of record, not used)."
+ }
+]

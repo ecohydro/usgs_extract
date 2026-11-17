@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°58'00\", long 122°01'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Branciforte Creek at Santa Cruz, Calif.",
+  "township_range_section": "",
+  "place_name": "Santa Cruz",
+  "place_relation": "at",
+  "basin_or_area": "San Lorenzo River Basin",
+  "county": "Santa Cruz County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Branciforte Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1956-10-01",
+  "date_end": "1957-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 409,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values counted month by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 28 (day 29 is a dash), Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 365; no blank days seen. Summaries: Total, Mean, Ac-ft for 12 months = 36, plus calendar-year and water-year lines (Max, Min, Mean, Ac-ft each) = 8; n_variables = 365 + 44 = 409. The '600 cfs' base in the peak-discharge line is remark text, not counted. Runoff in acre-feet appears only as summary rows, so not listed as a variable. No station number printed. Other location words: in Santa Cruz, 15 ft downstream from Market Street bridge and 1.0 mile upstream from mouth."
+ }
+]

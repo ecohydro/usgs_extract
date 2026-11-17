@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11468000",
+  "station_name": "Navarro River near Navarro, CA",
+  "township_range_section": "",
+  "place_name": "Navarro",
+  "place_relation": "near",
+  "basin_or_area": "Navarro River Basin",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Navarro River",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-11-03",
+  "date_end": "1978-09-13",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature;water_chemistry",
+  "n_measurements": 50,
+  "n_variables": 50,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Both printed blocks are one digitized table. Upper block: streamflow 5, specific conductance 5, pH 5, temperature 5, turbidity 4, dissolved oxygen 5, hardness 3 = 32. Lower block: sodium 3, sodium adsorption ratio 3, alkalinity 3, chloride 3, nitrate 1, ammonia + organic nitrogen 1, phosphorus 1, boron 3 (one is 0) = 18. Total 50. Time not counted. Turbidity put under water_chemistry."
+ }
+]

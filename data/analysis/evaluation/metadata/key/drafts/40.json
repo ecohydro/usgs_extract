@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°25'09\", long 119°42'36\"",
+  "well_number": "",
+  "station_number": "11119760",
+  "station_name": "VICTORIA STREET DRAIN AT OUTLET, AT SANTA BARBARA, CA",
+  "township_range_section": "in Pueblo Lands of Santa Barbara",
+  "place_name": "Santa Barbara",
+  "place_relation": "at",
+  "basin_or_area": "MISSION CREEK BASIN",
+  "county": "Santa Barbara County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Victoria Street Drain",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-10",
+  "date_end": "1978-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 272,
+  "n_variables": 342,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values counted by month: Oct 0 (column blank, only the summary rows give 0), Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, Jun 30, Jul 0 and Aug 0 (blank columns), Sep 30 = 272. Zeros counted. Summary values: TOTAL/MEAN/MAX/MIN/AC-FT x 12 months = 60, plus 10 in the calendar-year and water-year lines = 70. Dates = water year in the title although Oct, Jul and Aug have no printed daily values. Station name has \"at outlet, at Santa Barbara\": place taken as Santa Barbara. Page also says: near downstream end of culvert at intersection of Euclid Avenue and Victoria Street in Santa Barbara. Flow is street drainage (storm drain); typed Stream Discharge."
+ }
+]

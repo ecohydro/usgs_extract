@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°48'08\", long 117°52'39\"",
+  "well_number": "",
+  "station_number": "11075760",
+  "station_name": "Santa Ana River near Katella Avenue, at Orange, CA",
+  "township_range_section": "sec.25, T.4 S., R.10 W.",
+  "place_name": "Katella Avenue; Orange",
+  "place_relation": "near; at",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "Orange County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ana River",
+  "data_type": "Stream Discharge",
+  "date_start": "1975-10",
+  "date_end": "1976-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 180,
+  "n_variables": 250,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values are printed only for Nov (30), Feb (29), Mar (31), Apr (30), Jun (30), Sep (30) = 180; the Oct, Dec, Jan, May, Jul, Aug columns are empty in the daily grid (only their totals of 0 are printed), so nothing counted for them. Summary values: 12 months x 5 rows (total, mean, max, min, ac-ft) = 60, plus 5 for CAL YR 1975 and 5 for WTR YR 1976 = 70. Other distances on page: 0.2 mi south of Katella Avenue, 0.6 mi east of State College Boulevard near Anaheim Stadium."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 159
+report (doc_id): 2250   page: 306   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/2250_page_306.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/159.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+Day. | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1904 -5. |  |  |  |  |  |  | 
+1 |  | 5.5 | 4.5 | 5.0 | 5.6 | 4.3 | 
+2 |  | 4.8 | 4.0 | 4.8 | 7.0 | 4.2 | 5.3
+... (71 lines in all; last lines:)
+4 | 3.0 | 4.45 | 3.3 | 6.15 | 9.7 | 5.3 | 5.6
+5 | 3.0 | 3.9 | 3.3 | 6.8 | 8.2 | 6.1 | 6.0

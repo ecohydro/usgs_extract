@@ -1,0 +1,13 @@
+sample_no: 86
+report (doc_id): 4219   page: 18   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/4219_page_18.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/86.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Days of injection | Water injected (bbls) | Water injected (bbls) | Daily average | Well-head pressure | Days of injection | Water injected (bbls)
+Date | Days of injection | Daily average | Well-head pressure | Days of injection | Daily average | Well-head pressure | Unnamed: 7_level_1
+Date | Unnamed: 1_level_2 | Unnamed: 2_level_2 | Unnamed: 3_level_2 | Unnamed: 4_level_2 | Unnamed: 5_level_2 | Unnamed: 6_level_2 | Unnamed: 7_level_2
+Monthly | Cumulative | Monthly | Cumulative |  |  |  | 
+... (29 lines in all; last lines:)
+April | 29 | 2639 | 580872 | 91 | 60 | 29 | 20876
+May | 31 | 2936 | 583808 | 95 | 55 | 31 | 22263

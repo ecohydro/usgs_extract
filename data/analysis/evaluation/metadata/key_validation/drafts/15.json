@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°31'40\", long. 119°41'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Santa Ynez River near Santa Barbara, Calif.",
+  "township_range_section": "about on line between secs. 10 and 11, T. 5 N., R. 27 W.",
+  "place_name": "Santa Barbara",
+  "place_relation": "near",
+  "basin_or_area": "SANTA YNEZ RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ynez River",
+  "data_type": "Stream Discharge",
+  "date_start": "1939-10",
+  "date_end": "1940-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge;runoff",
+  "n_measurements": 36,
+  "n_variables": 56,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Monthly summary table (table 2, lower station on the page). Measurements = monthly Maximum, Minimum, Mean: 12 x 3 = 36, all printed (zeros count). Only in n_variables: monthly Run-off in acre-feet (12) and the Calendar year 1939 and Water year 1939-40 rows (2 x 4 = 8): 56. Other location words: at Gibraltar Dam, 7 miles north of Santa Barbara. Unsure only about data_type: station is named for the river, but Remarks say discharge represents inflow to Gibraltar Reservoir computed from reservoir records (could be Reservoir under the inflow rule). No county printed. Lower part of scan is faint but readable."
+ }
+]

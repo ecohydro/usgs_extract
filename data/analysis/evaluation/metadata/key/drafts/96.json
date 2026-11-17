@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°44'15\", long 123°22'15\"",
+  "well_number": "",
+  "station_number": "4740",
+  "station_name": "Eel River below Dos Rios, Calif.",
+  "township_range_section": "NE¼ sec.25, T.22 N., R.14 W.",
+  "place_name": "Dos Rios",
+  "place_relation": "below",
+  "basin_or_area": "Eel River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Eel River",
+  "data_type": "Stream Discharge",
+  "date_start": "1957-10-01",
+  "date_end": "1958-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 401,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid complete: every day of the water year has a printed value (31+30+31+31+28+31+30+31+30+31+31+30 = 365; Feb. 29-31 are dashes). Summary rows Total, Mean, Ac-ft x 12 months = 36, only in n_variables. Calendar-year and water-year lines below the grid are outside the sampled block (digitized table ends at Ac-ft). Other distances in the location paragraph: 1.1 miles downstream from Burger Creek, 1.7 miles northwest of Dos Rios, 2.2 miles downstream from Middle Fork."
+ }
+]

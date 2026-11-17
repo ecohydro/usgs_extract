@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°17'55\", long 122°04'34\"",
+  "well_number": "",
+  "station_number": "11-1664.8",
+  "station_name": "Stevens Creek Reservoir near Monte Vista, Calif.",
+  "township_range_section": "NW¼ sec.27, T.7 S., R.2 W.",
+  "place_name": "Monte Vista",
+  "place_relation": "near",
+  "basin_or_area": "Stevens Creek Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Stevens Creek Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1967-09-30",
+  "date_end": "1968-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "contents",
+  "n_measurements": 13,
+  "n_variables": 13,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "13 month-end contents printed (Sept. 30 through the next Sept. 30), counted row by row. Title says water year October 1967 to September 1968; the first row (Sept. 30) is the end of the previous water year, so start is given as 1967-09-30 (years taken from the title, not printed in the rows); by the water-year rule it would be 1967-10 to 1968-09. Other location words: at center of dam on Stevens Creek, 2.0 miles southwest of Monte Vista. No meridian, no county printed. Dam completed in 1936 (not a well, construction_date left blank)."
+ }
+]

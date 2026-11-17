@@ -1,0 +1,13 @@
+sample_no: 6
+report (doc_id): 22610   page: 24   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/22610_page_24.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/6.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 9 columns):
+:Other data : :avail- able : | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | C | Unnamed: 5 | C.1 | Unnamed: 7
+:Temp. OF |  |  |  | 69 |  | 73 | 
+; : : (feet) level | 70.64 |  | 96.55 91.29 | 2.3 |  | 21.15 70.05 | dry
+: : Water Date : : : : : | 11 -25 | -53 | 5 -54 5 -54 1 - 1 - | 12 -14 -53 |  | 5 -54 5 -54 1 - | 5 -54 1 -
+... (13 lines in all; last lines:)
+(feet) Depth : : : : : | 104 |  | 98.5 200 |  |  | 62.0 74 | 163.0
+:Alti- tude (feet) : : : Yea | 2,060 Strahlmann-Mayer 2X1 1 | Rancho - | 2,110 2,105 Ritzerson Miller | 1,490 Park Co. Diego San 3X1 | Sta. Stage Vallecito | 1,510 1,505 1,670 1,680 Ranc | 760 15/7 -12X1

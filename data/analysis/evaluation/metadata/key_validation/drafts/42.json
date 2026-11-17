@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "San Gabriel River near Azusa, Calif.",
+  "township_range_section": "",
+  "place_name": "Azusa",
+  "place_relation": "near",
+  "basin_or_area": "San Gabriel River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Gabriel River",
+  "data_type": "Stream Discharge",
+  "date_start": "1918-12-07",
+  "date_end": "1919-04-10",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 40,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Only the 1918-19 block of the table is on this page (title says years ending Sept. 30, 1919 and 1920). Sparse daily grid, counted by column: Dec. 4 (days 7-10), Feb. 8 (days 5-7, 11-15), Mar. 18 (days 14-31), Apr. 10 (days 1-10), May/June/July none = 40. Dec. taken as 1918 and the other months as 1919 from the block heading '1918-19'. No summary rows. No coordinates, land survey, county or station number on the page."
+ }
+]

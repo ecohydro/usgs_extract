@@ -1,0 +1,13 @@
+sample_no: 99
+report (doc_id): 70038400   page: 69   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/70038400_page_69.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/99.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date of collection | Mean discharge (cfs) | Silica (SiO) | Iron (Fe) | Cal- cium (Ca) | Mag- ne- sium (Mg) | Sodium (Na) | Po- tas- sium (K)
+Date of collection | Mean discharge (cfs) | Silica (SiO) | Iron (Fe) | Cal- cium (Ca) | Mag- ne- sium (Mg) | Sodium (Na) | Po- tas- sium (K)
+Parts per million | Tons per acre- foot | Tons per day | Cal- cium, Mag- ne- sium | Non- car- bon- ate |  |  | 
+Nov. 10, 1965 |  |  |  |  |  | 11.0 | 
+... (9 lines in all; last lines:)
+July 13 |  |  |  |  |  | 12.0 | 
+Sept. 7 |  | 18 |  | 45 | 21.0 | 13.0 | 1.4

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Drew Canal near Lakeview, Oreg.",
+  "township_range_section": "",
+  "place_name": "Lakeview",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "North Drew Canal",
+  "data_type": "Irrigation",
+  "date_start": "1927-10",
+  "date_end": "1928-09",
+  "temporal_resolution": "monthly",
+  "variables": "runoff",
+  "n_measurements": 5,
+  "n_variables": 6,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Title gives 1927-28; values printed only for May to September (no year printed in rows), so the water year of the title is used. 5 monthly run-off values are the measurements; 'The year' row is a summary. Note under table: 'No flow in months for which no record is given' (not counted). Canal: Irrigation."
+ }
+]

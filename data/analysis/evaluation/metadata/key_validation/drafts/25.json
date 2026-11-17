@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°21'29\", long 123°25'20\"",
+  "well_number": "",
+  "station_number": "11480400",
+  "station_name": "RUTH RESERVOIR NEAR FOREST GLEN, CALIF.",
+  "township_range_section": "SE¼SE¼ sec.19, T.1 S., R.7 E.",
+  "place_name": "FOREST GLEN",
+  "place_relation": "NEAR",
+  "basin_or_area": "MAD RIVER BASIN",
+  "county": "Trinity County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "RUTH RESERVOIR",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 34,
+  "n_variables": 34,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table (elevation, in feet, and contents, in acre-feet): 17 printed points (9 in the left pair of columns, 8 in the right), both columns counted = 34. Capacity table has no dates. Other location words on page: Six Rivers National Forest, near center of Ruth Dam on Mad River, 5.2 mi (8.4 km) west of Forest Glen."
+ }
+]

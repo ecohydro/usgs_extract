@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°26'10\", long 109°21'15\"",
+  "well_number": "",
+  "station_number": "1845",
+  "station_name": "Pack Creek at M4 Ranch, near Moab, Utah",
+  "township_range_section": "SE¼ sec.23, T.27 S., R.23 E.",
+  "place_name": "M4 Ranch; Moab",
+  "place_relation": "at; near",
+  "basin_or_area": "Tributaries between Dolores River and Green River",
+  "county": "",
+  "state": "Utah",
+  "evidence_place": "heading before table",
+  "water_source": "Pack Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1954-10-08",
+  "date_end": "1959-09-16",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 26,
+  "n_variables": 26,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Peak stages and discharges above a base (10 cfs). 13 dated peaks (water year 1955: 4, 1956: 1, 1957: 5, 1958: 2, 1959: 1), each with gage height and discharge = 26. Location text also says half a mile upstream from M4 Ranch and 14 miles southeast of Moab. Basin taken from the running head."
+ }
+]

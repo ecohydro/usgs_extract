@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "6/33-7F1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lompoc",
+  "place_relation": "About 3.9 miles east-southeast of",
+  "basin_or_area": "Carpinteria, Goleta, and Santa Ynez Valleys",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "City of Santa Barbara, well 264. Hollister Estate",
+  "data_type": "Groundwater",
+  "date_start": "1931-03-13",
+  "date_end": "1932-10-14",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 5,
+  "n_variables": 5,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the small second one (Water levels, in feet below land-surface datum, in 1931-32; furnished by city of Santa Barbara). 5 water levels: 1931 Mar. 13, June 30; 1932 Mar. 9, June 12, Oct. 14. Well heading also says: 265 feet north of Santa Rosa Road, beneath steel windmill tower; measuring point 1.50 feet above land-surface datum and about 184 feet above sea-level datum of 1929 (in the heading text, not in the table, so not counted). basin_or_area is the running head. No county or state printed on the page."
+ }
+]

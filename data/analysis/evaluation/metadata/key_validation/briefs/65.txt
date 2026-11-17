@@ -1,0 +1,13 @@
+sample_no: 65
+report (doc_id): 199   page: 66   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/199_page_66.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/65.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+pH | pH.1 | 7.8 8.0 7.9 8.0 8.1 | 8.3 8.0 8.2 7.7 7.8 | 7.8 7.8 7.7 7.7 7,7 | 7.7 7,7 7.6 7.6
+Specific con- duct- ance (mi | Specific con- duct- ance (mi | 1180 1340 1640 1720 1480 | 1570 1700 1660 1220 825 | 563 664 590 767 644 | 560 523 653 878
+So- dium ad- sorp- tion rati | So- dium ad- sorp- tion rati | 1.3 1.7 1.9 2.0 2.4 | 2.3 2.3 2.5 2.0 1.6 | 1.1 1.3 1.3 1.5 1.3 | .8 .8 1.3 1.3
+Hardness as CaCO | Non- car- bon- ate | 344 390 516 530 456 | 478 503 494 338 189 | 112 140 125 183 146 | 117 112 155 244
+... (23 lines in all; last lines:)
+ | Mean discharge (cfs) | 1945 1940 1085 1063 983 | 845 661 694 1140 2443 | 3588 2408 3333 2403 3458 | 4443 5100 3780 2532
+ | Date of collection | Oct. 1-13, 1965 Oct. 14-29 O | Jan. 1-31, 1966 Feb: 1-28 Ma | Apr. 1-4 Apr. 5-9 Apr. 10-12 | May 1-6 May 7-11 May 12 May 

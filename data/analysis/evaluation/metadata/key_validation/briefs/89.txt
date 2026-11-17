@@ -1,0 +1,13 @@
+sample_no: 89
+report (doc_id): 70038415   page: 117   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/70038415_page_117.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/89.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DAY | MEAN DISCHARGE (CFS) | APRIL MEAN CONCEN- TRATION ( | SEDIMENT DISCHARGE (TONS/DAY | MEAN DISCHARGE (CFS).1 | MAY MEAN CONCEN- TRATION (MG | SEDIMENT DISCHARGE (TONS/DAY | MEAN DISCHARGE (CFS).2
+1 | 0.33 | 3 | 0 | 0.72 | 5.0 | 0.01 | 0.13
+2 | 1.3 | 3 | .01 | 0.6 | 5.0 | 0.01 | 0.13
+3 | 0.66 | 2 | 0 | 0.6 | 5.0 | 0.01 | 0.13
+... (33 lines in all; last lines:)
+31 |  |  | -- | 0.12 | 3.0 | 0.0 | 
+TOTAL | 126.94 | -- | 161.12 | 12.93 |  | 0.16 | 2.3

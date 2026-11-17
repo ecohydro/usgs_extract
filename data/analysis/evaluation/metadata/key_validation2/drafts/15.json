@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "10336610",
+  "station_name": "Upper Truckee River at South Lake Tahoe, Calif.",
+  "township_range_section": "",
+  "place_name": "South Lake Tahoe",
+  "place_relation": "at",
+  "basin_or_area": "Pyramid and Winnemucca Lakes Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Upper Truckee River",
+  "data_type": "Stream Discharge",
+  "date_start": "1972-04-01",
+  "date_end": "1972-06-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;sediment",
+  "n_measurements": 273,
+  "n_variables": 279,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 1 of 2 = the April-May-June block of the suspended-sediment table for water year Oct 1971 to Sep 1972 (the block has its own month headings, so dated April 1 to June 30, 1972). Per day three printed values: mean discharge (cfs), mean concentration (mg/l), sediment discharge (tons/day). Counted April 30x3=90, May 31x3=93, June 30x3=90 = 273. Sediment discharge (tons/day) counted as its own measurement; if it is treated as the concentration restated/computed, n_measurements would be 182. Summary: TOTAL row, 2 values per month = 6. No coordinates, county or T/R on this page."
+ }
+]

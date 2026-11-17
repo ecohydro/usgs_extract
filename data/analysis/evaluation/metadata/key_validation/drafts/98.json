@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "9N/10W-28F2 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "SOUTHWEST CORNER OF ROGERS LAKE",
+  "place_relation": "about 2 miles west of",
+  "basin_or_area": "",
+  "county": "LOS ANGELES COUNTY",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "U.S. DEPARTMENT OF THE AIR FORCE",
+  "data_type": "Groundwater",
+  "date_start": "1966-03-10",
+  "date_end": "1968-03-05",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 3,
+  "n_variables": 3,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second well block on the page. 3 printed water levels (Mar. 10, 1966; Mar. 14, 1967; Mar. 5, 1968). Diameter 10 inches, depth 140.3 ft and LSD 2,290 ft are in the heading text, not in the table, so not added to n_variables. No drilling date printed. State not printed on the page. Scan is faint: several letters print as look-alikes (E as F, 8 as 2); well number read as 28F2."
+ }
+]

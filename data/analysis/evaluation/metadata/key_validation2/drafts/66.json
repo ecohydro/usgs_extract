@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°34', long. 121°09'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Lost Creek near Clipper Mills, Calif.",
+  "township_range_section": "sec. 24, T. 20 N., R. 7 E.",
+  "place_name": "Clipper Mills",
+  "place_relation": "near",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lost Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1938-10-01",
+  "date_end": "1939-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Digitized table covers the daily grid and the monthly summary below it. Measurements = daily values, counted by month (31+30+31+31+28+31+30+31+30+31+31+30 = 365, no blank days). Summary values: 12 months x 5 columns (second-foot-days, maximum, minimum, mean, run-off) = 60, plus calendar year 1938 row 5 and water year row 5 = 70. Other distances printed: 1,000 feet downstream from Lost Creek Dam and 2 miles north of town of Clipper Mills. Peak discharge line below the table not counted."
+ }
+]

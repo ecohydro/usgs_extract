@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°11'40\", long 122°03'25\"",
+  "well_number": "",
+  "station_number": "3673",
+  "station_name": "Angel Creek near McCloud, Calif.",
+  "township_range_section": "SW¼ sec.26, T.39 N., R.2 W.",
+  "place_name": "McCloud",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Angel Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1955-02",
+  "date_end": "1959-09",
+  "temporal_resolution": "monthly",
+  "variables": "runoff",
+  "n_measurements": 56,
+  "n_variables": 60,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is 'Monthly and yearly discharge, in acre-feet'. Monthly cells: water year 1955 has 8 (Feb.-Sept.; Oct.-Jan. are dashes), 1956-59 have 12 each = 56. 'The year' column: 4 values (1955 is a dash), counted as summary values. Variable written as runoff because the values are volumes in acre-feet, though the title says 'discharge'; rules do not say which word to use here. Start date is the first printed month (Feb. 1955) although 'Records available' says January 1955. Other location words: on right bank 500 ft downstream from Fan Gulch, 900 ft upstream from mouth, and 6 miles southeast of McCloud."
+ }
+]

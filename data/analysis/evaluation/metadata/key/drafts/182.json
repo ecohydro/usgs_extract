@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11472150",
+  "station_name": "EEL RIVER NEAR DOS RIOS, CA",
+  "township_range_section": "",
+  "place_name": "DOS RIOS",
+  "place_relation": "NEAR",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "EEL RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1976-10-06",
+  "date_end": "1977-09-21",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature;water_chemistry",
+  "n_measurements": 151,
+  "n_variables": 151,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Both printed blocks (two sets of columns, same 12 sampling dates) are one digitized table. Coordinates left blank: the page prints lat 39°37'36\", long 123°20'36\" only for the chemical-quality station of 1958 to September 1966, not for the period of this table. Count by column, dashes not counted, time not counted. Block 1: discharge 12, specific conductance 10, pH 12, temperature 12, turbidity 11, dissolved oxygen 12, COD 2, BOD 2, hardness 10 = 83. Block 2: noncarbonate hardness 10, calcium 2, magnesium 2, sodium 10, percent sodium 2, SAR 10, potassium 2, bicarbonate 10, carbonate 10, alkalinity 10 = 68. Turbidity listed under water_chemistry."
+ }
+]

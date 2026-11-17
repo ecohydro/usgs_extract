@@ -1,0 +1,13 @@
+sample_no: 55
+report (doc_id): 10337   page: 41   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/10337_page_41.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/55.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | Source | Date | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7
+ |  |  |  |  |  |  | 
+165/43E-20FS1 | Spring in Cottonwood Canyon | 4-28-68 |  | 46 | <30 | 61 | 23
+175/44E-27851 | Emigrant Spring, Panamint Ra | 12-10-59 | 14.5 | 23 | -- | 28 | 20
+... (31 lines in all; last lines:)
+ | Grapevine Ranger Station (Su | -- | 20 | 64 | -- | 7 | 1
+ | Scottys Castle (Stainingers  | -- | 26.5 |  | 10 | 5 | 1

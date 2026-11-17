@@ -1,0 +1,13 @@
+sample_no: 64
+report (doc_id): 2294   page: 143   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/2294_page_143.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/64.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Location. | County. | Date. | Carbon- ate radicle (CO). | Bicarbon- ate radicle (HCO). | Chlorine (CI). | Dis- solved solids.
+State Insane Hospital, Stock | San Joaquin | Mar., 1907 | 0 | 84 | 3620 | 6940
+SE. 1/2 sec. 17, T. 11 S., R | Madera | July, 1905 | 0 | 174 | 85 | 380
+NE. sec. 11, T. 7 S., R. 12  | Merced | do | 0 | 123 | 14 | 328
+... (12 lines in all; last lines:)
+Bakersfield | do | do | 0 | 254 | 21 | 358
+Dudley | Kings | do | 0 | 241 | 183 | 2090

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°12'58\", long 119°00'52\"",
+  "well_number": "",
+  "station_number": "1060",
+  "station_name": "Calleguas Creek at Camarillo, Calif.",
+  "township_range_section": "in Calleguas Grant",
+  "place_name": "Camarillo",
+  "place_relation": "at",
+  "basin_or_area": "Calleguas Creek Basin",
+  "county": "Ventura County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Calleguas Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1955-01-18",
+  "date_end": "1958-04-07",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Extremes table, water years 1955-58: 4 maximum discharges + 4 gage heights + 4 minimum discharges (0, on 'Most days' / 'do') = 12. Dates are the first and last printed extreme dates (the minimum dates are 'Most days', not usable). Station number printed as '1060.' before the name. Other location words: on left pier of westbound bridge on U. S. Highway 101, 1 mile east of Camarillo, and 1.9 miles upstream from Conejo Creek."
+ }
+]

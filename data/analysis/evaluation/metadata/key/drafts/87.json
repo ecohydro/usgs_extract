@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "South San Joaquin Canal near Knights Ferry, Calif.",
+  "township_range_section": "sec. 15, T. 1 S., R. 12 E.",
+  "place_name": "Knights Ferry",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South San Joaquin Canal",
+  "data_type": "Irrigation",
+  "date_start": "1931-10",
+  "date_end": "1932-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 30,
+  "n_variables": 44,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary under the daily grid. Canal diverting from Stanislaus River at Goodwin Dam for irrigation -> Irrigation. Other distances on page: three quarters of a mile below head gate at Goodwin Dam, on Stanislaus River, 4 miles above Knights Ferry. 10 month rows printed (November and December omitted; note says no flow during months omitted); water year 1931-32 from the title of the daily table. Measurements = max, min, mean x 10 months = 30 (zeros counted). n_variables adds 10 run-off cells and the 4 cells of 'The year' row = 44."
+ }
+]

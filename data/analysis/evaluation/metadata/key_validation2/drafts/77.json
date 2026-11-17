@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Salt River near Chrysotile, Ariz.",
+  "township_range_section": "",
+  "place_name": "Chrysotile",
+  "place_relation": "near",
+  "basin_or_area": "Gila River Basin",
+  "county": "",
+  "state": "Ariz.",
+  "evidence_place": "heading before table",
+  "water_source": "Salt River",
+  "data_type": "Stream Discharge",
+  "date_start": "1951-12-31",
+  "date_end": "1962-04-17",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 66,
+  "n_variables": 66,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation table of peak stages and discharges (peaks above a base). Peaks counted by water year: 1952 7, 1953 1, 1954 3, 1955 4, 1956 1, 1957 1, 1958 5, 1959 2, 1960 5, 1961 1, 1962 3 = 33 peaks, each with gage height and discharge = 66. No station number, coordinates or township for this station on this page (the number 4985 and the location paragraph belong to the next station, Salt River near Roosevelt)."
+ }
+]

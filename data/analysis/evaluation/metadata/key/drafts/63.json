@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Aptos Creek at Aptos, Calif.",
+  "township_range_section": "",
+  "place_name": "Aptos",
+  "place_relation": "at",
+  "basin_or_area": "APTOS CREEK BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Aptos Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1964-01-21",
+  "date_end": "1965-04-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation block of peak stages and discharges (peaks above a base). 6 peaks printed (Jan. 21, 1964; Dec. 22 and 26, 1964; Jan. 3 and 6, Apr. 9, 1965), each with gage height and discharge = 12. Dates = first and last printed peak. No station number, coordinates or land survey for this station on this page (those printed below belong to other stations)."
+ }
+]

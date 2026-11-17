@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Santiago Creek at Santiago Reservoir, near Villa Park, Calif.",
+  "township_range_section": "in Lomas de Santiago grant",
+  "place_name": "Santiago Reservoir; Villa Park",
+  "place_relation": "at; near",
+  "basin_or_area": "SANTA ANA RIVER BASIN",
+  "county": "Orange County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santiago Creek",
+  "data_type": "Reservoir",
+  "date_start": "1935-10",
+  "date_end": "1936-09",
+  "temporal_resolution": "monthly",
+  "variables": "runoff",
+  "n_measurements": 12,
+  "n_variables": 13,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Monthly inflow in acre-feet of Santiago Creek to Santiago Reservoir, water year 1935-36: 12 monthly values, plus 'The year' total as summary. Data type unsure: inflow into a reservoir measured at the reservoir (computed from change in storage and outflow) -> Reservoir by the inflow rule, but the station name has the form 'creek at reservoir' (the Stream Discharge example). Variable unsure: monthly inflow volume in acre-feet entered as runoff (could be discharge). Other location words: Staff gage at Santiago Creek Dam, 2 miles east of Orange County Park and 5 miles east of Villa Park. No coordinates or station number printed."
+ }
+]

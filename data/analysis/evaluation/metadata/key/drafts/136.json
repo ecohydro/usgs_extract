@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°43'01\", long 119°39'55\"",
+  "well_number": "",
+  "station_number": "11266500",
+  "station_name": "MERCED RIVER AT POHONO BRIDGE, NEAR YOSEMITE, CALIF.",
+  "township_range_section": "",
+  "place_name": "Pohono Bridge; Yosemite",
+  "place_relation": "at; near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Mariposa County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Merced River",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": 371,
+  "n_variables": 441,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = daily discharge grid plus the PEAK DISCHARGE (BASE, 2,900 CFS) block below it. Daily values counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. Peak block: 3 peaks (5-16, 5-26, 6-13), each with gage height and discharge = 6 values (times not counted). Summary: 5 foot rows x 12 months = 60, plus CAL YR and WTR YR lines 5 each = 10. Other location text: in Yosemite National Park, on left bank 150 ft upstream from Pohono Bridge, 0.4 mile upstream from Artist Creek, 4.8 miles southwest of Yosemite National Park headquarters."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°12'50\", long 121°09'40\"",
+  "well_number": "",
+  "station_number": "11399000",
+  "station_name": "LAKE ALMANOR AT PRATTVILLE, CA",
+  "township_range_section": "SW¼NE¼ sec.11, T.27 N., R.7 E.",
+  "place_name": "Prattville",
+  "place_relation": "at",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Plumas County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Lake Almanor",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "gage_height;contents",
+  "n_measurements": 40,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table only (the block above the daily contents table): 4 column pairs x 5 rows = 20 gage height / contents pairs, both columns counted = 40. No dates (capacity table). Location text also gives: Plumas National Forest, at outlet tower to No. 2 tunnel on North Fork Feather River, 4.7 mi northwest of Lake Almanor Dam, 5.6 mi northwest of Canyondam."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 199
+report (doc_id): 56419   page: 270   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/56419_page_270.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/199.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 5 columns):
+Unnamed: 0 | Date | Elevation (feet)a | Contents (acre-feet) | Change in contents (acre-fee
+Sept. 30 |  | 977.40 | 27800 | -
+Oct. 31 |  | 970.20 | 23070 | -4730
+Nov. 30 |  | 98735 | 34970 | +11900
+... (16 lines in all; last lines:)
+Sept. 30 |  | 975.70 | 26660 | -6530
+WTR YR 1971 |  | - | - | -1140

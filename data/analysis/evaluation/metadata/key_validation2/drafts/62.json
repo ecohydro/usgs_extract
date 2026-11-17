@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/35-35A4",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lompoc; Ocean Avenue and Artesia Avenue",
+  "place_relation": "near; at",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "U. S. Geol. Survey, Gus Aquistapace property",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "discrete",
+  "variables": "water_level;well_construction",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Third of four well blocks on the page. 12 water levels counted (4 rows x 3 date/level pairs), Jan. 25 to Dec. 27. The year of the measurements is not printed anywhere readable on this page (page heading at top is illegible), so dates are blank; \"Records available: 1947-55\" is the period of record. Place printed as \"Near Lompoc. Ocean Avenue and Artesia Avenue.\" The digitized table includes the well heading paragraph (diameter 2 inches, depth 23 feet, land-surface datum 45.88 feet, highest/lowest levels); by the heading-text rule these numbers are not counted, so n_variables = 12; well_construction listed because the heading is inside the digitized block. Owner name hard to read (Aquistapace)."
+ }
+]

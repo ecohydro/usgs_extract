@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°35'19\", long 120°24'27\"",
+  "well_number": "",
+  "station_number": "11132500",
+  "station_name": "SALSIPUEDES CREEK NEAR LOMPOC, CALIF.",
+  "township_range_section": "W½ sec.24, T.6 N., R.34 W.",
+  "place_name": "Lompoc",
+  "place_relation": "near",
+  "basin_or_area": "SANTA YNEZ RIVER BASIN",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Salsipuedes Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10-01",
+  "date_end": "1970-09-15",
+  "temporal_resolution": "annual",
+  "variables": "discharge",
+  "n_measurements": 5,
+  "n_variables": 5,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is 'Annual minimum daily discharge, water years 1966-70': one minimum per water year, 5 printed values (0, .30, 0, 0, .06). Dates = first day of the first printed extreme (Oct. 1-26, 1965) and last day of the last (Aug. 24 to Sept. 15, 1970). Location from the station heading and LOCATION paragraph at the top of the page; also printed: on right bank at bridge on Jalama Road, 0.4 mile downstream from El Jaro Creek and 4.4 miles southeast of Lompoc."
+ }
+]

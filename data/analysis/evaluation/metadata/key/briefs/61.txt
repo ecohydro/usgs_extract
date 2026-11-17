@@ -1,0 +1,13 @@
+sample_no: 61
+report (doc_id): 56403   page: 380   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/56403_page_380.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/61.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+OCTOBER | OCTOBER.1 | OCTOBER.2 | OCTOBER.3 | NOVEMBER | NOVEMBER.1 | NOVEMBER.2 | DECEMBER
+DAY | MAX | MIN | MEAN | MAX | MIN | MEAN | MAX
+1 | 1050 | 942 | 1010 | 1080 | 1000 | 1040 | 1030
+2 | 1070 | 942 | 1010 | 1060 | 971 | 1020 | 1040
+... (34 lines in all; last lines:)
+31 | 1110 | 1010 | 1060 |  |  |  | 1050
+MONTH | 1120 | 865 | 1010 | 1170 | 894 | 1020 | 1090

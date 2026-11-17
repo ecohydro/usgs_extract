@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7N/33W-13E1 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lompoc",
+  "place_relation": "8 miles northeast of",
+  "basin_or_area": "",
+  "county": "Santa Barbara County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Union Oil Company of California",
+  "data_type": "Groundwater",
+  "date_start": "1966-11-04",
+  "date_end": "1968-10-10",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 5,
+  "n_variables": 5,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "5 dated water levels (Nov. 4, 1966; Apr. 3, 1967; Oct. 24, 1967; Mar. 19, 1968; Oct. 10, 1968). County from running head. State not printed (California appears only in the owner's name). Depth, diameter, LSD are in the heading text, not counted. No year drilled printed."
+ }
+]

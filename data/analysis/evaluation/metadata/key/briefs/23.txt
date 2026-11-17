@@ -1,0 +1,13 @@
+sample_no: 23
+report (doc_id): 22507   page: 20   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/22507_page_20.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/23.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Node number | Discharge | Node number.1 | Discharge.1
+2430 | 30 | 3531 | 6
+2431 | 36 | 3532 | 6
+2530 | 60 | 3533 | 50
+... (38 lines in all; last lines:)
+ |  | 4033 | 26
+Total net discharge 2,910 | Total net discharge 2,910 | Total net discharge 2,910 | Total net discharge 2,910

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°34'15\", long 124°02'55\"",
+  "well_number": "",
+  "station_number": "11-4790",
+  "station_name": "Yager Creek near Carlotta, Calif.",
+  "township_range_section": "SW1/4NE1/4 sec.10, T.2 N., R.1 E.",
+  "place_name": "Carlotta",
+  "place_relation": "near",
+  "basin_or_area": "Eel River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Yager Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10-01",
+  "date_end": "1968-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 366,
+  "n_variables": 431,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Counted by month: 31+30+31+31+29+31+30+31+30+31+31+30 = 366 (Feb. 29 printed), no blank cells seen. Summary: TOTAL, MEAN, MAX, MIN, AC-FT rows 5 x 12 = 60, plus the CAL YR 1967 line (5 values) = 65. The brief's last line is the CAL YR line, so the WTR YR 1968 line (5 more values) was not counted; if it belongs to the table n_variables = 436. Location text also gives: on right bank 0.8 mile upstream from Cooper Mill Creek, and 2.4 miles north of Carlotta."
+ }
+]

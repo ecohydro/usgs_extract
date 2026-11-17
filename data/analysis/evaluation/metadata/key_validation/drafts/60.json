@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°52'14\", long 116°40'49\"",
+  "well_number": "",
+  "station_number": "10256500",
+  "station_name": "SNOW CREEK NEAR WHITE WATER, CALIF.",
+  "township_range_section": "SE¼NW¼NW¼ sec.33, T.3 S., R.3 E.",
+  "place_name": "WHITE WATER",
+  "place_relation": "NEAR",
+  "basin_or_area": "SALTON SEA BASIN",
+  "county": "Riverside County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SNOW CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10",
+  "date_end": "1971-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, one value for every day of the water year (31+30+31+31+28+31+30+31+30+31+31+30 = 365), no gaps seen. Summary values: TOTAL, MEAN, MAX, MIN, AC-FT for 12 months (60) plus 5 each on the CAL YR 1970 and WTR YR 1971 lines = 70. Peak-discharge line below the table not counted. Other distances on page: 4.4 miles southwest of White Water, 300 ft upstream from Southern Pacific Railroad diversion dam, 300 ft downstream from East Fork, 2.5 miles upstream from mouth."
+ }
+]

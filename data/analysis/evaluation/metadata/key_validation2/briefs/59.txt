@@ -1,0 +1,13 @@
+sample_no: 59
+report (doc_id): 716   page: 240   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/716_page_240.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/59.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 4 columns):
+1,9 | o | 2.6 | 8.5
+2.0 | 0.1 | 2.8 | 16.0
+2.1 | 0.2 | 32.0 | 37.0
+2.2 | 0.5 | 3.6 | 78.0
+... (6 lines in all; last lines:)
+2.3 | 1.1 | 4.0 | 145.0
+2.4 | 2.5 |  | 

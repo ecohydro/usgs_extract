@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-2995",
+  "station_name": "Stanislaus River below Melones powerhouse, near Sonora, Calif.",
+  "township_range_section": "",
+  "place_name": "Melones powerhouse; Sonora",
+  "place_relation": "below; near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Stanislaus River",
+  "data_type": "Stream Discharge",
+  "date_start": "1962-10-01",
+  "date_end": "1963-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 430,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled table is the second grid (water year October 1962 to September 1963). Counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365, no blank cells seen. The Sept. column is cut off at the right edge of the scan (values only partly visible), counted as 30. Summary: TOTAL, MEAN, MAX, MIN, AC-FT rows 5 x 12 = 60, plus the CAL YR 1962 line (5 values) = 65. The brief's last line is the CAL YR line, so the WAT YR 1963 line (5 more values) was not counted; if it belongs to the table n_variables = 435."
+ }
+]

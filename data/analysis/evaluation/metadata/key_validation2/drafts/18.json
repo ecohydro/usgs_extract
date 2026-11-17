@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°53'50\", long 122°32'06\"",
+  "well_number": "",
+  "station_number": "11-4601",
+  "station_name": "Arroyo Corte Madera del Presidio at Mill Valley, Calif.",
+  "township_range_section": "in Sausalito Grant",
+  "place_name": "Mill Valley",
+  "place_relation": "at",
+  "basin_or_area": "Arroyo Corte Madera del Presidio Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Arroyo Corte Madera del Presidio",
+  "data_type": "Stream Discharge",
+  "date_start": "1966-10-01",
+  "date_end": "1967-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge grid, water year 1967; every day has a printed value: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. Summaries: Total, Mean, Max, Min, Ac-ft for 12 months (60) plus Cal yr 1966 and Wtr yr 1967 lines (5 each) = 70. Names printed in capitals on page. Other location words: on right bank near south boundary of town of Mill Valley 1 mile upstream from mouth. No county printed."
+ }
+]

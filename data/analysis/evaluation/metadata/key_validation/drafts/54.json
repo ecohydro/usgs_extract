@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7N/35W-27P1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "7N/35W-27P1",
+  "data_type": "Groundwater",
+  "date_start": "1963-01-29",
+  "date_end": "1965-11-22",
+  "temporal_resolution": "discrete",
+  "variables": "water_level;well_construction",
+  "n_measurements": 36,
+  "n_variables": 38,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = first well block only. 3 column pairs x 12 rows = 36 water levels. Plus depth of well 582 ft and altitude about 260 ft = 38. 'April 27, 1966' is the date the depth was measured, not a construction date. Page gives no place, county or state."
+ }
+]

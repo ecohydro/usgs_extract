@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°22'06\", long 120°32'40\"",
+  "well_number": "",
+  "station_number": "11318500",
+  "station_name": "South Fork Mokelumne River near West Point, Calif.",
+  "township_range_section": "SE¼SE¼ sec.16, T.6 N., R.13 E.",
+  "place_name": "West Point",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "Calaveras County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Fork Mokelumne River",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-11-24",
+  "date_end": "1970-03-01",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 44,
+  "n_variables": 44,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 = 'Annual maximum discharge (*) and peak discharges above base (500 cfs), water years 1966-70'. 23 dated lines in three column groups (8 + 7 + 8); the Jan. 26, 1969 line has only dashes, so 22 peaks x (discharge + gage height) = 44. Time-of-day column not counted. Other location words: on right bank 500 ft upstream from highway bridge, 2.4 miles southwest of West Point, 2.5 miles upstream from mouth."
+ }
+]

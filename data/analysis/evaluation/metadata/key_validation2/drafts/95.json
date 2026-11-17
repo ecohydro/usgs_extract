@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°03'40\", long 118°55'18\"",
+  "well_number": "",
+  "station_number": "11204700",
+  "station_name": "Success Lake near Success, CA",
+  "township_range_section": "SE¼NW¼ sec.35, T.21 S., R.28 E.",
+  "place_name": "Success",
+  "place_relation": "near",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "Tulare County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Success Lake",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 18,
+  "n_variables": 18,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table (elevation, in feet NGVD, and contents, in acre-feet): 9 printed pairs (5 in the left block, 4 in the right), both columns counted = 18. No dates (capacity table). Also printed: in control tower near right abutment of Success Dam on Tule River, 5 mi (8 km) east of Porterville."
+ }
+]

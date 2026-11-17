@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°34'00\", long. 119°58'10\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Crown Eleven Ranch",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring, Crown Eleven Ranch",
+  "data_type": "Springs",
+  "date_start": "1948-10-21",
+  "date_end": "1951-04-17",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 47,
+  "n_variables": 47,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "27 dated rows. Discharge printed in second-feet and gals. per min. (one measurement per row): 27, including the 'No flow. Pump running' row of Mar. 22, 1951. Temperature: 20 printed values (blank for the first 5 rows, July 28, 1950 and Mar. 22, 1951). 27+20=47. Time-of-day column not counted. Altitude (about 990 feet) is in the heading, not counted. No relation word printed between spring and ranch; no county or state on page. Running head reads only 'STATION'. Lower rows are faint but legible."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 88
+report (doc_id): 2257   page: 11   table on the page: 1 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2257_page_11.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/88.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | 1962 | 1962.1 | 1962.2 | 1962.3 | 1962.4
+Day | Jan | Feb | Mar. | Apr. | May | June | July
+5 | 104.4 | 102.0 | 104.1 | 1137 | 121.6 | 121.8 | 118.6
+10 | 104.0 | 1021 | 104.9 | 115.8 | 120.9 | 122.7 | 120.6
+... (29 lines in all; last lines:)
+25 | 113.6 | 114.3 |  |  |  |  | 
+Eom | 113.2 | 114.3 |  |  |  |  | 

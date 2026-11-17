@@ -1,0 +1,13 @@
+sample_no: 28
+report (doc_id): 56404   page: 480   table on the page: 2 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/56404_page_480.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/28.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DATE | DIS- SOLVED CHRO- MIUM (CR)  | TOTAL CHRO- MIUM IN BOTTOM M | TOTAL COPPER (CU) (UG/L) | sus- PENDED COPPER (CU) (UG/ | DIS- SOLVED COPPER (CU) (UG/ | TOTAL COPPER IN BOTTOM MA- T | DIS- SOLVED IRON (FE) (UG/L)
+OCT 23 MAR | -- | 16 | 0 | -- | -- | 13 | 20
+08 | 0 | 46 | <10 | -- | 1 | 20 | 20
+APR 09 JUN | 0 | 31 | 40 | -- | 0 | 17 | 0
+... (12 lines in all; last lines:)
+JUN 15 AUG | .4 | -- | .0 | .1 | 20 | -- | 10
+18 | .0 | .0 | .0 | 2.8 | 10 | 10 | 0

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 42°24', long 122°16'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Cascade Canal near Fish Lake, Oreg.",
+  "township_range_section": "SE¼ sec. 30, T. 36 S., R. 5 E.",
+  "place_name": "Fish Lake",
+  "place_relation": "near",
+  "basin_or_area": "KLAMATH RIVER BASIN",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Cascade Canal",
+  "data_type": "Irrigation",
+  "date_start": "1956-10",
+  "date_end": "1957-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 128,
+  "n_variables": 143,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Count of printed daily values by month: Oct 31 (zeros counted), Nov 2 (rest dashes), Dec-Apr none, May 3 (days 29-31), June 30, July 31, Aug 31 (zeros counted), Sept none printed = 128. Summary values: Total, Mean, Ac-ft for Oct, June, July, Aug and Sept (Sept printed as 0, 0, 0) = 15; calendar-year and water-year lines have no numbers. Water-year table, so dates are the water year although daily values run only Oct 1, 1956 to Aug 31, 1957. Data type unsure: a diversion canal (water-stage recorder inspected by Medford Irrigation District), taken as Irrigation; could be read as Stream Discharge. Other distances on page: 3 miles upstream from Fish Lake, 10 miles downstream from point of diversion; on divide between Rogue River and Klamath River basins. No station number printed."
+ }
+]

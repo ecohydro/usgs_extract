@@ -1,0 +1,13 @@
+sample_no: 29
+report (doc_id): 2913   page: 34   table on the page: 2 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/2913_page_34.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/29.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Water year | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1942 |  | O | 0 | o | O | 0 | O
+1943 | #0 | o | O | o | o | o | o
+1944 | $.49 | 0 | 0 | O | 0 | 0 | O
+... (10 lines in all; last lines:)
+1949 | #0 | o | O | O | o | 0 | O
+1950 | .49 | o | O | O | o | O | o

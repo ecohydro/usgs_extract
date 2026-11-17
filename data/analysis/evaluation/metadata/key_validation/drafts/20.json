@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "San Jacinto River near San Jacinto, Calif.",
+  "township_range_section": "",
+  "place_name": "San Jacinto",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Jacinto River",
+  "data_type": "Stream Discharge",
+  "date_start": "1924-12-31",
+  "date_end": "1925-07-07",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;gage_height",
+  "n_measurements": 32,
+  "n_variables": 32,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 'Discharge measurements of San Jacinto River near San Jacinto, Calif., during the year ending September 30, 1925'. Dates are printed without year (Dec. 31 to July 7); years taken from the title's water year, so Dec. 31 = 1924. Used the printed first and last measurement dates rather than the whole water year because this is a list of discrete measurements. Count: 16 measurement dates (6 + 6 + 4 across the three column groups), each with a gage height and a discharge = 32. No station number, county or basin printed. Text above mentions Lake Hemet Water Co. storage on South Fork of San Jacinto River at Lake Hemet (regulation, not the site)."
+ }
+]

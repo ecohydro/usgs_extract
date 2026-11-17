@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "48/1E-35R",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "point where the road to Sheepy Creek island crosses Sheepy Creek",
+  "place_relation": "at",
+  "basin_or_area": "Butte Valley",
+  "county": "",
+  "state": "",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Sheepy Creek spring",
+  "data_type": "Springs",
+  "date_start": "1954-11-19",
+  "date_end": "1955-05-25",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": 5,
+  "n_variables": 5,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "5 dated discharge values. Text before the table gives the measuring point as where the road to Sheepy Creek island crosses Sheepy Creek (48/1E-35R); text after the table names Sheepy Creek spring as 47/1E-1M1. The measuring-point number was used; unsure which number is meant for the key. Basin from the running head. State appears only in an agency name (California Division of Water Resources): left blank."
+ }
+]

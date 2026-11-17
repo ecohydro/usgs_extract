@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11333000",
+  "station_name": "Camp Creek near Somerset, Calif.",
+  "township_range_section": "",
+  "place_name": "Somerset",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Camp Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1966-10",
+  "date_end": "1967-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge;evaporation;other",
+  "n_measurements": 389,
+  "n_variables": 485,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "365 daily discharge values (all days printed; Feb has 28). Foot rows: monthly diversion from Jenkinson Lake in acre-feet (12, listed as 'other') and monthly evaporation from Jenkinson Lake in acre-feet (12) counted as measurements of different variables = 389. Summary values only in n_variables: TOTAL, MEAN, MAX, MIN, AC-FT, change in contents in Jenkinson Lake, adjusted MEAN, adjusted AC-FT, 12 each = 96. CAL YR / WTR YR lines are outside the sampled table. Unsure whether diversion/evaporation foot rows (furnished by Bureau of Reclamation, for Jenkinson Lake, not the stream site) should count as measurements; if not, n_measurements = 365. No coordinates on this continuation page."
+ }
+]

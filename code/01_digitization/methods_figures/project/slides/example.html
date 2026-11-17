@@ -1,0 +1,17 @@
+<section id="example" class="figure">
+<p class="colhead" style="left:84px; top:46px">a</p>
+<div class="step" style="left:128px; top:40px; width:600px"><p class="pill">Table detection</p><p class="acc">85% of tables found</p></div>
+<img class="pic framed" src="/_blob/79645ae9f79beff0d82fb4f45aa423ff" alt="Page C26 of a 1966 floods report; the table detector has outlined its two tables in thick blue boxes, scores 1.00 and 0.99" style="left:128px; top:140px; width:552px; height:900px">
+
+<svg class="arrow" aria-label="Arrow from the first detected table to its digitized version" width="130" height="40" viewBox="0 0 130 40" style="left:670px; top:366px"><line x1="6" y1="20" x2="104" y2="20" stroke="#141413" stroke-width="5"/><polygon points="102,6 102,34 126,20" fill="#141413"/></svg>
+
+<p class="colhead" style="left:756px; top:156px">b</p>
+<div class="step" style="left:800px; top:150px; width:900px"><p class="pill">Digitization</p><p class="acc">96% of values correct</p></div>
+<img class="pic" src="/_blob/2e5c57dbe5344cd62d465bc006ff039e" alt="Reducto's digitized version of the first table: peak discharge at four stations in the floods of 1950, 1955, 1963 and 1966" style="left:800px; top:291px; width:992px; height:190px">
+
+<svg class="arrow" aria-label="Arrow down from the digitized table to its metadata" width="40" height="160" viewBox="0 0 40 160" style="left:1276px; top:490px"><line x1="20" y1="4" x2="20" y2="130" stroke="#141413" stroke-width="5"/><polygon points="6,128 34,128 20,154" fill="#141413"/></svg>
+<p class="colhead" style="left:1330px; top:526px">c</p>
+<div class="step" style="left:1372px; top:520px; width:470px"><p class="pill">Metadata extraction</p><p class="acc">91% of fields correct</p></div>
+<img class="pic" src="/_blob/c01e6dc3e57e4137396f1163612b7a8e" alt="Metadata for the table: one row per station with data type, start and end dates, resolution and variables" style="left:800px; top:660px; width:992px; height:180px">
+<aside>One table through the pipeline. Page: report 1264, PDF page 31 (Floods of 1966 in the United States, printed page C26). Left: the detector's saved boxes and scores (render_detection_example.py, boxes drawn 16 px thick on the full-size page). Top right: Reducto's HTML for table 1, unedited (render_table_examples.py). Bottom right: metadata for table 1, one row per location (render_metadata_example.py). The metadata rows are the model's own answer from the full metadata run (full_run/out/shard_0067.jsonl, Nov 16, 2026); they match a hand reading of the printed page exactly. Accuracies: detection recall at 0.8, the conservative of the two thresholds (detection NOTES), Reducto numbers right and findable, every number counting equally (digitization NOTES), metadata test set mean over eight fields (metadata NOTES).</aside>
+</section>

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°24'24\", long 122°12'11\"",
+  "well_number": "",
+  "station_number": "11-1629.4",
+  "station_name": "San Francisquito Creek below Ladera damsite, near Stanford University, Calif.",
+  "township_range_section": "on north boundary of El Corte de Madera Grant",
+  "place_name": "Ladera damsite; Stanford University",
+  "place_relation": "below; near",
+  "basin_or_area": "San Francisquito Creek Basin",
+  "county": "Santa Clara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Francisquito Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1964-10",
+  "date_end": "1965-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 22,
+  "n_variables": 22,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table: 11 gage height / discharge pairs (6 in left block, 5 in right), both columns counted = 22. The rating table prints no period of its own; dates taken from the water year of the daily table on the same page (October 1964 to September 1965). Other distances in location text: 1.2 miles upstream from Los Trancos Creek, 0.5 mile northwest of Ladera School, 2.3 miles southwest of Stanford University Post Office."
+ }
+]

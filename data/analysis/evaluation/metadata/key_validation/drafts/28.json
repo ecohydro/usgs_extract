@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "LITTLE WARM SPRINGS CREEK AT SKAGGS SPRINGS, CA",
+  "township_range_section": "",
+  "place_name": "Skaggs Springs",
+  "place_relation": "at",
+  "basin_or_area": "RUSSIAN RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Little Warm Springs Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1975-10-23",
+  "date_end": "1976-08-18",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry",
+  "n_measurements": 84,
+  "n_variables": 84,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "The digitizer's lines for table 2 start with the second printed block (dissolved chromium ... total lead in bottom material) and end with values of the third printed block (mercury, zinc, organic carbon), so both blocks were counted as the sampled table. Counted printed values row by row, '--' not counted, '<10' and 0 counted: block 2 = 6+10+10+10+11 = 47; block 3 = 7+7+7+7+9 = 37. If only block 2 is meant the count is 47. Unsure only about which blocks belong to the table. Years from the page heading (water year October 1975 to September 1976). Includes metals in bottom material (ug/g), listed under water_chemistry. No station number, coordinates or county printed for this station (the Marin County location text on the page belongs to the next station, San Rafael Creek)."
+ }
+]

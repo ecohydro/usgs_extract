@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°51'00\", long 120°38'15\"",
+  "well_number": "",
+  "station_number": "11-3020",
+  "station_name": "Stanislaus River below Goodwin Dam, near Knights Ferry, Calif.",
+  "township_range_section": "N½ sec.15, T.1 S., R.12 E.",
+  "place_name": "Goodwin Dam; Knights Ferry",
+  "place_relation": "below; near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Stanislaus River",
+  "data_type": "Stream Discharge",
+  "date_start": "1960-10-01",
+  "date_end": "1964-12-24",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 15,
+  "n_variables": 15,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the extremes table (water years 1961-65), not the daily grid below. Dates = earliest and latest printed extreme (minimum Oct. 1, 1960; maximum Dec. 24, 1964). Count: 5 maximum discharges + 5 maximum gage heights + 5 minimum discharges; minimum gage height column is all dashes. Other distances in Location: on right bank 0.1 mile downstream from Owl Creek, 1.0 mile downstream from Goodwin Dam, 3 miles northeast of Knights Ferry. County not printed."
+ }
+]

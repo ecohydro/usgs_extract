@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Oakland",
+  "place_relation": "at foot of Adeline Street",
+  "basin_or_area": "vicinity of Oakland",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Western Pacific Railroad Co.'s well",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": 0,
+  "n_variables": 82,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Driller's log, third of four on the page; no well number, date, county or state printed. 41 layers (21 in left half, 20 in right half), each with a thickness and a depth = 82 numbers. Lithology is a described variable, so no measured values counted (n_measurements 0); if log thicknesses/depths count as measurements the number would be 82. Two layers are marked 'water' (text only)."
+ }
+]

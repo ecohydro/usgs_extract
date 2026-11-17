@@ -1,0 +1,13 @@
+sample_no: 171
+report (doc_id): 70038672   page: 119   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70038672_page_119.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/171.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 17 columns):
+DAY | OCT. | OCT..1 | OCT..2 | NOV. | Unnamed: 5 | DEC. | Unnamed: 7
+1 |  | (*) |  |  |  |  | 
+2 |  |  |  |  |  |  | 
+3 |  |  |  |  |  |  | 
+... (41 lines in all; last lines:)
+Water | year | 1963 | -64: | Max | 1.8 |  | Min
+Peak | discharge |  | (base, | 30 | cfs) | No | peak

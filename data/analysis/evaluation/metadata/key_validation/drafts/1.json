@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4723M1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Frank Rinaudo",
+  "data_type": "Groundwater",
+  "date_start": "1925-10-13",
+  "date_end": "1925-10-13",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 1,
+  "n_variables": 2,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the last one in the left column: well 4723M1, one row (Oct. 13, 1925): depth to water 43.60 ft, altitude of water table 53.37 ft. Counted the depth as the 1 measurement; the altitude of water table is the same reading restated against the bench mark altitude (96.97 ft in the heading), so it is only in n_variables. Heading numbers (bench mark 0.37 / 0.40 ft, altitude 96.97 ft) not counted. Heading says 'See p. 234' for the well description; page gives no township, place, basin, county or state. Footnote: measurement by Cyril Williams. Page title: Measurements of depth to water in observation wells--Continued."
+ }
+]

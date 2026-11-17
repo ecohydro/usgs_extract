@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°15'30\", long 120°51'00\"",
+  "well_number": "",
+  "station_number": "11-3200",
+  "station_name": "Pardee Reservoir near Valley Springs, Calif.",
+  "township_range_section": "N½SW¼ sec.26, T.5 N., R.10 E.",
+  "place_name": "Valley Springs",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Pardee Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1965-10-01",
+  "date_end": "1966-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation;evaporation;other",
+  "n_measurements": 401,
+  "n_variables": 413,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Daily contents: Oct 31, Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 365. Foot rows: end-of-month elevation 12 (measured), evaporation in acre-feet 12 (counted as measured), diversions in acre-feet 12 (counted as measured, variable 'other'): 365 + 36 = 401. Change in contents 12 = summary, so n_variables 413. Rules do not say whether monthly evaporation and diversion foot rows are measurements; if not, n_measurements = 377. Calendar-year / water-year change lines below the table not counted (outside the digitized block). No county printed. Other location words: at Pardee Dam on the Mokelumne River and 4.5 miles north of Valley Springs. Some section-fraction characters faint."
+ }
+]

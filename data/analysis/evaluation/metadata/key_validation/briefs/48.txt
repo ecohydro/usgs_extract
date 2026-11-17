@@ -1,0 +1,13 @@
+sample_no: 48
+report (doc_id): 4779   page: 43   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/4779_page_43.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/48.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+No. of pump (size of dischar | Normal capacity at 40 feet t | Normal capacity at 40 feet t | Theoreti- cal horse- power f | Recom- mended horse- power f | Price.
+No. of pump (size of dischar | Theoreti- cal horse- power f | Recom- mended horse- power f | Price. | Unnamed: 4_level_1 | Unnamed: 5_level_1
+Gallons a minute. | Second- feet. |  |  |  | 
+3 | 10 | 0.02 |  |  | $25
+... (17 lines in all; last lines:)
+10 | 3000 | 6.6 | 0.76 | 1.17 | 400
+12 | 4500 | 10.0 | 1.13 | 1.75 | 500

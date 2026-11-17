@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°33'40\", long. 120°01'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - J. V. CRAWFORD",
+  "data_type": "Springs",
+  "date_start": "1948-10-25",
+  "date_end": "1951-04-05",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 49,
+  "n_variables": 49,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own numbering: \"STATION 149\" (not a USGS station number). No county, state, place or basin on the page. 27 dated rows; discharge printed in second-feet and gallons per minute, counted once per row = 27; temperature printed from June 21, 1949 on = 22; total 49. Times of day not counted. Altitude (about 1,150 feet) is in the heading, not counted. Visits about monthly but laid out as dated measurements, so discrete."
+ }
+]

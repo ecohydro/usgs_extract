@@ -1,0 +1,13 @@
+sample_no: 23
+report (doc_id): 56405   page: 331   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/56405_page_331.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/23.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 14 columns):
+DAY | Unnamed: 1 | OCT | NOV | DEC | JAN | FEB | MAR
+1 |  | 770200.0 | 699400.0 | 626800.0 | 570600.0 | 539600.0 | 586300.0
+2 |  | 766900.0 | 694500.0 | 624600.0 | 567400.0 | 539200.0 | 590900.0
+3 |  | 764200.0 | 689000.0 | 622400.0 | 565500.0 | 539500.0 | 594800.0
+... (38 lines in all; last lines:)
+tt |  | 2380.0 | 960.0 | 580.0 | 690.0 | 1030.0 | 2190.0
+ | CAL YR 1975 |  | -25600.0 |  |  |  | 

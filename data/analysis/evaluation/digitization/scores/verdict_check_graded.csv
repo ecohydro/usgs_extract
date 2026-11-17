@@ -1,0 +1,101 @@
+check_no,sample_no,doc_id,page_number,kind,system,variant,table_no,row,col,truth_text,row_label,col_header,has_mark,outcome,output_text,why,output_table,out_row,out_col,out_label_col,out_first_body_row,mark_kept,group_size,checker_verdict,checker_note
+0,15,1140,133,discrete,paddle_raw,_repair,1,3,3,131,Martin and Curfman,Area of section. Sq. ft.,False,both_labels_wrong,131,,1140_page_133_table_0,3.0,3.0,1.0,2.0,,229,agree,
+1,9,15,318,annual,paddle_raw,_repair,2,13,7,716,1911,Calendar year Mean,False,both_labels_wrong,716,,15_page_318_table_0,14.0,6.0,0.0,3.0,,229,agree,
+2,2,614,286,daily,paddle_raw,_repair,1,24,8,"2,240",24,May,False,both_labels_wrong,"2,240",,614_page_286_table_0,19.0,9.0,0.0,1.0,,229,agree,
+3,2,614,286,daily,paddle_raw,_repair,1,15,8,"2,550",15,May,False,both_labels_wrong,"2,550",,614_page_286_table_0,10.0,9.0,0.0,1.0,,229,agree,
+4,18,1084,275,no_time_series,paddle_raw,_repair,1,8,1,10,Fred Lahse,Location. Section.,False,both_labels_wrong,B 10,,1084_page_275_table_0,2.0,1.0,0.0,2.0,,229,agree,Lenient: output 'B 10' counted as the number 10 (stray letter treated as a mark). Not in headline (labels wrong).
+5,5,251,309,monthly,paddle_raw,_repair,1,27,1,395,August,Discharge in second-feet Maximum,False,col_label_wrong,395,,251_page_309_table_0,30.0,1.0,0.0,2.0,,174,agree,
+6,17,1061,39,no_time_series,paddle_raw,_repair,1,13,3,28,Oct. 1954–Sept. 1955,Tabulated value equaled or exceeded for indicated percent of days 50,False,col_label_wrong,28,,1061_page_39_table_0,15.0,2.0,0.0,2.0,,174,agree,Header split over two cells by PaddleOCR; strict rule fails it.
+7,4,1568,301,daily,paddle_raw,_repair,2,8,3,70,8,Dec.,False,col_label_wrong,70!,,1568_page_301_table_0,23.0,1.0,0.0,13.0,,174,agree,Lenient: output '70!' counted as 70.
+8,11,1137,138,annual,paddle_raw,_repair,2,3,1,"1,630",1.40,Discharge. Second-feet.,False,col_label_wrong,"1, 630",,1137_page_138_table_1,3.0,1.0,0.0,2.0,,174,agree,
+9,6,366,290,monthly,paddle_raw,_repair,1,14,1,"26,200",The year,Discharge in second-feet. Maximum.,False,col_label_wrong,"26, 200",,366_page_290_table_0,17.0,2.0,0.0,3.0,,174,agree,
+10,4,1568,301,daily,paddle_raw,_repair,2,2,11,60,2,Aug.,False,incorrect,283 96 60 5$,shifted to a neighbouring cell,1568_page_301_table_0,15.0,4.0,,,,650,agree,
+11,3,1553,81,daily,paddle_raw,_repair,1,25,6,30,25,Mar.,False,incorrect,28 30,misread,1553_page_81_table_0,14.0,6.0,,,,650,agree,
+12,2,614,286,daily,paddle_raw,_repair,1,10,7,322,10,Apr.,False,incorrect,228 322,misread,614_page_286_table_0,6.0,8.0,,,,650,agree,
+13,10,641,109,annual,paddle_raw,_repair,2,15,4,0,15,Jan.,False,incorrect,0 0,shifted to a neighbouring cell,641_page_109_table_0,7.0,3.0,,,,650,agree,
+14,3,1553,81,daily,paddle_raw,_repair,1,28,7,18.3,28,Apr.,False,incorrect,18.3 18. 3,misread,1553_page_81_table_0,16.0,7.0,,,,650,agree,
+15,8,1147,132,monthly,paddle_raw,_repair,1,47,2,12,December,Discharge in second-feet. Minimum.,False,missed_cell,,row or column absent,1147_page_132_table_0,,,,,,1964,agree,
+16,18,1084,275,no_time_series,paddle_raw,_repair,1,49,8,5,G. Clark,Horsepower.,False,missed_cell,,row or column absent,1084_page_275_table_0,,,,,,1964,agree,
+17,4,1568,301,daily,paddle_raw,_repair,2,22,4,59,22,Jan.,False,missed_cell,,row or column absent,1568_page_301_table_0,,,,,,1964,agree,
+18,2,614,286,daily,paddle_raw,_repair,1,26,10,57,26,July,False,missed_cell,,cell empty,614_page_286_table_0,21.0,11.0,,,,1964,agree,
+19,1,593,236,daily,paddle_raw,_repair,1,27,6,.2,27,Mar.,False,missed_cell,,row or column absent,593_page_236_table_0,,,,,,1964,agree,
+20,9,15,318,annual,paddle_raw,_repair,3,7,2,28.9,1926,Nov.,False,missed_table,,no output table,,,,,,,1020,agree,
+21,9,15,318,annual,paddle_raw,_repair,3,2,13,752,1921,The year,False,missed_table,,no output table,,,,,,,1020,agree,
+22,9,15,318,annual,paddle_raw,_repair,1,9,6,"79,900",1909,Mar.,False,missed_table,,no output table,,,,,,,1020,agree,
+23,19,1110,231,no_time_series,paddle_raw,_repair,1,16,7,35,25Q1,Constituents in parts per million Silica (SiO2),False,missed_table,,no output table,,,,,,,1020,agree,
+24,20,1312,239,no_time_series,paddle_raw,_repair,1,12,3,35,D 3,Location. Section.,False,missed_table,,no output table,,,,,,,1020,agree,
+25,13,431,155,discrete,paddle_raw,_repair,2,11,8,3.0,11,Aug.,False,right_findable,3.0,,431_page_155_table_1,14.0,5.0,0.0,2.0,,235,agree,
+26,11,1137,138,annual,paddle_raw,_repair,1,3,10,3.45,21,Oct.,False,right_findable,3.45,,1137_page_138_table_0,3.0,10.0,0.0,1.0,,235,agree,
+27,11,1137,138,annual,paddle_raw,_repair,1,6,2,21.50,24,Feb.,False,right_findable,21.50,,1137_page_138_table_0,6.0,2.0,0.0,1.0,,235,agree,
+28,11,1137,138,annual,paddle_raw,_repair,1,10,4,9.95,28,Apr.,False,right_findable,9.95,,1137_page_138_table_0,10.0,4.0,0.0,1.0,,235,agree,
+29,11,1137,138,annual,paddle_raw,_repair,1,1,1,3.80,19,Jan.,False,right_findable,3.80,,1137_page_138_table_0,1.0,1.0,0.0,1.0,,235,agree,
+30,10,641,109,annual,paddle_raw,_repair,2,31,4,0,31,Jan.,False,row_label_wrong,0,,641_page_109_table_0,34.0,3.0,0.0,1.0,,79,agree,
+31,11,1137,138,annual,paddle_raw,_repair,2,16,7,"66,600",17.50,Discharge. Second-feet.,False,row_label_wrong,"66, 600",,1137_page_138_table_1,16.0,6.0,5.0,2.0,,79,agree,
+32,10,641,109,annual,paddle_raw,_repair,2,30,2,0,30,Nov.,False,row_label_wrong,0,,641_page_109_table_0,33.0,1.0,0.0,1.0,,79,agree,
+33,10,641,109,annual,paddle_raw,_repair,2,16,2,0,16,Nov.,False,row_label_wrong,0,,641_page_109_table_0,8.0,1.0,0.0,1.0,,79,agree,
+34,9,15,318,annual,paddle_raw,_repair,2,3,2,"‡18,000",1901,Water year ending Sept. 30 Maximum observed Discharge,True,row_label_wrong,"$18, 000",,15_page_318_table_0,3.0,2.0,0.0,3.0,False,79,agree,"Lenient: output '$18, 000' counted as 18,000 (mark misread, gap closed)."
+35,18,1084,275,no_time_series,reducto_csv,_repair,1,7,3,5,M. Lahse,Location. Range E.,False,both_labels_wrong,5,,1084_page_275_table1.csv,6.0,3.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+36,18,1084,275,no_time_series,reducto_csv,_repair,1,7,4,8,M. Lahse,Diameter of well. Inches.,False,both_labels_wrong,8,,1084_page_275_table1.csv,6.0,4.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+37,18,1084,275,no_time_series,reducto_csv,_repair,1,7,5,260,M. Lahse,Depth of well. Feet.,False,both_labels_wrong,260,,1084_page_275_table1.csv,6.0,5.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+38,18,1084,275,no_time_series,reducto_csv,_repair,1,7,6,15,M. Lahse,Depth to water. Feet.,False,both_labels_wrong,15,,1084_page_275_table1.csv,6.0,6.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+39,18,1084,275,no_time_series,reducto_csv,_repair,1,7,1,10,M. Lahse,Location. Section.,False,both_labels_wrong,10,,1084_page_275_table1.csv,6.0,1.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+40,9,15,318,annual,reducto_csv,_repair,2,9,4,15,1907,Water year ending Sept. 30 Minimum day,False,col_label_wrong,15,,15_page_318_table2.csv,11.0,4.0,0.0,5.0,,1249,agree,
+41,5,251,309,monthly,reducto_csv,_repair,2,4,1,3.6,1937,Water year Mean discharge in second-feet,False,col_label_wrong,3.6,,251_page_309_table2.csv,5.0,1.0,0.0,3.0,,1249,agree,
+42,5,251,309,monthly,reducto_csv,_repair,1,10,2,0,May,Discharge in second-feet Minimum,False,col_label_wrong,0,,251_page_309_table1.csv,11.0,2.0,0.0,3.0,,1249,agree,
+43,17,1061,39,no_time_series,reducto_csv,_repair,1,8,1,78,Oct. 1957–Sept. 1958,Tabulated value equaled or exceeded for indicated percent of days 1,False,col_label_wrong,78,,1061_page_39_table1.csv,9.0,1.0,0.0,3.0,,1249,agree,
+44,12,1276,80,annual,reducto_csv,_repair,2,6,2,"7,300",1901,Water year Runoff in acre-feet,False,col_label_wrong,7300,,1276_page_80_table2.csv,7.0,2.0,0.0,3.0,,1249,agree,
+45,3,1553,81,daily,reducto_csv,_repair,1,19,10,19.3,19,July,False,incorrect,19.0,misread,1553_page_81_table1.csv,19.0,10.0,,,,108,agree,
+46,18,1084,275,no_time_series,reducto_csv,_repair,1,45,7,2½,,Size of centrifugal pump. Inches.,True,incorrect,21,shifted to a neighbouring cell,1084_page_275_table1.csv,43.0,7.0,,,,108,agree,"Verdict right, but truth '2½' was being parsed as the number 2 with a mark; an output of '2' would have counted as right. Fixed 2026-11-14 (fractions parsed)."
+47,18,1084,275,no_time_series,reducto_csv,_repair,1,40,6,21,H. Perkins,Depth to water. Feet.,False,incorrect,21 19,misread,1084_page_275_table1.csv,39.0,6.0,,,,108,agree,
+48,2,614,286,daily,reducto_csv,_repair,1,2,10,338,2,July,False,incorrect,339,misread,614_page_286_table1.csv,2.0,10.0,,,,108,agree,Depends on truth: typist unsure 338 vs 339 (chose 338 so the column total agrees); Reducto reads 339.
+49,8,1147,132,monthly,reducto_csv,_repair,1,48,6,"21,800",January,Run-off. Total in acre-feet.,False,incorrect,1800.0,misread,1147_page_132_table1.csv,49.0,6.0,,,,108,agree,
+50,18,1084,275,no_time_series,reducto_csv,_repair,1,4,1,10,H. Wood,Location. Section.,False,missed_cell,,row or column absent,1084_page_275_table1.csv,,,,,,38,agree,
+51,5,251,309,monthly,reducto_csv,_repair,1,26,1,180,July,Discharge in second-feet Maximum,False,missed_cell,,row or column absent,251_page_309_table1.csv,,,,,,38,agree,
+52,18,1084,275,no_time_series,reducto_csv,_repair,1,4,5,76,H. Wood,Depth of well. Feet.,False,missed_cell,,row or column absent,1084_page_275_table1.csv,,,,,,38,agree,
+53,18,1084,275,no_time_series,reducto_csv,_repair,1,53,1,12,,Location. Section.,False,missed_cell,,row or column absent,1084_page_275_table1.csv,,,,,,38,agree,
+54,18,1084,275,no_time_series,reducto_csv,_repair,1,41,1,1,,Location. Section.,False,missed_cell,,row or column absent,1084_page_275_table1.csv,,,,,,38,agree,
+55,19,1110,231,no_time_series,reducto_csv,_repair,1,20,11,10,2F1 3,Constituents in parts per million Magnesium (Mg),False,missed_table,,no output table,,,,,,,430,agree,
+56,19,1110,231,no_time_series,reducto_csv,_repair,1,28,5,7.7,9R1,pH,False,missed_table,,no output table,,,,,,,430,agree,
+57,20,1312,239,no_time_series,reducto_csv,_repair,1,3,3,35,B 10,Location. Section.,False,missed_table,,no output table,,,,,,,430,agree,
+58,19,1110,231,no_time_series,reducto_csv,_repair,1,21,18,3.5,7/7-17A1,Constituents in parts per million Nitrate (NO3),False,missed_table,,no output table,,,,,,,430,agree,
+59,20,1312,239,no_time_series,reducto_csv,_repair,1,11,11,863.81,D 2,Bench mark. Altitude above sea level. Feet.,False,missed_table,,no output table,,,,,,,430,agree,
+60,2,614,286,daily,reducto_csv,_repair,1,21,2,54,21,Nov.,False,right_findable,54,,614_page_286_table1.csv,21.0,2.0,0.0,1.0,,2514,agree,
+61,9,15,318,annual,reducto_csv,_repair,2,8,6,"535,000",1906,Water year ending Sept. 30 Runoff in acre-feet,False,right_findable,535000,,15_page_318_table2.csv,10.0,6.0,0.0,5.0,,2514,agree,
+62,10,641,109,annual,reducto_csv,_repair,2,9,2,0,9,Nov.,False,right_findable,o,,641_page_109_table1.csv,9.0,2.0,0.0,1.0,,2514,agree,
+63,18,1084,275,no_time_series,reducto_csv,_repair,1,35,9,5,C. Cumingham,Area irrigated. Acres.,False,right_findable,5,,1084_page_275_table1.csv,34.0,9.0,0.0,4.0,,2514,agree,
+64,2,614,286,daily,reducto_csv,_repair,1,8,10,163,8,July,False,right_findable,163,,614_page_286_table1.csv,8.0,10.0,0.0,1.0,,2514,agree,
+65,18,1084,275,no_time_series,reducto_csv,_repair,1,7,9,3,M. Lahse,Area irrigated. Acres.,False,row_label_wrong,3.,,1084_page_275_table1.csv,6.0,9.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+66,18,1084,275,no_time_series,reducto_csv,_repair,1,7,8,3,M. Lahse,Horsepower.,False,row_label_wrong,3,,1084_page_275_table1.csv,6.0,8.0,0.0,4.0,,6,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+67,10,641,109,annual,reducto_csv,_repair,1,2,1,.1,.3,,False,row_label_wrong,0.1,,641_page_109_table1.csv,32.0,4.0,2.0,4.0,,6,wrong bin,Small headerless rating list (4x2) was linked to the daily grid because its zeros and 0.1 also occur there; should be missed_table. Fixed 2026-11-14: an output cell can be credited to one printed table only.
+68,10,641,109,annual,reducto_csv,_repair,1,0,1,0,0.1,,False,row_label_wrong,o,,641_page_109_table1.csv,4.0,4.0,2.0,4.0,,6,wrong bin,Same as 67.
+69,14,648,556,discrete,reducto_csv,_repair,1,2,4,1.66,At International boundary at San Ysidro.,Discharge (cfs),False,row_label_wrong,1.66,,648_page_556_table1.csv,2.0,4.0,3.0,1.0,,6,agree,
+70,14,648,556,discrete,reducto_raw,_repair,1,16,4,10.8,do,Discharge (cfs),False,col_label_wrong,10.8,,block2,4.0,4.0,3.0,0.0,,62,agree,Follows from typing 648 p556 as one table: Reducto's second block has no header. Anna to decide.
+71,14,648,556,discrete,reducto_raw,_repair,1,43,4,152,do,Discharge (cfs),False,col_label_wrong,152,,block2,31.0,4.0,3.0,0.0,,62,agree,Follows from typing 648 p556 as one table: Reducto's second block has no header. Anna to decide.
+72,14,648,556,discrete,reducto_raw,_repair,1,33,4,121,do,Discharge (cfs),False,col_label_wrong,121,,block2,21.0,4.0,3.0,0.0,,62,agree,Follows from typing 648 p556 as one table: Reducto's second block has no header. Anna to decide.
+73,4,1568,301,daily,reducto_raw,_repair,1,3,8,60,Do.,Discharge Sec.-ft.,False,col_label_wrong,60,,block1,3.0,8.0,6.0,2.0,,62,agree,Strict rule is harsh here: unit line read 'Scc.-ft' for 'Sec.-ft.' fails the whole column. Passes under the fuzzy-label variant.
+74,14,648,556,discrete,reducto_raw,_repair,1,41,4,118,do,Discharge (cfs),False,col_label_wrong,118,,block2,29.0,4.0,3.0,0.0,,62,agree,Follows from typing 648 p556 as one table: Reducto's second block has no header. Anna to decide.
+75,6,366,290,monthly,reducto_raw,_repair,1,12,4,"1,700",August,Run-off (total in acre-feet).,False,incorrect,"1, ,700",misread,block1,12.0,4.0,,,,109,agree,
+76,5,251,309,monthly,reducto_raw,_repair,1,25,1,370,June,Discharge in second-feet Maximum,False,incorrect,370 180,misread,block1,25.0,1.0,,,,109,agree,
+77,14,648,556,discrete,reducto_raw,_repair,1,29,4,87.5,do,Discharge (cfs),False,incorrect,"87,5",misread,block2,17.0,4.0,,,,109,agree,
+78,13,431,155,discrete,reducto_raw,_repair,1,13,1,3.08,Apr. 12,Gage height Feet,False,incorrect,3..08,misread,block1,13.0,1.0,,,,109,agree,
+79,3,1553,81,daily,reducto_raw,_repair,2,4,1,9.9,December,Discharge in second-feet Maximum,False,incorrect,9.,misread,block2,4.0,1.0,,,,109,agree,
+80,18,1084,275,no_time_series,reducto_raw,_repair,1,41,8,6,,Horsepower.,False,missed_cell,,row or column absent,block1,,,,,,38,agree,
+81,18,1084,275,no_time_series,reducto_raw,_repair,1,41,5,149,,Depth of well. Feet.,False,missed_cell,,row or column absent,block1,,,,,,38,agree,
+82,18,1084,275,no_time_series,reducto_raw,_repair,1,4,6,20,H. Wood,Depth to water. Feet.,False,missed_cell,,row or column absent,block1,,,,,,38,agree,
+83,18,1084,275,no_time_series,reducto_raw,_repair,1,53,4,10,,Diameter of well. Inches.,False,missed_cell,,row or column absent,block1,,,,,,38,agree,
+84,10,641,109,annual,reducto_raw,_repair,2,34,6,0,Ac-ft,Mar.,False,missed_cell,,cell empty,block1,34.0,6.0,,,,38,agree,Depends on truth: printed 0 vs empty in output.
+85,19,1110,231,no_time_series,reducto_raw,_repair,1,11,16,2,31H1,Constituents in parts per million Sulfate (SO4),False,missed_table,,no output table,,,,,,,430,agree,
+86,19,1110,231,no_time_series,reducto_raw,_repair,1,16,12,27,25Q1,Constituents in parts per million Sodium (Na),False,missed_table,,no output table,,,,,,,430,agree,
+87,20,1312,239,no_time_series,reducto_raw,_repair,1,10,8,10.8,C 10,Depth of well below bench mark. Feet.,False,missed_table,,no output table,,,,,,,430,agree,
+88,19,1110,231,no_time_series,reducto_raw,_repair,1,15,12,14,23C2,Constituents in parts per million Sodium (Na),False,missed_table,,no output table,,,,,,,430,agree,
+89,19,1110,231,no_time_series,reducto_raw,_repair,1,12,12,64,6/8-5E1,Constituents in parts per million Sodium (Na),False,missed_table,,no output table,,,,,,,430,agree,
+90,18,1084,275,no_time_series,reducto_raw,_repair,1,8,3,5,Fred Lahse,Location. Range E.,False,right_findable,5,,block1,6.0,3.0,0.0,3.0,,3700,agree,
+91,18,1084,275,no_time_series,reducto_raw,_repair,1,46,7,2,,Size of centrifugal pump. Inches.,False,right_findable,2,,block1,43.0,7.0,0.0,3.0,,3700,agree,
+92,3,1553,81,daily,reducto_raw,_repair,1,14,8,17.9,14,May,False,right_findable,17.9,,block1,14.0,8.0,0.0,1.0,,3700,agree,
+93,10,641,109,annual,reducto_raw,_repair,2,33,4,0.003,Mean,Jan.,False,right_findable,0.003,,block1,33.0,4.0,0.0,1.0,,3700,agree,
+94,18,1084,275,no_time_series,reducto_raw,_repair,1,28,1,36,P. Kramer,Location. Section.,False,right_findable,36,,block1,26.0,1.0,0.0,3.0,,3700,agree,
+95,18,1084,275,no_time_series,reducto_raw,_repair,1,7,1,10,M. Lahse,Location. Section.,False,row_label_wrong,10,,block1,5.0,1.0,0.0,3.0,,12,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+96,18,1084,275,no_time_series,reducto_raw,_repair,1,7,8,3,M. Lahse,Horsepower.,False,row_label_wrong,3,,block1,5.0,8.0,0.0,3.0,,12,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+97,18,1084,275,no_time_series,reducto_raw,_repair,1,7,6,15,M. Lahse,Depth to water. Feet.,False,row_label_wrong,15,,block1,5.0,6.0,0.0,3.0,,12,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+98,18,1084,275,no_time_series,reducto_raw,_repair,1,7,5,260,M. Lahse,Depth of well. Feet.,False,row_label_wrong,260,,block1,5.0,5.0,0.0,3.0,,12,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."
+99,18,1084,275,no_time_series,reducto_raw,_repair,1,7,3,5,M. Lahse,Location. Range E.,False,row_label_wrong,5,,block1,5.0,3.0,0.0,3.0,,12,agree,"Depends on truth: owner typed 'M. Lahse' (typist unsure), Reducto 'M. Lause'. Anna's check decides."

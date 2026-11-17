@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°22'10\", long 118°59'15\"",
+  "well_number": "",
+  "station_number": "11-2310",
+  "station_name": "Lake Thomas A. Edison near Big Creek, Calif.",
+  "township_range_section": "sec.26, T.6 S., R.27 E. (unsurveyed)",
+  "place_name": "Big Creek",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lake Thomas A. Edison",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "elevation;contents",
+  "n_measurements": 18,
+  "n_variables": 18,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table: 9 elevation/contents pairs (5 in left block, 4 in right), both columns counted = 18. No dates (capacity table). Also printed: in outlet works of dam on Mono Creek at lower end of Vermillion Valley, 18.1 miles northeast of town of Big Creek."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "330331N1060115.1; Local number 14.10.31.144",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Tularosa-Alamogordo Area",
+  "county": "Otero County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Luther Watson",
+  "data_type": "Groundwater",
+  "date_start": "1961-01-24",
+  "date_end": "1965-01-12",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the last one on the page (well of Luther Watson). 14 dates printed; 2 of them (Oct. 3, 1962 and July 13, 1965) show only '(a)' = well being pumped, no value, so 12 water levels counted. date_end is the last printed value (Jan. 12, 1965); the last printed date is July 13, 1965 with '(a)'. Both the long well number and the 'Local number' are printed; both given in well_number. The local number may encode township/range/section but no land survey description is printed as such, so that field is blank. State not printed for this well (running head says only 'SOUTHWESTERN STATES'; 'State of New Mexico' appears only as owner of another well). Depth, diameter and altitude are in the heading text, not counted. No drilling date printed."
+ }
+]

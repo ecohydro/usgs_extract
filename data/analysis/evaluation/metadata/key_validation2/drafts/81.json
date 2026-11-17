@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°54', long. 121°12'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Bucks Creek Reservoir near Bucks Ranch, Calif.",
+  "township_range_section": "NW¼ sec. 33, T. 24 N., R. 7 E.",
+  "place_name": "Bucks Ranch",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bucks Creek Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1950-09-30",
+  "date_end": "1951-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 26,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 2 = monthly elevation and contents. 13 printed month-end rows (Sept. 30, 1950 to Sept. 30, 1951) x 2 (elevation, contents) = 26. Summary values: 12 monthly change in contents + calendar year 1950 + water year 1950-51 = 14. First row is Sept. 30 of previous water year; printed rows used for dates. Other distances on page: in intake tower No. 2 above dam on Bucks Creek, 2 miles northwest of former Bucks Ranch, 15 miles west of Quincy. No USGS station number printed."
+ }
+]

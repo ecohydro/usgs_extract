@@ -1,0 +1,11 @@
+sample_no: 98
+report (doc_id): 70038406   page: 91   table on the page: 2 of 5
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/70038406_page_91.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/98.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DATE | WATER LEVFL | DATE.1 | WATER LEVEL | DATE.2 | WATER LEVEL.1 | DATE.3 | WATER LEVEL.2
+MAR. 10, 1966 | 60.37 | MAR. 14, 1967 | 61.94 | MAR. 5, 1968 | 63.39 |  | 
+... (2 lines in all; last lines:)
+DATE | WATER LEVFL | DATE.1 | WATER LEVEL | DATE.2 | WATER LEVEL.1 | DATE.3 | WATER LEVEL.2
+MAR. 10, 1966 | 60.37 | MAR. 14, 1967 | 61.94 | MAR. 5, 1968 | 63.39 |  | 

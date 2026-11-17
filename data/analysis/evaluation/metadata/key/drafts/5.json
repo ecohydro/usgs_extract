@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/34-18L1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lompoc",
+  "place_relation": "About 4.5 miles northwest of",
+  "basin_or_area": "CARPINTERIA, GOLETA, AND SANTA YNEZ VALLEYS",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "City of Santa Barbara, well 119-A",
+  "data_type": "Groundwater",
+  "date_start": "1930-10-28",
+  "date_end": "1941-11-12",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "units": "feet above sea-level datum of 1929",
+  "n_measurements": 80,
+  "n_variables": 80,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Water levels in 1930-34 and 1941. Counted by year: 1930 3; 1931 16; 1932 24 (7 in first column + 17 in second); 1933 18 (11 + 7); 1934 4; 1941 15; total 80 (columns 26 + 28 + 26). No measurements between Mar. 25, 1934 and Apr. 24, 1941. Heading also names War Department, Camp Cooke Military Reservation, and: about 500 feet north of intersection of Casmalia Road and Pine Canyon Road, 15 feet west of Casmalia Road. Basin_or_area is the page running head only. Measuring-point heights in the heading (1.00, 61.19, 0.49) are not in the table and not counted. No county, state or drilling date printed."
+ }
+]

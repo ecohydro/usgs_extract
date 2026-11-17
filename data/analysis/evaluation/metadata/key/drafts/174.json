@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "9/24-33M1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "Santa Barbara County",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "Walter C. Barnes",
+  "data_type": "Groundwater",
+  "date_start": "1952-01-28",
+  "date_end": "1952-12-30",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "12 water levels counted (4 date/level column pairs x 3 rows). The table prints month and day only; year 1952 taken from the heading on this page ('lowest 187.31 below lsd, Mar. 27, 1952' is the table's Mar. 27 value; records available 1950-52). County and state from the running head. Depth, diameter and datum altitude are in the heading text, not in the table: not counted. No drilling year printed."
+ }
+]

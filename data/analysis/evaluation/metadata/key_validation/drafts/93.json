@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°06'43\", long 120°28'00\"",
+  "well_number": "",
+  "station_number": "11-4275",
+  "station_name": "Middle Fork American River at French Meadows, Calif.",
+  "township_range_section": "NE¼ sec.36, T.15 N., R.13 E.",
+  "place_name": "French Meadows",
+  "place_relation": "at",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Middle Fork American River",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-10-01",
+  "date_end": "1962-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;runoff",
+  "n_measurements": 365,
+  "n_variables": 433,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge grid, water year October 1961 to September 1962. Counted by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 365; no blank days seen (Feb 29 is a dash). Summary values: Total, Mean, Max, Min, Ac-ft rows x 12 months = 60, plus calendar year 1961 line (Max, Min, Mean, Ac-ft) 4 and water year 1961-62 line 4 = 68; n_variables = 433. Runoff (Ac-ft) appears only as summary values. The rating tables above are a separate table (table 1) and not counted. County not printed. Other location text: on left bank at downstream end of French Meadows, 4.9 miles upstream from Chipmunk Creek, and 14 miles south of Cisco."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "10346000",
+  "station_name": "TRUCKEE RIVER AT FARAD, CALIF.",
+  "township_range_section": "",
+  "place_name": "Farad",
+  "place_relation": "at",
+  "basin_or_area": "Pyramid and Winnemucca Lakes Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Truckee River",
+  "data_type": "Stream Discharge",
+  "date_start": "1973-10",
+  "date_end": "1974-09",
+  "temporal_resolution": "daily",
+  "variables": "water_chemistry",
+  "n_measurements": 333,
+  "n_variables": 344,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = upper grid, specific conductance (micromhos/cm at 25 deg. C), once-daily, water year October 1973 to September 1974. Counted printed values by month, dashes not counted: Oct 23, Nov 25, Dec 28, Jan 29, Feb 26, Mar 26, Apr 27, May 31, Jun 30, Jul 30, Aug 30, Sep 28 = 333. MONTH row: 11 values (October is a dash) = summary, n_variables 344. Poor print; counted on an enlarged crop. Continuation page: no coordinates, county or township printed."
+ }
+]

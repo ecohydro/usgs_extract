@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Bucks Creek Storage Reservoir near Bucks Ranch, Calif.",
+  "township_range_section": "NW¼ sec. 33, T. 24 N., R. 7 E.",
+  "place_name": "Bucks Ranch",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bucks Creek Storage Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1931-10-01",
+  "date_end": "1932-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents",
+  "n_measurements": 366,
+  "n_variables": 366,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents in acre-feet, 1931-32. Count by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 29, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 366; no summary rows. Other location words: at dam on Bucks Creek, 2 miles northwest of original Bucks Ranch and 15 miles west of Quincy. No station number or county printed."
+ }
+]

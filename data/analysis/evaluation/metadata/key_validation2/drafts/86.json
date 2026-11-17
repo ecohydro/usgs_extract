@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 35°45'30\", long 120°53'09\"",
+  "well_number": "",
+  "station_number": "11149300",
+  "station_name": "NACIMIENTO RESERVOIR NEAR BRADLEY, CA",
+  "township_range_section": "NW¼ sec.15, T.25 S., R.10 E.",
+  "place_name": "BRADLEY",
+  "place_relation": "NEAR",
+  "basin_or_area": "SALINAS RIVER BASIN",
+  "county": "San Luis Obispo County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "NACIMIENTO RESERVOIR",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry;temperature",
+  "n_measurements": 112,
+  "n_variables": 140,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Depth profile sampled 'AT DAM' on AUG 24; the year is not printed on this page, so dates are left blank. 28 depth rows (.5, 1.0 ... 27 m) x 4 measured columns (specific conductance, pH, temperature, dissolved oxygen) = 112; n_variables adds the 28 sampling depths; time-of-day column not counted."
+ }
+]

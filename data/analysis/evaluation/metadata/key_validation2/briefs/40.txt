@@ -1,0 +1,13 @@
+sample_no: 40
+report (doc_id): 70038681   page: 149   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/70038681_page_149.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/40.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 13 columns):
+DAY | OCT | NCV | DEC | JAN | FEB | MAR | APR
+1 | 187 | 794.0 | 672 | 362 | 1.030 | 1800 | 1140
+2 | 877 | 766.0 | 415 | 557 | 747 | 1090 | 1.280
+3 | 810 | 772.0 | 412 | 734 | 729 | 1160 | 1300
+... (41 lines in all; last lines:)
+CAL YA | 1972 TOTAL | 442266.0 | MEAN | 1208 | MAX 4,230 | MIN 163 | AC-FT
+WTR YR | 1973 TOTAL | 970367.0 |  | MFAN 2,659 | MAX 14,200 | MIN 187 | AC-FT

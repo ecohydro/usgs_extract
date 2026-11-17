@@ -1,0 +1,13 @@
+sample_no: 54
+report (doc_id): 8050   page: 31   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/8050_page_31.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/54.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date in | Date out | SITE 1 | SITE 1 | SITE 2 | SITE 2 | SITE 3 | SITE 3
+Date in | Date out | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1 | Unnamed: 6_level_1 | Unnamed: 7_level_1
+Date in | Date out | Unnamed: 2_level_2 | Unnamed: 3_level_2 | Unnamed: 4_level_2 | Unnamed: 5_level_2 | Unnamed: 6_level_2 | Unnamed: 7_level_2
+Area | Organic | Area | Organic | Area |  | Organic | 
+... (27 lines in all; last lines:)
+ |  |  |  | 44.0 | 0.282 |  | 
+ |  | Mean, | 1.45 | Mean, | 0.658 |  | Mean,

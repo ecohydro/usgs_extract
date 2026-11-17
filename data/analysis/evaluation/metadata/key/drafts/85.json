@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°29'12\", long 121°12'29\"",
+  "well_number": "",
+  "station_number": "11274630",
+  "station_name": "DEL PUERTO CREEK NEAR PATTERSON, CA",
+  "township_range_section": "in SE¼NW¼ sec.21, T.5 S., R.7 E.",
+  "place_name": "Patterson",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "Stanislaus County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Del Puerto Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1976-10",
+  "date_end": "1977-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 123,
+  "n_variables": 193,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values are printed only for Oct (31), Mar (31), Apr (30) and May (31) = 123, zeros counted. Nov-Feb and Jun-Sep daily cells are blank (monthly total 0 only), so nothing counted there; water year from the title kept for the dates. Summary values: TOTAL/MEAN/MAX/MIN/AC-FT rows 5 x 12 = 60, CAL YR and WTR YR lines 5 + 5 = 10. Also printed: on left bank 1.0 mi upstream from Delta-Mendota Canal crossing, and 4.4 mi west of Patterson."
+ }
+]

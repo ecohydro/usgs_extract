@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 38°11', long. 120°09'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Middle Fork Stanislaus River at Sand Bar Flat, near Avery, Calif.",
+  "township_range_section": "sec. 19, T. 4 N., R. 17 E.",
+  "place_name": "Sand Bar Flat; Avery",
+  "place_relation": "at; near",
+  "basin_or_area": "STANISLAUS RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Middle Fork Stanislaus River",
+  "data_type": "Stream Discharge",
+  "date_start": "1944-10",
+  "date_end": "1945-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary block under the daily table. Also printed: 1 mile upstream from diversion dam of Pacific Gas & Electric Co. at Sand Bar Flat, 11 miles southeast of Avery. No county on page. Count: 12 months x (maximum, minimum, mean) = 36 measurements. Summary: second-foot-days 12 + runoff in acre-feet 12 + calendar year 1944 row 5 + water year 1944-45 row 5 = 34."
+ }
+]

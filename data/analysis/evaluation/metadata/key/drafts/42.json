@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°07'05\", long 116°47'10\"",
+  "well_number": "",
+  "station_number": "11-0240",
+  "station_name": "Santa Ysabel Creek at Sutherland Dam, Calif.",
+  "township_range_section": "NW¼NW¼SW¼ sec.21, T.12 S., R.2 E.",
+  "place_name": "Sutherland Dam",
+  "place_relation": "at",
+  "basin_or_area": "San Dieguito River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ysabel Creek; Sutherland Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1965-09-30",
+  "date_end": "1966-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "gage_height;contents;evaporation;discharge;other",
+  "n_measurements": 74,
+  "n_variables": 96,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Station is named for the creek but the table gives reservoir gage height and contents and discharge reaching the reservoir computed from storage, draft, spill and evaporation: typed Reservoir by the inflow-at-reservoir rule (Stream Discharge is arguable). 13 printed month-end rows (Sept. 30, 1965 to Sept. 30, 1966); first row has only gage height and contents. Counted gage height 13 + contents 13 + draft 12 + evaporation 12 + spill plus leakage 12 + discharge 12 = 74. 'other' = draft and spill plus leakage. Summary: change in contents 12, calendar year 1965 row 5, water year 1965-66 row 5 = 22. Page also says on face of Sutherland Dam, 1.6 miles upstream from Black Canyon Creek and 7 miles northeast of Ramona."
+ }
+]

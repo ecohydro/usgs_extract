@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°20'00\", long. 121°54'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Guadalupe Creek at San Jose, Calif.",
+  "township_range_section": "",
+  "place_name": "San Jose",
+  "place_relation": "at",
+  "basin_or_area": "GUADALUPE CREEK BASIN",
+  "county": "Santa Clara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Guadalupe Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1937-10",
+  "date_end": "1938-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge; runoff",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the monthly summary block under the daily grid. Counted as measurements the monthly Maximum, Minimum and Mean cells: 12 months x 3 = 36 (zeros count). n_variables adds the 12 monthly second-foot-days and 12 monthly run-off in acre-feet values (treated as totals / runoff conversions of the daily table) and the 5 + 5 values of the calendar-year and water-year rows: 36 + 24 + 10 = 70. Rules do not say clearly whether monthly second-foot-days and run-off cells are measurements; if they are, n_measurements = 60. Other location words on page: 100 feet downstream from confluence with Los Gatos Creek, in city of San Jose; altitude about 80 feet. Records available January 1930 to September 1938 (period of record, not used)."
+ }
+]

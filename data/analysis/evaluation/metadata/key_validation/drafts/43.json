@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°29'55\", long 121°27'06\"",
+  "well_number": "",
+  "station_number": "11-3365.8",
+  "station_name": "MORRISON CREEK NEAR SACRAMENTO, CALIF.",
+  "township_range_section": "SW¼SE¼ sec.32, T.8 N., R.5 E.",
+  "place_name": "Sacramento",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Morrison Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1966-11-06",
+  "date_end": "1967-01-21",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = left block only of the 'Peak discharge (base, 160 cfs)' table (peaks 11-06 to 1-21); the right block (1-24 to 4-18) is a separate digitized table and is not counted. 6 peaks x (gage height + discharge) = 12; time-of-day not counted. Years taken from the page's 'water year October 1966 to September 1967' (peak dates are printed as month-day only). Location paragraph also says: on right bank 750 ft upstream from Florin Road, 1.6 miles upstream from Elder Creek, and 2 miles south of Sacramento city limits. No county printed."
+ }
+]

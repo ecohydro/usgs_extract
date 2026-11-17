@@ -1,0 +1,13 @@
+sample_no: 69
+report (doc_id): 22610   page: 30   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/22610_page_30.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/69.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+Unnamed: 0 | 12S/4E 24K1 | - : : : | 12S/5E 34J1 | - : 12S/6E 17XL | -
+Calcium (Ca) Magnesium (Mg)  | 56 15 60 2.5 |  | 108 31 al89 - | 260 83 320 17 | 
+Carbonate (CO2) Bicarbonate  | o 228 (81) 44 - 2.0 - |  | - 189 400 181 - 2.5 .27 | o 216 (1062) 300 - 1.6 - | 
+Sum of determined constituen | (374) 39 662 7.9 201 14 |  | 1,006 51 1490 8.4 (397) - | (2152) 41 3,000 7.4 990 813 | 
+... (5 lines in all; last lines:)
+Sum of determined constituen | (374) 39 662 7.9 201 14 |  | 1,006 51 1490 8.4 (397) - | (2152) 41 3,000 7.4 990 813 | 
+Depth, in feet Temperature ( | 97 - 1 -4 -54 GS 10197 |  | - - 4 -30 -52 DWR 2412 | 60 79 1 -8 -54 GS 10212 | 

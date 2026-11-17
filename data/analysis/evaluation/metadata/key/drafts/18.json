@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°57'51\", long 120°29'37\"",
+  "well_number": "",
+  "station_number": "11337720",
+  "station_name": "Goose Lake at West Shore Log Landing, near Willow Ranch, CA",
+  "township_range_section": "NE¼NE¼ sec.32, T.48 N., R.13 E.",
+  "place_name": "West Shore Log Landing; Willow Ranch",
+  "place_relation": "at; near",
+  "basin_or_area": "Goose Lake Basin",
+  "county": "Modoc County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Goose Lake",
+  "data_type": "Reservoir",
+  "date_start": "1975-11-11",
+  "date_end": "1976-05-11",
+  "temporal_resolution": "discrete",
+  "variables": "contents; temperature; water_chemistry",
+  "units": "AC-FT; DEG C; MG/L, UG/L, percent, ratio, TONS PER AC-FT",
+  "n_measurements": 55,
+  "n_variables": 55,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 1 taken as the whole Goose Lake analysis, printed as three stacked blocks (the second table on the page is Sacramento River at Bend Bridge). Two samples, NOV 11 and MAY 11, in water year October 1975 to September 1976; years assigned from that heading. Count of filled cells, excluding TIME and '--': block 1 Nov 11 + May 10; block 2 Nov 11 + May 10; block 3 Nov 11 + May 2 = 55. Includes computed chemistry columns (hardness, percent sodium, sodium adsorption ratio, dissolved solids sum). If the sampled table is only the first block the count is 21. Data type: a lake with a 'reservoir storage' column, so Reservoir; could be argued otherwise. Station name has two places (at West Shore Log Landing, near Willow Ranch); both entered, ';'-separated."
+ }
+]

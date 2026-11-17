@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7N/31W-36L2 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Ballard",
+  "place_relation": "near",
+  "basin_or_area": "Santa Ynez Valley",
+  "county": "Santa Barbara County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "D. B. Kilbourne",
+  "data_type": "Groundwater",
+  "date_start": "1975-04-08",
+  "date_end": "1975-04-08",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 1,
+  "n_variables": 1,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Fifth well block on the page (D. B. Kilbourne). One water level printed (78.94). The day of the date is poorly printed ('APR. 8, 1975' read as 8 after enlarging; could be misread), hence unsure. The heading also prints a 15-digit site number 343831120055001 (not a printed latitude/longitude, so coordinates left blank) and 'Baseline and Grand (Refugio) Avenues'. 'Santa Ynez Valley' is the area heading printed above the second well on the page and taken to apply to the following wells. State not printed. Well description numbers in the heading (diam 12 in, depth 230 ft, Lsd 720.62 ft) are outside the table and not counted. No year drilled printed."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 16
+report (doc_id): 32842   page: 70   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/32842_page_70.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/16.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | Pri- mary salin- ity (per ce | Sec- ondary salin- ity (per  | Sec- ondary alka- linity (pe | Concen- tration (parts per m
+Normal sea water (see analy- | 78.0 | 21.1 | 0.3 | 35000
+water SO is calculated as CO | 78.0 | 11.8 | 9.6 | 35000
+assumed excess of alkaline-  | 85.4 | 12.8 | 1.8 | 32200
+... (4 lines in all; last lines:)
+water SO is calculated as CO | 78.0 | 11.8 | 9.6 | 35000
+assumed excess of alkaline-  | 85.4 | 12.8 | 1.8 | 32200

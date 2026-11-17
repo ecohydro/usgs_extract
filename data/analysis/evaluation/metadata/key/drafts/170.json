@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "8",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Moneta",
+  "place_relation": "one-half mile north of",
+  "basin_or_area": "southern California",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "H. J. Harris",
+  "data_type": "Groundwater",
+  "date_start": "1907-02-05",
+  "date_end": "1908-12-17",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 8,
+  "n_variables": 8,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is well 8 (H. J. Harris, one-half mile north of Moneta) of 10 well blocks on the page; '8' is the report's own well number. 8 dated depth-to-water readings (4 in 1907, 4 in 1908); each feet-and-inches reading counted as one value. State from the page title 'wells in southern California'. No county printed."
+ }
+]

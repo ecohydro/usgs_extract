@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°14', long 119°13'",
+  "well_number": "",
+  "station_number": "2360",
+  "station_name": "Huntington Lake near Big Creek, Calif.",
+  "township_range_section": "SW¼ sec.14, T.8 S., R.25 E.",
+  "place_name": "Big Creek",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Huntington Lake",
+  "data_type": "Reservoir",
+  "date_start": "1959-10-01",
+  "date_end": "1960-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation",
+  "n_measurements": 378,
+  "n_variables": 390,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents grid, water year October 1959 to September 1960. Counted by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 29 (Feb. 29 is printed), Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 366 contents values, plus 12 end-of-month elevations in the foot row = 378 measurements. The 12 monthly change-in-contents values in the second foot row are summary values: n_variables = 390. The calendar-year and water-year change lines below the grid are outside the digitized table and not counted. The capacity table above is a separate table (table 1). County not printed. Other location text: in gate tower of dam 1 on Big Creek, 2 miles northeast of town of Big Creek."
+ }
+]

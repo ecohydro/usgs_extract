@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Bear River at Van Trent, Cal.",
+  "township_range_section": "",
+  "place_name": "Van Trent",
+  "place_relation": "at",
+  "basin_or_area": "SACRAMENTO BASIN",
+  "county": "",
+  "state": "Cal.",
+  "evidence_place": "heading before table",
+  "water_source": "Bear River",
+  "data_type": "Stream Discharge",
+  "date_start": "1904-10-08",
+  "date_end": "1907-09-05",
+  "temporal_resolution": "daily",
+  "variables": "gage_height",
+  "n_measurements": 726,
+  "n_variables": 726,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily gage height, in feet; title says 1904-1912 but this page prints 1904-5, 1905-6 and days 1-5 of 1906-7, all one digitized table. Counted month by month. 1904-5: Oct 24 (from day 8), Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 26 (days 1, 27-29 blank), May 4 (days 3, 4, 7, 9), June 4 (days 27-30), July 31, Aug 31, Sept 30 = 301. 1905-6: complete, 365. 1906-7: 5 days x 12 months = 60. Total 726. Footnotes giving maximum recorded stages are not counted."
+ }
+]

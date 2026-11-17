@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11472900",
+  "station_name": "BLACK BUTTE RIVER NEAR COVELO, CALIF.",
+  "township_range_section": "",
+  "place_name": "COVELO",
+  "place_relation": "NEAR",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "BLACK BUTTE RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1972-10-15",
+  "date_end": "1973-01-16",
+  "temporal_resolution": "discrete",
+  "variables": "temperature;discharge;sediment",
+  "units": "DEG C;CFS;MG/L, T/DAY, % FINER THAN",
+  "n_measurements": 143,
+  "n_variables": 143,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Particle-size distribution of suspended sediment, water year October 1972 to September 1973; 12 samples printed on this page (Oct. 15 to Jan. 16; the table may continue on the next page, not opened). Year of each sample taken from the water-year title. Count: temperature 12 + instantaneous discharge 12 + suspended sediment 12 + suspended sediment discharge 12 = 48; percent-finer values in the upper block (.002 to .062 mm fall diameter) 46; percent-finer values in the lower block (.062 mm sieve to 2.00 mm) 49; total 143. TIME column not counted. Unsure because the table is printed in two blocks (the lower block repeats the dates with more size classes) and I counted both as the sampled table; upper block alone = 94. No coordinates, county or township printed on this page."
+ }
+]

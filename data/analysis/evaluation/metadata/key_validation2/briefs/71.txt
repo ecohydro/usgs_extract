@@ -1,0 +1,13 @@
+sample_no: 71
+report (doc_id): 1147   page: 124   table on the page: 3 of 4
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1147_page_124.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/71.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+Filling | 2 | 2.1 | Yellow sand clay | 4 | 220
+Sand | 7 | 9 | Yellow cement lime | 6.0 | 226.0
+Blue mud | 50 | 59 | Yellow sand clay | 21.0 | 247.0
+Peat | 3 | 62 | Hard yellow sand | 4.0 | 251.0
+... (21 lines in all; last lines:)
+Gray clay | 14 | 214 | Blue clay | 9.0 | 351.0
+Yellow cement gravel | 2 | 216 |  |  | 

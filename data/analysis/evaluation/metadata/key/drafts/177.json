@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "",
+  "water_source": "",
+  "data_type": "Not Water Related",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "",
+  "variables": "",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 14 (continued) of 'Transportation of debris by running water': adjusted values of depth of current (d), mean velocity (Vm) and form ratio (R) by slope S for 20 experimental set-ups (grade, w, Q). Laboratory experiment values, no site, place or date on the page; treated as a table without water data for a location (rule 6). If it should instead be data_type Other: no_time_series, variables other, 441 printed d/Vm/R values (108+138+105+90 in the four tiers, counted block by block), plus 79 set-up constants in the block heads = 520 numbers."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11388000",
+  "station_name": "STONY CREEK BELOW BLACK BUTTE DAM, NEAR ORLAND, CA",
+  "township_range_section": "",
+  "place_name": "Black Butte Dam; Orland",
+  "place_relation": "below; near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Stony Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-04-02",
+  "date_end": "1977-09-30",
+  "temporal_resolution": "daily",
+  "variables": "temperature",
+  "n_measurements": 312,
+  "n_variables": 322,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table is the lower block (April-September) of the water-year 1977 water temperature table; dates are this block's own first and last printed values (water year in title is October 1976 to September 1977). Daily max and min counted per month: April days 2-30 = 58, May 1-31 = 62, June 1-30 = 60, July 1-8 = 16, August 4-31 = 56, September 1-30 = 60; total 312. Dashes not counted. MONTH row (monthly max/min; 10 printed values) counted as summary. No coordinates, county or land survey on this page."
+ }
+]

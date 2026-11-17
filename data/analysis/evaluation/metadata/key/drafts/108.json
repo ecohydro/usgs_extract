@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/9-10E1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Santa Rosa",
+  "place_relation": "About 7.6 miles west-northwest of",
+  "basin_or_area": "Santa Rosa Valley area",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "W. A. Taylor Wine Co.",
+  "data_type": "Groundwater",
+  "date_start": "1950-07-14",
+  "date_end": "1952-04-04",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 9,
+  "n_variables": 9,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Block for Well 7/9-10E1 of Table 19: 9 dated water levels (3 per column pair). Heading numbers (diameter, depth, measuring point, altitude) not counted. Also printed: 2119 Laguna Road, 300 feet west of Laguna Road, 275 feet south of School Road. No county, no drilling date on the page."
+ }
+]

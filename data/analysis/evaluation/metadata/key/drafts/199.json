@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°27'52\", long 118°44'57\"",
+  "well_number": "",
+  "station_number": "11109700",
+  "station_name": "Lake Piru near Piru, Calif.",
+  "township_range_section": "in Temescal Grant",
+  "place_name": "Piru",
+  "place_relation": "near",
+  "basin_or_area": "Santa Clara River Basin",
+  "county": "Ventura County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lake Piru",
+  "data_type": "Reservoir",
+  "date_start": "1970-09-30",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 26,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthend elevation and contents, water year October 1970 to September 1971. First printed row is Sept. 30 of the previous water year, so dates use the printed rows. Count: 13 month-end rows x 2 (elevation, contents) = 26 measurements. Change in contents (12 monthly values + CAL YR 1970 + WTR YR 1971 = 14) are summary values, only in n_variables. Other location words: at Santa Felicia Dam on Piru Creek, 0.5 mile downstream from Santa Felicia Canyon, 4.2 miles northeast of Piru."
+ }
+]

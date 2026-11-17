@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°57'52\", long 117°27'54\"",
+  "well_number": "",
+  "station_number": "11-0665.5",
+  "station_name": "Sheehan ditch at Riverside Narrows, near Arlington, Calif.",
+  "township_range_section": "in Jurupa Grant",
+  "place_name": "Riverside Narrows; Arlington",
+  "place_relation": "at; near",
+  "basin_or_area": "SANTA ANA RIVER BASIN",
+  "county": "Riverside County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sheehan ditch",
+  "data_type": "Irrigation",
+  "date_start": "1947-10",
+  "date_end": "1963-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 192,
+  "n_variables": 208,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly discharge in acre-feet, water years 1948-1963: 16 rows x 12 months, every cell printed (zeros counted) = 192; 16 'The year' totals are summary values. Ditch carries sewage-plant effluent used for irrigation: typed Irrigation by the ditch rule. Other location words: under northbound lane of highway bridge on Pedley Road, 0.6 mile downstream from sewage disposal plant and 3.2 miles northwest of Arlington."
+ }
+]

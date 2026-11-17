@@ -1,0 +1,13 @@
+sample_no: 86
+report (doc_id): 9716   page: 38   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/9716_page_38.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/86.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 7 columns):
+DATE | TIME | SAMP- LING DEPTH (M) | SPE- CIFIC CON- DUCT- ANCE ( | PH (UNITS) | TEMPER- ATURE (DEG C) | DIS- SOLVED OXYGEN (MG/L)
+AUG | AUG | AUG | AUG | AUG | AUG | AUG
+24 | 1045 | .5 | 439 | 8.6 | 24.5 | 8.2
+24 | 1046 | 1.0 | 439 | 8.5 | 24.5 | 8.2
+... (30 lines in all; last lines:)
+24 | 1111 | 26 | 372 | 7.3 | 9.5 | 1.7
+24 | 1112 | 27 | 372 | 7.3 | 9.5 | 1.7

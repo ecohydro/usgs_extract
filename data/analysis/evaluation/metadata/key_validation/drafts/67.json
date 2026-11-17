@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°41', long. 122°04'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "San Lorenzo Creek at Hayward, Calif.",
+  "township_range_section": "in San Lorenzo Grant",
+  "place_name": "Hayward",
+  "place_relation": "at",
+  "basin_or_area": "San Lorenzo Creek Basin",
+  "county": "Alameda County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Lorenzo Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1949-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 273,
+  "n_variables": 273,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid only (the monthly summary below is a separate table). Counted by month: Oct 0 (column empty), Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, June 30, July 31, Aug 0 and Sept 0 (columns empty) = 273. Printed zeros counted; dashes and empty cells not. Oct, Aug and Sept columns are blank although the summary table shows zero flow; dates given as the whole water year per the water-year rule. Other location words: at highway bridge on B Street, just outside city limits of Hayward, 0.5 mile downstream from Palomares Creek."
+ }
+]

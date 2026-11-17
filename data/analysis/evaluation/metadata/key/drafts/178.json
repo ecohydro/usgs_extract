@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 36°12'35\", long. 121°07'05\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "San Lorenzo Creek at King City, Calif.",
+  "township_range_section": "at south boundary of San Lorenzo Grant",
+  "place_name": "King City",
+  "place_relation": "at",
+  "basin_or_area": "Salinas River Basin",
+  "county": "Monterey County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Lorenzo Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1942-12-01",
+  "date_end": "1943-04-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 152,
+  "n_variables": 152,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the 1942-43 grid only (Dec. to Apr.). Counted by month: Dec 31, Jan 31, Feb 29, Mar 31, Apr 30 = 152; zeros count. A 0 is printed on the day-29 row of the Feb. column (1943 is not a leap year; dashes on days 30 and 31); counted as printed. No summary rows. Location text also says on bridge on U. S. Highway 101, 0.2 mile south of King City. No USGS station number printed."
+ }
+]

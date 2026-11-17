@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°32', long. 121°29'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Feather River near Oroville, Calif.",
+  "township_range_section": "NE¼ sec. 2, T. 19 N., R. 4 E.",
+  "place_name": "Oroville",
+  "place_relation": "near",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Feather River",
+  "data_type": "Stream Discharge",
+  "date_start": "1949-10",
+  "date_end": "1950-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 44,
+  "n_variables": 44,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1949-50. 22 gage height / discharge pairs (6+6+6+4), both columns counted = 44. Location paragraph also gives: 75 feet upstream from bridge on Feather River Highway, 2 miles downstream from confluence of North and Middle Forks, 3 miles northeast of Oroville. No station number printed."
+ }
+]

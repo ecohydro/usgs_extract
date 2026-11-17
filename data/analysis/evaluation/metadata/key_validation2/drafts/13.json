@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "22S/39E-4K3 M",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1960-12-14",
+  "date_end": "1975-07-29",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 2,
+  "n_variables": 2,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 3 of 5 on the page (Records of water level, continued). Three dated entries, all letter codes, no numeric level: Dec. 14, 1960 F; Mar. 29, 1965 F; July 29, 1975 P. The heading says 'Dry, water level not measureable, Dec. 14, 1960, Mar. 29, 1965', so F = dry: counted as 2 measurements. Code P is not explained on this page: not counted (would be 3 if it counts). Heading also: casing filled with cement, steam escaping from around bottom of cement slab; depth 8.3 ft in 1965; LSD 3610 ft above MSL (heading numbers not counted). No owner, place, county or state printed."
+ }
+]

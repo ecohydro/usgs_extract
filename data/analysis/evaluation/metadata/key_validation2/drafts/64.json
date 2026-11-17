@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°24'30\", long 123°54'00\"",
+  "well_number": "",
+  "station_number": "11-4767",
+  "station_name": "Larabee Creek near Holmes, Calif.",
+  "township_range_section": "SW¼ sec.1, T.1 S., R.2 E.",
+  "place_name": "Holmes",
+  "place_relation": "near",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Larabee Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1964-10-01",
+  "date_end": "1965-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 409,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge grid, water year 1964-65; every day has a printed value: 31+30+31+31+28+31+30+31+30+31+31+30 = 365. Summary values: TOTAL, MEAN, AC-FT rows 3 x 12 = 36; calendar-year and water-year lines 4 each (max, min, mean, ac-ft) = 8; total 409. Other distances on page: on left bank 50 ft downstream from Balcom Creek, 2.8 miles upstream from mouth and 2.8 miles east of Holmes. Peak discharge table below is a separate table."
+ }
+]

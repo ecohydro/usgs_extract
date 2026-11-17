@@ -1,0 +1,8 @@
+doc_id,page_number,table_no,row,col,typed,alternative,reason
+1110,231,1,10,23,"NaCa,Mg,-HCO₃.","Na,Ca,Mg-HCO₃.","printed on two lines as ""NaCa,Mg,-"" / ""HCO3.""; punctuation typed as printed"
+1110,231,1,8,4,550,560,middle digit slightly broken; reads 5
+1110,231,1,14,0,6/8-16R1,6/9-16R1,township prefix 6/8- is printed a second time (also on 5E1); reads 8
+1110,231,1,4,12,90,,value printed half a line above the dashes of row 5L1 (6-5-52); assigned to that row
+1110,231,1,4,19,2.5,,value printed half a line above the dashes of row 5L1 (6-5-52); assigned to that row
+1110,231,1,19,3,260,,only value on row 6/9-2C1; printed slightly above the dashes
+1110,231,1,28,9,<.32,.32,"""<"" sign printed left of the value, touching the column rule"

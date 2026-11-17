@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "09429490",
+  "station_name": "COLORADO RIVER ABOVE IMPERIAL DAM, AZ-CA",
+  "township_range_section": "",
+  "place_name": "Imperial Dam",
+  "place_relation": "above",
+  "basin_or_area": "COLORADO RIVER MAIN STEM",
+  "county": "",
+  "state": "AZ-CA",
+  "evidence_place": "heading before table",
+  "water_source": "Colorado River",
+  "data_type": "Stream Discharge",
+  "date_start": "1976-10-04",
+  "date_end": "1977-09-27",
+  "temporal_resolution": "discrete",
+  "variables": "water_chemistry;sediment",
+  "n_measurements": 494,
+  "n_variables": 494,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Continuation page; no coordinates, county or land survey on this page. State printed only as 'AZ-CA'. Counted row by row: 52 full analysis rows (Oct 4, Nov 5, Dec 4, Jan 5, Feb 4, Mar 4, Apr 4, May 5, Jun 4, Jul 4, Aug 5, Sep 4) x 9 printed values (bicarbonate, carbonate, sulfate, chloride, fluoride, silica, residue at 180 C, sum of constituents, tons per ac-ft) = 468; plus 24 residue rows (2 per month) with one total nonfiltrable residue value each = 24; plus 2 total filtrable residue values (Nov 10, May 04) = 2. Zeros counted, '--' not. Sum of constituents and tons per acre-foot are computed quantities but were counted as measurements (rules do not say; without them 390). Total nonfiltrable residue listed as sediment (suspended solids); could be read as water_chemistry only. Unsure only because of these two rule questions."
+ }
+]

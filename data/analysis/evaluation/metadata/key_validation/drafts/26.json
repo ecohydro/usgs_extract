@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 38°49', long. 120°22'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "South Fork Silver Creek near Ice House, Calif.",
+  "township_range_section": "SW¼ sec. 1, T. 11 N., R. 14 E.",
+  "place_name": "Ice House",
+  "place_relation": "near",
+  "basin_or_area": "American River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Fork Silver Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1944-10-01",
+  "date_end": "1945-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 303,
+  "n_variables": 303,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily grid only (the monthly summary below is a separate table). Counted printed values month by month, a braced value = 1: Oct 31, Nov 20 (19 daily + b18 for days 20-30), Dec 9 (b16 for days 1-19, seven daily values days 20-26, b18 for days 27-31), Jan 1 (b16 for whole month), Feb 28, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30. Other distances printed: 0.5 mile upstream from Peavine Creek, 1.5 miles northeast of Ice House, 8 miles northeast of Riverton. No station number printed."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-1470.4",
+  "station_name": "SANTA RITA CREEK TRIBUTARY NEAR TEMPLETON, CALIF.",
+  "township_range_section": "",
+  "place_name": "TEMPLETON",
+  "place_relation": "NEAR",
+  "basin_or_area": "SALINAS RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA RITA CREEK TRIBUTARY",
+  "data_type": "Stream Discharge",
+  "date_start": "1969-04-01",
+  "date_end": "1969-06-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;sediment",
+  "n_measurements": 266,
+  "n_variables": 272,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Lower block only (April, May, June of water year October 1968 to September 1969); year taken from the page heading above the upper block. Three columns per month (mean discharge, mean concentration, sediment discharge). April 30x3 = 90; May 31x3 = 93; June discharge 30 + concentration 23 (days 24-30 are dashes) + sediment discharge 30 = 83. Zeros counted. Summary: 6 printed values in the TOTAL row. The two 'TOTAL ... FOR YEAR' lines below are outside the digitized table and not counted. Continuation page: no coordinates or county."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 76
+report (doc_id): 2671   page: 33   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2671_page_33.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/76.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+Year | Peak discharge (cfs) | Sy, sedimen- tation rate (ac | Cumulative acre-ft | Year.1 | Peak discharge (cfs).1 | S, sedimen- tation rate (acr | Cumulative acre-ft.1
+1932 | 15800 | 934 | 934 | 1949 | 165 | 18 | 7659
+1933 | 1200 | 101 | , 035 | 1950 | 472 | 45 | 7704
+1934 | 12000 | 736 | 1771 | 1951 | 30 | 1 | 7705
+... (18 lines in all; last lines:)
+1947 | 2, 500 | 190 | 7601 | 1964 | 318 | 37 | 10772
+1948 | 420 | 40 | 7641 | 1965 | 484 | 53 | 10825

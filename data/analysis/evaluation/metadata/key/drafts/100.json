@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Sacramento River at Butte City, Calif.",
+  "township_range_section": "",
+  "place_name": "Butte City",
+  "place_relation": "at",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sacramento River",
+  "data_type": "Stream Discharge",
+  "date_start": "1923-06-16",
+  "date_end": "1923-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 12,
+  "n_variables": 17,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary table with its own dates: rows June 16-30, July, August, September of the year ending September 30, 1923, so those are used instead of the full water year. Maximum, minimum, mean x 4 rows = 12 measurements. Run-off in acre-feet (4 rows + The period) = 5 summary values, only in n_variables. No coordinates, station number or county printed for this station (Colusa County on the page belongs to the next station, Sacramento River at Colusa)."
+ }
+]

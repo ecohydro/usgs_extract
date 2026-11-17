@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°42'29\", long 121°09'22\"",
+  "well_number": "",
+  "station_number": "11446200",
+  "station_name": "FOLSOM LAKE NEAR FOLSOM, CA",
+  "township_range_section": "NW¼NE¼ sec.24, T.10 N., R.7 E.",
+  "place_name": "Folsom",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Sacramento County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Folsom Lake",
+  "data_type": "Reservoir",
+  "date_start": "1975-10-01",
+  "date_end": "1976-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation;evaporation",
+  "n_measurements": 390,
+  "n_variables": 428,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Also printed: near center of dam on American River, 0.7 mi downstream from South Fork American River, 2.3 mi northeast of Folsom. Count: daily contents 31+30+31+31+29+31+30+31+30+31+31+30 = 366; foot rows: end-of-month elevation 12 and evaporation in acre-feet 12 (counted as measurements of other variables in foot rows) = 390. Summary values: MAX 12, MIN 12, change in contents 12 monthly + CAL YR + WTR YR = 38. The capacity table above is not part of the sampled table."
+ }
+]

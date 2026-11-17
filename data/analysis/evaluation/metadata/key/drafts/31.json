@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 32°26'40\", long 116°54'25\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Rodriguez Reservoir at Rodriguez Dam, Baja California, Mex.",
+  "township_range_section": "",
+  "place_name": "Rodriguez Dam",
+  "place_relation": "at",
+  "basin_or_area": "Tia Juana River Basin",
+  "county": "",
+  "state": "Baja California, Mex.",
+  "evidence_place": "heading before table",
+  "water_source": "Rodriguez Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1958-09-30",
+  "date_end": "1959-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "contents",
+  "n_measurements": 13,
+  "n_variables": 27,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Heading number \"132.\" is the report's own station numbering, not put in station_number. Also printed: on Rio de las Palmas, a quarter of a mile upstream from Arroyo Matanuco and 10 miles southeast of Tijuana. Counted 13 month-end contents (Sept. 30 1958 through Sept. 30 1959; first row is the last day of the previous water year). Summary values: 12 monthly changes in contents + calendar year 1958 + water year 1958-59 changes = 14. Title says water year October 1958 to September 1959. Site is in Mexico, no U.S. state for the site."
+ }
+]

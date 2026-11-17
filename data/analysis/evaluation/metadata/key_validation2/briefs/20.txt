@@ -1,0 +1,13 @@
+sample_no: 20
+report (doc_id): 53590   page: 105   table on the page: 4 of 5
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/53590_page_105.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/20.json
+
+To recognise table 4 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 7 columns):
+Clay, yellow | Unnamed: 1 | 34 | 34.1 | Sand, gravel, and | Unnamed: 5 | Unnamed: 6
+Sand and clay |  | 51.0 | 85.0 | clay, water- |  | 
+Clay and sand |  | 37.0 | 122.0 | bearing | 33.0 | 155.0
+ |  |  |  | Gravel, water-bearing | 35.0 | 190.0
+... (4 lines in all; last lines:)
+Clay and sand |  | 37.0 | 122.0 | bearing | 33.0 | 155.0
+ |  |  |  | Gravel, water-bearing | 35.0 | 190.0

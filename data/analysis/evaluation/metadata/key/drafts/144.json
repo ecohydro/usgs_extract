@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°42'10\", long 124°09'20\"",
+  "well_number": "",
+  "station_number": "4797",
+  "station_name": "Elk River near Falk, Calif.",
+  "township_range_section": "NW¼ sec.26, T.4 N., R.1 W.",
+  "place_name": "Falk",
+  "place_relation": "near",
+  "basin_or_area": "Elk River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Elk River",
+  "data_type": "Stream Discharge",
+  "date_start": "1958-10-01",
+  "date_end": "1959-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 419,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Daily discharge, every day has a printed value: 365 (Feb. 28 values). Summary values: Total, Mean, Ac-ft rows 36; calendar year and water year lines 8; the peak discharge line, which the digitizer kept in this table, gives 5 peaks each with discharge and gage height = 10, counted only in n_variables (rules do not say whether a peak line under a daily table is remarks text; without it n_variables = 409). Gage height appears only in that line, so not listed in variables. Location paragraph also gives: 500 ft downstream from Clapp Gulch, 1,300 ft downstream from confluence of North and South Forks, 2 miles northwest of Falk, 5 miles south of Eureka."
+ }
+]

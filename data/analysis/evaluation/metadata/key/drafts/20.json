@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°49'58\", long 119°19'29\"",
+  "well_number": "",
+  "station_number": "11221000",
+  "station_name": "Pine Flat Lake near Piedra, Calif.",
+  "township_range_section": "NE¼ sec.2, T.13 S., R.24 E.",
+  "place_name": "Pine Flat Dam; Piedra",
+  "place_relation": "near center of; near, 3.5 miles northeast of",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "Fresno County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Pine Flat Lake",
+  "data_type": "Reservoir",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents; elevation; evaporation",
+  "units": "acre-feet; feet; acre-feet",
+  "n_measurements": 365,
+  "n_variables": 427,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 2 = daily contents at 2400, water year October 1970 to September 1971 (table 1 is the capacity table). Daily cells: Oct 31, Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, Jun 30, Jul 31, Aug 31, Sep 30 = 365. Rows under the grid treated as summary values: MAX 12, MIN 12, (a) end-of-month elevation 12, (b) change in contents 12, (c) evaporation 12, plus CAL YR and WTR YR change = 62. Unsure only on the rule: if the monthly elevation and evaporation rows count as measurements, n_measurements is 389. Also printed: on Kings River, 1.9 miles upstream from Mill Creek, 16 miles northeast of Sanger; formerly published as Pine Flat Reservoir near Piedra."
+ }
+]

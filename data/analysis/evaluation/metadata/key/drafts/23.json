@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Indian Wells Valley",
+  "county": "",
+  "state": "",
+  "evidence_place": "elsewhere on page",
+  "water_source": "shallow aquifer",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "other",
+  "n_measurements": 71,
+  "n_variables": 72,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 4, net steady-state discharge for the shallow aquifer, in acre-feet per year, by model node number (discharge less recharge at each node). Values are per node of a model grid, not per measured site; node numbers (24,30 to 40,33) are the only position given and the page does not locate them, so the table is written as one row for the aquifer rather than 71 locations. Counted one discharge value per node: left column 35 nodes, right column 36 nodes = 71; 'Total net discharge 2,910' is a summary value (72). Node numbers not counted. Valley name is from the running head only. No dates, county or state on the page. Unsure because the rules do not say whether model nodes are locations or whether modelled values count as measurements."
+ }
+]

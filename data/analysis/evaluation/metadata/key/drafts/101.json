@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°10'00\", long 117°55'25\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Fish Creek near Duarte, Calif.",
+  "township_range_section": "SW¼SW¼SW¼ sec. 15, T. 1 N., R. 10 W.",
+  "place_name": "Duarte",
+  "place_relation": "near",
+  "basin_or_area": "San Gabriel River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Fish Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1956-10",
+  "date_end": "1957-09",
+  "temporal_resolution": "annual",
+  "variables": "gage_height;discharge",
+  "n_measurements": 18,
+  "n_variables": 18,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Rating table, water year 1956-57: 9 gage height / discharge pairs (5 in left pair of columns, 4 in right), both columns counted = 18. Dates = period the rating applies to. Location paragraph also says: on left bank 0.8 mile upstream from mouth of canyon and 3 miles northeast of Duarte. No station number printed. County appears only inside an agency name (Los Angeles County Flood Control District), so left blank."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/35-26J4",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lompoc",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "County of Santa Barbara, Artesia School District",
+  "data_type": "Groundwater",
+  "date_start": "1953-01-27",
+  "date_end": "1953-12-30",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 12,
+  "n_variables": 12,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Block for well 7/35-26J4: 12 dated water levels (4 rows x 3 column pairs), one per month but printed as dates, so discrete. The table prints month and day only; year 1953 taken from the well heading on this page (highest water level 7.50 below lsd, Jan. 27, 1953, equals the table's Jan. 27 value; records available 1947-53). If that is not allowed, the dates are blank. County blank: 'County of Santa Barbara' is only the owner's name. Also printed: Artesia Avenue and Central Avenue. No state, basin or drilling date on the page. Faint scan: well number letter read as J."
+ }
+]

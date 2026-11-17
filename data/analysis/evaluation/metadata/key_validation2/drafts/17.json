@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°08'38\", long 117°11'16\"",
+  "well_number": "",
+  "station_number": "600",
+  "station_name": "City Creek near Highland, Calif.",
+  "township_range_section": "SE¼SW¼NW¼ sec.27, T.1 N., R.3 W.",
+  "place_name": "Highland",
+  "place_relation": "near",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "City Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1950-10",
+  "date_end": "1960-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 120,
+  "n_variables": 130,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 = 'Monthly and yearly mean discharge, in cubic feet per second', water years 1951-60. 10 years x 12 months = 120 monthly means, all printed (zeros counted); 10 'The year' values are summaries. Station number printed only in short form '600.' before the station name (no '11-' prefix on page). Other location words: on right bank 0.6 mile upstream from Highland Avenue and 1.5 miles northeast of Highland. No meridian or county printed."
+ }
+]

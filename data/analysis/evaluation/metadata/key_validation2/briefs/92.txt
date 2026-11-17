@@ -1,0 +1,13 @@
+sample_no: 92
+report (doc_id): 2291   page: 94   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2291_page_94.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/92.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 30 columns):
+Small. Domestic | Small: Stock | Small. Domestic.1 | do | Small. do | 11 Irrigation | 4 | +6 Domestic
+135.00 | 300. |  |  | 64.75 | 00 200. | 00 70.0 | 
+do | do | do | do | do | do | do | do
+22 | 26 | 25 | 25 | 24 |  |  | 
+... (13 lines in all; last lines:)
+Woodin J. W. | do | Leighton L. S. | Donnelley W. | Norton H. B. | Dorety C. | do | Delano M. W.
+1382 | 1383 | 1384 | 1385 | 1386 | 1387 | 1388 | 1389

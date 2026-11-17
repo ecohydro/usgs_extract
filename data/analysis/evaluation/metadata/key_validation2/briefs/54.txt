@@ -1,0 +1,13 @@
+sample_no: 54
+report (doc_id): 2516   page: 256   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2516_page_256.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/54.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 19 columns):
+Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | at perforated Casing | 100 ft. -114
+ | Cp, | Cpr |  | C,L, | Cpr, Wm. | L, Cp, | W.
+ | Dom | Irr |  | Obs |  |  | 
+ | P,E | E P P, |  |  |  |  | 
+... (12 lines in all; last lines:)
+ | Stearns J. L. | Corp. Winters Oil Richfield  | lease. Pacific | Turley |  | Co Oil Standard | 
+ | 6/11 -2A3 | 2A4 2B2 |  | 2D1 |  | 2F1 | 

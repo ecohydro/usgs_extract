@@ -1,0 +1,13 @@
+sample_no: 148
+report (doc_id): 70038678   page: 334   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70038678_page_334.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/148.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 12 columns):
+DATE | TIME | DIS- CHARGE (CFS) | TEMP- ERATURE (DEG C) | DIS- SOLVED OXYGEN (MG/L) | DIS- SOLVED SILICA ($102) (M | DIS- SOLVED IRON (FE) (UG/L) | DIS- SOLVED CAL- CIUM (CA) (
+OCT. 07 | 1150 | 14900 | 16.5 | 9.5 | 12 | 10 | 10
+NOV. 05 | 1125 | 16600 | 14.0 | 9.9 | 28 | 40 | 9.2
+DEC. 09 | 1225 | 70500 | 10.5 | 10.1 | 17 | 30 | 9.3
+... (20 lines in all; last lines:)
+MAY 19 | 0 | 66 | 0 | 1.5 | 4.4 | .2 | .17
+JUNE 16 | 0 | 58 | 0 | 7.0 | 3.5 | .3 | .08

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°21'04\", long 123°54'48\"",
+  "well_number": "",
+  "station_number": "11475250",
+  "station_name": "Eel River at South Fork, Calif.",
+  "township_range_section": "SE¼NE¼ sec.2, T.1 S., R.2 E.",
+  "place_name": "South Fork",
+  "place_relation": "at",
+  "basin_or_area": "Eel River Basin",
+  "county": "Humboldt County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Eel River",
+  "data_type": "Stream Discharge",
+  "date_start": "1969-10-07",
+  "date_end": "1970-09-15",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature;water_chemistry",
+  "n_measurements": 76,
+  "n_variables": 76,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = upper block only (date to sulfate). Counted by column: mean discharge 12, temperature 12, dissolved oxygen 12, calcium 1, magnesium 1, sodium 12, potassium 1, bicarbonate 12, carbonate 12 (all 0), sulfate 1 = 76; time column not counted; dashes not counted. One sample per month with dates printed: called discrete (could be read as monthly). Other distances on page: 0.2 mile upstream from Northwestern Pacific Railroad Bridge, 0.4 mile north of town of South Fork, 0.5 mile upstream from South Fork. Remarks say sampling location subject to change and discharge is from Eel River at Fort Seward (station 11475000)."
+ }
+]

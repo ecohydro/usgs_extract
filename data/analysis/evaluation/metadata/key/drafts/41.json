@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°41'40\", long 116°51'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Bautista Creek near Hemet, Calif.",
+  "township_range_section": "NE¼SW¼ sec. 35, T. 5 S., R. 1 E.",
+  "place_name": "Hemet",
+  "place_relation": "near",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bautista Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1957-01",
+  "date_end": "1957-05",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 15,
+  "n_variables": 33,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Monthly summary block under 'Discharge, in cubic feet per second, water year October 1956 to September 1957'. Only January to May are printed as month rows (flow occurred only on listed days), taken as 1957; dates given as the printed month rows rather than the full water year 1956-10 to 1957-09 (rule unclear, hence unsure). Counted 5 months x (maximum, minimum, mean) = 15 measurements (minimum 0 counted). Summary: 5 cfs-days + 5 runoff + calendar year 1956 row (4 numbers) + water year row (4 numbers) = 18; n_variables 33. Page also says 8 miles southeast of Hemet, 6 miles upstream from mouth. No station number printed."
+ }
+]

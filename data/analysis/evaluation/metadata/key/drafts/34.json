@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 34°06'40\", long. 117°06'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Santa Ana River near Mentone, Calif.",
+  "township_range_section": "SW 1/4 sec. 4, T. 1 S., R. 2 W.",
+  "place_name": "Mentone",
+  "place_relation": "near",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Ana River",
+  "data_type": "Stream Discharge",
+  "date_start": "1937-10-01",
+  "date_end": "1938-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Digitized table covers the daily grid and the monthly summary below it. Daily values by month Oct-Sept: 31,30,31,31,28,31,30,31,30,31,31,30 = 365 (dashes only on non-existent days; a few cells smudged, e.g. July 5, but printed). Summary values: 12 months x 5 columns (second-foot-days, maximum, minimum, mean, run-off) = 60, plus calendar year 1937 row 5 and water year 1937-38 row 5 = 70; treated as summaries of the daily grid. Also printed: near mouth of canyon, 0.4 miles upstream from Southern California Edison Co.'s Mentone power plant and 3 1/2 miles northeast of Mentone."
+ }
+]

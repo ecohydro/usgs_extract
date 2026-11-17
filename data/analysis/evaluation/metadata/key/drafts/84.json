@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°18', long. 121°07'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "South Fork Yuba River at Jones Bar, Calif.",
+  "township_range_section": "near center of west side of sec. 32, T. 17 N., R 8 E.",
+  "place_name": "Jones Bar",
+  "place_relation": "at",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Fork Yuba River",
+  "data_type": "Stream Discharge",
+  "date_start": "1945-10",
+  "date_end": "1946-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 70,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table 3 is the monthly summary block only. Measurements = monthly maximum, minimum and mean, 12 x 3 = 36. Summary values: second-foot-days 12 + runoff in acre-feet 12 + calendar-year row 5 + water-year row 5 = 34. Running head prints 'FEATHER RIVER BASIN' (copied as printed). Also printed: at Jones Bar Bridge, 250 feet upstream from Rush Creek and 5 miles northwest of Nevada City."
+ }
+]

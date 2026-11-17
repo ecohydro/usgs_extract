@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7/1E-23A1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Putah area",
+  "county": "",
+  "state": "",
+  "evidence_place": "in table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1931-05",
+  "date_end": "1952-07",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 191,
+  "n_variables": 191,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation page: one well, dates given to the month only, sometimes two values in a month (second marked with footnote 3; footnotes are on another page). Counted by column: 64 + 64 + 63 = 191. No county, state or owner printed. Called discrete because months are skipped and repeated; nearly monthly in 1931-36."
+ }
+]

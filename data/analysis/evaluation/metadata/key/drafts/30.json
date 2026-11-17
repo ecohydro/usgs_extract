@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°53'04\" N., long 119°09'04\" W.",
+  "well_number": "",
+  "station_number": "11218500",
+  "station_name": "Kings River below North Fork, near Trimmer, Calif.",
+  "township_range_section": "",
+  "place_name": "North Fork; Trimmer",
+  "place_relation": "below; near",
+  "basin_or_area": "",
+  "county": "Fresno County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Kings River",
+  "data_type": "Stream Discharge",
+  "date_start": "1959-10",
+  "date_end": "1968-09",
+  "temporal_resolution": "no_time_series",
+  "variables": "water_chemistry",
+  "n_measurements": 7,
+  "n_variables": 14,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Duration estimate of daily specific conductance (7 values against percent of time exceeded), a statistical estimate from a regression, not measured values. Counted the 7 specific conductance values as measurements and the 7 percent-exceeded values only in n_variables; rules do not cover duration tables. Dates are the period in the table title (October 1959-September 1968), not measurement dates; no_time_series chosen. 'North Fork' in the station name is a stream, not a town. Other distances: 1.8 mi downstream from North Fork, 2.2 mi southwest of Balch Camp, 7.7 mi southeast of Trimmer. No basin named on page."
+ }
+]

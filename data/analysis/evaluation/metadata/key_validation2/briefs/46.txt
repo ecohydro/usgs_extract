@@ -1,0 +1,13 @@
+sample_no: 46
+report (doc_id): 3150   page: 23   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/3150_page_23.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/46.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 4 columns):
+Ion | Multi- ply by | Ion.1 | Multi- ply by.1
+Aluminum (Al+3) |  | 0,11119 Iodide (I-1) | 0.00788
+Ammonia as NH1 |  | .05544 Iron (Fe +3) | 0.05372
+Barium (Ba+2 |  | .01456 Lead (Pb+2) +2 | 0.00965
+... (16 lines in all; last lines:)
+Hydrogen (H+1 |  | .99209 Sulfate | 0.02082
+Hydroxide (OH-1) | 0.0588 | Zinc | 0.0306

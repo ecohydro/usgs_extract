@@ -1,0 +1,13 @@
+sample_no: 187
+report (doc_id): 3217   page: 114   table on the page: 1 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/3217_page_114.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/187.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 14 columns):
+Year | Unnamed: 1 | Unnamed: 2 | Apr. | May | June | July | Aug.
+1936 |  |  | - | 28.0 | 22.7 | 16.6 | 16.2
+1937 |  |  | - | 60.7 | 25.7 | 21.4 | 19.1
+1938 |  |  | - | 193.0 | 344.0 | 27.9 | 23.2
+... (16 lines in all; last lines:)
+1949 |  |  | - | 39.3 | 33.3 | 26.5 | 63.7
+1950 |  |  |  | 110.0 | 104.0 | 81.7 | 71.4

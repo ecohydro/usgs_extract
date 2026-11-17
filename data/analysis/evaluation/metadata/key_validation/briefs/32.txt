@@ -1,0 +1,13 @@
+sample_no: 32
+report (doc_id): 1640   page: 135   table on the page: 1 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/1640_page_135.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/32.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date | Unnamed: 1 | Unnamed: 2 | Time | Disch. | G.H. | Date.1 | Unnamed: 7
+ |  | Dec. 28, 1965 | 2230 | *130 | 4.21 |  | 
+ |  |  |  |  |  |  | 
+ |  | Dec. 6, 1966 | 1715 | 303 | 5.53 | Jan. | 19.0
+... (8 lines in all; last lines:)
+Jan. 30, 1967 |  |  | 1015 | 372 | 5.91 |  | 
+ |  |  | Mar. 16, 1967 0745 | 695 | 7.34 |  | 

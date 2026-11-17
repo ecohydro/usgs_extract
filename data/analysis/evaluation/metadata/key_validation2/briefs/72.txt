@@ -1,0 +1,13 @@
+sample_no: 72
+report (doc_id): 2848   page: 18   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2848_page_18.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/72.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 11 columns):
+Unnamed: 0 | Year | Unnamed: 2 | 0 1 0 71. 49. 60. 115 23 18. | W. 38 | 21 20 days Jan. Dec. 333 | Unnamed: 6 | 2 8 55 70. 45. 57.7 109 24 1
+ | Sept. |  | 8 9 9 .34 76. 54. 65. 108 43 | W. 1 |  | feet) 217 (altitude Maria Sa | 75.5 50.7 63. 3 106 32 23 1.
+ | Aug. |  | 77.0 56.9 0 67. 98 45 03 70 | W. 1 |  | feet) 217 (altitude Maria Sa | 6 6 9 03 .85 74. 52. 63. 95 
+ | July |  | 2 0 02 25 76. 56.4 66. 108 4 | (1) W. |  | feet) 217 (altitude Maria Sa | 5 1 5 01 .02 74. 52. 63. 103
+... (14 lines in all; last lines:)
+[From | Oct. | feet) 130 (altitude Barbara  | 8 9 9 74 45 74. 50. 62. 100  | W. 2 |  | feet) 217 (altitude Maria Sa | 3 4 3 76 74. 47. 61. 104 29 
+ | Period (years) | 44 44 56 48 48 73 77 40 38 p | 44 44 56 48 48 73 77 40 38 p | 44 44 56 48 48 73 77 40 38 p | 44 44 56 48 48 73 77 40 38 p | feet) 217 (altitude Maria Sa | 37 37 48 43 43 49 53 23 53 p

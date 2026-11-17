@@ -1,0 +1,13 @@
+sample_no: 175
+report (doc_id): 1558   page: 211   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/1558_page_211.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/175.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+Date | Made by- | Gage height | Dis- charge | Date.1 | Made by-.1 | Gage height.1 | Dis- charge.1
+Jan. 4 Feb. 1 15 Mar. 8 31 |  | Feet | Sec.-ft. |  |  | Feet | Sec.-ft
+Jan. 4 Feb. 1 15 Mar. 8 31 | R. M. Stewart | 5.45 | 713 | Apr. 20 | K. M. Kelley | 8.71 | 2, 300
+Jan. 4 Feb. 1 15 Mar. 8 31 | do | 6.89 | 1320 | 20 | do | 8.67 | 2, 300
+... (7 lines in all; last lines:)
+Jan. 4 Feb. 1 15 Mar. 8 31 | do | 5.45 | 755 | July 26 | do | 3.49 | 125
+Jan. 4 Feb. 1 15 Mar. 8 31 | K. M. Kelley | 4.28 | 417 | Aug. 8 | Jesse Arnold | 3.03 | 78

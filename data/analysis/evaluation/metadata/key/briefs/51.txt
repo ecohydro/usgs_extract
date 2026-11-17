@@ -1,0 +1,13 @@
+sample_no: 51
+report (doc_id): 51002   page: 158   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/51002_page_158.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/51.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+DATE | DATE.1 | DISCHARGE | Unnamed: 3 | Unnamed: 4 | TEMP
+ |  | Second-feet : | Gals. per | min. | °F
+Oct. 21, 1948 |  | : 0.0023 : | 1.0 |  | 
+Jan. 26, 1949 | (11:20 a.m.) | : .0019 : | .86 |  | 
+... (29 lines in all; last lines:)
+Mar. 22 | (11:20 a.m.) | : No flow. | Pump running |  | :
+Apr. 17 | (10:20 a.m.) | : .0013 | .60 |  | 64

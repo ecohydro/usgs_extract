@@ -1,0 +1,13 @@
+sample_no: 14
+report (doc_id): 593   page: 340   table on the page: 3 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/593_page_340.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/14.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Month | Second- foot-days | Maximum | Minimum | Mean | Runoff in acre-feet
+October | o | o | 0 | o | o
+November | o | O | 0 | o | o
+December | 3169 | 730 | 0 | 102 | 6290
+... (15 lines in all; last lines:)
+September | o | o | 0 | o | o
+Water year 1945 -46 | 5745.5 | 730 | 0 | 15.7 | 11400

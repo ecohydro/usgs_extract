@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°33'10\", long. 119°57'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - H. Noel, U. S. Forest Service",
+  "data_type": "Springs",
+  "date_start": "1948-06-23",
+  "date_end": "1951-04-17",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 47,
+  "n_variables": 47,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Faint typescript. Page corner reads 'STATION 131' (report's own numbering or page number, not a USGS station number). No place, county or state printed. 27 dated rows: 27 discharges (second-feet and gallons per minute counted once) + 20 temperatures (1949: 6, 1950: 10, 1951: 4; blank for the first five rows, Dec. 20 1949 and Nov. 15 1950). Some temperature cells are faint, so the count may be off by one or two; seconds of the latitude read as 10. Times of day and the altitude in the heading not counted."
+ }
+]

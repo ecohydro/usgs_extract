@@ -1,0 +1,13 @@
+sample_no: 69
+report (doc_id): 53421   page: 104   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/53421_page_104.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/69.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+and Lab number | Unnamed: 1 | 18 -44 | D -24814 | D | D.1 | Unnamed: 6 | D.2
+pH |  | 1.6 | 8.4 | 8.2 |  |  | 7.3
+Spec cond |  | 1100 | 1160 | 1080 |  |  | 
+%Na |  | (3 | or | 40 |  |  | 19
+... (24 lines in all; last lines:)
+Date |  | 8 -12 -63 | 6 -20 -62 | 6 -26 -63 | 6 -27 | -63.0 | 6 -12 -63
+number Well |  | 14S/16E -23M1 | 36A1 | 14S/19E -20H2 | 31A1 |  | 31A1

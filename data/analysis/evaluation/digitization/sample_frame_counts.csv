@@ -1,0 +1,10 @@
+step,pages,reports
+pages with published Reducto tables,63679,586
+... that also have PaddleOCR output,10852,57
+    of which mix kinds of table (kept),6586,51
+... of a kind in the design (not unclassified),10521,57
+    daily,7215,38
+    monthly,1677,42
+    annual,334,36
+    discrete,1212,49
+    no_time_series,83,22

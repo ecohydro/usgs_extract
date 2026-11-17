@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11059100",
+  "station_name": "San Bernardino Water Quality Control Plant at San Bernardino, CA",
+  "township_range_section": "",
+  "place_name": "San Bernardino",
+  "place_relation": "at",
+  "basin_or_area": "Santa Ana River Basin",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "San Bernardino Water Quality Control Plant",
+  "data_type": "Water Quality",
+  "date_start": "1977-06-01",
+  "date_end": "1977-09-30",
+  "temporal_resolution": "daily",
+  "variables": "water_chemistry",
+  "n_measurements": 318,
+  "n_variables": 330,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Continuation page: daily max/min/mean specific conductance for June-September only; title says water year October 1976 to September 1977, dates given are those of the printed block. Count (days with values x 3): June 30 days = 90; July days 1-26 = 78; August days 12-31 = 60; September 30 days = 90; total 318. Summaries: MONTH rows for June, July, September (9) + YEAR row (3) = 12. Page does not say what kind of water the plant site is on, so Water Quality; unsure for data_type and for the date choice (block months vs water year)."
+ }
+]

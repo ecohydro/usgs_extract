@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 37°57'15\", long. 120°30'45\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Melones Reservoir at Melones Dam, Calif.",
+  "township_range_section": "near center of sec. 11, T. 1 N., R. 13 E.",
+  "place_name": "Melones Dam",
+  "place_relation": "at",
+  "basin_or_area": "Stanislaus River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Melones Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1940-10-01",
+  "date_end": "1941-09-30",
+  "temporal_resolution": "daily",
+  "variables": "contents",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents grid only (table 1); counted by month 31+30+31+31+28+31+30+31+30+31+31+30 = 365, no blank days. Also printed: on Stanislaus River, 0.1 mile downstream from Bear Creek."
+ }
+]

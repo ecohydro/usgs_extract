@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1930-09-02",
+  "date_end": "1936-10-12",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 113,
+  "n_variables": 113,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table continues from a well described on an earlier page: this page prints no well number, owner or place for it (the 7/34-30J4 and 7/34-30L2 paragraphs below belong to later tables). Only the running head (GROUND-WATER BASINS, SANTA BARBARA COUNTY, CALIF.) and '[Furnished by city of Santa Barbara]' are given. Water levels in feet above sea-level datum of 1929. Counted by year: column 1: 1930 5, 1931 22, 1932 11 (38); column 2: 1932 13, 1933 20, 1934 5 (38); column 3: 1934 11, 1935 14, 1936 12 (37); total 113. One 1935 date is printed 'Jan. 25' between June 11 and July 9 (probably June 25)."
+ }
+]

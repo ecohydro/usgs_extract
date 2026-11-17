@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Reservoir system on Salt River at and below Roosevelt Dam, Ariz.",
+  "township_range_section": "sec. 20, T. 4 N., R. 12 E., unsurveyed",
+  "place_name": "Roosevelt Dam",
+  "place_relation": "at and below",
+  "basin_or_area": "GILA RIVER BASIN",
+  "county": "",
+  "state": "Ariz.",
+  "evidence_place": "heading before table",
+  "water_source": "Reservoir system on Salt River",
+  "data_type": "Reservoir",
+  "date_start": "1910-07-31",
+  "date_end": "1910-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "contents",
+  "n_measurements": 3,
+  "n_variables": 3,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 = the small block Month | 1910 (July, August, September): 3 usable-contents values on the last day of each month. One location = the reservoir system (four reservoirs: Roosevelt, Apache, Canyon, Sahuaro Lakes); the township-range-section printed is that of Roosevelt Dam only, and the page says all storage in 1910 was in Roosevelt Lake. Other dams are given as 17, 26 and 36 miles downstream from Roosevelt Dam. No USGS station number printed."
+ }
+]

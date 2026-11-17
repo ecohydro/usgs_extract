@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "8/1E-20B1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Winters",
+  "place_relation": "About 4.7 miles east of",
+  "basin_or_area": "Putah area",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "J. Collado",
+  "data_type": "Groundwater",
+  "date_start": "1948-06-03",
+  "date_end": "1948-08-06",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 8,
+  "n_variables": 8,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled block is the first well on the page only: 3+3+2 = 8 water levels. Heading also says: 200 feet south of slight angle in paved road, 50 feet east of paved road, in peach orchard; irrigation well. Heading numbers (diameter 10 inches, reported depth 90 feet, datum 97 feet) not counted. No construction date, county or state printed on the page."
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°30'20\", long. 119°49'50\"",
+  "well_number": "",
+  "station_number": "15",
+  "station_name": "SPRING - KINEVAN FILING - FOREST SERVICE",
+  "township_range_section": "",
+  "place_name": "Highway 150",
+  "place_relation": "about 0.5 mile southwest of",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - KINEVAN FILING - FOREST SERVICE",
+  "data_type": "Springs",
+  "date_start": "1954-07-26",
+  "date_end": "1955-04-19",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "units": "Cubic feet per second and Gallons per minute;°F",
+  "n_measurements": 20,
+  "n_variables": 21,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "\"STATION 15.\" is the report's own station number (page top right), not a USGS gauge number. No county, state or basin printed. Count: discharge is printed in two unit columns; 9 dated entries have a discharge (7 'No flow' + 2 numeric: Mar. 8 and Apr. 19, 1955) = 9 cfs + 9 gpm = 18, plus 2 temperatures (56, 50) = 20. If the two unit columns count once: 11; if 'No flow' is not counted: 6. The 14 visits May 10, 1955 to June 12, 1956 show '-' with remark 'No meas.', so date_end is the last actual measurement (1955-04-19); the last visit listed is 1956-06-12. n_variables adds the altitude (About 2,300 feet)."
+ }
+]

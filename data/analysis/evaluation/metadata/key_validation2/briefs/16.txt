@@ -1,0 +1,13 @@
+sample_no: 16
+report (doc_id): 1548   page: 241   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/1548_page_241.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/16.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 6 columns):
+Date. | Gage height. | Dis- charge. | Date..1 | Gage height..1 | Dis- charge..1
+1918. | Feet. | Sec.-ft. | 1919. | Feet. | Sec.-ft.
+Oct. 30 | 54 | 12 | July 9 | 2.74 | 16
+ |  |  | 28 | 40 | 5. 8
+... (8 lines in all; last lines:)
+31 | 1.50 | 230 | 1920. |  | 
+May 3 | 5.53 | 612 | July 27 | 2.71 | 17

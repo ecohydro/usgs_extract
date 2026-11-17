@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°27'20\", long 121°30'07\"",
+  "well_number": "",
+  "station_number": "11447650",
+  "station_name": "SACRAMENTO RIVER AT FREEPORT, CALIF.",
+  "township_range_section": "sec. 14, T.7 N., R.4 E.",
+  "place_name": "Freeport",
+  "place_relation": "at",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Sacramento County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sacramento River",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-07",
+  "date_end": "1971-06-16",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature;water_chemistry",
+  "n_measurements": 176,
+  "n_variables": 176,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Both printed blocks (9 sample dates each) are one digitized table. Counted by column, dashes not counted. Upper block: discharge 9, temperature 7, dissolved oxygen 7, silica 9, iron 9, calcium 9, magnesium 9, strontium 9, sodium 9, potassium 9 = 86. Lower block: lithium 9, bicarbonate 9, carbonate 9, sulfate 9, chloride 9, fluoride 9, nitrite plus nitrate 4, nitrate 5, phosphorus 9, boron 9, dissolved solids 9 = 90. Time column not counted. One sample per month but rows are dated samples, so discrete. Remarks say the discharge is that of Sacramento River at Sacramento (sta 11447500). Also printed: at drawbridge at Freeport, approximately 11 miles south of Sacramento."
+ }
+]

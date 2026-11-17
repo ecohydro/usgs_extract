@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°19'35\", long 120°38'32\"",
+  "well_number": "",
+  "station_number": "11414140",
+  "station_name": "LAKE SPAULDING NEAR EMIGRANT GAP, CALIF.",
+  "township_range_section": "SE¼NE¼ sec.20, T.17 N., R.12 E.",
+  "place_name": "Emigrant Gap",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Nevada County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "LAKE SPAULDING",
+  "data_type": "Reservoir",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "gage_height;contents",
+  "n_measurements": 24,
+  "n_variables": 24,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Capacity table (gage height, in feet, and contents, in acre-feet): 12 printed pairs, both columns counted = 24. No dates (capacity table). Location text also says: on left abutment of Spaulding Dam on South Yuba River, 2.5 miles northeast of Emigrant Gap."
+ }
+]

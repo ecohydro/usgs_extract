@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "8/1W-28R1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "PUTAH AREA",
+  "county": "SOLANO COUNTY",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1949-08-12",
+  "date_end": "1951-11-12",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 106,
+  "n_variables": 106,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation block for well 8/1W-28R1; owner, place and well description are not on this page (the description printed below belongs to the next well, 8/1W-28R3, which is said to be 145 feet north of well 8/1W-28R1). County and state from the running head (report title). Counted month by month: three date/water-level column pairs of 36 + 35 + 35 = 106 water levels, about weekly."
+ }
+]

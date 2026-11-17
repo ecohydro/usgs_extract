@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "18/20-7dc1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Sierra Manor subdivision",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Mrs. Martin Estate",
+  "data_type": "Groundwater",
+  "date_start": "1952-01-28",
+  "date_end": "1952-12-18",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 11,
+  "n_variables": 11,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Year 1952 only from the running head 'Water levels and artesian pressures, 1952, Southwestern States'; no state or county printed for this well. No relation word printed for Sierra Manor subdivision. Printed table has 11 dated water levels (3+3+3+2 across four column pairs, Jan. 28 to Dec. 18). The digitizer lines in the brief show only the first three column pairs (9 values, ending Oct. 22); if the fourth pair (Nov. 25, Dec. 18) is not part of the sampled table the count is 9 and the end date 1952-10-22. Heading numbers (diameter, depth, datum, highest/lowest level) not counted. The brief calls this table 4 of 4 but six tables are printed on the page; identified by its values."
+ }
+]

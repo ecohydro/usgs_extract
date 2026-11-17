@@ -1,0 +1,13 @@
+sample_no: 54
+report (doc_id): 53590   page: 51   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/53590_page_51.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/54.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | Date | Unnamed: 2 | Water level | Unnamed: 4 | Date.1 | Date.2 | Date.3
+7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well  | 7N/35W -27P1. Depth of well 
+Jan. | 29 | 1963 | 229.60 |  | Dec. | 20 | 1963
+Feb. | 26 |  | 222.30 |  | Jan. | 22 | 1964
+... (14 lines in all; last lines:)
+Nov. | 29 |  | 222.58 |  | Oct. | 26 | 
+Dec. | 12 |  | 222.58 |  | Nov. | 24 | 

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°31'49\", long 119°37'47\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Mono Creek at Mono dam site, near Santa Barbara, Calif.",
+  "township_range_section": "",
+  "place_name": "Mono dam site; Santa Barbara",
+  "place_relation": "at; near",
+  "basin_or_area": "Santa Ynez River Basin",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "elsewhere on page",
+  "water_source": "Mono Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1902-10",
+  "date_end": "1904-09",
+  "temporal_resolution": "annual",
+  "variables": "discharge",
+  "n_measurements": 5,
+  "n_variables": 7,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Yearly discharge table, water years 1903 and 1904 (dated as water years; printed maximum dates are Apr. 1, 1903 and Feb. 27, 1904). Counted like a monthly summary table: maximum, minimum day and mean cells are measurements: 1903 = 710, 0, 12.3 (water-year mean), 12.1 (calendar-year mean) = 4; 1904 = 285 only (rest dashes) = 1; total 5. Runoff in acre-feet (8,970 and 8,790) are conversions: only in n_variables = 7. W.S.P. no. 300 is an identifier, not counted. Unsure only because the rules do not say how a yearly summary table is counted. \"192.\" before the station name is the report's own number, not a USGS station number. Other distances: 0.5 mile upstream from mouth, 3.2 miles east of Gibraltar Dam, 7.5 miles northeast of Santa Barbara."
+ }
+]

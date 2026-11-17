@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "211646N1574652",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Waialae Golf Links, Honolulu",
+  "place_relation": "",
+  "basin_or_area": "Island of Oahu",
+  "county": "",
+  "state": "Hawaii",
+  "evidence_place": "heading before table",
+  "water_source": "B. P. Bishop Estate",
+  "data_type": "Groundwater",
+  "date_start": "1961-01-27",
+  "date_end": "1964-01-27",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 37,
+  "n_variables": 37,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Counted by column pair: 10 + 9 + 9 + 9 = 37 water levels (values marked 'a' = well being pumped, counted). Local number 1B. Well number is the report's own (not converted to coordinates). No relation word printed for the place (heading reads 'Waialae Golf Links, Honolulu'). State and island from running head 'HAWAII, ISLAND OF OAHU'. The table above (table 1, 1965 dates) is headed with the same number '211646N1574652--Continued', although the heading before the sampled table says measurement discontinued and records 1932-34, 1936-64; recorded as printed. Depth, diameter, MP altitude are in heading text, not counted. No year drilled printed."
+ }
+]

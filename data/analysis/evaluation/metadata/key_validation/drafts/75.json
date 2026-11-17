@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - Mrs. Nell K. Ream",
+  "data_type": "Springs",
+  "date_start": "1958-07-08",
+  "date_end": "1960-03-03",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature",
+  "n_measurements": 29,
+  "n_variables": 29,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Heading 'Site 92-Spring - Mrs. Nell K. Ream (continued)': Site 92 is the report's own number. No place, county or state on the page. Discharge: 21 dated rows (1958: 6, 1959: 12, 1960: 3), 'No flow' and its 'do' ditto rows counted as measurements (13 of them); temperature: 8 values. About one measurement a month on given dates, so discrete."
+ }
+]

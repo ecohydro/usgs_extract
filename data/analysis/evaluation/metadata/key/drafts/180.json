@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "324115N1094148.1; Local number (D-8-26)33ccc",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "R. G. Layton",
+  "data_type": "Groundwater",
+  "date_start": "1961-01-23",
+  "date_end": "1965-10-30",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 19,
+  "n_variables": 19,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 4 = the R. G. Layton well. Counted by column pair: 5+5+5+4 = 19 water levels (values flagged c, nearby well being pumped, counted). The site number 324115N1094148.1 looks like a latitude-longitude code but no latitude/longitude is printed as such, so coordinates left blank. The county heading for this well is not on the page (the 'Greenlee County' heading comes after this table); state not printed (running head says only 'Southwestern States'). No year drilled given."
+ }
+]

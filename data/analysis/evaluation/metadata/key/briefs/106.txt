@@ -1,0 +1,13 @@
+sample_no: 106
+report (doc_id): 1630   page: 499   table on the page: 2 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/1630_page_499.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/106.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Wtr yr | Date | -Discharge | Wtr yr Date | Unnamed: 4 | Unnamed: 5 | Discharge
+1966 | Oct. 1-26, 1965 | 0 | 1969.0 |  | Oct. 2, 24, 1968 | 0.0
+1967 | Oct. 20 to Nov. 6, 1966 | 30 | 1970.0 |  | Aug. 24 to Sept. 15, 1970 | 6.0
+1968 | Sept. 20-24, 27, 1968 | 0 |  |  |  | 
+... (4 lines in all; last lines:)
+1967 | Oct. 20 to Nov. 6, 1966 | 30 | 1970.0 |  | Aug. 24 to Sept. 15, 1970 | 6.0
+1968 | Sept. 20-24, 27, 1968 | 0 |  |  |  | 

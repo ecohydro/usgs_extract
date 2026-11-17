@@ -1,0 +1,13 @@
+sample_no: 56
+report (doc_id): 48096   page: 18   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/48096_page_18.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/56.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 8 columns):
+Sub- region | Project | Firm yield, in thousands of  | Firm yield, in thousands of  | Firm yield, in thousands of  | Firm yield, in thousands of  | Firm yield, in thousands of  | Firm yield, in thousands of 
+Sub- region | Project | Unnamed: 2_level_1 | Unnamed: 3_level_1 | Unnamed: 4_level_1 | Unnamed: 5_level_1 | Unnamed: 6_level_1 | Unnamed: 7_level_1
+For local use | For local use | For export | For export | Total | Total |  | 
+J | Local pumping from delta (Sa | 6 120.0 |  | 0 |  | 6 120.0 | 
+... (11 lines in all; last lines:)
+ | Santa Clara Valley reservoir | 13 60.0 | 12 65.0 | 0 | 0 | 13 60.0 | 12 65.0
+o | Uvas and Chesbro Reservoirs  | 15.0 4.0 | 14 19.0 | 0 0 | 0 | 15.0 4.0 | 14 19.0

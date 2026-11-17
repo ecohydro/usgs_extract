@@ -1,0 +1,13 @@
+sample_no: 27
+report (doc_id): 27793   page: 6   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/27793_page_6.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/27.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 3 columns):
+Unnamed: 0 | Unnamed: 1 | Page
+ | Table 1. Santa Maria Valley  | 
+ | agricultural acreage | 6.0
+2.0 | Climatological data | 12.0
+... (10 lines in all; last lines:)
+7.0 | Chemical analyses of surface | 32.0
+ | 8. Summary of municipal and  | 42.0

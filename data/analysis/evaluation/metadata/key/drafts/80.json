@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "9/7-25F1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Calistoga station",
+  "place_relation": "About 1.5 miles northwest of",
+  "basin_or_area": "Napa Valley",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Owner unknown",
+  "data_type": "Groundwater",
+  "date_start": "1949-10-07",
+  "date_end": "1949-12-28",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 7,
+  "n_variables": 7,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Well 9/7-25F1, last block of Table 14 on the page. 7 water levels (3 + 2 + 2). Heading numbers (diameter 8 in., depth 38.5 ft, altitude 390 ft) not counted; no year drilled printed. Other place wording: 0.4 mile northwest of Greenwood Avenue and Silverado Trail, 0.1 mile southwest of Silverado Trail, 100 ft east of creek. Owner printed as 'Owner unknown'."
+ }
+]

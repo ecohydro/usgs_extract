@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat. 39°32', long. 120°56'",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork of Yuba River below Goodyears Bar, Calif.",
+  "township_range_section": "SW¼ sec. 11, T. 19 N., R. 9 E.",
+  "place_name": "Goodyears Bar",
+  "place_relation": "below",
+  "basin_or_area": "Feather River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork of Yuba River",
+  "data_type": "Stream Discharge",
+  "date_start": "1934-10-01",
+  "date_end": "1935-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 365,
+  "n_variables": 435,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = daily grid plus the monthly summary block under it (kept as one digitized table). Daily values counted by month: 31+30+31+31+28+31+30+31+30+31+31+30 = 365, no blank cells. Monthly summary (12 months x 5 columns = 60) and calendar-year and water-year rows (2 x 5 = 10) are computed from the daily rows: summary values, only in n_variables (365+70). Run-off appears only in summary rows, not listed. Location paragraph also gives: 3.5 miles below Goodyears Creek and about 4 miles southwest of Goodyears Bar. Basin from running head."
+ }
+]

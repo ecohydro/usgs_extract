@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4N/28W-3R7 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "Santa Barbara County",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "V. Batie",
+  "data_type": "Groundwater",
+  "date_start": "1966-02-24",
+  "date_end": "1968-10-10",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 8,
+  "n_variables": 8,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Last block on the page. Counted 8 water levels (4 date/level column pairs x 2 rows), Feb. 24, 1966 to Oct. 10, 1968. County only from the page header. Heading text (not in the table, not counted): drilled unused artesian well in Santa Barbara Formation, diameter 12 inches, depth 470 ft, LSD 128 ft above MSL; highest/lowest water levels; records available 1954-56, 1962-68 (period of record, not used for dates). No drilling date, no state printed."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 36°59'04\", long 119°43'24\"",
+  "well_number": "",
+  "station_number": "2510",
+  "station_name": "San Joaquin River below Friant, Calif.",
+  "township_range_section": "SW¼ sec.7, T.11 S., R.21 E.",
+  "place_name": "Friant",
+  "place_relation": "below",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Joaquin River",
+  "data_type": "Stream Discharge",
+  "date_start": "1908-04-30",
+  "date_end": "1965-07-10",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": 106,
+  "n_variables": 106,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Annual peak stages and discharges. Rows: left half water years 1908-1917 and 1920-1937 = 28 (1918, 1919 not printed); right half 1938-1965 = 28; 56 rows in all. Discharge: 56 values. Gage height: 50 values (dashes for 1908-1913). 56 + 50 = 106. Water year 1952 has two dates printed (Apr. 14, 1952, May 13, 1952) for one gage height and one discharge, counted once. Dates = first and last printed peak dates (first is 'Apr. 30, May 1, 1908'). Location text also: on left bank 0.5 mile west of Friant, 1.5 miles downstream from Cottonwood Creek, 2 miles downstream from Friant Dam, at mile 268.1. Published as 'near Pollasky' prior to December 1908 and as 'near Friant' January 1909 to September 1938; earlier sites 4.5 and 2.5 miles upstream. No county printed."
+ }
+]

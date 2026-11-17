@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°37'24\", long 121°45'28\"",
+  "well_number": "",
+  "station_number": "11-1765",
+  "station_name": "Arroyo Valle near Livermore, Calif.",
+  "township_range_section": "",
+  "place_name": "Livermore",
+  "place_relation": "near",
+  "basin_or_area": "Alameda Creek Basin",
+  "county": "Alameda County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Arroyo Valle",
+  "data_type": "Stream Discharge",
+  "date_start": "1966-10-27",
+  "date_end": "1967-09-25",
+  "temporal_resolution": "daily",
+  "variables": "temperature",
+  "units": "°F",
+  "n_measurements": 668,
+  "n_variables": 690,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Page is rotated text but scan is upright. Daily maximum and minimum water temperature, water year October 1966 to September 1967. Counted filled cells per month (max + min): Oct 5+5 (days 27-31 only), Nov 60, Dec 62, Jan 62, Feb 56, Mar 62, Apr 60, May 62, Jun 60, Jul 62, Aug 62, Sep 25+25 (days 1-25) = 668. Average column: 11 months x 2 = 22 (October blank), giving 690. Location paragraph also: in Valle de San Jose Grant, 900 feet downstream from highway bridge, 1.1 miles upstream from Dry Creek, 4.1 miles south of Livermore, 6.9 miles southeast of Pleasanton. No township/range printed. Remarks say no flow Sept. 25-30 but the table prints values for Sept. 25."
+ }
+]

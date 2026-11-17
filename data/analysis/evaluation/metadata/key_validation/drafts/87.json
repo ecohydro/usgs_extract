@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°41'55\", long. 121°33'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "West Branch Feather River near Yankee Hill, Calif.",
+  "township_range_section": "SE¼ sec. 6, T. 21 N., R. 4 E.",
+  "place_name": "Yankee Hill",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "West Branch Feather River",
+  "data_type": "Stream Discharge",
+  "date_start": "1951-10-01",
+  "date_end": "1952-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 366,
+  "n_variables": 410,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge grid, water year October 1951 to September 1952 (table 2; the rating table above is table 1). Counted by month: 31+30+31+31+29+31+30+31+30+31+31+30 = 366 (Feb. 29 printed), no blank cells. Summary values: Total, Mean, Ac-ft for 12 months (36) plus Max, Min, Mean, Ac-ft on the calendar-year and water-year lines (8). Peak discharges in the note below the table not counted (remarks text). No station number printed. Other location words: on right bank 800 ft above highway bridge, 1.7 miles downstream from Concow Creek, and 4.9 miles southeast of Paradise."
+ }
+]

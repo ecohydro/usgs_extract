@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11447810",
+  "station_name": "SACRAMENTO RIVER AT GREEN'S LANDING, NEAR COURTLAND, CA",
+  "township_range_section": "",
+  "place_name": "GREEN'S LANDING; COURTLAND",
+  "place_relation": "at; near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "SACRAMENTO RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-10-01",
+  "date_end": "1978-09-30",
+  "temporal_resolution": "daily",
+  "variables": "water_chemistry",
+  "n_measurements": 365,
+  "n_variables": 377,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily mean specific conductance, water year 1978. Station heading is at the top of the page (continued station), above the first table. Count by month: Oct 31, Nov 30, Dec 31, Jan 31, Feb 28, Mar 31, Apr 30, May 31, Jun 30, Jul 31, Aug 31, Sep 30 = 365 (dashes only on days that do not exist). n_variables adds the 12 values of the MONTH row (monthly means)."
+ }
+]

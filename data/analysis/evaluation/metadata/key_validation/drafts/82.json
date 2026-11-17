@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11-4070",
+  "station_name": "Feather River at Oroville, Calif.",
+  "township_range_section": "",
+  "place_name": "Oroville",
+  "place_relation": "at",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "Butte County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Feather River",
+  "data_type": "Stream Discharge",
+  "date_start": "1963-10-09",
+  "date_end": "1964-09-04",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;water_chemistry",
+  "n_measurements": 139,
+  "n_variables": 139,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Page is rotated. LOCATION: at gaging station, 200 feet downstream from bridge on Oroville-Chico highway, and 0.4 mile northeast of Oroville, Butte County, business district. Running head: PACIFIC SLOPE BASINS IN CALIFORNIA. Chemical analyses, one sample per month on a given date (12 dates), so discrete. Counted printed values per column (dashes and blanks not counted): mean discharge 12, silica 2, iron 0, calcium 2, magnesium 2, sodium 12, potassium 2, bicarbonate 12, carbonate 0, sulfate 2, chloride 12, fluoride 1, nitrate 2, boron 12, dissolved solids ppm 2, tons per acre-foot 2, tons per day 2, hardness Ca-Mg 12, noncarbonate hardness 12, sodium adsorption ratio 12, specific conductance 12, pH 12 = 139. Calculated columns (dissolved solids, hardness, sodium adsorption ratio) counted as measurements; the rules do not say whether they are summaries (they would be 44 values). Unsure also because small print in the fluoride/nitrate columns is hard to read."
+ }
+]

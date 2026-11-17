@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°21'14\" (revised), long 119°01'38\"",
+  "well_number": "",
+  "station_number": "11-1133",
+  "station_name": "Santa Clara River near Santa Paula, Calif.",
+  "township_range_section": "sec.12, T.3 N., R.21 W.",
+  "place_name": "Santa Paula",
+  "place_relation": "near",
+  "basin_or_area": "Santa Clara River Basin",
+  "county": "Ventura County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Clara River",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10-04",
+  "date_end": "1968-07-22",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;water_chemistry;temperature",
+  "n_measurements": 189,
+  "n_variables": 198,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Both printed blocks (same 9 sampling dates) are one digitized table. 9 dates x 22 value columns = 198 printed numbers (11 in upper block incl. mean discharge, 11 in lower block). Dissolved solids in tons per ac-ft restates dissolved solids in other units: 9 values not counted as measurements, so 189. Other distances in LOCATION: 1.5 miles upstream from Santa Paula bridge, 1.8 miles east of Santa Paula. Mean discharge is a computed difference between two other stations (remarks). Title says water year October 1967 to September 1968; samples are about monthly on single dates, so discrete."
+ }
+]

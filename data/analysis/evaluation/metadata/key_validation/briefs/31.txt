@@ -1,0 +1,13 @@
+sample_no: 31
+report (doc_id): 57549   page: 95   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/57549_page_95.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/31.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Unnamed: 0 | BICAR. | CAR- | DIS- SOLVED | DIS- SOLVED CHLO- | DIS- SOLVED FL110- | DIS- SOLVED.1 | DIS- SOLVED SOLIDS (REST-
+ | BONATE | BONATE | SULFATE | RIDE | RIDE | SILICA | DUE AT
+ | (HC03) | (003) | ($04) | (CL) | (F) | ($102) | 180 C)
+DATE | (MG/L) | (MG/L) | (MG/L) | (MG/L) | (MG/L) | (MG/L) | (MG/L)
+... (81 lines in all; last lines:)
+26 | 188 | 0 | 345 | 130 | .5 | 9.5 | 862
+27 |  |  |  |  |  |  | 

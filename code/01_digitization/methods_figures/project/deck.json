@@ -1,0 +1,44 @@
+{
+  "v": 5,
+  "attachments": {},
+  "createdOnFiles": {
+    "at": "2026-11-15T22:20:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "faces": {},
+  "format": {
+    "shared": [
+      "project/deck.css"
+    ],
+    "v": 1
+  },
+  "lists": "css",
+  "order": [
+    "overview",
+    "example"
+  ],
+  "sections": {
+    "s1": {
+      "description": "Methods overview: from the USGS search to metadata for each table",
+      "start": "overview"
+    },
+    "s2": {
+      "before": null,
+      "description": "Table detection: an example page with the detector's boxes",
+      "seq": 0,
+      "start": null
+    },
+    "s3": {
+      "before": null,
+      "description": "Digitization: three printed tables beside Reducto's output",
+      "seq": 0,
+      "start": null
+    },
+    "s4": {
+      "description": "One table through the whole pipeline: detected, digitized, metadata",
+      "start": "example"
+    }
+  },
+  "title": "Methods figures"
+}

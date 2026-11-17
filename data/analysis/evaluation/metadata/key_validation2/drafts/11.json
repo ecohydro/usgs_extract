@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Sacramento River at Antler, Calif.",
+  "township_range_section": "SE. 1/4 sec. 13, T. 35 N., R. 5 W.",
+  "place_name": "Antler",
+  "place_relation": "at",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "Shasta County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sacramento River",
+  "data_type": "Stream Discharge",
+  "date_start": "1919-04-18",
+  "date_end": "1919-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": 166,
+  "n_variables": 166,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Title says years ending Sept. 30, 1919 and 1920, but the block on this page is headed 1919 and has only Apr.-Sept. columns; first printed value Apr. 18 (records available from April 18, 1919). Counted by month: Apr 13 (18-30), May 31, June 30, July 31, Aug 31, Sept 30 = 166. No summary rows. Location text: at highway bridge at Antler; Gregory Creek enters 200 feet below gage, Pit River 14 miles below. No station number printed."
+ }
+]

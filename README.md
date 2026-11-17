@@ -13,14 +13,17 @@ usgs_extract/
 â”‚   â”‚   â”œâ”€â”€ 01_download_and_preprocess/ â† scripts to pull PDFs from USGS and convert to grayscale PNGs
 â”‚   â”‚   â”œâ”€â”€ 02_table_detection/
 â”‚   â”‚   â”‚   â”œâ”€â”€ 01_detect.py           â† Table Transformer detection script
-â”‚   â”‚   â”‚   â””â”€â”€ validation/            â† MISSING: script to evaluate recall/precision against ground truth
-â”‚   â”‚   â”œâ”€â”€ 03_ocr/
+â”‚   â”‚   â”‚   â””â”€â”€ evaluation/            â† recall and false alarms against hand-checked pages (README inside)
+â”‚   â”‚   â”œâ”€â”€ 03_digitization/
 â”‚   â”‚   â”‚   â”œâ”€â”€ paddle/                â† PaddleOCR (tested, not used in final pipeline)
 â”‚   â”‚   â”‚   â”œâ”€â”€ reducto/               â† Reducto.ai digitization scripts (final pipeline)
-â”‚   â”‚   â”‚   â””â”€â”€ validation/            â† accuracy evaluation of OCR outputs
+â”‚   â”‚   â”‚   â””â”€â”€ evaluation/            â† accuracy of both tools against hand-typed tables (README inside)
 â”‚   â”‚   â”œâ”€â”€ 04_metadata_extraction/
-â”‚   â”‚   â”‚   â””â”€â”€ 01_extract_metadata.py â† LLM (Phi-4) metadata extraction via UCSB HPC API
+â”‚   â”‚   â”‚   â””â”€â”€ 01_full_run.py, 02_build_metadata.py â† open language model pipeline (README inside)
+â”‚   â”‚   â”‚   â””â”€â”€ evaluation/            â† test set, answer key and scoring
+â”‚   â”‚   â”‚   â””â”€â”€ location_validation/   â† location rebuild from the earlier metadata (Annette)
 â”‚   â”‚   â””â”€â”€ 05_final_data_organization/ â† scripts to reorganize outputs into final per-page structure
+â”‚   â”‚   â””â”€â”€ methods_figures/        â† methods figures M1 and M2 (README inside)
 â”‚   â”œâ”€â”€ 02_hydroshare/                 â† scripts to package data for HydroShare upload
 â”‚   â”œâ”€â”€ 02_inventory/                  â† data inventory notebooks and summary figures
 â”‚   â””â”€â”€ 04_vignettes/                  â† hydrological research analyses 
@@ -98,11 +101,11 @@ python 01_detect.py \
 ```
 Output CSV has one row per detected table: `filename`, `doc_id`, `page_num`, `label` (table/table rotated), `score`, `bbox`. Already-processed files are skipped automatically on re-run.
 
-Ground truth validation data is in `data/digitization_intermediates/02_table_detection/validation/`. A script to compute recall/precision against that ground truth is **missing** â€” the 79% recall figure in the paper was computed manually.
+The detector is evaluated in `code/01_digitization/02_table_detection/evaluation/` (recall against a hand-checked list of table pages, and false alarms); its README gives the run order and the source of every number in the paper.
 
 ---
 
-## Quickstart: OCR / Digitization (`code/01_digitization/03_ocr/`)
+## Quickstart: Digitization (`code/01_digitization/03_digitization/`)
 
 Two digitization approaches are implemented. Reducto was used in the final pipeline; PaddleOCR was tested and discarded due to poor structure preservation.
 
@@ -144,32 +147,12 @@ python paddle/02_paddleocr.py \
   --output-dir data/digitization_intermediates/03_ocr/paddle_output/
 ```
 
-Validation scripts for both approaches are **missing** â€” accuracy figures in the paper were computed manually.
+Both tools are evaluated in `code/01_digitization/03_digitization/evaluation/` against hand-typed tables; its README gives the run order and the source of every number in the paper.
 
 ---
 
-## Quickstart: Metadata Extraction (`code/01_digitization/04_metadata_extraction/`)
+## Metadata Extraction (`code/01_digitization/04_metadata_extraction/`)
 
-**Extract metadata from Reducto per-page JSONs using Phi-4 via UCSB HPC**
-```bash
-export UCSB_LLM_API_KEY=your_key_here
-python 01_extract_metadata.py \
-  --json-dir data/digitization_intermediates/03_ocr/jsons/ \
-  --output-csv data/digitization_intermediates/04_metadata_extraction/llm_extracted_metadata.csv
-```
-Requires per-page Reducto JSON files (one file per page, named `{doc_id}_page_{N}.json`). Skips pages with no Table blocks. Already-processed `(ID, PAGE_NUMBER)` pairs are skipped on re-run. Parse failures are written to `{doc_id}_{page_num}_error.txt` in the JSON directory.
+Each page's Reducto text is read by an open-weight language model, which returns one metadata row per location per table. The pipeline (`01_full_run.py`, `02_build_metadata.py`), its evaluation (`evaluation/`) and the source of every number in the paper are described in that folder's `README.md`.
 
-Output CSV matches the column schema of `cleaned_metadata_final - Copy.csv`: `ID, PAGE_NUMBER, Inferred_Latitude, Inferred_Longitude, Actual_Latitude, Actual_Longitude, Location, Townships_Ranges_Sections, Watersource_Name, County, Dates_of_Recording, Temporal_Resolution, Units_Of_Measurement, Water_Type, KeyTerms`.
-
-Validation against 3 test sets was done manually in Excel. The graded files are in `data/digitization_intermediates/04_metadata_extraction/validation/`:
-
-| File | Contents |
-|------|----------|
-| `validation_curated_135.xlsx` | Curated set: 135 tables selected to represent all water categories, graded by Henderson Vo |
-| `validation_random_135.xlsx` | Random set: 135 tables drawn at random from the full dataset, graded by Luma Braconi Lazarini |
-| `validation_edge_cases_15.xlsx` | Edge cases: 15 tables targeting false positives and ambiguous table types |
-| `test_set_cat_grades.xlsx` | Per-category accuracy summary (curated + random sets) â€” input to the accuracy figure |
-| `test_set_indiv_grades.xlsx` | Per-entry accuracy scores (curated + random sets) â€” input to the accuracy figure |
-| `jsons/` | 260 per-page Reducto JSONs covering all three validation sets |
-
-**`02_validate_accuracy.ipynb`** reads `test_set_cat_grades.xlsx` and `test_set_indiv_grades.xlsx` and produces the metadata accuracy figure (saved to `manuscript/figures/metadata_accuracy.png`): histograms of per-entry accuracy for the curated and random test sets, and a lollipop chart of per-category accuracy across both sets.
+The earlier Phi-4 extraction script and its accuracy notebook were removed from this folder in November 2026; they remain in the git history. `location_validation/` holds Annette's location rebuild, which was built on that earlier metadata.

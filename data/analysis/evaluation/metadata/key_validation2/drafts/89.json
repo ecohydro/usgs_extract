@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "LAKE McCLURE AT EXCHEQUER, CALIF.",
+  "township_range_section": "SW. ¼ sec. 13, T. 4 S., R. 15 E.",
+  "place_name": "Exchequer",
+  "place_relation": "at",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lake McClure",
+  "data_type": "Reservoir",
+  "date_start": "1928-10-01",
+  "date_end": "1929-09-30",
+  "temporal_resolution": "daily",
+  "variables": "elevation",
+  "n_measurements": 365,
+  "n_variables": 365,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily elevation grid 1928-29, all days printed: 365. Staff gage at Exchequer Dam at Exchequer; also '5 miles northeast of Merced Falls'. Dam is on Merced River (remarks); no basin heading or county on the page."
+ }
+]

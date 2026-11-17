@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°22'45\", long 120°08'25\"",
+  "well_number": "",
+  "station_number": "10340300",
+  "station_name": "PROSSER CREEK RESERVOIR NEAR BOCA, CA",
+  "township_range_section": "NW¼SW¼ sec.30, T.18 N., R.17 E.",
+  "place_name": "Boca",
+  "place_relation": "near",
+  "basin_or_area": "PYRAMID AND WINNEMUCCA LAKES BASIN",
+  "county": "Nevada County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Prosser Creek Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1975-09-30",
+  "date_end": "1976-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "elevation;contents",
+  "n_measurements": 26,
+  "n_variables": 40,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Second table on page (water year October 1975 to September 1976). 13 month-end rows (Sept. 30, 1975 to Sept. 30, 1976) x elevation and contents = 26 measurements (contents 0 counted). Change in contents = summary: 12 monthly values + CAL YR 1975 + WTR YR 1976 = 14, so n_variables 40. Dates from the printed rows (first row is Sept. 30 of the previous year). Other location words: in control house at Prosser Creek Dam on Prosser Creek, 1.5 mi upstream from mouth, 3 mi west of Boca."
+ }
+]

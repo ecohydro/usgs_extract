@@ -1,0 +1,13 @@
+sample_no: 96
+report (doc_id): 2295   page: 162   table on the page: 1 of 1
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation2/2295_page_162.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation2/drafts/96.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line (only the first 8 columns of each line are shown here; the digitized table has 15 columns):
+Unnamed: 0 | 25 +7 10 | 8 | 40 | Unnamed: 4 | 40.1 | Unnamed: 6 | 30 t
+water. of Use | Irrigation do do | Domestic | Irrigation |  | do |  | do
+ | 00 00 $3,500.00 450. 500. | 1250.00 | 5200.00 |  | ,000.00 |  | 
+ | 00 00 $600. 700. 275.00 | 1259.00 | 1500.00 |  | 1100.00 |  | 
+... (15 lines in all; last lines:)
+Location. Owner. | R. S., T. SanJose do 1, W. S | N., 1 T. W. 36, Sec. R. Son  | R. 1 S., T. 1 Sec. do | W. 9 | N., 1 T. 36, Sec. Sparks L.  | W. 9 R. | Jose San Bros Williams
+ | 205 206 207 | 208 | 209 |  | 210 |  | 211

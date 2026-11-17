@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°29'32\", long 119°30'25\"",
+  "well_number": "",
+  "station_number": "11121000",
+  "station_name": "Santa Ynez River at Jameson Lake, near Montecito, Calif.",
+  "township_range_section": "SW¼NE¼NW¼ sec.28, T.5 N., R.25 W.",
+  "place_name": "Jameson Lake; Montecito",
+  "place_relation": "at; near",
+  "basin_or_area": "Santa Ynez River Basin",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Jameson Lake (Santa Ynez River)",
+  "data_type": "Reservoir",
+  "date_start": "1968-09-30",
+  "date_end": "1969-09-30",
+  "temporal_resolution": "monthly",
+  "variables": "gage_height;contents;discharge;evaporation;precipitation;other",
+  "n_measurements": 98,
+  "n_variables": 124,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 1 = 'Monthly net discharge, water year October 1968 to September 1969' (Jameson Lake). Rows Sept. 30 (1968) to Sept. 30 (1969): first row is the last day of the previous period, so dates use printed rows. Counted: gage height 13, contents 13, then 12 each for draft, spill and release, evaporation, total inflow, rain on reservoir, net inflow = 98. Summary values: change in contents 12, CAL YR 1968 row 7, WTR YR 1969 row 7 = 26. Unsure which vocabulary words fit: inflow and spill/release (acre-feet) entered as discharge, rain on reservoir as precipitation, draft (diversion to city of Montecito) as other; evaporation, inflow are computed quantities per the remarks but counted as printed. Other location words: on upstream face of Juncal Dam, 6.5 miles north of Carpinteria, 8 miles northeast of Montecito."
+ }
+]

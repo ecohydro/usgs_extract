@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 32°33'50\", long 116°46'25\"",
+  "well_number": "",
+  "station_number": "11-0130",
+  "station_name": "Tia Juana River near Dulzura, Calif.",
+  "township_range_section": "sec.33, T.18 S., R.2 E.",
+  "place_name": "Dulzura",
+  "place_relation": "near",
+  "basin_or_area": "Tia Juana River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Tia Juana River",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-03",
+  "date_end": "1965-04",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 18,
+  "n_variables": 60,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sampled table = monthly summary at the bottom of the page. Six month rows (March 1961; February, March, April, May 1962; April 1965): maximum, minimum, mean = 6 x 3 = 18 measurements. Summary values: cfs-days and runoff in acre-feet of the month rows (6 x 2 = 12) plus six calendar-year / water-year rows x 5 = 30; n_variables 18 + 12 + 30 = 60. Dates taken from the first and last month rows; the first printed row is the summary row 'Calendar year 1960'. Other distances on page: on left bank 0.5 mile downstream from confluence of Cottonwood and Tecate Creeks and 5.5 miles south of Dulzura. No county printed."
+ }
+]

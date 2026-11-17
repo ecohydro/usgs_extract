@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Lost River diversion canal near Klamath Falls, Oreg.",
+  "township_range_section": "",
+  "place_name": "Klamath Falls",
+  "place_relation": "near",
+  "basin_or_area": "",
+  "county": "",
+  "state": "Oreg.",
+  "evidence_place": "heading before table",
+  "water_source": "Lost River diversion canal",
+  "data_type": "Irrigation",
+  "date_start": "1924-10",
+  "date_end": "1925-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 36,
+  "n_variables": 52,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly summary for the year ending September 30, 1925. Measurements = monthly maximum, minimum, mean: 12x3 = 36. Summary values: 12 run-off in acre-feet + 4 in \"The year\" row = 16; n_variables 52. Title of this table says \"near Klamath Falls, Oreg.\"; the two tables above it on the page, for the same canal, say \"near Olene, Oreg.\". Diversion canal: Irrigation. No basin, county, coordinates or station number on page."
+ }
+]

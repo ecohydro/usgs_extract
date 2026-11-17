@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°53'45\", long 121°12'10\"",
+  "well_number": "",
+  "station_number": "11-4035",
+  "station_name": "Bucks Lake near Bucks Lodge, Calif.",
+  "township_range_section": "NW¼ sec.33, T.24 N., R.7 E.",
+  "place_name": "Bucks Lodge",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Bucks Lake",
+  "data_type": "Reservoir",
+  "date_start": "1961-01-27",
+  "date_end": "1965-06-07",
+  "temporal_resolution": "annual",
+  "variables": "contents;elevation",
+  "units": "acre-feet;feet",
+  "n_measurements": 20,
+  "n_variables": 20,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Extremes table (maximum and minimum contents and elevation) for water years 1961-65: 5 years x 4 values = 20. Dates are the earliest and latest printed extreme dates (Jan. 27, 1961; June 7, 1965); as water years the span would be 1960-10 to 1965-09. Location text also says: in intake tower No. 2 upstream from dam on Bucks Creek, 2 miles northwest of Bucks Lodge and 15 miles west of Quincy. No county printed. Dam completed in 1927 (not a well, so construction_date left blank)."
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°25'24\", long 122°11'18\"",
+  "well_number": "",
+  "station_number": "11-1645",
+  "station_name": "San Francisquito Creek at Stanford University, Calif.",
+  "township_range_section": "",
+  "place_name": "Stanford University",
+  "place_relation": "at",
+  "basin_or_area": "San Francisquito Creek Basin",
+  "county": "Santa Clara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Francisquito Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10-01",
+  "date_end": "1968-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "units": "cubic feet per second",
+  "n_measurements": 366,
+  "n_variables": 436,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1967 to September 1968; every day filled including Feb 29 (leap year) = 366; zeros in August counted as values. Other numbers: TOTAL, MEAN, MAX, MIN, AC-FT rows 5 x 12 = 60, plus CAL YR 1967 and WTR YR 1968 lines 5 + 5 = 10, total 436. Peak discharge line below the table not counted. Location paragraph also: in San Francisquito Grant at golf course, on right bank 1.1 miles downstream from Los Trancos Creek, 1.1 miles west of Stanford University Post Office. No township/range printed."
+ }
+]

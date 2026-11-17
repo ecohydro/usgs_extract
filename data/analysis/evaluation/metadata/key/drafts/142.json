@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "North Fork of American River near Colfax",
+  "township_range_section": "",
+  "place_name": "Colfax",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork of American River",
+  "data_type": "Stream Discharge",
+  "date_start": "1911-09",
+  "date_end": "1927-09",
+  "temporal_resolution": "monthly",
+  "variables": "discharge",
+  "n_measurements": 187,
+  "n_variables": 213,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly discharge by water year, counted row by row: 1910-11 has 1 value (Sept.), 1911-12 has 11 (Sept. blank), 1912-13 has 10 (Oct., Nov. blank), 1913-14 has 9 (Dec., Jan., Feb. blank), 1914-15 to 1926-27 13 full years x 12 = 156; total 187. Summary values: 13 yearly means + 13 values in the Av. row = 26. First value is Sept. of water year 1910-11, taken as 1911-09. State from the page's table title."
+ }
+]

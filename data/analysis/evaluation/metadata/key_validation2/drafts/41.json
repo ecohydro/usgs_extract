@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "2615E1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "Mokelumne area",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "E. W. Hammer",
+  "data_type": "Groundwater",
+  "date_start": "1926-04-20",
+  "date_end": "1926-04-20",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 1,
+  "n_variables": 2,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Sampled block is the single row under well 2615E1 (E. W. Hammer, 3-inch well, not in use), bottom of left column. One date with depth to water (9.90) and altitude of water table (7.85). Counted depth to water as the one measurement and the altitude of water table as the same water level restated (only in n_variables); if both count as measurements the number is 2. Bench-mark altitude in heading text not counted. State and area from running head. No county, coordinates or township on page; no drilling date."
+ }
+]

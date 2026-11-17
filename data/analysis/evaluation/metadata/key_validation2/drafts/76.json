@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lake Piru",
+  "place_relation": "at",
+  "basin_or_area": "Piru Creek watershed",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "Lake Piru",
+  "data_type": "Reservoir",
+  "date_start": "1932",
+  "date_end": "1965",
+  "temporal_resolution": "annual",
+  "variables": "discharge;sediment",
+  "n_measurements": 68,
+  "n_variables": 102,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 7, 'Calculated annual sedimentation rates at Lake Piru'; 34 years (17 + 17 rows), column headed 'Year' (not stated as water year in this table). Counted peak discharge 34 + sedimentation rate 34 = 68 as measurements; cumulative acre-ft (34) as summary values, only in n_variables. Sedimentation rates are calculated from a formula, not measured: rules do not say whether calculated values count as measurements (if not, n_measurements = 34). The page does not say where the peak discharge was measured. State from the running head 'PIRU CREEK WATERSHED, SOUTHERN CALIFORNIA'."
+ }
+]

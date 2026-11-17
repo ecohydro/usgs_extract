@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°48'50\", long 122°20'10\"",
+  "well_number": "",
+  "station_number": "11-3879.95",
+  "station_name": "Black Butte Reservoir near Orland, Calif.",
+  "township_range_section": "SE¼SW¼ sec.29, T.23 N., R.4 W.",
+  "place_name": "Orland",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Black Butte Reservoir",
+  "data_type": "Reservoir",
+  "date_start": "1963-10",
+  "date_end": "1964-09",
+  "temporal_resolution": "daily",
+  "variables": "contents;elevation;evaporation",
+  "n_measurements": 360,
+  "n_variables": 394,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily contents counted by month: Oct 1 (only day 31 printed; storage began Oct. 28, 1963), Nov 30, Dec 31, Jan 31, Feb 29, Mar 31, Apr 30, May 31, June 30, July 31, Aug 31, Sept 30 = 336. Foot rows: end-of-month elevation 12 and evaporation 12 counted as measurements (total 360). Summary values: MAX 11, MIN 11 (Oct dashes), change in contents 12 = 34; CAL YR / WAT YR rows print only dashes. Dates given as the water year in the title; first printed value is Oct. 31, 1963. Location text also says in control tower in right abutment of main dam on Stony Creek, 8 miles northwest of Orland."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Warner Springs",
+  "place_relation": "at",
+  "basin_or_area": "",
+  "county": "San Diego County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Precipitation",
+  "date_start": "1900-11",
+  "date_end": "1915-06",
+  "temporal_resolution": "monthly",
+  "variables": "precipitation",
+  "n_measurements": 114,
+  "n_variables": 136,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 3 = Warner Springs (21); elevation 3,165 feet; authority U.S. Weather Bureau. '(21)' is the report's own station number. County from table title 'at 106 stations in or near San Diego County' and running head. Seasons run July-June. Season 1900-1901 prints only 6 months (Nov., Jan.-May), so start = Nov. 1900; 9 full seasons 1906-7 to 1914-15 x 12 = 108 ('Tr.' counted as a value); total 114. Summary: 9 season totals + 13 values in the 9-year means row = 22. Elevation in heading not counted. No water body named."
+ }
+]

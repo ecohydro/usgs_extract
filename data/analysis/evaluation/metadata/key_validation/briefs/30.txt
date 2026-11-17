@@ -1,0 +1,13 @@
+sample_no: 30
+report (doc_id): 1305   page: 50   table on the page: 3 of 3
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages_validation/1305_page_50.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key_validation/drafts/30.json
+
+To recognise table 3 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Date of measurement. | Depth of water level below b | Date of measurement..1 | Depth of water level below b
+1898. | Ft. in. | 1899 -Continued. | Ft. in.
+Feb. 22 | 23 4 | July 30 | 33 5
+May 26 | 25 0 | Aug. 14 | 34 0
+... (26 lines in all; last lines:)
+June 28 | 32 11 | Nov. 27 | 41 0
+July 20 | 33 5 | Dec. 12 | 41 0

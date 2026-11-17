@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "7N/34W-31C3 S",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "USGS, UNION SUGAR CO.",
+  "data_type": "Groundwater",
+  "date_start": "1966-03-01",
+  "date_end": "1968-10-07",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 8,
+  "n_variables": 8,
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "All 8 water-level cells print the letter 'F' instead of a number (8 dates, counted column pair by column pair: 2+2+2+2). The page does not explain 'F'; counted as 8 printed measurements by analogy with 'Dry'/'No flow', but the rules do not cover a letter code, hence unsure. Heading before the table: drilled observation well in alluvium, diameter 2 inches, depth 17.3 ft., LSD 64.68 ft. above MSL, records available 1947-68; these heading numbers are outside the digitized table and were not added to n_variables (would be 11 if they are). No year drilled, no county, state, basin or place printed for this well (Santa Barbara County appears only in owner names of other wells on the page)."
+ }
+]

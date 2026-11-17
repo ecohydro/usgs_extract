@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Clear Lake at Lakeport, Cal.",
+  "township_range_section": "",
+  "place_name": "Lakeport",
+  "place_relation": "at",
+  "basin_or_area": "SAN FRANCISCO BAY DRAINAGE BASIN",
+  "county": "",
+  "state": "Cal.",
+  "evidence_place": "heading before table",
+  "water_source": "Clear Lake",
+  "data_type": "Reservoir",
+  "date_start": "1901-01",
+  "date_end": "1904-12",
+  "temporal_resolution": "monthly",
+  "variables": "evaporation",
+  "n_measurements": 88,
+  "n_variables": 96,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Monthly evaporation in inches, Lake and Land columns for each year, treated as one location (Lakeport). Counted: 1901 Lake 12, 1901 Land 4 (Sept-Dec; Sept value is for September 15 to 29 per footnote), 1902 24, 1903 24, 1904 24 = 88. Annual row (8 values) is summary, in n_variables only. data_type set to Reservoir because the site is on a lake; rules do not name evaporation records explicitly. Observer D. C. Rumsey."
+ }
+]

@@ -1,0 +1,13 @@
+sample_no: 63
+report (doc_id): 3033   page: 187   table on the page: 1 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/3033_page_187.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/63.json
+
+To recognise table 1 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Water year | Date | Gage height (feet) | Discharge (cfs) | Water year.1 | Date.1 | Gage height (feet).1 | Discharge (cfs).1
+1964.0 | Jan. 21, 1964 | 5.3 | 262.0 | 1965.0 | Jan. 3, 1965 Jan. 6, 1965 Ap | 5.52 | 255.0
+ |  |  |  |  | Jan. 3, 1965 Jan. 6, 1965 Ap | 5.58 | 275.0
+1965.0 | Dec. 22, 1964 | 7.55 | 968.0 |  | Jan. 3, 1965 Jan. 6, 1965 Ap | 5.01 | 136.0
+... (5 lines in all; last lines:)
+1965.0 | Dec. 22, 1964 | 7.55 | 968.0 |  | Jan. 3, 1965 Jan. 6, 1965 Ap | 5.01 | 136.0
+ | Dec. 26, 1964 | 5.87 | 365.0 |  | Jan. 3, 1965 Jan. 6, 1965 Ap |  | 

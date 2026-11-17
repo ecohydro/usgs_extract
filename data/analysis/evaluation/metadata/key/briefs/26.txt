@@ -1,0 +1,13 @@
+sample_no: 26
+report (doc_id): 70038393   page: 358   table on the page: 2 of 2
+page scan (the ONLY page you may open): /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/pages/70038393_page_358.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/key/drafts/26.json
+
+To recognise table 2 on the scan, these are the first lines of what the digitizer made of it (may contain reading errors; do not copy values from here). The sampled table is exactly the part of the page these lines cover, from its first to its last line:
+Day | Oct. | Nov. | Dec. | Jan. | Feb. | Mar. | Apr.
+1 |  |  | 1520.0 |  |  |  | 52900.0
+2 |  |  | 1850.0 |  |  |  | 52900.0
+3 |  |  | 2.2 |  |  |  | 53400.0
+... (34 lines in all; last lines:)
+(+) |  | 3325.2 | 3368.8 | 3360.1 | 3487.5 | 3508.5 | 3526.0
+(#) |  | 1140.0 | 4390.0 | -800.0 | 37300.0 | +10700 | 9700.0

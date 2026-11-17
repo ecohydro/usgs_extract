@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4619R1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "W. R. Kane",
+  "data_type": "Groundwater",
+  "date_start": "1926-04-09",
+  "date_end": "1927-12-22",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": 21,
+  "n_variables": 42,
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Block for well 4619R1 (W. R. Kane) at the bottom of the left column. Counted rows: 1926 = 9 (Apr. 9 to Dec. 6), 1927 = 12 (Jan. 10 to Dec. 22); 21 depth-to-water values. The 21 altitude-of-water-table values are the same water level computed from the bench-mark altitude, so they are counted only in n_variables (if they should count as measurements, n_measurements = 42). Bench-mark altitude 27.80 feet is in the heading, not counted. Page gives no county, state, basin or coordinates. \"See p. 228\" not followed."
+ }
+]
