@@ -12,6 +12,8 @@ import defaults as D
 def page_blocks(doc, page):
     f = D.REDUCTO_JSON / str(doc) / f"{doc}_page_{page}.json"
     if not f.exists():
+        f = D.REDUCTO_JSON_BY_PAGE / str(doc) / f"page_{page}" / f"{doc}_page_{page}.json"
+    if not f.exists():
         return []
     chunks = json.load(open(f, encoding="utf-8")).get("result", {}).get("chunks", [])
     return [(b.get("type"), b.get("content") or "") for c in chunks for b in c.get("blocks", [])]

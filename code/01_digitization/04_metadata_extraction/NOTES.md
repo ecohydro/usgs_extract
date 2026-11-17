@@ -57,6 +57,9 @@ Pipeline (fixed 2026-11-15, Anna: "lock in the pipeline")
 - 2026-11-17, Anna: the comparison with the earlier published per-table files and the recomputation of the
   2025 Phi-4 grades are out of the paper and out of this code; the code moved here from
   code/05_evaluation/metadata, pipeline at the top and evaluation in evaluation/.
+- 2026-11-17, Anna: the 65 pages still unreadable after the second reading stay "answer not readable". 30 of
+  them are the model repeating one location until the limit (a longer limit would not help); removing the
+  repeats by script was offered and not chosen. No third pass.
 - 2026-11-16, Anna: the final table is committed as is, including rows for pages on tribal lands (the
   repository is public; she was told); it is to be cleaned before publication.
 
@@ -73,11 +76,16 @@ Pipeline (fixed 2026-11-15, Anna: "lock in the pipeline")
 - Found-on-page check: on the two validation sets it drops 77 of 2,181 location values (3.5%), nearly all
   states (43) and counties (30) the model supplied without the page printing them (on_page_check.csv).
   An earlier figure of 0.4% came from an older prompt on the first validation set only.
-- Full collection (2026-11-16): 63,524 pages read, 100,679 tables, 177,015 rows. 72 tables on 65 pages have
-  an unreadable answer even after a second reading with longer limits (very long site lists); 59 tables
-  got no answer. 7 tables carry the data type "Evaporation", which is not one of the nine (left as written).
-- Six reports (52056, 23997, 23879, 23996, 23894, 52119; 155 published tables) have no Reducto files on the
-  cluster copy and were not run (full_run/pages_without_table.csv). They need the files from Annette.
+- Full collection (2026-11-17): 63,661 pages read, 100,825 tables, 178,111 rows, 586 reports. Of the 100,829
+  published tables, 100,680 (99.9%) have metadata and 149 do not: 72 tables on 65 pages have an unreadable
+  answer even after a second reading with longer limits (30 pages are the model repeating one location until
+  the limit); 59 tables got no answer; 18 tables (report 52056) have an empty Reducto page file, so there is
+  no page text to read (their table CSVs exist; full_run/pages_without_table.csv). 14 tables in the Reducto
+  files are not on the published list. 7 tables carry the data type "Evaporation", which is not one of the
+  nine (left as written).
+- Six reports (52056, 23997, 23879, 23996, 23894, 52119) are missing from ReductJson on the cluster; their
+  pages are read from the copy organized by page (defaults.REDUCTO_JSON_BY_PAGE). 137 of their 155 pages were
+  run on 2026-11-17 (01_full_run.py prepare_missing, then worker); all rows built before are unchanged.
 - The tribal screen catches only what its rule describes (a point inside or near a federally recognized
   area, or a reservation or rancheria named on the page).
 - The weights still count tables on tribal lands in the frame (about 3%).

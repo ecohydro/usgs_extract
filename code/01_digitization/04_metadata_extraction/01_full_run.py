@@ -1,6 +1,7 @@
 """The full run: every page with a published table goes through the open model (prompt defaults.PROMPT_VERSION).
 
   python 01_full_run.py prepare     any Python; reads the Reducto page files once and writes the shard inputs
+  python 01_full_run.py prepare_missing   pages that had no Reducto file at first: tried again, one more shard
   python 01_full_run.py worker      vllm-rs Python on a GPU; any number of workers, on any nodes, at any time
   python 01_full_run.py status
 
@@ -55,6 +56,24 @@ def prepare():
     with open(RUN / "pages_without_table.csv", "w", newline="") as f:
         csv.writer(f).writerows([["doc_id", "page_number"]] + [[g[0], g[1]] for g in got if not g[2]])
     print("PREPARED", (len(keep) - 1) // SHARD_PAGES + 1, "shards", flush=True)
+
+
+def prepare_missing():
+    """Pages listed in pages_without_table.csv are tried again (page_input now also looks in the copy organized by
+    page). Those with a table become one more shard, which `worker` then reads; the list keeps the rest."""
+    todo = [(int(r["doc_id"]), int(r["page_number"])) for r in csv.DictReader(open(RUN / "pages_without_table.csv"))]
+    got = [(d, p) + tuple(reversed(page_input.page_text(d, p))) for d, p in todo]      # (doc, page, n_tables, text)
+    keep = [g for g in got if g[2]]
+    if keep:
+        s = len(shards())
+        with gzip.open(RUN / "in" / f"shard_{s:04d}.jsonl.gz", "wt", encoding="utf-8") as g:
+            for row in keep:
+                g.write(json.dumps(list(row)) + "\n")
+        with open(RUN / "pages.csv", "a", newline="") as f:
+            csv.writer(f).writerows([[d, p, k, s] for d, p, k, _ in keep])
+    with open(RUN / "pages_without_table.csv", "w", newline="") as f:
+        csv.writer(f).writerows([["doc_id", "page_number"]] + [[g[0], g[1]] for g in got if not g[2]])
+    print(f"PREPARED {len(keep)} more pages in one shard; {len(got) - len(keep)} still have no table", flush=True)
 
 
 def shards():
@@ -133,4 +152,4 @@ def status():
 
 
 if __name__ == "__main__":
-    {"prepare": prepare, "worker": worker, "status": status, "reread": reread}[sys.argv[1]]()
+    {"prepare": prepare, "prepare_missing": prepare_missing, "worker": worker, "status": status, "reread": reread}[sys.argv[1]]()

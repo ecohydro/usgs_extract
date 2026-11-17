@@ -91,9 +91,9 @@ validation2 set: tables,100,validation2_set_tables.csv
 "test, Stream Discharge, date_end_year",97.4% (rows where the page gives it: 84),scores/test_pipeline_v5_summary.csv
 "test, Stream Discharge, variables_overlap",98.7% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
 "location values dropped by the found-on-page check, both validation sets",3.5% (77 of 2181),on_page_check.csv
-full collection: pages,63524,full_run/metadata_run_summary.csv
-full collection: tables,100679,full_run/metadata_run_summary.csv
-full collection: rows,177015,full_run/metadata_run_summary.csv
+full collection: pages,63661,full_run/metadata_run_summary.csv
+full collection: tables,100825,full_run/metadata_run_summary.csv
+full collection: rows,178111,full_run/metadata_run_summary.csv
 full collection: unreadable_pages,65,full_run/metadata_run_summary.csv
 full collection: cut_off_pages,31,full_run/metadata_run_summary.csv
 full collection: tables_without_answer,131,full_run/metadata_run_summary.csv

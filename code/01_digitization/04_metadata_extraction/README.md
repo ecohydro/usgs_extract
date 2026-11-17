@@ -19,7 +19,7 @@ work on locations and is not part of this pipeline.
 
 | Step | Script | What it does | Writes |
 |---|---|---|---|
-| 1 | `01_full_run.py prepare`, `worker`, `reread` | The model reads every page with a published table (batch job `jobs/usgs_metadata_full.sh`); `reread` gives unreadable answers a second reading with longer limits | `full_run/pages.csv`, `full_run/pages_without_table.csv` (raw answers are not in git) |
+| 1 | `01_full_run.py prepare`, `worker`, `reread`, `prepare_missing` | The model reads every page with a published table (batch job `jobs/usgs_metadata_full.sh`); `reread` gives unreadable answers a second reading with longer limits; `prepare_missing` stages pages found only in the second copy of the Reducto files | `full_run/pages.csv`, `full_run/pages_without_table.csv` (raw answers are not in git) |
 | 2 | `02_build_metadata.py` | Builds the final table from the answers | `full_run/metadata_per_location.csv`, `full_run/metadata_run_summary.csv` |
 
 Shared code: `defaults.py` (settings), `schema.py` (columns, allowed values, order of location evidence),

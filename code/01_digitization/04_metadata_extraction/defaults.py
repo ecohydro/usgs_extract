@@ -8,6 +8,8 @@ OUT = REPO / "data/analysis/evaluation/metadata"
 CLUSTER = Path("/home/waves/data/usgs_extract")
 REDUCTO_CSV = CLUSTER / "ReductCSVs"          # {doc}/{doc}_page_{N}_table{k}.csv
 REDUCTO_JSON = CLUSTER / "ReductJson"         # {doc}/{doc}_page_{N}.json
+# Second copy, organized by page; used for reports that are missing from ReductJson (six reports, 155 pages).
+REDUCTO_JSON_BY_PAGE = Path("/home/waves/data/usgs_extract_data/digitized")   # {doc}/page_{N}/{doc}_page_{N}.json
 PAGE_IMAGES = (CLUSTER / "UpdatedDataDec", CLUSTER / "UpdatedDataJan")  # {doc}/{doc}_page_{N}.png
 
 PUBLISHED_TABLES = REPO / "data/analysis/table_level_metadata_published.csv"  # sampling frame
