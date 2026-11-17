@@ -1,0 +1,101 @@
+number,value,read_from
+test set: tables,200,test_set_tables.csv
+test set: reports,137,test_set_tables.csv
+"test set: tables drawn, Stream Discharge",80,test_set_tables.csv
+"test set: tables drawn, Groundwater",50,test_set_tables.csv
+"test set: tables drawn, Reservoir",35,test_set_tables.csv
+"test set: tables drawn, Small types",35,test_set_tables.csv
+test set: most tables from one report,3,test_set_tables.csv
+"weight of group in the overall score, Stream Discharge",83.8%,test_set_tables.csv (stratum_tables)
+"weight of group in the overall score, Groundwater",8.4%,test_set_tables.csv (stratum_tables)
+"weight of group in the overall score, Reservoir",3.9%,test_set_tables.csv (stratum_tables)
+"weight of group in the overall score, Small types",3.9%,test_set_tables.csv (stratum_tables)
+answer key: rows (locations),289,key/answer_key.csv
+answer key: tables checked by an author,20,key/checked.csv
+validation set: tables,100,validation_set_tables.csv
+validation2 set: tables,100,validation2_set_tables.csv
+"test, share found, n_locations",98.0% (95.5% to 99.6%),scores/test_pipeline_v5_ranges.csv
+"test, share found, location",92.0% (87.5% to 95.9%),scores/test_pipeline_v5_ranges.csv
+"test, share found, location_type",94.0% (90.0% to 97.2%),scores/test_pipeline_v5_ranges.csv
+"test, share found, water_source",91.0% (86.3% to 94.8%),scores/test_pipeline_v5_ranges.csv
+"test, share found, data_type",96.1% (92.7% to 98.5%),scores/test_pipeline_v5_ranges.csv
+"test, share found, date_start",83.3% (76.0% to 90.0%),scores/test_pipeline_v5_ranges.csv
+"test, share found, date_end",84.4% (77.0% to 91.1%),scores/test_pipeline_v5_ranges.csv
+"test, share found, temporal_resolution",95.2% (91.1% to 98.4%),scores/test_pipeline_v5_ranges.csv
+"test, share found, variables",92.1% (88.0% to 95.5%),scores/test_pipeline_v5_ranges.csv
+"test, share found, construction_date",80.6% (53.3% to 100.0%),scores/test_pipeline_v5_ranges.csv
+"test, share found, date_start_year",87.3% (80.9% to 93.3%),scores/test_pipeline_v5_ranges.csv
+"test, share found, date_end_year",95.9% (92.2% to 98.6%),scores/test_pipeline_v5_ranges.csv
+"test, share found, variables_overlap",97.6% (95.1% to 99.3%),scores/test_pipeline_v5_ranges.csv
+"test, share found, mean of 8 columns",91.0% (88.2% to 93.4%),scores/test_pipeline_v5_ranges.csv
+"test, all, n_locations",98.0% (rows where the page gives it: 200),scores/test_pipeline_v5_summary.csv
+"test, all, location",92.0% (rows where the page gives it: 275),scores/test_pipeline_v5_summary.csv
+"test, all, location_type",94.0% (rows where the page gives it: 275),scores/test_pipeline_v5_summary.csv
+"test, all, water_source",91.0% (rows where the page gives it: 234),scores/test_pipeline_v5_summary.csv
+"test, all, data_type",96.1% (rows where the page gives it: 289),scores/test_pipeline_v5_summary.csv
+"test, all, date_start",83.3% (rows where the page gives it: 222),scores/test_pipeline_v5_summary.csv
+"test, all, date_end",84.4% (rows where the page gives it: 222),scores/test_pipeline_v5_summary.csv
+"test, all, temporal_resolution",95.2% (rows where the page gives it: 278),scores/test_pipeline_v5_summary.csv
+"test, all, variables",92.1% (rows where the page gives it: 277),scores/test_pipeline_v5_summary.csv
+"test, all, construction_date",80.6% (rows where the page gives it: 19),scores/test_pipeline_v5_summary.csv
+"test, all, date_start_year",87.3% (rows where the page gives it: 222),scores/test_pipeline_v5_summary.csv
+"test, all, date_end_year",95.9% (rows where the page gives it: 222),scores/test_pipeline_v5_summary.csv
+"test, all, variables_overlap",97.6% (rows where the page gives it: 277),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, n_locations",90.0% (rows where the page gives it: 50),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, location",61.3% (rows where the page gives it: 101),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, location_type",74.5% (rows where the page gives it: 101),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, water_source",62.6% (rows where the page gives it: 74),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, data_type",82.8% (rows where the page gives it: 104),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, date_start",67.4% (rows where the page gives it: 66),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, date_end",64.0% (rows where the page gives it: 66),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, temporal_resolution",83.0% (rows where the page gives it: 101),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, variables",58.7% (rows where the page gives it: 101),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, construction_date",80.6% (rows where the page gives it: 19),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, date_start_year",70.3% (rows where the page gives it: 66),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, date_end_year",76.2% (rows where the page gives it: 66),scores/test_pipeline_v5_summary.csv
+"test, Groundwater, variables_overlap",88.1% (rows where the page gives it: 101),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, n_locations",97.1% (rows where the page gives it: 35),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, location",92.4% (rows where the page gives it: 38),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, location_type",97.1% (rows where the page gives it: 38),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, water_source",60.6% (rows where the page gives it: 38),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, data_type",97.1% (rows where the page gives it: 39),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, date_start",67.9% (rows where the page gives it: 32),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, date_end",92.9% (rows where the page gives it: 32),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, temporal_resolution",97.1% (rows where the page gives it: 38),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, variables",88.2% (rows where the page gives it: 38),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, date_start_year",85.7% (rows where the page gives it: 32),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, date_end_year",96.4% (rows where the page gives it: 32),scores/test_pipeline_v5_summary.csv
+"test, Reservoir, variables_overlap",100.0% (rows where the page gives it: 38),scores/test_pipeline_v5_summary.csv
+"test, Small types, n_locations",100.0% (rows where the page gives it: 35),scores/test_pipeline_v5_summary.csv
+"test, Small types, location",92.7% (rows where the page gives it: 47),scores/test_pipeline_v5_summary.csv
+"test, Small types, location_type",80.0% (rows where the page gives it: 47),scores/test_pipeline_v5_summary.csv
+"test, Small types, water_source",70.8% (rows where the page gives it: 33),scores/test_pipeline_v5_summary.csv
+"test, Small types, data_type",92.4% (rows where the page gives it: 56),scores/test_pipeline_v5_summary.csv
+"test, Small types, date_start",85.6% (rows where the page gives it: 40),scores/test_pipeline_v5_summary.csv
+"test, Small types, date_end",83.3% (rows where the page gives it: 40),scores/test_pipeline_v5_summary.csv
+"test, Small types, temporal_resolution",96.9% (rows where the page gives it: 50),scores/test_pipeline_v5_summary.csv
+"test, Small types, variables",82.4% (rows where the page gives it: 49),scores/test_pipeline_v5_summary.csv
+"test, Small types, date_start_year",91.1% (rows where the page gives it: 40),scores/test_pipeline_v5_summary.csv
+"test, Small types, date_end_year",91.1% (rows where the page gives it: 40),scores/test_pipeline_v5_summary.csv
+"test, Small types, variables_overlap",88.9% (rows where the page gives it: 49),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, n_locations",98.8% (rows where the page gives it: 80),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, location",94.9% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, location_type",96.2% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, water_source",95.3% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, data_type",97.5% (rows where the page gives it: 90),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, date_start",84.9% (rows where the page gives it: 84),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, date_end",85.6% (rows where the page gives it: 84),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, temporal_resolution",96.2% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, variables",95.9% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, date_start_year",88.5% (rows where the page gives it: 84),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, date_end_year",97.4% (rows where the page gives it: 84),scores/test_pipeline_v5_summary.csv
+"test, Stream Discharge, variables_overlap",98.7% (rows where the page gives it: 89),scores/test_pipeline_v5_summary.csv
+"location values dropped by the found-on-page check, both validation sets",3.5% (77 of 2181),on_page_check.csv
+full collection: pages,63524,full_run/metadata_run_summary.csv
+full collection: tables,100679,full_run/metadata_run_summary.csv
+full collection: rows,177015,full_run/metadata_run_summary.csv
+full collection: unreadable_pages,65,full_run/metadata_run_summary.csv
+full collection: cut_off_pages,31,full_run/metadata_run_summary.csv
+full collection: tables_without_answer,131,full_run/metadata_run_summary.csv
+full collection: pages_fixed_by_reread,147,full_run/metadata_run_summary.csv
+full collection: shards_missing,0,full_run/metadata_run_summary.csv

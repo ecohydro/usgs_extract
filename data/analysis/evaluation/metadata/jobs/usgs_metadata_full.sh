@@ -10,12 +10,12 @@
 #SBATCH --exclude=hpc-10.grit.ucsb.edu,hpc-13.grit.ucsb.edu,hpc-15.grit.ucsb.edu
 #SBATCH --output=/home/annaboser/hpc_logs/usgs_metadata_full_r%a_sbatch.log
 # USGS metadata, full run (Anna, 2026-11-15): every page with a published table through the open model.
-# Sixteen identical workers share one list of shards (code/05_evaluation/metadata/06_full_run.py worker): each claims
+# Sixteen identical workers share one list of shards (code/01_digitization/04_metadata_extraction/01_full_run.py worker): each claims
 # a free shard, reads it, writes it, repeats, and exits when every shard is written. Resumable: resubmit at any time.
 # Inputs and outputs are on the home share (data/analysis/evaluation/metadata/full_run); the model is on hpc-scratch.
 echo "=== sbatch job $SLURM_JOB_ID worker $SLURM_ARRAY_TASK_ID on $(hostname) $(date)"
 PY=/home/annaboser/miniconda3/envs/vllm-rs/bin/python
-CODE=/home/annaboser/usgs_extract/code/05_evaluation/metadata
+CODE=/home/annaboser/usgs_extract/code/01_digitization/04_metadata_extraction
 MODEL=/home/hpc-scratch/annaboser/usgs_models/hf/hub
 hop() {
   BAD="${BAD_NODES:+$BAD_NODES,}$SLURMD_NODENAME"
@@ -24,7 +24,7 @@ hop() {
   echo "RESUBMISSION FAILED"; exit 1
 }
 timeout 60 ls "$MODEL" >/dev/null 2>&1 || hop "MODEL FOLDER NOT REACHABLE"
-timeout 60 ls "$CODE/06_full_run.py" >/dev/null 2>&1 || hop "CODE NOT REACHABLE"
+timeout 60 ls "$CODE/01_full_run.py" >/dev/null 2>&1 || hop "CODE NOT REACHABLE"
 nvidia-smi --query-gpu=name,memory.total --format=csv,noheader || hop "NO GPU"
 [ "$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | head -1)" -ge 40000 ] || hop "GPU TOO SMALL (needs the 46 GB L40S)"
 timeout 600 $PY -c "import vllm, torch; assert torch.cuda.is_available()" >/dev/null 2>&1 || hop "PYTHON ENV OR CUDA CANNOT LOAD"
@@ -33,7 +33,7 @@ if squeue -h -u annaboser -n "$SLURM_JOB_NAME" -t RUNNING -o "%A %K" 2>/dev/null
   echo "AN OLDER $SLURM_JOB_NAME worker $SLURM_ARRAY_TASK_ID IS RUNNING: this copy exits $(date)"; exit 0
 fi
 cd "$CODE"
-timeout 23h $PY 06_full_run.py worker
+timeout 23h $PY 01_full_run.py worker
 rc=$?
 if [ $rc -eq 124 ]; then
   echo "WALL TIME: worker $SLURM_ARRAY_TASK_ID resubmitting $(date)"
