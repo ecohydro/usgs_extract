@@ -132,3 +132,42 @@ Python: `~/.venvs/usgs-eval/bin/python` (venv on top of conda env geofm-vlm, plu
 - Anna (ruling, after seeing all 21 borderline pages): "they're all tables except Corpus page 5647_page_158".
   Frozen in defaults.BORDERLINE_NOT_TABLE; false_alarm_estimate.py row 'anna_ruling' is the result of record.
   Recall unchanged (borderline listed pages were already kept as tables in 'cleaned').
+
+## 2026-11-16 Every listed page checked (Anna: "check them all")
+
+- Anna's worry: checking only the low-scoring listed pages removes misses but not hits, so recall can only go up.
+  Predicted effect from the 1-in-150 sample: about 0.1 point, at most 0.4. Anna: check them all, with helper
+  agents on a cheaper model (Sonnet), not Fable.
+- `list_check.py rest`: the 2,654 listed pages not yet labelled, 664 sheets (rest_NNN.png), blind to the score.
+  Eight Sonnet helpers, 83 sheets each -> pages_rest_labeled_part1..8.csv. Several helpers lost images from
+  context and labelled part of their range from an earlier look; one (part 7, sheets 498-552, 220 pages) gave
+  blanket labels: discarded and redone by two helpers writing after every sheet (part7a, 7b). Redo agreed with
+  the discarded pass on 219 of 220. Lesson: helpers must write labels after each sheet.
+- First labels: 2,493 table, 129 borderline, 32 no table. Blind second look by another helper (verify_*.png:
+  all 32 no-table pages, 16 pages one helper never saw, 80 random others): 124 of 128 agree, all 96 pages first
+  called table/borderline agree. 4 no-table pages called borderline by the second helper (well logs in 2907)
+  -> set to borderline (stay in the list). Final for the 2,654: 2,493 table, 133 borderline, 28 no table.
+  Not looked at by Claude (Fable) itself.
+- Neighbours of the 28 no-table pages (39 unlisted pages, one helper): 16 table, 16 no table, 6 borderline,
+  1 no image. 9 listed pages moved to the adjacent table by the same score-blind rule as before (2756: 7,
+  2225: 1, 52059: 1). Moves in total 27.
+- Now every scored listed page has a label: 3,127 table, 145 borderline, 73 no table (53 scored < 0.8, 20
+  scored >= 0.8; 62 of the 73 in report 2907). Borderline = almost all headed well logs with thickness and
+  depth columns (Anna's earlier ruling: tables); 141 of 145 score >= 0.8.
+- Recall, cleaned list, 3,272 pages, 139 reports: 0.75 -> 87.5% (84.0-90.7), 2,863 found;
+  0.8 -> 85.3% (81.5-88.5), 2,791 found. Before the full check: 87.7% / 85.5% on 3,291 pages
+  (saved as recall_curve_before_full_check.csv). If the 145 borderline pages were dropped too: 87.1% / 84.8%.
+- The no-table count among unchecked high-scoring pages was 19, as the sample predicted (about 18).
+- Not committed.
+
+## 2026-11-16 False-alarm samples brought to 60 and 300
+
+- Anna (via her methods-draft session): replace the two drawn pages that had no image (70038392_page_18 in the
+  no-table-back group, 70038392_page_195 in the table-back group) so the labelled groups are 60 and 300.
+- `reducto_false_alarms.replace`: same pool (flagged, score >= 0.75) and same Reducto group as the page
+  replaced, pages not drawn before, shuffled with seed SEED + 2, first page with an image taken:
+  52533_page_8 (no table back, score 0.85) and 70038396_page_394 (table back, score 0.999). Both first picks
+  had an image. Labelled blind by a Sonnet helper: 52533_page_8 no table (running text); 70038396_page_394
+  table (daily lake contents grid). No borderline, so Anna's ruling does not come into it.
+- Previous estimate kept as false_alarm_estimate_59_299.csv. New numbers are in false_alarm_estimate.csv
+  (row anna_ruling). Not committed.

@@ -80,6 +80,33 @@ def extend(pool, folder):
     sheets(pick, sub)
 
 
+def has_image(page):
+    doc = page.split("_page_")[0]
+    return any((D.CLUSTER / b / doc / f"{page}.png").exists() for _, b in BATCHES.values())
+
+
+def replace(pool, folder):
+    """Anna 2026-11-16: one replacement for each drawn page that has no image, so the labelled groups are 60
+    and 300. Same pool and group as the page replaced, pages not drawn before, fixed seed; the first page of
+    the shuffled group that has an image is taken."""
+    if (folder / "key_replace.csv").exists():
+        return
+    drawn = pd.concat([pd.read_csv(folder / "key.csv"), pd.read_csv(folder / "key_extra.csv")])
+    picks = []
+    for r in drawn[~drawn.page.map(has_image)].itertuples():
+        rest = pool[(pool.reducto_table == r.reducto_table) & ~pool.page.isin(drawn.page) &
+                    ~pool.page.isin([p.page for p in picks])].sample(frac=1, random_state=D.SEED + 2)
+        new = next(x for x in rest.itertuples(index=False) if has_image(x.page))
+        picks.append(new); print("replaces", r.page, "->", new.page)
+    pick = pd.DataFrame(picks).assign(replaces=list(drawn[~drawn.page.map(has_image)].page))
+    pick = pick.sample(frac=1, random_state=D.SEED).reset_index(drop=True)
+    pick.insert(0, "n", range(2001, 2001 + len(pick)))
+    pick.to_csv(folder / "key_replace.csv", index=False)
+    pick[["n", "page"]].assign(label="", note="").to_csv(folder / "sample_replace.csv", index=False)
+    sub = folder / "replace"; sub.mkdir(exist_ok=True)
+    sheets(pick, sub)
+
+
 def main():
     df = flagged_pages()
     df.to_csv(D.OUT / "corpus_flagged_pages.csv", index=False)
@@ -94,7 +121,7 @@ def main():
     pool = s[s.best_score >= min(D.THRESHOLDS_USED)]
     if (folder / "key.csv").exists():
         print("sample already drawn; not redrawn")
-        extend(pool, folder); return
+        extend(pool, folder); replace(pool, folder); return
     pick = pd.concat([pool[pool.reducto_table].sample(D.N_REDUCTO_SAMPLE, random_state=D.SEED),
                       pool[~pool.reducto_table].sample(D.N_REDUCTO_SAMPLE, random_state=D.SEED)])
     pick = pick.sample(frac=1, random_state=D.SEED).reset_index(drop=True)

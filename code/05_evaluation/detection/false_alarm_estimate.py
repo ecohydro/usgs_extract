@@ -20,6 +20,9 @@ def labelled():
     a = pd.read_csv(F / "key.csv").merge(pd.read_csv(F / "sample_labeled.csv")[["n", "label", "note"]], on="n")
     b = pd.read_csv(F / "key_extra.csv").merge(pd.read_csv(F / "sample_extra_labeled.csv")[["n", "label", "note"]], on="n")
     d = pd.concat([a, b])
+    if (F / "sample_replace_labeled.csv").exists():      # replacements for the pages with no image
+        c = pd.read_csv(F / "key_replace.csv").merge(pd.read_csv(F / "sample_replace_labeled.csv")[["n", "label", "note"]], on="n")
+        d = pd.concat([d, c])
     return d[~d.note.str.contains("no image", case=False, na=False)]
 
 
