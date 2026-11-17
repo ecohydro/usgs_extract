@@ -69,3 +69,6 @@ SCORES = OUT / "scores"                                          # {set}_{source
 
 TIDY_RULES = ("runoff_beside_discharge", "generic_water_source")   # three other rules removed 2026-11-15: they fired on 0 of 519 validation rows
 REQUIRE_ON_PAGE = True        # a copied location value is kept only if its characters are found in the page text
+
+# 95% ranges of the scores: tables resampled with replacement within their sampling group.
+RANGE_DRAWS, RANGE_SEED, RANGE_LEVEL = 5000, 20261116, 0.95

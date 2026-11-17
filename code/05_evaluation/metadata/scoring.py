@@ -177,3 +177,34 @@ def summarize(long):
                          share_wrong=g("wrong") / has if has else float("nan"),
                          share_extra=g("extra") / (g("extra") + g("both_blank")) if (g("extra") + g("both_blank")) else float("nan")))
     return pd.DataFrame(rows)
+
+
+def ranges(long, fields=None):
+    """95% range of `found` per field (group "all"), by resampling tables with replacement within each
+    sampling group. Also the range of the mean of `fields` (default: the eight graded columns without
+    construction_date), computed draw by draw. Returns field, found, low, high."""
+    import numpy as np
+    fields = fields or [f for f in S.GRADED if f != "construction_date"]
+    names = list(dict.fromkeys(long.field))
+    d = long[long.verdict.isin(["correct", "wrong", "missed"])]
+    tables = long[["sample_no", "stratum"]].drop_duplicates().sort_values("sample_no").reset_index(drop=True)
+    pos = {s: i for i, s in enumerate(tables.sample_no)}
+    has, ok = np.zeros((len(tables), len(names))), np.zeros((len(tables), len(names)))
+    for r in d.itertuples():
+        i, j = pos[r.sample_no], names.index(r.field)
+        has[i, j] += r.weight
+        ok[i, j] += r.weight * (r.verdict == "correct")
+    cols = [names.index(f) for f in fields]
+    point = ok.sum(0) / has.sum(0)
+    rng = np.random.default_rng(D.RANGE_SEED)
+    groups = [np.flatnonzero(tables.stratum.values == g) for g in sorted(tables.stratum.unique())]
+    draws = np.empty((D.RANGE_DRAWS, len(names) + 1))
+    for b in range(D.RANGE_DRAWS):
+        pick = np.concatenate([rng.choice(g, len(g)) for g in groups])
+        with np.errstate(invalid="ignore", divide="ignore"):
+            f = ok[pick].sum(0) / has[pick].sum(0)
+        draws[b] = np.append(f, f[cols].mean())
+    a = (1 - D.RANGE_LEVEL) / 2
+    lo, hi = np.nanquantile(draws, a, axis=0), np.nanquantile(draws, 1 - a, axis=0)
+    est = np.append(point, point[cols].mean())
+    return pd.DataFrame(dict(field=names + ["mean of " + str(len(fields)) + " columns"], found=est, low=lo, high=hi))

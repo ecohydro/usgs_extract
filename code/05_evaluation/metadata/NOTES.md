@@ -625,3 +625,15 @@ weighted to the published tables. Files: data/analysis/evaluation/metadata/score
   23894, 52119) have no folder in ReductJson / ReductCSVs on the cluster copy. They are on the published
   list (header text in table_headers.csv, Phi-4 metadata) with a blank row count, so they add 0 to the
   2,512,776 measurements. Needs the Reducto files from Annette to run them.
+
+## 2026-11-17: 95% ranges for the test scores
+
+- `scoring.ranges` + `09_ranges.py <run>` write `scores/{run}_ranges.csv` from the stored verdicts (the test
+  set is not scored again). Tables are resampled with replacement within their sampling group, 5,000 draws,
+  seed 20261116 (`defaults.RANGE_*`), 2.5 to 97.5 percentiles of `found`; the mean of the eight graded
+  columns (without construction_date) is taken draw by draw.
+- Asked for by the methods-draft session for the paper's Table M3; its own one-off numbers agree with these
+  to the decimal: location 92.0 (87.5-95.9), location_type 94.0 (90.0-97.2), water_source 91.0 (86.3-94.8),
+  data_type 96.1 (92.7-98.5), date_start 83.3 (76.0-90.0), date_end 84.4 (77.0-91.1), temporal_resolution
+  95.2 (91.1-98.4), variables 92.1 (88.0-95.5), mean of the eight 91.0 (88.2-93.4).
+  construction_date 80.6 (53.3-100.0) rests on 19 rows.
