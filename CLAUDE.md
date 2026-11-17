@@ -71,12 +71,12 @@ usgs_extract/
 â”‚   â”‚   â”‚   â”œâ”€â”€ 01_download.py
 â”‚   â”‚   â”‚   â”œâ”€â”€ 02_verify.py
 â”‚   â”‚   â”‚   â””â”€â”€ 03_preprocess.py
-â”‚   â”‚   â”œâ”€â”€ 02_table_detection/          â† COMPLETE (workflow); validation script MISSING
+â”‚   â”‚   â”œâ”€â”€ 02_table_detection/          â† COMPLETE; evaluation/ holds the recall and false-alarm evaluation (Nov 2026)
 â”‚   â”‚   â”‚   â””â”€â”€ 01_detect.py
-â”‚   â”‚   â”œâ”€â”€ 03_ocr/                      â† Reducto (final) + PaddleOCR (tested, not used)
+â”‚   â”‚   â”œâ”€â”€ 03_digitization/             â† Reducto (final) + PaddleOCR (tested, not used); evaluation/ inside (was 03_ocr)
 â”‚   â”‚   â””â”€â”€ 04_metadata_extraction/
-â”‚   â”‚       â”œâ”€â”€ 01_extract_metadata.py   â† LLM (Phi-4) extraction via UCSB HPC API
-â”‚   â”‚       â””â”€â”€ 02_validate_accuracy.ipynb â† produces manuscript/figures/metadata_accuracy.png
+â”‚   â”‚       â”œâ”€â”€ 01_full_run.py, 02_build_metadata.py â† open language model pipeline (Nov 2026; the Phi-4 script was removed)
+â”‚   â”‚       â””â”€â”€ evaluation/, location_validation/ â† metadata test set and scoring; location rebuild (Annette)
 â”‚   â”œâ”€â”€ 02_inventory/                    â† data inventory notebooks (all manuscript figures)
 â”‚   â”‚   â”œâ”€â”€ water_palette.py             â† shared colorblind-safe color mapping
 â”‚   â”‚   â”œâ”€â”€ 00_data_prep.ipynb           â† clean main_metadata.csv â†’ data/analysis/processed_metadata.parquet
@@ -119,8 +119,8 @@ usgs_extract/
 â”‚               â”œâ”€â”€ validation_curated_135.xlsx
 â”‚               â”œâ”€â”€ validation_random_135.xlsx
 â”‚               â”œâ”€â”€ validation_edge_cases_15.xlsx
-â”‚               â”œâ”€â”€ test_set_cat_grades.xlsx   â† per-category accuracy (input to 02_validate_accuracy.ipynb)
-â”‚               â”œâ”€â”€ test_set_indiv_grades.xlsx â† per-entry accuracy (input to 02_validate_accuracy.ipynb)
+â”‚               â”œâ”€â”€ test_set_cat_grades.xlsx   â† per-category accuracy (input to the Phi-4 accuracy notebook, removed Nov 2026)
+â”‚               â”œâ”€â”€ test_set_indiv_grades.xlsx â† per-entry accuracy (input to the Phi-4 accuracy notebook, removed Nov 2026)
 â”‚               â””â”€â”€ jsons/                     â† 260 per-page Reducto JSONs for validation sets
 â”‚
 â”œâ”€â”€ Data_Files/                        â† ARCHIVED; ALL digitized data lives here (Annette's side; pre-organization)
@@ -213,7 +213,7 @@ All publication figures are implemented in `code/02_inventory/`. Run notebooks i
 - `03_santa_barbara.ipynb` â€” Figs 11â€“18: SB county coverage + NWIS groundwater/stream discharge comparison
 - `04_santa_ynez.ipynb` â€” Fig 19, Tables 7â€“9: Santa Ynez stream order analysis
 
-Metadata accuracy figure (Fig 5) is in `code/01_digitization/04_metadata_extraction/02_validate_accuracy.ipynb`.
+Metadata accuracy figure (Fig 5): its notebook (`02_validate_accuracy.ipynb`, Phi-4 grades) was removed in Nov 2026 with the Phi-4 script; the paper now reports the new metadata pipeline (see "Methods Code and Draft, November 17, 2026" at the end).
 
 ### Step 3b: NWIS California Stream Site Inventory — COMPLETE
 `code/03_nwis_usgs/` contains scripts to download and compile all USGS NWIS stream discharge gauge sites for California. Separate from the digitization inventory; this is modern NWIS data used for cross-reference and comparison.
@@ -377,7 +377,7 @@ Want to start with Step 1 â€” scoping how many tables we're actually dealin
 | `code/02_inventory/02_spatial_overview.ipynb` | Figs 8â€“10: USA and California maps |
 | `code/02_inventory/03_santa_barbara.ipynb` | Figs 11â€“18: Santa Barbara County coverage and NWIS comparison |
 | `code/02_inventory/04_santa_ynez.ipynb` | Fig 19, Tables 7â€“9: Santa Ynez stream order analysis |
-| `code/01_digitization/04_metadata_extraction/02_validate_accuracy.ipynb` | Fig 5: metadata accuracy by category and test set |
+| `code/01_digitization/04_metadata_extraction/README.md` | New metadata pipeline and its evaluation; run order and source of every metadata number in the paper |
 | `data/analysis/processed_metadata.parquet` | Cleaned, parsed metadata output of 00_data_prep â€” input to all other inventory notebooks |
 | `data/analysis/spatial/` | Shapefiles for CA, SB county, USA states, Santa Ynez HUC8, rivers, lakes |
 | `legacy_ocr/usgs_extract/tableBbox.py` | Bbox visualization â€” may be useful when writing the validation script |
@@ -1771,7 +1771,7 @@ data/analysis/gw_candidates/ (3 PNGs + 3 CSVs). Ask Annette before committing.
   x-axis "Decade"; explain in caption (~15% of measurements are in tables running into a later decade; water years
   starting Oct of a decade's last year land in the earlier decade). A spread-over-years version was compared and dropped.
 - **Handoff to Anna (Nov 14):** metadata simplification + per-table evaluation continues on branch `evaluation`;
-  start prompt in `code/05_evaluation/metadata/START_HERE.md`. Today's work was committed to `evaluation`
+  the start prompt was removed in the Nov 17 tidy-up (code now in `code/01_digitization/04_metadata_extraction/`). Today's work was committed to `evaluation`
   (main is behind; merge later).
 - **Figure 2 (Nov 14):** `code/02_inventory/fig2_category_maps.py` -> `manuscript/figures/fig2_category_maps.png/.pdf`,
   counts `data/analysis/fig2_category_counts.csv`. Figure 1 tables + location required (ALL location classes:
@@ -1850,3 +1850,46 @@ data/analysis/gw_candidates/ (3 PNGs + 3 CSVs). Ask Annette before committing.
   curves (scope); figure numbering: Fig 1 measurements, Fig 2 category maps, Fig 3 NWIS comparison, Fig 4 Santa Ynez.
 - **Not committed since 311f15d:** Figures 2-4 scripts/outputs, page types (station_index/report_list), site_activity.py,
   printed-coordinate fix outputs, NWIS scripts, CLAUDE.md. Ask Annette before committing.
+
+
+## Methods Code and Draft — November 17, 2026 (Anna; branch `evaluation`, commit 0e3c801, not pushed)
+
+Anna wrote the methods section and its evaluations; the methods code was then tidied and reorganized.
+Annette's code (`02_inventory`, `03_nwis_usgs`, `04_vignettes`, `location_validation/`, `05_final_data_organization/`) was not touched.
+
+### Where things are now
+- `code/05_evaluation/` no longer exists. Each pipeline step holds its own evaluation:
+  `code/01_digitization/02_table_detection/evaluation/`, `code/01_digitization/03_digitization/evaluation/`
+  (`03_ocr` was renamed `03_digitization`), and `code/01_digitization/04_metadata_extraction/` (pipeline at the
+  top, `evaluation/` inside).
+- Each of those three folders has a `README.md` with the run order and a table mapping every number in the
+  paper to its script and output file, and a short `NOTES.md` of dated decisions and known limits.
+- Output files did not move: `data/analysis/evaluation/{detection,digitization,metadata}/`.
+- Methods figures M1 (pipeline flowchart) and M2 (one table through the pipeline):
+  `code/01_digitization/methods_figures/` → `manuscript/figures/methods_overview.png/.pdf`, `methods_example.png/.pdf`.
+  They are slides of a Claude Slides deck (link in that folder's README); `manuscript/README.md` lists all figures.
+- Methods draft with supplement (Claude Doc, Anna's): https://claude.ai/artifact/B5yfjMgLnP5rrP8Sn8xk1S.
+  To be copied into the shared Google Doc under "Methods".
+
+### Metadata extraction changed
+The paper's metadata step is now an open-weight language model (Qwen3.6-27B) run per page, returning one row per
+location per table: `01_full_run.py`, `02_build_metadata.py`, final table
+`data/analysis/evaluation/metadata/full_run/metadata_per_location.csv`. The Phi-4 script, its accuracy notebook and
+all Phi-4 scoring were removed on this branch (they remain on `main` and in git history). Annette's location rebuild
+and results figures still rest on the earlier Phi-4 metadata; she plans to switch to the new table.
+
+### Methods numbers in the draft (check the READMEs before quoting; they are the source)
+- Reports: 1,042 found, 629 (60%) available as scanned PDFs, 104,729 pages; 74,492 pages (71%) flagged for digitization.
+- Table detection: recall 85.3% (81.5–88.5) at threshold 0.8 and 87.5% (84.0–90.7) at 0.75, on 3,272 hand-checked
+  listed pages in 139 reports; false alarms among flagged pages 11.0% and 11.9%. The headline is the 0.8 figure (Anna).
+- Digitization: share of printed numbers right and under the right row and column, on 20 hand-typed pages (32 tables,
+  4,696 numbers), every number counting equally and kinds of table scaled by corpus pages (Anna): Reducto raw 96.1%
+  (93.5–98.3), Reducto converted to CSV 86.9% (80.7–92.9), PaddleOCR 1.2% (0.4–2.3).
+- Metadata: test set of 200 tables (289 rows); mean of eight fields 91% (88–93), from 83% (start date) to 96% (data type).
+- These replace the dissertation's methods figures (79% detection recall, 100% on 13 tables, 87% Phi-4 accuracy).
+
+### Open
+- Copy the methods and supplement into the shared Google Doc (needs a session with the Google Docs connector).
+- Annette to switch her figures and statistics to the new metadata table; the tribal screen is not yet applied to it.
+- 133 borderline listed pages in the detection check follow Anna's ruling on 21 examples without her having seen them
+  (recall would be 84.8% / 87.1% without all borderline pages); noted as a limit in the detection NOTES.
