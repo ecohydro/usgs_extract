@@ -3,9 +3,17 @@
 Produces (data/analysis/evaluation/digitization/summary/):
     by_page.csv      share of printed numbers in each outcome, per page
     by_kind.csv      mean over pages within each kind of table
-    overall.csv      corpus-wide figures: kinds weighted by their share of published pages, and
-                     by their share of recorded values (kind of a page = kind of its largest
-                     table), each with a 95% range from resampling pages within kind
+    by_kind_pooled.csv  every printed number in a kind counts equally (its test pages pooled)
+    overall.csv      corpus-wide figures, three weightings (column weighted_by), each with a 95%
+                     range from resampling pages within kind (kind of a page = kind of its
+                     largest table):
+                       pages            kinds weighted by share of published pages; each test
+                                        page counts equally within its kind
+                       values           kinds weighted by share of recorded values (project
+                                        value counts); each test page counts equally
+                       values_in_sample every printed number counts equally; a kind is scaled by
+                                        its share of published pages times the mean numbers per
+                                        test page of that kind (no project value counts used)
     kind_weights.csv the weights
     tables.csv       printed tables found / split / merged / missed; GriTS-style means
     extras.csv       output numbers that match nothing printed
@@ -52,21 +60,31 @@ def main():
     bk = bp.groupby(KEY + ["kind"])[cols].mean()
     bk["n_pages"] = bp.groupby(KEY + ["kind"]).size()
     bk.reset_index().to_csv(out / "by_kind.csv", index=False)
+    cnt = bp[cols].mul(bp.n_numbers, axis=0).join(bp[KEY + ["kind", "n_numbers"]])
+    pk = cnt.groupby(KEY + ["kind"])[cols + ["n_numbers"]].sum()
+    pk[cols] = pk[cols].div(pk.n_numbers, axis=0)
+    pk["n_pages"] = bp.groupby(KEY + ["kind"]).size()
+    pk.reset_index().to_csv(out / "by_kind_pooled.csv", index=False)
 
     W = kind_weights()
     W.reset_index().rename(columns={"index": "kind"}).to_csv(out / "kind_weights.csv", index=False)
     rng = np.random.default_rng(D.SEED)
     rows = []
-    for basis in ("pages", "values"):
-        w = W[basis]
+    def figure(per_kind, m, basis):
+        if basis == "values_in_sample":   # ratio of page-weighted mean counts per page
+            num = sum(W.pages[k] * (per_kind[k][m] * per_kind[k].n_numbers).mean() for k in D.KINDS)
+            return num / sum(W.pages[k] * per_kind[k].n_numbers.mean() for k in D.KINDS)
+        return sum(W[basis][k] * per_kind[k][m].mean() for k in D.KINDS)
+
+    for basis in ("pages", "values", "values_in_sample"):
         for (variant, system), g in bp.groupby(KEY):
-            est = {m: sum(w[k] * g[g.kind == k][m].mean() for k in D.KINDS) for m in cols}
-            boots = {m: [] for m in ("right_findable", "number_right_labels_aside")}
             per_kind = {k: g[g.kind == k] for k in D.KINDS}
+            est = {m: figure(per_kind, m, basis) for m in cols}
+            boots = {m: [] for m in ("right_findable", "number_right_labels_aside")}
             for _ in range(D.BOOTSTRAP_DRAWS):
                 samp = {k: v.iloc[rng.integers(0, len(v), len(v))] for k, v in per_kind.items()}
                 for m in boots:
-                    boots[m].append(sum(w[k] * samp[k][m].mean() for k in D.KINDS))
+                    boots[m].append(figure(samp, m, basis))
             r = {"weighted_by": basis, "variant": variant, "system": system, **est}
             for m in boots:
                 r[m + "_lo"], r[m + "_hi"] = np.percentile(boots[m], [2.5, 97.5])

@@ -227,3 +227,18 @@ the CSV converter (out of scope: code/01_digitization).
 values; HEADLINE_WEIGHT in defaults.py), page-weighted reported beside it. From summary/overall.csv,
 default (lenient) run: raw Reducto 96.5% (93.5-98.8) | published CSV 88.2% (82.7-92.5) | PaddleOCR
 1.1% (0.4-1.8); page-weighted 93.9 | 80.4 | 1.9; strict, value-weighted 88.8 | 81.1 | 1.0.
+
+**2026-11-16, third weighting `values_in_sample` (request relayed by Anna's methods-draft session;
+said to be her headline choice for the paper; NOT yet confirmed by Anna in this session, so
+HEADLINE_WEIGHT in defaults.py is unchanged).** Every printed number counts equally; a kind is
+scaled by its share of published pages times the mean numbers per test page of that kind:
+sum_k pages_k * mean(count of outcome) / sum_k pages_k * mean(n_numbers). Uses kind_weights
+'pages' only, not the project's value counts. In overall.csv (weighted_by = values_in_sample),
+ranges from the same 5,000 resamples of pages within kind. New summary/by_kind_pooled.csv: every
+number in a kind counts equally (its four pages pooled), all outcomes.
+Default (lenient) run, right and findable: raw Reducto 96.1% (93.5-98.4) | published CSV 86.9%
+(80.7-93.0) | PaddleOCR 1.2% (0.4-2.3); strict 91.1 | 82.3 | 1.1. Raw Reducto outcomes: row label
+wrong 0.0, column label wrong 1.0, both 0.0, incorrect 1.7, missed cell 0.2, whole table missed
+1.0. CSV: column label wrong 10.2. Agrees with the methods-draft session's independent one-off
+calculation to 0.1 point (range ends differ by resampling noise only). Not committed.
+Count of printed numbers in the final truth set is 4,696 (cells.csv), not the provisional 4,697 quoted earlier (before the truth corrections).
