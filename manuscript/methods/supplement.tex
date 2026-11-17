@@ -1,0 +1,202 @@
+\subsection*{Supplementary notes}
+
+\subsubsection*{Supplementary Note 1: Search terms}
+
+Reports were found by searching the USGS Publications Warehouse with the state filter set to California and the following 27 water-related terms: Wells, Borings, Underground, Waters, Water, Groundwater, Ground-water, Artesian, Flowing, Precipitation, Rain, Rainfall, Weather, Snow, Stream, Streams, Discharge, River, Rivers, Flow, Creek, Spring, Springs, Water-supply, Irrigation, Water-right, Water allocation. Two searches were run, one for reports published up to 1970 and one for 1970 to 1980, and the results were merged with duplicates removed. Reports on Santa Barbara County were also searched by the keyword ``Santa Barbara'', because some early reports carry no state tag.
+
+\subsubsection*{Supplementary Note 2: How each printed number was scored}
+
+The scoring script compares two grids of cells for each table: the hand transcription (the printed table) and a tool's output. The transcription also records which rows are header rows and which columns hold row labels. Merged cells are repeated in every row or column they span. The script never uses raw position: row 5 of the printed table is not assumed to be row 5 of the output, because a tool may add, drop, split or merge rows and columns.
+
+\textbf{Step 1: agreement between two cells.} For a printed cell \textit{a} and an output cell \textit{b}, the agreement \textit{s}(\textit{a}, \textit{b}) is 1 if the two hold the same text, the same number, or the same label after trivia is removed (case, spacing, punctuation, leader dots). Otherwise it is 0.8 times the share of characters the two have in common, and 0 if either cell is empty.
+
+\textbf{Step 2: lining up rows and columns.} Printed rows are paired with output rows, and printed columns with output columns, so that total agreement is as large as possible. A pairing \textit{M} must be one-to-one and keep the printed order (if row 3 is paired with output row 4, row 5 cannot be paired with output row 2); rows and columns may be left unpaired. For a matrix of scores \textit{S}, the best pairing is
+
+\begin{equation*}
+M^* = \arg\max_{M} \sum_{(i,k) \in M} S_{ik}
+\end{equation*}
+
+found exactly by dynamic programming, as in sequence alignment. Rows are paired first, with \textit{S} the agreement between printed row \textit{i} and output row \textit{k} (itself the best ordered pairing of their cells). Columns are then paired given the rows, and rows again given the columns, using
+
+\begin{equation*}
+V_{jl} = \sum_{(i,k) \in M_{\mathrm{rows}}} s(T_{ij}, O_{kl}), \qquad W_{ik} = \sum_{(j,l) \in M_{\mathrm{cols}}} s(T_{ij}, O_{kl})
+\end{equation*}
+
+where \textit{T} is the printed grid and \textit{O} the output grid. The two steps are run twice. This is the alignment used by the GriTS table metric (Smock et al. 2022). Its result is a map from each printed row \textit{i} to an output row \textit{r}(\textit{i}) and from each printed column \textit{j} to an output column \textit{c}(\textit{j}), or to nothing.
+
+\textbf{Step 3: the outcome of each printed number.} A printed number is a cell outside the header rows and label columns that holds exactly one number, with at most three other characters (a footnote mark, for example). For the printed number in row \textit{i} and column \textit{j}, the script looks at the output cell in row \textit{r}(\textit{i}) and column \textit{c}(\textit{j}):
+
+\begin{itemize}
+  \item \textit{Cell missing:} row \textit{i} or column \textit{j} has no partner in the output, or the output cell is empty.
+  \item \textit{Wrong number:} the output cell holds something else. Numbers are compared by value, so ``1,300'' equals ``1300''.
+  \item \textit{Right number:} the values are equal. The two labels are then checked.
+\end{itemize}
+
+The row label is right if the output cell in row \textit{r}(\textit{i}) and in the column paired with the printed label column holds the printed row label. The column header is right if the printed header of column \textit{j} (all header levels joined, top to bottom) equals the output's header for column \textit{c}(\textit{j}), read either from the output rows paired with the printed header rows or from every output row above the first data row. Labels are compared after removing case, spacing, punctuation, leader dots and footnote marks. The four combinations give the outcomes right and findable, wrong row label, wrong column header, and both labels wrong. A table printed without headers cannot have a wrong column header.
+
+\textbf{Step 4: pages with several tables.} Every printed table is compared with every output table on the page. An output table is linked to a printed table only if at least 3 cells, and at least 10\% of the filled cells of the smaller table, agree exactly. Each output cell can be credited to one printed table only; the printed table that agrees most with an output table claims its cells first. A printed number takes its best outcome over the linked output tables. If no output table is linked, every number in the printed table is counted as \textit{whole table missed}. A printed table is counted as split when two or more output tables each supply at least 10\% of its numbers.
+
+\textbf{Step 5: from pages to the reported shares.} For outcome \textit{o}, the reported share is
+
+\begin{equation*}
+\hat{p}_o = \frac{\sum_k w_k \, \bar{x}_{k,o}}{\sum_k w_k \, \bar{n}_k}
+\end{equation*}
+
+where \textit{k} runs over the five kinds of table, \textit{w} is the share of corpus pages of that kind, and the two bars are means over the four test pages of that kind: the number of printed numbers with outcome \textit{o} per page, and the number of printed numbers per page. Every printed number therefore counts equally within a kind, and kinds count in proportion to how many numbers they are expected to hold in the corpus. The 95\% ranges are the 2.5th to 97.5th percentiles of this share over 5,000 resamples, each drawing four pages with replacement within every kind.
+
+\textbf{Check of the scoring script.} We drew 100 outcomes, 5 from each combination of output and outcome that occurred, and Claude (Anthropic) compared each with the transcription and the output cells the script had used. 98 were correct, and none was wrong about whether a number was right and findable. The two errors had one cause (a small table credited with numbers from an unrelated table on the same page), which was fixed by the rule in Step 4 that an output cell is credited once.
+
+\subsubsection*{Supplementary Note 3: Prompt and data cleaning for metadata extraction}
+
+The prompt below was sent to the language model once for each page. The page text, with every table marked [TABLE n], replaced \{page\}.
+
+\begin{lstlisting}
+You read ONE scanned page of a historical USGS water report. The page text follows; every table is marked [TABLE n].
+For EACH table, list every location (site) the table reports data for, and describe it using ONLY words printed on this page.
+Copy names, numbers and location words exactly as printed. Never guess, convert, or use outside knowledge. Leave out any field the page does not give.
+
+How many locations
+- A table about one station, well, spring or reservoir has one location, even if it has many rows of dates.
+- A table whose rows (or columns) are different wells, springs or stations has one location per row (or column): list them all, in the printed order.
+- A table that holds no water data (index, contents, list of reports, column headings only, text set as a table) has one location with only "data_type": "Not Water Related".
+
+Which words belong to a table
+- Use the heading printed before the table (station or well heading), the table itself, and the rest of the page, in that order. On a page with several stations or wells, each table belongs to the last station or well heading printed before it.
+- If the table is a continuation and its site is not named on this page, give only what the page prints (for example the area in the running head).
+
+Fields (per location):
+- "coordinates": printed latitude and longitude, as printed.
+- "well_number": state well number, spring number or the report's own well number, as printed (write the full number if the page prints a short form under a group heading).
+- "station_number": USGS station (gauge) number, also in its short form printed before the station name ("11-1335.", "1680.", "308."). Always give it when it is printed, together with the station name. Not a report's own numbering such as "Station 15" or "Site 42".
+- "station_name": the full station name as printed: water body, relation and place ("Santa Ynez River near Lompoc, Calif.").
+- "township_range_section": land survey description as printed (also a land grant, "in Yokaya Grant").
+- "place_name": city, town, dam, bridge or other landmark the site is tied to. "place_relation": at / near / above / below / "3 miles north of".
+- "basin_or_area": groundwater basin, valley, river basin or study area named for this table (also from a running head).
+- "county", "state": only if printed on this page (not when the word only appears inside an agency or owner name).
+- "evidence_place": where the best location evidence is printed: "in table", "heading before table" or "elsewhere on page".
+- "water_source": name of the river, creek, canal, lake, reservoir or spring; for a well, the owner or well name as printed. Never a generic word such as "Groundwater" or "Well"; leave it out if no name is printed.
+- "data_type": one of ['Stream Discharge', 'Groundwater', 'Reservoir', 'Irrigation', 'Springs', 'Precipitation', 'Water Quality', 'Not Water Related', 'Other']. It names the kind of water the SITE is on, not what was measured:
+    a stream or river station is "Stream Discharge" also when the table gives temperature, sediment or chemical analyses;
+    a well is "Groundwater" also for chemical analyses; a lake or reservoir (contents, elevation, capacity table, inflow measured at the reservoir, lake samples) is "Reservoir";
+    a canal, ditch or diversion is "Irrigation"; a spring is "Springs"; a rain gauge is "Precipitation";
+    "Water Quality" only when the page does not say what kind of water the samples come from.
+- "date_start", "date_end": first and last measurement in THIS table for this location, as fine as printed: "1916", "1916-10" or "1916-10-01".
+    A water year (or "year ending Sept. 30") 1917 runs "1916-10" to "1917-09": never write just "1917" for a water year.
+    In a table with one row per water year, the first row labelled 1930 starts "1929-10" and the last row labelled 1950 ends "1950-09".
+    If the table is one block of a longer table (for example only April to June), give the dates of the rows in this block.
+    Dates printed without a year take the year from the table title or page heading. Not the station's period of record ("records available"), not the year a well was drilled. A capacity table has no dates.
+- "temporal_resolution": one of ['daily', 'monthly', 'annual', 'discrete', 'no_time_series'].
+    daily = a value for each day; monthly = one row or value per month; annual = one per year, also annual maximum/minimum tables, peaks above a base, and stream rating tables;
+    discrete = measurements on given dates (water levels, samples, field measurements), also when they are about a month apart; no_time_series = well logs, inventories, capacity tables, undated analyses.
+- "variables": list of what the table records, from ['discharge', 'runoff', 'gage_height', 'contents', 'elevation', 'water_level', 'well_yield', 'temperature', 'sediment', 'water_chemistry', 'precipitation', 'evaporation', 'well_construction', 'lithology', 'water_use', 'irrigated_area', 'other'].
+    Use "elevation" for the water-surface elevation or stage of a lake or reservoir and "gage_height" for a stream. Do not list a quantity that appears only in total or summary rows (runoff in acre-feet under a daily discharge table).
+    Depth, casing, diameter of a well = "well_construction"; a driller's log = "lithology".
+- "construction_date": wells only: year drilled or completed, if printed.
+
+Return ONLY a JSON list, one object per table, and inside it one object per location with only the fields the page gives:
+[{"table": 1, "locations": [{"station_name": "...", "data_type": "...", ...}]}, {"table": 2, ...}]
+
+PAGE:
+{page}
+\end{lstlisting}
+
+\textbf{Data cleaning after the prompt.} Three cleaning steps were applied to the model's answers.
+
+\begin{enumerate}
+  \item Location evidence not found in the page text was dropped (3.5\% of location values on the two validation sets, 77 of 2,181; nearly all were states and counties the model supplied without the page printing them). This guarantees that every piece of location evidence in the output is printed on the page.
+  \item ``Runoff'' was removed from the variables of daily and monthly tables that also list discharge. In these tables runoff appears only in summary rows, as a total of the discharge values.
+  \item Generic water-source words were blanked, because they are not names: ``groundwater'', ``well'', ``wells'', ``spring'', ``springs'', ``stream'', ``river'', ``reservoir'' and the ditto mark ``do.''.
+\end{enumerate}
+
+\subsubsection*{Supplementary Note 4: Rules for writing the metadata answer key}
+
+The answer key has one row per location per sampled table and records what the sampled page says. The rules below were given to the reader in writing. The written rules also covered counts of printed values, which are not reported here and are left out.
+
+\textbf{General rules}
+
+\begin{enumerate}
+  \item This page only. The reader works from the scan of the sampled page, never opens another page of the report, and never uses general knowledge to fill a gap. If the page does not give something, the field stays blank.
+  \item The key is written from the scan, never from the pipeline's output. The first and last lines of the digitized table are shown only so that the reader can tell which printed table was sampled (tables are numbered top to bottom).
+  \item Names, numbers and location words are copied exactly as printed, with no conversion and no lookup.
+  \item A field is a value, blank (the page does not give it), or ``cannot tell'' (it is on the page but cannot be read or decided), with the reason in a notes field.
+  \item One row per location the table reports data for. A table about one site has one row. A table that lists many sites (a well inventory, a list of springs, several stations as rows or columns) has one row per site; if there are more than five, the reader records the number of locations and gives full rows for the first, the last and three evenly spaced in between.
+  \item A table that holds no water data (index, contents, list of reports, text set as a table, a block holding only column headings) has one row with data type ``not water related'' and everything else blank.
+  \item The sampled table is exactly what the digitizer numbered as that table. If one printed table was split into blocks, only the sampled block counts, with its own dates. If several printed blocks were kept as one digitized table, all of them count.
+\end{enumerate}
+
+\textbf{Location evidence.} Every kind of evidence the page prints for the location is filled, each in its own field: coordinates, well number, station number, station name, township-range-section, place name and its relation, basin or area, county, state. Location and location type are not typed by the reader; they are taken from these fields in the order coordinates, well number, station number, station name, township-range-section, named place, basin or area, county, state.
+
+\begin{itemize}
+  \item Station number: USGS station numbers only. A report's own numbering (``Station 15'', ``Map no. 29'') goes in the notes.
+  \item Station name: any printed name of the form water body, relation, place, also when it is only a table title (``inflow into Crane Valley reservoir near North Fork, Cal.'').
+  \item Two places in one name (``at X, near Y''): both are recorded, in order. If the page gives several distances to places, the one in the station name is used.
+  \item A land grant (``in Yokaya Grant'') goes in township-range-section, as printed.
+  \item Well and spring numbers printed in short form under a group heading (``-26F1'' under ``5/3W-'') are written in full. Spring numbers go in the well number field.
+  \item County and state are recorded only if printed on the page. A state in a running head or table title counts as printed; a county that appears only inside an agency name does not.
+\end{itemize}
+
+\textbf{Water source.} The name of the river, creek, canal, lake, reservoir, spring or well (owner or well name), as printed.
+
+\textbf{Data type.} One of stream discharge, groundwater, reservoir, irrigation, springs, precipitation, water quality, not water related, other. It names the kind of water the site is on, not what was measured: a temperature or sediment table at a stream gauge is stream discharge. Inflow into a reservoir measured at the reservoir, and samples from a lake, are reservoir. A stream station next to a reservoir (``Boulder Creek at Cuyamaca Reservoir'') is stream discharge. A canal or ditch that diverts water is irrigation. Water quality is used only when the page does not say what kind of water it is.
+
+\textbf{Dates.} The first and last measurement in this table for this location, as fine as the page gives: 1916, 1916-10 or 1916-10-01. Never the station's period of record and never a construction year.
+
+\begin{itemize}
+  \item A water year 1917 is 1916-10 to 1917-09, also when some months are blank. When values are printed only for part of the year, the water year in the title is still given, unless the sampled block has its own dates.
+  \item A complete daily water-year table may be dated to the day or to the month; both are right.
+  \item A table of extremes (annual maximum or minimum with their dates) takes the printed dates of the first and last extreme.
+  \item A rating table takes the period it applies to. A capacity table has no dates.
+  \item A table whose first row is the last day of the previous period (Sept. 30 before an October to September table) is dated from its printed rows.
+  \item Construction date (wells only): the year or date drilled or completed, in the same format.
+\end{itemize}
+
+\textbf{Temporal resolution.} Daily, monthly, annual, discrete or no time series. Annual includes annual maximum and minimum tables, peaks above a base and stream rating tables. Discrete means measurements on given dates; a site with several measurement dates about a month apart is discrete unless the table is laid out as one value per month. No time series covers logs, inventories, capacity tables and undated analyses.
+
+\textbf{Variables.} Everything the table records for the location, from a fixed list: discharge, runoff, gage height, contents, elevation, water level, well yield, temperature, sediment, water chemistry, precipitation, evaporation, well construction, lithology, water use, irrigated area, other. A variable that appears only in summary rows (runoff in acre-feet under a daily discharge grid) is not listed. A different variable printed in the foot rows of a table (end-of-month elevation under a daily contents grid) is listed.
+
+\textbf{Continuation pages without column headings.} The reader records what the page prints. If the meaning of a column cannot be told from this page alone, the fields that depend on it are left blank; nothing is guessed from the look of the numbers.
+
+\subsection*{Supplementary tables}
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption*{\textbf{Supplementary Table 1.} Digitization results by kind of table. Every printed number in the four test pages of a kind counts equally. Outcome columns are for Reducto's raw output and add to 100\%; a wrong row label accounts for at most 0.6\% in any kind and is included in ``other''. The last two columns give the share right and findable for the other two outputs.}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X}
+\toprule
+\textbf{Kind of table} & \textbf{Pages} & \textbf{Printed numbers} & \textbf{Right and findable} & \textbf{Wrong column header} & \textbf{Wrong number} & \textbf{Cell missing} & \textbf{Table missed} & \textbf{Other} & \textbf{Reducto CSV, right and findable} & \textbf{PaddleOCR, right and findable} \\
+\midrule
+Daily & 4 & 1,396 & 98.4\% & 0.2\% & 1.4\% & 0.0\% & 0.0\% & 0.0\% & 95.8\% & 0.1\% \\
+Monthly & 4 & 560 & 94.8\% & 0.0\% & 4.3\% & 0.9\% & 0.0\% & 0.0\% & 4.1\% & 1.6\% \\
+Annual & 4 & 832 & 97.1\% & 0.0\% & 1.8\% & 0.6\% & 0.5\% & 0.0\% & 80.4\% & 26.1\% \\
+Discrete measurements & 4 & 384 & 80.5\% & 15.4\% & 3.4\% & 0.5\% & 0.0\% & 0.3\% & 80.5\% & 1.8\% \\
+No time series & 4 & 1,524 & 70.9\% & 0.0\% & 2.6\% & 1.7\% & 24.3\% & 0.6\% & 37.9\% & 0.0\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+In the discrete kind, the wrong column headers all come from one page; in the no-time-series kind, the missed table is one rotated table of 370 numbers.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption*{\textbf{Supplementary Table 2.} Share of metadata fields right on the test set (200 tables, 289 rows, one per location per table), for all rows and for each group of data types. The start year and end year rows compare years only.}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X>{\raggedleft\arraybackslash\hspace{0pt}}X}
+\toprule
+\textbf{Field} & \textbf{All (n = 289 rows)} & \textbf{Stream discharge} & \textbf{Groundwater} & \textbf{Reservoir} & \textbf{Other types} \\
+\midrule
+Location & 92\% & 95\% & 61\% & 92\% & 93\% \\
+Location type & 94\% & 96\% & 75\% & 97\% & 80\% \\
+Water source & 91\% & 95\% & 63\% & 61\% & 71\% \\
+Data type & 96\% & 98\% & 83\% & 97\% & 92\% \\
+Start date & 83\% & 85\% & 67\% & 68\% & 86\% \\
+End date & 84\% & 86\% & 64\% & 93\% & 83\% \\
+Start year & 87\% & 89\% & 70\% & 86\% & 91\% \\
+End year & 96\% & 97\% & 76\% & 96\% & 91\% \\
+Temporal resolution & 95\% & 96\% & 83\% & 97\% & 97\% \\
+Variables & 92\% & 96\% & 59\% & 88\% & 82\% \\
+\bottomrule
+\end{tabularx}
+\end{table}

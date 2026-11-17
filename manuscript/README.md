@@ -25,6 +25,11 @@ tables are Anna's (`code/01_digitization/`). Figures are saved in `figures/` (PN
 | Figure 3 at 0.5 km and 2 km site tolerance | `code/02_inventory/fig3_nwis_comparison.py` | `figures/supp_fig3_nwis_comparison_tol*.png/.pdf` |
 | Santa Ynez, Gibraltar annual flows | `code/04_vignettes/santa_ynez/gibraltar_plot.py` | `figures/santa_ynez_gibraltar_annual.png/.pdf` |
 
+## Methods text
+
+The methods section and its supplement are in `methods/` as LaTeX (`methods.tex`, `supplement.tex`), made
+from the methods draft by `methods/md_to_tex.py`; see `methods/README.md`.
+
 ## Tables
 
 | Table | Shows | Code | Output |
