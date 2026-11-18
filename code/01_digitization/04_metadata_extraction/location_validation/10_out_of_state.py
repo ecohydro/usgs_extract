@@ -23,7 +23,7 @@ same same-page rules with references for the states the page itself names.
    continuation from those) are dropped in 04_build_locations.py.
 Validation: each method vs tier-1 printed coordinates on out-of-state pages.
 
-Inputs:  data/analysis/page_blocks.parquet, data/metadata/main_metadata.csv,
+Inputs:  data/analysis/page_blocks.parquet, data/analysis/metadata_base.csv (meta_source.py),
          data/analysis/location_validation/{tier1_printed, locations}.csv
          downloads (cached): data/analysis/nwis_sites/by_state/{ST}_sites.csv,
          data/analysis/spatial/gnis/{ST}_Features_20210825.txt
@@ -84,7 +84,10 @@ def nwis_sites(st):
         else:
             d = pd.read_csv(io.StringIO('\n'.join([lines[0]] + lines[2:])), sep='\t', dtype=str)
             d.to_csv(p, index=False)
-        raw.unlink(missing_ok=True)
+        try:
+            raw.unlink(missing_ok=True)
+        except PermissionError:   # Dropbox may hold the file briefly
+            pass
     d = pd.read_csv(p, dtype={'site_no': str})
     d['state'] = st
     return d
@@ -102,21 +105,29 @@ B = pd.read_parquet(root / 'data/analysis/page_blocks.parquet', columns=['id', '
 B['id'] = B['id'].astype(str)
 text = B.groupby(['id', 'page_number'])['content'].apply(lambda s: ' '.join(s.fillna('').astype(str)))
 del B
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+from state_cues import field_state  # noqa: E402
+meta = load_meta(['id', 'page_number', 'watersource_name', 'location', 'state'])  # new metadata, 2026-11-18
+meta = meta[meta['id'].notna() & meta['page_number'].notna()].copy()
+meta['id'] = meta['id'].astype(int).astype(str)
+meta['page_number'] = meta['page_number'].astype(int)
+# metadata `state` field (2026-11-18): printed on the page (found-on-page check), so it is page evidence too
+meta['field_state'] = meta['state'].map(field_state)
+_fs = meta.dropna(subset=['field_state']).groupby(['id', 'page_number'])['field_state'].apply(set).to_dict()
+
 ps = []
 for (doc, page), t in text.items():
     st, ca = page_states(t)
+    fs = _fs.get((doc, int(page)), set())
+    st, ca = st | (fs - {'CA'}), ca or 'CA' in fs
     ps.append({'id': doc, 'page_number': int(page), 'states': ';'.join(sorted(st)), 'has_ca_cue': ca,
                'page_state_class': classify(st, ca)})
 ps = pd.DataFrame(ps)
 ps.to_csv(lv / 'page_states.csv', index=False)
 print('pages by state class:\n', ps['page_state_class'].value_counts().to_string())
 
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False,
-                   usecols=['id', 'page_number', 'watersource_name', 'location'])
-meta['meta_row'] = np.arange(len(meta))
-meta = meta[meta['id'].notna() & meta['page_number'].notna()].copy()
-meta['id'] = meta['id'].astype(int).astype(str)
-meta['page_number'] = meta['page_number'].astype(int)
 meta = meta.merge(ps, on=['id', 'page_number'], how='inner')
 
 
@@ -128,6 +139,11 @@ meta = meta.merge(ps, on=['id', 'page_number'], how='inner')
 #   either  page cues another state, row text names none -> a place name is used only if it
 #           resolves to ONE place across California + the page's states (04_build_locations)
 def row_class(r):
+    # the row's own metadata state field decides first (2026-11-18; 'Tenn', 'Wyo' had no page cue)
+    if r.field_state == 'CA':
+        return 'ca', ''
+    if isinstance(r.field_state, str):
+        return 'oos', r.field_state
     st, ca = page_states(f'{r.watersource_name}, {r.location}')
     pst = set(str(r.states).split(';')) - {''}
     if ca or r.page_state_class == 'ca':
@@ -147,7 +163,9 @@ print('metadata rows by row class:\n', meta['row_class'].value_counts().to_strin
 oos = meta[meta['page_state_class'].isin(['out_of_state', 'mixed']) & meta['row_class'].ne('ca')]
 print(f'metadata rows on out-of-state pages: {(meta.page_state_class == "out_of_state").sum():,}; '
       f'mixed pages: {(meta.page_state_class == "mixed").sum():,}')
-states = sorted({s for v in oos['states'] for s in v.split(';') if s})
+oos = meta[(meta['page_state_class'].isin(['out_of_state', 'mixed']) & meta['row_class'].ne('ca'))
+           | meta['row_class'].eq('oos')]
+states = sorted({s for v in list(oos['states']) + list(oos['row_states']) for s in str(v).split(';') if s and s != 'nan'})
 print('states cued:', ', '.join(states))
 
 # ------------------------------------------------------------------ 2. NWIS station numbers
@@ -183,7 +201,7 @@ print('\nNWIS station tier:\n', tn['status'].value_counts().to_string() if len(t
 
 # ------------------------------------------------------------------ 3. GNIS named places
 oo = oos  # rows of class oos / either on out-of-state or mixed pages
-gstates = sorted({s for v in oo['states'] for s in v.split(';') if s})
+gstates = states
 gn_by_state = {}
 for st in gstates:
     p = gnis_file(st)
@@ -241,9 +259,4 @@ val = pd.DataFrame(rows)
 val.to_csv(lv / 'tier_oos_validation.csv', index=False)
 print('\nValidation vs printed coordinates on out-of-state / mixed pages:\n', val.round(3).to_string(index=False))
 
-loc = pd.read_csv(lv / 'locations.csv', usecols=['meta_row', 'coord_method'])
-un = set(loc.loc[loc['coord_method'] == 'unlocated', 'meta_row'])
-for name, t in [('NWIS', tn), ('GNIS', tg)]:
-    if len(t):
-        print(f'{name}: new locations for currently unlocated rows: '
-              f'{t[(t.status == "ok") & t.meta_row.isin(un)].shape[0]:,}')
+# (summary vs the previous locations.csv removed 2026-11-18: row numbers changed with the new metadata)

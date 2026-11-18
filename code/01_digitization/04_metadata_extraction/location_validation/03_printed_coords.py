@@ -22,19 +22,22 @@ Two strictness levels are recorded:
            report how much the keyword rule might miss)
 tier 1 uses `keyword`.
 
-Inputs:  data/metadata/main_metadata.csv, data/digitized/{id}/page_{n}/*.json
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), data/digitized/{id}/page_{n}/*.json
 Outputs: data/analysis/location_validation/
            printed_coords_by_page.csv   every printed lat/long found, per page
-           tier1_printed.csv            one row per main_metadata row with an LLM
-                                        "actual" coordinate: match status
+           tier1_printed.csv            one row per metadata row with a coordinates field: status
 """
 
 import json
 import re
 from pathlib import Path
 
+import sys
+
 import numpy as np
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 root    = Path(__file__).resolve().parents[4]
 out_dir = root / 'data/analysis/location_validation'
@@ -108,9 +111,26 @@ def matches(value, printed, level):
     return min(ok, key=lambda p: abs(abs(value) - p[0]))[0]
 
 
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False)
-meta['meta_row'] = np.arange(len(meta))
+# ---- rows: the new per-location metadata (meta_source.py; 2026-11-18). Its `coordinates` field is the
+# coordinate text copied from the page (found-on-page check), e.g. 'Lat 37°29'20", long 119°18'10"'.
+# Tier 1 = that text parsed with the same rules as before (keyword lat/long, OCR-garbled values rejected).
+# The model's text is still only a pointer: the parsed values must also be found among the coordinates
+# printed on the page ('printed_match'); a value found only by the looser any-number rule is
+# 'printed_match_no_keyword'. actual_latitude/longitude hold the PRINTED values (validation column
+# names used by the other tiers).
+from meta_source import load_meta  # noqa: E402
+
+meta = load_meta(['id', 'page_number', 'water_type', 'coordinates'])
 meta = meta[meta['id'].notna() & meta['page_number'].notna()]
+
+
+def parse_field(c):
+    """(lat, lon) from a coordinates field, keyword form first, else two bare DMS numbers."""
+    lats, lons = extract(c)
+    kl = [v for v, _, src in lats if src == 'keyword'] or [v for v, _, _ in lats]
+    ko = [v for v, _, src in lons if src == 'keyword'] or [v for v, _, _ in lons]
+    return (kl[0] if kl else None), (ko[0] if ko else None)
+
 
 page_rows, recs = [], []
 for (doc, page), g in meta.groupby(['id', 'page_number']):
@@ -127,27 +147,25 @@ for (doc, page), g in meta.groupby(['id', 'page_number']):
                       'n_printed_lat': len(kw_lats), 'n_printed_lon': len(kw_lons),
                       'printed_lats': ';'.join(f'{v:.5f}' for v, _, _ in kw_lats),
                       'printed_lons': ';'.join(f'{-v:.5f}' for v, _, _ in kw_lons)})
-    for _, row in g[g['actual_latitude'].notna()].iterrows():
-        la, lo = row['actual_latitude'], row['actual_longitude']
+    for _, row in g[g['coordinates'].notna()].iterrows():
+        la, lo = parse_field(row['coordinates'])
         pla = plo = None
-        if text is None:
+        if la is None or lo is None:
+            status = 'field_unparsed'          # garbled / incomplete / not lat-long (e.g. a grid number)
+        elif text is None:
             status = 'no_page_text'
-        elif pd.isna(lo):
-            status = 'actual_incomplete'
         elif (pla := matches(la, lats, 'keyword')) and (plo := matches(lo, lons, 'keyword')):
             status = 'printed_match'
         elif (pla := matches(la, lats, 'any')) and (plo := matches(lo, lons, 'any')):
             status = 'printed_match_no_keyword'
-        elif kw_lats or kw_lons:
-            status = 'printed_other_values'     # page prints coords, but not these
-            pla = plo = None
         else:
-            status = 'not_printed'
+            status = 'not_on_page'
             pla = plo = None
         recs.append({'meta_row': row['meta_row'], 'id': doc, 'page_number': page,
-                     'water_type': row['water_type'], 'actual_latitude': la,
-                     'actual_longitude': lo, 'tier1_status': status,
-                     'printed_latitude': pla, 'printed_longitude': -plo if plo else None})
+                     'water_type': row['water_type'], 'coordinates': row['coordinates'],
+                     'tier1_status': status, 'printed_latitude': pla,
+                     'printed_longitude': -plo if plo else None,
+                     'actual_latitude': pla, 'actual_longitude': -plo if plo else None})
 
 pages = pd.DataFrame(page_rows)
 pages.to_csv(out_dir / 'printed_coords_by_page.csv', index=False)
@@ -156,6 +174,6 @@ t1.to_csv(out_dir / 'tier1_printed.csv', index=False)
 
 print(f'Pages scanned: {len(pages):,}  (with page text: {pages["has_text"].sum():,}; '
       f'printing >=1 keyword lat AND lon: {((pages.n_printed_lat > 0) & (pages.n_printed_lon > 0)).sum():,})')
-print(f'\nLLM "actual" rows: {len(t1):,}')
+print(f'\nRows with a coordinates field: {len(t1):,}')
 print(t1['tier1_status'].value_counts().to_string())
 print('\nShare by status:\n', t1['tier1_status'].value_counts(normalize=True).round(3).to_string())

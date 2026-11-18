@@ -1,0 +1,79 @@
+agreement,tables,group,share
+same range,71994,all,0.7365868631062001
+off by one (water year),12136,all,0.12416615510538162
+same start,3911,all,0.040014323715981175
+both undated,2690,all,0.027521997135256805
+only ours dated,2460,all,0.025168815224063844
+overlap,2395,all,0.02450378555350931
+only new dated,1727,all,0.017669326785348886
+no overlap,427,all,0.004368733374258236
+off by one (water year),79,,0.541095890410959
+same range,51,,0.3493150684931507
+overlap,8,,0.0547945205479452
+only new dated,5,,0.03424657534246575
+same start,2,,0.0136986301369863
+only ours dated,1,,0.00684931506849315
+same range,7,Evaporation,1.0
+same range,3381,Groundwater,0.4344641480339244
+both undated,1869,Groundwater,0.24016962220508867
+same start,671,Groundwater,0.08622462092007196
+only new dated,642,Groundwater,0.08249807247494217
+only ours dated,561,Groundwater,0.07208943716268311
+overlap,350,Groundwater,0.04497558468260087
+no overlap,165,Groundwater,0.02120277563608327
+off by one (water year),143,Groundwater,0.0183757388846055
+same range,4554,Irrigation,0.8083067092651757
+off by one (water year),621,Irrigation,0.11022364217252396
+same start,182,Irrigation,0.03230386936457224
+overlap,99,Irrigation,0.01757188498402556
+both undated,80,Irrigation,0.014199503017394392
+only new dated,68,Irrigation,0.012069577564785232
+only ours dated,20,Irrigation,0.003549875754348598
+no overlap,10,Irrigation,0.001774937877174299
+same range,38,Other,0.5671641791044776
+both undated,11,Other,0.16417910447761194
+only new dated,9,Other,0.13432835820895522
+only ours dated,3,Other,0.04477611940298507
+overlap,2,Other,0.029850746268656716
+same start,2,Other,0.029850746268656716
+off by one (water year),2,Other,0.029850746268656716
+same range,238,Precipitation,0.5748792270531401
+same start,64,Precipitation,0.15458937198067632
+overlap,34,Precipitation,0.0821256038647343
+only new dated,29,Precipitation,0.07004830917874397
+off by one (water year),19,Precipitation,0.04589371980676329
+both undated,14,Precipitation,0.033816425120772944
+only ours dated,10,Precipitation,0.024154589371980676
+no overlap,6,Precipitation,0.014492753623188406
+same range,3096,Reservoir,0.7288135593220338
+only ours dated,581,Reservoir,0.1367702448210923
+off by one (water year),283,Reservoir,0.0666195856873823
+same start,94,Reservoir,0.022128060263653482
+both undated,90,Reservoir,0.0211864406779661
+only new dated,47,Reservoir,0.011064030131826741
+overlap,44,Reservoir,0.010357815442561206
+no overlap,13,Reservoir,0.0030602636534839923
+same range,494,Springs,0.6121437422552665
+both undated,168,Springs,0.20817843866171004
+only ours dated,80,Springs,0.09913258983890955
+only new dated,26,Springs,0.0322180916976456
+same start,13,Springs,0.0161090458488228
+overlap,12,Springs,0.01486988847583643
+off by one (water year),8,Springs,0.009913258983890954
+no overlap,6,Springs,0.007434944237918215
+same range,59779,Stream Discharge,0.7682293674660087
+off by one (water year),10939,Stream Discharge,0.14057881615133525
+same start,2859,Stream Discharge,0.03674146040558254
+overlap,1835,Stream Discharge,0.023581874726912894
+only ours dated,1160,Stream Discharge,0.014907343151617961
+only new dated,738,Stream Discharge,0.009484154522322461
+both undated,289,Stream Discharge,0.003713984630015164
+no overlap,215,Stream Discharge,0.002762998946205053
+same range,356,Water Quality,0.4336175395858709
+both undated,169,Water Quality,0.20584652862362973
+only new dated,163,Water Quality,0.19853836784409257
+only ours dated,44,Water Quality,0.0535931790499391
+off by one (water year),42,Water Quality,0.05115712545676005
+same start,24,Water Quality,0.029232643118148598
+no overlap,12,Water Quality,0.014616321559074299
+overlap,11,Water Quality,0.013398294762484775

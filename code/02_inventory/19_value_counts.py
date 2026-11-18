@@ -1,5 +1,16 @@
 """
-Per-table count of recorded VALUES, a better measurement estimate than CSV row counts.
+Per-table count of MEASUREMENTS (estimate). Definitions follow the answer key of the metadata evaluation
+(code/01_digitization/04_metadata_extraction/evaluation/KEY_FORMAT.md; Annette 2026-11-18: count measurements
+only, not the accompanying values): a measurement is a printed value of a measured variable (discharge, gage
+height, contents, water level, each water-quality result, ...). Not counted: dates, identifiers, site
+descriptions (depth of well, altitude, ...), summary rows (totals, means, maxima, minima) and conversion /
+summary COLUMNS computed from the table's own values (runoff in acre-feet or inches beside discharge,
+second-foot-days, per square mile, change in contents, tons per acre-foot / per day beside mg/l).
+"No flow" / "Dry" cells are measurements. Rating and capacity tables: every printed point counts.
+Output column n_measurements (n_values kept as the same number for older readers). Rows per table are no
+longer reported (2026-11-18).
+
+Earlier note (2026-11-04): CSV row counts undercount measurements.
 
 Why: number_rows (one per printed line) undercounts measurements. A daily USGS table has one
 row per day and one column per month, so a row holds up to 12 values. A 3,000-table sample
@@ -59,6 +70,14 @@ EXCLUDE_HEADER = re.compile(
     r'hour|time|location|name|remarks?|use|type|period|record|side|'
     r'difference|differ-?\s*ence|distance|apart|ratio|deviation|regression|coefficient|equation)\b'
     r'|^\W*totals?\W*$')  # (hand check 2026-11-04: derived / site-description columns)
+# conversion / summary columns computed from the table's own values (key rules, 2026-11-18)
+SUMMARY_COL = re.compile(r'(?i)runoff|second[\s-]*f(?:oo|ee)t[\s-]*days?|sec\.?[\s-]*ft\.?[\s-]*days?|cfs[\s-]*days?|'
+                         r'per\s+sq(?:uare)?\.?\s*mi|change\s+in\s+(?:contents|storage)|'
+                         r'tons\s+per\s+(?:acre|day)|depth\s+in\s+inches')
+ACRE_FEET = re.compile(r'(?i)acre[\s-]*f(?:ee|oo)t|ac\.?[\s-]*ft')
+ACRE_FEET_MEASURED = re.compile(r'(?i)content|storage|capacity|diver|pump|use|irrigat|deliver|release|spill|draft')
+DISCHARGE_HEAD = re.compile(r'(?i)discharge|second[\s-]*feet|sec\.?[\s-]*ft|cfs|cubic\s+feet\s+per')
+TEXT_MEAS = re.compile(r'(?i)^\W*(no\s+flow|dry)\W*$')
 KEEP_HEADER = re.compile(r'(?i)depth\s+to\s+water|water\s+level|gage\s+height|discharge|stage|'
                          r'adsorption|sodium')  # "sodium adsorption ratio" is a measurement
 # a cell that is a date ("Nov. 17", "9, 1961", "1929-36") holds no measurement
@@ -123,8 +142,12 @@ def metrics(path: Path, caption: str = '') -> dict:
 
     # column decisions
     excluded = set()
+    has_discharge = any(DISCHARGE_HEAD.search(h) for h in hdr)
     for j in range(1, ncol):
         h = re.sub(r'(?i)unnamed:\s*\d+', '', hdr[j])
+        if SUMMARY_COL.search(h) or (has_discharge and ACRE_FEET.search(h) and not ACRE_FEET_MEASURED.search(h)):
+            excluded.add(j)  # conversion / summary column (key rule)
+            continue
         if DAY_HEAD.match(h):
             excluded.add(j)  # repeated day-label column of a split daily grid ("Day.1")
             continue
@@ -145,7 +168,7 @@ def metrics(path: Path, caption: str = '') -> dict:
         for j in range(1, min(len(r), ncol)):
             if j in excluded:
                 continue
-            k = 0 if (not is_daily and is_date_cell(r[j])) else len(tokens(r[j]))
+            k = 0 if (not is_daily and is_date_cell(r[j])) else (len(tokens(r[j])) or int(bool(TEXT_MEAS.match(r[j]))))
             n_values += k
             n_merged += k > 1
             col_counts[j] = col_counts.get(j, 0) + k
@@ -168,7 +191,7 @@ def metrics(path: Path, caption: str = '') -> dict:
         rec = {'cal_month_cols': cols, 'cal_exact_cols': exact, 'cal_expected': exp, 'cal_found': found}
 
     return {'n_data_rows': len(data), 'n_summary_rows': sum(summary), 'n_cols': ncol,
-            'n_excluded_cols': len(excluded), 'n_values': n_values, 'n_merged_cells': n_merged,
+            'n_excluded_cols': len(excluded), 'n_measurements': n_values, 'n_values': n_values, 'n_merged_cells': n_merged,
             'is_daily_grid': is_daily, 'resolution': resolution, 'resolution_evidence': evidence,
             'n_summary_values': n_summary_values, **rec}
 
@@ -196,21 +219,21 @@ def scan():
 
 def summarize(v):
     key = ['doc_id', 'page_number', 'table_number']
-    pub = pd.read_csv(A / 'table_level_metadata_published.csv', usecols=key + ['number_rows', 'water_type_final'])
-    trib = pd.read_csv(A / 'tribal_lands/tribal_screen_pages.csv')
-    trib = trib[trib.withhold.astype(bool)].rename(columns={'id': 'doc_id'})[['doc_id', 'page_number']]
-    p = pub.merge(v, on=key, how='left')
-    p['withheld'] = p.set_index(['doc_id', 'page_number']).index.isin(
-        trib.set_index(['doc_id', 'page_number']).index)
-
+    pub = pd.read_csv(A / 'table_level_metadata_published.csv', usecols=key + ['water_type_final'])
+    p = pub.merge(v[key + ['n_measurements', 'is_daily_grid']], on=key, how='left')
+    trib_f = A / 'tribal_lands/tribal_screen_pages.csv'
+    if trib_f.exists():
+        trib = pd.read_csv(trib_f)
+        trib = trib[trib.withhold.astype(bool)].rename(columns={'id': 'doc_id'})[['doc_id', 'page_number']]
+        p['withheld'] = p.set_index(['doc_id', 'page_number']).index.isin(trib.set_index(['doc_id', 'page_number']).index)
+    else:
+        p['withheld'] = False
     rows = []
     for scope, d in [('published', p), ('catalog (published minus tribal)', p[~p.withheld]),
                      ('tribal withheld', p[p.withheld])]:
         for wt, g in [('ALL', d)] + list(d.groupby('water_type_final')):
             rows.append({'scope': scope, 'water_type': wt, 'tables': len(g),
-                         'rows (number_rows)': int(g.number_rows.sum()),
-                         'values': int(g.n_values.sum()),
-                         'values_per_row': round(g.n_values.sum() / max(g.number_rows.sum(), 1), 2),
+                         'measurements': int(g.n_measurements.sum()),
                          'daily_grid_tables': int(g.is_daily_grid.fillna(False).astype(bool).sum())})
     s = pd.DataFrame(rows)
     s.to_csv(A / 'table_value_counts_summary.csv', index=False)

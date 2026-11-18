@@ -60,3 +60,11 @@ data/analysis/nwis_sites/years_cache/
 data/analysis/manual_review/new_metadata_gaps/rerun_for_anna/pages/
 data/analysis/manual_review/new_metadata_gaps/blank_water_type_review/pages/
 
+data/analysis/manual_review/earliest_records_new/pngs/
+
+# 2026-11-18 new-metadata derived files: large and/or contain tribal-land rows; rebuild with
+# 00a_metadata_base.py, 22_out_of_state.py
+data/analysis/metadata_base.csv
+data/analysis/table_level_metadata_published_ca.csv
+data/analysis/out_of_state/out_of_state_tables.csv
+data/analysis/manual_review/new_metadata_gaps/rerun_for_anna/pages.zip

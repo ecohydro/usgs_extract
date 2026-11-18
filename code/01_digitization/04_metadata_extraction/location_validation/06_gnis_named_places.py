@@ -23,7 +23,7 @@ e.g. "Arkansas River at Poncha Creek" (Colorado) was matched to a California nam
 
 Run on ALL rows; validated against tier-1 printed coordinates by sub-method.
 
-Inputs:  data/metadata/main_metadata.csv, data/digitized/.../*.json,
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), data/digitized/.../*.json,
          data/analysis/spatial/gnis/CA_Features_20210825.txt,
          data/analysis/location_validation/tier1_printed.csv
 Output:  data/analysis/location_validation/tier3b_gnis.csv, tier3b_gnis_validation.csv
@@ -51,9 +51,10 @@ def candidates(name, classes=None):
     return gnis_utils.candidates(gn, name, classes)
 
 
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False,
-                   usecols=['id', 'page_number', 'watersource_name', 'location'])
-meta['meta_row'] = np.arange(len(meta))
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+meta = load_meta(['id', 'page_number', 'watersource_name', 'location'])  # new metadata, 2026-11-18
 meta = meta[meta['id'].notna() & meta['page_number'].notna()]
 
 recs = []
@@ -104,8 +105,4 @@ val.to_csv(lv / 'tier3b_gnis_validation.csv')
 print(f'\nValidation vs printed coords (n={len(v):,}): median {v.err_km.median():.1f} km; '
       f'<=5 km {np.mean(v.err_km <= 5):.0%}; <=10 km {np.mean(v.err_km <= 10):.0%}; >25 km {np.mean(v.err_km > 25):.1%}')
 print(val.round(3).to_string())
-loc = pd.read_csv(lv / 'locations.csv')
-un = set(loc.loc[loc['coord_method'] == 'unlocated', 'meta_row'])
-new = t3[(t3['t3b_status'] == 'ok') & t3['meta_row'].isin(un)]
-print(f'\nNew locations for currently unlocated rows: {len(new):,}')
-print(new['kind'].value_counts().to_string())
+# (summary vs the previous locations.csv removed 2026-11-18: row numbers changed with the new metadata)

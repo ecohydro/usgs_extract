@@ -2075,3 +2075,88 @@ and results figures still rest on the earlier Phi-4 metadata; she plans to switc
 - Annette to switch her figures and statistics to the new metadata table; the tribal screen is not yet applied to it.
 - 133 borderline listed pages in the detection check follow Anna's ruling on 21 examples without her having seen them
   (recall would be 84.8% / 87.1% without all borderline pages); noted as a limit in the detection NOTES.
+
+## Session Log — November 18, 2026 — SWITCH TO THE NEW METADATA (RESUME HERE)
+Decision (Annette): the Phi-4 metadata is no longer used. Every analysis is rebuilt (same methods) on Anna's
+`data/analysis/evaluation/metadata/full_run/metadata_per_location.csv` (one row per location per table).
+Old outputs archived in `archive/2026-11-18_before_new_metadata/` (git-ignored). Do not reconcile with old numbers.
+- **Base table** `code/02_inventory/00a_metadata_base.py` -> `data/analysis/metadata_base.csv` (178,111 rows,
+  100,825 tables, 586 docs): water_type (9 categories; blanks fixed by page rule + Annette's grades in
+  manual_review/new_metadata_gaps/blank_water_type_review/; Evaporation -> Other, or Reservoir at a reservoir),
+  Anna's dates -> year_start/year_end/date_status (1800 <= year <= publication year), construction_year.
+  Dates use Anna's values and accuracy (her keys: start exact 86% vs our parser 80%); our table dates not used.
+- 131 tables with no usable answer (149 incl. tables missing entirely) are corrupted and cannot be rerun
+  (Anna's methods) -> excluded for good. Published = 100,694 tables.
+- **Locations** rebuilt with the same tiers; rows read via `location_validation/meta_source.py`.
+  Tier 1 parses the metadata `coordinates` field and keeps it only if printed on the page.
+  New: Anna's `state` field (found-on-page) is row-level state evidence (`state_cues.field_state`): validated vs
+  printed coords, non-CA field -> outside CA 95% (2,574/2,718), CA field -> inside 99.9%.
+  **Continuation owner-name rule OFF** (`08_continuation.py OWNER_RULE=False`): hold-out on new metadata
+  68% <=2 km / 16% >10 km (was 73% / 5%); canal gauges + owners with many wells. Continuation adds 0 rows
+  (was 419). **Annette may revisit if groundwater-well locations are poor** (idea, untested: GW rows whose
+  names contain no number). B118 basin check now 73% inside (was 82%).
+  locations.csv: precise 95,868, approximate 20,346, basin 2,079, conflict 1,137, unlocated 58,681 of 178,111.
+- **Measurements** (19_value_counts.py) count measured values only, rules matched to Anna's answer-key
+  definitions (no summary/conversion columns, "No flow"/"Dry" count). Published 18.03M; catalog 17.47M.
+- **Table level**: water type = majority of locations (tie -> first location); 668 multi-type tables.
+- **Classification change to note:** the new model types canal/ditch/flume records as Irrigation (Phi-4: Stream
+  Discharge): 5,617 Irrigation tables, 1.08M measurements; 4,587 were Stream Discharge before. A few are real
+  streams (model errors). Not changed.
+- **Tribal screen from scratch:** 2,232 pages withheld, 233 docs, 3,374 published tables, 555,440 measurements
+  (3.1%); 173 areas (91 in CA) — the jump from ~115 comes from newly located out-of-state rows. Copies in
+  data/withheld_tribal resynced. Annette: publish a copy of metadata_per_location.csv minus tribal rows (TODO).
+- **Paper numbers now:** stream +447 previously-ungauged HUC12 (+36%; restored 1,599 vs NWIS 1,245); GW +117
+  (+8%). 0.5/2 km: +451 / +442. Restored sites (B1) stream 4,348, GW 3,680. Sites active before 1900: stream
+  NWIS 26 vs restored 94; GW 1 vs 9. Earliest restored: stream 1861, GW 1900 (NOT reviewed).
+  Figure 1 total (CA) 15,896,548 measurements; all locations 16,928,816. Catalog 97,320 tables, 583 docs.
+- Figures regenerated: 1, 2, 3 (+0.5/2 km), 4. Figure 5 (Solano) parses report pages directly; unchanged.
+- **Earliest-record review (Annette):** `data/analysis/manual_review/earliest_records_new/earliest_pages_review.csv`
+  (121 pages + pngs/, git-ignored; `validation/earliest_records_review_new.py`). Old Phi-4-era verdicts are in
+  `earliest_records_review_phi4.csv` (hint only). When graded save as `manual_review/earliest_records_review.csv`
+  (paper_filters.apply_review reads it), then rerun 08, Figure 3, Figure 1.
+- Not re-run: 09_sgma, dam scripts, county_spatial_join, HydroShare (deferred). Docs to update: user guide,
+  catalog_key.txt (new columns: water_types_in_table, n_locations, variables, construction_year_min/max,
+  temporal_resolution from the metadata), metadata_key.txt. Nothing committed yet today.
+- **Later Nov 18 updates:**
+  - *Basin step fix* (09_b118_basins.py): B118 near-namesakes ("SANTA MARIA VALLEY" 9-011 San Diego vs "SANTA MARIA
+    RIVER VALLEY" 3-012; Santa Clara Valley vs Santa Clara River Valley; ~40 basins) -> a match needs a county
+    (row field or page) overlapping the basin; county named but not overlapping -> rejected. Validation 73% -> 93%
+    inside; basin rows 2,082 -> 1,575 (477 namesake_no_county, 30 county_conflict; many Santa Clara rows likely
+    right). Offered (not done): document-level rescue when the report has precise rows inside that basin.
+  - *Out of state* (Annette): paper = California only; out-of-state data reported as numbers in the methods.
+    `paper_filters.ca_scope()` (Figure 1 rule) + `22_out_of_state.py` -> table_level_metadata_published_ca.csv,
+    data/analysis/out_of_state/. Out of state: 7,785 tables, 1,201,277 measurements (6.7%), 4,958 pages, 204 docs
+    (not tribal 6,890 / 1,061,108 / 4,370 / 201; tribal 895 / 140,169 / 588 / 117). California: 92,909 tables,
+    16,826,615 measurements, 58,731 pages, 584 docs.
+  - *Tribal numbers for the paper* (Annette agreed): use the TABLE-based state split (22_out_of_state.py), not
+    16_tribal_withheld_stats.py's area-based split. California tribal: 2,478 tables, 415,250 measurements,
+    1,604 pages, 216 docs. All tribal: 3,373 tables, 555,419 measurements.
+  - Canals stay Irrigation (Annette).
+  - Earliest-record review: Annette is grading earliest_pages_review.csv; the script never overwrites it
+    (reruns go to earliest_pages_review_rerun.csv).
+
+### RESUME HERE (next session after Nov 18, 2026)
+State: the whole pipeline runs on Anna's metadata (locations, water types, dates, measurements, tribal screen,
+out-of-state split, catalog, Figures 1-4, scope stats). Figure 5 does not use the metadata. Figure images were
+regenerated but NOT visually checked yet.
+Next, in order:
+1. Annette grades `data/analysis/manual_review/earliest_records_new/earliest_pages_review.csv` (121 pages).
+   Claude: convert grades (column `verdict`) into `manual_review/earliest_records_review.csv` with the `action`
+   column paper_filters.apply_review expects (keep / drop / retype / undate / construction_year / set_year /
+   unlocate; new_water_type, corrected_year_*).
+2. Re-wire apply_review(drop=False) into `00_data_prep.py` (it was in the old notebook + build_table_level;
+   dropped in the rewrite) so verdicts also fix processed_metadata, table-level files, catalog, HydroShare.
+   Then rerun: 00_data_prep -> build_table_level_metadata -> filter_published -> 19 -> 16 -> 18 -> 22 -> 21 ->
+   fig3 (x3) -> 08 -> fig2 -> Figure 1 notebook -> fig_santa_ynez. Look at every figure.
+3. Public metadata file: Anna's per-location table + our columns (rebuilt location/method/precision, water_type,
+   parsed dates, page_type, in_ca_scope), tribal rows removed. Decide (Annette): do out-of-state rows go into
+   HydroShare, labelled? Then per-page _metadata.csv content.
+4. Docs: catalog_key.txt, metadata_key.txt, user guide (new columns, measurement definition, location rules
+   incl. state field + basin namesake rule, out-of-state split).
+5. Not yet rerun on new metadata: county_spatial_join (needed for HydroShare), 09_sgma, dam scripts.
+6. Stats compendium (requested Nov 13): paper numbers per water type + all accuracy numbers.
+7. HydroShare package (NEW folder) -> finish user guide. 8. LAST: open-source code package.
+Optional: basin document-level rescue; owner-name continuation revisit if GW-well locations are weak.
+Paper numbers now: stream +447 HUC12 (+36%), GW +117 (+8%); earliest stream 1861 / GW 1900 (unreviewed);
+California set 92,909 tables / 16.83M measurements; Figure 1 15.9M; out of state 7,785 tables / 1.20M (6.7%);
+California tribal 2,478 tables / 415,250 measurements.

@@ -28,7 +28,7 @@ Only rows that are not stream discharge / reservoir / precipitation are processe
 Validation (hold-out): the same procedure is run on rows that ARE located by their own page;
 the inherited location is compared with their own location.
 
-Inputs:  data/metadata/main_metadata.csv, data/digitized/{id}/page_{n}/*.json,
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), data/digitized/{id}/page_{n}/*.json,
          data/analysis/location_validation/locations.csv
 Outputs: data/analysis/location_validation/tier4_continuation.csv,
          tier4_continuation_validation.csv
@@ -52,6 +52,11 @@ MAX_DEPTH = 15
 # rule gave 16-42% errors > 10 km): full well numbers only, >= 2 shared owner words, no
 # single-site guessing.
 STRICT = True
+# OWNER_RULE (2026-11-18, new metadata): the >= 2 shared owner/site words rule failed its hold-out on the
+# new metadata (precise/precise pairs: 68% <= 2 km, 16% > 10 km; identical names 20% > 10 km): canal
+# gauges on irrigation pages and owners with many wells ('City of Santa Barbara, well 515' vs 'well 608').
+# Switched off; only full well numbers are carried along a continuation chain.
+OWNER_RULE = False
 
 RE_CONT  = re.compile(r'\bconti[a-z]{2,4}d\b|\(cont\.?\)|-\s?con\.|\bcontd\b', re.I)
 RE_TABLE = re.compile(r'\btable\s+(\d{1,3}[a-z]?)\b', re.I)
@@ -114,9 +119,10 @@ def linked(doc, page):
 
 
 # ------------------------------------------------------------------ data
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False,
-                   usecols=['id', 'page_number', 'watersource_name', 'location', 'water_type'])
-meta['meta_row'] = np.arange(len(meta))
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+meta = load_meta(['id', 'page_number', 'watersource_name', 'location', 'water_type'])  # new metadata, 2026-11-18
 loc = pd.read_csv(lv / 'locations.csv', low_memory=False)
 meta = meta.merge(loc[['meta_row', 'lat', 'lon', 'coord_method', 'precision_km', 'precision_class',
                        'evidence_scope', 'well_number']], on='meta_row')
@@ -152,7 +158,7 @@ def inherit(row):
                 return {'rule': 'well number', 'depth': depth, 'src': hit[0]}
             continue          # the row names its own well: never fall back to a site guess
         # b) owner / site word
-        if rwords:
+        if rwords and OWNER_RULE:
             score = [(len(rwords & words(r['watersource_name'])), r) for _, r in src.iterrows()]
             best = max(s for s, _ in score)
             top = [r for s, r in score if s == best]
@@ -183,7 +189,9 @@ def run(rows):
                         'source_precision_class': s['precision_class'],
                         'lat': s['lat'], 'lon': s['lon']})
         out.append(rec)
-    return pd.DataFrame(out)
+    cols = ['meta_row', 'id', 'page_number', 'status', 'rule', 'link_depth', 'source_page', 'source_meta_row',
+            'source_method', 'source_precision_km', 'source_precision_class', 'lat', 'lon']
+    return pd.DataFrame(out).reindex(columns=cols)   # same columns when nothing is linked
 
 
 # ------------------------------------------------------------------ apply to unlocated rows

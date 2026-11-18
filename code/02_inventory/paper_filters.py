@@ -169,3 +169,37 @@ def drop_reviewed(df, water_type, id_col='id', page_col='page_number', verbose=T
     if verbose and m.any():
         print(f'  manual review: {int(m.sum())} {water_type} rows excluded ({len(bad)} pages)')
     return df[~m]
+
+
+# ---------------------------------------------------------------- California scope (2026-11-18)
+STATES_SHP = ROOT / 'data/analysis/spatial/usa_shapefile/CUSA_States.shp'
+PAGE_STATES = ROOT / 'data/analysis/location_validation/page_states.csv'
+
+
+def ca_scope(df, id_col='doc_id', page_col='page_number', lat='lat_combined', lon='lon_combined',
+             cls='precision_class'):
+    """Add state_name, in_ca_scope and oos_basis ('point' / 'page' / '') to a table- or entry-level frame.
+
+    The paper uses California data only (Annette 2026-11-18). Rule (as Figure 1):
+      precise / approximate point -> the state it lies in (no state = outside the US)
+      basin point                 -> California
+      unlocated / conflict        -> California unless the page names only other states
+    """
+    import geopandas as gpd
+    import numpy as np
+    df = df.copy()
+    has_pt = df[cls].isin(['precise', 'approximate']) & df[lat].notna() & df[lon].notna()
+    st = gpd.read_file(STATES_SHP).to_crs(4326)[['NAME', 'geometry']]
+    pts = gpd.GeoDataFrame(df.loc[has_pt, []], geometry=gpd.points_from_xy(df.loc[has_pt, lon], df.loc[has_pt, lat]),
+                           crs=4326)
+    j = gpd.sjoin(pts, st, how='left', predicate='within')
+    j = j[~j.index.duplicated()]
+    df['state_name'] = pd.Series(j['NAME'], index=j.index).reindex(df.index)
+    ps = pd.read_csv(PAGE_STATES, usecols=['id', 'page_number', 'page_state_class'])
+    key = df[id_col].astype('Int64').astype(str) + '|' + df[page_col].astype('Int64').astype(str)
+    psm = ps.assign(k=ps['id'].astype(str) + '|' + ps['page_number'].astype(str)).set_index('k')['page_state_class']
+    page_oos = key.map(psm).eq('out_of_state').values
+    point_out = has_pt & df['state_name'].ne('California')
+    df['oos_basis'] = np.select([point_out, ~has_pt & ~df[cls].eq('basin') & page_oos], ['point', 'page'], '')
+    df['in_ca_scope'] = df['oos_basis'].eq('')
+    return df

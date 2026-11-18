@@ -62,19 +62,16 @@ def load_records():
                      rd[['id', 'page_number', 'table_number', 'year_max']].rename(columns={'year_max': 'y'})])
     yrs = yrs[(yrs.y >= 1800) & (yrs.y <= CAP)].drop_duplicates()
     table_years = yrs.groupby(['id', 'page_number', 'table_number']).y.apply(set).to_dict()
-    ent = pd.read_csv(A / 'entry_dates.csv', usecols=['meta_row', 'matched_tables', 'date_source'],
-                      low_memory=False)
-    pid = pd.read_parquet(A / 'processed_metadata.parquet', columns=['meta_row', 'id', 'page_number'])
-    ent = ent.merge(pid, on='meta_row', how='left')
+    # new metadata (2026-11-18): each record is one location of one table. The table's printed years are
+    # used only when the table holds that one location; in a table of several locations (well lists,
+    # station lists) the printed years belong to all of them, so the record's own date range is used.
+    ent = pd.read_parquet(A / 'processed_metadata.parquet',
+                          columns=['meta_row', 'id', 'page_number', 'table_number', 'n_locations_in_table'])
 
     def printed_years(row):
-        if pd.isna(row.matched_tables) or row.date_source == 'row' or pd.isna(row.id):
+        if pd.isna(row.table_number) or pd.isna(row.id) or row.n_locations_in_table != 1:
             return None
-        doc, page = str(row.id).replace('.0', ''), int(row.page_number)
-        out = set()
-        for t in str(row.matched_tables).split(','):
-            out |= table_years.get((doc, page, int(float(t))), set())
-        return out or None
+        return table_years.get((str(int(row.id)), int(row.page_number), int(row.table_number))) or None
 
     ent['printed_years'] = [printed_years(r) for r in ent.itertuples(index=False)]
     rec = rec.merge(ent[['meta_row', 'printed_years']], on='meta_row', how='left')

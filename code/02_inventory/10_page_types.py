@@ -25,7 +25,7 @@ page_type
 Rows on index_contents / report_list / narrative pages are kept in the metadata but excluded from maps
 and statistics (00_data_prep joins page_type; 07/08 filter page_type == 'data').
 
-Inputs:  data/metadata/main_metadata.csv, data/digitized/{id}/page_{n}/
+Inputs:  data/analysis/metadata_base.csv, data/digitized/{id}/page_{n}/
 Output:  data/analysis/page_types.csv  (one row per metadata page)
 """
 
@@ -61,7 +61,8 @@ def is_report_table(head):
 
 RE_LEADERS = re.compile(r'(\.\s?){6,}\s*\d+')          # "Introduction ........ 5"
 
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', usecols=['id', 'page_number'], low_memory=False)
+# pages of the new per-location metadata (00a_metadata_base.py; Phi-4 metadata no longer used, 2026-11-18)
+meta = pd.read_csv(root / 'data/analysis/metadata_base.csv', usecols=['id', 'page_number'])
 pages = meta.dropna().astype(int).drop_duplicates()
 
 recs = []

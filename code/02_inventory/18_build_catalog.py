@@ -1,7 +1,9 @@
 """
 Searchable table-level catalog of the restored data (one row per published table CSV).
 
-Rows: the LLM-processed tables in table_level_metadata_published.csv, EXCEPT pages withheld
+Since 2026-11-18 built on the new per-location metadata (Anna's pipeline); the Phi-4 fields
+(units, keyterms, LLM date strings) and our own record-type classifier columns are gone.
+Rows: the tables in table_level_metadata_published.csv, EXCEPT pages withheld
 for tribal data sovereignty (12_tribal_lands_screen.py). Out-of-California tables are kept
 and labeled (state, in_california).
 
@@ -10,22 +12,17 @@ Columns (see CATALOG_COLUMNS below for order):
                      page_json, has_png, has_json (paths relative to the digitized data root)
   document           doc_title, series_title, series_number, index_id, year_published,
                      authors, usgs_url, doi
-  content            water_type, water_type_source, table_caption, page_type,
-                     n_measurements (CSV rows), watersource_name, location_text,
-                     temporal_resolution, units, keyterms (LLM fields from the entry the
-                     location came from, else the page's first entry)
-  dates              year_start, year_end, date_tier, period_of_record_start/end,
-                     construction_start/end, date_status (evidence tier; table_dates.csv via
-                     date_parsing.apply_table_dates, validated 2026-11-04),
-                     year_start_llm, year_end_llm (old page-level LLM string)
+  content            water_type (most of the table's locations), water_type_source, water_types_in_table,
+                     n_locations, table_caption, page_type, n_measurements (19_value_counts.py),
+                     watersource_name, location_text / location_text_type (the chosen location's
+                     printed evidence), temporal_resolution, variables (new metadata)
+  dates              year_start, year_end, date_status (new metadata dates, 00a_metadata_base.py),
+                     construction_year_min / _max (wells)
   location           latitude, longitude, coord_method, precision_km, precision_class,
                      evidence_scope, location_match, location_ambiguous, n_site_locations
   search keys        state, in_california, county, huc8, huc8_name, huc12, b118_basin_id,
                      b118_basin_name, nwis_site_no, nwis_station_name, nwis_match_km,
                      nwis_match
-  record type        data_resolution, resolution_source, derived_summary, primary_parameter,
-                     parameters, n_values, n_values_primary (table_resolution.csv,
-                     20_temporal_resolution.py; graded 2026-11-12: 59/65 vs definitions)
   quality            digitization_quality, table_content, frac_ocr_suspect, frac_letter_zero, frac_empty,
                      n_data_rows, n_cols
 
@@ -64,6 +61,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
+USGS_ID = ROOT / 'Chapter_2_USGS_Digitization/Literature-Data Review/Edited USGS Data Pulls/usgs_to_id/USGS_ID.xlsx'
 A = ROOT / 'data/analysis'
 SP = A / 'spatial'
 OUT = ROOT / 'data/catalog'
@@ -94,22 +92,24 @@ def load_tables():
 
 
 def add_entry_fields(t):
-    md = pd.read_csv(ROOT / 'data/metadata/main_metadata.csv', low_memory=False, encoding_errors='replace')
-    md['meta_row'] = np.arange(len(md))
-    md = md.rename(columns={'id': 'doc_id'})
-    ent_cols = {'watersource_name': 'watersource_name', 'location': 'location_text',
-                'temporal_resolution': 'temporal_resolution', 'units_of_measurement': 'units',
-                'keyterms': 'keyterms'}
-    ent = md[['meta_row'] + list(ent_cols)].rename(columns=ent_cols)
-    first = md.drop_duplicates(KEY)[KEY + ['meta_row']].rename(columns={'meta_row': 'meta_row_first'})
-    t = t.drop(columns=['watersource_name']).merge(first, on=KEY, how='left')
+    """Location text of the table's chosen location (new metadata, Anna's best printed evidence) and
+    document fields from the USGS publication record (USGS_ID.xlsx; not from any language model)."""
+    md = pd.read_csv(A / 'metadata_base.csv', low_memory=False,
+                     usecols=['meta_row', 'doc_id', 'page_number', 'table_number', 'location_number', 'location',
+                              'location_type'])
+    first = (md.sort_values('location_number').drop_duplicates(KEY + ['table_number'])
+               [KEY + ['table_number', 'meta_row']].rename(columns={'meta_row': 'meta_row_first'}))
+    t = t.merge(first, on=KEY + ['table_number'], how='left')
     t['meta_row_entry'] = t.meta_row_location.fillna(t.meta_row_first)
+    ent = md[['meta_row', 'location', 'location_type']].rename(columns={'location': 'location_text',
+                                                                        'location_type': 'location_text_type'})
     t = t.merge(ent, left_on='meta_row_entry', right_on='meta_row', how='left').drop(columns='meta_row')
     doc_cols = {'Title': 'doc_title', 'Series title': 'series_title', 'Series number': 'series_number',
                 'Index ID': 'index_id', 'Year Published': 'year_published', 'Author(s)': 'authors',
                 'URL': 'usgs_url', 'DOI': 'doi'}
-    docs = md.drop_duplicates('doc_id')[['doc_id'] + list(doc_cols)].rename(columns=doc_cols)
-    return t.merge(docs, on='doc_id', how='left')
+    docs = pd.read_excel(USGS_ID)[['Publication ID'] + list(doc_cols)].rename(
+        columns={'Publication ID': 'doc_id', **doc_cols}).drop_duplicates('doc_id')
+    return t.drop(columns=['title', 'pub_year'], errors='ignore').merge(docs, on='doc_id', how='left')
 
 
 def add_dates(t):
@@ -117,12 +117,11 @@ def add_dates(t):
     only the table title is taken from table_dates.csv."""
     td = pd.read_csv(A / 'table_dates.csv', usecols=['id', 'page_number', 'table_number', 'caption'])
     td = td.rename(columns={'id': 'doc_id', 'caption': 'table_caption'})
-    t = t.rename(columns={'por_start': 'period_of_record_start', 'por_end': 'period_of_record_end'})
     return t.merge(td, on=KEY + ['table_number'], how='left')
 
 
 def add_files(t):
-    pt = pd.read_csv(A / 'page_types.csv', usecols=['id', 'page_number', 'page_type', 'has_json'])
+    pt = pd.read_csv(A / 'page_types.csv', usecols=['id', 'page_number', 'has_json'])
     t = t.merge(pt.rename(columns={'id': 'doc_id'}), on=KEY, how='left')
     d, p, n = t.doc_id.astype(int).astype(str), t.page_number.astype(int).astype(str), t.table_number.astype(int).astype(str)
     t['page_folder'] = d + '/page_' + p
@@ -229,14 +228,6 @@ def add_nwis(t):
     return t, val
 
 
-def add_resolution(t):
-    r = pd.read_csv(A / 'table_resolution.csv',
-                    usecols=KEY + ['table_number', 'resolution', 'resolution_source', 'derived_summary',
-                                   'primary_parameter', 'parameters', 'n_values', 'n_values_primary'])
-    r = r.rename(columns={'resolution': 'data_resolution'})
-    return t.merge(r, on=KEY + ['table_number'], how='left')
-
-
 def add_quality(t):
     q = pd.read_csv(A / 'table_quality.csv')
     cols = ['digitization_quality', 'table_content', 'frac_ocr_suspect', 'frac_letter_zero', 'frac_empty', 'n_data_rows', 'n_cols']
@@ -247,12 +238,9 @@ CATALOG_COLUMNS = [
     'doc_id', 'page_number', 'table_number', 'page_folder', 'table_csv', 'page_png', 'page_json',
     'has_png', 'has_json',
     'doc_title', 'series_title', 'series_number', 'index_id', 'year_published', 'authors', 'usgs_url', 'doi',
-    'water_type', 'water_type_source', 'table_caption', 'page_type', 'n_measurements', 'watersource_name',
-    'location_text', 'temporal_resolution', 'units', 'keyterms',
-    'data_resolution', 'resolution_source', 'derived_summary', 'primary_parameter', 'parameters',
-    'n_values', 'n_values_primary',
-    'year_start', 'year_end', 'date_status', 'date_tier', 'period_of_record_start', 'period_of_record_end',
-    'construction_start', 'construction_end', 'year_start_llm', 'year_end_llm',
+    'water_type', 'water_type_source', 'water_types_in_table', 'n_locations', 'table_caption', 'page_type',
+    'n_measurements', 'watersource_name', 'location_text', 'location_text_type', 'temporal_resolution', 'variables',
+    'year_start', 'year_end', 'date_status', 'construction_year_min', 'construction_year_max',
     'latitude', 'longitude', 'coord_method', 'precision_km', 'precision_class', 'evidence_scope',
     'location_match', 'location_ambiguous', 'n_site_locations',
     'state', 'in_california', 'county', 'huc8', 'huc8_name', 'huc12', 'b118_basin_id', 'b118_basin_name',
@@ -262,19 +250,16 @@ CATALOG_COLUMNS = [
 
 
 def enrich(t):
-    t = t.rename(columns={'water_type_final': 'water_type', 'assignment_source': 'water_type_source',
-                          'number_rows': 'n_measurements'})
+    t = t.rename(columns={'water_type_final': 'water_type', 'assignment_source': 'water_type_source'})
     t = add_entry_fields(t)
     t = add_dates(t)
     t = add_files(t)
     t = add_search_keys(t)
     t, val = add_nwis(t)
     t = add_quality(t)
-    t = add_resolution(t)
     for c in ['huc8', 'huc12']:
         t[c] = t[c].astype('string')
-    for c in ['year_start', 'year_end', 'period_of_record_start', 'period_of_record_end',
-              'construction_start', 'construction_end', 'year_start_llm', 'year_end_llm',
+    for c in ['year_start', 'year_end', 'construction_year_min', 'construction_year_max',
               'year_published', 'n_measurements', 'doc_id', 'page_number', 'table_number']:
         t[c] = pd.to_numeric(t[c], errors='coerce').astype('Int64')
     return t, val
@@ -346,10 +331,8 @@ def main():
          'dated (table-level)': int(cat.year_start.notna().sum())}
     for k, v in cat.nwis_match.value_counts().items():
         s[f'nwis {k}'] = int(v)
-    for k, v in cat.data_resolution.value_counts().items():
-        s[f'resolution {k}'] = int(v)
-    s['derived_summary tables'] = int(cat.derived_summary.fillna(False).astype(bool).sum())
-    s['values (primary)'] = int(cat.n_values_primary.sum())
+    for k, v in cat.temporal_resolution.replace('', 'blank').value_counts().items():
+        s[f'temporal_resolution {k}'] = int(v)
     for k, v in cat.digitization_quality.value_counts().items():
         s[f'quality {k}'] = int(v)
     if val is not None:

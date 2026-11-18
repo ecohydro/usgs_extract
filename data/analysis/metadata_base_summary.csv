@@ -1,0 +1,28 @@
+what,n
+rows,178111
+tables,100825
+documents,586
+pages,63661
+water_type_source model,177696
+water_type_source page_type,151
+water_type_source (none),131
+water_type_source reviewer,120
+water_type_source evaporation,13
+water_type Stream Discharge,103335
+water_type Groundwater,42266
+water_type Irrigation,12474
+water_type Not Water Related,6082
+water_type Reservoir,5293
+water_type Springs,3869
+water_type Water Quality,3047
+water_type Precipitation,1212
+water_type Other,402
+water_type (blank),131
+date_status parsed,132981
+date_status missing,41743
+date_status two_digit,2428
+date_status unparseable,632
+date_status trimmed,253
+date_status implausible,74
+water-related rows dated,135662
+water-related rows,171898

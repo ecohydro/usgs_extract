@@ -23,7 +23,7 @@ Rule (same-page evidence only; the LLM text is a pointer):
 Out-of-state rows (row_states.csv: oos / either) are skipped: the list is California only.
 Run on ALL rows so the method can be validated against tier-1 printed coordinates.
 
-Inputs:  data/metadata/main_metadata.csv, data/analysis/page_blocks.parquet,
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), data/analysis/page_blocks.parquet,
          data/analysis/nwis_sites/ca_stream_sites_expanded.csv,
          data/analysis/location_validation/{tier1_printed, row_states}.csv
 Outputs: data/analysis/location_validation/tier3c_nwis_name.csv,
@@ -70,9 +70,10 @@ def match(stream, segs):
 
 
 # ------------------------------------------------------------------ rows
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False,
-                   usecols=['id', 'page_number', 'watersource_name', 'location'])
-meta['meta_row'] = np.arange(len(meta))
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+meta = load_meta(['id', 'page_number', 'watersource_name', 'location'])  # new metadata, 2026-11-18
 meta = meta[meta['id'].notna() & meta['page_number'].notna()].copy()
 rs = pd.read_csv(lv / 'row_states.csv', usecols=['meta_row', 'row_class']).set_index('meta_row')['row_class']
 meta['row_class'] = meta['meta_row'].map(rs).fillna('ca')

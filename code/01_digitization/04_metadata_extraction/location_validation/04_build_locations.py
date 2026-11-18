@@ -38,7 +38,7 @@ precision_class (validated against tier-1 printed coordinates):
                (median 3-8 km) -> county / HUC8-scale claims only
   unlocated
 
-Inputs:  data/metadata/main_metadata.csv, data/analysis/location_validation/
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), data/analysis/location_validation/
            tier1_printed.csv, tier2b_well_numbers.csv, trs_lookup_all.csv,
            tier3a_nwis_station.csv, tier3b_gnis.csv
 evidence_scope: page | document (report-level meridian/direction letters only) |
@@ -57,13 +57,15 @@ import pandas as pd
 root = Path(__file__).resolve().parents[4]
 lv   = root / 'data/analysis/location_validation'
 
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False,
-                   usecols=['id', 'page_number', 'water_type', 'actual_latitude',
-                            'actual_longitude', 'inferred_latitude'])
-meta['meta_row'] = np.arange(len(meta))
-loc = meta[['meta_row', 'id', 'page_number', 'water_type']].copy()
-loc['llm_coord_source'] = np.where(meta['actual_latitude'].notna(), 'actual',
-                                   np.where(meta['inferred_latitude'].notna(), 'inferred', 'none'))
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+# rows: the new per-location metadata (meta_source.py, 2026-11-18); one row per location per table
+meta = load_meta(['id', 'page_number', 'table_number', 'location_number', 'water_type', 'new_location',
+                  'location_type', 'watersource_name', 'location'])
+loc = meta[['meta_row', 'id', 'page_number', 'table_number', 'location_number', 'water_type']].copy()
+loc['model_location'] = meta['new_location'].values          # the metadata's best evidence, as printed
+loc['model_location_type'] = meta['location_type'].values
 loc['lat'] = np.nan
 loc['lon'] = np.nan
 loc['coord_method'] = 'unlocated'
@@ -332,8 +334,7 @@ from nwis_name_utils import parse as _parse, row_text as _row_text, QUAL_ROW as 
     load_stations as _load_stations, stream_spread_km as _spread  # noqa: E402
 _, _by_stream = _load_stations(root)
 _sp = _spread(_by_stream)
-_md = pd.read_csv(root / 'data/metadata/main_metadata.csv', usecols=['watersource_name', 'location'],
-                  low_memory=False)
+_md = meta.set_index('meta_row')[['watersource_name', 'location']]
 loc['stream_check_km'] = np.nan
 gi = loc.index[loc['coord_method'].str.startswith('gnis_') & ~loc['coord_method'].str.startswith('gnis_oos_')
                & loc['row_class'].eq('ca') & ~loc['location_check'].isin(['agree', 'consensus'])]
@@ -370,6 +371,6 @@ print('\n', pd.crosstab(loc['precision_class'], loc['evidence_scope'].fillna('-'
 print('\nPrecision class share by water type:')
 top = loc['water_type'].value_counts().head(8).index
 print(pd.crosstab(loc['water_type'], loc['precision_class'], normalize='index').loc[top].round(3).to_string())
-print('\nNew method vs old LLM source:')
-print(pd.crosstab(loc['llm_coord_source'], loc['coord_method']).to_string())
+print('\nMethod by the metadata\'s best evidence type:')
+print(pd.crosstab(loc['model_location_type'], loc['coord_method']).to_string())
 print(f'\nSaved: {lv / "locations.csv"}')

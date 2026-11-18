@@ -88,7 +88,7 @@ def load():
     df = pd.DataFrame(gpd.sjoin(g, ca[['geometry']], how='inner', predicate='within').drop(columns='geometry'))
     loc = pd.read_csv(A / 'location_validation/locations.csv', low_memory=False,
                       usecols=['meta_row', 'nwis_site_no', 'nwis_site_source', 'well_number'])
-    df = df.merge(loc, on='meta_row', how='left')
+    df = df.drop(columns=['nwis_site_no', 'nwis_site_source', 'well_number'], errors='ignore').merge(loc, on='meta_row', how='left')
     nm = pd.read_csv(A / 'nwis_sites/ca_stream_sites_expanded.csv', dtype={'site_no': str}, low_memory=False,
                      usecols=['site_no', 'station_nm']).drop_duplicates('site_no').set_index('site_no').station_nm
     c = pd.DataFrame({

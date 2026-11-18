@@ -1,232 +1,107 @@
-water_type,id,page_number,meta_row,year_start,year_end,date_status,year_start_llm,watersource_name,coord_method,precision_class
-Groundwater,1128.0,27.0,29932,1883,1884,table_caption,1883,Cache Creek,gnis_place,approximate
-Stream Discharge,3034.0,147.0,45444,1862,1958,table_date_column,1862,Tuolumne River above La Grange Dam,printed,precise
-Stream Discharge,70038401.0,190.0,46602,1862,1967,table_caption,1966,Santa Ana River at Riverside Narrows,printed,precise
-Stream Discharge,3034.0,155.0,57975,1862,1965,table_date_column,1938,South Fork Stanislaus River near Long Barn,printed,precise
-Stream Discharge,3034.0,155.0,57976,1862,1965,table_date_column,1862,Stanislaus River near Knights Ferry,printed,precise
-Stream Discharge,3034.0,221.0,59997,1862,1958,table_date_column,1862,Feather River at Bidwell Bar,printed,precise
-Stream Discharge,3034.0,302.0,74371,1862,1944,table_date_column,1862,Trinity River at Lewiston,printed,precise
-Stream Discharge,2447.0,400.0,102978,1862,1947,table_date_column,1884,Colorado River near Topock,printed,precise
-Stream Discharge,2987.0,55.0,73137,1865,1937,table_date_column,,"French Creek at Carlton, Pa.",gnis_qualifier_at,precise
-Stream Discharge,2835.0,40.0,90375,1865,1888,table_date_column,1865,North Fork Water Co.,gnis_qualifier_near,approximate
-Stream Discharge,2835.0,40.0,90376,1865,1888,table_date_column,1872,South Fork Canal,gnis_qualifier_near,approximate
-Stream Discharge,3034.0,135.0,28827,1868,1965,table_date_column,1868,San Joaquin River near Newman,printed,precise
-Stream Discharge,14841.0,8.0,21675,1870,1933,table_text,1901,Tahoe City River Discharge,gnis_place,approximate
-Stream Discharge,1083.0,43.0,13959,1874,1967,table_date_column,1956,Middle Fork Eel River near Dos Rios,nwis_name,precise
-Stream Discharge,3884.0,19.0,80449,1874,1943,table_text,1922,South Fork Silver Creek,gnis_place,approximate
-Stream Discharge,3884.0,19.0,80450,1874,1943,table_text,1922,American River flume,gnis_place,approximate
-Stream Discharge,3884.0,19.0,80453,1874,1943,table_text,1874,Clear Lake (Cache Creek),gnis_place,approximate
-Stream Discharge,3884.0,19.0,80454,1874,1943,table_text,1901,Cache Creek near Lower Lake,nwis_name_cluster,precise
-Stream Discharge,3884.0,19.0,80455,1874,1943,table_text,1946,Kelsey Creek,gnis_place,approximate
-Stream Discharge,3884.0,19.0,80456,1874,1943,table_text,1930,North Fork Cache Creek,gnis_place,approximate
-Stream Discharge,3884.0,19.0,80457,1874,1943,table_text,1904,Putah Creek near Guenoc,nwis_name,precise
-Stream Discharge,3884.0,19.0,80458,1874,1943,table_text,1930,Putah Creek near Winters,nwis_name_cluster,precise
-Stream Discharge,3884.0,19.0,80459,1874,1943,table_text,1929,Napa River near St. Helena,nwis_name,precise
-Stream Discharge,3884.0,19.0,80460,1874,1943,table_text,1911,Russian River near Ukiah,nwis_name,precise
-Stream Discharge,3885.0,19.0,85357,1874,1945,table_text,1904,"American River at Fair Oaks, Calif",nwis_name,precise
-Stream Discharge,3885.0,19.0,85358,1874,1945,table_text,1921,"American River at Sacramento, Calif",nwis_name,precise
-Stream Discharge,3885.0,19.0,85359,1874,1945,table_text,1911,"Middle Fork American River near Auburn (East Auburn), Calif",nwis_name,precise
-Stream Discharge,3885.0,19.0,85360,1874,1945,table_text,1910,"Rubicon River at Rubicon Springs, Calif",nwis_name,precise
-Stream Discharge,3885.0,19.0,85362,1874,1945,table_text,1910,"Little Rubicon River near Rubicon Springs, Calif",gnis_feature_spring,approximate
-Stream Discharge,3885.0,19.0,85363,1874,1945,table_text,1929,"Napa River near St. Helena, Calif",nwis_name,precise
-Stream Discharge,3885.0,19.0,85364,1874,1945,table_text,1874,"Clear Lake (Cache Creek) at Lakeport, Calif",gnis_qualifier_at,precise
-Stream Discharge,2987.0,18.0,52633,1875,1937,table_text,1901,"Souhegan River at Wilton, above Greenville",gnis_qualifier_at,precise
-Stream Discharge,3885.0,11.0,95176,1876,1942,table_text,1921,Kern River tributaries,gnis_qualifier_near,approximate
-Stream Discharge,3885.0,11.0,95178,1876,1942,table_text,,"Kernville, Calif",gnis_qualifier_near,approximate
-Stream Discharge,3885.0,11.0,95179,1876,1942,table_text,1911,"Kernville, Calif",gnis_qualifier_near,approximate
-Stream Discharge,3885.0,11.0,95180,1876,1942,table_text,1931,"Kernville, Calif",gnis_qualifier_near,approximate
-Stream Discharge,3885.0,11.0,95184,1876,1942,table_text,1901,"Porterville, Calif",gnis_qualifier_near,approximate
-Stream Discharge,3983.0,30.0,4600,1878,1961,table_text,1926,Mokelumne River at Lancha Plana,nwis_name,precise
-Stream Discharge,3983.0,30.0,4601,1878,1961,table_text,1932,Camanche Creek,nwis_name,precise
-Stream Discharge,3983.0,30.0,4602,1878,1961,table_text,1932,Rabbit Creek,nwis_name,precise
-Stream Discharge,3983.0,30.0,4603,1878,1961,table_text,1932,Murphy Creek,nwis_name,precise
-Stream Discharge,3983.0,30.0,4605,1878,1961,table_text,1904,Mokelumne River below Camanche Dam,nwis_name,precise
-Stream Discharge,3983.0,30.0,4606,1878,1961,table_text,1927,Mokelumne River near Victor,gnis_qualifier_near,approximate
-Stream Discharge,3983.0,30.0,4608,1878,1961,table_text,1924,Mokelumne River at Woodbridge,nwis_name,precise
-Stream Discharge,3983.0,30.0,4609,1878,1961,table_text,1960,"Dry Creek above Sutter Creek, near Ione",nwis_name,precise
-Stream Discharge,3983.0,30.0,4610,1878,1961,table_text,1924,"Sutter Creek near Volcano, Calif.",nwis_name,precise
-Stream Discharge,2294.0,23.0,10074,1878,1913,table_date_column,1878,San Joaquin River near Friant,gnis_qualifier_near,approximate
-Stream Discharge,2294.0,23.0,10078,1878,1912,table_date_column,1878,Merced River near Merced Falls,gnis_qualifier_near,approximate
-Stream Discharge,2294.0,23.0,10079,1878,1913,table_date_column,1878,Tuolumne River near Lagrange,nwis_name,precise
-Stream Discharge,2294.0,23.0,10082,1878,1913,table_date_column,1878,Mokelumne River near Clements,gnis_qualifier_near,approximate
-Stream Discharge,2251.0,378.0,10439,1878,1882,table_date_column,1878,Calaveras River near Bellota,gnis_qualifier_near,approximate
-Stream Discharge,2250.0,86.0,15196,1878,1882,table_date_column,1878,Sacramento River,gnis_place,approximate
-Stream Discharge,3884.0,13.0,17175,1878,1947,table_text,1940,Salt Slough near Los Banos,nwis_name,precise
-Stream Discharge,3884.0,13.0,17179,1878,1947,table_text,1915,"Merced River at Happy Isles Bridge, near Yosemite",nwis_name,precise
-Stream Discharge,3884.0,13.0,17180,1878,1947,table_text,1904,Merced River at Yosemite,nwis_name,precise
-Stream Discharge,3884.0,13.0,17181,1878,1947,table_text,1916,"Merced River at Pohono Bridge, near Yosemite",nwis_name,precise
-Stream Discharge,3884.0,13.0,17183,1878,1947,table_text,1915,Merced River at Exchequer,nwis_name,precise
-Stream Discharge,2250.0,407.0,17813,1878,1911,table_date_column,1902,Eureka Lake Co.'s Ditch,gnis_feature_lake,approximate
-Stream Discharge,2250.0,407.0,17815,1878,1911,table_date_column,1902,North Bloomfield Ditch,gnis_place,approximate
-Stream Discharge,2250.0,407.0,17817,1878,1911,table_date_column,1905,Wheeler Flume,gnis_qualifier_near,approximate
-Stream Discharge,2250.0,407.0,17825,1878,1911,table_date_column,1905,Green Horn River,gnis_qualifier_near,approximate
-Stream Discharge,2251.0,220.0,26564,1878,1882,table_date_column,1878,Chowchilla Creek,gnis_place,approximate
-Stream Discharge,3885.0,12.0,28955,1878,1949,table_text,1941,Kings Dog Creek,gnis_qualifier_near,approximate
-Stream Discharge,3885.0,12.0,28956,1878,1949,table_text,1941,Dry Creek,nwis_name,precise
-Stream Discharge,3885.0,12.0,28957,1878,1949,table_text,1949,Los Gatos Creek above Nunez Canyon,nwis_name,precise
-Stream Discharge,3885.0,12.0,28958,1878,1949,table_text,1931,Los Gatos Creek,nwis_name,precise
-Stream Discharge,3885.0,12.0,28960,1878,1949,table_text,1922,San Joaquin River above Big Creek,nwis_name,precise
-Stream Discharge,3885.0,12.0,28962,1878,1949,table_text,1910,San Joaquin River near North Fork,gnis_qualifier_near,approximate
-Stream Discharge,3995.0,32.0,30826,1878,1967,table_text,1907,"Sacramento River at Kennett, Calif",nwis_name,precise
-Stream Discharge,3995.0,32.0,30827,1878,1967,table_text,1938,"Sacramento River at Keswick, Calif",nwis_name,precise
-Stream Discharge,3995.0,32.0,30828,1878,1967,table_text,1950,"Clear Creek at French Gulch, Calif",nwis_name,precise
-Stream Discharge,3995.0,32.0,30829,1878,1967,table_text,1963,"Spring Creek powerplant at Keswick, Calif",gnis_qualifier_at,precise
-Stream Discharge,3884.0,12.0,32601,1878,1943,table_text,1907,San Joaquin River near Friant,gnis_qualifier_near,approximate
-Stream Discharge,3884.0,12.0,32603,1878,1943,table_text,1938,San Joaquin River below Friant,nwis_name,precise
-Stream Discharge,3884.0,12.0,32604,1878,1943,table_text,1939,San Joaquin River near Mendota,nwis_name,precise
-Stream Discharge,3884.0,12.0,32605,1878,1943,table_text,1940,San Joaquin River near Dos Palos,nwis_name,precise
-Stream Discharge,3884.0,12.0,32606,1878,1943,table_text,1939,San Joaquin River near El Nido,nwis_name,precise
-Stream Discharge,3884.0,12.0,32608,1878,1943,table_text,1921,South Fork San Joaquin River near Florence Lake,nwis_name,precise
-Stream Discharge,3884.0,12.0,32612,1878,1943,table_text,1925,Big Creek below Huntington Lake,nwis_name,precise
-Stream Discharge,3884.0,12.0,32613,1878,1943,table_text,1927,Pitman Creek below Tamarack Creek,nwis_name,precise
-Stream Discharge,3884.0,12.0,32616,1878,1943,table_text,1943,Big Sandy Creek near Auberry,nwis_name,precise
-Stream Discharge,3884.0,12.0,32617,1878,1943,table_text,1936,Fine Gold Creek near Friant,nwis_name,precise
-Stream Discharge,3884.0,12.0,32618,1878,1943,table_text,1941,Cottonwood Creek near Friant,nwis_name,precise
-Stream Discharge,3884.0,12.0,32619,1878,1943,table_text,1911,Fresno River near Knowles,nwis_name,precise
-Stream Discharge,3884.0,12.0,32620,1878,1943,table_text,1941,Fresno River near Daulton,nwis_name,precise
-Stream Discharge,1084.0,92.0,34616,1878,1885,table_date_column,1878,Sacramento River at Collinsville,gnis_qualifier_at,precise
-Stream Discharge,3885.0,16.0,36151,1878,1949,table_text,1944,Sacramento River at Delta,nwis_name,precise
-Stream Discharge,3885.0,16.0,36152,1878,1949,table_text,1910,Sacramento River at Antler,nwis_name,precise
-Stream Discharge,3885.0,16.0,36154,1878,1949,table_text,1938,Sacramento River at Keswick,nwis_name,precise
-Stream Discharge,3885.0,16.0,36155,1878,1949,table_text,1904,Pit River near Canby,nwis_name,precise
-Stream Discharge,3885.0,16.0,36156,1878,1949,table_text,1904,Pit River near Bieber,nwis_name,precise
-Stream Discharge,3885.0,16.0,36157,1878,1949,table_text,1921,Pit River at Fall River Mills,nwis_name,precise
-Stream Discharge,3885.0,16.0,36159,1878,1949,table_text,1928,South Fork Pit River near Likely,nwis_name,precise
-Stream Discharge,3885.0,16.0,36160,1878,1949,table_text,1904,Ash Creek at Adin,nwis_name,precise
-Stream Discharge,3885.0,16.0,36161,1878,1949,table_text,1910,Hat Creek near Hat Creek,gnis_qualifier_near,approximate
-Stream Discharge,3983.0,25.0,39884,1878,1961,table_text,1927,Pitman Creek below Tamarack Creek,nwis_name,precise
-Stream Discharge,3983.0,25.0,39885,1878,1961,table_text,1910,Pitman Creek at Big Creek,nwis_name,precise
-Stream Discharge,3983.0,25.0,39887,1878,1961,table_text,1923,"Big Creek near mouth, near Big Creek, Stevenson Creek",nwis_name,precise
-Stream Discharge,3983.0,25.0,39889,1878,1961,table_text,1951,"San Joaquin River above Willow Creek, near Auberry",nwis_name,precise
-Stream Discharge,3983.0,25.0,39891,1878,1961,table_text,1910,South Fork Willow Creek near North Fork,nwis_name,precise
-Stream Discharge,3983.0,25.0,39892,1878,1961,table_text,1952,"Willow Creek at mouth, near Auberry",nwis_name,precise
-Stream Discharge,3983.0,25.0,39893,1878,1961,table_text,1907,"San Joaquin River below Kerckhoff powerhouse, near Prather (near North Fork)",gnis_qualifier_near,approximate
-Stream Discharge,3983.0,25.0,39894,1878,1961,table_text,1946,Big Sandy Creek near Auberry,nwis_name,precise
-Stream Discharge,3983.0,25.0,39895,1878,1961,table_text,1936,Fine Gold Creek near Friant,nwis_name,precise
-Stream Discharge,3983.0,25.0,39897,1878,1961,table_text,1907,San Joaquin River below (near) Friant (near Pollasky),nwis_name,precise
-Stream Discharge,3983.0,25.0,39898,1878,1961,table_text,1941,Cottonwood Creek near Friant,nwis_name,precise
-Stream Discharge,3983.0,25.0,39899,1878,1961,table_text,1939,San Joaquin River near Mendota,nwis_name,precise
-Stream Discharge,3983.0,25.0,39900,1878,1961,table_text,1923,Panoche Creek near Panoche,nwis_name,precise
-Stream Discharge,3983.0,25.0,39902,1878,1961,table_text,1949,"Panoche Creek below Silver Creek, near Panoche",nwis_name,precise
-Stream Discharge,2251.0,404.0,52116,1878,1912,table_date_column,1911,Dry Creek,nwis_name,precise
-Stream Discharge,3927.0,16.0,55117,1878,1943,table_text,1910,Tuolumne River at Hetch Hetchy cabin,gnis_place,approximate
-Stream Discharge,2251.0,213.0,56767,1878,1879,table_date_column,1878,Fresno River at base of foothills,gnis_qualifier_near,approximate
-Stream Discharge,3885.0,14.0,61834,1878,1946,table_text,1915,"Falls Creek near Hetch Hetchy (Sequoia), Calif",nwis_name,precise
-Stream Discharge,3885.0,14.0,61835,1878,1946,table_text,1910,"Cherry Creek near Hetch Hetchy (Sequoia), Calif",nwis_name,precise
-Stream Discharge,3885.0,14.0,61837,1878,1946,table_text,1901,"Eleanor Creek near Hetch Hetchy (Sequoia), Calif",nwis_name,precise
-Stream Discharge,3885.0,14.0,61838,1878,1946,table_text,1923,"South Fork Tuolumne River near Oakland Recreation Camp, Calif",nwis_name,precise
-Stream Discharge,3885.0,14.0,61840,1878,1946,table_text,1915,"Stanislaus River near Knights Ferry, Calif",nwis_name,precise
-Stream Discharge,3885.0,14.0,61841,1878,1946,table_text,1907,"Calaveras River at Jenny Lind, Calif",nwis_name,precise
-Stream Discharge,3884.0,14.0,66094,1878,1946,table_text,1878,San Joaquin River tributaries,gnis_qualifier_near,approximate
-Stream Discharge,3884.0,14.0,66098,1878,1946,table_text,1878,Calaveras River,nwis_name,precise
-Stream Discharge,2250.0,400.0,66470,1878,1912,table_date_column,1905,Antelope Creek,nwis_name,precise
-Stream Discharge,2250.0,400.0,66471,1878,1912,table_date_column,1902,Battle Creek,plss_township,approximate
-Stream Discharge,2250.0,400.0,66472,1878,1912,table_date_column,1910,Bear Creek,plss_township,approximate
-Stream Discharge,2250.0,400.0,66474,1878,1912,table_date_column,1912,Churn Creek,plss_section,precise
-Stream Discharge,2250.0,400.0,66476,1878,1912,table_date_column,1910,Clover Creek,plss_township,approximate
-Stream Discharge,2251.0,146.0,69255,1878,1881,table_date_column,1878,Kaweah River at Wachumna Hill,gnis_place,approximate
-Stream Discharge,2415.0,16.0,71780,1878,1880,table_date_column,1878,Kern River at Rio Bravo ranch,plss_section,precise
-Stream Discharge,2251.0,352.0,76034,1878,1882,table_date_column,1878,Stanislaus River,gnis_place,approximate
-Stream Discharge,3995.0,30.0,86655,1878,1967,table_text,1963,"Deer Creek near Shingle Springs, Calif",nwis_name,precise
-Stream Discharge,3995.0,30.0,86656,1878,1967,table_text,1959,"Deer Creek near Sloughhouse, Calif",nwis_name,precise
-Stream Discharge,3995.0,30.0,86657,1878,1967,table_text,1931,"Cosumnes River at McConnell, Calif",nwis_name,precise
-Stream Discharge,3995.0,30.0,86658,1878,1967,table_text,1930,"Hadselville Creek at Clay, Calif",nwis_name,precise
-Stream Discharge,3995.0,30.0,86659,1878,1967,table_text,1959,"Morrison Creek near Sacramento, Calif",nwis_name,precise
-Stream Discharge,3995.0,30.0,86661,1878,1967,table_text,1953,"Marsh Creek near Byron, Calif",nwis_name,precise
-Stream Discharge,3995.0,30.0,86662,1878,1967,table_text,1959,"Sacramento River near Mount Shasta, Calif",gnis_qualifier_near,approximate
-Stream Discharge,3995.0,30.0,86664,1878,1967,table_text,1944,"Sacramento River at Delta, Calif",nwis_name,precise
-Stream Discharge,3885.0,15.0,99816,1878,1948,table_text,1917,"Mokelumne River, North Fork",gnis_place,approximate
-Stream Discharge,3885.0,15.0,99819,1878,1948,table_text,1927,Bear River,nwis_name,precise
-Stream Discharge,3885.0,15.0,99820,1878,1948,table_text,1911,Middle Fork Mokelumne River,nwis_name,precise
-Stream Discharge,3885.0,15.0,99821,1878,1948,table_text,1911,South Fork Mokelumne River,nwis_name,precise
-Stream Discharge,3885.0,15.0,99822,1878,1948,table_text,1933,South Fork Mokelumne River,nwis_name,precise
-Stream Discharge,3885.0,15.0,99823,1878,1948,table_text,1927,Goose Creek,nwis_name,precise
-Stream Discharge,2251.0,383.0,103261,1878,1880,table_text,1878,Mokelumne River,plss_township,approximate
-Stream Discharge,2294.0,23.0,10070,1879,1912,table_date_column,1879,Kern River near Bakersfield,nwis_name,precise
-Stream Discharge,15.0,302.0,12355,1879,1950,table_date_column,1879,Sacramento River near Red Bluff,gnis_qualifier_near,approximate
-Stream Discharge,3034.0,207.0,12614,1879,1952,table_date_column,1879,Sacramento River near Red Bluff,printed,precise
-Stream Discharge,3983.0,38.0,15222,1879,1963,table_text,1922,Pyramid Creek near Phillips (Medley Lakes) Outlet near Vade,gnis_qualifier_near,approximate
-Stream Discharge,3983.0,38.0,15223,1879,1963,table_text,1962,Chimney Creek near Kyburz,gnis_qualifier_near,approximate
-Stream Discharge,3983.0,38.0,15224,1879,1963,table_text,1906,South Fork American River at Kyburz,nwis_name,precise
-Stream Discharge,3983.0,38.0,15225,1879,1963,table_text,1922,Silver Lake Outlet near Kirkwood,nwis_name,precise
-Stream Discharge,3983.0,38.0,15230,1879,1963,table_text,1906,South Fork American River below Silver Fork at Kyburz,gnis_qualifier_near,approximate
-Stream Discharge,3983.0,38.0,15232,1879,1963,table_text,1907,South Fork American River near Kyburz,nwis_name,precise
-Stream Discharge,2251.0,420.0,16582,1879,1905,table_date_column,1902,San Joaquin River,gnis_qualifier_at,precise
-Stream Discharge,2251.0,420.0,16590,1879,1912,table_date_column,1911,Cascadel Creek,plss_section,precise
-Stream Discharge,2251.0,420.0,16591,1879,1912,table_date_column,1911,Chiquito Creek,plss_section,precise
-Stream Discharge,4317.0,40.0,22172,1879,1967,table_text,1906,South Fork American River at Kyburz,nwis_name,precise
-Stream Discharge,4317.0,40.0,22173,1879,1967,table_text,1922,"Silver Lake Outlet near Kirkwood, Calif",nwis_station,precise
-Stream Discharge,4317.0,40.0,22176,1879,1967,table_text,1924,"Silver Fork of South Fork American River near Kyburz, Calif.",nwis_station,precise
-Stream Discharge,2251.0,244.0,65319,1879,1884,table_date_column,1878,Merced River,gnis_place,approximate
-Stream Discharge,3034.0,231.0,73966,1879,1963,table_date_column,1934,Feather River at Oroville,printed,precise
-Stream Discharge,2251.0,308.0,102539,1879,1882,table_date_column,1878,Tuolumne River at Modesto,nwis_name,precise
-Stream Discharge,3995.0,38.0,103500,1879,1963,table_text,1911,Middle Fork American River near (East) Auburn,nwis_name,precise
-Stream Discharge,3995.0,38.0,103502,1879,1963,table_text,1906,"South Fork American River at Kyburz, Calif.",nwis_name,precise
-Stream Discharge,3995.0,38.0,103503,1879,1963,table_text,1922,"Silver Lake Outlet near Kirkwood, Calif.",nwis_name,precise
-Stream Discharge,3995.0,38.0,103504,1879,1963,table_text,1906,"South Fork American River below Silver Fork, at Kyburz, Calif.",gnis_qualifier_at,precise
-Stream Discharge,2251.0,384.0,34291,1880,1884,table_date_column,1878,Mokelumne River,plss_section,precise
-Stream Discharge,2415.0,18.0,36915,1880,1884,table_date_column,1880,Kern River,gnis_place,approximate
-Stream Discharge,2251.0,423.0,58771,1880,1912,table_date_column,1911,White River,plss_township,approximate
-Stream Discharge,2251.0,147.0,82102,1880,1884,table_date_column,1880,Kaweah River at Wachumna Hill,gnis_place,approximate
-Stream Discharge,2251.0,428.0,534,1881,1911,table_date_column,1881,Tuolumne River,nwis_name,precise
-Stream Discharge,2251.0,221.0,13593,1881,1884,table_date_column,1881,Chowchilla Creek,gnis_qualifier_near,approximate
-Stream Discharge,2251.0,414.0,39697,1881,1884,table_date_column,1881,Cosumnes River below Michigan Bar at Live Oak Suspension Bridge,plss_section,precise
-Stream Discharge,2251.0,414.0,39698,1881,1884,table_date_column,,North Fork of Cosumnes River near Pleasant Valley,plss_section,precise
-Stream Discharge,2251.0,309.0,64095,1881,1884,table_date_column,1881,Tuolumne River,gnis_place,approximate
-Stream Discharge,2251.0,427.0,66906,1881,1911,table_date_column,1881,Merced River,plss_section,precise
-Stream Discharge,2250.0,87.0,28053,1882,1884,table_date_column,1882,Sacramento River at Collinsville,gnis_qualifier_at,precise
-Stream Discharge,2250.0,87.0,28054,1882,1884,table_date_column,1903,Pit River near Canby,nwis_name,precise
-Stream Discharge,2251.0,379.0,53042,1882,1884,table_date_column,1882,Calaveras River,gnis_qualifier_near,approximate
-Stream Discharge,2251.0,130.0,67377,1882,1884,table_date_column,1882,Tule River,plss_section,precise
-Stream Discharge,2251.0,91.0,78915,1882,1884,table_date_column,1878,Kern River,nwis_name,precise
-Stream Discharge,2913.0,328.0,99607,1884,1950,table_date_column,1937,Rush Creek above Grant Lake,printed,precise
-Stream Discharge,3995.0,8.0,100172,1887,1966,table_text,1916,Cottonwood Creek (head of Tia Juana River) at Morena Dam,gnis_feature_dam,precise
-Stream Discharge,3995.0,8.0,100173,1887,1966,table_text,1906,Pine Valley Creek near Jamul,gnis_qualifier_near,approximate
-Stream Discharge,3995.0,8.0,100174,1887,1966,table_text,1962,Wilson Creek tributary near Dulzura,nwis_name,precise
-Stream Discharge,3995.0,8.0,100175,1887,1966,table_text,1906,"Cottonwood Creek at Barrett Dam, near Dulzura (Jamul)",gnis_feature_dam,precise
-Stream Discharge,3995.0,8.0,100176,1887,1966,table_text,1905,Sweetwater River near Descanso,nwis_name,precise
-Stream Discharge,3995.0,8.0,100177,1887,1966,table_text,1912,"San Diego River at diverting dam, near Lakeside",gnis_qualifier_near,approximate
-Stream Discharge,2246.0,356.0,16059,1888,1904,table_date_column,1917,San Antonio Creek near Claremont,nwis_name,precise
-Stream Discharge,2987.0,115.0,18379,1888,1937,table_date_column,1914,"Platte River at Jefferson, George Creek",gnis_qualifier_at,precise
-Stream Discharge,2246.0,352.0,21258,1888,1911,table_date_column,1888,San Antonio Creek,nwis_name,precise
-Stream Discharge,2245.0,69.0,24675,1888,1915,table_text,1888,Boca at Prosser Creek,gnis_qualifier_near,approximate
-Stream Discharge,2245.0,69.0,24676,1888,1915,table_text,1902,Prosser Creek,nwis_name,precise
-Stream Discharge,2252.0,585.0,82132,1888,1905,table_date_column,1896,Santa Ana River,gnis_qualifier_above,approximate
-Stream Discharge,2252.0,497.0,105612,1888,1905,table_date_column,1905,"Sweetwater River near Descanso, CA",nwis_name,precise
-Stream Discharge,2799.0,23.0,3553,1889,1890,table_date_column,1889,Prosser Creek,gnis_qualifier_near,approximate
-Stream Discharge,2799.0,89.0,14313,1889,1890,page_text,1889,Truckee River,gnis_place,approximate
-Stream Discharge,2252.0,721.0,22409,1889,1903,table_date_column,1889,Santa Paula Creek,gnis_qualifier_above,approximate
-Stream Discharge,2252.0,721.0,22412,1889,1912,table_date_column,1911,Piru Creek,gnis_qualifier_at,precise
-Stream Discharge,2252.0,721.0,22413,1889,1912,table_date_column,1911,Sisar Creek,plss_section,precise
-Stream Discharge,3931.0,16.0,40655,1889,1951,table_text,1951,Reese River near Ione,gnis_qualifier_near,approximate
-Stream Discharge,3931.0,16.0,40657,1889,1951,table_text,1913,Big Creek near Austin,gnis_qualifier_near,approximate
-Stream Discharge,3931.0,16.0,40662,1889,1951,table_text,1944,"Truckee River near Truckee, Calif",nwis_name,precise
-Stream Discharge,3931.0,16.0,40663,1889,1951,table_text,1909,"Donner Creek at Donner Lake, near Truckee, Calif",nwis_name,precise
-Stream Discharge,3931.0,16.0,40664,1889,1951,table_text,1903,"Prosser Creek near Hobart Mills (Truckee), Calif",nwis_name,precise
-Stream Discharge,3931.0,16.0,40665,1889,1951,table_text,1889,"Prosser Creek near Boca, Calif",gnis_qualifier_near,approximate
-Stream Discharge,2252.0,159.0,65938,1889,1911,table_date_column,1889,Truckee River,gnis_qualifier_below,approximate
-Stream Discharge,2252.0,159.0,65944,1889,1911,table_date_column,1889,Donner Creek,nwis_name,precise
-Stream Discharge,2799.0,18.0,95310,1889,1889,table_caption,1889,Donner Creek,nwis_name,precise
-Stream Discharge,2799.0,18.0,95312,1889,1889,table_caption,,Little Truckee River,gnis_qualifier_at,precise
-Stream Discharge,2799.0,18.0,95314,1889,1889,table_caption,1889,Juniper Creek,gnis_place,approximate
-Stream Discharge,2799.0,18.0,95315,1889,1889,table_caption,1889,Joe Gray Creek,gnis_place,approximate
-Stream Discharge,2799.0,18.0,95316,1889,1889,table_caption,1889,Alder Creek,gnis_place,approximate
-Stream Discharge,2246.0,525.0,555,1890,1890,table_caption,1890,San Roqui Creek,gnis_qualifier_near,approximate
-Stream Discharge,2246.0,525.0,556,1890,1890,table_caption,1890,San Jose Creek West Fork,gnis_qualifier_near,approximate
-Stream Discharge,2252.0,134.0,3504,1890,1902,table_date_column,1902,Prosser Creek near Boca,plss_section,precise
-Stream Discharge,2252.0,134.0,3505,1890,1902,table_date_column,1889,South Fork of Prosser Creek near Truckee,plss_section,precise
-Stream Discharge,2799.0,23.0,3554,1890,1890,table_date_column,1890,Little Truckee River,gnis_qualifier_near,approximate
-Stream Discharge,2913.0,361.0,31516,1890,1950,table_date_column,1890,West Fork Carson River at Woodfords,gnis_qualifier_at,precise
-Stream Discharge,2252.0,172.0,37098,1890,1901,table_date_column,1890,West Fork of Carson River,gnis_place,approximate
-Stream Discharge,2913.0,359.0,42611,1890,1950,table_date_column,1946,West Fork Carson River above Woodfords,printed,precise
-Stream Discharge,2913.0,359.0,42612,1890,1950,table_date_column,1890,West Fork Carson River at Woodfords,printed,precise
-Stream Discharge,2913.0,415.0,43975,1890,1935,table_date_column,1890,Little Truckee River,plss_section,precise
-Stream Discharge,2913.0,415.0,43976,1890,1935,table_date_column,1890,Truckee River,printed,precise
-Stream Discharge,2543.0,18.0,59637,1890,1950,table_date_column,,Wolf Creek,nwis_name,precise
-Stream Discharge,2543.0,18.0,59638,1890,1950,table_date_column,,Silver King Creek,nwis_name,precise
-Stream Discharge,2252.0,149.0,77643,1890,1912,table_text,1890,Little Truckee River,gnis_place,approximate
-Stream Discharge,2913.0,29.0,93578,1890,1898,table_date_column,,East Fork West Walker River,gnis_place,approximate
-Stream Discharge,2913.0,29.0,93580,1890,1898,table_date_column,,East Fork Carson River,gnis_place,approximate
-Stream Discharge,2252.0,98.0,94140,1890,1912,table_date_column,1890,Truckee River,gnis_place,approximate
-Stream Discharge,2987.0,169.0,105266,1890,1937,table_date_column,1909,"Mills Creek near Hobart, Truckee River",gnis_qualifier_near,approximate
-Stream Discharge,2987.0,169.0,105267,1890,1937,table_date_column,1909,"Donner Creek near Boca, Truckee River",gnis_qualifier_near,approximate
+water_type,id,page_number,meta_row,year_start,year_end,date_status,watersource_name,coord_method,precision_class
+Groundwater,2294,195,69794,1855.0,1855.0,parsed,Wainwright,gnis_place,approximate
+Groundwater,2294,195,69813,1860.0,1860.0,parsed,Joaquin Smith,gnis_place,approximate
+Groundwater,2294,195,69799,1865.0,1865.0,parsed,Keeler,gnis_place,approximate
+Groundwater,2294,195,69785,1869.0,1869.0,parsed,County,gnis_place,approximate
+Groundwater,2294,237,70443,1871.0,1905.0,parsed,,plss_section,precise
+Groundwater,2294,237,70444,1871.0,1905.0,parsed,,plss_section,precise
+Groundwater,2294,237,70445,1871.0,1884.0,parsed,,plss_section,precise
+Groundwater,2294,237,70446,1871.0,1905.0,parsed,,plss_section,precise
+Groundwater,2294,195,69801,1876.0,1876.0,parsed,Patterson,gnis_place,approximate
+Groundwater,2294,195,69809,1876.0,1876.0,parsed,Hewitt,gnis_place,approximate
+Groundwater,2294,195,69787,1878.0,1878.0,parsed,County,gnis_place,approximate
+Groundwater,2294,195,69795,1879.0,1879.0,parsed,Helms,gnis_place,approximate
+Groundwater,2294,195,69786,1880.0,1880.0,parsed,County,gnis_place,approximate
+Groundwater,2294,195,69788,1880.0,1880.0,parsed,County,gnis_place,approximate
+Groundwater,2294,195,69814,1881.0,1881.0,parsed,Joaquin district,gnis_place,approximate
+Groundwater,2294,237,70447,1884.0,1905.0,parsed,,plss_section,precise
+Groundwater,2294,237,70448,1884.0,1905.0,parsed,,plss_section,precise
+Groundwater,2294,195,69803,1886.0,1886.0,parsed,Ellen,gnis_place,approximate
+Groundwater,2294,195,69806,1886.0,1886.0,parsed,Alders,gnis_place,approximate
+Groundwater,2294,195,69798,1888.0,1888.0,parsed,D. Coleman Bros,gnis_place,approximate
+Stream Discharge,2447,66,73322,1857.0,1962.0,parsed,"Colorado River near Topock, Ariz",gnis_qualifier_near,approximate
+Stream Discharge,2249,375,60496,1861.0,1904.0,parsed,"Klamath River near Happy Camp, Cal.",nwis_name,precise
+Stream Discharge,3033,254,95978,1861.0,1965.0,parsed,"Russian River near Guerneville, Calif.",printed,precise
+Stream Discharge,3034,155,96531,1861.0,1913.0,parsed,"Stanislaus River near Knights Ferry, Calif.",printed,precise
+Stream Discharge,3034,273,96727,1861.0,1964.0,parsed,"American River at Fair Oaks, Calif.",printed,precise
+Stream Discharge,3034,302,96775,1861.0,1944.0,parsed,"Trinity River at Lewiston, Calif.",printed,precise
+Stream Discharge,2447,400,74146,1862.0,1947.0,parsed,"Colorado River near Topock, Ariz.",printed,precise
+Stream Discharge,3033,179,95858,1862.0,1965.0,parsed,"Salinas River near Spreckels, Calif.",nwis_name,precise
+Stream Discharge,3034,147,96516,1862.0,1958.0,parsed,"Tuolumne River above La Grange Dam, near La Grange, Calif",printed,precise
+Stream Discharge,3034,221,96638,1862.0,1958.0,parsed,"Feather River at Bidwell Bar, Calif.",printed,precise
+Stream Discharge,3034,50,96023,1867.0,1965.0,parsed,"Onyx River near Bakersfield, Calif.",gnis_qualifier_near,approximate
+Stream Discharge,3034,135,96497,1867.0,1957.0,parsed,"San Joaquin River near Newman, Calif.",printed,precise
+Stream Discharge,3034,58,96198,1868.0,1965.0,parsed,"Merced River near Newman, Calif",nwis_name,precise
+Stream Discharge,3884,19,111001,1874.0,1874.0,parsed,"Clear Lake (Cache Creek) at Lakeport, Calif",gnis_qualifier_at,precise
+Stream Discharge,3885,19,111634,1874.0,1874.0,parsed,"Clear Lake (Cache Creek) at Lakeport, Calif",gnis_qualifier_at,precise
+Stream Discharge,15,302,902,1878.0,1950.0,parsed,"Sacramento River near Red Bluff, Calif",gnis_qualifier_near,approximate
+Stream Discharge,1084,92,25455,1878.0,1885.0,parsed,Sacramento River at Collinsville,gnis_qualifier_at,precise
+Stream Discharge,2250,86,60779,1878.0,1883.0,parsed,"Sacramento River at Collinsville, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2250,400,61179,1878.0,1902.0,parsed,Sacramento River at Sacramento,nwis_name,precise
+Stream Discharge,2251,118,61580,1878.0,1884.0,parsed,"Poso Creek at base of foothills, Kern County, Cal.",gnis_place,approximate
+Stream Discharge,2251,220,61733,1878.0,1882.0,parsed,"Chowchilla Creek at base of foothills, near Buchanan, Cal.",gnis_qualifier_near,approximate
+Stream Discharge,2251,243,61762,1878.0,1879.0,parsed,"Merced River at Merced Falls, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2251,244,61763,1878.0,1884.0,parsed,"Merced River at Merced Falls, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2251,308,61869,1878.0,1882.0,parsed,"Tuolumne River at Modesto, Cal.",nwis_name,precise
+Stream Discharge,2251,352,61935,1878.0,1883.0,parsed,"Stanislaus River at Oakdale, Cal.",nwis_name,precise
+Stream Discharge,2251,378,61967,1878.0,1882.0,parsed,"Calaveras River near Bellota, Cal.",gnis_qualifier_near,approximate
+Stream Discharge,2251,383,61973,1878.0,1881.0,parsed,Mokelumne River at Westmoreland bridge,plss_section,precise
+Stream Discharge,2294,23,69357,1878.0,1913.0,parsed,San Joaquin River near Friant,gnis_qualifier_near,approximate
+Stream Discharge,2294,23,69361,1878.0,1912.0,parsed,Merced River near Merced Falls,gnis_qualifier_near,approximate
+Stream Discharge,2294,23,69362,1878.0,1913.0,parsed,Tuolumne River near Lagrange,nwis_name,precise
+Stream Discharge,2294,23,69365,1878.0,1913.0,parsed,Mokelumne River near Clements,gnis_qualifier_near,approximate
+Stream Discharge,2415,16,72572,1878.0,1880.0,parsed,Kern River at Rio Bravo ranch,plss_section,precise
+Stream Discharge,3034,207,96615,1878.0,1952.0,parsed,"Sacramento River near Red Bluff, Calif.",printed,precise
+Stream Discharge,3034,231,96654,1878.0,1931.0,parsed,"Feather River at Oroville, Calif.",printed,precise
+Stream Discharge,3884,14,110761,1878.0,1900.0,parsed,"Stanislaus River at Oakdale, Calif",nwis_name,precise
+Stream Discharge,3884,14,110782,1878.0,1884.0,parsed,"Calaveras River near Bellota, Calif",gnis_qualifier_near,approximate
+Stream Discharge,3885,14,111377,1878.0,1900.0,parsed,"Stanislaus River at Oakdale, Calif",nwis_name,precise
+Stream Discharge,3885,14,111398,1878.0,1884.0,parsed,"Calaveras River near Bellota, Calif",gnis_qualifier_near,approximate
+Stream Discharge,3995,32,115726,1878.0,1950.0,parsed,Sacramento River near (at) Red Bluff (at Jellys Ferry),gnis_qualifier_near,approximate
+Stream Discharge,2250,400,61178,1879.0,1879.0,parsed,Sacramento River at Freeport,nwis_name,precise
+Stream Discharge,2251,421,62077,1879.0,1882.0,parsed,"Kern River at Rio Bravo Ranch, lower station",gnis_qualifier_at,precise
+Stream Discharge,2294,23,69353,1879.0,1912.0,parsed,Kern River near Bakersfield,nwis_name,precise
+Stream Discharge,3983,38,114079,1879.0,1948.0,parsed,"Sacramento River at Sacramento, Calif",nwis_name,precise
+Stream Discharge,3995,38,115778,1879.0,1963.0,parsed,"Sacramento River at Sacramento, Calif",nwis_name,precise
+Stream Discharge,2251,421,62076,1880.0,1883.0,parsed,"Kern River at Rio Bravo Ranch, upper station",gnis_qualifier_at,precise
+Stream Discharge,2251,221,61734,1881.0,1884.0,parsed,"Chowchilla Creek at base of foothills, near Buchanan, Cal.",gnis_qualifier_near,approximate
+Stream Discharge,2251,309,61870,1881.0,1884.0,parsed,Tuolumne River at Modesto Cal.,nwis_name,precise
+Stream Discharge,2251,419,62028,1881.0,1883.0,parsed,San Joaquin River At Herndon,nwis_name,precise
+Stream Discharge,2251,427,62275,1881.0,1882.0,parsed,Merced River 5 miles above Livingston,gnis_qualifier_above,approximate
+Stream Discharge,2251,427,62276,1881.0,1883.0,parsed,Merced River At Livingston,nwis_name,precise
+Stream Discharge,2251,428,62319,1881.0,1883.0,parsed,Tuolumne River,nwis_name,precise
+Stream Discharge,2251,430,62339,1881.0,1896.0,parsed,Stanislaus River At Oakdale,nwis_name,precise
+Stream Discharge,2250,87,60780,1882.0,1884.0,parsed,"Sacramento River at Collinsville, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2251,379,61968,1882.0,1884.0,parsed,"Calaveras River near Bellota, Cal.",gnis_qualifier_near,approximate
+Stream Discharge,4316,28,116431,1883.0,1883.0,parsed,"Mono Lake near Mono Lake, Calif",nwis_station,precise
+Stream Discharge,2987,115,90742,1887.0,1892.0,parsed,Clear Creek near Empire,gnis_qualifier_near,approximate
+Stream Discharge,2245,69,58068,1888.0,1912.0,parsed,Donner Creek near Truckee,nwis_name,precise
+Stream Discharge,2245,69,58069,1888.0,1912.0,parsed,Prosser Creek near Truckee,nwis_name,precise
+Stream Discharge,2246,360,58636,1888.0,1901.0,parsed,Santa Ana River at Riverside Narrows,nwis_name,precise
+Stream Discharge,2252,585,63397,1888.0,1901.0,parsed,Santa Ana River,nwis_name,precise
+Stream Discharge,2252,134,62523,1889.0,1890.0,parsed,"Prosser Creek at Boca, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2252,159,62586,1889.0,1900.0,parsed,Adler Creek at Floriston,gnis_qualifier_at,precise
+Stream Discharge,2252,159,62587,1889.0,1889.0,parsed,Cold Creek 1/2 mile below Donner Lake,gnis_feature_lake,approximate
+Stream Discharge,2252,159,62589,1889.0,1902.0,parsed,Dog Creek at Verdi,gnis_qualifier_at,precise
+Stream Discharge,2252,159,62596,1889.0,1900.0,parsed,Joe Gray Creek at Iceland,gnis_qualifier_at,precise
+Stream Discharge,2252,159,62597,1889.0,1900.0,parsed,Juniper Creek at Clinton,gnis_qualifier_at,precise
+Stream Discharge,2252,721,63932,1889.0,1905.0,parsed,Santa Paula Creek,gnis_qualifier_above,approximate
+Stream Discharge,2799,18,83418,1889.0,1889.0,parsed,Juniper Creek at Clinton,gnis_qualifier_at,precise
+Stream Discharge,2799,18,83419,1889.0,1889.0,parsed,Joe Gray Creek at Iceland,gnis_qualifier_at,precise
+Stream Discharge,2799,18,83420,1889.0,1889.0,parsed,Alder Creek at Floriston,gnis_qualifier_at,precise
+Stream Discharge,2799,18,83421,1889.0,1889.0,parsed,Dog Valley Creek at Verdi,gnis_qualifier_at,precise
+Stream Discharge,2799,89,83534,1889.0,1890.0,parsed,Truckee River at Floriston,gnis_qualifier_at,precise
+Stream Discharge,2913,360,88380,1889.0,1950.0,parsed,"West Fork Carson River at Woodfords, Calif",gnis_qualifier_at,precise
+Stream Discharge,2913,415,88478,1889.0,1935.0,parsed,"Truckee River at Farad, Calif.",printed,precise
+Stream Discharge,2913,416,88480,1889.0,1944.0,parsed,"Truckee River at Farad, Calif",nwis_name,precise
+Stream Discharge,2246,525,59260,1890.0,1890.0,parsed,"San Roqui Creek near Santa Barbara, Calif.",gnis_qualifier_near,approximate
+Stream Discharge,2246,525,59261,1890.0,1890.0,parsed,"San Roqui Creek near Santa Barbara, Calif.",gnis_qualifier_near,approximate
+Stream Discharge,2252,98,62480,1890.0,1890.0,parsed,"Truckee River at Boca, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2252,149,62542,1890.0,1890.0,parsed,"Little Truckee River at Boca, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2252,172,62620,1890.0,1892.0,parsed,"West Fork of Carson River at Woodfords, Cal.",gnis_qualifier_at,precise
+Stream Discharge,2913,359,88378,1890.0,1905.0,parsed,"West Fork Carson River at Woodfords, Calif.",printed,precise
+Stream Discharge,2913,361,88381,1890.0,1950.0,parsed,"West Fork Carson River at Woodfords, Calif.",gnis_qualifier_at,precise
+Stream Discharge,2913,415,88477,1890.0,1915.0,parsed,"Little Truckee River at Boca, Calif.",gnis_qualifier_at,precise
+Stream Discharge,2913,416,88481,1890.0,1910.0,parsed,"Truckee River at Farad, Calif",nwis_name,precise
+Stream Discharge,3217,306,109826,1890.0,1905.0,parsed,"Alameda Creek near Niles, Calif",nwis_name,precise
+Stream Discharge,3217,307,109828,1890.0,1910.0,parsed,"Alameda Creek near Niles, Calif.",nwis_name,precise

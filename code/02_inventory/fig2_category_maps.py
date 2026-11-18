@@ -55,7 +55,7 @@ rows = []
 for wt in CATEGORY_ORDER:
     g = pts[pts.water_type == wt]
     rows.append({'water_type': wt, 'locations': g.xy.nunique(), 'tables': len(g),
-                 'est_measurements': int(g.n_values.sum()),
+                 'est_measurements': int(g.n_measurements.sum()),
                  **{f'locations_{c}': g[g.precision_class == c].xy.nunique() for c in LOC_CLASSES}})
 counts = pd.DataFrame(rows)
 counts.to_csv(A / 'fig2_category_counts.csv', index=False)

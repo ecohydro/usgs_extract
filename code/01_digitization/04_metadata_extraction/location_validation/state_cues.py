@@ -58,3 +58,31 @@ def classify(states, has_ca):
     if states and has_ca:
         return 'mixed'
     return 'ca'
+
+
+# ------------------------------------------------------------------ metadata state field (2026-11-18)
+# The new metadata has a `state` field per location (copied from the page; a found-on-page check keeps
+# only words printed there). It is written without the comma the page cues need, often without a
+# period ("Tenn", "Wyo", "Colo"), so it is read here as a whole-field match.
+_FIELD = {'calif': 'CA', 'cal': 'CA', 'california': 'CA', 'ca': 'CA'}
+for _st, _pat in ABBR.items():
+    for _alt in _pat.split('|'):
+        _k = re.sub(r'\(\?!.*?\)', '', _alt).replace(r'\.', '').replace(r'\s?', '').replace(r'\s+', '')
+        _FIELD[_k.lower()] = _st
+_FIELD.update({'nevada': 'NV', 'ore': 'OR', 'wva': 'WV', 'nmex': 'NM', 'ndak': 'ND', 'sdak': 'SD', 'wash': 'WA', 'washington': 'WA',
+               'colorado': 'CO', 'massachusetts': 'MA', 'connecticut': 'CT', 'pennsylvania': 'PA',
+               'virginia': 'VA', 'westvirginia': 'WV', 'vermont': 'VT', 'delaware': 'DE', 'georgia': 'GA',
+               'alabama': 'AL', 'mississippi': 'MS', 'newyork': 'NY', 'newjersey': 'NJ',
+               'northcarolina': 'NC', 'southcarolina': 'SC', 'northdakota': 'ND', 'southdakota': 'SD',
+               'newhampshire': 'NH', 'rhodeisland': 'RI'})
+for _p in POSTAL + ['IN', 'ME', 'OK', 'OR', 'DE', 'LA']:
+    _FIELD.setdefault(_p.lower(), _p)
+
+
+def field_state(s):
+    """State code of a metadata `state` value ('Tenn' -> 'TN', 'Calif.' -> 'CA'); None if blank,
+    unknown or naming several states ('Ariz.-Calif.')."""
+    if not isinstance(s, str) or not s.strip():
+        return None
+    k = re.sub(r'[^a-z]', '', s.lower())
+    return _FIELD.get(k)

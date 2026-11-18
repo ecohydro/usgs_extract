@@ -15,10 +15,12 @@ Matching (same-page evidence; the LLM text is a pointer only):
     otherwise ambiguous.
 Applied to groundwater rows on data pages that no other method located.
 
+County check (2026-11-18): see COUNTY_CHECK / NAMESAKE below.
+
 Validation: the same matching on PRECISELY located groundwater rows; share whose precise
 point falls inside the matched polygon (with a 2 km buffer).
 
-Inputs:  data/analysis/processed_metadata.parquet (water type, page_type, precision_class),
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), location_validation/locations.csv, page_types.csv,
          data/analysis/spatial/sgma/sgma_2019_basin_prioritization.geojson (DWR B118, 515 polygons),
          data/digitized/.../*.json
 Outputs: data/analysis/location_validation/tier5_b118_basins.csv, tier5_b118_validation.csv
@@ -35,6 +37,7 @@ import pandas as pd
 root = Path(__file__).resolve().parents[4]
 lv   = root / 'data/analysis/location_validation'
 SUFFIX = r'(?:valley|basin|area|ground[- ]?water basin)'
+COUNTY_CHECK = True
 
 b = gpd.read_file(root / 'data/analysis/spatial/sgma/sgma_2019_basin_prioritization.geojson').to_crs('EPSG:4326')
 b = b.set_geometry(b.geometry.make_valid().buffer(0))     # a few B118 polygons self-intersect
@@ -51,6 +54,37 @@ def name_rx(name):
     if re.search(r'(valley|basin|area|plain)$', name.lower()):
         return re.compile(rf'\b{words}\b')
     return re.compile(rf'\b{words}\s+{SUFFIX}\b')
+
+
+# County check (2026-11-18): B118 names collide across the state ("SANTA MARIA VALLEY" is basin 9-011 in San
+# Diego County; the Santa Barbara County basin is "SANTA MARIA RIVER VALLEY", 3-012). A match is rejected when
+# the row's county field (else the page) names California counties and none of them overlaps the basin.
+_co = gpd.read_file(root / 'data/analysis/spatial/ca_counties/tl_2023_us_county.shp')
+_co = _co[_co['STATEFP'] == '06'][['NAME', 'geometry']].to_crs('EPSG:3310')
+_bx = basins[['Basin_Number', 'geometry']].to_crs('EPSG:3310')
+_ov = gpd.overlay(_bx, _co, how='intersection', keep_geom_type=True)
+_ov = _ov[_ov.area > 1e6]                                   # > 1 km2 of the basin in the county
+BASIN_COUNTIES = _ov.groupby('Basin_Number')['NAME'].apply(set).to_dict()
+CA_COUNTIES = sorted(_co['NAME'], key=len, reverse=True)
+_CO_KEY = {re.sub(r'\s+', ' ', c.lower()): c for c in CA_COUNTIES}
+_CO_RX = re.compile(r'\b(' + '|'.join(re.escape(c).replace(r'\ ', r'\s+') for c in CA_COUNTIES)
+                    + r')\s+(?:county|counties|co\.)', re.I)
+
+
+def counties_in(text):
+    """California counties named as '<Name> County' / 'Counties' / 'Co.' in the text."""
+    return {_CO_KEY[re.sub(r'\s+', ' ', m.lower())] for m in _CO_RX.findall(text or '')}
+
+
+# Near-namesakes: names that differ only by River / Creek / Lake / Valley / Basin / Area / Plain
+# ("SANTA CLARA VALLEY" 2-009 vs "SANTA CLARA RIVER VALLEY" 4-004). Report text uses the short form for
+# both, so a match on such a basin needs a county (row field or page) that overlaps it.
+def _core(n):
+    return ' '.join(re.sub(r'\b(RIVER|CREEK|VALLEY|BASIN|AREA|PLAIN|LAKE)\b', '', n).split())
+
+
+_cores = basins.assign(c=basins['Basin_Name'].map(_core)).groupby('c')['Basin_Number'].nunique()
+NAMESAKE = set(basins.loc[basins['Basin_Name'].map(_core).map(_cores) > 1, 'Basin_Number'])
 
 
 basins['rx'] = basins['Basin_Name'].map(name_rx)
@@ -78,12 +112,23 @@ def match(row_text, page_text):
             'geom': h.geometry, 'radius_km': h['radius_km']}, 'ok'
 
 
-d = pd.read_parquet(root / 'data/analysis/processed_metadata.parquet',
-                    columns=['meta_row', 'id', 'page_number', 'water_type_clean', 'watersource_name',
-                             'location', 'precision_class', 'is_data_page', 'lat_combined', 'lon_combined'])
+# rows: the new per-location metadata + the first locations.csv + page types (2026-11-18)
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+d = load_meta(['id', 'page_number', 'water_type', 'watersource_name', 'location', 'county']).rename(
+    columns={'water_type': 'water_type_clean'})
+_l = pd.read_csv(root / 'data/analysis/location_validation/locations.csv',
+                 usecols=['meta_row', 'lat', 'lon', 'precision_class']).set_index('meta_row')
+d['precision_class'] = d['meta_row'].map(_l['precision_class'])
+d['lat_combined'] = d['meta_row'].map(_l['lat'])
+d['lon_combined'] = d['meta_row'].map(_l['lon'])
+_pt = pd.read_csv(root / 'data/analysis/page_types.csv', usecols=['id', 'page_number', 'page_type'])
+d = d.merge(_pt, on=['id', 'page_number'], how='left')
+d['is_data_page'] = ~d['page_type'].isin(['index_contents', 'report_list', 'narrative'])
 gw = d[(d['water_type_clean'] == 'Groundwater') & d['is_data_page'] & d['id'].notna() & d['page_number'].notna()].copy()
 gw[['id', 'page_number']] = gw[['id', 'page_number']].astype(int)
-targets = gw[gw['precision_class'] == 'unlocated']
+targets = gw[gw['precision_class'].isin(['unlocated', 'basin'])]   # basin = this tier's own earlier output
 checks = gw[gw['precision_class'] == 'precise']
 
 _txt = {}
@@ -101,6 +146,13 @@ def run(rows):
     out = []
     for r in rows.itertuples():
         res, status = match(f'{r.watersource_name} {r.location}', page_text(r.id, r.page_number))
+        if res and COUNTY_CHECK:
+            ev = counties_in(r.county if isinstance(r.county, str) else '') or counties_in(page_text(r.id, r.page_number))
+            bn = str(res['b118_id']).split('.')[0]
+            if ev and not (ev & BASIN_COUNTIES.get(bn, set())):
+                res, status = None, 'county_conflict'
+            elif bn in NAMESAKE and not ev:
+                res, status = None, 'namesake_no_county'
         rec = {'meta_row': r.meta_row, 'id': r.id, 'page_number': r.page_number, 'status': status}
         if res:
             pt = res['geom'].representative_point()

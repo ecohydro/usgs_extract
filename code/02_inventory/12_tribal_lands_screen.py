@@ -116,7 +116,7 @@ pages = pages.sort_values(['withhold', 'id', 'page_number'], ascending=[False, T
 sp.to_csv(OUT / 'tribal_screen_rows.csv', index=False)
 pages.to_csv(OUT / 'tribal_screen_pages.csv', index=False)
 
-md = norm_keys(pd.read_csv(ROOT / 'data/metadata/main_metadata.csv', usecols=['id', 'page_number'], dtype={'id': str}))
+md = norm_keys(pd.read_csv(ROOT / 'data/analysis/metadata_base.csv', usecols=['id', 'page_number'], dtype={'id': str}))  # new metadata, 2026-11-18
 w = pages[pages.withhold][['id', 'page_number']]
 ev = lambda k: int(pages.evidence.str.contains(k).sum())
 summ = pd.DataFrame([

@@ -21,7 +21,7 @@ Output columns (one row per main_metadata row with a verified T/R):
   coord_source        actual | inferred (the production lat_combined source)
   error_km            distance production coordinate -> PLSS reference
 
-Inputs:  data/metadata/main_metadata.csv, data/digitized/{id}/page_{n}/*.json,
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), tier1_printed.csv, data/digitized/{id}/page_{n}/*.json,
          data/analysis/spatial/ca_counties/tl_2023_us_county.shp, BLM PLSS service
 Outputs: data/analysis/location_validation/
              plss_townships.parquet, plss_sections_cache.parquet  (cached downloads)
@@ -200,13 +200,19 @@ def haversine_km(lat1, lon1, lat2, lon2):
 
 
 # ================================================================== main
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False)
-meta['meta_row'] = np.arange(len(meta))
+import sys as _s  # noqa: E402
+_s.path.insert(0, str(Path(__file__).resolve().parent))
+from meta_source import load_meta  # noqa: E402
+# rows: the new per-location metadata (meta_source.py, 2026-11-18). The reference coordinate for the
+# validation columns (lat/lon, error_km, coord_source 'actual') is now the tier-1 PRINTED coordinate
+# (03_printed_coords.py must run first); rows without one have coord_source 'none'.
+meta = load_meta(['id', 'page_number', 'townships_ranges_sections', 'location', 'water_type'])
 meta = meta[meta['id'].notna() & meta['page_number'].notna()].copy()
-meta['lat_combined'] = meta['actual_latitude'].combine_first(meta['inferred_latitude'])
-meta['lon_combined'] = meta['actual_longitude'].combine_first(meta['inferred_longitude'])
-meta['coord_source'] = np.where(meta['actual_latitude'].notna(), 'actual',
-                                np.where(meta['inferred_latitude'].notna(), 'inferred', 'none'))
+_t1 = pd.read_csv(out_dir / 'tier1_printed.csv')
+_t1 = _t1[_t1['tier1_status'].isin(['printed_match', 'printed_match_no_keyword'])].set_index('meta_row')
+meta['lat_combined'] = meta['meta_row'].map(_t1['printed_latitude'])
+meta['lon_combined'] = meta['meta_row'].map(_t1['printed_longitude'])
+meta['coord_source'] = np.where(meta['lat_combined'].notna(), 'actual', 'none')
 txt = (meta['townships_ranges_sections'].fillna('').astype(str) + ' | ' +
        meta['location'].fillna('').astype(str))
 meta['llm_trs'] = [llm_trs(s) for s in txt]
@@ -333,8 +339,8 @@ for i in amb:
         res.loc[i, 'error_km'] = round(float(haversine_km(row['lat'], row['lon'], lat, lon)), 2)
 # ---- county named in the report title (document-level, like the document meridian)
 if USE_TITLE_COUNTY:
-    titles = (pd.read_csv(root / 'data/metadata/main_metadata.csv', usecols=['id', 'Title'], low_memory=False)
-                .dropna(subset=['id']).drop_duplicates('id').set_index('id')['Title'])
+    titles = (load_meta(['id', 'title']).dropna(subset=['id']).drop_duplicates('id')
+                .set_index('id')['title'])
     names = {n for n in county_of.values() if isinstance(n, str)}
     tc = {i: title_counties(t, names) for i, t in titles.items()}
     for i in res.index[res['ref_status'] == 'ambiguous_meridian']:

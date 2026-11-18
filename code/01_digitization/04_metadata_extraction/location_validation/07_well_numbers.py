@@ -23,8 +23,8 @@ pages resolved on their own, and a county named in the report TITLE ("... Fresno
 Counties"). The location itself still comes from the row's own page.
 Otherwise the well is ambiguous and not used.
 
-Each metadata row is matched to a well on its page by (a) a well number in the LLM
-water-source/location text that is also on the page, (b) an owner name from the LLM
+Each metadata row is matched to a well on its page by (a) a well number in the row's metadata
+(since 2026-11-18 the new metadata's well_number field, then water-source/place text) that is also on the page, (b) an owner name from the LLM
 text found in the well's heading, or (c) the page having only one well. Rows covering
 several wells get the centroid only if all wells are within 5 km (approximate).
 Then (2026-11-15) a table-owner check (table_owner.py): on water-level tables the well
@@ -41,7 +41,7 @@ The direction combination "T/R on page + county on page" is not used (0/15 NWIS-
 Location: NWIS groundwater site coordinates when the full well number matches an NWIS
 site name (e.g. 006N007W15C003S), else the PLSS section centroid.
 
-Inputs:  data/metadata/main_metadata.csv, data/digitized/.../*.json,
+Inputs:  data/analysis/metadata_base.csv (meta_source.py), data/digitized/.../*.json,
          data/analysis/nwis_sites/ca_groundwater_sites.csv,
          data/analysis/spatial/gnis/CA_Features_20210825.txt,
          data/analysis/spatial/ca_counties/tl_2023_us_county.shp, BLM PLSS (cached)
@@ -229,14 +229,15 @@ def well_key(w):
 
 
 # ------------------------------------------------------------------ main
-meta = pd.read_csv(root / 'data/metadata/main_metadata.csv', low_memory=False,
-                   usecols=['id', 'page_number', 'watersource_name', 'location', 'townships_ranges_sections',
-                            'water_type', 'Title'])
-meta['meta_row'] = np.arange(len(meta))
+# rows: the new per-location metadata (meta_source.py, 2026-11-18). Its well_number field (copied from the
+# page) is the first pointer; the owner / water-source name and place text come after it.
+from meta_source import load_meta  # noqa: E402
+meta = load_meta(['id', 'page_number', 'table_number', 'watersource_name', 'location',
+                  'townships_ranges_sections', 'well_number', 'water_type', 'title'])
+meta = meta.rename(columns={'title': 'Title'})
 meta = meta[meta['id'].notna() & meta['page_number'].notna()]
 wt = meta['water_type'].astype(str).str.lower()
-meta = meta[wt.str.contains('ground|spring|irrigat|well|quality|other|nan') |
-            ~wt.str.contains('stream|reservoir|precip')]
+meta = meta[~wt.str.contains('stream|reservoir|precip|not water')]
 
 # ---- pass 1: page-level resolution; collect report-level evidence
 pages, docs, SHORT_IDS = {}, {}, {}
@@ -288,7 +289,7 @@ _pb = pd.read_parquet(root / 'data/analysis/page_blocks.parquet',
                       columns=['id', 'page_number', 'block_order', 'block_type', 'table_idx', 'content'])
 OWNERS = table_owner.table_owners(_pb[_pb['id'].astype(int).isin({d for d, _ in pages})])
 del _pb
-ROW_TABLES = table_owner.matched_tables(root)
+ROW_TABLES = dict(zip(meta['meta_row'], meta['table_number'].map(lambda t: [int(t)] if pd.notna(t) else [])))  # the row's own table
 wells_out, row_out = [], []
 for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
     for w in uniq.values():
@@ -303,7 +304,8 @@ for (doc, page), (g, uniq, page_pairs, page_counties) in pages.items():
     resolved = {k: w for k, w in uniq.items() if w['plssid']}
 
     for _, row in g.iterrows():
-        rt = f"{row['watersource_name']} {row['location']} {row['townships_ranges_sections']}"
+        rt = ' '.join(str(x) for x in (row['well_number'], row['watersource_name'], row['location'],
+                                        row['townships_ranges_sections']) if pd.notna(x))
         rec = {'meta_row': row['meta_row'], 'id': doc, 'page_number': page,
                'n_wells_on_page': len(uniq), 'n_resolved_on_page': len(resolved)}
         pick, how = None, None
@@ -462,6 +464,4 @@ for rule, gg in inf.groupby('dir_rule'):
 val = pd.DataFrame(val)
 val.to_csv(lv / 'tier2b_well_numbers_validation.csv', index=False)
 print('\nValidation:\n', val.round(3).to_string(index=False))
-loc = pd.read_csv(lv / 'locations.csv', usecols=['meta_row', 'coord_method'])
-un = set(loc.loc[loc['coord_method'] == 'unlocated', 'meta_row'])
-print(f"\nNew locations for currently unlocated rows: {rows[rows['wn_method'].notna() & rows['meta_row'].isin(un)].shape[0]:,}")
+# (summary vs the previous locations.csv removed 2026-11-18: row numbers changed with the new metadata)
