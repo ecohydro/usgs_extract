@@ -60,8 +60,6 @@ data/analysis/nwis_sites/years_cache/
 data/analysis/manual_review/new_metadata_gaps/rerun_for_anna/pages/
 data/analysis/manual_review/new_metadata_gaps/blank_water_type_review/pages/
 
-# Anna's full metadata table holds rows for pages on tribal lands: kept local only (Annette, 2026-11-18)
-data/analysis/evaluation/metadata/full_run/metadata_per_location.csv
 
 # Restored-data locations (Phi-4 era and derived): may include points on tribal lands; kept local only (Annette, 2026-11-18)
 /data/metadata/main_metadata.csv
