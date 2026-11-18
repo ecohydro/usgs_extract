@@ -55,3 +55,10 @@ data/analysis/manual_review/well_owner_check/pngs/
 
 # NWIS download cache (re-fetch with code/03_nwis_usgs/fetch_nwis_years_with_data.py)
 data/analysis/nwis_sites/years_cache/
+
+# page copies for Anna to re-run (copies of data/digitized)
+data/analysis/manual_review/new_metadata_gaps/rerun_for_anna/pages/
+data/analysis/manual_review/new_metadata_gaps/blank_water_type_review/pages/
+
+# Anna's full metadata table holds rows for pages on tribal lands: kept local only (Annette, 2026-11-18)
+data/analysis/evaluation/metadata/full_run/metadata_per_location.csv
