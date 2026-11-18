@@ -60,18 +60,3 @@ data/analysis/nwis_sites/years_cache/
 data/analysis/manual_review/new_metadata_gaps/rerun_for_anna/pages/
 data/analysis/manual_review/new_metadata_gaps/blank_water_type_review/pages/
 
-
-# Restored-data locations (Phi-4 era and derived): may include points on tribal lands; kept local only (Annette, 2026-11-18)
-/data/metadata/main_metadata.csv
-/data/digitization_intermediates/04_metadata_extraction/llm_extracted_metadata.csv
-/data/digitization_intermediates/04_metadata_extraction/validation/location_reference/trs_reference.csv
-/data/analysis/table_level_metadata.csv
-/data/analysis/table_level_metadata_county.csv
-/data/analysis/table_level_metadata_published.csv
-/data/analysis/location_validation/
-/data/analysis/dam_exploring/dam_streamflow_sites.csv
-/data/analysis/dam_exploring/nwis_crossref_best_match.csv
-/data/analysis/dam_exploring/nwis_crossref_matches.csv
-/data/analysis/gw_example/gw_sites_statewide.csv
-/data/analysis/santa_ynez/gw_basin_sites.csv
-/data/analysis/site_definitions/split_station_review.csv
