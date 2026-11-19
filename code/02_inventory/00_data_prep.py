@@ -29,7 +29,7 @@ A = ROOT / 'data/analysis'
 sys.path.insert(0, str(ROOT / 'code/01_digitization/04_metadata_extraction/location_validation'))
 from meta_source import load_meta  # noqa: E402
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from paper_filters import NON_DATA_PAGE_TYPES  # noqa: E402
+from paper_filters import NON_DATA_PAGE_TYPES, apply_review  # noqa: E402
 
 LOC_COLS = ['meta_row', 'lat', 'lon', 'coord_method', 'precision_km', 'evidence_scope', 'location_check',
             'n_sources', 'max_disagree_km', 'stream_check_km', 'precision_class', 'nwis_site_no',
@@ -60,6 +60,10 @@ def main():
         m = m.merge(v, on=['id', 'page_number', 'table_number'], how='left')
         n_loc = m.groupby(['id', 'page_number', 'table_number'])['meta_row'].transform('size')
         m['n_measurements'] = m['table_measurements'] / n_loc
+    # reviewer verdicts (manual_review/earliest_records_review.csv): retype / undate / set_year /
+    # construction_year / unlocate fix the published data too; 'drop' rows are kept (drop=False:
+    # 'drop' = not usable for a paper claim, the figure scripts apply it themselves)
+    m = apply_review(m, id_col='id', page_col='page_number', type_col='water_type_clean', drop=False)
     m = m.sort_values('meta_row').reset_index(drop=True)
     m.to_parquet(A / 'processed_metadata.parquet', index=False)
     print(f'rows {len(m):,}; data-page rows {int(m.is_data_page.sum()):,}')

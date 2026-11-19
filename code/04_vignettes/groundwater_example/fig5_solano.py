@@ -30,13 +30,16 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 sys.path.insert(0, str(HERE.parent / 'santa_ynez'))
 from fetch_nwis_gw_levels import fetch  # noqa: E402
+sys.path.insert(0, str(ROOT / 'code/02_inventory'))
+import fig_style as S  # noqa: E402
 
 A = ROOT / 'data/analysis'
 G = A / 'gw_example'
 FIG = ROOT / 'manuscript/figures'
-RESTORED, NWIS_C, STAR = '#EE6677', '#4477AA', '#FFD23F'      # Figure 4 colours
+# Figure 3 scheme in all figures (Annette 2026-11-19, fig_style.py): restored blue, NWIS grey, both gold
+RESTORED, NWIS_C, NWIS_LIGHT, BOTH, STAR = S.RESTORED, S.NWIS_DARK, '#C4C4C4', S.BOTH, 'white'
 OFFSET = 1.7
-plt.rcParams.update({'font.family': 'Arial', 'font.size': 7})
+S.apply()
 
 w = pd.read_csv(G / 'solano_wsp1464_wells_located.csv')
 rd = pd.read_csv(G / 'solano_wsp1464_readings.csv', parse_dates=['date'])
@@ -77,65 +80,66 @@ ng['early'] = ng.site_no.map(first) < 1950
 fig = plt.figure(figsize=(7.25, 6.4))
 gs = fig.add_gridspec(2, 2, height_ratios=[1.2, 1.0], width_ratios=[1.45, 1.0], hspace=0.28, wspace=0.22)
 ax = fig.add_subplot(gs[0, 0])
-area.plot(ax=ax, color='#f2f2f0', edgecolor='#9e9e9e', linewidth=0.6)
+area.plot(ax=ax, color='#f2f2f0', edgecolor='#9e9e9e', linewidth=S.LW_MIN)
 xmin, ymin, xmax, ymax = wg.total_bounds
 ax.set_xlim(xmin - 0.05, xmax + 0.05)
 ax.set_ylim(ymin - 0.04, ymax + 0.04)
 for name, (x, y) in {'Yolo': (-121.72, 38.62), 'Solano': (-121.80, 38.30),
                      'Suisun-Fairfield Valley': (-122.13, 38.17)}.items():
     if xmin - 0.05 < x < xmax + 0.05 and ymin - 0.04 < y < ymax + 0.04:
-        ax.text(x, y, name, fontsize=6, color='#6b6b6b', ha='center', style='italic', path_effects=HALO)
+        ax.text(x, y, name, fontsize=S.SMALL, color='#6b6b6b', ha='center', style='italic', path_effects=HALO)
 late = ng[~ng.early]
 early = ng[ng.early]
-ax.scatter(late.dec_long_va, late.dec_lat_va, s=9, marker='s', facecolor='none', edgecolor='#a9bfd9',
-           linewidths=0.5, zorder=4)
+ax.scatter(late.dec_long_va, late.dec_lat_va, s=9, marker='s', facecolor='none', edgecolor=NWIS_LIGHT,
+           linewidths=S.LW_MIN, zorder=4)
 ax.scatter(early.dec_long_va, early.dec_lat_va, s=18, marker='s', facecolor='none', edgecolor=NWIS_C,
-           linewidths=0.9, zorder=5)
-ax.scatter(w.lon, w.lat, s=13, color=RESTORED, edgecolors='white', linewidths=0.35, zorder=6)
+           linewidths=S.LW_MIN, zorder=5)
+ax.scatter(w.lon, w.lat, s=13, color=RESTORED, linewidths=0, zorder=6)
 for well, lab, dx in (('8/1E-15B1', 'c', 6),):
     p = w[w.well == well].iloc[0]
-    ax.scatter([p.lon], [p.lat], s=90, marker='*', color=STAR, edgecolor='black', linewidths=0.5, zorder=9)
-    ax.annotate(f'{well} ({lab})', (p.lon, p.lat), xytext=(dx, 5), textcoords='offset points', fontsize=6.5,
+    ax.scatter([p.lon], [p.lat], s=110, marker='*', color=STAR, edgecolor='black', linewidths=S.LW_MIN, zorder=9)
+    ax.annotate(f'{well} ({lab})', (p.lon, p.lat), xytext=(dx, 5), textcoords='offset points', fontsize=S.SMALL,
                 path_effects=HALO, zorder=10)
 ax.set_aspect(1 / np.cos(np.radians(38.4)))
 ax.set_xticks([])
 ax.set_yticks([])
-ax.legend(handles=[Line2D([], [], marker='o', color=RESTORED, mec='white', lw=0, ms=4,
+S.scalebar(ax, 10, 38.4, loc=(0.04, 0.90))   # journal: scale bar on maps (2026-11-19)
+ax.legend(handles=[Line2D([], [], marker='o', color=RESTORED, lw=0, ms=4,
                           label=f'Restored wells, 1918-1952 ({len(w)})'),
-                   Line2D([], [], marker='s', mfc='none', mec=NWIS_C, mew=0.9, lw=0, ms=4,
+                   Line2D([], [], marker='s', mfc='none', mec=NWIS_C, mew=S.LW_MIN, lw=0, ms=4,
                           label=f'NWIS wells, reading before 1950 ({len(early)})'),
-                   Line2D([], [], marker='s', mfc='none', mec='#a9bfd9', lw=0, ms=3.5,
+                   Line2D([], [], marker='s', mfc='none', mec=NWIS_LIGHT, lw=0, ms=3.5,
                           label=f'NWIS wells, first reading 1950-1979 ({len(late)})'),
                    Line2D([], [], marker='*', color=STAR, mec='black', lw=0, ms=8, label='Well in c')],
-          loc='lower right', fontsize=5.8, frameon=True, framealpha=0.9, edgecolor='none')
-ax.set_title('Solano County basins (DWR Bulletin 118)', fontsize=7.5, loc='left')
-ax.text(-0.02, 1.02, 'a', transform=ax.transAxes, fontsize=11, fontweight='bold', ha='right')
+          loc='lower right', fontsize=S.SMALL, frameon=True, framealpha=0.9, edgecolor='none')
+ax.set_title('Solano County basins (DWR Bulletin 118)', fontsize=S.TITLE, loc='left')
+ax.text(-0.02, 1.02, 'a', transform=ax.transAxes, fontsize=S.LETTER, fontweight='bold', ha='right')
 
 # b: wells measured per decade
 axd = fig.add_subplot(gs[0, 1])
 d = dec.loc[1910:1970]
 x = np.arange(len(d))
-axd.bar(x - 0.2, d.restored_wells, 0.4, color=RESTORED, edgecolor='#4d4d4d', linewidth=0.3, label='Restored')
-axd.bar(x + 0.2, d.nwis_wells, 0.4, color=NWIS_C, edgecolor='#4d4d4d', linewidth=0.3, label='NWIS')
+axd.bar(x - 0.2, d.restored_wells, 0.4, color=RESTORED, linewidth=0, label='Restored')
+axd.bar(x + 0.2, d.nwis_wells, 0.4, color=S.NWIS, linewidth=0, label='NWIS')
 for xi, (rv, nv) in enumerate(zip(d.restored_wells, d.nwis_wells)):
     for off, v in ((-0.2, rv), (0.2, nv)):
         if 0 < v < 40 or (v == 0 and off < 0 and xi < 5):
-            axd.text(xi + off, v + 3, f'{v}', ha='center', fontsize=5.5)
+            axd.text(xi + off, v + 3, f'{v}', ha='center', fontsize=S.SMALL)
 axd.set_xticks(x, [f'{i}s' for i in d.index], rotation=45, ha='right')
 axd.set_ylabel('Wells with water-level readings')
 axd.spines[['top', 'right']].set_visible(False)
-axd.grid(axis='y', color='#e6e6e6', lw=0.5)
+axd.grid(axis='y', color='#e6e6e6', lw=S.LW_MIN)
 axd.set_axisbelow(True)
-axd.legend(fontsize=6, frameon=False, loc='upper left')
-axd.set_title('Wells measured per decade, same basins', fontsize=7.5, loc='left')
-axd.text(-0.16, 1.02, 'b', transform=axd.transAxes, fontsize=11, fontweight='bold')
+axd.legend(fontsize=S.SMALL, frameon=False, loc='upper left')
+axd.set_title('Wells measured per decade, same basins', fontsize=S.TITLE, loc='left')
+axd.text(-0.16, 1.02, 'b', transform=axd.transAxes, fontsize=S.LETTER, fontweight='bold')
 
 
 def hydro(ax, title):
     ax.invert_yaxis()
-    ax.set_title(title, fontsize=7.5, loc='left')
+    ax.set_title(title, fontsize=S.TITLE, loc='left')
     ax.spines[['top', 'right']].set_visible(False)
-    ax.grid(axis='y', color='#e6e6e6', lw=0.5)
+    ax.grid(axis='y', color='#e6e6e6', lw=S.LW_MIN)
 
 
 # c: 15B1
@@ -146,16 +150,16 @@ nw = nw[nw.qualifier.astype(str).str.contains('Static')].sort_values('date')
 r15 = rd[(rd.well == '8/1E-15B1') & rd.static].sort_values('date').copy()
 r15['adj'] = r15.depth_ft + OFFSET
 shared = r15.date.isin(nw.date)
-axb.plot(nw.date, nw.value, '-', color=NWIS_C, lw=0.5, alpha=0.6, zorder=2)
-axb.scatter(nw.date, nw.value, s=5, color=NWIS_C, zorder=3, label=f'NWIS ({len(nw)})')
-axb.scatter(r15.date[~shared], r15.adj[~shared], s=9, color=RESTORED, edgecolors='white', linewidths=0.3,
+axb.plot(nw.date, nw.value, '-', color=S.NWIS, lw=S.LW_MIN, alpha=0.8, zorder=2)
+axb.scatter(nw.date, nw.value, s=5, color=S.NWIS, zorder=3, label=f'NWIS ({len(nw)})')
+axb.scatter(r15.date[~shared], r15.adj[~shared], s=9, color=RESTORED, linewidths=0,
             zorder=4, label=f'Restored, not in NWIS ({(~shared).sum()})')
-axb.scatter(r15.date[shared], r15.adj[shared], s=16, facecolor='none', edgecolor=RESTORED, linewidths=0.6,
+axb.scatter(r15.date[shared], r15.adj[shared], s=16, facecolor='none', edgecolor=BOTH, linewidths=S.LW_MIN,
             zorder=4, label=f'Restored, also in NWIS ({shared.sum()})')
 hydro(axb, '8/1E-15B1, west of Davis (NWIS 383248121505501)')
 axb.set_ylabel('Depth to water (ft below land surface)')
-axb.legend(fontsize=6, frameon=False, loc='lower left')
-axb.text(-0.02, 1.02, 'c', transform=axb.transAxes, fontsize=11, fontweight='bold', ha='right')
+axb.legend(fontsize=S.SMALL, frameon=False, loc='lower left')
+axb.text(-0.02, 1.02, 'c', transform=axb.transAxes, fontsize=S.LETTER, fontweight='bold', ha='right')
 
 # d: the restored network around 15B1 (Annette, 2026-11-16, option 1). Putah-area wells of WSP 1464,
 # static readings 1931-1951; per well the annual mean, then per year the median and 25-75th percentile
@@ -190,17 +194,17 @@ axc.legend(handles=[Line2D([], [], color=RESTORED, marker='o', ms=2.5, lw=1.0,
                            label=f'Restored wells: median ({pn.well.nunique()} wells)'),
                     plt.Rectangle((0, 0), 1, 1, color=RESTORED, alpha=0.25, label='Restored: 25th-75th percentile'),
                     Line2D([], [], color=NWIS_C, marker='s', ms=3, lw=0, label='NWIS: 8/1E-15B1 (annual mean)')],
-           fontsize=5.8, frameon=False, loc='lower left')
-axc.text(-0.16, 1.02, 'd', transform=axc.transAxes, fontsize=11, fontweight='bold')
+           fontsize=S.SMALL, frameon=False, loc='lower left')
+axc.text(-0.16, 1.02, 'd', transform=axc.transAxes, fontsize=S.LETTER, fontweight='bold')
 
 axn = fig.add_subplot(sub[1], sharex=axc)
 x = np.arange(1931, 1952)
 axn.bar(x - 0.2, yr.n.fillna(0), 0.4, color=RESTORED, lw=0)
-axn.bar(x + 0.2, nwells.values, 0.4, color=NWIS_C, lw=0)
-axn.set_ylabel('Wells', fontsize=6.5)
+axn.bar(x + 0.2, nwells.values, 0.4, color=S.NWIS, lw=0)
+axn.set_ylabel('Wells', fontsize=S.BODY)
 axn.spines[['top', 'right']].set_visible(False)
 axn.set_xticks(range(1932, 1952, 4))
-axn.tick_params(labelsize=6.5)
+axn.tick_params(labelsize=S.BODY)
 print('Putah network per year:', yr.n.fillna(0).astype(int).to_dict())
 print('NWIS wells per year:', nwells.to_dict())
 

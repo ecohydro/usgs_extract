@@ -31,6 +31,10 @@ Output: manuscript/figures/dam_vignette_timeline.png
 
 import re
 import numpy as np
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'code/02_inventory'))
+from paper_filters import tribal_mask, apply_review, located, measurement_page_mask  # noqa: E402
 import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
@@ -93,7 +97,8 @@ def years_covered(df):
 
 
 tl = pd.read_csv(root / 'data/analysis/table_level_metadata_published.csv', low_memory=False)
-tl = tl[(tl['water_type_final'] == 'Stream Discharge') & tl['year_start'].notna()]
+tl = tl[~tribal_mask(tl, id_col='doc_id').values]   # 2026-11-19: tribal pages out
+tl = tl[(tl['water_type_final'] == 'Stream Discharge') & tl['year_start'].notna() & measurement_page_mask(tl)]
 nw = pd.read_csv(root / 'data/analysis/nwis_sites/ca_stream_sites_expanded.csv',
                  low_memory=False).drop_duplicates('site_no')
 nw = nw[nw['begin_year'] <= NWIS_YEAR_CUTOFF]
@@ -125,8 +130,8 @@ def build_stations(cfg):
         row = dict(label=' '.join(loc) if loc else '(location not named)',
                    r_annual=annual, r_summary=summ, r_years=sorted(set(annual) | set(summ)),
                    r_tables=len(g),
-                   r_meas=int(g['number_rows'].sum()),
-                   lat=g['lat_combined'].median(), lon=g['lon_combined'].median(),
+                   r_meas=int(g['n_measurements'].sum()),
+                   lat=g.loc[located(g), 'lat_combined'].median(), lon=g.loc[located(g), 'lon_combined'].median(),
                    paired=len(m) > 0, n_begin=np.nan, n_end=np.nan)
         if len(m):
             m = m.iloc[0]
@@ -259,7 +264,7 @@ for i, cfg in enumerate(RIVERS):
     r_years_all = sorted(set(y for ys in st['r_years'] for y in ys))
     nwis_first = n['begin_year'].min()
     summary.append(dict(river=cfg['title'], stations_shown=len(st),
-                        restored_tables=len(r), restored_meas=int(r['number_rows'].sum()),
+                        restored_tables=len(r), restored_meas=int(r['n_measurements'].sum()),
                         restored_first=min(r_years_all), nwis_first=nwis_first,
                         restored_years_before_nwis=sum(y < nwis_first for y in r_years_all),
                         restored_predam_years=sum(y < main_yr for y in r_years_all)))

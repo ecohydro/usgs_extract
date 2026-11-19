@@ -1,30 +1,16 @@
 water_type,id,page_number,meta_row,year_start,year_end,date_status,watersource_name,coord_method,precision_class
-Groundwater,2294,195,69794,1855.0,1855.0,parsed,Wainwright,gnis_place,approximate
-Groundwater,2294,195,69813,1860.0,1860.0,parsed,Joaquin Smith,gnis_place,approximate
-Groundwater,2294,195,69799,1865.0,1865.0,parsed,Keeler,gnis_place,approximate
-Groundwater,2294,195,69785,1869.0,1869.0,parsed,County,gnis_place,approximate
 Groundwater,2294,237,70443,1871.0,1905.0,parsed,,plss_section,precise
 Groundwater,2294,237,70444,1871.0,1905.0,parsed,,plss_section,precise
 Groundwater,2294,237,70445,1871.0,1884.0,parsed,,plss_section,precise
 Groundwater,2294,237,70446,1871.0,1905.0,parsed,,plss_section,precise
-Groundwater,2294,195,69801,1876.0,1876.0,parsed,Patterson,gnis_place,approximate
-Groundwater,2294,195,69809,1876.0,1876.0,parsed,Hewitt,gnis_place,approximate
-Groundwater,2294,195,69787,1878.0,1878.0,parsed,County,gnis_place,approximate
-Groundwater,2294,195,69795,1879.0,1879.0,parsed,Helms,gnis_place,approximate
-Groundwater,2294,195,69786,1880.0,1880.0,parsed,County,gnis_place,approximate
-Groundwater,2294,195,69788,1880.0,1880.0,parsed,County,gnis_place,approximate
-Groundwater,2294,195,69814,1881.0,1881.0,parsed,Joaquin district,gnis_place,approximate
 Groundwater,2294,237,70447,1884.0,1905.0,parsed,,plss_section,precise
 Groundwater,2294,237,70448,1884.0,1905.0,parsed,,plss_section,precise
-Groundwater,2294,195,69803,1886.0,1886.0,parsed,Ellen,gnis_place,approximate
-Groundwater,2294,195,69806,1886.0,1886.0,parsed,Alders,gnis_place,approximate
-Groundwater,2294,195,69798,1888.0,1888.0,parsed,D. Coleman Bros,gnis_place,approximate
-Stream Discharge,2447,66,73322,1857.0,1962.0,parsed,"Colorado River near Topock, Ariz",gnis_qualifier_near,approximate
 Stream Discharge,2249,375,60496,1861.0,1904.0,parsed,"Klamath River near Happy Camp, Cal.",nwis_name,precise
 Stream Discharge,3033,254,95978,1861.0,1965.0,parsed,"Russian River near Guerneville, Calif.",printed,precise
 Stream Discharge,3034,155,96531,1861.0,1913.0,parsed,"Stanislaus River near Knights Ferry, Calif.",printed,precise
 Stream Discharge,3034,273,96727,1861.0,1964.0,parsed,"American River at Fair Oaks, Calif.",printed,precise
 Stream Discharge,3034,302,96775,1861.0,1944.0,parsed,"Trinity River at Lewiston, Calif.",printed,precise
+Stream Discharge,2447,66,73322,1862.0,1862.0,parsed,"Colorado River near Topock, Ariz",gnis_qualifier_near,approximate
 Stream Discharge,2447,400,74146,1862.0,1947.0,parsed,"Colorado River near Topock, Ariz.",printed,precise
 Stream Discharge,3033,179,95858,1862.0,1965.0,parsed,"Salinas River near Spreckels, Calif.",nwis_name,precise
 Stream Discharge,3034,147,96516,1862.0,1958.0,parsed,"Tuolumne River above La Grange Dam, near La Grange, Calif",printed,precise

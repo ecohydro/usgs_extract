@@ -4,9 +4,17 @@ county_spatial_join.py
 Assigns a clean CA county name to every published table via spatial join of
 lat_combined / lon_combined against the Census TIGER county shapefile.
 
-Also checks consistency between the spatially-assigned county and the LLM-
-extracted actual_county / inferred_county fields, flagging mismatches as a
-data quality indicator.
+Also checks consistency between the spatially-assigned county and the county
+field of the metadata (new per-location metadata, `county`, 2026-11-19; was the
+Phi-4 actual_county / inferred_county fields), flagging mismatches as a data
+quality indicator.
+
+Rebuilt on the new metadata 2026-11-19:
+  - county only from precise or approximate points (same rule as the catalog,
+    18_build_catalog.py); basin / conflict / unlocated tables get no county
+  - tribal_withheld column (paper_filters.tribal_mask): pages withheld from
+    publication; hydroshare_copy must skip them
+  - measurements = n_measurements (19_value_counts.py), not printed row counts
 
 Outputs
 -------
@@ -21,9 +29,14 @@ import re
 import zipfile
 from pathlib import Path
 
+import sys
+
 import geopandas as gpd
 import pandas as pd
 import requests
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paper_filters import tribal_mask  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -32,7 +45,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SPATIAL_DIR = ROOT / "data/analysis/spatial/ca_counties"
 COUNTY_SHP = SPATIAL_DIR / "tl_2023_us_county.shp"
 TABLE_META = ROOT / "data/analysis/table_level_metadata_published.csv"
-MAIN_META = ROOT / "data/metadata/main_metadata.csv"
+MAIN_META = ROOT / "data/analysis/metadata_base.csv"  # 00a_metadata_base.py
 OUT_TABLE = ROOT / "data/analysis/table_level_metadata_county.csv"
 OUT_CONSISTENCY = ROOT / "data/analysis/county_consistency_report.csv"
 OUT_SUMMARY = ROOT / "data/analysis/county_consistency_summary.txt"
@@ -75,20 +88,21 @@ def load_data():
     tl = pd.read_csv(TABLE_META)
     print(f"Published tables: {len(tl)} rows")
 
-    mm = pd.read_csv(MAIN_META, low_memory=False)
-    mm = mm.rename(columns={"id": "doc_id"})
-    # Deduplicate to one row per page; prefer rows with actual_county filled in
-    mm = (
-        mm.sort_values("actual_county", na_position="last")
-        .drop_duplicates(subset=["doc_id", "page_number"], keep="first")
-    )
-    # main_metadata has raw lat/lon; lat_combined is in table_level_metadata_published
-    mm = mm[["doc_id", "page_number", "actual_county", "inferred_county"]]
-    print(f"main_metadata (deduplicated): {len(mm)} rows")
+    # metadata county field: all of the table's locations, joined
+    mm = pd.read_csv(MAIN_META, usecols=["doc_id", "page_number", "table_number", "county"],
+                     low_memory=False)
+    mm = (mm.dropna(subset=["county"])
+            .groupby(["doc_id", "page_number", "table_number"])["county"]
+            .agg(lambda x: "; ".join(dict.fromkeys(x.astype(str))))
+            .rename("meta_county").reset_index())
+    print(f"tables with a metadata county: {len(mm)}")
+    merged = tl.merge(mm, on=["doc_id", "page_number", "table_number"], how="left")
 
-    # tl already has lat_combined / lon_combined (computed by 00_data_prep)
-    merged = tl.merge(mm, on=["doc_id", "page_number"], how="left")
-    print(f"After merge with main_metadata: {len(merged)} rows")
+    # county only from precise / approximate points
+    ok = merged["precision_class"].isin(["precise", "approximate"])
+    merged.loc[~ok, ["lat_combined", "lon_combined"]] = float("nan")
+    merged["tribal_withheld"] = tribal_mask(merged, id_col="doc_id").values
+    print(f"tribal-withheld tables: {int(merged.tribal_withheld.sum())}")
     return counties, merged
 
 
@@ -147,6 +161,10 @@ CA_COUNTIES = {
 }
 
 
+# county names that are also states or common words: need "County"/"Co." after them
+NEEDS_COUNTY_WORD = {"nevada", "lake", "orange", "sierra", "kings"}
+
+
 def normalize_county(text: str) -> set[str]:
     """
     Extract CA county names from a raw LLM county string.
@@ -159,27 +177,29 @@ def normalize_county(text: str) -> set[str]:
     found = set()
     for name in CA_COUNTIES:
         # Match 'name county' or 'name' at a word boundary, case-insensitive
-        if re.search(r"\b" + re.escape(name) + r"\b", text_lower):
+        pat = r"\b" + re.escape(name) + (r"\s+(county|co\b)" if name in NEEDS_COUNTY_WORD else r"\b")
+        if re.search(pat, text_lower):
             found.add(name)
     return found
 
 
 def check_consistency(merged):
     """
-    For each table, compare county_spatial to the CA counties mentioned in
-    actual_county and inferred_county.
+    For each table, compare county_spatial to the CA counties named in the
+    metadata county field (meta_county, all locations of the table).
 
     Consistency categories:
-      match        -- county_spatial appears in one or both LLM fields
-      mismatch     -- county_spatial does NOT appear in either LLM field
-                      (and LLM field has at least one recognizable CA county)
-      llm_no_ca    -- LLM fields mention no recognizable CA county (may be
-                      out-of-state, blank, or free-text only)
-      no_spatial   -- no county_spatial assigned (no coords or outside CA)
-      no_llm       -- both LLM county fields are null/empty
+      match        -- county_spatial appears in the county field
+      mismatch     -- county_spatial does NOT appear in the county field
+                      (and the field names at least one recognizable CA county)
+      llm_no_ca    -- the field names no recognizable CA county (e.g. "Calif.",
+                      out-of-state, free text)
+      no_spatial   -- no county_spatial assigned (no precise/approximate point,
+                      or outside CA)
+      no_llm       -- county field empty
     """
     df = merged[["doc_id", "page_number", "table_number", "water_type_final",
-                 "county_spatial", "actual_county", "inferred_county"]].copy()
+                 "county_spatial", "meta_county"]].copy()
 
     # Vectorized: extract CA county sets from LLM fields
     def llm_ca_str(series):
@@ -187,9 +207,7 @@ def check_consistency(merged):
             lambda x: ", ".join(sorted(normalize_county(x))) if isinstance(x, str) else ""
         )
 
-    df["actual_ca"] = df["actual_county"].apply(normalize_county)
-    df["inferred_ca"] = df["inferred_county"].apply(normalize_county)
-    df["llm_ca"] = df.apply(lambda r: r["actual_ca"] | r["inferred_ca"], axis=1)
+    df["llm_ca"] = df["meta_county"].apply(normalize_county)
     df["llm_ca_counties"] = df["llm_ca"].apply(
         lambda s: ", ".join(sorted(s)) if s else ""
     )
@@ -197,7 +215,7 @@ def check_consistency(merged):
     spatial_lower = df["county_spatial"].str.lower()
 
     no_spatial = df["county_spatial"].isna()
-    no_llm = df["actual_county"].isna() & df["inferred_county"].isna()
+    no_llm = df["meta_county"].isna()
     llm_has_ca = df["llm_ca"].apply(bool)
 
     # Check if spatial county appears in llm_ca set (vectorized via apply)
@@ -220,7 +238,7 @@ def check_consistency(merged):
     df["consistency"] = np.select(conditions, choices, default="unknown")
 
     return df[["doc_id", "page_number", "table_number", "water_type_final",
-               "county_spatial", "actual_county", "inferred_county",
+               "county_spatial", "meta_county",
                "llm_ca_counties", "consistency"]]
 
 
@@ -239,7 +257,7 @@ def build_scoping_matrix(consistency_df, merged):
     cross = (
         m.groupby(["water_type_final", "county_spatial"])
         .agg(n_tables=("table_number", "count"),
-             n_measurements=("number_rows", "sum"))
+             n_measurements=("n_measurements", "sum"))
         .reset_index()
         .sort_values(["water_type_final", "n_tables"], ascending=[True, False])
     )
@@ -261,7 +279,7 @@ def main():
     counts = consistency_df["consistency"].value_counts()
     pct = (counts / len(consistency_df) * 100).round(1)
     summary_lines = [
-        "County consistency check — spatial join vs. LLM-extracted county fields",
+        "County consistency check — spatial join (precise/approximate points) vs. metadata county field",
         "=" * 70,
         f"Total published tables: {len(consistency_df):,}",
         "",
@@ -304,8 +322,9 @@ def main():
     # Write outputs
     merged_out = merged[[
         "doc_id", "page_number", "table_number", "water_type_final",
-        "number_rows", "year_start", "year_end", "decade_start",
-        "lat_combined", "lon_combined", "watersource_name", "county_spatial",
+        "n_measurements", "year_start", "year_end", "decade_start",
+        "lat_combined", "lon_combined", "precision_class", "watersource_name",
+        "county_spatial", "tribal_withheld",
     ]]
     merged_out.to_csv(OUT_TABLE, index=False)
     print(f"Saved: {OUT_TABLE}")

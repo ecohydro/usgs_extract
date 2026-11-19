@@ -30,6 +30,9 @@ import re
 import numpy as np
 import pandas as pd
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'code/02_inventory'))
+from paper_filters import tribal_mask, apply_review, located, measurement_page_mask  # noqa: E402
 
 root     = Path(__file__).resolve().parents[3]
 out_dir  = root / 'data/analysis/dam_exploring'
@@ -77,7 +80,8 @@ print(f'Candidate dams: {len(d)}')
 
 # ---------------------------------------------------------------- restored
 t = pd.read_csv(root / 'data/analysis/table_level_metadata_published.csv', low_memory=False)
-r = t[(t['water_type_final'] == 'Stream Discharge') & t['lat_combined'].notna() &
+t = t[~tribal_mask(t, id_col='doc_id').values]   # 2026-11-19: tribal pages out
+r = t[(t['water_type_final'] == 'Stream Discharge') & located(t) & measurement_page_mask(t) &
       t['year_start'].notna() & (t['year_start'] <= RESTORED_YEAR_MAX)].copy()
 r['name_tok'] = r['watersource_name'].map(lambda s: set(tokens(s)))
 
@@ -118,11 +122,11 @@ for _, dam in d.iterrows():
         # restored
         'r_sites': rm.assign(la=rm['lat_combined'].round(2), lo=rm['lon_combined'].round(2))
                      .drop_duplicates(['la', 'lo']).shape[0],
-        'r_tables': len(rm), 'r_meas': int(rm['number_rows'].sum()),
+        'r_tables': len(rm), 'r_meas': int(rm['n_measurements'].sum()),
         'r_first_yr': yrs.min() if len(rm) else np.nan,
         'r_years': yrs.nunique(),
         'r_predam_years': pre['year_start'].nunique(),
-        'r_predam_meas': int(pre['number_rows'].sum()),
+        'r_predam_meas': int(pre['n_measurements'].sum()),
         'r_postdam_years': rm.loc[rm['year_start'] >= dy, 'year_start'].nunique(),
         # NWIS (<= 1979 starts only)
         'nwis_sites': len(nm),
@@ -130,12 +134,12 @@ for _, dam in d.iterrows():
         'nwis_predam_sites': int((nm['begin_year'] < dy).sum()),
         # what restored adds before any digital record
         'r_years_before_nwis': new_pre['year_start'].nunique(),
-        'r_meas_before_nwis': int(new_pre['number_rows'].sum()),
+        'r_meas_before_nwis': int(new_pre['n_measurements'].sum()),
     })
     if len(rm):
         site_rows.append(rm.assign(dam=dam['Dam Name'], dam_year=dy)[
             ['dam', 'dam_year', 'doc_id', 'page_number', 'watersource_name', 'lat_combined',
-             'lon_combined', 'dist_km', 'year_start', 'year_end', 'number_rows']])
+             'lon_combined', 'dist_km', 'year_start', 'year_end', 'n_measurements']])
 
 inv = pd.DataFrame(rows).sort_values(['r_predam_meas', 'r_meas'], ascending=False)
 inv.to_csv(out_dir / 'dam_streamflow_inventory.csv', index=False)

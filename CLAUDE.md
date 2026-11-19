@@ -2160,3 +2160,68 @@ Optional: basin document-level rescue; owner-name continuation revisit if GW-wel
 Paper numbers now: stream +447 HUC12 (+36%), GW +117 (+8%); earliest stream 1861 / GW 1900 (unreviewed);
 California set 92,909 tables / 16.83M measurements; Figure 1 15.9M; out of state 7,785 tables / 1.20M (6.7%);
 California tribal 2,478 tables / 415,250 measurements.
+
+## Session Log — November 19, 2026 (items 2, 4, 5 of the Nov 18 list)
+- **Review verdicts wired into 00_data_prep.py** (`apply_review(..., drop=False)` after the merges). No review
+  file yet -> output identical (checked). `paper_filters._review()` now reads the NEW sheet directly: if there is
+  no `action` column, `verdict` is the action (keep/drop/retype/undate/construction_year/set_year/unlocate,
+  ';'-combined, case-insensitive; unknown words raise). Ungraded rows ignored. So: Annette's graded
+  `earliest_records_new/earliest_pages_review.csv` -> save/copy as `manual_review/earliest_records_review.csv`.
+  `construction_year` action now MOVES the year to `construction_year` and clears year_start (keeps
+  year_start.notna() <=> measurement date; site_activity/fig2 rely on it); `set_year` sets date_status parsed.
+  Tested on a simulated sheet: all actions work, re-applying is a no-op.
+  After grading, rerun: 00_data_prep -> build_table_level_metadata -> filter_published -> 19 -> 16 -> 18 -> 22 ->
+  21 -> fig3 (x3) -> 08 -> fig2 -> Figure 1 notebook -> fig_santa_ynez; look at every figure.
+- **county_spatial_join.py on new metadata:** county from precise/approximate points only (catalog rule);
+  consistency check vs Anna's `county` field (Nevada/Lake/Orange/Sierra/Kings need "County" after them);
+  new `tribal_withheld` column (hydroshare_copy must skip these); n_measurements replaces number_rows.
+  79,756 of 100,694 published tables have a CA county; match 26,091 vs mismatch 1,639 (94% where both exist;
+  mostly neighbours; Siskiyou/"Butte" = Butte Valley in Siskiyou, model's county wrong). Inside CA identical to
+  the catalog county (77,357 same, 0 differ); catalog's 5,195 extra counties are out-of-state counties.
+- **09_sgma, dam 07/08 re-run** with tribal pages out, review applied, precise/approximate only, measurement
+  pages (measurement_page_mask), n_measurements. Exploratory only (NWIS years = site-file begin_year).
+- **Docs rewritten for the new metadata:** catalog_key.txt (content, record type/variables from the model
+  with Anna's accuracies, dates, page types), metadata_key.txt (S1 Anna's table, S2 processed_metadata added
+  columns, S3 USGS fields, S4 Phi-4 fields marked NO LONGER USED), docs/user_guide.md (counts from the
+  2026-11-18 catalog, methods, location accuracy from the Nov 18 validation files, tribal from
+  tribal_withheld_stats.csv: 2,231 pages / 232 docs / 172 areas / 3,373 tables / 555,419 meas.).
+  Location accuracy recomputed: NWIS station number vs printed 0.09 km, 98% <=5 km (n=11,899); PLSS section
+  0.71 km / 98%; township 4.1 km / 74%; B118 subbasin only 67% inside (basin 93%).
+- Next: Annette grades earliest pages -> rerun chain; then item 3 (public metadata file), stats compendium,
+  HydroShare.
+- **Earliest-records grading applied (Nov 19).** Annette graded 31 of 121 pages (all water types), as NOTES.
+  `code/02_inventory/validation/earliest_review_to_actions.py` maps notes -> actions (her sheet untouched) ->
+  `manual_review/earliest_records_review.csv` (60 rows: page keep 26, page construction_year 2 (2294 p195/p203,
+  year completed), record set_year 32). NEW: record-level review rows (table_number + location_number) in
+  paper_filters.apply_review (override page-level; any water type). Record fixes read from page images:
+  2246 p511 loc13 1808 -> 1898 (OCR); 52651 p29 locs 1-5 (model used the References column) -> date of
+  observation; 2447 p66 (flood maxima, out of state) all 26 -> year of the printed maximum ("Date" column),
+  Topock = g 1862 (KEEP 1862: Annette 2026-11-19, her 1891 was an accident).
+  Sheet rows were PAGE level (year_min/max over all records of the type on the page) -- Annette asked.
+  Full chain re-run (00 -> fig4). Changes: GW +117 -> **+116 HUC12 (+7.9%)**; GW restored sites 3,680 -> 3,678;
+  stream unchanged (+447, +36%). **GW earliest 1900 -> 1871** (2294 p237 = Table 46 yield of flowing wells,
+  Madera Co., 1871/1884/1905, miner's inches; reviewer-confirmed single page; checked image) vs NWIS 1890
+  (+19 yr). Annette: artesian well flow rates are groundwater data; no rewording needed. Stream earliest 1861. GW active before 1900: 7 restored vs 1 NWIS.
+  Catalog dated 89,507. Figures 1-4 regenerated and looked at; no problems found. Fig 4 panel letters are
+  upper-case (A/B) vs lower-case in Figs 2-3.
+  Open (found in the grading): (a) model copies "year completed" into date_start for wells: 553 rows / 93
+  tables where year_start == year_end == construction_year (548 GW) -- proposed rule: treat as construction
+  year (Annette's note on 2294); not applied. (b) flood-maxima tables ("Period of known floods") dated by the
+  period, not the peak: 20 pages / 8 docs / ~90 multi-year rows (~1,500 measurements), mostly out of state.
+- **Decisions (Annette, Nov 19):** (a) do NOT treat "measurement year == year completed" as construction year
+  dataset-wide (only the two reviewed 2294 pages); (b) flood-maxima period-of-known-floods dating: leave as is.
+  **All figures: lower-case bold panel letters (journal requirement).** Figure 4 fixed (a/b, 11 pt, map label
+  "(b)"); Figures 2, 3, 5 already lower-case. Figure 1 has no panels.
+- **Figure style = journal guidelines (Annette, Nov 19).** Shared module `code/02_inventory/fig_style.py`
+  (imported by fig2, fig3, Figure 1 notebook cell 5, fig_santa_ynez + gibraltar_plot, fig5_solano):
+  colours = Figure 3 scheme everywhere (NWIS grey #9E9E9E, restored+NWIS gold #DDAA33, restored blue #0072B2;
+  hollow NWIS markers #6E6E6E; Fig 4/5 star white); ONE font size 7 pt Arial incl. lower-case bold panel
+  letters; panel titles bold 7 pt ("try for now"); lines >= 1 pt EXCEPT subwatershed (HUC12) and HUC8
+  linework (Annette: keep thin); bar outlines and white marker rings removed; sentence-case labels
+  (S.label: "Stream discharge"); commas only for >= 5 digits (S.num; "1376", "16,000"); no M/k
+  abbreviations (Fig 1 axis "(millions)", Fig 2 "13.2 million"); scale bars on maps (Fig 2 panel a only,
+  Fig 3 b/d, Fig 4a 10 km, Fig 5a 10 km); Fig 1 at 7.25 x 3.6 in, no top/right spines or legend frame.
+  Captions must define NWIS, HUC12, DWR Bulletin 118, cfs, depth to water (Annette + collaborator).
+  Not restyled (not paper figures): fig5_alt_36R1, 07_ca_combined_6panel, dam_vignette_timeline,
+  fig4_santa_ynez_by_decade (inherits most of the style). Fig 5 content changes wait for Annette's review
+  (map legend covers wells at 7 pt; b/d letters not on the title baseline).

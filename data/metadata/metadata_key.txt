@@ -1,96 +1,216 @@
-main_metadata.csv — Column Descriptions
-========================================
+Metadata files — Column Descriptions
+====================================
+(rewritten 2026-11-19 for the switch to the new per-location metadata)
 
-73 columns total: 16 LLM-extracted page-level fields (cols 1–16) +
-57 USGS Publications Warehouse document-level fields (cols 17–73).
+Which file to use
+  data/analysis/evaluation/metadata/full_run/metadata_per_location.csv
+      THE METADATA (Section 1). One row per location per table, 178,111 rows, from an
+      open-weight language model (Qwen3.6-27B, prompt v5) reading each page
+      (code/01_digitization/04_metadata_extraction/). Values are copied from the page as
+      printed; location evidence that is not found on the page is dropped.
+  data/analysis/processed_metadata.parquet
+      Same rows (meta_row = row position) plus our checked and rebuilt fields
+      (Section 2): water type, parsed dates, rebuilt locations, page types, measurement
+      counts, reviewer corrections. Built by code/02_inventory/00a_metadata_base.py
+      (-> data/analysis/metadata_base.csv) and 00_data_prep.py. Input to all analyses.
+  data/catalog/restored_tables_catalog.csv
+      One row per table, tribal pages removed; the file for data users
+      (column key: catalog_key.txt).
+  data/metadata/main_metadata.csv
+      The earlier Phi-4 page-level metadata. NO LONGER USED (Annette, 2026-11-18);
+      kept for reference (Section 4) and for its USGS document fields (Section 3).
 
-Rows: one row per page per document. Multiple rows per page are possible
-when the LLM identified more than one location or water body on that page.
-
-Source of LLM fields: Microsoft Phi-4 run on UCSB HPC cluster.
-Source of USGS fields: USGS Publications Warehouse.
-
-IMPORTANT (2026-11-05): the LLM coordinate and date fields in this file (inferred_* /
-actual_* latitude and longitude, dates_of_recording) are the RAW model output and are
-superseded. Checks against coordinates printed on the pages showed many LLM coordinates
-were guessed, and table-level dates proved far more accurate than dates_of_recording.
-Use the rebuilt fields described in SECTION 3 (processed_metadata.parquet, one row per
-row of this file) or the table catalog (data/catalog/restored_tables_catalog.csv, column
-key data/metadata/catalog_key.txt). The raw values are kept here for transparency.
+Pages on federally recognized tribal lands are in metadata_per_location.csv and
+processed_metadata.parquet but are withheld from publication
+(code/02_inventory/12_tribal_lands_screen.py).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SECTION 1 — LLM-extracted page-level fields (cols 1–16)
+SECTION 1 — metadata_per_location.csv (the language-model metadata)
+Accuracy on a 200-table test set (289 key rows; share right, 95% range):
+code/01_digitization/04_metadata_extraction/README.md
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-id
-    USGS Publications Warehouse Publication ID (numeric string). Serves as
-    the document identifier and matches the folder name in data/digitized/.
+doc_id, page_number, table_number
+    USGS publication ID; page number in the scanned PDF (position in the file, not the
+    printed page number); table number on the page (= the _tableN.csv suffix).
 
-page_number
-    Page number within the document (integer, 1-indexed).
+location_number, n_locations_in_table
+    Location (site) number within the table; number of locations the table holds.
+    Number of locations: 98% right.
 
-inferred_latitude
-    Latitude (decimal degrees, WGS84) inferred by LLM Phi-4 from contextual
-    clues on the page (location names, basin descriptions, nearby landmarks).
-    May differ from actual_latitude if no explicit coordinates were reported.
+location, location_type
+    The best location evidence printed for this location, and its kind, by the
+    hierarchy coordinates > well_number > station_number > station_name >
+    township_range_section > named_place (place_name) > basin_or_area > county > state;
+    none = nothing printed. Location 92%, location_type 94%.
 
-inferred_longitude
-    Longitude (decimal degrees, WGS84) inferred by LLM Phi-4 from contextual
-    clues. Negative values indicate west longitude.
+coordinates, well_number, station_number, station_name, township_range_section,
+place_name, basin_or_area, county, state
+    Each kind of location evidence, copied as printed (blank if not on the page).
+    county / state are as printed ("Calif.", "Santa Barbara County"), not standardized.
+place_relation
+    at / near / above / below / "3 miles north of" (goes with place_name).
+evidence_place
+    Where the best evidence is printed: in table | heading before table |
+    elsewhere on page.
 
-actual_latitude
-    Latitude as explicitly reported on the page (decimal degrees, WGS84).
-    Empty if no coordinates were printed on the page.
+water_source
+    Name of the river, creek, canal, lake, reservoir or spring; for a well, the owner or
+    well name, as printed. 91%.
 
-actual_longitude
-    Longitude as explicitly reported on the page (decimal degrees, WGS84).
-    Empty if no coordinates were printed on the page.
+data_type
+    The kind of water the SITE is on, not what was measured: Stream Discharge,
+    Groundwater, Reservoir, Irrigation, Springs, Precipitation, Water Quality,
+    Not Water Related, Other (also a few "Evaporation"). A stream station's temperature
+    or chemistry table is Stream Discharge; a canal, ditch or diversion is Irrigation;
+    "Water Quality" only when the page does not say what kind of water was sampled. 96%.
 
-location
-    Place name or description of the measurement location as extracted from
-    the page (e.g., "Santa Ynez River at Solvang", "Goleta Valley").
-
-townships_ranges_sections
-    Township, range, and section information in Public Land Survey System
-    (PLSS) format, if reported on the page (e.g., "T4N R26W S14").
-
-watersource_name
-    Name of the water body or feature as reported on the page — stream name,
-    well identifier, reservoir name, spring name, etc.
-
-actual_county
-    County name as explicitly stated on the page.
-
-inferred_county
-    County name inferred by LLM Phi-4 from context (location descriptions,
-    basin names, etc.) when not explicitly stated.
-
-dates_of_recording
-    Date range during which the data on the page was recorded, as extracted
-    from the page (e.g., "1956", "January–December 1959", "1920–1950").
+date_start, date_end
+    First and last measurement in this table for this location, as fine as printed
+    ("1916", "1916-10", "1916-10-01"). Water years run Oct-Sep (water year 1917 =
+    "1916-10" to "1917-09"). Not the period of record, not the year a well was drilled.
+    Full date 83% / 84%; start year 87%, end year 96%.
 
 temporal_resolution
-    Frequency of measurements reported on the page (e.g., "daily", "monthly",
-    "annual", "instantaneous"). Empty if not determinable.
+    daily | monthly | annual | discrete | no_time_series (definitions in catalog_key.txt).
+    95%.
 
-units_of_measurement
-    Units in which the data values are expressed, as reported on the page
-    (e.g., "feet below land surface", "acre-feet", "cubic feet per second").
+variables
+    What the table records, ';'-separated: discharge, runoff, gage_height, contents,
+    elevation, water_level, well_yield, temperature, sediment, water_chemistry,
+    precipitation, evaporation; described: well_construction, lithology, water_use,
+    irrigated_area; other. 92% exact, 98% overlap.
 
-water_type
-    Water category assigned by LLM Phi-4. One or more of: Stream Discharge,
-    Groundwater, Reservoir, Irrigation, Springs, Precipitation, Water Quality,
-    Not Water Related, Other.
+construction_date
+    Wells only: year drilled or completed, as printed. 81% (of 19 key rows).
 
-keyterms
-    Key terms and phrases identified by LLM Phi-4 as most relevant to the
-    page content. Stored as a Python list string (e.g., "['well', 'depth']").
-
+status
+    ok | answer not readable | no answer for this table. The 131 tables without a
+    usable answer are corrupted and cannot be rerun; they are excluded from the
+    published set.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SECTION 2 — USGS Publications Warehouse document-level fields (cols 17–73)
-Source: pubs.usgs.gov
-These fields are the same for every page within the same document (same id).
+SECTION 2 — processed_metadata.parquet: added and rebuilt fields
+One row per row of Section 1 (meta_row = row position). All Section 1 columns are
+kept with their names, except as noted.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+meta_row
+    Row position (0-based); joins to the per-step outputs in
+    data/analysis/location_validation/.
+id
+    = doc_id (name used by older scripts).
+Title, Year Published
+    From the USGS publication list (not from any language model).
+
+--- WATER TYPE (00a_metadata_base.py) ---
+water_type_clean
+    data_type made to be one of the nine categories, with reviewer corrections applied
+    (see review_action). Blank data_type: filled with the page's single other type, or
+    by hand review; "Evaporation" -> Other, or Reservoir when measured at a reservoir.
+water_type_source
+    model | page_type | reviewer | evaporation | blank (no usable answer).
+
+--- DATES (00a_metadata_base.py; date protocol of 2026-10-28) ---
+year_start, year_end, decade_start
+    Years of date_start / date_end. Valid years: 1800 to the document's publication year.
+    A single date stands for both ends. year_start is filled only for dated rows.
+date_status
+    parsed | two_digit (YY-MM-DD read as 19YY) | trimmed (one end outside the valid
+    years; replaced by the other end) count as dated.
+    missing | unparseable | implausible (both ends outside the valid years) are undated.
+    undated / construction_year: set by a reviewer (manual_review/).
+construction_year
+    First four-digit year of construction_date (wells only). Not a measurement date.
+
+--- LOCATION (rebuilt; code/01_digitization/04_metadata_extraction/location_validation/) ---
+A location is used only if its evidence is printed on the row's own page (a few
+direction letters / meridians are settled from the same report: evidence_scope =
+document). Model-guessed coordinates are never used.
+lat_combined, lon_combined
+    WGS84 point (blank when unlocated).
+coord_method
+    printed                 latitude/longitude printed on the page (printed value used)
+    nwis_station, nwis_well NWIS station / well number printed on the page
+    nwis_name, nwis_name_cluster
+                            NWIS station name printed on the page without a number
+                            (cluster = several gauges within 5 km, centroid)
+    plss_section            township, range and section printed on the page
+    plss_township           township and range only
+    plss_wellno             California state well number (e.g. 10S/6E-23B1)
+    wellno_group            several wells on the row, all within 5 km (centroid)
+    gnis_*                  a named place on the page matched to USGS GNIS (2021 archive):
+                            _qualifier_at / _feature_dam / _feature_reservoir (precise),
+                            _qualifier_near / _above / _below / _place / _feature_lake /
+                            _feature_spring (approximate); gnis_oos_* = outside California
+    b118_basin, b118_subbasin
+                            DWR Bulletin 118 groundwater basin named on the page (point
+                            inside the basin polygon; for ~40 basins whose names resemble
+                            another basin's, e.g. Santa Maria Valley / Santa Maria River
+                            Valley, a county named for the row or on the page must overlap
+                            the basin)
+    unlocated               no usable location evidence on the page
+precision_km
+    Approximate uncertainty of the point (validated median error of the method).
+precision_class
+    precise      suitable for subwatershed (HUC12) work
+    approximate  county / HUC8 scale
+    basin        basin-level summaries only (point is a placeholder inside the basin)
+    conflict     independent methods disagree (> 25 km, no agreeing majority) or a
+                 named-place point is > 30 km from every NWIS gauge on the named stream;
+                 coordinates kept but not used in maps or statistics
+    unlocated
+evidence_scope
+    page | document (meridian or direction letters settled from elsewhere in the report)
+location_check, n_sources, max_disagree_km
+    Agreement of the independent location sources (printed / NWIS / PLSS / GNIS):
+    agree | consensus | consensus_override (an agreeing group of >= 2 sources outvotes
+    the top-ranked method) | conflict | single (one source).
+stream_check_km
+    GNIS points: distance to the nearest NWIS gauge on the stream the row names.
+nwis_site_no, nwis_site_source
+    NWIS site the location came from: number_on_page | name_on_page | name_cluster.
+well_number
+    State well number used for the location (rebuilt); well_number_printed = the
+    model's well_number column (Section 1), renamed.
+gnis_place, b118_basin
+    Matched GNIS place / Bulletin 118 basin, when used.
+row_class, row_states, page_state_class, page_states
+    State evidence: ca | oos (the row's own place text or the metadata `state` field
+    names another state; California-only references are skipped) | either (the page
+    names another state, the row does not). page_state_class: ca | out_of_state | mixed.
+watersource_name
+    station_name if printed, else water_source.
+new_location, townships_ranges_sections
+    = location and township_range_section of Section 1 (names used by the location
+    scripts).
+continuation_rule
+    Location carried from a continued table: not used (rule switched off 2026-11-18).
+
+--- PAGE, MEASUREMENTS, REVIEW ---
+page_type, is_data_page
+    data | station_index (station catalogues: site information, no measurements; kept in
+    volume figures, out of site analyses) | index_contents (indexes, tables of contents)
+    | report_list (lists of earlier reports). is_data_page is False for index_contents
+    and report_list.
+matched_tables
+    The row's own table number.
+table_measurements, n_measurements
+    Estimated measurements in the row's table (19_value_counts.py; definition in
+    catalog_key.txt), and that count split evenly over the table's locations (sums
+    over rows give table totals).
+review_action
+    Correction from a manual review of the page (data/analysis/manual_review/
+    earliest_records_review.csv): retype (water type changed), set_year (year
+    corrected), undate (no measurement date on the page), construction_year (the year
+    is the year drilled; moved to construction_year), unlocate (location was wrong),
+    keep (confirmed), drop (excluded from paper statistics only; data kept). Several
+    can be combined with ';'. Blank if the page was not reviewed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3 — USGS Publications Warehouse document-level fields
+In main_metadata.csv (cols 17-73) and the ID crosswalk USGS_ID.xlsx.
+Source: pubs.usgs.gov. Same for every page of a document.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 URL
@@ -272,89 +392,73 @@ CHORUS Publicly Accessible Date
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SECTION 3 — Rebuilt and derived fields (data/analysis/processed_metadata.parquet)
-One row per row of main_metadata.csv (meta_row = row position in main_metadata.csv).
-Built by code/02_inventory/00_data_prep.ipynb (Oct 28 - Nov 5, 2026).
+SECTION 4 — main_metadata.csv Phi-4 page-level fields (cols 1-16). NO LONGER USED.
+Microsoft Phi-4 on the UCSB HPC cluster, one or more rows per page. Replaced by the
+per-location metadata (Section 1) on 2026-11-18. The coordinate and date fields were
+already superseded before that: many "actual" coordinates were not printed on the page,
+and inferred coordinates were never validated. Kept for reference only.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-meta_row
-    Row position (0-based) in main_metadata.csv; joins this file to the per-step outputs
-    in data/analysis/location_validation/ and data/analysis/entry_dates.csv.
+id
+    USGS Publications Warehouse Publication ID (numeric string). Serves as
+    the document identifier and matches the folder name in data/digitized/.
 
-water_type_clean
-    water_type normalized to one of the nine categories, with reviewer corrections applied
-    (see review_action).
+page_number
+    Page number within the document (integer, 1-indexed).
 
---- DATES (table-level; code/02_inventory/date_parsing.py, table_dates.py) ---
-year_start, year_end, decade_start
-    Years of the data in the table(s) this entry describes, read from the table and its
-    page. Valid years: 1800 to the document's publication year.
-date_status / date_tier
-    Evidence the years came from, best first:
-      table_date_column  a Date / Year column (or row) in the table
-      table_text         explicit dates elsewhere in the table
-      table_caption      the table title
-      page_text          other text on the same page
-    Labeled fallbacks (NOT measurement dates; exclude for time-based analysis):
-      period_of_record   the station's stated "records available" years
-      construction_year  years the wells were drilled / completed
-      llm_grounded       the LLM date, used only when its start and end years are printed
-                         on the page
-      undated            no date found
-date_source
-    How the entry was matched to dates: row (a table row naming the site), table (the
-    entry's table), page (all tables on the page), llm_grounded, none.
-matched_tables
-    Table numbers on the page whose dates were used.
-por_start, por_end
-    Station period of record stated on the page (not the years of this entry's data).
-construction_start, construction_end
-    Years wells were drilled / completed, kept separately from measurement dates.
-year_start_llm, year_end_llm, decade_start_llm, date_status_llm
-    dates_of_recording parsed, for comparison only.
+inferred_latitude
+    Latitude (decimal degrees, WGS84) inferred by LLM Phi-4 from contextual
+    clues on the page (location names, basin descriptions, nearby landmarks).
+    May differ from actual_latitude if no explicit coordinates were reported.
 
---- LOCATION (rebuilt; LLM-guessed coordinates are not used) ---
-lat_combined, lon_combined
-    WGS84 point from evidence printed on the entry's own page (blank when unlocated).
-coord_method (= coord_source)
-    printed                 latitude/longitude printed on the page
-    nwis_station, nwis_well NWIS station / well number printed on the page
-    plss_section            township, range and section printed on the page
-    plss_township           township and range only
-    plss_wellno             California state well number (e.g. 10S/6E-23B1)
-    wellno_group            several wells on the row, all within 5 km (centroid)
-    gnis_*                  a named place on the page matched to USGS GNIS (2021 archive):
-                            _qualifier_at / _feature_dam / _feature_reservoir (precise),
-                            _qualifier_near / _above / _below / _place / _feature_lake /
-                            _feature_spring (approximate); gnis_oos_* = outside California
-    b118_basin, b118_subbasin
-                            DWR Bulletin 118 groundwater basin named on the page (point
-                            inside the basin polygon)
-    unlocated               no usable location evidence on the page
-precision_km
-    Approximate uncertainty of the point (validated median error of the method).
-precision_class
-    precise      suitable for subwatershed (HUC12) work
-    approximate  county / HUC8 scale
-    basin        basin-level summaries only (point is a placeholder inside the basin)
-    unlocated
-evidence_scope
-    page (all evidence on the entry's own page) | document (meridian or direction letters
-    settled from elsewhere in the same report) | continuation (carried from the start of a
-    table continued across pages; capped at approximate)
-lat_llm, lon_llm, coord_source_llm
-    The LLM coordinates (actual, else inferred) and which one was used, for comparison only.
+inferred_longitude
+    Longitude (decimal degrees, WGS84) inferred by LLM Phi-4 from contextual
+    clues. Negative values indicate west longitude.
 
---- PAGE AND REVIEW FLAGS ---
-page_type, is_data_page
-    data | index_contents (indexes, tables of contents) | narrative (no table) |
-    no_page_text. is_data_page is False for index_contents and narrative pages.
-n_measurements
-    Table rows on the page (estimate of measurements; superseded for counting by the
-    table-level files).
-review_action
-    Correction from a manual review of the page (data/analysis/manual_review/
-    earliest_records_review.csv): retype (water type changed), set_year (year corrected),
-    undate (no measurement date on the page), construction_year (year is year drilled),
-    keep (confirmed), drop (excluded from paper statistics only; data kept). Blank if
-    the page was not reviewed.
+actual_latitude
+    Latitude as explicitly reported on the page (decimal degrees, WGS84).
+    Empty if no coordinates were printed on the page.
+
+actual_longitude
+    Longitude as explicitly reported on the page (decimal degrees, WGS84).
+    Empty if no coordinates were printed on the page.
+
+location
+    Place name or description of the measurement location as extracted from
+    the page (e.g., "Santa Ynez River at Solvang", "Goleta Valley").
+
+townships_ranges_sections
+    Township, range, and section information in Public Land Survey System
+    (PLSS) format, if reported on the page (e.g., "T4N R26W S14").
+
+watersource_name
+    Name of the water body or feature as reported on the page — stream name,
+    well identifier, reservoir name, spring name, etc.
+
+actual_county
+    County name as explicitly stated on the page.
+
+inferred_county
+    County name inferred by LLM Phi-4 from context (location descriptions,
+    basin names, etc.) when not explicitly stated.
+
+dates_of_recording
+    Date range during which the data on the page was recorded, as extracted
+    from the page (e.g., "1956", "January–December 1959", "1920–1950").
+
+temporal_resolution
+    Frequency of measurements reported on the page (e.g., "daily", "monthly",
+    "annual", "instantaneous"). Empty if not determinable.
+
+units_of_measurement
+    Units in which the data values are expressed, as reported on the page
+    (e.g., "feet below land surface", "acre-feet", "cubic feet per second").
+
+water_type
+    Water category assigned by LLM Phi-4. One or more of: Stream Discharge,
+    Groundwater, Reservoir, Irrigation, Springs, Precipitation, Water Quality,
+    Not Water Related, Other.
+
+keyterms
+    Key terms and phrases identified by LLM Phi-4 as most relevant to the
+    page content. Stored as a Python list string (e.g., "['well', 'depth']").

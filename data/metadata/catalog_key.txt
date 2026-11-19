@@ -1,21 +1,33 @@
 restored_tables_catalog.csv / .gpkg — Column Descriptions
 ==========================================================
+(rewritten 2026-11-19 for the catalog built on the new per-location metadata)
 
 One row per digitized table (Reducto table CSV) in the published dataset.
 Built by code/02_inventory/18_build_catalog.py.
 
-Included: LLM-processed tables (table_level_metadata_published.csv).
+Metadata source: the per-location metadata table produced by an open-weight
+language model (Qwen3.6-27B) reading each page
+(code/01_digitization/04_metadata_extraction/; one row per location per table).
+Locations, water types and dates are then checked and rebuilt by our own steps
+(described below). The earlier Phi-4 metadata is no longer used.
+
+Included: tables in table_level_metadata_published.csv (tables with a usable
+metadata answer; 131 tables whose answers were corrupted are excluded).
 Excluded: pages on federally recognized tribal lands, withheld for tribal data
 sovereignty (code/02_inventory/12_tribal_lands_screen.py). Out-of-California
 tables are included and labeled (state, in_california).
 The GeoPackage (layer "tables", EPSG:4326) holds the located rows only.
+
+Size (2026-11-18 build): 97,321 tables, 61,421 pages, 583 documents,
+17,472,473 estimated measurements.
 
 File paths are relative to the root of the digitized data (one folder per
 document, one subfolder per page).
 
 IDENTITY AND FILES
   doc_id               USGS Publications Warehouse publication ID
-  page_number          page number in the scanned document
+  page_number          page number in the scanned PDF (position in the file, not the
+                       printed page number)
   table_number         table number on the page (matches the _tableN.csv suffix)
   page_folder          {doc_id}/page_{N}
   table_csv            path of this table's CSV
@@ -23,40 +35,89 @@ IDENTITY AND FILES
   page_json            path of the full Reducto output for the page
   has_png, has_json    whether the page image / JSON exists
 
-DOCUMENT (from the USGS Publications Warehouse)
+DOCUMENT (from the USGS Publications Warehouse, not from any language model)
   doc_title, series_title, series_number, index_id, year_published, authors,
   usgs_url, doi
 
 CONTENT
   water_type           Stream Discharge, Groundwater, Reservoir, Irrigation, Springs,
-                       Precipitation, Water Quality, Not Water Related, Other
-  water_type_source    llm_unambiguous: the LLM gave one water type for the page
-                       header_high: page had several LLM types; column headers decided
-                       llm_ambiguous: several LLM types, headers undecided; first LLM type
+                       Precipitation, Water Quality, Not Water Related, Other.
+                       The kind of water the SITE is on, not what was measured (a stream
+                       station's temperature or chemistry table is Stream Discharge; a
+                       canal, ditch or diversion is Irrigation). Per table: the type held
+                       by most of the table's locations. Blank model answers were filled
+                       from the other locations on the page or by hand review;
+                       "Evaporation" became Other (or Reservoir when measured at a
+                       reservoir). Reviewer corrections (manual_review/) are applied.
+  water_type_source    single_type: all the table's locations have one type
+                       majority: several types; the most common one
+                       tie_first_location: several types, tied; the first location's type
+  water_types_in_table all types among the table's locations (';'-separated)
+  n_locations          number of locations (sites) the metadata lists for the table
   table_caption        table title found above the table by Reducto (may be blank)
-  page_type            data | index_contents | narrative | no_page_text
-  n_measurements       rows in the table CSV (estimate of the number of measurements)
-  watersource_name, location_text, temporal_resolution, units, keyterms
-                       LLM (Phi-4) fields for the site, from the metadata entry the
-                       table's location came from (else the page's first entry)
+  page_type            data | index_contents | report_list | station_index
+                       station_index: station catalogues (name, number, drainage area,
+                       periods of record) in the "Index of surface-water records"
+                       volumes: site information, no measurements
+  n_measurements       estimated number of measurements in the table: printed values of
+                       a measured variable (discharge, gage height, contents, water level,
+                       each water-quality result, ...). Not counted: dates, identifiers,
+                       site descriptions (well depth, altitude), summary rows (totals,
+                       means, maxima, minima) and columns computed from the table's own
+                       values (runoff in acre-feet beside discharge, second-foot-days,
+                       change in contents). "No flow" / "Dry" cells count. Rating and
+                       capacity tables: every printed point counts.
+                       (19_value_counts.py; an estimate from the digitized cells)
+  watersource_name     name of the river, creek, canal, lake, reservoir or spring as
+                       printed; for a well, the owner or well name (first location)
+  location_text        the printed location evidence of the location used for the point
+                       (coordinates, well number, station number or name, ...)
+  location_text_type   coordinates | well_number | station_number | station_name |
+                       township_range_section | named_place | basin_or_area | county |
+                       state | none (the best kind of evidence printed for that location)
 
-DATES (table-level; checked against hand-graded pages, 2026-11-04)
-  year_start, year_end         years of the data in the table
-  date_status / date_tier      evidence the years came from, best first:
-                                 table_date_column  (A) a Date / Year column or row
-                                 table_text         (B) explicit dates elsewhere in the table
-                                 table_caption      (C) the table title
-                                 page_text          (D) other text on the same page
-                               last-resort fallbacks (labeled; drop them for a strict set):
-                                 period_of_record   (E) station's "records available" years
-                                 construction_year  (F) years the wells were drilled
-                                 undated            no date found
-  period_of_record_start/end   station period of record stated on the page (not the
-                               years of this table's data)
-  construction_start/end       years wells were drilled/constructed (not measurement dates)
-  year_start_llm, year_end_llm original LLM date string for the page, parsed (for comparison)
+RECORD TYPE AND VARIABLES (from the metadata; most common value over the table's
+locations / union of their variables)
+  temporal_resolution  daily: a value for each day
+                       monthly: one row or value per month
+                       annual: one per year; also annual maximum/minimum tables, peaks
+                         above a base, and stream rating tables
+                       discrete: measurements on given dates (water levels, samples,
+                         field measurements), also when about a month apart
+                       no_time_series: well logs, inventories, capacity tables, undated
+                         analyses
+                       blank: not given
+                       Test set (200 tables): 95% agree with the answer key (91-98%).
+  variables            what the table records (';'-separated):
+                       measured: discharge, runoff, gage_height (streams), contents,
+                         elevation (lake / reservoir water surface), water_level,
+                         well_yield, temperature, sediment, water_chemistry,
+                         precipitation, evaporation
+                       described: well_construction (depth, casing, diameter),
+                         lithology (drillers' logs), water_use, irrigated_area
+                       other
+                       A quantity found only in total or summary rows is not listed.
+                       Test set: 92% exact (88-95%); 98% overlap with the key.
 
-LOCATION (rebuilt; LLM-guessed coordinates are not used)
+DATES (first and last measurement in THIS table, from the metadata; then checked)
+  year_start, year_end earliest start year and latest end year over the table's dated
+                       locations. Water years are given as Oct-Sep (water year 1917 =
+                       1916-10 to 1917-09, so year_start is 1916). Not the station's
+                       period of record, not the year a well was drilled.
+                       Valid years: 1800 <= year <= the document's publication year.
+                       Test set: start year 87% (81-93%), end year 96% (92-99%).
+  date_status          parsed: dated (at least one location dated; includes two-digit
+                         years read as 19xx and ranges with one invalid end replaced by
+                         the other)
+                       missing: no date given
+                       unparseable: a date that could not be read
+                       implausible: both years outside 1800..publication year (undated)
+                       undated / construction_year: set by a reviewer (manual_review/)
+  construction_year_min, construction_year_max
+                       wells only: years drilled or completed, as printed (not
+                       measurement dates). Test set: 81% of 19 rows.
+
+LOCATION (rebuilt from printed evidence; model-guessed coordinates are not used)
   latitude, longitude  WGS84 point (blank when unlocated)
   coord_method         printed (lat/long printed on the page), plss_section /
                        plss_township / plss_wellno / wellno_group (Public Land Survey
@@ -64,7 +125,7 @@ LOCATION (rebuilt; LLM-guessed coordinates are not used)
                        number on the page), nwis_name / nwis_name_cluster (NWIS station
                        name, e.g. "Santa Ynez River near Lompoc", printed on the page without
                        a number; cluster = several gauges within 5 km, centroid),
-                       gnis_* (named place on the page),
+                       gnis_* (named place on the page; gnis_oos_* = outside California),
                        b118_basin / b118_subbasin (groundwater basin named on the page)
   precision_km         approximate uncertainty of the point
   precision_class      precise | approximate | basin | conflict | unlocated
@@ -76,17 +137,17 @@ LOCATION (rebuilt; LLM-guessed coordinates are not used)
                          NWIS gauge on the stream the entry names. Coordinates kept; do not
                          rely on them (excluded from the paper's maps and statistics)
   evidence_scope       page (all evidence on the table's own page) | document (direction
-                       letters / meridian settled from elsewhere in the report) |
-                       continuation (location carried from the start of a continued table)
-  location_match       entry: location from a metadata entry tied to this table
-                       page: entry could not be tied to one table; best location on the page
-  location_ambiguous   True when the candidate sites for the table are > 5 km apart (the
-                       table covers several sites, or could not be tied to one)
-  n_site_locations     number of distinct candidate sites
+                       letters / meridian settled from elsewhere in the report)
+  location_match       entry: location from one of the table's own metadata locations
+                       none: unlocated
+  location_ambiguous   True when the table's located points are > 5 km apart (the table
+                       covers several sites)
+  n_site_locations     number of distinct located points among the table's locations
 
 SEARCH KEYS (blank when the location is too coarse)
   state, in_california  precise or approximate points (Census state boundaries)
-  county                precise or approximate points (Census TIGER 2023 counties)
+  county                precise or approximate points (Census TIGER 2023 counties; also
+                        counties of other states)
   huc8, huc8_name       California HUC8 subbasin; precise or approximate points
   huc12                 California HUC12 subwatershed; precise points only
   b118_basin_id, b118_basin_name
@@ -97,41 +158,9 @@ SEARCH KEYS (blank when the location is too coarse)
                         station_number_on_page: NWIS number printed on the page
                         station_name_on_page: NWIS station name printed on the page (no number)
                         nearest_named: nearest NWIS stream site within 5 km sharing a
-                          name word (picks the printed station for ~95% of tables where
-                          one is printed)
+                          name word
                         nearest_well: nearest NWIS groundwater site within 0.5 km
                           (candidate only)
-
-RECORD TYPE (read from the table itself; 20_temporal_resolution.py, added 2026-11-12)
-  data_resolution       what one table's own observations are:
-                        daily: day-of-month rows x months (or months x day columns)
-                        monthly: month rows, year rows x month columns, end-of-month readings
-                          and dated samples taken about once a month (one per month, months
-                          in sequence: designed as a monthly series)
-                        annual: one row per year (annual peaks, yearly totals or means),
-                          annual maximum/minimum per water year, peaks above a base, and
-                          stream rating tables (one per year or period of use)
-                        discrete: measurements on given dates (field measurements, water
-                          levels, water-quality samples); also lists of selected years
-                          with dates (e.g. revised peaks)
-                        no_time_series: logs, inventories, reservoir capacity tables,
-                          undated analyses, probability tables
-                        unclassified: could not be decided from the table or its title
-                        Replaces the page-level LLM field temporal_resolution (kept, raw).
-                        Hand check (65 tables, blind; definitions settled 2026-11-13):
-                          59/65 agree (derived_summary flag 62/65).
-  resolution_source     table (structure) | caption (table title) | none
-  derived_summary       True = monthly/annual table printed beside the daily table of the same
-                          water type and parameter (same or adjacent page) it was computed
-                          from (incl. annual max/min "extremes" tables and rating tables);
-                          its values repeat or summarize the daily record. Peaks above a base
-                          are never derived (instantaneous peaks are not in the daily means)
-  primary_parameter     main quantity: discharge, gage_height, contents, water_level,
-                          temperature, sediment, water_chemistry, precipitation, evaporation,
-                          unknown (from the table title, else column headers)
-  parameters            all parameters named in the title and headers (';'-separated)
-  n_values              numeric values in data cells (summary rows, dates, IDs excluded)
-  n_values_primary      n_values, or 0 for a derived_summary table (so sums don't double count)
 
 DIGITIZATION QUALITY (heuristic; describes the digitized cells, not value accuracy)
   digitization_quality  poor: no data rows, > 90% empty cells, or > 5% cells with an OCR
@@ -142,4 +171,6 @@ DIGITIZATION QUALITY (heuristic; describes the digitized cells, not value accura
   frac_letter_zero      share of cells that are a lone "o"/"O". Old USGS typefaces print
                           zero this way (e.g. zero-flow days), so these values are easy to
                           recover; not counted against digitization_quality
-  frac_ocr_suspect, frac_empty, n_data_rows, n_cols
+  frac_ocr_suspect      share of cells with a letter-for-digit swap
+  frac_empty            share of empty cells
+  n_data_rows, n_cols   size of the digitized table

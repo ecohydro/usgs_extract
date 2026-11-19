@@ -23,11 +23,20 @@ downloaded 2026-10-01 from gis.water.ca.gov MapServer layer 1 (paged, simplified
 with maxAllowableOffset=0.001 deg), saved to data/analysis/spatial/sgma/.
 
 Output: data/analysis/sgma_basin_groundwater_coverage.csv (one row per basin)
+
+2026-11-19 (new metadata): tribal pages out, reviewer verdicts applied, precise/approximate
+points only, data pages only; restored_meas = n_measurements (19_value_counts.py).
+restored_first_yr uses measurement dates (year_start; fallback years are never set in the
+new metadata). NWIS first year = begin_year of the site file (one series per site), NOT the
+actual-years basis of Figure 3 -- exploratory only.
 """
 
 import pandas as pd
 import geopandas as gpd
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'code/02_inventory'))
+from paper_filters import tribal_mask, apply_review, located, measurement_page_mask  # noqa: E402
 
 root         = Path(__file__).resolve().parents[2]
 parquet_path = root / 'data/analysis/processed_metadata.parquet'
@@ -60,15 +69,15 @@ def to_basin(g):
 
 # ---- restored sites (same definition as the 6-panel figure)
 md = pd.read_parquet(parquet_path)
-md = md[(md['water_type_clean'] == 'Groundwater') &
-        md['lat_combined'].notna() & md['lon_combined'].notna()]
+md = apply_review(md[~tribal_mask(md).values], verbose=False)
+md = md[(md['water_type_clean'] == 'Groundwater') & located(md) & measurement_page_mask(md)]
 r_sites = to_basin(points(md.drop_duplicates(['lat_combined', 'lon_combined']),
                           'lon_combined', 'lat_combined'))
 
 # ---- restored tables / measurements / years (published table-level file)
 tl = pd.read_csv(table_path, low_memory=False)
-tl = tl[(tl['water_type_final'] == 'Groundwater') &
-        tl['lat_combined'].notna() & tl['lon_combined'].notna()]
+tl = tl[~tribal_mask(tl, id_col='doc_id').values]
+tl = tl[(tl['water_type_final'] == 'Groundwater') & located(tl) & measurement_page_mask(tl)]
 r_tab = to_basin(points(tl, 'lon_combined', 'lat_combined'))
 
 # ---- NWIS wells
@@ -80,7 +89,7 @@ key = 'Basin_Subbasin_Number'
 agg = pd.DataFrame({
     'restored_sites':      r_sites.groupby(key).size(),
     'restored_tables':     r_tab.groupby(key).size(),
-    'restored_meas':       r_tab.groupby(key)['number_rows'].sum(),
+    'restored_meas':       r_tab.groupby(key)['n_measurements'].sum(),
     'restored_docs':       r_tab.groupby(key)['doc_id'].nunique(),
     'restored_first_yr':   r_tab.groupby(key)['year_start'].min(),
     'restored_last_yr':    r_tab.groupby(key)['year_end'].max(),

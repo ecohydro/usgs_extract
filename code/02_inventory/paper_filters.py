@@ -76,9 +76,23 @@ MANUAL_REVIEW = ROOT / 'data/analysis/manual_review/earliest_records_review.csv'
 def _review():
     r = pd.read_csv(MANUAL_REVIEW)
     if 'action' not in r.columns:
-        r['action'] = r['verdict'].map({'exclude': 'drop'}).fillna('keep')
+        # 2026-11-19: the new review sheet (earliest_records_new/) writes actions straight into
+        # `verdict` (keep / drop / retype / undate / construction_year / set_year / unlocate, ';'
+        # to combine); 'exclude' is the old word for drop. Ungraded rows are ignored.
+        v = r['verdict'].astype('string').str.strip().str.lower().str.replace(r'\s*;\s*', ';', regex=True)
+        r['action'] = v.replace({'exclude': 'drop'})
+        r = r[r['action'].notna() & (r['action'] != '')]
+        known = {'keep', 'drop', 'retype', 'undate', 'construction_year', 'set_year', 'unlocate'}
+        bad = r['action'].map(lambda s: not set(s.split(';')) <= known)
+        if bad.any():
+            raise ValueError('unknown review verdicts: ' + ', '.join(sorted(set(r.loc[bad, 'action']))))
     r['key'] = list(zip(r.id.astype(str), r.page_number.astype(int), r.water_type))
-    return r
+    # optional record-level rows (2026-11-19): table_number + location_number filled -> the verdict
+    # applies to that one record (any water type); otherwise to every record of the page + water type
+    for c in ['table_number', 'location_number']:
+        if c not in r.columns:
+            r[c] = pd.NA
+    return r.reset_index(drop=True)
 
 
 def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_clean',
@@ -101,12 +115,25 @@ def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_c
     paper claim", not "remove the table". Adds column review_action."""
     if not MANUAL_REVIEW.exists():
         return df
-    r = _review().set_index('key')
+    r = _review()
     df = df.copy()
     ids = df[id_col].astype(str).str.replace(r'\.0$', '', regex=True)
     pages = pd.to_numeric(df[page_col], errors='coerce').fillna(-1).astype(int)
-    keys = pd.Series(list(zip(ids, pages, df[type_col])), index=df.index)
-    act = keys.map(lambda k: r.action.get(k))
+    rec = r['table_number'].notna() & r['location_number'].notna()
+    page_pos = {k: i for i, k in r.loc[~rec, 'key'].items()}
+    rec_pos = {(str(a), int(b), int(c), int(d)): i for i, a, b, c, d in
+               zip(r.index[rec], r.id[rec], r.page_number[rec], r.table_number[rec], r.location_number[rec])}
+    pos = pd.Series([page_pos.get(k) for k in zip(ids, pages, df[type_col])], index=df.index, dtype='object')
+    if rec_pos and {'table_number', 'location_number'} <= set(df.columns):
+        tn = pd.to_numeric(df['table_number'], errors='coerce').fillna(-1).astype(int)
+        ln = pd.to_numeric(df['location_number'], errors='coerce').fillna(-1).astype(int)
+        rp = pd.Series([rec_pos.get(k) for k in zip(ids, pages, tn, ln)], index=df.index, dtype='object')
+        pos = rp.where(rp.notna(), pos)   # a record-level verdict overrides the page-level one
+
+    def field(col, m):
+        return pos[m].map(lambda i: r.at[i, col])
+
+    act = pos.map(lambda i: r.at[i, 'action'] if i is not None and pd.notna(i) else None)
     df['review_action'] = act.where(act.notna(), df.get('review_action'))
     acts = act.fillna('').str.split(';')
 
@@ -117,15 +144,21 @@ def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_c
     year_cols = ['year_start', 'year_end'] + (['decade_start'] if 'decade_start' in df else [])
     for a, status in [('undate', 'undated'), ('construction_year', 'construction_year')]:
         m = has(a)
+        if a == 'construction_year' and 'construction_year' in df.columns:
+            # new-metadata pipeline (2026-11-19): year_start.notna() <=> measurement date, so the
+            # year moves to the construction_year column and the row becomes undated
+            df.loc[m, 'construction_year'] = df.loc[m, 'construction_year'].fillna(df.loc[m, 'year_start'])
+            df.loc[m, year_cols] = float('nan')
         df.loc[m, 'date_status'] = status
         if a == 'undate':
             df.loc[m, year_cols] = float('nan')
     m = has('set_year')
     if m.any():
-        ys = keys[m].map(lambda k: r.at[k, 'corrected_year_start'])
-        ye = keys[m].map(lambda k: r.at[k, 'corrected_year_end'])
+        ys = field('corrected_year_start', m).astype(float)
+        ye = field('corrected_year_end', m).astype(float)
         df.loc[m, 'year_start'] = ys
-        df.loc[m, 'year_end'] = ye
+        df.loc[m, 'year_end'] = ye.fillna(ys)
+        df.loc[m, 'date_status'] = 'parsed'
         if 'decade_start' in df.columns:
             df.loc[m, 'decade_start'] = (ys // 10) * 10
     m = has('unlocate')
@@ -137,7 +170,7 @@ def apply_review(df, id_col='id', page_col='page_number', type_col='water_type_c
             df.loc[m, c] = 'unlocated'
     m = has('retype')  # last: the review key uses the original water type
     if m.any():
-        df.loc[m, type_col] = keys[m].map(lambda k: r.at[k, 'new_water_type'])
+        df.loc[m, type_col] = field('new_water_type', m)
     if verbose:
         print('  manual review applied: ' + ', '.join(
             f'{a} {int(has(a).sum())}' for a in ['drop', 'retype', 'undate', 'construction_year',

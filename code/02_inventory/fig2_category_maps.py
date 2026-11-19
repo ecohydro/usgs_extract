@@ -33,7 +33,10 @@ A = ROOT / 'data/analysis'
 FIG = ROOT / 'manuscript/figures'
 LOC_CLASSES = ('precise', 'approximate', 'basin', 'conflict')
 
-plt.rcParams.update({'font.family': 'Arial', 'font.size': 7})
+import fig_style as S                                    # noqa: E402
+from matplotlib.transforms import offset_copy            # noqa: E402
+from matplotlib.lines import Line2D                      # noqa: E402
+S.apply()
 
 # ---------------------------------------------------------------- data
 cat = pd.read_csv(ROOT / 'data/catalog/restored_tables_catalog.csv', low_memory=False)
@@ -63,7 +66,10 @@ print(counts.to_string(index=False))
 
 
 def fmt_meas(v):
-    return f'{v / 1e6:.1f} M' if v >= 1e6 else (f'{v / 1e3:.0f} k' if v >= 1e3 else f'{v:,}')
+    # journal style (2026-11-19): no 'M'/'k' abbreviations; commas only for >= 5 digits
+    if v >= 1e6:
+        return f'{v / 1e6:.1f} million'
+    return S.num(round(v, -3)) if v >= 1e4 else S.num(v)
 
 
 # ---------------------------------------------------------------- figure
@@ -89,14 +95,16 @@ OTHERS = [w for w in CATEGORY_ORDER if w not in ('Stream Discharge', 'Groundwate
 PT = dict(s=4.0, alpha=0.7, linewidths=0, rasterized=True, zorder=3)   # points above the white HUC12 lines
 
 
-def base_map(ax, lines=None, lw=0.15):
+def base_map(ax, lines=None, lw=0.15, bar=False):
     ca.plot(ax=ax, color='#ececea', edgecolor='none')
     (huc_lines if lines is None else lines).plot(ax=ax, color='white', linewidth=lw)
-    ca.boundary.plot(ax=ax, color='#4d4d4d', linewidth=0.4)
+    ca.boundary.plot(ax=ax, color='#4d4d4d', linewidth=S.LW_MIN)   # >= 1 pt (journal); HUC lines stay thin
     ax.set_xlim(xmin - 0.2, xmax + 0.2)
     ax.set_ylim(ymin - 0.2, ymax + 0.2)
     ax.set_aspect(1 / np.cos(np.radians(37)))
     ax.set_axis_off()
+    if bar:   # all panels share one scale: one bar, in panel a (2026-11-19)
+        S.scalebar(ax, 200, 37, loc=(0.06, 0.06))
 
 
 def plot_type(ax, wt, colors=None):
@@ -104,9 +112,18 @@ def plot_type(ax, wt, colors=None):
     ax.scatter(g.longitude, g.latitude, color=(colors or {}).get(wt, get_color_for(wt)), **PT)
 
 
-def letter(ax, i):
-    ax.text(0.0, 1.0, 'abcdefg'[i], transform=ax.transAxes, fontsize=9, fontweight='bold',
-            va='bottom', ha='left')
+# Sizes from fig_style.py (Annette 2026-11-19: one set of sizes in all figures): water-type title 9,
+# counts line 7, panel letter 11 on the title baseline. Used by both layouts.
+T_SIZE, N_SIZE, L_SIZE = S.TITLE, S.BODY, S.LETTER
+T_PAD = 13                                     # points between map top and title baseline
+
+
+def titles(ax, i, name, nloc, nmeas):
+    ax.set_title(S.label(name), fontsize=T_SIZE, pad=T_PAD)
+    ax.text(0.5, 1.0, f'{S.num(nloc)} locations · n = {fmt_meas(nmeas)}', fontsize=N_SIZE, ha='center',
+            va='baseline', transform=offset_copy(ax.transAxes, fig=ax.figure, y=3, units='points'))
+    ax.text(0.0, 1.0, 'abcdefg'[i], fontsize=L_SIZE, fontweight='bold', ha='left', va='baseline',
+            transform=offset_copy(ax.transAxes, fig=ax.figure, y=T_PAD, units='points'))
 
 
 def save(fig, name):
@@ -119,38 +136,22 @@ def save(fig, name):
 # ---- 7 panels
 fig, axes = plt.subplots(2, 4, figsize=(7.25, 4.9))
 for i, (ax, wt) in enumerate(zip(axes.flat, CATEGORY_ORDER)):
-    base_map(ax)
+    base_map(ax, bar=(i == 0))
     plot_type(ax, wt)
     c = cidx.loc[wt]
-    ax.set_title(wt + '\n' + f'{c.locations:,} locations · n = {fmt_meas(c.est_measurements)}',
-                 fontsize=7, pad=3)
-    letter(ax, i)
+    titles(ax, i, wt, c.locations, c.est_measurements)
 axes.flat[7].set_axis_off()
-fig.subplots_adjust(left=0.01, right=0.99, top=0.93, bottom=0.01, wspace=0.05, hspace=0.18)
+fig.subplots_adjust(left=0.01, right=0.99, top=0.90, bottom=0.01, wspace=0.05, hspace=0.32)
 save(fig, 'fig2_category_maps')
 
 # ---- 3 panels: stream | groundwater | all other categories (largest drawn first, so small on top)
 # Layout (Annette, 2026-11-15): water-type title larger than the counts line; panel letter on the
 # water-type title baseline; less space between panels; "Other" location count = sum over the 5
 # categories (1,055; a location holding two categories counts twice).
-from matplotlib.transforms import offset_copy  # noqa: E402
-from matplotlib.lines import Line2D            # noqa: E402
-T_SIZE, N_SIZE, L_SIZE = 10, 7, 11             # points: title, counts line, panel letter
-T_PAD = 13                                     # points between map top and title baseline
-
-
-def titles(ax, i, name, nloc, nmeas):
-    ax.set_title(name, fontsize=T_SIZE, pad=T_PAD)
-    ax.text(0.5, 1.0, f'{nloc:,} locations · n = {fmt_meas(nmeas)}', fontsize=N_SIZE, ha='center',
-            va='baseline', transform=offset_copy(ax.transAxes, fig=ax.figure, y=3, units='points'))
-    ax.text(0.0, 1.0, 'abc'[i], fontsize=L_SIZE, fontweight='bold', ha='left', va='baseline',
-            transform=offset_copy(ax.transAxes, fig=ax.figure, y=T_PAD, units='points'))
-
-
 fig, axes = plt.subplots(1, 3, figsize=(7.25, 3.6))
 for i, wt in enumerate(['Stream Discharge', 'Groundwater']):
     ax = axes[i]
-    base_map(ax, huc8_lines, 0.4)
+    base_map(ax, huc8_lines, 0.4, bar=(i == 0))
     plot_type(ax, wt, SWAP)
     c = cidx.loc[wt]
     titles(ax, i, wt, c.locations, c.est_measurements)
@@ -162,8 +163,8 @@ titles(ax, 2, 'Other categories', int(cidx.loc[OTHERS].locations.sum()),
        int(cidx.loc[OTHERS].est_measurements.sum()))
 ax.legend(handles=[Line2D([0], [0], marker='o', ls='', markersize=3.5, alpha=0.8,
                           markerfacecolor=get_color_for(w), markeredgewidth=0,
-                          label=f'{w} ({cidx.loc[w].locations:,})') for w in OTHERS],
-          loc='upper right', bbox_to_anchor=(1.0, 1.0), fontsize=5.5, frameon=False,
+                          label=f'{S.label(w)} ({S.num(cidx.loc[w].locations)})') for w in OTHERS],
+          loc='upper right', bbox_to_anchor=(1.0, 1.0), fontsize=S.SMALL, frameon=False,
           handletextpad=0.3, borderaxespad=0.2)
 fig.subplots_adjust(left=0.005, right=0.995, top=0.86, bottom=0.01, wspace=-0.12)
 save(fig, 'fig2_category_maps_3panel')

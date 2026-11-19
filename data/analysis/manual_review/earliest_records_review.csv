@@ -1,0 +1,61 @@
+id,page_number,water_type,table_number,location_number,action,new_water_type,corrected_year_start,corrected_year_end,reviewer,note,review_no
+2294,195,Groundwater,,,construction_year,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: dates are 'year completed' (drill date), not measurement dates",1
+2294,203,Groundwater,,,construction_year,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: dates are 'year completed' (drill date), not measurement dates",2
+2294,237,Groundwater,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,3
+28777,12,Groundwater,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: 1875 date is real; groundwater well level measurements and water quality,4
+1751,76,Irrigation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: 1879 date is real,5
+2252,721,Irrigation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: dates are real; 'stream discharge' written in new_water_type: the 1889 record (Santa Paula Creek, loc 3) is already Stream Discharge; the table is Irrigation by majority (8 of 13 sites are ditches/canals), no change",6
+14841,18,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,7
+16643,5,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,8
+2094,23,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,9
+2749,26,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,10
+2133,56,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,11
+1166,32,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real for first table,12
+1298,11,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,13
+2188,18,Precipitation,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are real,14
+2094,26,Reservoir,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,34
+2854,121,Reservoir,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,35
+6064,28,Reservoir,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,36
+2094,27,Reservoir,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,37
+2854,122,Reservoir,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,38
+2913,328,Reservoir,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,39
+28777,13,Springs,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,40
+2888,201,Springs,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,41
+2888,100,Springs,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,43
+2888,179,Springs,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,44
+2888,215,Springs,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,45
+2888,289,Springs,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,46
+2249,375,Stream Discharge,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: table 1 (fig 1) 1861-1904 is correct; page range 1861-1912 written in the shifted columns covers all three tables, each already dated on its own",49
+3033,254,Stream Discharge,,,keep,,,,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: dates are correct,50
+2246,511,Stream Discharge,1,13,set_year,,1898,1898,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: '1808' probably OCR; page prints Aug. 11, 1898",47
+52651,29,Springs,1,1,set_year,,1966,1966,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: use 'date of observation' column (model used reference years),42
+52651,29,Springs,1,2,set_year,,1966,1966,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: use 'date of observation' column (model used reference years),42
+52651,29,Springs,1,3,set_year,,1965,1965,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: use 'date of observation' column (model used reference years),42
+52651,29,Springs,1,4,set_year,,1954,1954,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: use 'date of observation' column (model used reference years),42
+52651,29,Springs,1,5,set_year,,1954,1954,Annette Hilton 2026-11-19 (actions transcribed by Claude),note: use 'date of observation' column (model used reference years),42
+2447,66,Stream Discharge,1,1,set_year,,1914,1914,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,2,set_year,,1914,1914,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,3,set_year,,1956,1956,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,4,set_year,,1960,1960,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,5,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,6,set_year,,1957,1957,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,7,set_year,,1862,1862,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,8,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,9,set_year,,1951,1951,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,10,set_year,,1939,1939,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,11,set_year,,1891,1891,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,12,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,13,set_year,,1949,1949,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,14,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,15,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,16,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,17,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,18,set_year,,1941,1941,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,19,set_year,,1960,1960,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,20,set_year,,1955,1955,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,21,set_year,,1960,1960,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,22,set_year,,1956,1956,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,23,set_year,,1949,1949,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,24,set_year,,1906,1906,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,25,set_year,,1952,1952,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48
+2447,66,Stream Discharge,1,26,set_year,,1952,1952,Annette Hilton 2026-11-19 (actions transcribed by Claude),"note: use 'date' column (year of the printed maximum, not the period of known floods)",48

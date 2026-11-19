@@ -54,8 +54,11 @@ DECADES = list(range(1850, 1980, 10))
 # deuteranopia/protanopia/tritanopia simulation (closest: grey vs gold, OKLab dE 12.7; target >= 8).
 NWIS_COLOR, LINK_COLOR, NEW_COLOR = '#9E9E9E', '#DDAA33', '#0072B2'
 
-plt.rcParams.update({'font.family': 'Arial', 'font.size': 7})
-TITLE_SIZE, LETTER_SIZE, TITLE_PAD = 9, 11, 6   # points (Annette, 2026-11-15: a little bigger, aligned)
+import fig_style as S  # noqa: E402
+S.apply()
+# Journal guidelines (Annette, 2026-11-19): one font size (7 pt) incl. panel letters, bold titles,
+# lines >= 1 pt except the thin white HUC12 lines, scale bars, commas only in numbers >= 10,000.
+TITLE_SIZE, LETTER_SIZE, TITLE_PAD = S.TITLE, S.LETTER, 6
 
 
 from site_activity import (CAP, hav_km, decades_of, load_records, nwis_table,   # noqa: E402
@@ -149,46 +152,48 @@ for STYLE in ('bars',):
         bottom = np.zeros(len(x))
         for col, (lab, c) in zip(['nwis', 'restored_at_nwis_site', 'restored_no_nwis_link'], labels):
             v = ts[col].values
-            ax.bar(x, v, 0.8, bottom=bottom, color=c, label=lab,
-                   edgecolor='#4d4d4d', linewidth=0.3)   # thin dark-grey outline (Annette, 2026-11-15)
+            # bar outline dropped 2026-11-19: the journal's thinnest line is 1 pt (was 0.3 pt dark grey)
+            ax.bar(x, v, 0.8, bottom=bottom, color=c, label=lab, linewidth=0)
             bottom += v
         ax.set_xticks(x)
-        ax.set_xticklabels([f'{d}s' for d in DECADES], rotation=45, ha='right', fontsize=6)
+        ax.set_xticklabels([f'{d}s' for d in DECADES], rotation=45, ha='right', fontsize=S.SIZE)
+        ax.yaxis.set_major_formatter(S.num_formatter())
         ax.set_ylabel('Active sites per decade')
         # no x-axis label (Annette, 2026-11-15): the tick labels already read as decades
         ax.grid(axis='y', alpha=0.3)
         ax.spines[['top', 'right']].set_visible(False)
         ax.set_title(f'{title}: active sites', fontsize=TITLE_SIZE, loc='left', pad=TITLE_PAD)
-        ax.legend(fontsize=6, frameon=False, loc='upper left')
+        ax.legend(fontsize=S.SIZE, frameon=False, loc='upper left')
 
         ax = axes[row, 1]
         b = huc_ca.copy()
         b['cls'] = np.where(b.huc12.isin(f_h), 'filled',
                             np.where(b.huc12.isin(n_h), 'nwis', np.where(b.huc12.isin(r_h), 'restored', 'none')))
-        ca.plot(ax=ax, color='white', edgecolor='#4d4d4d', linewidth=0.4)
+        ca.plot(ax=ax, color='white', edgecolor='#4d4d4d', linewidth=S.LW_MIN)
         b[b.cls == 'nwis'].plot(ax=ax, color=NWIS_COLOR, linewidth=0)
         b[b.cls == 'filled'].plot(ax=ax, color=LINK_COLOR, linewidth=0)
         b[b.cls == 'restored'].plot(ax=ax, color=NEW_COLOR, linewidth=0)
         # HUC12 and HUC8 grey/dark lines dropped (Annette, 2026-11-15); instead a thin WHITE line between
         # subwatersheds on panel D, which separates the filled patches without adding grey linework
         huc_ca.boundary.plot(ax=ax, color='white', linewidth=0.15)   # panels b and d (Annette, 2026-11-15)
-        ca.boundary.plot(ax=ax, color='#4d4d4d', linewidth=0.4)
+        ca.boundary.plot(ax=ax, color='#4d4d4d', linewidth=S.LW_MIN)
         ax.set_axis_off()
+        S.scalebar(ax, 200, 37, loc=(0.06, 0.06))
         ax.set_title(f'{title}: subwatersheds (HUC12)', fontsize=TITLE_SIZE, loc='left', pad=TITLE_PAD)
         from matplotlib.patches import Patch
-        h = [Patch(color=NWIS_COLOR, label=f'NWIS site ({int(s.huc12_nwis_only):,})'),
+        h = [Patch(color=NWIS_COLOR, label=f'NWIS site ({S.num(s.huc12_nwis_only)})'),
              Patch(color=LINK_COLOR, label=f'NWIS site + restored decades without NWIS data '
-                                           f'({int(s.huc12_nwis_filled_by_restored):,})'),
-             Patch(color=NEW_COLOR, label=f'Restored, no NWIS site ({int(s.huc12_restored_no_nwis):,}; '
+                                           f'({S.num(s.huc12_nwis_filled_by_restored)})'),
+             Patch(color=NEW_COLOR, label=f'Restored, no NWIS site ({S.num(s.huc12_restored_no_nwis)}; '
                                           f'+{s.pct_gain_basins:.0f}%)')]
-        ax.legend(handles=h, fontsize=6, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.01),
+        ax.legend(handles=h, fontsize=S.SIZE, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.01),
                   ncol=1)
 
     for ax, letter in zip(axes.flat, 'abcd'):   # lower-case bold panel letters (Annette, 2026-11-15)
         # same baseline as the panel title: title sits TITLE_PAD points above the axes top, baseline-aligned
         ax.text(-0.02, 1.0, letter, fontsize=LETTER_SIZE, fontweight='bold', ha='right', va='baseline',
                 transform=offset_copy(ax.transAxes, fig=fig, y=TITLE_PAD, units='points'))
-    fig.subplots_adjust(left=0.08, right=0.98, top=0.95, bottom=0.07, wspace=0.12, hspace=0.38)
+    fig.subplots_adjust(left=0.08, right=0.98, top=0.95, bottom=0.10, wspace=0.12, hspace=0.42)
     for ext in ('png', 'pdf'):
         fig.savefig(FIG / f'{PREFIX}_nwis_comparison{TAG}.{ext}', dpi=400)
     plt.close(fig)
