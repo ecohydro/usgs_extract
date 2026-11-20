@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 39°15'58\", long 120°21'19\"",
+  "well_number": "",
+  "station_number": "4261.6",
+  "station_name": "Onion Creek tributary No. 7 near Soda Springs, Calif.",
+  "township_range_section": "NE¼SW¼ sec.12, T.16 N., R.14 E.",
+  "place_name": "Soda Springs",
+  "place_relation": "near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Onion Creek tributary No. 7",
+  "data_type": "Stream Discharge",
+  "date_start": "1958-10-01",
+  "date_end": "1959-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1958 to September 1959. October is one braced value (0.03) for the whole month. Station number printed in short form '4261.6.'. Other distances on page: 4.1 miles southeast of Soda Springs; 0.4 mile upstream from junction with Onion Creek; 0.6 mile southeast of Onion Creek Campground. No county printed."
+ }
+]

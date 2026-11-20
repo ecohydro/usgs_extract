@@ -1,0 +1,13 @@
+n: 21
+report (doc_id): 1630   page: 445   table on the page: 1 of 2 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1630_page_445.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/21.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY |  | CCT | NUV | DEC | JA | FFE | MAR
+ |  |  |  | 30 | 12 | 3.. | 18
+? |  |  |  | 2? | 68 | 27 | 15
+3 |  |  | : | 17 | 52 | 24 | 16
+... (39 lines in all; last lines:)
+CAL YR 1965 |  |  | TOTAL 16,446.60 | MEAN 45.1 |  | MAX 5,160 | MIN 0
+wik YR 1466 |  |  | TOTAL 18,5,6.30 |  | MEAN 50.7 | MAX 5,160 | MIN 2

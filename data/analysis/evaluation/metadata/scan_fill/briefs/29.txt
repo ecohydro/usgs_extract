@@ -1,0 +1,13 @@
+n: 29
+report (doc_id): 1640   page: 265   table on the page: 2 of 2 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1640_page_265.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/29.json
+
+To recognise table 2 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY |  | OCT |  | DEC | JAN | FEB | MAR
+1 |  |  | 0 | 7.8 | 160 | 26 | 8.8
+2 |  |  | 0 | 7.0 | 80 | 24 | 9.3
+3 |  |  | 0 | 5.7 | 52 | 19 | 8.2
+... (39 lines in all; last lines:)
+CAL YR | 1965 |  | TOTAL 10,658.20 | MEAN 29.2 |  | MAX 902 | MIN 0
+WTR YR | 1966 |  | TOTAL | 2,743.60 MEAN | 7.52 | MAX 280 | MIN 0

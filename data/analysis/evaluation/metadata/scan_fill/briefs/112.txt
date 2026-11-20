@@ -1,0 +1,13 @@
+n: 112
+report (doc_id): 56412   page: 95   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/56412_page_95.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/112.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY | OCT | NOV | DEC | JAN | FEB | MAR | APR
+1 | 64 | 64 | 40 | 39 | 40 | 84 | 106
+2 | 54 | 43 | 40 | 37 | 41 | 79 | 104
+3 | 54 | 45 | 40 | 39 | 41 | 79 | 107
+... (39 lines in all; last lines:)
+ | CAL YR 1971 TOTAL 55,851 |  | MEAN 153 |  | MAX 1,260 | MIN 32 | AC-FT 110,800
+ | WTR YR 1972 TOTAL 28,298 |  | MEAN | 77.3 | MAX 428 | MIN 37 | AC-FT 56,130

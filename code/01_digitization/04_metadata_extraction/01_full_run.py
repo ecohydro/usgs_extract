@@ -2,6 +2,7 @@
 
   python 01_full_run.py prepare     any Python; reads the Reducto page files once and writes the shard inputs
   python 01_full_run.py prepare_missing   pages that had no Reducto file at first: tried again, one more shard
+  python 01_full_run.py prepare_unlisted  pages with a table in the Reducto files but no table on the published list
   python 01_full_run.py worker      vllm-rs Python on a GPU; any number of workers, on any nodes, at any time
   python 01_full_run.py status
 
@@ -76,6 +77,50 @@ def prepare_missing():
     print(f"PREPARED {len(keep)} more pages in one shard; {len(got) - len(keep)} still have no table", flush=True)
 
 
+def reducto_pages():
+    """Every (doc, page) with a Reducto page file: ReductJson, then the copy organized by page. One directory listing
+    per report folder (the share is slow; no stat of single files)."""
+    pages = set()
+    for root, by_page in ((D.REDUCTO_JSON, False), (D.REDUCTO_JSON_BY_PAGE, True)):
+        for d in os.scandir(root):
+            if not (d.is_dir() and d.name.isdigit()):
+                continue
+            names = ([p.name[5:] for p in os.scandir(d.path) if p.name.startswith("page_")] if by_page else
+                     [f.name[len(d.name) + 6:-5] for f in os.scandir(d.path)
+                      if f.name.startswith(d.name + "_page_") and f.name.endswith(".json")])
+            pages |= {(int(d.name), int(n)) for n in names if n.isdigit()}
+    return pages
+
+
+def prepare_unlisted():
+    """Anna 2026-11-18 (Annette found them): pages whose Reducto file holds a table but that have no table on the
+    published list (in June these were the tables the 2025 Phi-4 run never read, so they were left out of publication).
+    Read with the same model and prompt; their pages go to pages_unlisted.csv and more shards, which `worker` reads."""
+    done = {(int(r["doc_id"]), int(r["page_number"])) for r in csv.DictReader(open(RUN / "pages.csv"))}
+    done |= {(int(r["doc_id"]), int(r["page_number"])) for r in csv.DictReader(open(RUN / "pages_without_table.csv"))}
+    todo = sorted(reducto_pages() - done)
+    print(len(todo), "Reducto pages not yet considered", flush=True)
+
+    def one(p):
+        text, k = page_input.page_text(*p)
+        return p[0], p[1], k, text
+    with ThreadPoolExecutor(32) as ex:
+        keep = [g for g in ex.map(one, todo) if g[2]]
+    s0 = len(shards())
+    with open(RUN / "pages.csv", "a", newline="") as f, open(RUN / "pages_unlisted.csv", "w", newline="") as u:
+        w, wu = csv.writer(f), csv.writer(u)
+        wu.writerow(["doc_id", "page_number", "n_tables", "shard"])
+        for i in range(0, len(keep), SHARD_PAGES):
+            s = s0 + i // SHARD_PAGES
+            with gzip.open(RUN / "in" / f"shard_{s:04d}.jsonl.gz", "wt", encoding="utf-8") as g:
+                for doc, page, k, text in keep[i:i + SHARD_PAGES]:
+                    g.write(json.dumps([doc, page, k, text]) + "\n")
+                    w.writerow([doc, page, k, s])
+                    wu.writerow([doc, page, k, s])
+    print(f"PREPARED {len(keep)} pages with a table in {(len(keep) - 1) // SHARD_PAGES + 1} more shards "
+          f"(from shard {s0}); {len(todo) - len(keep)} have no table", flush=True)
+
+
 def shards():
     return sorted(p.name[:-9] for p in (RUN / "in").glob("shard_*.jsonl.gz"))
 
@@ -129,17 +174,23 @@ def reread():
     bad = set()
     for f in sorted((RUN / "out").glob("shard_*.jsonl")):
         bad |= {(a["doc_id"], a["page_number"]) for a in map(json.loads, open(f, encoding="utf-8")) if a["parsed"] is None}
+    old = []
+    if (RUN / "reread" / "answers.jsonl").exists():      # pages reread before are kept, not read a third time
+        old = [json.loads(l) for l in open(RUN / "reread" / "answers.jsonl", encoding="utf-8")]
+        bad -= {(a["doc_id"], a["page_number"]) for a in old}
     pages = []
     for f in sorted((RUN / "in").glob("shard_*.jsonl.gz")):
         pages += [tuple(p) for p in map(json.loads, gzip.open(f, "rt", encoding="utf-8")) if (p[0], p[1]) in bad]
     print(len(pages), "pages to reread", flush=True)
     llm = reader.load(D.REREAD_MAX_CONTEXT, D.REREAD_AT_ONCE)
     t0 = time.time()
-    rows = reader.read(llm, pages, D.PROMPT_VERSION, D.REREAD_MAX_CONTEXT, D.REREAD_MAX_ANSWER)
+    rows = reader.read(llm, pages, D.PROMPT_VERSION, D.REREAD_MAX_CONTEXT, D.REREAD_MAX_ANSWER) if pages else []
     (RUN / "reread").mkdir(exist_ok=True)
-    with open(RUN / "reread" / "answers.jsonl", "w", encoding="utf-8") as f:
-        for r in rows:
+    tmp = RUN / "reread" / ".answers.jsonl.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        for r in old + rows:
             f.write(json.dumps(r) + "\n")
+    os.replace(tmp, RUN / "reread" / "answers.jsonl")
     print(f"REREAD pages={len(rows)} seconds={time.time() - t0:.0f} readable={sum(r['parsed'] is not None for r in rows)} "
           f"cut_off={sum(r['finish'] != 'stop' for r in rows)}", flush=True)
 
@@ -152,4 +203,4 @@ def status():
 
 
 if __name__ == "__main__":
-    {"prepare": prepare, "prepare_missing": prepare_missing, "worker": worker, "status": status, "reread": reread}[sys.argv[1]]()
+    {"prepare": prepare, "prepare_missing": prepare_missing, "prepare_unlisted": prepare_unlisted, "worker": worker, "status": status, "reread": reread}[sys.argv[1]]()

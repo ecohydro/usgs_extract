@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "8/1W-23C1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Winters",
+  "place_relation": "about 1.6 miles northeast of",
+  "basin_or_area": "Putah Creek",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Putah Creek",
+  "data_type": "Groundwater",
+  "date_start": "1951-04-24",
+  "date_end": "1951-12-17",
+  "temporal_resolution": "discrete",
+  "variables": "water_level;elevation",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "1951-04-24",
+  "confidence": "sure",
+  "notes": "Observation well in the Putah Creek channel; no owner or well name printed, so water_source gives the creek whose stream-surface altitude the table also records (choice not covered by the rules). Heading prints '8/1W-23C1 (18.2)'; the 18.2 is not explained on this page. Columns: altitude of ground water (water_level), altitude of stream surface (elevation; 'Dry' on many dates), difference (computed). Year 1951 from the column heading 'Date (1951)'. Remarks for Apr. 24: 'Well completed this date'. Other location words: 400 feet west of irrigation well 8/1W-23B1, north side of low-water channel. Area from the running head 'WATER-LEVEL MEASUREMENTS--PUTAH CREEK'; no county or state printed."
+ }
+]

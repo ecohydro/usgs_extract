@@ -1,0 +1,13 @@
+n: 99
+report (doc_id): 52056   page: 94   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/52056_page_94.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/99.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DATE | DISCHARGE | DISCHARGE.1
+ |  | : Second-feet : Gals. per mi
+Dec. 2, 1948 | : No flow | No flow
+Jan. 28, 1949 (10:15 a.m.) | : No flow | No flow
+... (5 lines in all; last lines:)
+Jan. 28, 1949 (10:15 a.m.) | : No flow | No flow
+Mar. 28 (10:05 a.m.) | : 0.0010 : : | 0.45

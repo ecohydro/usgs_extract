@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°54'00\", long 120°04'15\"",
+  "well_number": "",
+  "station_number": "11-2835",
+  "station_name": "CLAVEY RIVER NEAR BUCK MEADOWS, CALIF.",
+  "township_range_section": "SE¼NE¼ sec.35, T.1 N., R.17 E.",
+  "place_name": "Buck Meadows",
+  "place_relation": "near",
+  "basin_or_area": "San Joaquin River basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Clavey River",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10-01",
+  "date_end": "1968-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1967 to September 1968. No county printed. Other distances in the LOCATION paragraph: on right bank 300 ft upstream from Forest Service road bridge, 1.7 miles downstream from Quilty Creek, and 6 miles north of Buck Meadows Post Office. Remarks also mention the Tuolumne River basin (schematic diagram); the running head is San Joaquin River basin."
+ }
+]

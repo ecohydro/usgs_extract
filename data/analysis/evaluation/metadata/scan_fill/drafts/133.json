@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°03'08\", long 116°56'41\"",
+  "well_number": "",
+  "station_number": "11-0285",
+  "station_name": "SANTA MARIA CREEK NEAR RAMONA, CALIF.",
+  "township_range_section": "SE¼SE¼SE¼ sec.11, T.13 S., R.1 W.",
+  "place_name": "Ramona",
+  "place_relation": "near",
+  "basin_or_area": "SAN DIEGUITO RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA MARIA CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1966-10",
+  "date_end": "1967-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily values printed only for December to June; October, November and July to September columns are empty with totals of 0 (no flow); water year from table title. The peak-discharge foot line (Dec. 6, 1,800 cfs (5.18 ft); Jan. 25, 48 cfs (2.08 ft)) is part of the digitized table: gage_height listed for it. Other distances in Location: on left bank 3.75 miles northwest of Ramona and 4.6 miles upstream from mouth. No county printed."
+ }
+]

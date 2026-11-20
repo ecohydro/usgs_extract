@@ -1,0 +1,13 @@
+n: 23
+report (doc_id): 1630   page: 446   table on the page: 1 of 2 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1630_page_446.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/23.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY | OCT | NOV | PEC | JAN | FER | MAR | APR
+1 | 5.9 | 6.7 | 11 | 10 | 6.0 | 8.5 | 32
+2 | 5.4 | 5.4 | 4.8 | 6.3 | 5.4 | IS | 42
+3 | 5.6 | in | 6.7 | 4.4 | 6.7 | 12 | 15
+... (39 lines in all; last lines:)
+CAL YR 1967 |  | TOTAL 7,295.40 | MEAN 25.5 |  | MAX 1,440 | MIN 1.7 | 
+WTR YR 1968 |  | TOTAL 2,841.72 | MEAN | 7.76 | MAX 287 | MIN 0 | 

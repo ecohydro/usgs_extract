@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "",
+  "well_number": "7/34-28C1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Lompoc plain",
+  "place_relation": "On",
+  "basin_or_area": "Lompoc subarea",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "Lompoc Produce Co.",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Driller's log (materials, thickness, depth); no dates on the page for this well. Altitude 83 feet and 'Casing perforated 138 to 192 feet' are in the heading text, not in the table. State and the basin 'SANTA YNEZ RIVER BASIN, CALIFORNIA' are in the running head; 'Lompoc subarea' is in the table title."
+ }
+]

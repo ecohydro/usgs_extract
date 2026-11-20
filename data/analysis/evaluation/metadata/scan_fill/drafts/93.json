@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°29'10\", long. 119°49'50\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - SAWYER ESTATE",
+  "data_type": "Springs",
+  "date_start": "1948-10-19",
+  "date_end": "1949-03-31",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own numbering: STATION 28 (top right). Faint typescript, read from an enhanced crop. Altitude about 1,000 feet, from topographic map. Description: Open pit in alluvial wash on hillside. Three dated rows, all 'No flow' (Oct. 19, 1948; Feb. 23, 1949; Mar. 31 (10:30 a.m.)). 'Sawyer Estate' taken as the owner (in water_source), not as a place. No place, basin, county or state printed."
+ }
+]

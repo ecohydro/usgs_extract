@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 35°56'43\", long 118°28'36\"",
+  "well_number": "",
+  "station_number": "11186000",
+  "station_name": "Kern River near Kernville, Calif.",
+  "township_range_section": "SW¼ sec.12, T.23 S., R.32 E. (unsurveyed)",
+  "place_name": "Kernville",
+  "place_relation": "near",
+  "basin_or_area": "Buena Vista Lake Basin",
+  "county": "Tulare County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Kern River",
+  "data_type": "Stream Discharge",
+  "date_start": "1969-10-01",
+  "date_end": "1970-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge (river only), water year October 1969 to September 1970. Other distances on page: 13.4 miles north of Kernville; on left bank at Packsaddle Canyon Creek, 100 ft downstream from diversion dam."
+ }
+]

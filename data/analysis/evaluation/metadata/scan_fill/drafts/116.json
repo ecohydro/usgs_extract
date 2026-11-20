@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 36°30'46\", long 118°47'25\"",
+  "well_number": "",
+  "station_number": "11206500",
+  "station_name": "Middle Fork Kaweah River near Potwisha Camp, Calif.",
+  "township_range_section": "NW¼NW¼ sec.25, T.16 S., R.29 E.",
+  "place_name": "Potwisha Camp",
+  "place_relation": "near",
+  "basin_or_area": "Tulare Lake Basin",
+  "county": "Tulare County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Middle Fork Kaweah River",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-10-01",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "daily",
+  "variables": "temperature",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily maximum and minimum water temperature (°C), water year October 1971 to September 1972, at a stream gaging station. Page also gives: in Sequoia National Park; 0.7 mile southeast of Potwisha Camp; 0.9 mile upstream from confluence with Marble Fork Kaweah River."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°56'48\", long 116°38'24\"",
+  "well_number": "",
+  "station_number": "10-2560",
+  "station_name": "Whitewater River at White Water, Calif.",
+  "township_range_section": "NW¼NW¼NE¼ sec.2, T.3 S., R.3 E.",
+  "place_name": "White Water",
+  "place_relation": "at",
+  "basin_or_area": "SALTON SEA BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Whitewater River",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-10-01",
+  "date_end": "1962-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;runoff;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Foot rows marked with daggers give monthly runoff in acre-feet from an infiltration line that bypasses the station and of water diverted from the basin 15 miles upstream (furnished by water and power companies): a different measured quantity in the foot rows, so runoff is listed; the Ac-ft row and the \"adjusted\" row are conversions and sums. The peak-discharge line gives one gage height (7.04 ft), so gage_height is listed. No county printed. Other distances on the page: 1.5 miles north of White Water, 3½ miles upstream from San Gorgonio River."
+ }
+]

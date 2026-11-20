@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat 37°03'50\", long 122°13'45\"",
+  "well_number": "",
+  "station_number": "11-1619",
+  "station_name": "Scott Creek above Little Creek, near Davenport, Calif.",
+  "township_range_section": "in Agua Puerco y las Trancas Grant",
+  "place_name": "Little Creek; Davenport",
+  "place_relation": "above; near",
+  "basin_or_area": "SCOTT CREEK BASIN",
+  "county": "Santa Cruz County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Scott Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10-01",
+  "date_end": "1966-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Water year October 1965 to September 1966, complete daily grid. Peak discharge line says 'No peak above base'. Other distances printed: 600 ft upstream from Little Creek, 2.0 miles upstream from mouth, 4.2 miles north of Davenport. Location is given by a land grant, no township and range."
+ }
+]

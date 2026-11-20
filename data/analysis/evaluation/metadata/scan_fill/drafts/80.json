@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°29'52\", long 122°25'37\"",
+  "well_number": "",
+  "station_number": "11456000",
+  "station_name": "NAPA RIVER NEAR ST. HELENA, CALIF.",
+  "township_range_section": "in Carne Humana Grant",
+  "place_name": "St. Helena",
+  "place_relation": "near",
+  "basin_or_area": "Napa River basin",
+  "county": "Napa County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Napa River",
+  "data_type": "Stream Discharge",
+  "date_start": "1969-10-01",
+  "date_end": "1970-09-30",
+  "temporal_resolution": "daily",
+  "variables": "temperature",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily maximum and minimum water temperature (°C), water year October 1969 to September 1970, at a stream gaging station (temperature table, so data type follows the stream). No values July 1 to Aug. 7 (probe inoperative). Other distances in the LOCATION paragraph: 0.2 mile upstream from highway bridge, 1.3 miles northeast of Zinfandel, and 2.5 miles east of St. Helena."
+ }
+]

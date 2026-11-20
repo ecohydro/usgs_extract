@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat 38°14'45\", long 120°17'20\"",
+  "well_number": "",
+  "station_number": "11-2945",
+  "station_name": "NORTH FORK STANISLAUS RIVER NEAR AVERY, CALIF.",
+  "township_range_section": "SW¼NE¼ sec.35, T.5 N., R.15 E.",
+  "place_name": "Avery",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Calaveras County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "NORTH FORK STANISLAUS RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1968-10-01",
+  "date_end": "1969-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Water year October 1968 to September 1969, complete daily grid. The digitized table also holds the 'Peak discharge (base, 2,000 cfs)' block (8 peaks with gage height), hence gage_height. Other words printed: Stanislaus National Forest, 700 ft upstream from intake of Utica Canal, 3.3 miles upstream from Beaver Creek, 5.1 miles northeast of Avery. Meridian not printed."
+ }
+]

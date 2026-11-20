@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°36'48\", long 122°50'07\"",
+  "well_number": "",
+  "station_number": "11-4640",
+  "station_name": "Russian River near Healdsburg, Calif.",
+  "township_range_section": "in Sotoyome Grant",
+  "place_name": "Healdsburg",
+  "place_relation": "near",
+  "basin_or_area": "RUSSIAN RIVER BASIN",
+  "county": "Sonoma",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Russian River",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10-01",
+  "date_end": "1966-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "The peak-discharge line at the foot of table 1 gives one gage height (22.00 ft), so gage_height is listed. Other distances on the page: 2 miles east of Headsburg (printed so), 3.5 miles upstream from Dry Creek."
+ }
+]

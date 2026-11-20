@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 40°18'42\", long 124°15'48\"",
+  "well_number": "",
+  "station_number": "11469000",
+  "station_name": "MATTOLE RIVER NEAR PETROLIA, CALIF.",
+  "township_range_section": "NW¼ sec.11, T.2 S., R.2 W.",
+  "place_name": "Petrolia",
+  "place_relation": "near",
+  "basin_or_area": "MATTOLE RIVER BASIN",
+  "county": "Humboldt County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "MATTOLE RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-10-01",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances in the location paragraph: on right bank 0.2 mile upstream from Clear Creek, 1.5 miles southeast of Petrolia, and 1.7 miles upstream from North Fork. The digitized table also holds the peak-discharge block (base, 15,000 cfs) with three gage heights and discharges."
+ }
+]

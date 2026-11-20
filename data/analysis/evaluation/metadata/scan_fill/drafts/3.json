@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat 40°21'04\", long 123°54'48\"",
+  "well_number": "",
+  "station_number": "11475250",
+  "station_name": "EEL RIVER AT SOUTH FORK, CALIF.",
+  "township_range_section": "SE¼NE¼ sec.2, T.1 S., R.2 E.",
+  "place_name": "South Fork",
+  "place_relation": "at",
+  "basin_or_area": "EEL RIVER BASIN",
+  "county": "Humboldt County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "EEL RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1968-10-02",
+  "date_end": "1969-09-10",
+  "temporal_resolution": "discrete",
+  "variables": "discharge;temperature;water_chemistry",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Chemical analyses, water year October 1968 to September 1969: one sample a month on printed days (Oct. 02 to Sept. 10), years taken from the title. Other distances printed: 0.2 mile upstream from Northwestern Pacific Railroad Bridge, 0.4 mile north of town of South Fork, 0.5 mile upstream from South Fork. Meridian not printed. Table 1 = upper block: mean discharge, temperature, dissolved oxygen, major ions."
+ }
+]

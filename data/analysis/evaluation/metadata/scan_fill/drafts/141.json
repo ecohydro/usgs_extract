@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°56'46\", long 118°09'44\"",
+  "well_number": "",
+  "station_number": "11-1025",
+  "station_name": "Rio Hondo near Downey, Calif.",
+  "township_range_section": "in San Antonio Grant",
+  "place_name": "Downey",
+  "place_relation": "near",
+  "basin_or_area": "LOS ANGELES RIVER BASIN",
+  "county": "Los Angeles County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Rio Hondo",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-10",
+  "date_end": "1962-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances in Location: on left bank 700 ft upstream from Stewart and Gray Road Bridge, 0.6 mile upstream from mouth and 1.5 miles west of Downey, Los Angeles County. Land grant instead of township and range."
+ }
+]

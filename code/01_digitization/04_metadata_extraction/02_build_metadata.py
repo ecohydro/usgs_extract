@@ -4,6 +4,8 @@
 
 Each table of each page goes through pipeline.table_rows, the same function the evaluation sets are scored with.
 A page whose answer could not be read gives one blank row per table with status "answer not readable".
+on_published_list: whether the table is on data/analysis/table_level_metadata_published.csv (the June 2026 list);
+pages read from 2026-11-18 on (01_full_run.py prepare_unlisted) hold tables that are not.
 NOTE: the file covers every page, including pages on tribal lands; Annette's tribal screen is applied after this.
 """
 import csv
@@ -15,7 +17,8 @@ import pipeline
 import schema as S
 
 RUN = D.OUT / "full_run"
-COLUMNS = S.KEYS + ["n_locations_in_table"] + S.GRADED + S.EVIDENCE + S.EVIDENCE_EXTRA + ["evidence_place", "status"]
+SCAN_STATUS = "ok"   # rows from 03_fill_from_scans.py are not marked (Anna 2026-11-20); the record is scan_fill/tables.csv
+COLUMNS = S.KEYS + ["n_locations_in_table"] + S.GRADED + S.EVIDENCE + S.EVIDENCE_EXTRA + ["evidence_place", "status", "on_published_list"]
 
 
 def main():
@@ -27,6 +30,14 @@ def main():
         again = {(a["doc_id"], a["page_number"]): a for a in map(json.loads, open(RUN / "reread" / "answers.jsonl", encoding="utf-8"))
                  if a["parsed"] is not None}
     n["pages_fixed_by_reread"] = 0
+    listed = {(int(r["doc_id"]), int(r["page_number"]), int(r["table_number"]))
+              for r in csv.DictReader(open(D.PUBLISHED_TABLES))}
+    n["tables_not_on_published_list"] = 0
+    scan = {}                                             # 03_fill_from_scans.py: tables the model could not give
+    if (D.OUT / "scan_fill" / "rows.csv").exists():
+        for r in csv.DictReader(open(D.OUT / "scan_fill" / "rows.csv", encoding="utf-8")):
+            scan.setdefault((int(r["doc_id"]), int(r["page_number"]), int(r["table_number"])), []).append(r)
+    n["tables_read_from_scan"] = 0
     with open(RUN / "metadata_per_location.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, COLUMNS, extrasaction="ignore")
         w.writeheader()
@@ -49,9 +60,25 @@ def main():
                     status = "ok" if locs else ("answer not readable" if a["parsed"] is None else "no answer for this table")
                     n["tables"] += 1
                     n["tables_without_answer"] += not locs
+                    on_list = (doc, page, k) in listed
+                    n["tables_not_on_published_list"] += not on_list
+                    if not locs and (doc, page, k) in scan:
+                        n["tables_read_from_scan"] += 1
+                        for r in scan.pop((doc, page, k)):
+                            w.writerow({**r, "status": SCAN_STATUS, "on_published_list": on_list})
+                            n["rows"] += 1
+                        continue
                     for r in pipeline.table_rows(doc, page, k, locs, norm):
-                        w.writerow({**r, "status": status})
+                        w.writerow({**r, "status": status, "on_published_list": on_list})
                         n["rows"] += 1
+        for (doc, page, k), rows in sorted(scan.items()):  # tables on pages Reducto kept no text for
+            n["tables"] += 1
+            n["tables_read_from_scan"] += 1
+            on_list = (doc, page, k) in listed
+            n["tables_not_on_published_list"] += not on_list
+            for r in rows:
+                w.writerow({**r, "status": SCAN_STATUS, "on_published_list": on_list})
+                n["rows"] += 1
     n["shards_missing"] = len(missing)
     with open(RUN / "metadata_run_summary.csv", "w", newline="") as f:
         csv.writer(f).writerows([["what", "n"]] + [[k, v] for k, v in n.items()])

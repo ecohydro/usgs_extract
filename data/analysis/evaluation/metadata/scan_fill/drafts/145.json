@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°36'48\", long 120°21'20\"",
+  "well_number": "",
+  "station_number": "11-1315",
+  "station_name": "SANTA YNEZ RIVER AT COOPER'S REEF, NEAR LOMPOC, CALIF.",
+  "township_range_section": "near boundary of Canada de Salsipuedes Grant",
+  "place_name": "COOPER'S REEF; LOMPOC",
+  "place_relation": "at; near",
+  "basin_or_area": "SANTA YNEZ RIVER BASIN",
+  "county": "Santa Barbara County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SANTA YNEZ RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10-01",
+  "date_end": "1968-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Complete daily discharge table for the water year. No township, range or section printed; the land grant is written in township_range_section as printed. Location text also gives: on right bank 0.6 mile upstream from Canada de la Vina, and 6 miles east of Lompoc."
+ }
+]

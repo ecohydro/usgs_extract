@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°12'35\", long 122°51'35\"",
+  "well_number": "",
+  "station_number": "11460800",
+  "station_name": "WALKER CREEK NEAR TOMALES, CALIF.",
+  "township_range_section": "in Nicasio Grant",
+  "place_name": "Tomales",
+  "place_relation": "near",
+  "basin_or_area": "WALKER CREEK BASIN",
+  "county": "Marin",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "WALKER CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10",
+  "date_end": "1971-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 holds the daily discharge grid and the peak-discharge block below it (three peaks with gage height), so gage_height is listed. No daily values are printed for October, August and September (monthly totals 0): the water year of the title is kept, dated to the month. Other distances on the page: 1,300 ft upstream from Chileno Creek, 3.5 miles southeast of Tomales."
+ }
+]

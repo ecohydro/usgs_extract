@@ -1,0 +1,13 @@
+n: 6
+report (doc_id): 716   page: 588   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/716_page_588.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/6.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+Day | Oct. | Nov, | Dec. | Jan. | Feb. | Mar. | Apr.
+1 |  | 0.03 | 0.06 | 0.06 | 0.22 | 0.77 | 2.60
+2 |  | .03 | .05 | .05 | .22 | .91 | 2.84
+3 |  | .04 | .06 | .03 | .20 | .83 | 3.79
+... (37 lines in all; last lines:)
+Calendar | year | 1958: | - |  | Min - | Mean | -
+Water | year 1958 | -59: | 6.29 |  | Min o | Mean | 0.966

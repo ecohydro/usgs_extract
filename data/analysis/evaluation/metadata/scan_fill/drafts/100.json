@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 34°30'10\", long 120°03'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - John Alegria",
+  "data_type": "Springs",
+  "date_start": "1949-01-28",
+  "date_end": "1949-03-28",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: Station 87. Altitude about 450 feet from topographic map. Drilled hole in sandstone cliff. Two discharge measurements (second-feet and gallons per minute): Jan. 28, 1949 and Mar. 28 (year taken from the row above); the remaining table rows are empty. No county or state printed."
+ }
+]

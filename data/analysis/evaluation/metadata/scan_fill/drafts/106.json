@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat. 34°34'40\", long. 119°59'20\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - J. V. CRAWFORD",
+  "data_type": "Springs",
+  "date_start": "1948-10-28",
+  "date_end": "1949-04-19",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Page head 'STATION 142' is the report's own numbering. Discharge is printed in second-feet and gallons per minute. No county or state on the page. Rows 'Mar. 8' and 'Apr. 19' have no year: 1949 from the row above."
+ }
+]

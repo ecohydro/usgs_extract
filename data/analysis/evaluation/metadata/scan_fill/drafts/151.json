@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°56'58\", long 118°10'23\"",
+  "well_number": "",
+  "station_number": "11098500",
+  "station_name": "Los Angeles River near Downey, Calif.",
+  "township_range_section": "in San Antonio Grant",
+  "place_name": "Downey",
+  "place_relation": "near",
+  "basin_or_area": "Los Angeles River basin",
+  "county": "Los Angeles County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Los Angeles River",
+  "data_type": "Stream Discharge",
+  "date_start": "1973-10-01",
+  "date_end": "1974-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1973 to September 1974. Location paragraph also gives: on right bank 400 ft (122 m) downstream from Firestone Boulevard bridge, 1 mi (2 km) upstream from Rio Hondo, and 2.5 mi (4.0 km) west of Downey."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 39°47'39\", long 121°27'03\"",
+  "well_number": "",
+  "station_number": "11404500",
+  "station_name": "North Fork Feather River at Pulga, CA",
+  "township_range_section": "SW¼NE¼ sec.6, T.22 N., R.5 E.",
+  "place_name": "Pulga",
+  "place_relation": "at",
+  "basin_or_area": "Sacramento River basin",
+  "county": "Butte County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "North Fork Feather River",
+  "data_type": "Stream Discharge",
+  "date_start": "1976-10-01",
+  "date_end": "1977-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge (mean values), water year October 1976 to September 1977. Location paragraph also gives: Plumas National Forest, on left bank between railroad and highway bridges, 0.5 mi (0.8 km) downstream from Flea Valley Creek and Pulga, and 1.5 mi (2.4 km) downstream from Poe Dam. Foot rows include monthly mean and acre-feet adjusted for diversion through Poe powerhouse (summary values)."
+ }
+]

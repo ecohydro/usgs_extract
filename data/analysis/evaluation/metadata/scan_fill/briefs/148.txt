@@ -1,0 +1,13 @@
+n: 148
+report (doc_id): 70038676   page: 78   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/70038676_page_78.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/148.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY | DCT | NOV | DEC | JAN | FEB | MAR | APR
+1 | 66 | 52 | 43 | 41 | 36 | 79 | 98
+2 | 53 | 43 | 43 | 41 | 36 | 75 | 100
+3 | 52 | 42 | 42 | 41 | 40 | 73 | 119
+... (39 lines in all; last lines:)
+ | CAL YR 1969 TOTAL 628,484 |  |  | MEAN 1,722 |  | MAX 14,400 | MIN 40
+ | WTR YR 1970 TOTAL 93,295 |  |  | MEAN 256 | MAX | 2,630 | MIN 36

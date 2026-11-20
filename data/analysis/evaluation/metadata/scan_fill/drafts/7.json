@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°11'13\", long 118°02'35\"",
+  "well_number": "",
+  "station_number": "1005",
+  "station_name": "Little Santa Anita Creek near Sierra Madre, Calif.",
+  "township_range_section": "SE¼SW¼NW¼ sec.9, T.1 N., R.11 W.",
+  "place_name": "Sierra Madre",
+  "place_relation": "near",
+  "basin_or_area": "Los Angeles River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Little Santa Anita Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1959-10",
+  "date_end": "1960-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Station number printed in short form '1005.' before the name. Other distances in Location: on right bank 1.3 miles upstream from Sierra Madre Dam and 2 miles north of Sierra Madre. August and September have no daily values printed (no flow, marked (*)); July 18 to end mostly 0. Water year from table title. Peak-discharge foot line says no peak above base (no gage height printed in the table)."
+ }
+]

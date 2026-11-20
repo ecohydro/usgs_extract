@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4/6-21J1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Petaluma",
+  "place_relation": "About 7.7 miles east-southeast of",
+  "basin_or_area": "Petaluma Valley area",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "L. Bourke",
+  "data_type": "Groundwater",
+  "date_start": "1949-10-12",
+  "date_end": "1952-04-01",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Heading also gives: 0.16 mile northeast of New Lakeville Road along old Lakeville Road, 100 feet southeast of old Lakeville Road. Unused well; diameter 8 inches; depth 284 feet (heading text, not in the table). State from the table title."
+ }
+]

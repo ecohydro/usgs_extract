@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°27'33\", long 119°48'29\"",
+  "well_number": "",
+  "station_number": "11120500",
+  "station_name": "San Jose Creek near Goleta, Calif.",
+  "township_range_section": "in La Goleta Grant",
+  "place_name": "Goleta",
+  "place_relation": "near",
+  "basin_or_area": "San Jose Creek basin",
+  "county": "Santa Barbara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Jose Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-11-16",
+  "date_end": "1970-03-04",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table \"Annual maximum discharge (*) and peak discharges above base (100 cfs), water years 1966-70\": dates are the first and last printed peak. The Feb. 6, 1969 row has dashes for time, discharge and gage height. Location paragraph also gives: on right bank at Patterson Avenue Bridge, 1.1 miles downstream from unnamed tributary and 1.7 miles northeast of Goleta. Scan is faint; heading read from an enlarged copy."
+ }
+]

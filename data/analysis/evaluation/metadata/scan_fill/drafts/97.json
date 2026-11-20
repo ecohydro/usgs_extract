@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°31'40\", long. 120°03'20\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "WELL - FERMIN DE PONCE",
+  "data_type": "Groundwater",
+  "date_start": "1948-11-15",
+  "date_end": "1949-01-27",
+  "temporal_resolution": "discrete",
+  "variables": "discharge; water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: Station 77. Description: stone-curbed well, 9 feet deep near bottom of canyon; altitude about 1,900 feet. Two dated rows: discharge 'No flow' on both, and 'altitude of water table below cover' in feet (taken as water_level). Heading type is faint. No place, county or state on the page."
+ }
+]

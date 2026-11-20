@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat. 34°30'20\", long. 119°47'10\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Painted Cave",
+  "place_relation": "at",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - SAM NUCKOLS",
+  "data_type": "Springs",
+  "date_start": "1948-10-26",
+  "date_end": "1949-04-11",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Page head 'STATION 9' is the report's own numbering. Discharge is printed in second-feet and gallons per minute. No county or state on the page. Third row 'Apr. 11' has no year: 1949 from the row above."
+ }
+]

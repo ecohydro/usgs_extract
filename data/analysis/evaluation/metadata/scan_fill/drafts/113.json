@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°39'57\", long 120°26'24\"",
+  "well_number": "",
+  "station_number": "11289500",
+  "station_name": "TURLOCK CANAL NEAR LA GRANGE, CALIF.",
+  "township_range_section": "NW¼NW¼ sec.21, T.3 S., R.14 E.",
+  "place_name": "LA GRANGE",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Stanislaus County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "TURLOCK CANAL",
+  "data_type": "Irrigation",
+  "date_start": "1971-10-01",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Complete daily discharge table for the water year. Irrigation because the canal diverts water (Remarks: diverts from left bank of Tuolumne River at La Grange Dam for irrigation in Turlock Irrigation District). Location text also gives: on right bank 2,400 ft downstream from intake at La Grange Dam, and 1.2 miles east of La Grange."
+ }
+]

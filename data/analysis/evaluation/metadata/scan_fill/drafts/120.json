@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°00'47\", long 118°03'48\"",
+  "well_number": "",
+  "station_number": "11087500",
+  "station_name": "SAN GABRIEL RIVER AT PICO, CALIF.",
+  "township_range_section": "in Paso de Bartolo Grant",
+  "place_name": "Pico",
+  "place_relation": "at",
+  "basin_or_area": "San Gabriel River basin",
+  "county": "Los Angeles County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "San Gabriel River",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1970 to September 1971. Other distances in the LOCATION paragraph: on right levee 460 ft downstream from San Gabriel River Parkway, 4,200 ft downstream from axis of Whittier Narrows Dam, and 1.4 miles northeast of Pico Rivera."
+ }
+]

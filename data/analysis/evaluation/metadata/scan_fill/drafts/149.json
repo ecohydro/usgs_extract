@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°11'54\", long 120°56'32\"",
+  "well_number": "",
+  "station_number": "11350500",
+  "station_name": "ASH CREEK AT ADIN, CALIF.",
+  "township_range_section": "SE¼SW¼ sec.21, T.39 N., R.9 E.",
+  "place_name": "Adin",
+  "place_relation": "at",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "Modoc County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "ASH CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1969-10",
+  "date_end": "1970-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances in Location: on left bank 300 ft upstream from highway bridge at Adin and 0.4 mile upstream from Butte Creek."
+ }
+]

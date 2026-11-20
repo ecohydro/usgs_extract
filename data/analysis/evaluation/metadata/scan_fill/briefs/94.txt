@@ -1,0 +1,13 @@
+n: 94
+report (doc_id): 52056   page: 50   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/52056_page_50.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/94.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DATE | DISCHARGE | DISCHARGE.1
+ |  | : Second-feet : Gals. per mi
+Aug. 16, 1948 | : 0.0027 : | 1.2
+Feb. 17, 1949 | : .0076 : | 3.4
+... (7 lines in all; last lines:)
+Mar. 30 (3:45 p.m.) | : .036 | 16
+Apr. 26 (10:55 a.m.) : | .13 | 60

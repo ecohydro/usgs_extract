@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11477000",
+  "station_name": "Eel River at Scotia",
+  "township_range_section": "",
+  "place_name": "Scotia",
+  "place_relation": "at",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Eel River",
+  "data_type": "Stream Discharge",
+  "date_start": "1951-10",
+  "date_end": "1975-01",
+  "temporal_resolution": "no_time_series",
+  "variables": "water_chemistry",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Third station block of Table 6 (duration estimates of daily specific conductance based on the specific conductance-discharge relation and the duration of daily mean discharge for selected sites in the Eel River): specific conductance against percent of time exceeded, plus the maximum (441) and minimum (90) specific conductance of record. Not a time series. The dates given are the period the block heading prints for the data the estimates rest on (\"Specific conductance: October 1951 through January 1975\"; \"Discharge: October 1951 through September 1973\"); the rules do not say whether a duration table takes these dates or none. No county or state on the page."
+ }
+]

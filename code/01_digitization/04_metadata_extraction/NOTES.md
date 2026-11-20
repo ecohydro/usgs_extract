@@ -47,6 +47,15 @@ Evaluation
   count as one variable; a date is right if it agrees with the key as far as the coarser of the two goes.
 - 2026-11-17: 95% ranges by resampling tables within their group, 5,000 draws, seed 20261116.
 
+- 2026-11-18, Anna: the 4,067 pages whose Reducto file holds a table but that have no table on the published list
+  (5,356 tables, the ones the 2025 Phi-4 run never read and that were dropped from publication in June) are read with
+  the same model and prompt: 01_full_run.py prepare_unlisted (shards 319-339, full_run/pages_unlisted.csv), batch job
+  jobs/usgs_metadata_unlisted.sh. The final table gets a column on_published_list. The second reading now skips pages
+  reread before.
+- 2026-11-18: Annette's list of pages missing metadata (pages.zip, 138 pages) is exactly the known gaps: the 65
+  unreadable pages, the 55 pages with a table that got no answer, and the 18 empty report 52056 page files. Her copies
+  of the Reducto files hold the same blocks as ours; her 52056 files are empty too (their table CSVs are not).
+
 Pipeline (fixed 2026-11-15, Anna: "lock in the pipeline")
 - Model Qwen3.6-27B FP8 on our own GPUs (vLLM 0.21, one L40S, reasoning off, text only), chosen from open
   models that fit one card; no bake-off against other models was run.
@@ -93,3 +102,19 @@ Pipeline (fixed 2026-11-15, Anna: "lock in the pipeline")
 ## Open
 
 - Annette: the order of location types and the list of variables.
+- 2026-11-18, Anna: every page with a table in the Reducto files goes through this pipeline (67,728 pages: 63,661
+  read before + 4,067 unlisted). 110 of the unlisted pages are from seven Santa Barbara open-file reports (52056,
+  23894, 52119, 23879, 23996, 23997, 23993) that have no detector scores and are not in the 74,492 flagged pages;
+  they appear to have been sent to Reducto whole. Anna: the methods do not mention this (it changes no result).
+- 2026-11-20: unlisted pages read (job usgs_metadata_unlisted, 21 shards; first submission failed because another job held
+  7.5 GB of the GPU on hpc-03, so the wrapper now checks free GPU memory). Re-read fixed all 40 unreadable answers.
+  Final table: 67,728 pages, 106,301 tables (every digitized table), 219,594 rows; rows of the 63,661 pages read before
+  are identical. on_published_list follows Annette's current published list (100,694 tables since her Nov 18-19
+  rebuild, not the June 100,829); 5,607 tables are off it. 72 tables unreadable, 62 without an answer.
+- 2026-11-20, Anna: the 152 tables the model run could not give (72 unreadable, 62 no answer, 18 on pages without text)
+  were read from the page scans by Claude Fable 5.2 (8 helpers), following the answer-key rules plus "every location"
+  (03_fill_from_scans.py, evaluation/SCAN_FILL_INSTRUCTIONS.md). 455 rows, not marked in the final table (Anna: keep a record instead; the record is scan_fill/tables.csv and
+  rows.csv), no found-on-page check. Every table in the final table now has metadata (106,319 tables, 219,915 rows).
+  Station lists without measurements (tables 81-84) are one Not Water Related row each (the reader of 84 first gave 33
+  station rows; kept in the scratchpad only). Drafts' location words checked against their page text: all match
+  except 210 p157 (no page text). Methods updated (doc and methods.tex). Not checked by a person.

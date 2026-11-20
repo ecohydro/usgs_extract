@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°11'36\", long 120°05'53\"",
+  "well_number": "",
+  "station_number": "11292900",
+  "station_name": "MIDDLE FORK STANISLAUS RIVER BELOW BEARDSLEY DAM, CALIF.",
+  "township_range_section": "NW¼NW¼ sec.22, T.4 N., R.17 E.",
+  "place_name": "Beardsley Dam",
+  "place_relation": "below",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Tuolumne County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "MIDDLE FORK STANISLAUS RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1972-10-01",
+  "date_end": "1973-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other location words: Stanislaus National Forest, on right bank 0.5 mile downstream from Beardsley afterbay dam, 1.5 miles downstream from Beardsley Dam, and 5.7 miles west of Pinecrest."
+ }
+]

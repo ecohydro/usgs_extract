@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°28'47\", long 117°08'35\"",
+  "well_number": "",
+  "station_number": "11-0430",
+  "station_name": "MURRIETA CREEK AT TEMECULA, CALIF.",
+  "township_range_section": "in Temecula Grant",
+  "place_name": "Temecula",
+  "place_relation": "at",
+  "basin_or_area": "SANTA MARGARITA RIVER BASIN",
+  "county": "Riverside County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "MURRIETA CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1966-10-01",
+  "date_end": "1967-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances in the location paragraph: on right bank 0.4 mile upstream from mouth and 1.0 mile south of Temecula. The digitized table ends with the peak-discharge line (base, 55 cfs), which gives two peaks with gage heights."
+ }
+]

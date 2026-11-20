@@ -1,0 +1,13 @@
+n: 24
+report (doc_id): 1630   page: 446   table on the page: 2 of 2 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1630_page_446.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/24.json
+
+To recognise table 2 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+L'AY | OCT | NUV | DEC | JAN | FEB | MAR | APR
+I |  |  |  | 0 | 600 | 1,300 | 105
+? |  |  |  | ( | 500 | 1,100 | 105
+3 |  |  |  | 0 | 450 | 900 | 102
+... (39 lines in all; last lines:)
+CAL YR 1968 |  | TOTAL 2,044.80 |  | MEAN 5.5 | MAX | 287 MIN L | AC-FT
+WTR YR 1969 |  | TOTAL 126,087.00 |  | MEAN 345 | MAX 20,000 | MIN C | 

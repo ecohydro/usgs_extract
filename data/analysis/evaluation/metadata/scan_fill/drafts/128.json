@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11467000",
+  "station_name": "RUSSIAN RIVER NEAR GUERNEVILLE, CA",
+  "township_range_section": "",
+  "place_name": "Guerneville",
+  "place_relation": "near",
+  "basin_or_area": "Russian River basin",
+  "county": "",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "Russian River",
+  "data_type": "Stream Discharge",
+  "date_start": "1977-10-13",
+  "date_end": "1978-06-19",
+  "temporal_resolution": "discrete",
+  "variables": "other",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation page ('--Continued'): no coordinates, land survey description or county on this page. Table is 'Qualitative and associated quantitative analyses of biological data, water year October 1977 to September 1978 - Phytoplankton': total cells/ml, diversity indices and cells/ml and percent per organism for five sampling dates (Oct 13,77; Mar 16,78; May 16,78; May 23,78; Jun 19,78). Biological counts are none of the listed variables, so 'other'. Data type follows the stream the station is on. Dates are the first and last sampling dates printed."
+ }
+]

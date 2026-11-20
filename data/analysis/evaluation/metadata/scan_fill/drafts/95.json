@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°29'00\", long. 119°55'40\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Highway 101",
+  "place_relation": "about 3.0 miles north of",
+  "basin_or_area": "Eagle Canyon",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Middle Fork, Eagle Canyon Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1948-10-18",
+  "date_end": "1949-03-30",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Page headed \"STATION 48\" (the report's own station number) and \"MIDDLE FORK, EAGLE CANYON CREEK\". Location: \"Lat. 34°29'00\", long. 119°55'40\", in Eagle Canyon at upper-most diversion about 3.0 miles north of Highway 101.\" Description: measuring site at diversion box 2,600 feet above Eagle Canyon Road; diversion abandoned. Typescript is faint (degrees of latitude and longitude read from an enlarged copy). Three dates, the first \"No flow\"; discharge printed in second-feet and gallons per minute. Mar. 30 has no year printed and follows Jan. 17, 1949. No county or state on the page."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 37°33'00\", long 121°39'57\"",
+  "well_number": "",
+  "station_number": "11176400",
+  "station_name": "ARROYO VALLE ABOVE LANG CANYON, NEAR LIVERMORE, CALIF.",
+  "township_range_section": "SE¼ sec.29, T.4 S.(revised), R.3 E.",
+  "place_name": "Lang Canyon; Livermore",
+  "place_relation": "above; near",
+  "basin_or_area": "Alameda Creek basin",
+  "county": "Alameda County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Arroyo Valle",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-12-29",
+  "date_end": "1970-03-04",
+  "temporal_resolution": "annual",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 = extremes table 'Annual maximum discharge (*) and peak discharges above base (500 cfs, revised), water years 1966-70'; dates are the first and last printed peak. Other distances in the LOCATION paragraph: on left bank 700 ft upstream from small right-bank tributary, 1,200 ft upstream from Lang Canyon, and 10.5 miles southeast of Livermore. Period of record (October 1963 to September 1970) not used."
+ }
+]

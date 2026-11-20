@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "8/2E-20R1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Davis",
+  "place_relation": "About 2.5 miles southwest of",
+  "basin_or_area": "Putah Creek",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Putah Creek",
+  "data_type": "Groundwater",
+  "date_start": "1951-05-11",
+  "date_end": "1951-12-17",
+  "temporal_resolution": "discrete",
+  "variables": "water_level;elevation",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "1951-05-11",
+  "confidence": "sure",
+  "notes": "Heading: \"8/2E-20R1 (8.0). About 2.5 miles southwest of Davis, 400 feet downstream from centerline of bridge on U. S. Highway 40, in Putah Creek channel on south side of low-water channel. Depth 33 feet.\" The \"(8.0)\" after the well number is not explained on this page and a small mark after \"R1\" cannot be read. Year is from the column heading \"Date (1951)\". Columns: altitude of ground water (given as water_level) and altitude of stream surface (given as elevation; \"Dry\" on many dates); \"Difference\" is computed. No owner or well name is printed: water_source is the creek whose channel the well is in and whose surface is measured. Remark on May 11: \"Well completed this date.\" basin_or_area is from the running head (Water-level measurements - Putah Creek). No county or state on the page."
+ }
+]

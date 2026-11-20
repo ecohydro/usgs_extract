@@ -1,0 +1,13 @@
+n: 134
+report (doc_id): 70038401   page: 149   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/70038401_page_149.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/134.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+Day | Oct. | Nov. | Dec. |  | Jan. | Feb. | Mar.
+1 | 0.20 | .20 | 0.20 |  | 0.30 | 0.40 | 0.30
+2 | .20 | .20 | .20 |  | .30 | .40 | .30
+3 | .20 | ,20 | .80 |  | .30 | .40 | .30
+... (40 lines in all; last lines:)
+Wtr yr | 1967: Total | 929.00 | Mean |  | 2.55 | Max 315 | Min
+Peak | discharge | (base, 55 | -Dec. | 6 | (2030 hrs) | 1,510 cfs | (4.86 ft);

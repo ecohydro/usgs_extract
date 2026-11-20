@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat 37°27'42\", long 121°46'06\"",
+  "well_number": "",
+  "station_number": "11173200",
+  "station_name": "ARROYO HONDO NEAR SAN JOSE, CALIF.",
+  "township_range_section": "NE¼NE¼ sec.32, T.5 S., R.2 E.",
+  "place_name": "San Jose",
+  "place_relation": "near",
+  "basin_or_area": "ALAMEDA CREEK BASIN",
+  "county": "Santa Clara County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "ARROYO HONDO",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Water year October 1970 to September 1971, complete daily grid. The digitized table also holds the 'Peak discharge (base, 500 cfs)' block (4 peaks with gage height), hence gage_height. Other distances printed: 150 ft upstream from road bridge, 3.5 miles southeast of Calaveras Dam, 3.5 miles northeast of city limits of San Jose. Meridian not printed."
+ }
+]

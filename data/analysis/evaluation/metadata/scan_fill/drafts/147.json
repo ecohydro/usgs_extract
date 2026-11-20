@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 35°13'48\", long 120°28'22\"",
+  "well_number": "",
+  "station_number": "11141280",
+  "station_name": "LOPEZ CREEK NEAR ARROYO GRANDE, CALIF.",
+  "township_range_section": "SE¼NE¼ sec.16, T.31 S., R.14 E.",
+  "place_name": "Arroyo Grande",
+  "place_relation": "near",
+  "basin_or_area": "ARROYO GRANDE BASIN",
+  "county": "San Luis Obispo",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "LOPEZ CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1969-10-01",
+  "date_end": "1970-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 holds the daily discharge grid and the peak-discharge block below it (three peaks with gage height), so gage_height is listed. Other distances on the page: 0.7 mile upstream from unnamed tributary, 3.2 miles upstream from mouth, 9.2 miles northeast of Arroyo Grande."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 35°55'49\", long 120°52'04\"",
+  "well_number": "",
+  "station_number": "11150500",
+  "station_name": "SALINAS RIVER NEAR BRADLEY, CALIF.",
+  "township_range_section": "SW¼NW¼ sec.14, T.23 S., R.10 E.",
+  "place_name": "BRADLEY",
+  "place_relation": "near",
+  "basin_or_area": "SALINAS RIVER BASIN",
+  "county": "Monterey County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SALINAS RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Complete daily discharge table for the water year. Location text also gives: on left bank 6 miles northwest of Bradley and 7 miles downstream from San Antonio River."
+ }
+]

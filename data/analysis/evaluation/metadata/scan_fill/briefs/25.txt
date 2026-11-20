@@ -1,0 +1,13 @@
+n: 25
+report (doc_id): 1630   page: 456   table on the page: 1 of 3 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1630_page_456.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/25.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+Date |  |  | Time | Disch. | G.H. | Date | 
+Nov. 16, 1965 |  |  | 1700 | *1,700 | 9.32 | Jan. 22, 1967 | 
+Nov. | 24, | 1965 | 0100 | 1,450 | 8.50 | Jan. | 24,
+Dec. | 29, | 1965 | 0530 | 1,360 | 8.20 | Apr. | 4,
+... (8 lines in all; last lines:)
+ |  |  | Dec. 2, 1966 2315 | 558 | 4.99 |  | 
+Dec. 6, 1966 1400 |  |  |  | 1,280 | 7.92 | Jan. 19, 1969 1100 | 

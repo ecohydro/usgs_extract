@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°28'00\", long. 119°46'10\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "SAN ANTONIO CREEK AT SAN MARCOS PASS ROAD",
+  "township_range_section": "",
+  "place_name": "SAN MARCOS PASS ROAD",
+  "place_relation": "at",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SAN ANTONIO CREEK",
+  "data_type": "Stream Discharge",
+  "date_start": "1948-11-15",
+  "date_end": "1949-04-11",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own number: Station 1. Location text also gives: At bridge on State Highway 150, about 2 miles north of Highway 101; altitude about 500 feet. Five dated measurements, the first three 'No flow'; discharge printed in second-feet and gals. per min. 'Previous measurements.- 1945' is not in the table. No county or state on the page."
+ }
+]

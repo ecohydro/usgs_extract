@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Sage Hen Flat",
+  "place_relation": "",
+  "basin_or_area": "White Mountains",
+  "county": "",
+  "state": "",
+  "evidence_place": "in table",
+  "water_source": "water saturation extracts of soils, Adamellite of Sage Hen Flat",
+  "data_type": "Other",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "water_chemistry",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Table 3 = the 'Adamellite of Sage Hen Flat' block of Table 18, 'Chemical constituents in water saturation extracts of two groups of White Mountains soils' (mean, standard deviation, high, low and number of analyses per constituent; field and laboratory pH of the saturation paste). The water is a laboratory extract of soil samples (page text: saturation pastes made with distilled water, vacuum-extracted), not a stream, well, spring or lake; typed Other, but it could be argued to be Not Water Related. One row for the soil group, not a single site. No dates, county or state printed for this table ('Sierra Nevada' in the neighbouring Table 17 is a mountain range, not the state)."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°31'30\", Long. 120°04'30\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - WILLIAM FELIZ",
+  "data_type": "Springs",
+  "date_start": "1948-12-02",
+  "date_end": "1949-03-28",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own numbering: STATION 84 (not a USGS station number). William Feliz is taken as the owner, not a place. No place, county or state printed. \"No flow\" on the first two dates counts as measurements. Last date printed \"Mar. 28\" under 1949."
+ }
+]

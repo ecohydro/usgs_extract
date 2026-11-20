@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 34°29'40\", long 119°49'00\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "Spring - Rishi Singh Greywall",
+  "data_type": "Springs",
+  "date_start": "1948-06-17",
+  "date_end": "1949-02-10",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Report's own number: Station 22. Heading reads 'SPRING - RISHI SINGH GR?YWALL' (typescript blurred; surname read as Greywall, one letter uncertain). Altitude about 1,700 feet from topographic map. Table has three rows: June 17, 1948 and Feb. 10, 1949 with discharge (second-feet and gallons per minute), and Apr. 13 (9:45 a.m.) with 'Pumping' instead of a value; date_end is the last row with a measured value (the Apr. 13 row would be 1949-04-13). No county or state printed."
+ }
+]

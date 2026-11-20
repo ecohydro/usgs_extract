@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°15'13\", long 117°14'48\"",
+  "well_number": "",
+  "station_number": "11-0410",
+  "station_name": "SAN LUIS REY RIVER NEAR BONSALL, CALIF.",
+  "township_range_section": "SW¼NE¼NE¼ sec.1, T.11 S., R.4 W.",
+  "place_name": "BONSALL",
+  "place_relation": "near",
+  "basin_or_area": "SAN LUIS REY RIVER BASIN",
+  "county": "San Diego County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SAN LUIS REY RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1968-10-01",
+  "date_end": "1969-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Complete daily discharge table for the water year (October and early November printed as 0). Location text also gives: on left bank 0.7 mile downstream from bridge on State Highway 76, and 2.8 miles southwest of Bonsall."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "4/28-8Q2",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Goleta alluvial plain",
+  "place_relation": "On",
+  "basin_or_area": "Goleta basin",
+  "county": "SANTA BARBARA COUNTY",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "Navy Department, Marine Corps Air Station",
+  "data_type": "Groundwater",
+  "date_start": "",
+  "date_end": "",
+  "temporal_resolution": "no_time_series",
+  "variables": "lithology",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Driller's log (materials penetrated, thickness and depth); no dates. Heading also gives 'Altitude 21 feet'. County and state from the running head 'South-coast basins, Santa Barbara County, Calif.'; basin from the table title."
+ }
+]

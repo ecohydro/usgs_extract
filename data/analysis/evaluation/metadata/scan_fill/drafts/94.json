@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°28'10\", long. 119°53'30\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "DIVERSION - ELLWOOD DAIRIES",
+  "data_type": "Irrigation",
+  "date_start": "1948-08-16",
+  "date_end": "1949-04-26",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "unsure",
+  "notes": "Faint typescript. Report's own number: STATION 40. Title read as 'DIVERSION - ELLWOOD DAIRIES' (the letter after ELL is nearly illegible); minutes of latitude read as 28 (faint). Description: wood-curbed seep in alluvium of creek bottom, discharge measured at inflow to settling box; altitude about 320 feet. Data type Irrigation because the page calls it a diversion; Springs would fit the description (seep). Dates: Aug. 16, 1948; Feb. 17, 1949; Mar. 16, Mar. 30, Apr. 26 (under 1949). No place, county or state printed."
+ }
+]

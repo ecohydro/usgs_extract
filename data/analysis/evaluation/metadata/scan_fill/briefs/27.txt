@@ -1,0 +1,13 @@
+n: 27
+report (doc_id): 1630   page: 456   table on the page: 3 of 3 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1630_page_456.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/27.json
+
+To recognise table 3 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY | CCT | VCV | DEC | JAN | FF^ | MAR | APR
+1 | .10 |  | 1.8 | 12 | 2.7 | .70 | .4
+2 | .10 |  | 1.5 | 8.6 | 2.: | .80 | .40
+a | .13 |  | 1.3 | 6.1 | 1,6 | .7C | .5
+... (39 lines in all; last lines:)
+ |  | CAL YR 1965 TOTAL 1,459.30 | MEAN 4.00 |  | MAX 324 | MIN 0 | AC-FT 2,890
+ |  | WTR YR 1966 TOTAL 1,248.90 | MEAN 3.42 |  | MAX 324 | MIN 0 | AC-FT 2,480

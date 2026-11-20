@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°11'30\", long 118°00'59\"",
+  "well_number": "",
+  "station_number": "11-1000",
+  "station_name": "Santa Anita Creek near Sierra Madre, Calif.",
+  "township_range_section": "SW¼NE¼NE¼ sec.10, T.1 N., R.11 W.",
+  "place_name": "Sierra Madre",
+  "place_relation": "near",
+  "basin_or_area": "Los Angeles River basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Santa Anita Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1962-10-01",
+  "date_end": "1963-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1962 to September 1963. The digitized table runs on into the foot line \"Peak discharge (base, 40 cfs).--Feb. 9 (2115 hrs) 590 cfs (4.90 ft)\", so gage_height is listed for that one gage height (foot-row rule). Location paragraph also gives: on right bank at head of Hermits Falls, 0.9 mile upstream from Big Santa Anita Dam, and 3 miles northeast of Sierra Madre. No county on the page except inside an agency name (Los Angeles County Flood Control District), which does not count."
+ }
+]

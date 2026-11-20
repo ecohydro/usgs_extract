@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 41°03'00\", long 123°40'15\"",
+  "well_number": "",
+  "station_number": "11-5300",
+  "station_name": "Trinity River at Hoopa, Calif.",
+  "township_range_section": "SE¼NW¼ sec.25, T.8 N., R.4 E.",
+  "place_name": "Hoopa",
+  "place_relation": "at",
+  "basin_or_area": "Klamath River Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Trinity River",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10-01",
+  "date_end": "1966-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1965 to September 1966. Page also says: in Hoopa Indian Reservation; on left bank at Hoopa 0.4 mile upstream from Supply Creek. No county printed. The peak-discharge line under the table gives one gage height (31.33 ft) with the Jan. 5 peak; gage_height not listed as a variable."
+ }
+]

@@ -1,0 +1,13 @@
+n: 128
+report (doc_id): 56807   page: 315   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/56807_page_315.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/128.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DATE TIME |  | OCT 13.77 1130 |  | MAR 16,78 1240 |  | MAY 16,78 1105 | 
+TOTAL CELLS/ML |  | 1500 |  | 590 |  | 25000 | 
+DIVERSITY: DIVISION |  | 1.7 |  | 1.0 |  | 0.4 | 
+CLASS |  | 1.8 |  | 1.0 |  | 0.4 | 
+... (69 lines in all; last lines:)
+XANTHOPHYCEAE |  |  |  |  |  |  | 
+HETEROCOCCALES PLEUROCHLORID |  |  |  |  |  |  | 200

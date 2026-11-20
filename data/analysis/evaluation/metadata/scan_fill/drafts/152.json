@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 41°55'41\", long 122°26'35\"",
+  "well_number": "",
+  "station_number": "11516530",
+  "station_name": "KLAMATH RIVER BELOW IRON GATE DAM, CALIF.",
+  "township_range_section": "SE¼NE¼ sec.17, T.47 N., R.5 W.",
+  "place_name": "Iron Gate Dam",
+  "place_relation": "below",
+  "basin_or_area": "Klamath River basin",
+  "county": "Siskiyou County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Klamath River",
+  "data_type": "Stream Discharge",
+  "date_start": "1973-10-01",
+  "date_end": "1974-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1973 to September 1974. Other distances in the LOCATION paragraph: on left bank 0.1 mi (0.2 km) downstream from Bogus Creek, 0.6 mi (1.0 km) downstream from Iron Gate Dam, and 5.9 mi (9.5 km) northeast of Hornbrook."
+ }
+]

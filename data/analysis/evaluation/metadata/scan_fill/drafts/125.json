@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°45'49\", long 120°19'39\"",
+  "well_number": "",
+  "station_number": "11439500",
+  "station_name": "SOUTH FORK AMERICAN RIVER NEAR KYBURZ, CALIF.",
+  "township_range_section": "SW¼SW¼ sec.29, T.11 N., R.15 E.",
+  "place_name": "Kyburz",
+  "place_relation": "near",
+  "basin_or_area": "SACRAMENTO RIVER BASIN",
+  "county": "El Dorado County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "SOUTH FORK AMERICAN RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10",
+  "date_end": "1971-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge;gage_height",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "The digitized table runs through the PEAK DISCHARGE (BASE, 2,000 CFS) block under the daily grid (5 peaks with time, gage height and discharge): gage_height listed for that block. Other distances in Location: Eldorado National Forest, on right bank beside U.S. Highway 50, 0.8 mile downstream from Silver Fork of South Fork, and 1.9 miles southwest of Kyburz. Daily values are for the river only (heading also describes combined river and canal flow, published on the following page)."
+ }
+]

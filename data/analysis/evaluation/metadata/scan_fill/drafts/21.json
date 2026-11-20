@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "11118500",
+  "station_name": "VENTURA RIVER NEAR VENTURA, CALIF.",
+  "township_range_section": "",
+  "place_name": "VENTURA",
+  "place_relation": "near",
+  "basin_or_area": "VENTURA RIVER BASIN",
+  "county": "",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "VENTURA RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1965-10",
+  "date_end": "1966-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Continuation page: only the station number and name are printed at the top (no location paragraph). Faint line-printer type, read from an enlarged crop. October column is blank and November is mostly zeros or blank in the daily grid; water year from the table title."
+ }
+]

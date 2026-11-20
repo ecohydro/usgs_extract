@@ -1,0 +1,13 @@
+n: 152
+report (doc_id): 70038682   page: 478   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/70038682_page_478.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/152.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+DAY | OCT | NCV | DEC | JAN | FER | MAR | APR
+1 | 1,360 | 1,310 | 3.960 | 4,730 | 5.530 | 4,410 | 12,500
+2 | 1,360 | 1,310 | 3,770 | 4,570 | 5,320 | 3,950 | 11,400
+3 | 1,340 | 1,310 | 3,530 | 4,390 | 4,950 | 3,750 | 10,700
+... (38 lines in all; last lines:)
+ |  |  |  |  |  |  | 
+CAL YR WTR | 1973 1974 | TOTAL TOTAL 1,137,026 | 647,364 | MEAN 1,774 MEAN 3,115 | MAX | 4,900 | MIN 655

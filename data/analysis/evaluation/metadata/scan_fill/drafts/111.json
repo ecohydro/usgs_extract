@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°19'40\", long 119°12'50\"",
+  "well_number": "",
+  "station_number": "10293000",
+  "station_name": "East Walker River near Bridgeport, Calif.",
+  "township_range_section": "SW¼NE¼ sec.34, T.6 N., R.25 E.",
+  "place_name": "Bridgeport",
+  "place_relation": "near",
+  "basin_or_area": "Walker Lake basin",
+  "county": "Mono County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "East Walker River",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-10-01",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1971 to September 1972. Location paragraph also gives: on right bank 1,500 ft downstream from Bridgeport Reservoir, 5 miles north of Bridgeport, and 10 miles upstream from Sweetwater Creek."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "6/4-34D2",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Napa",
+  "place_relation": "about 1.5 miles north of",
+  "basin_or_area": "Napa Valley",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Albert Gasser",
+  "data_type": "Groundwater",
+  "date_start": "1949-11-16",
+  "date_end": "1952-03-27",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 4 is the block under the heading \"6/4-34D2\". Heading says measurements Nov. 16, 1949 to Apr. 10, 1950 are selected noon readings from recorder charts (about every 5 days); later ones about monthly: discrete. Other location words: 0.4 mile north-northwest Beard Avenue extended. Unused well, reported depth 380 ft."
+ }
+]

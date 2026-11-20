@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 33°26'57\", long 117°34'13\"",
+  "well_number": "",
+  "station_number": "11-463.5",
+  "station_name": "Cristianitos Creek near San Clemente, Calif.",
+  "township_range_section": "SW¼NW¼ sec.25, T.8 S., R.7 W.",
+  "place_name": "San Clemente",
+  "place_relation": "near",
+  "basin_or_area": "SAN MATEO CREEK BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Cristianitos Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1962-10",
+  "date_end": "1963-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances in the location paragraph: on right bank 900 ft downstream from Talenga Canyon, 2.3 miles upstream from mouth, and 2.8 miles northeast of San Clemente. No county printed. The October, July and August columns hold no daily values, only '(*)' marks (monthly totals 0); water year from the table title. The peak-discharge line below the yearly rows is outside the digitized table, so gage height is not listed."
+ }
+]

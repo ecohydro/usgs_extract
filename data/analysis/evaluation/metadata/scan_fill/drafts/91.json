@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat. 34°30'20\", long. 119°48'20\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Foster Glen Park",
+  "place_relation": "",
+  "basin_or_area": "",
+  "county": "Santa Barbara",
+  "state": "",
+  "evidence_place": "heading before table",
+  "water_source": "SPRING - FOSTER GLEN PARK",
+  "data_type": "Springs",
+  "date_start": "1948-07-19",
+  "date_end": "1949-04-13",
+  "temporal_resolution": "discrete",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Report's own numbering: STATION 14 (not a USGS station number). Title as printed: \"SPRING - FOSTER GLEN PARK, COUNTY OF SANTA BARBARA\"; county filled from it, although it may name the owner of the park rather than the place. No relation word printed for the park; also printed: about 0.2 mile north of Highway 150. No state printed. Discharge is printed in second-feet and gals. per min. (one measurement per date)."
+ }
+]

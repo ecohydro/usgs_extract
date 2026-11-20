@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Sisquoc River near Garey",
+  "township_range_section": "",
+  "place_name": "Garey",
+  "place_relation": "near",
+  "basin_or_area": "Santa Maria River drainage system",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Sisquoc River",
+  "data_type": "Stream Discharge",
+  "date_start": "1941-02",
+  "date_end": "1945-09",
+  "temporal_resolution": "monthly",
+  "variables": "runoff",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Sideways page; the digitized table 3 is the block \"Sisquoc River near Garey (drainage area 442 square miles)\" of Table 3 (measured runoff, in acre-feet, at eight gaging stations in the Santa Maria River drainage system in the water years 1904-45, continued); the other two blocks on the page (La Brea Creek near Sisquoc, Tepusquet Creek near Sisquoc) are not part of it. Rows are water years 1940-41 to 1944-45 with one column per month; in the 1940-41 row October to January are dashes, so the first printed value is February 1941 (the water year 1940-41 itself begins 1940-10). \"Total\" column is a summary. State is from the running head (Geology and ground-water, Santa Maria Valley, Calif.)."
+ }
+]

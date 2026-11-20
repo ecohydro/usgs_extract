@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "8/6-23C1",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "St. Helena",
+  "place_relation": "About 2 miles northwest of",
+  "basin_or_area": "Napa Valley",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "",
+  "data_type": "Groundwater",
+  "date_start": "1949-10-14",
+  "date_end": "1952-03-26",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Heading prints 'Owner unknown', so water_source is blank. Heading also gives: or 1.2 miles north of St. Helena along State Highway 29, 0.24 mile westward along unnamed road, 0.2 miles northward along unnamed road, 0.11 mile northeast along ranch access road, 60 ft west of old chimney, on top of hill. Unused well, diameter 3 1/2 ft, depth 42.0 ft (heading text). Area and state from the table title."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 37°08'40\", long 118°18'55\"",
+  "well_number": "",
+  "station_number": "10-2760",
+  "station_name": "Big Pine Creek near Big Pine, Calif.",
+  "township_range_section": "NW¼ sec.25, T.9 S., R.33 E.",
+  "place_name": "Big Pine",
+  "place_relation": "near",
+  "basin_or_area": "Owens Lake Basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Big Pine Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1961-10-01",
+  "date_end": "1962-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1961 to September 1962. Other distances on page: 2.2 miles southwest of Big Pine; 0.3 mile downstream from Little Pine Creek; 0.5 mile downstream from powerhouse No. 3. No county printed."
+ }
+]

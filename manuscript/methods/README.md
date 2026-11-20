@@ -5,7 +5,7 @@ https://claude.ai/artifact/B5yfjMgLnP5rrP8Sn8xk1S. The files here are a LaTeX co
 
 | File | What it is |
 |---|---|
-| `methods_draft.md` | The doc exported as Markdown (2026-11-17, doc revision 1518) |
+| `methods_draft.md` | The doc exported as Markdown (2026-11-17, doc revision 1518; metadata sentence updated 2026-11-20, revision 1521) |
 | `md_to_tex.py` | Turns `methods_draft.md` into the two `.tex` files; wording and numbers are copied as they are |
 | `methods.tex` | Main-text methods: Overview, Table detection, Digitization, Metadata extraction; Figures M1 and M2, Tables M1 to M3 |
 | `supplement.tex` | Supplementary Notes 1 to 4 and Supplementary Tables 1 and 2 |

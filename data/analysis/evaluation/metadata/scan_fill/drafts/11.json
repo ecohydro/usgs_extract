@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "6/8-15J3",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Santa Rosa",
+  "place_relation": "about 5.3 miles south of",
+  "basin_or_area": "Santa Rosa Valley area",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "T. Yasuda",
+  "data_type": "Groundwater",
+  "date_start": "1946-10-14",
+  "date_end": "1957-03-15",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 5 is the block under the heading \"Well 6/8-15J3\". Other location words: 4528 Langner Avenue, 520 feet east of Langner Avenue, 375 feet north of Wilfred Avenue. Irrigation well, depth 166 feet. The first value (Oct. 14, 1946) is footnoted \"Reported by driller\"; no drilling date is printed, so construction_date is blank."
+ }
+]

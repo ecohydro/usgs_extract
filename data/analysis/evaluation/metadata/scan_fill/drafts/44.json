@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "33",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "El Monte",
+  "place_relation": "2 miles southeast of",
+  "basin_or_area": "southern California",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "Jackson Frees",
+  "data_type": "Groundwater",
+  "date_start": "1909-03-27",
+  "date_end": "1910-12-29",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Block under the heading '33. Jackson Frees, 2 miles southeast of El Monte.'; 33 is the report's own well number. Depth to water in feet and inches. Area and state from the table title and running head ('Variations of water level in wells in southern California--Continued'). The block is at the foot of the page and ends with Dec. 29, 1910 (no 1912 group on this page, unlike the wells above); end date is the last date printed on this page."
+ }
+]

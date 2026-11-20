@@ -1,0 +1,13 @@
+n: 20
+report (doc_id): 1312   page: 254   table on the page: 1 of 1 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1312_page_254.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/20.json
+
+To recognise table 1 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+Altitude above sea level. | Type of well or spring. | Depth of well. | Diameter of well. | Geologic horizon. | Water level. | Method of lift.a | Yield (gallons per minute).
+Below surface. | Date of measure- ment.
+Feet. 1,625 | Dug | Feet. | 6 by feet |  | Feet. 14 | 1914. | 
+1,590 | do | 45 |  | Residuum | 9 | Nov. 22 | 
+... (69 lines in all; last lines:)
+60 | Dug and | 15.5 | 10 by 15 feet | do |  |  | do
+ | drilled. |  |  |  |  |  | 

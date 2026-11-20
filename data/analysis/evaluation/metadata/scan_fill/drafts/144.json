@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°34'22\", long 117°19'08\"",
+  "well_number": "",
+  "station_number": "10-2615",
+  "station_name": "MOJAVE RIVER AT LOWER NARROWS, NEAR VICTORVILLE, CALIF.",
+  "township_range_section": "SW¼SW¼SE¼ sec.29, T.6 N., R.4 W.",
+  "place_name": "Lower Narrows; Victorville",
+  "place_relation": "at; near",
+  "basin_or_area": "Mojave River basin",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Mojave River",
+  "data_type": "Stream Discharge",
+  "date_start": "1967-10-01",
+  "date_end": "1968-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1967 to September 1968. No county printed. Other distances in the LOCATION paragraph: on left bank 1,000 ft upstream from bridge on county road, formerly U.S. Highway 66, 2,500 ft downstream from Atchison, Topeka and Santa Fe Railway bridge, and 3 miles northwest of Victorville."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "lat 39°19'07\", long 120°39'27\"",
+  "well_number": "",
+  "station_number": "11414250",
+  "station_name": "South Yuba River at Langs Crossing, near Emigrant Gap, Calif.",
+  "township_range_section": "SW¼SW¼ sec.20, T.17 N., R.12 E.",
+  "place_name": "Langs Crossing; Emigrant Gap",
+  "place_relation": "at; near",
+  "basin_or_area": "Sacramento River Basin",
+  "county": "Nevada County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "South Yuba River",
+  "data_type": "Stream Discharge",
+  "date_start": "1970-10-01",
+  "date_end": "1971-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily discharge, water year October 1970 to September 1971. Other distances on page: 1.6 miles northeast of Emigrant Gap; 0.8 mile downstream from Spaulding Nos. 1 and 2 powerplants; 150 ft downstream from road bridge."
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "",
+  "well_number": "28",
+  "station_number": "",
+  "station_name": "",
+  "township_range_section": "",
+  "place_name": "Savannah",
+  "place_relation": "three-fourths mile southwest of",
+  "basin_or_area": "southern California",
+  "county": "",
+  "state": "California",
+  "evidence_place": "heading before table",
+  "water_source": "G. B. Renfro",
+  "data_type": "Groundwater",
+  "date_start": "1909-03-27",
+  "date_end": "1912-10-13",
+  "temporal_resolution": "discrete",
+  "variables": "water_level",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Block under the heading '28. G. B. Renfro, three-fourths mile southwest of Savannah.'; 28 is the report's own well number. Depth to water in feet and inches. Area and state from the table title and running head ('Variations of water level in wells in southern California--Continued')."
+ }
+]

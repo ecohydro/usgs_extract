@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°19'40\", long 119°12'50\"",
+  "well_number": "",
+  "station_number": "10293000",
+  "station_name": "EAST WALKER RIVER NEAR BRIDGEPORT, CA",
+  "township_range_section": "SW¼NE¼ sec.34, T.6 N., R.25 E.",
+  "place_name": "Bridgeport",
+  "place_relation": "near",
+  "basin_or_area": "WALKER LAKE BASIN",
+  "county": "Mono County",
+  "state": "CA",
+  "evidence_place": "heading before table",
+  "water_source": "EAST WALKER RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1975-10",
+  "date_end": "1976-09",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Other distances in Location: Toiyabe National Forest, on right bank 1,500 ft (460 m) downstream from Bridgeport Reservoir, 5 mi (8 km) north of Bridgeport, and 10 mi (16 km) upstream from Sweetwater Creek."
+ }
+]

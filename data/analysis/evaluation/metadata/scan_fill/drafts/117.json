@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 38°18'46\", long 120°43'09\"",
+  "well_number": "",
+  "station_number": "11319500",
+  "station_name": "MOKELUMNE RIVER NEAR MOKELUMNE HILL, CALIF.",
+  "township_range_section": "SW¼SW¼ sec.1, T.5 N., R.11 E.",
+  "place_name": "Mokelumne Hill",
+  "place_relation": "near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Calaveras County",
+  "state": "CALIF.",
+  "evidence_place": "heading before table",
+  "water_source": "MOKELUMNE RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-10",
+  "date_end": "1972-09",
+  "temporal_resolution": "daily",
+  "variables": "temperature",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Daily maximum and minimum water temperature (deg C) at a stream gauge, water year in two blocks (October-March, April-September) kept as one table. Other distances in Location: temperature recorder at gaging station on downstream side of bridge, 1.2 miles northwest of Mokelumne Hill, and 8 miles downstream from confluence of North and South Forks."
+ }
+]

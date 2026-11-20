@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": 1,
+  "n_locations_in_table": 1,
+  "coordinates": "Lat 34°15'55\", long. 117°27'55\"",
+  "well_number": "",
+  "station_number": "",
+  "station_name": "Lone Pine Creek near Keenbrook, Calif.",
+  "township_range_section": "SE¼ sec. 12, T. 2 N., R. 6 W.",
+  "place_name": "Keenbrook",
+  "place_relation": "near",
+  "basin_or_area": "SANTA ANA RIVER BASIN",
+  "county": "",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "Lone Pine Creek",
+  "data_type": "Stream Discharge",
+  "date_start": "1950-10-01",
+  "date_end": "1951-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Table 1 is the daily discharge grid; the short rating table printed above it is not part of it. No station number printed. Other distances on the page: 0.7 mile northeast of Keenbrook, 16 miles northwest of San Bernardino; 50 ft upstream from Atchison, Topeka & Santa Fe Railway bridge, 120 ft upstream from mouth."
+ }
+]

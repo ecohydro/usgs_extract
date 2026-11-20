@@ -1,0 +1,13 @@
+n: 8
+report (doc_id): 1109   page: 143   table on the page: 2 of 2 (tables numbered top to bottom)
+page scan (the ONLY page you may open): /home/waves/annaboser/usgs_extract/scan_fill_pages/1109_page_143.png
+write your answer to: /home/annaboser/usgs_extract/data/analysis/evaluation/metadata/scan_fill/drafts/8.json
+
+To recognise table 2 on the scan, these are the first and last lines of what the digitizer made of it (may contain reading errors; do not copy values from here; only the first 8 columns shown):
+head sur- during land report
+ | 250 |  |  |  |  | 150/450 | 1,000
+ | 20 T, |  |  |  |  | 1/4 P J, | 100 T,
+ | Irr Irr |  | S D, | Irr Irr | irr D, | S U D, S | Irr
+... (14 lines in all; last lines:)
+ | 1946 1946 |  |  | 1950 1952 | 1947 | 1946 | 1952
+W. 12 R., N. 22 T. | Perata Rhyne John F. 1 4B1 5 |  | Welch E. R. Dr. 5F1 | Rohrabaugh. do Evan 6K1 (DWR | Mooy B. W. 6L2 | Barrass Tuttle Glenn do T. H | Ranch. H Diamond 19B1

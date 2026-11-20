@@ -1,0 +1,28 @@
+[
+ {
+  "location_number": "1",
+  "n_locations_in_table": "1",
+  "coordinates": "Lat 37°39'59\", long 120°26'28\"",
+  "well_number": "",
+  "station_number": "11289650",
+  "station_name": "TUOLUMNE RIVER BELOW LA GRANGE DAM, NEAR LA GRANGE, CALIF.",
+  "township_range_section": "NW¼NW¼ sec.21, T.3 S., R.14 E.",
+  "place_name": "La Grange Dam; La Grange",
+  "place_relation": "below; near",
+  "basin_or_area": "SAN JOAQUIN RIVER BASIN",
+  "county": "Stanislaus County",
+  "state": "Calif.",
+  "evidence_place": "heading before table",
+  "water_source": "TUOLUMNE RIVER",
+  "data_type": "Stream Discharge",
+  "date_start": "1971-10-01",
+  "date_end": "1972-09-30",
+  "temporal_resolution": "daily",
+  "variables": "discharge",
+  "n_measurements": "",
+  "n_variables": "",
+  "construction_date": "",
+  "confidence": "sure",
+  "notes": "Water year October 1971 to September 1972, complete daily grid. Other distances printed: 0.5 mile downstream from La Grange Dam, 1.1 miles east of La Grange. Meridian not printed."
+ }
+]
