@@ -1,3 +1,4 @@
 meta_row,id,page_number,status,rule,link_depth,source_page,source_meta_row,source_method,source_precision_km,source_precision_class,lat,lon,own_lat,own_lon,err_km,own_class,pair
-33838,1257,165,ok,well number,1.0,164.0,33824.0,nwis_well,0.1,precise,36.17495156,-119.8498549,36.17495156,-119.8498549,0.0,precise,precise source / precise own
-128066,23982,59,ok,well number,1.0,58.0,128065.0,nwis_well,0.1,precise,34.32166568,-116.1716744,34.32166568,-116.1716744,0.0,precise,precise source / precise own
+33847,1257,165,ok,well number,1.0,164.0,33833.0,nwis_well,0.1,precise,36.17495156,-119.8498549,36.17495156,-119.8498549,0.0,precise,precise source / precise own
+128367,23982,59,ok,well number,1.0,58.0,128366.0,nwis_well,0.1,precise,34.32166568,-116.1716744,34.32166568,-116.1716744,0.0,precise,precise source / precise own
+207605,29196,24,ok,well number,1.0,23.0,132541.0,plss_wellno,1.0,precise,34.05670126399422,-116.97341047637808,34.05670126399422,-116.97341047637808,0.0,precise,precise source / precise own

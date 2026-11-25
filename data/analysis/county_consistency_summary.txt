@@ -1,35 +1,35 @@
 County consistency check — spatial join (precise/approximate points) vs. metadata county field
 ======================================================================
-Total published tables: 100,694
+Total published tables: 106,214
 
 Status breakdown:
-  match           26,091  (25.9%)
-  mismatch         1,639  (1.6%)
-  llm_no_ca       17,578  (17.5%)
-  no_llm          34,448  (34.2%)
-  no_spatial      20,938  (20.8%)
+  match           26,835  (25.3%)
+  mismatch         1,711  (1.6%)
+  llm_no_ca       18,129  (17.1%)
+  no_llm          36,242  (34.1%)
+  no_spatial      23,297  (21.9%)
 
 Mismatch detail (spatial county vs. LLM county):
-  Total mismatches: 1,639
+  Total mismatches: 1,711
 
   Top 20 spatial->LLM mismatch pairs:
-    spatial='San Luis Obispo'          llm='santa barbara'  n=142
-    spatial='Ventura'                  llm='los angeles'  n=87
-    spatial='Sutter'                   llm='colusa'  n=71
+    spatial='San Luis Obispo'          llm='santa barbara'  n=145
+    spatial='Ventura'                  llm='los angeles'  n=91
+    spatial='Sutter'                   llm='colusa'  n=74
+    spatial='Tulare'                   llm='kern'  n=74
     spatial='San Benito'               llm='santa cruz'  n=67
-    spatial='Tulare'                   llm='kern'  n=66
-    spatial='Tuolumne'                 llm='calaveras'  n=53
+    spatial='Tuolumne'                 llm='calaveras'  n=55
     spatial='San Mateo'                llm='santa clara'  n=51
+    spatial='Yolo'                     llm='sacramento'  n=40
     spatial='Glenn'                    llm='butte'  n=40
-    spatial='Yolo'                     llm='sacramento'  n=39
     spatial='Nevada'                   llm='sierra'  n=37
     spatial='Sutter'                   llm='yolo'  n=33
     spatial='San Benito'               llm='santa clara'  n=32
-    spatial='Imperial'                 llm='san bernardino'  n=30
+    spatial='Yolo'                     llm='solano'  n=31
+    spatial='Imperial'                 llm='san bernardino'  n=31
     spatial='Siskiyou'                 llm='butte'  n=30
+    spatial='Yuba'                     llm='nevada'  n=29
     spatial='Los Angeles'              llm='orange'  n=29
-    spatial='Yolo'                     llm='solano'  n=28
     spatial='Tuolumne'                 llm='stanislaus'  n=27
-    spatial='Yuba'                     llm='nevada'  n=26
     spatial='El Dorado'                llm='amador'  n=25
-    spatial='Placer'                   llm='nevada'  n=24
+    spatial='Calaveras'                llm='amador'  n=24

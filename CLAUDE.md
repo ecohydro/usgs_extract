@@ -2225,3 +2225,56 @@ California tribal 2,478 tables / 415,250 measurements.
   Not restyled (not paper figures): fig5_alt_36R1, 07_ca_combined_6panel, dam_vignette_timeline,
   fig4_santa_ynez_by_decade (inherits most of the style). Fig 5 content changes wait for Annette's review
   (map legend covers wells at 7 pt; b/d letters not on the title baseline).
+
+## Session Log — November 24, 2026 — FULL METADATA REBUILD (RESUME HERE)
+Anna's commit b118a30 (Nov 20, pulled today): metadata_per_location.csv now covers EVERY digitized table
+(106,319 tables, 219,915 rows). Added: 5,494 tables on 4,085 pages the Phi-4 run never read (column
+`on_published_list` = False for them) + 152 tables read from page scans by Claude Fable 5.2 (incl. our 131
+"corrupted" tables; record in data/analysis/evaluation/metadata/scan_fill/tables.csv). Existing 177,980 rows
+are identical (checked). No new Reducto digitization.
+Decisions (Annette, Nov 24):
+- Scan-read tables go in unmarked (no flag column).
+- 120 new tables have no table CSV. Review folder data/analysis/manual_review/new_tables_no_csv/
+  (validation/new_tables_no_csv_review.py, one-off). 105 have an EMPTY Reducto table (<table></table>) ->
+  REMOVED entirely (excluded_empty_tables.csv, read by 00a_metadata_base.py). 15 with JSON table text but no CSV
+  are kept (metadata only, 0 measurements); their page folders remain for Annette to look at.
+- 2447 p60 t2 (flood maxima, Utah; blank type) -> Stream Discharge (00a).
+Full chain re-run (times: 10_page_types 30 min; location tiers ~1 h; build_table_level_metadata 2.5 h — a
+per-table pandas loop, speed up in the code cleanup). 20_temporal_resolution.py is SUPERSEDED (reads Phi-4-era
+columns; catalog uses the model's temporal_resolution) — do not run.
+Order used: 00a -> 10_page_types -> location_validation 03, 10, 02, 05, 06, 07, 11, 04, 08, 04, 09, 04 ->
+12 tribal -> 00_data_prep -> build_table_level_metadata -> filter_published -> 19 -> 16 -> 13 -> 18 -> 22 -> 21 ->
+fig3 (main, 0.5, 2) -> 08 -> fig2 -> 01 notebook (Fig 1) -> fig_santa_ynez -> county_spatial_join -> 09_sgma ->
+dam 07/08. Old key files archived in archive/2026-11-24_before_full_metadata/.
+Why everything reruns: location scripts key rows by position (meta_row); several steps use other rows of the
+same report (document meridian, continuation, consensus, site clusters, page-level tribal/state screens).
+TODO in the open-source package: key rows by (doc, page, table, location_number) so additions can run incrementally.
+
+### Numbers now (supersede Nov 18-19)
+| | Nov 19 | Nov 24 |
+|---|---|---|
+| Metadata rows / tables / docs | 178,111 / 100,694 published / 586 | 219,810 / 106,214 (all published) / 603 |
+| Locations precise / approx / basin / conflict / unlocated | 95,868 / 20,346 / 1,572 / 1,137 / 59,188 | 114,033 / 27,909 / 1,821 / 1,593 / 74,454 |
+| Published measurements | 18.03 M | 18,738,355 |
+| California tables / measurements | 92,909 / 16.83 M | 97,898 / 17,475,890 |
+| Out of state tables / measurements | 7,785 / 1.20 M (6.7%) | 8,316 / 1,262,465 (6.7%) |
+| Figure 1 total (CA) | 15.9 M | 16,407,290 (all locations 17,455,057) |
+| Stream previously ungauged HUC12 | +447 (+36%) | **+506 (+40.6%)**; 0.5 km +511, 2 km +501 |
+| GW previously ungauged HUC12 | +116 (+7.9%) | **+123 (+8.4%)** |
+| Restored sites B1 stream / GW | 4,348 / 3,678 | 4,660 / 4,124 |
+| Earliest stream / GW | 1861 / 1871 | 1861 / 1871 (unchanged) |
+| Sites active before 1900 stream NWIS vs restored | 26 vs 94 | 26 vs 115 |
+| Tribal withheld pages / docs / areas / tables / meas. | 2,231 / 232 / 172 / 3,373 / 555,419 | 2,541 / 236 / 188 / 3,843 / 613,910 (3.3%) |
+| California tribal tables / meas. | 2,478 / 415,250 | 2,722 / 438,755 |
+| Catalog tables / meas. / docs | 97,320 / 17.47 M / 583 | 102,371 / 18,124,445 / 601 |
+Validation unchanged in kind: B118 basin 94% inside (was 93%); out-of-state NWIS 97% <=5 km, GNIS "at" 95%.
+Figures 1-4 regenerated and looked at (no layout problems). Figure 4: 92 restored sites in the watershed.
+
+### Next
+1. Annette grades data/analysis/manual_review/earliest_records_new_tables/earliest_pages_review_new_tables.csv
+   (36 pages: 35 new early pages from the added tables, many "1878-19xx" stream tables, + 1147 p167 groundwater
+   1814-1917 which sits in Figure 1's "Before 1850" bar). Then append verdicts to
+   manual_review/earliest_records_review.csv (validation/earliest_review_to_actions.py) and rerun from 00_data_prep.
+2. Annette: look at the 15 kept no-CSV tables (new_tables_no_csv/).
+3. Update counts in docs/user_guide.md, catalog_key.txt, metadata_key.txt; manuscript numbers.
+4. Nothing committed yet today (ask Annette what to include).

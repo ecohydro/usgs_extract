@@ -39,6 +39,7 @@ A = ROOT / 'data/analysis'
 SRC = A / 'evaluation/metadata/full_run/metadata_per_location.csv'
 PUBS = ROOT / 'data/digitization_intermediates/01_download_and_preprocess/publication_list.csv'
 GRADES = A / 'manual_review/new_metadata_gaps/blank_water_type_review/blank_water_type_review.csv'
+EXCLUDED = A / 'manual_review/new_tables_no_csv/excluded_empty_tables.csv'
 OUT = A / 'metadata_base.csv'
 
 NINE = ['Stream Discharge', 'Groundwater', 'Reservoir', 'Irrigation', 'Springs', 'Precipitation',
@@ -73,6 +74,8 @@ def water_types(m):
     # street sites as 1609 p19 (graded "index of stream discharge")
     g.loc[(g.doc_id == 2850) & (g.page_number == 34) & (g.table_number == 3), 't'] = 'Groundwater'
     g.loc[(g.doc_id == 4538) & (g.page_number == 19), 't'] = 'Stream Discharge'
+    # 2447 p60 t2 (flood maxima, Utah; discharge + gage height): Annette 2026-11-24
+    g = pd.concat([g, pd.DataFrame([dict(doc_id=2447, page_number=60, table_number=2, t='Stream Discharge')])])
     graded = dict(zip(zip(g.doc_id, g.page_number, g.table_number), g['t']))
     blank = m['data_type'].eq('') & m['status'].eq('ok')
 
@@ -152,6 +155,11 @@ def main():
     # 32 IDs are listed twice with identical title and year: keep one
     p = p.rename(columns={'Publication ID': 'doc_id', 'Title': 'title', 'Year Published': 'pub_year'}).drop_duplicates('doc_id')
     m = m.merge(p, on='doc_id', how='left')
+    # tables with no CSV and an empty Reducto table: nothing was captured, removed (Annette 2026-11-24)
+    ex = pd.read_csv(EXCLUDED, usecols=['doc_id', 'page_number', 'table_number']).astype('Int64')
+    k = ['doc_id', 'page_number', 'table_number']
+    m = m.merge(ex.assign(_ex=1), on=k, how='left')
+    m = m[m['_ex'].isna()].drop(columns='_ex').reset_index(drop=True)
     m = water_types(m)
     m = dates(m)
     m.insert(0, 'meta_row', np.arange(len(m)))
